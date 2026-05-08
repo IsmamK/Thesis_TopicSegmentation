@@ -1,0 +1,97 @@
+\chapter{Methodology}
+\label{chap:methodology}
+
+\section{Overview of the \lecseg{} pipeline}
+\label{sec:pipeline}
+
+\todo{Insert pipeline figure (\texttt{thesis/figures/pipeline.pdf}). Walk
+through the five stages: ingest, preprocess, feature extraction, fusion +
+boundary detection, refinement.}
+
+\begin{figure}[t]
+  \centering
+  % \includegraphics[width=\linewidth]{figures/pipeline.pdf}
+  \fbox{\parbox{0.95\linewidth}{\centering Figure placeholder — pipeline diagram\\
+    audio $\to$ ASR $\to$ sentences $\to$ embeddings $\to$ fusion $\to$
+    boundaries $\to$ refine $\to$ titles}}
+  \caption{The \lecseg{} pipeline. Inputs are a video and its audio. Outputs
+    are an ordered hierarchy of chapter and subtopic segments with titles.}
+  \label{fig:pipeline}
+\end{figure}
+
+\section{The \dataset{} corpus}
+\label{sec:dataset}
+
+\subsection{Source selection}
+\todo{Source selection criteria (5 academic domains, $\geq$15-min duration,
+clean audio, creator-provided chapters).}
+
+\subsection{Annotation protocol}
+\todo{Two-pass dual annotation; subtopic guidelines; conflict-resolution
+procedure.}
+
+\subsection{Inter-annotator agreement}
+\todo{Cohen's $\kappa$ at chapter and subtopic levels reported on a
+sample-of-10. Cite \texttt{results/iaa/}.}
+
+\section{Preprocessing}
+\label{sec:preprocess}
+
+\subsection{Speech recognition}
+\todo{Whisper / faster-whisper config, word-level timestamps.}
+
+\subsection{Sentence splitting and alignment}
+\todo{spaCy sentence splitting, word-to-sentence timestamp interpolation.}
+
+\subsection{Visual streams}
+\todo{TransNetV2 shot detection, PaddleOCR slide-text extraction.}
+
+\subsection{Prosody features}
+\todo{Pause length, pitch reset, energy contour.}
+
+\section{Feature extraction}
+\label{sec:features}
+
+\todo{Per-modality embedding choices: SBERT/MPNet for text, CLIP for keyframes,
+character $n$-gram for OCR.}
+
+\section{Reliability-weighted modality fusion}
+\label{sec:fusion}
+
+\todo{Per-modality reliability score $r_m$ derived from local statistics
+(SNR proxy for audio, OCR confidence for visual). Fusion weight
+$w_m \propto r_m \cdot \alpha_m$, where $\alpha_m$ is a learned scalar.
+Cite \texttt{src/lecseg/models/fusion.py}.}
+
+\section{Boundary predictor}
+\label{sec:boundary}
+
+\todo{BiLSTM / Transformer head over fused per-sentence vectors, predicting
+boundary probability. Loss: BCE with positive-class re-weighting.}
+
+\section{Hierarchical output}
+\label{sec:hierarchy}
+
+\todo{Two-head architecture: chapter head and subtopic head share the encoder.
+Subtopic boundaries are constrained to lie inside chapter spans during
+post-processing.}
+
+\section{Local-LLM refinement and titling}
+\label{sec:refine}
+
+\todo{Llama-3.1 8B served via Ollama. Snap-to-sentence boundary refinement.
+Per-segment title generation with constrained decoding.}
+
+\section{Evaluation protocol}
+\label{sec:eval}
+
+\subsection{Metrics}
+\todo{$P_k$, WindowDiff, Boundary Similarity, tolerance-F\textsubscript{1},
+hierarchical WindowDiff. Cite \texttt{src/lecseg/eval/}.}
+
+\subsection{Cross-validation}
+\todo{5-fold at video level (no within-video leakage).}
+
+\subsection{Statistical testing}
+\todo{1{,}000-sample bootstrap CIs; paired Wilcoxon signed-rank for pairwise
+comparisons; Bonferroni or Holm correction for multi-method tests.}

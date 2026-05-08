@@ -1,0 +1,24 @@
+﻿# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Large datasets / videos
+3_Implementation/Data/LectureVideos/
+*.mp4
+
+# Data folders
+data/raw/
+data/processed/
+data/embeddings/
+3_Implementation/Data/raw/
+3_Implementation/Data/processed/
+3_Implementation/Data/embeddings/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/

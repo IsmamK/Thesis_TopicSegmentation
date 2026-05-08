@@ -1,0 +1,348 @@
+project: LECSEG
+thesis_id: T2520718
+team:
+- id: ismam
+  name: Ismam Khan
+  role: Lead / novel method
+- id: fahmida
+  name: Fahmida Afrin Moon
+  role: Data + annotation
+- id: shahriar
+  name: Shahriar Islam Rafi
+  role: Baselines + evaluation
+- id: alimool
+  name: Alimool Razi
+  role: Preprocessing + demo
+- id: sadia
+  name: Sadia Alam
+  role: Writing + paper
+phases:
+- id: 1
+  name: Setup
+  tasks:
+  - T01
+  - T02
+  - T03
+  - T04
+  - T05
+- id: 2
+  name: Literature Review
+  tasks:
+  - T06
+  - T07
+  - T08
+- id: 3
+  name: Dataset
+  tasks:
+  - T09
+  - T10
+  - T11
+  - T12
+  - T13
+- id: 4
+  name: Preprocessing
+  tasks:
+  - T14
+  - T15
+  - T16
+  - T17
+  - T18
+- id: 5
+  name: Features
+  tasks:
+  - T19
+  - T20
+  - T21
+- id: 6
+  name: Baselines
+  tasks:
+  - T22
+  - T23
+  - T24
+- id: 7
+  name: Novel Method
+  tasks:
+  - T25
+  - T26
+  - T27
+  - T28
+- id: 8
+  name: Evaluation
+  tasks:
+  - T29
+  - T30
+  - T31
+- id: 9
+  name: Thesis Writing
+  tasks:
+  - T32
+  - T33
+  - T34
+  - T35
+  - T36
+  - T37
+- id: 10
+  name: Deliverables
+  tasks:
+  - T38
+  - T39
+  - T40
+  - T41
+  - T42
+  - T43
+- id: 11
+  name: Defense Prep
+  tasks:
+  - T44
+  - T45
+  - T46
+  - T47
+tasks:
+  T01:
+    title: Install prerequisites (Python, Git, FFmpeg, LaTeX)
+    status: done
+    owner: null
+    phase: 1
+    completed_at: '2026-05-08T10:38:58Z'
+  T02:
+    title: Create project folder structure
+    status: done
+    owner: null
+    phase: 1
+    started_at: '2026-05-08T11:04:48Z'
+    completed_at: '2026-05-08T11:08:00Z'
+  T03:
+    title: Install Python dependencies and bootstrap src/
+    status: done
+    owner: null
+    phase: 1
+    started_at: '2026-05-08T11:15:44Z'
+    completed_at: '2026-05-08T11:25:42Z'
+  T04:
+    title: Install Ollama + pull LLM models
+    status: done
+    owner: null
+    phase: 1
+    completed_at: '2026-05-08T12:14:35Z'
+  T05:
+    title: Verify the environment (end-to-end smoke test)
+    status: done
+    owner: null
+    phase: 1
+    completed_at: '2026-05-08T12:25:55Z'
+  T06:
+    title: Write summaries for 20 core papers
+    status: done
+    owner: sadia
+    phase: 2
+    started_at: '2026-05-08T12:43:48Z'
+    completed_at: '2026-05-08T12:55:16Z'
+  T07:
+    title: Build Literature Review Matrix v2
+    status: doing
+    owner: sadia
+    phase: 2
+    started_at: '2026-05-08T13:17:13Z'
+    completed_at: '2026-05-08T12:57:18Z'
+  T08:
+    title: Lock novelty claims & identify research gap
+    status: doing
+    owner: ismam
+    phase: 2
+    started_at: '2026-05-08T13:20:04Z'
+    completed_at: '2026-05-08T12:57:57Z'
+  T09:
+    title: Curate 30-video dataset list
+    status: todo
+    owner: null
+    phase: 3
+  T10:
+    title: Download videos, audio, and YouTube chapter metadata
+    status: todo
+    owner: null
+    phase: 3
+  T11:
+    title: Extract ground-truth chapter timestamps
+    status: todo
+    owner: null
+    phase: 3
+  T12:
+    title: Hierarchical annotation (chapters + subtopics)
+    status: todo
+    owner: null
+    phase: 3
+  T13:
+    title: Compute inter-annotator agreement (Cohen's kappa)
+    status: todo
+    owner: null
+    phase: 3
+  T14:
+    title: Transcribe all videos (Whisper large-v3)
+    status: todo
+    owner: null
+    phase: 4
+  T15:
+    title: Sentence splitting from Whisper output
+    status: todo
+    owner: null
+    phase: 4
+  T16:
+    title: Visual shot-boundary detection (TransNetV2)
+    status: todo
+    owner: null
+    phase: 4
+  T17:
+    title: Slide OCR (PaddleOCR)
+    status: todo
+    owner: null
+    phase: 4
+  T18:
+    title: Prosody feature extraction (pauses, pitch)
+    status: todo
+    owner: null
+    phase: 4
+  T19:
+    title: Text embeddings (SBERT / MPNet / E5 / BGE)
+    status: todo
+    owner: null
+    phase: 5
+  T20:
+    title: Visual embeddings (CLIP on keyframes)
+    status: todo
+    owner: null
+    phase: 5
+  T21:
+    title: Align all modalities to sentence timeline
+    status: todo
+    owner: null
+    phase: 5
+  T22:
+    title: Metrics library (Pk, WD, BS, H-WD, tolerance-F1)
+    status: todo
+    owner: null
+    phase: 6
+  T23:
+    title: Classical baselines (TextTiling, C99)
+    status: todo
+    owner: null
+    phase: 6
+  T24:
+    title: Neural baselines (cosine, KMeans, BERT-SegBot)
+    status: todo
+    owner: null
+    phase: 6
+  T25:
+    title: Reliability-weighted fusion module (N2)
+    status: todo
+    owner: null
+    phase: 7
+  T26:
+    title: Two-stage boundary predictor (N1)
+    status: todo
+    owner: null
+    phase: 7
+  T27:
+    title: Hierarchical output (N3)
+    status: todo
+    owner: null
+    phase: 7
+  T28:
+    title: LLM boundary refinement + titling (N4)
+    status: todo
+    owner: null
+    phase: 7
+  T29:
+    title: Run full ablation battery
+    status: todo
+    owner: null
+    phase: 8
+  T30:
+    title: Bootstrap 95% CIs + paired Wilcoxon tests
+    status: todo
+    owner: null
+    phase: 8
+  T31:
+    title: Qualitative error analysis
+    status: todo
+    owner: null
+    phase: 8
+  T32:
+    title: "Thesis Chapter 1 \u2014 Introduction"
+    status: todo
+    owner: null
+    phase: 9
+  T33:
+    title: "Thesis Chapter 2 \u2014 Literature Review"
+    status: todo
+    owner: null
+    phase: 9
+  T34:
+    title: "Thesis Chapter 3 \u2014 Methodology"
+    status: todo
+    owner: null
+    phase: 9
+  T35:
+    title: "Thesis Chapter 4 \u2014 Results & Analysis"
+    status: todo
+    owner: null
+    phase: 9
+  T36:
+    title: "Thesis Chapters 5 & 6 \u2014 Conclusion + Future Work"
+    status: todo
+    owner: null
+    phase: 9
+  T37:
+    title: Full thesis review (citations, figures, numbers)
+    status: todo
+    owner: null
+    phase: 9
+  T38:
+    title: IEEE journal paper (8 pages)
+    status: todo
+    owner: null
+    phase: 10
+  T39:
+    title: Web app demo (Streamlit)
+    status: todo
+    owner: null
+    phase: 10
+  T40:
+    title: Defense poster (A1)
+    status: todo
+    owner: null
+    phase: 10
+  T41:
+    title: Defense slide deck
+    status: todo
+    owner: null
+    phase: 10
+  T42:
+    title: Dataset release on Zenodo
+    status: todo
+    owner: null
+    phase: 10
+  T43:
+    title: Model release on Hugging Face
+    status: todo
+    owner: null
+    phase: 10
+  T44:
+    title: Turnitin plagiarism + AI check
+    status: todo
+    owner: null
+    phase: 11
+  T45:
+    title: Defense Q&A preparation document
+    status: todo
+    owner: null
+    phase: 11
+  T46:
+    title: "Full dress rehearsal (2\xD7)"
+    status: todo
+    owner: null
+    phase: 11
+  T47:
+    title: 24-hour sanity checklist
+    status: todo
+    owner: null
+    phase: 11

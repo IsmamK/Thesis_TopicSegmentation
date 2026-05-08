@@ -1,0 +1,79 @@
+% ============================================================
+%  LECSEG — A1 defense poster
+%  Uses tikzposter. Single page, A1 portrait.
+% ============================================================
+
+\documentclass[a1paper, portrait, 25pt]{tikzposter}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage[utf8]{inputenc}
+\usepackage{xcolor}
+
+\usetheme{Default}
+\usecolorstyle{Russia}
+
+\newcommand{\lecseg}{\textsc{LecSeg}}
+\newcommand{\dataset}{\textsc{LecSeg-30}}
+\newcommand{\todo}[1]{\textcolor{red}{\textbf{[#1]}}}
+
+\title{Hierarchical Multimodal Lecture-Video Topic Segmentation}
+\author{Author One, Author Two, Author Three, Author Four, Author Five
+        \quad | \quad Supervisor: Dr.\ Supervisor Name}
+\institute{BRAC University, Department of Computer Science and Engineering}
+
+\begin{document}
+\maketitle
+
+% ----- Row 1 -----
+\begin{columns}
+  \column{0.5}
+  \block{Why lecture-video segmentation?}{
+    \todo{2--3 sentences on the access/searchability problem and one image
+    of an unindexed long lecture.}
+  }
+  \column{0.5}
+  \block{Our contributions}{
+    \begin{itemize}
+      \item Open hierarchical multimodal pipeline.
+      \item Reliability-weighted fusion.
+      \item Local-LLM refinement (no closed APIs).
+      \item \dataset{}: 30 videos, 5 domains, dual annotation.
+      \item 5-metric evaluation with bootstrap CIs.
+    \end{itemize}
+  }
+\end{columns}
+
+% ----- Row 2: pipeline -----
+\block{The \lecseg{} pipeline}{
+  \todo{Wide pipeline diagram (5 boxes). Caption underneath.}
+}
+
+% ----- Row 3: results -----
+\begin{columns}
+  \column{0.5}
+  \block{Main results}{
+    \todo{Bar chart of $P_k$ across 8 methods.}
+  }
+  \column{0.5}
+  \block{Ablations}{
+    \todo{4-bar ablation summary.}
+  }
+\end{columns}
+
+% ----- Row 4: take-aways -----
+\block{Take-aways}{
+  \begin{itemize}
+    \item \lecseg{} reduces $P_k$ by \todo{X.X}\,\% relative ($p<\todo{0.0X}$).
+    \item Hierarchical output adds \todo{Y.Y}\,\% improvement on the new HWD metric.
+    \item Local LLM matches closed-API alternatives at \todo{Z}\,\% the cost.
+  \end{itemize}
+}
+
+% ----- Footer -----
+\block*{Resources}{
+  Code: \texttt{github.com/yourorg/lecseg} \quad
+  Dataset: \texttt{zenodo.org/records/...} \quad
+  Model: \texttt{huggingface.co/yourorg/lecseg-llama-8b}
+}
+
+\end{document}

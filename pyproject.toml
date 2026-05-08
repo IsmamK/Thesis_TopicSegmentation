@@ -1,0 +1,29 @@
+[project]
+name = "lecseg"
+version = "0.1.0"
+requires-python = ">=3.14,<3.15"
+dependencies = [
+  "typer>=0.12",
+  "rich>=13.7",
+  "pytest>=8.0",
+  "transformers>=4.40",
+  "sentence-transformers>=3.0",
+  "segeval>=2.0.11",
+  "faster-whisper>=1.0"
+]
+
+[project.scripts]
+lecseg = "lecseg.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lecseg"]
+
+[tool.hatch.build.targets.editable]
+packages = ["src/lecseg"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

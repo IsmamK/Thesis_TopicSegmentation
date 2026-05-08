@@ -1,0 +1,136 @@
+# =====================================================================
+#  configs/defaults.yaml — LECSEG default Hydra configuration
+#
+#  All scripts read this. Override per-experiment via Hydra: e.g.
+#     python -m lecseg segment data/transcripts/lec01.json \
+#         model.fusion=fixed model.refine=false
+#
+#  Reproducibility: every entry is recorded in results/<run>/config.yaml.
+#  Do not edit values directly for an experiment — copy this file to
+#  configs/exp/<name>.yaml and override only what changes.
+# =====================================================================
+
+# Global -------------------------------------------------------------
+seed: 42
+num_workers: 4
+device: auto                # one of: auto, cpu, cuda, mps
+log_level: INFO
+
+# Paths --------------------------------------------------------------
+paths:
+  data_root: data
+  raw_videos: data/raw
+  manifest: data/manifest.csv
+  transcripts: data/transcripts
+  features: data/features
+  ground_truth: data/gt
+  results_root: results
+  cache: .cache
+
+# ASR (T14) ----------------------------------------------------------
+asr:
+  backend: faster-whisper      # one of: faster-whisper, openai-whisper
+  model: small                 # tiny, base, small, medium, large-v3
+  language: en
+  word_timestamps: true
+  beam_size: 5
+  vad_filter: true
+
+# Sentence splitting (T15) ------------------------------------------
+sentences:
+  splitter: spacy
+  model: en_core_web_sm
+  min_chars: 20
+  max_chars: 400
+
+# Visual / OCR (T16-T17) --------------------------------------------
+visual:
+  shot_detector: transnetv2
+  shot_threshold: 0.5
+  keyframe_per_shot: 1
+
+ocr:
+  backend: paddleocr
+  lang: en
+  min_confidence: 0.5
+
+# Prosody (T18) -----------------------------------------------------
+prosody:
+  pause_min_seconds: 0.5
+  pitch_window_seconds: 0.4
+  energy_window_seconds: 0.4
+
+# Embeddings (T19-T20) ----------------------------------------------
+embeddings:
+  text:
+    backbone: sentence-transformers/all-mpnet-base-v2
+    dim: 768
+    normalize: true
+  visual:
+    backbone: openai/clip-vit-base-patch32
+    dim: 512
+  ocr:
+    char_ngram_min: 3
+    char_ngram_max: 5
+
+# Fusion (T25) — N2 -------------------------------------------------
+fusion:
+  mode: reliability_weighted   # one of: fixed, reliability_weighted, learned
+  reliability:
+    asr_snr: true
+    ocr_confidence: true
+    visual_motion: true
+  hidden_dim: 256
+
+# Boundary predictor (T26) ------------------------------------------
+boundary:
+  arch: bilstm                 # one of: bilstm, transformer
+  hidden_dim: 256
+  num_layers: 2
+  dropout: 0.2
+  threshold: 0.5
+  positive_weight: 5.0
+
+# Hierarchy head (T27) — N3 -----------------------------------------
+hierarchy:
+  enable: true
+  chapter_min_seconds: 60
+  subtopic_min_seconds: 20
+  enforce_nesting: true
+
+# Local-LLM refinement (T28) — N4 ----------------------------------
+refine:
+  enable: true
+  backend: ollama
+  model: llama3.1:8b
+  temperature: 0.0
+  max_tokens: 64
+  snap_window_sentences: 3
+  title_max_words: 8
+
+# Cross-validation (T29) --------------------------------------------
+cv:
+  scheme: video_kfold
+  n_folds: 5
+  stratify_by: domain
+
+# Evaluation (T22, T30) ---------------------------------------------
+eval:
+  metrics: [pk, windowdiff, boundary_similarity, tolerance_f1, hwd]
+  tolerance_seconds: 15
+  bootstrap:
+    n_samples: 1000
+    ci: 0.95
+  significance:
+    test: wilcoxon
+    correction: holm
+
+# Training (when applicable) ----------------------------------------
+train:
+  optimizer: adamw
+  lr: 1.0e-4
+  weight_decay: 1.0e-2
+  batch_size: 8
+  max_epochs: 30
+  early_stopping_patience: 5
+  mixed_precision: true

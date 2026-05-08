@@ -1,0 +1,90 @@
+% ============================================================
+%  LECSEG — Hierarchical Multimodal Lecture-Video Topic Segmentation
+%  Undergraduate Thesis, BRAC University
+% ============================================================
+
+\documentclass[12pt, a4paper, oneside]{book}
+
+% ----- Encoding & language -----
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{lmodern}
+
+% ----- Layout -----
+\usepackage[a4paper, margin=1in, top=1.2in, bottom=1.2in]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{microtype}
+\usepackage{parskip}
+
+% ----- Math & symbols -----
+\usepackage{amsmath, amssymb, amsthm, mathtools}
+\usepackage{bm}
+
+% ----- Tables / figures -----
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+
+% ----- Algorithms / code -----
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{listings}
+
+% ----- Hyperlinks & references -----
+\usepackage[hidelinks, breaklinks]{hyperref}
+\usepackage[capitalise, noabbrev]{cleveref}
+\usepackage{url}
+
+% ----- Bibliography -----
+\usepackage[numbers, sort&compress]{natbib}
+
+% ----- Misc -----
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{tabularx}
+
+% ----- Custom commands -----
+\newcommand{\lecseg}{\textsc{LecSeg}}
+\newcommand{\dataset}{\textsc{LecSeg-30}}
+\newcommand{\todo}[1]{\textcolor{red}{\textbf{[TODO: #1]}}}
+
+% ============================================================
+\begin{document}
+
+% ----- Front matter -----
+\frontmatter
+\input{frontmatter/titlepage}
+\input{frontmatter/declaration}
+\input{frontmatter/abstract}
+\input{frontmatter/acknowledgements}
+\tableofcontents
+\listoffigures
+\listoftables
+
+% ----- Main matter -----
+\mainmatter
+\input{chapters/chapter1_introduction}
+\input{chapters/chapter2_literature}
+\input{chapters/chapter3_methodology}
+\input{chapters/chapter4_results}
+\input{chapters/chapter5_conclusion}
+\input{chapters/chapter6_future_work}
+
+% ----- Bibliography -----
+\bibliographystyle{plainnat}
+\bibliography{bibliography/references}
+
+% ----- Back matter -----
+\appendix
+\input{appendices/appendix_a_dataset}
+\input{appendices/appendix_b_hyperparameters}
+\input{appendices/appendix_c_extra_results}
+
+\end{document}

@@ -1,0 +1,119 @@
+% ============================================================
+%  LECSEG — Defense slide deck
+%  Beamer template. Aim for ~25 slides, 20-min talk + 10-min Q&A.
+% ============================================================
+
+\documentclass[aspectratio=169]{beamer}
+\usetheme{metropolis}        % requires beamertheme-metropolis (TeX Live)
+\usepackage{appendixnumberbeamer}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+\newcommand{\lecseg}{\textsc{LecSeg}}
+\newcommand{\dataset}{\textsc{LecSeg-30}}
+\newcommand{\todo}[1]{\textcolor{red}{\textbf{[#1]}}}
+
+\title{Hierarchical Multimodal\\Lecture-Video Topic Segmentation}
+\subtitle{with Reliability-Weighted Fusion and Local-LLM Refinement}
+\author{Author One \and Author Two \and Author Three \and Author Four \and Author Five\\
+        Supervisor: Dr.\ Supervisor Name}
+\institute{Department of CSE, BRAC University}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+% ===== Section 1: Motivation =====
+\section{Motivation}
+\begin{frame}{The lecture-video chaptering problem}
+  \todo{1 image: hours of unindexed lecture video. 3 bullets on the access
+  problem.}
+\end{frame}
+
+\begin{frame}{Existing approaches fall short}
+  \begin{itemize}
+    \item Text-only: ignores slides and prosody.
+    \item Closed-source: not reproducible.
+    \item Flat output: no chapter $\to$ subtopic structure.
+  \end{itemize}
+  \pause
+  \begin{block}{Our goal}
+    Open, multimodal, hierarchical lecture-video segmentation.
+  \end{block}
+\end{frame}
+
+% ===== Section 2: Method =====
+\section{The \lecseg{} pipeline}
+\begin{frame}{Overview}
+  \todo{Pipeline figure (5 boxes left to right).}
+\end{frame}
+
+\begin{frame}{Reliability-weighted fusion}
+  \todo{Equation + 1-line intuition.}
+\end{frame}
+
+\begin{frame}{Hierarchical output head}
+  \todo{Diagram: chapter head + subtopic head sharing the encoder.}
+\end{frame}
+
+\begin{frame}{Local-LLM refinement}
+  \todo{Llama-3.1 via Ollama. Prompt template (boxed).}
+\end{frame}
+
+% ===== Section 3: Dataset =====
+\section{The \dataset{} corpus}
+\begin{frame}{30 videos, 5 domains, dual annotation}
+  \todo{Bar chart of domain coverage. Cohen's $\kappa$ numbers.}
+\end{frame}
+
+% ===== Section 4: Results =====
+\section{Results}
+\begin{frame}{Main results}
+  \todo{Bar chart of $P_k$ across 8 methods. Bold ours.}
+\end{frame}
+
+\begin{frame}{Ablations}
+  \todo{4 small bar charts in a 2$\times$2 grid.}
+\end{frame}
+
+\begin{frame}{Statistical significance}
+  \todo{Table excerpt with $p$-values; bold the wins.}
+\end{frame}
+
+\begin{frame}{Error analysis}
+  \todo{4 example failure cases (1 sentence each).}
+\end{frame}
+
+% ===== Section 5: Take-aways =====
+\section{Take-aways}
+\begin{frame}{Contributions}
+  \todo{7 bullets, one per N1\textendash N7.}
+\end{frame}
+
+\begin{frame}{Limitations and future work}
+  \todo{3 honest limitations + 2 future directions.}
+\end{frame}
+
+\begin{frame}[standout]
+  Thank you.\\
+  \vspace{1em}
+  \texttt{github.com/yourorg/lecseg}
+\end{frame}
+
+% ===== Backup =====
+\appendix
+\begin{frame}{Backup: metric definitions}
+  \todo{$P_k$, WD, BS, F\textsubscript{1}, hWD.}
+\end{frame}
+
+\begin{frame}{Backup: training details}
+  \todo{Hardware, hyperparameters, runtime budget.}
+\end{frame}
+
+\begin{frame}{Backup: per-domain breakdown}
+  \todo{Table from Appendix C.}
+\end{frame}
+
+\end{document}

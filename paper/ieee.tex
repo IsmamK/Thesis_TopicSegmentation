@@ -1,0 +1,107 @@
+% ============================================================
+%  LECSEG — 8-page IEEE-style conference paper
+%  Use IEEEtran.cls (place IEEEtran.cls + IEEEtran.bst in this folder
+%  if not installed system-wide).
+% ============================================================
+
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+\usepackage{cite}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage[hidelinks]{hyperref}
+
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\newcommand{\lecseg}{LecSeg}
+\newcommand{\dataset}{LecSeg-30}
+\newcommand{\todo}[1]{\textcolor{red}{\textbf{[#1]}}}
+
+\begin{document}
+
+\title{Hierarchical Multimodal Lecture-Video Topic\\Segmentation with
+       Reliability-Weighted Fusion}
+
+\author{
+  \IEEEauthorblockN{Author One, Author Two, Author Three, Author Four, Author Five}
+  \IEEEauthorblockA{Department of Computer Science and Engineering\\
+    BRAC University, Dhaka, Bangladesh\\
+    Email: \{firstname.lastname\}@bracu.ac.bd}
+}
+
+\maketitle
+
+\begin{abstract}
+We present \lecseg{}, an open hierarchical multimodal pipeline for
+lecture-video topic segmentation that produces both chapter-level and
+subtopic-level boundaries. \lecseg{} introduces (i) a reliability-weighted
+fusion module that adapts per video and per sentence to noisy modalities, (ii)
+a joint two-level hierarchy head, and (iii) a boundary refinement and titling
+stage based on a small open local language model. We release \dataset{}: a
+30-video, 5-domain corpus with dual subtopic annotation. Across five
+established metrics with 1{,}000-sample bootstrap CIs and paired Wilcoxon
+testing, \lecseg{} reduces $P_k$ by \todo{X.XX}\,\% relative over the
+strongest open baseline ($p<\todo{0.0X}$). All code, dataset metadata, and
+trained weights are publicly released.
+\end{abstract}
+
+\begin{IEEEkeywords}
+topic segmentation, lecture video, multimodal fusion, hierarchical
+segmentation, local language models.
+\end{IEEEkeywords}
+
+% ----------
+\section{Introduction}
+\todo{1 column. Motivation, gap, contributions (4 bullets), paper structure.}
+
+% ----------
+\section{Related Work}
+\todo{1 column. 4 paragraphs: classical, neural, multimodal, hierarchical.}
+
+% ----------
+\section{The \lecseg{} Pipeline}
+\todo{1.5 columns + Fig.~1. Stage diagram, fusion module, hierarchy head,
+LLM refinement.}
+
+% ----------
+\section{The \dataset{} Corpus}
+\todo{0.5 column. Source criteria, annotation protocol, IAA.}
+
+% ----------
+\section{Experiments}
+\todo{1.5 columns + Table I (main) + Table II (ablations). Metrics,
+significance tests, error categories.}
+
+\begin{table}[t]
+  \centering
+  \caption{Main results on \dataset{} (mean $\pm$ 95\,\% bootstrap CI).}
+  \label{tab:ieee_main}
+  \begin{tabular}{lccc}
+    \toprule
+    Method & $P_k\downarrow$ & WD$\downarrow$ & BS$\uparrow$ \\
+    \midrule
+    TextTiling   & \todo{} & \todo{} & \todo{} \\
+    BERT-Seg     & \todo{} & \todo{} & \todo{} \\
+    \lecseg{} (ours) & \textbf{\todo{}} & \textbf{\todo{}} & \textbf{\todo{}} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+% ----------
+\section{Conclusion}
+\todo{4 sentences. Summary + 1 future direction.}
+
+% ----------
+\section*{Acknowledgements}
+\todo{Supervisor + dept.}
+
+\bibliographystyle{IEEEtran}
+\bibliography{../thesis/bibliography/references}
+
+\end{document}

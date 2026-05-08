@@ -1,0 +1,33 @@
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+
+Online education produces hundreds of hours of unindexed lecture video every
+day. Manual chaptering does not scale, and existing automatic methods are
+either text-only, closed-source, or restricted to a single (flat) level of
+segmentation. This thesis presents \lecseg{}, the first open hierarchical
+multimodal pipeline for lecture-video topic segmentation that produces both
+chapter-level and subtopic-level boundaries.
+
+We make four technical contributions. (1) A reliability-weighted modality-fusion
+module learns to down-weight unreliable channels (e.g.\ noisy OCR on a chalkboard
+lecture) per video and per sentence. (2) An explicit two-level hierarchy is
+modelled jointly, rather than as two independent flat tasks. (3) Boundary
+refinement and chapter titling are performed by a small, locally-hosted open
+language model, removing the dependence on closed APIs reported in prior work.
+(4) We release \dataset{}: a corpus of 30 lecture videos covering 5 academic
+domains, with dual subtopic annotation and reported inter-annotator agreement.
+
+We evaluate against three classical and two neural baselines on five metrics:
+$P_k$, WindowDiff, Boundary Similarity, tolerance-F\textsubscript{1}, and a
+hierarchical WindowDiff variant we propose. All results are reported with
+1{,}000-sample bootstrap confidence intervals and pairwise Wilcoxon
+signed-rank tests at video granularity. \lecseg{} reduces $P_k$ by
+\todo{X.XX}\,\% relative ($\Delta=$\,\todo{0.0XX} absolute) over the strongest
+baseline, with $p < \todo{0.0X}$. The full reproduction artefact regenerates
+every numerical claim of this thesis from a fresh clone with a single command
+(\texttt{make reproduce}).
+
+\vspace{1em}
+\noindent\textbf{Keywords:} topic segmentation, lecture video, multimodal
+fusion, hierarchical segmentation, local language models, reproducible
+research.

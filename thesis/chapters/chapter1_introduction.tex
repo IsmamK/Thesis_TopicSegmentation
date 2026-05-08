@@ -1,0 +1,51 @@
+\chapter{Introduction}
+\label{chap:introduction}
+
+\section{Motivation}
+\label{sec:motivation}
+
+\todo{Open with the explosion of online lecture content post-2020 and the
+search/access problem this creates. Cite at least two sources for the volume
+claim.}
+
+\section{Problem statement}
+\label{sec:problem}
+
+\todo{One paragraph that defines lecture topic segmentation as the task of
+partitioning a video transcript (and its aligned modalities) into a sequence
+of contiguous, semantically coherent units, and a hierarchical version that
+emits both chapter-level and subtopic-level boundaries.}
+
+\section{Research questions}
+\label{sec:rqs}
+
+\begin{description}
+  \item[RQ1] Can a multimodal lecture-segmentation pipeline produce
+    hierarchical (chapter and subtopic) outputs while remaining open-source
+    and reproducible?
+  \item[RQ2] Does a learned reliability-weighted fusion outperform fixed-weight
+    modality fusion when source quality varies?
+  \item[RQ3] Does a small open local language model match closed-API
+    alternatives for boundary refinement and chapter titling?
+  \item[RQ4] Does explicit hierarchical modelling improve segmentation quality
+    over independent flat passes?
+  \item[RQ5] Are gains over prior baselines statistically significant under
+    paired non-parametric testing on a held-out fold?
+\end{description}
+
+\section{Contributions}
+\label{sec:contributions}
+
+\todo{Restate the seven contributions from \texttt{docs/NOVELTY\_TRACKER.md}.
+Each contribution should reference the chapter where it is developed and the
+experiment that validates it.}
+
+\section{Thesis structure}
+\label{sec:structure}
+
+\Cref{chap:literature} reviews prior work on text-only, multimodal, and
+hierarchical segmentation. \Cref{chap:methodology} details the \lecseg{}
+pipeline, its novel modules, and \dataset{}. \Cref{chap:results} reports
+quantitative results, ablations, statistical tests, and error analysis.
+\Cref{chap:conclusion} summarises findings, and \cref{chap:future} sketches
+extensions.

@@ -1,0 +1,66 @@
+\chapter{Results and Analysis}
+\label{chap:results}
+
+\section{Experimental setup}
+\label{sec:setup}
+
+\todo{Restate hardware (single-GPU configuration), software versions, random
+seeds, fold assignment.}
+
+\section{Main results}
+\label{sec:main}
+
+\begin{table}[t]
+  \centering
+  \caption{Main results on \dataset{}. All numbers are means over 5 folds with
+    1{,}000-sample bootstrap 95\,\% CIs. Lower is better for $P_k$ and
+    WindowDiff; higher is better for Boundary Similarity, F\textsubscript{1},
+    and hierarchical WindowDiff (reported as $1-\text{HWD}$).}
+  \label{tab:master}
+  \begin{tabular}{lccccc}
+    \toprule
+    Method & $P_k\downarrow$ & WD$\downarrow$ & BS$\uparrow$ &
+      F\textsubscript{1}$\uparrow$ & HWD$\downarrow$ \\
+    \midrule
+    Random      & \todo{}.\todo{} & \todo{}.\todo{} & \todo{}.\todo{} & \todo{}.\todo{} & \todo{}.\todo{} \\
+    TextTiling  & \todo{}.\todo{} & \todo{}.\todo{} & \todo{}.\todo{} & \todo{}.\todo{} & \todo{}.\todo{} \\
+    C99         & \todo{}.\todo{} & \todo{}.\todo{} & \todo{}.\todo{} & \todo{}.\todo{} & \todo{}.\todo{} \\
+    Cosine-drop & \todo{}.\todo{} & \todo{}.\todo{} & \todo{}.\todo{} & \todo{}.\todo{} & \todo{}.\todo{} \\
+    BERT-Seg    & \todo{}.\todo{} & \todo{}.\todo{} & \todo{}.\todo{} & \todo{}.\todo{} & \todo{}.\todo{} \\
+    \midrule
+    \lecseg{}-flat   & \todo{}.\todo{} & \todo{}.\todo{} & \todo{}.\todo{} & \todo{}.\todo{} & \todo{}.\todo{} \\
+    \lecseg{}-hier   & \todo{}.\todo{} & \todo{}.\todo{} & \todo{}.\todo{} & \todo{}.\todo{} & \todo{}.\todo{} \\
+    \lecseg{}-full \textbf{(ours)} & \textbf{\todo{}} & \textbf{\todo{}} & \textbf{\todo{}} & \textbf{\todo{}} & \textbf{\todo{}} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\todo{Walk through the table row by row and column by column. Bold the best
+entry per column. Add significance stars and footnote them.}
+
+\section{Ablations}
+\label{sec:ablations}
+
+\todo{Ablate the four novel modules in turn: (i) fixed weights vs.\
+reliability-weighted fusion; (ii) flat vs.\ hierarchical output; (iii) no
+refinement vs.\ local-LLM refinement; (iv) text-only vs.\ multimodal input.
+One bar plot per ablation, all sharing the same y-axis ($P_k$).}
+
+\section{Statistical significance}
+\label{sec:significance}
+
+\todo{Pairwise Wilcoxon signed-rank table from \texttt{results/stats/}.
+Highlight $p<0.05$, $p<0.01$, $p<0.001$.}
+
+\section{Error analysis}
+\label{sec:errors}
+
+\todo{Insert four error types from \texttt{docs/ERROR\_ANALYSIS.md}: (a)
+boundary-merge errors at fast-paced lectures; (b) over-segmentation on
+densely-slided lectures; (c) OCR-failure cascades; (d) refinement
+hallucinations on out-of-domain titles.}
+
+\section{Discussion}
+\label{sec:discussion}
+
+\todo{Tie the empirical findings back to RQ1--RQ5.}
