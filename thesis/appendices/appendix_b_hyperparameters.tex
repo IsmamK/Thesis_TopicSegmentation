@@ -1,14 +1,87 @@
-\chapter{Hyperparameters and training details}
+\chapter{Hyperparameters and System Configuration}
 \label{app:hparams}
 
-\section{Configuration files}
-\todo{Reference the Hydra YAML files in \texttt{configs/}. Show
-\texttt{configs/defaults.yaml} verbatim.}
+All hyperparameters are stored in \texttt{configs/defaults.yaml} and can be
+overridden per experiment using Hydra.
+Every evaluation run records its exact configuration to \texttt{results/<run>/config.yaml},
+ensuring full reproducibility.
 
-\section{Training details}
-\todo{Per-experiment learning rate, batch size, optimiser, scheduler,
-early-stopping criterion.}
+\section{Default configuration}
 
-\section{Hardware and runtimes}
-\todo{Single-GPU configuration; wall-clock time per pipeline stage on the
-benchmark machine.}
+\begin{table}[h]
+  \centering
+  \caption{Key hyperparameters used in all reported experiments.}
+  \label{tab:hparams}
+  \small
+  \begin{tabular}{lll}
+    \toprule
+    Component & Parameter & Value \\
+    \midrule
+    ASR & Model & Whisper large-v3 \\
+        & Beam size & 1 (speed) \\
+        & Compute type & float16 \\
+        & VAD filter & Enabled (500 ms min silence) \\
+    \midrule
+    Text encoder & Backbone & \texttt{all-mpnet-base-v2} \\
+                 & Embedding dimension & 768 \\
+                 & L2-normalised & Yes \\
+    \midrule
+    Visual encoder & Backbone & CLIP ViT-B/32 \\
+                   & Embedding dimension & 512 \\
+                   & Keyframe rate & 1 fps \\
+    \midrule
+    Two-stage predictor & Stage-1 threshold $c_1$ & 0.5$\sigma$ below mean \\
+                        & Stage-2 threshold $c_2$ & 1.2$\sigma$ below mean \\
+                        & Context window $w$ & 3 sentences \\
+    \midrule
+    Reliability weighting & Fusion mode & Entropy-based \\
+                          & Modalities & Text, visual, prosody \\
+    \midrule
+    LLM refinement & Model & Llama-3.1-8B (Q4\_K\_M) \\
+                   & Snap window & $\pm 2$ sentences \\
+                   & Title max words & 8 \\
+    \midrule
+    Evaluation & Bootstrap samples & 1{,}000 \\
+               & Confidence level & 95\,\% \\
+               & Significance test & Wilcoxon + Holm correction \\
+               & Tolerance & $\pm 2$ sentences \\
+    \midrule
+    Random seed & All stochastic ops & 42 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\section{Hardware and wall-clock runtimes}
+
+All experiments were run on a single workstation with:
+\begin{itemize}
+  \item CPU: \todo{processor model}
+  \item GPU: NVIDIA RTX~5090 (24\,GB GDDR7)
+  \item RAM: \todo{} GB
+  \item OS: Ubuntu 22.04 / Windows 11 (WSL2 for GPU transcription)
+\end{itemize}
+
+\noindent Approximate wall-clock times per pipeline stage for a 60-minute lecture:
+
+\begin{table}[h]
+  \centering
+  \caption{Wall-clock time per pipeline stage for a representative 60-minute lecture.}
+  \label{tab:runtimes}
+  \begin{tabular}{lr}
+    \toprule
+    Stage & Time (seconds) \\
+    \midrule
+    Whisper large-v3 transcription & $\approx 200$ \\
+    Sentence splitting (spaCy) & $< 1$ \\
+    Text embedding (MPNet, CPU) & $\approx 30$ \\
+    CLIP visual embedding (GPU, 1 fps) & $\approx 60$ \\
+    RWF fusion + boundary prediction & $< 1$ \\
+    LLM refinement + titling (8B Q4) & $\approx 30$ \\
+    \midrule
+    \textbf{Total} & $\mathbf{\approx 320}$ \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\noindent The dominant cost is speech recognition; all other stages combined
+run in under two minutes per hour of video.

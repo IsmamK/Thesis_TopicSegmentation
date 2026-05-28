@@ -1,0 +1,119 @@
+{
+  "video_id": "Ns6GB4Dph9U",
+  "annotator": "llm_a",
+  "status": "reviewed",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Chapter 1. Review of Vectors"
+    },
+    {
+      "start_sec": 569.0,
+      "title": "Chapter 2. Introduction to Newton's Laws of Motion, 1st Law and Inertial Frames"
+    },
+    {
+      "start_sec": 1191.0,
+      "title": "Chapter 3. Second Law and Measurements as conventions"
+    },
+    {
+      "start_sec": 2233.0,
+      "title": "Chapter 4. Nature of Forces and Their Relationship to Second Law"
+    },
+    {
+      "start_sec": 3050.0,
+      "title": "Chapter 5. Newton's Third Law"
+    },
+    {
+      "start_sec": 3795.0,
+      "title": "Chapter 6. Weightlessness"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Review of Last Lecture"
+    },
+    {
+      "start_sec": 509.0,
+      "chapter_idx": 0,
+      "title": "Vector Components and Addition"
+    },
+    {
+      "start_sec": 509.0,
+      "chapter_idx": 0,
+      "title": "Changing Reference Frames"
+    },
+    {
+      "start_sec": 569.0,
+      "chapter_idx": 1,
+      "title": "Introduction to Newton's Laws"
+    },
+    {
+      "start_sec": 870.0,
+      "chapter_idx": 1,
+      "title": "The Law of Inertia Explained"
+    },
+    {
+      "start_sec": 1030.0,
+      "chapter_idx": 1,
+      "title": "Surprising Implications of the First Law"
+    },
+    {
+      "start_sec": 1191.0,
+      "chapter_idx": 2,
+      "title": "Second Law and Memorization"
+    },
+    {
+      "start_sec": 1590.0,
+      "chapter_idx": 2,
+      "title": "Measuring Acceleration with Instruments"
+    },
+    {
+      "start_sec": 1930.0,
+      "chapter_idx": 2,
+      "title": "Limit in Calculus for Measuring Acceleration"
+    },
+    {
+      "start_sec": 2233.0,
+      "chapter_idx": 3,
+      "title": "Measuring Mass with a Spring"
+    },
+    {
+      "start_sec": 2610.0,
+      "chapter_idx": 3,
+      "title": "Force Exerted by Springs and the Force Constant"
+    },
+    {
+      "start_sec": 2770.0,
+      "chapter_idx": 3,
+      "title": "Comparing Newton's Law and the Spring Equation"
+    },
+    {
+      "start_sec": 3050.0,
+      "chapter_idx": 4,
+      "title": "Newton's Third Law Statement"
+    },
+    {
+      "start_sec": 3730.0,
+      "chapter_idx": 4,
+      "title": "Writing Forces on a Body"
+    },
+    {
+      "start_sec": 3795.0,
+      "chapter_idx": 5,
+      "title": "Weight in an Elevator at Rest"
+    },
+    {
+      "start_sec": 3930.0,
+      "chapter_idx": 5,
+      "title": "Elevator Accelerating Upwards"
+    },
+    {
+      "start_sec": 4005.0,
+      "chapter_idx": 5,
+      "title": "Deceleration and Weightlessness"
+    }
+  ]
+}

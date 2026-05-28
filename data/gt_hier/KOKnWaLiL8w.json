@@ -1,0 +1,99 @@
+{
+  "video_id": "KOKnWaLiL8w",
+  "annotator": "llm_a",
+  "status": "reviewed",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Chapter 1. Introduction and Course Organization"
+    },
+    {
+      "start_sec": 1285.0,
+      "title": "Chapter 2. Newtonian Mechanics: Dynamics and Kinematics"
+    },
+    {
+      "start_sec": 1700.0,
+      "title": "Chapter 3. Average and Instantaneous Rate of Motion"
+    },
+    {
+      "start_sec": 2276.0,
+      "title": "Chapter 4. Motion at Constant Acceleration"
+    },
+    {
+      "start_sec": 3157.0,
+      "title": "Chapter 5. Example Problem: Physical Meaning of Equations"
+    },
+    {
+      "start_sec": 4122.0,
+      "title": "Chapter 6. Derive New Relations Using Calculus Laws of Limits"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Course Overview"
+    },
+    {
+      "start_sec": 1225.0,
+      "chapter_idx": 0,
+      "title": "Course Organization and Logistics"
+    },
+    {
+      "start_sec": 1285.0,
+      "chapter_idx": 1,
+      "title": "Introduction to Newtonian Mechanics"
+    },
+    {
+      "start_sec": 1470.0,
+      "chapter_idx": 1,
+      "title": "Predicting the Future in Physics"
+    },
+    {
+      "start_sec": 1700.0,
+      "chapter_idx": 2,
+      "title": "Mathematical Point as Object"
+    },
+    {
+      "start_sec": 1950.0,
+      "chapter_idx": 2,
+      "title": "Measuring Time and Space"
+    },
+    {
+      "start_sec": 2110.0,
+      "chapter_idx": 2,
+      "title": "Graphing Motion and Functions"
+    },
+    {
+      "start_sec": 2276.0,
+      "chapter_idx": 3,
+      "title": "Particle Motion and Derivatives"
+    },
+    {
+      "start_sec": 2670.0,
+      "chapter_idx": 3,
+      "title": "Constant Acceleration Problems"
+    },
+    {
+      "start_sec": 3157.0,
+      "chapter_idx": 4,
+      "title": "Problem Setup and Initial Conditions"
+    },
+    {
+      "start_sec": 3735.0,
+      "chapter_idx": 4,
+      "title": "Using the Formula and Its Limitations"
+    },
+    {
+      "start_sec": 4122.0,
+      "chapter_idx": 5,
+      "title": "Deriving the Last Result"
+    },
+    {
+      "start_sec": 4290.0,
+      "chapter_idx": 5,
+      "title": "Manipulating Derivatives with Delta T"
+    }
+  ]
+}

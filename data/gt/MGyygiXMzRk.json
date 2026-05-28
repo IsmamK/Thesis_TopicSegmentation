@@ -1,0 +1,30 @@
+{
+  "video_id": "MGyygiXMzRk",
+  "boundaries_sec": [
+    38.0,
+    158.0,
+    275.0,
+    456.0,
+    773.0,
+    961.0,
+    1512.0,
+    1915.0,
+    2475.0,
+    2697.0
+  ],
+  "titles": [
+    "Intro",
+    "John Locke",
+    "The State of Nature",
+    "Lockes Answer",
+    "Unalienable Rights",
+    "Intellectual Property Rights",
+    "Lockes Private Property",
+    "Next Time",
+    "Consent",
+    "Implied Consent",
+    "Stand Up"
+  ],
+  "num_chapters": 11,
+  "duration_sec": 3298.0
+}

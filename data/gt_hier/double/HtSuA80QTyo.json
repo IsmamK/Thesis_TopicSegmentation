@@ -1,0 +1,151 @@
+{
+  "video_id": "HtSuA80QTyo",
+  "annotator": "llm_b_fallback",
+  "status": "draft",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Intro"
+    },
+    {
+      "start_sec": 275.0,
+      "title": "Class Overview"
+    },
+    {
+      "start_sec": 507.0,
+      "title": "Content"
+    },
+    {
+      "start_sec": 925.0,
+      "title": "Problem Statement"
+    },
+    {
+      "start_sec": 1105.0,
+      "title": "Simple Algorithm"
+    },
+    {
+      "start_sec": 1645.0,
+      "title": "recursive algorithm"
+    },
+    {
+      "start_sec": 1975.0,
+      "title": "computation"
+    },
+    {
+      "start_sec": 2155.0,
+      "title": "greedy ascent"
+    },
+    {
+      "start_sec": 2725.0,
+      "title": "example"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Administrative Details"
+    },
+    {
+      "start_sec": 215.0,
+      "chapter_idx": 0,
+      "title": "Course Overview and Content"
+    },
+    {
+      "start_sec": 215.0,
+      "chapter_idx": 0,
+      "title": "Peak Finding Problem Introduction"
+    },
+    {
+      "start_sec": 275.0,
+      "chapter_idx": 1,
+      "title": "Importance of Scalability"
+    },
+    {
+      "start_sec": 375.0,
+      "chapter_idx": 1,
+      "title": "Data Structures and Algorithms"
+    },
+    {
+      "start_sec": 507.0,
+      "chapter_idx": 2,
+      "title": "Problem Sets and Algorithmic Thinking"
+    },
+    {
+      "start_sec": 690.0,
+      "chapter_idx": 2,
+      "title": "Sorting in Trees and Data Structures"
+    },
+    {
+      "start_sec": 825.0,
+      "chapter_idx": 2,
+      "title": "Hashing, Genome Comparison, and Efficiency"
+    },
+    {
+      "start_sec": 925.0,
+      "chapter_idx": 3,
+      "title": "Problem Statement"
+    },
+    {
+      "start_sec": 1030.0,
+      "chapter_idx": 3,
+      "title": "Defining a Peak"
+    },
+    {
+      "start_sec": 1105.0,
+      "chapter_idx": 4,
+      "title": "Straightforward Algorithm"
+    },
+    {
+      "start_sec": 1390.0,
+      "chapter_idx": 4,
+      "title": "Peak Definition and Complexity"
+    },
+    {
+      "start_sec": 1645.0,
+      "chapter_idx": 5,
+      "title": "Recursive Algorithm Basics"
+    },
+    {
+      "start_sec": 1770.0,
+      "chapter_idx": 5,
+      "title": "Algorithm Correctness and Proof"
+    },
+    {
+      "start_sec": 1880.0,
+      "chapter_idx": 5,
+      "title": "Complexity of the Recursive Algorithm"
+    },
+    {
+      "start_sec": 1975.0,
+      "chapter_idx": 6,
+      "title": "Writing an Equation for Algorithm Execution"
+    },
+    {
+      "start_sec": 2070.0,
+      "chapter_idx": 6,
+      "title": "Comparing Theta-n and Theta log n Complexity"
+    },
+    {
+      "start_sec": 2155.0,
+      "chapter_idx": 7,
+      "title": "2D Version of Peak Finding"
+    },
+    {
+      "start_sec": 2490.0,
+      "chapter_idx": 7,
+      "title": "Greedy Ascent Algorithm Explanation"
+    },
+    {
+      "start_sec": 2725.0,
+      "chapter_idx": 8,
+      "title": "2D Peak May Not Exist"
+    },
+    {
+      "start_sec": 3030.0,
+      "chapter_idx": 8,
+      "title": "Recursive Version Works Better"
+    }
+  ]
+}

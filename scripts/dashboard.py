@@ -24,10 +24,10 @@ ROOT = Path(__file__).resolve().parent.parent
 PROG = ROOT / "progress.yaml"
 
 STATUS_ICON = {
-    "todo": "⬜", "doing": "🟡", "blocked": "🟥", "done": "✅", "skipped": "⏭️",
+    "todo": "[ ]", "doing": "[~]", "in_progress": "[~]", "blocked": "[!]", "done": "[x]", "skipped": "[-]",
 }
 STATUS_COLOR = {
-    "todo": "white", "doing": "yellow", "blocked": "red",
+    "todo": "white", "doing": "yellow", "in_progress": "yellow", "blocked": "red",
     "done": "green", "skipped": "dim",
 }
 
@@ -51,8 +51,8 @@ def main() -> None:
     # Header
     pct = int(100 * done / total)
     header = Text()
-    header.append("LECSEG — ", style="bold cyan")
-    header.append(f"Thesis {data['thesis_id']} · ", style="dim")
+    header.append("LECSEG - ", style="bold cyan")
+    header.append(f"Thesis {data['thesis_id']} | ", style="dim")
     header.append(f"{done}/{total} tasks complete ({pct}%)\n", style="bold")
     console.print(Panel(header, box=box.DOUBLE, border_style="cyan"))
 
@@ -61,7 +61,7 @@ def main() -> None:
         TextColumn("[bold]Overall "),
         BarColumn(bar_width=50),
         MofNCompleteColumn(),
-        TextColumn("• {task.percentage:>3.0f}%"),
+        TextColumn("  {task.percentage:>3.0f}%"),
         console=console, transient=False,
     ) as p:
         t = p.add_task("overall", total=total, completed=done)
@@ -81,7 +81,7 @@ def main() -> None:
         d = sum(1 for tid in tids if data["tasks"][tid]["status"] == "done")
         n = len(tids)
         filled = int(30 * d / n) if n else 0
-        bar = "█" * filled + "░" * (30 - filled)
+        bar = "#" * filled + "." * (30 - filled)
         color = "green" if d == n else "yellow" if d > 0 else "white"
         phase_table.add_row(
             str(ph["id"]), ph["name"], f"[{color}]{bar}[/{color}]", f"{d}/{n}",
@@ -99,7 +99,7 @@ def main() -> None:
         for tid in doing + blocked:
             t = data["tasks"][tid]
             status = t["status"]
-            owner = t.get("owner") or "—"
+            owner = t.get("owner") or "-"
             live_table.add_row(
                 tid, t["title"],
                 f"[{STATUS_COLOR[status]}]{STATUS_ICON[status]} {status}[/]",
@@ -115,14 +115,14 @@ def main() -> None:
     if next_task:
         t = data["tasks"][next_task]
         console.print(Panel(
-            f"[bold yellow]▶ Next up:[/bold yellow] [cyan]{next_task}[/cyan] — {t['title']}\n"
+            f"[bold yellow]>> Next up:[/bold yellow] [cyan]{next_task}[/cyan] - {t['title']}\n"
             f"  Run: [bold]python scripts/next.py[/bold] to see the full instructions.",
             title="What should I do now?",
             border_style="yellow",
         ))
     else:
         console.print(Panel(
-            "[bold green]🎉 Every task is complete. Time to defend.[/bold green]\n"
+            "[bold green]Every task is complete. Time to defend.[/bold green]\n"
             "Run: [bold]python scripts/pre_defense_check.py[/bold] for the final checklist.",
             border_style="green",
         ))

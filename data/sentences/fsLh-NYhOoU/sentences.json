@@ -1,0 +1,7319 @@
+{
+  "video_id": "fsLh-NYhOoU",
+  "sentences": [
+    {
+      "idx": 0,
+      "start": 7.5,
+      "end": 8.462,
+      "text": "Thank you very much."
+    },
+    {
+      "idx": 1,
+      "start": 8.462,
+      "end": 9.52,
+      "text": "It is good to be here."
+    },
+    {
+      "idx": 2,
+      "start": 9.52,
+      "end": 14.86,
+      "text": "I don't know if you people realize what a beautiful campus you have and how you basically just study in heaven."
+    },
+    {
+      "idx": 3,
+      "start": 15.18,
+      "end": 20.28,
+      "text": "Today, I want to talk with you about what I think is one of the most underappreciated formulas."
+    },
+    {
+      "idx": 4,
+      "start": 20.4,
+      "end": 24.72,
+      "text": "Not because those who know it don't appreciate it, but because not enough people know about this."
+    },
+    {
+      "idx": 5,
+      "start": 24.96,
+      "end": 27.64,
+      "text": "And more importantly, not enough people understand where it comes from."
+    },
+    {
+      "idx": 6,
+      "start": 27.64,
+      "end": 29.561,
+      "text": "And this should be one of the gems."
+    },
+    {
+      "idx": 7,
+      "start": 29.561,
+      "end": 33.02,
+      "text": "This should be the E to the pi i of the mathematical community."
+    },
+    {
+      "idx": 8,
+      "start": 33.02,
+      "end": 38.54,
+      "text": "But I really want you to come away knowing not just what it is, but why it's true and what it represents."
+    },
+    {
+      "idx": 9,
+      "start": 39.12,
+      "end": 44.5,
+      "text": "Now, before I dive straight into it, I think the scene is best set if we start with two different puzzles."
+    },
+    {
+      "idx": 10,
+      "start": 45.4,
+      "end": 52.1,
+      "text": "The first puzzle is just going to give us a sense of the meaning of what we're about to do, because it runs the risk of feeling pretty abstract."
+    },
+    {
+      "idx": 11,
+      "start": 52.78,
+      "end": 57.72,
+      "text": "And then the second puzzle is going to be a kind of forewarning, not to trust our intuitions."
+    },
+    {
+      "idx": 12,
+      "start": 58.08,
+      "end": 59.472,
+      "text": "So let's start with the first puzzle."
+    },
+    {
+      "idx": 13,
+      "start": 59.472,
+      "end": 60.6,
+      "text": "This is our warm up for today."
+    },
+    {
+      "idx": 14,
+      "start": 61.02,
+      "end": 63.0,
+      "text": "We're going to start by imagining that there's a random."
+    },
+    {
+      "idx": 15,
+      "start": 63.02,
+      "end": 64.7,
+      "text": "Number I'm going to call it X."
+    },
+    {
+      "idx": 16,
+      "start": 64.7,
+      "end": 68.18,
+      "text": "It's going to sit between negative one, positive one chosen uniformly."
+    },
+    {
+      "idx": 17,
+      "start": 68.58,
+      "end": 74.42,
+      "text": "X is going to have a friend, another random number Y chosen between negative one and positive one uniformly."
+    },
+    {
+      "idx": 18,
+      "start": 74.92,
+      "end": 85.78,
+      "text": "And we're going to ask a question, a probability question about both of these, which is what's the probability that if you square X and then you add it to the square of Y, you end up with something which is less than or equal to one."
+    },
+    {
+      "idx": 19,
+      "start": 86.36,
+      "end": 87.56,
+      "text": "So let me throw this out to the audience."
+    },
+    {
+      "idx": 20,
+      "start": 87.56,
+      "end": 92.8,
+      "text": "Anyone want to raise their hand and throw out probability that you choose this random X, choose this random Y."
+    },
+    {
+      "idx": 21,
+      "start": 93.02,
+      "end": 93.92,
+      "text": "You add their squares."
+    },
+    {
+      "idx": 22,
+      "start": 93.92,
+      "end": 95.02,
+      "text": "It's going to be less than one."
+    },
+    {
+      "idx": 23,
+      "start": 96.52,
+      "end": 98.44,
+      "text": "So I see a blue shirt up here."
+    },
+    {
+      "idx": 24,
+      "start": 98.8,
+      "end": 99.7,
+      "text": "Do you want to pass it up?"
+    },
+    {
+      "idx": 25,
+      "start": 101.18,
+      "end": 104.48,
+      "text": "I mean, X squared plus my square makes like a unit circle."
+    },
+    {
+      "idx": 26,
+      "start": 104.6,
+      "end": 109.4,
+      "text": "So my guess would be related to the area of the unit circle over the area of like."
+    },
+    {
+      "idx": 27,
+      "start": 111.63,
+      "end": 115.67,
+      "text": "So I asked this question and immediately in your mind, there's an image that pops up."
+    },
+    {
+      "idx": 28,
+      "start": 115.85,
+      "end": 118.07,
+      "text": "And the point I want to make is this is an analytical question."
+    },
+    {
+      "idx": 29,
+      "start": 118.11,
+      "end": 119.93,
+      "text": "This is just a question about two numbers."
+    },
+    {
+      "idx": 30,
+      "start": 120.17,
+      "end": 124.85,
+      "text": "If you're savvy with your probability, you can set up some integrals not thinking about geometry."
+    },
+    {
+      "idx": 31,
+      "start": 125.15,
+      "end": 126.11,
+      "text": "And answer the question."
+    },
+    {
+      "idx": 32,
+      "start": 126.33,
+      "end": 128.07,
+      "text": "But that would feel a little bit like a crime."
+    },
+    {
+      "idx": 33,
+      "start": 128.39,
+      "end": 131.07,
+      "text": "The question is kind of screaming out at you that it wants to be a picture."
+    },
+    {
+      "idx": 34,
+      "start": 131.39,
+      "end": 137.73,
+      "text": "The natural way that this wants to be answered is to think of that pair of numbers X and Y as a point in a two dimensional space."
+    },
+    {
+      "idx": 35,
+      "start": 138.21,
+      "end": 144.71,
+      "text": "And that way, when you're thinking of a random choice for X independent from a random choice of Y, you're choosing a random point inside."
+    },
+    {
+      "idx": 36,
+      "start": 144.89,
+      "end": 148.41,
+      "text": "Well, in this case, it's a square that goes from X equals negative one to positive one."
+    },
+    {
+      "idx": 37,
+      "start": 148.71,
+      "end": 149.29,
+      "text": "Same with Y."
+    },
+    {
+      "idx": 38,
+      "start": 149.29,
+      "end": 150.41,
+      "text": "So it's a two by two square."
+    },
+    {
+      "idx": 39,
+      "start": 151.32,
+      "end": 154.86,
+      "text": "Now, the reason it's screaming out to be geometric is because this constraint of X squared."
+    },
+    {
+      "idx": 40,
+      "start": 155.08,
+      "end": 159.22,
+      "text": "Y squared being less than equal to one is the meaning of being inside a circle."
+    },
+    {
+      "idx": 41,
+      "start": 159.48,
+      "end": 165.12,
+      "text": "And it's saying if X squared plus Y squared is equal to one, that would actually land you on the boundary."
+    },
+    {
+      "idx": 42,
+      "start": 165.3,
+      "end": 167.16,
+      "text": "This follows straight from the Pythagorean theorem."
+    },
+    {
+      "idx": 43,
+      "start": 167.46,
+      "end": 168.96,
+      "text": "You can draw a nice little right triangle."
+    },
+    {
+      "idx": 44,
+      "start": 169.08,
+      "end": 170.02,
+      "text": "X gives you one leg."
+    },
+    {
+      "idx": 45,
+      "start": 170.04,
+      "end": 171.1,
+      "text": "Y gives you the other leg."
+    },
+    {
+      "idx": 46,
+      "start": 171.36,
+      "end": 175.62,
+      "text": "And you end up answering in this case area of that circle divided by area of the square."
+    },
+    {
+      "idx": 47,
+      "start": 176.02,
+      "end": 178.22,
+      "text": "All you need to know is the area of a circle."
+    },
+    {
+      "idx": 48,
+      "start": 178.86,
+      "end": 179.54,
+      "text": "Pi R squared."
+    },
+    {
+      "idx": 49,
+      "start": 179.62,
+      "end": 181.76,
+      "text": "This is one of those formulas we learn in high school."
+    },
+    {
+      "idx": 50,
+      "start": 182.02,
+      "end": 184.04,
+      "text": "So you can write down pi divided by four."
+    },
+    {
+      "idx": 51,
+      "start": 184.26,
+      "end": 184.82,
+      "text": "All well and good."
+    },
+    {
+      "idx": 52,
+      "start": 184.98,
+      "end": 185.9,
+      "text": "And then we can bump it up."
+    },
+    {
+      "idx": 53,
+      "start": 185.9,
+      "end": 190.58,
+      "text": "I could say, what if instead of choosing two random numbers, X and Y, they had a third friend, Z."
+    },
+    {
+      "idx": 54,
+      "start": 191.48,
+      "end": 193.16,
+      "text": "Uniform between negative one and one."
+    },
+    {
+      "idx": 55,
+      "start": 193.38,
+      "end": 194.08,
+      "text": "You square it."
+    },
+    {
+      "idx": 56,
+      "start": 194.28,
+      "end": 198.28,
+      "text": "You want to ask the probability that the sum of all those numbers is less than or equal to one."
+    },
+    {
+      "idx": 57,
+      "start": 198.68,
+      "end": 202.68,
+      "text": "In your mind's eye, it's screaming to you, hey, I want to be a three dimensional picture now."
+    },
+    {
+      "idx": 58,
+      "start": 202.78,
+      "end": 203.78,
+      "text": "It doesn't have to be."
+    },
+    {
+      "idx": 59,
+      "start": 203.98,
+      "end": 209.08,
+      "text": "You could answer it purely analytically, but it would somehow feel wrong not to turn this into a three dimensional picture."
+    },
+    {
+      "idx": 60,
+      "start": 209.48,
+      "end": 214.88,
+      "text": "Because in this case, that constraint of X squared plus Y squared plus Z squared being less than one means."
+    },
+    {
+      "idx": 61,
+      "start": 214.88,
+      "end": 218.08,
+      "text": "Sitting inside of a unit sphere."
+    },
+    {
+      "idx": 62,
+      "start": 218.28,
+      "end": 226.28,
+      "text": "And so in this case, to answer the probability question, you just need to know what's the volume of that unit sphere as it compares to the volume of this two by two by two cube."
+    },
+    {
+      "idx": 63,
+      "start": 226.48,
+      "end": 230.48,
+      "text": "This is another one of those formulas we might have learned in middle school or high school."
+    },
+    {
+      "idx": 64,
+      "start": 230.68,
+      "end": 234.68,
+      "text": "Volume of a sphere ends up being four thirds pi times its radius squared."
+    },
+    {
+      "idx": 65,
+      "start": 234.88,
+      "end": 236.28,
+      "text": "Radius in this case is one."
+    },
+    {
+      "idx": 66,
+      "start": 236.48,
+      "end": 239.08,
+      "text": "You work it all out and you get, I guess, a little above 50%."
+    },
+    {
+      "idx": 67,
+      "start": 239.28,
+      "end": 243.13,
+      "text": "Now, there's no reason that we have to stop there."
+    },
+    {
+      "idx": 68,
+      "start": 243.73,
+      "end": 244.43,
+      "text": "This is three numbers."
+    },
+    {
+      "idx": 69,
+      "start": 244.43,
+      "end": 246.23,
+      "text": "But what if I ask about four numbers?"
+    },
+    {
+      "idx": 70,
+      "start": 246.73,
+      "end": 252.63,
+      "text": "Now, at this point, your mind's eye is going to start kind of squinking a little bit because it's like, I know what I want to be seeing right now."
+    },
+    {
+      "idx": 71,
+      "start": 252.83,
+      "end": 256.53,
+      "text": "In the same way that the first problem screamed out that it wants you to be thinking about a circle."
+    },
+    {
+      "idx": 72,
+      "start": 256.93,
+      "end": 262.13,
+      "text": "This one wants you to be thinking about whatever the four dimensional equivalent of circles and spheres should be."
+    },
+    {
+      "idx": 73,
+      "start": 262.43,
+      "end": 265.13,
+      "text": "But again, it's a perfectly reasonable question."
+    },
+    {
+      "idx": 74,
+      "start": 265.33,
+      "end": 266.53,
+      "text": "It's a very empirical question."
+    },
+    {
+      "idx": 75,
+      "start": 266.73,
+      "end": 267.73,
+      "text": "It's very real."
+    },
+    {
+      "idx": 76,
+      "start": 267.93,
+      "end": 269.03,
+      "text": "And I don't have to stop there."
+    },
+    {
+      "idx": 77,
+      "start": 269.23,
+      "end": 271.13,
+      "text": "We could say, what if you had a hundred different numbers?"
+    },
+    {
+      "idx": 78,
+      "start": 271.33,
+      "end": 272.33,
+      "text": "You add up all their squares."
+    },
+    {
+      "idx": 79,
+      "start": 272.53,
+      "end": 273.83,
+      "text": "And I want to know the probability."
+    },
+    {
+      "idx": 80,
+      "start": 273.83,
+      "end": 275.63,
+      "text": "That they add up to be something less than one."
+    },
+    {
+      "idx": 81,
+      "start": 275.83,
+      "end": 282.63,
+      "text": "To ask that question is to kind of force yourself to want to know the volume of a 100 dimensional unit ball."
+    },
+    {
+      "idx": 82,
+      "start": 282.83,
+      "end": 284.43,
+      "text": "Now, that might seem kind of weird."
+    },
+    {
+      "idx": 83,
+      "start": 284.63,
+      "end": 289.63,
+      "text": "Like if you just heard a mathematician off the street saying that they found some formula for the volumes of high dimensional balls."
+    },
+    {
+      "idx": 84,
+      "start": 289.83,
+      "end": 293.23,
+      "text": "That risks sounding like something which is just nonsense."
+    },
+    {
+      "idx": 85,
+      "start": 293.83,
+      "end": 297.03,
+      "text": "It's so divorced from reality because we're used to living in three dimensions."
+    },
+    {
+      "idx": 86,
+      "start": 297.23,
+      "end": 301.13,
+      "text": "But the point I want to make is that higher dimensional geometry is real."
+    },
+    {
+      "idx": 87,
+      "start": 301.33,
+      "end": 303.73,
+      "text": "Just because it's not prescribing a literal physical space."
+    },
+    {
+      "idx": 88,
+      "start": 303.93,
+      "end": 305.93,
+      "text": "Doesn't mean that it doesn't have a kind of utility."
+    },
+    {
+      "idx": 89,
+      "start": 306.13,
+      "end": 313.73,
+      "text": "Now, it probably doesn't need to be emphasized nowadays because machine learning is awash in high dimensional geometry."
+    },
+    {
+      "idx": 90,
+      "start": 313.93,
+      "end": 316.93,
+      "text": "Essentially, any time that you're representing something with a long list of numbers."
+    },
+    {
+      "idx": 91,
+      "start": 317.13,
+      "end": 320.53,
+      "text": "You could choose to interpret that as a point in a high dimensional space."
+    },
+    {
+      "idx": 92,
+      "start": 320.73,
+      "end": 324.23,
+      "text": "And one of the big lessons of geometry is that that's a fruitful choice to make."
+    },
+    {
+      "idx": 93,
+      "start": 324.43,
+      "end": 325.83,
+      "text": "It helps your problem solving."
+    },
+    {
+      "idx": 94,
+      "start": 326.03,
+      "end": 327.73,
+      "text": "It makes certain things that would have been really hard."
+    },
+    {
+      "idx": 95,
+      "start": 327.93,
+      "end": 331.33,
+      "text": "Like setting up a hundred different integrals for this probability question."
+    },
+    {
+      "idx": 96,
+      "start": 331.53,
+      "end": 332.73,
+      "text": "Turn into something easier."
+    },
+    {
+      "idx": 97,
+      "start": 332.93,
+      "end": 333.76,
+      "text": "I don't know."
+    },
+    {
+      "idx": 98,
+      "start": 333.96,
+      "end": 338.36,
+      "text": "People think I need to emphasize this to you because these days we have things like large language models."
+    },
+    {
+      "idx": 99,
+      "start": 338.56,
+      "end": 340.86,
+      "text": "And if you dig under the hood and say, what's really going on?"
+    },
+    {
+      "idx": 100,
+      "start": 341.06,
+      "end": 345.46,
+      "text": "When you interact with, you know, chat GPT or quad or Gemini or whichever one your favorite one is."
+    },
+    {
+      "idx": 101,
+      "start": 345.66,
+      "end": 351.36,
+      "text": "The under the hood scheme basically looks like breaking up all of your text into little chunks."
+    },
+    {
+      "idx": 102,
+      "start": 351.56,
+      "end": 354.66,
+      "text": "And each of those chunks gets turned into a long, long list of numbers."
+    },
+    {
+      "idx": 103,
+      "start": 354.86,
+      "end": 358.06,
+      "text": "And you don't have to think about that as a point in high dimensional space."
+    },
+    {
+      "idx": 104,
+      "start": 358.26,
+      "end": 360.56,
+      "text": "You could just say, oh, it's this big, big long list of numbers."
+    },
+    {
+      "idx": 105,
+      "start": 360.76,
+      "end": 362.86,
+      "text": "But to try to understand what these models are doing."
+    },
+    {
+      "idx": 106,
+      "start": 362.86,
+      "end": 369.46,
+      "text": "It ends up being really fruitful to think about those long lists of numbers that the words turn into as being points in a space."
+    },
+    {
+      "idx": 107,
+      "start": 369.66,
+      "end": 376.69,
+      "text": "When people do research to interpret these things, all of their language is centered around talking about points in some kind of high dimensional space."
+    },
+    {
+      "idx": 108,
+      "start": 376.89,
+      "end": 379.19,
+      "text": "That's all to say high dimensions are useful."
+    },
+    {
+      "idx": 109,
+      "start": 379.39,
+      "end": 385.39,
+      "text": "But this is a little bit of a problem because high dimensional geometry can get very counterintuitive."
+    },
+    {
+      "idx": 110,
+      "start": 385.59,
+      "end": 388.39,
+      "text": "And the second puzzle here is just an absolute classic."
+    },
+    {
+      "idx": 111,
+      "start": 388.59,
+      "end": 392.79,
+      "text": "This is one of those things where I think everybody sometime, you know, if they're entering a STEM field."
+    },
+    {
+      "idx": 112,
+      "start": 392.99,
+      "end": 401.15,
+      "text": "Going into college, they should see this example at some point as a kind of like Aesop's fable of something you might want to avoid."
+    },
+    {
+      "idx": 113,
+      "start": 401.35,
+      "end": 402.35,
+      "text": "So here's going to be the set."
+    },
+    {
+      "idx": 114,
+      "start": 402.55,
+      "end": 408.15,
+      "text": "We're again going to have a two by two square centered at the origin goes from X equals negative one to Y equals positive one."
+    },
+    {
+      "idx": 115,
+      "start": 408.35,
+      "end": 410.35,
+      "text": "I'm going to put a circle at each one of its corners."
+    },
+    {
+      "idx": 116,
+      "start": 410.55,
+      "end": 414.85,
+      "text": "So the corners are sitting at one one negative one one negative one negative one on a none."
+    },
+    {
+      "idx": 117,
+      "start": 415.05,
+      "end": 417.25,
+      "text": "I'm going to put a unit circle on each one of those."
+    },
+    {
+      "idx": 118,
+      "start": 417.45,
+      "end": 421.07,
+      "text": "And so by definition, those corner circles have a radius of one."
+    },
+    {
+      "idx": 119,
+      "start": 421.27,
+      "end": 422.97,
+      "text": "And the question I'm going to ask here."
+    },
+    {
+      "idx": 120,
+      "start": 422.97,
+      "end": 431.34,
+      "text": "Is to say what if I was to give them another friend a circle that sits on the inside that gets as big as it can to be tangent to all of them on the outside."
+    },
+    {
+      "idx": 121,
+      "start": 431.54,
+      "end": 433.94,
+      "text": "What's the radius of that inner circle?"
+    },
+    {
+      "idx": 122,
+      "start": 434.14,
+      "end": 435.14,
+      "text": "Just a geometry question."
+    },
+    {
+      "idx": 123,
+      "start": 435.34,
+      "end": 436.04,
+      "text": "Just a little puzzle."
+    },
+    {
+      "idx": 124,
+      "start": 436.24,
+      "end": 437.74,
+      "text": "We're still in the warm-up phase."
+    },
+    {
+      "idx": 125,
+      "start": 437.94,
+      "end": 441.74,
+      "text": "Again, anyone want to raise their hand and kind of toss out a proposed answer here?"
+    },
+    {
+      "idx": 126,
+      "start": 441.94,
+      "end": 443.84,
+      "text": "We got a raised hand over here."
+    },
+    {
+      "idx": 127,
+      "start": 444.04,
+      "end": 449.39,
+      "text": "You can take a look at the diagonals."
+    },
+    {
+      "idx": 128,
+      "start": 450.29,
+      "end": 454.49,
+      "text": "So we're going to look at the diagonal from the origin to the corner of that cube."
+    },
+    {
+      "idx": 129,
+      "start": 454.69,
+      "end": 456.39,
+      "text": "And that looks like square root of."
+    },
+    {
+      "idx": 130,
+      "start": 456.59,
+      "end": 458.09,
+      "text": "Well, in this case, the legs are one and one."
+    },
+    {
+      "idx": 131,
+      "start": 458.29,
+      "end": 460.09,
+      "text": "So square root of one squared plus one squared."
+    },
+    {
+      "idx": 132,
+      "start": 460.29,
+      "end": 462.19,
+      "text": "That distance is square root of two."
+    },
+    {
+      "idx": 133,
+      "start": 462.39,
+      "end": 465.59,
+      "text": "And then we're going to subtract off the radius of that outer circle."
+    },
+    {
+      "idx": 134,
+      "start": 465.79,
+      "end": 468.89,
+      "text": "Subtract off the one that was by definition radius one."
+    },
+    {
+      "idx": 135,
+      "start": 469.09,
+      "end": 470.79,
+      "text": "So the answer square root of two minus one."
+    },
+    {
+      "idx": 136,
+      "start": 470.99,
+      "end": 471.39,
+      "text": "You work it out."
+    },
+    {
+      "idx": 137,
+      "start": 471.59,
+      "end": 472.39,
+      "text": "It's about 0.4."
+    },
+    {
+      "idx": 138,
+      "start": 472.59,
+      "end": 473.39,
+      "text": "You look at the picture."
+    },
+    {
+      "idx": 139,
+      "start": 473.59,
+      "end": 474.39,
+      "text": "You say, I don't know."
+    },
+    {
+      "idx": 140,
+      "start": 475.59,
+      "end": 477.09,
+      "text": "Why is this an interesting question?"
+    },
+    {
+      "idx": 141,
+      "start": 477.29,
+      "end": 477.99,
+      "text": "I say, wait, wait, wait."
+    },
+    {
+      "idx": 142,
+      "start": 479.39,
+      "end": 483.29,
+      "text": "So then you could go to three dimensions and we're going to do the same setup."
+    },
+    {
+      "idx": 143,
+      "start": 483.49,
+      "end": 486.49,
+      "text": "We're going to have a unit ball on each one of the corners."
+    },
+    {
+      "idx": 144,
+      "start": 486.79,
+      "end": 490.09,
+      "text": "So in this case, we're going to have not four, but eight different unit spheres."
+    },
+    {
+      "idx": 145,
+      "start": 490.29,
+      "end": 491.89,
+      "text": "Each one of them has a radius one."
+    },
+    {
+      "idx": 146,
+      "start": 492.09,
+      "end": 494.89,
+      "text": "They're sitting on all of the corners and we're going to play the same game."
+    },
+    {
+      "idx": 147,
+      "start": 495.09,
+      "end": 500.89,
+      "text": "I say introduce a new sphere centered at the origin that is as big as it can be."
+    },
+    {
+      "idx": 148,
+      "start": 501.09,
+      "end": 505.29,
+      "text": "Meaning it gets as big as it needs to be to be tangent to those eight outer spheres."
+    },
+    {
+      "idx": 149,
+      "start": 506.49,
+      "end": 508.59,
+      "text": "What is the radius of that inner sphere?"
+    },
+    {
+      "idx": 150,
+      "start": 508.79,
+      "end": 511.02,
+      "text": "In this case, anybody want to raise their hands?"
+    },
+    {
+      "idx": 151,
+      "start": 511.22,
+      "end": 514.82,
+      "text": "Toss out a proposed answer to the radius of this one up close."
+    },
+    {
+      "idx": 152,
+      "start": 515.02,
+      "end": 516.9,
+      "text": "Root three minus one."
+    },
+    {
+      "idx": 153,
+      "start": 517.1,
+      "end": 521.3,
+      "text": "Okay, so you say root three because you understand Pythagorean theorem in three dimensions."
+    },
+    {
+      "idx": 154,
+      "start": 521.5,
+      "end": 523.1,
+      "text": "I might belabor the point here."
+    },
+    {
+      "idx": 155,
+      "start": 523.3,
+      "end": 525.6,
+      "text": "Forgive me if this is telling you something you already know."
+    },
+    {
+      "idx": 156,
+      "start": 525.8,
+      "end": 529.0,
+      "text": "I really want to emphasize why the distance rule is what it is."
+    },
+    {
+      "idx": 157,
+      "start": 529.2,
+      "end": 533.5,
+      "text": "Because the result I'm about to get to is so counterintuitive that when I've put it online before,"
+    },
+    {
+      "idx": 158,
+      "start": 533.7,
+      "end": 538.8,
+      "text": "there have been comments to the effect of maybe distance in higher dimensions just doesn't work the way that we think it does."
+    },
+    {
+      "idx": 159,
+      "start": 539.0,
+      "end": 543.3,
+      "text": "What I want to emphasize is everything's just stemming from the rule in two dimensions."
+    },
+    {
+      "idx": 160,
+      "start": 543.5,
+      "end": 545.1,
+      "text": "So if you have a unit cube,"
+    },
+    {
+      "idx": 161,
+      "start": 545.1,
+      "end": 548.3,
+      "text": "you can play the same two dimensional Pythagorean theorem game"
+    },
+    {
+      "idx": 162,
+      "start": 548.5,
+      "end": 550.7,
+      "text": "because having that diagonal of one square,"
+    },
+    {
+      "idx": 163,
+      "start": 550.9,
+      "end": 555.7,
+      "text": "that could be one leg of a new right triangle where another leg is this z-axis."
+    },
+    {
+      "idx": 164,
+      "start": 555.9,
+      "end": 559.3,
+      "text": "And then from there, you do the normal two dimensional Pythagorean theorem."
+    },
+    {
+      "idx": 165,
+      "start": 559.5,
+      "end": 562.0,
+      "text": "So we're not imbuing 3D space with a new rule."
+    },
+    {
+      "idx": 166,
+      "start": 562.2,
+      "end": 566.2,
+      "text": "It's more like it's inheriting the rule from all its two dimensional subspaces."
+    },
+    {
+      "idx": 167,
+      "start": 566.4,
+      "end": 568.6,
+      "text": "You work it out, you end up with root three."
+    },
+    {
+      "idx": 168,
+      "start": 568.8,
+      "end": 571.8,
+      "text": "So in this case, that means the final answer, root three minus one."
+    },
+    {
+      "idx": 169,
+      "start": 572.0,
+      "end": 573.7,
+      "text": "Again, you do the calculation."
+    },
+    {
+      "idx": 170,
+      "start": 573.9,
+      "end": 574.9,
+      "text": "Looks to be about zero point seven."
+    },
+    {
+      "idx": 171,
+      "start": 575.1,
+      "end": 576.7,
+      "text": "You say, seems reasonable."
+    },
+    {
+      "idx": 172,
+      "start": 576.9,
+      "end": 578.0,
+      "text": "Why is this interesting?"
+    },
+    {
+      "idx": 173,
+      "start": 578.2,
+      "end": 579.5,
+      "text": "But let's just keep upping it."
+    },
+    {
+      "idx": 174,
+      "start": 579.7,
+      "end": 582.7,
+      "text": "Up in four dimensions, I don't know how to draw a four dimensional cube."
+    },
+    {
+      "idx": 175,
+      "start": 582.9,
+      "end": 584.0,
+      "text": "This is my best attempt."
+    },
+    {
+      "idx": 176,
+      "start": 584.2,
+      "end": 585.8,
+      "text": "It's something that would look like a cube,"
+    },
+    {
+      "idx": 177,
+      "start": 586.0,
+      "end": 589.7,
+      "text": "but it's got another cube as the top cap and some lines connecting the vertices."
+    },
+    {
+      "idx": 178,
+      "start": 589.9,
+      "end": 591.7,
+      "text": "But we know how to calculate the distance."
+    },
+    {
+      "idx": 179,
+      "start": 591.9,
+      "end": 598.0,
+      "text": "The exact same logic is going to let us go up one more where you would be drawing a two dimensional right triangle"
+    },
+    {
+      "idx": 180,
+      "start": 598.2,
+      "end": 599.7,
+      "text": "where one leg is that root three."
+    },
+    {
+      "idx": 181,
+      "start": 599.9,
+      "end": 601.2,
+      "text": "That's the diagonal of a unit cube."
+    },
+    {
+      "idx": 182,
+      "start": 601.4,
+      "end": 603.4,
+      "text": "And then you just step up in some fourth direction."
+    },
+    {
+      "idx": 183,
+      "start": 603.6,
+      "end": 604.9,
+      "text": "Now, this one's kind of cute"
+    },
+    {
+      "idx": 184,
+      "start": 605.1,
+      "end": 607.7,
+      "text": "because the distance to the corner is square root of four,"
+    },
+    {
+      "idx": 185,
+      "start": 607.9,
+      "end": 608.9,
+      "text": "which means it's a whole number."
+    },
+    {
+      "idx": 186,
+      "start": 610.1,
+      "end": 613.4,
+      "text": "And in this case, whatever that diagram should look like in four dimensions,"
+    },
+    {
+      "idx": 187,
+      "start": 613.6,
+      "end": 616.3,
+      "text": "it's got 16 different corners, 16 different unit balls."
+    },
+    {
+      "idx": 188,
+      "start": 616.5,
+      "end": 620.4,
+      "text": "One thing that's really nice about four dimensions is that a unit ball fits nice"
+    },
+    {
+      "idx": 189,
+      "start": 620.4,
+      "end": 621.9,
+      "text": "and snugly right in the middle of them."
+    },
+    {
+      "idx": 190,
+      "start": 622.1,
+      "end": 626.42,
+      "text": "So this gives you a little instinct for what sphere packing in four dimensions can look like."
+    },
+    {
+      "idx": 191,
+      "start": 626.62,
+      "end": 629.62,
+      "text": "Now, where this gets more interesting is if we think in generality,"
+    },
+    {
+      "idx": 192,
+      "start": 629.82,
+      "end": 632.62,
+      "text": "if we say, OK, not just for three or four dimensions,"
+    },
+    {
+      "idx": 193,
+      "start": 632.82,
+      "end": 635.12,
+      "text": "but for n dimensions, what would this look like?"
+    },
+    {
+      "idx": 194,
+      "start": 635.42,
+      "end": 638.92,
+      "text": "The distance to the corner of that cube is going to look like square root of n."
+    },
+    {
+      "idx": 195,
+      "start": 639.12,
+      "end": 641.72,
+      "text": "We're always subtracting off the radius of that corner sphere,"
+    },
+    {
+      "idx": 196,
+      "start": 641.92,
+      "end": 643.22,
+      "text": "which is by definition one."
+    },
+    {
+      "idx": 197,
+      "start": 643.42,
+      "end": 645.92,
+      "text": "So, for example, up in ten dimensions,"
+    },
+    {
+      "idx": 198,
+      "start": 646.12,
+      "end": 649.52,
+      "text": "it looks like root ten minus one, which is about two point one six."
+    },
+    {
+      "idx": 199,
+      "start": 649.72,
+      "end": 652.12,
+      "text": "Now, if you just look at that and you kind of nod along with the formulas,"
+    },
+    {
+      "idx": 200,
+      "start": 652.32,
+      "end": 654.82,
+      "text": "you might say, OK, which seems reasonable."
+    },
+    {
+      "idx": 201,
+      "start": 655.02,
+      "end": 656.62,
+      "text": "I guess that's what things would be."
+    },
+    {
+      "idx": 202,
+      "start": 656.82,
+      "end": 661.42,
+      "text": "But it gets really, really weird when you try to interpret it geometrically and physically."
+    },
+    {
+      "idx": 203,
+      "start": 661.62,
+      "end": 662.42,
+      "text": "Because here's what I'm going to do."
+    },
+    {
+      "idx": 204,
+      "start": 662.62,
+      "end": 665.22,
+      "text": "I'm going to draw a new box outside of the entire diagram."
+    },
+    {
+      "idx": 205,
+      "start": 665.42,
+      "end": 668.22,
+      "text": "So before we introduce that center circle,"
+    },
+    {
+      "idx": 206,
+      "start": 668.42,
+      "end": 672.22,
+      "text": "I'm going to draw this four by four by four bounding box outside of everything."
+    },
+    {
+      "idx": 207,
+      "start": 672.42,
+      "end": 677.42,
+      "text": "And if in two dimensions I said, notice that inner circle is inside all of those,"
+    },
+    {
+      "idx": 208,
+      "start": 677.62,
+      "end": 681.22,
+      "text": "or in three dimensions, the inner sphere is inside of that whole bounding box,"
+    },
+    {
+      "idx": 209,
+      "start": 681.42,
+      "end": 683.42,
+      "text": "you'd say, yeah, obviously."
+    },
+    {
+      "idx": 210,
+      "start": 683.62,
+      "end": 687.02,
+      "text": "Like, it seems like by definition it must be inside of it."
+    },
+    {
+      "idx": 211,
+      "start": 687.22,
+      "end": 691.62,
+      "text": "But the weird part is the distance from your origin to the edge of that bounding box,"
+    },
+    {
+      "idx": 212,
+      "start": 691.82,
+      "end": 693.22,
+      "text": "because it's four by four,"
+    },
+    {
+      "idx": 213,
+      "start": 693.42,
+      "end": 694.62,
+      "text": "ends up being two."
+    },
+    {
+      "idx": 214,
+      "start": 694.62,
+      "end": 696.02,
+      "text": "To get to that edge."
+    },
+    {
+      "idx": 215,
+      "start": 696.22,
+      "end": 701.62,
+      "text": "So if we're saying up in ten dimensions, whatever this diagram should look like,"
+    },
+    {
+      "idx": 216,
+      "start": 701.82,
+      "end": 703.42,
+      "text": "with its two to the tenth different corners,"
+    },
+    {
+      "idx": 217,
+      "start": 703.62,
+      "end": 707.62,
+      "text": "whole bunch of little unit balls up there, expanding some sort of inner sphere,"
+    },
+    {
+      "idx": 218,
+      "start": 707.82,
+      "end": 711.42,
+      "text": "that inner sphere is actually dramatically bigger than all your corner spheres."
+    },
+    {
+      "idx": 219,
+      "start": 711.62,
+      "end": 713.62,
+      "text": "It's even bigger than that bounding box."
+    },
+    {
+      "idx": 220,
+      "start": 713.82,
+      "end": 715.62,
+      "text": "It pokes outside the bounding box."
+    },
+    {
+      "idx": 221,
+      "start": 715.82,
+      "end": 717.02,
+      "text": "Now that's just bizarre."
+    },
+    {
+      "idx": 222,
+      "start": 717.22,
+      "end": 722.02,
+      "text": "And it's so bizarre, there's this common phrase that I've heard from other people"
+    },
+    {
+      "idx": 223,
+      "start": 722.22,
+      "end": 724.42,
+      "text": "who have described this problem where they say,"
+    },
+    {
+      "idx": 224,
+      "start": 724.62,
+      "end": 727.02,
+      "text": "well, it suggests that higher dimensional spheres are very spiky."
+    },
+    {
+      "idx": 225,
+      "start": 727.22,
+      "end": 728.62,
+      "text": "I don't know if anyone's heard this intuition,"
+    },
+    {
+      "idx": 226,
+      "start": 728.82,
+      "end": 730.82,
+      "text": "but say, well, yeah, high dimensional spheres are spiky."
+    },
+    {
+      "idx": 227,
+      "start": 731.02,
+      "end": 732.88,
+      "text": "I hate this."
+    },
+    {
+      "idx": 228,
+      "start": 733.08,
+      "end": 734.28,
+      "text": "Because, like, they're not."
+    },
+    {
+      "idx": 229,
+      "start": 734.48,
+      "end": 735.48,
+      "text": "They're very round."
+    },
+    {
+      "idx": 230,
+      "start": 735.68,
+      "end": 737.68,
+      "text": "They're round because they are defined to be round."
+    },
+    {
+      "idx": 231,
+      "start": 737.88,
+      "end": 740.08,
+      "text": "What is a sphere in a high number of dimensions?"
+    },
+    {
+      "idx": 232,
+      "start": 740.28,
+      "end": 743.88,
+      "text": "It's all of the points that are a given distance from the origin."
+    },
+    {
+      "idx": 233,
+      "start": 744.08,
+      "end": 746.28,
+      "text": "So it is as round as round could be."
+    },
+    {
+      "idx": 234,
+      "start": 746.48,
+      "end": 747.88,
+      "text": "Spheres are not the problem."
+    },
+    {
+      "idx": 235,
+      "start": 748.08,
+      "end": 750.08,
+      "text": "This is counterintuitive, but spheres, they're fine."
+    },
+    {
+      "idx": 236,
+      "start": 750.28,
+      "end": 751.68,
+      "text": "You know who's the problem?"
+    },
+    {
+      "idx": 237,
+      "start": 751.88,
+      "end": 753.28,
+      "text": "It's the cubes."
+    },
+    {
+      "idx": 238,
+      "start": 753.28,
+      "end": 754.88,
+      "text": "The cubes are messed up in higher dimensions."
+    },
+    {
+      "idx": 239,
+      "start": 755.08,
+      "end": 756.88,
+      "text": "At the very least, they defy our intuition."
+    },
+    {
+      "idx": 240,
+      "start": 757.08,
+      "end": 761.16,
+      "text": "Because what's really going on with this example is we've got this very high"
+    },
+    {
+      "idx": 241,
+      "start": 761.36,
+      "end": 764.08,
+      "text": "dimensional cube where to get from the origin to the edge of it,"
+    },
+    {
+      "idx": 242,
+      "start": 764.28,
+      "end": 768.28,
+      "text": "that point that a high dimensional sphere on the inside could bounce outside of,"
+    },
+    {
+      "idx": 243,
+      "start": 768.48,
+      "end": 772.0,
+      "text": "let's say this is a two by two box, it's just going to be a distance one to get"
+    },
+    {
+      "idx": 244,
+      "start": 772.2,
+      "end": 775.28,
+      "text": "to the edge of that two by two box, but to get to the corner,"
+    },
+    {
+      "idx": 245,
+      "start": 775.48,
+      "end": 779.16,
+      "text": "that's actually a lot longer because up in ten dimensions, to get to that corner,"
+    },
+    {
+      "idx": 246,
+      "start": 779.16,
+      "end": 781.64,
+      "text": "you've got to walk in your first dimension, then your second dimension,"
+    },
+    {
+      "idx": 247,
+      "start": 781.64,
+      "end": 783.28,
+      "text": "then your third dimension, then your fourth dimension."
+    },
+    {
+      "idx": 248,
+      "start": 783.48,
+      "end": 785.4,
+      "text": "Then your sixth, on and on and on ten times."
+    },
+    {
+      "idx": 249,
+      "start": 785.6,
+      "end": 788.2,
+      "text": "Now, even if you're not taking perpendicular steps and you take"
+    },
+    {
+      "idx": 250,
+      "start": 788.2,
+      "end": 791.64,
+      "text": "the shortcut to just go straight across, you know, the shortcut can only get you"
+    },
+    {
+      "idx": 251,
+      "start": 791.84,
+      "end": 796.12,
+      "text": "so much so it gets you a square root speed up, but not anything better than that."
+    },
+    {
+      "idx": 252,
+      "start": 796.32,
+      "end": 800.16,
+      "text": "So the very loose schematic picture I have in my head for high dimensional cubes,"
+    },
+    {
+      "idx": 253,
+      "start": 800.36,
+      "end": 803.84,
+      "text": "and take this with a grain of salt, is it's something like this where your"
+    },
+    {
+      "idx": 254,
+      "start": 804.04,
+      "end": 807.08,
+      "text": "corners are just way, way, way farther away than the edge."
+    },
+    {
+      "idx": 255,
+      "start": 807.28,
+      "end": 812.76,
+      "text": "OK, again, grain of salt, because it's not like their sides are curved, but just cram"
+    },
+    {
+      "idx": 256,
+      "start": 812.96,
+      "end": 814.24,
+      "text": "this intuition into two dimensions."
+    },
+    {
+      "idx": 257,
+      "start": 814.44,
+      "end": 816.04,
+      "text": "That's what we have to do."
+    },
+    {
+      "idx": 258,
+      "start": 816.24,
+      "end": 818.84,
+      "text": "So for this example, if we're thinking what's going on,"
+    },
+    {
+      "idx": 259,
+      "start": 819.04,
+      "end": 822.88,
+      "text": "when we put those unit spheres on the corners, those unit spheres are just way"
+    },
+    {
+      "idx": 260,
+      "start": 823.08,
+      "end": 825.56,
+      "text": "far away, they're just way off there."
+    },
+    {
+      "idx": 261,
+      "start": 825.76,
+      "end": 827.56,
+      "text": "So when we have that inside one that's"
+    },
+    {
+      "idx": 262,
+      "start": 827.76,
+      "end": 832.52,
+      "text": "growing as big as it needs to be to be tangent to all of those, it's got to get massive."
+    },
+    {
+      "idx": 263,
+      "start": 832.72,
+      "end": 834.16,
+      "text": "Now, this picture is also still not quite"
+    },
+    {
+      "idx": 264,
+      "start": 834.16,
+      "end": 837.44,
+      "text": "right because I'm cramming it into two dimensions and I'm only showing four"
+    },
+    {
+      "idx": 265,
+      "start": 837.44,
+      "end": 839.52,
+      "text": "corners, but there's many, many, many corners."
+    },
+    {
+      "idx": 266,
+      "start": 839.52,
+      "end": 841.0,
+      "text": "There's two to the n different corners."
+    },
+    {
+      "idx": 267,
+      "start": 841.2,
+      "end": 842.56,
+      "text": "So they're like new, loose,"
+    },
+    {
+      "idx": 268,
+      "start": 842.76,
+      "end": 845.36,
+      "text": "and the only dramatic that you might have for this is something where rather than"
+    },
+    {
+      "idx": 269,
+      "start": 845.36,
+      "end": 848.53,
+      "text": "just those four corners, you have a whole bunch of corners."
+    },
+    {
+      "idx": 270,
+      "start": 848.73,
+      "end": 851.93,
+      "text": "So very vaguely speaking, like this is the picture to have in your"
+    },
+    {
+      "idx": 271,
+      "start": 851.93,
+      "end": 853.73,
+      "text": "mind for what's going on with that example."
+    },
+    {
+      "idx": 272,
+      "start": 853.93,
+      "end": 856.25,
+      "text": "So the inner sphere does bust out,"
+    },
+    {
+      "idx": 273,
+      "start": 856.45,
+      "end": 859.73,
+      "text": "but in some sense it's still contained by all of those corners."
+    },
+    {
+      "idx": 274,
+      "start": 859.93,
+      "end": 862.05,
+      "text": "So this is all to say high dimensional"
+    },
+    {
+      "idx": 275,
+      "start": 862.25,
+      "end": 867.13,
+      "text": "geometry for all of its utility is unfortunately very counterintuitive."
+    },
+    {
+      "idx": 276,
+      "start": 867.13,
+      "end": 869.81,
+      "text": "And I think maybe the better way of framing is that it risks being"
+    },
+    {
+      "idx": 277,
+      "start": 869.81,
+      "end": 872.81,
+      "text": "counterintuitive, because I think if you find the right ways to"
+    },
+    {
+      "idx": 278,
+      "start": 872.89,
+      "end": 875.45,
+      "text": "think about these shapes, they actually can become your friends."
+    },
+    {
+      "idx": 279,
+      "start": 875.65,
+      "end": 877.37,
+      "text": "And this is what brings us to the real me."
+    },
+    {
+      "idx": 280,
+      "start": 877.57,
+      "end": 878.93,
+      "text": "The real reason we're all here."
+    },
+    {
+      "idx": 281,
+      "start": 879.13,
+      "end": 881.53,
+      "text": "I don't want to talk about how it's real and useful."
+    },
+    {
+      "idx": 282,
+      "start": 881.53,
+      "end": 883.73,
+      "text": "I don't even want to talk about how it's counterintuitive."
+    },
+    {
+      "idx": 283,
+      "start": 883.93,
+      "end": 885.17,
+      "text": "I want to talk about something that's"
+    },
+    {
+      "idx": 284,
+      "start": 885.37,
+      "end": 889.21,
+      "text": "just completely beautiful about higher dimensional spheres specifically."
+    },
+    {
+      "idx": 285,
+      "start": 889.41,
+      "end": 891.21,
+      "text": "And this is that formula that I referenced."
+    },
+    {
+      "idx": 286,
+      "start": 891.41,
+      "end": 893.53,
+      "text": "What it's going to describe is the volume"
+    },
+    {
+      "idx": 287,
+      "start": 893.73,
+      "end": 897.09,
+      "text": "of a ball up in a higher number of dimensions."
+    },
+    {
+      "idx": 288,
+      "start": 897.29,
+      "end": 899.05,
+      "text": "You can focus on a ball with radius one,"
+    },
+    {
+      "idx": 289,
+      "start": 899.25,
+      "end": 901.85,
+      "text": "but just add an R to the end there if you want."
+    },
+    {
+      "idx": 290,
+      "start": 902.05,
+      "end": 902.85,
+      "text": "So we're going to build up."
+    },
+    {
+      "idx": 291,
+      "start": 903.05,
+      "end": 905.09,
+      "text": "To this, we're going to talk about where it comes from."
+    },
+    {
+      "idx": 292,
+      "start": 905.09,
+      "end": 909.01,
+      "text": "I want it to feel like it's deep in your bones, something that you you really felt"
+    },
+    {
+      "idx": 293,
+      "start": 909.01,
+      "end": 911.01,
+      "text": "like you could have discovered it yourself."
+    },
+    {
+      "idx": 294,
+      "start": 911.21,
+      "end": 914.17,
+      "text": "And in order to get up there, I think it's worth just spending some time"
+    },
+    {
+      "idx": 295,
+      "start": 914.37,
+      "end": 918.29,
+      "text": "with the familiar friends that we have, which are the relevant formulas you might"
+    },
+    {
+      "idx": 296,
+      "start": 918.49,
+      "end": 920.37,
+      "text": "have come across already in school."
+    },
+    {
+      "idx": 297,
+      "start": 920.37,
+      "end": 922.25,
+      "text": "And so there's four main ones here."
+    },
+    {
+      "idx": 298,
+      "start": 922.45,
+      "end": 924.65,
+      "text": "You've got the circumference of a circle."
+    },
+    {
+      "idx": 299,
+      "start": 924.85,
+      "end": 927.89,
+      "text": "So this is kind of measuring the boundary in two dimensions."
+    },
+    {
+      "idx": 300,
+      "start": 928.09,
+      "end": 929.93,
+      "text": "And this is two pi times the radius."
+    },
+    {
+      "idx": 301,
+      "start": 930.13,
+      "end": 931.89,
+      "text": "This is basically the definition of pi."
+    },
+    {
+      "idx": 302,
+      "start": 932.09,
+      "end": 934.49,
+      "text": "So after here, everything is a derivation."
+    },
+    {
+      "idx": 303,
+      "start": 934.49,
+      "end": 936.73,
+      "text": "But this one you could call kind of a definition."
+    },
+    {
+      "idx": 304,
+      "start": 936.93,
+      "end": 939.61,
+      "text": "This is this is what the constant pi even means."
+    },
+    {
+      "idx": 305,
+      "start": 939.81,
+      "end": 942.05,
+      "text": "Now, below it, I'm going to draw pi R squared."
+    },
+    {
+      "idx": 306,
+      "start": 942.25,
+      "end": 944.61,
+      "text": "That's the measuring the interior of the square."
+    },
+    {
+      "idx": 307,
+      "start": 944.65,
+      "end": 948.17,
+      "text": "So still in two dimensions interior, our good old friend pi R squared."
+    },
+    {
+      "idx": 308,
+      "start": 948.37,
+      "end": 952.17,
+      "text": "Up in three dimensions, the boundary, that surface area looks like four pi R squared."
+    },
+    {
+      "idx": 309,
+      "start": 952.37,
+      "end": 955.81,
+      "text": "Very fun, very suspicious because it's exactly four times the circle."
+    },
+    {
+      "idx": 310,
+      "start": 956.01,
+      "end": 957.45,
+      "text": "So that might be worth revisiting."
+    },
+    {
+      "idx": 311,
+      "start": 957.65,
+      "end": 961.89,
+      "text": "And then the interior, the volume of a sphere is four thirds."
+    },
+    {
+      "idx": 312,
+      "start": 962.09,
+      "end": 963.17,
+      "text": "So that's pi R cubed."
+    },
+    {
+      "idx": 313,
+      "start": 963.37,
+      "end": 964.89,
+      "text": "So these are the ones we might have seen."
+    },
+    {
+      "idx": 314,
+      "start": 965.09,
+      "end": 966.49,
+      "text": "I'm going to put them inside a chart."
+    },
+    {
+      "idx": 315,
+      "start": 966.61,
+      "end": 969.29,
+      "text": "And our goal today is basically to fill out this chart."
+    },
+    {
+      "idx": 316,
+      "start": 969.49,
+      "end": 973.81,
+      "text": "So the way I'm orchestrating this, I'm going to label that bottom row BN,"
+    },
+    {
+      "idx": 317,
+      "start": 974.01,
+      "end": 976.25,
+      "text": "meaning a ball in N dimensions."
+    },
+    {
+      "idx": 318,
+      "start": 976.45,
+      "end": 979.37,
+      "text": "So, for example, a ball in two dimensions, that's a filled in circle,"
+    },
+    {
+      "idx": 319,
+      "start": 979.57,
+      "end": 982.81,
+      "text": "a ball in three dimensions, that's the thing we would usually call a ball."
+    },
+    {
+      "idx": 320,
+      "start": 983.01,
+      "end": 986.41,
+      "text": "But we're going to use this as a very general term across all the dimensions."
+    },
+    {
+      "idx": 321,
+      "start": 986.61,
+      "end": 991.89,
+      "text": "And then above that, I'm going to label things with this little del symbol that you often use to mean partial."
+    },
+    {
+      "idx": 322,
+      "start": 992.09,
+      "end": 993.61,
+      "text": "So this is just a bit of notation."
+    },
+    {
+      "idx": 323,
+      "start": 993.81,
+      "end": 995.09,
+      "text": "In this case, it doesn't mean partial."
+    },
+    {
+      "idx": 324,
+      "start": 995.29,
+      "end": 996.49,
+      "text": "It actually means the boundary."
+    },
+    {
+      "idx": 325,
+      "start": 996.69,
+      "end": 999.29,
+      "text": "So the boundary of a ball in N dimensions."
+    },
+    {
+      "idx": 326,
+      "start": 999.29,
+      "end": 1001.01,
+      "text": "So the boundary of a ball in two dimensions,"
+    },
+    {
+      "idx": 327,
+      "start": 1001.21,
+      "end": 1004.13,
+      "text": "that's the circle in three dimensions, it's the shell of the sphere."
+    },
+    {
+      "idx": 328,
+      "start": 1004.33,
+      "end": 1008.77,
+      "text": "Now, the notation that kind of looks like a little D kind of gives some calculus vibes,"
+    },
+    {
+      "idx": 329,
+      "start": 1008.97,
+      "end": 1012.29,
+      "text": "I actually think is helpful for an important rule about this chart."
+    },
+    {
+      "idx": 330,
+      "start": 1012.49,
+      "end": 1016.25,
+      "text": "I want you to think a little bit because I know all of you have probably had some"
+    },
+    {
+      "idx": 331,
+      "start": 1016.25,
+      "end": 1018.21,
+      "text": "kind of exposure to calculus in your background."
+    },
+    {
+      "idx": 332,
+      "start": 1018.21,
+      "end": 1021.09,
+      "text": "I want you to think about the relationship between the bottom row and the top row."
+    },
+    {
+      "idx": 333,
+      "start": 1022.09,
+      "end": 1024.13,
+      "text": "And again, I'm going to just throw this out."
+    },
+    {
+      "idx": 334,
+      "start": 1024.13,
+      "end": 1027.05,
+      "text": "Anyone want to raise their hands and kind of say, what is the relationship?"
+    },
+    {
+      "idx": 335,
+      "start": 1027.25,
+      "end": 1030.1,
+      "text": "So right over here."
+    },
+    {
+      "idx": 336,
+      "start": 1031.05,
+      "end": 1032.57,
+      "text": "It's a derivative, right?"
+    },
+    {
+      "idx": 337,
+      "start": 1032.77,
+      "end": 1034.81,
+      "text": "How many of you thought this was very fun the first time?"
+    },
+    {
+      "idx": 338,
+      "start": 1034.81,
+      "end": 1035.248,
+      "text": "I don't know."
+    },
+    {
+      "idx": 339,
+      "start": 1035.248,
+      "end": 1036.73,
+      "text": "Maybe this is the first time you've seen it."
+    },
+    {
+      "idx": 340,
+      "start": 1036.93,
+      "end": 1039.17,
+      "text": "The first time I saw this, I remember thinking, that's weird."
+    },
+    {
+      "idx": 341,
+      "start": 1039.37,
+      "end": 1040.13,
+      "text": "Why is that true?"
+    },
+    {
+      "idx": 342,
+      "start": 1040.33,
+      "end": 1043.53,
+      "text": "I was but a little calculus student who maybe didn't have a deep enough"
+    },
+    {
+      "idx": 343,
+      "start": 1043.53,
+      "end": 1045.21,
+      "text": "intuition for what the whole field was."
+    },
+    {
+      "idx": 344,
+      "start": 1045.41,
+      "end": 1049.21,
+      "text": "But there's a very good reason this is true in terms of the meaning of a derivative."
+    },
+    {
+      "idx": 345,
+      "start": 1049.41,
+      "end": 1053.33,
+      "text": "So if you think of what would it mean to take the derivative of the area,"
+    },
+    {
+      "idx": 346,
+      "start": 1053.53,
+      "end": 1057.25,
+      "text": "the formula, you're kind of saying, well, suppose you were to increase that radius"
+    },
+    {
+      "idx": 347,
+      "start": 1057.45,
+      "end": 1059.93,
+      "text": "of a circle by a little amount, some little dr."
+    },
+    {
+      "idx": 348,
+      "start": 1060.13,
+      "end": 1061.89,
+      "text": "How much has that area changed?"
+    },
+    {
+      "idx": 349,
+      "start": 1062.09,
+      "end": 1065.41,
+      "text": "What is the resulting change to that area that we might call da?"
+    },
+    {
+      "idx": 350,
+      "start": 1065.61,
+      "end": 1067.73,
+      "text": "And what this is saying is approximately"
+    },
+    {
+      "idx": 351,
+      "start": 1067.93,
+      "end": 1071.69,
+      "text": "it's about the circumference of that circle times that little dr."
+    },
+    {
+      "idx": 352,
+      "start": 1071.89,
+      "end": 1076.17,
+      "text": "Now, this is wrong if you interpret dr and da as literal amounts,"
+    },
+    {
+      "idx": 353,
+      "start": 1076.37,
+      "end": 1078.49,
+      "text": "some kind of actual tiny nudge like a physicist."
+    },
+    {
+      "idx": 354,
+      "start": 1078.69,
+      "end": 1083.13,
+      "text": "But the idea is that it becomes less wrong if you let that vr get smaller and smaller."
+    },
+    {
+      "idx": 355,
+      "start": 1083.33,
+      "end": 1084.81,
+      "text": "I'm a fan of the physicist's perspective."
+    },
+    {
+      "idx": 356,
+      "start": 1084.81,
+      "end": 1086.53,
+      "text": "I don't mean that derogatory way."
+    },
+    {
+      "idx": 357,
+      "start": 1086.73,
+      "end": 1088.49,
+      "text": "I actually think it's the way we should all teach it."
+    },
+    {
+      "idx": 358,
+      "start": 1088.69,
+      "end": 1092.97,
+      "text": "But the technical meaning of this would be this is not actually an equation."
+    },
+    {
+      "idx": 359,
+      "start": 1093.17,
+      "end": 1095.17,
+      "text": "It's something that becomes less and less"
+    },
+    {
+      "idx": 360,
+      "start": 1095.37,
+      "end": 1100.05,
+      "text": "wrong as you let that little dr approach something close to zero or approach zero."
+    },
+    {
+      "idx": 361,
+      "start": 1100.25,
+      "end": 1104.73,
+      "text": "Rather than same intuition of the other way around is basically saying you could"
+    },
+    {
+      "idx": 362,
+      "start": 1104.73,
+      "end": 1108.13,
+      "text": "think of the interior of the circle as kind of integrating together a whole bunch"
+    },
+    {
+      "idx": 363,
+      "start": 1108.33,
+      "end": 1112.005,
+      "text": "And when you integrate all of those boundaries that grow proportionally"
+    },
+    {
+      "idx": 364,
+      "start": 1113.33,
+      "end": 1117.73,
+      "text": "together, you end up taking that integral looks like turning the r into r squared"
+    },
+    {
+      "idx": 365,
+      "start": 1117.93,
+      "end": 1118.967,
+      "text": "and dividing by two."
+    },
+    {
+      "idx": 366,
+      "start": 1118.967,
+      "end": 1121.61,
+      "text": "That division is going to be very important for us."
+    },
+    {
+      "idx": 367,
+      "start": 1121.81,
+      "end": 1122.57,
+      "text": "So remember it."
+    },
+    {
+      "idx": 368,
+      "start": 1122.57,
+      "end": 1124.09,
+      "text": "Same deal in three dimensions."
+    },
+    {
+      "idx": 369,
+      "start": 1124.29,
+      "end": 1126.41,
+      "text": "Just to state it all, you've got a ball."
+    },
+    {
+      "idx": 370,
+      "start": 1126.41,
+      "end": 1128.21,
+      "text": "If you were looking at its volume and you"
+    },
+    {
+      "idx": 371,
+      "start": 1128.21,
+      "end": 1131.21,
+      "text": "want to know what's the rate of change of its volume, a really nice way to think"
+    },
+    {
+      "idx": 372,
+      "start": 1131.41,
+      "end": 1135.61,
+      "text": "about that is that it is based on the surface area of that sphere."
+    },
+    {
+      "idx": 373,
+      "start": 1135.81,
+      "end": 1139.89,
+      "text": "You're saying what is the tiny change in volume caused by a tiny change to the radius?"
+    },
+    {
+      "idx": 374,
+      "start": 1140.09,
+      "end": 1143.01,
+      "text": "Well, it's about the area of that shell"
+    },
+    {
+      "idx": 375,
+      "start": 1143.01,
+      "end": 1144.231,
+      "text": "that you've given it."
+    },
+    {
+      "idx": 376,
+      "start": 1144.231,
+      "end": 1146.73,
+      "text": "Now, that's wrong, as stated with a literal"
+    },
+    {
+      "idx": 377,
+      "start": 1146.93,
+      "end": 1151.81,
+      "text": "number that you plug in for little dr, but it becomes less wrong if you let dr shrink"
+    },
+    {
+      "idx": 378,
+      "start": 1152.01,
+      "end": 1153.815,
+      "text": "and shrink and shrink closer to zero."
+    },
+    {
+      "idx": 379,
+      "start": 1153.815,
+      "end": 1156.01,
+      "text": "And then on the flip side, too, you can think"
+    },
+    {
+      "idx": 380,
+      "start": 1156.21,
+      "end": 1160.45,
+      "text": "of it by integrating together a bunch of shells and integrating the r squared turns"
+    },
+    {
+      "idx": 381,
+      "start": 1160.65,
+      "end": 1161.804,
+      "text": "into one third r cubed."
+    },
+    {
+      "idx": 382,
+      "start": 1161.804,
+      "end": 1163.41,
+      "text": "And that one third is important."
+    },
+    {
+      "idx": 383,
+      "start": 1163.41,
+      "end": 1167.08,
+      "text": "That idea that integration gives us that division is going to matter a lot."
+    },
+    {
+      "idx": 384,
+      "start": 1167.28,
+      "end": 1169.32,
+      "text": "So we know how to go up and down in this diagram."
+    },
+    {
+      "idx": 385,
+      "start": 1169.32,
+      "end": 1170.32,
+      "text": "That's the important part."
+    },
+    {
+      "idx": 386,
+      "start": 1170.32,
+      "end": 1172.76,
+      "text": "If you know something on the bottom row, you can step up."
+    },
+    {
+      "idx": 387,
+      "start": 1172.76,
+      "end": 1175.16,
+      "text": "Now, our real question is, how do we go left and right?"
+    },
+    {
+      "idx": 388,
+      "start": 1175.36,
+      "end": 1179.24,
+      "text": "And before we go in the interesting direction to all the higher dimensions,"
+    },
+    {
+      "idx": 389,
+      "start": 1179.44,
+      "end": 1183.08,
+      "text": "let's give a little love to the first dimension, because we do a lot of two"
+    },
+    {
+      "idx": 390,
+      "start": 1183.08,
+      "end": 1185.0,
+      "text": "We do a lot of three dimensional geometry."
+    },
+    {
+      "idx": 391,
+      "start": 1185.96,
+      "end": 1188.56,
+      "text": "One dimensional geometry always kind of gets the short shrift."
+    },
+    {
+      "idx": 392,
+      "start": 1188.76,
+      "end": 1190.52,
+      "text": "And maybe it's because it's a little less fun."
+    },
+    {
+      "idx": 393,
+      "start": 1190.72,
+      "end": 1195.44,
+      "text": "But take a moment to think, what should the volume of the interior of a one"
+    },
+    {
+      "idx": 394,
+      "start": 1195.64,
+      "end": 1196.963,
+      "text": "dimensional ball be?"
+    },
+    {
+      "idx": 395,
+      "start": 1196.963,
+      "end": 1199.08,
+      "text": "Anyone want to hazard an answer?"
+    },
+    {
+      "idx": 396,
+      "start": 1199.08,
+      "end": 1201.68,
+      "text": "What should the formula be for one dimensional ball?"
+    },
+    {
+      "idx": 397,
+      "start": 1202.76,
+      "end": 1204.74,
+      "text": "Should it be a constant?"
+    },
+    {
+      "idx": 398,
+      "start": 1204.94,
+      "end": 1207.39,
+      "text": "Well, it's going to be r."
+    },
+    {
+      "idx": 399,
+      "start": 1207.59,
+      "end": 1211.27,
+      "text": "It is a line, but it's not going to be constant because we want to think of with"
+    },
+    {
+      "idx": 400,
+      "start": 1211.47,
+      "end": 1212.537,
+      "text": "respect to a radius."
+    },
+    {
+      "idx": 401,
+      "start": 1212.537,
+      "end": 1214.19,
+      "text": "So as you increase that radius."
+    },
+    {
+      "idx": 402,
+      "start": 1214.39,
+      "end": 1215.83,
+      "text": "Two times r. Yeah, exactly."
+    },
+    {
+      "idx": 403,
+      "start": 1216.03,
+      "end": 1219.03,
+      "text": "Two times r. So we say, what is a ball in one dimension?"
+    },
+    {
+      "idx": 404,
+      "start": 1219.23,
+      "end": 1222.87,
+      "text": "Well, it's all the points within a distance r from some center point."
+    },
+    {
+      "idx": 405,
+      "start": 1223.07,
+      "end": 1224.51,
+      "text": "That ends up looking like a line."
+    },
+    {
+      "idx": 406,
+      "start": 1224.71,
+      "end": 1227.83,
+      "text": "And in the same way that in two dimensions, the way that we're measuring"
+    },
+    {
+      "idx": 407,
+      "start": 1228.03,
+      "end": 1230.79,
+      "text": "like volume is with area in three dimensions."
+    },
+    {
+      "idx": 408,
+      "start": 1230.99,
+      "end": 1233.15,
+      "text": "It's our normal meaning of volume down here."
+    },
+    {
+      "idx": 409,
+      "start": 1233.15,
+      "end": 1233.55,
+      "text": "What I mean by the volume is that it's a line."
+    },
+    {
+      "idx": 410,
+      "start": 1233.95,
+      "end": 1238.47,
+      "text": "The volume of a one dimensional ball using this word volume in a general sense"
+    },
+    {
+      "idx": 411,
+      "start": 1238.67,
+      "end": 1241.91,
+      "text": "across all the dimensions would just be the length and the length is two r."
+    },
+    {
+      "idx": 412,
+      "start": 1242.11,
+      "end": 1244.99,
+      "text": "And what's fun here is if we just try to blindly follow the rule of taking"
+    },
+    {
+      "idx": 413,
+      "start": 1245.19,
+      "end": 1248.11,
+      "text": "a derivative to get up top, we end up with the idea that the volume"
+    },
+    {
+      "idx": 414,
+      "start": 1248.31,
+      "end": 1253.51,
+      "text": "of the boundary of a one dimensional ball is two, which at first seems weird because"
+    },
+    {
+      "idx": 415,
+      "start": 1253.51,
+      "end": 1255.19,
+      "text": "what's the boundary of a one dimensional ball?"
+    },
+    {
+      "idx": 416,
+      "start": 1255.39,
+      "end": 1255.99,
+      "text": "We think about it."
+    },
+    {
+      "idx": 417,
+      "start": 1255.99,
+      "end": 1257.43,
+      "text": "You say, well, it's just two different points."
+    },
+    {
+      "idx": 418,
+      "start": 1257.43,
+      "end": 1259.47,
+      "text": "And what should zero dimensional volume be?"
+    },
+    {
+      "idx": 419,
+      "start": 1259.67,
+      "end": 1262.71,
+      "text": "I guess just counting those points seems as reasonable as anything."
+    },
+    {
+      "idx": 420,
+      "start": 1262.87,
+      "end": 1263.91,
+      "text": "But it follows the pattern."
+    },
+    {
+      "idx": 421,
+      "start": 1264.11,
+      "end": 1265.47,
+      "text": "So that gives us a little reassurance."
+    },
+    {
+      "idx": 422,
+      "start": 1265.51,
+      "end": 1267.79,
+      "text": "And that'll be a general theme as we move forward here."
+    },
+    {
+      "idx": 423,
+      "start": 1267.99,
+      "end": 1271.39,
+      "text": "Something that seems a little suspicious at first, but that follows the pattern"
+    },
+    {
+      "idx": 424,
+      "start": 1271.59,
+      "end": 1274.7,
+      "text": "kind of gives us a comfortable feeling in our hearts."
+    },
+    {
+      "idx": 425,
+      "start": 1274.9,
+      "end": 1277.06,
+      "text": "Now, of course, I know you want to see how we move to the right."
+    },
+    {
+      "idx": 426,
+      "start": 1277.06,
+      "end": 1278.62,
+      "text": "How do we get into those higher dimensions?"
+    },
+    {
+      "idx": 427,
+      "start": 1278.82,
+      "end": 1282.74,
+      "text": "But to get a running start at it, I want to linger a little bit on where"
+    },
+    {
+      "idx": 428,
+      "start": 1282.74,
+      "end": 1286.5,
+      "text": "exactly those three dimensional formulas are coming from, because the logic that"
+    },
+    {
+      "idx": 429,
+      "start": 1286.7,
+      "end": 1290.5,
+      "text": "gets us an understanding of, for example, the surface area of a sphere"
+    },
+    {
+      "idx": 430,
+      "start": 1290.7,
+      "end": 1293.94,
+      "text": "is going to actually carry us even farther if we think about it the right way."
+    },
+    {
+      "idx": 431,
+      "start": 1294.14,
+      "end": 1298.0,
+      "text": "So I alluded to the fact that a sphere is kind of suspicious because it's got"
+    },
+    {
+      "idx": 432,
+      "start": 1298.2,
+      "end": 1301.16,
+      "text": "this area that's exactly four times the area of a circle."
+    },
+    {
+      "idx": 433,
+      "start": 1301.36,
+      "end": 1303.64,
+      "text": "That may make you wonder, like, where does it come from?"
+    },
+    {
+      "idx": 434,
+      "start": 1303.84,
+      "end": 1305.32,
+      "text": "Why do we get such a nice formula?"
+    },
+    {
+      "idx": 435,
+      "start": 1305.52,
+      "end": 1309.72,
+      "text": "And there's a really lovely way of thinking about this surface area that dates"
+    },
+    {
+      "idx": 436,
+      "start": 1309.92,
+      "end": 1310.649,
+      "text": "a long time back."
+    },
+    {
+      "idx": 437,
+      "start": 1310.649,
+      "end": 1312.32,
+      "text": "It goes all the way back to Archimedes."
+    },
+    {
+      "idx": 438,
+      "start": 1312.52,
+      "end": 1316.8,
+      "text": "And he had this very clever idea, which was to say, we can think about the area"
+    },
+    {
+      "idx": 439,
+      "start": 1317.0,
+      "end": 1321.4,
+      "text": "of the surface of a sphere by imagining taking all these little patches on it and"
+    },
+    {
+      "idx": 440,
+      "start": 1321.6,
+      "end": 1324.16,
+      "text": "projecting them out onto a cylinder."
+    },
+    {
+      "idx": 441,
+      "start": 1324.36,
+      "end": 1326.14,
+      "text": "And it encloses that sphere."
+    },
+    {
+      "idx": 442,
+      "start": 1326.34,
+      "end": 1328.62,
+      "text": "Now, you might think this act of projecting"
+    },
+    {
+      "idx": 443,
+      "start": 1328.62,
+      "end": 1333.06,
+      "text": "and kind of warping it is going to be such a violent affair that it changes the area."
+    },
+    {
+      "idx": 444,
+      "start": 1333.26,
+      "end": 1334.74,
+      "text": "Of course, it should change the area."
+    },
+    {
+      "idx": 445,
+      "start": 1334.94,
+      "end": 1336.78,
+      "text": "But Archimedes very cleverly pointed out"
+    },
+    {
+      "idx": 446,
+      "start": 1336.98,
+      "end": 1341.18,
+      "text": "that if you think of one little rectangle of area on that sphere and you imagine"
+    },
+    {
+      "idx": 447,
+      "start": 1341.18,
+      "end": 1344.98,
+      "text": "what happens as you project it out onto that cylinder, there are two competing"
+    },
+    {
+      "idx": 448,
+      "start": 1345.18,
+      "end": 1348.406,
+      "text": "It doesn't end up the same, but what happens is it gets stretched out"
+    },
+    {
+      "idx": 449,
+      "start": 1348.98,
+      "end": 1352.54,
+      "text": "in one direction, but then because it's kind of casting a shadow of something"
+    },
+    {
+      "idx": 450,
+      "start": 1352.74,
+      "end": 1354.18,
+      "text": "at an angle, it effectively gets"
+    },
+    {
+      "idx": 451,
+      "start": 1354.34,
+      "end": 1356.7,
+      "text": "squished down in another direction."
+    },
+    {
+      "idx": 452,
+      "start": 1356.9,
+      "end": 1359.98,
+      "text": "And those two effects actually cancel each other out perfectly."
+    },
+    {
+      "idx": 453,
+      "start": 1360.18,
+      "end": 1362.46,
+      "text": "And it's not too hard to reason about why either."
+    },
+    {
+      "idx": 454,
+      "start": 1362.66,
+      "end": 1363.78,
+      "text": "So let's think about one of them."
+    },
+    {
+      "idx": 455,
+      "start": 1363.9,
+      "end": 1365.26,
+      "text": "We're going to slice open the sphere."
+    },
+    {
+      "idx": 456,
+      "start": 1365.46,
+      "end": 1367.26,
+      "text": "We're going to put some some names to things."
+    },
+    {
+      "idx": 457,
+      "start": 1367.38,
+      "end": 1371.46,
+      "text": "Let's say the radius of the whole sphere is capital R and then the distance"
+    },
+    {
+      "idx": 458,
+      "start": 1371.66,
+      "end": 1374.98,
+      "text": "between the Z axis and our specific choice of a little rectangle."
+    },
+    {
+      "idx": 459,
+      "start": 1375.18,
+      "end": 1377.56,
+      "text": "I'm going to call that little d."
+    },
+    {
+      "idx": 460,
+      "start": 1377.76,
+      "end": 1380.04,
+      "text": "How much does it get stretched out, say,"
+    },
+    {
+      "idx": 461,
+      "start": 1380.24,
+      "end": 1382.84,
+      "text": "on the bottom in terms of capital R and little d?"
+    },
+    {
+      "idx": 462,
+      "start": 1383.04,
+      "end": 1384.84,
+      "text": "And here you can draw two different"
+    },
+    {
+      "idx": 463,
+      "start": 1385.04,
+      "end": 1388.252,
+      "text": "We could think of the triangle that's isosceles and has a tip"
+    },
+    {
+      "idx": 464,
+      "start": 1389.4,
+      "end": 1394.56,
+      "text": "on that Z axis point and its base is the original base of that little rectangle."
+    },
+    {
+      "idx": 465,
+      "start": 1394.76,
+      "end": 1399.04,
+      "text": "And then you say, think of a new triangle whose base is"
+    },
+    {
+      "idx": 466,
+      "start": 1399.24,
+      "end": 1403.36,
+      "text": "the projected version of that little rectangle that was on the sphere."
+    },
+    {
+      "idx": 467,
+      "start": 1403.56,
+      "end": 1406.56,
+      "text": "And when you project it out, you're going to get a similar triangle."
+    },
+    {
+      "idx": 468,
+      "start": 1406.76,
+      "end": 1410.6,
+      "text": "And because they're similar, the ratios of all of their sides should be the same."
+    },
+    {
+      "idx": 469,
+      "start": 1410.8,
+      "end": 1414.32,
+      "text": "So in particular, we know the ratio of the long sides"
+    },
+    {
+      "idx": 470,
+      "start": 1414.32,
+      "end": 1414.88,
+      "text": "of those isosceles."
+    },
+    {
+      "idx": 471,
+      "start": 1415.08,
+      "end": 1417.0,
+      "text": "Triangles is going to be capital R to D."
+    },
+    {
+      "idx": 472,
+      "start": 1417.2,
+      "end": 1421.8,
+      "text": "So that should also be the ratio of that little side, meaning that's the factor"
+    },
+    {
+      "idx": 473,
+      "start": 1422.0,
+      "end": 1425.2,
+      "text": "by which it gets stretched out in that direction when we project."
+    },
+    {
+      "idx": 474,
+      "start": 1425.4,
+      "end": 1428.0,
+      "text": "Now, what about the other way, this competing factor?"
+    },
+    {
+      "idx": 475,
+      "start": 1428.2,
+      "end": 1430.88,
+      "text": "What's going on there is you kind of think about casting a shadow."
+    },
+    {
+      "idx": 476,
+      "start": 1431.08,
+      "end": 1435.6,
+      "text": "So the height of that rectangle looks like this diagonal line here and then it gets"
+    },
+    {
+      "idx": 477,
+      "start": 1435.8,
+      "end": 1440.4,
+      "text": "projected down onto something that is perpendicular to the direction of projection."
+    },
+    {
+      "idx": 478,
+      "start": 1440.6,
+      "end": 1442.6,
+      "text": "So how much how much does that get scaled?"
+    },
+    {
+      "idx": 479,
+      "start": 1442.8,
+      "end": 1444.36,
+      "text": "What's that factor?"
+    },
+    {
+      "idx": 480,
+      "start": 1444.56,
+      "end": 1448.44,
+      "text": "Well, you can do a nice little angle chasing argument to point out that this"
+    },
+    {
+      "idx": 481,
+      "start": 1448.64,
+      "end": 1453.12,
+      "text": "little blue right triangle that I've drawn showing us that projection factor is"
+    },
+    {
+      "idx": 482,
+      "start": 1453.32,
+      "end": 1458.04,
+      "text": "actually similar to this brown right triangle, which again has the side lengths"
+    },
+    {
+      "idx": 483,
+      "start": 1458.24,
+      "end": 1462.36,
+      "text": "little d and then a hypotenuse R. So finding that is just kind of chase some"
+    },
+    {
+      "idx": 484,
+      "start": 1462.36,
+      "end": 1466.12,
+      "text": "angles, see what has to be equal, and you end up deducing that these have to be the same."
+    },
+    {
+      "idx": 485,
+      "start": 1466.32,
+      "end": 1469.0,
+      "text": "And what that ends up telling you is the factor by which it gets squished down"
+    },
+    {
+      "idx": 486,
+      "start": 1469.2,
+      "end": 1472.36,
+      "text": "in the other direction is that same R divided by D."
+    },
+    {
+      "idx": 487,
+      "start": 1472.56,
+      "end": 1474.32,
+      "text": "So when you do this to all"
+    },
+    {
+      "idx": 488,
+      "start": 1474.52,
+      "end": 1477.44,
+      "text": "your little rectangles, each one of them is getting stretched in one direction,"
+    },
+    {
+      "idx": 489,
+      "start": 1477.44,
+      "end": 1478.356,
+      "text": "squished in another."
+    },
+    {
+      "idx": 490,
+      "start": 1478.356,
+      "end": 1480.28,
+      "text": "But the idea is that it's area preserving."
+    },
+    {
+      "idx": 491,
+      "start": 1480.28,
+      "end": 1483.88,
+      "text": "And because it's area preserving, we just have to ask the area of the cylinder,"
+    },
+    {
+      "idx": 492,
+      "start": 1484.08,
+      "end": 1487.8,
+      "text": "which is a lot easier because with the cylinder you can just unwrap it."
+    },
+    {
+      "idx": 493,
+      "start": 1488.0,
+      "end": 1491.0,
+      "text": "You can basically imagine, you know, slicing it like a piece of paper,"
+    },
+    {
+      "idx": 494,
+      "start": 1491.2,
+      "end": 1495.64,
+      "text": "unwrapping it, and you get a rectangle where one edge of that rectangle came"
+    },
+    {
+      "idx": 495,
+      "start": 1495.84,
+      "end": 1498.88,
+      "text": "from the circumference of that sphere, which would be 2 pi R."
+    },
+    {
+      "idx": 496,
+      "start": 1499.08,
+      "end": 1502.36,
+      "text": "And then the other edge just came from the height on that z-axis, the 2 times R."
+    },
+    {
+      "idx": 497,
+      "start": 1502.56,
+      "end": 1504.28,
+      "text": "When you multiply those together,"
+    },
+    {
+      "idx": 498,
+      "start": 1504.52,
+      "end": 1506.76,
+      "text": "you get yourself that 4 pi R squared."
+    },
+    {
+      "idx": 499,
+      "start": 1506.96,
+      "end": 1509.0,
+      "text": "So that's where that formula comes from,"
+    },
+    {
+      "idx": 500,
+      "start": 1509.0,
+      "end": 1511.48,
+      "text": "or at least one way of seeing where that formula comes from."
+    },
+    {
+      "idx": 501,
+      "start": 1511.68,
+      "end": 1514.08,
+      "text": "And then, like I said, if you're at one row of this diagram,"
+    },
+    {
+      "idx": 502,
+      "start": 1514.08,
+      "end": 1517.28,
+      "text": "you can just take derivatives and integrals to get yourself up and down."
+    },
+    {
+      "idx": 503,
+      "start": 1517.48,
+      "end": 1521.32,
+      "text": "So knowing the surface area is enough to give you the boundary on the inside."
+    },
+    {
+      "idx": 504,
+      "start": 1521.52,
+      "end": 1523.19,
+      "text": "Now, here's the key question."
+    },
+    {
+      "idx": 505,
+      "start": 1523.19,
+      "end": 1525.19,
+      "text": "This is a very clever thing that Archimedes did."
+    },
+    {
+      "idx": 506,
+      "start": 1525.19,
+      "end": 1528.39,
+      "text": "I don't know if Archimedes ever took a moment to think about four dimensional"
+    },
+    {
+      "idx": 507,
+      "start": 1528.59,
+      "end": 1533.47,
+      "text": "balls or five dimensional balls, but if he ever did, I have to imagine he might have"
+    },
+    {
+      "idx": 508,
+      "start": 1533.59,
+      "end": 1536.95,
+      "text": "wondered, is there some way I could generalize that really nice argument to"
+    },
+    {
+      "idx": 509,
+      "start": 1537.15,
+      "end": 1540.15,
+      "text": "talk about the boundary of a three dimensional ball and how to measure it?"
+    },
+    {
+      "idx": 510,
+      "start": 1540.35,
+      "end": 1542.2,
+      "text": "How do I generalize that?"
+    },
+    {
+      "idx": 511,
+      "start": 1542.4,
+      "end": 1545.08,
+      "text": "And I want you to think about this for a moment, because this is really the crux"
+    },
+    {
+      "idx": 512,
+      "start": 1545.08,
+      "end": 1548.24,
+      "text": "of everything we're going to talk about today, is taking this clever Archimedean"
+    },
+    {
+      "idx": 513,
+      "start": 1548.44,
+      "end": 1553.16,
+      "text": "idea, but somehow using it to let us take rightward steps in our diagram."
+    },
+    {
+      "idx": 514,
+      "start": 1553.36,
+      "end": 1556.12,
+      "text": "And what I want to convince you of is that kind of the right way to think about what"
+    },
+    {
+      "idx": 515,
+      "start": 1556.32,
+      "end": 1560.6,
+      "text": "Archimedes was really doing is that he was making a knight's move in this."
+    },
+    {
+      "idx": 516,
+      "start": 1560.8,
+      "end": 1562.444,
+      "text": "Might sound a little bit weird."
+    },
+    {
+      "idx": 517,
+      "start": 1562.444,
+      "end": 1563.24,
+      "text": "Let me explain."
+    },
+    {
+      "idx": 518,
+      "start": 1564.08,
+      "end": 1567.48,
+      "text": "So it's a knight's move where you might think of it combined with that 2 pi r factor."
+    },
+    {
+      "idx": 519,
+      "start": 1567.68,
+      "end": 1571.0,
+      "text": "Because if we think of that unwrapped cylinder and we say, where did those two"
+    },
+    {
+      "idx": 520,
+      "start": 1571.0,
+      "end": 1571.987,
+      "text": "side lengths come from?"
+    },
+    {
+      "idx": 521,
+      "start": 1571.987,
+      "end": 1573.36,
+      "text": "We were multiplying two amounts."
+    },
+    {
+      "idx": 522,
+      "start": 1573.56,
+      "end": 1574.76,
+      "text": "Where did they come from?"
+    },
+    {
+      "idx": 523,
+      "start": 1574.96,
+      "end": 1578.76,
+      "text": "One of them at the top came from the boundary of a two dimensional ball."
+    },
+    {
+      "idx": 524,
+      "start": 1578.96,
+      "end": 1579.998,
+      "text": "That is a circle."
+    },
+    {
+      "idx": 525,
+      "start": 1579.998,
+      "end": 1581.28,
+      "text": "That was your 2 pi r."
+    },
+    {
+      "idx": 526,
+      "start": 1581.48,
+      "end": 1583.04,
+      "text": "And even though initially it might just"
+    },
+    {
+      "idx": 527,
+      "start": 1583.04,
+      "end": 1586.08,
+      "text": "look like, oh, that other side, it was a line because it started off as a line."
+    },
+    {
+      "idx": 528,
+      "start": 1586.28,
+      "end": 1589.28,
+      "text": "I want to try to convince you the right way to think about that other side is"
+    },
+    {
+      "idx": 529,
+      "start": 1589.28,
+      "end": 1590.857,
+      "text": "that it's a one dimensional ball."
+    },
+    {
+      "idx": 530,
+      "start": 1590.857,
+      "end": 1592.96,
+      "text": "It's the interior of a one dimensional ball."
+    },
+    {
+      "idx": 531,
+      "start": 1593.16,
+      "end": 1594.0,
+      "text": "And here's what I mean."
+    },
+    {
+      "idx": 532,
+      "start": 1594.2,
+      "end": 1596.23,
+      "text": "So we're thinking about a three dimensional sphere."
+    },
+    {
+      "idx": 533,
+      "start": 1596.43,
+      "end": 1597.55,
+      "text": "What is that?"
+    },
+    {
+      "idx": 534,
+      "start": 1597.75,
+      "end": 1600.43,
+      "text": "What does it mean to be on the boundary of a three dimensional sphere?"
+    },
+    {
+      "idx": 535,
+      "start": 1600.63,
+      "end": 1606.63,
+      "text": "Well, really, in terms of coordinates, it means you take three numbers, x, y and z."
+    },
+    {
+      "idx": 536,
+      "start": 1606.83,
+      "end": 1610.03,
+      "text": "And as long as the sum of the squares of those numbers is one,"
+    },
+    {
+      "idx": 537,
+      "start": 1610.03,
+      "end": 1612.23,
+      "text": "that's what it means to be on the boundary of a sphere."
+    },
+    {
+      "idx": 538,
+      "start": 1612.43,
+      "end": 1614.31,
+      "text": "Now, suppose I ask you, hey,"
+    },
+    {
+      "idx": 539,
+      "start": 1614.51,
+      "end": 1617.15,
+      "text": "I would like you to give me a point on the boundary of a sphere."
+    },
+    {
+      "idx": 540,
+      "start": 1617.35,
+      "end": 1619.71,
+      "text": "One way you could do that, it's kind of a weird way,"
+    },
+    {
+      "idx": 541,
+      "start": 1619.71,
+      "end": 1622.95,
+      "text": "but one way you could do it is to say, first, I'm going to choose my z value."
+    },
+    {
+      "idx": 542,
+      "start": 1623.15,
+      "end": 1623.95,
+      "text": "And as long as z"
+    },
+    {
+      "idx": 543,
+      "start": 1624.15,
+      "end": 1626.59,
+      "text": "squared is less than or equal to one, I'm going to be safe."
+    },
+    {
+      "idx": 544,
+      "start": 1626.63,
+      "end": 1629.55,
+      "text": "That's going to give me enough room to find an x squared and a y squared."
+    },
+    {
+      "idx": 545,
+      "start": 1629.75,
+      "end": 1632.11,
+      "text": "And then after choosing a value for z,"
+    },
+    {
+      "idx": 546,
+      "start": 1632.31,
+      "end": 1635.07,
+      "text": "you have a circle's worth of options for x squared and y squared."
+    },
+    {
+      "idx": 547,
+      "start": 1635.27,
+      "end": 1636.55,
+      "text": "That's going to be everything"
+    },
+    {
+      "idx": 548,
+      "start": 1636.75,
+      "end": 1640.81,
+      "text": "such that the sum of those squares is one minus whatever z squared was."
+    },
+    {
+      "idx": 549,
+      "start": 1641.01,
+      "end": 1642.77,
+      "text": "Now, usually you couldn't use this kind"
+    },
+    {
+      "idx": 550,
+      "start": 1642.97,
+      "end": 1647.05,
+      "text": "of breakdown to make a nice surface area calculation because there's this"
+    },
+    {
+      "idx": 551,
+      "start": 1647.25,
+      "end": 1651.93,
+      "text": "dependence where the size of that value z is influencing the size"
+    },
+    {
+      "idx": 552,
+      "start": 1651.93,
+      "end": 1653.69,
+      "text": "of the circle of options that remains."
+    },
+    {
+      "idx": 553,
+      "start": 1653.69,
+      "end": 1658.57,
+      "text": "So you can't just take the length of that line on the z-axis and then multiply it"
+    },
+    {
+      "idx": 554,
+      "start": 1658.57,
+      "end": 1661.17,
+      "text": "by the size of that circle because that circle is changing size."
+    },
+    {
+      "idx": 555,
+      "start": 1661.37,
+      "end": 1662.77,
+      "text": "And it's actually really not obvious,"
+    },
+    {
+      "idx": 556,
+      "start": 1662.77,
+      "end": 1666.09,
+      "text": "even if you're savvy with multivariable calculus and you want to set this all up"
+    },
+    {
+      "idx": 557,
+      "start": 1666.29,
+      "end": 1669.29,
+      "text": "and sign this away, it's really not obvious how you can get"
+    },
+    {
+      "idx": 558,
+      "start": 1669.49,
+      "end": 1671.53,
+      "text": "those two numbers to relate to each other."
+    },
+    {
+      "idx": 559,
+      "start": 1671.73,
+      "end": 1676.21,
+      "text": "But the core point of the Archimedean idea was to basically say,"
+    },
+    {
+      "idx": 560,
+      "start": 1676.41,
+      "end": 1677.45,
+      "text": "you don't have to do that."
+    },
+    {
+      "idx": 561,
+      "start": 1677.65,
+      "end": 1678.97,
+      "text": "Now, before I draw that, actually,"
+    },
+    {
+      "idx": 562,
+      "start": 1678.97,
+      "end": 1682.89,
+      "text": "I want to take the same diagram we're kind of moving the z squared and we're letting"
+    },
+    {
+      "idx": 563,
+      "start": 1682.89,
+      "end": 1683.61,
+      "text": "that influence x and y."
+    },
+    {
+      "idx": 564,
+      "start": 1683.81,
+      "end": 1685.81,
+      "text": "But I want to show the same animation"
+    },
+    {
+      "idx": 565,
+      "start": 1685.81,
+      "end": 1688.25,
+      "text": "in a way that's going to generalize to the four dimensional case."
+    },
+    {
+      "idx": 566,
+      "start": 1688.45,
+      "end": 1691.25,
+      "text": "So it's not going to rely on me drawing that three dimensional picture."
+    },
+    {
+      "idx": 567,
+      "start": 1691.45,
+      "end": 1695.81,
+      "text": "Basically, as you move z farther away from zero, it constricts that circle."
+    },
+    {
+      "idx": 568,
+      "start": 1696.01,
+      "end": 1698.05,
+      "text": "And you have this dependence between what"
+    },
+    {
+      "idx": 569,
+      "start": 1698.25,
+      "end": 1701.57,
+      "text": "z you happened to choose and the circle's worth of options left over."
+    },
+    {
+      "idx": 570,
+      "start": 1701.77,
+      "end": 1704.84,
+      "text": "Okay, so what did Archimedes do, basically?"
+    },
+    {
+      "idx": 571,
+      "start": 1705.04,
+      "end": 1709.6,
+      "text": "He said, well, it's actually going to be the same as if there was no dependence."
+    },
+    {
+      "idx": 572,
+      "start": 1709.6,
+      "end": 1712.92,
+      "text": "As if you took those circles worth of options and you just projected it out so"
+    },
+    {
+      "idx": 573,
+      "start": 1712.92,
+      "end": 1717.72,
+      "text": "at all different values of z, it happened to be a unit circle."
+    },
+    {
+      "idx": 574,
+      "start": 1717.92,
+      "end": 1719.52,
+      "text": "That's what we mean by a cylinder."
+    },
+    {
+      "idx": 575,
+      "start": 1719.72,
+      "end": 1722.0,
+      "text": "If you are comfortable with the language of set theory,"
+    },
+    {
+      "idx": 576,
+      "start": 1722.2,
+      "end": 1726.64,
+      "text": "you could say that cylinder is a Cartesian product between the line segment and then"
+    },
+    {
+      "idx": 577,
+      "start": 1726.84,
+      "end": 1729.301,
+      "text": "And the really nice thing about taking a product like that,"
+    },
+    {
+      "idx": 578,
+      "start": 1729.96,
+      "end": 1733.2,
+      "text": "where what's happening on one of those sets is just completely independent"
+    },
+    {
+      "idx": 579,
+      "start": 1733.2,
+      "end": 1735.88,
+      "text": "from the other one, is if you want to calculate the area,"
+    },
+    {
+      "idx": 580,
+      "start": 1735.88,
+      "end": 1740.55,
+      "text": "in this case, you can just multiply those two numbers because of that independence."
+    },
+    {
+      "idx": 581,
+      "start": 1740.75,
+      "end": 1743.23,
+      "text": "So that's what I mean by taking a Knight's move here,"
+    },
+    {
+      "idx": 582,
+      "start": 1743.35,
+      "end": 1747.03,
+      "text": "is that if we're taking that interior of a one-dimensional ball and each one is"
+    },
+    {
+      "idx": 583,
+      "start": 1747.03,
+      "end": 1750.07,
+      "text": "kind of getting turned into a circle, projected out, and because of this"
+    },
+    {
+      "idx": 584,
+      "start": 1750.27,
+      "end": 1754.63,
+      "text": "Archimedean idea, it's independent enough that we're safe to just multiply those numbers."
+    },
+    {
+      "idx": 585,
+      "start": 1754.83,
+      "end": 1757.87,
+      "text": "Now, what's this going to look like in four dimensions?"
+    },
+    {
+      "idx": 586,
+      "start": 1758.07,
+      "end": 1759.59,
+      "text": "Okay, so we're going to give some notation here."
+    },
+    {
+      "idx": 587,
+      "start": 1759.79,
+      "end": 1762.27,
+      "text": "We could say the boundary of a three-dimensional ball looks like the"
+    },
+    {
+      "idx": 588,
+      "start": 1762.47,
+      "end": 1765.87,
+      "text": "interior of a one-dimensional ball times the boundary of a two-dimensional ball."
+    },
+    {
+      "idx": 589,
+      "start": 1766.07,
+      "end": 1766.945,
+      "text": "Just a circle."
+    },
+    {
+      "idx": 590,
+      "start": 1766.945,
+      "end": 1768.07,
+      "text": "Okay, I take that."
+    },
+    {
+      "idx": 591,
+      "start": 1768.23,
+      "end": 1770.03,
+      "text": "Here's what it looks like in four dimensions."
+    },
+    {
+      "idx": 592,
+      "start": 1770.23,
+      "end": 1773.03,
+      "text": "We're going to say the boundary of a four-dimensional ball is"
+    },
+    {
+      "idx": 593,
+      "start": 1773.31,
+      "end": 1776.87,
+      "text": "going to look like multiplying the area of the interior of a two-dimensional ball"
+    },
+    {
+      "idx": 594,
+      "start": 1777.07,
+      "end": 1777.947,
+      "text": "by a circle again."
+    },
+    {
+      "idx": 595,
+      "start": 1777.947,
+      "end": 1780.43,
+      "text": "And again, let's think in terms of the coordinates."
+    },
+    {
+      "idx": 596,
+      "start": 1780.43,
+      "end": 1781.39,
+      "text": "Why does this make sense?"
+    },
+    {
+      "idx": 597,
+      "start": 1781.59,
+      "end": 1784.11,
+      "text": "What do we mean by the boundary of a four-dimensional ball?"
+    },
+    {
+      "idx": 598,
+      "start": 1784.31,
+      "end": 1788.15,
+      "text": "Well, we mean all the points x, y, z, w, got four coordinates now,"
+    },
+    {
+      "idx": 599,
+      "start": 1788.35,
+      "end": 1790.51,
+      "text": "where you add up their squares and you equal one."
+    },
+    {
+      "idx": 600,
+      "start": 1790.71,
+      "end": 1795.15,
+      "text": "One way you could think to make a choice for such a point on that boundary is"
+    },
+    {
+      "idx": 601,
+      "start": 1795.35,
+      "end": 1797.79,
+      "text": "to say, first, I'm going to choose a z and a w."
+    },
+    {
+      "idx": 602,
+      "start": 1797.99,
+      "end": 1800.91,
+      "text": "And if they're going to give me a valid option, all I need is that the sum"
+    },
+    {
+      "idx": 603,
+      "start": 1800.91,
+      "end": 1802.39,
+      "text": "of their squares is less than equal to one."
+    },
+    {
+      "idx": 604,
+      "start": 1802.59,
+      "end": 1803.27,
+      "text": "If that's the case,"
+    },
+    {
+      "idx": 605,
+      "start": 1803.47,
+      "end": 1806.07,
+      "text": "I'll be safe, I'll have some choice for my x and y."
+    },
+    {
+      "idx": 606,
+      "start": 1806.27,
+      "end": 1809.35,
+      "text": "And then after that, that leaves you with a circle's worth of options,"
+    },
+    {
+      "idx": 607,
+      "start": 1809.55,
+      "end": 1813.31,
+      "text": "some x squared plus y squared that would have to equal this thing that depends"
+    },
+    {
+      "idx": 608,
+      "start": 1813.51,
+      "end": 1816.95,
+      "text": "on z and w. And initially that would mean you can't"
+    },
+    {
+      "idx": 609,
+      "start": 1817.15,
+      "end": 1819.91,
+      "text": "just naively multiply these because of that dependence."
+    },
+    {
+      "idx": 610,
+      "start": 1820.11,
+      "end": 1823.35,
+      "text": "So the equivalent of the animation we had earlier would be basically saying,"
+    },
+    {
+      "idx": 611,
+      "start": 1823.55,
+      "end": 1826.39,
+      "text": "if the choice of z and w was farther away from the origin,"
+    },
+    {
+      "idx": 612,
+      "start": 1826.59,
+      "end": 1829.35,
+      "text": "that constricts the circle's worth of options you have left over."
+    },
+    {
+      "idx": 613,
+      "start": 1829.55,
+      "end": 1833.11,
+      "text": "And in general, it's very non-trivial to use this kind of relationship"
+    },
+    {
+      "idx": 614,
+      "start": 1833.31,
+      "end": 1836.99,
+      "text": "to somehow say, how am I going to figure out the volume"
+    },
+    {
+      "idx": 615,
+      "start": 1837.19,
+      "end": 1840.43,
+      "text": "of the boundary of this four dimensional ball using this breakdown?"
+    },
+    {
+      "idx": 616,
+      "start": 1840.63,
+      "end": 1843.43,
+      "text": "But the clever thing is that that same Archimedean idea,"
+    },
+    {
+      "idx": 617,
+      "start": 1843.63,
+      "end": 1848.15,
+      "text": "where you take various points with a constant z value and you project them"
+    },
+    {
+      "idx": 618,
+      "start": 1848.35,
+      "end": 1851.27,
+      "text": "out onto a cylinder, the same logic ends up holding."
+    },
+    {
+      "idx": 619,
+      "start": 1851.47,
+      "end": 1853.75,
+      "text": "But in this case, instead of a constant z value,"
+    },
+    {
+      "idx": 620,
+      "start": 1853.95,
+      "end": 1858.39,
+      "text": "you'd be choosing constant z and w, but you still take that x y's worth"
+    },
+    {
+      "idx": 621,
+      "start": 1858.59,
+      "end": 1861.51,
+      "text": "of options and project them out onto something with radius one."
+    },
+    {
+      "idx": 622,
+      "start": 1861.71,
+      "end": 1863.07,
+      "text": "You'll still have the same effect where"
+    },
+    {
+      "idx": 623,
+      "start": 1863.07,
+      "end": 1866.39,
+      "text": "that stretches things in one direction, but it squishes things in another."
+    },
+    {
+      "idx": 624,
+      "start": 1866.59,
+      "end": 1869.84,
+      "text": "And the ratios work out that those perfectly cancel each other out."
+    },
+    {
+      "idx": 625,
+      "start": 1870.04,
+      "end": 1873.8,
+      "text": "And in terms of what we have on screen here, what that basically means is we can"
+    },
+    {
+      "idx": 626,
+      "start": 1874.0,
+      "end": 1876.92,
+      "text": "pretend like there is no dependence on z and w."
+    },
+    {
+      "idx": 627,
+      "start": 1877.12,
+      "end": 1882.04,
+      "text": "As far as a volume calculation is concerned, we can just take that interior"
+    },
+    {
+      "idx": 628,
+      "start": 1882.24,
+      "end": 1886.24,
+      "text": "of the circle and then multiply it by the boundary of the circle."
+    },
+    {
+      "idx": 629,
+      "start": 1886.44,
+      "end": 1890.84,
+      "text": "And this is very bizarre for me to think about because the product of the interior"
+    },
+    {
+      "idx": 630,
+      "start": 1890.84,
+      "end": 1893.0,
+      "text": "of a circle and a circle like this is going to be a solid"
+    },
+    {
+      "idx": 631,
+      "start": 1893.2,
+      "end": 1897.474,
+      "text": "So whereas Archimedes was projecting onto a cylinder, somehow the four"
+    },
+    {
+      "idx": 632,
+      "start": 1897.84,
+      "end": 1901.36,
+      "text": "dimensional version of Archimedes would be imagining projecting his hypersphere"
+    },
+    {
+      "idx": 633,
+      "start": 1901.56,
+      "end": 1903.706,
+      "text": "onto a donut that encloses the sphere."
+    },
+    {
+      "idx": 634,
+      "start": 1903.706,
+      "end": 1905.4,
+      "text": "I can't visualize that either."
+    },
+    {
+      "idx": 635,
+      "start": 1905.6,
+      "end": 1909.04,
+      "text": "But we can do the analysis to say this must be what's going on."
+    },
+    {
+      "idx": 636,
+      "start": 1909.24,
+      "end": 1911.52,
+      "text": "So in our diagram, we're making another Knight's move."
+    },
+    {
+      "idx": 637,
+      "start": 1911.64,
+      "end": 1913.56,
+      "text": "But this time we're shifting everything over."
+    },
+    {
+      "idx": 638,
+      "start": 1913.76,
+      "end": 1917.48,
+      "text": "What is the volume of the boundary of a four dimensional sphere?"
+    },
+    {
+      "idx": 639,
+      "start": 1917.68,
+      "end": 1919.68,
+      "text": "Well, we're going to take that pi r squared."
+    },
+    {
+      "idx": 640,
+      "start": 1919.88,
+      "end": 1922.68,
+      "text": "We multiply it by the two pi or two pi r,"
+    },
+    {
+      "idx": 641,
+      "start": 1923.16,
+      "end": 1924.31,
+      "text": "and there we go."
+    },
+    {
+      "idx": 642,
+      "start": 1924.31,
+      "end": 1928.84,
+      "text": "Evidently, that volume looks like two pi squared times r cubed."
+    },
+    {
+      "idx": 643,
+      "start": 1929.04,
+      "end": 1932.44,
+      "text": "This is kind of fun because we picked up another factor of pi."
+    },
+    {
+      "idx": 644,
+      "start": 1932.64,
+      "end": 1934.04,
+      "text": "Maybe you weren't expecting that."
+    },
+    {
+      "idx": 645,
+      "start": 1934.24,
+      "end": 1937.84,
+      "text": "And again, once you have something in one column of this diagram,"
+    },
+    {
+      "idx": 646,
+      "start": 1938.04,
+      "end": 1940.32,
+      "text": "you just take derivatives and integrals to go up and down."
+    },
+    {
+      "idx": 647,
+      "start": 1940.52,
+      "end": 1943.04,
+      "text": "So if we want to know the volume or rather"
+    },
+    {
+      "idx": 648,
+      "start": 1943.24,
+      "end": 1946.48,
+      "text": "the four dimensional equivalent of volume of a hypersphere,"
+    },
+    {
+      "idx": 649,
+      "start": 1946.68,
+      "end": 1948.841,
+      "text": "you just take an integral to go down."
+    },
+    {
+      "idx": 650,
+      "start": 1948.841,
+      "end": 1949.6,
+      "text": "In this case,"
+    },
+    {
+      "idx": 651,
+      "start": 1949.6,
+      "end": 1952.96,
+      "text": "integrating r cubed looks like turning it into an r to the fourth and then"
+    },
+    {
+      "idx": 652,
+      "start": 1953.16,
+      "end": 1954.107,
+      "text": "dividing by four."
+    },
+    {
+      "idx": 653,
+      "start": 1954.107,
+      "end": 1956.28,
+      "text": "So as far as the constant is concerned,"
+    },
+    {
+      "idx": 654,
+      "start": 1956.48,
+      "end": 1958.76,
+      "text": "what we've done here is basically divided by four."
+    },
+    {
+      "idx": 655,
+      "start": 1958.96,
+      "end": 1961.55,
+      "text": "Again, that division is going to be very important."
+    },
+    {
+      "idx": 656,
+      "start": 1961.75,
+      "end": 1965.23,
+      "text": "And so we end up with this conclusion where evidently the volume of a four"
+    },
+    {
+      "idx": 657,
+      "start": 1965.43,
+      "end": 1968.91,
+      "text": "dimensional ball looks like pi squared over two times r to the fourth."
+    },
+    {
+      "idx": 658,
+      "start": 1969.11,
+      "end": 1970.138,
+      "text": "Now that's very pretty."
+    },
+    {
+      "idx": 659,
+      "start": 1970.138,
+      "end": 1971.39,
+      "text": "It's kind of a nice formula."
+    },
+    {
+      "idx": 660,
+      "start": 1971.59,
+      "end": 1973.35,
+      "text": "And maybe you don't believe me."
+    },
+    {
+      "idx": 661,
+      "start": 1973.55,
+      "end": 1977.15,
+      "text": "Maybe you think, I don't know, Grant, you're pulling the wool over my eyes"
+    },
+    {
+      "idx": 662,
+      "start": 1977.35,
+      "end": 1978.202,
+      "text": "in some way here."
+    },
+    {
+      "idx": 663,
+      "start": 1978.202,
+      "end": 1981.71,
+      "text": "Like, I don't know if that Archimedean trick really necessarily works."
+    },
+    {
+      "idx": 664,
+      "start": 1981.71,
+      "end": 1982.91,
+      "text": "Maybe you're skeptical about the"
+    },
+    {
+      "idx": 665,
+      "start": 1983.39,
+      "end": 1986.914,
+      "text": "But I want to emphasize again, this is not just we claim it and we hand"
+    },
+    {
+      "idx": 666,
+      "start": 1987.51,
+      "end": 1988.498,
+      "text": "it down from on high."
+    },
+    {
+      "idx": 667,
+      "start": 1988.498,
+      "end": 1989.91,
+      "text": "This is an empirical question."
+    },
+    {
+      "idx": 668,
+      "start": 1990.11,
+      "end": 1993.07,
+      "text": "If you want to test whether this is true, whether you've done your math right,"
+    },
+    {
+      "idx": 669,
+      "start": 1993.27,
+      "end": 1996.39,
+      "text": "this wouldn't be a proof, but you could just go and run a simulation."
+    },
+    {
+      "idx": 670,
+      "start": 1996.39,
+      "end": 1999.19,
+      "text": "You can ask that probability question we had at the start."
+    },
+    {
+      "idx": 671,
+      "start": 1999.39,
+      "end": 2001.35,
+      "text": "Go type up some whatever your favorite"
+    },
+    {
+      "idx": 672,
+      "start": 2001.35,
+      "end": 2003.95,
+      "text": "programming language is, you have to choose four random numbers"
+    },
+    {
+      "idx": 673,
+      "start": 2004.15,
+      "end": 2007.03,
+      "text": "between negative one and one, you add up their squares and you just"
+    },
+    {
+      "idx": 674,
+      "start": 2007.23,
+      "end": 2012.51,
+      "text": "sample when do and don't the sum of those squares end up bigger or smaller than one."
+    },
+    {
+      "idx": 675,
+      "start": 2012.51,
+      "end": 2016.83,
+      "text": "And what you'll find is the numerical answer to that ends up lining up very,"
+    },
+    {
+      "idx": 676,
+      "start": 2017.03,
+      "end": 2021.39,
+      "text": "very closely the bigger your simulation is with the formula that I just gave you."
+    },
+    {
+      "idx": 677,
+      "start": 2021.59,
+      "end": 2024.43,
+      "text": "That nice, beautiful pi squared divided by two."
+    },
+    {
+      "idx": 678,
+      "start": 2024.63,
+      "end": 2025.47,
+      "text": "So that's fun."
+    },
+    {
+      "idx": 679,
+      "start": 2025.47,
+      "end": 2027.15,
+      "text": "And it's also generalizable."
+    },
+    {
+      "idx": 680,
+      "start": 2027.15,
+      "end": 2028.23,
+      "text": "We could just keep going."
+    },
+    {
+      "idx": 681,
+      "start": 2028.43,
+      "end": 2032.03,
+      "text": "We can make that same Knight's move if we want to go up to the fifth dimension."
+    },
+    {
+      "idx": 682,
+      "start": 2032.23,
+      "end": 2034.91,
+      "text": "And just to spell it all out, what this is going to end up looking like."
+    },
+    {
+      "idx": 683,
+      "start": 2034.91,
+      "end": 2037.59,
+      "text": "I won't do this for every single one of them because, boy, are we stretching what"
+    },
+    {
+      "idx": 684,
+      "start": 2037.59,
+      "end": 2039.71,
+      "text": "we can even draw in pictures on the screen now."
+    },
+    {
+      "idx": 685,
+      "start": 2039.91,
+      "end": 2042.31,
+      "text": "But we're going to say the boundary of a five dimensional ball"
+    },
+    {
+      "idx": 686,
+      "start": 2042.51,
+      "end": 2047.59,
+      "text": "is in some sense thought of as a product between the interior of one"
+    },
+    {
+      "idx": 687,
+      "start": 2047.79,
+      "end": 2051.03,
+      "text": "in three dimensions, a solid three dimensional ball and a circle."
+    },
+    {
+      "idx": 688,
+      "start": 2051.23,
+      "end": 2055.83,
+      "text": "And what I actually mean by that is if you choose a point on that boundary,"
+    },
+    {
+      "idx": 689,
+      "start": 2056.03,
+      "end": 2059.07,
+      "text": "well, what you mean is choosing five numbers where the sum of the squares"
+    },
+    {
+      "idx": 690,
+      "start": 2059.27,
+      "end": 2061.073,
+      "text": "of those numbers is equal to one."
+    },
+    {
+      "idx": 691,
+      "start": 2061.073,
+      "end": 2063.15,
+      "text": "And you could think of that as saying,"
+    },
+    {
+      "idx": 692,
+      "start": 2063.35,
+      "end": 2066.75,
+      "text": "first, I'm going to choose three of those numbers and I'm safe to do that as long"
+    },
+    {
+      "idx": 693,
+      "start": 2066.75,
+      "end": 2069.91,
+      "text": "as the sum of their squares is less than one, meaning point inside a three"
+    },
+    {
+      "idx": 694,
+      "start": 2069.91,
+      "end": 2072.51,
+      "text": "dimensional ball and I have a circle's worth of options left."
+    },
+    {
+      "idx": 695,
+      "start": 2072.71,
+      "end": 2076.59,
+      "text": "And this is a tongue in cheek equation."
+    },
+    {
+      "idx": 696,
+      "start": 2076.59,
+      "end": 2079.87,
+      "text": "It's not the case that the boundary of the ball is literally like a product,"
+    },
+    {
+      "idx": 697,
+      "start": 2080.07,
+      "end": 2083.35,
+      "text": "a Cartesian product between your interior of a ball and a circle."
+    },
+    {
+      "idx": 698,
+      "start": 2083.55,
+      "end": 2087.99,
+      "text": "But what I'm saying is there's a volume preserving move that takes you from that"
+    },
+    {
+      "idx": 699,
+      "start": 2088.19,
+      "end": 2092.19,
+      "text": "boundary of a five dimensional ball onto the thing that literally is that Cartesian"
+    },
+    {
+      "idx": 700,
+      "start": 2092.39,
+      "end": 2094.223,
+      "text": "So we might as well think of it as being"
+    },
+    {
+      "idx": 701,
+      "start": 2094.59,
+      "end": 2097.87,
+      "text": "that as far as volume calculations are concerned, which is very fun."
+    },
+    {
+      "idx": 702,
+      "start": 2098.07,
+      "end": 2101.47,
+      "text": "Now, in terms of our diagram, all that means is to make this Knight's move."
+    },
+    {
+      "idx": 703,
+      "start": 2101.47,
+      "end": 2102.51,
+      "text": "You do the same thing."
+    },
+    {
+      "idx": 704,
+      "start": 2102.51,
+      "end": 2104.07,
+      "text": "You multiply by two pi r."
+    },
+    {
+      "idx": 705,
+      "start": 2104.27,
+      "end": 2108.76,
+      "text": "And sometimes people ask, why are you staying constant at that two pi r?"
+    },
+    {
+      "idx": 706,
+      "start": 2108.96,
+      "end": 2110.2,
+      "text": "Everything else is moving over."
+    },
+    {
+      "idx": 707,
+      "start": 2110.2,
+      "end": 2111.36,
+      "text": "Why does that one stay fixed?"
+    },
+    {
+      "idx": 708,
+      "start": 2111.56,
+      "end": 2113.36,
+      "text": "And the basic idea is that when you're"
+    },
+    {
+      "idx": 709,
+      "start": 2113.56,
+      "end": 2116.92,
+      "text": "making this Archimedean move where you want to project out,"
+    },
+    {
+      "idx": 710,
+      "start": 2117.12,
+      "end": 2121.08,
+      "text": "it's important that you have two distinct actions that are canceling each other out."
+    },
+    {
+      "idx": 711,
+      "start": 2121.08,
+      "end": 2124.6,
+      "text": "One that's stretching in one direction and the other one which is casting a shadow."
+    },
+    {
+      "idx": 712,
+      "start": 2124.8,
+      "end": 2126.92,
+      "text": "So if you tried to break down your choice"
+    },
+    {
+      "idx": 713,
+      "start": 2126.92,
+      "end": 2130.6,
+      "text": "of a point on the boundary of some high dimensional sphere, not as a bunch of"
+    },
+    {
+      "idx": 714,
+      "start": 2130.6,
+      "end": 2132.28,
+      "text": "things and then two more, but a bunch of things."
+    },
+    {
+      "idx": 715,
+      "start": 2132.28,
+      "end": 2132.4,
+      "text": "And, you know,"
+    },
+    {
+      "idx": 716,
+      "start": 2132.6,
+      "end": 2136.76,
+      "text": "three more or four more, you wouldn't run into that same really nice cancellation."
+    },
+    {
+      "idx": 717,
+      "start": 2136.96,
+      "end": 2140.44,
+      "text": "So every time you make this Knight's move in the diagram and then you integrate to"
+    },
+    {
+      "idx": 718,
+      "start": 2140.64,
+      "end": 2142.575,
+      "text": "go down, it gives us one more column."
+    },
+    {
+      "idx": 719,
+      "start": 2142.575,
+      "end": 2144.04,
+      "text": "And again, that integration,"
+    },
+    {
+      "idx": 720,
+      "start": 2144.04,
+      "end": 2147.6,
+      "text": "as far as the constant is concerned, up in five dimensions, it just means dividing"
+    },
+    {
+      "idx": 721,
+      "start": 2147.8,
+      "end": 2150.16,
+      "text": "by five, that r fourth turns into r to the fifth."
+    },
+    {
+      "idx": 722,
+      "start": 2150.36,
+      "end": 2153.04,
+      "text": "And you have that integration factor divided by five."
+    },
+    {
+      "idx": 723,
+      "start": 2153.24,
+      "end": 2155.0,
+      "text": "And we could just keep this going on autopilot."
+    },
+    {
+      "idx": 724,
+      "start": 2155.2,
+      "end": 2157.88,
+      "text": "Every time you make one of these moves,"
+    },
+    {
+      "idx": 725,
+      "start": 2158.08,
+      "end": 2161.52,
+      "text": "getting into that Knight's move looks like multiplying by two pi r."
+    },
+    {
+      "idx": 726,
+      "start": 2161.72,
+      "end": 2162.48,
+      "text": "So you kind of have this"
+    },
+    {
+      "idx": 727,
+      "start": 2162.68,
+      "end": 2166.88,
+      "text": "two pi jump up and to the right and then an integration factor to get down."
+    },
+    {
+      "idx": 728,
+      "start": 2167.08,
+      "end": 2168.6,
+      "text": "And we just fill in the whole diagram."
+    },
+    {
+      "idx": 729,
+      "start": 2168.8,
+      "end": 2171.04,
+      "text": "And in some sense, we're done."
+    },
+    {
+      "idx": 730,
+      "start": 2171.24,
+      "end": 2173.6,
+      "text": "In some sense, this gives you the rule that you could"
+    },
+    {
+      "idx": 731,
+      "start": 2173.8,
+      "end": 2177.4,
+      "text": "use to decide on the volume of any dimensional sphere that you want."
+    },
+    {
+      "idx": 732,
+      "start": 2177.6,
+      "end": 2179.48,
+      "text": "But of course, we want a nice formula for this."
+    },
+    {
+      "idx": 733,
+      "start": 2179.48,
+      "end": 2180.817,
+      "text": "We want to come away with a formula."
+    },
+    {
+      "idx": 734,
+      "start": 2181.04,
+      "end": 2182.36,
+      "text": "We want to analyze the formula."
+    },
+    {
+      "idx": 735,
+      "start": 2182.36,
+      "end": 2183.88,
+      "text": "We want to think about what it means."
+    },
+    {
+      "idx": 736,
+      "start": 2184.08,
+      "end": 2187.48,
+      "text": "So let's take a moment to see if we can write down what that should be."
+    },
+    {
+      "idx": 737,
+      "start": 2187.68,
+      "end": 2192.92,
+      "text": "So the way I'm going to do this, each one of these volumes in higher dimensions"
+    },
+    {
+      "idx": 738,
+      "start": 2192.92,
+      "end": 2196.72,
+      "text": "looks like some constant times r to that number of dimensions."
+    },
+    {
+      "idx": 739,
+      "start": 2196.92,
+      "end": 2198.994,
+      "text": "So, for example, in one dimension,"
+    },
+    {
+      "idx": 740,
+      "start": 2199.56,
+      "end": 2202.48,
+      "text": "that constant is two and two dimensions, that constant is pi."
+    },
+    {
+      "idx": 741,
+      "start": 2202.68,
+      "end": 2205.56,
+      "text": "In three dimensions, four thirds pi, on and on and on."
+    },
+    {
+      "idx": 742,
+      "start": 2205.76,
+      "end": 2208.3,
+      "text": "What we really want to know is what is this constant?"
+    },
+    {
+      "idx": 743,
+      "start": 2208.5,
+      "end": 2212.06,
+      "text": "And the key rule that we have is a recursive one."
+    },
+    {
+      "idx": 744,
+      "start": 2212.26,
+      "end": 2214.86,
+      "text": "It's saying if you want to know that constant in some dimension,"
+    },
+    {
+      "idx": 745,
+      "start": 2215.06,
+      "end": 2219.34,
+      "text": "look two dimensions earlier and it should be the same as taking that."
+    },
+    {
+      "idx": 746,
+      "start": 2219.54,
+      "end": 2221.9,
+      "text": "But multiplying by two pi and dividing by n."
+    },
+    {
+      "idx": 747,
+      "start": 2222.1,
+      "end": 2223.0,
+      "text": "And that's the"
+    },
+    {
+      "idx": 748,
+      "start": 2223.32,
+      "end": 2226.32,
+      "text": "formulaic way of basically capturing this Knight's move and integrate idea."
+    },
+    {
+      "idx": 749,
+      "start": 2226.44,
+      "end": 2228.2,
+      "text": "You take a Knight's move to get up and to the right."
+    },
+    {
+      "idx": 750,
+      "start": 2228.4,
+      "end": 2231.64,
+      "text": "That multiplies you by two pi and then you integrate to get down."
+    },
+    {
+      "idx": 751,
+      "start": 2231.84,
+      "end": 2233.48,
+      "text": "That's going to divide you by n."
+    },
+    {
+      "idx": 752,
+      "start": 2233.68,
+      "end": 2235.28,
+      "text": "So if you have this recurrence relation,"
+    },
+    {
+      "idx": 753,
+      "start": 2235.48,
+      "end": 2237.36,
+      "text": "it kind of tells you everything you need to know."
+    },
+    {
+      "idx": 754,
+      "start": 2237.56,
+      "end": 2241.84,
+      "text": "For example, let's say a couple of months from now you find yourself in one of your"
+    },
+    {
+      "idx": 755,
+      "start": 2242.04,
+      "end": 2246.44,
+      "text": "exams for some unbeknownst reason, your exam asks, what is the volume"
+    },
+    {
+      "idx": 756,
+      "start": 2246.64,
+      "end": 2248.531,
+      "text": "of an eight dimensional ball?"
+    },
+    {
+      "idx": 757,
+      "start": 2248.531,
+      "end": 2251.79,
+      "text": "And you're like, Grant told me this, but I forgot."
+    },
+    {
+      "idx": 758,
+      "start": 2253.31,
+      "end": 2256.31,
+      "text": "You forget because all you need to know if you want to know the volume of an eight"
+    },
+    {
+      "idx": 759,
+      "start": 2256.51,
+      "end": 2259.75,
+      "text": "dimensional ball is the volume of a six dimensional ball."
+    },
+    {
+      "idx": 760,
+      "start": 2259.95,
+      "end": 2263.43,
+      "text": "You take pi divided by half the dimensions and then multiply it by that."
+    },
+    {
+      "idx": 761,
+      "start": 2263.63,
+      "end": 2267.23,
+      "text": "And you say, ah, crap, I also forget the volume of a six dimensional ball."
+    },
+    {
+      "idx": 762,
+      "start": 2267.43,
+      "end": 2268.127,
+      "text": "Not a worry."
+    },
+    {
+      "idx": 763,
+      "start": 2268.127,
+      "end": 2269.23,
+      "text": "Not a worry at all."
+    },
+    {
+      "idx": 764,
+      "start": 2269.43,
+      "end": 2272.39,
+      "text": "All you have to remember is the volume of a four dimensional ball."
+    },
+    {
+      "idx": 765,
+      "start": 2272.59,
+      "end": 2274.99,
+      "text": "You take pi divided by half the dimension."
+    },
+    {
+      "idx": 766,
+      "start": 2274.99,
+      "end": 2276.87,
+      "text": "So in this case, half of six would be three."
+    },
+    {
+      "idx": 767,
+      "start": 2276.99,
+      "end": 2279.71,
+      "text": "Pi divided by half the dimension multiplied by that."
+    },
+    {
+      "idx": 768,
+      "start": 2279.91,
+      "end": 2281.83,
+      "text": "And you're like, well, now this is embarrassing because I also"
+    },
+    {
+      "idx": 769,
+      "start": 2281.83,
+      "end": 2283.63,
+      "text": "forget the volume of a four dimensional ball."
+    },
+    {
+      "idx": 770,
+      "start": 2283.83,
+      "end": 2284.83,
+      "text": "But not a worry."
+    },
+    {
+      "idx": 771,
+      "start": 2285.03,
+      "end": 2286.47,
+      "text": "You go down one more."
+    },
+    {
+      "idx": 772,
+      "start": 2286.67,
+      "end": 2290.31,
+      "text": "You multiply by pi divided by half the dimension."
+    },
+    {
+      "idx": 773,
+      "start": 2290.51,
+      "end": 2294.07,
+      "text": "Now, at this point, presumably you do know the volume of a two dimensional ball,"
+    },
+    {
+      "idx": 774,
+      "start": 2294.27,
+      "end": 2296.159,
+      "text": "which is to say the area of a circle."
+    },
+    {
+      "idx": 775,
+      "start": 2296.159,
+      "end": 2298.15,
+      "text": "But if you're a programmer at heart and"
+    },
+    {
+      "idx": 776,
+      "start": 2298.35,
+      "end": 2304.71,
+      "text": "you're looking at this, and you're thinking, I'm defining a recursive function."
+    },
+    {
+      "idx": 777,
+      "start": 2304.91,
+      "end": 2308.85,
+      "text": "If you ever wrote a recursive function, your base case was at n equals two."
+    },
+    {
+      "idx": 778,
+      "start": 2309.05,
+      "end": 2312.33,
+      "text": "It would be very embarrassing to submit that poll request."
+    },
+    {
+      "idx": 779,
+      "start": 2312.53,
+      "end": 2314.61,
+      "text": "So looking at this diagram, it kind"
+    },
+    {
+      "idx": 780,
+      "start": 2314.81,
+      "end": 2316.25,
+      "text": "of screams out to you, hang on a second."
+    },
+    {
+      "idx": 781,
+      "start": 2316.25,
+      "end": 2317.65,
+      "text": "Maybe we should actually be venturing"
+    },
+    {
+      "idx": 782,
+      "start": 2317.85,
+      "end": 2320.21,
+      "text": "farther back, even though I know the area of a circle."
+    },
+    {
+      "idx": 783,
+      "start": 2320.41,
+      "end": 2322.21,
+      "text": "Like, should I be going one further?"
+    },
+    {
+      "idx": 784,
+      "start": 2322.41,
+      "end": 2324.91,
+      "text": "Should I have a base case at zero?"
+    },
+    {
+      "idx": 785,
+      "start": 2325.11,
+      "end": 2328.99,
+      "text": "And I mentioned one dimension was unloved, but like, poor zero dimensions."
+    },
+    {
+      "idx": 786,
+      "start": 2329.19,
+      "end": 2331.59,
+      "text": "We didn't even think about zero dimensional geometry."
+    },
+    {
+      "idx": 787,
+      "start": 2331.79,
+      "end": 2333.31,
+      "text": "And say, OK, what would this mean?"
+    },
+    {
+      "idx": 788,
+      "start": 2333.51,
+      "end": 2336.55,
+      "text": "Well, in terms of the formulas, we know what it wants us to be saying."
+    },
+    {
+      "idx": 789,
+      "start": 2336.75,
+      "end": 2341.67,
+      "text": "If we want this recurrence relation to be true, the volume of a zero dimensional"
+    },
+    {
+      "idx": 790,
+      "start": 2341.67,
+      "end": 2342.738,
+      "text": "unit ball should be one."
+    },
+    {
+      "idx": 791,
+      "start": 2342.738,
+      "end": 2344.43,
+      "text": "And we're like, hang on, where are we?"
+    },
+    {
+      "idx": 792,
+      "start": 2344.43,
+      "end": 2345.45,
+      "text": "Can't move left."
+    },
+    {
+      "idx": 793,
+      "start": 2346.67,
+      "end": 2347.619,
+      "text": "Can't move up."
+    },
+    {
+      "idx": 794,
+      "start": 2347.619,
+      "end": 2349.11,
+      "text": "I can't move anywhere."
+    },
+    {
+      "idx": 795,
+      "start": 2349.31,
+      "end": 2350.299,
+      "text": "Just a point."
+    },
+    {
+      "idx": 796,
+      "start": 2350.299,
+      "end": 2353.19,
+      "text": "So a unit ball is everything, I guess."
+    },
+    {
+      "idx": 797,
+      "start": 2353.39,
+      "end": 2355.971,
+      "text": "And the volume of everything is one."
+    },
+    {
+      "idx": 798,
+      "start": 2357.39,
+      "end": 2359.69,
+      "text": "What's the boundary of a unit ball?"
+    },
+    {
+      "idx": 799,
+      "start": 2359.89,
+      "end": 2362.41,
+      "text": "The boundary of everything, I guess, would be nothing."
+    },
+    {
+      "idx": 800,
+      "start": 2362.61,
+      "end": 2365.38,
+      "text": "So zero, which I guess makes sense."
+    },
+    {
+      "idx": 801,
+      "start": 2365.58,
+      "end": 2368.38,
+      "text": "And I actually once gave this talk at Stanford."
+    },
+    {
+      "idx": 802,
+      "start": 2368.38,
+      "end": 2371.18,
+      "text": "And you know how at the end of talks, like, people come up for Q&As,"
+    },
+    {
+      "idx": 803,
+      "start": 2371.18,
+      "end": 2374.38,
+      "text": "and there's always the annoying person who doesn't understand the Q part"
+    },
+    {
+      "idx": 804,
+      "start": 2374.38,
+      "end": 2377.14,
+      "text": "of Q&A, and they're like, I have a thing to say."
+    },
+    {
+      "idx": 805,
+      "start": 2377.34,
+      "end": 2379.7,
+      "text": "So someone comes up, he's like, I have three points I want to say."
+    },
+    {
+      "idx": 806,
+      "start": 2379.9,
+      "end": 2382.02,
+      "text": "It was OK, though, because this person was Donald Knuth."
+    },
+    {
+      "idx": 807,
+      "start": 2382.22,
+      "end": 2386.27,
+      "text": "And he was like, it was like in the zero dimensional case,"
+    },
+    {
+      "idx": 808,
+      "start": 2386.47,
+      "end": 2390.23,
+      "text": "you can still write the program to verify the answer because you just choose zero"
+    },
+    {
+      "idx": 809,
+      "start": 2390.23,
+      "end": 2393.47,
+      "text": "numbers and ask the probability that the sum of their squares is less than one."
+    },
+    {
+      "idx": 810,
+      "start": 2393.67,
+      "end": 2394.79,
+      "text": "And it's probability one."
+    },
+    {
+      "idx": 811,
+      "start": 2394.99,
+      "end": 2399.119,
+      "text": "I was like, yeah, touche, Donald Knuth."
+    },
+    {
+      "idx": 812,
+      "start": 2400.06,
+      "end": 2403.7,
+      "text": "So the point is, we've got this answer to our eight dimensional question,"
+    },
+    {
+      "idx": 813,
+      "start": 2403.7,
+      "end": 2405.58,
+      "text": "but it's not hard to see how it generalizes."
+    },
+    {
+      "idx": 814,
+      "start": 2405.74,
+      "end": 2406.42,
+      "text": "We were playing this a lot."
+    },
+    {
+      "idx": 815,
+      "start": 2406.62,
+      "end": 2408.22,
+      "text": "We were playing this little hopscotch and game going back."
+    },
+    {
+      "idx": 816,
+      "start": 2408.42,
+      "end": 2412.14,
+      "text": "And you're basically multiplying pi in the numerator by half the dimensions"
+    },
+    {
+      "idx": 817,
+      "start": 2412.34,
+      "end": 2415.86,
+      "text": "number of times and then that denominator, because we were always dividing"
+    },
+    {
+      "idx": 818,
+      "start": 2416.06,
+      "end": 2418.38,
+      "text": "by that half dimension, it's just a factorial."
+    },
+    {
+      "idx": 819,
+      "start": 2418.58,
+      "end": 2420.74,
+      "text": "So in this specific example, it's four factorial."
+    },
+    {
+      "idx": 820,
+      "start": 2420.86,
+      "end": 2424.4,
+      "text": "But more generally, it's half the number of dimensions factorial."
+    },
+    {
+      "idx": 821,
+      "start": 2424.6,
+      "end": 2425.8,
+      "text": "And so we can clean things up."
+    },
+    {
+      "idx": 822,
+      "start": 2425.8,
+      "end": 2429.44,
+      "text": "We take that constant, like I was saying, it's multiplied by an R to the N."
+    },
+    {
+      "idx": 823,
+      "start": 2429.64,
+      "end": 2431.153,
+      "text": "And I can tell you, wonderful."
+    },
+    {
+      "idx": 824,
+      "start": 2431.153,
+      "end": 2431.96,
+      "text": "We can use this."
+    },
+    {
+      "idx": 825,
+      "start": 2431.96,
+      "end": 2433.32,
+      "text": "It lets you kind of hopscotch two"
+    },
+    {
+      "idx": 826,
+      "start": 2433.32,
+      "end": 2435.28,
+      "text": "dimensions up if you think of it as a recurrence."
+    },
+    {
+      "idx": 827,
+      "start": 2435.48,
+      "end": 2436.48,
+      "text": "But you can also just zero"
+    },
+    {
+      "idx": 828,
+      "start": 2436.68,
+      "end": 2439.48,
+      "text": "shot your way into whatever you want if we're going to ask this for, say,"
+    },
+    {
+      "idx": 829,
+      "start": 2439.68,
+      "end": 2441.459,
+      "text": "And I say, what a beautiful formula."
+    },
+    {
+      "idx": 830,
+      "start": 2442.4,
+      "end": 2444.28,
+      "text": "As promised, we have a beautiful formula."
+    },
+    {
+      "idx": 831,
+      "start": 2444.48,
+      "end": 2446.24,
+      "text": "And you might say, well, hang on a second."
+    },
+    {
+      "idx": 832,
+      "start": 2446.44,
+      "end": 2449.88,
+      "text": "You're not done because there's something kind of awkward about this formula,"
+    },
+    {
+      "idx": 833,
+      "start": 2450.08,
+      "end": 2454.04,
+      "text": "which is what's going on at all the odd numbers, because the denominator is asking"
+    },
+    {
+      "idx": 834,
+      "start": 2454.24,
+      "end": 2458.0,
+      "text": "us to take something like half factorial or three halves factorial or five"
+    },
+    {
+      "idx": 835,
+      "start": 2458.2,
+      "end": 2461.44,
+      "text": "factorial, which feels kind of weird."
+    },
+    {
+      "idx": 836,
+      "start": 2461.64,
+      "end": 2466.16,
+      "text": "But we shouldn't have a rule that's different for the odd number dimensions,"
+    },
+    {
+      "idx": 837,
+      "start": 2466.16,
+      "end": 2469.04,
+      "text": "because in terms of all the logic that we were applying with this Knight's Move"
+    },
+    {
+      "idx": 838,
+      "start": 2469.24,
+      "end": 2472.44,
+      "text": "and Integrate, nothing about that logic was telling us, hey,"
+    },
+    {
+      "idx": 839,
+      "start": 2472.64,
+      "end": 2475.12,
+      "text": "only do this for an even number of dimensions."
+    },
+    {
+      "idx": 840,
+      "start": 2475.32,
+      "end": 2479.36,
+      "text": "So we we kind of want in our souls for this to be something that applies"
+    },
+    {
+      "idx": 841,
+      "start": 2479.56,
+      "end": 2483.08,
+      "text": "to everything because the recurrence rule applies to everything."
+    },
+    {
+      "idx": 842,
+      "start": 2483.72,
+      "end": 2487.6,
+      "text": "Like if you forgot the volume of a seven dimensional ball and it's a crucial fact"
+    },
+    {
+      "idx": 843,
+      "start": 2487.6,
+      "end": 2491.36,
+      "text": "that comes up on your homework for some godforsaken reason, you could still find"
+    },
+    {
+      "idx": 844,
+      "start": 2491.36,
+      "end": 2492.634,
+      "text": "your way up to it, right?"
+    },
+    {
+      "idx": 845,
+      "start": 2492.634,
+      "end": 2495.08,
+      "text": "You play this game where you keep multiplying by"
+    },
+    {
+      "idx": 846,
+      "start": 2496.28,
+      "end": 2499.03,
+      "text": "You multiply by pi divided by half the dimension."
+    },
+    {
+      "idx": 847,
+      "start": 2499.23,
+      "end": 2503.11,
+      "text": "And actually, in this case, I think it's kind of nicer to put that two back up"
+    },
+    {
+      "idx": 848,
+      "start": 2503.31,
+      "end": 2504.024,
+      "text": "in the numerator."
+    },
+    {
+      "idx": 849,
+      "start": 2504.024,
+      "end": 2506.63,
+      "text": "So if you wanted to think about what is it that takes us from,"
+    },
+    {
+      "idx": 850,
+      "start": 2506.83,
+      "end": 2510.87,
+      "text": "say, a one dimensional ball up to a three dimensional ball, you're multiplying that"
+    },
+    {
+      "idx": 851,
+      "start": 2511.07,
+      "end": 2513.23,
+      "text": "two pi and then you're dividing by three."
+    },
+    {
+      "idx": 852,
+      "start": 2513.43,
+      "end": 2517.07,
+      "text": "And so maybe next time you look at the volume of a sphere, you can think about it"
+    },
+    {
+      "idx": 853,
+      "start": 2517.07,
+      "end": 2520.23,
+      "text": "as saying, actually, it is a one dimensional ball, but we did that Knight's Move,"
+    },
+    {
+      "idx": 854,
+      "start": 2520.23,
+      "end": 2521.95,
+      "text": "which is two pi and divided by three."
+    },
+    {
+      "idx": 855,
+      "start": 2521.95,
+      "end": 2524.39,
+      "text": "And that's what gets you that four thirds pi factor."
+    },
+    {
+      "idx": 856,
+      "start": 2524.59,
+      "end": 2525.51,
+      "text": "But you could keep going from there."
+    },
+    {
+      "idx": 857,
+      "start": 2525.51,
+      "end": 2529.39,
+      "text": "So you multiply by another two pi and divide by five, multiply by another two pi"
+    },
+    {
+      "idx": 858,
+      "start": 2529.59,
+      "end": 2530.87,
+      "text": "from there, divide by seven."
+    },
+    {
+      "idx": 859,
+      "start": 2531.07,
+      "end": 2533.55,
+      "text": "And if you had been looking at those odd numbered cases and thinking that the"
+    },
+    {
+      "idx": 860,
+      "start": 2533.75,
+      "end": 2536.71,
+      "text": "numbers were very ugly, like, for example, we have this, you know, nine hundred"
+    },
+    {
+      "idx": 861,
+      "start": 2536.91,
+      "end": 2538.91,
+      "text": "and forty five in one of the denominators."
+    },
+    {
+      "idx": 862,
+      "start": 2539.03,
+      "end": 2541.59,
+      "text": "And initially you see that you're like, where did that number come from?"
+    },
+    {
+      "idx": 863,
+      "start": 2541.79,
+      "end": 2543.11,
+      "text": "Here, it's actually nice to think about."
+    },
+    {
+      "idx": 864,
+      "start": 2543.11,
+      "end": 2545.71,
+      "text": "It's like a factorial, but just where you do all the odd numbers."
+    },
+    {
+      "idx": 865,
+      "start": 2545.71,
+      "end": 2547.67,
+      "text": "That's nine times seven times five times three."
+    },
+    {
+      "idx": 866,
+      "start": 2547.87,
+      "end": 2551.55,
+      "text": "And then the numerator always looks like a power of two times the power of pi."
+    },
+    {
+      "idx": 867,
+      "start": 2551.75,
+      "end": 2555.23,
+      "text": "But if we wanted this to all be true for our general formula, right?"
+    },
+    {
+      "idx": 868,
+      "start": 2555.51,
+      "end": 2558.99,
+      "text": "We want to have one rule that we write for the even case, one rule that we write"
+    },
+    {
+      "idx": 869,
+      "start": 2559.19,
+      "end": 2562.47,
+      "text": "for the odd case, like, I don't know, Thanksgiving with divorced parents"
+    },
+    {
+      "idx": 870,
+      "start": 2562.47,
+      "end": 2564.84,
+      "text": "or something where you have to make a choice."
+    },
+    {
+      "idx": 871,
+      "start": 2565.04,
+      "end": 2567.0,
+      "text": "It's nice if our parents get back together, right?"
+    },
+    {
+      "idx": 872,
+      "start": 2568.84,
+      "end": 2571.56,
+      "text": "let's think about what would be required for this to make sense."
+    },
+    {
+      "idx": 873,
+      "start": 2571.76,
+      "end": 2575.64,
+      "text": "And in this case, the marriage counselor just suggests looking at the n equals one"
+    },
+    {
+      "idx": 874,
+      "start": 2575.84,
+      "end": 2578.0,
+      "text": "case and asking what has to be true there."
+    },
+    {
+      "idx": 875,
+      "start": 2578.2,
+      "end": 2582.2,
+      "text": "So what this formula would say for n equals one would be that the volume"
+    },
+    {
+      "idx": 876,
+      "start": 2582.2,
+      "end": 2585.6,
+      "text": "of a one dimensional ball, which again is just a line segment, looks"
+    },
+    {
+      "idx": 877,
+      "start": 2585.8,
+      "end": 2590.08,
+      "text": "like pi to the one half and raising to the one half is the same as taking a square"
+    },
+    {
+      "idx": 878,
+      "start": 2590.28,
+      "end": 2595.16,
+      "text": "root divided by one half factorial, whatever the heck that should be times r."
+    },
+    {
+      "idx": 879,
+      "start": 2595.36,
+      "end": 2598.76,
+      "text": "But we do a little arrangement and we say, well, this is kind of telling us what one"
+    },
+    {
+      "idx": 880,
+      "start": 2598.96,
+      "end": 2603.52,
+      "text": "half factorial would have to be if, you know, mom and dad are getting back together."
+    },
+    {
+      "idx": 881,
+      "start": 2603.72,
+      "end": 2607.04,
+      "text": "It would have to be square root of pi divided by two."
+    },
+    {
+      "idx": 882,
+      "start": 2607.24,
+      "end": 2609.8,
+      "text": "And once you have that, you actually have the rest of them."
+    },
+    {
+      "idx": 883,
+      "start": 2610.0,
+      "end": 2615.48,
+      "text": "Because if you think about factorials again in a recursive way, what should it mean?"
+    },
+    {
+      "idx": 884,
+      "start": 2615.8,
+      "end": 2620.68,
+      "text": "Well, it's like n factorial recursively is defined to be n times whatever n minus one"
+    },
+    {
+      "idx": 885,
+      "start": 2620.88,
+      "end": 2622.871,
+      "text": "So what is three half factorial?"
+    },
+    {
+      "idx": 886,
+      "start": 2623.88,
+      "end": 2626.92,
+      "text": "Well, it's going to be three halves times whatever one half factorial is,"
+    },
+    {
+      "idx": 887,
+      "start": 2626.92,
+      "end": 2628.96,
+      "text": "which we're saying should be square root of pi over two."
+    },
+    {
+      "idx": 888,
+      "start": 2629.16,
+      "end": 2630.6,
+      "text": "What's five half factorials?"
+    },
+    {
+      "idx": 889,
+      "start": 2630.8,
+      "end": 2635.52,
+      "text": "Well, five half times three half times whatever one half factorial should be."
+    },
+    {
+      "idx": 890,
+      "start": 2635.72,
+      "end": 2640.52,
+      "text": "So basically, if we take this one suggestion from the mathematical universe,"
+    },
+    {
+      "idx": 891,
+      "start": 2640.72,
+      "end": 2645.72,
+      "text": "that one half factorial should be square root of pi over two, our whole formula works out."
+    },
+    {
+      "idx": 892,
+      "start": 2645.96,
+      "end": 2649.28,
+      "text": "What's reassuring here, some of you might actually know that there is a way to generalize"
+    },
+    {
+      "idx": 893,
+      "start": 2649.48,
+      "end": 2651.817,
+      "text": "It doesn't just generalize to half integers."
+    },
+    {
+      "idx": 894,
+      "start": 2652.76,
+      "end": 2655.2,
+      "text": "It's based on something called the gamma function."
+    },
+    {
+      "idx": 895,
+      "start": 2655.4,
+      "end": 2658.64,
+      "text": "It generalizes it to real numbers, to complex numbers."
+    },
+    {
+      "idx": 896,
+      "start": 2658.84,
+      "end": 2661.88,
+      "text": "And if this was a much longer lecture, we could have a whole other discussion"
+    },
+    {
+      "idx": 897,
+      "start": 2662.08,
+      "end": 2665.96,
+      "text": "about the gamma function and how there is a completely parallel path that you could"
+    },
+    {
+      "idx": 898,
+      "start": 2666.16,
+      "end": 2670.24,
+      "text": "use to derive the volumes of higher dimensional spheres that comes from"
+    },
+    {
+      "idx": 899,
+      "start": 2670.44,
+      "end": 2673.8,
+      "text": "basically studying Gaussian distributions in high dimensions, where if you want"
+    },
+    {
+      "idx": 900,
+      "start": 2673.8,
+      "end": 2675.72,
+      "text": "to integrate them and understand what it looks like"
+    },
+    {
+      "idx": 901,
+      "start": 2675.96,
+      "end": 2679.16,
+      "text": "to integrate a Gaussian function, there's a certain trick that you can apply."
+    },
+    {
+      "idx": 902,
+      "start": 2679.36,
+      "end": 2682.0,
+      "text": "And that trick will give you a formula"
+    },
+    {
+      "idx": 903,
+      "start": 2682.2,
+      "end": 2685.28,
+      "text": "for the higher dimensional spheres in terms of the gamma function."
+    },
+    {
+      "idx": 904,
+      "start": 2685.48,
+      "end": 2689.52,
+      "text": "And what that ends up telling us is that the way that we want to extend our"
+    },
+    {
+      "idx": 905,
+      "start": 2689.52,
+      "end": 2692.6,
+      "text": "factorial definition, which is kind of like forcing this formula to be true,"
+    },
+    {
+      "idx": 906,
+      "start": 2692.72,
+      "end": 2696.0,
+      "text": "it actually does align with the way that it gets generalized even more broadly"
+    },
+    {
+      "idx": 907,
+      "start": 2696.2,
+      "end": 2697.947,
+      "text": "in a different corner of math."
+    },
+    {
+      "idx": 908,
+      "start": 2697.947,
+      "end": 2700.45,
+      "text": "Now, in addition to just having a beautiful"
+    },
+    {
+      "idx": 909,
+      "start": 2700.65,
+      "end": 2704.45,
+      "text": "formula to gawk at symbolically, I want to take a moment to look at the actual"
+    },
+    {
+      "idx": 910,
+      "start": 2704.65,
+      "end": 2706.41,
+      "text": "numbers behind it and plug in some"
+    },
+    {
+      "idx": 911,
+      "start": 2706.57,
+      "end": 2710.17,
+      "text": "amounts and see if we can interpret what's going on, because something very strange"
+    },
+    {
+      "idx": 912,
+      "start": 2710.37,
+      "end": 2712.183,
+      "text": "actually happens when you do that."
+    },
+    {
+      "idx": 913,
+      "start": 2712.183,
+      "end": 2713.57,
+      "text": "So let's think about this."
+    },
+    {
+      "idx": 914,
+      "start": 2713.77,
+      "end": 2717.57,
+      "text": "I'm going to draw the volume of a unit ball in all of our dimensions."
+    },
+    {
+      "idx": 915,
+      "start": 2717.57,
+      "end": 2720.73,
+      "text": "So starting with zero dimensions, no longer does zero dimension get no love."
+    },
+    {
+      "idx": 916,
+      "start": 2720.73,
+      "end": 2722.29,
+      "text": "We're going to give it the love it deserves."
+    },
+    {
+      "idx": 917,
+      "start": 2722.49,
+      "end": 2724.193,
+      "text": "That constant is one."
+    },
+    {
+      "idx": 918,
+      "start": 2724.193,
+      "end": 2728.33,
+      "text": "In one dimension, the volume of a unit ball is two."
+    },
+    {
+      "idx": 919,
+      "start": 2728.53,
+      "end": 2732.65,
+      "text": "In two dimensions, it's pi, just area of a unit circle."
+    },
+    {
+      "idx": 920,
+      "start": 2732.85,
+      "end": 2734.65,
+      "text": "In three dimensions, it's four thirds pi."
+    },
+    {
+      "idx": 921,
+      "start": 2734.77,
+      "end": 2736.13,
+      "text": "And all these numbers are going up."
+    },
+    {
+      "idx": 922,
+      "start": 2736.13,
+      "end": 2738.77,
+      "text": "And you might be like, yeah, of course they're going up, because each"
+    },
+    {
+      "idx": 923,
+      "start": 2738.97,
+      "end": 2741.57,
+      "text": "sphere in one dimension contains the smaller one."
+    },
+    {
+      "idx": 924,
+      "start": 2741.57,
+      "end": 2742.594,
+      "text": "So it's getting bigger."
+    },
+    {
+      "idx": 925,
+      "start": 2742.594,
+      "end": 2743.93,
+      "text": "They should be getting bigger."
+    },
+    {
+      "idx": 926,
+      "start": 2744.13,
+      "end": 2745.93,
+      "text": "Up in four dimensions, it gets bigger still."
+    },
+    {
+      "idx": 927,
+      "start": 2746.13,
+      "end": 2747.564,
+      "text": "We end up around 4.93."
+    },
+    {
+      "idx": 928,
+      "start": 2747.564,
+      "end": 2749.65,
+      "text": "Five dimensions is bigger still."
+    },
+    {
+      "idx": 929,
+      "start": 2749.85,
+      "end": 2752.73,
+      "text": "But it's kind of slowing down, which might give us pause."
+    },
+    {
+      "idx": 930,
+      "start": 2752.93,
+      "end": 2756.85,
+      "text": "Then it gets very worrying because at six dimensions, it's smaller."
+    },
+    {
+      "idx": 931,
+      "start": 2757.05,
+      "end": 2758.148,
+      "text": "Like, that's weird."
+    },
+    {
+      "idx": 932,
+      "start": 2758.148,
+      "end": 2759.13,
+      "text": "Seven is smaller."
+    },
+    {
+      "idx": 933,
+      "start": 2759.33,
+      "end": 2760.115,
+      "text": "Eight is smaller."
+    },
+    {
+      "idx": 934,
+      "start": 2760.115,
+      "end": 2761.13,
+      "text": "Nine is smaller still."
+    },
+    {
+      "idx": 935,
+      "start": 2761.33,
+      "end": 2763.43,
+      "text": "It starts decreasing very rapidly."
+    },
+    {
+      "idx": 936,
+      "start": 2763.43,
+      "end": 2764.85,
+      "text": "Like, hang on a second."
+    },
+    {
+      "idx": 937,
+      "start": 2765.05,
+      "end": 2765.97,
+      "text": "Up in, for example,"
+    },
+    {
+      "idx": 938,
+      "start": 2766.17,
+      "end": 2768.97,
+      "text": "in five dimensions, that's actually smaller than the two dimensional ball."
+    },
+    {
+      "idx": 939,
+      "start": 2769.17,
+      "end": 2773.88,
+      "text": "And that's a little strange to interpret, to say the least."
+    },
+    {
+      "idx": 940,
+      "start": 2774.08,
+      "end": 2778.04,
+      "text": "And so if you draw the curve for this, where we're going to fill it in,"
+    },
+    {
+      "idx": 941,
+      "start": 2778.24,
+      "end": 2781.56,
+      "text": "not just for integers, but for everything using the gamma function,"
+    },
+    {
+      "idx": 942,
+      "start": 2781.76,
+      "end": 2783.605,
+      "text": "here's what it looks like."
+    },
+    {
+      "idx": 943,
+      "start": 2783.605,
+      "end": 2785.45,
+      "text": "And let's think about why."
+    },
+    {
+      "idx": 944,
+      "start": 2785.65,
+      "end": 2787.056,
+      "text": "Why does it turn around?"
+    },
+    {
+      "idx": 945,
+      "start": 2787.056,
+      "end": 2788.93,
+      "text": "Why does it turn around at five?"
+    },
+    {
+      "idx": 946,
+      "start": 2789.13,
+      "end": 2790.144,
+      "text": "That's kind of weird."
+    },
+    {
+      "idx": 947,
+      "start": 2790.144,
+      "end": 2791.93,
+      "text": "What's special about five dimensions?"
+    },
+    {
+      "idx": 948,
+      "start": 2792.13,
+      "end": 2796.05,
+      "text": "And then what happens as we go out towards an even higher number of dimensions?"
+    },
+    {
+      "idx": 949,
+      "start": 2796.29,
+      "end": 2798.01,
+      "text": "The interesting thing about the fact that you and I have landed here,"
+    },
+    {
+      "idx": 950,
+      "start": 2798.21,
+      "end": 2801.17,
+      "text": "not because I just gave you the formula and said, trust me that it's true,"
+    },
+    {
+      "idx": 951,
+      "start": 2801.17,
+      "end": 2802.85,
+      "text": "but because you see where it comes from,"
+    },
+    {
+      "idx": 952,
+      "start": 2803.05,
+      "end": 2806.01,
+      "text": "is we can think about these questions in terms of where it came from."
+    },
+    {
+      "idx": 953,
+      "start": 2806.21,
+      "end": 2808.37,
+      "text": "Ultimately, it's rooted in this recurrence"
+    },
+    {
+      "idx": 954,
+      "start": 2808.57,
+      "end": 2811.45,
+      "text": "relation where understanding what happens in one dimension,"
+    },
+    {
+      "idx": 955,
+      "start": 2811.65,
+      "end": 2815.37,
+      "text": "you look two dimensions earlier and then you do that nice move that takes you two"
+    },
+    {
+      "idx": 956,
+      "start": 2815.57,
+      "end": 2820.04,
+      "text": "pi and then you do an integration which gives you that division by n."
+    },
+    {
+      "idx": 957,
+      "start": 2820.24,
+      "end": 2824.16,
+      "text": "So every time we're stepping two units to the right in this diagram,"
+    },
+    {
+      "idx": 958,
+      "start": 2824.36,
+      "end": 2826.16,
+      "text": "you're multiplying two pi divided by n."
+    },
+    {
+      "idx": 959,
+      "start": 2826.36,
+      "end": 2828.84,
+      "text": "Where n is kind of the x coordinate of where you land."
+    },
+    {
+      "idx": 960,
+      "start": 2829.04,
+      "end": 2832.68,
+      "text": "So, for example, jumping from one up to three, that's two pi thirds."
+    },
+    {
+      "idx": 961,
+      "start": 2832.88,
+      "end": 2833.921,
+      "text": "Two pi is bigger than three."
+    },
+    {
+      "idx": 962,
+      "start": 2833.921,
+      "end": 2835.0,
+      "text": "So that's why you're growing."
+    },
+    {
+      "idx": 963,
+      "start": 2835.2,
+      "end": 2838.08,
+      "text": "From two up to four, you multiply by two pi over four."
+    },
+    {
+      "idx": 964,
+      "start": 2838.28,
+      "end": 2839.36,
+      "text": "Two pi is bigger than four."
+    },
+    {
+      "idx": 965,
+      "start": 2839.36,
+      "end": 2840.32,
+      "text": "So you're still growing."
+    },
+    {
+      "idx": 966,
+      "start": 2840.52,
+      "end": 2841.831,
+      "text": "Two pi is bigger than five."
+    },
+    {
+      "idx": 967,
+      "start": 2841.831,
+      "end": 2842.56,
+      "text": "Not by as much."
+    },
+    {
+      "idx": 968,
+      "start": 2842.56,
+      "end": 2843.64,
+      "text": "So you're not growing as much."
+    },
+    {
+      "idx": 969,
+      "start": 2843.84,
+      "end": 2847.76,
+      "text": "From four to six, two pi is bigger than six, but now just barely."
+    },
+    {
+      "idx": 970,
+      "start": 2847.96,
+      "end": 2850.44,
+      "text": "And then it's at that point that it turns around."
+    },
+    {
+      "idx": 971,
+      "start": 2850.64,
+      "end": 2855.04,
+      "text": "Where as you go from five up to seven, you're taking two pi divided by seven."
+    },
+    {
+      "idx": 972,
+      "start": 2855.24,
+      "end": 2856.24,
+      "text": "But now the denominator"
+    },
+    {
+      "idx": 973,
+      "start": 2856.4,
+      "end": 2857.464,
+      "text": "is starting to win out."
+    },
+    {
+      "idx": 974,
+      "start": 2857.464,
+      "end": 2859.36,
+      "text": "And in fact, it starts to win out by more"
+    },
+    {
+      "idx": 975,
+      "start": 2859.36,
+      "end": 2862.0,
+      "text": "and more and more because as you get into a higher dimension,"
+    },
+    {
+      "idx": 976,
+      "start": 2862.2,
+      "end": 2867.04,
+      "text": "that integration factor is playing a bigger and bigger role and it starts to dominate."
+    },
+    {
+      "idx": 977,
+      "start": 2867.24,
+      "end": 2869.8,
+      "text": "So if you wanted to ask why was five the biggest?"
+    },
+    {
+      "idx": 978,
+      "start": 2870.0,
+      "end": 2874.08,
+      "text": "Basically, because at that value of n, where the numerator and denominator are"
+    },
+    {
+      "idx": 979,
+      "start": 2874.28,
+      "end": 2878.48,
+      "text": "as close as they can be when it's equal to six, that's straddling this number five."
+    },
+    {
+      "idx": 980,
+      "start": 2878.68,
+      "end": 2883.92,
+      "text": "And so that's the point at which the change on this graph is going to be around zero."
+    },
+    {
+      "idx": 981,
+      "start": 2884.12,
+      "end": 2885.88,
+      "text": "So if we keep going, though,"
+    },
+    {
+      "idx": 982,
+      "start": 2885.88,
+      "end": 2889.2,
+      "text": "what ends up being very surprising, and I think this is one of those just"
+    },
+    {
+      "idx": 983,
+      "start": 2889.4,
+      "end": 2893.6,
+      "text": "genuinely baffling facts about higher dimensions, is that your unit balls,"
+    },
+    {
+      "idx": 984,
+      "start": 2893.8,
+      "end": 2897.36,
+      "text": "they don't just get small, they get downright infinitesimal."
+    },
+    {
+      "idx": 985,
+      "start": 2897.56,
+      "end": 2900.86,
+      "text": "For example, let's take a 100 dimensional ball."
+    },
+    {
+      "idx": 986,
+      "start": 2901.06,
+      "end": 2903.74,
+      "text": "Using our formula, it looks like pi to the 50."
+    },
+    {
+      "idx": 987,
+      "start": 2904.98,
+      "end": 2905.925,
+      "text": "Nice big number."
+    },
+    {
+      "idx": 988,
+      "start": 2905.925,
+      "end": 2908.82,
+      "text": "But divided by 50 factorial, which is way bigger."
+    },
+    {
+      "idx": 989,
+      "start": 2909.02,
+      "end": 2912.34,
+      "text": "Because all of those factors of pi in the numerator on average are much,"
+    },
+    {
+      "idx": 990,
+      "start": 2912.34,
+      "end": 2915.3,
+      "text": "much smaller than the terms that you're multiplying in the denominator."
+    },
+    {
+      "idx": 991,
+      "start": 2915.3,
+      "end": 2915.86,
+      "text": "Almost all of them."
+    },
+    {
+      "idx": 992,
+      "start": 2915.98,
+      "end": 2917.5,
+      "text": "All of them are much bigger than pi."
+    },
+    {
+      "idx": 993,
+      "start": 2917.7,
+      "end": 2921.82,
+      "text": "Numerically, this is around 2.37 times 10 to the negative 40th."
+    },
+    {
+      "idx": 994,
+      "start": 2922.02,
+      "end": 2925.02,
+      "text": "So a ball in 100 dimensions, it's nothing."
+    },
+    {
+      "idx": 995,
+      "start": 2925.22,
+      "end": 2927.18,
+      "text": "It's just absolutely nothing."
+    },
+    {
+      "idx": 996,
+      "start": 2927.38,
+      "end": 2929.34,
+      "text": "And this, again, is an empirical fact."
+    },
+    {
+      "idx": 997,
+      "start": 2929.54,
+      "end": 2933.26,
+      "text": "That question I asked at the very beginning, I said, imagine you choose"
+    },
+    {
+      "idx": 998,
+      "start": 2933.46,
+      "end": 2936.38,
+      "text": "100 different random numbers, each between negative one and one."
+    },
+    {
+      "idx": 999,
+      "start": 2936.58,
+      "end": 2937.38,
+      "text": "You square them."
+    },
+    {
+      "idx": 1000,
+      "start": 2937.46,
+      "end": 2940.74,
+      "text": "You want to know the probability that the sum of those squares is less than one."
+    },
+    {
+      "idx": 1001,
+      "start": 2940.94,
+      "end": 2943.1,
+      "text": "Now, on the one hand, you could say, well,"
+    },
+    {
+      "idx": 1002,
+      "start": 2943.1,
+      "end": 2945.58,
+      "text": "it's very expected that this should be a small number."
+    },
+    {
+      "idx": 1003,
+      "start": 2946.06,
+      "end": 2948.42,
+      "text": "Because think about the coincidence that's required here."
+    },
+    {
+      "idx": 1004,
+      "start": 2948.62,
+      "end": 2953.5,
+      "text": "All 100 of your numbers have to happen to be so small that when you add up all"
+    },
+    {
+      "idx": 1005,
+      "start": 2953.5,
+      "end": 2955.362,
+      "text": "those squares, you end up less than one."
+    },
+    {
+      "idx": 1006,
+      "start": 2955.362,
+      "end": 2956.34,
+      "text": "And I'd say, I agree."
+    },
+    {
+      "idx": 1007,
+      "start": 2957.3,
+      "end": 2959.22,
+      "text": "I would have thought that smallness is"
+    },
+    {
+      "idx": 1008,
+      "start": 2959.22,
+      "end": 2962.14,
+      "text": "taken into account by that 2 to the 100 in the denominator."
+    },
+    {
+      "idx": 1009,
+      "start": 2962.34,
+      "end": 2964.7,
+      "text": "I would look at it and be like, well, there's the source of your smallness."
+    },
+    {
+      "idx": 1010,
+      "start": 2964.82,
+      "end": 2968.14,
+      "text": "The thing that's surprising here is that it's not just the denominator that makes"
+    },
+    {
+      "idx": 1011,
+      "start": 2968.14,
+      "end": 2970.74,
+      "text": "it small, but the numerator is also working against you."
+    },
+    {
+      "idx": 1012,
+      "start": 2970.94,
+      "end": 2972.82,
+      "text": "That numerator is a puny number as well."
+    },
+    {
+      "idx": 1013,
+      "start": 2973.02,
+      "end": 2975.78,
+      "text": "This volume of higher dimensional spheres being very small"
+    },
+    {
+      "idx": 1014,
+      "start": 2975.9,
+      "end": 2978.14,
+      "text": "and downright negligible, it actually comes up a lot."
+    },
+    {
+      "idx": 1015,
+      "start": 2978.26,
+      "end": 2979.94,
+      "text": "You know, people who study machine learning,"
+    },
+    {
+      "idx": 1016,
+      "start": 2979.94,
+      "end": 2981.98,
+      "text": "they have to think about quirks in higher dimensions."
+    },
+    {
+      "idx": 1017,
+      "start": 2982.18,
+      "end": 2983.02,
+      "text": "This is one of them."
+    },
+    {
+      "idx": 1018,
+      "start": 2983.22,
+      "end": 2990.27,
+      "text": "Your balls are just puny."
+    },
+    {
+      "idx": 1019,
+      "start": 2990.47,
+      "end": 2992.78,
+      "text": "Cryptographers, same deal."
+    },
+    {
+      "idx": 1020,
+      "start": 2992.98,
+      "end": 2994.17,
+      "text": "You don't clap."
+    },
+    {
+      "idx": 1021,
+      "start": 2994.17,
+      "end": 2995.36,
+      "text": "You can't clap."
+    },
+    {
+      "idx": 1022,
+      "start": 2995.56,
+      "end": 3001.03,
+      "text": "There's a time for clapping and that's not it."
+    },
+    {
+      "idx": 1023,
+      "start": 3001.51,
+      "end": 3004.03,
+      "text": "If you study cryptography, this fact comes up a lot as well."
+    },
+    {
+      "idx": 1024,
+      "start": 3004.23,
+      "end": 3006.39,
+      "text": "Quantum mechanics comes up as well."
+    },
+    {
+      "idx": 1025,
+      "start": 3006.59,
+      "end": 3011.03,
+      "text": "And I think it's worth just a little moment to divert all of your attention away"
+    },
+    {
+      "idx": 1026,
+      "start": 3011.03,
+      "end": 3012.47,
+      "text": "from the concept of puny balls."
+    },
+    {
+      "idx": 1027,
+      "start": 3012.87,
+      "end": 3015.59,
+      "text": "Instead, on the question of like, why?"
+    },
+    {
+      "idx": 1028,
+      "start": 3015.79,
+      "end": 3016.99,
+      "text": "Where did that come from?"
+    },
+    {
+      "idx": 1029,
+      "start": 3017.19,
+      "end": 3020.47,
+      "text": "And really what's happening here is the the integration factor."
+    },
+    {
+      "idx": 1030,
+      "start": 3020.67,
+      "end": 3023.79,
+      "text": "When you're dividing by that n, for example,"
+    },
+    {
+      "idx": 1031,
+      "start": 3023.99,
+      "end": 3026.43,
+      "text": "when you're thinking about the volume of a three dimensional ball,"
+    },
+    {
+      "idx": 1032,
+      "start": 3026.43,
+      "end": 3028.47,
+      "text": "you're kind of adding together all of these shells."
+    },
+    {
+      "idx": 1033,
+      "start": 3028.47,
+      "end": 3031.91,
+      "text": "You're integrating together all these things that are proportional to R squared."
+    },
+    {
+      "idx": 1034,
+      "start": 3032.11,
+      "end": 3035.75,
+      "text": "And we're saying that that effectively gives you this one third factor."
+    },
+    {
+      "idx": 1035,
+      "start": 3035.95,
+      "end": 3039.39,
+      "text": "It's very similar, actually, if you have, let's say, like a square pyramid and you"
+    },
+    {
+      "idx": 1036,
+      "start": 3039.39,
+      "end": 3042.59,
+      "text": "think of it as being built up from a whole bunch of squares whose side lengths are"
+    },
+    {
+      "idx": 1037,
+      "start": 3042.59,
+      "end": 3046.07,
+      "text": "increasing linearly, you know how with the pyramid it looks like one third times"
+    },
+    {
+      "idx": 1038,
+      "start": 3046.27,
+      "end": 3049.95,
+      "text": "its base times the height, basically the same thing is going on here."
+    },
+    {
+      "idx": 1039,
+      "start": 3050.15,
+      "end": 3051.67,
+      "text": "That's where the one third comes from."
+    },
+    {
+      "idx": 1040,
+      "start": 3051.87,
+      "end": 3054.55,
+      "text": "And in general, when you're doing this in a higher number of dimensions,"
+    },
+    {
+      "idx": 1041,
+      "start": 3054.75,
+      "end": 3056.51,
+      "text": "that factor is getting bigger and bigger."
+    },
+    {
+      "idx": 1042,
+      "start": 3056.71,
+      "end": 3060.67,
+      "text": "And this actually relates to a distinct fact about higher dimensional spheres,"
+    },
+    {
+      "idx": 1043,
+      "start": 3060.67,
+      "end": 3063.63,
+      "text": "which is also relevant in all of these fields if you want to get a little bit"
+    },
+    {
+      "idx": 1044,
+      "start": 3063.83,
+      "end": 3066.99,
+      "text": "of an intuition for how distances behave."
+    },
+    {
+      "idx": 1045,
+      "start": 3067.19,
+      "end": 3071.31,
+      "text": "This has to do with not just what the volume of a sphere is, but where that volume is."
+    },
+    {
+      "idx": 1046,
+      "start": 3071.51,
+      "end": 3072.39,
+      "text": "And it's basically,"
+    },
+    {
+      "idx": 1047,
+      "start": 3072.59,
+      "end": 3075.19,
+      "text": "almost all right next to the boundary."
+    },
+    {
+      "idx": 1048,
+      "start": 3075.39,
+      "end": 3077.07,
+      "text": "And it's not too hard to explain why."
+    },
+    {
+      "idx": 1049,
+      "start": 3077.27,
+      "end": 3082.15,
+      "text": "So let's say we're in two dimensions and I want to understand how much of the area"
+    },
+    {
+      "idx": 1050,
+      "start": 3082.35,
+      "end": 3086.91,
+      "text": "of that circle, let's say it's a unit circle, is within a distance of like 0.01"
+    },
+    {
+      "idx": 1051,
+      "start": 3087.11,
+      "end": 3088.064,
+      "text": "of the boundary."
+    },
+    {
+      "idx": 1052,
+      "start": 3088.064,
+      "end": 3090.39,
+      "text": "It's kind of within 1% of the boundary."
+    },
+    {
+      "idx": 1053,
+      "start": 3090.59,
+      "end": 3093.15,
+      "text": "Well, you could calculate that as you could say, all right,"
+    },
+    {
+      "idx": 1054,
+      "start": 3093.35,
+      "end": 3095.79,
+      "text": "the area of the entire circle is pi R squared."
+    },
+    {
+      "idx": 1055,
+      "start": 3095.99,
+      "end": 3097.71,
+      "text": "And then if we chop out everything other"
+    },
+    {
+      "idx": 1056,
+      "start": 3097.71,
+      "end": 3101.47,
+      "text": "than that boundary, that would be another circle, but whose radius was scaled"
+    },
+    {
+      "idx": 1057,
+      "start": 3102.59,
+      "end": 3103.56,
+      "text": "down by 99%."
+    },
+    {
+      "idx": 1058,
+      "start": 3103.56,
+      "end": 3106.31,
+      "text": "And if you scale that down by 99%,"
+    },
+    {
+      "idx": 1059,
+      "start": 3106.51,
+      "end": 3111.87,
+      "text": "the area gets scaled down by its square, which is approximately 0.98 in this case."
+    },
+    {
+      "idx": 1060,
+      "start": 3113.71,
+      "end": 3118.91,
+      "text": "But the idea is that 2% of the area of that circle is close to the boundary."
+    },
+    {
+      "idx": 1061,
+      "start": 3119.11,
+      "end": 3122.51,
+      "text": "But circles are actually very unusual in this respect, in the scope of all"
+    },
+    {
+      "idx": 1062,
+      "start": 3122.51,
+      "end": 3124.67,
+      "text": "of the possible spheres across all the dimensions."
+    },
+    {
+      "idx": 1063,
+      "start": 3124.87,
+      "end": 3129.43,
+      "text": "Because let's think about what this would be in like some really big, like 10,000 dimensions."
+    },
+    {
+      "idx": 1064,
+      "start": 3129.63,
+      "end": 3130.794,
+      "text": "So we know the volume."
+    },
+    {
+      "idx": 1065,
+      "start": 3131.27,
+      "end": 3132.35,
+      "text": "We have a formula for it."
+    },
+    {
+      "idx": 1066,
+      "start": 3132.75,
+      "end": 3133.91,
+      "text": "That's really the point here, though."
+    },
+    {
+      "idx": 1067,
+      "start": 3134.11,
+      "end": 3136.99,
+      "text": "If you wanted to play the same game of saying how much of the volume is right"
+    },
+    {
+      "idx": 1068,
+      "start": 3136.99,
+      "end": 3140.47,
+      "text": "next to the boundary, you could take the entire ball and then you say,"
+    },
+    {
+      "idx": 1069,
+      "start": 3140.67,
+      "end": 3145.71,
+      "text": "let's scale it down by 99% and then ask what's the volume of that smaller one."
+    },
+    {
+      "idx": 1070,
+      "start": 3145.71,
+      "end": 3148.39,
+      "text": "Then initially you might think it's only slightly smaller."
+    },
+    {
+      "idx": 1071,
+      "start": 3148.59,
+      "end": 3150.27,
+      "text": "But in this case, when you scale it down,"
+    },
+    {
+      "idx": 1072,
+      "start": 3150.35,
+      "end": 3152.59,
+      "text": "it's not just getting scaled down in two directions."
+    },
+    {
+      "idx": 1073,
+      "start": 3152.71,
+      "end": 3155.35,
+      "text": "By definition of what we mean being in 10,000 dimensions,"
+    },
+    {
+      "idx": 1074,
+      "start": 3155.55,
+      "end": 3158.07,
+      "text": "it's getting scaled down in 10,000 different directions."
+    },
+    {
+      "idx": 1075,
+      "start": 3158.27,
+      "end": 3162.31,
+      "text": "So the factor by which its volume decreases looks like 0.99"
+    },
+    {
+      "idx": 1076,
+      "start": 3162.31,
+      "end": 3163.99,
+      "text": "raised to the 10,000."
+    },
+    {
+      "idx": 1077,
+      "start": 3164.19,
+      "end": 3166.19,
+      "text": "That is effectively zero."
+    },
+    {
+      "idx": 1078,
+      "start": 3166.39,
+      "end": 3168.99,
+      "text": "It's 2 times 10 to the negative 44."
+    },
+    {
+      "idx": 1079,
+      "start": 3169.19,
+      "end": 3171.31,
+      "text": "So this is saying essentially all"
+    },
+    {
+      "idx": 1080,
+      "start": 3171.51,
+      "end": 3173.99,
+      "text": "of the volume is sitting right there on that boundary."
+    },
+    {
+      "idx": 1081,
+      "start": 3174.19,
+      "end": 3176.19,
+      "text": "And this is related to what we were just"
+    },
+    {
+      "idx": 1082,
+      "start": 3176.19,
+      "end": 3179.07,
+      "text": "looking at, where as you're going from the boundary to the interior,"
+    },
+    {
+      "idx": 1083,
+      "start": 3179.19,
+      "end": 3182.39,
+      "text": "you're making this division that becomes more and more significant."
+    },
+    {
+      "idx": 1084,
+      "start": 3182.59,
+      "end": 3185.71,
+      "text": "Because if you think about it, what does it mean when we're talking"
+    },
+    {
+      "idx": 1085,
+      "start": 3185.91,
+      "end": 3191.15,
+      "text": "about the surface area of a sphere, of a unit sphere, is 4 pi, a number that's,"
+    },
+    {
+      "idx": 1086,
+      "start": 3191.35,
+      "end": 3192.27,
+      "text": "you know, around 12."
+    },
+    {
+      "idx": 1087,
+      "start": 3192.47,
+      "end": 3195.19,
+      "text": "And the interior of it is 4 thirds pi."
+    },
+    {
+      "idx": 1088,
+      "start": 3195.39,
+      "end": 3197.27,
+      "text": "On the one hand, you're comparing different units."
+    },
+    {
+      "idx": 1089,
+      "start": 3197.27,
+      "end": 3198.63,
+      "text": "One is an area, one's a volume."
+    },
+    {
+      "idx": 1090,
+      "start": 3198.83,
+      "end": 3201.83,
+      "text": "But you could say you take that area and you multiply it just by a tiny little"
+    },
+    {
+      "idx": 1091,
+      "start": 3202.03,
+      "end": 3206.03,
+      "text": "amount, and it's giving you like a disproportionate amount of the entire sphere."
+    },
+    {
+      "idx": 1092,
+      "start": 3206.23,
+      "end": 3208.67,
+      "text": "So that's actually a nice intuition to have."
+    },
+    {
+      "idx": 1093,
+      "start": 3208.67,
+      "end": 3212.03,
+      "text": "Just if you are working with high dimensional data, essentially everything,"
+    },
+    {
+      "idx": 1094,
+      "start": 3212.23,
+      "end": 3216.11,
+      "text": "if you're dealing with something inside a ball, is just right next to the surface,"
+    },
+    {
+      "idx": 1095,
+      "start": 3216.31,
+      "end": 3217.71,
+      "text": "effectively right on the surface."
+    },
+    {
+      "idx": 1096,
+      "start": 3217.91,
+      "end": 3221.31,
+      "text": "While we're here, there's another fact this is kind of tied to."
+    },
+    {
+      "idx": 1097,
+      "start": 3221.51,
+      "end": 3222.51,
+      "text": "Well, let's say you want to know"
+    },
+    {
+      "idx": 1098,
+      "start": 3222.67,
+      "end": 3225.31,
+      "text": "from that boundary, where is most of that boundary volume?"
+    },
+    {
+      "idx": 1099,
+      "start": 3225.51,
+      "end": 3228.15,
+      "text": "For example, most of the surface area of a sphere."
+    },
+    {
+      "idx": 1100,
+      "start": 3228.35,
+      "end": 3230.91,
+      "text": "Now, in a sphere, it's nicely distributed across everything."
+    },
+    {
+      "idx": 1101,
+      "start": 3231.11,
+      "end": 3234.35,
+      "text": "But if this picture was being drawn in many, many, many more dimensions,"
+    },
+    {
+      "idx": 1102,
+      "start": 3234.55,
+      "end": 3237.75,
+      "text": "what ends up happening is almost all the masses at the equator."
+    },
+    {
+      "idx": 1103,
+      "start": 3237.95,
+      "end": 3241.91,
+      "text": "And the reason is tied to what we were just talking about, where as you scale it"
+    },
+    {
+      "idx": 1104,
+      "start": 3241.91,
+      "end": 3246.23,
+      "text": "a little bit, because there's so many dimensions to scale in, it basically disappears."
+    },
+    {
+      "idx": 1105,
+      "start": 3246.43,
+      "end": 3250.75,
+      "text": "So if you think of the circles that aren't the equator, and I say circle, the,"
+    },
+    {
+      "idx": 1106,
+      "start": 3250.95,
+      "end": 3252.55,
+      "text": "you know, the D minus two dimensional"
+    },
+    {
+      "idx": 1107,
+      "start": 3252.75,
+      "end": 3256.11,
+      "text": "boundaries that aren't the equator, but are just a little bit upward or just"
+    },
+    {
+      "idx": 1108,
+      "start": 3256.31,
+      "end": 3260.47,
+      "text": "a little bit down from it, those ones end up becoming effectively nothing because"
+    },
+    {
+      "idx": 1109,
+      "start": 3260.47,
+      "end": 3264.07,
+      "text": "that tiny bit of scaling that's required to get just a little up or just a little"
+    },
+    {
+      "idx": 1110,
+      "start": 3264.27,
+      "end": 3267.48,
+      "text": "down essentially makes their volume disappear."
+    },
+    {
+      "idx": 1111,
+      "start": 3267.68,
+      "end": 3272.4,
+      "text": "Now, the last thing I want to linger on is how, like, this idea that the size of your"
+    },
+    {
+      "idx": 1112,
+      "start": 3272.6,
+      "end": 3277.36,
+      "text": "of your spheres and higher dimensions is shrinking feels a little bit like it feels"
+    },
+    {
+      "idx": 1113,
+      "start": 3277.36,
+      "end": 3281.36,
+      "text": "like it's not even a sensible comparison because we're messing with different units."
+    },
+    {
+      "idx": 1114,
+      "start": 3281.56,
+      "end": 3283.16,
+      "text": "What does it mean to compare the volume?"
+    },
+    {
+      "idx": 1115,
+      "start": 3283.36,
+      "end": 3286.4,
+      "text": "Of a one dimensional ball to that of a two dimensional ball to a three dimensional"
+    },
+    {
+      "idx": 1116,
+      "start": 3286.6,
+      "end": 3289.36,
+      "text": "one, because one is a length, one is an area, one is a volume."
+    },
+    {
+      "idx": 1117,
+      "start": 3289.56,
+      "end": 3292.56,
+      "text": "Because in some some literal sense, like a three dimensional ball is not"
+    },
+    {
+      "idx": 1118,
+      "start": 3292.76,
+      "end": 3296.2,
+      "text": "smaller or bigger than the four dimensional ball is just incomparable."
+    },
+    {
+      "idx": 1119,
+      "start": 3296.4,
+      "end": 3299.2,
+      "text": "And so let's try to think about what this number actually means."
+    },
+    {
+      "idx": 1120,
+      "start": 3299.4,
+      "end": 3302.44,
+      "text": "How can we give kind of a unit free interpretation of it?"
+    },
+    {
+      "idx": 1121,
+      "start": 3302.64,
+      "end": 3305.44,
+      "text": "And in the literal sense, I guess what we're saying is we're really"
+    },
+    {
+      "idx": 1122,
+      "start": 3305.64,
+      "end": 3311.12,
+      "text": "comparing it to the volume of a unit cube, you know, that pie for the area of a unit circle."
+    },
+    {
+      "idx": 1123,
+      "start": 3311.32,
+      "end": 3313.12,
+      "text": "That's basically area of a circle."
+    },
+    {
+      "idx": 1124,
+      "start": 3313.32,
+      "end": 3320.2,
+      "text": "As compared to the area of a square with side length one and then three dimensions."
+    },
+    {
+      "idx": 1125,
+      "start": 3320.4,
+      "end": 3322.2,
+      "text": "What do we mean by that four thirds pie?"
+    },
+    {
+      "idx": 1126,
+      "start": 3322.4,
+      "end": 3326.6,
+      "text": "Well, we're comparing the volume of that sphere to the volume of a unit cube."
+    },
+    {
+      "idx": 1127,
+      "start": 3326.8,
+      "end": 3330.68,
+      "text": "And so in some sense, the fact that this is getting smaller is really just telling"
+    },
+    {
+      "idx": 1128,
+      "start": 3330.88,
+      "end": 3335.2,
+      "text": "you that up in many dimensions, the size of a cube compared to the size"
+    },
+    {
+      "idx": 1129,
+      "start": 3335.4,
+      "end": 3337.96,
+      "text": "of a sphere ends up getting really, really disproportionate."
+    },
+    {
+      "idx": 1130,
+      "start": 3338.16,
+      "end": 3339.96,
+      "text": "The cubes are huge and the spheres are small."
+    },
+    {
+      "idx": 1131,
+      "start": 3340.16,
+      "end": 3343.16,
+      "text": "And that was thinking, actually, that reminds me of that earlier puzzle."
+    },
+    {
+      "idx": 1132,
+      "start": 3343.36,
+      "end": 3347.4,
+      "text": "And in fact, there's a different visual that you can think of for what this number"
+    },
+    {
+      "idx": 1133,
+      "start": 3347.4,
+      "end": 3350.56,
+      "text": "is really telling you, because let's pull up that second puzzle that we looked at"
+    },
+    {
+      "idx": 1134,
+      "start": 3350.76,
+      "end": 3352.64,
+      "text": "where we had all these corner spheres."
+    },
+    {
+      "idx": 1135,
+      "start": 3352.84,
+      "end": 3355.32,
+      "text": "What if I wanted to ask how much of this"
+    },
+    {
+      "idx": 1136,
+      "start": 3355.52,
+      "end": 3359.2,
+      "text": "diagram is represented in those corner spheres versus in that cube?"
+    },
+    {
+      "idx": 1137,
+      "start": 3359.4,
+      "end": 3361.6,
+      "text": "And in this case, there's eight distinct"
+    },
+    {
+      "idx": 1138,
+      "start": 3361.8,
+      "end": 3364.44,
+      "text": "corner spheres and each one of them has radius one."
+    },
+    {
+      "idx": 1139,
+      "start": 3364.64,
+      "end": 3366.88,
+      "text": "And then the cube is a two by two by two cube."
+    },
+    {
+      "idx": 1140,
+      "start": 3367.08,
+      "end": 3369.36,
+      "text": "So you'd be taking eight times the volume"
+    },
+    {
+      "idx": 1141,
+      "start": 3369.56,
+      "end": 3372.32,
+      "text": "of a unit sphere and you're dividing it by eight."
+    },
+    {
+      "idx": 1142,
+      "start": 3373.45,
+      "end": 3376.57,
+      "text": "That's just getting us back to where we are, because that factor of eight cancels out."
+    },
+    {
+      "idx": 1143,
+      "start": 3376.77,
+      "end": 3381.45,
+      "text": "Whatever this picture looks like up in 100 dimensions, you've got two to the 100"
+    },
+    {
+      "idx": 1144,
+      "start": 3381.65,
+      "end": 3385.37,
+      "text": "corner spheres and then you've got this big old cube that's volume two to the 100."
+    },
+    {
+      "idx": 1145,
+      "start": 3385.57,
+      "end": 3386.45,
+      "text": "Those cancel out."
+    },
+    {
+      "idx": 1146,
+      "start": 3386.65,
+      "end": 3390.57,
+      "text": "And the fact that a 100 dimensional sphere is very small could be interpreted as"
+    },
+    {
+      "idx": 1147,
+      "start": 3390.77,
+      "end": 3393.81,
+      "text": "saying whatever this diagram should be up in 100 dimensions,"
+    },
+    {
+      "idx": 1148,
+      "start": 3394.01,
+      "end": 3396.13,
+      "text": "those corner spheres are basically none of it."
+    },
+    {
+      "idx": 1149,
+      "start": 3396.25,
+      "end": 3399.29,
+      "text": "They're effectively none of the volume that you're looking at."
+    },
+    {
+      "idx": 1150,
+      "start": 3399.49,
+      "end": 3402.97,
+      "text": "And that kind of ties to the visual I was giving earlier, where the very loose"
+    },
+    {
+      "idx": 1151,
+      "start": 3403.45,
+      "end": 3405.65,
+      "text": "aspect of the sphere is that it's not a very large cube."
+    },
+    {
+      "idx": 1152,
+      "start": 3405.85,
+      "end": 3408.05,
+      "text": "The very loose aspect of the sphere is that it's not a very large cube."
+    },
+    {
+      "idx": 1153,
+      "start": 3408.25,
+      "end": 3410.17,
+      "text": "The very loose aspect of the sphere is that it's not a very large cube."
+    },
+    {
+      "idx": 1154,
+      "start": 3410.37,
+      "end": 3413.85,
+      "text": "And the reason that that's so characteristic for this high dimensional cube is that it's super spiky."
+    },
+    {
+      "idx": 1155,
+      "start": 3414.05,
+      "end": 3418.24,
+      "text": "It's something where the distance to the edge is much, much smaller than the distance to the corner."
+    },
+    {
+      "idx": 1156,
+      "start": 3418.44,
+      "end": 3422.44,
+      "text": "And so all those corner spheres are basically none of your diagram."
+    },
+    {
+      "idx": 1157,
+      "start": 3422.64,
+      "end": 3425.44,
+      "text": "And so with all that, I just want to end up with you on a very small note,"
+    },
+    {
+      "idx": 1158,
+      "start": 3425.64,
+      "end": 3428.44,
+      "text": "which is that there's a lot of beautiful items that you can come across in math."
+    },
+    {
+      "idx": 1159,
+      "start": 3428.64,
+      "end": 3432.44,
+      "text": "But actually recognizing that beauty sometimes requires looking at something"
+    },
+    {
+      "idx": 1160,
+      "start": 3432.44,
+      "end": 3433.64,
+      "text": "in the context of something more general."
+    },
+    {
+      "idx": 1161,
+      "start": 3433.84,
+      "end": 3437.56,
+      "text": "The beauty that underlies factorials and the beauty that underlies the volume"
+    },
+    {
+      "idx": 1162,
+      "start": 3437.76,
+      "end": 3443.48,
+      "text": "formula for a sphere is actually only visible once you've stepped back to see things general enough."
+    },
+    {
+      "idx": 1163,
+      "start": 3443.68,
+      "end": 3447.76,
+      "text": "Otherwise, it would not at all be visible that a pie is secretly hiding inside your"
+    },
+    {
+      "idx": 1164,
+      "start": 3447.96,
+      "end": 3452.64,
+      "text": "factorial calculations or that there's some unifying formula sitting between"
+    },
+    {
+      "idx": 1165,
+      "start": 3452.84,
+      "end": 3455.72,
+      "text": "your area of a circle and your volume of a sphere."
+    },
+    {
+      "idx": 1166,
+      "start": 3455.92,
+      "end": 3457.035,
+      "text": "So that's all I have for you."
+    },
+    {
+      "idx": 1167,
+      "start": 3457.035,
+      "end": 3457.88,
+      "text": "I want to end it here."
+    },
+    {
+      "idx": 1168,
+      "start": 3458.0,
+      "end": 3469.96,
+      "text": "Thank you, everyone, for coming."
+    },
+    {
+      "idx": 1169,
+      "start": 3470.16,
+      "end": 3472.64,
+      "text": "Hi there, me again, but from the office this time."
+    },
+    {
+      "idx": 1170,
+      "start": 3472.76,
+      "end": 3476.36,
+      "text": "I wanted to chime in with a quick little end note, partly to talk about that very"
+    },
+    {
+      "idx": 1171,
+      "start": 3476.36,
+      "end": 3479.96,
+      "text": "first animation I showed at the beginning and explain what that actually is,"
+    },
+    {
+      "idx": 1172,
+      "start": 3479.96,
+      "end": 3481.84,
+      "text": "how it relates to high dimensional spheres."
+    },
+    {
+      "idx": 1173,
+      "start": 3482.04,
+      "end": 3484.04,
+      "text": "But before then, given that you are"
+    },
+    {
+      "idx": 1174,
+      "start": 3484.04,
+      "end": 3487.96,
+      "text": "demonstrably the kind of person who watches a lecture about high dimensional spheres,"
+    },
+    {
+      "idx": 1175,
+      "start": 3488.16,
+      "end": 3491.6,
+      "text": "I have a suspicion that you would be a good fit for the new experimental thing"
+    },
+    {
+      "idx": 1176,
+      "start": 3491.8,
+      "end": 3494.84,
+      "text": "I'm doing this year, which is essentially a virtual career fair."
+    },
+    {
+      "idx": 1177,
+      "start": 3495.04,
+      "end": 3497.68,
+      "text": "So take a moment to go to 3b1b.co"
+    },
+    {
+      "idx": 1178,
+      "start": 3497.88,
+      "end": 3502.6,
+      "text": "slash talent and there what you'll find is a set of career opportunities from"
+    },
+    {
+      "idx": 1179,
+      "start": 3502.84,
+      "end": 3506.36,
+      "text": "various different organizations who are interested in people like you,"
+    },
+    {
+      "idx": 1180,
+      "start": 3506.56,
+      "end": 3509.96,
+      "text": "the kind of people who watch these videos and the curiosity that represents,"
+    },
+    {
+      "idx": 1181,
+      "start": 3510.16,
+      "end": 3513.12,
+      "text": "which tends to correlate with very technically talented people."
+    },
+    {
+      "idx": 1182,
+      "start": 3513.32,
+      "end": 3514.92,
+      "text": "So for every group that you find there,"
+    },
+    {
+      "idx": 1183,
+      "start": 3515.12,
+      "end": 3518.08,
+      "text": "I've personally taken a chance to chat with the teams there."
+    },
+    {
+      "idx": 1184,
+      "start": 3518.28,
+      "end": 3521.12,
+      "text": "And I can tell you the people that I've met there are just clearly very smart."
+    },
+    {
+      "idx": 1185,
+      "start": 3521.32,
+      "end": 3523.56,
+      "text": "They're very curious in the sense of truth seeking."
+    },
+    {
+      "idx": 1186,
+      "start": 3523.76,
+      "end": 3525.68,
+      "text": "A lot of them are just high agency people."
+    },
+    {
+      "idx": 1187,
+      "start": 3525.68,
+      "end": 3527.8,
+      "text": "They clearly take charge of what they actually do."
+    },
+    {
+      "idx": 1188,
+      "start": 3527.8,
+      "end": 3529.72,
+      "text": "They don't just wait to follow instructions."
+    },
+    {
+      "idx": 1189,
+      "start": 3529.92,
+      "end": 3532.72,
+      "text": "And if that sounds like the kind of person who you want to work."
+    },
+    {
+      "idx": 1190,
+      "start": 3532.92,
+      "end": 3535.72,
+      "text": "Alongside, I would highly encourage you to at least check it out."
+    },
+    {
+      "idx": 1191,
+      "start": 3535.92,
+      "end": 3538.36,
+      "text": "Listen to some of the interviews I conducted with the people there."
+    },
+    {
+      "idx": 1192,
+      "start": 3538.56,
+      "end": 3540.16,
+      "text": "And if you're looking for a new career,"
+    },
+    {
+      "idx": 1193,
+      "start": 3540.36,
+      "end": 3543.44,
+      "text": "hopefully this gives you a helpful new batch of considerations."
+    },
+    {
+      "idx": 1194,
+      "start": 3543.48,
+      "end": 3545.52,
+      "text": "Since the last video, when I very first mentioned this,"
+    },
+    {
+      "idx": 1195,
+      "start": 3545.72,
+      "end": 3548.88,
+      "text": "there have been actual hires made, which is pretty cool to me."
+    },
+    {
+      "idx": 1196,
+      "start": 3549.08,
+      "end": 3549.748,
+      "text": "So who knows?"
+    },
+    {
+      "idx": 1197,
+      "start": 3549.748,
+      "end": 3552.88,
+      "text": "Maybe if you go and explore the page, you'll be the next one."
+    },
+    {
+      "idx": 1198,
+      "start": 3553.08,
+      "end": 3555.48,
+      "text": "So for that animation at the very, very beginning,"
+    },
+    {
+      "idx": 1199,
+      "start": 3556.16,
+      "end": 3560.28,
+      "text": "I initially showed this circle that turns into the various lines of latitude on a"
+    },
+    {
+      "idx": 1200,
+      "start": 3560.48,
+      "end": 3562.24,
+      "text": "sphere, a sphere in three dimensions."
+    },
+    {
+      "idx": 1201,
+      "start": 3562.24,
+      "end": 3562.64,
+      "text": "And our minds."
+    },
+    {
+      "idx": 1202,
+      "start": 3562.84,
+      "end": 3565.12,
+      "text": "Are very good at seeing that it's a three dimensional sphere."
+    },
+    {
+      "idx": 1203,
+      "start": 3565.32,
+      "end": 3567.32,
+      "text": "After that, I basically show the same thing,"
+    },
+    {
+      "idx": 1204,
+      "start": 3567.52,
+      "end": 3570.0,
+      "text": "same code, but stepping it up in one dimension."
+    },
+    {
+      "idx": 1205,
+      "start": 3570.2,
+      "end": 3574.36,
+      "text": "So I represent all of the spheres of latitude on a four dimensional sphere."
+    },
+    {
+      "idx": 1206,
+      "start": 3574.4,
+      "end": 3576.52,
+      "text": "So they're kind of a bunch of four tuples of numbers."
+    },
+    {
+      "idx": 1207,
+      "start": 3576.72,
+      "end": 3580.0,
+      "text": "But if you change the perspective on that before you project down into three"
+    },
+    {
+      "idx": 1208,
+      "start": 3580.2,
+      "end": 3583.88,
+      "text": "dimensions, you get all of these different views of what those spheres"
+    },
+    {
+      "idx": 1209,
+      "start": 3584.08,
+      "end": 3588.04,
+      "text": "of latitude end up looking like, which as you rotate that hypersphere ends"
+    },
+    {
+      "idx": 1210,
+      "start": 3588.24,
+      "end": 3589.701,
+      "text": "up looking just very trippy."
+    },
+    {
+      "idx": 1211,
+      "start": 3589.701,
+      "end": 3592.52,
+      "text": "And I don't think this is explanatory in the sense of."
+    },
+    {
+      "idx": 1212,
+      "start": 3592.72,
+      "end": 3595.36,
+      "text": "You look at this and you see pi squared over two."
+    },
+    {
+      "idx": 1213,
+      "start": 3595.56,
+      "end": 3596.52,
+      "text": "But it is very fun."
+    },
+    {
+      "idx": 1214,
+      "start": 3596.72,
+      "end": 3598.08,
+      "text": "So thought I'd share that with you."
+    },
+    {
+      "idx": 1215,
+      "start": 3598.28,
+      "end": 3600.12,
+      "text": "Also, if you want to see a fun application"
+    },
+    {
+      "idx": 1216,
+      "start": 3600.32,
+      "end": 3604.28,
+      "text": "of this formula for high dimensional sphere volumes, you might enjoy a video I did"
+    },
+    {
+      "idx": 1217,
+      "start": 3604.48,
+      "end": 3608.2,
+      "text": "with Numberphile a couple of years back that includes a puzzle that incorporates"
+    },
+    {
+      "idx": 1218,
+      "start": 3608.4,
+      "end": 3609.2,
+      "text": "this into its answer."
+    }
+  ]
+}

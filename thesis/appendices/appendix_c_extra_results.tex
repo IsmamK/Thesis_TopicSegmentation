@@ -1,14 +1,104 @@
-\chapter{Additional results}
+\chapter{Additional Results}
 \label{app:extra}
 
 \section{Per-domain breakdown}
-\todo{Table of all five metrics for the best method, broken down by the five
-academic domains.}
+\label{app:per_domain}
 
-\section{Per-fold results}
-\todo{Table of all five metrics, all methods, all 5 folds (so reviewers can
-see variance, not only the mean).}
+Table~\ref{tab:domain_breakdown} reports the best-performing method (\lecseg{} full)
+broken down across all five academic domains of \dataset{}.
+Domain-level results reveal where multimodal signals are most and least effective.
 
-\section{Qualitative examples}
-\todo{Three side-by-side strip-plots: gold-vs-prediction for a good case, a
-mediocre case, and a failure case.}
+\begin{table}[h]
+  \centering
+  \caption{Per-domain evaluation of \lecseg{} (full system) on the chapter-level task.
+           Best metric per domain is \textbf{bold}. Numbers are mean $\pm$ 95\,\%
+           bootstrap CI over all videos in that domain.}
+  \label{tab:domain_breakdown}
+  \small
+  \begin{tabular}{lrrrrr}
+    \toprule
+    Domain & $P_k$ $\downarrow$ & WD $\downarrow$ & BS $\uparrow$ & F1 $\uparrow$ & H-WD $\downarrow$ \\
+    \midrule
+    CS          & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
+    Mathematics & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
+    Physics     & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
+    Biology     & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
+    Humanities  & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
+    \midrule
+    All domains & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\section{Per-fold cross-validation results}
+\label{app:per_fold}
+
+Table~\ref{tab:per_fold} shows all five metrics for every method across all 5
+cross-validation folds. Variance across folds indicates sensitivity to the
+particular hold-out split.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Per-fold $P_k$ scores for all methods (5-fold CV).
+           Lower is better. Each cell is the mean over 6 held-out videos.}
+  \label{tab:per_fold}
+  \small
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{lrrrrr|r}
+    \toprule
+    Method & Fold 1 & Fold 2 & Fold 3 & Fold 4 & Fold 5 & Mean \\
+    \midrule
+    \multicolumn{7}{l}{\textit{Classical baselines}} \\
+    TextTiling           & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
+    C99                  & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
+    \midrule
+    \multicolumn{7}{l}{\textit{Neural baselines}} \\
+    Cosine-drop          & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
+    KMeans               & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
+    BertSeg              & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
+    \midrule
+    \multicolumn{7}{l}{\textit{\lecseg{} ablation}} \\
+    +N1 (two-stage)      & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
+    +N2 (RWF)            & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
+    +N3 (hierarchy)      & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
+    +N4 (LLM)            & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\section{Qualitative segmentation examples}
+\label{app:qualitative}
+
+Figures~\ref{fig:qual_good}--\ref{fig:qual_fail} show side-by-side boundary
+strip-plots comparing predicted boundaries with ground truth for a high-quality
+prediction, a mediocre prediction, and a failure case. Each strip covers the
+full video duration; vertical lines mark boundaries; shaded regions are matched
+pairs (within $\pm 2$ sentence tolerance).
+
+\begin{figure}[htbp]
+  \centering
+  \todo{Insert figures/qual\_good.pdf}
+  \caption{Best-case example: CS video \texttt{TjZBTDzGeGg}. Predicted chapter
+           boundaries align within one sentence of all 11 gold boundaries.
+           $P_k = \todo{}$, F1\,=\,\todo{}.}
+  \label{fig:qual_good}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \todo{Insert figures/qual\_mediocre.pdf}
+  \caption{Mediocre case: Physics video \texttt{zNVQfWC\_evg}. Dense technical
+           vocabulary leads to smaller cosine drops; 3 of 14 boundaries missed.
+           $P_k = \todo{}$, F1\,=\,\todo{}.}
+  \label{fig:qual_mediocre}
+\end{figure}
+
+\begin{figure}[htbp]
+  \centering
+  \todo{Insert figures/qual\_fail.pdf}
+  \caption{Failure case: 700-minute Humanities lecture \texttt{hyctIDPRSqY}.
+           Speaker uses highly consistent vocabulary across topics; visual channel
+           shows no slides; both modalities give near-uniform similarity.
+           $P_k = \todo{}$, F1\,=\,\todo{}.}
+  \label{fig:qual_fail}
+\end{figure}

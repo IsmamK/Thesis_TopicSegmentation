@@ -1,0 +1,5069 @@
+{
+  "video_id": "lUUte2o2Sn8",
+  "sentences": [
+    {
+      "idx": 0,
+      "start": 543.14,
+      "end": 545.14,
+      "text": "Thank you for coming today."
+    },
+    {
+      "idx": 1,
+      "start": 545.14,
+      "end": 549.68,
+      "text": "sort of an overwhelming day, but a happy one."
+    },
+    {
+      "idx": 2,
+      "start": 549.68,
+      "end": 554.08,
+      "text": "So you know that there'll be a few people speaking,"
+    },
+    {
+      "idx": 3,
+      "start": 554.08,
+      "end": 557.38,
+      "text": "as well as the ordinary class."
+    },
+    {
+      "idx": 4,
+      "start": 557.38,
+      "end": 561.26,
+      "text": "So the first is Alan Professor Adelman, Alan Adelman,"
+    },
+    {
+      "idx": 5,
+      "start": 561.26,
+      "end": 566.26,
+      "text": "the creator of Julia, who had the idea for this event,"
+    },
+    {
+      "idx": 6,
+      "start": 566.26,
+      "end": 570.92,
+      "text": "but is out of the country now at a conference."
+    },
+    {
+      "idx": 7,
+      "start": 570.92,
+      "end": 577.88,
+      "text": "So what I'm hoping to do now is to introduce him by Zoom."
+    },
+    {
+      "idx": 8,
+      "start": 577.88,
+      "end": 583.86,
+      "text": "And so hopefully, we'll come on the screen for a few minutes."
+    },
+    {
+      "idx": 9,
+      "start": 583.86,
+      "end": 586.16,
+      "text": "Then I'll talk about linear algebra."
+    },
+    {
+      "idx": 10,
+      "start": 586.16,
+      "end": 590.78,
+      "text": "I hope that's OK for most of the hour."
+    },
+    {
+      "idx": 11,
+      "start": 590.78,
+      "end": 594.78,
+      "text": "And then at the end of the hour, one of my PhD students,"
+    },
+    {
+      "idx": 12,
+      "start": 594.78,
+      "end": 600.92,
+      "text": "and Pavel Grinfeld, and then the chair of the math department,"
+    },
+    {
+      "idx": 13,
+      "start": 600.92,
+      "end": 604.92,
+      "text": "Michel Goemans, will end the class."
+    },
+    {
+      "idx": 14,
+      "start": 604.92,
+      "end": 611.04,
+      "text": "So apologies to the 1806 class who"
+    },
+    {
+      "idx": 15,
+      "start": 611.04,
+      "end": 614.04,
+      "text": "wants preparation for the final exam,"
+    },
+    {
+      "idx": 16,
+      "start": 614.04,
+      "end": 618.04,
+      "text": "but I'll do some of that in the middle."
+    },
+    {
+      "idx": 17,
+      "start": 618.04,
+      "end": 620.04,
+      "text": "So first of all, if the system is"
+    },
+    {
+      "idx": 18,
+      "start": 620.04,
+      "end": 628.04,
+      "text": "ready to send Alan's message, they could go ahead."
+    },
+    {
+      "idx": 19,
+      "start": 628.04,
+      "end": 630.04,
+      "text": "Today is a special moment in MIT history."
+    },
+    {
+      "idx": 20,
+      "start": 631.04,
+      "end": 633.04,
+      "text": "It is fitting that gathered together today"
+    },
+    {
+      "idx": 21,
+      "start": 633.04,
+      "end": 635.04,
+      "text": "are young students completing their first linear algebra"
+    },
+    {
+      "idx": 22,
+      "start": 635.04,
+      "end": 638.04,
+      "text": "class together with those who have been inspired by Gil's"
+    },
+    {
+      "idx": 23,
+      "start": 638.04,
+      "end": 640.04,
+      "text": "strength for perhaps over half a century."
+    },
+    {
+      "idx": 24,
+      "start": 640.04,
+      "end": 644.04,
+      "text": "Gil, you recognize in everyone the thirst for knowledge."
+    },
+    {
+      "idx": 25,
+      "start": 644.04,
+      "end": 646.04,
+      "text": "You always bring out the best in everybody,"
+    },
+    {
+      "idx": 26,
+      "start": 646.04,
+      "end": 649.04,
+      "text": "and you do so with dignity and humility."
+    },
+    {
+      "idx": 27,
+      "start": 649.04,
+      "end": 652.04,
+      "text": "I've watched Gil encourage everybody, no matter who."
+    },
+    {
+      "idx": 28,
+      "start": 652.04,
+      "end": 655.04,
+      "text": "Whether a student was struggling or at the top of the class,"
+    },
+    {
+      "idx": 29,
+      "start": 655.04,
+      "end": 658.04,
+      "text": "Gil always knew just what to say."
+    },
+    {
+      "idx": 30,
+      "start": 658.04,
+      "end": 660.04,
+      "text": "Whether you were a colleague right next door"
+    },
+    {
+      "idx": 31,
+      "start": 660.04,
+      "end": 662.04,
+      "text": "or a stranger that landed in the hallways,"
+    },
+    {
+      "idx": 32,
+      "start": 662.04,
+      "end": 666.04,
+      "text": "one feels that Gil is your old or new best friend."
+    },
+    {
+      "idx": 33,
+      "start": 666.04,
+      "end": 669.04,
+      "text": "So what makes Gil's lecture so very special?"
+    },
+    {
+      "idx": 34,
+      "start": 669.04,
+      "end": 672.04,
+      "text": "I think we might all agree that words fall short,"
+    },
+    {
+      "idx": 35,
+      "start": 672.04,
+      "end": 675.04,
+      "text": "and yet we all know how wonderful they are."
+    },
+    {
+      "idx": 36,
+      "start": 675.04,
+      "end": 679.04,
+      "text": "Gil was a YouTube star even before there was such a thing as YouTube."
+    },
+    {
+      "idx": 37,
+      "start": 679.04,
+      "end": 681.04,
+      "text": "I love his words, his tone, his pace,"
+    },
+    {
+      "idx": 38,
+      "start": 681.04,
+      "end": 684.04,
+      "text": "and the very way that the answer seems like a surprise"
+    },
+    {
+      "idx": 39,
+      "start": 684.04,
+      "end": 687.04,
+      "text": "when, of course, we all know he rigged it from the beginning."
+    },
+    {
+      "idx": 40,
+      "start": 687.04,
+      "end": 689.46,
+      "text": "I'd like to say something particularly wonderful"
+    },
+    {
+      "idx": 41,
+      "start": 689.46,
+      "end": 691.46,
+      "text": "about Gil's textbooks."
+    },
+    {
+      "idx": 42,
+      "start": 691.46,
+      "end": 694.46,
+      "text": "The simple examples lead to deep understanding."
+    },
+    {
+      "idx": 43,
+      "start": 694.46,
+      "end": 697.46,
+      "text": "The good abstractions from the deeper classes are in Gil's text,"
+    },
+    {
+      "idx": 44,
+      "start": 697.46,
+      "end": 700.46,
+      "text": "but yet they are made accessible the Gil Strang way."
+    },
+    {
+      "idx": 45,
+      "start": 700.46,
+      "end": 704.46,
+      "text": "You can still find vector spaces, subspaces, dimensions,"
+    },
+    {
+      "idx": 46,
+      "start": 704.46,
+      "end": 707.46,
+      "text": "the Perron-Frobenius theorem, and linear transformations."
+    },
+    {
+      "idx": 47,
+      "start": 707.46,
+      "end": 710.46,
+      "text": "All those goodies from pure linear algebra are not lost,"
+    },
+    {
+      "idx": 48,
+      "start": 710.46,
+      "end": 712.46,
+      "text": "just made more relevant."
+    },
+    {
+      "idx": 49,
+      "start": 712.46,
+      "end": 714.46,
+      "text": "I love watching how he weaves those deeper ideas"
+    },
+    {
+      "idx": 50,
+      "start": 714.46,
+      "end": 716.46,
+      "text": "into the flow of the class."
+    },
+    {
+      "idx": 51,
+      "start": 716.46,
+      "end": 718.46,
+      "text": "Gil sneaks in the real spirit of this beautiful mathematical subject,"
+    },
+    {
+      "idx": 52,
+      "start": 718.46,
+      "end": 720.46,
+      "text": "and it's for everybody."
+    },
+    {
+      "idx": 53,
+      "start": 720.46,
+      "end": 723.46,
+      "text": "Speaking of the textbooks, I have a personal story to share."
+    },
+    {
+      "idx": 54,
+      "start": 723.46,
+      "end": 725.46,
+      "text": "Some years ago, Gil was going out of town"
+    },
+    {
+      "idx": 55,
+      "start": 725.46,
+      "end": 728.46,
+      "text": "and had two tickets to an event he didn't want to go to waste."
+    },
+    {
+      "idx": 56,
+      "start": 728.46,
+      "end": 731.46,
+      "text": "He gave us the instructions on how to unlock his home,"
+    },
+    {
+      "idx": 57,
+      "start": 731.46,
+      "end": 733.46,
+      "text": "but still my wife, eight months pregnant at the time,"
+    },
+    {
+      "idx": 58,
+      "start": 733.46,
+      "end": 735.46,
+      "text": "felt like the Wellesley police would surely arrest us"
+    },
+    {
+      "idx": 59,
+      "start": 735.46,
+      "end": 737.46,
+      "text": "for breaking and entering."
+    },
+    {
+      "idx": 60,
+      "start": 737.46,
+      "end": 739.46,
+      "text": "But then we saw an amazing sight,"
+    },
+    {
+      "idx": 61,
+      "start": 739.46,
+      "end": 741.46,
+      "text": "stacks and stacks of Gil's linear algebra texts,"
+    },
+    {
+      "idx": 62,
+      "start": 741.46,
+      "end": 743.46,
+      "text": "floor to ceiling, and somehow we felt comforted"
+    },
+    {
+      "idx": 63,
+      "start": 743.46,
+      "end": 746.46,
+      "text": "that we were in a place that we belonged."
+    },
+    {
+      "idx": 64,
+      "start": 746.46,
+      "end": 747.46,
+      "text": "Gil, we all love your books."
+    },
+    {
+      "idx": 65,
+      "start": 747.46,
+      "end": 749.46,
+      "text": "We all love your books, your videos, your lectures."
+    },
+    {
+      "idx": 66,
+      "start": 749.46,
+      "end": 751.46,
+      "text": "You are our role model and friends."
+    },
+    {
+      "idx": 67,
+      "start": 751.46,
+      "end": 754.46,
+      "text": "So congratulations on so many fine class lectures."
+    },
+    {
+      "idx": 68,
+      "start": 754.46,
+      "end": 756.46,
+      "text": "And not wishing to see today as final,"
+    },
+    {
+      "idx": 69,
+      "start": 756.46,
+      "end": 758.46,
+      "text": "I officially invite you to guest lecture"
+    },
+    {
+      "idx": 70,
+      "start": 758.46,
+      "end": 760.46,
+      "text": "in any of my classes or seminars"
+    },
+    {
+      "idx": 71,
+      "start": 760.46,
+      "end": 762.46,
+      "text": "any time you might wish to."
+    },
+    {
+      "idx": 72,
+      "start": 762.46,
+      "end": 764.46,
+      "text": "Today is a milestone, and I am honored"
+    },
+    {
+      "idx": 73,
+      "start": 764.46,
+      "end": 766.72,
+      "text": "to share this moment with you."
+    },
+    {
+      "idx": 74,
+      "start": 777.48,
+      "end": 779.48,
+      "text": "Does that mean I have to give another lecture"
+    },
+    {
+      "idx": 75,
+      "start": 779.48,
+      "end": 781.48,
+      "text": "from his invitation?"
+    },
+    {
+      "idx": 76,
+      "start": 781.48,
+      "end": 783.48,
+      "text": "This is the final one."
+    },
+    {
+      "idx": 77,
+      "start": 783.48,
+      "end": 787.69,
+      "text": "And so let me say a little about,"
+    },
+    {
+      "idx": 78,
+      "start": 787.69,
+      "end": 790.69,
+      "text": "first, the most important thing I have to say,"
+    },
+    {
+      "idx": 79,
+      "start": 790.69,
+      "end": 794.69,
+      "text": "the most important, is to thank Andrew Horning,"
+    },
+    {
+      "idx": 80,
+      "start": 794.69,
+      "end": 797.69,
+      "text": "who has co-taught this course,"
+    },
+    {
+      "idx": 81,
+      "start": 797.69,
+      "end": 801.69,
+      "text": "done far more than I have, made it happen,"
+    },
+    {
+      "idx": 82,
+      "start": 801.69,
+      "end": 803.69,
+      "text": "got us to this point."
+    },
+    {
+      "idx": 83,
+      "start": 803.69,
+      "end": 808.69,
+      "text": "He's not feeling great today."
+    },
+    {
+      "idx": 84,
+      "start": 808.69,
+      "end": 810.69,
+      "text": "He did so much."
+    },
+    {
+      "idx": 85,
+      "start": 810.69,
+      "end": 812.69,
+      "text": "So I'm speaking to him and thanking him."
+    },
+    {
+      "idx": 86,
+      "start": 813.69,
+      "end": 816.69,
+      "text": "And I'm speaking to him and for him"
+    },
+    {
+      "idx": 87,
+      "start": 816.69,
+      "end": 819.69,
+      "text": "to thank you for coming and to thank him"
+    },
+    {
+      "idx": 88,
+      "start": 819.69,
+      "end": 821.69,
+      "text": "for all he's done."
+    },
+    {
+      "idx": 89,
+      "start": 821.69,
+      "end": 829.95,
+      "text": "So he really made it possible to teach"
+    },
+    {
+      "idx": 90,
+      "start": 829.95,
+      "end": 834.59,
+      "text": "this happy but large class."
+    },
+    {
+      "idx": 91,
+      "start": 834.59,
+      "end": 843.08,
+      "text": "So thank you, Andrew."
+    },
+    {
+      "idx": 92,
+      "start": 843.08,
+      "end": 848.08,
+      "text": "So then I'm going to, I feel a little responsible"
+    },
+    {
+      "idx": 93,
+      "start": 848.08,
+      "end": 850.08,
+      "text": "to do some linear algebra."
+    },
+    {
+      "idx": 94,
+      "start": 850.08,
+      "end": 852.08,
+      "text": "And part of my family is here."
+    },
+    {
+      "idx": 95,
+      "start": 852.08,
+      "end": 855.08,
+      "text": "So I'm taking this chance after all these years"
+    },
+    {
+      "idx": 96,
+      "start": 855.08,
+      "end": 858.56,
+      "text": "to teach them some linear algebra."
+    },
+    {
+      "idx": 97,
+      "start": 858.56,
+      "end": 861.56,
+      "text": "So and you might be interested to know,"
+    },
+    {
+      "idx": 98,
+      "start": 861.56,
+      "end": 866.56,
+      "text": "I don't know if you are, how many years it's been."
+    },
+    {
+      "idx": 99,
+      "start": 866.56,
+      "end": 869.56,
+      "text": "So I'll do that over here and then maybe erase it"
+    },
+    {
+      "idx": 100,
+      "start": 869.56,
+      "end": 872.56,
+      "text": "because it's like a lot."
+    },
+    {
+      "idx": 101,
+      "start": 873.56,
+      "end": 879.56,
+      "text": "So on the faculty, it's 61 years now today."
+    },
+    {
+      "idx": 102,
+      "start": 880.56,
+      "end": 891.14,
+      "text": "And then prior to that, I was an instructor for two years."
+    },
+    {
+      "idx": 103,
+      "start": 891.14,
+      "end": 893.14,
+      "text": "You see, I remember all these."
+    },
+    {
+      "idx": 104,
+      "start": 893.14,
+      "end": 900.26,
+      "text": "And then I was an MIT student before this room existed."
+    },
+    {
+      "idx": 105,
+      "start": 900.26,
+      "end": 902.26,
+      "text": "But I was a math major."
+    },
+    {
+      "idx": 106,
+      "start": 902.26,
+      "end": 905.26,
+      "text": "There were about eight math majors then."
+    },
+    {
+      "idx": 107,
+      "start": 905.26,
+      "end": 908.26,
+      "text": "And now there are hundreds."
+    },
+    {
+      "idx": 108,
+      "start": 908.26,
+      "end": 910.26,
+      "text": "It's just been fantastic."
+    },
+    {
+      "idx": 109,
+      "start": 910.26,
+      "end": 912.26,
+      "text": "So that was three years."
+    },
+    {
+      "idx": 110,
+      "start": 912.26,
+      "end": 915.26,
+      "text": "So that's 66."
+    },
+    {
+      "idx": 111,
+      "start": 915.26,
+      "end": 924.26,
+      "text": "And you too will be happy to know that it's 66 out of my 88 years."
+    },
+    {
+      "idx": 112,
+      "start": 924.26,
+      "end": 926.52,
+      "text": "So what a nice fraction."
+    },
+    {
+      "idx": 113,
+      "start": 929.52,
+      "end": 934.9,
+      "text": "So three quarters of my life at MIT."
+    },
+    {
+      "idx": 114,
+      "start": 944.78,
+      "end": 948.78,
+      "text": "So I'm going to begin by solving some linear equations."
+    },
+    {
+      "idx": 115,
+      "start": 948.78,
+      "end": 949.78,
+      "text": "Those are linear equations."
+    },
+    {
+      "idx": 116,
+      "start": 949.78,
+      "end": 951.78,
+      "text": "I'm now speaking to family and friends."
+    },
+    {
+      "idx": 117,
+      "start": 951.78,
+      "end": 959.78,
+      "text": "But speaking to you all, just only the class certainly"
+    },
+    {
+      "idx": 118,
+      "start": 959.78,
+      "end": 961.78,
+      "text": "will know this."
+    },
+    {
+      "idx": 119,
+      "start": 961.78,
+      "end": 964.81,
+      "text": "So that's three equations."
+    },
+    {
+      "idx": 120,
+      "start": 964.81,
+      "end": 968.81,
+      "text": "And there are three unknowns, x, y, and z."
+    },
+    {
+      "idx": 121,
+      "start": 968.81,
+      "end": 972.81,
+      "text": "And the goal is to find those three numbers, x, y, and z."
+    },
+    {
+      "idx": 122,
+      "start": 972.81,
+      "end": 975.81,
+      "text": "So this is maybe the most standard problem"
+    },
+    {
+      "idx": 123,
+      "start": 975.81,
+      "end": 978.81,
+      "text": "in linear algebra."
+    },
+    {
+      "idx": 124,
+      "start": 978.81,
+      "end": 980.81,
+      "text": "N equations and n unknowns."
+    },
+    {
+      "idx": 125,
+      "start": 980.81,
+      "end": 983.81,
+      "text": "And in this example, n equals 3."
+    },
+    {
+      "idx": 126,
+      "start": 983.81,
+      "end": 986.0,
+      "text": "So how do we proceed?"
+    },
+    {
+      "idx": 127,
+      "start": 986.0,
+      "end": 989.0,
+      "text": "How do we find x, y, and z?"
+    },
+    {
+      "idx": 128,
+      "start": 989.0,
+      "end": 995.0,
+      "text": "Well, the idea comes thousands of years ago in China."
+    },
+    {
+      "idx": 129,
+      "start": 995.0,
+      "end": 998.0,
+      "text": "And the key word is elimination."
+    },
+    {
+      "idx": 130,
+      "start": 998.0,
+      "end": 1002.0,
+      "text": "We don't see any zeros there."
+    },
+    {
+      "idx": 131,
+      "start": 1002.0,
+      "end": 1008.2,
+      "text": "It's zeros that make calculations easier."
+    },
+    {
+      "idx": 132,
+      "start": 1008.2,
+      "end": 1011.2,
+      "text": "And so let me show you how to."
+    },
+    {
+      "idx": 133,
+      "start": 1011.2,
+      "end": 1020.12,
+      "text": "I'm going to show you the steps for those who know it well."
+    },
+    {
+      "idx": 134,
+      "start": 1020.12,
+      "end": 1024.12,
+      "text": "So the first equation I won't change."
+    },
+    {
+      "idx": 135,
+      "start": 1024.12,
+      "end": 1032.85,
+      "text": "2x plus 3y plus 4z equal 19."
+    },
+    {
+      "idx": 136,
+      "start": 1032.85,
+      "end": 1034.85,
+      "text": "What I want to get is some zeros here."
+    },
+    {
+      "idx": 137,
+      "start": 1034.85,
+      "end": 1038.85,
+      "text": "I want a second equation to start with 0."
+    },
+    {
+      "idx": 138,
+      "start": 1038.85,
+      "end": 1039.85,
+      "text": "So how do I do?"
+    },
+    {
+      "idx": 139,
+      "start": 1039.85,
+      "end": 1042.85,
+      "text": "Where I now have a 4, I want a 0."
+    },
+    {
+      "idx": 140,
+      "start": 1042.85,
+      "end": 1044.85,
+      "text": "So I have that equation set."
+    },
+    {
+      "idx": 141,
+      "start": 1044.85,
+      "end": 1048.85,
+      "text": "And I subtract 2 times that equation from this one."
+    },
+    {
+      "idx": 142,
+      "start": 1048.85,
+      "end": 1054.85,
+      "text": "I choose that number 2 so that 2 times 2x will be 4x."
+    },
+    {
+      "idx": 143,
+      "start": 1054.85,
+      "end": 1056.85,
+      "text": "And when I subtract, I'll have a 0."
+    },
+    {
+      "idx": 144,
+      "start": 1056.85,
+      "end": 1059.85,
+      "text": "So I multiply that by 2."
+    },
+    {
+      "idx": 145,
+      "start": 1059.85,
+      "end": 1066.39,
+      "text": "So 2 times 3y is 6y, leaving 5y."
+    },
+    {
+      "idx": 146,
+      "start": 1066.39,
+      "end": 1073.84,
+      "text": "And 2 times 4z is 8z from 14, leaving 6z."
+    },
+    {
+      "idx": 147,
+      "start": 1073.84,
+      "end": 1078.84,
+      "text": "And 2 times 19 is 38 from 55, leaving 17."
+    },
+    {
+      "idx": 148,
+      "start": 1079.84,
+      "end": 1082.84,
+      "text": "So we've got an easier equation now."
+    },
+    {
+      "idx": 149,
+      "start": 1082.84,
+      "end": 1085.84,
+      "text": "And I'll do the same for the third equation."
+    },
+    {
+      "idx": 150,
+      "start": 1085.84,
+      "end": 1088.84,
+      "text": "This time, I have a 2x there and a 2x there."
+    },
+    {
+      "idx": 151,
+      "start": 1088.84,
+      "end": 1092.84,
+      "text": "So I just want to subtract that equation from this one"
+    },
+    {
+      "idx": 152,
+      "start": 1092.84,
+      "end": 1101.25,
+      "text": "to make this one 0x plus 3y, taken away from 8y, leaves 5y."
+    },
+    {
+      "idx": 153,
+      "start": 1101.25,
+      "end": 1104.25,
+      "text": "And 4z from 17z is 13z."
+    },
+    {
+      "idx": 154,
+      "start": 1104.25,
+      "end": 1110.18,
+      "text": "And 19 from 50 is 31."
+    },
+    {
+      "idx": 155,
+      "start": 1111.18,
+      "end": 1113.18,
+      "text": "So we've taken the first step."
+    },
+    {
+      "idx": 156,
+      "start": 1113.18,
+      "end": 1119.95,
+      "text": "We've got 0s in the first column below the pivot,"
+    },
+    {
+      "idx": 157,
+      "start": 1119.95,
+      "end": 1123.95,
+      "text": "the number that we used to get those 0s."
+    },
+    {
+      "idx": 158,
+      "start": 1124.95,
+      "end": 1126.95,
+      "text": "So I'm partway along."
+    },
+    {
+      "idx": 159,
+      "start": 1126.95,
+      "end": 1130.95,
+      "text": "And then the idea is to continue."
+    },
+    {
+      "idx": 160,
+      "start": 1130.95,
+      "end": 1135.95,
+      "text": "And so my analysis is this."
+    },
+    {
+      "idx": 161,
+      "start": 1135.95,
+      "end": 1139.95,
+      "text": "I look at the second and third equations."
+    },
+    {
+      "idx": 162,
+      "start": 1139.95,
+      "end": 1144.11,
+      "text": "I have two equations here, and they just involve y and z."
+    },
+    {
+      "idx": 163,
+      "start": 1144.11,
+      "end": 1145.11,
+      "text": "So I'm making progress."
+    },
+    {
+      "idx": 164,
+      "start": 1145.11,
+      "end": 1148.11,
+      "text": "I had three equations with three unknowns."
+    },
+    {
+      "idx": 165,
+      "start": 1148.11,
+      "end": 1151.11,
+      "text": "Now I have two equations with two unknowns."
+    },
+    {
+      "idx": 166,
+      "start": 1151.11,
+      "end": 1156.11,
+      "text": "And let's go to one equation with one unknown."
+    },
+    {
+      "idx": 167,
+      "start": 1156.11,
+      "end": 1161.3,
+      "text": "So I want to get a 0 there, right?"
+    },
+    {
+      "idx": 168,
+      "start": 1161.3,
+      "end": 1165.3,
+      "text": "So that I'll just have z's and a right-hand side."
+    },
+    {
+      "idx": 169,
+      "start": 1165.3,
+      "end": 1170.3,
+      "text": "If I subtract, everybody is sort of getting in the swim."
+    },
+    {
+      "idx": 170,
+      "start": 1170.3,
+      "end": 1175.3,
+      "text": "If I subtract that equation from this one, it'll be 0x, 0y."
+    },
+    {
+      "idx": 171,
+      "start": 1175.3,
+      "end": 1177.3,
+      "text": "And what is it?"
+    },
+    {
+      "idx": 172,
+      "start": 1177.3,
+      "end": 1185.32,
+      "text": "7z equal 17 from 31 is 14."
+    },
+    {
+      "idx": 173,
+      "start": 1186.32,
+      "end": 1197.66,
+      "text": "So now I have an equation for z alone, an equation for y and z"
+    },
+    {
+      "idx": 174,
+      "start": 1198.66,
+      "end": 1202.66,
+      "text": "And the starting equation for x, y, and z all together."
+    },
+    {
+      "idx": 175,
+      "start": 1202.66,
+      "end": 1204.66,
+      "text": "So what's next?"
+    },
+    {
+      "idx": 176,
+      "start": 1205.66,
+      "end": 1211.66,
+      "text": "Solve this equation for z, then back to this one for y,"
+    },
+    {
+      "idx": 177,
+      "start": 1211.66,
+      "end": 1213.66,
+      "text": "and then back to this one for x."
+    },
+    {
+      "idx": 178,
+      "start": 1213.66,
+      "end": 1218.66,
+      "text": "So this is called elimination."
+    },
+    {
+      "idx": 179,
+      "start": 1218.66,
+      "end": 1224.66,
+      "text": "And it was invented in China 3,000 or 4,000 years ago."
+    },
+    {
+      "idx": 180,
+      "start": 1224.66,
+      "end": 1225.66,
+      "text": "So I'm sorry."
+    },
+    {
+      "idx": 181,
+      "start": 1225.66,
+      "end": 1228.66,
+      "text": "This is a little bit old mathematics."
+    },
+    {
+      "idx": 182,
+      "start": 1228.66,
+      "end": 1232.66,
+      "text": "But it's the basic step that simplifies."
+    },
+    {
+      "idx": 183,
+      "start": 1232.66,
+      "end": 1235.66,
+      "text": "And then I'll show you a little more."
+    },
+    {
+      "idx": 184,
+      "start": 1235.66,
+      "end": 1238.72,
+      "text": "So let's go backwards."
+    },
+    {
+      "idx": 185,
+      "start": 1238.72,
+      "end": 1241.72,
+      "text": "Maybe you could all do it as I do it."
+    },
+    {
+      "idx": 186,
+      "start": 1241.72,
+      "end": 1247.72,
+      "text": "If we solve that equation for z, I get z equal to 2, right?"
+    },
+    {
+      "idx": 187,
+      "start": 1247.72,
+      "end": 1249.85,
+      "text": "Divide by 7."
+    },
+    {
+      "idx": 188,
+      "start": 1249.85,
+      "end": 1253.85,
+      "text": "And now if z is 2, then 13z here is 26."
+    },
+    {
+      "idx": 189,
+      "start": 1253.85,
+      "end": 1257.85,
+      "text": "So I have 5y and 26 and 31."
+    },
+    {
+      "idx": 190,
+      "start": 1257.85,
+      "end": 1260.85,
+      "text": "Well, if I subtract the 26 from the 31,"
+    },
+    {
+      "idx": 191,
+      "start": 1260.85,
+      "end": 1265.85,
+      "text": "I'm moving the 26 over with 31, because it's just a number."
+    },
+    {
+      "idx": 192,
+      "start": 1265.85,
+      "end": 1270.85,
+      "text": "So subtracting this 26 leaves me 5."
+    },
+    {
+      "idx": 193,
+      "start": 1270.85,
+      "end": 1272.85,
+      "text": "So I have 5y equal 5."
+    },
+    {
+      "idx": 194,
+      "start": 1272.85,
+      "end": 1277.85,
+      "text": "So 5y equal 5 is what that equation has become."
+    },
+    {
+      "idx": 195,
+      "start": 1277.85,
+      "end": 1281.43,
+      "text": "And that's told me that y is 1."
+    },
+    {
+      "idx": 196,
+      "start": 1281.43,
+      "end": 1287.43,
+      "text": "And finally, I come back to the top equation."
+    },
+    {
+      "idx": 197,
+      "start": 1287.43,
+      "end": 1290.43,
+      "text": "Because I now know y and z."
+    },
+    {
+      "idx": 198,
+      "start": 1290.43,
+      "end": 1293.43,
+      "text": "So if z is 2, that's 8."
+    },
+    {
+      "idx": 199,
+      "start": 1293.43,
+      "end": 1296.52,
+      "text": "If y is 1, that's 3."
+    },
+    {
+      "idx": 200,
+      "start": 1296.52,
+      "end": 1300.52,
+      "text": "So I have 3 and 8 and 19 there."
+    },
+    {
+      "idx": 201,
+      "start": 1300.52,
+      "end": 1305.73,
+      "text": "So I should be able to figure out x."
+    },
+    {
+      "idx": 202,
+      "start": 1305.73,
+      "end": 1307.73,
+      "text": "Do you see what x is?"
+    },
+    {
+      "idx": 203,
+      "start": 1307.73,
+      "end": 1308.73,
+      "text": "Yeah, let me."
+    },
+    {
+      "idx": 204,
+      "start": 1308.73,
+      "end": 1310.73,
+      "text": "This is for the class now."
+    },
+    {
+      "idx": 205,
+      "start": 1310.73,
+      "end": 1313.73,
+      "text": "I got you this far by elimination."
+    },
+    {
+      "idx": 206,
+      "start": 1313.73,
+      "end": 1317.73,
+      "text": "So I have this equation to solve for x."
+    },
+    {
+      "idx": 207,
+      "start": 1317.73,
+      "end": 1318.73,
+      "text": "And then I've got the answer."
+    },
+    {
+      "idx": 208,
+      "start": 1318.73,
+      "end": 1320.73,
+      "text": "I've got all of x, y, and z."
+    },
+    {
+      "idx": 209,
+      "start": 1320.73,
+      "end": 1323.73,
+      "text": "So what do I have?"
+    },
+    {
+      "idx": 210,
+      "start": 1323.73,
+      "end": 1325.73,
+      "text": "The 4z is 8."
+    },
+    {
+      "idx": 211,
+      "start": 1325.73,
+      "end": 1328.83,
+      "text": "3y is 3."
+    },
+    {
+      "idx": 212,
+      "start": 1328.83,
+      "end": 1333.0,
+      "text": "And 2x is what?"
+    },
+    {
+      "idx": 213,
+      "start": 1334.0,
+      "end": 1335.0,
+      "text": "2x is 8."
+    },
+    {
+      "idx": 214,
+      "start": 1336.0,
+      "end": 1339.0,
+      "text": "Professors need help, especially at this point."
+    },
+    {
+      "idx": 215,
+      "start": 1339.0,
+      "end": 1340.0,
+      "text": "2x is 8."
+    },
+    {
+      "idx": 216,
+      "start": 1340.0,
+      "end": 1342.0,
+      "text": "So x is?"
+    },
+    {
+      "idx": 217,
+      "start": 1344.0,
+      "end": 1347.0,
+      "text": "100% A for the whole class."
+    },
+    {
+      "idx": 218,
+      "start": 1353.37,
+      "end": 1363.66,
+      "text": "So let me just say that if we were doing this on the computer,"
+    },
+    {
+      "idx": 219,
+      "start": 1363.66,
+      "end": 1367.66,
+      "text": "we wouldn't keep repeating all these letters, x and y and z,"
+    },
+    {
+      "idx": 220,
+      "start": 1367.66,
+      "end": 1371.66,
+      "text": "and all the plus signs and all the equal signs."
+    },
+    {
+      "idx": 221,
+      "start": 1371.66,
+      "end": 1375.66,
+      "text": "I would write those equations, or the original equations,"
+    },
+    {
+      "idx": 222,
+      "start": 1375.66,
+      "end": 1379.66,
+      "text": "I would write as, oh, dear, that's out of sight."
+    },
+    {
+      "idx": 223,
+      "start": 1381.66,
+      "end": 1384.04,
+      "text": "So I would write the original equations,"
+    },
+    {
+      "idx": 224,
+      "start": 1384.04,
+      "end": 1398.4,
+      "text": "the original equations as 2, 3, and 4, 4, 11, and 14, 2, 8, and 17."
+    },
+    {
+      "idx": 225,
+      "start": 1398.4,
+      "end": 1403.4,
+      "text": "So there is the matrix, the matrix of coefficients,"
+    },
+    {
+      "idx": 226,
+      "start": 1403.4,
+      "end": 1406.4,
+      "text": "the matrix of the right-hand side,"
+    },
+    {
+      "idx": 227,
+      "start": 1406.4,
+      "end": 1408.4,
+      "text": "of the numbers on the right-hand side."
+    },
+    {
+      "idx": 228,
+      "start": 1408.4,
+      "end": 1414.0,
+      "text": "And they multiply if we define multiplication suitably."
+    },
+    {
+      "idx": 229,
+      "start": 1416.0,
+      "end": 1418.0,
+      "text": "There's the x, y, z unknown."
+    },
+    {
+      "idx": 230,
+      "start": 1418.0,
+      "end": 1422.18,
+      "text": "So this is the matrix."
+    },
+    {
+      "idx": 231,
+      "start": 1422.18,
+      "end": 1426.47,
+      "text": "This is the unknown to find."
+    },
+    {
+      "idx": 232,
+      "start": 1426.47,
+      "end": 1428.47,
+      "text": "This is the part to find."
+    },
+    {
+      "idx": 233,
+      "start": 1428.47,
+      "end": 1439.82,
+      "text": "And then the right-hand side is 19, 55, 50."
+    },
+    {
+      "idx": 234,
+      "start": 1441.14,
+      "end": 1449.46,
+      "text": "So that's the way you would write the equations in a matrix form."
+    },
+    {
+      "idx": 235,
+      "start": 1449.46,
+      "end": 1452.46,
+      "text": "So I've introduced you to the idea of a matrix."
+    },
+    {
+      "idx": 236,
+      "start": 1452.46,
+      "end": 1458.46,
+      "text": "This happens to be a square matrix, three rows and three columns."
+    },
+    {
+      "idx": 237,
+      "start": 1458.46,
+      "end": 1463.49,
+      "text": "And that's because I have three equations up there."
+    },
+    {
+      "idx": 238,
+      "start": 1464.49,
+      "end": 1469.49,
+      "text": "So all the operations that I did would be done just directly"
+    },
+    {
+      "idx": 239,
+      "start": 1469.49,
+      "end": 1470.49,
+      "text": "on the matrix."
+    },
+    {
+      "idx": 240,
+      "start": 1470.49,
+      "end": 1473.49,
+      "text": "Subtract two of this row away from this."
+    },
+    {
+      "idx": 241,
+      "start": 1473.49,
+      "end": 1477.49,
+      "text": "Subtract that row away from that, and so on."
+    },
+    {
+      "idx": 242,
+      "start": 1477.49,
+      "end": 1481.49,
+      "text": "So this is the short, you could say, the shorthand."
+    },
+    {
+      "idx": 243,
+      "start": 1481.49,
+      "end": 1486.49,
+      "text": "And then you can do the idea of matrix multiplication."
+    },
+    {
+      "idx": 244,
+      "start": 1486.49,
+      "end": 1490.49,
+      "text": "You begin to get an idea of how matrices multiply"
+    },
+    {
+      "idx": 245,
+      "start": 1490.49,
+      "end": 1494.49,
+      "text": "when you realize that this, that first equation,"
+    },
+    {
+      "idx": 246,
+      "start": 1494.49,
+      "end": 1498.49,
+      "text": "comes from this along with that and that."
+    },
+    {
+      "idx": 247,
+      "start": 1498.49,
+      "end": 1503.49,
+      "text": "So the first equation comes from the first row times"
+    },
+    {
+      "idx": 248,
+      "start": 1503.49,
+      "end": 1508.49,
+      "text": "the unknowns equaling the first number, 19, and so on."
+    },
+    {
+      "idx": 249,
+      "start": 1510.49,
+      "end": 1512.49,
+      "text": "Subtract to this."
+    },
+    {
+      "idx": 250,
+      "start": 1512.49,
+      "end": 1517.12,
+      "text": "So this, I'll just repeat again."
+    },
+    {
+      "idx": 251,
+      "start": 1517.12,
+      "end": 1521.12,
+      "text": "So 2, 3, 4, we didn't change."
+    },
+    {
+      "idx": 252,
+      "start": 1521.12,
+      "end": 1525.37,
+      "text": "This changed to 2, 5, 6."
+    },
+    {
+      "idx": 253,
+      "start": 1525.37,
+      "end": 1531.79,
+      "text": "And this ultimately changed to 0, 0, 7, I think."
+    },
+    {
+      "idx": 254,
+      "start": 1531.79,
+      "end": 1534.79,
+      "text": "6 from 13 left 7."
+    },
+    {
+      "idx": 255,
+      "start": 1534.79,
+      "end": 1543.62,
+      "text": "So the reduced equation was this one."
+    },
+    {
+      "idx": 256,
+      "start": 1545.62,
+      "end": 1547.91,
+      "text": "We had a 17 here."
+    },
+    {
+      "idx": 257,
+      "start": 1547.91,
+      "end": 1551.16,
+      "text": "And we had a 19 here."
+    },
+    {
+      "idx": 258,
+      "start": 1551.16,
+      "end": 1555.93,
+      "text": "So this is the original problem."
+    },
+    {
+      "idx": 259,
+      "start": 1555.93,
+      "end": 1558.93,
+      "text": "This is the simplified problem."
+    },
+    {
+      "idx": 260,
+      "start": 1558.93,
+      "end": 1562.03,
+      "text": "You see, we produced a triangular matrix."
+    },
+    {
+      "idx": 261,
+      "start": 1562.03,
+      "end": 1565.03,
+      "text": "And the unknowns are still the same."
+    },
+    {
+      "idx": 262,
+      "start": 1565.03,
+      "end": 1569.03,
+      "text": "So we've written using matrix notation"
+    },
+    {
+      "idx": 263,
+      "start": 1569.03,
+      "end": 1573.03,
+      "text": "so that we didn't have to keep writing pluses and so on."
+    },
+    {
+      "idx": 264,
+      "start": 1574.03,
+      "end": 1575.03,
+      "text": "The same as that."
+    },
+    {
+      "idx": 265,
+      "start": 1575.03,
+      "end": 1577.03,
+      "text": "And now how do we solve it?"
+    },
+    {
+      "idx": 266,
+      "start": 1577.03,
+      "end": 1581.41,
+      "text": "Just thinking again how to solve it."
+    },
+    {
+      "idx": 267,
+      "start": 1581.41,
+      "end": 1586.41,
+      "text": "We came from top to bottom as we went here."
+    },
+    {
+      "idx": 268,
+      "start": 1586.41,
+      "end": 1592.02,
+      "text": "And now to solve, to find the answer,"
+    },
+    {
+      "idx": 269,
+      "start": 1592.02,
+      "end": 1594.02,
+      "text": "we went bottom to top."
+    },
+    {
+      "idx": 270,
+      "start": 1594.02,
+      "end": 1597.05,
+      "text": "We found z equal to 2."
+    },
+    {
+      "idx": 271,
+      "start": 1597.05,
+      "end": 1602.05,
+      "text": "By the time we knew z, then the next equation told us y was 1."
+    },
+    {
+      "idx": 272,
+      "start": 1602.05,
+      "end": 1604.05,
+      "text": "And finally, x was 4."
+    },
+    {
+      "idx": 273,
+      "start": 1604.05,
+      "end": 1611.21,
+      "text": "So this led to the answer 4, 1, 2."
+    },
+    {
+      "idx": 274,
+      "start": 1614.27,
+      "end": 1617.27,
+      "text": "So that was three equations and three unknowns."
+    },
+    {
+      "idx": 275,
+      "start": 1617.27,
+      "end": 1625.51,
+      "text": "And linear algebra, so maybe the most common problem"
+    },
+    {
+      "idx": 276,
+      "start": 1625.51,
+      "end": 1630.51,
+      "text": "in numerical computation is solving a system of equations."
+    },
+    {
+      "idx": 277,
+      "start": 1630.51,
+      "end": 1637.51,
+      "text": "And again, this equation had the same number of equations, 3."
+    },
+    {
+      "idx": 278,
+      "start": 1637.51,
+      "end": 1639.51,
+      "text": "As unknowns, 3."
+    },
+    {
+      "idx": 279,
+      "start": 1639.51,
+      "end": 1642.51,
+      "text": "So there was, we expect one solution."
+    },
+    {
+      "idx": 280,
+      "start": 1642.51,
+      "end": 1645.51,
+      "text": "Not always the case, but here it worked."
+    },
+    {
+      "idx": 281,
+      "start": 1647.51,
+      "end": 1650.89,
+      "text": "So that's lesson one."
+    },
+    {
+      "idx": 282,
+      "start": 1650.89,
+      "end": 1661.65,
+      "text": "Let me do something similar for a different problem."
+    },
+    {
+      "idx": 283,
+      "start": 1661.65,
+      "end": 1664.81,
+      "text": "It won't be a square matrix this time."
+    },
+    {
+      "idx": 284,
+      "start": 1664.81,
+      "end": 1666.81,
+      "text": "The matrix will be rectangular."
+    },
+    {
+      "idx": 285,
+      "start": 1666.81,
+      "end": 1668.81,
+      "text": "So we may have many solutions."
+    },
+    {
+      "idx": 286,
+      "start": 1668.81,
+      "end": 1672.81,
+      "text": "We may have no solutions, all depending on what the numbers are."
+    },
+    {
+      "idx": 287,
+      "start": 1672.81,
+      "end": 1674.81,
+      "text": "So let me just write down."
+    },
+    {
+      "idx": 288,
+      "start": 1674.81,
+      "end": 1680.84,
+      "text": "So this is my second and last example for the guess"
+    },
+    {
+      "idx": 289,
+      "start": 1680.84,
+      "end": 1685.9,
+      "text": "and also for 18.06."
+    },
+    {
+      "idx": 290,
+      "start": 1686.9,
+      "end": 1694.28,
+      "text": "So now I'm going to write down the matrix A in the next problem."
+    },
+    {
+      "idx": 291,
+      "start": 1695.28,
+      "end": 1698.28,
+      "text": "Now what's different about this problem is there"
+    },
+    {
+      "idx": 292,
+      "start": 1698.28,
+      "end": 1700.28,
+      "text": "is still going to be a problem."
+    },
+    {
+      "idx": 293,
+      "start": 1700.28,
+      "end": 1703.28,
+      "text": "There's still going to be three equations,"
+    },
+    {
+      "idx": 294,
+      "start": 1703.28,
+      "end": 1705.57,
+      "text": "but there will be four unknowns."
+    },
+    {
+      "idx": 295,
+      "start": 1705.57,
+      "end": 1709.57,
+      "text": "So now I'm that extra unknown."
+    },
+    {
+      "idx": 296,
+      "start": 1709.57,
+      "end": 1712.57,
+      "text": "Well, I don't even necessarily have"
+    },
+    {
+      "idx": 297,
+      "start": 1712.57,
+      "end": 1714.57,
+      "text": "to give the letters for it."
+    },
+    {
+      "idx": 298,
+      "start": 1714.57,
+      "end": 1718.57,
+      "text": "I can just, I'm going to use this shorthand."
+    },
+    {
+      "idx": 299,
+      "start": 1718.57,
+      "end": 1725.56,
+      "text": "So I now have a matrix A. Matrices are always A."
+    },
+    {
+      "idx": 300,
+      "start": 1725.56,
+      "end": 1728.56,
+      "text": "There's not much imagination required."
+    },
+    {
+      "idx": 301,
+      "start": 1728.56,
+      "end": 1732.91,
+      "text": "11 and 37, I think."
+    },
+    {
+      "idx": 302,
+      "start": 1732.91,
+      "end": 1740.95,
+      "text": "3, 7, 37."
+    },
+    {
+      "idx": 303,
+      "start": 1740.95,
+      "end": 1744.3,
+      "text": "I think maybe that's 17."
+    },
+    {
+      "idx": 304,
+      "start": 1747.55,
+      "end": 1762.33,
+      "text": "37 and 57 and 4, 9, 48, and 74."
+    },
+    {
+      "idx": 305,
+      "start": 1763.33,
+      "end": 1767.88,
+      "text": "So again, I'm using this matrix shorthand."
+    },
+    {
+      "idx": 306,
+      "start": 1767.88,
+      "end": 1771.88,
+      "text": "So I'm not writing the equations out, but I could this way."
+    },
+    {
+      "idx": 307,
+      "start": 1771.88,
+      "end": 1774.88,
+      "text": "So there would be three equations again."
+    },
+    {
+      "idx": 308,
+      "start": 1774.88,
+      "end": 1778.88,
+      "text": "And I need three right-hand sides."
+    },
+    {
+      "idx": 309,
+      "start": 1778.88,
+      "end": 1784.48,
+      "text": "Oh, I'm going to take the right-hand sides to be 0."
+    },
+    {
+      "idx": 310,
+      "start": 1784.48,
+      "end": 1786.48,
+      "text": "So all I need is that matrix."
+    },
+    {
+      "idx": 311,
+      "start": 1786.48,
+      "end": 1790.96,
+      "text": "So I'm calling this matrix again A."
+    },
+    {
+      "idx": 312,
+      "start": 1790.96,
+      "end": 1797.11,
+      "text": "And I want to multiply it by, maybe I better number these,"
+    },
+    {
+      "idx": 313,
+      "start": 1797.11,
+      "end": 1800.11,
+      "text": "x1, x2, x3, x4."
+    },
+    {
+      "idx": 314,
+      "start": 1800.11,
+      "end": 1804.52,
+      "text": "So that's a shorthand."
+    },
+    {
+      "idx": 315,
+      "start": 1804.52,
+      "end": 1807.52,
+      "text": "A shorthand for that would be x, a vector."
+    },
+    {
+      "idx": 316,
+      "start": 1807.52,
+      "end": 1809.52,
+      "text": "And on the right-hand side, I'm going"
+    },
+    {
+      "idx": 317,
+      "start": 1809.52,
+      "end": 1819.03,
+      "text": "to have 0s, Ax equal to 0 vector."
+    },
+    {
+      "idx": 318,
+      "start": 1819.03,
+      "end": 1825.96,
+      "text": "You see that I'm moving you toward matrix vector notation"
+    },
+    {
+      "idx": 319,
+      "start": 1825.96,
+      "end": 1828.96,
+      "text": "and beginning to think more generally."
+    },
+    {
+      "idx": 320,
+      "start": 1828.96,
+      "end": 1833.96,
+      "text": "So now we have a vector that's in four-dimensional space."
+    },
+    {
+      "idx": 321,
+      "start": 1833.96,
+      "end": 1836.82,
+      "text": "So we have to get used to that."
+    },
+    {
+      "idx": 322,
+      "start": 1836.82,
+      "end": 1841.82,
+      "text": "All it means is that there are four components to our vector."
+    },
+    {
+      "idx": 323,
+      "start": 1841.82,
+      "end": 1844.82,
+      "text": "We could try to visualize four-dimensional space,"
+    },
+    {
+      "idx": 324,
+      "start": 1844.82,
+      "end": 1847.82,
+      "text": "but we don't have to."
+    },
+    {
+      "idx": 325,
+      "start": 1847.82,
+      "end": 1850.82,
+      "text": "At this point, we're doing algebra, not geometry."
+    },
+    {
+      "idx": 326,
+      "start": 1850.82,
+      "end": 1853.82,
+      "text": "And we can just go ahead."
+    },
+    {
+      "idx": 327,
+      "start": 1853.82,
+      "end": 1855.95,
+      "text": "So what do you think?"
+    },
+    {
+      "idx": 328,
+      "start": 1855.95,
+      "end": 1858.95,
+      "text": "Are there solutions to this equation, to these three"
+    },
+    {
+      "idx": 329,
+      "start": 1858.95,
+      "end": 1862.84,
+      "text": "equations, I should say?"
+    },
+    {
+      "idx": 330,
+      "start": 1862.84,
+      "end": 1867.84,
+      "text": "Can you think of any x1, x2, x3, x4 that solve the four"
+    },
+    {
+      "idx": 331,
+      "start": 1869.8,
+      "end": 1871.8,
+      "text": "Yes, I think you can."
+    },
+    {
+      "idx": 332,
+      "start": 1871.8,
+      "end": 1876.64,
+      "text": "So what's one solution that's sure to be here?"
+    },
+    {
+      "idx": 333,
+      "start": 1880.64,
+      "end": 1885.64,
+      "text": "So this equation stands for x1 plus 2x2 plus 11x3 plus 17x4"
+    },
+    {
+      "idx": 334,
+      "start": 1887.64,
+      "end": 1888.64,
+      "text": "Something else equals 0."
+    },
+    {
+      "idx": 335,
+      "start": 1888.64,
+      "end": 1890.64,
+      "text": "Something else equals 0."
+    },
+    {
+      "idx": 336,
+      "start": 1890.64,
+      "end": 1896.28,
+      "text": "So I have three equations and four unknowns."
+    },
+    {
+      "idx": 337,
+      "start": 1896.28,
+      "end": 1898.28,
+      "text": "Yeah, so this is different."
+    },
+    {
+      "idx": 338,
+      "start": 1898.28,
+      "end": 1906.03,
+      "text": "I have m equal 3 equations, n equal 4 unknowns."
+    },
+    {
+      "idx": 339,
+      "start": 1906.03,
+      "end": 1910.7,
+      "text": "And the right-hand side, the right-hand side"
+    },
+    {
+      "idx": 340,
+      "start": 1910.7,
+      "end": 1913.7,
+      "text": "is all 0s."
+    },
+    {
+      "idx": 341,
+      "start": 1913.7,
+      "end": 1916.5,
+      "text": "So I do have solutions."
+    },
+    {
+      "idx": 342,
+      "start": 1916.5,
+      "end": 1919.95,
+      "text": "The question is, do I have any non-zero solutions,"
+    },
+    {
+      "idx": 343,
+      "start": 1919.95,
+      "end": 1922.95,
+      "text": "any solutions that are not 0?"
+    },
+    {
+      "idx": 344,
+      "start": 1922.95,
+      "end": 1924.95,
+      "text": "So how are we going to discover the solutions?"
+    },
+    {
+      "idx": 345,
+      "start": 1924.95,
+      "end": 1926.95,
+      "text": "And do we think in advance?"
+    },
+    {
+      "idx": 346,
+      "start": 1926.95,
+      "end": 1930.95,
+      "text": "Let's just make a guess before I use these numbers."
+    },
+    {
+      "idx": 347,
+      "start": 1930.95,
+      "end": 1935.95,
+      "text": "Do we think that there are solutions other than all 0s?"
+    },
+    {
+      "idx": 348,
+      "start": 1935.95,
+      "end": 1940.95,
+      "text": "Everybody sees that if you are visualizing this also"
+    },
+    {
+      "idx": 349,
+      "start": 1940.95,
+      "end": 1943.95,
+      "text": "in the form of this."
+    },
+    {
+      "idx": 350,
+      "start": 1943.95,
+      "end": 1949.95,
+      "text": "This is saying, again, that x1 plus 2x2 plus 11x3 plus 17x4"
+    },
+    {
+      "idx": 351,
+      "start": 1951.95,
+      "end": 1955.95,
+      "text": "And of course, all 0s will be a solution."
+    },
+    {
+      "idx": 352,
+      "start": 1955.95,
+      "end": 1960.2,
+      "text": "But we have only three equations."
+    },
+    {
+      "idx": 353,
+      "start": 1960.2,
+      "end": 1963.55,
+      "text": "And we have four unknowns."
+    },
+    {
+      "idx": 354,
+      "start": 1963.55,
+      "end": 1966.64,
+      "text": "So what do we know about the?"
+    },
+    {
+      "idx": 355,
+      "start": 1966.64,
+      "end": 1971.68,
+      "text": "There will be a solution then, especially"
+    },
+    {
+      "idx": 356,
+      "start": 1971.68,
+      "end": 1973.68,
+      "text": "with 0s on the right side."
+    },
+    {
+      "idx": 357,
+      "start": 1973.68,
+      "end": 1975.68,
+      "text": "So we have m equals 3."
+    },
+    {
+      "idx": 358,
+      "start": 1975.68,
+      "end": 1986.24,
+      "text": "So one solution is x equal y equals z equals 0."
+    },
+    {
+      "idx": 359,
+      "start": 1986.24,
+      "end": 1989.24,
+      "text": "If all these multiply 0."
+    },
+    {
+      "idx": 360,
+      "start": 1992.24,
+      "end": 1996.24,
+      "text": "I have new names for them, because now I've got four."
+    },
+    {
+      "idx": 361,
+      "start": 1996.24,
+      "end": 1999.24,
+      "text": "I kind of ran out of letters."
+    },
+    {
+      "idx": 362,
+      "start": 1999.24,
+      "end": 2002.24,
+      "text": "So it's x1 equal x2 equal x3 equal x4 equal x5 equal x6."
+    },
+    {
+      "idx": 363,
+      "start": 2003.24,
+      "end": 2004.24,
+      "text": "x4 equals 0."
+    },
+    {
+      "idx": 364,
+      "start": 2004.24,
+      "end": 2009.48,
+      "text": "But we look for more."
+    },
+    {
+      "idx": 365,
+      "start": 2009.48,
+      "end": 2011.48,
+      "text": "Three equations, four unknowns."
+    },
+    {
+      "idx": 366,
+      "start": 2011.48,
+      "end": 2014.84,
+      "text": "We've got freedom here."
+    },
+    {
+      "idx": 367,
+      "start": 2014.84,
+      "end": 2020.87,
+      "text": "We can expect to find some non-zero x's."
+    },
+    {
+      "idx": 368,
+      "start": 2020.87,
+      "end": 2023.0,
+      "text": "And the question is, how many?"
+    },
+    {
+      "idx": 369,
+      "start": 2023.0,
+      "end": 2026.0,
+      "text": "And the question is, and we can only answer that"
+    },
+    {
+      "idx": 370,
+      "start": 2026.0,
+      "end": 2030.0,
+      "text": "by simplifying the matrix, just as we did there."
+    },
+    {
+      "idx": 371,
+      "start": 2030.0,
+      "end": 2033.0,
+      "text": "We'll simplify this by subtracting equations"
+    },
+    {
+      "idx": 372,
+      "start": 2033.0,
+      "end": 2035.0,
+      "text": "from other equations."
+    },
+    {
+      "idx": 373,
+      "start": 2036.16,
+      "end": 2038.16,
+      "text": "So let me start on that process."
+    },
+    {
+      "idx": 374,
+      "start": 2038.16,
+      "end": 2040.16,
+      "text": "So one solution."
+    },
+    {
+      "idx": 375,
+      "start": 2040.16,
+      "end": 2046.4,
+      "text": "But I'm looking for more solutions."
+    },
+    {
+      "idx": 376,
+      "start": 2047.4,
+      "end": 2055.28,
+      "text": "So everybody in 1806 now, I'll speak to you guys first."
+    },
+    {
+      "idx": 377,
+      "start": 2055.28,
+      "end": 2059.28,
+      "text": "So you know that we'll do elimination again."
+    },
+    {
+      "idx": 378,
+      "start": 2059.28,
+      "end": 2062.28,
+      "text": "That elimination process will produce 0s here."
+    },
+    {
+      "idx": 379,
+      "start": 2062.28,
+      "end": 2066.28,
+      "text": "And we'll get to see what's going on."
+    },
+    {
+      "idx": 380,
+      "start": 2066.28,
+      "end": 2070.28,
+      "text": "So right now, we have three equations, four unknowns."
+    },
+    {
+      "idx": 381,
+      "start": 2070.28,
+      "end": 2075.28,
+      "text": "So we would sort of expect maybe one family of solutions,"
+    },
+    {
+      "idx": 382,
+      "start": 2075.28,
+      "end": 2077.28,
+      "text": "because we've got an extra unknown."
+    },
+    {
+      "idx": 383,
+      "start": 2077.28,
+      "end": 2081.4,
+      "text": "But you can't tell until you get into the numbers."
+    },
+    {
+      "idx": 384,
+      "start": 2082.4,
+      "end": 2086.63,
+      "text": "So now again, what does elimination mean?"
+    },
+    {
+      "idx": 385,
+      "start": 2086.63,
+      "end": 2089.63,
+      "text": "Elimination is take combinations of the columns"
+    },
+    {
+      "idx": 386,
+      "start": 2089.63,
+      "end": 2092.63,
+      "text": "that produce some 0s."
+    },
+    {
+      "idx": 387,
+      "start": 2092.63,
+      "end": 2096.84,
+      "text": "And I see one combination of the column that produces,"
+    },
+    {
+      "idx": 388,
+      "start": 2096.84,
+      "end": 2099.84,
+      "text": "one produces, combinations of the rows, I should have said."
+    },
+    {
+      "idx": 389,
+      "start": 2099.84,
+      "end": 2100.84,
+      "text": "Combinations of the rows."
+    },
+    {
+      "idx": 390,
+      "start": 2100.84,
+      "end": 2103.84,
+      "text": "Combinations of the rows that produce some 0s."
+    },
+    {
+      "idx": 391,
+      "start": 2103.84,
+      "end": 2107.84,
+      "text": "And I see one combination right away."
+    },
+    {
+      "idx": 392,
+      "start": 2107.84,
+      "end": 2109.84,
+      "text": "Well, I built it in there."
+    },
+    {
+      "idx": 393,
+      "start": 2109.84,
+      "end": 2112.84,
+      "text": "So it's not surprising I can see it."
+    },
+    {
+      "idx": 394,
+      "start": 2112.84,
+      "end": 2114.84,
+      "text": "But can you see it?"
+    },
+    {
+      "idx": 395,
+      "start": 2114.84,
+      "end": 2117.84,
+      "text": "That will produce a lot of 0s."
+    },
+    {
+      "idx": 396,
+      "start": 2117.84,
+      "end": 2122.84,
+      "text": "I think that that row and that row and that row,"
+    },
+    {
+      "idx": 397,
+      "start": 2122.84,
+      "end": 2124.84,
+      "text": "there's a connection between them."
+    },
+    {
+      "idx": 398,
+      "start": 2124.84,
+      "end": 2128.51,
+      "text": "And do you see it?"
+    },
+    {
+      "idx": 399,
+      "start": 2128.51,
+      "end": 2132.51,
+      "text": "Do you see what's special about the three rows"
+    },
+    {
+      "idx": 400,
+      "start": 2132.51,
+      "end": 2133.51,
+      "text": "in the matrix?"
+    },
+    {
+      "idx": 401,
+      "start": 2133.51,
+      "end": 2135.51,
+      "text": "Those rows have four components."
+    },
+    {
+      "idx": 402,
+      "start": 2135.51,
+      "end": 2139.51,
+      "text": "So they're popping off somewhere in four dimensional space."
+    },
+    {
+      "idx": 403,
+      "start": 2139.51,
+      "end": 2142.76,
+      "text": "But they're a bit special."
+    },
+    {
+      "idx": 404,
+      "start": 2142.76,
+      "end": 2148.58,
+      "text": "And what's special there, somebody could say?"
+    },
+    {
+      "idx": 405,
+      "start": 2148.58,
+      "end": 2151.58,
+      "text": "Look at rows 1, 2, and 3 there."
+    },
+    {
+      "idx": 406,
+      "start": 2151.58,
+      "end": 2155.74,
+      "text": "Do you see anything connected there?"
+    },
+    {
+      "idx": 407,
+      "start": 2155.74,
+      "end": 2160.5,
+      "text": "The first two rows add to the third row."
+    },
+    {
+      "idx": 408,
+      "start": 2161.5,
+      "end": 2163.5,
+      "text": "Row 1 plus row 2 is row 3."
+    },
+    {
+      "idx": 409,
+      "start": 2163.5,
+      "end": 2167.5,
+      "text": "So row 3 is unnecessary."
+    },
+    {
+      "idx": 410,
+      "start": 2167.5,
+      "end": 2174.5,
+      "text": "It's I can subtract row 1 from row 2, row 3, and row 2"
+    },
+    {
+      "idx": 411,
+      "start": 2174.5,
+      "end": 2175.5,
+      "text": "from row 3."
+    },
+    {
+      "idx": 412,
+      "start": 2175.5,
+      "end": 2177.5,
+      "text": "And what will I then get?"
+    },
+    {
+      "idx": 413,
+      "start": 2177.5,
+      "end": 2179.5,
+      "text": "I'll save myself writing."
+    },
+    {
+      "idx": 414,
+      "start": 2179.5,
+      "end": 2184.69,
+      "text": "What will I get if I subtract rows 1 and 2 from row 3?"
+    },
+    {
+      "idx": 415,
+      "start": 2187.82,
+      "end": 2190.82,
+      "text": "So suddenly, I'm in a different situation here."
+    },
+    {
+      "idx": 416,
+      "start": 2190.82,
+      "end": 2200.44,
+      "text": "I still have a, you all saw that the numbers there were just,"
+    },
+    {
+      "idx": 417,
+      "start": 2200.44,
+      "end": 2205.44,
+      "text": "this was a 74, this was a 48, this was a 9, and that was a 4."
+    },
+    {
+      "idx": 418,
+      "start": 2205.44,
+      "end": 2208.44,
+      "text": "And so now when I subtract the first equation"
+    },
+    {
+      "idx": 419,
+      "start": 2208.44,
+      "end": 2211.44,
+      "text": "and the second equation from the third,"
+    },
+    {
+      "idx": 420,
+      "start": 2211.44,
+      "end": 2216.82,
+      "text": "I've got 0 equals 0, which I've, that's perfect."
+    },
+    {
+      "idx": 421,
+      "start": 2217.82,
+      "end": 2222.82,
+      "text": "It automatically is going to give the 0 on the right hand side."
+    },
+    {
+      "idx": 422,
+      "start": 2222.82,
+      "end": 2228.08,
+      "text": "So really now, I have two equations in four unknowns."
+    },
+    {
+      "idx": 423,
+      "start": 2228.08,
+      "end": 2230.08,
+      "text": "Two equations in four unknowns."
+    },
+    {
+      "idx": 424,
+      "start": 2230.08,
+      "end": 2235.08,
+      "text": "So I'm expecting maybe 4 minus 2 would be two solutions."
+    },
+    {
+      "idx": 425,
+      "start": 2235.08,
+      "end": 2240.42,
+      "text": "I'm expecting two non-zero solutions."
+    },
+    {
+      "idx": 426,
+      "start": 2240.42,
+      "end": 2243.48,
+      "text": "So how do I get there?"
+    },
+    {
+      "idx": 427,
+      "start": 2243.48,
+      "end": 2251.65,
+      "text": "I think I get more 0s in the matrix."
+    },
+    {
+      "idx": 428,
+      "start": 2251.65,
+      "end": 2260.8,
+      "text": "So again, we're ready to work on the problem, the given problem,"
+    },
+    {
+      "idx": 429,
+      "start": 2260.8,
+      "end": 2264.8,
+      "text": "by subtracting suitable multiples"
+    },
+    {
+      "idx": 430,
+      "start": 2264.8,
+      "end": 2265.8,
+      "text": "of a row from row 3."
+    },
+    {
+      "idx": 431,
+      "start": 2265.8,
+      "end": 2268.8,
+      "text": "I'm going to subtract from another row,"
+    },
+    {
+      "idx": 432,
+      "start": 2268.8,
+      "end": 2271.8,
+      "text": "because I'm subtracting an equation from an equation."
+    },
+    {
+      "idx": 433,
+      "start": 2271.8,
+      "end": 2274.8,
+      "text": "So it leaves me with a correct equation."
+    },
+    {
+      "idx": 434,
+      "start": 2274.8,
+      "end": 2278.12,
+      "text": "OK, let me do that."
+    },
+    {
+      "idx": 435,
+      "start": 2278.12,
+      "end": 2280.12,
+      "text": "So let me subtract."
+    },
+    {
+      "idx": 436,
+      "start": 2280.12,
+      "end": 2285.72,
+      "text": "What should, I would like to get, now you could help me."
+    },
+    {
+      "idx": 437,
+      "start": 2285.72,
+      "end": 2288.72,
+      "text": "I'd like to get a 0 in that position, just the way"
+    },
+    {
+      "idx": 438,
+      "start": 2288.72,
+      "end": 2290.72,
+      "text": "I did in the first problem."
+    },
+    {
+      "idx": 439,
+      "start": 2290.72,
+      "end": 2295.33,
+      "text": "So how shall I get a 0 where I have a 3?"
+    },
+    {
+      "idx": 440,
+      "start": 2297.72,
+      "end": 2301.72,
+      "text": "So I'll subtract 0, 1 from row 2."
+    },
+    {
+      "idx": 441,
+      "start": 2301.72,
+      "end": 2303.72,
+      "text": "So I'll keep row 1."
+    },
+    {
+      "idx": 442,
+      "start": 2303.72,
+      "end": 2306.72,
+      "text": "And I won't keep writing all the 0s and the x's."
+    },
+    {
+      "idx": 443,
+      "start": 2306.72,
+      "end": 2307.72,
+      "text": "We understand that."
+    },
+    {
+      "idx": 444,
+      "start": 2307.72,
+      "end": 2310.72,
+      "text": "It's only the numbers here that matter."
+    },
+    {
+      "idx": 445,
+      "start": 2310.72,
+      "end": 2315.94,
+      "text": "So I have 1, 2, 11, and 17."
+    },
+    {
+      "idx": 446,
+      "start": 2315.94,
+      "end": 2318.94,
+      "text": "And I'm subtracting 3 times that."
+    },
+    {
+      "idx": 447,
+      "start": 2318.94,
+      "end": 2322.94,
+      "text": "So 3 1s, that made the 0 that I want."
+    },
+    {
+      "idx": 448,
+      "start": 2322.94,
+      "end": 2326.94,
+      "text": "3 2s is 6, taken away from 7 is a 1."
+    },
+    {
+      "idx": 449,
+      "start": 2326.94,
+      "end": 2332.0,
+      "text": "33, take away from 37, just leaves 4."
+    },
+    {
+      "idx": 450,
+      "start": 2332.0,
+      "end": 2335.0,
+      "text": "And 3 17s is 51, leaves 6."
+    },
+    {
+      "idx": 451,
+      "start": 2335.0,
+      "end": 2338.0,
+      "text": "Do you agree with that?"
+    },
+    {
+      "idx": 452,
+      "start": 2338.0,
+      "end": 2343.28,
+      "text": "And this row of all 0s is still here."
+    },
+    {
+      "idx": 453,
+      "start": 2348.15,
+      "end": 2349.19,
+      "text": "What else can I do?"
+    },
+    {
+      "idx": 454,
+      "start": 2349.19,
+      "end": 2351.91,
+      "text": "So this is elimination."
+    },
+    {
+      "idx": 455,
+      "start": 2351.91,
+      "end": 2354.51,
+      "text": "And now I'm going to, because I'm"
+    },
+    {
+      "idx": 456,
+      "start": 2354.51,
+      "end": 2356.79,
+      "text": "dealing with a more general problem,"
+    },
+    {
+      "idx": 457,
+      "start": 2356.79,
+      "end": 2359.82,
+      "text": "I'm going to allow elimination upwards."
+    },
+    {
+      "idx": 458,
+      "start": 2359.82,
+      "end": 2364.82,
+      "text": "I want to subtract a multiple of equation 2 from equation 1"
+    },
+    {
+      "idx": 459,
+      "start": 2364.82,
+      "end": 2366.82,
+      "text": "and make it still simpler."
+    },
+    {
+      "idx": 460,
+      "start": 2368.78,
+      "end": 2374.78,
+      "text": "So my 0 equals 0 is no problem."
+    },
+    {
+      "idx": 461,
+      "start": 2374.78,
+      "end": 2379.78,
+      "text": "This one I'm keeping now, because it has that 0"
+    },
+    {
+      "idx": 462,
+      "start": 2379.78,
+      "end": 2383.94,
+      "text": "that I paid for with some computing."
+    },
+    {
+      "idx": 463,
+      "start": 2383.94,
+      "end": 2385.94,
+      "text": "But now what do I want to do?"
+    },
+    {
+      "idx": 464,
+      "start": 2385.94,
+      "end": 2389.94,
+      "text": "I want to subtract a multiple of this from the top equation."
+    },
+    {
+      "idx": 465,
+      "start": 2389.94,
+      "end": 2390.94,
+      "text": "So I'm working on it."
+    },
+    {
+      "idx": 466,
+      "start": 2390.94,
+      "end": 2392.94,
+      "text": "I'm working upwards this time."
+    },
+    {
+      "idx": 467,
+      "start": 2392.94,
+      "end": 2395.94,
+      "text": "Well, when I subtract this, that'll still leave the 1."
+    },
+    {
+      "idx": 468,
+      "start": 2395.94,
+      "end": 2398.94,
+      "text": "But I would like to get a 0 there."
+    },
+    {
+      "idx": 469,
+      "start": 2398.94,
+      "end": 2403.36,
+      "text": "I want to get 0s, because then I can write out"
+    },
+    {
+      "idx": 470,
+      "start": 2403.36,
+      "end": 2405.36,
+      "text": "the solution easily."
+    },
+    {
+      "idx": 471,
+      "start": 2405.36,
+      "end": 2406.36,
+      "text": "So what do I do?"
+    },
+    {
+      "idx": 472,
+      "start": 2406.36,
+      "end": 2409.42,
+      "text": "What do I multiply row 2 by?"
+    },
+    {
+      "idx": 473,
+      "start": 2409.42,
+      "end": 2411.42,
+      "text": "Everybody here is with me."
+    },
+    {
+      "idx": 474,
+      "start": 2411.42,
+      "end": 2413.42,
+      "text": "I want to multiply row 2 by some number"
+    },
+    {
+      "idx": 475,
+      "start": 2413.42,
+      "end": 2417.42,
+      "text": "and subtract from row 1 and get that 0."
+    },
+    {
+      "idx": 476,
+      "start": 2417.42,
+      "end": 2420.42,
+      "text": "So what do I multiply row 2 by?"
+    },
+    {
+      "idx": 477,
+      "start": 2421.42,
+      "end": 2432.72,
+      "text": "Everybody in this class is going to have an A."
+    },
+    {
+      "idx": 478,
+      "start": 2432.72,
+      "end": 2435.72,
+      "text": "I'm sorry to think that this class is recorded,"
+    },
+    {
+      "idx": 479,
+      "start": 2435.72,
+      "end": 2439.72,
+      "text": "because I didn't really mean it."
+    },
+    {
+      "idx": 480,
+      "start": 2443.04,
+      "end": 2446.68,
+      "text": "I'll just say you all deserve an A. How's that?"
+    },
+    {
+      "idx": 481,
+      "start": 2446.68,
+      "end": 2450.68,
+      "text": "That's a nice new, yes, at least based on so far today."
+    },
+    {
+      "idx": 482,
+      "start": 2450.68,
+      "end": 2453.68,
+      "text": "But there's more questions on this final exam."
+    },
+    {
+      "idx": 483,
+      "start": 2453.68,
+      "end": 2456.68,
+      "text": "So you have A so far."
+    },
+    {
+      "idx": 484,
+      "start": 2457.68,
+      "end": 2461.68,
+      "text": "So I want to subtract this from the row above to get that 0."
+    },
+    {
+      "idx": 485,
+      "start": 2461.68,
+      "end": 2463.68,
+      "text": "What do I multiply this by?"
+    },
+    {
+      "idx": 486,
+      "start": 2464.72,
+      "end": 2466.72,
+      "text": "Subtract from this."
+    },
+    {
+      "idx": 487,
+      "start": 2466.72,
+      "end": 2469.72,
+      "text": "So 2 1s is 2, and the subtraction gives a 0."
+    },
+    {
+      "idx": 488,
+      "start": 2469.72,
+      "end": 2472.72,
+      "text": "2 4s is 8, leaving 3."
+    },
+    {
+      "idx": 489,
+      "start": 2472.72,
+      "end": 2477.39,
+      "text": "And 2 6s is 12, leaving 5."
+    },
+    {
+      "idx": 490,
+      "start": 2478.39,
+      "end": 2486.56,
+      "text": "So my equation is now, my three equations are, well,"
+    },
+    {
+      "idx": 491,
+      "start": 2486.56,
+      "end": 2488.56,
+      "text": "this is a 0 equals 0 equation."
+    },
+    {
+      "idx": 492,
+      "start": 2488.56,
+      "end": 2500.14,
+      "text": "My equations are x1 from the 1, no x2s, 3 x3s, and 5 x4s,"
+    },
+    {
+      "idx": 493,
+      "start": 2502.65,
+      "end": 2505.65,
+      "text": "The right side stayed 0, because it was always 0."
+    },
+    {
+      "idx": 494,
+      "start": 2505.65,
+      "end": 2513.61,
+      "text": "And the other equation here is no x1s, 1 x2, 4 x3s,"
+    },
+    {
+      "idx": 495,
+      "start": 2513.61,
+      "end": 2517.47,
+      "text": "and 6 x4s."
+    },
+    {
+      "idx": 496,
+      "start": 2520.32,
+      "end": 2524.54,
+      "text": "So those equations are equivalent to the,"
+    },
+    {
+      "idx": 497,
+      "start": 2524.54,
+      "end": 2527.44,
+      "text": "to the first ones."
+    },
+    {
+      "idx": 498,
+      "start": 2527.44,
+      "end": 2531.04,
+      "text": "I just did subtraction of equation from equation."
+    },
+    {
+      "idx": 499,
+      "start": 2531.04,
+      "end": 2532.84,
+      "text": "That's totally safe."
+    },
+    {
+      "idx": 500,
+      "start": 2532.84,
+      "end": 2534.7,
+      "text": "And it's reversible."
+    },
+    {
+      "idx": 501,
+      "start": 2534.7,
+      "end": 2538.24,
+      "text": "I could get from that back to that by doing adding back."
+    },
+    {
+      "idx": 502,
+      "start": 2538.24,
+      "end": 2543.96,
+      "text": "So that's just as good, in fact, better than the original."
+    },
+    {
+      "idx": 503,
+      "start": 2543.96,
+      "end": 2546.76,
+      "text": "We ought to be able to write down"
+    },
+    {
+      "idx": 504,
+      "start": 2546.76,
+      "end": 2549.05,
+      "text": "the solutions for this one."
+    },
+    {
+      "idx": 505,
+      "start": 2549.05,
+      "end": 2550.05,
+      "text": "And let me count."
+    },
+    {
+      "idx": 506,
+      "start": 2550.05,
+      "end": 2551.55,
+      "text": "What are we expecting?"
+    },
+    {
+      "idx": 507,
+      "start": 2551.55,
+      "end": 2554.77,
+      "text": "Let's get a little geometry in this."
+    },
+    {
+      "idx": 508,
+      "start": 2554.77,
+      "end": 2559.59,
+      "text": "So I have, I'm in four-dimensional space."
+    },
+    {
+      "idx": 509,
+      "start": 2559.59,
+      "end": 2562.47,
+      "text": "That's a challenge right away, to visualize"
+    },
+    {
+      "idx": 510,
+      "start": 2564.39,
+      "end": 2567.15,
+      "text": "But I have an x1, x2, x3, x4."
+    },
+    {
+      "idx": 511,
+      "start": 2567.15,
+      "end": 2572.15,
+      "text": "So my solution vector has four components."
+    },
+    {
+      "idx": 512,
+      "start": 2572.15,
+      "end": 2576.72,
+      "text": "And so what are some solutions?"
+    },
+    {
+      "idx": 513,
+      "start": 2576.72,
+      "end": 2582.0,
+      "text": "Can you find, what are all the solutions I'd like to know?"
+    },
+    {
+      "idx": 514,
+      "start": 2582.0,
+      "end": 2583.92,
+      "text": "And notice one point."
+    },
+    {
+      "idx": 515,
+      "start": 2583.92,
+      "end": 2585.96,
+      "text": "There's 0s on the right-hand side."
+    },
+    {
+      "idx": 516,
+      "start": 2587.75,
+      "end": 2592.54,
+      "text": "So that tells me if I find one set of xs that works,"
+    },
+    {
+      "idx": 517,
+      "start": 2592.54,
+      "end": 2595.72,
+      "text": "then two times that set of xs will work."
+    },
+    {
+      "idx": 518,
+      "start": 2595.72,
+      "end": 2598.04,
+      "text": "Five times that set of xs will work,"
+    },
+    {
+      "idx": 519,
+      "start": 2598.04,
+      "end": 2605.34,
+      "text": "because it'll just multiply all, because I'll have 0 equal 0."
+    },
+    {
+      "idx": 520,
+      "start": 2605.34,
+      "end": 2608.04,
+      "text": "And I can safely multiply by 5."
+    },
+    {
+      "idx": 521,
+      "start": 2608.04,
+      "end": 2615.22,
+      "text": "So I'm expecting two solutions, two separate solutions."
+    },
+    {
+      "idx": 522,
+      "start": 2615.22,
+      "end": 2616.94,
+      "text": "And I'll write those."
+    },
+    {
+      "idx": 523,
+      "start": 2616.94,
+      "end": 2618.94,
+      "text": "Maybe up above."
+    },
+    {
+      "idx": 524,
+      "start": 2618.94,
+      "end": 2622.12,
+      "text": "x1, x2, x3, x4."
+    },
+    {
+      "idx": 525,
+      "start": 2628.67,
+      "end": 2630.99,
+      "text": "So I have two equations."
+    },
+    {
+      "idx": 526,
+      "start": 2630.99,
+      "end": 2637.21,
+      "text": "And for these four unknowns, let me start out"
+    },
+    {
+      "idx": 527,
+      "start": 2637.21,
+      "end": 2644.42,
+      "text": "with x3 equal to a 1 and x4 equal to a 0."
+    },
+    {
+      "idx": 528,
+      "start": 2644.42,
+      "end": 2648.7,
+      "text": "So I'm just sort of freely setting x3 and x4."
+    },
+    {
+      "idx": 529,
+      "start": 2649.34,
+      "end": 2650.62,
+      "text": "That's 1 and 0."
+    },
+    {
+      "idx": 530,
+      "start": 2650.62,
+      "end": 2652.66,
+      "text": "And then I'll figure out, or you'll figure out,"
+    },
+    {
+      "idx": 531,
+      "start": 2652.66,
+      "end": 2656.02,
+      "text": "what x1 and x2 have to be."
+    },
+    {
+      "idx": 532,
+      "start": 2656.02,
+      "end": 2657.98,
+      "text": "So what's the answer then?"
+    },
+    {
+      "idx": 533,
+      "start": 2657.98,
+      "end": 2665.7,
+      "text": "If x3 is 1 and x4 is 0, what is x1?"
+    },
+    {
+      "idx": 534,
+      "start": 2665.7,
+      "end": 2667.68,
+      "text": "And this is obviously 0."
+    },
+    {
+      "idx": 535,
+      "start": 2667.68,
+      "end": 2669.28,
+      "text": "So what is x1?"
+    },
+    {
+      "idx": 536,
+      "start": 2669.28,
+      "end": 2678.07,
+      "text": "That leads to x1 equal, what's x1?"
+    },
+    {
+      "idx": 537,
+      "start": 2680.15,
+      "end": 2680.83,
+      "text": "And what's x2?"
+    },
+    {
+      "idx": 538,
+      "start": 2680.83,
+      "end": 2683.11,
+      "text": "That will come from x1."
+    },
+    {
+      "idx": 539,
+      "start": 2684.51,
+      "end": 2688.43,
+      "text": "From this equation, what will x2 be?"
+    },
+    {
+      "idx": 540,
+      "start": 2691.82,
+      "end": 2694.9,
+      "text": "So that's a solution."
+    },
+    {
+      "idx": 541,
+      "start": 2694.9,
+      "end": 2697.42,
+      "text": "We've solved this original problem."
+    },
+    {
+      "idx": 542,
+      "start": 2697.42,
+      "end": 2699.32,
+      "text": "I erased it."
+    },
+    {
+      "idx": 543,
+      "start": 2699.32,
+      "end": 2701.58,
+      "text": "It was much worse at the beginning."
+    },
+    {
+      "idx": 544,
+      "start": 2701.58,
+      "end": 2704.16,
+      "text": "But we found a solution."
+    },
+    {
+      "idx": 545,
+      "start": 2704.16,
+      "end": 2708.22,
+      "text": "But again, we have four unknowns."
+    },
+    {
+      "idx": 546,
+      "start": 2708.22,
+      "end": 2712.3,
+      "text": "And we have only two real equations."
+    },
+    {
+      "idx": 547,
+      "start": 2712.3,
+      "end": 2714.42,
+      "text": "Two independent equations."
+    },
+    {
+      "idx": 548,
+      "start": 2714.42,
+      "end": 2717.72,
+      "text": "Because this third equation turned out to be a fraud."
+    },
+    {
+      "idx": 549,
+      "start": 2717.72,
+      "end": 2720.7,
+      "text": "It was just a combination of 1 and 2."
+    },
+    {
+      "idx": 550,
+      "start": 2720.7,
+      "end": 2724.14,
+      "text": "So we really have only two equations, four unknowns."
+    },
+    {
+      "idx": 551,
+      "start": 2724.14,
+      "end": 2726.96,
+      "text": "So we would expect two solutions,"
+    },
+    {
+      "idx": 552,
+      "start": 2726.96,
+      "end": 2729.04,
+      "text": "and I found one of them."
+    },
+    {
+      "idx": 553,
+      "start": 2729.04,
+      "end": 2732.45,
+      "text": "OK, so that's good."
+    },
+    {
+      "idx": 554,
+      "start": 2732.45,
+      "end": 2735.58,
+      "text": "So let me find the other one."
+    },
+    {
+      "idx": 555,
+      "start": 2735.58,
+      "end": 2738.9,
+      "text": "And then this problem is solved, and we can go on."
+    },
+    {
+      "idx": 556,
+      "start": 2738.9,
+      "end": 2745.28,
+      "text": "So another solution, I want to find another x1, x2, x3,"
+    },
+    {
+      "idx": 557,
+      "start": 2745.28,
+      "end": 2750.17,
+      "text": "and x4, and tell me what it is."
+    },
+    {
+      "idx": 558,
+      "start": 2750.17,
+      "end": 2755.86,
+      "text": "So this time, I'll start with 0 and 1 for these guys."
+    },
+    {
+      "idx": 559,
+      "start": 2755.86,
+      "end": 2758.6,
+      "text": "I'll let that be 0 and that be 1,"
+    },
+    {
+      "idx": 560,
+      "start": 2758.6,
+      "end": 2762.9,
+      "text": "and then I'll use the equations to tell me x1 and x2."
+    },
+    {
+      "idx": 561,
+      "start": 2762.9,
+      "end": 2764.84,
+      "text": "Or you will."
+    },
+    {
+      "idx": 562,
+      "start": 2764.84,
+      "end": 2769.46,
+      "text": "So now what is x1 from this equation?"
+    },
+    {
+      "idx": 563,
+      "start": 2769.46,
+      "end": 2771.74,
+      "text": "Minus 5, thanks."
+    },
+    {
+      "idx": 564,
+      "start": 2771.74,
+      "end": 2774.02,
+      "text": "This is minus 5."
+    },
+    {
+      "idx": 565,
+      "start": 2774.02,
+      "end": 2780.41,
+      "text": "And what is x2 from this equation?"
+    },
+    {
+      "idx": 566,
+      "start": 2783.29,
+      "end": 2787.68,
+      "text": "OK, we found two solutions, clearly independent,"
+    },
+    {
+      "idx": 567,
+      "start": 2787.68,
+      "end": 2790.48,
+      "text": "minus 3, minus 4, 1, 0."
+    },
+    {
+      "idx": 568,
+      "start": 2790.48,
+      "end": 2792.38,
+      "text": "That's a vector in four dimensions."
+    },
+    {
+      "idx": 569,
+      "start": 2792.38,
+      "end": 2793.74,
+      "text": "We're in four dimensions."
+    },
+    {
+      "idx": 570,
+      "start": 2793.74,
+      "end": 2797.42,
+      "text": "This is linear algebra."
+    },
+    {
+      "idx": 571,
+      "start": 2797.42,
+      "end": 2800.38,
+      "text": "It has no problem to go up in dimension."
+    },
+    {
+      "idx": 572,
+      "start": 2800.38,
+      "end": 2801.64,
+      "text": "It stays linear."
+    },
+    {
+      "idx": 573,
+      "start": 2801.64,
+      "end": 2803.54,
+      "text": "That's what keeps things simple."
+    },
+    {
+      "idx": 574,
+      "start": 2803.54,
+      "end": 2806.56,
+      "text": "And then it goes up to any number of dimensions."
+    },
+    {
+      "idx": 575,
+      "start": 2806.56,
+      "end": 2811.52,
+      "text": "And so these would be typical problems coming from,"
+    },
+    {
+      "idx": 576,
+      "start": 2811.52,
+      "end": 2815.64,
+      "text": "say, some engineering system."
+    },
+    {
+      "idx": 577,
+      "start": 2819.36,
+      "end": 2821.32,
+      "text": "Yeah, so we have two solutions."
+    },
+    {
+      "idx": 578,
+      "start": 2821.32,
+      "end": 2823.55,
+      "text": "And that's somehow right."
+    },
+    {
+      "idx": 579,
+      "start": 2823.55,
+      "end": 2827.21,
+      "text": "And any combination of those is a solution."
+    },
+    {
+      "idx": 580,
+      "start": 2827.21,
+      "end": 2832.25,
+      "text": "So I have actually, if I combine one of this solution"
+    },
+    {
+      "idx": 581,
+      "start": 2832.25,
+      "end": 2835.59,
+      "text": "plus six of that solution, I'd have another solution."
+    },
+    {
+      "idx": 582,
+      "start": 2835.59,
+      "end": 2838.19,
+      "text": "Because on the right side, I would just"
+    },
+    {
+      "idx": 583,
+      "start": 2838.19,
+      "end": 2840.63,
+      "text": "have still all 0's."
+    },
+    {
+      "idx": 584,
+      "start": 2841.75,
+      "end": 2845.47,
+      "text": "So that problem is solved."
+    },
+    {
+      "idx": 585,
+      "start": 2845.47,
+      "end": 2847.43,
+      "text": "And that, as we expected."
+    },
+    {
+      "idx": 586,
+      "start": 2847.43,
+      "end": 2849.79,
+      "text": "And let's just review."
+    },
+    {
+      "idx": 587,
+      "start": 2849.79,
+      "end": 2858.53,
+      "text": "So I started with three rows and four columns."
+    },
+    {
+      "idx": 588,
+      "start": 2858.53,
+      "end": 2862.47,
+      "text": "But the three rows were not independent."
+    },
+    {
+      "idx": 589,
+      "start": 2862.47,
+      "end": 2865.33,
+      "text": "The three equations, a combination of the three"
+    },
+    {
+      "idx": 590,
+      "start": 2865.33,
+      "end": 2867.03,
+      "text": "equations gave me a 0."
+    },
+    {
+      "idx": 591,
+      "start": 2867.03,
+      "end": 2871.13,
+      "text": "So I really had the rank of the matrix is 2."
+    },
+    {
+      "idx": 592,
+      "start": 2871.13,
+      "end": 2874.57,
+      "text": "So this is a matrix with m equal 3 rows."
+    },
+    {
+      "idx": 593,
+      "start": 2874.57,
+      "end": 2880.62,
+      "text": "n equal 4 columns."
+    },
+    {
+      "idx": 594,
+      "start": 2880.62,
+      "end": 2886.94,
+      "text": "But the rank of the matrix is what?"
+    },
+    {
+      "idx": 595,
+      "start": 2886.94,
+      "end": 2891.4,
+      "text": "Now, everybody, if you don't know what the word rank is,"
+    },
+    {
+      "idx": 596,
+      "start": 2891.4,
+      "end": 2893.96,
+      "text": "let the 18.06 team tell you."
+    },
+    {
+      "idx": 597,
+      "start": 2893.96,
+      "end": 2896.44,
+      "text": "What's the rank of my matrix?"
+    },
+    {
+      "idx": 598,
+      "start": 2896.94,
+      "end": 2897.92,
+      "text": "Oh, you do know."
+    },
+    {
+      "idx": 599,
+      "start": 2900.03,
+      "end": 2902.32,
+      "text": "So its rank is 2."
+    },
+    {
+      "idx": 600,
+      "start": 2902.32,
+      "end": 2904.98,
+      "text": "So its row rank is 2."
+    },
+    {
+      "idx": 601,
+      "start": 2904.98,
+      "end": 2907.84,
+      "text": "Now, the most wonderful theorem in linear algebra."
+    },
+    {
+      "idx": 602,
+      "start": 2907.84,
+      "end": 2910.21,
+      "text": "And the most wonderful theorem, at least"
+    },
+    {
+      "idx": 603,
+      "start": 2910.21,
+      "end": 2912.13,
+      "text": "at the beginning of linear algebra,"
+    },
+    {
+      "idx": 604,
+      "start": 2912.13,
+      "end": 2917.07,
+      "text": "is that if I have two independent rows."
+    },
+    {
+      "idx": 605,
+      "start": 2917.07,
+      "end": 2919.47,
+      "text": "And that's what I have, two independent rows."
+    },
+    {
+      "idx": 606,
+      "start": 2919.47,
+      "end": 2921.43,
+      "text": "The third row was a combination."
+    },
+    {
+      "idx": 607,
+      "start": 2922.73,
+      "end": 2924.19,
+      "text": "So I had two independent rows."
+    },
+    {
+      "idx": 608,
+      "start": 2924.19,
+      "end": 2926.53,
+      "text": "So the row rank is 2."
+    },
+    {
+      "idx": 609,
+      "start": 2926.53,
+      "end": 2928.75,
+      "text": "And now look at the columns."
+    },
+    {
+      "idx": 610,
+      "start": 2928.75,
+      "end": 2931.19,
+      "text": "So I had originally four columns."
+    },
+    {
+      "idx": 611,
+      "start": 2931.19,
+      "end": 2933.11,
+      "text": "I still have four columns."
+    },
+    {
+      "idx": 612,
+      "start": 2933.11,
+      "end": 2935.79,
+      "text": "I didn't mess with combinations."
+    },
+    {
+      "idx": 613,
+      "start": 2937.82,
+      "end": 2940.9,
+      "text": "Independent columns do I have?"
+    },
+    {
+      "idx": 614,
+      "start": 2942.56,
+      "end": 2944.58,
+      "text": "Look at this matrix."
+    },
+    {
+      "idx": 615,
+      "start": 2944.58,
+      "end": 2947.22,
+      "text": "Look at this matrix, because nothing, these numbers"
+    },
+    {
+      "idx": 616,
+      "start": 2948.46,
+      "end": 2949.52,
+      "text": "Look at that matrix."
+    },
+    {
+      "idx": 617,
+      "start": 2949.52,
+      "end": 2954.57,
+      "text": "So that has one, two, three, four columns."
+    },
+    {
+      "idx": 618,
+      "start": 2954.57,
+      "end": 2956.29,
+      "text": "But they're not independent."
+    },
+    {
+      "idx": 619,
+      "start": 2956.29,
+      "end": 2958.97,
+      "text": "Some of those combinations, or some of those columns"
+    },
+    {
+      "idx": 620,
+      "start": 2958.97,
+      "end": 2960.67,
+      "text": "are combinations of other columns."
+    },
+    {
+      "idx": 621,
+      "start": 2960.67,
+      "end": 2964.25,
+      "text": "That's what the beginning of linear algebra is about."
+    },
+    {
+      "idx": 622,
+      "start": 2964.25,
+      "end": 2967.87,
+      "text": "And what's the answer to the column rank?"
+    },
+    {
+      "idx": 623,
+      "start": 2968.49,
+      "end": 2973.21,
+      "text": "So the column rank is the number of independent columns."
+    },
+    {
+      "idx": 624,
+      "start": 2973.21,
+      "end": 2976.58,
+      "text": "And what do I get for that?"
+    },
+    {
+      "idx": 625,
+      "start": 2977.96,
+      "end": 2982.58,
+      "text": "That's the great first wonderful, not at all clear"
+    },
+    {
+      "idx": 626,
+      "start": 2983.48,
+      "end": 2987.08,
+      "text": "If I went back to the original matrix"
+    },
+    {
+      "idx": 627,
+      "start": 2987.08,
+      "end": 2989.86,
+      "text": "and said there are two independent rows,"
+    },
+    {
+      "idx": 628,
+      "start": 2989.86,
+      "end": 2995.66,
+      "text": "and then math told me that there were two independent columns,"
+    },
+    {
+      "idx": 629,
+      "start": 2995.66,
+      "end": 2999.08,
+      "text": "well, I would believe it, because it gets proved in 18.0."
+    },
+    {
+      "idx": 630,
+      "start": 2999.8,
+      "end": 3006.0,
+      "text": "But this is the great fact, that the number of independent rows"
+    },
+    {
+      "idx": 631,
+      "start": 3006.0,
+      "end": 3008.38,
+      "text": "matches the number of independent columns."
+    },
+    {
+      "idx": 632,
+      "start": 3012.36,
+      "end": 3018.34,
+      "text": "I thought there'd be time for some more review of old finals."
+    },
+    {
+      "idx": 633,
+      "start": 3018.34,
+      "end": 3021.72,
+      "text": "This could have been on a final."
+    },
+    {
+      "idx": 634,
+      "start": 3021.72,
+      "end": 3025.01,
+      "text": "And let's see."
+    },
+    {
+      "idx": 635,
+      "start": 3025.01,
+      "end": 3028.63,
+      "text": "Do you want to answer me one question?"
+    },
+    {
+      "idx": 636,
+      "start": 3028.63,
+      "end": 3030.91,
+      "text": "Oh, no, you don't."
+    },
+    {
+      "idx": 637,
+      "start": 3031.99,
+      "end": 3037.99,
+      "text": "I think it's the right time to ask Pavel Grinfeld, who"
+    },
+    {
+      "idx": 638,
+      "start": 3037.99,
+      "end": 3044.11,
+      "text": "was one of my first early PhDs, to say a few words."
+    },
+    {
+      "idx": 639,
+      "start": 3044.11,
+      "end": 3047.35,
+      "text": "And then if Professor Goemans is here, he's here."
+    },
+    {
+      "idx": 640,
+      "start": 3047.99,
+      "end": 3051.71,
+      "text": "So Pavel, thanks."
+    },
+    {
+      "idx": 641,
+      "start": 3060.64,
+      "end": 3063.82,
+      "text": "This is the mic, right?"
+    },
+    {
+      "idx": 642,
+      "start": 3063.82,
+      "end": 3065.92,
+      "text": "So I wrote down some thoughts."
+    },
+    {
+      "idx": 643,
+      "start": 3065.92,
+      "end": 3067.3,
+      "text": "So please don't be worried."
+    },
+    {
+      "idx": 644,
+      "start": 3067.3,
+      "end": 3068.14,
+      "text": "This is not a long speech."
+    },
+    {
+      "idx": 645,
+      "start": 3068.14,
+      "end": 3069.38,
+      "text": "It's just a very large font."
+    },
+    {
+      "idx": 646,
+      "start": 3072.46,
+      "end": 3075.26,
+      "text": "And I just want to say, this is not in the speech."
+    },
+    {
+      "idx": 647,
+      "start": 3075.26,
+      "end": 3079.28,
+      "text": "I was sitting over there, and I was looking back most of the time"
+    },
+    {
+      "idx": 648,
+      "start": 3079.28,
+      "end": 3081.5,
+      "text": "at this sea of beautiful faces."
+    },
+    {
+      "idx": 649,
+      "start": 3081.5,
+      "end": 3083.78,
+      "text": "And I was just thinking to myself,"
+    },
+    {
+      "idx": 650,
+      "start": 3083.78,
+      "end": 3087.96,
+      "text": "your faces are so beautiful, not only because you're so young"
+    },
+    {
+      "idx": 651,
+      "start": 3087.96,
+      "end": 3091.21,
+      "text": "and have such amazing hair, and not only"
+    },
+    {
+      "idx": 652,
+      "start": 3091.21,
+      "end": 3092.59,
+      "text": "because you're accomplished enough"
+    },
+    {
+      "idx": 653,
+      "start": 3092.59,
+      "end": 3096.85,
+      "text": "to be taking leading algebra so early in your college careers,"
+    },
+    {
+      "idx": 654,
+      "start": 3096.85,
+      "end": 3098.53,
+      "text": "but also because you were in Gil's"
+    },
+    {
+      "idx": 655,
+      "start": 3099.73,
+      "end": 3101.75,
+      "text": "And when you're in Gil's presence,"
+    },
+    {
+      "idx": 656,
+      "start": 3101.75,
+      "end": 3104.87,
+      "text": "you're just in a better, more beautiful world."
+    },
+    {
+      "idx": 657,
+      "start": 3104.87,
+      "end": 3108.79,
+      "text": "And I think that your faces are channeling that."
+    },
+    {
+      "idx": 658,
+      "start": 3108.79,
+      "end": 3113.31,
+      "text": "So that's just what it's like knowing Gil."
+    },
+    {
+      "idx": 659,
+      "start": 3113.31,
+      "end": 3117.35,
+      "text": "And I think that's why I chose to pursue the same line"
+    },
+    {
+      "idx": 660,
+      "start": 3117.35,
+      "end": 3118.49,
+      "text": "of studies as Gil."
+    },
+    {
+      "idx": 661,
+      "start": 3118.49,
+      "end": 3122.57,
+      "text": "And Gil's presence in my life has"
+    },
+    {
+      "idx": 662,
+      "start": 3122.57,
+      "end": 3124.05,
+      "text": "informed so many of my decisions."
+    },
+    {
+      "idx": 663,
+      "start": 3124.05,
+      "end": 3127.41,
+      "text": "So anyway, so that's just some thoughts that I had."
+    },
+    {
+      "idx": 664,
+      "start": 3127.41,
+      "end": 3128.31,
+      "text": "Now I'll get to my speech."
+    },
+    {
+      "idx": 665,
+      "start": 3128.53,
+      "end": 3131.65,
+      "text": "And first, I want to say congratulations, Gil,"
+    },
+    {
+      "idx": 666,
+      "start": 3131.65,
+      "end": 3134.29,
+      "text": "on your retirement."
+    },
+    {
+      "idx": 667,
+      "start": 3141.84,
+      "end": 3144.0,
+      "text": "Now you will finally have some time"
+    },
+    {
+      "idx": 668,
+      "start": 3144.0,
+      "end": 3145.38,
+      "text": "to concentrate on your research."
+    },
+    {
+      "idx": 669,
+      "start": 3148.27,
+      "end": 3151.77,
+      "text": "And we all owe you a debt of gratitude"
+    },
+    {
+      "idx": 670,
+      "start": 3151.77,
+      "end": 3153.83,
+      "text": "for everything you've done."
+    },
+    {
+      "idx": 671,
+      "start": 3153.83,
+      "end": 3157.93,
+      "text": "But my life especially has been touched by you."
+    },
+    {
+      "idx": 672,
+      "start": 3157.93,
+      "end": 3159.77,
+      "text": "So all I want to do is just share"
+    },
+    {
+      "idx": 673,
+      "start": 3159.77,
+      "end": 3163.49,
+      "text": "a few of my personal experiences."
+    },
+    {
+      "idx": 674,
+      "start": 3163.49,
+      "end": 3166.17,
+      "text": "So if I think back to one of the most important things, I'm going"
+    },
+    {
+      "idx": 675,
+      "start": 3166.17,
+      "end": 3170.67,
+      "text": "to say that I think that Gil is the day that I passed my qual."
+    },
+    {
+      "idx": 676,
+      "start": 3170.67,
+      "end": 3173.13,
+      "text": "And it wasn't because I passed my qual."
+    },
+    {
+      "idx": 677,
+      "start": 3173.13,
+      "end": 3175.69,
+      "text": "It's because when you said, congratulations,"
+    },
+    {
+      "idx": 678,
+      "start": 3175.69,
+      "end": 3179.29,
+      "text": "and I said, thank you, Professor Strang, you said,"
+    },
+    {
+      "idx": 679,
+      "start": 3179.29,
+      "end": 3183.47,
+      "text": "I think that going forward, Gil is more appropriate."
+    },
+    {
+      "idx": 680,
+      "start": 3183.47,
+      "end": 3187.29,
+      "text": "And in that moment, I felt like I've made it."
+    },
+    {
+      "idx": 681,
+      "start": 3187.29,
+      "end": 3192.07,
+      "text": "And to this day, I look back on that day"
+    },
+    {
+      "idx": 682,
+      "start": 3192.07,
+      "end": 3194.81,
+      "text": "as the day that I've made it."
+    },
+    {
+      "idx": 683,
+      "start": 3194.81,
+      "end": 3196.05,
+      "text": "That's just how much it means to me."
+    },
+    {
+      "idx": 684,
+      "start": 3196.05,
+      "end": 3197.51,
+      "text": "And I think that's how much it makes me"
+    },
+    {
+      "idx": 685,
+      "start": 3197.51,
+      "end": 3199.82,
+      "text": "to be on the first name basis with you."
+    },
+    {
+      "idx": 686,
+      "start": 3199.82,
+      "end": 3202.34,
+      "text": "And speaking of your name, I have"
+    },
+    {
+      "idx": 687,
+      "start": 3202.34,
+      "end": 3207.1,
+      "text": "to confess that I name drop your name all the time."
+    },
+    {
+      "idx": 688,
+      "start": 3207.1,
+      "end": 3209.7,
+      "text": "So for example, if somebody asks me for a linear algebra"
+    },
+    {
+      "idx": 689,
+      "start": 3209.7,
+      "end": 3213.18,
+      "text": "textbook recommendation, I say, well, I"
+    },
+    {
+      "idx": 690,
+      "start": 3213.18,
+      "end": 3216.94,
+      "text": "might be biased because he was my advisor."
+    },
+    {
+      "idx": 691,
+      "start": 3216.94,
+      "end": 3219.28,
+      "text": "But I recommend Strang's book."
+    },
+    {
+      "idx": 692,
+      "start": 3219.28,
+      "end": 3222.04,
+      "text": "And I understand it takes away from the recommendation"
+    },
+    {
+      "idx": 693,
+      "start": 3222.04,
+      "end": 3223.72,
+      "text": "a little bit."
+    },
+    {
+      "idx": 694,
+      "start": 3223.72,
+      "end": 3226.04,
+      "text": "But that's just how proud I am to be"
+    },
+    {
+      "idx": 695,
+      "start": 3226.4,
+      "end": 3228.685,
+      "text": "Now, this is very personal."
+    },
+    {
+      "idx": 696,
+      "start": 3228.685,
+      "end": 3232.409,
+      "text": "I want to say a few words about your office."
+    },
+    {
+      "idx": 697,
+      "start": 3232.409,
+      "end": 3233.763,
+      "text": "When I'm in your"
+    },
+    {
+      "idx": 698,
+      "start": 3234.44,
+      "end": 3238.244,
+      "text": "office, to me, it's like an oasis of peace."
+    },
+    {
+      "idx": 699,
+      "start": 3238.244,
+      "end": 3243.02,
+      "text": "And I feel like the zero-sum world is left at the door"
+    },
+    {
+      "idx": 700,
+      "start": 3243.02,
+      "end": 3247.572,
+      "text": "and that only good things can happen while I'm there."
+    },
+    {
+      "idx": 701,
+      "start": 3247.572,
+      "end": 3251.18,
+      "text": "And I just still remember sitting in front"
+    },
+    {
+      "idx": 702,
+      "start": 3251.18,
+      "end": 3254.4,
+      "text": "of your desk and the stacks of papers and books."
+    },
+    {
+      "idx": 703,
+      "start": 3254.4,
+      "end": 3257.62,
+      "text": "It looks like the late stages of the game Jenga."
+    },
+    {
+      "idx": 704,
+      "start": 3258.26,
+      "end": 3262.98,
+      "text": "And I feel like they might be about to fall, but I still feel like all is right with the world."
+    },
+    {
+      "idx": 705,
+      "start": 3263.66,
+      "end": 3268.215,
+      "text": "And it's just one of the most comfortable places to be."
+    },
+    {
+      "idx": 706,
+      "start": 3268.215,
+      "end": 3271.28,
+      "text": "And today, when I know that my son is"
+    },
+    {
+      "idx": 707,
+      "start": 3271.28,
+      "end": 3279.24,
+      "text": "outside playing soccer and I hear the sound of shattering glass, I close my eyes, I take a deep"
+    },
+    {
+      "idx": 708,
+      "start": 3279.24,
+      "end": 3281.04,
+      "text": "breath, and I go to my good place."
+    },
+    {
+      "idx": 709,
+      "start": 3281.18,
+      "end": 3283.222,
+      "text": "Which is your office."
+    },
+    {
+      "idx": 710,
+      "start": 3283.222,
+      "end": 3285.361,
+      "text": "That's the safe place."
+    },
+    {
+      "idx": 711,
+      "start": 3285.361,
+      "end": 3288.084,
+      "text": "That's the safe place in me."
+    },
+    {
+      "idx": 712,
+      "start": 3288.084,
+      "end": 3289.64,
+      "text": "So, you've been,"
+    },
+    {
+      "idx": 713,
+      "start": 3290.38,
+      "end": 3297.34,
+      "text": "Alan was saying something to that effect, but you've been a role model in all aspects of my"
+    },
+    {
+      "idx": 714,
+      "start": 3297.34,
+      "end": 3299.545,
+      "text": "You've taught me a lot of things."
+    },
+    {
+      "idx": 715,
+      "start": 3299.545,
+      "end": 3303.086,
+      "text": "You've taught me, you've shown me how to give without"
+    },
+    {
+      "idx": 716,
+      "start": 3303.42,
+      "end": 3305.227,
+      "text": "thinking about taking."
+    },
+    {
+      "idx": 717,
+      "start": 3305.227,
+      "end": 3311.06,
+      "text": "You've taught me how to always find a positive way when you need to say"
+    },
+    {
+      "idx": 718,
+      "start": 3311.06,
+      "end": 3311.105,
+      "text": "And I think that's a very important thing."
+    },
+    {
+      "idx": 719,
+      "start": 3311.105,
+      "end": 3311.149,
+      "text": "And I think that's a very important thing."
+    },
+    {
+      "idx": 720,
+      "start": 3311.18,
+      "end": 3311.81,
+      "text": "And I think that's a very important thing."
+    },
+    {
+      "idx": 721,
+      "start": 3311.81,
+      "end": 3312.44,
+      "text": "And I think that's a very important thing."
+    },
+    {
+      "idx": 722,
+      "start": 3312.44,
+      "end": 3312.62,
+      "text": "And how it's"
+    },
+    {
+      "idx": 723,
+      "start": 3312.62,
+      "end": 3318.66,
+      "text": "especially important to find a positive way to answer a question that wasn't necessarily asked in a"
+    },
+    {
+      "idx": 724,
+      "start": 3318.66,
+      "end": 3324.289,
+      "text": "You taught me a lot about always remembering about what matters."
+    },
+    {
+      "idx": 725,
+      "start": 3324.289,
+      "end": 3325.697,
+      "text": "I remember I was"
+    },
+    {
+      "idx": 726,
+      "start": 3326.84,
+      "end": 3335.68,
+      "text": "lamenting to you how my videos, how other math videos on YouTube get thousands of times more views"
+    },
+    {
+      "idx": 727,
+      "start": 3335.68,
+      "end": 3337.023,
+      "text": "than my videos."
+    },
+    {
+      "idx": 728,
+      "start": 3337.023,
+      "end": 3341.32,
+      "text": "And you said, views, yes, but how many memories?"
+    },
+    {
+      "idx": 729,
+      "start": 3341.88,
+      "end": 3350.5,
+      "text": "And I just want to say that you guys are so lucky because you will remember this class and you will"
+    },
+    {
+      "idx": 730,
+      "start": 3350.5,
+      "end": 3353.968,
+      "text": "remember this experience and you will have these memories."
+    },
+    {
+      "idx": 731,
+      "start": 3353.968,
+      "end": 3356.36,
+      "text": "And thanks for teaching me that it's the"
+    },
+    {
+      "idx": 732,
+      "start": 3356.36,
+      "end": 3358.716,
+      "text": "memories that count and not the views."
+    },
+    {
+      "idx": 733,
+      "start": 3358.716,
+      "end": 3362.56,
+      "text": "And I never thought about views again after that conversation."
+    },
+    {
+      "idx": 734,
+      "start": 3363.63,
+      "end": 3371.67,
+      "text": "Now, you also, what I really appreciate is that you're always forthcoming with advice when it's"
+    },
+    {
+      "idx": 735,
+      "start": 3371.89,
+      "end": 3374.205,
+      "text": "And I'll just relate one story."
+    },
+    {
+      "idx": 736,
+      "start": 3374.205,
+      "end": 3380.85,
+      "text": "When you were over at our house for dinner and you learned that my kitchen had been under"
+    },
+    {
+      "idx": 737,
+      "start": 3380.85,
+      "end": 3388.63,
+      "text": "construction for a year and making very slow progress, you looked me straight in the eye and said, Pavel, your family"
+    },
+    {
+      "idx": 738,
+      "start": 3388.63,
+      "end": 3390.049,
+      "text": "needs a kitchen."
+    },
+    {
+      "idx": 739,
+      "start": 3390.049,
+      "end": 3396.259,
+      "text": "And a month later, my kitchen was completed and I needed to hear that."
+    },
+    {
+      "idx": 740,
+      "start": 3396.259,
+      "end": 3398.92,
+      "text": "And this is the mildest of all"
+    },
+    {
+      "idx": 741,
+      "start": 3399.58,
+      "end": 3401.68,
+      "text": "And you recognize that a"
+    },
+    {
+      "idx": 742,
+      "start": 3401.68,
+      "end": 3405.08,
+      "text": "I needed input from you and you gave it."
+    },
+    {
+      "idx": 743,
+      "start": 3405.08,
+      "end": 3408.36,
+      "text": "So I'm thankful for that very much."
+    },
+    {
+      "idx": 744,
+      "start": 3408.92,
+      "end": 3411.26,
+      "text": "And my wife thanks you too."
+    },
+    {
+      "idx": 745,
+      "start": 3411.6,
+      "end": 3413.68,
+      "text": "I just have two more things to say."
+    },
+    {
+      "idx": 746,
+      "start": 3414.6,
+      "end": 3419.74,
+      "text": "So a few years ago you came to Drexel and gave a talk at the Math Colloquium."
+    },
+    {
+      "idx": 747,
+      "start": 3420.48,
+      "end": 3426.34,
+      "text": "And you said, I'm about to use two words that I may have never used in a talk before."
+    },
+    {
+      "idx": 748,
+      "start": 3426.34,
+      "end": 3431.9,
+      "text": "And those words were theorem and proof, which is quite remarkable for a mathematician."
+    },
+    {
+      "idx": 749,
+      "start": 3432.4,
+      "end": 3437.46,
+      "text": "And I think we all appreciate how you keep things unsophisticated."
+    },
+    {
+      "idx": 750,
+      "start": 3437.6,
+      "end": 3438.88,
+      "text": "Just look at this board."
+    },
+    {
+      "idx": 751,
+      "start": 3439.8,
+      "end": 3442.92,
+      "text": "Clear and simple."
+    },
+    {
+      "idx": 752,
+      "start": 3443.9,
+      "end": 3452.44,
+      "text": "And for a guy who only talks about matrices, it's amazing that you are, as I see it, one of the most universal mathematicians."
+    },
+    {
+      "idx": 753,
+      "start": 3452.88,
+      "end": 3456.32,
+      "text": "And you have taught us that a simple 3x3 matrix is a matrix."
+    },
+    {
+      "idx": 754,
+      "start": 3456.34,
+      "end": 3459.74,
+      "text": "A matrix can gift us scientific insight."
+    },
+    {
+      "idx": 755,
+      "start": 3461.87,
+      "end": 3465.33,
+      "text": "And before you, matrix was a dirty word."
+    },
+    {
+      "idx": 756,
+      "start": 3466.13,
+      "end": 3474.17,
+      "text": "And now I think we would all be proud to have a beautiful matrix with special properties at the center of any of our papers."
+    },
+    {
+      "idx": 757,
+      "start": 3475.09,
+      "end": 3478.87,
+      "text": "And I think that mathematicians used to look down on linear algebra."
+    },
+    {
+      "idx": 758,
+      "start": 3479.09,
+      "end": 3482.87,
+      "text": "But you were right all along about how important this subject is."
+    },
+    {
+      "idx": 759,
+      "start": 3482.87,
+      "end": 3486.89,
+      "text": "And now I think Chad GPT and the linear algebra behind."
+    },
+    {
+      "idx": 760,
+      "start": 3486.91,
+      "end": 3488.91,
+      "text": "It looks down on us."
+    },
+    {
+      "idx": 761,
+      "start": 3488.91,
+      "end": 3490.91,
+      "text": "So you had it right."
+    },
+    {
+      "idx": 762,
+      "start": 3490.91,
+      "end": 3496.91,
+      "text": "So we're all very excited to see what you'll accomplish in your retirement."
+    },
+    {
+      "idx": 763,
+      "start": 3496.91,
+      "end": 3505.98,
+      "text": "But I'm sure that whatever it is, you will remember it not just for your scientific accomplishments, but for human decency."
+    },
+    {
+      "idx": 764,
+      "start": 3505.98,
+      "end": 3512.1,
+      "text": "And I might be biased because I was your student, but I think you're the best."
+    },
+    {
+      "idx": 765,
+      "start": 3512.1,
+      "end": 3513.1,
+      "text": "So thank you."
+    },
+    {
+      "idx": 766,
+      "start": 3513.1,
+      "end": 3525.63,
+      "text": "That was really great."
+    },
+    {
+      "idx": 767,
+      "start": 3525.63,
+      "end": 3531.02,
+      "text": "Let me say a quick comment."
+    },
+    {
+      "idx": 768,
+      "start": 3531.02,
+      "end": 3535.02,
+      "text": "I think a few quick ones since it's almost the end of the hour."
+    },
+    {
+      "idx": 769,
+      "start": 3535.02,
+      "end": 3540.02,
+      "text": "So I'm Michel Goemans and I'm the head of the math department."
+    },
+    {
+      "idx": 770,
+      "start": 3540.02,
+      "end": 3545.02,
+      "text": "And Gil's career at MIT has just been extraordinary."
+    },
+    {
+      "idx": 771,
+      "start": 3545.02,
+      "end": 3553.02,
+      "text": "As he said, he has been for 61 years on the faculty in mathematics."
+    },
+    {
+      "idx": 772,
+      "start": 3553.02,
+      "end": 3559.02,
+      "text": "And that's actually more than any other faculty member in the history of the university."
+    },
+    {
+      "idx": 773,
+      "start": 3559.02,
+      "end": 3571.6,
+      "text": "And possibly even in the history of MIT."
+    },
+    {
+      "idx": 774,
+      "start": 3571.6,
+      "end": 3573.6,
+      "text": "But I couldn't check that."
+    },
+    {
+      "idx": 775,
+      "start": 3573.6,
+      "end": 3586.11,
+      "text": "And as he said, his affiliation with MIT has been even longer since he was a math major from 1952 to 1955."
+    },
+    {
+      "idx": 776,
+      "start": 3586.11,
+      "end": 3588.11,
+      "text": "And a more instructor from 59 to 61."
+    },
+    {
+      "idx": 777,
+      "start": 3588.11,
+      "end": 3592.11,
+      "text": "Mathematics, as you know, is everywhere in engineering and science."
+    },
+    {
+      "idx": 778,
+      "start": 3592.11,
+      "end": 3594.11,
+      "text": "And in that field, you have to be a math major."
+    },
+    {
+      "idx": 779,
+      "start": 3594.11,
+      "end": 3609.11,
+      "text": "And that spirit, Gil's mission has been to educate countless of students from everywhere on the planet in linear algebra, calculus, differential equations, and more generally applied mathematics and computational science."
+    },
+    {
+      "idx": 780,
+      "start": 3609.11,
+      "end": 3612.11,
+      "text": "I say everywhere on the planet."
+    },
+    {
+      "idx": 781,
+      "start": 3612.11,
+      "end": 3622.11,
+      "text": "And in fact, at the beginning of this lecture, I was checking on YouTube and I saw comments from people in Kyrgyzstan, Turkey, Russia, Mongolia, Iran, Brazil, Thailand, India, South Korea."
+    },
+    {
+      "idx": 782,
+      "start": 3622.11,
+      "end": 3623.11,
+      "text": "Now, I'm not sure."
+    },
+    {
+      "idx": 783,
+      "start": 3623.11,
+      "end": 3626.11,
+      "text": "I'm not sure."
+    },
+    {
+      "idx": 784,
+      "start": 3626.11,
+      "end": 3638.11,
+      "text": "Nigeria, Germany, Malaysia, Hong Kong, Bangladesh, Philippines, Morocco, Greece, Italy, China, Taiwan, Brazil, Armenia, Indonesia, Croatia, Egypt, and even my home country of Belgium."
+    },
+    {
+      "idx": 785,
+      "start": 3638.11,
+      "end": 3641.11,
+      "text": "His lectures are legendary."
+    },
+    {
+      "idx": 786,
+      "start": 3641.11,
+      "end": 3651.11,
+      "text": "It's not a surprise that 450 students registered for 1806 for the last term he was teaching together with Andrew Hornin."
+    },
+    {
+      "idx": 787,
+      "start": 3651.11,
+      "end": 3657.006,
+      "text": "of MIT have benefited from his classes."
+    },
+    {
+      "idx": 788,
+      "start": 3657.006,
+      "end": 3665.17,
+      "text": "He was the first to put lectures on OCW as it started,"
+    },
+    {
+      "idx": 789,
+      "start": 3665.17,
+      "end": 3674.788,
+      "text": "and has had his many courses on OCW attract about 5,000 daily visits."
+    },
+    {
+      "idx": 790,
+      "start": 3674.788,
+      "end": 3678.412,
+      "text": "That's pretty significant."
+    },
+    {
+      "idx": 791,
+      "start": 3678.83,
+      "end": 3686.346,
+      "text": "his videos apparently have been seen by more than 14 million people."
+    },
+    {
+      "idx": 792,
+      "start": 3686.346,
+      "end": 3688.998,
+      "text": "That's quite remarkable."
+    },
+    {
+      "idx": 793,
+      "start": 3689.33,
+      "end": 3694.472,
+      "text": "as part of his educational mission, he has published over 13 books."
+    },
+    {
+      "idx": 794,
+      "start": 3694.472,
+      "end": 3695.93,
+      "text": "If I got the number"
+    },
+    {
+      "idx": 795,
+      "start": 3695.93,
+      "end": 3701.413,
+      "text": "right, because it seems that every week there is almost a new one."
+    },
+    {
+      "idx": 796,
+      "start": 3701.413,
+      "end": 3703.49,
+      "text": "His impact on mathematics"
+    },
+    {
+      "idx": 797,
+      "start": 3703.49,
+      "end": 3708.35,
+      "text": "has been, and especially on math education, has been mind-boggling."
+    },
+    {
+      "idx": 798,
+      "start": 3708.83,
+      "end": 3717.83,
+      "text": "So I taught 1806 many years ago, and before teaching I attended Gil's lectures just to see his way of teaching."
+    },
+    {
+      "idx": 799,
+      "start": 3717.83,
+      "end": 3722.651,
+      "text": "And his pedagogical style is indeed really unique."
+    },
+    {
+      "idx": 800,
+      "start": 3722.651,
+      "end": 3728.63,
+      "text": "I felt he's really good at making students think and feel like"
+    },
+    {
+      "idx": 801,
+      "start": 3728.63,
+      "end": 3731.978,
+      "text": "they discover the concepts by themselves."
+    },
+    {
+      "idx": 802,
+      "start": 3731.978,
+      "end": 3737.53,
+      "text": "And if he seems sometimes lost in front of the blackboard, I quickly"
+    },
+    {
+      "idx": 803,
+      "start": 3737.53,
+      "end": 3738.83,
+      "text": "realize it's just pre-existing."
+    },
+    {
+      "idx": 804,
+      "start": 3738.83,
+      "end": 3740.485,
+      "text": "He's very tense."
+    },
+    {
+      "idx": 805,
+      "start": 3740.485,
+      "end": 3744.727,
+      "text": "He knows exactly what he's talking about."
+    },
+    {
+      "idx": 806,
+      "start": 3744.727,
+      "end": 3750.83,
+      "text": "And I should say also that as department head, I often meet"
+    },
+    {
+      "idx": 807,
+      "start": 3750.83,
+      "end": 3758.83,
+      "text": "alumni, MIT alumni, whether they are math majors or from other disciplines, and quite often they say, oh, I had this"
+    },
+    {
+      "idx": 808,
+      "start": 3758.83,
+      "end": 3760.63,
+      "text": "memorable class at MIT."
+    },
+    {
+      "idx": 809,
+      "start": 3760.63,
+      "end": 3762.508,
+      "text": "The name was Gil Strang."
+    },
+    {
+      "idx": 810,
+      "start": 3762.508,
+      "end": 3766.343,
+      "text": "And then they say, oh, he must be retired by now."
+    },
+    {
+      "idx": 811,
+      "start": 3766.343,
+      "end": 3767.83,
+      "text": "And I say, oh, he's"
+    },
+    {
+      "idx": 812,
+      "start": 3767.83,
+      "end": 3767.932,
+      "text": "retired by now."
+    },
+    {
+      "idx": 813,
+      "start": 3767.932,
+      "end": 3768.231,
+      "text": "And they say, oh, he must be retired by now."
+    },
+    {
+      "idx": 814,
+      "start": 3768.231,
+      "end": 3768.51,
+      "text": "And I say, oh, he must be retired by now."
+    },
+    {
+      "idx": 815,
+      "start": 3768.51,
+      "end": 3768.81,
+      "text": "And they say, oh, he must be retired by now."
+    },
+    {
+      "idx": 816,
+      "start": 3768.83,
+      "end": 3769.142,
+      "text": "they say, oh, he must be retired by now."
+    },
+    {
+      "idx": 817,
+      "start": 3769.142,
+      "end": 3769.486,
+      "text": "And they say, oh, he must be retired by now."
+    },
+    {
+      "idx": 818,
+      "start": 3769.486,
+      "end": 3769.807,
+      "text": "And I say, oh, he must be retired by now."
+    },
+    {
+      "idx": 819,
+      "start": 3769.83,
+      "end": 3770.15,
+      "text": "they say, oh, he must be retired by now."
+    },
+    {
+      "idx": 820,
+      "start": 3770.15,
+      "end": 3770.478,
+      "text": "And I say, oh, he must be retired by now."
+    },
+    {
+      "idx": 821,
+      "start": 3770.478,
+      "end": 3770.806,
+      "text": "And I say, oh, he must be retired by now."
+    },
+    {
+      "idx": 822,
+      "start": 3770.83,
+      "end": 3771.15,
+      "text": "they say, oh, he must be retired by now."
+    },
+    {
+      "idx": 823,
+      "start": 3771.15,
+      "end": 3771.478,
+      "text": "And I say, oh, he must be retired by now."
+    },
+    {
+      "idx": 824,
+      "start": 3771.478,
+      "end": 3771.806,
+      "text": "And I say, oh, he must be retired by now."
+    },
+    {
+      "idx": 825,
+      "start": 3771.83,
+      "end": 3772.15,
+      "text": "they say, oh, he must be retired by now."
+    },
+    {
+      "idx": 826,
+      "start": 3772.15,
+      "end": 3772.478,
+      "text": "And I say, oh, he must be retired by now."
+    },
+    {
+      "idx": 827,
+      "start": 3772.478,
+      "end": 3772.806,
+      "text": "And I say, oh, he must be retired by now."
+    },
+    {
+      "idx": 828,
+      "start": 3772.83,
+      "end": 3773.15,
+      "text": "they say, oh, he must be retired by now."
+    },
+    {
+      "idx": 829,
+      "start": 3773.15,
+      "end": 3773.478,
+      "text": "And I say, oh, he must be retired by now."
+    },
+    {
+      "idx": 830,
+      "start": 3773.478,
+      "end": 3773.806,
+      "text": "And I say, oh, he must be retired by now."
+    },
+    {
+      "idx": 831,
+      "start": 3773.83,
+      "end": 3780.83,
+      "text": "He's still here, but finally I'll be able to say, yes, he has retired now."
+    },
+    {
+      "idx": 832,
+      "start": 3780.83,
+      "end": 3783.83,
+      "text": "I'm sorry to hear that."
+    },
+    {
+      "idx": 833,
+      "start": 3783.83,
+      "end": 3793.83,
+      "text": "So I've been in this department for half of his tenure, and he has been an amazingly pleasant colleague."
+    },
+    {
+      "idx": 834,
+      "start": 3793.83,
+      "end": 3795.83,
+      "text": "He is so humble."
+    },
+    {
+      "idx": 835,
+      "start": 3795.83,
+      "end": 3802.83,
+      "text": "And so after 61 years at the Institute, we'll miss him and his teaching, but I think he fully deserves retirement."
+    },
+    {
+      "idx": 836,
+      "start": 3802.83,
+      "end": 3811.83,
+      "text": "So please join me in congratulating Gil for his lifelong dedication to mathematics and its education and MIT."
+    },
+    {
+      "idx": 837,
+      "start": 3811.83,
+      "end": 3840.3,
+      "text": "Thank you all."
+    },
+    {
+      "idx": 838,
+      "start": 3840.3,
+      "end": 3843.3,
+      "text": "This is really an unforgettable day for me."
+    },
+    {
+      "idx": 839,
+      "start": 3844.3,
+      "end": 3846.3,
+      "text": "And thank you, Michel."
+    },
+    {
+      "idx": 840,
+      "start": 3848.3,
+      "end": 3853.62,
+      "text": "So he believes I'm going to retire."
+    },
+    {
+      "idx": 841,
+      "start": 3853.62,
+      "end": 3855.62,
+      "text": "I'm going to think about it."
+    },
+    {
+      "idx": 842,
+      "start": 3858.62,
+      "end": 3859.62,
+      "text": "So thank you all."
+    },
+    {
+      "idx": 843,
+      "start": 3859.62,
+      "end": 3873.58,
+      "text": "Thank you all."
+    }
+  ]
+}

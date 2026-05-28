@@ -1,0 +1,380 @@
+{
+  "video_id": "KNwMiydCYA4",
+  "annotator": "llm_a",
+  "status": "reviewed",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Intro"
+    },
+    {
+      "start_sec": 48.0,
+      "title": "Give Well Integration"
+    },
+    {
+      "start_sec": 80.0,
+      "title": "East Africa, Moroco, South Africa (Savannah)"
+    },
+    {
+      "start_sec": 320.0,
+      "title": "Calendar Integration"
+    },
+    {
+      "start_sec": 382.0,
+      "title": "North Africa (Desert)"
+    },
+    {
+      "start_sec": 534.0,
+      "title": "Madagascar (Dry Forest)"
+    },
+    {
+      "start_sec": 695.0,
+      "title": "South Africa (Coastline)"
+    },
+    {
+      "start_sec": 944.0,
+      "title": "East Africa (Woodland)"
+    },
+    {
+      "start_sec": 1075.0,
+      "title": "East Africa (Rainforest Mountains)"
+    },
+    {
+      "start_sec": 1224.0,
+      "title": "East Africa (Canyon)"
+    },
+    {
+      "start_sec": 1344.0,
+      "title": "North Africa (Green Sahara)"
+    },
+    {
+      "start_sec": 1554.0,
+      "title": "Saudi Arabia (Wetlands)"
+    },
+    {
+      "start_sec": 1764.0,
+      "title": "Red Sea (Land Bridge)"
+    },
+    {
+      "start_sec": 1943.0,
+      "title": "Levant (Mountain Valley)"
+    },
+    {
+      "start_sec": 2124.0,
+      "title": "Central Asia (Highlands)"
+    },
+    {
+      "start_sec": 2304.0,
+      "title": "China (Mountains)"
+    },
+    {
+      "start_sec": 2484.0,
+      "title": "Southeast Asia (Jungle)"
+    },
+    {
+      "start_sec": 2664.0,
+      "title": "Oceania (Open Waters)"
+    },
+    {
+      "start_sec": 2814.0,
+      "title": "Indonesia (Jungle Cave)"
+    },
+    {
+      "start_sec": 2954.0,
+      "title": "Germany (Cave)"
+    },
+    {
+      "start_sec": 3085.0,
+      "title": "Central Europe (Steppe)"
+    },
+    {
+      "start_sec": 3235.0,
+      "title": "Asia, North America (Tundra)"
+    },
+    {
+      "start_sec": 3385.0,
+      "title": "South America (Coastline & Jungle)"
+    },
+    {
+      "start_sec": 3530.0,
+      "title": "Human Era (Worldwide)"
+    },
+    {
+      "start_sec": 3783.0,
+      "title": "Give Well Integration"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Intro"
+    },
+    {
+      "start_sec": 48.0,
+      "chapter_idx": 1,
+      "title": "Give Well Integration"
+    },
+    {
+      "start_sec": 80.0,
+      "chapter_idx": 2,
+      "title": "Ice Age Impact on Earth"
+    },
+    {
+      "start_sec": 160.0,
+      "chapter_idx": 2,
+      "title": "Early Humans in East Africa"
+    },
+    {
+      "start_sec": 240.0,
+      "chapter_idx": 2,
+      "title": "Human Migration and Coexistence with Other Hominins"
+    },
+    {
+      "start_sec": 320.0,
+      "chapter_idx": 3,
+      "title": "Calendar Integration"
+    },
+    {
+      "start_sec": 382.0,
+      "chapter_idx": 4,
+      "title": "Deserts and Parasites"
+    },
+    {
+      "start_sec": 438.0,
+      "chapter_idx": 4,
+      "title": "Human Expansion Patterns"
+    },
+    {
+      "start_sec": 534.0,
+      "chapter_idx": 5,
+      "title": "Madagascar's History"
+    },
+    {
+      "start_sec": 623.0,
+      "chapter_idx": 5,
+      "title": "Adaptability of Humans"
+    },
+    {
+      "start_sec": 695.0,
+      "chapter_idx": 6,
+      "title": "Ancestors' Shellfish Collection"
+    },
+    {
+      "start_sec": 765.0,
+      "chapter_idx": 6,
+      "title": "Paleo Diet and Resource Exploitation"
+    },
+    {
+      "start_sec": 944.0,
+      "chapter_idx": 7,
+      "title": "Hunter-Gatherer Lifestyle"
+    },
+    {
+      "start_sec": 990.0,
+      "chapter_idx": 7,
+      "title": "Caloric Needs and Work Hours"
+    },
+    {
+      "start_sec": 1015.0,
+      "chapter_idx": 7,
+      "title": "Ancient African Rivers as Roads"
+    },
+    {
+      "start_sec": 1075.0,
+      "chapter_idx": 8,
+      "title": "Ancient rivers and their role"
+    },
+    {
+      "start_sec": 1164.0,
+      "chapter_idx": 8,
+      "title": "Discovery of Homo longi"
+    },
+    {
+      "start_sec": 1224.0,
+      "chapter_idx": 9,
+      "title": "East Africa (Canyon)"
+    },
+    {
+      "start_sec": 1344.0,
+      "chapter_idx": 10,
+      "title": "Abyssinia Pluvial and Human Migration"
+    },
+    {
+      "start_sec": 1424.0,
+      "chapter_idx": 10,
+      "title": "Early Human Presence in Crete"
+    },
+    {
+      "start_sec": 1494.0,
+      "chapter_idx": 10,
+      "title": "Earliest Homo Sapiens Art"
+    },
+    {
+      "start_sec": 1494.0,
+      "chapter_idx": 10,
+      "title": "Ancient Lake Footprints and Symbols"
+    },
+    {
+      "start_sec": 1554.0,
+      "chapter_idx": 11,
+      "title": "Saudi Arabia (Wetlands)"
+    },
+    {
+      "start_sec": 1764.0,
+      "chapter_idx": 12,
+      "title": "Leaving Africa Pathway"
+    },
+    {
+      "start_sec": 1866.0,
+      "chapter_idx": 12,
+      "title": "Adaptation to Mountainous Areas"
+    },
+    {
+      "start_sec": 1943.0,
+      "chapter_idx": 13,
+      "title": "Ancestors and Burial Sites"
+    },
+    {
+      "start_sec": 2025.0,
+      "chapter_idx": 13,
+      "title": "Symbolic Paintings and Communication"
+    },
+    {
+      "start_sec": 2124.0,
+      "chapter_idx": 14,
+      "title": "Leaving Africa and Encountering Neanderthals"
+    },
+    {
+      "start_sec": 2208.0,
+      "chapter_idx": 14,
+      "title": "Expansion into Central Asian Highlands"
+    },
+    {
+      "start_sec": 2304.0,
+      "chapter_idx": 15,
+      "title": "Medicinal Plants and Climate Change"
+    },
+    {
+      "start_sec": 2384.0,
+      "chapter_idx": 15,
+      "title": "Survival Strategies in Adverse Conditions"
+    },
+    {
+      "start_sec": 2484.0,
+      "chapter_idx": 16,
+      "title": "Interbreeding with Neanderthals"
+    },
+    {
+      "start_sec": 2556.0,
+      "chapter_idx": 16,
+      "title": "Practical Stone Usage and Toolmaking"
+    },
+    {
+      "start_sec": 2604.0,
+      "chapter_idx": 16,
+      "title": "Development of Hunting Techniques"
+    },
+    {
+      "start_sec": 2664.0,
+      "chapter_idx": 17,
+      "title": "Denisovan Interbreeding"
+    },
+    {
+      "start_sec": 2736.0,
+      "chapter_idx": 17,
+      "title": "Extinction of Megafauna"
+    },
+    {
+      "start_sec": 2814.0,
+      "chapter_idx": 18,
+      "title": "Human Adaptation in New Environments"
+    },
+    {
+      "start_sec": 2856.0,
+      "chapter_idx": 18,
+      "title": "Use of Caves as Shelters"
+    },
+    {
+      "start_sec": 2894.0,
+      "chapter_idx": 18,
+      "title": "First Statue and Human Impact"
+    },
+    {
+      "start_sec": 2954.0,
+      "chapter_idx": 19,
+      "title": "Ancient German Caves and Discoveries"
+    },
+    {
+      "start_sec": 3025.0,
+      "chapter_idx": 19,
+      "title": "Decline of Neanderthals and Emergence of Humans"
+    },
+    {
+      "start_sec": 3085.0,
+      "chapter_idx": 20,
+      "title": "Dog Domestication and Oranian Skills"
+    },
+    {
+      "start_sec": 3165.0,
+      "chapter_idx": 20,
+      "title": "Improvement of Clothes and Shoes"
+    },
+    {
+      "start_sec": 3235.0,
+      "chapter_idx": 21,
+      "title": "Extinction of Cave Bears"
+    },
+    {
+      "start_sec": 3267.0,
+      "chapter_idx": 21,
+      "title": "Proto-Farming by Neolithic Peoples"
+    },
+    {
+      "start_sec": 3319.0,
+      "chapter_idx": 21,
+      "title": "Spread of Humans to the Americas"
+    },
+    {
+      "start_sec": 3385.0,
+      "chapter_idx": 22,
+      "title": "Ancient Hair Adaptation"
+    },
+    {
+      "start_sec": 3465.0,
+      "chapter_idx": 22,
+      "title": "Cannibalism Practice"
+    },
+    {
+      "start_sec": 3470.0,
+      "chapter_idx": 22,
+      "title": "Emergence of Civilization"
+    },
+    {
+      "start_sec": 3530.0,
+      "chapter_idx": 23,
+      "title": "Thriving and Growth of Civilizations"
+    },
+    {
+      "start_sec": 3630.0,
+      "chapter_idx": 23,
+      "title": "Innovations and Technologies"
+    },
+    {
+      "start_sec": 3720.0,
+      "chapter_idx": 23,
+      "title": "Impact of Writing"
+    },
+    {
+      "start_sec": 3723.0,
+      "chapter_idx": 23,
+      "title": "Expansion and Erosion of Civilizations"
+    },
+    {
+      "start_sec": 3783.0,
+      "chapter_idx": 24,
+      "title": "Give Well Integration"
+    }
+  ]
+}

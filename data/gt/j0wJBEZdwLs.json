@@ -1,0 +1,24 @@
+{
+  "video_id": "j0wJBEZdwLs",
+  "boundaries_sec": [
+    76.0,
+    341.0,
+    643.0,
+    1243.0,
+    1432.0,
+    1575.0,
+    1979.0
+  ],
+  "titles": [
+    "Understanding the engine",
+    "Key background ideas",
+    "Definition and intuition",
+    "Complex integration",
+    "Analytic continuation",
+    "The transform of exponentials",
+    "A deep look at cos(t)",
+    "What’s coming next"
+  ],
+  "num_chapters": 8,
+  "duration_sec": 2080.0
+}

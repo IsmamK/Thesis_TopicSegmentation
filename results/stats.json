@@ -1,0 +1,543 @@
+{
+  "methods": {
+    "texttiling": {
+      "pk": {
+        "mean": 0.6053,
+        "ci_lo": 0.5783,
+        "ci_hi": 0.6333,
+        "n": 30
+      },
+      "wd": {
+        "mean": 0.8978,
+        "ci_lo": 0.8352,
+        "ci_hi": 0.9506,
+        "n": 30
+      },
+      "f1": {
+        "mean": 0.139,
+        "ci_lo": 0.1005,
+        "ci_hi": 0.1827,
+        "n": 30
+      },
+      "boundary_similarity": {
+        "mean": 0.1466,
+        "ci_lo": 0.1182,
+        "ci_hi": 0.1758,
+        "n": 30
+      }
+    },
+    "c99": {
+      "pk": {
+        "mean": 0.4219,
+        "ci_lo": 0.4006,
+        "ci_hi": 0.4416,
+        "n": 30
+      },
+      "wd": {
+        "mean": 0.4494,
+        "ci_lo": 0.4317,
+        "ci_hi": 0.4664,
+        "n": 30
+      },
+      "f1": {
+        "mean": 0.029,
+        "ci_lo": 0.0068,
+        "ci_hi": 0.0594,
+        "n": 30
+      },
+      "boundary_similarity": {
+        "mean": 0.0345,
+        "ci_lo": 0.0074,
+        "ci_hi": 0.0737,
+        "n": 30
+      }
+    },
+    "cosine": {
+      "pk": {
+        "mean": 0.4775,
+        "ci_lo": 0.4465,
+        "ci_hi": 0.5085,
+        "n": 30
+      },
+      "wd": {
+        "mean": 0.5295,
+        "ci_lo": 0.5004,
+        "ci_hi": 0.5581,
+        "n": 30
+      },
+      "f1": {
+        "mean": 0.0874,
+        "ci_lo": 0.054,
+        "ci_hi": 0.1266,
+        "n": 30
+      },
+      "boundary_similarity": {
+        "mean": 0.0783,
+        "ci_lo": 0.0455,
+        "ci_hi": 0.1185,
+        "n": 30
+      }
+    },
+    "kmeans": {
+      "pk": {
+        "mean": 0.6171,
+        "ci_lo": 0.5939,
+        "ci_hi": 0.6428,
+        "n": 30
+      },
+      "wd": {
+        "mean": 0.9984,
+        "ci_lo": 0.9953,
+        "ci_hi": 1.0,
+        "n": 30
+      },
+      "f1": {
+        "mean": 0.0484,
+        "ci_lo": 0.0322,
+        "ci_hi": 0.0696,
+        "n": 30
+      },
+      "boundary_similarity": {
+        "mean": 0.4964,
+        "ci_lo": 0.4826,
+        "ci_hi": 0.5112,
+        "n": 30
+      }
+    },
+    "bert_seg": {
+      "pk": {
+        "mean": 0.4703,
+        "ci_lo": 0.4443,
+        "ci_hi": 0.4978,
+        "n": 30
+      },
+      "wd": {
+        "mean": 0.5156,
+        "ci_lo": 0.4908,
+        "ci_hi": 0.5387,
+        "n": 30
+      },
+      "f1": {
+        "mean": 0.0645,
+        "ci_lo": 0.0338,
+        "ci_hi": 0.0986,
+        "n": 30
+      },
+      "boundary_similarity": {
+        "mean": 0.0624,
+        "ci_lo": 0.031,
+        "ci_hi": 0.1015,
+        "n": 30
+      }
+    },
+    "two_stage": {
+      "pk": {
+        "mean": 0.4914,
+        "ci_lo": 0.4597,
+        "ci_hi": 0.5229,
+        "n": 30
+      },
+      "wd": {
+        "mean": 0.541,
+        "ci_lo": 0.511,
+        "ci_hi": 0.569,
+        "n": 30
+      },
+      "f1": {
+        "mean": 0.0787,
+        "ci_lo": 0.0459,
+        "ci_hi": 0.1156,
+        "n": 30
+      },
+      "boundary_similarity": {
+        "mean": 0.0696,
+        "ci_lo": 0.0387,
+        "ci_hi": 0.1058,
+        "n": 30
+      }
+    },
+    "hierarchical": {
+      "pk": {
+        "mean": 0.417,
+        "ci_lo": 0.3957,
+        "ci_hi": 0.4387,
+        "n": 30
+      },
+      "wd": {
+        "mean": 0.4256,
+        "ci_lo": 0.4034,
+        "ci_hi": 0.4481,
+        "n": 30
+      },
+      "f1": {
+        "mean": 0.0486,
+        "ci_lo": 0.0192,
+        "ci_hi": 0.0814,
+        "n": 30
+      },
+      "boundary_similarity": {
+        "mean": 0.0615,
+        "ci_lo": 0.022,
+        "ci_hi": 0.1093,
+        "n": 30
+      }
+    }
+  },
+  "comparisons": {
+    "cosine_vs_two_stage": {
+      "baseline": "cosine",
+      "novel": "two_stage",
+      "n_videos": 30,
+      "metrics": {
+        "pk": {
+          "baseline_mean": 0.4775,
+          "baseline_ci": [
+            0.4465,
+            0.5085
+          ],
+          "novel_mean": 0.4914,
+          "novel_ci": [
+            0.4597,
+            0.5229
+          ],
+          "delta": 0.0139,
+          "p_value": 0.1096,
+          "significant": false,
+          "improves": false
+        },
+        "wd": {
+          "baseline_mean": 0.5295,
+          "baseline_ci": [
+            0.5004,
+            0.5581
+          ],
+          "novel_mean": 0.541,
+          "novel_ci": [
+            0.511,
+            0.569
+          ],
+          "delta": 0.0115,
+          "p_value": 0.13,
+          "significant": false,
+          "improves": false
+        },
+        "f1": {
+          "baseline_mean": 0.0874,
+          "baseline_ci": [
+            0.054,
+            0.1266
+          ],
+          "novel_mean": 0.0787,
+          "novel_ci": [
+            0.0459,
+            0.1156
+          ],
+          "delta": -0.0087,
+          "p_value": 0.3105,
+          "significant": false,
+          "improves": false
+        },
+        "boundary_similarity": {
+          "baseline_mean": 0.0783,
+          "baseline_ci": [
+            0.0455,
+            0.1185
+          ],
+          "novel_mean": 0.0696,
+          "novel_ci": [
+            0.0387,
+            0.1058
+          ],
+          "delta": -0.0087,
+          "p_value": 0.1394,
+          "significant": false,
+          "improves": false
+        }
+      }
+    },
+    "cosine_vs_hierarchical": {
+      "baseline": "cosine",
+      "novel": "hierarchical",
+      "n_videos": 30,
+      "metrics": {
+        "pk": {
+          "baseline_mean": 0.4775,
+          "baseline_ci": [
+            0.4465,
+            0.5085
+          ],
+          "novel_mean": 0.417,
+          "novel_ci": [
+            0.3957,
+            0.4387
+          ],
+          "delta": -0.0605,
+          "p_value": 0.0034,
+          "significant": true,
+          "improves": true
+        },
+        "wd": {
+          "baseline_mean": 0.5295,
+          "baseline_ci": [
+            0.5004,
+            0.5581
+          ],
+          "novel_mean": 0.4256,
+          "novel_ci": [
+            0.4034,
+            0.4481
+          ],
+          "delta": -0.1039,
+          "p_value": 0.0,
+          "significant": true,
+          "improves": true
+        },
+        "f1": {
+          "baseline_mean": 0.0874,
+          "baseline_ci": [
+            0.054,
+            0.1266
+          ],
+          "novel_mean": 0.0486,
+          "novel_ci": [
+            0.0192,
+            0.0814
+          ],
+          "delta": -0.0388,
+          "p_value": 0.0299,
+          "significant": true,
+          "improves": false
+        },
+        "boundary_similarity": {
+          "baseline_mean": 0.0783,
+          "baseline_ci": [
+            0.0455,
+            0.1185
+          ],
+          "novel_mean": 0.0615,
+          "novel_ci": [
+            0.022,
+            0.1093
+          ],
+          "delta": -0.0168,
+          "p_value": 0.2553,
+          "significant": false,
+          "improves": false
+        }
+      }
+    },
+    "bert_seg_vs_two_stage": {
+      "baseline": "bert_seg",
+      "novel": "two_stage",
+      "n_videos": 30,
+      "metrics": {
+        "pk": {
+          "baseline_mean": 0.4703,
+          "baseline_ci": [
+            0.4443,
+            0.4978
+          ],
+          "novel_mean": 0.4914,
+          "novel_ci": [
+            0.4597,
+            0.5229
+          ],
+          "delta": 0.0211,
+          "p_value": 0.2473,
+          "significant": false,
+          "improves": false
+        },
+        "wd": {
+          "baseline_mean": 0.5156,
+          "baseline_ci": [
+            0.4908,
+            0.5387
+          ],
+          "novel_mean": 0.541,
+          "novel_ci": [
+            0.511,
+            0.569
+          ],
+          "delta": 0.0254,
+          "p_value": 0.112,
+          "significant": false,
+          "improves": false
+        },
+        "f1": {
+          "baseline_mean": 0.0645,
+          "baseline_ci": [
+            0.0338,
+            0.0986
+          ],
+          "novel_mean": 0.0787,
+          "novel_ci": [
+            0.0459,
+            0.1156
+          ],
+          "delta": 0.0142,
+          "p_value": 0.2635,
+          "significant": false,
+          "improves": true
+        },
+        "boundary_similarity": {
+          "baseline_mean": 0.0624,
+          "baseline_ci": [
+            0.031,
+            0.1015
+          ],
+          "novel_mean": 0.0696,
+          "novel_ci": [
+            0.0387,
+            0.1058
+          ],
+          "delta": 0.0072,
+          "p_value": 0.796,
+          "significant": false,
+          "improves": true
+        }
+      }
+    },
+    "bert_seg_vs_hierarchical": {
+      "baseline": "bert_seg",
+      "novel": "hierarchical",
+      "n_videos": 30,
+      "metrics": {
+        "pk": {
+          "baseline_mean": 0.4703,
+          "baseline_ci": [
+            0.4443,
+            0.4978
+          ],
+          "novel_mean": 0.417,
+          "novel_ci": [
+            0.3957,
+            0.4387
+          ],
+          "delta": -0.0533,
+          "p_value": 0.001,
+          "significant": true,
+          "improves": true
+        },
+        "wd": {
+          "baseline_mean": 0.5156,
+          "baseline_ci": [
+            0.4908,
+            0.5387
+          ],
+          "novel_mean": 0.4256,
+          "novel_ci": [
+            0.4034,
+            0.4481
+          ],
+          "delta": -0.09,
+          "p_value": 0.0,
+          "significant": true,
+          "improves": true
+        },
+        "f1": {
+          "baseline_mean": 0.0645,
+          "baseline_ci": [
+            0.0338,
+            0.0986
+          ],
+          "novel_mean": 0.0486,
+          "novel_ci": [
+            0.0192,
+            0.0814
+          ],
+          "delta": -0.0159,
+          "p_value": 0.3003,
+          "significant": false,
+          "improves": false
+        },
+        "boundary_similarity": {
+          "baseline_mean": 0.0624,
+          "baseline_ci": [
+            0.031,
+            0.1015
+          ],
+          "novel_mean": 0.0615,
+          "novel_ci": [
+            0.022,
+            0.1093
+          ],
+          "delta": -0.0009,
+          "p_value": 0.1771,
+          "significant": false,
+          "improves": false
+        }
+      }
+    },
+    "c99_vs_hierarchical": {
+      "baseline": "c99",
+      "novel": "hierarchical",
+      "n_videos": 30,
+      "metrics": {
+        "pk": {
+          "baseline_mean": 0.4219,
+          "baseline_ci": [
+            0.4006,
+            0.4416
+          ],
+          "novel_mean": 0.417,
+          "novel_ci": [
+            0.3957,
+            0.4387
+          ],
+          "delta": -0.0049,
+          "p_value": 0.6583,
+          "significant": false,
+          "improves": true
+        },
+        "wd": {
+          "baseline_mean": 0.4494,
+          "baseline_ci": [
+            0.4317,
+            0.4664
+          ],
+          "novel_mean": 0.4256,
+          "novel_ci": [
+            0.4034,
+            0.4481
+          ],
+          "delta": -0.0238,
+          "p_value": 0.0495,
+          "significant": true,
+          "improves": true
+        },
+        "f1": {
+          "baseline_mean": 0.029,
+          "baseline_ci": [
+            0.0068,
+            0.0594
+          ],
+          "novel_mean": 0.0486,
+          "novel_ci": [
+            0.0192,
+            0.0814
+          ],
+          "delta": 0.0196,
+          "p_value": 0.2026,
+          "significant": false,
+          "improves": true
+        },
+        "boundary_similarity": {
+          "baseline_mean": 0.0345,
+          "baseline_ci": [
+            0.0074,
+            0.0737
+          ],
+          "novel_mean": 0.0615,
+          "novel_ci": [
+            0.022,
+            0.1093
+          ],
+          "delta": 0.027,
+          "p_value": 0.1141,
+          "significant": false,
+          "improves": true
+        }
+      }
+    }
+  }
+}

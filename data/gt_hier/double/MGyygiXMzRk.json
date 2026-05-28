@@ -1,0 +1,184 @@
+{
+  "video_id": "MGyygiXMzRk",
+  "annotator": "llm_b",
+  "status": "draft",
+  "double_mode": true,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Intro"
+    },
+    {
+      "start_sec": 38.0,
+      "title": "John Locke"
+    },
+    {
+      "start_sec": 158.0,
+      "title": "The State of Nature"
+    },
+    {
+      "start_sec": 275.0,
+      "title": "Lockes Answer"
+    },
+    {
+      "start_sec": 456.0,
+      "title": "Unalienable Rights"
+    },
+    {
+      "start_sec": 773.0,
+      "title": "Intellectual Property Rights"
+    },
+    {
+      "start_sec": 961.0,
+      "title": "Lockes Private Property"
+    },
+    {
+      "start_sec": 1512.0,
+      "title": "Next Time"
+    },
+    {
+      "start_sec": 1915.0,
+      "title": "Consent"
+    },
+    {
+      "start_sec": 2475.0,
+      "title": "Implied Consent"
+    },
+    {
+      "start_sec": 2697.0,
+      "title": "Stand Up"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Intro"
+    },
+    {
+      "start_sec": 38.0,
+      "chapter_idx": 1,
+      "title": "Locke's Support for Libertarianism"
+    },
+    {
+      "start_sec": 80.0,
+      "chapter_idx": 1,
+      "title": "Natural Rights and the State of Nature"
+    },
+    {
+      "start_sec": 158.0,
+      "chapter_idx": 2,
+      "title": "The State of Nature"
+    },
+    {
+      "start_sec": 275.0,
+      "chapter_idx": 3,
+      "title": "Locke's First Answer"
+    },
+    {
+      "start_sec": 345.0,
+      "chapter_idx": 3,
+      "title": "God's Property Right"
+    },
+    {
+      "start_sec": 390.0,
+      "chapter_idx": 3,
+      "title": "Reason and Natural Law"
+    },
+    {
+      "start_sec": 456.0,
+      "chapter_idx": 4,
+      "title": "Locke's Sense of Unalienable Rights"
+    },
+    {
+      "start_sec": 645.0,
+      "chapter_idx": 4,
+      "title": "Private Property in the State of Nature"
+    },
+    {
+      "start_sec": 713.0,
+      "chapter_idx": 4,
+      "title": "Locke vs. Libertarians on Private Property"
+    },
+    {
+      "start_sec": 773.0,
+      "chapter_idx": 5,
+      "title": "Disputes over Trade-Related IP Rights"
+    },
+    {
+      "start_sec": 865.0,
+      "chapter_idx": 5,
+      "title": "Locke's Account of Private Property"
+    },
+    {
+      "start_sec": 901.0,
+      "chapter_idx": 5,
+      "title": "Critique of Locke's Account"
+    },
+    {
+      "start_sec": 961.0,
+      "chapter_idx": 6,
+      "title": "Locke's Defense of Private Property"
+    },
+    {
+      "start_sec": 1290.0,
+      "chapter_idx": 6,
+      "title": "Critique of Locke's Argument"
+    },
+    {
+      "start_sec": 1512.0,
+      "chapter_idx": 7,
+      "title": "Locke's State of Nature and Private Property"
+    },
+    {
+      "start_sec": 1735.0,
+      "chapter_idx": 7,
+      "title": "The Work of Consent in Locke's Philosophy"
+    },
+    {
+      "start_sec": 1810.0,
+      "chapter_idx": 7,
+      "title": "Puzzles and Perplexities of Consent"
+    },
+    {
+      "start_sec": 1915.0,
+      "chapter_idx": 8,
+      "title": "Violence in the State of Nature"
+    },
+    {
+      "start_sec": 2250.0,
+      "chapter_idx": 8,
+      "title": "Escaping the State of Nature through Consent"
+    },
+    {
+      "start_sec": 2385.0,
+      "chapter_idx": 8,
+      "title": "Limitations on Majority Rule and Government Power"
+    },
+    {
+      "start_sec": 2475.0,
+      "chapter_idx": 9,
+      "title": "Locke's View on Leaving Government"
+    },
+    {
+      "start_sec": 2610.0,
+      "chapter_idx": 9,
+      "title": "Implied Consent and Obligation"
+    },
+    {
+      "start_sec": 2697.0,
+      "chapter_idx": 10,
+      "title": "Locke's Consent and Natural Rights"
+    },
+    {
+      "start_sec": 3238.0,
+      "chapter_idx": 10,
+      "title": "Conscription and the Right to Life"
+    },
+    {
+      "start_sec": 3238.0,
+      "chapter_idx": 10,
+      "title": "Government as Representative of Population"
+    }
+  ]
+}

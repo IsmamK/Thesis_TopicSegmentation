@@ -1,0 +1,4919 @@
+{
+  "video_id": "TjZBTDzGeGg",
+  "sentences": [
+    {
+      "idx": 0,
+      "start": 16.14,
+      "end": 18.323,
+      "text": "Welcome to 6034."
+    },
+    {
+      "idx": 1,
+      "start": 18.323,
+      "end": 28.691,
+      "text": "I don't know if I can deal with this microphone, but we'll see what happens."
+    },
+    {
+      "idx": 2,
+      "start": 29.3,
+      "end": 31.065,
+      "text": "It's going to be a good year."
+    },
+    {
+      "idx": 3,
+      "start": 31.065,
+      "end": 33.5,
+      "text": "We've got a bunch of interesting people."
+    },
+    {
+      "idx": 4,
+      "start": 33.56,
+      "end": 37.8,
+      "text": "It's always interesting to see what people named their children two decades ago."
+    },
+    {
+      "idx": 5,
+      "start": 39.6,
+      "end": 41.84,
+      "text": "And I find that we're overwhelmed with Emilys."
+    },
+    {
+      "idx": 6,
+      "start": 42.48,
+      "end": 48.94,
+      "text": "And there are not too many Peters, Pauls, and Marys, but enough to call forth a suitable song at some point."
+    },
+    {
+      "idx": 7,
+      "start": 48.94,
+      "end": 53.828,
+      "text": "We have lots of Jesses of both genders."
+    },
+    {
+      "idx": 8,
+      "start": 53.828,
+      "end": 58.34,
+      "text": "We have a Yang Yang of both genders."
+    },
+    {
+      "idx": 9,
+      "start": 58.92,
+      "end": 60.407,
+      "text": "And we have a Duncan."
+    },
+    {
+      "idx": 10,
+      "start": 60.407,
+      "end": 61.964,
+      "text": "There you are, Duncan."
+    },
+    {
+      "idx": 11,
+      "start": 61.964,
+      "end": 64.088,
+      "text": "You've changed your hairstyle."
+    },
+    {
+      "idx": 12,
+      "start": 66.83,
+      "end": 71.07,
+      "text": "I want to assure you that the Thane of Cawdor is not taking the course this semester."
+    },
+    {
+      "idx": 13,
+      "start": 72.38,
+      "end": 77.58,
+      "text": "What I'm going to do is tell you about artificial intelligence today and what this subject is about."
+    },
+    {
+      "idx": 14,
+      "start": 78.38,
+      "end": 81.86,
+      "text": "There's been about a 10% turnover in the..."
+    },
+    {
+      "idx": 15,
+      "start": 82.84,
+      "end": 88.9,
+      "text": "in the roster in the last 24 hours, and I expect another 10% turnover in the next 24 hours, too."
+    },
+    {
+      "idx": 16,
+      "start": 89.34,
+      "end": 93.66,
+      "text": "So I know many of you are sightseers wanting to...wanting to know if this is something you want to do."
+    },
+    {
+      "idx": 17,
+      "start": 93.66,
+      "end": 98.18,
+      "text": "So I'm going to tell you about what we're going to do this semester and what you'll know when you get out of here."
+    },
+    {
+      "idx": 18,
+      "start": 98.56,
+      "end": 102.26,
+      "text": "I'm going to walk you through this outline."
+    },
+    {
+      "idx": 19,
+      "start": 102.82,
+      "end": 107.67,
+      "text": "I'm going to start by talking about what artificial intelligence is and why we do it."
+    },
+    {
+      "idx": 20,
+      "start": 107.67,
+      "end": 112.07,
+      "text": "And then I'll give you a little bit of the history of artificial intelligence and conclude"
+    },
+    {
+      "idx": 21,
+      "start": 112.57,
+      "end": 114.57,
+      "text": "with some of the covenants"
+    },
+    {
+      "idx": 22,
+      "start": 114.57,
+      "end": 117.97,
+      "text": "by which we run the course, one of which is no laptops, please."
+    },
+    {
+      "idx": 23,
+      "start": 118.47,
+      "end": 124.28,
+      "text": "I'll explain why we have these covenants at the end."
+    },
+    {
+      "idx": 24,
+      "start": 124.74,
+      "end": 127.11,
+      "text": "So what is it?"
+    },
+    {
+      "idx": 25,
+      "start": 127.11,
+      "end": 130.91,
+      "text": "Well, it must have something to do with thinking."
+    },
+    {
+      "idx": 26,
+      "start": 131.39,
+      "end": 137.1,
+      "text": "So let's start up here a definition of artificial intelligence by saying that it's about"
+    },
+    {
+      "idx": 27,
+      "start": 138.42,
+      "end": 142.56,
+      "text": "thinking, whatever that is."
+    },
+    {
+      "idx": 28,
+      "start": 143.2,
+      "end": 147.49,
+      "text": "But my definition of artificial intelligence has to be rather broad."
+    },
+    {
+      "idx": 29,
+      "start": 148.07,
+      "end": 150.62,
+      "text": "So we're going to say it's not only about thinking."
+    },
+    {
+      "idx": 30,
+      "start": 150.78,
+      "end": 152.78,
+      "text": "It's also about perception."
+    },
+    {
+      "idx": 31,
+      "start": 152.78,
+      "end": 159.03,
+      "text": "And it's about action."
+    },
+    {
+      "idx": 32,
+      "start": 159.03,
+      "end": 166.69,
+      "text": "And if this were a philosophy class, then I'd stop right there and just say,"
+    },
+    {
+      "idx": 33,
+      "start": 166.69,
+      "end": 173.69,
+      "text": "in this subject we're going to talk about problems involving thinking, perception, and action."
+    },
+    {
+      "idx": 34,
+      "start": 173.69,
+      "end": 175.94,
+      "text": "But this is not a philosophy class."
+    },
+    {
+      "idx": 35,
+      "start": 175.94,
+      "end": 178.1,
+      "text": "This is a course six class."
+    },
+    {
+      "idx": 36,
+      "start": 178.1,
+      "end": 180.1,
+      "text": "It's an engineering school class."
+    },
+    {
+      "idx": 37,
+      "start": 180.1,
+      "end": 182.1,
+      "text": "It's an MIT class."
+    },
+    {
+      "idx": 38,
+      "start": 182.1,
+      "end": 184.17,
+      "text": "So we need more than that."
+    },
+    {
+      "idx": 39,
+      "start": 184.17,
+      "end": 187.42,
+      "text": "And therefore, we're going to talk about models"
+    },
+    {
+      "idx": 40,
+      "start": 187.42,
+      "end": 192.23,
+      "text": "that are used to do this."
+    },
+    {
+      "idx": 41,
+      "start": 192.23,
+      "end": 200.0,
+      "text": "That are targeted at thinking, perception, and action."
+    },
+    {
+      "idx": 42,
+      "start": 200.0,
+      "end": 202.0,
+      "text": "And this should not be strange to you."
+    },
+    {
+      "idx": 43,
+      "start": 202.0,
+      "end": 206.0,
+      "text": "Because model making is what MIT is about."
+    },
+    {
+      "idx": 44,
+      "start": 206.0,
+      "end": 210.54,
+      "text": "If you run into someone at a bar, or a relative asks you what you do at MIT,"
+    },
+    {
+      "idx": 45,
+      "start": 210.54,
+      "end": 212.54,
+      "text": "the right knee-jerk reaction is to say,"
+    },
+    {
+      "idx": 46,
+      "start": 212.54,
+      "end": 214.8,
+      "text": "we learn how to build models."
+    },
+    {
+      "idx": 47,
+      "start": 214.8,
+      "end": 217.02,
+      "text": "That's what we do at MIT."
+    },
+    {
+      "idx": 48,
+      "start": 217.02,
+      "end": 220.47,
+      "text": "We build models using differential equations."
+    },
+    {
+      "idx": 49,
+      "start": 220.47,
+      "end": 222.47,
+      "text": "We build models using probabilities."
+    },
+    {
+      "idx": 50,
+      "start": 222.47,
+      "end": 227.76,
+      "text": "We build models using physical and computational simulations."
+    },
+    {
+      "idx": 51,
+      "start": 227.76,
+      "end": 230.76,
+      "text": "But whatever we do, we build models."
+    },
+    {
+      "idx": 52,
+      "start": 230.76,
+      "end": 235.33,
+      "text": "Even in humanities class, MIT approaches to make models"
+    },
+    {
+      "idx": 53,
+      "start": 235.33,
+      "end": 240.36,
+      "text": "that we can use to explain the past, predict the future,"
+    },
+    {
+      "idx": 54,
+      "start": 240.36,
+      "end": 243.4,
+      "text": "understand the subject, and control the world."
+    },
+    {
+      "idx": 55,
+      "start": 243.4,
+      "end": 244.4,
+      "text": "That's what MIT is about."
+    },
+    {
+      "idx": 56,
+      "start": 244.4,
+      "end": 246.4,
+      "text": "And that's what this subject is about, too."
+    },
+    {
+      "idx": 57,
+      "start": 246.4,
+      "end": 250.64,
+      "text": "Well, and now, our models are models of thinking."
+    },
+    {
+      "idx": 58,
+      "start": 250.64,
+      "end": 253.64,
+      "text": "So you might say, well, if I take this class, will I get smarter?"
+    },
+    {
+      "idx": 59,
+      "start": 253.64,
+      "end": 254.64,
+      "text": "And the answer is yes."
+    },
+    {
+      "idx": 60,
+      "start": 254.64,
+      "end": 257.64,
+      "text": "You will get smarter because you'll have better models of your own thinking."
+    },
+    {
+      "idx": 61,
+      "start": 257.64,
+      "end": 258.64,
+      "text": "Not just the subject matter of the subject."
+    },
+    {
+      "idx": 62,
+      "start": 258.64,
+      "end": 261.64,
+      "text": "The better models of your own thinking."
+    },
+    {
+      "idx": 63,
+      "start": 261.64,
+      "end": 265.7,
+      "text": "So models targeted at thinking, perception, and action."
+    },
+    {
+      "idx": 64,
+      "start": 265.7,
+      "end": 268.08,
+      "text": "But you know that's not quite enough,"
+    },
+    {
+      "idx": 65,
+      "start": 268.08,
+      "end": 272.34,
+      "text": "because in order to have a model, you have to have representation."
+    },
+    {
+      "idx": 66,
+      "start": 272.34,
+      "end": 278.17,
+      "text": "So let's say that artificial intelligence is about representations"
+    },
+    {
+      "idx": 67,
+      "start": 278.17,
+      "end": 293.09,
+      "text": "that support the making of models that facilitate an understanding"
+    },
+    {
+      "idx": 68,
+      "start": 293.09,
+      "end": 296.09,
+      "text": "of thinking, perception, and action."
+    },
+    {
+      "idx": 69,
+      "start": 296.09,
+      "end": 298.64,
+      "text": "Now you might say to me, well, what's a representation,"
+    },
+    {
+      "idx": 70,
+      "start": 298.64,
+      "end": 299.64,
+      "text": "and what good can it do?"
+    },
+    {
+      "idx": 71,
+      "start": 299.64,
+      "end": 300.64,
+      "text": "So I'd like to take a look at this."
+    },
+    {
+      "idx": 72,
+      "start": 300.64,
+      "end": 303.64,
+      "text": "I'd like to take a brief moment to tell you about gyroscopes."
+    },
+    {
+      "idx": 73,
+      "start": 303.64,
+      "end": 306.64,
+      "text": "Now many of you have friends in mechanical engineering."
+    },
+    {
+      "idx": 74,
+      "start": 306.64,
+      "end": 311.99,
+      "text": "One of the best ways to embarrass them is to say, here's a bicycle wheel,"
+    },
+    {
+      "idx": 75,
+      "start": 311.99,
+      "end": 318.18,
+      "text": "and if I spin it and blow hard on it right here on the edge of the wheel,"
+    },
+    {
+      "idx": 76,
+      "start": 318.18,
+      "end": 323.08,
+      "text": "is it going to turn over this way or this way?"
+    },
+    {
+      "idx": 77,
+      "start": 323.08,
+      "end": 327.14,
+      "text": "Now I guarantee that what they will do is they will put their hand"
+    },
+    {
+      "idx": 78,
+      "start": 327.14,
+      "end": 330.14,
+      "text": "in an arthritic posture called the right hand screw rule,"
+    },
+    {
+      "idx": 79,
+      "start": 330.14,
+      "end": 333.77,
+      "text": "aptly named because people don't know"
+    },
+    {
+      "idx": 80,
+      "start": 333.77,
+      "end": 337.12,
+      "text": "how to use it, and people who use it tend to get the right answer"
+    },
+    {
+      "idx": 81,
+      "start": 337.12,
+      "end": 341.68,
+      "text": "about 50% of the time."
+    },
+    {
+      "idx": 82,
+      "start": 341.68,
+      "end": 344.78,
+      "text": "But we're never going to make that mistake again,"
+    },
+    {
+      "idx": 83,
+      "start": 344.78,
+      "end": 346.78,
+      "text": "because we're electrical engineers, not mechanical engineers,"
+    },
+    {
+      "idx": 84,
+      "start": 346.78,
+      "end": 349.23,
+      "text": "and we know about representation."
+    },
+    {
+      "idx": 85,
+      "start": 349.23,
+      "end": 352.23,
+      "text": "What we're going to do is we're going to think about it a little bit,"
+    },
+    {
+      "idx": 86,
+      "start": 352.23,
+      "end": 355.26,
+      "text": "and we're going to use some duct tape to help us think about"
+    },
+    {
+      "idx": 87,
+      "start": 355.26,
+      "end": 358.0,
+      "text": "just one piece of the wheel."
+    },
+    {
+      "idx": 88,
+      "start": 358.0,
+      "end": 361.32,
+      "text": "So I want you to just think about that piece of the wheel"
+    },
+    {
+      "idx": 89,
+      "start": 361.32,
+      "end": 364.32,
+      "text": "as the wheel comes flying over the top and I blow on it like that."
+    },
+    {
+      "idx": 90,
+      "start": 364.32,
+      "end": 366.76,
+      "text": "What's going to happen to that one piece?"
+    },
+    {
+      "idx": 91,
+      "start": 366.76,
+      "end": 369.24,
+      "text": "It's going to go off that way, right?"
+    },
+    {
+      "idx": 92,
+      "start": 369.24,
+      "end": 372.56,
+      "text": "And the next piece is going to go off that way too."
+    },
+    {
+      "idx": 93,
+      "start": 372.56,
+      "end": 375.88,
+      "text": "So when it comes over, it has to go that way."
+    },
+    {
+      "idx": 94,
+      "start": 375.88,
+      "end": 379.75,
+      "text": "Let me do some ground truth here just to be sure."
+    },
+    {
+      "idx": 95,
+      "start": 379.75,
+      "end": 383.51,
+      "text": "It's a very powerful field."
+    },
+    {
+      "idx": 96,
+      "start": 383.51,
+      "end": 385.6,
+      "text": "Would you like to try that?"
+    },
+    {
+      "idx": 97,
+      "start": 385.6,
+      "end": 387.6,
+      "text": "Come on, try it."
+    },
+    {
+      "idx": 98,
+      "start": 387.6,
+      "end": 389.6,
+      "text": "Come on, we need a demonstration."
+    },
+    {
+      "idx": 99,
+      "start": 389.6,
+      "end": 392.96,
+      "text": "I don't want anybody to think that I'm cheating here."
+    },
+    {
+      "idx": 100,
+      "start": 392.96,
+      "end": 399.16,
+      "text": "So let's just twist it one way or the other."
+    },
+    {
+      "idx": 101,
+      "start": 399.16,
+      "end": 401.55,
+      "text": "So that's a powerful pull, isn't it?"
+    },
+    {
+      "idx": 102,
+      "start": 401.55,
+      "end": 403.68,
+      "text": "Alex is now never going to get the gyroscope right."
+    },
+    {
+      "idx": 103,
+      "start": 403.68,
+      "end": 405.68,
+      "text": "He's going to have to do it again."
+    },
+    {
+      "idx": 104,
+      "start": 405.68,
+      "end": 407.68,
+      "text": "I think he's going to get it wrong"
+    },
+    {
+      "idx": 105,
+      "start": 407.68,
+      "end": 410.73,
+      "text": "because he's got the right representation."
+    },
+    {
+      "idx": 106,
+      "start": 410.73,
+      "end": 412.73,
+      "text": "So much of what you're going to accumulate in this subject"
+    },
+    {
+      "idx": 107,
+      "start": 412.73,
+      "end": 414.73,
+      "text": "is a suite of representations that will help you"
+    },
+    {
+      "idx": 108,
+      "start": 414.73,
+      "end": 417.4,
+      "text": "to build programs that are intelligent."
+    },
+    {
+      "idx": 109,
+      "start": 417.4,
+      "end": 419.98,
+      "text": "But I want to give you a second example,"
+    },
+    {
+      "idx": 110,
+      "start": 419.98,
+      "end": 421.98,
+      "text": "one a little bit more computational,"
+    },
+    {
+      "idx": 111,
+      "start": 421.98,
+      "end": 423.98,
+      "text": "but one of which was very familiar to you"
+    },
+    {
+      "idx": 112,
+      "start": 423.98,
+      "end": 426.98,
+      "text": "by the time you went to first grade, in most cases."
+    },
+    {
+      "idx": 113,
+      "start": 426.98,
+      "end": 431.04,
+      "text": "It's the problem of the farmer, the fox, the goose, and the grain."
+    },
+    {
+      "idx": 114,
+      "start": 431.04,
+      "end": 435.14,
+      "text": "There's a river, a leaky rowboat that can only carry the farmer"
+    },
+    {
+      "idx": 115,
+      "start": 435.14,
+      "end": 437.59,
+      "text": "and one of his four possessions."
+    },
+    {
+      "idx": 116,
+      "start": 437.59,
+      "end": 441.25,
+      "text": "what's the right representation for this problem?"
+    },
+    {
+      "idx": 117,
+      "start": 441.25,
+      "end": 444.41,
+      "text": "It might be a picture of the farmer."
+    },
+    {
+      "idx": 118,
+      "start": 444.41,
+      "end": 449.68,
+      "text": "It might be a poem about the situation, perhaps a haiku."
+    },
+    {
+      "idx": 119,
+      "start": 449.68,
+      "end": 453.28,
+      "text": "But we know that those are not the right representation."
+    },
+    {
+      "idx": 120,
+      "start": 453.28,
+      "end": 458.1,
+      "text": "Somehow we get the sense that the right representation"
+    },
+    {
+      "idx": 121,
+      "start": 458.1,
+      "end": 462.48,
+      "text": "must involve something about the location of the participants"
+    },
+    {
+      "idx": 122,
+      "start": 462.48,
+      "end": 464.32,
+      "text": "in the scenario."
+    },
+    {
+      "idx": 123,
+      "start": 464.32,
+      "end": 468.81,
+      "text": "So we might draw a picture that looks like this."
+    },
+    {
+      "idx": 124,
+      "start": 468.81,
+      "end": 471.41,
+      "text": "There's the scenario."
+    },
+    {
+      "idx": 125,
+      "start": 471.41,
+      "end": 474.68,
+      "text": "And here in glorious green, representing"
+    },
+    {
+      "idx": 126,
+      "start": 474.68,
+      "end": 478.44,
+      "text": "our algae-infested rivers, is the river."
+    },
+    {
+      "idx": 127,
+      "start": 478.44,
+      "end": 485.82,
+      "text": "And here's the farmer, the fox, the goose, and the grain"
+    },
+    {
+      "idx": 128,
+      "start": 485.82,
+      "end": 487.92,
+      "text": "in the initial situation."
+    },
+    {
+      "idx": 129,
+      "start": 487.92,
+      "end": 490.34,
+      "text": "Now, of course, there are other situations like this one."
+    },
+    {
+      "idx": 130,
+      "start": 490.34,
+      "end": 497.83,
+      "text": "For example, we have the river, and the farmer,"
+    },
+    {
+      "idx": 131,
+      "start": 497.83,
+      "end": 501.53,
+      "text": "and the goose is on that side."
+    },
+    {
+      "idx": 132,
+      "start": 501.53,
+      "end": 506.19,
+      "text": "The fox and the grain is on that side."
+    },
+    {
+      "idx": 133,
+      "start": 506.19,
+      "end": 506.79,
+      "text": "And we know."
+    },
+    {
+      "idx": 134,
+      "start": 507.81,
+      "end": 512.31,
+      "text": "That the farmer can execute a movement from one situation"
+    },
+    {
+      "idx": 135,
+      "start": 514.93,
+      "end": 516.93,
+      "text": "So now we're getting somewhere with a problem."
+    },
+    {
+      "idx": 136,
+      "start": 516.93,
+      "end": 519.59,
+      "text": "This is an MIT approach to the farmer, fox, goose, and grain"
+    },
+    {
+      "idx": 137,
+      "start": 519.59,
+      "end": 525.34,
+      "text": "problem that might have stumped you when you were a little kid."
+    },
+    {
+      "idx": 138,
+      "start": 525.34,
+      "end": 530.18,
+      "text": "How many such situations are there?"
+    },
+    {
+      "idx": 139,
+      "start": 530.18,
+      "end": 532.87,
+      "text": "What do you think, Tanya?"
+    },
+    {
+      "idx": 140,
+      "start": 532.87,
+      "end": 535.73,
+      "text": "Looks to me like all four individuals"
+    },
+    {
+      "idx": 141,
+      "start": 535.73,
+      "end": 538.72,
+      "text": "can be on one side or the other."
+    },
+    {
+      "idx": 142,
+      "start": 538.72,
+      "end": 541.06,
+      "text": "So for every position the farmer can be,"
+    },
+    {
+      "idx": 143,
+      "start": 541.06,
+      "end": 546.08,
+      "text": "each of the other things can be on either side of the river."
+    },
+    {
+      "idx": 144,
+      "start": 546.08,
+      "end": 549.08,
+      "text": "So it'd be two to the fourth, she says, aggressively."
+    },
+    {
+      "idx": 145,
+      "start": 552.36,
+      "end": 552.9,
+      "text": "It's two to the fourth."
+    },
+    {
+      "idx": 146,
+      "start": 554.06,
+      "end": 557.64,
+      "text": "So we could actually draw out the entire graph."
+    },
+    {
+      "idx": 147,
+      "start": 557.64,
+      "end": 559.81,
+      "text": "It's small enough."
+    },
+    {
+      "idx": 148,
+      "start": 559.81,
+      "end": 565.16,
+      "text": "There's another position over here for the farmer, fox, goose,"
+    },
+    {
+      "idx": 149,
+      "start": 566.06,
+      "end": 568.6,
+      "text": "And in fact, that's the one we want."
+    },
+    {
+      "idx": 150,
+      "start": 568.6,
+      "end": 575.94,
+      "text": "And if we draw out the entire graph, it looks like this."
+    },
+    {
+      "idx": 151,
+      "start": 575.94,
+      "end": 580.81,
+      "text": "This is a graph of situations and the allowed connections"
+    },
+    {
+      "idx": 152,
+      "start": 582.98,
+      "end": 586.96,
+      "text": "Why are there not 16?"
+    },
+    {
+      "idx": 153,
+      "start": 586.96,
+      "end": 589.2,
+      "text": "Well, because the other, how many have I got?"
+    },
+    {
+      "idx": 154,
+      "start": 591.78,
+      "end": 595.67,
+      "text": "The others are situations in which somebody gets eaten."
+    },
+    {
+      "idx": 155,
+      "start": 595.67,
+      "end": 598.56,
+      "text": "So we don't want to go into those places."
+    },
+    {
+      "idx": 156,
+      "start": 598.56,
+      "end": 600.54,
+      "text": "So having got the representation right,"
+    },
+    {
+      "idx": 157,
+      "start": 600.54,
+      "end": 602.8,
+      "text": "something magical has happened."
+    },
+    {
+      "idx": 158,
+      "start": 602.8,
+      "end": 618.28,
+      "text": "We got our constraints exposed."
+    },
+    {
+      "idx": 159,
+      "start": 618.28,
+      "end": 619.9,
+      "text": "And that's why we build representation."
+    },
+    {
+      "idx": 160,
+      "start": 619.9,
+      "end": 622.44,
+      "text": "That's why you do algebra in high school,"
+    },
+    {
+      "idx": 161,
+      "start": 622.44,
+      "end": 625.12,
+      "text": "because algebraic notation exposes the constraints that"
+    },
+    {
+      "idx": 162,
+      "start": 625.12,
+      "end": 627.72,
+      "text": "make it possible to actually figure out"
+    },
+    {
+      "idx": 163,
+      "start": 627.72,
+      "end": 631.1,
+      "text": "how many customers you get for the number of advertisements"
+    },
+    {
+      "idx": 164,
+      "start": 631.1,
+      "end": 632.2,
+      "text": "you place in the newspaper."
+    },
+    {
+      "idx": 165,
+      "start": 632.32,
+      "end": 636.36,
+      "text": "So artificial intelligence is about constraints"
+    },
+    {
+      "idx": 166,
+      "start": 636.36,
+      "end": 638.82,
+      "text": "exposed by representations that support models targeted"
+    },
+    {
+      "idx": 167,
+      "start": 639.6,
+      "end": 641.44,
+      "text": "Oh, actually, there's one more thing, too."
+    },
+    {
+      "idx": 168,
+      "start": 641.44,
+      "end": 642.82,
+      "text": "I'm not quite done."
+    },
+    {
+      "idx": 169,
+      "start": 642.82,
+      "end": 648.57,
+      "text": "Because after all, in the end, we have to build programs."
+    },
+    {
+      "idx": 170,
+      "start": 648.57,
+      "end": 664.86,
+      "text": "So it's about algorithms enabled by constraints exposed"
+    },
+    {
+      "idx": 171,
+      "start": 664.86,
+      "end": 669.55,
+      "text": "by representations that model targeted thinking, perception,"
+    },
+    {
+      "idx": 172,
+      "start": 671.04,
+      "end": 675.5,
+      "text": "So these algorithms, or we might call them just as well,"
+    },
+    {
+      "idx": 173,
+      "start": 675.5,
+      "end": 677.74,
+      "text": "methods, whatever you like, these"
+    },
+    {
+      "idx": 174,
+      "start": 677.74,
+      "end": 680.0,
+      "text": "are the stuff of what artificial intelligence is about,"
+    },
+    {
+      "idx": 175,
+      "start": 680.0,
+      "end": 682.5,
+      "text": "methods, algorithms, representations."
+    },
+    {
+      "idx": 176,
+      "start": 682.5,
+      "end": 684.5,
+      "text": "I'd like to give you one more example."
+    },
+    {
+      "idx": 177,
+      "start": 684.5,
+      "end": 686.5,
+      "text": "It's something we call an artificial intelligence"
+    },
+    {
+      "idx": 178,
+      "start": 688.13,
+      "end": 689.63,
+      "text": "And it's such a simple idea, I'll never"
+    },
+    {
+      "idx": 179,
+      "start": 689.63,
+      "end": 691.55,
+      "text": "hear it again in this subject."
+    },
+    {
+      "idx": 180,
+      "start": 691.55,
+      "end": 694.05,
+      "text": "But it's an idea you need to add to your repertoire of problem"
+    },
+    {
+      "idx": 181,
+      "start": 694.05,
+      "end": 698.77,
+      "text": "solving methods, techniques, and procedures and algorithms."
+    },
+    {
+      "idx": 182,
+      "start": 698.77,
+      "end": 700.27,
+      "text": "So here's how it works."
+    },
+    {
+      "idx": 183,
+      "start": 700.27,
+      "end": 708.23,
+      "text": "Oh, maybe I can explain it best by starting off with an example."
+    },
+    {
+      "idx": 184,
+      "start": 708.23,
+      "end": 709.07,
+      "text": "So here's a simple example."
+    },
+    {
+      "idx": 185,
+      "start": 709.07,
+      "end": 710.27,
+      "text": "I'm going to show you."
+    },
+    {
+      "idx": 186,
+      "start": 710.27,
+      "end": 712.54,
+      "text": "Here's an example."
+    },
+    {
+      "idx": 187,
+      "start": 712.54,
+      "end": 713.9,
+      "text": "Here's a tree leaf."
+    },
+    {
+      "idx": 188,
+      "start": 713.9,
+      "end": 716.78,
+      "text": "I picked off a tree on the way over to class."
+    },
+    {
+      "idx": 189,
+      "start": 716.78,
+      "end": 720.53,
+      "text": "God, I hope it's not the last of the species."
+    },
+    {
+      "idx": 190,
+      "start": 720.53,
+      "end": 721.19,
+      "text": "What is it?"
+    },
+    {
+      "idx": 191,
+      "start": 721.19,
+      "end": 725.22,
+      "text": "What kind of tree?"
+    },
+    {
+      "idx": 192,
+      "start": 725.22,
+      "end": 726.78,
+      "text": "Well, I don't know."
+    },
+    {
+      "idx": 193,
+      "start": 726.78,
+      "end": 729.66,
+      "text": "I never did learn my trees, or my colors,"
+    },
+    {
+      "idx": 194,
+      "start": 729.66,
+      "end": 731.98,
+      "text": "or my multiplication tables."
+    },
+    {
+      "idx": 195,
+      "start": 731.98,
+      "end": 737.37,
+      "text": "So I have to go back to this book, the Audubon Society Field"
+    },
+    {
+      "idx": 196,
+      "start": 737.37,
+      "end": 738.95,
+      "text": "Guide to North American Trees."
+    },
+    {
+      "idx": 197,
+      "start": 738.95,
+      "end": 741.14,
+      "text": "And how would I solve the problem?"
+    },
+    {
+      "idx": 198,
+      "start": 741.14,
+      "end": 741.94,
+      "text": "It's pretty simple."
+    },
+    {
+      "idx": 199,
+      "start": 741.94,
+      "end": 745.8,
+      "text": "I just turn the pages one at a time,"
+    },
+    {
+      "idx": 200,
+      "start": 745.8,
+      "end": 748.76,
+      "text": "until I find something that looks like this leaf."
+    },
+    {
+      "idx": 201,
+      "start": 748.76,
+      "end": 753.24,
+      "text": "And then I discover it's a sycamore or something."
+    },
+    {
+      "idx": 202,
+      "start": 753.24,
+      "end": 756.04,
+      "text": "And my tree's full of them."
+    },
+    {
+      "idx": 203,
+      "start": 756.04,
+      "end": 759.43,
+      "text": "So when I do that, I do something very intuitive"
+    },
+    {
+      "idx": 204,
+      "start": 759.43,
+      "end": 761.47,
+      "text": "and very natural, something you do all the time."
+    },
+    {
+      "idx": 205,
+      "start": 761.47,
+      "end": 762.61,
+      "text": "But we're going to give it a name."
+    },
+    {
+      "idx": 206,
+      "start": 762.61,
+      "end": 775.56,
+      "text": "We're going to call it generate and test."
+    },
+    {
+      "idx": 207,
+      "start": 775.56,
+      "end": 777.3,
+      "text": "And the generate and test method consists"
+    },
+    {
+      "idx": 208,
+      "start": 777.3,
+      "end": 782.15,
+      "text": "of generating some possible solutions,"
+    },
+    {
+      "idx": 209,
+      "start": 782.15,
+      "end": 786.02,
+      "text": "feeding them into a box that tests them."
+    },
+    {
+      "idx": 210,
+      "start": 786.02,
+      "end": 791.51,
+      "text": "And then out the other side comes mostly failures, but every once"
+    },
+    {
+      "idx": 211,
+      "start": 791.51,
+      "end": 797.24,
+      "text": "in a while, we get something that succeeds and pleases us."
+    },
+    {
+      "idx": 212,
+      "start": 797.24,
+      "end": 799.36,
+      "text": "That's what I do with the leaf."
+    },
+    {
+      "idx": 213,
+      "start": 799.36,
+      "end": 801.38,
+      "text": "But now you have a name for it."
+    },
+    {
+      "idx": 214,
+      "start": 801.38,
+      "end": 804.46,
+      "text": "Once you have a name for something,"
+    },
+    {
+      "idx": 215,
+      "start": 804.46,
+      "end": 805.36,
+      "text": "once you have a name for something,"
+    },
+    {
+      "idx": 216,
+      "start": 805.36,
+      "end": 806.9,
+      "text": "you get power over it."
+    },
+    {
+      "idx": 217,
+      "start": 806.9,
+      "end": 809.03,
+      "text": "You can start to talk about it."
+    },
+    {
+      "idx": 218,
+      "start": 809.03,
+      "end": 812.21,
+      "text": "So I can say, if you're doing a generate and test approach"
+    },
+    {
+      "idx": 219,
+      "start": 812.21,
+      "end": 816.42,
+      "text": "to a problem, you better build a generator"
+    },
+    {
+      "idx": 220,
+      "start": 816.42,
+      "end": 820.22,
+      "text": "with certain properties that make generators good."
+    },
+    {
+      "idx": 221,
+      "start": 820.22,
+      "end": 822.98,
+      "text": "For example, they should not be redundant."
+    },
+    {
+      "idx": 222,
+      "start": 822.98,
+      "end": 825.18,
+      "text": "They shouldn't give you the same solution twice."
+    },
+    {
+      "idx": 223,
+      "start": 825.18,
+      "end": 827.91,
+      "text": "They should be informable."
+    },
+    {
+      "idx": 224,
+      "start": 827.91,
+      "end": 832.18,
+      "text": "They should be able to absorb information such as,"
+    },
+    {
+      "idx": 225,
+      "start": 832.18,
+      "end": 833.64,
+      "text": "this is a deciduous tree."
+    },
+    {
+      "idx": 226,
+      "start": 833.64,
+      "end": 836.37,
+      "text": "Don't bother looking at the conifers."
+    },
+    {
+      "idx": 227,
+      "start": 836.37,
+      "end": 837.95,
+      "text": "So once you have a name for something,"
+    },
+    {
+      "idx": 228,
+      "start": 837.95,
+      "end": 840.64,
+      "text": "you can start talking about it, and that vocabulary"
+    },
+    {
+      "idx": 229,
+      "start": 840.64,
+      "end": 842.62,
+      "text": "gives you power."
+    },
+    {
+      "idx": 230,
+      "start": 842.62,
+      "end": 846.84,
+      "text": "So we call this the Rumpelstiltskin principle,"
+    },
+    {
+      "idx": 231,
+      "start": 846.84,
+      "end": 850.56,
+      "text": "perhaps the first of our powerful ideas for the day."
+    },
+    {
+      "idx": 232,
+      "start": 850.56,
+      "end": 852.18,
+      "text": "This subject is full of powerful ideas."
+    },
+    {
+      "idx": 233,
+      "start": 852.18,
+      "end": 854.31,
+      "text": "There'll be some in every class."
+    },
+    {
+      "idx": 234,
+      "start": 854.31,
+      "end": 856.51,
+      "text": "Rumpelstiltskin principle says that once you can name"
+    },
+    {
+      "idx": 235,
+      "start": 856.51,
+      "end": 858.07,
+      "text": "something, you get power over it."
+    },
+    {
+      "idx": 236,
+      "start": 858.07,
+      "end": 858.19,
+      "text": "Do you know what?"
+    },
+    {
+      "idx": 237,
+      "start": 858.19,
+      "end": 858.43,
+      "text": "That little thing?"
+    },
+    {
+      "idx": 238,
+      "start": 858.43,
+      "end": 858.79,
+      "text": "It's a little thing."
+    },
+    {
+      "idx": 239,
+      "start": 858.79,
+      "end": 858.81,
+      "text": "It's a little thing."
+    },
+    {
+      "idx": 240,
+      "start": 858.81,
+      "end": 863.72,
+      "text": "The little thing is on the end of your shoelace."
+    },
+    {
+      "idx": 241,
+      "start": 864.26,
+      "end": 866.44,
+      "text": "She's gesturing like mad."
+    },
+    {
+      "idx": 242,
+      "start": 866.44,
+      "end": 868.95,
+      "text": "That's something we'll talk about later, too."
+    },
+    {
+      "idx": 243,
+      "start": 868.95,
+      "end": 872.08,
+      "text": "Motor stuff and how it helps us think."
+    },
+    {
+      "idx": 244,
+      "start": 872.08,
+      "end": 873.68,
+      "text": "What is it?"
+    },
+    {
+      "idx": 245,
+      "start": 873.68,
+      "end": 875.49,
+      "text": "No one knows?"
+    },
+    {
+      "idx": 246,
+      "start": 875.49,
+      "end": 876.79,
+      "text": "It's an ag something, right?"
+    },
+    {
+      "idx": 247,
+      "start": 876.79,
+      "end": 877.65,
+      "text": "It's an aglet."
+    },
+    {
+      "idx": 248,
+      "start": 878.93,
+      "end": 881.67,
+      "text": "So once you have the name, you can start to talk about it."
+    },
+    {
+      "idx": 249,
+      "start": 881.67,
+      "end": 883.57,
+      "text": "You can say, you know, the purpose of an aglet"
+    },
+    {
+      "idx": 250,
+      "start": 883.57,
+      "end": 886.07,
+      "text": "is pretty much like the whipping on the end of a rope."
+    },
+    {
+      "idx": 251,
+      "start": 886.07,
+      "end": 888.13,
+      "text": "Keeps the thing from unwinding."
+    },
+    {
+      "idx": 252,
+      "start": 888.13,
+      "end": 891.17,
+      "text": "Now you have a place to hang that knowledge."
+    },
+    {
+      "idx": 253,
+      "start": 891.17,
+      "end": 893.73,
+      "text": "So we'll be talking about this frequently from,"
+    },
+    {
+      "idx": 254,
+      "start": 893.73,
+      "end": 895.77,
+      "text": "now into the rest of the semester."
+    },
+    {
+      "idx": 255,
+      "start": 895.77,
+      "end": 898.05,
+      "text": "The power of being able to name things."
+    },
+    {
+      "idx": 256,
+      "start": 898.05,
+      "end": 902.1,
+      "text": "Symbolic labels give us power over concepts."
+    },
+    {
+      "idx": 257,
+      "start": 902.1,
+      "end": 904.3,
+      "text": "While we're here, I should also say that this is a very simple"
+    },
+    {
+      "idx": 258,
+      "start": 904.3,
+      "end": 906.64,
+      "text": "idea, generate and test."
+    },
+    {
+      "idx": 259,
+      "start": 906.64,
+      "end": 909.54,
+      "text": "And you might be tempted to say to someone,"
+    },
+    {
+      "idx": 260,
+      "start": 909.54,
+      "end": 911.54,
+      "text": "we learned about generate and test today,"
+    },
+    {
+      "idx": 261,
+      "start": 911.54,
+      "end": 914.32,
+      "text": "but it's a trivial idea."
+    },
+    {
+      "idx": 262,
+      "start": 914.32,
+      "end": 916.86,
+      "text": "The word trivial is a word I would like you to purge"
+    },
+    {
+      "idx": 263,
+      "start": 916.86,
+      "end": 922.44,
+      "text": "from your vocabulary because it's a very dangerous label."
+    },
+    {
+      "idx": 264,
+      "start": 922.44,
+      "end": 925.54,
+      "text": "And the reason it's dangerous is because there's"
+    },
+    {
+      "idx": 265,
+      "start": 925.54,
+      "end": 926.54,
+      "text": "a difference between trivial and powerful."
+    },
+    {
+      "idx": 266,
+      "start": 926.54,
+      "end": 927.54,
+      "text": "What is it?"
+    },
+    {
+      "idx": 267,
+      "start": 927.54,
+      "end": 930.04,
+      "text": "What's the difference between labeling something as trivial"
+    },
+    {
+      "idx": 268,
+      "start": 930.04,
+      "end": 931.04,
+      "text": "and calling it simple?"
+    },
+    {
+      "idx": 269,
+      "start": 931.04,
+      "end": 932.04,
+      "text": "Yes, exactly so."
+    },
+    {
+      "idx": 270,
+      "start": 932.04,
+      "end": 933.04,
+      "text": "He says that simple can be powerful, and trivial makes it sound like it's not only simple,"
+    },
+    {
+      "idx": 271,
+      "start": 933.04,
+      "end": 934.04,
+      "text": "but of little worth."
+    },
+    {
+      "idx": 272,
+      "start": 934.04,
+      "end": 935.04,
+      "text": "So many MIT people miss opportunities because they have a tendency to think that ideas aren't"
+    },
+    {
+      "idx": 273,
+      "start": 935.04,
+      "end": 939.85,
+      "text": "important unless they're complicated."
+    },
+    {
+      "idx": 274,
+      "start": 939.85,
+      "end": 940.85,
+      "text": "But the most simple ideas in artificial intelligence are often the most powerful."
+    },
+    {
+      "idx": 275,
+      "start": 940.85,
+      "end": 941.85,
+      "text": "Now we could teach an artificial intelligence course to you that would be very useful, but"
+    },
+    {
+      "idx": 276,
+      "start": 943.04,
+      "end": 944.04,
+      "text": "But it's not."
+    },
+    {
+      "idx": 277,
+      "start": 960.93,
+      "end": 965.66,
+      "text": "Now, we could teach an artificial intelligence course to you that would be so full of mathematics"
+    },
+    {
+      "idx": 278,
+      "start": 965.66,
+      "end": 967.6,
+      "text": "that it would make it Course 18 Professor massacre."
+    },
+    {
+      "idx": 279,
+      "start": 969.2,
+      "end": 970.2,
+      "text": "You know, the same system if you're into math."
+    },
+    {
+      "idx": 280,
+      "start": 970.2,
+      "end": 974.68,
+      "text": "But those ideas would be merely gratuitously complicated and gratuitously mathematical"
+    },
+    {
+      "idx": 281,
+      "start": 974.68,
+      "end": 977.28,
+      "text": "and gratuitously not simple."
+    },
+    {
+      "idx": 282,
+      "start": 977.28,
+      "end": 982.62,
+      "text": "Simple ideas are often the most powerful."
+    },
+    {
+      "idx": 283,
+      "start": 982.62,
+      "end": 983.8,
+      "text": "So where are we so far?"
+    },
+    {
+      "idx": 284,
+      "start": 983.8,
+      "end": 986.34,
+      "text": "We talked about definition."
+    },
+    {
+      "idx": 285,
+      "start": 986.34,
+      "end": 992.28,
+      "text": "We talked about an example of a method, showing you a representation and perhaps also talked"
+    },
+    {
+      "idx": 286,
+      "start": 992.28,
+      "end": 993.62,
+      "text": "about the first idea too."
+    },
+    {
+      "idx": 287,
+      "start": 993.62,
+      "end": 994.88,
+      "text": "Well, you've got the representation."
+    },
+    {
+      "idx": 288,
+      "start": 994.88,
+      "end": 998.42,
+      "text": "representation right, you're often almost done,"
+    },
+    {
+      "idx": 289,
+      "start": 998.42,
+      "end": 1000.8,
+      "text": "because with this representation,"
+    },
+    {
+      "idx": 290,
+      "start": 1000.8,
+      "end": 1004.31,
+      "text": "we can immediately see that there are just two solutions"
+    },
+    {
+      "idx": 291,
+      "start": 1004.31,
+      "end": 1008.76,
+      "text": "to this problem, something that wouldn't have occurred"
+    },
+    {
+      "idx": 292,
+      "start": 1008.76,
+      "end": 1010.22,
+      "text": "to us when we were little kids and didn't think"
+    },
+    {
+      "idx": 293,
+      "start": 1010.22,
+      "end": 1016.39,
+      "text": "to draw the state diagram."
+    },
+    {
+      "idx": 294,
+      "start": 1016.39,
+      "end": 1018.19,
+      "text": "We know there's still one more thing."
+    },
+    {
+      "idx": 295,
+      "start": 1021.76,
+      "end": 1025.28,
+      "text": "In the past and in other places, artificial intelligence"
+    },
+    {
+      "idx": 296,
+      "start": 1025.28,
+      "end": 1029.16,
+      "text": "is often taught as purely about reasoning."
+    },
+    {
+      "idx": 297,
+      "start": 1029.16,
+      "end": 1030.94,
+      "text": "But we solve problems with our eyes,"
+    },
+    {
+      "idx": 298,
+      "start": 1030.94,
+      "end": 1035.48,
+      "text": "as well as our symbolic apparatus."
+    },
+    {
+      "idx": 299,
+      "start": 1035.48,
+      "end": 1039.0,
+      "text": "And you solve that problem with your eyes."
+    },
+    {
+      "idx": 300,
+      "start": 1039.0,
+      "end": 1042.9,
+      "text": "So I'd like to reinforce that by giving you a little puzzle."
+    },
+    {
+      "idx": 301,
+      "start": 1042.9,
+      "end": 1050.4,
+      "text": "Let's see who's here."
+    },
+    {
+      "idx": 302,
+      "start": 1050.4,
+      "end": 1052.4,
+      "text": "I don't see Kambi, but I'll bet he's from Africa."
+    },
+    {
+      "idx": 303,
+      "start": 1052.4,
+      "end": 1054.76,
+      "text": "Is anyone from Africa?"
+    },
+    {
+      "idx": 304,
+      "start": 1054.76,
+      "end": 1057.2,
+      "text": "No one's from Africa?"
+    },
+    {
+      "idx": 305,
+      "start": 1059.01,
+      "end": 1061.25,
+      "text": "Well, so much the better."
+    },
+    {
+      "idx": 306,
+      "start": 1061.25,
+      "end": 1062.09,
+      "text": "No, I don't."
+    },
+    {
+      "idx": 307,
+      "start": 1065.3,
+      "end": 1067.8,
+      "text": "Because they would know the answer to the puzzle."
+    },
+    {
+      "idx": 308,
+      "start": 1067.8,
+      "end": 1069.16,
+      "text": "Here's the puzzle."
+    },
+    {
+      "idx": 309,
+      "start": 1069.16,
+      "end": 1071.04,
+      "text": "How many countries in Africa"
+    },
+    {
+      "idx": 310,
+      "start": 1071.04,
+      "end": 1076.78,
+      "text": "does the equator cross?"
+    },
+    {
+      "idx": 311,
+      "start": 1076.78,
+      "end": 1082.6,
+      "text": "Would anybody be willing to stake their life on their answer?"
+    },
+    {
+      "idx": 312,
+      "start": 1087.3,
+      "end": 1096.63,
+      "text": "Well, now let me repeat the question."
+    },
+    {
+      "idx": 313,
+      "start": 1096.63,
+      "end": 1102.28,
+      "text": "How many countries in Africa does the equator cross?"
+    },
+    {
+      "idx": 314,
+      "start": 1103.12,
+      "end": 1105.99,
+      "text": "What happened is a miracle."
+    },
+    {
+      "idx": 315,
+      "start": 1105.99,
+      "end": 1109.59,
+      "text": "The miracle is that I have communicated with you"
+    },
+    {
+      "idx": 316,
+      "start": 1109.59,
+      "end": 1114.08,
+      "text": "through language, and your language system commanded"
+    },
+    {
+      "idx": 317,
+      "start": 1114.08,
+      "end": 1117.32,
+      "text": "your visual system to execute a program"
+    },
+    {
+      "idx": 318,
+      "start": 1117.32,
+      "end": 1119.28,
+      "text": "that involves scanning across that line"
+    },
+    {
+      "idx": 319,
+      "start": 1119.28,
+      "end": 1121.44,
+      "text": "of the equator."
+    },
+    {
+      "idx": 320,
+      "start": 1121.44,
+      "end": 1124.2,
+      "text": "And then your visual system came back to your language system"
+    },
+    {
+      "idx": 321,
+      "start": 1124.2,
+      "end": 1126.39,
+      "text": "and said six."
+    },
+    {
+      "idx": 322,
+      "start": 1126.39,
+      "end": 1127.81,
+      "text": "And that is a miracle."
+    },
+    {
+      "idx": 323,
+      "start": 1127.81,
+      "end": 1130.03,
+      "text": "And without understanding that miracle,"
+    },
+    {
+      "idx": 324,
+      "start": 1130.03,
+      "end": 1131.61,
+      "text": "we'll never have a full understanding"
+    },
+    {
+      "idx": 325,
+      "start": 1131.61,
+      "end": 1133.57,
+      "text": "of the nature of intelligence."
+    },
+    {
+      "idx": 326,
+      "start": 1133.57,
+      "end": 1136.07,
+      "text": "But that kind of problem solving is the kind of problem solving"
+    },
+    {
+      "idx": 327,
+      "start": 1136.07,
+      "end": 1138.41,
+      "text": "I wish we could teach you a lot about."
+    },
+    {
+      "idx": 328,
+      "start": 1138.41,
+      "end": 1140.57,
+      "text": "But we can't teach you about stuff we don't understand."
+    },
+    {
+      "idx": 329,
+      "start": 1140.57,
+      "end": 1144.59,
+      "text": "We can only be the Europes for that."
+    },
+    {
+      "idx": 330,
+      "start": 1144.59,
+      "end": 1148.16,
+      "text": "All right, so that's a little bit about the definition"
+    },
+    {
+      "idx": 331,
+      "start": 1148.16,
+      "end": 1148.98,
+      "text": "and some examples."
+    },
+    {
+      "idx": 332,
+      "start": 1148.98,
+      "end": 1150.38,
+      "text": "What's it for?"
+    },
+    {
+      "idx": 333,
+      "start": 1150.38,
+      "end": 1152.0,
+      "text": "Well, we can deal with that very quickly."
+    },
+    {
+      "idx": 334,
+      "start": 1152.0,
+      "end": 1156.45,
+      "text": "If we're engineers, it's for building smarter programs."
+    },
+    {
+      "idx": 335,
+      "start": 1156.45,
+      "end": 1160.66,
+      "text": "It's about building a toolkit of representations and methods"
+    },
+    {
+      "idx": 336,
+      "start": 1160.66,
+      "end": 1162.64,
+      "text": "that make it possible to build smarter programs."
+    },
+    {
+      "idx": 337,
+      "start": 1162.64,
+      "end": 1166.06,
+      "text": "And you will find these days that you can't build a big system"
+    },
+    {
+      "idx": 338,
+      "start": 1166.06,
+      "end": 1168.64,
+      "text": "without having embedded in it somewhere the ideas that we"
+    },
+    {
+      "idx": 339,
+      "start": 1168.64,
+      "end": 1171.26,
+      "text": "talk about in this subject."
+    },
+    {
+      "idx": 340,
+      "start": 1171.26,
+      "end": 1173.98,
+      "text": "If you're a scientist, there's a somewhat different motivation,"
+    },
+    {
+      "idx": 341,
+      "start": 1173.98,
+      "end": 1176.68,
+      "text": "but it amounts to studying the same sorts of things."
+    },
+    {
+      "idx": 342,
+      "start": 1176.68,
+      "end": 1179.42,
+      "text": "If you're a scientist, you're interested in what it is"
+    },
+    {
+      "idx": 343,
+      "start": 1179.42,
+      "end": 1183.58,
+      "text": "that enables us to build an account, a computational account,"
+    },
+    {
+      "idx": 344,
+      "start": 1183.58,
+      "end": 1183.64,
+      "text": "that enables us to build an account, a computational account,"
+    },
+    {
+      "idx": 345,
+      "start": 1183.66,
+      "end": 1185.1,
+      "text": "a lot of intelligence."
+    },
+    {
+      "idx": 346,
+      "start": 1185.1,
+      "end": 1186.9,
+      "text": "That's the part that I do."
+    },
+    {
+      "idx": 347,
+      "start": 1186.9,
+      "end": 1189.64,
+      "text": "But most of this subject is going to be about the other part,"
+    },
+    {
+      "idx": 348,
+      "start": 1189.64,
+      "end": 1193.52,
+      "text": "the part that makes it possible for you to build smarter programs."
+    },
+    {
+      "idx": 349,
+      "start": 1193.52,
+      "end": 1197.34,
+      "text": "And some of it will be about what it is that makes us different"
+    },
+    {
+      "idx": 350,
+      "start": 1197.34,
+      "end": 1203.28,
+      "text": "from the chimpanzees with whom we share an enormous fraction"
+    },
+    {
+      "idx": 351,
+      "start": 1203.28,
+      "end": 1205.16,
+      "text": "of our DNA."
+    },
+    {
+      "idx": 352,
+      "start": 1205.16,
+      "end": 1207.88,
+      "text": "It used to be thought that we shared 95% of our DNA"
+    },
+    {
+      "idx": 353,
+      "start": 1209.84,
+      "end": 1213.76,
+      "text": "Then it went up to 98%."
+    },
+    {
+      "idx": 354,
+      "start": 1213.76,
+      "end": 1215.28,
+      "text": "Thank god it stopped about there."
+    },
+    {
+      "idx": 355,
+      "start": 1215.28,
+      "end": 1216.4,
+      "text": "And then it actually went back a little bit."
+    },
+    {
+      "idx": 356,
+      "start": 1216.4,
+      "end": 1223.2,
+      "text": "I think we're back down to 94."
+    },
+    {
+      "idx": 357,
+      "start": 1223.2,
+      "end": 1225.52,
+      "text": "So how about if we talk a little bit now about the history of AI"
+    },
+    {
+      "idx": 358,
+      "start": 1225.52,
+      "end": 1228.96,
+      "text": "so we can see how we got to where we are today."
+    },
+    {
+      "idx": 359,
+      "start": 1228.96,
+      "end": 1231.06,
+      "text": "This will also be a history of AI that tells you a little bit"
+    },
+    {
+      "idx": 360,
+      "start": 1231.06,
+      "end": 1236.66,
+      "text": "about what you'll learn in this course."
+    },
+    {
+      "idx": 361,
+      "start": 1236.66,
+      "end": 1244.74,
+      "text": "It all started with Lady Lovelace, the world's first programmer"
+    },
+    {
+      "idx": 362,
+      "start": 1244.74,
+      "end": 1250.54,
+      "text": "who wrote programs about 100 years before there were computers to run them."
+    },
+    {
+      "idx": 363,
+      "start": 1250.54,
+      "end": 1254.26,
+      "text": "But it's interesting that even in 1842, people were hassling her"
+    },
+    {
+      "idx": 364,
+      "start": 1254.26,
+      "end": 1257.25,
+      "text": "about whether computers could get really smart."
+    },
+    {
+      "idx": 365,
+      "start": 1257.25,
+      "end": 1258.09,
+      "text": "And she said, I don't know."
+    },
+    {
+      "idx": 366,
+      "start": 1258.09,
+      "end": 1261.95,
+      "text": "This is the data."
+    },
+    {
+      "idx": 367,
+      "start": 1261.95,
+      "end": 1265.43,
+      "text": "The analytical engine has no pretensions to originate anything."
+    },
+    {
+      "idx": 368,
+      "start": 1265.43,
+      "end": 1269.94,
+      "text": "It can do whatever we know how to order it to perform."
+    },
+    {
+      "idx": 369,
+      "start": 1269.94,
+      "end": 1273.62,
+      "text": "A screwball idea that persists to this day."
+    },
+    {
+      "idx": 370,
+      "start": 1273.62,
+      "end": 1275.76,
+      "text": "Nevertheless, that was the origin of it all."
+    },
+    {
+      "idx": 371,
+      "start": 1275.76,
+      "end": 1277.28,
+      "text": "That was the beginning of the discussions."
+    },
+    {
+      "idx": 372,
+      "start": 1277.28,
+      "end": 1281.57,
+      "text": "And then nothing much happened until about 1950"
+    },
+    {
+      "idx": 373,
+      "start": 1281.57,
+      "end": 1283.89,
+      "text": "when Alan Turing wrote his famous paper"
+    },
+    {
+      "idx": 374,
+      "start": 1283.89,
+      "end": 1287.04,
+      "text": "which introduced the Turing test."
+    },
+    {
+      "idx": 375,
+      "start": 1287.04,
+      "end": 1289.62,
+      "text": "Of course, Alan Turing had previously won the Second World"
+    },
+    {
+      "idx": 376,
+      "start": 1289.62,
+      "end": 1294.02,
+      "text": "War by breaking the German code, the ultra code,"
+    },
+    {
+      "idx": 377,
+      "start": 1294.02,
+      "end": 1297.26,
+      "text": "for which the British government rewarded him by driving him to suicide"
+    },
+    {
+      "idx": 378,
+      "start": 1297.26,
+      "end": 1298.72,
+      "text": "because he happened to be homosexual."
+    },
+    {
+      "idx": 379,
+      "start": 1301.1,
+      "end": 1302.68,
+      "text": "But Turing wrote his paper in 1950,"
+    },
+    {
+      "idx": 380,
+      "start": 1303.12,
+      "end": 1307.78,
+      "text": "and that was the first milestone after Lady Lovelace's comment in 1842."
+    },
+    {
+      "idx": 381,
+      "start": 1308.7,
+      "end": 1311.88,
+      "text": "And then the modern era really began"
+    },
+    {
+      "idx": 382,
+      "start": 1311.88,
+      "end": 1314.6,
+      "text": "with a paper written by Marvin Minsky in 1960"
+    },
+    {
+      "idx": 383,
+      "start": 1314.6,
+      "end": 1316.68,
+      "text": "titled Steps Toward Artificial Intelligence."
+    },
+    {
+      "idx": 384,
+      "start": 1318.09,
+      "end": 1319.81,
+      "text": "And it wasn't long after that Jim Slagle,"
+    },
+    {
+      "idx": 385,
+      "start": 1321.48,
+      "end": 1323.04,
+      "text": "a nearly blind graduate student,"
+    },
+    {
+      "idx": 386,
+      "start": 1323.08,
+      "end": 1325.06,
+      "text": "wrote a program that did symbolic integration."
+    },
+    {
+      "idx": 387,
+      "start": 1325.06,
+      "end": 1328.76,
+      "text": "Not adding up area under a curve,"
+    },
+    {
+      "idx": 388,
+      "start": 1328.9,
+      "end": 1330.24,
+      "text": "but doing symbolic integration,"
+    },
+    {
+      "idx": 389,
+      "start": 1330.32,
+      "end": 1332.64,
+      "text": "just like you learned to do in high school when you were a freshman."
+    },
+    {
+      "idx": 390,
+      "start": 1334.44,
+      "end": 1336.38,
+      "text": "Now on Monday, we're going to talk about this program,"
+    },
+    {
+      "idx": 391,
+      "start": 1336.58,
+      "end": 1338.54,
+      "text": "and you're going to understand exactly how it works,"
+    },
+    {
+      "idx": 392,
+      "start": 1338.66,
+      "end": 1339.8,
+      "text": "and you could write one yourself."
+    },
+    {
+      "idx": 393,
+      "start": 1341.48,
+      "end": 1344.1,
+      "text": "And we're going to reach way back in time to look at that program"
+    },
+    {
+      "idx": 394,
+      "start": 1344.1,
+      "end": 1347.52,
+      "text": "because in one day, discussing it, talking about it,"
+    },
+    {
+      "idx": 395,
+      "start": 1347.52,
+      "end": 1350.3,
+      "text": "will be in itself a miniature artificial intelligence course"
+    },
+    {
+      "idx": 396,
+      "start": 1350.3,
+      "end": 1352.96,
+      "text": "because it's so rich with important ideas."
+    },
+    {
+      "idx": 397,
+      "start": 1355.04,
+      "end": 1357.8,
+      "text": "So that's the dawn age, early dawn age."
+    },
+    {
+      "idx": 398,
+      "start": 1358.99,
+      "end": 1360.19,
+      "text": "This was the age..."
+    },
+    {
+      "idx": 399,
+      "start": 1360.19,
+      "end": 1361.05,
+      "text": "This was the age of speculation."
+    },
+    {
+      "idx": 400,
+      "start": 1369.34,
+      "end": 1370.78,
+      "text": "And this was the dawn age in here."
+    },
+    {
+      "idx": 401,
+      "start": 1373.84,
+      "end": 1375.9,
+      "text": "So that early dawn age, the integration program"
+    },
+    {
+      "idx": 402,
+      "start": 1375.9,
+      "end": 1378.38,
+      "text": "took the world by storm"
+    },
+    {
+      "idx": 403,
+      "start": 1378.38,
+      "end": 1380.2,
+      "text": "because not everybody knows how to do integration,"
+    },
+    {
+      "idx": 404,
+      "start": 1380.42,
+      "end": 1382.34,
+      "text": "and everyone thought that,"
+    },
+    {
+      "idx": 405,
+      "start": 1382.42,
+      "end": 1383.84,
+      "text": "oh, well, if we can do integration today,"
+    },
+    {
+      "idx": 406,
+      "start": 1383.94,
+      "end": 1385.94,
+      "text": "the rest of intelligence will be figured out tomorrow."
+    },
+    {
+      "idx": 407,
+      "start": 1387.09,
+      "end": 1388.29,
+      "text": "Too bad for our side."
+    },
+    {
+      "idx": 408,
+      "start": 1388.33,
+      "end": 1389.35,
+      "text": "It didn't work out that way."
+    },
+    {
+      "idx": 409,
+      "start": 1390.55,
+      "end": 1392.27,
+      "text": "Here's another dawn age program,"
+    },
+    {
+      "idx": 410,
+      "start": 1393.66,
+      "end": 1394.5,
+      "text": "the ELISA thing."
+    },
+    {
+      "idx": 411,
+      "start": 1395.1,
+      "end": 1396.78,
+      "text": "But imagine you prefer a demonstration."
+    },
+    {
+      "idx": 412,
+      "start": 1397.5,
+      "end": 1398.44,
+      "text": "It's just reading it, right?"
+    },
+    {
+      "idx": 413,
+      "start": 1398.44,
+      "end": 1400.7,
+      "text": "Do you prefer a demonstration?"
+    },
+    {
+      "idx": 414,
+      "start": 1402.06,
+      "end": 1404.16,
+      "text": "Let's see if we can demonstrate it."
+    },
+    {
+      "idx": 415,
+      "start": 1448.21,
+      "end": 1450.97,
+      "text": "There's leftover from like a hamantashen debate"
+    },
+    {
+      "idx": 416,
+      "start": 1450.97,
+      "end": 1452.05,
+      "text": "of a couple of years ago."
+    },
+    {
+      "idx": 417,
+      "start": 1453.54,
+      "end": 1454.48,
+      "text": "How do you spell hamantashen?"
+    },
+    {
+      "idx": 418,
+      "start": 1459.43,
+      "end": 1460.31,
+      "text": "Sure hope that's right."
+    },
+    {
+      "idx": 419,
+      "start": 1460.61,
+      "end": 1461.27,
+      "text": "Well, it doesn't matter."
+    },
+    {
+      "idx": 420,
+      "start": 1461.41,
+      "end": 1462.49,
+      "text": "Something interesting will come."
+    },
+    {
+      "idx": 421,
+      "start": 1465.92,
+      "end": 1466.74,
+      "text": "Okay, your choice."
+    },
+    {
+      "idx": 422,
+      "start": 1487.8,
+      "end": 1489.4,
+      "text": "So that's dawn age AI,"
+    },
+    {
+      "idx": 423,
+      "start": 1489.66,
+      "end": 1491.3,
+      "text": "and no one ever took that stuff seriously"
+    },
+    {
+      "idx": 424,
+      "start": 1491.3,
+      "end": 1494.46,
+      "text": "except that it was a fun,"
+    },
+    {
+      "idx": 425,
+      "start": 1495.9,
+      "end": 1498.94,
+      "text": "to work out some matching programs and so on."
+    },
+    {
+      "idx": 426,
+      "start": 1499.8,
+      "end": 1501.22,
+      "text": "The integration program was serious."
+    },
+    {
+      "idx": 427,
+      "start": 1501.38,
+      "end": 1502.08,
+      "text": "This one wasn't."
+    },
+    {
+      "idx": 428,
+      "start": 1503.19,
+      "end": 1504.01,
+      "text": "This was serious."
+    },
+    {
+      "idx": 429,
+      "start": 1504.43,
+      "end": 1507.27,
+      "text": "Programs that do geometric analogy problems"
+    },
+    {
+      "idx": 430,
+      "start": 1507.27,
+      "end": 1508.99,
+      "text": "of the kind you find on an intelligence test."
+    },
+    {
+      "idx": 431,
+      "start": 1509.05,
+      "end": 1509.99,
+      "text": "Do you have the answer to this?"
+    },
+    {
+      "idx": 432,
+      "start": 1510.05,
+      "end": 1511.19,
+      "text": "A is to B, a C is to what?"
+    },
+    {
+      "idx": 433,
+      "start": 1514.14,
+      "end": 1515.52,
+      "text": "Better be two, I guess."
+    },
+    {
+      "idx": 434,
+      "start": 1518.23,
+      "end": 1519.37,
+      "text": "What's the second best answer?"
+    },
+    {
+      "idx": 435,
+      "start": 1522.14,
+      "end": 1524.02,
+      "text": "And the theories of the program"
+    },
+    {
+      "idx": 436,
+      "start": 1524.02,
+      "end": 1525.08,
+      "text": "that solve these problems"
+    },
+    {
+      "idx": 437,
+      "start": 1525.08,
+      "end": 1526.9,
+      "text": "are pretty much identical"
+    },
+    {
+      "idx": 438,
+      "start": 1526.9,
+      "end": 1529.48,
+      "text": "to what you just figured out."
+    },
+    {
+      "idx": 439,
+      "start": 1530.18,
+      "end": 1531.22,
+      "text": "In the first case,"
+    },
+    {
+      "idx": 440,
+      "start": 1531.22,
+      "end": 1533.18,
+      "text": "you deleted the inside character,"
+    },
+    {
+      "idx": 441,
+      "start": 1533.56,
+      "end": 1535.28,
+      "text": "or the inside figure."
+    },
+    {
+      "idx": 442,
+      "start": 1535.94,
+      "end": 1536.92,
+      "text": "And in the second case,"
+    },
+    {
+      "idx": 443,
+      "start": 1537.0,
+      "end": 1537.78,
+      "text": "the reason you got four"
+    },
+    {
+      "idx": 444,
+      "start": 1537.78,
+      "end": 1540.22,
+      "text": "is because you deleted the outside part"
+    },
+    {
+      "idx": 445,
+      "start": 1540.96,
+      "end": 1542.58,
+      "text": "and grew the inside part."
+    },
+    {
+      "idx": 446,
+      "start": 1544.15,
+      "end": 1545.01,
+      "text": "There's another one."
+    },
+    {
+      "idx": 447,
+      "start": 1546.66,
+      "end": 1548.58,
+      "text": "I think this was the hardest one it got"
+    },
+    {
+      "idx": 448,
+      "start": 1548.58,
+      "end": 1550.06,
+      "text": "or the easiest one it didn't get."
+    },
+    {
+      "idx": 449,
+      "start": 1551.28,
+      "end": 1554.03,
+      "text": "A is to B, a C is to three."
+    },
+    {
+      "idx": 450,
+      "start": 1557.38,
+      "end": 1558.42,
+      "text": "In the late dawn age,"
+    },
+    {
+      "idx": 451,
+      "start": 1558.46,
+      "end": 1559.56,
+      "text": "we began to turn our attention"
+    },
+    {
+      "idx": 452,
+      "start": 1559.56,
+      "end": 1561.4,
+      "text": "from purely symbolic reasoning"
+    },
+    {
+      "idx": 453,
+      "start": 1561.4,
+      "end": 1563.88,
+      "text": "to thinking a little bit about perceptual apparatus."
+    },
+    {
+      "idx": 454,
+      "start": 1564.24,
+      "end": 1565.58,
+      "text": "And programs were written"
+    },
+    {
+      "idx": 455,
+      "start": 1565.58,
+      "end": 1568.08,
+      "text": "that could figure out the nature of shapes"
+    },
+    {
+      "idx": 456,
+      "start": 1568.08,
+      "end": 1570.76,
+      "text": "and forms such as that."
+    },
+    {
+      "idx": 457,
+      "start": 1571.64,
+      "end": 1573.42,
+      "text": "And it's interesting that those programs"
+    },
+    {
+      "idx": 458,
+      "start": 1573.42,
+      "end": 1577.18,
+      "text": "had the same kind of difficulty with this"
+    },
+    {
+      "idx": 459,
+      "start": 1577.18,
+      "end": 1578.56,
+      "text": "that you do."
+    },
+    {
+      "idx": 460,
+      "start": 1579.75,
+      "end": 1581.67,
+      "text": "Because now having deleted all the edges,"
+    },
+    {
+      "idx": 461,
+      "start": 1582.05,
+      "end": 1583.21,
+      "text": "everything becomes ambiguous"
+    },
+    {
+      "idx": 462,
+      "start": 1583.21,
+      "end": 1585.99,
+      "text": "and it may be a series of platforms"
+    },
+    {
+      "idx": 463,
+      "start": 1585.99,
+      "end": 1587.93,
+      "text": "or it may be a series of..."
+    },
+    {
+      "idx": 464,
+      "start": 1587.93,
+      "end": 1589.47,
+      "text": "Can you see the saw blades sticking up"
+    },
+    {
+      "idx": 465,
+      "start": 1589.47,
+      "end": 1591.01,
+      "text": "if you go through the reversal?"
+    },
+    {
+      "idx": 466,
+      "start": 1593.77,
+      "end": 1595.25,
+      "text": "Programs were written that could learn"
+    },
+    {
+      "idx": 467,
+      "start": 1595.25,
+      "end": 1596.63,
+      "text": "from a small number of examples."
+    },
+    {
+      "idx": 468,
+      "start": 1597.59,
+      "end": 1598.85,
+      "text": "Many people think of computer,"
+    },
+    {
+      "idx": 469,
+      "start": 1598.85,
+      "end": 1600.55,
+      "text": "but computer learning is involving"
+    },
+    {
+      "idx": 470,
+      "start": 1600.55,
+      "end": 1604.03,
+      "text": "beating some neural net to submission."
+    },
+    {
+      "idx": 471,
+      "start": 1604.65,
+      "end": 1605.99,
+      "text": "With thousands of trials,"
+    },
+    {
+      "idx": 472,
+      "start": 1606.09,
+      "end": 1607.79,
+      "text": "programs were written in the early dawn age"
+    },
+    {
+      "idx": 473,
+      "start": 1607.79,
+      "end": 1609.37,
+      "text": "that learned that an arch is something"
+    },
+    {
+      "idx": 474,
+      "start": 1609.37,
+      "end": 1612.35,
+      "text": "that has to have the flat part on top"
+    },
+    {
+      "idx": 475,
+      "start": 1612.35,
+      "end": 1614.07,
+      "text": "and the two sides can't touch"
+    },
+    {
+      "idx": 476,
+      "start": 1614.07,
+      "end": 1616.01,
+      "text": "and the top may or may not be a wedge."
+    },
+    {
+      "idx": 477,
+      "start": 1619.58,
+      "end": 1620.74,
+      "text": "In the late dawn age, though,"
+    },
+    {
+      "idx": 478,
+      "start": 1620.86,
+      "end": 1622.26,
+      "text": "the most important thing perhaps"
+    },
+    {
+      "idx": 479,
+      "start": 1622.26,
+      "end": 1625.46,
+      "text": "was what you'll look at with me on Wednesday next."
+    },
+    {
+      "idx": 480,
+      "start": 1626.06,
+      "end": 1627.88,
+      "text": "It's rule-based expert systems."
+    },
+    {
+      "idx": 481,
+      "start": 1629.19,
+      "end": 1631.31,
+      "text": "And a program was written at Stanford"
+    },
+    {
+      "idx": 482,
+      "start": 1631.31,
+      "end": 1631.53,
+      "text": "that could learn from a small number of examples."
+    },
+    {
+      "idx": 483,
+      "start": 1631.53,
+      "end": 1631.61,
+      "text": "And it was written in the early dawn age."
+    },
+    {
+      "idx": 484,
+      "start": 1631.61,
+      "end": 1631.69,
+      "text": "It was written in the early dawn age."
+    },
+    {
+      "idx": 485,
+      "start": 1631.69,
+      "end": 1631.97,
+      "text": "It was written in the early dawn age."
+    },
+    {
+      "idx": 486,
+      "start": 1631.99,
+      "end": 1636.23,
+      "text": "It did diagnosis of bacterial infections of the blood."
+    },
+    {
+      "idx": 487,
+      "start": 1636.45,
+      "end": 1639.23,
+      "text": "It turned out to do it better than most doctors,"
+    },
+    {
+      "idx": 488,
+      "start": 1640.68,
+      "end": 1641.78,
+      "text": "most general practitioners."
+    },
+    {
+      "idx": 489,
+      "start": 1642.68,
+      "end": 1646.2,
+      "text": "It was never used, curiously enough,"
+    },
+    {
+      "idx": 490,
+      "start": 1646.93,
+      "end": 1650.69,
+      "text": "because nobody cares what your problem actually is."
+    },
+    {
+      "idx": 491,
+      "start": 1651.21,
+      "end": 1653.15,
+      "text": "They just give you a broad-spectrum antibiotic"
+    },
+    {
+      "idx": 492,
+      "start": 1653.15,
+      "end": 1654.01,
+      "text": "that'll kill everything."
+    },
+    {
+      "idx": 493,
+      "start": 1656.78,
+      "end": 1658.3,
+      "text": "But this late dawn age system,"
+    },
+    {
+      "idx": 494,
+      "start": 1658.7,
+      "end": 1660.04,
+      "text": "the so-called mycin system,"
+    },
+    {
+      "idx": 495,
+      "start": 1660.04,
+      "end": 1665.48,
+      "text": "was the system that launched a thousand companies."
+    },
+    {
+      "idx": 496,
+      "start": 1665.92,
+      "end": 1667.58,
+      "text": "And it was a very important step"
+    },
+    {
+      "idx": 497,
+      "start": 1667.58,
+      "end": 1668.68,
+      "text": "because people started building expert systems"
+    },
+    {
+      "idx": 498,
+      "start": 1668.68,
+      "end": 1669.72,
+      "text": "built on that technology."
+    },
+    {
+      "idx": 499,
+      "start": 1670.06,
+      "end": 1671.56,
+      "text": "Here's one that you don't know you used"
+    },
+    {
+      "idx": 500,
+      "start": 1671.56,
+      "end": 1673.08,
+      "text": "or that was used on your behalf."
+    },
+    {
+      "idx": 501,
+      "start": 1673.42,
+      "end": 1675.8,
+      "text": "If you go through, for example, the Atlanta airport,"
+    },
+    {
+      "idx": 502,
+      "start": 1676.54,
+      "end": 1679.18,
+      "text": "your airplane is parked by a rule-based expert system"
+    },
+    {
+      "idx": 503,
+      "start": 1679.18,
+      "end": 1681.94,
+      "text": "that knows how to park aircraft effectively."
+    },
+    {
+      "idx": 504,
+      "start": 1683.25,
+      "end": 1689.4,
+      "text": "It saves Delta Airlines about half a million dollars a day"
+    },
+    {
+      "idx": 505,
+      "start": 1689.4,
+      "end": 1691.76,
+      "text": "in jet fuel by being a little smarter about how to park them."
+    },
+    {
+      "idx": 506,
+      "start": 1693.78,
+      "end": 1695.44,
+      "text": "So that's an example of an expert system"
+    },
+    {
+      "idx": 507,
+      "start": 1695.44,
+      "end": 1697.18,
+      "text": "that does a little bit of good for a lot of people."
+    },
+    {
+      "idx": 508,
+      "start": 1697.18,
+      "end": 1700.47,
+      "text": "There's Deep Blue."
+    },
+    {
+      "idx": 509,
+      "start": 1700.69,
+      "end": 1703.17,
+      "text": "That takes us to the next age"
+    },
+    {
+      "idx": 510,
+      "start": 1703.17,
+      "end": 1709.63,
+      "text": "beyond the age of expert systems and the business age."
+    },
+    {
+      "idx": 511,
+      "start": 1710.6,
+      "end": 1712.12,
+      "text": "It takes us into this age here,"
+    },
+    {
+      "idx": 512,
+      "start": 1712.56,
+      "end": 1714.12,
+      "text": "which I call the bulldozer age,"
+    },
+    {
+      "idx": 513,
+      "start": 1718.45,
+      "end": 1723.53,
+      "text": "because this is the time when people began to see"
+    },
+    {
+      "idx": 514,
+      "start": 1723.53,
+      "end": 1726.12,
+      "text": "that we had at our disposal"
+    },
+    {
+      "idx": 515,
+      "start": 1726.12,
+      "end": 1727.76,
+      "text": "unlimited amounts of computing,"
+    },
+    {
+      "idx": 516,
+      "start": 1728.18,
+      "end": 1731.46,
+      "text": "and frequently you can substitute computing for intelligence."
+    },
+    {
+      "idx": 517,
+      "start": 1732.0,
+      "end": 1734.6,
+      "text": "So no one would say that Deep Blue"
+    },
+    {
+      "idx": 518,
+      "start": 1734.6,
+      "end": 1735.64,
+      "text": "does anything like that."
+    },
+    {
+      "idx": 519,
+      "start": 1735.64,
+      "end": 1738.4,
+      "text": "It's not anything like what a human chess master does,"
+    },
+    {
+      "idx": 520,
+      "start": 1739.0,
+      "end": 1740.36,
+      "text": "but nevertheless, Deep Blue,"
+    },
+    {
+      "idx": 521,
+      "start": 1740.52,
+      "end": 1745.36,
+      "text": "by processing data like a bulldozer processes gravel,"
+    },
+    {
+      "idx": 522,
+      "start": 1746.06,
+      "end": 1747.52,
+      "text": "was able to beat the world champion."
+    },
+    {
+      "idx": 523,
+      "start": 1751.9,
+      "end": 1752.92,
+      "text": "So what's the right way?"
+    },
+    {
+      "idx": 524,
+      "start": 1753.14,
+      "end": 1754.64,
+      "text": "That's the age we're in right now."
+    },
+    {
+      "idx": 525,
+      "start": 1755.4,
+      "end": 1758.14,
+      "text": "I will, of course, be introducing programs from those ages"
+    },
+    {
+      "idx": 526,
+      "start": 1758.14,
+      "end": 1759.1,
+      "text": "as we go through the subject."
+    },
+    {
+      "idx": 527,
+      "start": 1759.92,
+      "end": 1762.86,
+      "text": "There is a question of what age we're in right now,"
+    },
+    {
+      "idx": 528,
+      "start": 1762.9,
+      "end": 1765.82,
+      "text": "and it's always dangerous to name an age when you're in it, I guess."
+    },
+    {
+      "idx": 529,
+      "start": 1766.34,
+      "end": 1768.96,
+      "text": "I like to call it the age of the right way."
+    },
+    {
+      "idx": 530,
+      "start": 1770.38,
+      "end": 1772.68,
+      "text": "And this is an age when we begin to realize"
+    },
+    {
+      "idx": 531,
+      "start": 1772.68,
+      "end": 1775.64,
+      "text": "that that definition up there is actually a little incomplete"
+    },
+    {
+      "idx": 532,
+      "start": 1775.64,
+      "end": 1779.67,
+      "text": "because much of our intelligence has to do"
+    },
+    {
+      "idx": 533,
+      "start": 1779.67,
+      "end": 1786.17,
+      "text": "not with thinking, perception, and action acting separately,"
+    },
+    {
+      "idx": 534,
+      "start": 1787.38,
+      "end": 1794.26,
+      "text": "but with loops that tie all of those together."
+    },
+    {
+      "idx": 535,
+      "start": 1795.16,
+      "end": 1797.0,
+      "text": "And we had one example with Africa."
+    },
+    {
+      "idx": 536,
+      "start": 1797.48,
+      "end": 1800.32,
+      "text": "Here's another example drawn from a program"
+    },
+    {
+      "idx": 537,
+      "start": 1800.32,
+      "end": 1804.04,
+      "text": "that has been under development and continues to be."
+    },
+    {
+      "idx": 538,
+      "start": 1804.34,
+      "end": 1805.52,
+      "text": "In my laboratory."
+    },
+    {
+      "idx": 539,
+      "start": 1811.49,
+      "end": 1813.45,
+      "text": "We're going to ask the system to imagine something."
+    },
+    {
+      "idx": 540,
+      "start": 1819.95,
+      "end": 1822.61,
+      "text": "I will imagine that a ball falls into a bowl."
+    },
+    {
+      "idx": 541,
+      "start": 1833.99,
+      "end": 1836.49,
+      "text": "I will imagine that a man runs into a woman."
+    },
+    {
+      "idx": 542,
+      "start": 1838.56,
+      "end": 1841.98,
+      "text": "You see, it does the best it can if it doesn't have a good memory"
+    },
+    {
+      "idx": 543,
+      "start": 1841.98,
+      "end": 1844.16,
+      "text": "of what these situations actually involve."
+    },
+    {
+      "idx": 544,
+      "start": 1845.38,
+      "end": 1848.2,
+      "text": "But having imagined the scene, it can then..."
+    },
+    {
+      "idx": 545,
+      "start": 1848.2,
+      "end": 1850.18,
+      "text": "Yes, I have learned from experience"
+    },
+    {
+      "idx": 546,
+      "start": 1850.18,
+      "end": 1852.36,
+      "text": "that contact between a man and a woman"
+    },
+    {
+      "idx": 547,
+      "start": 1852.36,
+      "end": 1854.6,
+      "text": "appeared because a man runs into a woman."
+    },
+    {
+      "idx": 548,
+      "start": 1857.29,
+      "end": 1858.99,
+      "text": "So, having imagined the scene, it can then read the answers"
+    },
+    {
+      "idx": 549,
+      "start": 1858.99,
+      "end": 1863.51,
+      "text": "using its visual apparatus on the scene that it imagined."
+    },
+    {
+      "idx": 550,
+      "start": 1863.63,
+      "end": 1865.15,
+      "text": "So, it's just like what you did with Africa."
+    },
+    {
+      "idx": 551,
+      "start": 1865.71,
+      "end": 1867.67,
+      "text": "Well, now it's working with its own visual memory"
+    },
+    {
+      "idx": 552,
+      "start": 1867.67,
+      "end": 1868.95,
+      "text": "using visual programs."
+    },
+    {
+      "idx": 553,
+      "start": 1872.91,
+      "end": 1875.73,
+      "text": "I'm going to imagine that a man gives a ball to a man."
+    },
+    {
+      "idx": 554,
+      "start": 1877.06,
+      "end": 1880.74,
+      "text": "I know these look like slugs,"
+    },
+    {
+      "idx": 555,
+      "start": 1880.84,
+      "end": 1882.34,
+      "text": "but they're actually distinguished professors."
+    },
+    {
+      "idx": 556,
+      "start": 1886.44,
+      "end": 1887.76,
+      "text": "It always does the best it can."
+    },
+    {
+      "idx": 557,
+      "start": 1899.37,
+      "end": 1901.45,
+      "text": "It's the best that it can do."
+    },
+    {
+      "idx": 558,
+      "start": 1901.85,
+      "end": 1910.08,
+      "text": "So, that concludes our discussion."
+    },
+    {
+      "idx": 559,
+      "start": 1910.14,
+      "end": 1911.84,
+      "text": "Thank you for the introduction of the history"
+    },
+    {
+      "idx": 560,
+      "start": 1911.84,
+      "end": 1914.08,
+      "text": "and provide you with a little bit of a glimpse"
+    },
+    {
+      "idx": 561,
+      "start": 1914.08,
+      "end": 1917.86,
+      "text": "of what we're going to look at as the semester unfolds."
+    },
+    {
+      "idx": 562,
+      "start": 1918.9,
+      "end": 1922.52,
+      "text": "Is it actually a demonstration of something?"
+    },
+    {
+      "idx": 563,
+      "start": 1922.88,
+      "end": 1923.42,
+      "text": "Yeah, of course."
+    },
+    {
+      "idx": 564,
+      "start": 1923.52,
+      "end": 1926.12,
+      "text": "Does it have a large database of videos?"
+    },
+    {
+      "idx": 565,
+      "start": 1926.24,
+      "end": 1927.76,
+      "text": "No, it has a small database of videos."
+    },
+    {
+      "idx": 566,
+      "start": 1930.08,
+      "end": 1932.42,
+      "text": "It's intelligently picking amongst them based on..."
+    },
+    {
+      "idx": 567,
+      "start": 1933.23,
+      "end": 1934.29,
+      "text": "Based on their content."
+    },
+    {
+      "idx": 568,
+      "start": 1936.15,
+      "end": 1937.79,
+      "text": "So, if you say,"
+    },
+    {
+      "idx": 569,
+      "start": 1937.79,
+      "end": 1940.95,
+      "text": "imagine that a student gave a ball to another student,"
+    },
+    {
+      "idx": 570,
+      "start": 1940.95,
+      "end": 1942.35,
+      "text": "it imagines that."
+    },
+    {
+      "idx": 571,
+      "start": 1943.38,
+      "end": 1945.9,
+      "text": "If you say, now, does the other student have the ball?"
+    },
+    {
+      "idx": 572,
+      "start": 1946.36,
+      "end": 1947.36,
+      "text": "Did the other student take the ball?"
+    },
+    {
+      "idx": 573,
+      "start": 1947.58,
+      "end": 1948.58,
+      "text": "It can answer those questions"
+    },
+    {
+      "idx": 574,
+      "start": 1948.58,
+      "end": 1950.36,
+      "text": "because it can review the same video"
+    },
+    {
+      "idx": 575,
+      "start": 1950.36,
+      "end": 1953.18,
+      "text": "and see the take as well as the give in the same video."
+    },
+    {
+      "idx": 576,
+      "start": 1955.84,
+      "end": 1960.34,
+      "text": "So, now we have to think about"
+    },
+    {
+      "idx": 577,
+      "start": 1960.34,
+      "end": 1963.48,
+      "text": "why we ought to be a little optimistic about the future."
+    },
+    {
+      "idx": 578,
+      "start": 1964.32,
+      "end": 1966.32,
+      "text": "Because we've had a long history here"
+    },
+    {
+      "idx": 579,
+      "start": 1966.32,
+      "end": 1967.94,
+      "text": "and we haven't solved the problem."
+    },
+    {
+      "idx": 580,
+      "start": 1968.84,
+      "end": 1970.54,
+      "text": "But one reason why we can be a little optimistic"
+    },
+    {
+      "idx": 581,
+      "start": 1970.54,
+      "end": 1971.76,
+      "text": "about the future is because"
+    },
+    {
+      "idx": 582,
+      "start": 1971.76,
+      "end": 1973.56,
+      "text": "all of our friends have been on the march."
+    },
+    {
+      "idx": 583,
+      "start": 1974.04,
+      "end": 1975.11,
+      "text": "And our friends,"
+    },
+    {
+      "idx": 584,
+      "start": 1975.27,
+      "end": 1977.83,
+      "text": "including the cognitive psychologists,"
+    },
+    {
+      "idx": 585,
+      "start": 1977.83,
+      "end": 1979.59,
+      "text": "the developmental psychologists,"
+    },
+    {
+      "idx": 586,
+      "start": 1981.11,
+      "end": 1982.09,
+      "text": "sometimes the philosophers,"
+    },
+    {
+      "idx": 587,
+      "start": 1982.25,
+      "end": 1985.09,
+      "text": "and especially the paleoanthropologists."
+    },
+    {
+      "idx": 588,
+      "start": 1985.78,
+      "end": 1988.2,
+      "text": "Because it is becoming increasingly clear"
+    },
+    {
+      "idx": 589,
+      "start": 1988.2,
+      "end": 1992.0,
+      "text": "why we're actually different from the chimpanzees"
+    },
+    {
+      "idx": 590,
+      "start": 1992.0,
+      "end": 1993.38,
+      "text": "and how we got to be that way."
+    },
+    {
+      "idx": 591,
+      "start": 1994.39,
+      "end": 1996.33,
+      "text": "The high school idea is that"
+    },
+    {
+      "idx": 592,
+      "start": 1996.33,
+      "end": 2001.98,
+      "text": "we evolve through slow, gradual, and continuous improvement."
+    },
+    {
+      "idx": 593,
+      "start": 2003.38,
+      "end": 2005.14,
+      "text": "But that doesn't seem to be the way it happened."
+    },
+    {
+      "idx": 594,
+      "start": 2005.78,
+      "end": 2006.72,
+      "text": "There are some characteristics,"
+    },
+    {
+      "idx": 595,
+      "start": 2006.74,
+      "end": 2009.96,
+      "text": "some statistics of our species"
+    },
+    {
+      "idx": 596,
+      "start": 2009.96,
+      "end": 2011.96,
+      "text": "that are informative when it comes to"
+    },
+    {
+      "idx": 597,
+      "start": 2011.96,
+      "end": 2014.96,
+      "text": "guiding the activities of people like me."
+    },
+    {
+      "idx": 598,
+      "start": 2014.96,
+      "end": 2017.47,
+      "text": "And here's what the story seems to be"
+    },
+    {
+      "idx": 599,
+      "start": 2017.47,
+      "end": 2020.27,
+      "text": "from the fossil record."
+    },
+    {
+      "idx": 600,
+      "start": 2020.27,
+      "end": 2023.27,
+      "text": "First of all, we humans have been around"
+    },
+    {
+      "idx": 601,
+      "start": 2023.27,
+      "end": 2025.27,
+      "text": "for maybe 200,000 years"
+    },
+    {
+      "idx": 602,
+      "start": 2025.27,
+      "end": 2028.27,
+      "text": "in our present anatomical form."
+    },
+    {
+      "idx": 603,
+      "start": 2028.27,
+      "end": 2031.66,
+      "text": "If someone walked through the door right now"
+    },
+    {
+      "idx": 604,
+      "start": 2031.66,
+      "end": 2033.66,
+      "text": "from 200,000 years ago,"
+    },
+    {
+      "idx": 605,
+      "start": 2033.66,
+      "end": 2035.94,
+      "text": "I imagine they would be dirty."
+    },
+    {
+      "idx": 606,
+      "start": 2035.94,
+      "end": 2038.9,
+      "text": "But other than that,"
+    },
+    {
+      "idx": 607,
+      "start": 2038.9,
+      "end": 2042.79,
+      "text": "I think that's the way we are."
+    },
+    {
+      "idx": 608,
+      "start": 2042.79,
+      "end": 2044.79,
+      "text": "And I'm not saying that."
+    },
+    {
+      "idx": 609,
+      "start": 2044.79,
+      "end": 2045.79,
+      "text": "I'm probably naked, too."
+    },
+    {
+      "idx": 610,
+      "start": 2045.79,
+      "end": 2046.86,
+      "text": "Other than that,"
+    },
+    {
+      "idx": 611,
+      "start": 2046.86,
+      "end": 2048.86,
+      "text": "you wouldn't be able to tell the difference,"
+    },
+    {
+      "idx": 612,
+      "start": 2048.86,
+      "end": 2056.01,
+      "text": "especially at MIT."
+    },
+    {
+      "idx": 613,
+      "start": 2056.01,
+      "end": 2061.0,
+      "text": "And the ensuing 150,000 years"
+    },
+    {
+      "idx": 614,
+      "start": 2061.0,
+      "end": 2063.0,
+      "text": "was a period in which we humans"
+    },
+    {
+      "idx": 615,
+      "start": 2063.0,
+      "end": 2065.61,
+      "text": "didn't actually amount to much."
+    },
+    {
+      "idx": 616,
+      "start": 2065.61,
+      "end": 2069.64,
+      "text": "But somehow, shortly before 50,000 years ago,"
+    },
+    {
+      "idx": 617,
+      "start": 2069.64,
+      "end": 2071.83,
+      "text": "some small group of us"
+    },
+    {
+      "idx": 618,
+      "start": 2071.83,
+      "end": 2073.83,
+      "text": "developed a capability"
+    },
+    {
+      "idx": 619,
+      "start": 2073.83,
+      "end": 2077.6,
+      "text": "that separated us from all other species."
+    },
+    {
+      "idx": 620,
+      "start": 2077.6,
+      "end": 2079.6,
+      "text": "It was an accident of evolution."
+    },
+    {
+      "idx": 621,
+      "start": 2079.6,
+      "end": 2082.82,
+      "text": "And these accidents may or may not happen,"
+    },
+    {
+      "idx": 622,
+      "start": 2082.82,
+      "end": 2085.24,
+      "text": "but it happened to produce us."
+    },
+    {
+      "idx": 623,
+      "start": 2085.24,
+      "end": 2087.24,
+      "text": "It's also the case that we probably necked down"
+    },
+    {
+      "idx": 624,
+      "start": 2087.24,
+      "end": 2089.24,
+      "text": "as a species to a few thousand"
+    },
+    {
+      "idx": 625,
+      "start": 2089.24,
+      "end": 2091.24,
+      "text": "or maybe even a few hundred individuals,"
+    },
+    {
+      "idx": 626,
+      "start": 2091.24,
+      "end": 2094.37,
+      "text": "something which made these accidental changes,"
+    },
+    {
+      "idx": 627,
+      "start": 2094.37,
+      "end": 2096.37,
+      "text": "accidental evolutionary products,"
+    },
+    {
+      "idx": 628,
+      "start": 2096.37,
+      "end": 2098.37,
+      "text": "more capable of sticking."
+    },
+    {
+      "idx": 629,
+      "start": 2098.37,
+      "end": 2101.52,
+      "text": "But this leads us to speculate"
+    },
+    {
+      "idx": 630,
+      "start": 2101.52,
+      "end": 2104.52,
+      "text": "on what it was that happened 50,000 years ago."
+    },
+    {
+      "idx": 631,
+      "start": 2104.52,
+      "end": 2108.52,
+      "text": "And paleoanthropologists, Noam Chomsky,"
+    },
+    {
+      "idx": 632,
+      "start": 2108.52,
+      "end": 2111.87,
+      "text": "a lot of people reached similar conclusions"
+    },
+    {
+      "idx": 633,
+      "start": 2111.87,
+      "end": 2113.87,
+      "text": "and that conclusion is,"
+    },
+    {
+      "idx": 634,
+      "start": 2113.87,
+      "end": 2115.87,
+      "text": "I'll quote Chomsky,"
+    },
+    {
+      "idx": 635,
+      "start": 2115.87,
+      "end": 2117.87,
+      "text": "so I'll use the voice of authority."
+    },
+    {
+      "idx": 636,
+      "start": 2117.87,
+      "end": 2121.26,
+      "text": "It seems that shortly before 50,000 years ago,"
+    },
+    {
+      "idx": 637,
+      "start": 2121.26,
+      "end": 2123.26,
+      "text": "some small group of us"
+    },
+    {
+      "idx": 638,
+      "start": 2123.26,
+      "end": 2125.26,
+      "text": "acquired the ability to take two concepts"
+    },
+    {
+      "idx": 639,
+      "start": 2125.26,
+      "end": 2128.26,
+      "text": "and combine them to make a third concept"
+    },
+    {
+      "idx": 640,
+      "start": 2128.26,
+      "end": 2130.26,
+      "text": "without disturbing the original two concepts"
+    },
+    {
+      "idx": 641,
+      "start": 2133.15,
+      "end": 2136.15,
+      "text": "And from the perspective of an AI person like me,"
+    },
+    {
+      "idx": 642,
+      "start": 2136.15,
+      "end": 2138.15,
+      "text": "what Chomsky seems to be saying is"
+    },
+    {
+      "idx": 643,
+      "start": 2138.15,
+      "end": 2140.15,
+      "text": "we learned how to begin to describe things"
+    },
+    {
+      "idx": 644,
+      "start": 2140.15,
+      "end": 2142.15,
+      "text": "in a way that was intimately connected"
+    },
+    {
+      "idx": 645,
+      "start": 2142.15,
+      "end": 2144.15,
+      "text": "with language and that, in the end,"
+    },
+    {
+      "idx": 646,
+      "start": 2144.15,
+      "end": 2147.15,
+      "text": "is what separates us from the chimpanzees."
+    },
+    {
+      "idx": 647,
+      "start": 2147.15,
+      "end": 2150.3,
+      "text": "So you might say, well, let's just study language."
+    },
+    {
+      "idx": 648,
+      "start": 2150.3,
+      "end": 2153.3,
+      "text": "No, you can't do that because we think with our eyes."
+    },
+    {
+      "idx": 649,
+      "start": 2153.3,
+      "end": 2155.3,
+      "text": "So language does two things."
+    },
+    {
+      "idx": 650,
+      "start": 2155.3,
+      "end": 2157.3,
+      "text": "Number one, it enables us to make descriptions."
+    },
+    {
+      "idx": 651,
+      "start": 2157.3,
+      "end": 2159.3,
+      "text": "Descriptions enable us to tell stories"
+    },
+    {
+      "idx": 652,
+      "start": 2159.3,
+      "end": 2161.3,
+      "text": "and storytelling and story understanding"
+    },
+    {
+      "idx": 653,
+      "start": 2161.3,
+      "end": 2163.3,
+      "text": "is what all of education is about."
+    },
+    {
+      "idx": 654,
+      "start": 2163.3,
+      "end": 2164.3,
+      "text": "That's going up."
+    },
+    {
+      "idx": 655,
+      "start": 2164.3,
+      "end": 2168.3,
+      "text": "And going down, it enables us to marshal"
+    },
+    {
+      "idx": 656,
+      "start": 2168.3,
+      "end": 2170.3,
+      "text": "the resources of our perceptual systems"
+    },
+    {
+      "idx": 657,
+      "start": 2170.3,
+      "end": 2172.3,
+      "text": "and even command our perceptual systems"
+    },
+    {
+      "idx": 658,
+      "start": 2172.3,
+      "end": 2175.3,
+      "text": "to imagine things we've never seen."
+    },
+    {
+      "idx": 659,
+      "start": 2175.3,
+      "end": 2178.78,
+      "text": "So here's an example."
+    },
+    {
+      "idx": 660,
+      "start": 2178.78,
+      "end": 2181.97,
+      "text": "Imagine running down the street"
+    },
+    {
+      "idx": 661,
+      "start": 2181.97,
+      "end": 2184.45,
+      "text": "with a full bucket of water."
+    },
+    {
+      "idx": 662,
+      "start": 2185.45,
+      "end": 2188.98,
+      "text": "Well, your leg gets wet."
+    },
+    {
+      "idx": 663,
+      "start": 2188.98,
+      "end": 2190.98,
+      "text": "The water sloshes out."
+    },
+    {
+      "idx": 664,
+      "start": 2190.98,
+      "end": 2193.98,
+      "text": "You'll never find that fact anywhere on the web."
+    },
+    {
+      "idx": 665,
+      "start": 2193.98,
+      "end": 2197.21,
+      "text": "You've probably never been told that that's what happens"
+    },
+    {
+      "idx": 666,
+      "start": 2197.21,
+      "end": 2200.21,
+      "text": "when you run down the street with a full bucket of water."
+    },
+    {
+      "idx": 667,
+      "start": 2200.21,
+      "end": 2202.21,
+      "text": "But you easily imagine this scenario"
+    },
+    {
+      "idx": 668,
+      "start": 2202.21,
+      "end": 2204.21,
+      "text": "and you know what's going to happen"
+    },
+    {
+      "idx": 669,
+      "start": 2204.21,
+      "end": 2206.21,
+      "text": "through this internal imagination simulation"
+    },
+    {
+      "idx": 670,
+      "start": 2206.21,
+      "end": 2209.21,
+      "text": "we're never going to understand human intelligence"
+    },
+    {
+      "idx": 671,
+      "start": 2209.21,
+      "end": 2211.72,
+      "text": "until we can understand that."
+    },
+    {
+      "idx": 672,
+      "start": 2211.72,
+      "end": 2212.72,
+      "text": "Here's another example."
+    },
+    {
+      "idx": 673,
+      "start": 2212.72,
+      "end": 2215.82,
+      "text": "Imagine running down the street with a full bucket of nickels."
+    },
+    {
+      "idx": 674,
+      "start": 2217.58,
+      "end": 2220.58,
+      "text": "You know, nickels weigh a lot."
+    },
+    {
+      "idx": 675,
+      "start": 2220.58,
+      "end": 2221.58,
+      "text": "You're going to be bent over."
+    },
+    {
+      "idx": 676,
+      "start": 2221.58,
+      "end": 2222.58,
+      "text": "You're going to stagger."
+    },
+    {
+      "idx": 677,
+      "start": 2222.58,
+      "end": 2223.84,
+      "text": "You know that."
+    },
+    {
+      "idx": 678,
+      "start": 2223.84,
+      "end": 2225.84,
+      "text": "But nobody ever told you that."
+    },
+    {
+      "idx": 679,
+      "start": 2225.84,
+      "end": 2228.32,
+      "text": "You won't find it anywhere on the web."
+    },
+    {
+      "idx": 680,
+      "start": 2228.32,
+      "end": 2230.32,
+      "text": "So language is at the center of things"
+    },
+    {
+      "idx": 681,
+      "start": 2230.32,
+      "end": 2232.32,
+      "text": "because it enables storytelling going up"
+    },
+    {
+      "idx": 682,
+      "start": 2232.32,
+      "end": 2234.32,
+      "text": "and marshalling the resources"
+    },
+    {
+      "idx": 683,
+      "start": 2234.32,
+      "end": 2237.48,
+      "text": "of the perceptual apparatus going down."
+    },
+    {
+      "idx": 684,
+      "start": 2237.48,
+      "end": 2240.8,
+      "text": "And that's where we're going to finish the subject this semester"
+    },
+    {
+      "idx": 685,
+      "start": 2240.8,
+      "end": 2243.8,
+      "text": "with trying to understand more about that phenomenon."
+    },
+    {
+      "idx": 686,
+      "start": 2243.8,
+      "end": 2247.21,
+      "text": "So that concludes everything I wanted to say"
+    },
+    {
+      "idx": 687,
+      "start": 2247.21,
+      "end": 2249.21,
+      "text": "about the material and the subject."
+    },
+    {
+      "idx": 688,
+      "start": 2249.21,
+      "end": 2251.43,
+      "text": "Now I want to turn my attention a little bit"
+    },
+    {
+      "idx": 689,
+      "start": 2251.43,
+      "end": 2253.43,
+      "text": "to how we are going to operate the subject"
+    },
+    {
+      "idx": 690,
+      "start": 2253.43,
+      "end": 2256.43,
+      "text": "because there are many characteristics of the subject"
+    },
+    {
+      "idx": 691,
+      "start": 2256.43,
+      "end": 2262.17,
+      "text": "that are confusing and, yeah, confusing."
+    },
+    {
+      "idx": 692,
+      "start": 2262.17,
+      "end": 2268.26,
+      "text": "First of all, we have four kinds of activities in the course."
+    },
+    {
+      "idx": 693,
+      "start": 2268.26,
+      "end": 2303.01,
+      "text": "And each of these has a different purpose."
+    },
+    {
+      "idx": 694,
+      "start": 2303.01,
+      "end": 2320.78,
+      "text": "So I did the lectures,"
+    },
+    {
+      "idx": 695,
+      "start": 2320.78,
+      "end": 2322.78,
+      "text": "and the lectures are supposed to be and are"
+    },
+    {
+      "idx": 696,
+      "start": 2322.78,
+      "end": 2326.85,
+      "text": "about introducing the material and the big picture."
+    },
+    {
+      "idx": 697,
+      "start": 2326.85,
+      "end": 2330.04,
+      "text": "They're about powerful ideas."
+    },
+    {
+      "idx": 698,
+      "start": 2330.04,
+      "end": 2334.32,
+      "text": "They're about the experience side of the course."
+    },
+    {
+      "idx": 699,
+      "start": 2334.32,
+      "end": 2338.41,
+      "text": "Let me step aside and make a remark."
+    },
+    {
+      "idx": 700,
+      "start": 2338.41,
+      "end": 2340.41,
+      "text": "MIT is about two things."
+    },
+    {
+      "idx": 701,
+      "start": 2340.41,
+      "end": 2345.02,
+      "text": "It's about skill building, and it's about big ideas."
+    },
+    {
+      "idx": 702,
+      "start": 2345.02,
+      "end": 2348.4,
+      "text": "So you can learn, you can build a skill at home"
+    },
+    {
+      "idx": 703,
+      "start": 2348.4,
+      "end": 2349.4,
+      "text": "or at home."
+    },
+    {
+      "idx": 704,
+      "start": 2349.4,
+      "end": 2351.4,
+      "text": "You can learn at Dartmouth or at Harvard or Princeton"
+    },
+    {
+      "idx": 705,
+      "start": 2351.4,
+      "end": 2353.98,
+      "text": "or all those kinds of places."
+    },
+    {
+      "idx": 706,
+      "start": 2353.98,
+      "end": 2355.98,
+      "text": "But the experience you can only get at MIT."
+    },
+    {
+      "idx": 707,
+      "start": 2355.98,
+      "end": 2358.98,
+      "text": "I know everybody there is that know an artificial intelligence."
+    },
+    {
+      "idx": 708,
+      "start": 2358.98,
+      "end": 2360.98,
+      "text": "I can tell you about how they think."
+    },
+    {
+      "idx": 709,
+      "start": 2360.98,
+      "end": 2361.98,
+      "text": "I can tell you about how I think."
+    },
+    {
+      "idx": 710,
+      "start": 2361.98,
+      "end": 2364.98,
+      "text": "And that's something you're not going to get any other place."
+    },
+    {
+      "idx": 711,
+      "start": 2364.98,
+      "end": 2369.36,
+      "text": "So that's my role as I see it in giving these lectures."
+    },
+    {
+      "idx": 712,
+      "start": 2369.36,
+      "end": 2374.84,
+      "text": "Recitations are for buttressing and expanding on the material"
+    },
+    {
+      "idx": 713,
+      "start": 2374.84,
+      "end": 2380.63,
+      "text": "and providing a venue that's small enough for discussion."
+    },
+    {
+      "idx": 714,
+      "start": 2380.63,
+      "end": 2382.63,
+      "text": "Mega recitations are an unusual component"
+    },
+    {
+      "idx": 715,
+      "start": 2382.63,
+      "end": 2383.63,
+      "text": "of the course."
+    },
+    {
+      "idx": 716,
+      "start": 2383.63,
+      "end": 2385.63,
+      "text": "They're taught at the same hour on Fridays."
+    },
+    {
+      "idx": 717,
+      "start": 2385.63,
+      "end": 2389.63,
+      "text": "Mark Seifter, my graduate student, will be teaching those."
+    },
+    {
+      "idx": 718,
+      "start": 2389.63,
+      "end": 2392.63,
+      "text": "And those are wrapped around past quiz problems,"
+    },
+    {
+      "idx": 719,
+      "start": 2392.63,
+      "end": 2394.63,
+      "text": "and Mark will show you how to work them."
+    },
+    {
+      "idx": 720,
+      "start": 2394.63,
+      "end": 2399.18,
+      "text": "So it's a very important component to the subject."
+    },
+    {
+      "idx": 721,
+      "start": 2399.18,
+      "end": 2404.94,
+      "text": "And finally, the tutorials are about helping you with the homework."
+    },
+    {
+      "idx": 722,
+      "start": 2404.94,
+      "end": 2410.51,
+      "text": "So you might say to me, well, do I really need to go to class?"
+    },
+    {
+      "idx": 723,
+      "start": 2411.25,
+      "end": 2415.25,
+      "text": "And I like to say that the answer is only if you like to pass the subject."
+    },
+    {
+      "idx": 724,
+      "start": 2415.25,
+      "end": 2422.62,
+      "text": "But you are MIT students, and MIT people always like to look at the data."
+    },
+    {
+      "idx": 725,
+      "start": 2422.62,
+      "end": 2430.89,
+      "text": "So this is a scattergram we made after the subject was taught last fall"
+    },
+    {
+      "idx": 726,
+      "start": 2430.89,
+      "end": 2434.92,
+      "text": "that shows the relationship between attendance at lectures"
+    },
+    {
+      "idx": 727,
+      "start": 2434.92,
+      "end": 2438.88,
+      "text": "and the grades awarded in the course."
+    },
+    {
+      "idx": 728,
+      "start": 2438.88,
+      "end": 2441.88,
+      "text": "And if you're not sure what that all means, here's the regression line."
+    },
+    {
+      "idx": 729,
+      "start": 2441.88,
+      "end": 2450.85,
+      "text": "So that information is a little suspect for two reasons,"
+    },
+    {
+      "idx": 730,
+      "start": 2450.85,
+      "end": 2453.07,
+      "text": "one of which is we ask people to self-report."
+    },
+    {
+      "idx": 731,
+      "start": 2453.07,
+      "end": 2454.26,
+      "text": "And that's a little bit of a surprise."
+    },
+    {
+      "idx": 732,
+      "start": 2454.26,
+      "end": 2458.39,
+      "text": "We ask people to self-report on how many lectures they thought they attended."
+    },
+    {
+      "idx": 733,
+      "start": 2458.39,
+      "end": 2466.79,
+      "text": "And our mechanism for assigning these numerical grades is a little weird."
+    },
+    {
+      "idx": 734,
+      "start": 2466.79,
+      "end": 2471.79,
+      "text": "And there's a third thing, too, and that is one must never confuse correlation with cause."
+    },
+    {
+      "idx": 735,
+      "start": 2472.53,
+      "end": 2476.53,
+      "text": "You can think of other explanations for why that trend line goes up,"
+    },
+    {
+      "idx": 736,
+      "start": 2476.53,
+      "end": 2485.62,
+      "text": "different from whether it has something to do with lectures producing good grades."
+    },
+    {
+      "idx": 737,
+      "start": 2485.62,
+      "end": 2487.62,
+      "text": "You might ask how I feel about the people up there"
+    },
+    {
+      "idx": 738,
+      "start": 2487.62,
+      "end": 2490.84,
+      "text": "in the upper left-hand corner."
+    },
+    {
+      "idx": 739,
+      "start": 2490.84,
+      "end": 2493.84,
+      "text": "There are one or two people who are near the top of the subject"
+    },
+    {
+      "idx": 740,
+      "start": 2493.84,
+      "end": 2497.48,
+      "text": "who didn't go to class at all."
+    },
+    {
+      "idx": 741,
+      "start": 2497.48,
+      "end": 2500.77,
+      "text": "And I have mixed feelings about that."
+    },
+    {
+      "idx": 742,
+      "start": 2500.77,
+      "end": 2502.77,
+      "text": "You're adults, it's your call."
+    },
+    {
+      "idx": 743,
+      "start": 2502.77,
+      "end": 2507.09,
+      "text": "On the other hand, I wish that if that's what you do habitually"
+    },
+    {
+      "idx": 744,
+      "start": 2507.09,
+      "end": 2511.09,
+      "text": "in all the subjects you take at MIT, that you would resign and go somewhere else"
+    },
+    {
+      "idx": 745,
+      "start": 2511.09,
+      "end": 2514.09,
+      "text": "and let somebody else take your slot,"
+    },
+    {
+      "idx": 746,
+      "start": 2514.09,
+      "end": 2517.09,
+      "text": "because you're not benefiting from the powerful ideas"
+    },
+    {
+      "idx": 747,
+      "start": 2517.09,
+      "end": 2519.09,
+      "text": "and the other kinds of things that involve interaction."
+    },
+    {
+      "idx": 748,
+      "start": 2519.09,
+      "end": 2523.38,
+      "text": "So it can be done, but I don't recommend it."
+    },
+    {
+      "idx": 749,
+      "start": 2523.38,
+      "end": 2528.38,
+      "text": "By the way, all of the four activities that we have here show similar regression lines."
+    },
+    {
+      "idx": 750,
+      "start": 2528.38,
+      "end": 2532.52,
+      "text": "But what about that five-point scale?"
+    },
+    {
+      "idx": 751,
+      "start": 2532.52,
+      "end": 2534.52,
+      "text": "Let me explain how that works to you."
+    },
+    {
+      "idx": 752,
+      "start": 2534.52,
+      "end": 2539.52,
+      "text": "We love to have people ask us what the class average is on a quiz,"
+    },
+    {
+      "idx": 753,
+      "start": 2539.52,
+      "end": 2542.71,
+      "text": "because that's when we get to use our blank stare,"
+    },
+    {
+      "idx": 754,
+      "start": 2542.71,
+      "end": 2547.81,
+      "text": "because we have no idea what the class average ever is on any quiz."
+    },
+    {
+      "idx": 755,
+      "start": 2547.81,
+      "end": 2566.22,
+      "text": "Here's what we do."
+    },
+    {
+      "idx": 756,
+      "start": 2566.22,
+      "end": 2568.22,
+      "text": "Like everybody else, we start off with a,"
+    },
+    {
+      "idx": 757,
+      "start": 2568.22,
+      "end": 2570.61,
+      "text": "we start off with a score from 0 to 100."
+    },
+    {
+      "idx": 758,
+      "start": 2570.61,
+      "end": 2572.77,
+      "text": "But then we say to ourselves,"
+    },
+    {
+      "idx": 759,
+      "start": 2572.77,
+      "end": 2576.77,
+      "text": "what score would you get if you had a thorough understanding of the material?"
+    },
+    {
+      "idx": 760,
+      "start": 2576.77,
+      "end": 2582.25,
+      "text": "And we say, well, for this particular exam, it's this number right here."
+    },
+    {
+      "idx": 761,
+      "start": 2582.25,
+      "end": 2585.25,
+      "text": "And what score would you get if you had a good understanding of the material?"
+    },
+    {
+      "idx": 762,
+      "start": 2585.25,
+      "end": 2587.38,
+      "text": "That's that score."
+    },
+    {
+      "idx": 763,
+      "start": 2587.38,
+      "end": 2590.38,
+      "text": "And what happens if you're down here is that you're falling off the edge"
+    },
+    {
+      "idx": 764,
+      "start": 2590.38,
+      "end": 2594.98,
+      "text": "of the range in which we think you need to do more work."
+    },
+    {
+      "idx": 765,
+      "start": 2594.98,
+      "end": 2597.98,
+      "text": "So what we do is we say that if you're in this range here,"
+    },
+    {
+      "idx": 766,
+      "start": 2597.98,
+      "end": 2600.5,
+      "text": "following MIT convention with GPS,"
+    },
+    {
+      "idx": 767,
+      "start": 2600.5,
+      "end": 2602.5,
+      "text": "and stuff, that gets you a 5."
+    },
+    {
+      "idx": 768,
+      "start": 2602.5,
+      "end": 2606.69,
+      "text": "If you're in this range down here, there's a sharp drop off to 4."
+    },
+    {
+      "idx": 769,
+      "start": 2606.69,
+      "end": 2611.17,
+      "text": "And if you're in this range down here, there's a sharp fall off to 3."
+    },
+    {
+      "idx": 770,
+      "start": 2611.17,
+      "end": 2615.64,
+      "text": "So that means that if you're in the middle of one of those plateaus,"
+    },
+    {
+      "idx": 771,
+      "start": 2615.64,
+      "end": 2620.31,
+      "text": "there's no point in arguing with us, because it's not going to do you any good."
+    },
+    {
+      "idx": 772,
+      "start": 2620.31,
+      "end": 2625.43,
+      "text": "We have these boundaries where we think performance breakpoints are."
+    },
+    {
+      "idx": 773,
+      "start": 2625.43,
+      "end": 2627.43,
+      "text": "And you say, well, that seems a little harsh."
+    },
+    {
+      "idx": 774,
+      "start": 2627.43,
+      "end": 2629.43,
+      "text": "There might be a few points, blah, blah, blah, blah, blah,"
+    },
+    {
+      "idx": 775,
+      "start": 2629.43,
+      "end": 2630.43,
+      "text": "and start arguing."
+    },
+    {
+      "idx": 776,
+      "start": 2630.43,
+      "end": 2632.43,
+      "text": "But then we will come back with the second major innovation we have in this,"
+    },
+    {
+      "idx": 777,
+      "start": 2632.43,
+      "end": 2633.43,
+      "text": "in the next class."
+    },
+    {
+      "idx": 778,
+      "start": 2633.43,
+      "end": 2639.62,
+      "text": "And that is that your grade is calculated in several parts."
+    },
+    {
+      "idx": 779,
+      "start": 2639.62,
+      "end": 2648.55,
+      "text": "Part one is the max of your grade on Q1 and part one of the final."
+    },
+    {
+      "idx": 780,
+      "start": 2648.55,
+      "end": 2652.86,
+      "text": "So in other words, you get two shots at everything."
+    },
+    {
+      "idx": 781,
+      "start": 2652.86,
+      "end": 2658.86,
+      "text": "So if you have complete, glorious, undeniable, horrible F on the first quiz,"
+    },
+    {
+      "idx": 782,
+      "start": 2658.86,
+      "end": 2662.86,
+      "text": "it gets erased on the final if you do well on that part of the final."
+    },
+    {
+      "idx": 783,
+      "start": 2662.86,
+      "end": 2665.31,
+      "text": "So each quiz has a corresponding mirror."
+    },
+    {
+      "idx": 784,
+      "start": 2665.31,
+      "end": 2671.57,
+      "text": "And you get the max of the score you got on those two pieces."
+    },
+    {
+      "idx": 785,
+      "start": 2671.57,
+      "end": 2675.21,
+      "text": "And now you say to me, I'm an MISD student."
+    },
+    {
+      "idx": 786,
+      "start": 2675.21,
+      "end": 2677.59,
+      "text": "I have a lot of guts."
+    },
+    {
+      "idx": 787,
+      "start": 2677.59,
+      "end": 2680.66,
+      "text": "I'm only going to take the final."
+    },
+    {
+      "idx": 788,
+      "start": 2680.66,
+      "end": 2685.22,
+      "text": "It has been done."
+    },
+    {
+      "idx": 789,
+      "start": 2685.22,
+      "end": 2689.3,
+      "text": "We don't recommend it."
+    },
+    {
+      "idx": 790,
+      "start": 2689.3,
+      "end": 2693.3,
+      "text": "And the reason we don't recommend it is that we don't expect everybody to do all of the finals."
+    },
+    {
+      "idx": 791,
+      "start": 2693.3,
+      "end": 2696.3,
+      "text": "So there will be a lot of time pressure if you thought to do all of the final,"
+    },
+    {
+      "idx": 792,
+      "start": 2696.3,
+      "end": 2699.33,
+      "text": "all five parts of the final."
+    },
+    {
+      "idx": 793,
+      "start": 2699.33,
+      "end": 2701.68,
+      "text": "So we have four quizzes."
+    },
+    {
+      "idx": 794,
+      "start": 2701.68,
+      "end": 2708.29,
+      "text": "And the final has a fifth part because there's some material that we teach you after the last data"
+    },
+    {
+      "idx": 795,
+      "start": 2708.29,
+      "end": 2710.29,
+      "text": "in which we can give you a final by incident rules."
+    },
+    {
+      "idx": 796,
+      "start": 2710.29,
+      "end": 2712.35,
+      "text": "But that's roughly how it works."
+    },
+    {
+      "idx": 797,
+      "start": 2712.35,
+      "end": 2719.92,
+      "text": "And you can read about more of the details in the FAQ on the subject home page."
+    },
+    {
+      "idx": 798,
+      "start": 2719.92,
+      "end": 2721.92,
+      "text": "So now we're almost done."
+    },
+    {
+      "idx": 799,
+      "start": 2721.92,
+      "end": 2725.92,
+      "text": "I just want to talk a little bit about how we're going to communicate with you"
+    },
+    {
+      "idx": 800,
+      "start": 2725.92,
+      "end": 2730.05,
+      "text": "in the next few days while we're getting ourselves organized."
+    },
+    {
+      "idx": 801,
+      "start": 2730.05,
+      "end": 2732.05,
+      "text": "So number one, if I could ask the TAs to help me pass these out."
+    },
+    {
+      "idx": 802,
+      "start": 2732.05,
+      "end": 2739.59,
+      "text": "We need to schedule you into tutorials, so we're going to ask you to fill out this form"
+    },
+    {
+      "idx": 803,
+      "start": 2739.59,
+      "end": 2744.15,
+      "text": "and give it to us before you leave."
+    },
+    {
+      "idx": 804,
+      "start": 2744.15,
+      "end": 2748.94,
+      "text": "So you'll be hearing from us once we do the sort."
+    },
+    {
+      "idx": 805,
+      "start": 2748.94,
+      "end": 2756.9,
+      "text": "There's the issue of whether we're going to have recitations and a mega,"
+    },
+    {
+      "idx": 806,
+      "start": 2756.9,
+      "end": 2759.9,
+      "text": "ordinary recitations and a mega recitation this week."
+    },
+    {
+      "idx": 807,
+      "start": 2759.9,
+      "end": 2761.9,
+      "text": "So pay attention."
+    },
+    {
+      "idx": 808,
+      "start": 2761.9,
+      "end": 2764.9,
+      "text": "Otherwise you're going to be stranded in a classroom with nothing to do."
+    },
+    {
+      "idx": 809,
+      "start": 2764.9,
+      "end": 2766.9,
+      "text": "We are not going to have any regular recitations this week."
+    },
+    {
+      "idx": 810,
+      "start": 2767.9,
+      "end": 2771.66,
+      "text": "Are we having regular recitations this week, Jeff?"
+    },
+    {
+      "idx": 811,
+      "start": 2774.36,
+      "end": 2784.19,
+      "text": "We may and probably will have a mega recitation this week that's devoted to a Python review."
+    },
+    {
+      "idx": 812,
+      "start": 2784.19,
+      "end": 2790.38,
+      "text": "Now we know that there are many of you who are celebrating a religious holiday on Friday."
+    },
+    {
+      "idx": 813,
+      "start": 2790.38,
+      "end": 2797.86,
+      "text": "And so we will be putting a lot of resources online so that you can get that review in another way."
+    },
+    {
+      "idx": 814,
+      "start": 2797.86,
+      "end": 2801.86,
+      "text": "But we probably will have a Python review on Friday."
+    },
+    {
+      "idx": 815,
+      "start": 2801.86,
+      "end": 2807.86,
+      "text": "And we ask that you look at our homepage for further information about that as the week progresses."
+    },
+    {
+      "idx": 816,
+      "start": 2807.86,
+      "end": 2810.38,
+      "text": "So that's all, folks."
+    },
+    {
+      "idx": 817,
+      "start": 2810.38,
+      "end": 2812.38,
+      "text": "That concludes what we're going to do today."
+    },
+    {
+      "idx": 818,
+      "start": 2812.38,
+      "end": 2816.92,
+      "text": "And as soon as you give us your form, we're through."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "video_id": "oOya3cFmAMc",
+  "boundaries_sec": [
+    16.0,
+    182.0,
+    335.0,
+    587.0,
+    800.0,
+    942.0,
+    1293.0,
+    1593.0,
+    1797.0,
+    2192.0,
+    2472.0,
+    2577.0,
+    2700.0,
+    2762.0
+  ],
+  "titles": [
+    "Intro",
+    "Lipids",
+    "phospholipids",
+    "membrane selfhealing",
+    "amino acids",
+    "amino acid side chains",
+    "amino acid polymers",
+    "peptides",
+    "protein folding",
+    "secondary structure",
+    "tertiary structure",
+    "protein simulation",
+    "Quaternary structure",
+    "Proteins",
+    "Collagen"
+  ],
+  "num_chapters": 15,
+  "duration_sec": 3100.0
+}

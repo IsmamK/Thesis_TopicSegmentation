@@ -1,0 +1,287 @@
+{
+  "video_id": "8yT4RZy1t3s",
+  "annotator": "llm_a",
+  "status": "reviewed",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Introduction"
+    },
+    {
+      "start_sec": 215.0,
+      "title": "Consent"
+    },
+    {
+      "start_sec": 265.0,
+      "title": "Military Conscription"
+    },
+    {
+      "start_sec": 360.0,
+      "title": "Solution"
+    },
+    {
+      "start_sec": 420.0,
+      "title": "Conscription"
+    },
+    {
+      "start_sec": 660.0,
+      "title": "Coercion"
+    },
+    {
+      "start_sec": 770.0,
+      "title": "Emily"
+    },
+    {
+      "start_sec": 1020.0,
+      "title": "Civil War vs Army"
+    },
+    {
+      "start_sec": 1120.0,
+      "title": "The AllVolunteer Army"
+    },
+    {
+      "start_sec": 1250.0,
+      "title": "Patriotism"
+    },
+    {
+      "start_sec": 1620.0,
+      "title": "Andrews Challenge"
+    },
+    {
+      "start_sec": 1656.0,
+      "title": "Egg Donor Ads"
+    },
+    {
+      "start_sec": 2155.0,
+      "title": "The Contract"
+    },
+    {
+      "start_sec": 2270.0,
+      "title": "Anna"
+    },
+    {
+      "start_sec": 2311.0,
+      "title": "Kathleen"
+    },
+    {
+      "start_sec": 2387.0,
+      "title": "Andrew"
+    },
+    {
+      "start_sec": 2467.0,
+      "title": "Discussion"
+    },
+    {
+      "start_sec": 2976.0,
+      "title": "Dehumanization"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Funding and Consent"
+    },
+    {
+      "start_sec": 85.0,
+      "chapter_idx": 0,
+      "title": "Taxation Limits"
+    },
+    {
+      "start_sec": 155.0,
+      "chapter_idx": 0,
+      "title": "Right to Life and Conscription"
+    },
+    {
+      "start_sec": 215.0,
+      "chapter_idx": 1,
+      "title": "Consent"
+    },
+    {
+      "start_sec": 265.0,
+      "chapter_idx": 2,
+      "title": "Military Conscription"
+    },
+    {
+      "start_sec": 360.0,
+      "chapter_idx": 3,
+      "title": "Solution"
+    },
+    {
+      "start_sec": 420.0,
+      "chapter_idx": 4,
+      "title": "Audience Opinion on Conscription"
+    },
+    {
+      "start_sec": 525.0,
+      "chapter_idx": 4,
+      "title": "Civil War Hybrid System Explanation"
+    },
+    {
+      "start_sec": 600.0,
+      "chapter_idx": 4,
+      "title": "Moral Justification of Civil War System"
+    },
+    {
+      "start_sec": 600.0,
+      "chapter_idx": 4,
+      "title": "Criticism of Civil War System"
+    },
+    {
+      "start_sec": 660.0,
+      "chapter_idx": 5,
+      "title": "Coercion"
+    },
+    {
+      "start_sec": 770.0,
+      "chapter_idx": 6,
+      "title": "Civil War Drafting System Analysis"
+    },
+    {
+      "start_sec": 828.0,
+      "chapter_idx": 6,
+      "title": "Volunteer Army Comparison to Civil War"
+    },
+    {
+      "start_sec": 886.0,
+      "chapter_idx": 6,
+      "title": "Audience Opinion on All-Volunteer Military"
+    },
+    {
+      "start_sec": 942.0,
+      "chapter_idx": 6,
+      "title": "Emily's Challenge to All-Volunteer Military"
+    },
+    {
+      "start_sec": 1020.0,
+      "chapter_idx": 7,
+      "title": "Civil War vs Army"
+    },
+    {
+      "start_sec": 1120.0,
+      "chapter_idx": 8,
+      "title": "Comparison between All-Volunteer Army and Civil War Army"
+    },
+    {
+      "start_sec": 1164.0,
+      "chapter_idx": 8,
+      "title": "Motivation for Joining the All-Volunteer Army"
+    },
+    {
+      "start_sec": 1190.0,
+      "chapter_idx": 8,
+      "title": "Patriotism as a Motivation for Military Service"
+    },
+    {
+      "start_sec": 1190.0,
+      "chapter_idx": 8,
+      "title": "Discussion on Patriotism vs. Money in Military Service"
+    },
+    {
+      "start_sec": 1250.0,
+      "chapter_idx": 9,
+      "title": "Patriotism as motivation for military service"
+    },
+    {
+      "start_sec": 1398.0,
+      "chapter_idx": 9,
+      "title": "Paid vs conscripted army"
+    },
+    {
+      "start_sec": 1496.0,
+      "chapter_idx": 9,
+      "title": "Market allocation of military service"
+    },
+    {
+      "start_sec": 1560.0,
+      "chapter_idx": 9,
+      "title": "Objections to market exchange in military service"
+    },
+    {
+      "start_sec": 1620.0,
+      "chapter_idx": 10,
+      "title": "Andrews Challenge"
+    },
+    {
+      "start_sec": 1656.0,
+      "chapter_idx": 11,
+      "title": "Egg Donor Ads Discussion"
+    },
+    {
+      "start_sec": 1758.0,
+      "chapter_idx": 11,
+      "title": "Financial Incentives for Egg Donors"
+    },
+    {
+      "start_sec": 1845.0,
+      "chapter_idx": 11,
+      "title": "Sperm Donation Market"
+    },
+    {
+      "start_sec": 1956.0,
+      "chapter_idx": 11,
+      "title": "Commercial Sperm Bank California Cryobank"
+    },
+    {
+      "start_sec": 2058.0,
+      "chapter_idx": 11,
+      "title": "Case of Commercial Surrogate Motherhood - Baby M"
+    },
+    {
+      "start_sec": 2155.0,
+      "chapter_idx": 12,
+      "title": "The Contract"
+    },
+    {
+      "start_sec": 2270.0,
+      "chapter_idx": 13,
+      "title": "Anna"
+    },
+    {
+      "start_sec": 2311.0,
+      "chapter_idx": 14,
+      "title": "Kathleen"
+    },
+    {
+      "start_sec": 2387.0,
+      "chapter_idx": 15,
+      "title": "Andrew"
+    },
+    {
+      "start_sec": 2467.0,
+      "chapter_idx": 16,
+      "title": "Discussion on Emotional Bond"
+    },
+    {
+      "start_sec": 2605.0,
+      "chapter_idx": 16,
+      "title": "Comparison of Adoption and Surrogacy to Baby Selling"
+    },
+    {
+      "start_sec": 2778.0,
+      "chapter_idx": 16,
+      "title": "Personal Perspective on Sperm Donation"
+    },
+    {
+      "start_sec": 2872.0,
+      "chapter_idx": 16,
+      "title": "Comparison of Services in Surrogacy, Commercial Surrogacy, and Sperm Banking"
+    },
+    {
+      "start_sec": 2976.0,
+      "chapter_idx": 17,
+      "title": "Dehumanization in Surrogacy"
+    },
+    {
+      "start_sec": 3138.0,
+      "chapter_idx": 17,
+      "title": "Alternative Modes of Valuation"
+    },
+    {
+      "start_sec": 3250.0,
+      "chapter_idx": 17,
+      "title": "Scandal of Cecil Jacobson"
+    }
+  ]
+}

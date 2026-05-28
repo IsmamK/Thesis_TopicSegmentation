@@ -1,0 +1,36 @@
+{
+  "video_id": "zNVQfWC_evg",
+  "boundaries_sec": [
+    189.0,
+    360.0,
+    687.0,
+    2012.0,
+    2106.0,
+    2262.0,
+    2348.0,
+    2545.0,
+    2641.0,
+    2749.0,
+    2837.0,
+    2961.0,
+    3030.0
+  ],
+  "titles": [
+    "Introduction",
+    "The periodic table",
+    "Inside the atom",
+    "The electric and magnetic fields",
+    "The new periodic table",
+    "Four forces",
+    "The standard model",
+    "The Higgs field",
+    "The theory of everything (so far) Electromagnetism",
+    "There's stuff we're missing",
+    "The Fireball of the Big Bang",
+    "What quantum field are we seeing here?",
+    "Back on Earth",
+    "Ideas of unification"
+  ],
+  "num_chapters": 14,
+  "duration_sec": 3617.0
+}

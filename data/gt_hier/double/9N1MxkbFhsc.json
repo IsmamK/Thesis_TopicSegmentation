@@ -1,0 +1,262 @@
+{
+  "video_id": "9N1MxkbFhsc",
+  "annotator": "llm_b_fallback",
+  "status": "draft",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Intro"
+    },
+    {
+      "start_sec": 73.0,
+      "title": "Chemistry of a Cell"
+    },
+    {
+      "start_sec": 397.0,
+      "title": "Carbon, Oxygen, and Nitrogen Chemistry"
+    },
+    {
+      "start_sec": 463.0,
+      "title": "Covalent vs. Noncovalent Bonding"
+    },
+    {
+      "start_sec": 551.0,
+      "title": "Hydrogen Bonding in DNA"
+    },
+    {
+      "start_sec": 728.0,
+      "title": "lonic and hydrophobic interactions"
+    },
+    {
+      "start_sec": 826.0,
+      "title": "The Magic Methyl Group"
+    },
+    {
+      "start_sec": 882.0,
+      "title": "The Fabulous Phosphate Group"
+    },
+    {
+      "start_sec": 970.0,
+      "title": "The awesome Acetyl group"
+    },
+    {
+      "start_sec": 1067.0,
+      "title": "Sugars and Polysaccharides"
+    },
+    {
+      "start_sec": 1144.0,
+      "title": "Phospholipids"
+    },
+    {
+      "start_sec": 1245.0,
+      "title": "Cholesterol"
+    },
+    {
+      "start_sec": 1324.0,
+      "title": "The Amino Acids"
+    },
+    {
+      "start_sec": 1534.0,
+      "title": "Polypeptides/Proteins"
+    },
+    {
+      "start_sec": 1604.0,
+      "title": "Nucleotides"
+    },
+    {
+      "start_sec": 1699.0,
+      "title": "Biochemical Reactions and Metabolism"
+    },
+    {
+      "start_sec": 1798.0,
+      "title": "Thermodynamics"
+    },
+    {
+      "start_sec": 1924.0,
+      "title": "Where does all the energy for life come from?"
+    },
+    {
+      "start_sec": 2047.0,
+      "title": "Catalysis and Activation Energy"
+    },
+    {
+      "start_sec": 2161.0,
+      "title": "Coupled Reactions and Free Energy"
+    },
+    {
+      "start_sec": 2243.0,
+      "title": "Concentration and Dynamic Equilibrium"
+    },
+    {
+      "start_sec": 2401.0,
+      "title": "Enzymes Do Not Change the Equilibrium Constant"
+    },
+    {
+      "start_sec": 2487.0,
+      "title": "Stored energy is used to drive reactions."
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Intro"
+    },
+    {
+      "start_sec": 73.0,
+      "chapter_idx": 1,
+      "title": "Cell Compartments and Redox Reactions"
+    },
+    {
+      "start_sec": 210.0,
+      "chapter_idx": 1,
+      "title": "Essential Elements in the Cell"
+    },
+    {
+      "start_sec": 310.0,
+      "chapter_idx": 1,
+      "title": "Iron Sulfur Clusters and Cellular Metabolism"
+    },
+    {
+      "start_sec": 397.0,
+      "chapter_idx": 2,
+      "title": "Carbon, Oxygen, and Nitrogen Chemistry"
+    },
+    {
+      "start_sec": 463.0,
+      "chapter_idx": 3,
+      "title": "Covalent vs. Noncovalent Bonding"
+    },
+    {
+      "start_sec": 551.0,
+      "chapter_idx": 4,
+      "title": "Hydrogen Bonding in DNA"
+    },
+    {
+      "start_sec": 645.0,
+      "chapter_idx": 4,
+      "title": "Directionality of DNA and Phosphate Backbone"
+    },
+    {
+      "start_sec": 668.0,
+      "chapter_idx": 4,
+      "title": "Rosalind Franklin's X-ray Crystal Data"
+    },
+    {
+      "start_sec": 728.0,
+      "chapter_idx": 5,
+      "title": "lonic and hydrophobic interactions"
+    },
+    {
+      "start_sec": 826.0,
+      "chapter_idx": 6,
+      "title": "The Magic Methyl Group"
+    },
+    {
+      "start_sec": 882.0,
+      "chapter_idx": 7,
+      "title": "The Fabulous Phosphate Group"
+    },
+    {
+      "start_sec": 970.0,
+      "chapter_idx": 8,
+      "title": "The awesome Acetyl group"
+    },
+    {
+      "start_sec": 1067.0,
+      "chapter_idx": 9,
+      "title": "Sugars and Polysaccharides"
+    },
+    {
+      "start_sec": 1144.0,
+      "chapter_idx": 10,
+      "title": "Phospholipids"
+    },
+    {
+      "start_sec": 1245.0,
+      "chapter_idx": 11,
+      "title": "Cholesterol"
+    },
+    {
+      "start_sec": 1324.0,
+      "chapter_idx": 12,
+      "title": "Amino Acids Importance"
+    },
+    {
+      "start_sec": 1470.0,
+      "chapter_idx": 12,
+      "title": "Amino Acid Categories"
+    },
+    {
+      "start_sec": 1534.0,
+      "chapter_idx": 13,
+      "title": "Polypeptides/Proteins"
+    },
+    {
+      "start_sec": 1604.0,
+      "chapter_idx": 14,
+      "title": "Nucleotides"
+    },
+    {
+      "start_sec": 1699.0,
+      "chapter_idx": 15,
+      "title": "Biochemical Reactions and Metabolism"
+    },
+    {
+      "start_sec": 1798.0,
+      "chapter_idx": 16,
+      "title": "Entropy vs Enthalpy"
+    },
+    {
+      "start_sec": 1864.0,
+      "chapter_idx": 16,
+      "title": "Three Laws of Thermodynamics"
+    },
+    {
+      "start_sec": 1924.0,
+      "chapter_idx": 17,
+      "title": "Entropy and Energy"
+    },
+    {
+      "start_sec": 1987.0,
+      "chapter_idx": 17,
+      "title": "Photosynthesis as Energy Source"
+    },
+    {
+      "start_sec": 1987.0,
+      "chapter_idx": 17,
+      "title": "Exceptions to the Rule"
+    },
+    {
+      "start_sec": 2047.0,
+      "chapter_idx": 18,
+      "title": "Catalysis and Activation Energy"
+    },
+    {
+      "start_sec": 2161.0,
+      "chapter_idx": 19,
+      "title": "Coupled Reactions and Free Energy"
+    },
+    {
+      "start_sec": 2243.0,
+      "chapter_idx": 20,
+      "title": "Concentration and Dynamic Equilibrium Basics"
+    },
+    {
+      "start_sec": 2341.0,
+      "chapter_idx": 20,
+      "title": "Equilibrium Constant and Reaction Rates"
+    },
+    {
+      "start_sec": 2401.0,
+      "chapter_idx": 21,
+      "title": "Enzymes Do Not Change the Equilibrium Constant"
+    },
+    {
+      "start_sec": 2487.0,
+      "chapter_idx": 22,
+      "title": "Stored energy is used to drive reactions."
+    }
+  ]
+}

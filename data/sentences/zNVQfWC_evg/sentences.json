@@ -1,0 +1,5765 @@
+{
+  "video_id": "zNVQfWC_evg",
+  "sentences": [
+    {
+      "idx": 0,
+      "start": 1.07,
+      "end": 13.57,
+      "text": "Tonight, I'd like to tell you about one of the big questions in science."
+    },
+    {
+      "idx": 1,
+      "start": 14.32,
+      "end": 19.66,
+      "text": "It's a question that goes back at least two and a half thousand years to the ancient Greeks."
+    },
+    {
+      "idx": 2,
+      "start": 20.22,
+      "end": 25.36,
+      "text": "And it's a question that has been discussed in this room many, many times over the past 200 years."
+    },
+    {
+      "idx": 3,
+      "start": 25.86,
+      "end": 27.744,
+      "text": "But it's an important question."
+    },
+    {
+      "idx": 4,
+      "start": 27.744,
+      "end": 30.54,
+      "text": "And I think it's important that we revisit it."
+    },
+    {
+      "idx": 5,
+      "start": 31.0,
+      "end": 32.415,
+      "text": "And the question is simply this."
+    },
+    {
+      "idx": 6,
+      "start": 32.415,
+      "end": 33.52,
+      "text": "It's what are we made of?"
+    },
+    {
+      "idx": 7,
+      "start": 33.52,
+      "end": 42.02,
+      "text": "What are the fundamental building blocks of nature that you and me and everything else in the universe constructively?"
+    },
+    {
+      "idx": 8,
+      "start": 42.81,
+      "end": 45.13,
+      "text": "That's the story I'd like to tell you."
+    },
+    {
+      "idx": 9,
+      "start": 46.55,
+      "end": 51.65,
+      "text": "So what I'd like to do is try and give you an overview of our current understanding."
+    },
+    {
+      "idx": 10,
+      "start": 52.23,
+      "end": 55.63,
+      "text": "I'd also like to try and give you an overview of where we hope to go in the future,"
+    },
+    {
+      "idx": 11,
+      "start": 55.73,
+      "end": 59.65,
+      "text": "of what progress we can we can hope to make in the next few years and few decades."
+    },
+    {
+      "idx": 12,
+      "start": 60.39,
+      "end": 63.01,
+      "text": "And we're going to cover quite a lot of ground in this talk."
+    },
+    {
+      "idx": 13,
+      "start": 63.01,
+      "end": 63.97,
+      "text": "I should warn you now."
+    },
+    {
+      "idx": 14,
+      "start": 64.45,
+      "end": 67.89,
+      "text": "Not least because I'm going to discuss every single thing in the universe, quite literally."
+    },
+    {
+      "idx": 15,
+      "start": 68.95,
+      "end": 74.99,
+      "text": "We're going to talk, amongst other things, about what's happening at the world's most powerful particle collider."
+    },
+    {
+      "idx": 16,
+      "start": 75.49,
+      "end": 80.15,
+      "text": "This is a machine that's called the Large Hadron Collider or the LHC for short."
+    },
+    {
+      "idx": 17,
+      "start": 80.15,
+      "end": 81.935,
+      "text": "It'll come up a lot in this talk."
+    },
+    {
+      "idx": 18,
+      "start": 81.935,
+      "end": 87.29,
+      "text": "And it's a machine which is based underground in a place called CERN, which is just outside Geneva."
+    },
+    {
+      "idx": 19,
+      "start": 88.2,
+      "end": 94.66,
+      "text": "We'll also talk about experiments in the last few years that look backwards in time towards the,"
+    },
+    {
+      "idx": 20,
+      "start": 94.68,
+      "end": 103.68,
+      "text": "you know, the Big Bang that give us some understanding about what was happening in the first few fractions of a second after time itself started to exist."
+    },
+    {
+      "idx": 21,
+      "start": 103.68,
+      "end": 111.18,
+      "text": "And on top of all this, I also want to give you some idea about the theoretical abstract ideas"
+    },
+    {
+      "idx": 22,
+      "start": 111.18,
+      "end": 117.18,
+      "text": "and even a little bit idea about the mathematics that underlies our current understanding of the universe."
+    },
+    {
+      "idx": 23,
+      "start": 117.18,
+      "end": 119.38,
+      "text": "Because I'm a theoretical physicist."
+    },
+    {
+      "idx": 24,
+      "start": 119.38,
+      "end": 123.72,
+      "text": "What I do is study the equations, try to understand the equations that,"
+    },
+    {
+      "idx": 25,
+      "start": 124.66,
+      "end": 126.7,
+      "text": "that govern the world we live in."
+    },
+    {
+      "idx": 26,
+      "start": 126.7,
+      "end": 129.96,
+      "text": "And so I'd just like to give you a flavor of what that's about."
+    },
+    {
+      "idx": 27,
+      "start": 129.96,
+      "end": 134.32,
+      "text": "At some point, I should warn you now, at some point, I'm even going to show you an equation."
+    },
+    {
+      "idx": 28,
+      "start": 134.32,
+      "end": 139.16,
+      "text": "OK, you know, you can get sent on training courses for this kind of this kind of thing."
+    },
+    {
+      "idx": 29,
+      "start": 139.16,
+      "end": 140.279,
+      "text": "There's a number one rule."
+    },
+    {
+      "idx": 30,
+      "start": 140.279,
+      "end": 142.56,
+      "text": "The number one rule is never show them any equations."
+    },
+    {
+      "idx": 31,
+      "start": 142.56,
+      "end": 145.06,
+      "text": "If you show them equations, you'll just terrify them."
+    },
+    {
+      "idx": 32,
+      "start": 145.06,
+      "end": 147.6,
+      "text": "At some point in this lecture, you're all going to be terrified."
+    },
+    {
+      "idx": 33,
+      "start": 147.6,
+      "end": 150.47,
+      "text": "So just prepare yourselves."
+    },
+    {
+      "idx": 34,
+      "start": 153.46,
+      "end": 155.22,
+      "text": "You know, there's a traditional way to study."
+    },
+    {
+      "idx": 35,
+      "start": 155.22,
+      "end": 156.6,
+      "text": "Start talks like this."
+    },
+    {
+      "idx": 36,
+      "start": 156.6,
+      "end": 162.18,
+      "text": "The traditional way is to be very cultured and talk about what Democritus and Lucretius said two and a half thousand years ago."
+    },
+    {
+      "idx": 37,
+      "start": 162.18,
+      "end": 166.68,
+      "text": "And the ideas that the ancient Greeks had about about atoms."
+    },
+    {
+      "idx": 38,
+      "start": 166.68,
+      "end": 168.42,
+      "text": "But, you know, I don't want to start like this."
+    },
+    {
+      "idx": 39,
+      "start": 168.42,
+      "end": 171.24,
+      "text": "We've made a lot of progress in two and a half thousand years."
+    },
+    {
+      "idx": 40,
+      "start": 171.24,
+      "end": 176.88,
+      "text": "And, you know, there's just better places to kick off a science talk."
+    },
+    {
+      "idx": 41,
+      "start": 176.88,
+      "end": 185.18,
+      "text": "So the first modern picture that we had of what the universe is made of everything we're made of,"
+    },
+    {
+      "idx": 42,
+      "start": 187.16,
+      "end": 191.24,
+      "text": "So I hope this is familiar to most people here."
+    },
+    {
+      "idx": 43,
+      "start": 191.24,
+      "end": 195.06,
+      "text": "This is the periodic table of elements."
+    },
+    {
+      "idx": 44,
+      "start": 195.06,
+      "end": 198.52,
+      "text": "It's one of the most iconic images in all of science."
+    },
+    {
+      "idx": 45,
+      "start": 198.52,
+      "end": 202.88,
+      "text": "What we have here are 120 ish different elements."
+    },
+    {
+      "idx": 46,
+      "start": 202.88,
+      "end": 209.5,
+      "text": "I should point out no less than 10 of which were discovered in this very building and which constitute,"
+    },
+    {
+      "idx": 47,
+      "start": 209.5,
+      "end": 214.72,
+      "text": "or at least in the eighteen hundreds, were thought to constitute everything that existed in in nature."
+    },
+    {
+      "idx": 48,
+      "start": 214.72,
+      "end": 216.7,
+      "text": "So it's certainly true that any material you get,"
+    },
+    {
+      "idx": 49,
+      "start": 216.7,
+      "end": 224.96,
+      "text": "you can distill it down into its component parts and you'll find that all of those component parts are made of one of these hundred and twenty elements."
+    },
+    {
+      "idx": 50,
+      "start": 224.96,
+      "end": 226.7,
+      "text": "So it's a great moment in science."
+    },
+    {
+      "idx": 51,
+      "start": 226.7,
+      "end": 230.42,
+      "text": "It's really one of the triumphs of science."
+    },
+    {
+      "idx": 52,
+      "start": 230.42,
+      "end": 236.91,
+      "text": "It's also, I should add the reason that I stopped doing chemistry in school,"
+    },
+    {
+      "idx": 53,
+      "start": 236.91,
+      "end": 243.75,
+      "text": "because if you're a chemist, this is basically as good as it gets."
+    },
+    {
+      "idx": 54,
+      "start": 243.75,
+      "end": 244.73,
+      "text": "And, you know, if we're honest,"
+    },
+    {
+      "idx": 55,
+      "start": 244.73,
+      "end": 244.81,
+      "text": "if we're honest, if we're honest, if we're honest,"
+    },
+    {
+      "idx": 56,
+      "start": 244.81,
+      "end": 244.99,
+      "text": "if we're honest, if we're honest,"
+    },
+    {
+      "idx": 57,
+      "start": 244.99,
+      "end": 246.95,
+      "text": "It's kind of a mess, right?"
+    },
+    {
+      "idx": 58,
+      "start": 247.03,
+      "end": 251.53,
+      "text": "I, you know, everything in the universe is classified into things on the left that go bang if you put them in water,"
+    },
+    {
+      "idx": 59,
+      "start": 251.67,
+      "end": 255.47,
+      "text": "through to things on the right, which really, if we're honest, don't do very much at all."
+    },
+    {
+      "idx": 60,
+      "start": 255.95,
+      "end": 258.43,
+      "text": "You kind of organize everything into this stupid shape."
+    },
+    {
+      "idx": 61,
+      "start": 258.51,
+      "end": 260.21,
+      "text": "So there's a, it looks a little bit like Australia."
+    },
+    {
+      "idx": 62,
+      "start": 260.31,
+      "end": 265.05,
+      "text": "There's a big dip in the top and then, and then there's these two strips of elements that you have to put along the bottom"
+    },
+    {
+      "idx": 63,
+      "start": 265.05,
+      "end": 266.95,
+      "text": "because there's no room for them in the middle where they belong."
+    },
+    {
+      "idx": 64,
+      "start": 267.53,
+      "end": 269.07,
+      "text": "You know, I don't know about you."
+    },
+    {
+      "idx": 65,
+      "start": 269.07,
+      "end": 274.57,
+      "text": "If I was asked to come up with a fundamental classification of everything in the universe, this isn't what I would have gone for."
+    },
+    {
+      "idx": 66,
+      "start": 277.1,
+      "end": 278.74,
+      "text": "Are there any chemists in the audience?"
+    },
+    {
+      "idx": 67,
+      "start": 280.96,
+      "end": 282.12,
+      "text": "I'm sorry for you."
+    },
+    {
+      "idx": 68,
+      "start": 284.52,
+      "end": 286.42,
+      "text": "Okay, but you know, I'm not alone in this."
+    },
+    {
+      "idx": 69,
+      "start": 286.72,
+      "end": 290.14,
+      "text": "It's not just me that thinks this is a silly way to organize nature."
+    },
+    {
+      "idx": 70,
+      "start": 290.4,
+      "end": 293.82,
+      "text": "Nature itself thinks this is a silly way to organize nature."
+    },
+    {
+      "idx": 71,
+      "start": 293.96,
+      "end": 297.52,
+      "text": "Of course, we know this isn't the fundamental, this isn't the end of the story."
+    },
+    {
+      "idx": 72,
+      "start": 297.6,
+      "end": 299.36,
+      "text": "This isn't the fundamental building blocks."
+    },
+    {
+      "idx": 73,
+      "start": 300.26,
+      "end": 306.14,
+      "text": "And the first person to realize that there's something deeper than this"
+    },
+    {
+      "idx": 74,
+      "start": 306.14,
+      "end": 308.2,
+      "text": "was a Cambridge physicist called James C."
+    },
+    {
+      "idx": 75,
+      "start": 309.3,
+      "end": 310.9,
+      "text": "So at the end of the 1800s, J."
+    },
+    {
+      "idx": 76,
+      "start": 311.12,
+      "end": 316.36,
+      "text": "Thompson discovered a particle that was smaller than an atom that we now call the electron."
+    },
+    {
+      "idx": 77,
+      "start": 317.06,
+      "end": 320.22,
+      "text": "And in 1897, he announced this in this room."
+    },
+    {
+      "idx": 78,
+      "start": 320.3,
+      "end": 326.84,
+      "text": "In fact, in this very lecture series to a stunned audience, an audience that was so stunned,"
+    },
+    {
+      "idx": 79,
+      "start": 326.9,
+      "end": 329.44,
+      "text": "at least half of them didn't believe what he was saying."
+    },
+    {
+      "idx": 80,
+      "start": 329.52,
+      "end": 331.96,
+      "text": "There was one very distinguished scientist who afterwards told J."
+    },
+    {
+      "idx": 81,
+      "start": 332.12,
+      "end": 334.26,
+      "text": "Thompson he thought the whole thing was a hoax, that J."
+    },
+    {
+      "idx": 82,
+      "start": 334.46,
+      "end": 336.68,
+      "text": "Thompson had just been pulling their leg."
+    },
+    {
+      "idx": 83,
+      "start": 337.64,
+      "end": 338.18,
+      "text": "But of course, he didn't believe it."
+    },
+    {
+      "idx": 84,
+      "start": 338.24,
+      "end": 339.38,
+      "text": "It's not a hoax."
+    },
+    {
+      "idx": 85,
+      "start": 339.52,
+      "end": 342.1,
+      "text": "This isn't the fundamental elements of nature."
+    },
+    {
+      "idx": 86,
+      "start": 343.2,
+      "end": 346.62,
+      "text": "And within 15 years of J."
+    },
+    {
+      "idx": 87,
+      "start": 346.84,
+      "end": 352.4,
+      "text": "Thompson's discovery, his successor in Cambridge, a man called Ernest Rutherford, had figured"
+    },
+    {
+      "idx": 88,
+      "start": 352.4,
+      "end": 355.4,
+      "text": "out exactly what these atoms are made of."
+    },
+    {
+      "idx": 89,
+      "start": 355.84,
+      "end": 359.08,
+      "text": "And this is the picture that Rutherford came up with."
+    },
+    {
+      "idx": 90,
+      "start": 359.7,
+      "end": 366.74,
+      "text": "So we now know that each of these elements consists of a nucleus, which is tiny."
+    },
+    {
+      "idx": 91,
+      "start": 368.18,
+      "end": 372.3,
+      "text": "Metaphor that Rutherford himself used was it's like a fly in the center of the cathedral."
+    },
+    {
+      "idx": 92,
+      "start": 372.78,
+      "end": 379.88,
+      "text": "And then orbiting this nucleus in, I should add, fairly blurry orbits are the electrons,"
+    },
+    {
+      "idx": 93,
+      "start": 380.3,
+      "end": 384.16,
+      "text": "which sort of fill out very sparsely the rest of the space."
+    },
+    {
+      "idx": 94,
+      "start": 384.72,
+      "end": 387.3,
+      "text": "So that's a picture of these atoms."
+    },
+    {
+      "idx": 95,
+      "start": 388.36,
+      "end": 393.8,
+      "text": "Subsequently, we learned that the nucleus is not itself fundamental."
+    },
+    {
+      "idx": 96,
+      "start": 393.8,
+      "end": 396.3,
+      "text": "The nucleus contains smaller particles."
+    },
+    {
+      "idx": 97,
+      "start": 396.44,
+      "end": 398.16,
+      "text": "They're particles that we call protons and neutrons."
+    },
+    {
+      "idx": 98,
+      "start": 398.18,
+      "end": 405.36,
+      "text": "And in the 1970s, we learned that the protons and neutrons aren't fundamental either."
+    },
+    {
+      "idx": 99,
+      "start": 405.94,
+      "end": 413.22,
+      "text": "So in the 1970s, we learned that inside each proton and neutron are three smaller particles that we call quarks."
+    },
+    {
+      "idx": 100,
+      "start": 414.34,
+      "end": 415.92,
+      "text": "There are two different kinds of quarks."
+    },
+    {
+      "idx": 101,
+      "start": 416.52,
+      "end": 423.18,
+      "text": "By the 1970s, I'm guessing physicists didn't have a classical Greek education and they'd kind of run out of classy names."
+    },
+    {
+      "idx": 102,
+      "start": 423.18,
+      "end": 428.38,
+      "text": "So we call these quarks the up quark and the down quark."
+    },
+    {
+      "idx": 103,
+      "start": 428.66,
+      "end": 430.54,
+      "text": "OK, for no good reason."
+    },
+    {
+      "idx": 104,
+      "start": 430.54,
+      "end": 432.54,
+      "text": "It's not like the up quark is higher than the down quark."
+    },
+    {
+      "idx": 105,
+      "start": 432.54,
+      "end": 433.42,
+      "text": "It's not like it points up."
+    },
+    {
+      "idx": 106,
+      "start": 433.42,
+      "end": 434.58,
+      "text": "It's just no good reason at all."
+    },
+    {
+      "idx": 107,
+      "start": 434.58,
+      "end": 435.82,
+      "text": "The up quark and the down quark."
+    },
+    {
+      "idx": 108,
+      "start": 436.16,
+      "end": 440.22,
+      "text": "So the proton consists of two up quarks and a down quark."
+    },
+    {
+      "idx": 109,
+      "start": 440.78,
+      "end": 444.48,
+      "text": "And the neutron consists of two down quarks and an up quark."
+    },
+    {
+      "idx": 110,
+      "start": 444.9,
+      "end": 450.56,
+      "text": "OK, this, as far as we know, are the fundamental building blocks of nature."
+    },
+    {
+      "idx": 111,
+      "start": 451.04,
+      "end": 458.1,
+      "text": "We've never discovered anything smaller than the electron and we've never discovered anything smaller than the quarks."
+    },
+    {
+      "idx": 112,
+      "start": 458.1,
+      "end": 463.28,
+      "text": "So we have three particles of which everything we know is made."
+    },
+    {
+      "idx": 113,
+      "start": 464.49,
+      "end": 468.01,
+      "text": "And it's worth stressing, that's kind of astonishing."
+    },
+    {
+      "idx": 114,
+      "start": 468.87,
+      "end": 470.69,
+      "text": "You know, we sort of take it for granted."
+    },
+    {
+      "idx": 115,
+      "start": 470.83,
+      "end": 471.59,
+      "text": "We learn this in school."
+    },
+    {
+      "idx": 116,
+      "start": 471.71,
+      "end": 473.43,
+      "text": "We don't really think about it deeply."
+    },
+    {
+      "idx": 117,
+      "start": 473.75,
+      "end": 478.61,
+      "text": "Everything we see in the world, all the diversity in the natural world, you, me, everything around us,"
+    },
+    {
+      "idx": 118,
+      "start": 479.03,
+      "end": 487.83,
+      "text": "we just the same three particles with slightly different rearrangements repeated over and over and over again."
+    },
+    {
+      "idx": 119,
+      "start": 488.39,
+      "end": 494.03,
+      "text": "So it's an amazing lesson to draw about how the world is put together."
+    },
+    {
+      "idx": 120,
+      "start": 494.97,
+      "end": 496.23,
+      "text": "So that's what we have."
+    },
+    {
+      "idx": 121,
+      "start": 496.27,
+      "end": 498.63,
+      "text": "We have an electron and two quarks."
+    },
+    {
+      "idx": 122,
+      "start": 499.81,
+      "end": 505.49,
+      "text": "And, you know, these aren't the fundamental building blocks that the Greeks had thought about."
+    },
+    {
+      "idx": 123,
+      "start": 505.57,
+      "end": 509.01,
+      "text": "And they're certainly not the fundamental building blocks that the Victorians had thought about."
+    },
+    {
+      "idx": 124,
+      "start": 509.79,
+      "end": 513.67,
+      "text": "But, you know, the spirit of the issue really hasn't changed."
+    },
+    {
+      "idx": 125,
+      "start": 513.67,
+      "end": 517.01,
+      "text": "The spirit is exactly what Democritus said."
+    },
+    {
+      "idx": 126,
+      "start": 518.81,
+      "end": 519.95,
+      "text": "Five hundred years ago."
+    },
+    {
+      "idx": 127,
+      "start": 520.33,
+      "end": 525.05,
+      "text": "It's that there are like Lego bricks from which everything in the world is constructed."
+    },
+    {
+      "idx": 128,
+      "start": 525.57,
+      "end": 526.89,
+      "text": "These Lego bricks are particles."
+    },
+    {
+      "idx": 129,
+      "start": 527.17,
+      "end": 530.03,
+      "text": "And the particles are the electron and two quarks."
+    },
+    {
+      "idx": 130,
+      "start": 530.85,
+      "end": 531.71,
+      "text": "It's a very nice picture."
+    },
+    {
+      "idx": 131,
+      "start": 531.79,
+      "end": 532.71,
+      "text": "It's a very comforting picture."
+    },
+    {
+      "idx": 132,
+      "start": 532.97,
+      "end": 534.43,
+      "text": "It's the picture we teach kids at school."
+    },
+    {
+      "idx": 133,
+      "start": 534.73,
+      "end": 538.63,
+      "text": "It's the picture we even teach our students in undergraduate university."
+    },
+    {
+      "idx": 134,
+      "start": 539.48,
+      "end": 541.7,
+      "text": "And there's a problem with it."
+    },
+    {
+      "idx": 135,
+      "start": 542.55,
+      "end": 544.69,
+      "text": "The problem is it's a lie."
+    },
+    {
+      "idx": 136,
+      "start": 546.27,
+      "end": 547.89,
+      "text": "It's a white lie."
+    },
+    {
+      "idx": 137,
+      "start": 547.97,
+      "end": 549.63,
+      "text": "It's a white lie that we tell our children."
+    },
+    {
+      "idx": 138,
+      "start": 549.63,
+      "end": 554.79,
+      "text": "Because, you know, we don't want to expose them to the difficult and horrible truth too early on."
+    },
+    {
+      "idx": 139,
+      "start": 554.83,
+      "end": 559.77,
+      "text": "It makes it easier to learn if you believe that these particles are the fundamental building blocks of the universe."
+    },
+    {
+      "idx": 140,
+      "start": 559.77,
+      "end": 561.53,
+      "text": "But it's simply not true."
+    },
+    {
+      "idx": 141,
+      "start": 562.39,
+      "end": 570.03,
+      "text": "The best theories that we have of physics do not have underlying them the quark particle and the two quark particles."
+    },
+    {
+      "idx": 142,
+      "start": 570.23,
+      "end": 574.19,
+      "text": "And the sorry, the electron particle and the two quark particles."
+    },
+    {
+      "idx": 143,
+      "start": 574.69,
+      "end": 579.73,
+      "text": "In fact, the very best theories we have of physics don't rely on particles."
+    },
+    {
+      "idx": 144,
+      "start": 581.46,
+      "end": 590.6,
+      "text": "The best theories we have tell us that the fundamental building blocks of nature are not particles, but something much more nebulous and abstract."
+    },
+    {
+      "idx": 145,
+      "start": 591.2,
+      "end": 604.45,
+      "text": "The fundamental building blocks of nature are fluid like substances, which are spread throughout the entire universe and ripple in strange and interesting ways."
+    },
+    {
+      "idx": 146,
+      "start": 604.97,
+      "end": 608.45,
+      "text": "OK, that's the fundamental reality in which we live."
+    },
+    {
+      "idx": 147,
+      "start": 608.83,
+      "end": 610.03,
+      "text": "These fluid like substances."
+    },
+    {
+      "idx": 148,
+      "start": 610.15,
+      "end": 612.27,
+      "text": "These substances we have a name for."
+    },
+    {
+      "idx": 149,
+      "start": 612.85,
+      "end": 614.15,
+      "text": "We call them fields."
+    },
+    {
+      "idx": 150,
+      "start": 618.92,
+      "end": 622.66,
+      "text": "So this is a picture of it."
+    },
+    {
+      "idx": 151,
+      "start": 622.88,
+      "end": 625.3,
+      "text": "This isn't the kind of field that physicists have in mind."
+    },
+    {
+      "idx": 152,
+      "start": 625.4,
+      "end": 627.56,
+      "text": "You know, this is this is what you think a field is."
+    },
+    {
+      "idx": 153,
+      "start": 627.66,
+      "end": 630.78,
+      "text": "If you're a farmer or if you're a normal person."
+    },
+    {
+      "idx": 154,
+      "start": 631.32,
+      "end": 636.74,
+      "text": "If if you're a physicist, you have a very different picture in your mind when you think about fields."
+    },
+    {
+      "idx": 155,
+      "start": 637.26,
+      "end": 641.0,
+      "text": "And I'll tell you the the general definition of a field."
+    },
+    {
+      "idx": 156,
+      "start": 641.0,
+      "end": 644.4,
+      "text": "And then we'll go through some examples so that you get familiar with this."
+    },
+    {
+      "idx": 157,
+      "start": 645.2,
+      "end": 647.62,
+      "text": "The physicist definition of a field is the following."
+    },
+    {
+      "idx": 158,
+      "start": 647.88,
+      "end": 650.44,
+      "text": "It's something that, as I said, is spread everywhere throughout the universe."
+    },
+    {
+      "idx": 159,
+      "start": 651.0,
+      "end": 655.04,
+      "text": "It's something that takes a particular value at every point in space."
+    },
+    {
+      "idx": 160,
+      "start": 655.6,
+      "end": 658.82,
+      "text": "And what's more, that value can change in time."
+    },
+    {
+      "idx": 161,
+      "start": 659.58,
+      "end": 661.88,
+      "text": "OK, so the picture to have in your mind is a field."
+    },
+    {
+      "idx": 162,
+      "start": 662.02,
+      "end": 666.54,
+      "text": "Sorry, the fluid which ripples and sways throughout the universe."
+    },
+    {
+      "idx": 163,
+      "start": 667.32,
+      "end": 668.6,
+      "text": "Now, it's not a new idea."
+    },
+    {
+      "idx": 164,
+      "start": 668.76,
+      "end": 671.38,
+      "text": "It's it's not an idea that we've just come up with."
+    },
+    {
+      "idx": 165,
+      "start": 671.38,
+      "end": 675.38,
+      "text": "It's an idea which dates back almost."
+    },
+    {
+      "idx": 166,
+      "start": 676.8,
+      "end": 686.17,
+      "text": "And like so many other things in science, it's an idea which originated in this very room, because I'm sure many of you are aware."
+    },
+    {
+      "idx": 167,
+      "start": 686.79,
+      "end": 688.59,
+      "text": "This is the home of Michael Faraday."
+    },
+    {
+      "idx": 168,
+      "start": 689.5,
+      "end": 693.94,
+      "text": "And Michael Faraday initiated this lecture series in 1825."
+    },
+    {
+      "idx": 169,
+      "start": 694.56,
+      "end": 697.16,
+      "text": "He gave over 100 of these Friday evening discourses."
+    },
+    {
+      "idx": 170,
+      "start": 698.32,
+      "end": 706.08,
+      "text": "And the vast majority of these were on his own discoveries on the experiments he did on electricity and magnetism."
+    },
+    {
+      "idx": 171,
+      "start": 707.18,
+      "end": 712.76,
+      "text": "So he he did many, many things in electricity and magnetism over many decades."
+    },
+    {
+      "idx": 172,
+      "start": 713.16,
+      "end": 719.76,
+      "text": "And in doing so, he built up an intuition for how electric and magnetic phenomena work."
+    },
+    {
+      "idx": 173,
+      "start": 720.18,
+      "end": 724.26,
+      "text": "And the intuition is what we now call the electric and magnetic field."
+    },
+    {
+      "idx": 174,
+      "start": 724.26,
+      "end": 735.0,
+      "text": "So what he envisaged was that threaded everywhere throughout space were these invisible objects called the electric and magnetic fields."
+    },
+    {
+      "idx": 175,
+      "start": 735.56,
+      "end": 736.6,
+      "text": "Now, you know, we learn."
+    },
+    {
+      "idx": 176,
+      "start": 736.64,
+      "end": 737.18,
+      "text": "This in school."
+    },
+    {
+      "idx": 177,
+      "start": 737.18,
+      "end": 747.18,
+      "text": "Again, it's something that we sort of take for granted because we learn at an early age and we don't sort of appreciate just how big of a radical step this this idea of Faraday's is."
+    },
+    {
+      "idx": 178,
+      "start": 747.44,
+      "end": 755.8,
+      "text": "I want to stress it's one of the most revolutionary abstract ideas in the history of science that these electric and magnetic fields exist."
+    },
+    {
+      "idx": 179,
+      "start": 756.08,
+      "end": 759.36,
+      "text": "So, you know, let me just you're supposed to do demonstrations in this."
+    },
+    {
+      "idx": 180,
+      "start": 759.36,
+      "end": 761.66,
+      "text": "And I'm I'm I'm not just a theoretical physicist."
+    },
+    {
+      "idx": 181,
+      "start": 761.88,
+      "end": 763.88,
+      "text": "I'm a very theoretical physicist."
+    },
+    {
+      "idx": 182,
+      "start": 763.88,
+      "end": 766.18,
+      "text": "It's it's very hard for me to do any kind of experiment."
+    },
+    {
+      "idx": 183,
+      "start": 766.18,
+      "end": 767.22,
+      "text": "That's going to work."
+    },
+    {
+      "idx": 184,
+      "start": 767.22,
+      "end": 772.38,
+      "text": "But I'm just going to show you something that that that you've you've all seen the magnets."
+    },
+    {
+      "idx": 185,
+      "start": 773.26,
+      "end": 775.82,
+      "text": "And we all play these games when we were kids or when we were in school."
+    },
+    {
+      "idx": 186,
+      "start": 775.94,
+      "end": 778.46,
+      "text": "You take these magnets and you move them together."
+    },
+    {
+      "idx": 187,
+      "start": 778.5,
+      "end": 789.59,
+      "text": "And as they get closer and closer, there's there's this force that you can sort of just just feel building up that pushes the pressure that pushes against these two magnets."
+    },
+    {
+      "idx": 188,
+      "start": 789.85,
+      "end": 791.63,
+      "text": "And, you know, it doesn't matter how often you do it."
+    },
+    {
+      "idx": 189,
+      "start": 791.87,
+      "end": 793.69,
+      "text": "It doesn't matter how many degrees you have in physics."
+    },
+    {
+      "idx": 190,
+      "start": 793.95,
+      "end": 795.75,
+      "text": "It's it's just a little bit magical."
+    },
+    {
+      "idx": 191,
+      "start": 796.41,
+      "end": 798.57,
+      "text": "Are you and you all you all know this."
+    },
+    {
+      "idx": 192,
+      "start": 798.65,
+      "end": 804.63,
+      "text": "There's something just just special about about this this weird feeling that that you get between between magnets."
+    },
+    {
+      "idx": 193,
+      "start": 805.17,
+      "end": 807.01,
+      "text": "And this was Faraday's genius."
+    },
+    {
+      "idx": 194,
+      "start": 807.01,
+      "end": 815.87,
+      "text": "It was to appreciate that that even though you can't see anything in between, even though no matter how closely you look, the space between these magnets will seem to be empty."
+    },
+    {
+      "idx": 195,
+      "start": 816.27,
+      "end": 818.99,
+      "text": "He said, nonetheless, there's something real there."
+    },
+    {
+      "idx": 196,
+      "start": 819.69,
+      "end": 824.43,
+      "text": "There's something real and physical which is invisible, but is building up."
+    },
+    {
+      "idx": 197,
+      "start": 824.43,
+      "end": 826.59,
+      "text": "And that's what's responsible for the force."
+    },
+    {
+      "idx": 198,
+      "start": 827.07,
+      "end": 828.83,
+      "text": "So he called them lines of force."
+    },
+    {
+      "idx": 199,
+      "start": 828.93,
+      "end": 831.09,
+      "text": "We now call it the magnetic field."
+    },
+    {
+      "idx": 200,
+      "start": 831.67,
+      "end": 832.31,
+      "text": "So on the."
+    },
+    {
+      "idx": 201,
+      "start": 833.19,
+      "end": 836.33,
+      "text": "So this, of course, is it's a picture of Michael Faraday."
+    },
+    {
+      "idx": 202,
+      "start": 836.51,
+      "end": 842.84,
+      "text": "This is a picture of Michael Faraday lecturing behind this very table."
+    },
+    {
+      "idx": 203,
+      "start": 843.48,
+      "end": 846.6,
+      "text": "Here is a drawing from one of Michael Faraday's papers."
+    },
+    {
+      "idx": 204,
+      "start": 846.9,
+      "end": 848.08,
+      "text": "It was pointed out to me earlier."
+    },
+    {
+      "idx": 205,
+      "start": 848.08,
+      "end": 851.02,
+      "text": "When you leave, there's a carpet just here."
+    },
+    {
+      "idx": 206,
+      "start": 851.14,
+      "end": 852.48,
+      "text": "The carpet has this pattern."
+    },
+    {
+      "idx": 207,
+      "start": 852.48,
+      "end": 855.34,
+      "text": "This picture just repeated on it over and over and over again."
+    },
+    {
+      "idx": 208,
+      "start": 856.7,
+      "end": 862.74,
+      "text": "And on the bottom here is one of Michael Faraday's most famous demonstrations that he did here."
+    },
+    {
+      "idx": 209,
+      "start": 862.9,
+      "end": 866.26,
+      "text": "So I'll just walk you through what what Faraday did."
+    },
+    {
+      "idx": 210,
+      "start": 866.7,
+      "end": 873.59,
+      "text": "The thing on the thing on the right, there's a small coil with a hand on it."
+    },
+    {
+      "idx": 211,
+      "start": 874.21,
+      "end": 878.83,
+      "text": "This is a battery and the battery passes a current around this coil."
+    },
+    {
+      "idx": 212,
+      "start": 878.83,
+      "end": 883.27,
+      "text": "And in doing so, there's a magnetic field that's induced in this."
+    },
+    {
+      "idx": 213,
+      "start": 883.35,
+      "end": 884.23,
+      "text": "It's what's called a solenoid."
+    },
+    {
+      "idx": 214,
+      "start": 885.01,
+      "end": 886.67,
+      "text": "And then Faraday did the following."
+    },
+    {
+      "idx": 215,
+      "start": 886.73,
+      "end": 893.27,
+      "text": "He simply moved this small coil A through this big coil B like this."
+    },
+    {
+      "idx": 216,
+      "start": 893.91,
+      "end": 895.31,
+      "text": "And something miraculous happened."
+    },
+    {
+      "idx": 217,
+      "start": 895.61,
+      "end": 898.57,
+      "text": "When you do that, there's a moving magnetic field."
+    },
+    {
+      "idx": 218,
+      "start": 899.37,
+      "end": 901.41,
+      "text": "Faraday's great discovery was induction."
+    },
+    {
+      "idx": 219,
+      "start": 902.03,
+      "end": 909.45,
+      "text": "It gives rise to a current in B, which then over on this end of the table makes a needle flicker like this."
+    },
+    {
+      "idx": 220,
+      "start": 909.71,
+      "end": 911.15,
+      "text": "So extremely simple."
+    },
+    {
+      "idx": 221,
+      "start": 911.27,
+      "end": 914.29,
+      "text": "You move a magnetic field and it gives rise to a current,"
+    },
+    {
+      "idx": 222,
+      "start": 914.41,
+      "end": 917.15,
+      "text": "which makes a needle flip flicker on the other side of the table."
+    },
+    {
+      "idx": 223,
+      "start": 917.25,
+      "end": 922.15,
+      "text": "This astounded audiences in the 1800s."
+    },
+    {
+      "idx": 224,
+      "start": 922.25,
+      "end": 927.15,
+      "text": "OK, because you were doing something and affecting the needle on the other end of the table."
+    },
+    {
+      "idx": 225,
+      "start": 927.25,
+      "end": 929.15,
+      "text": "Yet you never touched the needle."
+    },
+    {
+      "idx": 226,
+      "start": 929.25,
+      "end": 930.15,
+      "text": "It was amazing."
+    },
+    {
+      "idx": 227,
+      "start": 930.25,
+      "end": 935.15,
+      "text": "You could you could you could make something move without ever going near it, without ever touching it."
+    },
+    {
+      "idx": 228,
+      "start": 935.25,
+      "end": 937.15,
+      "text": "We kind of jaded these days."
+    },
+    {
+      "idx": 229,
+      "start": 937.25,
+      "end": 938.15,
+      "text": "You can do the same experiment."
+    },
+    {
+      "idx": 230,
+      "start": 938.25,
+      "end": 939.15,
+      "text": "You can pick out your cell phone."
+    },
+    {
+      "idx": 231,
+      "start": 939.25,
+      "end": 940.15,
+      "text": "You can press a few buttons."
+    },
+    {
+      "idx": 232,
+      "start": 940.25,
+      "end": 943.15,
+      "text": "You can call somebody on the other end of the earth within within seconds."
+    },
+    {
+      "idx": 233,
+      "start": 943.25,
+      "end": 945.15,
+      "text": "But it's the same principle."
+    },
+    {
+      "idx": 234,
+      "start": 945.27,
+      "end": 946.91,
+      "text": "But this was the first time it was demonstrated."
+    },
+    {
+      "idx": 235,
+      "start": 947.15,
+      "end": 949.15,
+      "text": "That the field is real."
+    },
+    {
+      "idx": 236,
+      "start": 949.25,
+      "end": 951.15,
+      "text": "You can communicate using the field."
+    },
+    {
+      "idx": 237,
+      "start": 951.25,
+      "end": 956.15,
+      "text": "You can affect things far away using the field without ever ever touching it."
+    },
+    {
+      "idx": 238,
+      "start": 956.25,
+      "end": 960.01,
+      "text": "So this is Michael Faraday's legacy."
+    },
+    {
+      "idx": 239,
+      "start": 960.11,
+      "end": 962.01,
+      "text": "It's that there's not just particles in the world."
+    },
+    {
+      "idx": 240,
+      "start": 962.11,
+      "end": 969.01,
+      "text": "There's other objects that are slightly more subtle that are called fields that are spread throughout all of space."
+    },
+    {
+      "idx": 241,
+      "start": 969.11,
+      "end": 976.72,
+      "text": "But by the way, if you ever want to really appreciate the genius of Michael Faraday,"
+    },
+    {
+      "idx": 242,
+      "start": 976.82,
+      "end": 977.82,
+      "text": "he gave this lecture in 18."
+    },
+    {
+      "idx": 243,
+      "start": 980.82,
+      "end": 982.72,
+      "text": "give many lectures in 1846."
+    },
+    {
+      "idx": 244,
+      "start": 982.82,
+      "end": 985.72,
+      "text": "But there was one in particular where he he finished 20 minutes early."
+    },
+    {
+      "idx": 245,
+      "start": 985.82,
+      "end": 987.72,
+      "text": "He ran out of things to say."
+    },
+    {
+      "idx": 246,
+      "start": 987.82,
+      "end": 991.72,
+      "text": "So he engaged in some idle speculation for 20 minutes."
+    },
+    {
+      "idx": 247,
+      "start": 991.82,
+      "end": 1004.94,
+      "text": "And Faraday suggested that these invisible electric and magnetic fields that he had postulated were quite literally the only thing we've ever seen."
+    },
+    {
+      "idx": 248,
+      "start": 1005.04,
+      "end": 1008.04,
+      "text": "He suggested that it's ripples of the electric and magnetic field,"
+    },
+    {
+      "idx": 249,
+      "start": 1008.14,
+      "end": 1010.04,
+      "text": "which is what we call light."
+    },
+    {
+      "idx": 250,
+      "start": 1010.2,
+      "end": 1011.1,
+      "text": "So it took,"
+    },
+    {
+      "idx": 251,
+      "start": 1012.2,
+      "end": 1017.1,
+      "text": "50 years for people like Maxwell and Hertz to confirm that this is indeed what light is made of."
+    },
+    {
+      "idx": 252,
+      "start": 1017.2,
+      "end": 1020.1,
+      "text": "But it was Faraday's genius that appreciated this,"
+    },
+    {
+      "idx": 253,
+      "start": 1020.2,
+      "end": 1027.03,
+      "text": "that there are waves in the electric magnetic field and those waves are the light that we see around us."
+    },
+    {
+      "idx": 254,
+      "start": 1028.13,
+      "end": 1030.1,
+      "text": "so this is Faraday's legacy."
+    },
+    {
+      "idx": 255,
+      "start": 1030.2,
+      "end": 1037.1,
+      "text": "But it turns out this idea of fields was much more important than Faraday had realized."
+    },
+    {
+      "idx": 256,
+      "start": 1037.1,
+      "end": 1044.2,
+      "text": "And it took over 150 years for us to appreciate the importance of this field of these fields."
+    },
+    {
+      "idx": 257,
+      "start": 1044.3,
+      "end": 1049.2,
+      "text": "So what happened in these hundred and fifty years was that there was a small revolution in science."
+    },
+    {
+      "idx": 258,
+      "start": 1049.3,
+      "end": 1051.2,
+      "text": "In the 1920s,"
+    },
+    {
+      "idx": 259,
+      "start": 1051.3,
+      "end": 1053.2,
+      "text": "we realized that the world is very,"
+    },
+    {
+      "idx": 260,
+      "start": 1053.3,
+      "end": 1062.2,
+      "text": "very different from the common sense ideas that Newton and Galileo had handed down to us centuries before."
+    },
+    {
+      "idx": 261,
+      "start": 1062.3,
+      "end": 1063.2,
+      "text": "So in the 1920s,"
+    },
+    {
+      "idx": 262,
+      "start": 1063.3,
+      "end": 1066.2,
+      "text": "people like Heisenberg and Schrodinger realized that,"
+    },
+    {
+      "idx": 263,
+      "start": 1067.1,
+      "end": 1068.6,
+      "text": "on the smallest scales,"
+    },
+    {
+      "idx": 264,
+      "start": 1068.7,
+      "end": 1070.5,
+      "text": "on the microscopic scales,"
+    },
+    {
+      "idx": 265,
+      "start": 1070.6,
+      "end": 1077.1,
+      "text": "the world is much more mysterious and counterintuitive than we ever really imagined it could be."
+    },
+    {
+      "idx": 266,
+      "start": 1077.9,
+      "end": 1081.34,
+      "text": "is the theory that we now know as quantum mechanics."
+    },
+    {
+      "idx": 267,
+      "start": 1081.44,
+      "end": 1085.14,
+      "text": "So there's a lot I could say about quantum mechanics."
+    },
+    {
+      "idx": 268,
+      "start": 1085.24,
+      "end": 1089.54,
+      "text": "Let me tell you one of the punchlines of quantum mechanics."
+    },
+    {
+      "idx": 269,
+      "start": 1089.64,
+      "end": 1095.7,
+      "text": "One of the punchlines is that energy isn't continuous."
+    },
+    {
+      "idx": 270,
+      "start": 1095.8,
+      "end": 1096.8,
+      "text": "Energy in the world"
+    },
+    {
+      "idx": 271,
+      "start": 1096.8,
+      "end": 1101.19,
+      "text": "is always parceled up into some little discrete lump."
+    },
+    {
+      "idx": 272,
+      "start": 1101.29,
+      "end": 1103.19,
+      "text": "That's actually what the word quantum means."
+    },
+    {
+      "idx": 273,
+      "start": 1103.29,
+      "end": 1107.12,
+      "text": "Quantum means discrete or lumpy."
+    },
+    {
+      "idx": 274,
+      "start": 1107.22,
+      "end": 1112.72,
+      "text": "So the real fun starts when you try and take the ideas of quantum mechanics,"
+    },
+    {
+      "idx": 275,
+      "start": 1112.82,
+      "end": 1115.62,
+      "text": "which say that things should be discrete,"
+    },
+    {
+      "idx": 276,
+      "start": 1115.72,
+      "end": 1120.52,
+      "text": "and you try to combine them with Faraday's ideas of fields,"
+    },
+    {
+      "idx": 277,
+      "start": 1120.62,
+      "end": 1123.72,
+      "text": "which are very much continuous smooth objects,"
+    },
+    {
+      "idx": 278,
+      "start": 1123.82,
+      "end": 1127.72,
+      "text": "which are waving and oscillating in space."
+    },
+    {
+      "idx": 279,
+      "start": 1127.82,
+      "end": 1134.75,
+      "text": "So the idea of trying to combine these two theories together is what we call quantum field theory."
+    },
+    {
+      "idx": 280,
+      "start": 1134.85,
+      "end": 1138.65,
+      "text": "And here's the implication of quantum field theory."
+    },
+    {
+      "idx": 281,
+      "start": 1138.75,
+      "end": 1142.25,
+      "text": "The first implication is what happens for the electric and magnetic field."
+    },
+    {
+      "idx": 282,
+      "start": 1142.35,
+      "end": 1143.95,
+      "text": "So Faraday taught us,"
+    },
+    {
+      "idx": 283,
+      "start": 1144.05,
+      "end": 1145.45,
+      "text": "and Maxwell later,"
+    },
+    {
+      "idx": 284,
+      "start": 1145.55,
+      "end": 1150.0,
+      "text": "that waves of the electromagnetic field are what we call light."
+    },
+    {
+      "idx": 285,
+      "start": 1150.1,
+      "end": 1153.2,
+      "text": "But when you apply quantum mechanics to this,"
+    },
+    {
+      "idx": 286,
+      "start": 1153.3,
+      "end": 1158.2,
+      "text": "you find that these light waves aren't quite as smooth and continuous as they appeared."
+    },
+    {
+      "idx": 287,
+      "start": 1158.4,
+      "end": 1160.7,
+      "text": "So if you look closely at light waves,"
+    },
+    {
+      "idx": 288,
+      "start": 1160.8,
+      "end": 1163.4,
+      "text": "you'll find that they're made of particles."
+    },
+    {
+      "idx": 289,
+      "start": 1163.5,
+      "end": 1165.2,
+      "text": "They're little particles of light,"
+    },
+    {
+      "idx": 290,
+      "start": 1165.3,
+      "end": 1169.19,
+      "text": "and these are particles that we call the photon."
+    },
+    {
+      "idx": 291,
+      "start": 1170.12,
+      "end": 1175.22,
+      "text": "The magic of this idea is that that same principle"
+    },
+    {
+      "idx": 292,
+      "start": 1175.32,
+      "end": 1179.52,
+      "text": "applies to every single other particle in the universe."
+    },
+    {
+      "idx": 293,
+      "start": 1179.91,
+      "end": 1184.51,
+      "text": "So there is spread everywhere throughout this room"
+    },
+    {
+      "idx": 294,
+      "start": 1184.61,
+      "end": 1187.91,
+      "text": "something that we call the electron field."
+    },
+    {
+      "idx": 295,
+      "start": 1188.01,
+      "end": 1189.71,
+      "text": "It's like a fluid."
+    },
+    {
+      "idx": 296,
+      "start": 1189.91,
+      "end": 1191.11,
+      "text": "It fills this room,"
+    },
+    {
+      "idx": 297,
+      "start": 1191.21,
+      "end": 1194.1,
+      "text": "and in fact fills the entire universe."
+    },
+    {
+      "idx": 298,
+      "start": 1194.2,
+      "end": 1196.3,
+      "text": "And the ripples of this electron fluid,"
+    },
+    {
+      "idx": 299,
+      "start": 1196.4,
+      "end": 1199.3,
+      "text": "the ripples of the waves of this fluid,"
+    },
+    {
+      "idx": 300,
+      "start": 1199.4,
+      "end": 1204.4,
+      "text": "get tied into little bundles of energy by the rules of quantum mechanics,"
+    },
+    {
+      "idx": 301,
+      "start": 1204.5,
+      "end": 1210.52,
+      "text": "and those bundles of energy are what we call the particle, the electron."
+    },
+    {
+      "idx": 302,
+      "start": 1210.62,
+      "end": 1214.12,
+      "text": "All the electrons that are in your body are not fundamental."
+    },
+    {
+      "idx": 303,
+      "start": 1214.22,
+      "end": 1219.62,
+      "text": "All the electrons that exist in your body are waves of the same underlying field."
+    },
+    {
+      "idx": 304,
+      "start": 1219.62,
+      "end": 1221.52,
+      "text": "We're all connected to each other."
+    },
+    {
+      "idx": 305,
+      "start": 1221.62,
+      "end": 1226.92,
+      "text": "It's like the waves on the ocean all belong to the same underlying ocean."
+    },
+    {
+      "idx": 306,
+      "start": 1227.02,
+      "end": 1233.06,
+      "text": "The electrons in your body are the ripples of the same field as the electrons in my body."
+    },
+    {
+      "idx": 307,
+      "start": 1233.16,
+      "end": 1234.16,
+      "text": "There's more than this."
+    },
+    {
+      "idx": 308,
+      "start": 1234.26,
+      "end": 1237.36,
+      "text": "There's also in this room two quark fields,"
+    },
+    {
+      "idx": 309,
+      "start": 1237.46,
+      "end": 1243.69,
+      "text": "and the ripples of these two quark fields give rise to what we call the up quark and the down quark."
+    },
+    {
+      "idx": 310,
+      "start": 1243.79,
+      "end": 1247.89,
+      "text": "And the same is true for every other kind of particle in the universe."
+    },
+    {
+      "idx": 311,
+      "start": 1247.99,
+      "end": 1250.09,
+      "text": "There are fields that underlie everything,"
+    },
+    {
+      "idx": 312,
+      "start": 1250.09,
+      "end": 1254.39,
+      "text": "and what we think of as particles aren't really particles at all."
+    },
+    {
+      "idx": 313,
+      "start": 1254.49,
+      "end": 1259.39,
+      "text": "They're waves of these fields tied up into little bundles of energy."
+    },
+    {
+      "idx": 314,
+      "start": 1259.49,
+      "end": 1263.01,
+      "text": "So this is the legacy of Faraday."
+    },
+    {
+      "idx": 315,
+      "start": 1263.11,
+      "end": 1266.51,
+      "text": "This is where Faraday's vision of fields has taken us."
+    },
+    {
+      "idx": 316,
+      "start": 1266.61,
+      "end": 1268.61,
+      "text": "There are no particles in the world."
+    },
+    {
+      "idx": 317,
+      "start": 1268.71,
+      "end": 1277.61,
+      "text": "The basic fundamental building blocks of our universe are these fluid-like substances that we call fields."
+    },
+    {
+      "idx": 318,
+      "start": 1287.04,
+      "end": 1294.24,
+      "text": "So what I want to do in the rest of this talk is tell you where that vision takes us."
+    },
+    {
+      "idx": 319,
+      "start": 1294.34,
+      "end": 1298.34,
+      "text": "I want to tell you about what it means that we're not made of particles."
+    },
+    {
+      "idx": 320,
+      "start": 1298.44,
+      "end": 1300.04,
+      "text": "We're made of fields."
+    },
+    {
+      "idx": 321,
+      "start": 1300.14,
+      "end": 1306.04,
+      "text": "And I want to tell you what we can do with that and how we can best understand the universe around us."
+    },
+    {
+      "idx": 322,
+      "start": 1306.64,
+      "end": 1308.54,
+      "text": "So here's the first thing."
+    },
+    {
+      "idx": 323,
+      "start": 1308.64,
+      "end": 1314.05,
+      "text": "Take a box and take every single thing that exists out of that box."
+    },
+    {
+      "idx": 324,
+      "start": 1314.15,
+      "end": 1315.55,
+      "text": "Take all the particles out the box,"
+    },
+    {
+      "idx": 325,
+      "start": 1315.65,
+      "end": 1317.25,
+      "text": "all the atoms out the box,"
+    },
+    {
+      "idx": 326,
+      "start": 1317.45,
+      "end": 1320.05,
+      "text": "what you're left with is a pure vacuum."
+    },
+    {
+      "idx": 327,
+      "start": 1320.15,
+      "end": 1323.92,
+      "text": "And this is what the vacuum looks like."
+    },
+    {
+      "idx": 328,
+      "start": 1324.02,
+      "end": 1330.32,
+      "text": "So what you're looking at here is a computer simulation using our best theory of physics."
+    },
+    {
+      "idx": 329,
+      "start": 1330.42,
+      "end": 1331.62,
+      "text": "It's something called the standard model,"
+    },
+    {
+      "idx": 330,
+      "start": 1331.72,
+      "end": 1333.72,
+      "text": "which I'll introduce later."
+    },
+    {
+      "idx": 331,
+      "start": 1333.82,
+      "end": 1339.04,
+      "text": "But it's a computer simulation of absolutely nothing."
+    },
+    {
+      "idx": 332,
+      "start": 1339.14,
+      "end": 1342.14,
+      "text": "This is empty space,"
+    },
+    {
+      "idx": 333,
+      "start": 1342.24,
+      "end": 1344.54,
+      "text": "literally empty space with nothing in it."
+    },
+    {
+      "idx": 334,
+      "start": 1344.64,
+      "end": 1348.44,
+      "text": "This is the simplest thing you could possibly imagine in the universe."
+    },
+    {
+      "idx": 335,
+      "start": 1348.64,
+      "end": 1351.94,
+      "text": "And you can see it's an interesting place to be,"
+    },
+    {
+      "idx": 336,
+      "start": 1352.04,
+      "end": 1352.94,
+      "text": "an empty space."
+    },
+    {
+      "idx": 337,
+      "start": 1353.04,
+      "end": 1354.94,
+      "text": "It's not dull and boring."
+    },
+    {
+      "idx": 338,
+      "start": 1355.04,
+      "end": 1358.94,
+      "text": "What you're looking at here is that even when the particles are taken out,"
+    },
+    {
+      "idx": 339,
+      "start": 1359.04,
+      "end": 1360.94,
+      "text": "the field still exists."
+    },
+    {
+      "idx": 340,
+      "start": 1361.04,
+      "end": 1362.44,
+      "text": "The field is there."
+    },
+    {
+      "idx": 341,
+      "start": 1362.54,
+      "end": 1363.64,
+      "text": "But what's more,"
+    },
+    {
+      "idx": 342,
+      "start": 1363.74,
+      "end": 1366.24,
+      "text": "the field is governed by the rules of quantum mechanics."
+    },
+    {
+      "idx": 343,
+      "start": 1366.34,
+      "end": 1369.7,
+      "text": "And there's a principle in quantum mechanics,"
+    },
+    {
+      "idx": 344,
+      "start": 1369.8,
+      "end": 1371.9,
+      "text": "which is called the Heisenberg uncertainty principle,"
+    },
+    {
+      "idx": 345,
+      "start": 1372.0,
+      "end": 1373.9,
+      "text": "which says you're not allowed to sit still."
+    },
+    {
+      "idx": 346,
+      "start": 1374.0,
+      "end": 1376.16,
+      "text": "And the field has to obey this."
+    },
+    {
+      "idx": 347,
+      "start": 1376.26,
+      "end": 1378.36,
+      "text": "So even when there's nothing else there,"
+    },
+    {
+      "idx": 348,
+      "start": 1378.36,
+      "end": 1381.96,
+      "text": "the field is constantly bubbling and fluctuating"
+    },
+    {
+      "idx": 349,
+      "start": 1382.06,
+      "end": 1386.09,
+      "text": "in what's quite honestly a very complicated way."
+    },
+    {
+      "idx": 350,
+      "start": 1386.19,
+      "end": 1389.79,
+      "text": "These are things that we call quantum vacuum fluctuations."
+    },
+    {
+      "idx": 351,
+      "start": 1389.89,
+      "end": 1396.76,
+      "text": "But this is what nothingness looks like from the perspective of our current theories of physics."
+    },
+    {
+      "idx": 352,
+      "start": 1396.86,
+      "end": 1399.76,
+      "text": "It's worth saying that this is a computer simulation."
+    },
+    {
+      "idx": 353,
+      "start": 1399.86,
+      "end": 1401.56,
+      "text": "It looks a little bit like a cartoon,"
+    },
+    {
+      "idx": 354,
+      "start": 1401.66,
+      "end": 1407.56,
+      "text": "but it's actually quite a powerful computer simulation that took a long time to do."
+    },
+    {
+      "idx": 355,
+      "start": 1407.66,
+      "end": 1409.06,
+      "text": "But these aren't just theoretical."
+    },
+    {
+      "idx": 356,
+      "start": 1409.16,
+      "end": 1413.46,
+      "text": "These quantum fluctuations that are there in the pure vacuum are things that we can measure."
+    },
+    {
+      "idx": 357,
+      "start": 1413.56,
+      "end": 1415.96,
+      "text": "There's something called the Casimir force."
+    },
+    {
+      "idx": 358,
+      "start": 1416.06,
+      "end": 1421.16,
+      "text": "The Casimir force is a force between two metal plates that get pushed together,"
+    },
+    {
+      "idx": 359,
+      "start": 1421.26,
+      "end": 1425.36,
+      "text": "basically because there's more of this stuff on the outside than on the inside."
+    },
+    {
+      "idx": 360,
+      "start": 1425.46,
+      "end": 1427.66,
+      "text": "And these are real."
+    },
+    {
+      "idx": 361,
+      "start": 1427.76,
+      "end": 1428.76,
+      "text": "These are things that we can measure,"
+    },
+    {
+      "idx": 362,
+      "start": 1428.86,
+      "end": 1433.46,
+      "text": "and they behave just as we would predict they would from our theories."
+    },
+    {
+      "idx": 363,
+      "start": 1433.56,
+      "end": 1436.54,
+      "text": "So this is nothing."
+    },
+    {
+      "idx": 364,
+      "start": 1436.64,
+      "end": 1439.24,
+      "text": "And this brings me to..."
+    },
+    {
+      "idx": 365,
+      "start": 1439.74,
+      "end": 1443.44,
+      "text": "the more mathematical side of the talk."
+    },
+    {
+      "idx": 366,
+      "start": 1443.54,
+      "end": 1446.54,
+      "text": "Because there's a challenge in this."
+    },
+    {
+      "idx": 367,
+      "start": 1446.64,
+      "end": 1451.34,
+      "text": "This is the simplest thing we can imagine in the entire universe,"
+    },
+    {
+      "idx": 368,
+      "start": 1451.44,
+      "end": 1453.04,
+      "text": "and it's complicated."
+    },
+    {
+      "idx": 369,
+      "start": 1453.14,
+      "end": 1455.04,
+      "text": "It's astonishingly complicated."
+    },
+    {
+      "idx": 370,
+      "start": 1455.14,
+      "end": 1458.14,
+      "text": "And it doesn't get easier than this."
+    },
+    {
+      "idx": 371,
+      "start": 1458.24,
+      "end": 1461.84,
+      "text": "If you want to now understand not nothing but a single particle,"
+    },
+    {
+      "idx": 372,
+      "start": 1461.94,
+      "end": 1464.14,
+      "text": "well, that's much more complicated than this."
+    },
+    {
+      "idx": 373,
+      "start": 1464.24,
+      "end": 1467.84,
+      "text": "And if you want to understand 10 to the 23 particles all doing something interesting,"
+    },
+    {
+      "idx": 374,
+      "start": 1467.94,
+      "end": 1469.64,
+      "text": "that's really, really much more complicated."
+    },
+    {
+      "idx": 375,
+      "start": 1469.84,
+      "end": 1472.73,
+      "text": "So there's a problem in..."
+    },
+    {
+      "idx": 376,
+      "start": 1472.83,
+      "end": 1475.73,
+      "text": "It's my problem, not yours..."
+    },
+    {
+      "idx": 377,
+      "start": 1475.83,
+      "end": 1480.73,
+      "text": "in addressing this fundamental description of the universe,"
+    },
+    {
+      "idx": 378,
+      "start": 1480.83,
+      "end": 1482.73,
+      "text": "which is that it's just hard."
+    },
+    {
+      "idx": 379,
+      "start": 1482.83,
+      "end": 1486.23,
+      "text": "The mathematics that we use to describe quantum fields,"
+    },
+    {
+      "idx": 380,
+      "start": 1486.33,
+      "end": 1489.73,
+      "text": "to describe everything that we're made of in terms of quantum fields,"
+    },
+    {
+      "idx": 381,
+      "start": 1489.83,
+      "end": 1495.73,
+      "text": "is substantially more difficult than the maths that arises in any other area of physics or science."
+    },
+    {
+      "idx": 382,
+      "start": 1495.83,
+      "end": 1497.73,
+      "text": "It's genuinely difficult."
+    },
+    {
+      "idx": 383,
+      "start": 1497.83,
+      "end": 1499.53,
+      "text": "I can put this in some perspective."
+    },
+    {
+      "idx": 384,
+      "start": 1499.53,
+      "end": 1506.03,
+      "text": "There's a list of six open problems in mathematics."
+    },
+    {
+      "idx": 385,
+      "start": 1506.13,
+      "end": 1509.03,
+      "text": "They're considered to be the six hardest problems in mathematics."
+    },
+    {
+      "idx": 386,
+      "start": 1509.13,
+      "end": 1512.43,
+      "text": "There used to be seven, but some crazy Russian guy solved one of them."
+    },
+    {
+      "idx": 387,
+      "start": 1512.53,
+      "end": 1514.63,
+      "text": "So there's six left."
+    },
+    {
+      "idx": 388,
+      "start": 1514.73,
+      "end": 1519.83,
+      "text": "You win a million bucks if you can solve any one of these problems."
+    },
+    {
+      "idx": 389,
+      "start": 1519.93,
+      "end": 1521.53,
+      "text": "If you know a little bit of mathematics,"
+    },
+    {
+      "idx": 390,
+      "start": 1521.63,
+      "end": 1523.53,
+      "text": "there are things like the Riemann hypothesis,"
+    },
+    {
+      "idx": 391,
+      "start": 1523.63,
+      "end": 1525.03,
+      "text": "or P versus NP,"
+    },
+    {
+      "idx": 392,
+      "start": 1525.13,
+      "end": 1527.43,
+      "text": "and they're sort of famously difficult problems."
+    },
+    {
+      "idx": 393,
+      "start": 1527.43,
+      "end": 1530.43,
+      "text": "This is one of those six problems."
+    },
+    {
+      "idx": 394,
+      "start": 1530.53,
+      "end": 1533.43,
+      "text": "You win a million dollars if you can understand this."
+    },
+    {
+      "idx": 395,
+      "start": 1533.53,
+      "end": 1535.43,
+      "text": "So what does it mean?"
+    },
+    {
+      "idx": 396,
+      "start": 1535.53,
+      "end": 1539.43,
+      "text": "It doesn't mean, can you build a big computer and just demonstrate that these are there?"
+    },
+    {
+      "idx": 397,
+      "start": 1539.53,
+      "end": 1542.43,
+      "text": "It means, can you understand from first principles,"
+    },
+    {
+      "idx": 398,
+      "start": 1542.53,
+      "end": 1544.43,
+      "text": "by solving the equations,"
+    },
+    {
+      "idx": 399,
+      "start": 1544.53,
+      "end": 1549.43,
+      "text": "the patterns that emerge within these quantum fluctuations?"
+    },
+    {
+      "idx": 400,
+      "start": 1549.53,
+      "end": 1551.43,
+      "text": "It's an extraordinarily difficult problem."
+    },
+    {
+      "idx": 401,
+      "start": 1551.53,
+      "end": 1554.43,
+      "text": "It's right in the kind of thing I do."
+    },
+    {
+      "idx": 402,
+      "start": 1554.53,
+      "end": 1557.23,
+      "text": "I don't know a single person in the world who's actually working on this problem."
+    },
+    {
+      "idx": 403,
+      "start": 1557.23,
+      "end": 1558.73,
+      "text": "That's how hard it is."
+    },
+    {
+      "idx": 404,
+      "start": 1558.83,
+      "end": 1567.23,
+      "text": "We don't really even know how to begin to start understanding these kind of ideas in quantum field theory."
+    },
+    {
+      "idx": 405,
+      "start": 1567.33,
+      "end": 1573.52,
+      "text": "This theme about the mathematics being challenging"
+    },
+    {
+      "idx": 406,
+      "start": 1573.62,
+      "end": 1578.52,
+      "text": "is something which is going to come back later in the talk."
+    },
+    {
+      "idx": 407,
+      "start": 1578.62,
+      "end": 1583.52,
+      "text": "So I'd like just to take a little bit of a diversion for a few minutes"
+    },
+    {
+      "idx": 408,
+      "start": 1583.62,
+      "end": 1586.62,
+      "text": "and give you a sense about what we can do mathematically"
+    },
+    {
+      "idx": 409,
+      "start": 1586.72,
+      "end": 1587.42,
+      "text": "and what we can't."
+    },
+    {
+      "idx": 410,
+      "start": 1587.62,
+      "end": 1593.52,
+      "text": "Just to sort of tell you what the state of play is in terms of us understanding these theories"
+    },
+    {
+      "idx": 411,
+      "start": 1593.62,
+      "end": 1596.52,
+      "text": "called quantum field theories which underlie our universe."
+    },
+    {
+      "idx": 412,
+      "start": 1596.62,
+      "end": 1605.52,
+      "text": "So there are times where we understand extremely well what's going on with quantum fields."
+    },
+    {
+      "idx": 413,
+      "start": 1605.62,
+      "end": 1611.52,
+      "text": "And that happens basically when these fluctuations are very calm and tame."
+    },
+    {
+      "idx": 414,
+      "start": 1611.62,
+      "end": 1613.52,
+      "text": "When they're not wild and strong."
+    },
+    {
+      "idx": 415,
+      "start": 1613.62,
+      "end": 1614.52,
+      "text": "These ones are big."
+    },
+    {
+      "idx": 416,
+      "start": 1614.62,
+      "end": 1616.62,
+      "text": "But when they're much more calmer."
+    },
+    {
+      "idx": 417,
+      "start": 1616.62,
+      "end": 1621.52,
+      "text": "When the vacuum is much more like a mill pond than it is like a raging storm."
+    },
+    {
+      "idx": 418,
+      "start": 1621.62,
+      "end": 1624.62,
+      "text": "In those cases we really think we understand what we're doing."
+    },
+    {
+      "idx": 419,
+      "start": 1624.72,
+      "end": 1629.68,
+      "text": "And to illustrate this I just want to give you this example."
+    },
+    {
+      "idx": 420,
+      "start": 1629.78,
+      "end": 1636.68,
+      "text": "So this number G is a particular property of the electron particle."
+    },
+    {
+      "idx": 421,
+      "start": 1636.78,
+      "end": 1638.68,
+      "text": "And I'll quickly explain what it is."
+    },
+    {
+      "idx": 422,
+      "start": 1638.78,
+      "end": 1642.68,
+      "text": "The electron is a particle and it turns out the electron spins."
+    },
+    {
+      "idx": 423,
+      "start": 1642.78,
+      "end": 1645.78,
+      "text": "It orbits rather like the Earth orbits."
+    },
+    {
+      "idx": 424,
+      "start": 1645.88,
+      "end": 1646.58,
+      "text": "And it has an axis."
+    },
+    {
+      "idx": 425,
+      "start": 1646.68,
+      "end": 1648.48,
+      "text": "It has an axis of spin."
+    },
+    {
+      "idx": 426,
+      "start": 1648.58,
+      "end": 1651.48,
+      "text": "And you can change the axis of that spin."
+    },
+    {
+      "idx": 427,
+      "start": 1651.58,
+      "end": 1655.48,
+      "text": "And the way you change it is you take a magnetic field like this."
+    },
+    {
+      "idx": 428,
+      "start": 1655.58,
+      "end": 1659.48,
+      "text": "And in the presence of a magnetic field the electron will spin."
+    },
+    {
+      "idx": 429,
+      "start": 1659.58,
+      "end": 1661.48,
+      "text": "The electron will stay in one place but spin."
+    },
+    {
+      "idx": 430,
+      "start": 1661.58,
+      "end": 1666.48,
+      "text": "And then the axis of spin will slowly rotate like this."
+    },
+    {
+      "idx": 431,
+      "start": 1666.58,
+      "end": 1668.48,
+      "text": "It's what's called precession."
+    },
+    {
+      "idx": 432,
+      "start": 1668.58,
+      "end": 1675.68,
+      "text": "And the speed at which the axis of that spin precesses is dictated by this number here."
+    },
+    {
+      "idx": 433,
+      "start": 1676.78,
+      "end": 1679.58,
+      "text": "So this is not the most important thing in the big picture."
+    },
+    {
+      "idx": 434,
+      "start": 1679.68,
+      "end": 1684.58,
+      "text": "However, historically this has been extremely important in the history of physics."
+    },
+    {
+      "idx": 435,
+      "start": 1684.68,
+      "end": 1690.58,
+      "text": "Because it turns out this is a number you can measure very, very accurately doing experiments."
+    },
+    {
+      "idx": 436,
+      "start": 1690.68,
+      "end": 1699.58,
+      "text": "And so this number has sort of acted as a testing ground for us to see how well we understand the theories that underlie nature."
+    },
+    {
+      "idx": 437,
+      "start": 1699.68,
+      "end": 1701.58,
+      "text": "And in particular quantum field theory."
+    },
+    {
+      "idx": 438,
+      "start": 1701.68,
+      "end": 1703.58,
+      "text": "So let me tell you what you're looking at here."
+    },
+    {
+      "idx": 439,
+      "start": 1703.58,
+      "end": 1716.92,
+      "text": "The first number is the result of many, many decades of painstaking experiments measuring very, very precisely this feature of the electron."
+    },
+    {
+      "idx": 440,
+      "start": 1717.02,
+      "end": 1720.5,
+      "text": "It's called the magnetic moment."
+    },
+    {
+      "idx": 441,
+      "start": 1720.6,
+      "end": 1733.5,
+      "text": "And the second number is the result of many, many decades of very tortuous calculations sitting down with a pen and paper and trying to predict from first principles, from quantum field theory,"
+    },
+    {
+      "idx": 442,
+      "start": 1733.5,
+      "end": 1736.56,
+      "text": "what the magnetic moment of the electron should be."
+    },
+    {
+      "idx": 443,
+      "start": 1736.66,
+      "end": 1739.56,
+      "text": "And you can see it's simply spectacular."
+    },
+    {
+      "idx": 444,
+      "start": 1739.66,
+      "end": 1749.56,
+      "text": "And there's nothing like this anywhere else in science with an agreement between the theoretical calculation and the experimental measurements."
+    },
+    {
+      "idx": 445,
+      "start": 1749.66,
+      "end": 1753.56,
+      "text": "It's sort of, I think it's 12 or 13 significant figures."
+    },
+    {
+      "idx": 446,
+      "start": 1753.66,
+      "end": 1755.56,
+      "text": "It's really astonishing."
+    },
+    {
+      "idx": 447,
+      "start": 1755.66,
+      "end": 1759.56,
+      "text": "Any other area of science you'll be jumping up and down for joy if you get the first two numbers right."
+    },
+    {
+      "idx": 448,
+      "start": 1759.66,
+      "end": 1761.56,
+      "text": "Economics, not even that."
+    },
+    {
+      "idx": 449,
+      "start": 1761.66,
+      "end": 1762.76,
+      "text": "You know, just..."
+    },
+    {
+      "idx": 450,
+      "start": 1763.76,
+      "end": 1766.56,
+      "text": "But this is where we're at in particle physics."
+    },
+    {
+      "idx": 451,
+      "start": 1766.66,
+      "end": 1772.56,
+      "text": "On a good day when we really understand what we're doing, it's substantially better than any other area of science."
+    },
+    {
+      "idx": 452,
+      "start": 1772.66,
+      "end": 1774.56,
+      "text": "12 significant figures."
+    },
+    {
+      "idx": 453,
+      "start": 1774.75,
+      "end": 1778.65,
+      "text": "But this, of course, I've shown you because this is our best result."
+    },
+    {
+      "idx": 454,
+      "start": 1778.75,
+      "end": 1782.65,
+      "text": "There are many other results that are nowhere near as good."
+    },
+    {
+      "idx": 455,
+      "start": 1782.75,
+      "end": 1788.65,
+      "text": "And the difficulty comes when those quantum vacuum fluctuations start getting wilder and stronger."
+    },
+    {
+      "idx": 456,
+      "start": 1788.75,
+      "end": 1790.65,
+      "text": "So let me give you an example."
+    },
+    {
+      "idx": 457,
+      "start": 1790.75,
+      "end": 1793.65,
+      "text": "It should be possible for us to sit down."
+    },
+    {
+      "idx": 458,
+      "start": 1793.85,
+      "end": 1798.65,
+      "text": "And calculate from first principles the mass of the proton."
+    },
+    {
+      "idx": 459,
+      "start": 1798.75,
+      "end": 1800.65,
+      "text": "We have the equations."
+    },
+    {
+      "idx": 460,
+      "start": 1800.75,
+      "end": 1802.65,
+      "text": "Everything should be there."
+    },
+    {
+      "idx": 461,
+      "start": 1802.75,
+      "end": 1808.65,
+      "text": "We just need to work hard and figure out what the mass of the proton is just by doing calculations."
+    },
+    {
+      "idx": 462,
+      "start": 1808.75,
+      "end": 1812.65,
+      "text": "We've been trying to do this for about 40 years now."
+    },
+    {
+      "idx": 463,
+      "start": 1812.75,
+      "end": 1817.65,
+      "text": "We can get it to within an accuracy of something like 3%."
+    },
+    {
+      "idx": 464,
+      "start": 1817.75,
+      "end": 1819.65,
+      "text": "Which isn't bad."
+    },
+    {
+      "idx": 465,
+      "start": 1819.75,
+      "end": 1821.65,
+      "text": "We're 3% there."
+    },
+    {
+      "idx": 466,
+      "start": 1821.75,
+      "end": 1822.85,
+      "text": "But we should be much, much better."
+    },
+    {
+      "idx": 467,
+      "start": 1822.85,
+      "end": 1827.75,
+      "text": "We should be pushing these levels of accuracy."
+    },
+    {
+      "idx": 468,
+      "start": 1827.85,
+      "end": 1830.75,
+      "text": "And the reason is very simple."
+    },
+    {
+      "idx": 469,
+      "start": 1830.85,
+      "end": 1832.75,
+      "text": "We've got the right equation."
+    },
+    {
+      "idx": 470,
+      "start": 1832.85,
+      "end": 1834.75,
+      "text": "We're pretty sure we're solving the right equation."
+    },
+    {
+      "idx": 471,
+      "start": 1834.85,
+      "end": 1837.75,
+      "text": "It's simply that we're not smart enough to solve it."
+    },
+    {
+      "idx": 472,
+      "start": 1837.85,
+      "end": 1841.75,
+      "text": "40 years, the world's most powerful computers, lots and lots of smart people."
+    },
+    {
+      "idx": 473,
+      "start": 1841.85,
+      "end": 1847.3,
+      "text": "But we haven't managed to figure this out yet."
+    },
+    {
+      "idx": 474,
+      "start": 1847.4,
+      "end": 1851.3,
+      "text": "There are other situations that I won't tell you about where we don't even get off the ground."
+    },
+    {
+      "idx": 475,
+      "start": 1851.4,
+      "end": 1853.3,
+      "text": "There are some situations where we don't even get off the ground."
+    },
+    {
+      "idx": 476,
+      "start": 1853.3,
+      "end": 1858.2,
+      "text": "For fairly subtle reasons, we're unable to use computers to help us."
+    },
+    {
+      "idx": 477,
+      "start": 1858.3,
+      "end": 1861.2,
+      "text": "And we simply have no idea what we're doing."
+    },
+    {
+      "idx": 478,
+      "start": 1861.3,
+      "end": 1864.2,
+      "text": "So it's a slightly strange situation."
+    },
+    {
+      "idx": 479,
+      "start": 1864.3,
+      "end": 1866.2,
+      "text": "We have these theories of physics."
+    },
+    {
+      "idx": 480,
+      "start": 1866.3,
+      "end": 1869.2,
+      "text": "They're the best theories we've ever developed."
+    },
+    {
+      "idx": 481,
+      "start": 1869.3,
+      "end": 1871.2,
+      "text": "As you can see by this."
+    },
+    {
+      "idx": 482,
+      "start": 1871.3,
+      "end": 1875.2,
+      "text": "But at the same time, they're also the theories that we understand the least."
+    },
+    {
+      "idx": 483,
+      "start": 1875.3,
+      "end": 1882.2,
+      "text": "And to make progress, we sort of have this strange balancing act between increasing our theoretical understanding."
+    },
+    {
+      "idx": 484,
+      "start": 1882.2,
+      "end": 1886.1,
+      "text": "And figuring out how to apply that to the experiments that we're doing."
+    },
+    {
+      "idx": 485,
+      "start": 1886.2,
+      "end": 1890.1,
+      "text": "And again, it's a theme I'll come back to at the end of this lecture."
+    },
+    {
+      "idx": 486,
+      "start": 1890.2,
+      "end": 1898.06,
+      "text": "Alright, so far I've been talking in a little bit of generality about what we're made of."
+    },
+    {
+      "idx": 487,
+      "start": 1898.16,
+      "end": 1903.06,
+      "text": "And this is the punchline for the halfway point of the talk."
+    },
+    {
+      "idx": 488,
+      "start": 1903.16,
+      "end": 1905.06,
+      "text": "You're all made of quantum fields."
+    },
+    {
+      "idx": 489,
+      "start": 1905.16,
+      "end": 1907.06,
+      "text": "And I don't understand them."
+    },
+    {
+      "idx": 490,
+      "start": 1907.16,
+      "end": 1911.22,
+      "text": "At least I don't understand them as well as I think I should."
+    },
+    {
+      "idx": 491,
+      "start": 1911.22,
+      "end": 1914.24,
+      "text": "So what I want to do now is go into a little bit more specifics."
+    },
+    {
+      "idx": 492,
+      "start": 1914.34,
+      "end": 1919.24,
+      "text": "I want to tell you exactly what quantum fields you're all made of."
+    },
+    {
+      "idx": 493,
+      "start": 1919.34,
+      "end": 1923.24,
+      "text": "In fact, I'll tell you exactly what quantum fields exist in the universe."
+    },
+    {
+      "idx": 494,
+      "start": 1923.34,
+      "end": 1925.24,
+      "text": "And the good news is there's not many of them."
+    },
+    {
+      "idx": 495,
+      "start": 1925.34,
+      "end": 1927.24,
+      "text": "So I'll simply tell you all of them."
+    },
+    {
+      "idx": 496,
+      "start": 1928.18,
+      "end": 1930.08,
+      "text": "So we started with the periodic table."
+    },
+    {
+      "idx": 497,
+      "start": 1930.18,
+      "end": 1933.08,
+      "text": "This is the new periodic table."
+    },
+    {
+      "idx": 498,
+      "start": 1933.18,
+      "end": 1935.08,
+      "text": "And it's much simpler."
+    },
+    {
+      "idx": 499,
+      "start": 1935.18,
+      "end": 1937.08,
+      "text": "You know, it's much nicer."
+    },
+    {
+      "idx": 500,
+      "start": 1937.18,
+      "end": 1939.08,
+      "text": "There are the three particles that we're all made of."
+    },
+    {
+      "idx": 501,
+      "start": 1939.18,
+      "end": 1941.08,
+      "text": "There's the electron and the two quarks."
+    },
+    {
+      "idx": 502,
+      "start": 1941.18,
+      "end": 1942.08,
+      "text": "The up quark and the down quark."
+    },
+    {
+      "idx": 503,
+      "start": 1942.08,
+      "end": 1944.98,
+      "text": "And as I've stressed, the particles aren't fundamental."
+    },
+    {
+      "idx": 504,
+      "start": 1945.08,
+      "end": 1947.98,
+      "text": "What's really fundamental is the field that underlies them."
+    },
+    {
+      "idx": 505,
+      "start": 1948.08,
+      "end": 1954.1,
+      "text": "And then it turns out there's a fourth particle that I've not discussed so far."
+    },
+    {
+      "idx": 506,
+      "start": 1954.2,
+      "end": 1956.1,
+      "text": "It's called the neutrino."
+    },
+    {
+      "idx": 507,
+      "start": 1956.2,
+      "end": 1958.1,
+      "text": "It's not important in what we're made of."
+    },
+    {
+      "idx": 508,
+      "start": 1958.2,
+      "end": 1962.1,
+      "text": "But it does play another important role elsewhere in the universe."
+    },
+    {
+      "idx": 509,
+      "start": 1962.2,
+      "end": 1964.1,
+      "text": "These neutrinos are everywhere."
+    },
+    {
+      "idx": 510,
+      "start": 1964.2,
+      "end": 1966.1,
+      "text": "You've never noticed them."
+    },
+    {
+      "idx": 511,
+      "start": 1966.2,
+      "end": 1971.1,
+      "text": "But since I began this talk, something like 10 to the 14 of them have streamed through the body of each and every one of you."
+    },
+    {
+      "idx": 512,
+      "start": 1971.1,
+      "end": 1980.0,
+      "text": "As many coming from above from outer space as actually coming from below because they stream all the way through the earth and then keep going."
+    },
+    {
+      "idx": 513,
+      "start": 1980.1,
+      "end": 1982.0,
+      "text": "They're not very sociable."
+    },
+    {
+      "idx": 514,
+      "start": 1982.1,
+      "end": 1984.0,
+      "text": "They don't interact."
+    },
+    {
+      "idx": 515,
+      "start": 1984.1,
+      "end": 1986.0,
+      "text": "So this is what everything is made of."
+    },
+    {
+      "idx": 516,
+      "start": 1986.1,
+      "end": 1992.0,
+      "text": "These are the four particles that form the bedrock of our universe."
+    },
+    {
+      "idx": 517,
+      "start": 1992.1,
+      "end": 1997.48,
+      "text": "Except then something rather strange happened."
+    },
+    {
+      "idx": 518,
+      "start": 1997.58,
+      "end": 2001.48,
+      "text": "For a reason that we do not understand at all."
+    },
+    {
+      "idx": 519,
+      "start": 2001.48,
+      "end": 2008.38,
+      "text": "Nature has chosen to take these four particles and reproduce them twice over."
+    },
+    {
+      "idx": 520,
+      "start": 2008.48,
+      "end": 2017.38,
+      "text": "So this is actually the list of all the fields that make up particles in our universe."
+    },
+    {
+      "idx": 521,
+      "start": 2017.48,
+      "end": 2019.38,
+      "text": "So what are we looking at here?"
+    },
+    {
+      "idx": 522,
+      "start": 2019.48,
+      "end": 2021.38,
+      "text": "This is the electron."
+    },
+    {
+      "idx": 523,
+      "start": 2021.48,
+      "end": 2028.38,
+      "text": "It turns out there are two other particles which behave in every way exactly the same as the electron, except they're heavier."
+    },
+    {
+      "idx": 524,
+      "start": 2028.48,
+      "end": 2032.6,
+      "text": "We call them the muon, which has a mass of something like 200 times the mass of the electron."
+    },
+    {
+      "idx": 525,
+      "start": 2032.7,
+      "end": 2036.6,
+      "text": "And the tau particle which is 3000 times heavier than the electron."
+    },
+    {
+      "idx": 526,
+      "start": 2036.7,
+      "end": 2038.6,
+      "text": "Why are they there?"
+    },
+    {
+      "idx": 527,
+      "start": 2038.7,
+      "end": 2040.6,
+      "text": "We have no idea at all."
+    },
+    {
+      "idx": 528,
+      "start": 2040.7,
+      "end": 2042.7,
+      "text": "It's one of the mysteries of the universe."
+    },
+    {
+      "idx": 529,
+      "start": 2042.8,
+      "end": 2044.7,
+      "text": "There's also two more neutrinos."
+    },
+    {
+      "idx": 530,
+      "start": 2044.8,
+      "end": 2046.7,
+      "text": "So there are three neutrinos in total."
+    },
+    {
+      "idx": 531,
+      "start": 2046.8,
+      "end": 2054.7,
+      "text": "And the two quarks that we first knew about are now joined by four others that we call the strange quark and the charmed quark."
+    },
+    {
+      "idx": 532,
+      "start": 2054.8,
+      "end": 2061.7,
+      "text": "And then by the time we got here we really ran out of any kind of inspiration for naming them."
+    },
+    {
+      "idx": 533,
+      "start": 2061.7,
+      "end": 2065.66,
+      "text": "So there's the bottom quark and the top quark."
+    },
+    {
+      "idx": 534,
+      "start": 2065.76,
+      "end": 2069.66,
+      "text": "So I should stress, we understand things very, very well going this way."
+    },
+    {
+      "idx": 535,
+      "start": 2069.76,
+      "end": 2071.66,
+      "text": "We understand why they come in a group of four."
+    },
+    {
+      "idx": 536,
+      "start": 2071.76,
+      "end": 2075.66,
+      "text": "We understand why they have the properties that they do."
+    },
+    {
+      "idx": 537,
+      "start": 2075.76,
+      "end": 2077.66,
+      "text": "We don't understand it at all going this way."
+    },
+    {
+      "idx": 538,
+      "start": 2077.76,
+      "end": 2081.66,
+      "text": "We don't know why there's three of these rather than two of them or seventeen of them."
+    },
+    {
+      "idx": 539,
+      "start": 2081.76,
+      "end": 2083.66,
+      "text": "That's a mystery."
+    },
+    {
+      "idx": 540,
+      "start": 2083.76,
+      "end": 2085.66,
+      "text": "But this is everything."
+    },
+    {
+      "idx": 541,
+      "start": 2085.76,
+      "end": 2087.66,
+      "text": "This is everything in the universe."
+    },
+    {
+      "idx": 542,
+      "start": 2087.76,
+      "end": 2089.66,
+      "text": "Everything you're made of is these three at the top there."
+    },
+    {
+      "idx": 543,
+      "start": 2089.76,
+      "end": 2091.66,
+      "text": "And it's only when you go to more exotic situations"
+    },
+    {
+      "idx": 544,
+      "start": 2091.66,
+      "end": 2095.56,
+      "text": "like particle colliders that we need the others on the bottom."
+    },
+    {
+      "idx": 545,
+      "start": 2095.66,
+      "end": 2099.56,
+      "text": "But every single thing we've ever seen can be made out of these twelve particles."
+    },
+    {
+      "idx": 546,
+      "start": 2101.72,
+      "end": 2106.62,
+      "text": "These twelve fields interact with each other and they interact through four different forces."
+    },
+    {
+      "idx": 547,
+      "start": 2106.72,
+      "end": 2108.62,
+      "text": "Two of these are extremely familiar."
+    },
+    {
+      "idx": 548,
+      "start": 2108.72,
+      "end": 2111.62,
+      "text": "The force of gravity and the force of electromagnetism."
+    },
+    {
+      "idx": 549,
+      "start": 2111.72,
+      "end": 2116.62,
+      "text": "But there's also two other forces which operate only on small scales of a nucleus."
+    },
+    {
+      "idx": 550,
+      "start": 2116.72,
+      "end": 2121.62,
+      "text": "So there's something called the strong nuclear force which holds the quarks together inside protons and neutrons."
+    },
+    {
+      "idx": 551,
+      "start": 2121.62,
+      "end": 2129.52,
+      "text": "And there's something called the weak nuclear force which is responsible for radioactive decay and among other things for making the sun shine."
+    },
+    {
+      "idx": 552,
+      "start": 2129.62,
+      "end": 2133.52,
+      "text": "Again, each of these forces is associated to a field."
+    },
+    {
+      "idx": 553,
+      "start": 2133.62,
+      "end": 2136.52,
+      "text": "So Faraday taught us about the electromagnetic field."
+    },
+    {
+      "idx": 554,
+      "start": 2136.62,
+      "end": 2140.52,
+      "text": "But there's a field associated to this which is called the gluon field."
+    },
+    {
+      "idx": 555,
+      "start": 2140.62,
+      "end": 2144.68,
+      "text": "And a field associated to this which is called the W and Z boson field."
+    },
+    {
+      "idx": 556,
+      "start": 2144.78,
+      "end": 2149.75,
+      "text": "There's also a field associated to gravity."
+    },
+    {
+      "idx": 557,
+      "start": 2149.75,
+      "end": 2153.65,
+      "text": "And this was really Einstein's great insight into the world."
+    },
+    {
+      "idx": 558,
+      "start": 2153.75,
+      "end": 2158.65,
+      "text": "The field associated to gravity turns out to be space and time itself."
+    },
+    {
+      "idx": 559,
+      "start": 2158.75,
+      "end": 2164.94,
+      "text": "So if you've never heard that before, that was the world's shortest introduction to general relativity."
+    },
+    {
+      "idx": 560,
+      "start": 2165.04,
+      "end": 2167.94,
+      "text": "And I'm not going to say anything else about it."
+    },
+    {
+      "idx": 561,
+      "start": 2168.04,
+      "end": 2171.94,
+      "text": "I'll just let you figure that one out for yourself."
+    },
+    {
+      "idx": 562,
+      "start": 2172.04,
+      "end": 2174.94,
+      "text": "Okay, so this is the universe we live in."
+    },
+    {
+      "idx": 563,
+      "start": 2175.04,
+      "end": 2177.94,
+      "text": "There are twelve fields that give matter."
+    },
+    {
+      "idx": 564,
+      "start": 2178.04,
+      "end": 2179.94,
+      "text": "I'll call them matter fields."
+    },
+    {
+      "idx": 565,
+      "start": 2180.04,
+      "end": 2182.84,
+      "text": "And four other fields that are the forces."
+    },
+    {
+      "idx": 566,
+      "start": 2182.94,
+      "end": 2192.84,
+      "text": "And the world we live in is these combination of the sixteen fields all interacting together in interesting ways."
+    },
+    {
+      "idx": 567,
+      "start": 2192.94,
+      "end": 2196.84,
+      "text": "So this is what you should think of the universe as like."
+    },
+    {
+      "idx": 568,
+      "start": 2196.94,
+      "end": 2198.84,
+      "text": "It's filled with these fields."
+    },
+    {
+      "idx": 569,
+      "start": 2198.94,
+      "end": 2201.09,
+      "text": "Fluid like substances."
+    },
+    {
+      "idx": 570,
+      "start": 2201.19,
+      "end": 2203.09,
+      "text": "Twelve matter, four forces."
+    },
+    {
+      "idx": 571,
+      "start": 2203.19,
+      "end": 2206.09,
+      "text": "One of the matter fields starts to oscillate and ripple."
+    },
+    {
+      "idx": 572,
+      "start": 2206.19,
+      "end": 2210.09,
+      "text": "Say the electron field starts to wave up and down."
+    },
+    {
+      "idx": 573,
+      "start": 2210.09,
+      "end": 2211.99,
+      "text": "And the electron is there."
+    },
+    {
+      "idx": 574,
+      "start": 2212.09,
+      "end": 2213.99,
+      "text": "That will kick off one of the other fields."
+    },
+    {
+      "idx": 575,
+      "start": 2214.09,
+      "end": 2215.99,
+      "text": "It will kick off, say, the electromagnetic field."
+    },
+    {
+      "idx": 576,
+      "start": 2216.09,
+      "end": 2217.99,
+      "text": "Which in turn will also oscillate and ripple."
+    },
+    {
+      "idx": 577,
+      "start": 2218.09,
+      "end": 2219.99,
+      "text": "There will be light, which is emitted."
+    },
+    {
+      "idx": 578,
+      "start": 2220.09,
+      "end": 2221.99,
+      "text": "So that will oscillate and ripple."
+    },
+    {
+      "idx": 579,
+      "start": 2222.09,
+      "end": 2224.99,
+      "text": "At some point it will start interacting with the quark field."
+    },
+    {
+      "idx": 580,
+      "start": 2225.09,
+      "end": 2226.99,
+      "text": "Which in turn will oscillate and ripple."
+    },
+    {
+      "idx": 581,
+      "start": 2227.09,
+      "end": 2231.99,
+      "text": "And the picture we end up with is this harmonious dance between all these fields."
+    },
+    {
+      "idx": 582,
+      "start": 2232.09,
+      "end": 2233.99,
+      "text": "Interlocking each other."
+    },
+    {
+      "idx": 583,
+      "start": 2235.09,
+      "end": 2236.99,
+      "text": "Moving this way and that way."
+    },
+    {
+      "idx": 584,
+      "start": 2237.09,
+      "end": 2239.99,
+      "text": "That's the picture that we have of the fundamental universe."
+    },
+    {
+      "idx": 585,
+      "start": 2239.99,
+      "end": 2242.92,
+      "text": "The fundamental laws of physics."
+    },
+    {
+      "idx": 586,
+      "start": 2243.02,
+      "end": 2246.92,
+      "text": "We have a theory which underlies all this."
+    },
+    {
+      "idx": 587,
+      "start": 2247.02,
+      "end": 2250.92,
+      "text": "It is, to put it simply, the pinnacle of science."
+    },
+    {
+      "idx": 588,
+      "start": 2251.02,
+      "end": 2253.92,
+      "text": "It's the greatest theory we've ever come up with."
+    },
+    {
+      "idx": 589,
+      "start": 2254.02,
+      "end": 2256.92,
+      "text": "We've given it the most astonishingly rubbish name you've ever heard of."
+    },
+    {
+      "idx": 590,
+      "start": 2257.02,
+      "end": 2259.96,
+      "text": "We call it the standard model."
+    },
+    {
+      "idx": 591,
+      "start": 2260.06,
+      "end": 2262.96,
+      "text": "When you hear the name the standard model it sounds tedious and mundane."
+    },
+    {
+      "idx": 592,
+      "start": 2263.06,
+      "end": 2267.96,
+      "text": "It should really be replaced with the greatest theory in the history of human civilization."
+    },
+    {
+      "idx": 593,
+      "start": 2267.96,
+      "end": 2270.86,
+      "text": "That's what we're looking at."
+    },
+    {
+      "idx": 594,
+      "start": 2270.96,
+      "end": 2274.46,
+      "text": "Okay, so this is everything."
+    },
+    {
+      "idx": 595,
+      "start": 2274.56,
+      "end": 2276.46,
+      "text": "Except it's not quite."
+    },
+    {
+      "idx": 596,
+      "start": 2276.56,
+      "end": 2279.46,
+      "text": "I've actually just missed out one field."
+    },
+    {
+      "idx": 597,
+      "start": 2279.56,
+      "end": 2282.46,
+      "text": "There's one extra thing we know about."
+    },
+    {
+      "idx": 598,
+      "start": 2282.56,
+      "end": 2285.46,
+      "text": "Which became quite famous in recent years."
+    },
+    {
+      "idx": 599,
+      "start": 2285.56,
+      "end": 2291.46,
+      "text": "It was a field that was first suggested in the 1960s by a Scottish physicist called Peter Higgs."
+    },
+    {
+      "idx": 600,
+      "start": 2291.56,
+      "end": 2297.46,
+      "text": "And it was, by the 1970s, it had become an integral part of the world."
+    },
+    {
+      "idx": 601,
+      "start": 2297.46,
+      "end": 2300.36,
+      "text": "It had become an integral part of the way we thought about the universe."
+    },
+    {
+      "idx": 602,
+      "start": 2300.46,
+      "end": 2305.36,
+      "text": "But for the longest time we didn't have direct experimental evidence that this existed."
+    },
+    {
+      "idx": 603,
+      "start": 2305.46,
+      "end": 2312.36,
+      "text": "Where direct experimental evidence means we make this Higgs-fueled ripple so we see a particle that's associated to it."
+    },
+    {
+      "idx": 604,
+      "start": 2312.46,
+      "end": 2313.36,
+      "text": "And this changed."
+    },
+    {
+      "idx": 605,
+      "start": 2313.46,
+      "end": 2317.36,
+      "text": "This changed famously four years ago at the LHC."
+    },
+    {
+      "idx": 606,
+      "start": 2317.46,
+      "end": 2320.36,
+      "text": "These are the two experiments at the LHC that discovered it."
+    },
+    {
+      "idx": 607,
+      "start": 2320.46,
+      "end": 2323.36,
+      "text": "They're sort of the size of cathedrals and just packed full of electronics."
+    },
+    {
+      "idx": 608,
+      "start": 2323.46,
+      "end": 2325.36,
+      "text": "They're astonishing things."
+    },
+    {
+      "idx": 609,
+      "start": 2325.46,
+      "end": 2326.36,
+      "text": "This is called ATLAS."
+    },
+    {
+      "idx": 610,
+      "start": 2326.36,
+      "end": 2328.26,
+      "text": "This is called CMS."
+    },
+    {
+      "idx": 611,
+      "start": 2328.36,
+      "end": 2330.26,
+      "text": "The Higgs particle doesn't last for long."
+    },
+    {
+      "idx": 612,
+      "start": 2330.36,
+      "end": 2334.26,
+      "text": "The Higgs particle lasts about 10 to the minus 22 seconds."
+    },
+    {
+      "idx": 613,
+      "start": 2334.36,
+      "end": 2339.26,
+      "text": "So it's not like you see it and you get to take a picture of it and put it on Instagram."
+    },
+    {
+      "idx": 614,
+      "start": 2339.36,
+      "end": 2341.26,
+      "text": "It's a little more subtle."
+    },
+    {
+      "idx": 615,
+      "start": 2341.36,
+      "end": 2343.26,
+      "text": "So this is the data."
+    },
+    {
+      "idx": 616,
+      "start": 2343.36,
+      "end": 2348.26,
+      "text": "And this little bump here is how we know that this Higgs particle existed."
+    },
+    {
+      "idx": 617,
+      "start": 2348.36,
+      "end": 2351.26,
+      "text": "This is a picture of Peter Higgs being found."
+    },
+    {
+      "idx": 618,
+      "start": 2351.36,
+      "end": 2357.09,
+      "text": "So this was the final building block."
+    },
+    {
+      "idx": 619,
+      "start": 2357.09,
+      "end": 2357.99,
+      "text": "It was important."
+    },
+    {
+      "idx": 620,
+      "start": 2358.09,
+      "end": 2358.99,
+      "text": "It was a really big deal."
+    },
+    {
+      "idx": 621,
+      "start": 2359.09,
+      "end": 2360.99,
+      "text": "And it was important for two reasons."
+    },
+    {
+      "idx": 622,
+      "start": 2361.09,
+      "end": 2368.99,
+      "text": "The first is that this is what's responsible for what we call mass in the universe."
+    },
+    {
+      "idx": 623,
+      "start": 2369.09,
+      "end": 2378.99,
+      "text": "So the properties of all the particles, things like electric charge and mass, are really a statement about how their fields interact with other fields."
+    },
+    {
+      "idx": 624,
+      "start": 2379.09,
+      "end": 2386.99,
+      "text": "So the property that we call electric charge of an electron is a statement about how the electron field interacts with other fields."
+    },
+    {
+      "idx": 625,
+      "start": 2387.09,
+      "end": 2388.89,
+      "text": "The electromagnetic field."
+    },
+    {
+      "idx": 626,
+      "start": 2388.99,
+      "end": 2392.89,
+      "text": "And the property of its mass is the statement about how it interacts with the Higgs field."
+    },
+    {
+      "idx": 627,
+      "start": 2392.99,
+      "end": 2399.89,
+      "text": "So understanding this was really needed so that we understand the meaning of mass in the universe."
+    },
+    {
+      "idx": 628,
+      "start": 2399.99,
+      "end": 2401.89,
+      "text": "So it was a big deal."
+    },
+    {
+      "idx": 629,
+      "start": 2401.99,
+      "end": 2405.89,
+      "text": "The other reason that it was a big deal is this was the final piece of our jigsaw."
+    },
+    {
+      "idx": 630,
+      "start": 2405.99,
+      "end": 2407.89,
+      "text": "We had this theory that we called the Standard Model."
+    },
+    {
+      "idx": 631,
+      "start": 2407.99,
+      "end": 2409.89,
+      "text": "We've had it since the 1970s."
+    },
+    {
+      "idx": 632,
+      "start": 2409.99,
+      "end": 2414.89,
+      "text": "This was the final thing that we needed to discover to be sure that this theory is correct."
+    },
+    {
+      "idx": 633,
+      "start": 2414.99,
+      "end": 2416.89,
+      "text": "And the astonishing thing is,"
+    },
+    {
+      "idx": 634,
+      "start": 2416.99,
+      "end": 2419.79,
+      "text": "this particle was predicted in the 1960s."
+    },
+    {
+      "idx": 635,
+      "start": 2419.89,
+      "end": 2421.79,
+      "text": "50 years we've been waiting."
+    },
+    {
+      "idx": 636,
+      "start": 2421.89,
+      "end": 2423.79,
+      "text": "We finally created it in CERN."
+    },
+    {
+      "idx": 637,
+      "start": 2423.89,
+      "end": 2426.79,
+      "text": "It behaves in exactly the way that we thought it would."
+    },
+    {
+      "idx": 638,
+      "start": 2426.89,
+      "end": 2431.79,
+      "text": "Absolutely perfectly behaves as we predicted using these theories."
+    },
+    {
+      "idx": 639,
+      "start": 2431.89,
+      "end": 2436.59,
+      "text": "Okay, this is going to be the scary part of the talk."
+    },
+    {
+      "idx": 640,
+      "start": 2436.69,
+      "end": 2442.59,
+      "text": "You know, I've been telling you about this theory and I've been waving my hands, pretending that I'm a field."
+    },
+    {
+      "idx": 641,
+      "start": 2442.69,
+      "end": 2444.59,
+      "text": "Let me tell you what the theory really is."
+    },
+    {
+      "idx": 642,
+      "start": 2444.69,
+      "end": 2447.59,
+      "text": "Let me just show you what we do."
+    },
+    {
+      "idx": 643,
+      "start": 2447.79,
+      "end": 2454.59,
+      "text": "This is the equation for the Standard Model of physics."
+    },
+    {
+      "idx": 644,
+      "start": 2454.69,
+      "end": 2462.59,
+      "text": "I don't expect you to understand it, not least because there are parts of this equation that no one on the planet understands."
+    },
+    {
+      "idx": 645,
+      "start": 2462.69,
+      "end": 2465.59,
+      "text": "But nonetheless, I want to show it to you for the following reason."
+    },
+    {
+      "idx": 646,
+      "start": 2465.69,
+      "end": 2474.59,
+      "text": "This equation correctly predicts the result of every single experiment we've ever done in science."
+    },
+    {
+      "idx": 647,
+      "start": 2475.36,
+      "end": 2478.26,
+      "text": "Everything is contained in this equation."
+    },
+    {
+      "idx": 648,
+      "start": 2478.46,
+      "end": 2483.26,
+      "text": "This is really the pinnacle of the reductionist approach to science."
+    },
+    {
+      "idx": 649,
+      "start": 2483.36,
+      "end": 2485.26,
+      "text": "It's all in here."
+    },
+    {
+      "idx": 650,
+      "start": 2485.36,
+      "end": 2490.26,
+      "text": "So, you know, I'll admit it's not the simplest equation in the world, but it's not the most complicated either."
+    },
+    {
+      "idx": 651,
+      "start": 2490.36,
+      "end": 2492.26,
+      "text": "You can put it on a t-shirt if you want to."
+    },
+    {
+      "idx": 652,
+      "start": 2492.36,
+      "end": 2496.26,
+      "text": "In fact, if you go to CERN, you can buy a t-shirt with this equation on it."
+    },
+    {
+      "idx": 653,
+      "start": 2496.36,
+      "end": 2498.26,
+      "text": "Let me just give you a sense of what we're looking at."
+    },
+    {
+      "idx": 654,
+      "start": 2498.36,
+      "end": 2505.26,
+      "text": "The first term here was written down by Albert Einstein and describes gravity."
+    },
+    {
+      "idx": 655,
+      "start": 2505.36,
+      "end": 2508.36,
+      "text": "What that means is that if you can solve,"
+    },
+    {
+      "idx": 656,
+      "start": 2508.56,
+      "end": 2514.55,
+      "text": "this tiny little part of the equation, just this R,"
+    },
+    {
+      "idx": 657,
+      "start": 2514.65,
+      "end": 2519.55,
+      "text": "you can, for example, predict how fast an apple falls from a tree."
+    },
+    {
+      "idx": 658,
+      "start": 2519.65,
+      "end": 2524.55,
+      "text": "Or the fact that the orbits of the planet around the sun form ellipses."
+    },
+    {
+      "idx": 659,
+      "start": 2524.65,
+      "end": 2528.55,
+      "text": "Or you can predict what happens when two enormous black holes collide into each other"
+    },
+    {
+      "idx": 660,
+      "start": 2528.65,
+      "end": 2532.55,
+      "text": "and form a new black hole sending out gravitational waves across the universe."
+    },
+    {
+      "idx": 661,
+      "start": 2532.65,
+      "end": 2536.55,
+      "text": "Or in fact, you can predict how the entire universe itself expands."
+    },
+    {
+      "idx": 662,
+      "start": 2536.65,
+      "end": 2538.55,
+      "text": "All of this comes from science."
+    },
+    {
+      "idx": 663,
+      "start": 2538.65,
+      "end": 2543.06,
+      "text": "And that's why we're solving this little part of the equation."
+    },
+    {
+      "idx": 664,
+      "start": 2543.16,
+      "end": 2547.06,
+      "text": "The next term in the equation was written down by James Clerk Maxwell"
+    },
+    {
+      "idx": 665,
+      "start": 2547.16,
+      "end": 2550.06,
+      "text": "and it tells you everything about electromagnetism."
+    },
+    {
+      "idx": 666,
+      "start": 2550.16,
+      "end": 2555.06,
+      "text": "So all the experiments that Faraday spent a lifetime doing in this building."
+    },
+    {
+      "idx": 667,
+      "start": 2555.16,
+      "end": 2557.06,
+      "text": "In fact, all the experiments over many centuries,"
+    },
+    {
+      "idx": 668,
+      "start": 2557.16,
+      "end": 2562.06,
+      "text": "from Coulomb to Faraday to Hertz to modern developments of lasers,"
+    },
+    {
+      "idx": 669,
+      "start": 2562.16,
+      "end": 2566.06,
+      "text": "everything in this tiny little part of the equation."
+    },
+    {
+      "idx": 670,
+      "start": 2566.16,
+      "end": 2569.06,
+      "text": "So there's some power in these equations."
+    },
+    {
+      "idx": 671,
+      "start": 2569.16,
+      "end": 2571.96,
+      "text": "This is an equation that governs the strong nuclear force, the weak nuclear force."
+    },
+    {
+      "idx": 672,
+      "start": 2572.06,
+      "end": 2575.96,
+      "text": "This is an equation that was first written down by a British physicist called Paul Dirac."
+    },
+    {
+      "idx": 673,
+      "start": 2576.06,
+      "end": 2578.96,
+      "text": "It describes the matter."
+    },
+    {
+      "idx": 674,
+      "start": 2579.06,
+      "end": 2581.96,
+      "text": "It describes those 12 particles that make up the matter."
+    },
+    {
+      "idx": 675,
+      "start": 2582.06,
+      "end": 2585.96,
+      "text": "Astonishingly, each of them obeys exactly the same equation."
+    },
+    {
+      "idx": 676,
+      "start": 2586.06,
+      "end": 2588.96,
+      "text": "These are the equations of Peter Higgs."
+    },
+    {
+      "idx": 677,
+      "start": 2589.06,
+      "end": 2593.96,
+      "text": "And this is an equation that tells you how the matter interacts with the Higgs particle."
+    },
+    {
+      "idx": 678,
+      "start": 2594.06,
+      "end": 2595.96,
+      "text": "So everything is in here."
+    },
+    {
+      "idx": 679,
+      "start": 2596.06,
+      "end": 2597.96,
+      "text": "It's really an astonishing achievement."
+    },
+    {
+      "idx": 680,
+      "start": 2597.96,
+      "end": 2600.89,
+      "text": "This is our current limit of knowledge."
+    },
+    {
+      "idx": 681,
+      "start": 2600.99,
+      "end": 2605.89,
+      "text": "We've never done an experiment that cannot be explained by this equation."
+    },
+    {
+      "idx": 682,
+      "start": 2605.99,
+      "end": 2608.89,
+      "text": "And we've never found a way in which this equation stops working."
+    },
+    {
+      "idx": 683,
+      "start": 2608.99,
+      "end": 2612.21,
+      "text": "So this is the best thing that we currently have."
+    },
+    {
+      "idx": 684,
+      "start": 2612.31,
+      "end": 2614.908,
+      "text": "It's the best thing that we currently have."
+    },
+    {
+      "idx": 685,
+      "start": 2615.31,
+      "end": 2618.21,
+      "text": "However, we want to do better."
+    },
+    {
+      "idx": 686,
+      "start": 2618.31,
+      "end": 2625.21,
+      "text": "Because we know for sure that there's stuff out there that is not explained by this."
+    },
+    {
+      "idx": 687,
+      "start": 2625.31,
+      "end": 2627.21,
+      "text": "And the reason we know is that,"
+    },
+    {
+      "idx": 688,
+      "start": 2627.21,
+      "end": 2631.11,
+      "text": "although this explains every single experiment we've ever done here on Earth,"
+    },
+    {
+      "idx": 689,
+      "start": 2631.21,
+      "end": 2636.11,
+      "text": "if we look out into the sky, there's extra stuff which is still a mystery."
+    },
+    {
+      "idx": 690,
+      "start": 2636.21,
+      "end": 2642.62,
+      "text": "So if we look out into space, there are, for example, invisible particles out there."
+    },
+    {
+      "idx": 691,
+      "start": 2642.72,
+      "end": 2646.62,
+      "text": "In fact, there's many more invisible particles than there are visible particles."
+    },
+    {
+      "idx": 692,
+      "start": 2646.72,
+      "end": 2648.62,
+      "text": "We call them dark matter."
+    },
+    {
+      "idx": 693,
+      "start": 2648.72,
+      "end": 2651.62,
+      "text": "We can't see them, obviously, because they're invisible."
+    },
+    {
+      "idx": 694,
+      "start": 2651.72,
+      "end": 2653.62,
+      "text": "But we can see their effects."
+    },
+    {
+      "idx": 695,
+      "start": 2653.72,
+      "end": 2655.62,
+      "text": "We can see their effects on the way galaxies rotate,"
+    },
+    {
+      "idx": 696,
+      "start": 2655.72,
+      "end": 2657.62,
+      "text": "or the way they bend light around galaxies."
+    },
+    {
+      "idx": 697,
+      "start": 2657.62,
+      "end": 2660.52,
+      "text": "But if they're out there, we don't know what they are."
+    },
+    {
+      "idx": 698,
+      "start": 2660.62,
+      "end": 2662.52,
+      "text": "There's even more mysterious things."
+    },
+    {
+      "idx": 699,
+      "start": 2662.62,
+      "end": 2665.52,
+      "text": "There's something called dark energy, which is spread throughout all of space."
+    },
+    {
+      "idx": 700,
+      "start": 2665.62,
+      "end": 2668.52,
+      "text": "It's also some kind of field, although not one we understand,"
+    },
+    {
+      "idx": 701,
+      "start": 2668.62,
+      "end": 2672.81,
+      "text": "that's causing everything in the universe to repel everything else."
+    },
+    {
+      "idx": 702,
+      "start": 2674.91,
+      "end": 2678.81,
+      "text": "We know that early in the first few seconds,"
+    },
+    {
+      "idx": 703,
+      "start": 2678.91,
+      "end": 2682.81,
+      "text": "earlier than that, the first few fractions of a second after the Big Bang,"
+    },
+    {
+      "idx": 704,
+      "start": 2682.91,
+      "end": 2686.81,
+      "text": "the universe underwent a very rapid phase of expansion"
+    },
+    {
+      "idx": 705,
+      "start": 2686.81,
+      "end": 2688.71,
+      "text": "that we call inflation."
+    },
+    {
+      "idx": 706,
+      "start": 2688.81,
+      "end": 2693.77,
+      "text": "We know it happened, but it's not explained by that equation that I just showed you."
+    },
+    {
+      "idx": 707,
+      "start": 2693.87,
+      "end": 2697.77,
+      "text": "So these are the kind of things that we're going to have to understand"
+    },
+    {
+      "idx": 708,
+      "start": 2697.87,
+      "end": 2701.77,
+      "text": "if we're going to move forward and decide what the next laws of physics are"
+    },
+    {
+      "idx": 709,
+      "start": 2701.87,
+      "end": 2705.51,
+      "text": "that go beyond the Standard Model."
+    },
+    {
+      "idx": 710,
+      "start": 2705.61,
+      "end": 2708.51,
+      "text": "I could spend hours talking about any of these."
+    },
+    {
+      "idx": 711,
+      "start": 2708.61,
+      "end": 2710.51,
+      "text": "I'm going to focus just on the last one."
+    },
+    {
+      "idx": 712,
+      "start": 2710.61,
+      "end": 2714.51,
+      "text": "I'm going to tell you a little bit about inflation."
+    },
+    {
+      "idx": 713,
+      "start": 2717.61,
+      "end": 2720.92,
+      "text": "The universe is 13.8 billion years old."
+    },
+    {
+      "idx": 714,
+      "start": 2721.02,
+      "end": 2722.92,
+      "text": "And we understand fairly well..."
+    },
+    {
+      "idx": 715,
+      "start": 2723.02,
+      "end": 2725.92,
+      "text": "Well, we don't understand at all how it started."
+    },
+    {
+      "idx": 716,
+      "start": 2726.02,
+      "end": 2728.92,
+      "text": "We don't understand what kicked it all off at time t equals zero."
+    },
+    {
+      "idx": 717,
+      "start": 2729.02,
+      "end": 2731.92,
+      "text": "But we understand fairly well what happened after it started."
+    },
+    {
+      "idx": 718,
+      "start": 2732.02,
+      "end": 2738.92,
+      "text": "And we know in particular that for the first 380,000 years of the universe,"
+    },
+    {
+      "idx": 719,
+      "start": 2739.02,
+      "end": 2742.12,
+      "text": "it was filled with a fireball."
+    },
+    {
+      "idx": 720,
+      "start": 2742.22,
+      "end": 2745.12,
+      "text": "And we know this for sure because we've seen the fireball."
+    },
+    {
+      "idx": 721,
+      "start": 2745.22,
+      "end": 2748.12,
+      "text": "In fact, we've seen it and we've taken a photograph of it."
+    },
+    {
+      "idx": 722,
+      "start": 2748.12,
+      "end": 2752.02,
+      "text": "This is called the cosmic microwave background radiation."
+    },
+    {
+      "idx": 723,
+      "start": 2752.12,
+      "end": 2757.02,
+      "text": "But a much better name for it is the fireball that filled the universe"
+    },
+    {
+      "idx": 724,
+      "start": 2757.12,
+      "end": 2759.02,
+      "text": "when it was much younger."
+    },
+    {
+      "idx": 725,
+      "start": 2759.12,
+      "end": 2763.02,
+      "text": "The fireball cooled down."
+    },
+    {
+      "idx": 726,
+      "start": 2763.12,
+      "end": 2767.02,
+      "text": "Its light has been streaming through the universe for 13.8 billion years."
+    },
+    {
+      "idx": 727,
+      "start": 2767.12,
+      "end": 2768.124,
+      "text": "But we can see it."
+    },
+    {
+      "idx": 728,
+      "start": 2768.124,
+      "end": 2770.02,
+      "text": "We can take this photograph of it."
+    },
+    {
+      "idx": 729,
+      "start": 2770.12,
+      "end": 2774.02,
+      "text": "And we can sort of understand very well what was happening"
+    },
+    {
+      "idx": 730,
+      "start": 2774.12,
+      "end": 2777.02,
+      "text": "in these first few moments of the universe."
+    },
+    {
+      "idx": 731,
+      "start": 2777.02,
+      "end": 2778.04,
+      "text": "And you can see it."
+    },
+    {
+      "idx": 732,
+      "start": 2778.04,
+      "end": 2779.92,
+      "text": "It looks literally like a fireball."
+    },
+    {
+      "idx": 733,
+      "start": 2780.02,
+      "end": 2781.448,
+      "text": "There's red bits that are hotter."
+    },
+    {
+      "idx": 734,
+      "start": 2781.448,
+      "end": 2782.92,
+      "text": "There's blue bits that are colder."
+    },
+    {
+      "idx": 735,
+      "start": 2783.02,
+      "end": 2785.92,
+      "text": "And by studying this flickering that you can see in this picture,"
+    },
+    {
+      "idx": 736,
+      "start": 2786.02,
+      "end": 2788.92,
+      "text": "we get a lot of information about what was going on"
+    },
+    {
+      "idx": 737,
+      "start": 2789.02,
+      "end": 2792.92,
+      "text": "back 13.8 billion years ago when the universe was a baby."
+    },
+    {
+      "idx": 738,
+      "start": 2793.02,
+      "end": 2796.56,
+      "text": "One of the main questions we want to ask is"
+    },
+    {
+      "idx": 739,
+      "start": 2796.66,
+      "end": 2799.78,
+      "text": "what caused the flickering in the fireball?"
+    },
+    {
+      "idx": 740,
+      "start": 2799.88,
+      "end": 2801.78,
+      "text": "And we have an answer to this."
+    },
+    {
+      "idx": 741,
+      "start": 2801.88,
+      "end": 2806.78,
+      "text": "We have an answer which I think is one of the most astonishing things in all of science."
+    },
+    {
+      "idx": 742,
+      "start": 2806.78,
+      "end": 2813.68,
+      "text": "It turns out that although the fireball lasted for 380,000 years,"
+    },
+    {
+      "idx": 743,
+      "start": 2813.78,
+      "end": 2818.68,
+      "text": "whatever caused this flickering could not have taken place"
+    },
+    {
+      "idx": 744,
+      "start": 2818.78,
+      "end": 2822.03,
+      "text": "during the vast majority of that time."
+    },
+    {
+      "idx": 745,
+      "start": 2822.13,
+      "end": 2826.03,
+      "text": "Whatever caused the flickering in this fireball actually took place"
+    },
+    {
+      "idx": 746,
+      "start": 2826.13,
+      "end": 2831.03,
+      "text": "in the first few very fractions of a second after the Big Bang."
+    },
+    {
+      "idx": 747,
+      "start": 2831.13,
+      "end": 2836.3,
+      "text": "And what it was, was the following."
+    },
+    {
+      "idx": 748,
+      "start": 2836.4,
+      "end": 2839.82,
+      "text": "So when the universe was very, very young,"
+    },
+    {
+      "idx": 749,
+      "start": 2839.82,
+      "end": 2843.1,
+      "text": "there was this..."
+    },
+    {
+      "idx": 750,
+      "start": 2843.2,
+      "end": 2846.1,
+      "text": "When the universe was very, very young, soon after the Big Bang,"
+    },
+    {
+      "idx": 751,
+      "start": 2846.2,
+      "end": 2849.1,
+      "text": "there were no particles, but there were quantum fields."
+    },
+    {
+      "idx": 752,
+      "start": 2849.2,
+      "end": 2852.1,
+      "text": "Because the quantum fields were everywhere."
+    },
+    {
+      "idx": 753,
+      "start": 2852.2,
+      "end": 2855.1,
+      "text": "And there were these quantum vacuum fluctuations."
+    },
+    {
+      "idx": 754,
+      "start": 2855.2,
+      "end": 2859.16,
+      "text": "And what happened was the universe expanded very, very quickly,"
+    },
+    {
+      "idx": 755,
+      "start": 2859.26,
+      "end": 2862.16,
+      "text": "and it caught these quantum fluctuations in the act."
+    },
+    {
+      "idx": 756,
+      "start": 2862.26,
+      "end": 2867.45,
+      "text": "So the quantum fluctuations were stretched across the entire sky,"
+    },
+    {
+      "idx": 757,
+      "start": 2867.55,
+      "end": 2869.45,
+      "text": "where they became frozen,"
+    },
+    {
+      "idx": 758,
+      "start": 2869.45,
+      "end": 2872.35,
+      "text": "and it's these vacuum fluctuations here,"
+    },
+    {
+      "idx": 759,
+      "start": 2872.45,
+      "end": 2876.35,
+      "text": "which are the ripples that you see in the fireball."
+    },
+    {
+      "idx": 760,
+      "start": 2876.45,
+      "end": 2879.35,
+      "text": "So it's an astonishing story."
+    },
+    {
+      "idx": 761,
+      "start": 2879.45,
+      "end": 2882.35,
+      "text": "The quantum vacuum fluctuations were taking place"
+    },
+    {
+      "idx": 762,
+      "start": 2882.45,
+      "end": 2885.35,
+      "text": "10 to the minus 30 seconds after the Big Bang."
+    },
+    {
+      "idx": 763,
+      "start": 2885.45,
+      "end": 2887.35,
+      "text": "They were absolutely microscopic."
+    },
+    {
+      "idx": 764,
+      "start": 2887.45,
+      "end": 2891.35,
+      "text": "And now we see them stretched across the entire universe,"
+    },
+    {
+      "idx": 765,
+      "start": 2891.45,
+      "end": 2895.35,
+      "text": "stretched 20 billion light years across the sky."
+    },
+    {
+      "idx": 766,
+      "start": 2895.45,
+      "end": 2897.35,
+      "text": "That's what you're seeing here."
+    },
+    {
+      "idx": 767,
+      "start": 2897.45,
+      "end": 2899.35,
+      "text": "And yet, you do the calculations,"
+    },
+    {
+      "idx": 768,
+      "start": 2899.35,
+      "end": 2901.25,
+      "text": "you do the calculations for this,"
+    },
+    {
+      "idx": 769,
+      "start": 2901.35,
+      "end": 2904.35,
+      "text": "and it matches perfectly what you see here."
+    },
+    {
+      "idx": 770,
+      "start": 2904.45,
+      "end": 2908.35,
+      "text": "So this is another of the great triumphs of quantum field theory."
+    },
+    {
+      "idx": 771,
+      "start": 2908.45,
+      "end": 2910.35,
+      "text": "But it leaves lots of questions."
+    },
+    {
+      "idx": 772,
+      "start": 2910.45,
+      "end": 2913.35,
+      "text": "The most important one is, which field are we seeing here?"
+    },
+    {
+      "idx": 773,
+      "start": 2913.45,
+      "end": 2917.35,
+      "text": "Which field is this that's imprinted on the background radiation?"
+    },
+    {
+      "idx": 774,
+      "start": 2917.45,
+      "end": 2919.35,
+      "text": "And the answer is, we don't know."
+    },
+    {
+      "idx": 775,
+      "start": 2919.45,
+      "end": 2923.35,
+      "text": "The only one of the standard model fields it has a hope of being is the Higgs,"
+    },
+    {
+      "idx": 776,
+      "start": 2923.45,
+      "end": 2927.35,
+      "text": "but most of us think it's not the Higgs, but probably something new."
+    },
+    {
+      "idx": 777,
+      "start": 2927.35,
+      "end": 2930.25,
+      "text": "But what we'd like to do moving forward into the future"
+    },
+    {
+      "idx": 778,
+      "start": 2930.35,
+      "end": 2933.25,
+      "text": "is get a much better picture of this fireball."
+    },
+    {
+      "idx": 779,
+      "start": 2933.35,
+      "end": 2936.25,
+      "text": "In particular, get the polarization of the light."
+    },
+    {
+      "idx": 780,
+      "start": 2936.35,
+      "end": 2938.25,
+      "text": "And by getting a picture of this,"
+    },
+    {
+      "idx": 781,
+      "start": 2938.35,
+      "end": 2941.25,
+      "text": "we can understand much better the properties of this field"
+    },
+    {
+      "idx": 782,
+      "start": 2941.35,
+      "end": 2945.21,
+      "text": "that was fluctuating in the early universe."
+    },
+    {
+      "idx": 783,
+      "start": 2945.31,
+      "end": 2949.21,
+      "text": "Okay, this, looking forward, is one of the best hopes that we have"
+    },
+    {
+      "idx": 784,
+      "start": 2949.31,
+      "end": 2953.21,
+      "text": "for going beyond the standard model and understanding new physics."
+    },
+    {
+      "idx": 785,
+      "start": 2953.31,
+      "end": 2957.21,
+      "text": "In the last 10 minutes, though, I'd like to bring you back down to Earth."
+    },
+    {
+      "idx": 786,
+      "start": 2960.27,
+      "end": 2964.17,
+      "text": "We've got lots of experiments here on Earth"
+    },
+    {
+      "idx": 787,
+      "start": 2964.27,
+      "end": 2966.17,
+      "text": "where we're also trying to do better,"
+    },
+    {
+      "idx": 788,
+      "start": 2966.27,
+      "end": 2970.17,
+      "text": "where we're also trying to go beyond the standard model of physics,"
+    },
+    {
+      "idx": 789,
+      "start": 2970.27,
+      "end": 2973.17,
+      "text": "beyond that equation, to understand what's new."
+    },
+    {
+      "idx": 790,
+      "start": 2973.27,
+      "end": 2977.17,
+      "text": "And there's many of them, but the most prominent is the one I've already mentioned."
+    },
+    {
+      "idx": 791,
+      "start": 2977.27,
+      "end": 2979.17,
+      "text": "It's the LHC."
+    },
+    {
+      "idx": 792,
+      "start": 2979.27,
+      "end": 2984.17,
+      "text": "So what happened was the LHC discovered the Higgs boson in 2012,"
+    },
+    {
+      "idx": 793,
+      "start": 2984.27,
+      "end": 2987.17,
+      "text": "and soon afterwards it closed down for two years,"
+    },
+    {
+      "idx": 794,
+      "start": 2987.17,
+      "end": 2989.07,
+      "text": "it had an upgrade,"
+    },
+    {
+      "idx": 795,
+      "start": 2989.17,
+      "end": 2992.07,
+      "text": "and last year, in 2015,"
+    },
+    {
+      "idx": 796,
+      "start": 2992.17,
+      "end": 2996.07,
+      "text": "the LHC turned on again with twice the energy"
+    },
+    {
+      "idx": 797,
+      "start": 2996.17,
+      "end": 2998.23,
+      "text": "that it had when it discovered the Higgs."
+    },
+    {
+      "idx": 798,
+      "start": 2998.33,
+      "end": 3000.23,
+      "text": "And the goal was twofold."
+    },
+    {
+      "idx": 799,
+      "start": 3000.33,
+      "end": 3003.23,
+      "text": "The goal was firstly to understand the Higgs better,"
+    },
+    {
+      "idx": 800,
+      "start": 3003.33,
+      "end": 3005.23,
+      "text": "which it's done fantastically,"
+    },
+    {
+      "idx": 801,
+      "start": 3005.33,
+      "end": 3010.23,
+      "text": "and secondly to discover new physics that lies beyond the Higgs,"
+    },
+    {
+      "idx": 802,
+      "start": 3010.33,
+      "end": 3013.74,
+      "text": "new physics beyond the standard model."
+    },
+    {
+      "idx": 803,
+      "start": 3013.84,
+      "end": 3017.74,
+      "text": "So before I tell you what it's seen,"
+    },
+    {
+      "idx": 804,
+      "start": 3017.94,
+      "end": 3020.74,
+      "text": "let me tell you some of the ideas we had,"
+    },
+    {
+      "idx": 805,
+      "start": 3020.84,
+      "end": 3025.74,
+      "text": "some of our expectations and hopes for what would happen moving forward."
+    },
+    {
+      "idx": 806,
+      "start": 3025.84,
+      "end": 3029.13,
+      "text": "So this is our favourite equation again."
+    },
+    {
+      "idx": 807,
+      "start": 3029.23,
+      "end": 3032.45,
+      "text": "The idea has always been the following."
+    },
+    {
+      "idx": 808,
+      "start": 3032.55,
+      "end": 3036.45,
+      "text": "If you're a Victorian scientist and you go back and you look at the periodic table of elements,"
+    },
+    {
+      "idx": 809,
+      "start": 3036.55,
+      "end": 3040.45,
+      "text": "then it's true that there's patterns in there"
+    },
+    {
+      "idx": 810,
+      "start": 3040.55,
+      "end": 3044.45,
+      "text": "that give a hint of the structure that lies underneath."
+    },
+    {
+      "idx": 811,
+      "start": 3044.55,
+      "end": 3048.64,
+      "text": "There's numbers that repeat themselves."
+    },
+    {
+      "idx": 812,
+      "start": 3048.74,
+      "end": 3051.54,
+      "text": "If you're very smart, you might start to realise that,"
+    },
+    {
+      "idx": 813,
+      "start": 3051.64,
+      "end": 3054.54,
+      "text": "yes, there is something deeper than just these elements."
+    },
+    {
+      "idx": 814,
+      "start": 3054.64,
+      "end": 3057.54,
+      "text": "So our hope as theorists is to look at this equation"
+    },
+    {
+      "idx": 815,
+      "start": 3057.64,
+      "end": 3061.54,
+      "text": "and see if maybe we can just find patterns in this equation"
+    },
+    {
+      "idx": 816,
+      "start": 3061.64,
+      "end": 3066.54,
+      "text": "that suggest there might be something deeper that lies underneath."
+    },
+    {
+      "idx": 817,
+      "start": 3066.64,
+      "end": 3068.54,
+      "text": "And they're there."
+    },
+    {
+      "idx": 818,
+      "start": 3068.64,
+      "end": 3070.54,
+      "text": "Let me give you an example."
+    },
+    {
+      "idx": 819,
+      "start": 3070.64,
+      "end": 3076.18,
+      "text": "This is the equation that describes the force of electricity and magnetism."
+    },
+    {
+      "idx": 820,
+      "start": 3076.28,
+      "end": 3079.18,
+      "text": "And it's almost the same as the equations"
+    },
+    {
+      "idx": 821,
+      "start": 3079.28,
+      "end": 3083.08,
+      "text": "which describe the forces for the strong force and the weak nuclear force."
+    },
+    {
+      "idx": 822,
+      "start": 3083.18,
+      "end": 3086.11,
+      "text": "In fact, you can see I've just changed letters."
+    },
+    {
+      "idx": 823,
+      "start": 3086.21,
+      "end": 3090.11,
+      "text": "It's a little more complicated than that, but it's not much more complicated than that."
+    },
+    {
+      "idx": 824,
+      "start": 3090.21,
+      "end": 3093.11,
+      "text": "The three forces really look similar."
+    },
+    {
+      "idx": 825,
+      "start": 3093.21,
+      "end": 3097.11,
+      "text": "So you might wonder, well, maybe there's not three forces in the universe."
+    },
+    {
+      "idx": 826,
+      "start": 3097.21,
+      "end": 3100.11,
+      "text": "Maybe those three forces are actually just one force,"
+    },
+    {
+      "idx": 827,
+      "start": 3100.21,
+      "end": 3102.11,
+      "text": "and when we think there's three forces,"
+    },
+    {
+      "idx": 828,
+      "start": 3102.21,
+      "end": 3107.3,
+      "text": "it's because we're looking at that one force just from slightly different perspectives."
+    },
+    {
+      "idx": 829,
+      "start": 3108.94,
+      "end": 3110.84,
+      "text": "Here's something else which is amazing."
+    },
+    {
+      "idx": 830,
+      "start": 3110.94,
+      "end": 3115.84,
+      "text": "These are the equations for the 12 matter fields in the universe,"
+    },
+    {
+      "idx": 831,
+      "start": 3115.94,
+      "end": 3118.84,
+      "text": "the neutrinos, the electrons and the quarks."
+    },
+    {
+      "idx": 832,
+      "start": 3118.94,
+      "end": 3121.84,
+      "text": "Each of them obeys exactly the same equation."
+    },
+    {
+      "idx": 833,
+      "start": 3121.94,
+      "end": 3124.91,
+      "text": "Each of them obeys the Dirac equation."
+    },
+    {
+      "idx": 834,
+      "start": 3125.01,
+      "end": 3127.91,
+      "text": "So again, you might wonder that, well, maybe there aren't 12 different fields."
+    },
+    {
+      "idx": 835,
+      "start": 3128.01,
+      "end": 3130.91,
+      "text": "Maybe they're all the same field and the same particle."
+    },
+    {
+      "idx": 836,
+      "start": 3131.01,
+      "end": 3132.91,
+      "text": "And the fact they look different is, again,"
+    },
+    {
+      "idx": 837,
+      "start": 3133.01,
+      "end": 3136.91,
+      "text": "maybe just because we're looking at them from slightly different perspectives."
+    },
+    {
+      "idx": 838,
+      "start": 3139.97,
+      "end": 3144.77,
+      "text": "So these ideas that I've been suggesting go by the name of unification."
+    },
+    {
+      "idx": 839,
+      "start": 3144.87,
+      "end": 3149.77,
+      "text": "The idea that the three forces are actually combined into one is what's called grand unification."
+    },
+    {
+      "idx": 840,
+      "start": 3149.87,
+      "end": 3151.77,
+      "text": "And it's very easy."
+    },
+    {
+      "idx": 841,
+      "start": 3151.87,
+      "end": 3155.77,
+      "text": "It's very easy to write down a mathematical theory in which all of these are just one force,"
+    },
+    {
+      "idx": 842,
+      "start": 3155.87,
+      "end": 3162.96,
+      "text": "which appears to be three from our perspective."
+    },
+    {
+      "idx": 843,
+      "start": 3163.06,
+      "end": 3164.96,
+      "text": "There are other possibilities here."
+    },
+    {
+      "idx": 844,
+      "start": 3165.06,
+      "end": 3169.96,
+      "text": "You might say, well, this is the matter and these are the forces."
+    },
+    {
+      "idx": 845,
+      "start": 3169.96,
+      "end": 3172.86,
+      "text": "The equations are different, but they're not that different."
+    },
+    {
+      "idx": 846,
+      "start": 3172.96,
+      "end": 3174.86,
+      "text": "Because ultimately they're both just fields."
+    },
+    {
+      "idx": 847,
+      "start": 3174.96,
+      "end": 3181.92,
+      "text": "So you might wonder if maybe there's some way in which the matter and the forces are related to each other."
+    },
+    {
+      "idx": 848,
+      "start": 3182.02,
+      "end": 3184.92,
+      "text": "Well, we have a theory for that as well."
+    },
+    {
+      "idx": 849,
+      "start": 3185.02,
+      "end": 3186.92,
+      "text": "It's a theory that's called supersymmetry."
+    },
+    {
+      "idx": 850,
+      "start": 3187.02,
+      "end": 3188.92,
+      "text": "And it's a beautiful theory."
+    },
+    {
+      "idx": 851,
+      "start": 3189.02,
+      "end": 3190.92,
+      "text": "It's very deep conceptually."
+    },
+    {
+      "idx": 852,
+      "start": 3191.02,
+      "end": 3193.37,
+      "text": "And it sort of smells like it might be right."
+    },
+    {
+      "idx": 853,
+      "start": 3193.47,
+      "end": 3195.37,
+      "text": "Finally, you might be really, really bold."
+    },
+    {
+      "idx": 854,
+      "start": 3195.47,
+      "end": 3198.37,
+      "text": "You might say, well, can I just combine the lot?"
+    },
+    {
+      "idx": 855,
+      "start": 3198.37,
+      "end": 3203.27,
+      "text": "Can I just get rid of all of these terms and just write down one single term from which everything else emerges?"
+    },
+    {
+      "idx": 856,
+      "start": 3203.37,
+      "end": 3206.27,
+      "text": "Gravity, the forces, the particles, the Higgs, everything."
+    },
+    {
+      "idx": 857,
+      "start": 3206.37,
+      "end": 3209.27,
+      "text": "Well, I've got something for you if you want that as well."
+    },
+    {
+      "idx": 858,
+      "start": 3209.37,
+      "end": 3211.27,
+      "text": "It's called string theory."
+    },
+    {
+      "idx": 859,
+      "start": 3211.37,
+      "end": 3218.62,
+      "text": "So we have a possibility for a theory which contains all of this in one simple concept."
+    },
+    {
+      "idx": 860,
+      "start": 3218.72,
+      "end": 3221.62,
+      "text": "And the question going forward, of course, is are these right?"
+    },
+    {
+      "idx": 861,
+      "start": 3221.72,
+      "end": 3225.62,
+      "text": "You know, it's very easy for us theorists to have these ideas."
+    },
+    {
+      "idx": 862,
+      "start": 3225.72,
+      "end": 3228.62,
+      "text": "And I should say these ideas of what's driven theoretical physics for 30 years,"
+    },
+    {
+      "idx": 863,
+      "start": 3228.62,
+      "end": 3231.52,
+      "text": "but we want to know, are they right?"
+    },
+    {
+      "idx": 864,
+      "start": 3231.62,
+      "end": 3233.52,
+      "text": "And we've got a way of telling they're right."
+    },
+    {
+      "idx": 865,
+      "start": 3233.62,
+      "end": 3235.56,
+      "text": "We do experiments."
+    },
+    {
+      "idx": 866,
+      "start": 3235.66,
+      "end": 3240.56,
+      "text": "So I should say, if you want to know if string theory is right, we don't have any way to test it at the moment."
+    },
+    {
+      "idx": 867,
+      "start": 3240.66,
+      "end": 3246.56,
+      "text": "But if you want to know if some of these other ideas are right, then that's what the LHC should be doing."
+    },
+    {
+      "idx": 868,
+      "start": 3246.66,
+      "end": 3249.56,
+      "text": "The reason that we built the LHC was firstly to find the Higgs."
+    },
+    {
+      "idx": 869,
+      "start": 3249.66,
+      "end": 3250.56,
+      "text": "OK, it worked."
+    },
+    {
+      "idx": 870,
+      "start": 3250.66,
+      "end": 3255.56,
+      "text": "And secondly, to test these kind of ideas that we've been having to see what lies beyond."
+    },
+    {
+      "idx": 871,
+      "start": 3255.66,
+      "end": 3257.75,
+      "text": "So the LHC has been running."
+    },
+    {
+      "idx": 872,
+      "start": 3257.75,
+      "end": 3259.65,
+      "text": "It's been running for two years."
+    },
+    {
+      "idx": 873,
+      "start": 3259.75,
+      "end": 3261.65,
+      "text": "It's been running like an absolute dream."
+    },
+    {
+      "idx": 874,
+      "start": 3261.75,
+      "end": 3263.65,
+      "text": "It's just it's a perfect machine."
+    },
+    {
+      "idx": 875,
+      "start": 3264.75,
+      "end": 3267.13,
+      "text": "This is what it's seen."
+    },
+    {
+      "idx": 876,
+      "start": 3270.28,
+      "end": 3276.98,
+      "text": "All of these fantastic, beautiful ideas that we've had, none of them are showing up at all."
+    },
+    {
+      "idx": 877,
+      "start": 3277.08,
+      "end": 3281.98,
+      "text": "And the question going forward is, what are we going to do about it?"
+    },
+    {
+      "idx": 878,
+      "start": 3282.08,
+      "end": 3287.98,
+      "text": "How are we going to make progress in understanding the next layer of physics when the LHC isn't seeing anything"
+    },
+    {
+      "idx": 879,
+      "start": 3288.08,
+      "end": 3289.98,
+      "text": "and our ideas just don't appear to be there?"
+    },
+    {
+      "idx": 880,
+      "start": 3290.18,
+      "end": 3291.98,
+      "text": "The way that nature works."
+    },
+    {
+      "idx": 881,
+      "start": 3292.08,
+      "end": 3296.08,
+      "text": "OK, I should tell you often I don't have a good answer to this."
+    },
+    {
+      "idx": 882,
+      "start": 3296.18,
+      "end": 3303.08,
+      "text": "It's I say my impression is that most of my community is a little bit shell shocked by by what happened."
+    },
+    {
+      "idx": 883,
+      "start": 3303.18,
+      "end": 3306.08,
+      "text": "There's certainly no consensus in the community to move forward."
+    },
+    {
+      "idx": 884,
+      "start": 3306.18,
+      "end": 3312.08,
+      "text": "But I think there's three responses that the sort of various people have had that I'd like to share with you."
+    },
+    {
+      "idx": 885,
+      "start": 3312.18,
+      "end": 3317.08,
+      "text": "I think all three of these responses are reasonable up to a point."
+    },
+    {
+      "idx": 886,
+      "start": 3317.18,
+      "end": 3319.08,
+      "text": "The first response to the LHC."
+    },
+    {
+      "idx": 887,
+      "start": 3319.18,
+      "end": 3320.98,
+      "text": "Not seeing anything is the following."
+    },
+    {
+      "idx": 888,
+      "start": 3321.08,
+      "end": 3325.98,
+      "text": "It's well, you know, you young kids, you're so pessimistic."
+    },
+    {
+      "idx": 889,
+      "start": 3326.08,
+      "end": 3326.98,
+      "text": "It's all doom and gloom with you."
+    },
+    {
+      "idx": 890,
+      "start": 3327.08,
+      "end": 3328.98,
+      "text": "You just you need a little bit more patience."
+    },
+    {
+      "idx": 891,
+      "start": 3329.08,
+      "end": 3330.98,
+      "text": "You know, I didn't see anything last year and it didn't see anything this year."
+    },
+    {
+      "idx": 892,
+      "start": 3331.08,
+      "end": 3332.98,
+      "text": "But but next year it's going to see something."
+    },
+    {
+      "idx": 893,
+      "start": 3333.08,
+      "end": 3334.98,
+      "text": "And if not next year, it's the year after that."
+    },
+    {
+      "idx": 894,
+      "start": 3335.08,
+      "end": 3336.98,
+      "text": "But it's going to see something."
+    },
+    {
+      "idx": 895,
+      "start": 3337.08,
+      "end": 3341.98,
+      "text": "It's usually my very illustrious senior colleagues that have this this response."
+    },
+    {
+      "idx": 896,
+      "start": 3342.08,
+      "end": 3342.98,
+      "text": "And you know what?"
+    },
+    {
+      "idx": 897,
+      "start": 3343.08,
+      "end": 3343.98,
+      "text": "They could easily be right."
+    },
+    {
+      "idx": 898,
+      "start": 3344.08,
+      "end": 3348.98,
+      "text": "It could easily be that next year the LHC discovers something astonishing and it sets us on the path to understand."
+    },
+    {
+      "idx": 899,
+      "start": 3349.18,
+      "end": 3351.98,
+      "text": "The next layer of layer of reality."
+    },
+    {
+      "idx": 900,
+      "start": 3352.08,
+      "end": 3358.01,
+      "text": "But it's also true that these same people were predicting that it would have seen something by now."
+    },
+    {
+      "idx": 901,
+      "start": 3358.11,
+      "end": 3363.01,
+      "text": "And it's also true that this can't keep going for much longer."
+    },
+    {
+      "idx": 902,
+      "start": 3363.11,
+      "end": 3372.01,
+      "text": "If the LHC doesn't see something within, say, a two year timescale, it seems very, very unlikely that it's going to see something moving forward."
+    },
+    {
+      "idx": 903,
+      "start": 3373.11,
+      "end": 3375.01,
+      "text": "It just seems unlikely."
+    },
+    {
+      "idx": 904,
+      "start": 3375.11,
+      "end": 3377.01,
+      "text": "So, you know, we'll know."
+    },
+    {
+      "idx": 905,
+      "start": 3377.11,
+      "end": 3379.01,
+      "text": "I hope with all my heart that the LHC discovers something next year."
+    },
+    {
+      "idx": 906,
+      "start": 3379.11,
+      "end": 3380.91,
+      "text": "Or the year after."
+    },
+    {
+      "idx": 907,
+      "start": 3381.01,
+      "end": 3382.91,
+      "text": "But I think we have to prepare for the worst."
+    },
+    {
+      "idx": 908,
+      "start": 3383.01,
+      "end": 3384.91,
+      "text": "That maybe it won't."
+    },
+    {
+      "idx": 909,
+      "start": 3386.01,
+      "end": 3386.91,
+      "text": "Response number two."
+    },
+    {
+      "idx": 910,
+      "start": 3387.01,
+      "end": 3390.91,
+      "text": "Response number two, which is sort of also by similar people."
+    },
+    {
+      "idx": 911,
+      "start": 3391.01,
+      "end": 3393.91,
+      "text": "Well, all our theories are so beautiful, they absolutely have to be correct."
+    },
+    {
+      "idx": 912,
+      "start": 3394.01,
+      "end": 3395.91,
+      "text": "And what we really need is a bigger machine."
+    },
+    {
+      "idx": 913,
+      "start": 3397.01,
+      "end": 3397.91,
+      "text": "Ten times bigger."
+    },
+    {
+      "idx": 914,
+      "start": 3398.01,
+      "end": 3399.91,
+      "text": "We'll do it."
+    },
+    {
+      "idx": 915,
+      "start": 3401.11,
+      "end": 3403.01,
+      "text": "Again, they might be right."
+    },
+    {
+      "idx": 916,
+      "start": 3403.11,
+      "end": 3405.01,
+      "text": "I don't have a good argument against it."
+    },
+    {
+      "idx": 917,
+      "start": 3405.11,
+      "end": 3409.01,
+      "text": "The obvious rebuttal, however, is that a new machine costs $10 billion."
+    },
+    {
+      "idx": 918,
+      "start": 3409.21,
+      "end": 3417.01,
+      "text": "And there's not too many governments in the world that have $10 billion to spare for us to explore these ideas."
+    },
+    {
+      "idx": 919,
+      "start": 3418.11,
+      "end": 3419.01,
+      "text": "The one is China."
+    },
+    {
+      "idx": 920,
+      "start": 3419.11,
+      "end": 3423.01,
+      "text": "And so if this machine is going to be built at all, it's going to be built by the Chinese government."
+    },
+    {
+      "idx": 921,
+      "start": 3423.11,
+      "end": 3434.01,
+      "text": "I think the Chinese government would see it as extremely attractive if the whole community of particle physicists and engineers that are currently based in CERN in Geneva moved to a town that's slightly north of Beijing."
+    },
+    {
+      "idx": 922,
+      "start": 3434.11,
+      "end": 3438.01,
+      "text": "I think they'd view that as a political and economic gain."
+    },
+    {
+      "idx": 923,
+      "start": 3438.01,
+      "end": 3440.91,
+      "text": "And there's a real chance that they may decide to build this machine."
+    },
+    {
+      "idx": 924,
+      "start": 3441.01,
+      "end": 3444.91,
+      "text": "If they do, it's about 20 years for it to be built."
+    },
+    {
+      "idx": 925,
+      "start": 3445.01,
+      "end": 3447.91,
+      "text": "So we're waiting slightly longer."
+    },
+    {
+      "idx": 926,
+      "start": 3448.01,
+      "end": 3450.2,
+      "text": "There's a third response."
+    },
+    {
+      "idx": 927,
+      "start": 3450.3,
+      "end": 3455.29,
+      "text": "And I should say the third response is kind of the camp I'm in."
+    },
+    {
+      "idx": 928,
+      "start": 3455.39,
+      "end": 3461.29,
+      "text": "I should mention up front, it's speculative and it's probably not endorsed by most of my peers."
+    },
+    {
+      "idx": 929,
+      "start": 3461.39,
+      "end": 3465.29,
+      "text": "So this is really just my personal opinion at this point."
+    },
+    {
+      "idx": 930,
+      "start": 3465.39,
+      "end": 3467.29,
+      "text": "This is my take on this."
+    },
+    {
+      "idx": 931,
+      "start": 3467.29,
+      "end": 3477.41,
+      "text": "This is the equation that we know is right."
+    },
+    {
+      "idx": 932,
+      "start": 3477.51,
+      "end": 3480.41,
+      "text": "This is sort of the bedrock of our understanding."
+    },
+    {
+      "idx": 933,
+      "start": 3480.51,
+      "end": 3486.41,
+      "text": "But although we know it's right, there's an awful lot in this equation that we haven't understood."
+    },
+    {
+      "idx": 934,
+      "start": 3486.51,
+      "end": 3491.41,
+      "text": "There's an awful lot to me that's still mysterious in this equation."
+    },
+    {
+      "idx": 935,
+      "start": 3491.51,
+      "end": 3497.41,
+      "text": "So although this equation looked like there were suggestions of unification, maybe they're just red herrings."
+    },
+    {
+      "idx": 936,
+      "start": 3497.41,
+      "end": 3507.31,
+      "text": "And maybe if we just work harder and try to understand this equation more, we'll find that there are other patterns that emerge."
+    },
+    {
+      "idx": 937,
+      "start": 3507.41,
+      "end": 3520.31,
+      "text": "So my response is I think that maybe we should just go back to the drawing board and start to challenge some of the assumptions and paradigms that we've been holding for the past 30 years."
+    },
+    {
+      "idx": 938,
+      "start": 3520.41,
+      "end": 3525.31,
+      "text": "So I should admit, I feel quite energized actually by the lack of results for the LHC."
+    },
+    {
+      "idx": 939,
+      "start": 3525.41,
+      "end": 3527.21,
+      "text": "You know, I sort of..."
+    },
+    {
+      "idx": 940,
+      "start": 3527.21,
+      "end": 3532.11,
+      "text": "I think that the LHC is a very good example of how we can start to think about different ideas."
+    },
+    {
+      "idx": 941,
+      "start": 3532.21,
+      "end": 3535.11,
+      "text": "I think that the LHC is a very good example of how we can start to think about different ideas."
+    },
+    {
+      "idx": 942,
+      "start": 3535.21,
+      "end": 3541.11,
+      "text": "And I think that there's a very real chance that we could just start thinking about different ideas."
+    },
+    {
+      "idx": 943,
+      "start": 3541.21,
+      "end": 3544.11,
+      "text": "I should say that there are hints in here."
+    },
+    {
+      "idx": 944,
+      "start": 3544.21,
+      "end": 3547.11,
+      "text": "There are hints to me about mathematical patterns that we haven't explored."
+    },
+    {
+      "idx": 945,
+      "start": 3547.21,
+      "end": 3551.11,
+      "text": "That there's hints in this about connections to other areas of science."
+    },
+    {
+      "idx": 946,
+      "start": 3551.21,
+      "end": 3555.11,
+      "text": "Things like condensed matter physics, which is the science of how materials work."
+    },
+    {
+      "idx": 947,
+      "start": 3555.21,
+      "end": 3557.11,
+      "text": "Or quantum information science, which is the science of how materials work."
+    },
+    {
+      "idx": 948,
+      "start": 3557.11,
+      "end": 3559.01,
+      "text": "Or the attempt to build a quantum computer."
+    },
+    {
+      "idx": 949,
+      "start": 3559.11,
+      "end": 3567.01,
+      "text": "All of these fantastic subjects have new ideas which sort of feed in to the kind of questions that we're asking here."
+    },
+    {
+      "idx": 950,
+      "start": 3567.11,
+      "end": 3572.01,
+      "text": "So I'm quite optimistic that moving forward we can make progress."
+    },
+    {
+      "idx": 951,
+      "start": 3572.11,
+      "end": 3578.01,
+      "text": "Maybe not the progress that we thought we'd make a few years ago, but just something new."
+    },
+    {
+      "idx": 952,
+      "start": 3578.11,
+      "end": 3580.17,
+      "text": "So that's the punchline of my talk."
+    },
+    {
+      "idx": 953,
+      "start": 3580.27,
+      "end": 3587.17,
+      "text": "The punchline is that this is the single greatest equation that we've ever written down."
+    },
+    {
+      "idx": 954,
+      "start": 3587.37,
+      "end": 3592.46,
+      "text": "But I hope that someday we can give you something better."
+    },
+    {
+      "idx": 955,
+      "start": 3592.56,
+      "end": 3598.49,
+      "text": "Thank you for your attention."
+    },
+    {
+      "idx": 956,
+      "start": 3598.59,
+      "end": 3600.49,
+      "text": "There's nothing discreet about the Schrodinger equation."
+    },
+    {
+      "idx": 957,
+      "start": 3600.59,
+      "end": 3607.49,
+      "text": "The Schrodinger equation is something to do with a smooth field-like wave function."
+    },
+    {
+      "idx": 958,
+      "start": 3607.59,
+      "end": 3611.49,
+      "text": "The discreteness is something which emerges when you solve the Schrodinger equation."
+    },
+    {
+      "idx": 959,
+      "start": 3611.59,
+      "end": 3613.49,
+      "text": "So it's not built into the heart of nature."
+    }
+  ]
+}

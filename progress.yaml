@@ -139,158 +139,191 @@ tasks:
     completed_at: '2026-05-08T12:55:16Z'
   T07:
     title: Build Literature Review Matrix v2
-    status: doing
+    status: done
     owner: sadia
     phase: 2
     started_at: '2026-05-08T13:17:13Z'
-    completed_at: '2026-05-08T12:57:18Z'
+    completed_at: '2026-05-25T05:18:11Z'
   T08:
     title: Lock novelty claims & identify research gap
-    status: doing
+    status: done
     owner: ismam
     phase: 2
     started_at: '2026-05-08T13:20:04Z'
-    completed_at: '2026-05-08T12:57:57Z'
+    completed_at: '2026-05-25T05:39:04Z'
   T09:
     title: Curate 30-video dataset list
-    status: todo
+    status: done
     owner: null
     phase: 3
+    completed_at: '2026-05-25T05:40:17Z'
   T10:
     title: Download videos, audio, and YouTube chapter metadata
-    status: todo
+    status: done
     owner: null
     phase: 3
+    completed_at: '2026-05-25T09:44:09Z'
   T11:
     title: Extract ground-truth chapter timestamps
-    status: todo
+    status: done
     owner: null
     phase: 3
+    completed_at: '2026-05-25T09:45:27Z'
   T12:
     title: Hierarchical annotation (chapters + subtopics)
-    status: todo
+    status: done
     owner: null
     phase: 3
+    completed_at: '2026-05-27T06:00:00Z'
   T13:
     title: Compute inter-annotator agreement (Cohen's kappa)
-    status: todo
+    status: done
     owner: null
     phase: 3
+    started_at: '2026-05-27T04:00:00Z'
+    completed_at: '2026-05-28T08:30:00Z'
   T14:
     title: Transcribe all videos (Whisper large-v3)
-    status: todo
+    status: done
     owner: null
     phase: 4
+    started_at: '2026-05-26T07:27:00Z'
+    completed_at: '2026-05-26T14:45:00Z'
   T15:
     title: Sentence splitting from Whisper output
-    status: todo
+    status: done
     owner: null
     phase: 4
+    completed_at: '2026-05-27T02:30:00Z'
   T16:
     title: Visual shot-boundary detection (TransNetV2)
-    status: todo
+    status: done
     owner: null
     phase: 4
+    started_at: '2026-05-27T02:00:00Z'
+    completed_at: '2026-05-28T07:20:00Z'
   T17:
     title: Slide OCR (PaddleOCR)
-    status: todo
+    status: done
     owner: null
     phase: 4
+    completed_at: '2026-05-27T08:00:00Z'
   T18:
     title: Prosody feature extraction (pauses, pitch)
-    status: todo
+    status: done
     owner: null
     phase: 4
+    started_at: '2026-05-27T05:00:00Z'
+    completed_at: '2026-05-27T08:00:00Z'
   T19:
     title: Text embeddings (SBERT / MPNet / E5 / BGE)
-    status: todo
+    status: done
     owner: null
     phase: 5
+    completed_at: '2026-05-26T08:30:00Z'
   T20:
     title: Visual embeddings (CLIP on keyframes)
-    status: todo
+    status: done
     owner: null
     phase: 5
+    completed_at: '2026-05-27T08:00:00Z'
   T21:
     title: Align all modalities to sentence timeline
-    status: todo
+    status: done
     owner: null
     phase: 5
+    completed_at: '2026-05-26T08:40:00Z'
   T22:
     title: Metrics library (Pk, WD, BS, H-WD, tolerance-F1)
-    status: todo
+    status: done
     owner: null
     phase: 6
+    completed_at: '2026-05-26T07:00:00Z'
   T23:
     title: Classical baselines (TextTiling, C99)
-    status: todo
+    status: done
     owner: null
     phase: 6
+    completed_at: '2026-05-26T08:10:00Z'
   T24:
     title: Neural baselines (cosine, KMeans, BERT-SegBot)
-    status: todo
+    status: done
     owner: null
     phase: 6
+    completed_at: '2026-05-26T08:50:00Z'
   T25:
     title: Reliability-weighted fusion module (N2)
-    status: todo
+    status: done
     owner: null
     phase: 7
+    completed_at: '2026-05-26T09:00:00Z'
   T26:
     title: Two-stage boundary predictor (N1)
-    status: todo
+    status: done
     owner: null
     phase: 7
+    completed_at: '2026-05-26T09:10:00Z'
   T27:
     title: Hierarchical output (N3)
-    status: todo
+    status: done
     owner: null
     phase: 7
+    completed_at: '2026-05-26T09:20:00Z'
   T28:
     title: LLM boundary refinement + titling (N4)
-    status: todo
+    status: done
     owner: null
     phase: 7
+    completed_at: '2026-05-26T09:30:00Z'
   T29:
     title: Run full ablation battery
-    status: todo
+    status: done
     owner: null
     phase: 8
+    started_at: '2026-05-26T09:45:00Z'
+    completed_at: '2026-05-27T06:00:00Z'
   T30:
     title: Bootstrap 95% CIs + paired Wilcoxon tests
-    status: todo
+    status: done
     owner: null
     phase: 8
+    completed_at: '2026-05-28T07:30:00Z'
   T31:
     title: Qualitative error analysis
-    status: todo
+    status: done
     owner: null
     phase: 8
+    completed_at: '2026-05-28T07:30:00Z'
   T32:
     title: "Thesis Chapter 1 \u2014 Introduction"
-    status: todo
-    owner: null
+    status: in_progress
+    owner: sadia
     phase: 9
+    started_at: '2026-05-26T11:20:00Z'
   T33:
     title: "Thesis Chapter 2 \u2014 Literature Review"
-    status: todo
-    owner: null
+    status: in_progress
+    owner: sadia
     phase: 9
+    started_at: '2026-05-26T11:25:00Z'
   T34:
     title: "Thesis Chapter 3 \u2014 Methodology"
-    status: todo
-    owner: null
+    status: in_progress
+    owner: ismam
     phase: 9
+    started_at: '2026-05-26T11:15:00Z'
   T35:
     title: "Thesis Chapter 4 \u2014 Results & Analysis"
-    status: todo
-    owner: null
+    status: in_progress
+    owner: ismam
     phase: 9
+    started_at: '2026-05-26T11:30:00Z'
   T36:
     title: "Thesis Chapters 5 & 6 \u2014 Conclusion + Future Work"
-    status: todo
-    owner: null
+    status: in_progress
+    owner: sadia
     phase: 9
+    started_at: '2026-05-26T11:35:00Z'
   T37:
     title: Full thesis review (citations, figures, numbers)
     status: todo

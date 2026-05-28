@@ -1,0 +1,19 @@
+{
+  "video_id": "NK-BxowMIfg",
+  "duration_sec": 3962,
+  "num_chapters": 5,
+  "titles": [
+    "Chapter 1. Review of Forces and Introduction to Electrostatic Force",
+    "Chapter 2. Coulomb's Law",
+    "Chapter 3. Conservation and Quantization of Charge",
+    "Chapter 4. Microscopic Understanding of Electrostatics",
+    "Chapter 5. Charge Distributions and the Principle of Superposition"
+  ],
+  "boundaries_sec": [
+    920.0,
+    1269.0,
+    1575.0,
+    2001.0
+  ],
+  "source": "youtube_chapters"
+}

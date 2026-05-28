@@ -1,0 +1,3509 @@
+{
+  "video_id": "KlVHqq38KJU",
+  "sentences": [
+    {
+      "idx": 0,
+      "start": 17.33,
+      "end": 19.391,
+      "text": "Okay, we're going to get going."
+    },
+    {
+      "idx": 1,
+      "start": 19.391,
+      "end": 26.24,
+      "text": "Now we have a small class this year because of changes in the Institute with pass fail types of things."
+    },
+    {
+      "idx": 2,
+      "start": 26.24,
+      "end": 37.41,
+      "text": "But Professor Martin and Dr. Ray and I consider this to be a special opportunity for us to run the course a little bit differently with a few more quirks and surprises."
+    },
+    {
+      "idx": 3,
+      "start": 37.41,
+      "end": 41.634,
+      "text": "Because we have a small number of you, we can listen to you all."
+    },
+    {
+      "idx": 4,
+      "start": 41.634,
+      "end": 43.349,
+      "text": "We can get input from you."
+    },
+    {
+      "idx": 5,
+      "start": 43.349,
+      "end": 48.431,
+      "text": "We can even get feedback from you of something you might like to see more of."
+    },
+    {
+      "idx": 6,
+      "start": 48.431,
+      "end": 52.325,
+      "text": "And in general, we really want to capture the sense of you."
+    },
+    {
+      "idx": 7,
+      "start": 52.325,
+      "end": 54.766,
+      "text": "I've looked at the registration list."
+    },
+    {
+      "idx": 8,
+      "start": 54.766,
+      "end": 56.812,
+      "text": "We have people from every year."
+    },
+    {
+      "idx": 9,
+      "start": 56.812,
+      "end": 60.31,
+      "text": "We have people from many, many different disciplines."
+    },
+    {
+      "idx": 10,
+      "start": 60.73,
+      "end": 65.75,
+      "text": "So this is what we're going to do today after I start doing some introductions and so on."
+    },
+    {
+      "idx": 11,
+      "start": 66.13,
+      "end": 67.39,
+      "text": "We're going to talk about the"
+    },
+    {
+      "idx": 12,
+      "start": 67.39,
+      "end": 69.362,
+      "text": "nitty gritty of the organization."
+    },
+    {
+      "idx": 13,
+      "start": 69.362,
+      "end": 70.855,
+      "text": "We need to tell you this."
+    },
+    {
+      "idx": 14,
+      "start": 70.855,
+      "end": 81.43,
+      "text": "We need to convey this information to you clearly about when exams are and what requirements are and how to do well in this course without even realizing it, that kind of thing."
+    },
+    {
+      "idx": 15,
+      "start": 81.43,
+      "end": 96.79,
+      "text": "And then I'll take you through this sort of fast track through molecules to man all the way down to cells and organisms to show you that there was a break point in the 1950s where the where the"
+    },
+    {
+      "idx": 16,
+      "start": 96.79,
+      "end": 97.37,
+      "text": "source of the"
+    },
+    {
+      "idx": 17,
+      "start": 97.39,
+      "end": 100.19,
+      "text": "structure, the non covalent structure of DNA."
+    },
+    {
+      "idx": 18,
+      "start": 100.35,
+      "end": 106.747,
+      "text": "Was elucidated and there was an entire revolution after that which makes modern biology."
+    },
+    {
+      "idx": 19,
+      "start": 106.747,
+      "end": 108.783,
+      "text": "The study of modern biology."
+    },
+    {
+      "idx": 20,
+      "start": 108.783,
+      "end": 113.944,
+      "text": "So entirely different from the study of biology In the era before that."
+    },
+    {
+      "idx": 21,
+      "start": 113.944,
+      "end": 117.87,
+      "text": "Biology used to be considered taxonomy and dissection,"
+    },
+    {
+      "idx": 22,
+      "start": 117.87,
+      "end": 121.69,
+      "text": "like listing and and looking at."
+    },
+    {
+      "idx": 23,
+      "start": 121.87,
+      "end": 124.59,
+      "text": "But now biology modern Biology is a molecular science."
+    },
+    {
+      "idx": 24,
+      "start": 126.41,
+      "end": 126.89,
+      "text": "as has some"
+    },
+    {
+      "idx": 25,
+      "start": 127.27,
+      "end": 131.23,
+      "text": "about these topics, what you will see is the blueprints"
+    },
+    {
+      "idx": 26,
+      "start": 131.23,
+      "end": 134.73,
+      "text": "for life are common across domains of life."
+    },
+    {
+      "idx": 27,
+      "start": 134.73,
+      "end": 137.25,
+      "text": "And if you learn basic principles,"
+    },
+    {
+      "idx": 28,
+      "start": 137.25,
+      "end": 140.53,
+      "text": "you'll have an exponential increase in your ability"
+    },
+    {
+      "idx": 29,
+      "start": 140.53,
+      "end": 142.79,
+      "text": "to appreciate these characteristics."
+    },
+    {
+      "idx": 30,
+      "start": 142.79,
+      "end": 146.89,
+      "text": "The modern biology is a synthesis of science,"
+    },
+    {
+      "idx": 31,
+      "start": 146.89,
+      "end": 150.05,
+      "text": "technology, engineering, where all the tools"
+    },
+    {
+      "idx": 32,
+      "start": 150.05,
+      "end": 152.19,
+      "text": "from those disciplines, different disciplines,"
+    },
+    {
+      "idx": 33,
+      "start": 152.19,
+      "end": 157.05,
+      "text": "physics, math, computation, funnel into modern biology"
+    },
+    {
+      "idx": 34,
+      "start": 157.05,
+      "end": 159.55,
+      "text": "to make what we know now feasible."
+    },
+    {
+      "idx": 35,
+      "start": 159.55,
+      "end": 164.11,
+      "text": "And that's a dramatic and fantastic opportunity"
+    },
+    {
+      "idx": 36,
+      "start": 164.11,
+      "end": 167.21,
+      "text": "for all of you moving forward in your careers."
+    },
+    {
+      "idx": 37,
+      "start": 167.21,
+      "end": 169.41,
+      "text": "Now, I want to introduce the team."
+    },
+    {
+      "idx": 38,
+      "start": 169.41,
+      "end": 171.15,
+      "text": "So I'm Barbara Imperiali."
+    },
+    {
+      "idx": 39,
+      "start": 171.15,
+      "end": 174.13,
+      "text": "I'm a faculty member in chemistry and biology,"
+    },
+    {
+      "idx": 40,
+      "start": 174.13,
+      "end": 177.89,
+      "text": "and I'm really interested in chemical biology,"
+    },
+    {
+      "idx": 41,
+      "start": 180.35,
+      "end": 184.53,
+      "text": "I love to tease apart complex pathways in organisms"
+    },
+    {
+      "idx": 42,
+      "start": 184.53,
+      "end": 186.91,
+      "text": "where we use biosynthesize"
+    },
+    {
+      "idx": 43,
+      "start": 187.05,
+      "end": 190.43,
+      "text": "very unusual glyco-conjugates that are very important"
+    },
+    {
+      "idx": 44,
+      "start": 190.43,
+      "end": 192.35,
+      "text": "for cell-cell communication"
+    },
+    {
+      "idx": 45,
+      "start": 192.35,
+      "end": 195.55,
+      "text": "and host cell pathogen communication, for example."
+    },
+    {
+      "idx": 46,
+      "start": 195.55,
+      "end": 197.61,
+      "text": "I was trained as an organic chemist."
+    },
+    {
+      "idx": 47,
+      "start": 197.61,
+      "end": 200.75,
+      "text": "In fact, I did my PhD degree at MIT"
+    },
+    {
+      "idx": 48,
+      "start": 200.75,
+      "end": 204.29,
+      "text": "about five million years ago on a sort of current scale."
+    },
+    {
+      "idx": 49,
+      "start": 204.29,
+      "end": 209.29,
+      "text": "So my co-instructor is Professor,"
+    },
+    {
+      "idx": 50,
+      "start": 209.95,
+      "end": 216.72,
+      "text": "this is, sorry about this, but they want us on the feed."
+    },
+    {
+      "idx": 51,
+      "start": 222.24,
+      "end": 224.24,
+      "text": "I'm Professor Martin, and my lab,"
+    },
+    {
+      "idx": 52,
+      "start": 224.24,
+      "end": 229.18,
+      "text": "my lab is interested in how cells generate mechanical forces"
+    },
+    {
+      "idx": 53,
+      "start": 229.18,
+      "end": 231.86,
+      "text": "and how this is involved in sculpting tissues"
+    },
+    {
+      "idx": 54,
+      "start": 235.76,
+      "end": 238.86,
+      "text": "So what Adam hasn't told you is he's a cell biologist,"
+    },
+    {
+      "idx": 55,
+      "start": 238.86,
+      "end": 243.62,
+      "text": "a biophysicist, and he's a lot better at genetics than I am."
+    },
+    {
+      "idx": 56,
+      "start": 243.62,
+      "end": 248.54,
+      "text": "Our instructor is Dr. Divya Ray, who's been with this course."
+    },
+    {
+      "idx": 57,
+      "start": 248.54,
+      "end": 250.36,
+      "text": "Now this is the sixth year,"
+    },
+    {
+      "idx": 58,
+      "start": 250.36,
+      "end": 254.48,
+      "text": "and she is trained in immunology, cancer biology,"
+    },
+    {
+      "idx": 59,
+      "start": 254.48,
+      "end": 256.38,
+      "text": "and also cell cellular signaling."
+    },
+    {
+      "idx": 60,
+      "start": 256.38,
+      "end": 260.26,
+      "text": "But what you can't tell from that is how dedicated she is"
+    },
+    {
+      "idx": 61,
+      "start": 260.26,
+      "end": 262.0,
+      "text": "to each and every one of you."
+    },
+    {
+      "idx": 62,
+      "start": 262.0,
+      "end": 264.08,
+      "text": "If you have any trouble in the semester,"
+    },
+    {
+      "idx": 63,
+      "start": 264.08,
+      "end": 268.04,
+      "text": "just contact Dr. Ray and say, I need some help,"
+    },
+    {
+      "idx": 64,
+      "start": 268.04,
+      "end": 271.54,
+      "text": "be it a particular problem in the material"
+    },
+    {
+      "idx": 65,
+      "start": 271.54,
+      "end": 274.78,
+      "text": "or there's just something come up that makes it difficult"
+    },
+    {
+      "idx": 66,
+      "start": 274.78,
+      "end": 277.08,
+      "text": "for you to do your best in the course."
+    },
+    {
+      "idx": 67,
+      "start": 277.08,
+      "end": 277.94,
+      "text": "She will help you."
+    },
+    {
+      "idx": 68,
+      "start": 277.94,
+      "end": 281.94,
+      "text": "She'll work out mechanisms to get you through troubled spots."
+    },
+    {
+      "idx": 69,
+      "start": 281.94,
+      "end": 284.48,
+      "text": "So let's get going here now."
+    },
+    {
+      "idx": 70,
+      "start": 285.4,
+      "end": 286.38,
+      "text": "What I want to try"
+    },
+    {
+      "idx": 71,
+      "start": 286.38,
+      "end": 289.18,
+      "text": "to do is just give you sort of a flavor"
+    },
+    {
+      "idx": 72,
+      "start": 289.18,
+      "end": 291.8,
+      "text": "of where we're going to within the course"
+    },
+    {
+      "idx": 73,
+      "start": 291.8,
+      "end": 295.66,
+      "text": "by starting with a few sort of bullet points and topics,"
+    },
+    {
+      "idx": 74,
+      "start": 295.66,
+      "end": 298.7,
+      "text": "just so that I can sort of pique your interest."
+    },
+    {
+      "idx": 75,
+      "start": 298.7,
+      "end": 300.52,
+      "text": "So as I mentioned before,"
+    },
+    {
+      "idx": 76,
+      "start": 300.52,
+      "end": 303.64,
+      "text": "studying biology in the 21st century"
+    },
+    {
+      "idx": 77,
+      "start": 303.64,
+      "end": 305.94,
+      "text": "is a fabulous opportunity."
+    },
+    {
+      "idx": 78,
+      "start": 305.94,
+      "end": 309.22,
+      "text": "No matter what discipline you come from,"
+    },
+    {
+      "idx": 79,
+      "start": 309.22,
+      "end": 314.22,
+      "text": "you can add to the expertise that will move biology forward."
+    },
+    {
+      "idx": 80,
+      "start": 314.5,
+      "end": 315.4,
+      "text": "Biology would not be where it is now,"
+    },
+    {
+      "idx": 81,
+      "start": 315.4,
+      "end": 317.16,
+      "text": "it would not be where it is today"
+    },
+    {
+      "idx": 82,
+      "start": 317.16,
+      "end": 321.16,
+      "text": "in the absence of science engineering to promote it"
+    },
+    {
+      "idx": 83,
+      "start": 321.16,
+      "end": 323.66,
+      "text": "and to support progress in biology."
+    },
+    {
+      "idx": 84,
+      "start": 323.66,
+      "end": 325.58,
+      "text": "So you really want to realize that,"
+    },
+    {
+      "idx": 85,
+      "start": 325.58,
+      "end": 327.46,
+      "text": "that you have an opportunity."
+    },
+    {
+      "idx": 86,
+      "start": 327.46,
+      "end": 330.28,
+      "text": "You may say, well, I'm in this discipline or other,"
+    },
+    {
+      "idx": 87,
+      "start": 330.28,
+      "end": 332.42,
+      "text": "I don't think biology is going to have anything to do"
+    },
+    {
+      "idx": 88,
+      "start": 332.42,
+      "end": 336.16,
+      "text": "with my future career opportunities."
+    },
+    {
+      "idx": 89,
+      "start": 336.16,
+      "end": 338.34,
+      "text": "But it has a lot to do with your life."
+    },
+    {
+      "idx": 90,
+      "start": 338.34,
+      "end": 342.4,
+      "text": "It has a lot to do with understanding health and disease,"
+    },
+    {
+      "idx": 91,
+      "start": 342.4,
+      "end": 345.24,
+      "text": "understanding new scientific discoveries,"
+    },
+    {
+      "idx": 92,
+      "start": 346.98,
+      "end": 349.02,
+      "text": "So it's so important that you,"
+    },
+    {
+      "idx": 93,
+      "start": 349.02,
+      "end": 352.02,
+      "text": "as a sort of a scholar of the 21st century,"
+    },
+    {
+      "idx": 94,
+      "start": 352.02,
+      "end": 354.74,
+      "text": "have a good grasp on these materials."
+    },
+    {
+      "idx": 95,
+      "start": 354.74,
+      "end": 357.58,
+      "text": "And we're not trying to feed you anything dull and boring."
+    },
+    {
+      "idx": 96,
+      "start": 357.58,
+      "end": 359.6,
+      "text": "This is really exciting stuff"
+    },
+    {
+      "idx": 97,
+      "start": 359.6,
+      "end": 364.3,
+      "text": "because the level of complexity that we can study nowadays,"
+    },
+    {
+      "idx": 98,
+      "start": 364.3,
+      "end": 368.18,
+      "text": "whole genomes, whole organisms at a molecular level"
+    },
+    {
+      "idx": 99,
+      "start": 370.62,
+      "end": 372.5,
+      "text": "We're not just peering down a slide"
+    },
+    {
+      "idx": 100,
+      "start": 372.5,
+      "end": 375.24,
+      "text": "and looking at one cell or something."
+    },
+    {
+      "idx": 101,
+      "start": 375.24,
+      "end": 378.0,
+      "text": "We would be able to do full descriptions."
+    },
+    {
+      "idx": 102,
+      "start": 378.0,
+      "end": 382.74,
+      "text": "So what we'll try to give you is a view"
+    },
+    {
+      "idx": 103,
+      "start": 382.74,
+      "end": 385.06,
+      "text": "of the fundamental principles that are common"
+    },
+    {
+      "idx": 104,
+      "start": 385.06,
+      "end": 386.94,
+      "text": "to all living organisms."
+    },
+    {
+      "idx": 105,
+      "start": 386.94,
+      "end": 390.78,
+      "text": "So the study of biology, some people are microbiologists"
+    },
+    {
+      "idx": 106,
+      "start": 390.78,
+      "end": 393.94,
+      "text": "or eukaryotic biologists or human biologists"
+    },
+    {
+      "idx": 107,
+      "start": 393.94,
+      "end": 396.72,
+      "text": "or they study virology."
+    },
+    {
+      "idx": 108,
+      "start": 396.72,
+      "end": 399.84,
+      "text": "But we're going to build for you in the first few weeks"
+    },
+    {
+      "idx": 109,
+      "start": 399.84,
+      "end": 403.38,
+      "text": "of class information on the common building blocks"
+    },
+    {
+      "idx": 110,
+      "start": 403.38,
+      "end": 404.98,
+      "text": "that go across all domains."
+    },
+    {
+      "idx": 111,
+      "start": 404.98,
+      "end": 408.64,
+      "text": "And we're going to look at the fundamental domains of life."
+    },
+    {
+      "idx": 112,
+      "start": 408.64,
+      "end": 412.16,
+      "text": "Because once you start to learn about those molecules,"
+    },
+    {
+      "idx": 113,
+      "start": 412.16,
+      "end": 415.0,
+      "text": "the buildup, the macromolecules of life,"
+    },
+    {
+      "idx": 114,
+      "start": 415.0,
+      "end": 418.02,
+      "text": "then you'll start to really gain an understanding"
+    },
+    {
+      "idx": 115,
+      "start": 418.02,
+      "end": 421.74,
+      "text": "how amazing it is that these same sets of molecules"
+    },
+    {
+      "idx": 116,
+      "start": 421.74,
+      "end": 425.5,
+      "text": "function across from bacteria to man."
+    },
+    {
+      "idx": 117,
+      "start": 425.5,
+      "end": 429.04,
+      "text": "So you learn the rules for the simplest organisms."
+    },
+    {
+      "idx": 118,
+      "start": 429.04,
+      "end": 430.04,
+      "text": "You look at the molecules"
+    },
+    {
+      "idx": 119,
+      "start": 430.04,
+      "end": 433.6,
+      "text": "and you see how form fulfills function,"
+    },
+    {
+      "idx": 120,
+      "start": 433.6,
+      "end": 434.78,
+      "text": "which is something I'm really excited about."
+    },
+    {
+      "idx": 121,
+      "start": 434.78,
+      "end": 435.82,
+      "text": "And we're going to apply it"
+    },
+    {
+      "idx": 122,
+      "start": 435.82,
+      "end": 438.8,
+      "text": "as we get ever more complex systems,"
+    },
+    {
+      "idx": 123,
+      "start": 438.8,
+      "end": 441.68,
+      "text": "which demand a lot of attention."
+    },
+    {
+      "idx": 124,
+      "start": 441.68,
+      "end": 443.3,
+      "text": "So these are common molecular,"
+    },
+    {
+      "idx": 125,
+      "start": 443.3,
+      "end": 447.72,
+      "text": "there's a common molecular logic of very complex processes."
+    },
+    {
+      "idx": 126,
+      "start": 447.72,
+      "end": 449.84,
+      "text": "Motivations, I just mentioned a few."
+    },
+    {
+      "idx": 127,
+      "start": 449.84,
+      "end": 453.64,
+      "text": "Sure, you want to understand health and disease."
+    },
+    {
+      "idx": 128,
+      "start": 453.64,
+      "end": 456.36,
+      "text": "You want to understand what might be going on"
+    },
+    {
+      "idx": 129,
+      "start": 456.36,
+      "end": 458.12,
+      "text": "with current therapies."
+    },
+    {
+      "idx": 130,
+      "start": 458.12,
+      "end": 461.5,
+      "text": "When you have a relative who's been diagnosed"
+    },
+    {
+      "idx": 131,
+      "start": 461.5,
+      "end": 464.76,
+      "text": "with a serious disease, what are the current opportunities?"
+    },
+    {
+      "idx": 132,
+      "start": 464.78,
+      "end": 466.08,
+      "text": "What's coming down?"
+    },
+    {
+      "idx": 133,
+      "start": 466.08,
+      "end": 469.78,
+      "text": "What sorts of opportunities for therapy might be available?"
+    },
+    {
+      "idx": 134,
+      "start": 469.78,
+      "end": 471.72,
+      "text": "Because there are so many diseases now"
+    },
+    {
+      "idx": 135,
+      "start": 471.72,
+      "end": 474.1,
+      "text": "we understand at the molecular level."
+    },
+    {
+      "idx": 136,
+      "start": 474.1,
+      "end": 477.2,
+      "text": "We may not understand how to treat them yet,"
+    },
+    {
+      "idx": 137,
+      "start": 477.2,
+      "end": 480.08,
+      "text": "but we understand what their origin is,"
+    },
+    {
+      "idx": 138,
+      "start": 480.08,
+      "end": 483.12,
+      "text": "and that's why molecular approaches are so important."
+    },
+    {
+      "idx": 139,
+      "start": 483.12,
+      "end": 488.2,
+      "text": "You may often hear words like systems biology"
+    },
+    {
+      "idx": 140,
+      "start": 488.2,
+      "end": 489.9,
+      "text": "and synthetic biology."
+    },
+    {
+      "idx": 141,
+      "start": 489.9,
+      "end": 491.42,
+      "text": "These are kind of jazzy words"
+    },
+    {
+      "idx": 142,
+      "start": 491.42,
+      "end": 493.82,
+      "text": "for fairly straightforward things."
+    },
+    {
+      "idx": 143,
+      "start": 493.82,
+      "end": 494.78,
+      "text": "Systems biology, this kind of jazzy stuff."
+    },
+    {
+      "idx": 144,
+      "start": 494.78,
+      "end": 501.6,
+      "text": "Biology is a little bit like treating an organism or a cell as an electrical network, a wiring"
+    },
+    {
+      "idx": 145,
+      "start": 501.6,
+      "end": 507.76,
+      "text": "diagram, what proteins talk to what proteins, what are downstream functions, where are signals"
+    },
+    {
+      "idx": 146,
+      "start": 507.76,
+      "end": 508.96,
+      "text": "amplified, and so on."
+    },
+    {
+      "idx": 147,
+      "start": 508.98,
+      "end": 515.56,
+      "text": "So that's systems biology at its heart, quantifying different intermediates in a complex map of"
+    },
+    {
+      "idx": 148,
+      "start": 516.68,
+      "end": 521.88,
+      "text": "Synthetic biology is about using biology to make stuff, which is really cool."
+    },
+    {
+      "idx": 149,
+      "start": 521.88,
+      "end": 527.54,
+      "text": "Many, many important molecules can be made in the lab, but it's so much more effective"
+    },
+    {
+      "idx": 150,
+      "start": 527.54,
+      "end": 528.94,
+      "text": "to make them in an organism."
+    },
+    {
+      "idx": 151,
+      "start": 529.82,
+      "end": 534.64,
+      "text": "People are doing what they call synthetic biology, and that's exploiting and harnessing"
+    },
+    {
+      "idx": 152,
+      "start": 534.64,
+      "end": 537.58,
+      "text": "nature to make things that are useful for mankind."
+    },
+    {
+      "idx": 153,
+      "start": 540.4,
+      "end": 546.04,
+      "text": "And all the way through what I just want to emphasize, how integrating technology and"
+    },
+    {
+      "idx": 154,
+      "start": 546.04,
+      "end": 551.54,
+      "text": "engineering for science is really what we're all about here, because we appreciate we couldn't"
+    },
+    {
+      "idx": 155,
+      "start": 551.54,
+      "end": 552.02,
+      "text": "make the project."
+    },
+    {
+      "idx": 156,
+      "start": 552.04,
+      "end": 552.88,
+      "text": "We couldn't make progress without it."
+    },
+    {
+      "idx": 157,
+      "start": 553.26,
+      "end": 560.04,
+      "text": "There are also issues, general biology impacts, that are in the social sciences and impinge"
+    },
+    {
+      "idx": 158,
+      "start": 560.78,
+      "end": 568.22,
+      "text": "on things like ethics, designer babies, cloning people, cloning your pets, all kinds of things,"
+    },
+    {
+      "idx": 159,
+      "start": 568.58,
+      "end": 573.08,
+      "text": "treating a disease through genetics or not."
+    },
+    {
+      "idx": 160,
+      "start": 574.1,
+      "end": 576.36,
+      "text": "CRISPR casts some of these new innovations."
+    },
+    {
+      "idx": 161,
+      "start": 576.36,
+      "end": 582.02,
+      "text": "But you really need to understand ethical issues related to them to be able to explain,"
+    },
+    {
+      "idx": 162,
+      "start": 582.04,
+      "end": 587.48,
+      "text": "to your parents or your grandparents or your sister or brother who hasn't taken biology,"
+    },
+    {
+      "idx": 163,
+      "start": 587.48,
+      "end": 593.28,
+      "text": "what the implications of some of the things that we can do in biology, but probably we"
+    },
+    {
+      "idx": 164,
+      "start": 593.28,
+      "end": 595.8,
+      "text": "shouldn't do in biology."
+    },
+    {
+      "idx": 165,
+      "start": 595.8,
+      "end": 599.58,
+      "text": "And we will welcome your thoughts on some of that later on."
+    },
+    {
+      "idx": 166,
+      "start": 600.58,
+      "end": 603.2,
+      "text": "So where did the world start?"
+    },
+    {
+      "idx": 167,
+      "start": 603.2,
+      "end": 606.56,
+      "text": "Arguably four and a half billion years ago is kind of a vague theme."
+    },
+    {
+      "idx": 168,
+      "start": 606.56,
+      "end": 611.52,
+      "text": "But it started with the world, the Earth being a ball of fire, and it took quite a while"
+    },
+    {
+      "idx": 169,
+      "start": 611.52,
+      "end": 618.18,
+      "text": "for it to cool down to establish the hydrosphere and the globe as it's known today."
+    },
+    {
+      "idx": 170,
+      "start": 618.18,
+      "end": 623.3,
+      "text": "There was a period of time known as the prebiotic world, where there were not living organisms"
+    },
+    {
+      "idx": 171,
+      "start": 624.94,
+      "end": 632.08,
+      "text": "And that was basically a world where building blocks started to evolve out of fiery hot"
+    },
+    {
+      "idx": 172,
+      "start": 632.08,
+      "end": 637.92,
+      "text": "mud pits and in volcanoes and goodness knows what, where people believe that the building"
+    },
+    {
+      "idx": 173,
+      "start": 637.92,
+      "end": 641.02,
+      "text": "blocks of life, just the molecules, came together."
+    },
+    {
+      "idx": 174,
+      "start": 641.02,
+      "end": 646.76,
+      "text": "And they came together from things like hydrogen cyanide or sulfide or other primordial components"
+    },
+    {
+      "idx": 175,
+      "start": 646.76,
+      "end": 649.52,
+      "text": "that were in the primordial soup."
+    },
+    {
+      "idx": 176,
+      "start": 649.52,
+      "end": 656.06,
+      "text": "There was a phase known as the pre, the pre-RNA world, where the RNA building blocks were"
+    },
+    {
+      "idx": 177,
+      "start": 657.06,
+      "end": 663.0,
+      "text": "There's reasonable arguments in favor of the RNA world, where a lot of functions were catalyzed"
+    },
+    {
+      "idx": 178,
+      "start": 663.0,
+      "end": 668.4,
+      "text": "not by proteins, but by nucleic acids, specifically ribonucleic acids."
+    },
+    {
+      "idx": 179,
+      "start": 668.4,
+      "end": 670.8,
+      "text": "So there's a period of time still prebiotic."
+    },
+    {
+      "idx": 180,
+      "start": 671.02,
+      "end": 679.24,
+      "text": "That had the, excuse me, that had the first pre-RNA and then RNA world."
+    },
+    {
+      "idx": 181,
+      "start": 679.24,
+      "end": 684.78,
+      "text": "But then things really started to get interesting when the first cells evolved."
+    },
+    {
+      "idx": 182,
+      "start": 684.78,
+      "end": 691.24,
+      "text": "Now I will talk a little bit about this in the next class because the thing that's critical"
+    },
+    {
+      "idx": 183,
+      "start": 691.24,
+      "end": 695.78,
+      "text": "to be able to build a cell is to be able to build a wall around it."
+    },
+    {
+      "idx": 184,
+      "start": 695.78,
+      "end": 699.06,
+      "text": "So very, very early on in life, lipid bilayers, membranes, and cells, they're all going to"
+    },
+    {
+      "idx": 185,
+      "start": 699.06,
+      "end": 700.06,
+      "text": "be built around it."
+    },
+    {
+      "idx": 186,
+      "start": 700.06,
+      "end": 700.96,
+      "text": "And that's what we're going to talk about in the next class."
+    },
+    {
+      "idx": 187,
+      "start": 700.96,
+      "end": 706.06,
+      "text": "So the first cell evolved in order to make compartmentalized structures where you could"
+    },
+    {
+      "idx": 188,
+      "start": 706.06,
+      "end": 708.94,
+      "text": "differentiate the in from the out."
+    },
+    {
+      "idx": 189,
+      "start": 708.94,
+      "end": 714.24,
+      "text": "And so much of life is completely reliant on the fact that we're made of cells."
+    },
+    {
+      "idx": 190,
+      "start": 714.24,
+      "end": 719.48,
+      "text": "We're not just one big sort of bucket of water with things floating around in it."
+    },
+    {
+      "idx": 191,
+      "start": 719.48,
+      "end": 725.78,
+      "text": "Because so much of function becomes coordinated by cellular compartmentalization through things"
+    },
+    {
+      "idx": 192,
+      "start": 725.78,
+      "end": 730.0,
+      "text": "known as lipid bilayers, which are semipermeable membranes."
+    },
+    {
+      "idx": 193,
+      "start": 730.0,
+      "end": 732.02,
+      "text": "Oxygen can move across."
+    },
+    {
+      "idx": 194,
+      "start": 732.02,
+      "end": 734.94,
+      "text": "Some small hydrophobic things can move across."
+    },
+    {
+      "idx": 195,
+      "start": 734.94,
+      "end": 738.1,
+      "text": "But a lot of things get either stuck in or stuck out."
+    },
+    {
+      "idx": 196,
+      "start": 738.1,
+      "end": 739.8,
+      "text": "So we'll talk a lot about that."
+    },
+    {
+      "idx": 197,
+      "start": 739.8,
+      "end": 742.92,
+      "text": "So the first prokaryotes were cyanobacteria."
+    },
+    {
+      "idx": 198,
+      "start": 742.92,
+      "end": 745.02,
+      "text": "They're photosynthetic bacteria."
+    },
+    {
+      "idx": 199,
+      "start": 745.02,
+      "end": 752.04,
+      "text": "It was quite a long time until those unicellular organisms that totally lacked a nucleus,"
+    },
+    {
+      "idx": 200,
+      "start": 752.04,
+      "end": 757.62,
+      "text": "lacked a lot of intracellular compartmentalization, evolved to eukaryotes."
+    },
+    {
+      "idx": 201,
+      "start": 757.62,
+      "end": 759.0,
+      "text": "And those cells are different."
+    },
+    {
+      "idx": 202,
+      "start": 760.0,
+      "end": 762.84,
+      "text": "They're 100 or 1,000 times bigger."
+    },
+    {
+      "idx": 203,
+      "start": 765.62,
+      "end": 769.28,
+      "text": "They can do a lot of functions in a full organism."
+    },
+    {
+      "idx": 204,
+      "start": 769.28,
+      "end": 771.6,
+      "text": "They're very differentiated."
+    },
+    {
+      "idx": 205,
+      "start": 771.6,
+      "end": 776.92,
+      "text": "And they may look different in muscle or in heart or in skin or in bone."
+    },
+    {
+      "idx": 206,
+      "start": 776.92,
+      "end": 780.94,
+      "text": "And so those eukaryotes, so that's a long gap of time."
+    },
+    {
+      "idx": 207,
+      "start": 780.94,
+      "end": 783.36,
+      "text": "But there was a lot going on in that phase."
+    },
+    {
+      "idx": 208,
+      "start": 783.36,
+      "end": 787.44,
+      "text": "And about half a billion years ago, multicellular life evolved."
+    },
+    {
+      "idx": 209,
+      "start": 787.44,
+      "end": 790.0,
+      "text": "And multicellular life now can be looked at."
+    },
+    {
+      "idx": 210,
+      "start": 790.0,
+      "end": 795.62,
+      "text": "If we think of the evolution of Homo sapiens, can be thought of as something that we can"
+    },
+    {
+      "idx": 211,
+      "start": 795.62,
+      "end": 801.56,
+      "text": "keep track of a bit through fossil records over the last five million years, where the"
+    },
+    {
+      "idx": 212,
+      "start": 801.56,
+      "end": 803.68,
+      "text": "first humanoid life evolved."
+    },
+    {
+      "idx": 213,
+      "start": 803.68,
+      "end": 805.28,
+      "text": "Then you got sort of to a stage."
+    },
+    {
+      "idx": 214,
+      "start": 805.28,
+      "end": 811.32,
+      "text": "I think he's Homo agaster, this sort of Shrek-like person, evolved quite early on."
+    },
+    {
+      "idx": 215,
+      "start": 811.32,
+      "end": 817.12,
+      "text": "And then the humanoid gradually became different, evolved."
+    },
+    {
+      "idx": 216,
+      "start": 817.12,
+      "end": 819.88,
+      "text": "In some cases, there were branches of the tree of evolution."
+    },
+    {
+      "idx": 217,
+      "start": 819.88,
+      "end": 821.76,
+      "text": "And dead ends."
+    },
+    {
+      "idx": 218,
+      "start": 821.76,
+      "end": 825.44,
+      "text": "In other places, there was a branch that carried on for a while."
+    },
+    {
+      "idx": 219,
+      "start": 825.44,
+      "end": 830.76,
+      "text": "For example, the Neanderthal and Homo sapiens kind of kept on evolving for a while."
+    },
+    {
+      "idx": 220,
+      "start": 830.76,
+      "end": 835.76,
+      "text": "But there's a lot of developments that have been characterized from the fossil record."
+    },
+    {
+      "idx": 221,
+      "start": 835.76,
+      "end": 840.92,
+      "text": "But now there's a lot of belief that if we trace things back through genomes, we might"
+    },
+    {
+      "idx": 222,
+      "start": 840.92,
+      "end": 844.44,
+      "text": "get more precise information on steps in evolution."
+    },
+    {
+      "idx": 223,
+      "start": 844.44,
+      "end": 849.5,
+      "text": "Now, the evolution of the advanced, if you will, Homo sapiens, is a very interesting"
+    },
+    {
+      "idx": 224,
+      "start": 849.56,
+      "end": 853.1,
+      "text": "The Hominids really came along with a number of things."
+    },
+    {
+      "idx": 225,
+      "start": 853.1,
+      "end": 859.68,
+      "text": "There was a stage at which a particular gene, the FOXP gene, is attributed to the ability"
+    },
+    {
+      "idx": 226,
+      "start": 859.68,
+      "end": 861.4,
+      "text": "for complex speech."
+    },
+    {
+      "idx": 227,
+      "start": 861.4,
+      "end": 865.9,
+      "text": "And that could have been a leap forward when humanoids could communicate more."
+    },
+    {
+      "idx": 228,
+      "start": 865.9,
+      "end": 868.56,
+      "text": "And it seems to be associated with that."
+    },
+    {
+      "idx": 229,
+      "start": 868.56,
+      "end": 874.18,
+      "text": "But there are other sort of sociological functions, like burying the dead or making jewelry or"
+    },
+    {
+      "idx": 230,
+      "start": 874.18,
+      "end": 879.18,
+      "text": "making tools that are associated with the more evolved organisms."
+    },
+    {
+      "idx": 231,
+      "start": 879.18,
+      "end": 885.22,
+      "text": "There are other types of things like cranial capacity, standing upright, looking forward."
+    },
+    {
+      "idx": 232,
+      "start": 885.22,
+      "end": 891.02,
+      "text": "A lot of things came through those years of the evolution of Homo sapiens."
+    },
+    {
+      "idx": 233,
+      "start": 891.02,
+      "end": 898.02,
+      "text": "So it's fascinating to think about that and to think what light genetics can shed on those"
+    },
+    {
+      "idx": 234,
+      "start": 898.02,
+      "end": 901.34,
+      "text": "five million years of evolution."
+    },
+    {
+      "idx": 235,
+      "start": 901.34,
+      "end": 909.34,
+      "text": "Now, the world of biology took a mega kickstart with the elucidation of the human genome."
+    },
+    {
+      "idx": 236,
+      "start": 909.5,
+      "end": 917.42,
+      "text": "But more importantly, of the technology necessary to solve the map of the human genome."
+    },
+    {
+      "idx": 237,
+      "start": 917.42,
+      "end": 923.38,
+      "text": "And in 2001, there was major development with the publication of the first map of the human"
+    },
+    {
+      "idx": 238,
+      "start": 924.56,
+      "end": 931.78,
+      "text": "It's fascinating to think with humans, humans have about three billion genes."
+    },
+    {
+      "idx": 239,
+      "start": 931.78,
+      "end": 934.54,
+      "text": "But there's only across human, is that right?"
+    },
+    {
+      "idx": 240,
+      "start": 935.54,
+      "end": 936.54,
+      "text": "Base pairs, yes."
+    },
+    {
+      "idx": 241,
+      "start": 936.54,
+      "end": 937.54,
+      "text": "Thank you very much."
+    },
+    {
+      "idx": 242,
+      "start": 938.54,
+      "end": 946.86,
+      "text": "Across humankind, there's enormous diversity, but that's accounted for by only about 0.1%"
+    },
+    {
+      "idx": 243,
+      "start": 946.86,
+      "end": 949.48,
+      "text": "of that, of the diversity."
+    },
+    {
+      "idx": 244,
+      "start": 949.48,
+      "end": 957.52,
+      "text": "So you can see people look very, very different, but we still share 99.9% of our genome."
+    },
+    {
+      "idx": 245,
+      "start": 957.52,
+      "end": 963.8,
+      "text": "Another very interesting thing is that genomes vary in size quite considerably."
+    },
+    {
+      "idx": 246,
+      "start": 963.8,
+      "end": 967.48,
+      "text": "Before I move forward, I just want to quickly show you this map."
+    },
+    {
+      "idx": 247,
+      "start": 967.48,
+      "end": 975.24,
+      "text": "I mentioned looking at tracing evolution through a molecular clock."
+    },
+    {
+      "idx": 248,
+      "start": 975.24,
+      "end": 981.56,
+      "text": "So looking back in time, not by following the shape of a skull, for example, or physiologic"
+    },
+    {
+      "idx": 249,
+      "start": 981.56,
+      "end": 987.46,
+      "text": "changes, but looking at genomes using the genome as a molecular clock based on mutation"
+    },
+    {
+      "idx": 250,
+      "start": 987.46,
+      "end": 990.82,
+      "text": "rates that are fairly constant amongst domains of life."
+    },
+    {
+      "idx": 251,
+      "start": 990.82,
+      "end": 995.8,
+      "text": "You couldn't compare a human and a bacterium, but you can go back through a lot of eukaryotic"
+    },
+    {
+      "idx": 252,
+      "start": 996.8,
+      "end": 999.3,
+      "text": "And see where divergences happen."
+    },
+    {
+      "idx": 253,
+      "start": 999.3,
+      "end": 1005.78,
+      "text": "So in this sort of map, you can see that human and Neanderthal diverged from the chimpanzee"
+    },
+    {
+      "idx": 254,
+      "start": 1005.78,
+      "end": 1011.1,
+      "text": "a certain time ago, which had diverged from the gorilla further ago, based on the molecular"
+    },
+    {
+      "idx": 255,
+      "start": 1011.1,
+      "end": 1013.56,
+      "text": "clock that's available."
+    },
+    {
+      "idx": 256,
+      "start": 1014.56,
+      "end": 1019.6,
+      "text": "So now I want to talk a little bit more about getting into the details of the genome."
+    },
+    {
+      "idx": 257,
+      "start": 1019.6,
+      "end": 1022.76,
+      "text": "So genomes differ greatly in size."
+    },
+    {
+      "idx": 258,
+      "start": 1022.76,
+      "end": 1026.46,
+      "text": "Our genome includes about 3 billion base pairs."
+    },
+    {
+      "idx": 259,
+      "start": 1026.46,
+      "end": 1026.82,
+      "text": "In our 20th century, we had about 1.5 billion base pairs."
+    },
+    {
+      "idx": 260,
+      "start": 1026.82,
+      "end": 1030.66,
+      "text": "We have 22 chromosomes plus the X and Y chromosome."
+    },
+    {
+      "idx": 261,
+      "start": 1030.66,
+      "end": 1036.14,
+      "text": "But the typical genome of a model bacterium is only 5 billion, million base pairs."
+    },
+    {
+      "idx": 262,
+      "start": 1036.14,
+      "end": 1042.46,
+      "text": "So far, far smaller, more tangible, more easy to study because those genes are more limited"
+    },
+    {
+      "idx": 263,
+      "start": 1043.94,
+      "end": 1049.78,
+      "text": "But the genome size is not necessarily proportionate to the number of genes that are expressed"
+    },
+    {
+      "idx": 264,
+      "start": 1049.78,
+      "end": 1051.82,
+      "text": "and made into proteins."
+    },
+    {
+      "idx": 265,
+      "start": 1051.82,
+      "end": 1056.32,
+      "text": "And a fascinating discovery is that of the three."
+    },
+    {
+      "idx": 266,
+      "start": 1056.32,
+      "end": 1063.32,
+      "text": "Billion base pairs, only about 1.5 to 2% actually code for proteins."
+    },
+    {
+      "idx": 267,
+      "start": 1063.32,
+      "end": 1069.44,
+      "text": "And there's a ton of interest now in what's the rest of the genome doing there."
+    },
+    {
+      "idx": 268,
+      "start": 1069.44,
+      "end": 1070.44,
+      "text": "Where did it come from?"
+    },
+    {
+      "idx": 269,
+      "start": 1070.44,
+      "end": 1071.44,
+      "text": "What's its function?"
+    },
+    {
+      "idx": 270,
+      "start": 1071.44,
+      "end": 1076.32,
+      "text": "There are different functions that Eric Lander calls the dark matter of the genome, different"
+    },
+    {
+      "idx": 271,
+      "start": 1076.32,
+      "end": 1078.8,
+      "text": "functions to the rest of the genome."
+    },
+    {
+      "idx": 272,
+      "start": 1078.8,
+      "end": 1084.12,
+      "text": "But the part that we focus on is the part that gets encoded into proteins that form"
+    },
+    {
+      "idx": 273,
+      "start": 1084.12,
+      "end": 1085.44,
+      "text": "the functions of the molecules of life."
+    },
+    {
+      "idx": 274,
+      "start": 1085.44,
+      "end": 1088.44,
+      "text": "So we're going to focus ourselves in on those."
+    },
+    {
+      "idx": 275,
+      "start": 1088.44,
+      "end": 1093.44,
+      "text": "But here you see differences in sizes of genomes based on base pair."
+    },
+    {
+      "idx": 276,
+      "start": 1093.44,
+      "end": 1101.96,
+      "text": "But what's fascinating is despite this huge breadth of sizes and huge differences in organisms,"
+    },
+    {
+      "idx": 277,
+      "start": 1101.96,
+      "end": 1103.68,
+      "text": "the building blocks are the same."
+    },
+    {
+      "idx": 278,
+      "start": 1103.68,
+      "end": 1108.98,
+      "text": "And that's what I think is the wonderful part of what we're able to teach you is we can"
+    },
+    {
+      "idx": 279,
+      "start": 1108.98,
+      "end": 1112.44,
+      "text": "take you from the 1950s."
+    },
+    {
+      "idx": 280,
+      "start": 1112.44,
+      "end": 1114.44,
+      "text": "When the structure of double stranded DNA was created."
+    },
+    {
+      "idx": 281,
+      "start": 1114.44,
+      "end": 1115.44,
+      "text": "And then we can take you from the 1950s."
+    },
+    {
+      "idx": 282,
+      "start": 1115.44,
+      "end": 1116.44,
+      "text": "So that's where the DNA was first solved."
+    },
+    {
+      "idx": 283,
+      "start": 1116.44,
+      "end": 1122.44,
+      "text": "Now there was 60, 70 or more years of work before that where they figured out the pieces."
+    },
+    {
+      "idx": 284,
+      "start": 1122.44,
+      "end": 1127.44,
+      "text": "They figured out the chemistry, the covalent bonds in the bases and the sugars and the"
+    },
+    {
+      "idx": 285,
+      "start": 1128.44,
+      "end": 1135.44,
+      "text": "But they had no clue how the DNA could encode and program the synthesis of a protein."
+    },
+    {
+      "idx": 286,
+      "start": 1135.44,
+      "end": 1143.44,
+      "text": "But once the structure, the three-dimensional structure of double stranded DNA was solved,"
+    },
+    {
+      "idx": 287,
+      "start": 1143.44,
+      "end": 1144.44,
+      "text": "this is this beautiful."
+    },
+    {
+      "idx": 288,
+      "start": 1144.44,
+      "end": 1151.44,
+      "text": "This is the beautiful anti-parallel structure that you see here by Watson, Crick and Rosalind Franklin."
+    },
+    {
+      "idx": 289,
+      "start": 1151.44,
+      "end": 1154.44,
+      "text": "Then the clues came pouring in."
+    },
+    {
+      "idx": 290,
+      "start": 1154.44,
+      "end": 1158.44,
+      "text": "Without that structure, without the structure of what's known as the non-covalent structure."
+    },
+    {
+      "idx": 291,
+      "start": 1158.44,
+      "end": 1160.44,
+      "text": "Not the covalent structure."
+    },
+    {
+      "idx": 292,
+      "start": 1160.44,
+      "end": 1162.44,
+      "text": "You'll see all those building blocks."
+    },
+    {
+      "idx": 293,
+      "start": 1162.44,
+      "end": 1171.44,
+      "text": "But the non-covalent structure, how you could zipper apart the two strands of DNA and make copies of both of them and replicate DNA and then go forward."
+    },
+    {
+      "idx": 294,
+      "start": 1171.44,
+      "end": 1173.44,
+      "text": "That was an amazing step forward."
+    },
+    {
+      "idx": 295,
+      "start": 1173.44,
+      "end": 1176.44,
+      "text": "And for that, there was a Nobel Prize awarded."
+    },
+    {
+      "idx": 296,
+      "start": 1176.44,
+      "end": 1178.44,
+      "text": "Unfortunately, it was after Franklin's death."
+    },
+    {
+      "idx": 297,
+      "start": 1178.44,
+      "end": 1183.92,
+      "text": "So it was given to Watson and Crick and the third person."
+    },
+    {
+      "idx": 298,
+      "start": 1183.92,
+      "end": 1186.92,
+      "text": "Now here's that structure of DNA."
+    },
+    {
+      "idx": 299,
+      "start": 1186.92,
+      "end": 1189.92,
+      "text": "I could sort of watch it for hours to be honest."
+    },
+    {
+      "idx": 300,
+      "start": 1189.92,
+      "end": 1195.92,
+      "text": "The phosphodiester background, backbone going up the back and the bases, base pairing across."
+    },
+    {
+      "idx": 301,
+      "start": 1195.92,
+      "end": 1198.92,
+      "text": "And these are the key steps that happened from the 50s."
+    },
+    {
+      "idx": 302,
+      "start": 1198.92,
+      "end": 1201.92,
+      "text": "So after the definition of the double stranded structure."
+    },
+    {
+      "idx": 303,
+      "start": 1201.92,
+      "end": 1203.92,
+      "text": "It took a few years."
+    },
+    {
+      "idx": 304,
+      "start": 1203.92,
+      "end": 1206.92,
+      "text": "But they cracked what's known as the genetic code."
+    },
+    {
+      "idx": 305,
+      "start": 1206.92,
+      "end": 1210.92,
+      "text": "How does that DNA get converted into a protein?"
+    },
+    {
+      "idx": 306,
+      "start": 1210.92,
+      "end": 1216.92,
+      "text": "What happens is you make an RNA copy of the DNA and the RNA is read to make a protein."
+    },
+    {
+      "idx": 307,
+      "start": 1216.92,
+      "end": 1219.92,
+      "text": "And you will learn about all those components."
+    },
+    {
+      "idx": 308,
+      "start": 1219.92,
+      "end": 1221.92,
+      "text": "But that was another real landmark."
+    },
+    {
+      "idx": 309,
+      "start": 1221.92,
+      "end": 1227.92,
+      "text": "Then what was really exciting is that some technology companies started figuring out."
+    },
+    {
+      "idx": 310,
+      "start": 1227.92,
+      "end": 1229.92,
+      "text": "First there were very small companies."
+    },
+    {
+      "idx": 311,
+      "start": 1229.92,
+      "end": 1230.92,
+      "text": "They were very small."
+    },
+    {
+      "idx": 312,
+      "start": 1230.92,
+      "end": 1234.92,
+      "text": "First there were very slow ways to sequence DNA."
+    },
+    {
+      "idx": 313,
+      "start": 1234.92,
+      "end": 1237.92,
+      "text": "And that happened in 1977."
+    },
+    {
+      "idx": 314,
+      "start": 1237.92,
+      "end": 1249.92,
+      "text": "But what was really important is about a decade later where the ability to sequence DNA was not done anymore using huge agarose gels and a bucket of radioactivity."
+    },
+    {
+      "idx": 315,
+      "start": 1249.92,
+      "end": 1256.92,
+      "text": "But it was done through using fluorescence in order to allow you to read out the sequence of DNA."
+    },
+    {
+      "idx": 316,
+      "start": 1256.92,
+      "end": 1258.92,
+      "text": "And you will learn about that."
+    },
+    {
+      "idx": 317,
+      "start": 1258.92,
+      "end": 1259.92,
+      "text": "And in 1987."
+    },
+    {
+      "idx": 318,
+      "start": 1259.92,
+      "end": 1261.92,
+      "text": "The instruments were commercialized."
+    },
+    {
+      "idx": 319,
+      "start": 1261.92,
+      "end": 1264.92,
+      "text": "Major, major technology and engineering."
+    },
+    {
+      "idx": 320,
+      "start": 1264.92,
+      "end": 1266.92,
+      "text": "We wouldn't be anywhere without that."
+    },
+    {
+      "idx": 321,
+      "start": 1266.92,
+      "end": 1270.92,
+      "text": "In 1990 the human genome project began."
+    },
+    {
+      "idx": 322,
+      "start": 1270.92,
+      "end": 1274.92,
+      "text": "In 01 the draft of the human genome sequence was completed."
+    },
+    {
+      "idx": 323,
+      "start": 1274.92,
+      "end": 1278.92,
+      "text": "2010 you could sequence a single strand of DNA."
+    },
+    {
+      "idx": 324,
+      "start": 1278.92,
+      "end": 1280.92,
+      "text": "One molecule of DNA."
+    },
+    {
+      "idx": 325,
+      "start": 1280.92,
+      "end": 1283.92,
+      "text": "And now there's so many initiatives that have come out of that."
+    },
+    {
+      "idx": 326,
+      "start": 1283.92,
+      "end": 1286.92,
+      "text": "And so much amazing technology that is involved."
+    },
+    {
+      "idx": 327,
+      "start": 1286.92,
+      "end": 1288.92,
+      "text": "So things like the thousand genome project."
+    },
+    {
+      "idx": 328,
+      "start": 1288.92,
+      "end": 1290.92,
+      "text": "To look at variation across man."
+    },
+    {
+      "idx": 329,
+      "start": 1290.92,
+      "end": 1292.92,
+      "text": "So all people from all different parts of the world."
+    },
+    {
+      "idx": 330,
+      "start": 1292.92,
+      "end": 1294.92,
+      "text": "You can look up that website."
+    },
+    {
+      "idx": 331,
+      "start": 1294.92,
+      "end": 1296.92,
+      "text": "That's very cool."
+    },
+    {
+      "idx": 332,
+      "start": 1296.92,
+      "end": 1298.92,
+      "text": "The human cell atlas."
+    },
+    {
+      "idx": 333,
+      "start": 1298.92,
+      "end": 1303.92,
+      "text": "There was quite a bit of news about that in MIT technology news."
+    },
+    {
+      "idx": 334,
+      "start": 1303.92,
+      "end": 1306.92,
+      "text": "Where Aviv Regev is playing a major part in that."
+    },
+    {
+      "idx": 335,
+      "start": 1306.92,
+      "end": 1310.92,
+      "text": "To actually sequence representatives from all of your trillions of cells."
+    },
+    {
+      "idx": 336,
+      "start": 1310.92,
+      "end": 1312.92,
+      "text": "And see how they differ."
+    },
+    {
+      "idx": 337,
+      "start": 1312.92,
+      "end": 1314.92,
+      "text": "And then there's cancer."
+    },
+    {
+      "idx": 338,
+      "start": 1314.92,
+      "end": 1316.92,
+      "text": "And then there's cancer."
+    },
+    {
+      "idx": 339,
+      "start": 1316.92,
+      "end": 1317.92,
+      "text": "And then there's cancer."
+    },
+    {
+      "idx": 340,
+      "start": 1317.92,
+      "end": 1319.92,
+      "text": "And then there's cancer genome projects."
+    },
+    {
+      "idx": 341,
+      "start": 1319.92,
+      "end": 1321.92,
+      "text": "And precision medicine."
+    },
+    {
+      "idx": 342,
+      "start": 1321.92,
+      "end": 1324.92,
+      "text": "Sequence every type of cancer cell."
+    },
+    {
+      "idx": 343,
+      "start": 1324.92,
+      "end": 1326.92,
+      "text": "Find out what's different about it."
+    },
+    {
+      "idx": 344,
+      "start": 1326.92,
+      "end": 1329.92,
+      "text": "And precisely figure out how to treat it."
+    },
+    {
+      "idx": 345,
+      "start": 1329.92,
+      "end": 1331.92,
+      "text": "All very exciting things."
+    },
+    {
+      "idx": 346,
+      "start": 1331.92,
+      "end": 1333.92,
+      "text": "And then of course there's synthetic genomes."
+    },
+    {
+      "idx": 347,
+      "start": 1333.92,
+      "end": 1336.92,
+      "text": "Where you can literally build a cell and its genome."
+    },
+    {
+      "idx": 348,
+      "start": 1336.92,
+      "end": 1338.92,
+      "text": "Program it to do what you want."
+    },
+    {
+      "idx": 349,
+      "start": 1339.92,
+      "end": 1342.92,
+      "text": "And then there's one of the things that your generation will have to deal with."
+    },
+    {
+      "idx": 350,
+      "start": 1342.92,
+      "end": 1343.92,
+      "text": "And that's all the data."
+    },
+    {
+      "idx": 351,
+      "start": 1343.92,
+      "end": 1345.92,
+      "text": "Because we've just found ways to churn it out."
+    },
+    {
+      "idx": 352,
+      "start": 1345.92,
+      "end": 1346.92,
+      "text": "But you guys can do it."
+    },
+    {
+      "idx": 353,
+      "start": 1346.92,
+      "end": 1347.92,
+      "text": "You can churn it out."
+    },
+    {
+      "idx": 354,
+      "start": 1347.92,
+      "end": 1351.18,
+      "text": "But you guys are going to have to do the heavy lifting there."
+    },
+    {
+      "idx": 355,
+      "start": 1351.18,
+      "end": 1357.18,
+      "text": "So DNA then looking at that structure is packaged into cells."
+    },
+    {
+      "idx": 356,
+      "start": 1357.18,
+      "end": 1359.18,
+      "text": "So figure this one out."
+    },
+    {
+      "idx": 357,
+      "start": 1359.18,
+      "end": 1365.18,
+      "text": "Each human cell has 1.8 meters of DNA in it."
+    },
+    {
+      "idx": 358,
+      "start": 1365.18,
+      "end": 1370.18,
+      "text": "Yet it fits into a cell that's 10 to 100 microns in diameter."
+    },
+    {
+      "idx": 359,
+      "start": 1370.18,
+      "end": 1372.18,
+      "text": "And it's bundled tightly up."
+    },
+    {
+      "idx": 360,
+      "start": 1372.18,
+      "end": 1375.18,
+      "text": "So you'll learn how DNA in cells gets bundled up."
+    },
+    {
+      "idx": 361,
+      "start": 1375.18,
+      "end": 1381.18,
+      "text": "And wrapped around proteins that neutralize the negative charges of the double-stranded DNA."
+    },
+    {
+      "idx": 362,
+      "start": 1381.18,
+      "end": 1385.18,
+      "text": "With positively charged proteins and enable packaging."
+    },
+    {
+      "idx": 363,
+      "start": 1385.18,
+      "end": 1387.18,
+      "text": "So we will talk about all of this."
+    },
+    {
+      "idx": 364,
+      "start": 1387.18,
+      "end": 1389.18,
+      "text": "When is DNA unraveled?"
+    },
+    {
+      "idx": 365,
+      "start": 1389.18,
+      "end": 1391.18,
+      "text": "What signals it's unraveling?"
+    },
+    {
+      "idx": 366,
+      "start": 1391.18,
+      "end": 1394.18,
+      "text": "Because in order to copy it, you've got to unpack it."
+    },
+    {
+      "idx": 367,
+      "start": 1394.18,
+      "end": 1402.18,
+      "text": "So these are a lot of details about DNA that you'll be able to sort of have much more sense of as we move forward."
+    },
+    {
+      "idx": 368,
+      "start": 1402.18,
+      "end": 1404.66,
+      "text": "Cells are different in size."
+    },
+    {
+      "idx": 369,
+      "start": 1405.66,
+      "end": 1414.66,
+      "text": "I just mentioned to you a typical eukaryotic cell is about 10 to 100 microns in diameter."
+    },
+    {
+      "idx": 370,
+      "start": 1414.66,
+      "end": 1418.66,
+      "text": "A typical bacterial cell is about 1 to 10 microns."
+    },
+    {
+      "idx": 371,
+      "start": 1418.66,
+      "end": 1429.66,
+      "text": "So there's a vast difference in sizes for these simple cells that have no nucleus relative to the cells that are compartmentalized and perform a lot of functions."
+    },
+    {
+      "idx": 372,
+      "start": 1429.66,
+      "end": 1433.66,
+      "text": "So we will learn to appreciate that difference in size."
+    },
+    {
+      "idx": 373,
+      "start": 1433.66,
+      "end": 1436.66,
+      "text": "Looking at the building blocks that go into all of them."
+    },
+    {
+      "idx": 374,
+      "start": 1436.66,
+      "end": 1446.66,
+      "text": "But then understanding how bigger cells have to have a lot more complexity in their signaling in order to establish their functions."
+    },
+    {
+      "idx": 375,
+      "start": 1446.66,
+      "end": 1450.66,
+      "text": "But also interact with other cells in multicellular organisms."
+    },
+    {
+      "idx": 376,
+      "start": 1450.66,
+      "end": 1453.66,
+      "text": "We're still doing fine for time, yes."
+    },
+    {
+      "idx": 377,
+      "start": 1453.66,
+      "end": 1461.66,
+      "text": "The other thing that we will spend several classes on is imaging and visualization of things going on in cells."
+    },
+    {
+      "idx": 378,
+      "start": 1461.66,
+      "end": 1462.66,
+      "text": "So what we'll talk to you about."
+    },
+    {
+      "idx": 379,
+      "start": 1462.66,
+      "end": 1465.66,
+      "text": "Is the discovery of fluorescent proteins."
+    },
+    {
+      "idx": 380,
+      "start": 1465.66,
+      "end": 1474.66,
+      "text": "Which have provided an unparalleled opportunity to label proteins within living organisms in order to track what they do."
+    },
+    {
+      "idx": 381,
+      "start": 1474.66,
+      "end": 1476.66,
+      "text": "And through the efforts of protein engineers."
+    },
+    {
+      "idx": 382,
+      "start": 1476.66,
+      "end": 1487.66,
+      "text": "There is an entire panel of colored proteins that fluoresce at different wavelengths that we can use to study biology in live systems in real time."
+    },
+    {
+      "idx": 383,
+      "start": 1487.66,
+      "end": 1490.66,
+      "text": "These slides show you a little bit of that."
+    },
+    {
+      "idx": 384,
+      "start": 1490.66,
+      "end": 1491.66,
+      "text": "I love these pictures."
+    },
+    {
+      "idx": 385,
+      "start": 1491.66,
+      "end": 1493.66,
+      "text": "Just showing a dividing cell."
+    },
+    {
+      "idx": 386,
+      "start": 1493.66,
+      "end": 1499.66,
+      "text": "Where the chromosomes you see red because the histones are labeled with red fluorescent protein."
+    },
+    {
+      "idx": 387,
+      "start": 1499.66,
+      "end": 1503.66,
+      "text": "And all that green fuzzy stuff are microtubules around."
+    },
+    {
+      "idx": 388,
+      "start": 1503.66,
+      "end": 1504.66,
+      "text": "We can do this."
+    },
+    {
+      "idx": 389,
+      "start": 1504.66,
+      "end": 1507.66,
+      "text": "Now you couldn't do this 15 years ago."
+    },
+    {
+      "idx": 390,
+      "start": 1507.66,
+      "end": 1509.66,
+      "text": "Observe these changes."
+    },
+    {
+      "idx": 391,
+      "start": 1509.66,
+      "end": 1513.66,
+      "text": "We can also look at changes as cells divide and go through the cell cycle."
+    },
+    {
+      "idx": 392,
+      "start": 1513.66,
+      "end": 1516.66,
+      "text": "One of my favorites is this."
+    },
+    {
+      "idx": 393,
+      "start": 1516.66,
+      "end": 1520.66,
+      "text": "Where going through the stages to program a cell to divide."
+    },
+    {
+      "idx": 394,
+      "start": 1520.66,
+      "end": 1523.66,
+      "text": "A new protein gets made and then it settles down."
+    },
+    {
+      "idx": 395,
+      "start": 1523.66,
+      "end": 1526.66,
+      "text": "But then when you go to divide again."
+    },
+    {
+      "idx": 396,
+      "start": 1526.66,
+      "end": 1528.66,
+      "text": "You keep making."
+    },
+    {
+      "idx": 397,
+      "start": 1528.66,
+      "end": 1531.66,
+      "text": "You cyclically make different sets of proteins."
+    },
+    {
+      "idx": 398,
+      "start": 1531.66,
+      "end": 1535.66,
+      "text": "And you can observe them in real time dividing."
+    },
+    {
+      "idx": 399,
+      "start": 1535.66,
+      "end": 1540.66,
+      "text": "So just think if you were trying to make a chemotherapeutic where you wanted to stop cell division."
+    },
+    {
+      "idx": 400,
+      "start": 1540.66,
+      "end": 1543.66,
+      "text": "Or you wanted to inhibit one of those proteins."
+    },
+    {
+      "idx": 401,
+      "start": 1543.66,
+      "end": 1545.66,
+      "text": "You could literally watch it function."
+    },
+    {
+      "idx": 402,
+      "start": 1545.66,
+      "end": 1547.66,
+      "text": "Does it get into cell?"
+    },
+    {
+      "idx": 403,
+      "start": 1547.66,
+      "end": 1549.66,
+      "text": "Does it disrupt the normal pattern of cell division?"
+    },
+    {
+      "idx": 404,
+      "start": 1549.66,
+      "end": 1554.66,
+      "text": "So these are capabilities that are now really available."
+    },
+    {
+      "idx": 405,
+      "start": 1554.66,
+      "end": 1556.66,
+      "text": "So I've talked to you about cells."
+    },
+    {
+      "idx": 406,
+      "start": 1556.66,
+      "end": 1560.66,
+      "text": "But I'm going to pass you over to Professor Martin now for a little bit."
+    },
+    {
+      "idx": 407,
+      "start": 1560.66,
+      "end": 1563.66,
+      "text": "You'll get a little bit of a sense of things."
+    },
+    {
+      "idx": 408,
+      "start": 1563.66,
+      "end": 1568.57,
+      "text": "And then I'll do the wrap up."
+    },
+    {
+      "idx": 409,
+      "start": 1570.88,
+      "end": 1575.17,
+      "text": "So this is one of my favorite model organisms."
+    },
+    {
+      "idx": 410,
+      "start": 1575.17,
+      "end": 1578.17,
+      "text": "This is a fruit fly."
+    },
+    {
+      "idx": 411,
+      "start": 1578.17,
+      "end": 1581.3,
+      "text": "At larger than real size."
+    },
+    {
+      "idx": 412,
+      "start": 1585.3,
+      "end": 1590.3,
+      "text": "Topic that I'll start on when I start lecturing."
+    },
+    {
+      "idx": 413,
+      "start": 1590.3,
+      "end": 1593.3,
+      "text": "Either at the end of this month or beginning of October."
+    },
+    {
+      "idx": 414,
+      "start": 1593.3,
+      "end": 1595.3,
+      "text": "Is we'll talk a lot about genetics."
+    },
+    {
+      "idx": 415,
+      "start": 1595.3,
+      "end": 1597.3,
+      "text": "And one thing we'll start on."
+    },
+    {
+      "idx": 416,
+      "start": 1597.3,
+      "end": 1601.3,
+      "text": "Is pioneering research done in this system."
+    },
+    {
+      "idx": 417,
+      "start": 1601.3,
+      "end": 1605.3,
+      "text": "To establish the chromosome theory of inheritance."
+    },
+    {
+      "idx": 418,
+      "start": 1606.3,
+      "end": 1612.3,
+      "text": "And we'll talk about the importance in model organisms in discovering new biology."
+    },
+    {
+      "idx": 419,
+      "start": 1612.3,
+      "end": 1614.3,
+      "text": "But in addition to that."
+    },
+    {
+      "idx": 420,
+      "start": 1614.3,
+      "end": 1619.3,
+      "text": "I also want to talk about how genetics will affect you guys."
+    },
+    {
+      "idx": 421,
+      "start": 1619.3,
+      "end": 1622.3,
+      "text": "As you go on and graduate from MIT."
+    },
+    {
+      "idx": 422,
+      "start": 1622.3,
+      "end": 1624.3,
+      "text": "And go into your own careers."
+    },
+    {
+      "idx": 423,
+      "start": 1624.3,
+      "end": 1629.3,
+      "text": "Because genetics is really playing an important role in all our lives."
+    },
+    {
+      "idx": 424,
+      "start": 1629.3,
+      "end": 1636.3,
+      "text": "And already you guys have the option to get your DNA genotyped."
+    },
+    {
+      "idx": 425,
+      "start": 1637.3,
+      "end": 1639.3,
+      "text": "There are lots of companies now."
+    },
+    {
+      "idx": 426,
+      "start": 1641.3,
+      "end": 1645.3,
+      "text": "Where you can get your DNA genotyped."
+    },
+    {
+      "idx": 427,
+      "start": 1645.3,
+      "end": 1648.3,
+      "text": "And you can learn about your ancestry."
+    },
+    {
+      "idx": 428,
+      "start": 1648.3,
+      "end": 1653.3,
+      "text": "You can learn about whether you might be predisposed towards certain diseases."
+    },
+    {
+      "idx": 429,
+      "start": 1655.3,
+      "end": 1657.3,
+      "text": "In order to appreciate."
+    },
+    {
+      "idx": 430,
+      "start": 1657.3,
+      "end": 1661.3,
+      "text": "The data you get back from these companies."
+    },
+    {
+      "idx": 431,
+      "start": 1661.3,
+      "end": 1664.3,
+      "text": "You really have to understand something about genetics."
+    },
+    {
+      "idx": 432,
+      "start": 1664.3,
+      "end": 1667.3,
+      "text": "And another thing which I find very fascinating."
+    },
+    {
+      "idx": 433,
+      "start": 1667.3,
+      "end": 1670.3,
+      "text": "Are ethical issues that come up with the use of such sites."
+    },
+    {
+      "idx": 434,
+      "start": 1670.3,
+      "end": 1673.3,
+      "text": "And you might have seen this in the news."
+    },
+    {
+      "idx": 435,
+      "start": 1674.3,
+      "end": 1679.3,
+      "text": "Both forensic experts and police."
+    },
+    {
+      "idx": 436,
+      "start": 1679.3,
+      "end": 1684.3,
+      "text": "Identified a suspect in a killing that happened 40 years ago."
+    },
+    {
+      "idx": 437,
+      "start": 1684.3,
+      "end": 1691.3,
+      "text": "And this was in part due to using the suspect's family tree."
+    },
+    {
+      "idx": 438,
+      "start": 1692.3,
+      "end": 1695.3,
+      "text": "And so they used the family tree."
+    },
+    {
+      "idx": 439,
+      "start": 1697.3,
+      "end": 1698.3,
+      "text": "This guy's relatives."
+    },
+    {
+      "idx": 440,
+      "start": 1698.3,
+      "end": 1701.3,
+      "text": "And done one of these Ancestry.coms."
+    },
+    {
+      "idx": 441,
+      "start": 1701.3,
+      "end": 1705.52,
+      "text": "And they used the information from DNA."
+    },
+    {
+      "idx": 442,
+      "start": 1705.52,
+      "end": 1707.52,
+      "text": "Acquired from other individuals."
+    },
+    {
+      "idx": 443,
+      "start": 1707.52,
+      "end": 1709.52,
+      "text": "To track down this other individual."
+    },
+    {
+      "idx": 444,
+      "start": 1710.52,
+      "end": 1716.42,
+      "text": "So one thing that I find incredibly exciting about biology."
+    },
+    {
+      "idx": 445,
+      "start": 1716.42,
+      "end": 1718.42,
+      "text": "Is that it is truly dynamic."
+    },
+    {
+      "idx": 446,
+      "start": 1719.42,
+      "end": 1721.42,
+      "text": "And this is a human neutrophil."
+    },
+    {
+      "idx": 447,
+      "start": 1721.42,
+      "end": 1724.42,
+      "text": "And it's just a bright field microscopy."
+    },
+    {
+      "idx": 448,
+      "start": 1725.42,
+      "end": 1728.42,
+      "text": "And what you're seeing here is this."
+    },
+    {
+      "idx": 449,
+      "start": 1728.42,
+      "end": 1731.74,
+      "text": "This neutrophil is chasing after this bacterium."
+    },
+    {
+      "idx": 450,
+      "start": 1731.74,
+      "end": 1736.74,
+      "text": "And it illustrates another concept that we'll talk about in this course."
+    },
+    {
+      "idx": 451,
+      "start": 1736.74,
+      "end": 1738.74,
+      "text": "Which is signaling."
+    },
+    {
+      "idx": 452,
+      "start": 1738.74,
+      "end": 1744.74,
+      "text": "So this neutrophil is receiving a signal from this bacteria that tells it where it is."
+    },
+    {
+      "idx": 453,
+      "start": 1744.74,
+      "end": 1748.74,
+      "text": "And it's then able to chase that bacterium."
+    },
+    {
+      "idx": 454,
+      "start": 1748.74,
+      "end": 1749.74,
+      "text": "And track it down."
+    },
+    {
+      "idx": 455,
+      "start": 1749.74,
+      "end": 1751.74,
+      "text": "And there you see it just got the bacterium."
+    },
+    {
+      "idx": 456,
+      "start": 1752.74,
+      "end": 1757.74,
+      "text": "So we'll talk about dynamic processes that cells do."
+    },
+    {
+      "idx": 457,
+      "start": 1757.74,
+      "end": 1760.74,
+      "text": "And how that's important for their function."
+    },
+    {
+      "idx": 458,
+      "start": 1760.74,
+      "end": 1764.6,
+      "text": "In addition to considering single cells."
+    },
+    {
+      "idx": 459,
+      "start": 1764.6,
+      "end": 1768.6,
+      "text": "We also want to understand how entire organisms and tissues work."
+    },
+    {
+      "idx": 460,
+      "start": 1768.6,
+      "end": 1771.6,
+      "text": "And I want to emphasize that yes."
+    },
+    {
+      "idx": 461,
+      "start": 1771.6,
+      "end": 1777.6,
+      "text": "We have sequenced or researchers have sequenced the human genome."
+    },
+    {
+      "idx": 462,
+      "start": 1777.6,
+      "end": 1780.6,
+      "text": "And the genomes of many different organisms."
+    },
+    {
+      "idx": 463,
+      "start": 1781.6,
+      "end": 1782.6,
+      "text": "And that's great."
+    },
+    {
+      "idx": 464,
+      "start": 1783.6,
+      "end": 1785.6,
+      "text": "We have this data set."
+    },
+    {
+      "idx": 465,
+      "start": 1785.6,
+      "end": 1787.6,
+      "text": "But we still don't understand how this data set."
+    },
+    {
+      "idx": 466,
+      "start": 1787.6,
+      "end": 1792.6,
+      "text": "We don't understand how all the components that are in the genome are wired together."
+    },
+    {
+      "idx": 467,
+      "start": 1792.6,
+      "end": 1797.6,
+      "text": "And work in order to create a complicated organism like ourselves."
+    },
+    {
+      "idx": 468,
+      "start": 1798.6,
+      "end": 1804.6,
+      "text": "And so one aspect of that which is mysterious is how does the genome encode shape?"
+    },
+    {
+      "idx": 469,
+      "start": 1805.6,
+      "end": 1807.6,
+      "text": "How do we get our shape?"
+    },
+    {
+      "idx": 470,
+      "start": 1807.6,
+      "end": 1809.6,
+      "text": "And how do we get the shape of our organs?"
+    },
+    {
+      "idx": 471,
+      "start": 1809.6,
+      "end": 1812.6,
+      "text": "And this is something that my lab is interested in."
+    },
+    {
+      "idx": 472,
+      "start": 1812.6,
+      "end": 1815.6,
+      "text": "And so this is a fruit fly embryo."
+    },
+    {
+      "idx": 473,
+      "start": 1815.6,
+      "end": 1816.6,
+      "text": "And this is a fruit fly embryo."
+    },
+    {
+      "idx": 474,
+      "start": 1816.6,
+      "end": 1819.86,
+      "text": "And you can see at the beginning here."
+    },
+    {
+      "idx": 475,
+      "start": 1819.86,
+      "end": 1821.86,
+      "text": "This is three hours into development."
+    },
+    {
+      "idx": 476,
+      "start": 1821.86,
+      "end": 1825.86,
+      "text": "You just have a smooth surface for this embryo."
+    },
+    {
+      "idx": 477,
+      "start": 1825.86,
+      "end": 1828.86,
+      "text": "But during development this changes."
+    },
+    {
+      "idx": 478,
+      "start": 1828.86,
+      "end": 1832.95,
+      "text": "And I'm just showing you here a cross section of the same embryo."
+    },
+    {
+      "idx": 479,
+      "start": 1832.95,
+      "end": 1836.95,
+      "text": "You see it's a sheet of cells that surrounds a central yolk."
+    },
+    {
+      "idx": 480,
+      "start": 1837.95,
+      "end": 1840.95,
+      "text": "And this changes three hours into development."
+    },
+    {
+      "idx": 481,
+      "start": 1840.95,
+      "end": 1845.95,
+      "text": "Because a population of about a thousand cells in this organism folds."
+    },
+    {
+      "idx": 482,
+      "start": 1848.01,
+      "end": 1849.01,
+      "text": "To form a crease."
+    },
+    {
+      "idx": 483,
+      "start": 1850.01,
+      "end": 1852.01,
+      "text": "So this is a dramatic shape change for this embryo."
+    },
+    {
+      "idx": 484,
+      "start": 1852.01,
+      "end": 1856.01,
+      "text": "It goes from being a single layer to now having multiple layers."
+    },
+    {
+      "idx": 485,
+      "start": 1856.01,
+      "end": 1862.01,
+      "text": "So this is a time course here showing you how cells change shape in this tissue."
+    },
+    {
+      "idx": 486,
+      "start": 1862.01,
+      "end": 1869.01,
+      "text": "And how this leads to what's initially a single layer of cells to become two layers of cells."
+    },
+    {
+      "idx": 487,
+      "start": 1869.01,
+      "end": 1876.01,
+      "text": "And this process is similar to morphogenetic events that happen in human embryos."
+    },
+    {
+      "idx": 488,
+      "start": 1876.01,
+      "end": 1882.01,
+      "text": "But we can study this in fruit fly embryos or many other model systems."
+    },
+    {
+      "idx": 489,
+      "start": 1882.01,
+      "end": 1886.01,
+      "text": "In order to try to understand mechanistically how this happens."
+    },
+    {
+      "idx": 490,
+      "start": 1886.01,
+      "end": 1890.82,
+      "text": "So again this is dynamic."
+    },
+    {
+      "idx": 491,
+      "start": 1890.82,
+      "end": 1895.82,
+      "text": "And I want to show you a movie that shows you the dynamics of this process."
+    },
+    {
+      "idx": 492,
+      "start": 1895.82,
+      "end": 1903.95,
+      "text": "So now this is an embryo that's been labeled with some of these fluorescent proteins that Professor Imperiali just introduced."
+    },
+    {
+      "idx": 493,
+      "start": 1903.95,
+      "end": 1904.95,
+      "text": "One is green."
+    },
+    {
+      "idx": 494,
+      "start": 1904.95,
+      "end": 1906.95,
+      "text": "And it's shown here in green."
+    },
+    {
+      "idx": 495,
+      "start": 1906.95,
+      "end": 1907.95,
+      "text": "And the other is a red."
+    },
+    {
+      "idx": 496,
+      "start": 1908.95,
+      "end": 1910.95,
+      "text": "So we have a red fluorescent protein in red."
+    },
+    {
+      "idx": 497,
+      "start": 1910.95,
+      "end": 1913.95,
+      "text": "The red fluorescent protein is marking individual cells."
+    },
+    {
+      "idx": 498,
+      "start": 1913.95,
+      "end": 1917.95,
+      "text": "The green protein is a motor protein that generates force."
+    },
+    {
+      "idx": 499,
+      "start": 1917.95,
+      "end": 1921.95,
+      "text": "And what you see is where the motor protein is."
+    },
+    {
+      "idx": 500,
+      "start": 1921.95,
+      "end": 1924.95,
+      "text": "This is where the tissue contracts."
+    },
+    {
+      "idx": 501,
+      "start": 1924.95,
+      "end": 1926.95,
+      "text": "And this is where the tissue folds."
+    },
+    {
+      "idx": 502,
+      "start": 1927.95,
+      "end": 1931.95,
+      "text": "And so because we're able to see these proteins in action."
+    },
+    {
+      "idx": 503,
+      "start": 1931.95,
+      "end": 1935.95,
+      "text": "We can infer how they're functioning during development."
+    },
+    {
+      "idx": 504,
+      "start": 1935.95,
+      "end": 1937.95,
+      "text": "To essentially program."
+    },
+    {
+      "idx": 505,
+      "start": 1939.95,
+      "end": 1946.58,
+      "text": "And there are many other opportunities where even though we have the genome."
+    },
+    {
+      "idx": 506,
+      "start": 1946.58,
+      "end": 1954.58,
+      "text": "We still don't understand how collectives of proteins or collectives of cells are sort of interacting with each other."
+    },
+    {
+      "idx": 507,
+      "start": 1954.58,
+      "end": 1964.58,
+      "text": "To sort of create emergent properties that are what are responsible for padding patterning is something as large as a human."
+    },
+    {
+      "idx": 508,
+      "start": 1964.58,
+      "end": 1969.42,
+      "text": "Another thing that we'll talk about is how cells divide."
+    },
+    {
+      "idx": 509,
+      "start": 1969.42,
+      "end": 1971.42,
+      "text": "And this is another fruit fly embryo."
+    },
+    {
+      "idx": 510,
+      "start": 1971.42,
+      "end": 1974.42,
+      "text": "And it's labeling histones."
+    },
+    {
+      "idx": 511,
+      "start": 1974.42,
+      "end": 1976.42,
+      "text": "So it labels the DNA."
+    },
+    {
+      "idx": 512,
+      "start": 1976.42,
+      "end": 1980.42,
+      "text": "And so you're seeing nuclei here divide sequentially."
+    },
+    {
+      "idx": 513,
+      "start": 1980.42,
+      "end": 1982.42,
+      "text": "There will be one more division."
+    },
+    {
+      "idx": 514,
+      "start": 1982.42,
+      "end": 1984.42,
+      "text": "And then it's going to stop."
+    },
+    {
+      "idx": 515,
+      "start": 1985.42,
+      "end": 1992.42,
+      "text": "And my point here is that cell division during development and in adults is under exquisite control."
+    },
+    {
+      "idx": 516,
+      "start": 1993.42,
+      "end": 1998.42,
+      "text": "And a breakdown of this control is important in the progression of cancer."
+    },
+    {
+      "idx": 517,
+      "start": 1998.42,
+      "end": 2004.42,
+      "text": "So we're going to talk about how cells control whether or not they divide."
+    },
+    {
+      "idx": 518,
+      "start": 2004.42,
+      "end": 2009.42,
+      "text": "And how this is impacted in cancer cells."
+    },
+    {
+      "idx": 519,
+      "start": 2009.42,
+      "end": 2016.42,
+      "text": "I also want to point out that this video is from Eric Wischaus who is at Princeton University."
+    },
+    {
+      "idx": 520,
+      "start": 2020.58,
+      "end": 2021.58,
+      "text": "I'm going to just hit the lights."
+    },
+    {
+      "idx": 521,
+      "start": 2021.58,
+      "end": 2023.58,
+      "text": "I have one last thing just to mention."
+    },
+    {
+      "idx": 522,
+      "start": 2023.58,
+      "end": 2028.1,
+      "text": "So I just want to reinforce what Professor Imperiali said."
+    },
+    {
+      "idx": 523,
+      "start": 2028.1,
+      "end": 2030.1,
+      "text": "We have a small class."
+    },
+    {
+      "idx": 524,
+      "start": 2030.1,
+      "end": 2031.1,
+      "text": "So this is really an opportunity."
+    },
+    {
+      "idx": 525,
+      "start": 2031.1,
+      "end": 2040.1,
+      "text": "This is really an opportunity to have this be more interactive than it would be if we had like 300 people in the class."
+    },
+    {
+      "idx": 526,
+      "start": 2040.1,
+      "end": 2046.1,
+      "text": "So I want to really encourage you guys to ask questions."
+    },
+    {
+      "idx": 527,
+      "start": 2046.1,
+      "end": 2049.1,
+      "text": "Also, if you have ideas, we would love to hear them."
+    },
+    {
+      "idx": 528,
+      "start": 2049.1,
+      "end": 2054.1,
+      "text": "And I want to try one new thing this semester."
+    },
+    {
+      "idx": 529,
+      "start": 2054.1,
+      "end": 2059.1,
+      "text": "So I find that students are a little hesitant to come to my office hours."
+    },
+    {
+      "idx": 530,
+      "start": 2059.1,
+      "end": 2060.1,
+      "text": "So this year I want to hold."
+    },
+    {
+      "idx": 531,
+      "start": 2060.1,
+      "end": 2063.1,
+      "text": "What I'm calling running hours."
+    },
+    {
+      "idx": 532,
+      "start": 2063.1,
+      "end": 2070.08,
+      "text": "So one thing that I really like to do is I like to run."
+    },
+    {
+      "idx": 533,
+      "start": 2070.08,
+      "end": 2078.08,
+      "text": "And I've noticed that many of my students are also runners because I'll like see them out around the river."
+    },
+    {
+      "idx": 534,
+      "start": 2078.08,
+      "end": 2082.08,
+      "text": "And so I just want to hold sort of weekly running hours."
+    },
+    {
+      "idx": 535,
+      "start": 2082.08,
+      "end": 2086.08,
+      "text": "I'm going to choose 3 o'clock."
+    },
+    {
+      "idx": 536,
+      "start": 2086.08,
+      "end": 2088.08,
+      "text": "Not three hour run."
+    },
+    {
+      "idx": 537,
+      "start": 2089.08,
+      "end": 2091.62,
+      "text": "3 p.m. on Fridays."
+    },
+    {
+      "idx": 538,
+      "start": 2091.62,
+      "end": 2093.62,
+      "text": "And we'll just meet in my office."
+    },
+    {
+      "idx": 539,
+      "start": 2093.62,
+      "end": 2099.6,
+      "text": "And so if you like to run, you can just meet there."
+    },
+    {
+      "idx": 540,
+      "start": 2099.6,
+      "end": 2102.6,
+      "text": "We'll go on a run around the Charles."
+    },
+    {
+      "idx": 541,
+      "start": 2102.6,
+      "end": 2105.6,
+      "text": "And this is not a competitive event."
+    },
+    {
+      "idx": 542,
+      "start": 2105.6,
+      "end": 2108.6,
+      "text": "I'm not some fitness nut."
+    },
+    {
+      "idx": 543,
+      "start": 2108.6,
+      "end": 2114.6,
+      "text": "I ran home last week and I ate half a bag of Swedish fish on the way."
+    },
+    {
+      "idx": 544,
+      "start": 2114.6,
+      "end": 2116.6,
+      "text": "So it's not a competition."
+    },
+    {
+      "idx": 545,
+      "start": 2116.6,
+      "end": 2122.6,
+      "text": "It's just to try to get to know you guys and to try to break the ice in sort of a non-academic way."
+    },
+    {
+      "idx": 546,
+      "start": 2123.6,
+      "end": 2125.89,
+      "text": "So I'm just going to wrap up here."
+    },
+    {
+      "idx": 547,
+      "start": 2125.89,
+      "end": 2129.89,
+      "text": "So we've bombed you with quite a lot of yes."
+    },
+    {
+      "idx": 548,
+      "start": 2130.89,
+      "end": 2137.82,
+      "text": "You want to know more about running?"
+    },
+    {
+      "idx": 549,
+      "start": 2138.82,
+      "end": 2142.82,
+      "text": "Or you could join me at CrossFit if you would like as well."
+    },
+    {
+      "idx": 550,
+      "start": 2142.82,
+      "end": 2152.82,
+      "text": "We will both have office hours and we will post them and we welcome you to come visit us and, you know, find out more, tell us more about yourselves."
+    },
+    {
+      "idx": 551,
+      "start": 2152.82,
+      "end": 2155.82,
+      "text": "We are fountains of information."
+    },
+    {
+      "idx": 552,
+      "start": 2155.82,
+      "end": 2156.82,
+      "text": "So basically over the first week."
+    },
+    {
+      "idx": 553,
+      "start": 2156.82,
+      "end": 2162.82,
+      "text": "So basically over the first half of the course, we tend to cover foundations."
+    },
+    {
+      "idx": 554,
+      "start": 2162.82,
+      "end": 2169.82,
+      "text": "And so we build on biochemistry, one of my favorite subjects, where we cover all of the molecules of life."
+    },
+    {
+      "idx": 555,
+      "start": 2169.82,
+      "end": 2172.82,
+      "text": "What are all the bits it takes to make a cell?"
+    },
+    {
+      "idx": 556,
+      "start": 2172.82,
+      "end": 2175.82,
+      "text": "Lipids, sugars, proteins, nucleic acids."
+    },
+    {
+      "idx": 557,
+      "start": 2175.82,
+      "end": 2184.82,
+      "text": "Then we synthesize them all together where we show in molecular biology how the genome encodes the proteome and what happens to the proteome."
+    },
+    {
+      "idx": 558,
+      "start": 2185.82,
+      "end": 2187.82,
+      "text": "So we'll cover the proteome after that."
+    },
+    {
+      "idx": 559,
+      "start": 2187.82,
+      "end": 2190.82,
+      "text": "So you'll see me for all of those lectures."
+    },
+    {
+      "idx": 560,
+      "start": 2190.82,
+      "end": 2198.82,
+      "text": "Then I will hand you over to Professor Martin for genetics, for learning how to manipulate DNA."
+    },
+    {
+      "idx": 561,
+      "start": 2198.82,
+      "end": 2208.82,
+      "text": "And we'll cap off this first phase of work with cell signaling and understanding much more about dynamics of cells as opposed to static building blocks."
+    },
+    {
+      "idx": 562,
+      "start": 2208.82,
+      "end": 2213.82,
+      "text": "But you've got to understand the building blocks before you can understand the complexity."
+    },
+    {
+      "idx": 563,
+      "start": 2213.82,
+      "end": 2218.82,
+      "text": "That's why I really like to cover those molecules at a reasonable depth."
+    },
+    {
+      "idx": 564,
+      "start": 2218.82,
+      "end": 2220.82,
+      "text": "It's kind of ridiculous, four classes."
+    },
+    {
+      "idx": 565,
+      "start": 2220.82,
+      "end": 2222.82,
+      "text": "But nevertheless, that's how we start."
+    },
+    {
+      "idx": 566,
+      "start": 2222.82,
+      "end": 2225.82,
+      "text": "For some of you, you've seen some of it before."
+    },
+    {
+      "idx": 567,
+      "start": 2225.82,
+      "end": 2228.82,
+      "text": "For others, you've seen none of it before."
+    },
+    {
+      "idx": 568,
+      "start": 2228.82,
+      "end": 2230.82,
+      "text": "It doesn't matter."
+    },
+    {
+      "idx": 569,
+      "start": 2230.82,
+      "end": 2232.82,
+      "text": "We will give you our flavor on it."
+    },
+    {
+      "idx": 570,
+      "start": 2232.82,
+      "end": 2237.82,
+      "text": "If your chemistry is a little weak, I suggest you read the textbook."
+    },
+    {
+      "idx": 571,
+      "start": 2237.82,
+      "end": 2241.82,
+      "text": "There's a couple of sections on just chemical covalent and non-covalent bonding."
+    },
+    {
+      "idx": 572,
+      "start": 2241.82,
+      "end": 2244.82,
+      "text": "Then you'll need to do the first p-set."
+    },
+    {
+      "idx": 573,
+      "start": 2244.82,
+      "end": 2246.82,
+      "text": "If your chemistry is strong, you're fine."
+    },
+    {
+      "idx": 574,
+      "start": 2246.82,
+      "end": 2251.82,
+      "text": "If your chemistry is weak and you need a little help, I'll run an extra session next week."
+    },
+    {
+      "idx": 575,
+      "start": 2251.82,
+      "end": 2255.82,
+      "text": "We can take care of every eventuality because you're a smaller class."
+    },
+    {
+      "idx": 576,
+      "start": 2255.82,
+      "end": 2258.82,
+      "text": "And then we'll take it from there."
+    },
+    {
+      "idx": 577,
+      "start": 2258.82,
+      "end": 2263.88,
+      "text": "And then what I really want to do is encourage you to do the reading."
+    },
+    {
+      "idx": 578,
+      "start": 2263.88,
+      "end": 2265.88,
+      "text": "Make sure you're in a recitation."
+    },
+    {
+      "idx": 579,
+      "start": 2265.88,
+      "end": 2269.88,
+      "text": "And next time, but it's in the sidebar, I'd like you to take a look at the sliding scale,"
+    },
+    {
+      "idx": 580,
+      "start": 2269.88,
+      "end": 2271.88,
+      "text": "which shows you the dynamics of the cell."
+    },
+    {
+      "idx": 581,
+      "start": 2271.88,
+      "end": 2275.88,
+      "text": "It shows you the dimensions of molecules, macromolecules, and organisms,"
+    },
+    {
+      "idx": 582,
+      "start": 2275.88,
+      "end": 2279.88,
+      "text": "which I find rather cool even though it's probably built for high school students."
+    },
+    {
+      "idx": 583,
+      "start": 2279.88,
+      "end": 2281.88,
+      "text": "Okay, that's it from us for now."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "video_id": "KOKnWaLiL8w",
+  "boundaries_sec": [
+    1285.0,
+    1700.0,
+    2276.0,
+    3157.0,
+    4122.0
+  ],
+  "titles": [
+    "Chapter 1. Introduction and Course Organization",
+    "Chapter 2. Newtonian Mechanics: Dynamics and Kinematics",
+    "Chapter 3. Average and Instantaneous Rate of Motion",
+    "Chapter 4. Motion at Constant Acceleration",
+    "Chapter 5. Example Problem: Physical Meaning of Equations",
+    "Chapter 6. Derive New Relations Using Calculus Laws of Limits"
+  ],
+  "num_chapters": 6,
+  "duration_sec": 4401.0
+}

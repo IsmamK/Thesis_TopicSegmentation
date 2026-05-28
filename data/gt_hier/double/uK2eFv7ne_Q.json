@@ -1,0 +1,114 @@
+{
+  "video_id": "uK2eFv7ne_Q",
+  "annotator": "llm_b",
+  "status": "draft",
+  "double_mode": true,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Chapter 1. Recap of Young's double slit experiment"
+    },
+    {
+      "start_sec": 550.0,
+      "title": "Chapter 2. The Particulate Nature of Light"
+    },
+    {
+      "start_sec": 1395.0,
+      "title": "Chapter 3. The Photoelectric Effect"
+    },
+    {
+      "start_sec": 1879.0,
+      "title": "Chapter 4. Compton's scattering"
+    },
+    {
+      "start_sec": 2170.0,
+      "title": "Chapter 5. Particle-wave duality of matter"
+    },
+    {
+      "start_sec": 2913.0,
+      "title": "Chapter 6. The Uncertainty Principle"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Introduction to Quantum Mechanics"
+    },
+    {
+      "start_sec": 490.0,
+      "chapter_idx": 0,
+      "title": "The Double Slit Experiment"
+    },
+    {
+      "start_sec": 550.0,
+      "chapter_idx": 1,
+      "title": "The Problem with Dim Light Sources"
+    },
+    {
+      "start_sec": 990.0,
+      "chapter_idx": 1,
+      "title": "Observations of Photographic Film Exposures"
+    },
+    {
+      "start_sec": 1245.0,
+      "chapter_idx": 1,
+      "title": "Properties of Individual Photons and the Planck Constant"
+    },
+    {
+      "start_sec": 1395.0,
+      "chapter_idx": 2,
+      "title": "Photons and the Photoelectric Effect"
+    },
+    {
+      "start_sec": 1590.0,
+      "chapter_idx": 2,
+      "title": "The Historical Discovery of Photons"
+    },
+    {
+      "start_sec": 1785.0,
+      "chapter_idx": 2,
+      "title": "Einstein's Prediction and the Quantum Algorithm"
+    },
+    {
+      "start_sec": 1879.0,
+      "chapter_idx": 3,
+      "title": "Compton's Scattering Principle"
+    },
+    {
+      "start_sec": 2030.0,
+      "chapter_idx": 3,
+      "title": "Particle-Wave Duality and Compton Scattering"
+    },
+    {
+      "start_sec": 2110.0,
+      "chapter_idx": 3,
+      "title": "Probabilistic Nature of Photons"
+    },
+    {
+      "start_sec": 2170.0,
+      "chapter_idx": 4,
+      "title": "Le Broit's Argument"
+    },
+    {
+      "start_sec": 2610.0,
+      "chapter_idx": 4,
+      "title": "Electron Wave and Interference Pattern"
+    },
+    {
+      "start_sec": 2913.0,
+      "chapter_idx": 5,
+      "title": "The Problem with Measuring Electron Position"
+    },
+    {
+      "start_sec": 3790.0,
+      "chapter_idx": 5,
+      "title": "Light Diffraction and Momentum Uncertainty"
+    },
+    {
+      "start_sec": 4005.0,
+      "chapter_idx": 5,
+      "title": "Uncertainty Principle and Wave-Particle Duality"
+    }
+  ]
+}

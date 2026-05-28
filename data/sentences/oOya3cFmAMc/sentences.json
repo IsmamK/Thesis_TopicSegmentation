@@ -1,0 +1,4343 @@
+{
+  "video_id": "oOya3cFmAMc",
+  "sentences": [
+    {
+      "idx": 0,
+      "start": 15.95,
+      "end": 17.77,
+      "text": "It's going to be a great lecture today."
+    },
+    {
+      "idx": 1,
+      "start": 17.77,
+      "end": 18.703,
+      "text": "It's about proteins."
+    },
+    {
+      "idx": 2,
+      "start": 18.703,
+      "end": 19.45,
+      "text": "I love proteins."
+    },
+    {
+      "idx": 3,
+      "start": 19.95,
+      "end": 21.714,
+      "text": "Don't forget the handout."
+    },
+    {
+      "idx": 4,
+      "start": 21.714,
+      "end": 25.737,
+      "text": "Okay, so I'm going to briefly wrap up the lecture we were"
+    },
+    {
+      "idx": 5,
+      "start": 26.09,
+      "end": 29.23,
+      "text": "doing on Friday because there were a couple of things that I wanted to make a note of,"
+    },
+    {
+      "idx": 6,
+      "start": 29.39,
+      "end": 34.73,
+      "text": "and then we'll move on to section 2.3 about amino acids, peptides, and proteins."
+    },
+    {
+      "idx": 7,
+      "start": 35.21,
+      "end": 41.43,
+      "text": "Now, in the last class, I introduced you to the lipidic molecules, and you can pick them out of"
+    },
+    {
+      "idx": 8,
+      "start": 41.43,
+      "end": 45.822,
+      "text": "a lineup because they are rich in carbon-carbon and carbon-hydrogen bonds."
+    },
+    {
+      "idx": 9,
+      "start": 45.822,
+      "end": 46.95,
+      "text": "As you can see here"
+    },
+    {
+      "idx": 10,
+      "start": 46.95,
+      "end": 53.09,
+      "text": "in these line-angle drawings, the majority of a lot of these molecules is carbon-carbon or"
+    },
+    {
+      "idx": 11,
+      "start": 53.09,
+      "end": 59.111,
+      "text": "They are molecules that are mostly hydrophobic, so there are some terminologies"
+    },
+    {
+      "idx": 12,
+      "start": 60.33,
+      "end": 65.594,
+      "text": "Hydrophobic, which can also be referred to as lipophilic."
+    },
+    {
+      "idx": 13,
+      "start": 65.594,
+      "end": 68.088,
+      "text": "You can hate water and love"
+    },
+    {
+      "idx": 14,
+      "start": 68.55,
+      "end": 71.33,
+      "text": "fatty acid or fatty tyrosine."
+    },
+    {
+      "idx": 15,
+      "start": 71.43,
+      "end": 77.99,
+      "text": "So, there's both terms are synonymous, and some of the lipids are what are known as amphipathic,"
+    },
+    {
+      "idx": 16,
+      "start": 77.99,
+      "end": 81.27,
+      "text": "and they include hydrophilic and hydrophobic components."
+    },
+    {
+      "idx": 17,
+      "start": 81.65,
+      "end": 87.57,
+      "text": "There are a couple of tiny terms that I didn't mention explicitly, so I just want to go ahead"
+    },
+    {
+      "idx": 18,
+      "start": 87.57,
+      "end": 88.785,
+      "text": "and do that now."
+    },
+    {
+      "idx": 19,
+      "start": 88.785,
+      "end": 94.25,
+      "text": "For example, in this phospholipid structure, and we'll talk about these,"
+    },
+    {
+      "idx": 20,
+      "start": 94.57,
+      "end": 101.03,
+      "text": "they have long-chain fatty acids attached via esters to this glycerol unit."
+    },
+    {
+      "idx": 21,
+      "start": 101.43,
+      "end": 106.61,
+      "text": "there's one here and the second one here, and then what's known as the polar head group."
+    },
+    {
+      "idx": 22,
+      "start": 106.97,
+      "end": 110.852,
+      "text": "In those fatty acids, they could be fully saturated."
+    },
+    {
+      "idx": 23,
+      "start": 110.852,
+      "end": 113.39,
+      "text": "It means they have no double bonds"
+    },
+    {
+      "idx": 24,
+      "start": 113.39,
+      "end": 115.871,
+      "text": "in the structure."
+    },
+    {
+      "idx": 25,
+      "start": 115.871,
+      "end": 127.11,
+      "text": "So, that term saturated is equivalent to no double bonds, so no carbon-carbon"
+    },
+    {
+      "idx": 26,
+      "start": 127.11,
+      "end": 135.934,
+      "text": "double bonds, or they could be unsaturated where there is a double bond within it."
+    },
+    {
+      "idx": 27,
+      "start": 135.934,
+      "end": 137.44,
+      "text": "So, that's one"
+    },
+    {
+      "idx": 28,
+      "start": 137.44,
+      "end": 139.38,
+      "text": "or more double bonds."
+    },
+    {
+      "idx": 29,
+      "start": 139.4,
+      "end": 146.02,
+      "text": "And those double bonds take on a particular shape because there's not freedom of rotation"
+    },
+    {
+      "idx": 30,
+      "start": 146.02,
+      "end": 149.609,
+      "text": "around double bonds the same way there is around single bonds."
+    },
+    {
+      "idx": 31,
+      "start": 149.609,
+      "end": 150.94,
+      "text": "So, those single bonds,"
+    },
+    {
+      "idx": 32,
+      "start": 151.04,
+      "end": 155.32,
+      "text": "you can twist them around and twist them around, but the double bond geometry is fixed."
+    },
+    {
+      "idx": 33,
+      "start": 155.86,
+      "end": 161.64,
+      "text": "And so, double bonds, we refer to them as either trans, where the two groups are on opposite sides"
+    },
+    {
+      "idx": 34,
+      "start": 161.64,
+      "end": 168.82,
+      "text": "leaving the double bond, or we refer to them as cis, where the two groups are on the same side."
+    },
+    {
+      "idx": 35,
+      "start": 169.4,
+      "end": 175.02,
+      "text": "we tend to use that cis and trans sort of naming system in a lot of other contexts as well."
+    },
+    {
+      "idx": 36,
+      "start": 175.22,
+      "end": 179.02,
+      "text": "But you almost always want to remember that trans is as far away as possible."
+    },
+    {
+      "idx": 37,
+      "start": 179.48,
+      "end": 181.604,
+      "text": "Cis is closer than trans."
+    },
+    {
+      "idx": 38,
+      "start": 181.604,
+      "end": 186.531,
+      "text": "So, I'm just going to take you forward to the phospholipid"
+    },
+    {
+      "idx": 39,
+      "start": 187.38,
+      "end": 202.728,
+      "text": "This is a very important semi-permeable membranes made up through the non-covalent"
+    },
+    {
+      "idx": 40,
+      "start": 204.6,
+      "end": 205.28,
+      "text": "So, this is a very important semi-permeable membrane made up through"
+    },
+    {
+      "idx": 41,
+      "start": 205.54,
+      "end": 210.151,
+      "text": "the non-covalent supramolecular association of phospholipid monomer units."
+    },
+    {
+      "idx": 42,
+      "start": 210.151,
+      "end": 211.46,
+      "text": "Here's a monomer unit"
+    },
+    {
+      "idx": 43,
+      "start": 211.46,
+      "end": 217.893,
+      "text": "You see it has an amphipathic structure with a lot of hydrophobicity, but also hydrophilicity."
+    },
+    {
+      "idx": 44,
+      "start": 218.94,
+      "end": 226.06,
+      "text": "And these molecules assemble into supramolecular structures that form the boundaries of your cells."
+    },
+    {
+      "idx": 45,
+      "start": 226.6,
+      "end": 231.92,
+      "text": "Saying they are semi-permeable tells us a little bit about what can go through them."
+    },
+    {
+      "idx": 46,
+      "start": 231.92,
+      "end": 235.36,
+      "text": "If they were fully permeable, anything could come and go,"
+    },
+    {
+      "idx": 47,
+      "start": 235.54,
+      "end": 236.846,
+      "text": "they wouldn't be much use, frankly."
+    },
+    {
+      "idx": 48,
+      "start": 236.846,
+      "end": 238.6,
+      "text": "It's like leaving the door open the whole time."
+    },
+    {
+      "idx": 49,
+      "start": 238.92,
+      "end": 244.78,
+      "text": "But because they are semi-permeable, only a few things can come and go without extra help,"
+    },
+    {
+      "idx": 50,
+      "start": 244.84,
+      "end": 249.113,
+      "text": "and other things need active mechanisms to go through."
+    },
+    {
+      "idx": 51,
+      "start": 249.113,
+      "end": 252.04,
+      "text": "So, let's take a look at the boundary"
+    },
+    {
+      "idx": 52,
+      "start": 252.04,
+      "end": 257.813,
+      "text": "So, when you see a membrane bilayer, they're often shown looking like this, where every one of"
+    },
+    {
+      "idx": 53,
+      "start": 258.12,
+      "end": 264.24,
+      "text": "these units is a phospholipid, and there's water on both sides of the phospholipid, because that"
+    },
+    {
+      "idx": 54,
+      "start": 264.24,
+      "end": 264.709,
+      "text": "polar head group is the membrane."
+    },
+    {
+      "idx": 55,
+      "start": 264.709,
+      "end": 265.52,
+      "text": "So, when you see a membrane bilayer, it's a phospholipid,"
+    },
+    {
+      "idx": 56,
+      "start": 265.52,
+      "end": 266.9,
+      "text": "and there's water on both sides of the phospholipid, because that polar head group is interacting"
+    },
+    {
+      "idx": 57,
+      "start": 266.9,
+      "end": 268.683,
+      "text": "with water on both sides."
+    },
+    {
+      "idx": 58,
+      "start": 268.683,
+      "end": 273.46,
+      "text": "So, down here could be the inside of the cell, up here could be the"
+    },
+    {
+      "idx": 59,
+      "start": 273.46,
+      "end": 279.12,
+      "text": "outside of the cell, and a lot of cells, especially eukaryotic cells, the ones that make us up,"
+    },
+    {
+      "idx": 60,
+      "start": 279.44,
+      "end": 285.92,
+      "text": "have a lot of endomembranes, membranes within the cells, for example, forming the boundary to"
+    },
+    {
+      "idx": 61,
+      "start": 285.92,
+      "end": 289.774,
+      "text": "the nucleus or to the mitochondria."
+    },
+    {
+      "idx": 62,
+      "start": 289.774,
+      "end": 295.72,
+      "text": "Oh, this guy must be, so this looks like it's probably"
+    },
+    {
+      "idx": 63,
+      "start": 296.16,
+      "end": 296.503,
+      "text": "a saturated membrane."
+    },
+    {
+      "idx": 64,
+      "start": 296.503,
+      "end": 297.68,
+      "text": "So, if you look at the endomembrane, it's probably a saturated membrane,"
+    },
+    {
+      "idx": 65,
+      "start": 297.7,
+      "end": 301.373,
+      "text": "So, what do you think this one might be, folks?"
+    },
+    {
+      "idx": 66,
+      "start": 301.373,
+      "end": 304.42,
+      "text": "Unsaturated, and what's the double bond"
+    },
+    {
+      "idx": 67,
+      "start": 305.28,
+      "end": 311.337,
+      "text": "So, yeah, it is, it's like a, it looks like a ballerina or something."
+    },
+    {
+      "idx": 68,
+      "start": 313.3,
+      "end": 318.24,
+      "text": "we have a lot of concerns, and we'll see later about how things get in and out of cells,"
+    },
+    {
+      "idx": 69,
+      "start": 318.42,
+      "end": 332.0,
+      "text": "but most commonly, things like oxygen or water and other small hydrophobic molecules"
+    },
+    {
+      "idx": 70,
+      "start": 336.18,
+      "end": 339.9,
+      "text": "So, we don't see things that pass readily in and out through the semipermeable barrier,"
+    },
+    {
+      "idx": 71,
+      "start": 340.14,
+      "end": 345.52,
+      "text": "but other things, things that are charged, things that are big, need a different mechanism to get"
+    },
+    {
+      "idx": 72,
+      "start": 345.52,
+      "end": 352.78,
+      "text": "in and out, and we will see later on how proteins provide the opportunities to cargo things into"
+    },
+    {
+      "idx": 73,
+      "start": 352.78,
+      "end": 359.04,
+      "text": "cells or out of cells, even very large entities, and there are certain mechanisms whereby that"
+    },
+    {
+      "idx": 74,
+      "start": 359.04,
+      "end": 361.722,
+      "text": "happens through a semipermeable membrane."
+    },
+    {
+      "idx": 75,
+      "start": 361.722,
+      "end": 364.993,
+      "text": "I want to show you the other feature of membranes."
+    },
+    {
+      "idx": 76,
+      "start": 366.18,
+      "end": 368.575,
+      "text": "they are self-healing."
+    },
+    {
+      "idx": 77,
+      "start": 368.575,
+      "end": 376.85,
+      "text": "What this means is if you poke them, you poke a hole in a cellular membrane,"
+    },
+    {
+      "idx": 78,
+      "start": 377.47,
+      "end": 381.04,
+      "text": "you basically push apart those non-covalent forces."
+    },
+    {
+      "idx": 79,
+      "start": 381.04,
+      "end": 384.47,
+      "text": "Once you take the thing away, be it a needle or a"
+    },
+    {
+      "idx": 80,
+      "start": 384.47,
+      "end": 391.568,
+      "text": "very fine glass capillary, they seal right back up to close, to close the hole in the cell wall."
+    },
+    {
+      "idx": 81,
+      "start": 391.87,
+      "end": 395.011,
+      "text": "that kind of tells us that they're non-covalent forces."
+    },
+    {
+      "idx": 82,
+      "start": 395.011,
+      "end": 397.41,
+      "text": "So, this is a really cool video of someone"
+    },
+    {
+      "idx": 83,
+      "start": 397.41,
+      "end": 397.781,
+      "text": "doing micro-injection into a cell wall."
+    },
+    {
+      "idx": 84,
+      "start": 397.781,
+      "end": 398.39,
+      "text": "So, this is a really cool video of someone doing micro-injection"
+    },
+    {
+      "idx": 85,
+      "start": 398.39,
+      "end": 398.551,
+      "text": "into a cell wall."
+    },
+    {
+      "idx": 86,
+      "start": 398.551,
+      "end": 399.33,
+      "text": "So, this is a really cool video of someone doing micro-injection into a cell wall."
+    },
+    {
+      "idx": 87,
+      "start": 399.41,
+      "end": 402.37,
+      "text": "So, when people come down to uekaryotic cells, the needle points to the"
+    },
+    {
+      "idx": 88,
+      "start": 402.37,
+      "end": 408.01,
+      "text": "cell, approaches the surface, you can drop something into the cell, and then the cell closes"
+    },
+    {
+      "idx": 89,
+      "start": 408.01,
+      "end": 410.787,
+      "text": "and maintains, regains its integrity of the barrier."
+    },
+    {
+      "idx": 90,
+      "start": 410.787,
+      "end": 412.71,
+      "text": "So, this is a very cool observation."
+    },
+    {
+      "idx": 91,
+      "start": 412.73,
+      "end": 413.828,
+      "text": "People do this."
+    },
+    {
+      "idx": 92,
+      "start": 413.828,
+      "end": 419.83,
+      "text": "They have to not drink too much coffee, because it's quite complicated to do a lot"
+    },
+    {
+      "idx": 93,
+      "start": 419.83,
+      "end": 428.15,
+      "text": "of micro-injection, because you can really cause carnage in your cell population if you're not very"
+    },
+    {
+      "idx": 94,
+      "start": 429.35,
+      "end": 432.242,
+      "text": "microinjection, but people can be very good at it."
+    },
+    {
+      "idx": 95,
+      "start": 432.242,
+      "end": 434.73,
+      "text": "So I just want to ask a couple of questions"
+    },
+    {
+      "idx": 96,
+      "start": 434.73,
+      "end": 439.916,
+      "text": "before, or a couple of things to think about before we close up the lipids."
+    },
+    {
+      "idx": 97,
+      "start": 439.916,
+      "end": 441.23,
+      "text": "So here's a typical"
+    },
+    {
+      "idx": 98,
+      "start": 441.23,
+      "end": 444.451,
+      "text": "lipid bilayer where I've highlighted a single lipid."
+    },
+    {
+      "idx": 99,
+      "start": 444.451,
+      "end": 446.99,
+      "text": "In the colors, those are the head groups,"
+    },
+    {
+      "idx": 100,
+      "start": 446.99,
+      "end": 454.75,
+      "text": "and all in white and gray are the hydrophilic components, and just one of the phospholipids"
+    },
+    {
+      "idx": 101,
+      "start": 454.75,
+      "end": 458.446,
+      "text": "is highlighted, and that would be this molecular structure here."
+    },
+    {
+      "idx": 102,
+      "start": 458.446,
+      "end": 460.41,
+      "text": "So first of all, what do you think"
+    },
+    {
+      "idx": 103,
+      "start": 460.41,
+      "end": 465.247,
+      "text": "the non-covalent forces at that membrane interface may be?"
+    },
+    {
+      "idx": 104,
+      "start": 465.247,
+      "end": 468.25,
+      "text": "That is, what's going on here at the"
+    },
+    {
+      "idx": 105,
+      "start": 468.25,
+      "end": 472.281,
+      "text": "What are the types of interactions that you might have there?"
+    },
+    {
+      "idx": 106,
+      "start": 472.281,
+      "end": 473.999,
+      "text": "Give you a minute to think"
+    },
+    {
+      "idx": 107,
+      "start": 474.66,
+      "end": 480.12,
+      "text": "about it, and I want to show you that I'm actually giving you a clue here, because you can see the"
+    },
+    {
+      "idx": 108,
+      "start": 480.12,
+      "end": 485.62,
+      "text": "structure, negative charge, positive charge, but also remember this is a barrier to water,"
+    },
+    {
+      "idx": 109,
+      "start": 485.8,
+      "end": 491.14,
+      "text": "so there are other things going on with the solvent that the membrane is sitting in,"
+    },
+    {
+      "idx": 110,
+      "start": 491.2,
+      "end": 493.895,
+      "text": "because there's water surrounding that barrier layer."
+    },
+    {
+      "idx": 111,
+      "start": 493.895,
+      "end": 495.98,
+      "text": "Anyone want to tell me what the answer is"
+    },
+    {
+      "idx": 112,
+      "start": 495.98,
+      "end": 499.809,
+      "text": "Yeah, did you?"
+    },
+    {
+      "idx": 113,
+      "start": 499.809,
+      "end": 507.468,
+      "text": "Yeah, between what and what?"
+    },
+    {
+      "idx": 114,
+      "start": 507.468,
+      "end": 511.844,
+      "text": "Right, so water."
+    },
+    {
+      "idx": 115,
+      "start": 511.844,
+      "end": 517.862,
+      "text": "So that water's a good"
+    },
+    {
+      "idx": 116,
+      "start": 520.05,
+      "end": 524.498,
+      "text": "hydrogen bond donor and acceptor, so there will be hydrogen bonding."
+    },
+    {
+      "idx": 117,
+      "start": 524.498,
+      "end": 526.33,
+      "text": "What about amongst all those"
+    },
+    {
+      "idx": 118,
+      "start": 526.33,
+      "end": 528.234,
+      "text": "lipid head groups?"
+    },
+    {
+      "idx": 119,
+      "start": 528.234,
+      "end": 531.301,
+      "text": "What's the other major force?"
+    },
+    {
+      "idx": 120,
+      "start": 532.03,
+      "end": 537.249,
+      "text": "Between the different charges, so the correct answer here is both of them."
+    },
+    {
+      "idx": 121,
+      "start": 537.249,
+      "end": 538.73,
+      "text": "Don't think it's just"
+    },
+    {
+      "idx": 122,
+      "start": 538.73,
+      "end": 543.135,
+      "text": "It's electrostatic amongst the head groups, hydrogen bonding between"
+    },
+    {
+      "idx": 123,
+      "start": 544.69,
+      "end": 550.57,
+      "text": "all that sort of dense bunch of charge and the water, and then the other question, what type of"
+    },
+    {
+      "idx": 124,
+      "start": 550.57,
+      "end": 551.988,
+      "text": "molecules can get across?"
+    },
+    {
+      "idx": 125,
+      "start": 551.988,
+      "end": 554.426,
+      "text": "I've already answered that question to you."
+    },
+    {
+      "idx": 126,
+      "start": 554.426,
+      "end": 555.73,
+      "text": "Salts are going to need"
+    },
+    {
+      "idx": 127,
+      "start": 555.73,
+      "end": 557.428,
+      "text": "ways to get in and out."
+    },
+    {
+      "idx": 128,
+      "start": 557.428,
+      "end": 562.67,
+      "text": "Small proteins are too big to dissolve in that membrane through passive"
+    },
+    {
+      "idx": 129,
+      "start": 563.05,
+      "end": 568.35,
+      "text": "mechanisms, so we're going to have to figure out how to get proteins in and out of cells."
+    },
+    {
+      "idx": 130,
+      "start": 569.77,
+      "end": 574.575,
+      "text": "Neurotransmitters such as this, this is GABA or gamma-aminobutyric acid."
+    },
+    {
+      "idx": 131,
+      "start": 575.91,
+      "end": 582.03,
+      "text": "can't get through without a transporter of some kind, and it's actually proteins that end up doing"
+    },
+    {
+      "idx": 132,
+      "start": 582.03,
+      "end": 586.83,
+      "text": "the heavy lifting of the transport processes that we'll see."
+    },
+    {
+      "idx": 133,
+      "start": 586.83,
+      "end": 588.59,
+      "text": "Okay, so moving along."
+    },
+    {
+      "idx": 134,
+      "start": 589.55,
+      "end": 593.29,
+      "text": "will be about the building blocks of your proteins."
+    },
+    {
+      "idx": 135,
+      "start": 593.31,
+      "end": 595.85,
+      "text": "So the building blocks of your protein macromolecules, which I want to remind you,"
+    },
+    {
+      "idx": 136,
+      "start": 596.21,
+      "end": 601.77,
+      "text": "comprise 50% of all of the macromolecules, so that suggests it's a pretty important"
+    },
+    {
+      "idx": 137,
+      "start": 601.77,
+      "end": 606.363,
+      "text": "class of macromolecules that has a lot of different functions."
+    },
+    {
+      "idx": 138,
+      "start": 606.363,
+      "end": 607.77,
+      "text": "Now, the amino acid"
+    },
+    {
+      "idx": 139,
+      "start": 607.77,
+      "end": 610.813,
+      "text": "building blocks look pretty simple."
+    },
+    {
+      "idx": 140,
+      "start": 610.813,
+      "end": 615.42,
+      "text": "They're called amino acids because they have an amine"
+    },
+    {
+      "idx": 141,
+      "start": 615.42,
+      "end": 625.86,
+      "text": "and a carboxylic acid, and there's a carbon that is tetrahedral between the carboxylic acid"
+    },
+    {
+      "idx": 142,
+      "start": 626.64,
+      "end": 633.14,
+      "text": "and the amine, and the simplest of those is when those are both hydrogen, but most of the amino"
+    },
+    {
+      "idx": 143,
+      "start": 633.14,
+      "end": 638.823,
+      "text": "acids are differentiated from this one I've showed you on the board."
+    },
+    {
+      "idx": 144,
+      "start": 638.823,
+      "end": 641.08,
+      "text": "This amino acid is glycine."
+    },
+    {
+      "idx": 145,
+      "start": 642.46,
+      "end": 648.28,
+      "text": "Usually, when it's just a lonely amino acid in aqueous solution, it's in a different charged"
+    },
+    {
+      "idx": 146,
+      "start": 648.28,
+      "end": 656.728,
+      "text": "form, just consistent with what we talked about in the last class."
+    },
+    {
+      "idx": 147,
+      "start": 656.728,
+      "end": 659.16,
+      "text": "So this is glycine."
+    },
+    {
+      "idx": 148,
+      "start": 659.16,
+      "end": 666.243,
+      "text": "It's one of the 20 encoded amino acids."
+    },
+    {
+      "idx": 149,
+      "start": 666.243,
+      "end": 674.96,
+      "text": "That means the amino acids that are made through"
+    },
+    {
+      "idx": 150,
+      "start": 674.96,
+      "end": 681.646,
+      "text": "ribosomal biosynthesis through a code that's provided by the messenger RNA."
+    },
+    {
+      "idx": 151,
+      "start": 681.646,
+      "end": 683.34,
+      "text": "So they are encoded"
+    },
+    {
+      "idx": 152,
+      "start": 683.34,
+      "end": 691.54,
+      "text": "by messenger RNA, and later on, you'll see all of the beautiful mechanics of those processes."
+    },
+    {
+      "idx": 153,
+      "start": 691.94,
+      "end": 695.04,
+      "text": "Now, this table looks pretty complicated,"
+    },
+    {
+      "idx": 154,
+      "start": 695.4,
+      "end": 700.2,
+      "text": "and I'm going to deconstruct it a bit, but what I first of all want to assure you is that these"
+    },
+    {
+      "idx": 155,
+      "start": 700.2,
+      "end": 703.909,
+      "text": "20, you will always get a handout with these structures on them."
+    },
+    {
+      "idx": 156,
+      "start": 703.909,
+      "end": 705.3,
+      "text": "We are not asking you to"
+    },
+    {
+      "idx": 157,
+      "start": 705.3,
+      "end": 706.814,
+      "text": "remember these structures."
+    },
+    {
+      "idx": 158,
+      "start": 706.814,
+      "end": 710.54,
+      "text": "You might become familiar with some of them, but you do not have"
+    },
+    {
+      "idx": 159,
+      "start": 710.54,
+      "end": 711.475,
+      "text": "to remember them."
+    },
+    {
+      "idx": 160,
+      "start": 711.475,
+      "end": 715.6,
+      "text": "You'll have a table that shows them, but on that table, I won't necessarily"
+    },
+    {
+      "idx": 161,
+      "start": 715.6,
+      "end": 721.72,
+      "text": "give you the information on what their properties are because those are things that you should be"
+    },
+    {
+      "idx": 162,
+      "start": 721.72,
+      "end": 725.1,
+      "text": "able to spot by looking at their chemical structures, all right?"
+    },
+    {
+      "idx": 163,
+      "start": 725.4,
+      "end": 727.998,
+      "text": "So these are all line angle drawings."
+    },
+    {
+      "idx": 164,
+      "start": 727.998,
+      "end": 730.526,
+      "text": "So you see the carbon, the hydrogens"
+    },
+    {
+      "idx": 165,
+      "start": 731.72,
+      "end": 733.031,
+      "text": "aren't shown in there."
+    },
+    {
+      "idx": 166,
+      "start": 733.031,
+      "end": 737.44,
+      "text": "The charges are shown for what's called the side chain because most of the"
+    },
+    {
+      "idx": 167,
+      "start": 737.44,
+      "end": 744.505,
+      "text": "amino acids have a side chain."
+    },
+    {
+      "idx": 168,
+      "start": 744.505,
+      "end": 759.34,
+      "text": "The amino acids are also chiral, but you'll learn more than you"
+    },
+    {
+      "idx": 169,
+      "start": 759.34,
+      "end": 764.02,
+      "text": "ever wanted to know about chirality in 512, so I won't wear you down with any of those properties."
+    },
+    {
+      "idx": 170,
+      "start": 764.6,
+      "end": 768.32,
+      "text": "So there is a side chain that dictates the properties of the amino acids."
+    },
+    {
+      "idx": 171,
+      "start": 769.12,
+      "end": 775.54,
+      "text": "So in tiny detail, the amino acids that are encoded in our proteins are all what are known as"
+    },
+    {
+      "idx": 172,
+      "start": 775.54,
+      "end": 776.836,
+      "text": "alpha amino acids."
+    },
+    {
+      "idx": 173,
+      "start": 776.836,
+      "end": 778.852,
+      "text": "There are other amino acids."
+    },
+    {
+      "idx": 174,
+      "start": 778.852,
+      "end": 782.02,
+      "text": "GABA that I showed you on the previous slide"
+    },
+    {
+      "idx": 175,
+      "start": 782.02,
+      "end": 783.949,
+      "text": "is not an alpha amino acid."
+    },
+    {
+      "idx": 176,
+      "start": 783.949,
+      "end": 786.379,
+      "text": "Actually, it's a gamma amino acid."
+    },
+    {
+      "idx": 177,
+      "start": 786.379,
+      "end": 788.38,
+      "text": "These are called amino acids"
+    },
+    {
+      "idx": 178,
+      "start": 788.38,
+      "end": 793.915,
+      "text": "because the amine group is at the alpha position relative to the carboxyl."
+    },
+    {
+      "idx": 179,
+      "start": 793.915,
+      "end": 795.71,
+      "text": "Don't need to know a lot"
+    },
+    {
+      "idx": 180,
+      "start": 795.71,
+      "end": 797.65,
+      "text": "more about that with respect to that."
+    },
+    {
+      "idx": 181,
+      "start": 797.65,
+      "end": 799.17,
+      "text": "So let's take a look at this."
+    },
+    {
+      "idx": 182,
+      "start": 799.19,
+      "end": 801.09,
+      "text": "So this is a set of amino acids."
+    },
+    {
+      "idx": 183,
+      "start": 801.09,
+      "end": 804.89,
+      "text": "And what you see is amino acid side chains with rather different"
+    },
+    {
+      "idx": 184,
+      "start": 804.89,
+      "end": 808.075,
+      "text": "I've amassed his glycine at the very top."
+    },
+    {
+      "idx": 185,
+      "start": 808.075,
+      "end": 811.415,
+      "text": "All amino acids have a three-letter code or"
+    },
+    {
+      "idx": 186,
+      "start": 812.27,
+      "end": 813.342,
+      "text": "a one-letter code."
+    },
+    {
+      "idx": 187,
+      "start": 813.342,
+      "end": 817.81,
+      "text": "I particularly enjoy using one-letter codes and spelling out people's names"
+    },
+    {
+      "idx": 188,
+      "start": 817.81,
+      "end": 819.615,
+      "text": "in peptides and things like that."
+    },
+    {
+      "idx": 189,
+      "start": 819.615,
+      "end": 822.514,
+      "text": "I'll let you do that in the privacy of your own room."
+    },
+    {
+      "idx": 190,
+      "start": 822.514,
+      "end": 823.17,
+      "text": "It's kind of"
+    },
+    {
+      "idx": 191,
+      "start": 823.17,
+      "end": 827.085,
+      "text": "amusing to see if your name actually spells out a peptide."
+    },
+    {
+      "idx": 192,
+      "start": 827.085,
+      "end": 829.11,
+      "text": "Some of us get, I get a little"
+    },
+    {
+      "idx": 193,
+      "start": 829.19,
+      "end": 836.55,
+      "text": "stuck with Barbara because there are no B amino acid one letters with a B. The next most abundant"
+    },
+    {
+      "idx": 194,
+      "start": 836.55,
+      "end": 840.162,
+      "text": "type of amino acid have hydrophobic side chains."
+    },
+    {
+      "idx": 195,
+      "start": 840.162,
+      "end": 843.85,
+      "text": "What that means is they have a lot of CHs and not"
+    },
+    {
+      "idx": 196,
+      "start": 843.85,
+      "end": 845.659,
+      "text": "a lot else, right?"
+    },
+    {
+      "idx": 197,
+      "start": 845.659,
+      "end": 847.971,
+      "text": "So take a look at them."
+    },
+    {
+      "idx": 198,
+      "start": 847.971,
+      "end": 853.7,
+      "text": "Alanine has a methyl group, for example, where I've shown"
+    },
+    {
+      "idx": 199,
+      "start": 853.7,
+      "end": 856.209,
+      "text": "the R, that would be alanine."
+    },
+    {
+      "idx": 200,
+      "start": 856.209,
+      "end": 858.804,
+      "text": "And they get increasingly big."
+    },
+    {
+      "idx": 201,
+      "start": 858.804,
+      "end": 860.534,
+      "text": "They're quite large."
+    },
+    {
+      "idx": 202,
+      "start": 861.14,
+      "end": 861.331,
+      "text": "them have quite a lot of CHs."
+    },
+    {
+      "idx": 203,
+      "start": 861.331,
+      "end": 861.49,
+      "text": "And they're quite large."
+    },
+    {
+      "idx": 204,
+      "start": 861.49,
+      "end": 861.648,
+      "text": "And they're quite large."
+    },
+    {
+      "idx": 205,
+      "start": 861.648,
+      "end": 861.76,
+      "text": "And they're quite"
+    },
+    {
+      "idx": 206,
+      "start": 861.76,
+      "end": 863.04,
+      "text": "extended side chains."
+    },
+    {
+      "idx": 207,
+      "start": 863.04,
+      "end": 867.0,
+      "text": "Other ones have side chains with rings with double bonds in them."
+    },
+    {
+      "idx": 208,
+      "start": 867.42,
+      "end": 871.819,
+      "text": "Those are what we would designate in organic chemistry as aromatic."
+    },
+    {
+      "idx": 209,
+      "start": 871.819,
+      "end": 873.46,
+      "text": "They show, they are still"
+    },
+    {
+      "idx": 210,
+      "start": 873.46,
+      "end": 878.78,
+      "text": "hydrophobic, but they show different properties to the, to this other set of amino acids."
+    },
+    {
+      "idx": 211,
+      "start": 879.2,
+      "end": 884.78,
+      "text": "Some of these amino acids may actually have polar groups in them, but their major feature"
+    },
+    {
+      "idx": 212,
+      "start": 884.78,
+      "end": 886.868,
+      "text": "is that they're hydrophobic."
+    },
+    {
+      "idx": 213,
+      "start": 886.868,
+      "end": 891.12,
+      "text": "But in an amino acid such as tyrosine, you could not only"
+    },
+    {
+      "idx": 214,
+      "start": 891.12,
+      "end": 896.96,
+      "text": "have hydrophobic interactions with that ring system, but also hydrogen bonding with the OH"
+    },
+    {
+      "idx": 215,
+      "start": 896.96,
+      "end": 898.047,
+      "text": "on the tyrosine."
+    },
+    {
+      "idx": 216,
+      "start": 898.047,
+      "end": 901.92,
+      "text": "So some of the amino acids can do a few different things."
+    },
+    {
+      "idx": 217,
+      "start": 902.7,
+      "end": 907.066,
+      "text": "The next set of amino acids are those that are polar and charged."
+    },
+    {
+      "idx": 218,
+      "start": 907.066,
+      "end": 908.88,
+      "text": "And I've shown you the most"
+    },
+    {
+      "idx": 219,
+      "start": 908.88,
+      "end": 915.28,
+      "text": "common state of all of those amino acids, but you already know that the amine of lysine is likely to"
+    },
+    {
+      "idx": 220,
+      "start": 915.28,
+      "end": 919.68,
+      "text": "This guanidinium group of arginine, take my word for it, it's charged."
+    },
+    {
+      "idx": 221,
+      "start": 919.68,
+      "end": 920.309,
+      "text": "It's a bit"
+    },
+    {
+      "idx": 222,
+      "start": 921.0,
+      "end": 921.024,
+      "text": "It's a bit more powerful."
+    },
+    {
+      "idx": 223,
+      "start": 921.024,
+      "end": 921.048,
+      "text": "It's a bit more powerful."
+    },
+    {
+      "idx": 224,
+      "start": 921.048,
+      "end": 921.072,
+      "text": "It's a bit more powerful."
+    },
+    {
+      "idx": 225,
+      "start": 921.072,
+      "end": 921.087,
+      "text": "It's a bit more"
+    },
+    {
+      "idx": 226,
+      "start": 921.12,
+      "end": 922.307,
+      "text": "complicated to draw."
+    },
+    {
+      "idx": 227,
+      "start": 922.307,
+      "end": 926.7,
+      "text": "Histidine is also one of those that's annoying to draw, but the negatively"
+    },
+    {
+      "idx": 228,
+      "start": 926.7,
+      "end": 930.582,
+      "text": "charged side chains with a carboxylate are both negatively charged."
+    },
+    {
+      "idx": 229,
+      "start": 930.582,
+      "end": 932.32,
+      "text": "And that's something you would"
+    },
+    {
+      "idx": 230,
+      "start": 932.32,
+      "end": 934.754,
+      "text": "remember from the previous class, hopefully."
+    },
+    {
+      "idx": 231,
+      "start": 934.754,
+      "end": 937.52,
+      "text": "And then finally, there are amino acids with polar"
+    },
+    {
+      "idx": 232,
+      "start": 937.52,
+      "end": 940.953,
+      "text": "uncharged side chains, such as the one shown here."
+    },
+    {
+      "idx": 233,
+      "start": 940.953,
+      "end": 944.18,
+      "text": "Now, this doesn't look like a very exciting set"
+    },
+    {
+      "idx": 234,
+      "start": 944.18,
+      "end": 945.625,
+      "text": "of building blocks."
+    },
+    {
+      "idx": 235,
+      "start": 945.625,
+      "end": 951.1,
+      "text": "How can life run on things made of 20 relatively simple building blocks,"
+    },
+    {
+      "idx": 236,
+      "start": 951.12,
+      "end": 952.289,
+      "text": "with functional groups?"
+    },
+    {
+      "idx": 237,
+      "start": 952.289,
+      "end": 955.54,
+      "text": "And it's that the building blocks are not functional themselves."
+    },
+    {
+      "idx": 238,
+      "start": 956.06,
+      "end": 961.223,
+      "text": "It is the polymers that are made up of amino acids."
+    },
+    {
+      "idx": 239,
+      "start": 961.223,
+      "end": 964.26,
+      "text": "And I'll always call them AAs,"
+    },
+    {
+      "idx": 240,
+      "start": 964.5,
+      "end": 967.501,
+      "text": "because it's easier for me."
+    },
+    {
+      "idx": 241,
+      "start": 967.501,
+      "end": 972.724,
+      "text": "The polymers of amino acids are heteropolymers."
+    },
+    {
+      "idx": 242,
+      "start": 972.724,
+      "end": 975.28,
+      "text": "That means they're made"
+    },
+    {
+      "idx": 243,
+      "start": 975.28,
+      "end": 985.672,
+      "text": "up of a bunch of different monomer units when they're called heteropolymers."
+    },
+    {
+      "idx": 244,
+      "start": 985.672,
+      "end": 987.45,
+      "text": "And the other"
+    },
+    {
+      "idx": 245,
+      "start": 987.45,
+      "end": 994.87,
+      "text": "important thing about these polymers is that they are of defined sequence."
+    },
+    {
+      "idx": 246,
+      "start": 997.93,
+      "end": 999.258,
+      "text": "What is the sequence?"
+    },
+    {
+      "idx": 247,
+      "start": 999.258,
+      "end": 1002.229,
+      "text": "It's the order in which the amino acids appear."
+    },
+    {
+      "idx": 248,
+      "start": 1002.229,
+      "end": 1003.81,
+      "text": "So I'm writing that down,"
+    },
+    {
+      "idx": 249,
+      "start": 1003.95,
+      "end": 1010.372,
+      "text": "And all the functions of proteins are dictated by the order of the amino acids."
+    },
+    {
+      "idx": 250,
+      "start": 1011.2,
+      "end": 1013.551,
+      "text": "So let's take a look at the sidebar here."
+    },
+    {
+      "idx": 251,
+      "start": 1013.551,
+      "end": 1015.96,
+      "text": "So once again, remember a couple of things"
+    },
+    {
+      "idx": 252,
+      "start": 1015.96,
+      "end": 1019.549,
+      "text": "that we will always give you this table to think about."
+    },
+    {
+      "idx": 253,
+      "start": 1019.549,
+      "end": 1021.507,
+      "text": "There are a couple of outliers"
+    },
+    {
+      "idx": 254,
+      "start": 1022.16,
+      "end": 1023.932,
+      "text": "I just want to mention quickly."
+    },
+    {
+      "idx": 255,
+      "start": 1023.932,
+      "end": 1027.42,
+      "text": "So I've talked to you about glycine, the simplest amino acid,"
+    },
+    {
+      "idx": 256,
+      "start": 1027.42,
+      "end": 1028.4,
+      "text": "with no elaborate."
+    },
+    {
+      "idx": 257,
+      "start": 1028.46,
+      "end": 1033.77,
+      "text": "Proline is a little odd because its side chain is kind of in a cyclic structure."
+    },
+    {
+      "idx": 258,
+      "start": 1034.96,
+      "end": 1040.12,
+      "text": "And towards the end of the class, I'll talk to you about collagen, whose structure is totally"
+    },
+    {
+      "idx": 259,
+      "start": 1040.12,
+      "end": 1046.58,
+      "text": "dependent on the involvement of proline in the sequence of the amino acids that make up collagen."
+    },
+    {
+      "idx": 260,
+      "start": 1047.08,
+      "end": 1052.001,
+      "text": "And then the last sort of unusual amino acid is cysteine."
+    },
+    {
+      "idx": 261,
+      "start": 1052.001,
+      "end": 1053.296,
+      "text": "It has a thiol."
+    },
+    {
+      "idx": 262,
+      "start": 1053.296,
+      "end": 1054.85,
+      "text": "And the one clever"
+    },
+    {
+      "idx": 263,
+      "start": 1054.85,
+      "end": 1060.93,
+      "text": "thing about cysteine, I'm just going to put a bit of a peptide here, one cysteine,"
+    },
+    {
+      "idx": 264,
+      "start": 1061.63,
+      "end": 1067.77,
+      "text": "and then I'm going to put a second cysteine."
+    },
+    {
+      "idx": 265,
+      "start": 1067.77,
+      "end": 1074.19,
+      "text": "And these are going to be deemed in a peptidic"
+    },
+    {
+      "idx": 266,
+      "start": 1074.19,
+      "end": 1082.34,
+      "text": "What cysteine can do is it can exist either with the thiol side chain, SH, or it can"
+    },
+    {
+      "idx": 267,
+      "start": 1083.31,
+      "end": 1091.05,
+      "text": "be at a different oxidation state where the two sulfas are joined to each other."
+    },
+    {
+      "idx": 268,
+      "start": 1092.15,
+      "end": 1098.63,
+      "text": "So for the most part, your linear arrangement of amino acids that dictates his sequence"
+    },
+    {
+      "idx": 269,
+      "start": 1098.63,
+      "end": 1105.11,
+      "text": "is solely held together by the covalent bonds in the peptide backbone that we'll talk about"
+    },
+    {
+      "idx": 270,
+      "start": 1105.11,
+      "end": 1105.912,
+      "text": "in a minute."
+    },
+    {
+      "idx": 271,
+      "start": 1105.912,
+      "end": 1111.19,
+      "text": "But occasionally in folded structures, if two cysteines are close to each other"
+    },
+    {
+      "idx": 272,
+      "start": 1111.19,
+      "end": 1114.812,
+      "text": "and the environment is oxidizing, they will form a cross link."
+    },
+    {
+      "idx": 273,
+      "start": 1114.812,
+      "end": 1116.39,
+      "text": "But they're not what drives"
+    },
+    {
+      "idx": 274,
+      "start": 1116.39,
+      "end": 1118.618,
+      "text": "They kind of fall into place later on."
+    },
+    {
+      "idx": 275,
+      "start": 1118.618,
+      "end": 1121.081,
+      "text": "But that just sort of sets cysteine apart,"
+    },
+    {
+      "idx": 276,
+      "start": 1121.57,
+      "end": 1123.784,
+      "text": "a little bit, for its properties."
+    },
+    {
+      "idx": 277,
+      "start": 1123.784,
+      "end": 1126.534,
+      "text": "So coming down the side here, amino acids"
+    },
+    {
+      "idx": 278,
+      "start": 1127.54,
+      "end": 1131.593,
+      "text": "are assembled in a unique linear polymer of defined order."
+    },
+    {
+      "idx": 279,
+      "start": 1131.593,
+      "end": 1133.62,
+      "text": "And we designate that defined"
+    },
+    {
+      "idx": 280,
+      "start": 1133.62,
+      "end": 1138.886,
+      "text": "sequence the primary sequence."
+    },
+    {
+      "idx": 281,
+      "start": 1138.886,
+      "end": 1149.77,
+      "text": "And proteins can be 1,000 amino acids, 1,500, 100 amino acids."
+    },
+    {
+      "idx": 282,
+      "start": 1149.87,
+      "end": 1161.1,
+      "text": "They can be various lengths where, you know, we would generally consider the smallest protein to"
+    },
+    {
+      "idx": 283,
+      "start": 1161.1,
+      "end": 1161.268,
+      "text": "be about 400."
+    },
+    {
+      "idx": 284,
+      "start": 1161.268,
+      "end": 1161.903,
+      "text": "And then we would designate the primary sequence."
+    },
+    {
+      "idx": 285,
+      "start": 1161.903,
+      "end": 1162.24,
+      "text": "And we would designate the"
+    },
+    {
+      "idx": 286,
+      "start": 1162.26,
+      "end": 1166.424,
+      "text": "and you might go up to thousands of amino acids."
+    },
+    {
+      "idx": 287,
+      "start": 1166.424,
+      "end": 1169.72,
+      "text": "I'm going to write 2,000 or more here."
+    },
+    {
+      "idx": 288,
+      "start": 1170.22,
+      "end": 1176.98,
+      "text": "When the proteins are smaller, they are not capable of adopting too much ordered structure."
+    },
+    {
+      "idx": 289,
+      "start": 1177.34,
+      "end": 1179.426,
+      "text": "And we mostly call them peptides."
+    },
+    {
+      "idx": 290,
+      "start": 1179.426,
+      "end": 1181.892,
+      "text": "Peptides are sort of shorter sequences."
+    },
+    {
+      "idx": 291,
+      "start": 1181.892,
+      "end": 1183.22,
+      "text": "So peptide sequences."
+    },
+    {
+      "idx": 292,
+      "start": 1183.22,
+      "end": 1187.864,
+      "text": "So this would be a protein."
+    },
+    {
+      "idx": 293,
+      "start": 1187.864,
+      "end": 1195.26,
+      "text": "And peptides, probably 2 to 39 amino acids."
+    },
+    {
+      "idx": 294,
+      "start": 1197.0,
+      "end": 1199.948,
+      "text": "breakpoints are a little bit more vague."
+    },
+    {
+      "idx": 295,
+      "start": 1199.948,
+      "end": 1203.56,
+      "text": "So the primary sequence will define the structure"
+    },
+    {
+      "idx": 296,
+      "start": 1203.56,
+      "end": 1208.52,
+      "text": "of a protein, and we're going to start to talk about the hierarchical structure of proteins"
+    },
+    {
+      "idx": 297,
+      "start": 1208.52,
+      "end": 1209.984,
+      "text": "that's put in place."
+    },
+    {
+      "idx": 298,
+      "start": 1209.984,
+      "end": 1212.619,
+      "text": "So, and that's the primary sequence."
+    },
+    {
+      "idx": 299,
+      "start": 1212.619,
+      "end": 1215.4,
+      "text": "And that primary sequence is kind of a"
+    },
+    {
+      "idx": 300,
+      "start": 1215.4,
+      "end": 1218.187,
+      "text": "cool thing because it's very specific."
+    },
+    {
+      "idx": 301,
+      "start": 1218.187,
+      "end": 1222.44,
+      "text": "It defines, it's got encoded into its structure, the three"
+    },
+    {
+      "idx": 302,
+      "start": 1222.44,
+      "end": 1225.497,
+      "text": "dimensional fold of the protein, okay?"
+    },
+    {
+      "idx": 303,
+      "start": 1225.497,
+      "end": 1229.6,
+      "text": "All the information for the folded compact globular"
+    },
+    {
+      "idx": 304,
+      "start": 1229.6,
+      "end": 1235.074,
+      "text": "structure that's functional is encoded in that primary sequence."
+    },
+    {
+      "idx": 305,
+      "start": 1235.074,
+      "end": 1236.785,
+      "text": "It's a cryptic code."
+    },
+    {
+      "idx": 306,
+      "start": 1236.785,
+      "end": 1237.64,
+      "text": "We may not"
+    },
+    {
+      "idx": 307,
+      "start": 1237.64,
+      "end": 1243.5,
+      "text": "be able to tell by looking at it what it really looks like, but all the information is there"
+    },
+    {
+      "idx": 308,
+      "start": 1243.5,
+      "end": 1248.127,
+      "text": "in order to program the folding into a globular structure."
+    },
+    {
+      "idx": 309,
+      "start": 1248.127,
+      "end": 1250.84,
+      "text": "So the primary sequence determines"
+    },
+    {
+      "idx": 310,
+      "start": 1250.84,
+      "end": 1252.42,
+      "text": "the fold, and it's the..."
+    },
+    {
+      "idx": 311,
+      "start": 1252.44,
+      "end": 1255.449,
+      "text": "the fold of the protein that mandates its function."
+    },
+    {
+      "idx": 312,
+      "start": 1255.449,
+      "end": 1257.632,
+      "text": "It's not the sequence of the protein."
+    },
+    {
+      "idx": 313,
+      "start": 1258.34,
+      "end": 1259.571,
+      "text": "defines the fold."
+    },
+    {
+      "idx": 314,
+      "start": 1259.571,
+      "end": 1264.206,
+      "text": "The fold, the three-dimensional form defines the function, okay?"
+    },
+    {
+      "idx": 315,
+      "start": 1264.206,
+      "end": 1265.22,
+      "text": "So that's very"
+    },
+    {
+      "idx": 316,
+      "start": 1265.22,
+      "end": 1270.176,
+      "text": "And I think it's absolutely amazing that with a relatively limited set of building"
+    },
+    {
+      "idx": 317,
+      "start": 1270.78,
+      "end": 1277.3,
+      "text": "blocks, we can define so many different functions of all the proteins in our body that may be"
+    },
+    {
+      "idx": 318,
+      "start": 1277.3,
+      "end": 1282.42,
+      "text": "structural, they may be catalysts, they may be things that transfer information, they may be"
+    },
+    {
+      "idx": 319,
+      "start": 1282.42,
+      "end": 1282.44,
+      "text": "things that transfer information, they may be things that transfer information, they may be things that"
+    },
+    {
+      "idx": 320,
+      "start": 1282.44,
+      "end": 1285.967,
+      "text": "transfer information from the outside to the inside of the cell."
+    },
+    {
+      "idx": 321,
+      "start": 1285.967,
+      "end": 1287.62,
+      "text": "All of that is programmed with"
+    },
+    {
+      "idx": 322,
+      "start": 1287.62,
+      "end": 1292.461,
+      "text": "this rather limited set of building blocks, okay?"
+    },
+    {
+      "idx": 323,
+      "start": 1292.461,
+      "end": 1297.5,
+      "text": "Now, let's now talk about peptides because one gets"
+    },
+    {
+      "idx": 324,
+      "start": 1297.5,
+      "end": 1300.574,
+      "text": "a little frustrated looking at single amino acids."
+    },
+    {
+      "idx": 325,
+      "start": 1300.574,
+      "end": 1303.34,
+      "text": "They don't tell us so much about the peptidic"
+    },
+    {
+      "idx": 326,
+      "start": 1303.34,
+      "end": 1310.352,
+      "text": "So I'm going to draw two amino acids, and then I'm going to tell you one important thing."
+    },
+    {
+      "idx": 327,
+      "start": 1311.14,
+      "end": 1314.18,
+      "text": "So let's put R1, and I'm going to draw two amino acids, and I'm going to draw two amino acids, and"
+    },
+    {
+      "idx": 328,
+      "start": 1314.18,
+      "end": 1322.52,
+      "text": "I'm going to draw another amino acid, and I'm putting it in a particular orientation, R2,"
+    },
+    {
+      "idx": 329,
+      "start": 1326.05,
+      "end": 1329.69,
+      "text": "because that designates that these might be different amino acids."
+    },
+    {
+      "idx": 330,
+      "start": 1329.93,
+      "end": 1334.21,
+      "text": "For example, if R1 is H, there's an implied hydrogen here."
+    },
+    {
+      "idx": 331,
+      "start": 1334.31,
+      "end": 1335.51,
+      "text": "That would be glycine."
+    },
+    {
+      "idx": 332,
+      "start": 1335.79,
+      "end": 1339.31,
+      "text": "If R2 is a methyl group, there's an implied hydrogen there."
+    },
+    {
+      "idx": 333,
+      "start": 1339.41,
+      "end": 1341.07,
+      "text": "That would be alanine, all right?"
+    },
+    {
+      "idx": 334,
+      "start": 1342.07,
+      "end": 1349.33,
+      "text": "When nature bonds all these amino acids together, it carries out a condensation reaction,"
+    },
+    {
+      "idx": 335,
+      "start": 1349.39,
+      "end": 1361.18,
+      "text": "to form a peptide bond between these two components of the amino acid,"
+    },
+    {
+      "idx": 336,
+      "start": 1361.58,
+      "end": 1363.82,
+      "text": "the amine and the carboxylic acid."
+    },
+    {
+      "idx": 337,
+      "start": 1364.48,
+      "end": 1368.5,
+      "text": "Now I'm going to draw you the first of the dipeptides that you'll meet."
+    },
+    {
+      "idx": 338,
+      "start": 1370.25,
+      "end": 1373.71,
+      "text": "There are so many things to tell you about these structures."
+    },
+    {
+      "idx": 339,
+      "start": 1374.39,
+      "end": 1378.47,
+      "text": "It sort of drives me crazy thinking about, oh, I must remember to tell them that,"
+    },
+    {
+      "idx": 340,
+      "start": 1378.51,
+      "end": 1381.53,
+      "text": "or I've got to remember to tell them that, because the structures are cool."
+    },
+    {
+      "idx": 341,
+      "start": 1384.99,
+      "end": 1387.43,
+      "text": "This is a dipeptide, two amino acids."
+    },
+    {
+      "idx": 342,
+      "start": 1391.42,
+      "end": 1394.24,
+      "text": "And there are some characteristics I want you to remember."
+    },
+    {
+      "idx": 343,
+      "start": 1394.56,
+      "end": 1402.95,
+      "text": "When we write out peptides, we always write them N to C."
+    },
+    {
+      "idx": 344,
+      "start": 1403.29,
+      "end": 1407.39,
+      "text": "So in that peptide, this would be the carboxyl terminus,"
+    },
+    {
+      "idx": 345,
+      "start": 1413.01,
+      "end": 1415.29,
+      "text": "and this would be the amino terminus."
+    },
+    {
+      "idx": 346,
+      "start": 1417.78,
+      "end": 1420.8,
+      "text": "If you don't always remember to write things in this order,"
+    },
+    {
+      "idx": 347,
+      "start": 1420.9,
+      "end": 1424.32,
+      "text": "and you tell your old friend, oh, go and get this peptide made,"
+    },
+    {
+      "idx": 348,
+      "start": 1424.32,
+      "end": 1426.58,
+      "text": "and you put it down in the wrong order, they'll make the wrong..."
+    },
+    {
+      "idx": 349,
+      "start": 1427.58,
+      "end": 1428.58,
+      "text": "So you always..."
+    },
+    {
+      "idx": 350,
+      "start": 1428.58,
+      "end": 1434.38,
+      "text": "There's basically an agreement amongst everyone that we always write from left to right,"
+    },
+    {
+      "idx": 351,
+      "start": 1434.38,
+      "end": 1435.82,
+      "text": "the sequence of peptides."
+    },
+    {
+      "idx": 352,
+      "start": 1435.82,
+      "end": 1439.5,
+      "text": "The next important thing about this structure, as you look at it,"
+    },
+    {
+      "idx": 353,
+      "start": 1439.9,
+      "end": 1444.99,
+      "text": "there are several bonds joining the polymeric structure."
+    },
+    {
+      "idx": 354,
+      "start": 1445.65,
+      "end": 1449.41,
+      "text": "Many of these bonds show free rotation."
+    },
+    {
+      "idx": 355,
+      "start": 1450.4,
+      "end": 1451.66,
+      "text": "You can twist them around."
+    },
+    {
+      "idx": 356,
+      "start": 1451.88,
+      "end": 1453.68,
+      "text": "There's nothing stopping that conversion."
+    },
+    {
+      "idx": 357,
+      "start": 1454.6,
+      "end": 1458.28,
+      "text": "All of these show freedom of rotation."
+    },
+    {
+      "idx": 358,
+      "start": 1458.42,
+      "end": 1458.92,
+      "text": "So this is the..."
+    },
+    {
+      "idx": 359,
+      "start": 1458.92,
+      "end": 1472.7,
+      "text": "So the amide or peptide bond is unique in that there's restricted rotation about that bond."
+    },
+    {
+      "idx": 360,
+      "start": 1472.98,
+      "end": 1475.0,
+      "text": "So it's as if you've got a linear polymer,"
+    },
+    {
+      "idx": 361,
+      "start": 1475.44,
+      "end": 1480.24,
+      "text": "but every third bond has kind of stuck in a particular orientation,"
+    },
+    {
+      "idx": 362,
+      "start": 1480.56,
+      "end": 1485.76,
+      "text": "which starts to define a lot of details about protein tertiary structure."
+    },
+    {
+      "idx": 363,
+      "start": 1486.08,
+      "end": 1488.4,
+      "text": "It's not complete spaghetti."
+    },
+    {
+      "idx": 364,
+      "start": 1488.58,
+      "end": 1490.92,
+      "text": "It's like spaghetti with little bits that haven't been cooked."
+    },
+    {
+      "idx": 365,
+      "start": 1490.92,
+      "end": 1493.56,
+      "text": "They're stiffer than the rest of the sequence."
+    },
+    {
+      "idx": 366,
+      "start": 1493.56,
+      "end": 1496.88,
+      "text": "And the other really important thing about the peptide structure"
+    },
+    {
+      "idx": 367,
+      "start": 1496.88,
+      "end": 1499.44,
+      "text": "is that embedded within that structure,"
+    },
+    {
+      "idx": 368,
+      "start": 1499.94,
+      "end": 1506.12,
+      "text": "there is the amide or peptide functional group,"
+    },
+    {
+      "idx": 369,
+      "start": 1506.5,
+      "end": 1512.39,
+      "text": "where remember, this can be a hydrogen bond acceptor,"
+    },
+    {
+      "idx": 370,
+      "start": 1515.07,
+      "end": 1517.39,
+      "text": "and this can be a hydrogen bond donor."
+    },
+    {
+      "idx": 371,
+      "start": 1518.08,
+      "end": 1521.86,
+      "text": "Once you know that, the next few slides will make a lot of sense"
+    },
+    {
+      "idx": 372,
+      "start": 1521.86,
+      "end": 1524.68,
+      "text": "as we talk about higher order structure of proteins."
+    },
+    {
+      "idx": 373,
+      "start": 1525.02,
+      "end": 1528.32,
+      "text": "So let's just take a look at that with a slightly longer peptide."
+    },
+    {
+      "idx": 374,
+      "start": 1529.62,
+      "end": 1534.02,
+      "text": "if I'm going to draw a peptide that's methionine, isoleucine, threonine,"
+    },
+    {
+      "idx": 375,
+      "start": 1534.02,
+      "end": 1537.0,
+      "text": "you can look up those names on the chart,"
+    },
+    {
+      "idx": 376,
+      "start": 1537.0,
+      "end": 1539.36,
+      "text": "that would be the MIT peptide."
+    },
+    {
+      "idx": 377,
+      "start": 1539.36,
+      "end": 1541.58,
+      "text": "These are the three amino acids."
+    },
+    {
+      "idx": 378,
+      "start": 1541.58,
+      "end": 1545.26,
+      "text": "I'm going to condense them into a tripeptide."
+    },
+    {
+      "idx": 379,
+      "start": 1545.26,
+      "end": 1547.0,
+      "text": "When I condense three amino acids,"
+    },
+    {
+      "idx": 380,
+      "start": 1547.0,
+      "end": 1549.36,
+      "text": "I spit out two molecules of water,"
+    },
+    {
+      "idx": 381,
+      "start": 1549.36,
+      "end": 1554.3,
+      "text": "and I put in place two amide or peptide bonds."
+    },
+    {
+      "idx": 382,
+      "start": 1554.3,
+      "end": 1556.36,
+      "text": "If I go down this backbone,"
+    },
+    {
+      "idx": 383,
+      "start": 1556.36,
+      "end": 1559.56,
+      "text": "every third bond is going to be fixed."
+    },
+    {
+      "idx": 384,
+      "start": 1559.62,
+      "end": 1562.86,
+      "text": "Fairly fixed, there's not freedom of rotation around it."
+    },
+    {
+      "idx": 385,
+      "start": 1562.86,
+      "end": 1567.34,
+      "text": "And every third bond is going to have the capacity to be involved"
+    },
+    {
+      "idx": 386,
+      "start": 1567.34,
+      "end": 1570.86,
+      "text": "in hydrogen bonding interactions, as I've suggested here."
+    },
+    {
+      "idx": 387,
+      "start": 1572.54,
+      "end": 1574.36,
+      "text": "What else is there here?"
+    },
+    {
+      "idx": 388,
+      "start": 1574.36,
+      "end": 1577.08,
+      "text": "When I write the MIT peptide,"
+    },
+    {
+      "idx": 389,
+      "start": 1577.08,
+      "end": 1581.64,
+      "text": "I write M first, I second, T third."
+    },
+    {
+      "idx": 390,
+      "start": 1581.64,
+      "end": 1585.92,
+      "text": "If I wrote TIM, it would be a completely different chemical structure"
+    },
+    {
+      "idx": 391,
+      "start": 1585.92,
+      "end": 1587.88,
+      "text": "with different chemical properties."
+    },
+    {
+      "idx": 392,
+      "start": 1587.88,
+      "end": 1589.38,
+      "text": "So the directionality is important."
+    },
+    {
+      "idx": 393,
+      "start": 1589.38,
+      "end": 1589.44,
+      "text": "So the directionality is important."
+    },
+    {
+      "idx": 394,
+      "start": 1589.44,
+      "end": 1589.58,
+      "text": "So the directionality is important."
+    },
+    {
+      "idx": 395,
+      "start": 1589.58,
+      "end": 1589.6,
+      "text": "So the directionality is important."
+    },
+    {
+      "idx": 396,
+      "start": 1589.62,
+      "end": 1591.51,
+      "text": "So the directionality is important to understand."
+    },
+    {
+      "idx": 397,
+      "start": 1591.51,
+      "end": 1593.13,
+      "text": "And there you have it."
+    },
+    {
+      "idx": 398,
+      "start": 1593.13,
+      "end": 1597.75,
+      "text": "So now you can go home and practice your name in amino acids and draw them out."
+    },
+    {
+      "idx": 399,
+      "start": 1597.75,
+      "end": 1601.49,
+      "text": "If you draw them out fairly sort of sharply,"
+    },
+    {
+      "idx": 400,
+      "start": 1601.49,
+      "end": 1604.91,
+      "text": "then you'll never get confused about what ends what"
+    },
+    {
+      "idx": 401,
+      "start": 1604.91,
+      "end": 1606.91,
+      "text": "and where the substituents are."
+    },
+    {
+      "idx": 402,
+      "start": 1606.91,
+      "end": 1609.81,
+      "text": "But it's important to remember as you're making a dipeptide,"
+    },
+    {
+      "idx": 403,
+      "start": 1609.81,
+      "end": 1611.53,
+      "text": "oops, I forget this doesn't work,"
+    },
+    {
+      "idx": 404,
+      "start": 1611.53,
+      "end": 1613.71,
+      "text": "as you're condensing a dipeptide,"
+    },
+    {
+      "idx": 405,
+      "start": 1613.71,
+      "end": 1617.05,
+      "text": "when you're putting these R groups on, one goes up, one goes down."
+    },
+    {
+      "idx": 406,
+      "start": 1617.05,
+      "end": 1619.57,
+      "text": "But these are nuances of the structure that may,"
+    },
+    {
+      "idx": 407,
+      "start": 1619.57,
+      "end": 1622.19,
+      "text": "may be good for a later discussion."
+    },
+    {
+      "idx": 408,
+      "start": 1622.19,
+      "end": 1625.69,
+      "text": "So here is now a longer linear peptide"
+    },
+    {
+      "idx": 409,
+      "start": 1625.69,
+      "end": 1628.45,
+      "text": "and the suggestion of a globular structure"
+    },
+    {
+      "idx": 410,
+      "start": 1628.45,
+      "end": 1631.61,
+      "text": "that might be found if that peptide was folded up."
+    },
+    {
+      "idx": 411,
+      "start": 1631.61,
+      "end": 1640.61,
+      "text": "So, and the primary sequence here defines the globular structure"
+    },
+    {
+      "idx": 412,
+      "start": 1640.61,
+      "end": 1645.99,
+      "text": "and the process whereby you go from the extended primary sequence"
+    },
+    {
+      "idx": 413,
+      "start": 1645.99,
+      "end": 1649.39,
+      "text": "to the folded structure is called protein folding."
+    },
+    {
+      "idx": 414,
+      "start": 1649.39,
+      "end": 1659.44,
+      "text": "And a physical chemists and physicists"
+    },
+    {
+      "idx": 415,
+      "start": 1659.44,
+      "end": 1663.78,
+      "text": "and computational chemists have for years tried to understand"
+    },
+    {
+      "idx": 416,
+      "start": 1663.78,
+      "end": 1669.18,
+      "text": "how we could predict the folded structure from the primary sequence."
+    },
+    {
+      "idx": 417,
+      "start": 1669.18,
+      "end": 1674.78,
+      "text": "It's not simple, because what you're doing is you're solving a massive energy diagram"
+    },
+    {
+      "idx": 418,
+      "start": 1674.78,
+      "end": 1677.16,
+      "text": "were as you fold a structure up,"
+    },
+    {
+      "idx": 419,
+      "start": 1677.16,
+      "end": 1682.1,
+      "text": "you're trying to maximize all those non-covalent forces"
+    },
+    {
+      "idx": 420,
+      "start": 1682.1,
+      "end": 1684.0,
+      "text": "for maximum thermodynamic stability."
+    },
+    {
+      "idx": 421,
+      "start": 1684.0,
+      "end": 1685.9,
+      "text": "So there is this power."
+    },
+    {
+      "idx": 422,
+      "start": 1685.9,
+      "end": 1685.92,
+      "text": "Again, this is an interesting principle."
+    },
+    {
+      "idx": 423,
+      "start": 1685.92,
+      "end": 1685.96,
+      "text": "Therefore, when you repeat both the�� child's and you make onexturesfor heartbeating by financing one场 الن detectorism,"
+    },
+    {
+      "idx": 424,
+      "start": 1685.96,
+      "end": 1686.04,
+      "text": "then you're making the question of how much nice will one estasome Mercosur make and noon Möglichkeiten at the rare and many inactive明白I'm sink."
+    },
+    {
+      "idx": 425,
+      "start": 1686.24,
+      "end": 1695.692,
+      "text": "It's kind of a three dimensional puzzle where you're trying to have as many hydrogen bonds, electrostatic interactions and so on as you can possibly make."
+    },
+    {
+      "idx": 426,
+      "start": 1696.18,
+      "end": 1705.08,
+      "text": "So when computational chemists try to fold proteins, they're basically solving a three dimensional puzzle where they are maximizing interactions."
+    },
+    {
+      "idx": 427,
+      "start": 1705.08,
+      "end": 1716.0,
+      "text": "And there are a lot of ab initio and molecular dynamics programs that are now starting to be able to fold proteins into fairly reliable structures."
+    },
+    {
+      "idx": 428,
+      "start": 1716.0,
+      "end": 1721.46,
+      "text": "But they don't always get them right because they haven't gotten all the clues yet."
+    },
+    {
+      "idx": 429,
+      "start": 1721.82,
+      "end": 1731.94,
+      "text": "And also, while they may be able to do ab initio or computational folding with small structures, the headache gets way bigger the larger the structures get."
+    },
+    {
+      "idx": 430,
+      "start": 1731.94,
+      "end": 1734.94,
+      "text": "So the predictors aren't very good at predicting."
+    },
+    {
+      "idx": 431,
+      "start": 1735.34,
+      "end": 1739.1,
+      "text": "Big structures, they're getting better at predicting small structures."
+    },
+    {
+      "idx": 432,
+      "start": 1739.76,
+      "end": 1749.28,
+      "text": "And so just to reinforce to you, the primary sequence is established by covalent bonds, the peptide bonds."
+    },
+    {
+      "idx": 433,
+      "start": 1749.48,
+      "end": 1754.9,
+      "text": "But the globular tertiary structure is based on non-covalent covalent interactions."
+    },
+    {
+      "idx": 434,
+      "start": 1754.9,
+      "end": 1757.179,
+      "text": "OK, now I want to ask you this."
+    },
+    {
+      "idx": 435,
+      "start": 1757.179,
+      "end": 1765.12,
+      "text": "I love cartoons with science in them, but, you know, 10, 20 percent of the time they get they make mistakes."
+    },
+    {
+      "idx": 436,
+      "start": 1765.18,
+      "end": 1768.18,
+      "text": "And I thought this one was particularly pertinent."
+    },
+    {
+      "idx": 437,
+      "start": 1768.18,
+      "end": 1774.42,
+      "text": "It's a bunch of guys lugging around in a lab and says, well, we finished the genome map."
+    },
+    {
+      "idx": 438,
+      "start": 1774.42,
+      "end": 1776.98,
+      "text": "Now we just have to figure out how to fold it."
+    },
+    {
+      "idx": 439,
+      "start": 1776.98,
+      "end": 1778.98,
+      "text": "What is wrong with that cartoon?"
+    },
+    {
+      "idx": 440,
+      "start": 1778.98,
+      "end": 1783.521,
+      "text": "Yeah, yeah, yeah."
+    },
+    {
+      "idx": 441,
+      "start": 1786.46,
+      "end": 1788.46,
+      "text": "The genome doesn't fold."
+    },
+    {
+      "idx": 442,
+      "start": 1788.46,
+      "end": 1791.46,
+      "text": "It's double helical duplex DNA or something."
+    },
+    {
+      "idx": 443,
+      "start": 1791.46,
+      "end": 1793.46,
+      "text": "You're actually folding proteins."
+    },
+    {
+      "idx": 444,
+      "start": 1793.46,
+      "end": 1796.46,
+      "text": "So the cartoon is not quite right, but it's sort of kind of cute."
+    },
+    {
+      "idx": 445,
+      "start": 1797.28,
+      "end": 1798.36,
+      "text": "Now, when we talk about the notion of the protein, we're talking about the protein that's in the genome."
+    },
+    {
+      "idx": 446,
+      "start": 1798.36,
+      "end": 1813.36,
+      "text": "When we talk about the non-covalent forces that hold proteins together, I just want you to remember from last time this set of non-covalent forces, because if you understand them and recognize them, you'll understand how they may occur in folded protein structures."
+    },
+    {
+      "idx": 447,
+      "start": 1814.36,
+      "end": 1817.36,
+      "text": "So here's a peptide sequence."
+    },
+    {
+      "idx": 448,
+      "start": 1817.36,
+      "end": 1819.36,
+      "text": "Here's a puzzle for you."
+    },
+    {
+      "idx": 449,
+      "start": 1819.36,
+      "end": 1822.36,
+      "text": "You can go back and figure out what the one letter code spells there."
+    },
+    {
+      "idx": 450,
+      "start": 1822.36,
+      "end": 1826.62,
+      "text": "Just take out your your table with all the amino acids."
+    },
+    {
+      "idx": 451,
+      "start": 1826.62,
+      "end": 1827.62,
+      "text": "It's appended to the back of the table."
+    },
+    {
+      "idx": 452,
+      "start": 1828.62,
+      "end": 1833.62,
+      "text": "So you can go back to the back of your piece set and you'll be able to see what that very large peptide spells."
+    },
+    {
+      "idx": 453,
+      "start": 1834.62,
+      "end": 1835.62,
+      "text": "I don't want you working out while you're here."
+    },
+    {
+      "idx": 454,
+      "start": 1835.62,
+      "end": 1837.62,
+      "text": "You've got to listen to me for the time being."
+    },
+    {
+      "idx": 455,
+      "start": 1838.62,
+      "end": 1846.04,
+      "text": "So the first order, we get it."
+    },
+    {
+      "idx": 456,
+      "start": 1846.04,
+      "end": 1853.0,
+      "text": "There's a primary sequence."
+    },
+    {
+      "idx": 457,
+      "start": 1853.0,
+      "end": 1857.0,
+      "text": "The next thing to think about is what's known as secondary structure."
+    },
+    {
+      "idx": 458,
+      "start": 1857.0,
+      "end": 1860.0,
+      "text": "It's higher order than just the primary sequence."
+    },
+    {
+      "idx": 459,
+      "start": 1860.0,
+      "end": 1865.35,
+      "text": "And it's established by non-covalent bonds."
+    },
+    {
+      "idx": 460,
+      "start": 1865.35,
+      "end": 1867.35,
+      "text": "And it's called secondary."
+    },
+    {
+      "idx": 461,
+      "start": 1867.35,
+      "end": 1868.35,
+      "text": "My writing is horrid today."
+    },
+    {
+      "idx": 462,
+      "start": 1870.35,
+      "end": 1892.25,
+      "text": "And those are interactions that are put in place exclusively by interactions between the peptide bonds of what's known as the peptide backbone."
+    },
+    {
+      "idx": 463,
+      "start": 1892.25,
+      "end": 1896.25,
+      "text": "So if you look at this structure, these are the side chains."
+    },
+    {
+      "idx": 464,
+      "start": 1896.25,
+      "end": 1901.25,
+      "text": "The peptide backbone is this continuous linear sequence."
+    },
+    {
+      "idx": 465,
+      "start": 1901.25,
+      "end": 1903.25,
+      "text": "That's what we would call the peptide backbone."
+    },
+    {
+      "idx": 466,
+      "start": 1903.25,
+      "end": 1911.25,
+      "text": "And the secondary structure is put in place by hydrogen bonding between components of the peptide backbone."
+    },
+    {
+      "idx": 467,
+      "start": 1911.25,
+      "end": 1933.54,
+      "text": "So, for example, a hydrogen bond such as that or a different hydrogen bonding interaction such as that between the atoms that have lone pairs of electrons and the other atoms, heavy atoms that hold a hydrogen that's quite acidic."
+    },
+    {
+      "idx": 468,
+      "start": 1933.54,
+      "end": 1936.54,
+      "text": "And there are a couple of major forms of secondary structure."
+    },
+    {
+      "idx": 469,
+      "start": 1936.54,
+      "end": 1942.54,
+      "text": "What I'm showing you here is what's known as the alpha helix."
+    },
+    {
+      "idx": 470,
+      "start": 1942.54,
+      "end": 1949.54,
+      "text": "First deduced by Pauling, in fact, through model building, he said proteins could form these ordered structures."
+    },
+    {
+      "idx": 471,
+      "start": 1949.54,
+      "end": 1957.54,
+      "text": "And an alpha helix is an ordered structure exclusively made up from the hydrogen bonding interactions of the peptide backbone."
+    },
+    {
+      "idx": 472,
+      "start": 1957.54,
+      "end": 1960.54,
+      "text": "And you can look at this helical structure."
+    },
+    {
+      "idx": 473,
+      "start": 1960.54,
+      "end": 1963.54,
+      "text": "It's a continuous strand of peptide."
+    },
+    {
+      "idx": 474,
+      "start": 1963.54,
+      "end": 1965.54,
+      "text": "But there are hydrogen bonds between them."
+    },
+    {
+      "idx": 475,
+      "start": 1965.54,
+      "end": 1984.96,
+      "text": "And there are also hydrogen bonds between COs and NHs all the way through the backbone such that this strand of polypeptide can fold up into a cylindrical helical structure where all those R groups, the side chains of the amino acids, are on the perimeter of that helix."
+    },
+    {
+      "idx": 476,
+      "start": 1984.96,
+      "end": 1993.96,
+      "text": "So this secondary structure is an important one because it's very prevalent in a lot of proteins."
+    },
+    {
+      "idx": 477,
+      "start": 1993.96,
+      "end": 1998.96,
+      "text": "And the next secondary structure is also held together by hydrogen bonding."
+    },
+    {
+      "idx": 478,
+      "start": 1998.96,
+      "end": 2009.96,
+      "text": "And it's interactions between stretched out strands of polypeptides that may not be close to each other in the primary sequence, but they align in the folded structure."
+    },
+    {
+      "idx": 479,
+      "start": 2009.96,
+      "end": 2015.96,
+      "text": "And so, for example, what I've shown you here is what's known as this guy is N to C."
+    },
+    {
+      "idx": 480,
+      "start": 2015.96,
+      "end": 2017.96,
+      "text": "This is an anti-parallel beta sheet."
+    },
+    {
+      "idx": 481,
+      "start": 2017.96,
+      "end": 2021.96,
+      "text": "And across that sheet, there are continuous opportunities for hydrogen bonding interactions."
+    },
+    {
+      "idx": 482,
+      "start": 2021.96,
+      "end": 2022.96,
+      "text": "And this is a very important one."
+    },
+    {
+      "idx": 483,
+      "start": 2022.96,
+      "end": 2024.96,
+      "text": "This is a hydrogen bonding interaction."
+    },
+    {
+      "idx": 484,
+      "start": 2024.96,
+      "end": 2027.96,
+      "text": "If the strands run in opposite directions, it's anti-parallel."
+    },
+    {
+      "idx": 485,
+      "start": 2027.96,
+      "end": 2030.96,
+      "text": "If they're in the same direction, it's parallel."
+    },
+    {
+      "idx": 486,
+      "start": 2030.96,
+      "end": 2041.93,
+      "text": "These two secondary structure elements make up a lot of the sort of basics of how proteins start to fold."
+    },
+    {
+      "idx": 487,
+      "start": 2041.93,
+      "end": 2044.93,
+      "text": "They're key non-covalent forces."
+    },
+    {
+      "idx": 488,
+      "start": 2044.93,
+      "end": 2047.93,
+      "text": "And there are also other smaller motifs."
+    },
+    {
+      "idx": 489,
+      "start": 2047.93,
+      "end": 2049.93,
+      "text": "One is called a beta turn."
+    },
+    {
+      "idx": 490,
+      "start": 2049.93,
+      "end": 2053.93,
+      "text": "Where the peptide sequence may go through a single protein."
+    },
+    {
+      "idx": 491,
+      "start": 2053.93,
+      "end": 2056.93,
+      "text": "The sequence may go through a chain reversal."
+    },
+    {
+      "idx": 492,
+      "start": 2056.93,
+      "end": 2058.93,
+      "text": "So the sequence would look like this."
+    },
+    {
+      "idx": 493,
+      "start": 2058.93,
+      "end": 2064.35,
+      "text": "I'm going to just throw it and I'll talk to you in a moment about ribbon diagrams."
+    },
+    {
+      "idx": 494,
+      "start": 2064.35,
+      "end": 2067.35,
+      "text": "And this piece here would be the turn."
+    },
+    {
+      "idx": 495,
+      "start": 2067.35,
+      "end": 2070.35,
+      "text": "Whereas that would be the interactions enforced by the sheet."
+    },
+    {
+      "idx": 496,
+      "start": 2070.35,
+      "end": 2074.35,
+      "text": "These are the ordered elements of secondary structure."
+    },
+    {
+      "idx": 497,
+      "start": 2074.35,
+      "end": 2080.35,
+      "text": "You don't have to be able to figure them out, but you have to be able to pick them out in order to understand the structure."
+    },
+    {
+      "idx": 498,
+      "start": 2082.35,
+      "end": 2090.35,
+      "text": "So even those simple elements still, it's hard to make big enough structures to have functions."
+    },
+    {
+      "idx": 499,
+      "start": 2090.35,
+      "end": 2096.35,
+      "text": "So as I mentioned in a continuation of the theme, the protein folding is hierarchical."
+    },
+    {
+      "idx": 500,
+      "start": 2096.35,
+      "end": 2102.35,
+      "text": "You can start to put together elements of secondary structure to make things that are a little larger."
+    },
+    {
+      "idx": 501,
+      "start": 2102.35,
+      "end": 2105.35,
+      "text": "Helix turn helix."
+    },
+    {
+      "idx": 502,
+      "start": 2105.35,
+      "end": 2108.38,
+      "text": "Helix with a different kind of turn."
+    },
+    {
+      "idx": 503,
+      "start": 2108.38,
+      "end": 2110.38,
+      "text": "Maybe put in place by a metal ion or something."
+    },
+    {
+      "idx": 504,
+      "start": 2110.38,
+      "end": 2111.38,
+      "text": "Or a strand."
+    },
+    {
+      "idx": 505,
+      "start": 2113.38,
+      "end": 2119.38,
+      "text": "Or now something that's a composite of these two major types of secondary structure."
+    },
+    {
+      "idx": 506,
+      "start": 2119.38,
+      "end": 2121.38,
+      "text": "The helix and the turn."
+    },
+    {
+      "idx": 507,
+      "start": 2121.38,
+      "end": 2126.38,
+      "text": "And these really start to be proteins that might be big enough to be able to do something."
+    },
+    {
+      "idx": 508,
+      "start": 2126.38,
+      "end": 2136.38,
+      "text": "But they're all exclusively held together by non-covalent forces between the amides or peptide bonds in the backbone of the protein."
+    },
+    {
+      "idx": 509,
+      "start": 2137.38,
+      "end": 2139.38,
+      "text": "Not very exciting just yet."
+    },
+    {
+      "idx": 510,
+      "start": 2140.67,
+      "end": 2141.67,
+      "text": "One more thing."
+    },
+    {
+      "idx": 511,
+      "start": 2141.67,
+      "end": 2145.67,
+      "text": "Another little clue that people will, you might see and you might be confused."
+    },
+    {
+      "idx": 512,
+      "start": 2145.67,
+      "end": 2151.67,
+      "text": "People sometimes when they're drawing sort of a quick picture of a protein, they might draw a helix."
+    },
+    {
+      "idx": 513,
+      "start": 2151.67,
+      "end": 2155.67,
+      "text": "But instead of really showing it in detail, they might show it as a cylinder."
+    },
+    {
+      "idx": 514,
+      "start": 2155.67,
+      "end": 2159.37,
+      "text": "So you might need to pick that out of a structure."
+    },
+    {
+      "idx": 515,
+      "start": 2159.37,
+      "end": 2168.37,
+      "text": "And then I want to call your attention to the fact that in all those motifs, when you join one helix to another, you might need a turn."
+    },
+    {
+      "idx": 516,
+      "start": 2168.37,
+      "end": 2171.37,
+      "text": "A strand to another strand, you need a turn."
+    },
+    {
+      "idx": 517,
+      "start": 2171.37,
+      "end": 2172.37,
+      "text": "And so on."
+    },
+    {
+      "idx": 518,
+      "start": 2173.37,
+      "end": 2181.37,
+      "text": "So this is like taking your very extended sort of polymer, knowing there are different kinks in it because of the backbone bonds."
+    },
+    {
+      "idx": 519,
+      "start": 2181.37,
+      "end": 2190.37,
+      "text": "But folding it up in a structure that maximizes the opportunity for another order of structure, which we'll talk about now."
+    },
+    {
+      "idx": 520,
+      "start": 2191.37,
+      "end": 2193.37,
+      "text": "So we've seen primary."
+    },
+    {
+      "idx": 521,
+      "start": 2193.37,
+      "end": 2198.68,
+      "text": "Secondary is just with backbone."
+    },
+    {
+      "idx": 522,
+      "start": 2198.68,
+      "end": 2203.48,
+      "text": "And things start to get much more interesting when we get to tertiary structure."
+    },
+    {
+      "idx": 523,
+      "start": 2203.48,
+      "end": 2222.48,
+      "text": "Because tertiary structure is enabled by all these other interactions, electrostatic, hydrogen bonding, hydrophobic forces that can be put in place due to the side chains of the amino acids interacting with each other or with the backbone structure."
+    },
+    {
+      "idx": 524,
+      "start": 2222.48,
+      "end": 2229.48,
+      "text": "So I'm going to walk you through this so you can sort of get a sense of how these three-dimensional puzzles work on a very small scale."
+    },
+    {
+      "idx": 525,
+      "start": 2229.48,
+      "end": 2230.48,
+      "text": "So look here."
+    },
+    {
+      "idx": 526,
+      "start": 2230.48,
+      "end": 2232.48,
+      "text": "That's a very small motif."
+    },
+    {
+      "idx": 527,
+      "start": 2232.48,
+      "end": 2242.48,
+      "text": "And what I'm going to call your attention to is when you fold up these motifs, when the secondary structure is in place, a lot of the side chains are near each other."
+    },
+    {
+      "idx": 528,
+      "start": 2242.48,
+      "end": 2245.48,
+      "text": "And they can engage in long-distance contacts."
+    },
+    {
+      "idx": 529,
+      "start": 2245.48,
+      "end": 2255.48,
+      "text": "And so, for example, I'm going to show you interactions between side chains, between side chains and the peptide backbone, or side chains and water."
+    },
+    {
+      "idx": 530,
+      "start": 2255.48,
+      "end": 2261.48,
+      "text": "But what I want you to do is take a look at this and see can you put any of those potential interactions on the drawing that's on your hand."
+    },
+    {
+      "idx": 531,
+      "start": 2261.48,
+      "end": 2273.24,
+      "text": "It's pretty obvious where there's an electrostatic interaction, right?"
+    },
+    {
+      "idx": 532,
+      "start": 2275.24,
+      "end": 2276.24,
+      "text": "Get those out of the way."
+    },
+    {
+      "idx": 533,
+      "start": 2276.24,
+      "end": 2277.24,
+      "text": "Those are the easy ones."
+    },
+    {
+      "idx": 534,
+      "start": 2277.24,
+      "end": 2284.24,
+      "text": "And then interactions between hydrophobic groups where they want to amass that lipophilic structure so it's not exposed as much to water."
+    },
+    {
+      "idx": 535,
+      "start": 2284.24,
+      "end": 2285.24,
+      "text": "So they cluster."
+    },
+    {
+      "idx": 536,
+      "start": 2285.24,
+      "end": 2286.24,
+      "text": "So those are easy."
+    },
+    {
+      "idx": 537,
+      "start": 2286.24,
+      "end": 2291.24,
+      "text": "And then you can start thinking about what are all the hydrogen bonds you could draw."
+    },
+    {
+      "idx": 538,
+      "start": 2291.24,
+      "end": 2292.24,
+      "text": "Here I've shown a little bit of a diagram."
+    },
+    {
+      "idx": 539,
+      "start": 2292.24,
+      "end": 2293.24,
+      "text": "Here's a little bit of a diagram."
+    },
+    {
+      "idx": 540,
+      "start": 2293.24,
+      "end": 2300.24,
+      "text": "One between side chains, between side chains and backbone, between side chains and water."
+    },
+    {
+      "idx": 541,
+      "start": 2300.24,
+      "end": 2305.24,
+      "text": "And those may all contribute to the ultimate thermodynamic stability."
+    },
+    {
+      "idx": 542,
+      "start": 2305.24,
+      "end": 2307.24,
+      "text": "Make sure you get your hydrogen bonds right."
+    },
+    {
+      "idx": 543,
+      "start": 2307.24,
+      "end": 2312.24,
+      "text": "Remember, two donors don't interact with each other and two acceptors don't."
+    },
+    {
+      "idx": 544,
+      "start": 2312.24,
+      "end": 2318.24,
+      "text": "So this might describe the folding possibilities of that small motif."
+    },
+    {
+      "idx": 545,
+      "start": 2318.24,
+      "end": 2320.24,
+      "text": "Now what I want to show you."
+    },
+    {
+      "idx": 546,
+      "start": 2320.24,
+      "end": 2321.49,
+      "text": "I'm going to."
+    },
+    {
+      "idx": 547,
+      "start": 2322.49,
+      "end": 2325.32,
+      "text": "I'm going to show you."
+    },
+    {
+      "idx": 548,
+      "start": 2325.32,
+      "end": 2326.32,
+      "text": "I'm going to show you."
+    },
+    {
+      "idx": 549,
+      "start": 2326.32,
+      "end": 2331.32,
+      "text": "This is a little bit of a simulation of a folding process."
+    },
+    {
+      "idx": 550,
+      "start": 2331.32,
+      "end": 2334.32,
+      "text": "So let me just get that a little bigger on the screen."
+    },
+    {
+      "idx": 551,
+      "start": 2334.32,
+      "end": 2337.32,
+      "text": "So this is computing."
+    },
+    {
+      "idx": 552,
+      "start": 2337.32,
+      "end": 2343.32,
+      "text": "GB1 is a very small protein that folds reversibly under appropriate conditions."
+    },
+    {
+      "idx": 553,
+      "start": 2343.32,
+      "end": 2348.32,
+      "text": "And what I'm going to do is forward you through this video."
+    },
+    {
+      "idx": 554,
+      "start": 2348.32,
+      "end": 2349.32,
+      "text": "This is a simulation."
+    },
+    {
+      "idx": 555,
+      "start": 2349.32,
+      "end": 2351.32,
+      "text": "This is all computation."
+    },
+    {
+      "idx": 556,
+      "start": 2351.32,
+      "end": 2359.04,
+      "text": "This is not looking at anything by spectroscopy or in solution or anything like that."
+    },
+    {
+      "idx": 557,
+      "start": 2359.04,
+      "end": 2363.04,
+      "text": "And what I'm going to do is I'm going to forward you through the structure."
+    },
+    {
+      "idx": 558,
+      "start": 2363.04,
+      "end": 2365.04,
+      "text": "This is multi-scale modeling."
+    },
+    {
+      "idx": 559,
+      "start": 2365.04,
+      "end": 2368.04,
+      "text": "It's got a lot of details in how it's done."
+    },
+    {
+      "idx": 560,
+      "start": 2368.04,
+      "end": 2373.04,
+      "text": "But the starting point is a very denatured protein, all stretched out."
+    },
+    {
+      "idx": 561,
+      "start": 2374.04,
+      "end": 2381.04,
+      "text": "And what I'm going to do is just show you for a few seconds, you know, just things like trying to find its thermodynamic minimum."
+    },
+    {
+      "idx": 562,
+      "start": 2381.04,
+      "end": 2383.04,
+      "text": "And it's actually failing pretty badly."
+    },
+    {
+      "idx": 563,
+      "start": 2383.04,
+      "end": 2387.04,
+      "text": "It does that for about 60 seconds of the simulation."
+    },
+    {
+      "idx": 564,
+      "start": 2387.04,
+      "end": 2394.04,
+      "text": "So I made a point to myself to take you to about minute one where things start to get fairly interesting."
+    },
+    {
+      "idx": 565,
+      "start": 2394.04,
+      "end": 2396.04,
+      "text": "You're saying, well, what's interesting about that?"
+    },
+    {
+      "idx": 566,
+      "start": 2396.04,
+      "end": 2398.04,
+      "text": "You see that nascent helix."
+    },
+    {
+      "idx": 567,
+      "start": 2398.04,
+      "end": 2404.04,
+      "text": "In the background, the red and the blue is starting to form strands that are a little bit aligned."
+    },
+    {
+      "idx": 568,
+      "start": 2404.04,
+      "end": 2410.04,
+      "text": "And it's trying to find as many connections as possible to satisfy a stable structure."
+    },
+    {
+      "idx": 569,
+      "start": 2410.04,
+      "end": 2412.04,
+      "text": "At a certain point in the simulation,"
+    },
+    {
+      "idx": 570,
+      "start": 2412.04,
+      "end": 2415.04,
+      "text": "five of the hydrophobic groups are in a little team."
+    },
+    {
+      "idx": 571,
+      "start": 2415.04,
+      "end": 2418.04,
+      "text": "They're in a little hydrophobic cluster."
+    },
+    {
+      "idx": 572,
+      "start": 2418.04,
+      "end": 2430.04,
+      "text": "And that's a break point in the folding process because that gets everything glued together better so that the rest of it now can start to really find its final place in the folded structure."
+    },
+    {
+      "idx": 573,
+      "start": 2430.04,
+      "end": 2433.04,
+      "text": "These early structures are known as molten globules."
+    },
+    {
+      "idx": 574,
+      "start": 2433.04,
+      "end": 2436.04,
+      "text": "A lot of the interactions are not yet in place."
+    },
+    {
+      "idx": 575,
+      "start": 2436.04,
+      "end": 2438.04,
+      "text": "But the hydrophobic cluster is critical."
+    },
+    {
+      "idx": 576,
+      "start": 2438.04,
+      "end": 2441.04,
+      "text": "But then after that, it's almost as if you're sliding down."
+    },
+    {
+      "idx": 577,
+      "start": 2441.04,
+      "end": 2447.04,
+      "text": "It's sliding downhill to get all the remaining interactions in place to fold the protein."
+    },
+    {
+      "idx": 578,
+      "start": 2447.04,
+      "end": 2456.04,
+      "text": "OK, so protein folding is a puzzle that can be solved computationally by maximizing thermodynamic interactions."
+    },
+    {
+      "idx": 579,
+      "start": 2456.04,
+      "end": 2461.04,
+      "text": "So it's sigma this, some of this, some of this, some of that."
+    },
+    {
+      "idx": 580,
+      "start": 2461.04,
+      "end": 2464.04,
+      "text": "That's going to get difficult the larger the protein gets."
+    },
+    {
+      "idx": 581,
+      "start": 2464.04,
+      "end": 2468.04,
+      "text": "But for small proteins, those simulations really start to make sense."
+    },
+    {
+      "idx": 582,
+      "start": 2470.45,
+      "end": 2472.45,
+      "text": "So let's just move on here."
+    },
+    {
+      "idx": 583,
+      "start": 2474.48,
+      "end": 2476.48,
+      "text": "What did you think of the simulation?"
+    },
+    {
+      "idx": 584,
+      "start": 2476.48,
+      "end": 2477.48,
+      "text": "It's kind of cool, right?"
+    },
+    {
+      "idx": 585,
+      "start": 2477.48,
+      "end": 2479.48,
+      "text": "So you can find the link in the sidebar."
+    },
+    {
+      "idx": 586,
+      "start": 2479.48,
+      "end": 2484.82,
+      "text": "So just pop these back on now."
+    },
+    {
+      "idx": 587,
+      "start": 2484.82,
+      "end": 2486.82,
+      "text": "And that's the folded structure."
+    },
+    {
+      "idx": 588,
+      "start": 2487.82,
+      "end": 2490.82,
+      "text": "So with many proteins, they're much more complex than that."
+    },
+    {
+      "idx": 589,
+      "start": 2490.82,
+      "end": 2492.82,
+      "text": "So, for example, here's cyclin A."
+    },
+    {
+      "idx": 590,
+      "start": 2492.82,
+      "end": 2494.82,
+      "text": "It's involved in cell cycle."
+    },
+    {
+      "idx": 591,
+      "start": 2494.82,
+      "end": 2501.82,
+      "text": "And you can see its alpha helical structure dominantly, very clearly, all those beautiful alpha helices."
+    },
+    {
+      "idx": 592,
+      "start": 2501.82,
+      "end": 2508.82,
+      "text": "Next to it is the green fluorescent protein, which is a cylindrical structure made up of anti-parallel beta sheets."
+    },
+    {
+      "idx": 593,
+      "start": 2508.82,
+      "end": 2512.82,
+      "text": "What's really cool is when you sort of rotate it, you can see all those sheets."
+    },
+    {
+      "idx": 594,
+      "start": 2512.82,
+      "end": 2515.82,
+      "text": "But then it does this little sort of curtsy to the audience."
+    },
+    {
+      "idx": 595,
+      "start": 2515.82,
+      "end": 2518.82,
+      "text": "And you can look down into the barrel."
+    },
+    {
+      "idx": 596,
+      "start": 2518.82,
+      "end": 2524.82,
+      "text": "And then in some cases, proteins may be a mixture of secondary structure elements."
+    },
+    {
+      "idx": 597,
+      "start": 2524.82,
+      "end": 2526.82,
+      "text": "Here it's a little hard to tell."
+    },
+    {
+      "idx": 598,
+      "start": 2526.82,
+      "end": 2528.82,
+      "text": "This is triosephosphate isomerase."
+    },
+    {
+      "idx": 599,
+      "start": 2528.82,
+      "end": 2530.82,
+      "text": "But if you look down it, you can see the helices."
+    },
+    {
+      "idx": 600,
+      "start": 2530.82,
+      "end": 2535.82,
+      "text": "And there's also a group of beta strands that are held together."
+    },
+    {
+      "idx": 601,
+      "start": 2535.82,
+      "end": 2539.82,
+      "text": "So in that protein, it's a mixture of alpha helix and beta sheet."
+    },
+    {
+      "idx": 602,
+      "start": 2539.82,
+      "end": 2547.82,
+      "text": "Now, I'm not going to tell you much about pulling up protein databank files right now because I want to cover the next topic."
+    },
+    {
+      "idx": 603,
+      "start": 2547.82,
+      "end": 2550.82,
+      "text": "And then when we have a few minutes later on, I'll show you."
+    },
+    {
+      "idx": 604,
+      "start": 2550.82,
+      "end": 2556.82,
+      "text": "But wherever I show you a structure, I'm trying to show you the protein databank code."
+    },
+    {
+      "idx": 605,
+      "start": 2556.82,
+      "end": 2559.82,
+      "text": "And in the website, you can see there is a free download."
+    },
+    {
+      "idx": 606,
+      "start": 2559.82,
+      "end": 2566.82,
+      "text": "A PyMOL, which is the program I used to create all these structures and movies so you can really look at things."
+    },
+    {
+      "idx": 607,
+      "start": 2566.82,
+      "end": 2570.82,
+      "text": "And believe me, it took me about three years to learn how to use it."
+    },
+    {
+      "idx": 608,
+      "start": 2570.82,
+      "end": 2573.82,
+      "text": "It probably took you about a week or maybe a couple of days."
+    },
+    {
+      "idx": 609,
+      "start": 2573.82,
+      "end": 2576.82,
+      "text": "So if I can learn it, you can certainly learn it."
+    },
+    {
+      "idx": 610,
+      "start": 2576.82,
+      "end": 2582.82,
+      "text": "Now, there is one final element of protein structure that people get kind of hung up on."
+    },
+    {
+      "idx": 611,
+      "start": 2582.82,
+      "end": 2584.82,
+      "text": "And it's what's called quaternary structure."
+    },
+    {
+      "idx": 612,
+      "start": 2584.82,
+      "end": 2586.82,
+      "text": "It's like, aren't we done yet?"
+    },
+    {
+      "idx": 613,
+      "start": 2586.82,
+      "end": 2590.07,
+      "text": "So in addition to all of these, there's a protein databank."
+    },
+    {
+      "idx": 614,
+      "start": 2591.07,
+      "end": 2598.73,
+      "text": "So let's say I have a folded motif and there's its structure."
+    },
+    {
+      "idx": 615,
+      "start": 2598.73,
+      "end": 2608.05,
+      "text": "That would have primary, secondary between the strands or the helix and tertiary structure, right?"
+    },
+    {
+      "idx": 616,
+      "start": 2608.05,
+      "end": 2623.33,
+      "text": "But in some cases, proteins fold up to quaternary structure where it's multiple of these units joined together."
+    },
+    {
+      "idx": 617,
+      "start": 2623.33,
+      "end": 2627.55,
+      "text": "I could have picked a simpler fold."
+    },
+    {
+      "idx": 618,
+      "start": 2627.55,
+      "end": 2628.55,
+      "text": "But that will get you the general gist of it."
+    },
+    {
+      "idx": 619,
+      "start": 2630.84,
+      "end": 2635.84,
+      "text": "Where these are actually associated by non-covalent forces."
+    },
+    {
+      "idx": 620,
+      "start": 2635.84,
+      "end": 2638.84,
+      "text": "So there's more than one polypeptide chain."
+    },
+    {
+      "idx": 621,
+      "start": 2638.84,
+      "end": 2646.84,
+      "text": "In fact, here would be four polypeptide chains coming together in a higher order structure that's made up of four of those units."
+    },
+    {
+      "idx": 622,
+      "start": 2646.84,
+      "end": 2654.84,
+      "text": "The prototypic example of this is the protein that carries oxygen around in your blood, which is hemoglobin."
+    },
+    {
+      "idx": 623,
+      "start": 2654.84,
+      "end": 2658.03,
+      "text": "And it has four primary sequences that have come together."
+    },
+    {
+      "idx": 624,
+      "start": 2658.03,
+      "end": 2665.03,
+      "text": "In a tetrameric quaternary structure."
+    },
+    {
+      "idx": 625,
+      "start": 2665.03,
+      "end": 2671.03,
+      "text": "Hemoglobin is kind of interesting because it's made up of two alpha and two beta subunits."
+    },
+    {
+      "idx": 626,
+      "start": 2671.03,
+      "end": 2677.03,
+      "text": "If all these subunits were identical, they would be called homo-oligomers."
+    },
+    {
+      "idx": 627,
+      "start": 2677.03,
+      "end": 2679.03,
+      "text": "All the same pieces."
+    },
+    {
+      "idx": 628,
+      "start": 2679.03,
+      "end": 2682.03,
+      "text": "If they are different, they are called hetero-oligomers."
+    },
+    {
+      "idx": 629,
+      "start": 2682.03,
+      "end": 2686.03,
+      "text": "And we'll see a little bit more about this when I talk about hemoglobin in the next class."
+    },
+    {
+      "idx": 630,
+      "start": 2686.03,
+      "end": 2693.03,
+      "text": "Because the features of the quaternary structure are very, very important for the proper transport of oxygen."
+    },
+    {
+      "idx": 631,
+      "start": 2693.03,
+      "end": 2696.03,
+      "text": "And single mutations can really mess things up."
+    },
+    {
+      "idx": 632,
+      "start": 2696.03,
+      "end": 2700.03,
+      "text": "And you'll see more about that in the next class."
+    },
+    {
+      "idx": 633,
+      "start": 2700.03,
+      "end": 2703.03,
+      "text": "So just to wrap that little bit up."
+    },
+    {
+      "idx": 634,
+      "start": 2703.03,
+      "end": 2707.03,
+      "text": "Proteins are condensation polymers of amino acids."
+    },
+    {
+      "idx": 635,
+      "start": 2707.03,
+      "end": 2711.03,
+      "text": "Each protein sequence is defined by covalent bonding."
+    },
+    {
+      "idx": 636,
+      "start": 2711.03,
+      "end": 2715.16,
+      "text": "Native proteins, most of them that are not, don't have quaternary structure."
+    },
+    {
+      "idx": 637,
+      "start": 2715.16,
+      "end": 2721.16,
+      "text": "Are folded through secondary and tertiary interactions."
+    },
+    {
+      "idx": 638,
+      "start": 2721.16,
+      "end": 2723.16,
+      "text": "These things that we already talked about."
+    },
+    {
+      "idx": 639,
+      "start": 2723.16,
+      "end": 2732.16,
+      "text": "And folding is defined by how to maximize all those non-covalent forces to get the maximum thermodynamic stability."
+    },
+    {
+      "idx": 640,
+      "start": 2732.16,
+      "end": 2735.16,
+      "text": "With the maximum number of interactions."
+    },
+    {
+      "idx": 641,
+      "start": 2735.16,
+      "end": 2739.16,
+      "text": "And subunits may also come together through quaternary structure."
+    },
+    {
+      "idx": 642,
+      "start": 2741.35,
+      "end": 2744.35,
+      "text": "So I'm going to talk to you about several proteins throughout the course."
+    },
+    {
+      "idx": 643,
+      "start": 2744.35,
+      "end": 2752.35,
+      "text": "But for now I want to focus you in on a structural protein that provides mechanical support for tissues."
+    },
+    {
+      "idx": 644,
+      "start": 2752.35,
+      "end": 2756.35,
+      "text": "In the next class we'll talk about transporters and enzymes."
+    },
+    {
+      "idx": 645,
+      "start": 2756.35,
+      "end": 2761.35,
+      "text": "And as we move on to signaling, things like receptors and membrane proteins and so on."
+    },
+    {
+      "idx": 646,
+      "start": 2761.35,
+      "end": 2765.35,
+      "text": "So the protein I'm going to describe to you is collagen."
+    },
+    {
+      "idx": 647,
+      "start": 2765.35,
+      "end": 2768.35,
+      "text": "It is the most abundant protein in the human body."
+    },
+    {
+      "idx": 648,
+      "start": 2768.35,
+      "end": 2770.35,
+      "text": "It plays enormous roles."
+    },
+    {
+      "idx": 649,
+      "start": 2770.35,
+      "end": 2771.35,
+      "text": "It's not an enzyme."
+    },
+    {
+      "idx": 650,
+      "start": 2771.35,
+      "end": 2772.35,
+      "text": "It's not a catalyst."
+    },
+    {
+      "idx": 651,
+      "start": 2772.35,
+      "end": 2773.35,
+      "text": "It's not a transporter."
+    },
+    {
+      "idx": 652,
+      "start": 2773.35,
+      "end": 2786.35,
+      "text": "It is one of those structural proteins where the structure of collagen has evolved to provide a mechanical stability to lots of essential components of complex organisms."
+    },
+    {
+      "idx": 653,
+      "start": 2786.35,
+      "end": 2792.35,
+      "text": "And there are many different types of collagens that are found in different parts of the body."
+    },
+    {
+      "idx": 654,
+      "start": 2792.35,
+      "end": 2795.35,
+      "text": "For example, bone, tendon, cartilage and so on."
+    },
+    {
+      "idx": 655,
+      "start": 2795.35,
+      "end": 2798.35,
+      "text": "They are all collagen structures."
+    },
+    {
+      "idx": 656,
+      "start": 2798.35,
+      "end": 2800.35,
+      "text": "But they have subtle differences."
+    },
+    {
+      "idx": 657,
+      "start": 2800.35,
+      "end": 2802.35,
+      "text": "Maybe some have slightly different mechanical properties."
+    },
+    {
+      "idx": 658,
+      "start": 2802.35,
+      "end": 2804.35,
+      "text": "To adapt to the functions that they perform."
+    },
+    {
+      "idx": 659,
+      "start": 2805.35,
+      "end": 2815.35,
+      "text": "And what I'm going to show you is that a single amino acid change in the primary sequence of collagen can destabilize the structure."
+    },
+    {
+      "idx": 660,
+      "start": 2815.35,
+      "end": 2817.35,
+      "text": "So it is no longer viable."
+    },
+    {
+      "idx": 661,
+      "start": 2817.35,
+      "end": 2824.35,
+      "text": "And the disease type I'm going to talk to you about is a set of diseases known as collagenopathies."
+    },
+    {
+      "idx": 662,
+      "start": 2824.35,
+      "end": 2828.35,
+      "text": "And the particular one is called osteogenesis imperfecta."
+    },
+    {
+      "idx": 663,
+      "start": 2828.35,
+      "end": 2831.35,
+      "text": "Osteo always refers to the same thing."
+    },
+    {
+      "idx": 664,
+      "start": 2831.35,
+      "end": 2837.35,
+      "text": "Osteo always refers to bone because collagen plays a critical role in the structure of bone."
+    },
+    {
+      "idx": 665,
+      "start": 2837.35,
+      "end": 2839.35,
+      "text": "Bone isn't just bone."
+    },
+    {
+      "idx": 666,
+      "start": 2839.35,
+      "end": 2842.35,
+      "text": "It's collagen involved in it."
+    },
+    {
+      "idx": 667,
+      "start": 2842.35,
+      "end": 2846.35,
+      "text": "And it's also this disease is called brittle bone syndrome."
+    },
+    {
+      "idx": 668,
+      "start": 2846.35,
+      "end": 2850.35,
+      "text": "And here's the X-ray of a baby born with brittle bone syndrome."
+    },
+    {
+      "idx": 669,
+      "start": 2850.35,
+      "end": 2860.35,
+      "text": "And you'll see that the long bones in the upper arm are all irregular because the bones are brittle and they'll break even in utero."
+    },
+    {
+      "idx": 670,
+      "start": 2860.35,
+      "end": 2866.35,
+      "text": "A lot of babies with this defect can't even be born through the birth canal because it would crush the bones."
+    },
+    {
+      "idx": 671,
+      "start": 2866.35,
+      "end": 2869.35,
+      "text": "And many of them don't survive very long at all."
+    },
+    {
+      "idx": 672,
+      "start": 2869.35,
+      "end": 2872.35,
+      "text": "Some survive with different kinds of cases."
+    },
+    {
+      "idx": 673,
+      "start": 2872.35,
+      "end": 2874.35,
+      "text": "But their lives are greatly impacted."
+    },
+    {
+      "idx": 674,
+      "start": 2874.35,
+      "end": 2877.35,
+      "text": "And they could just sort of hit a table and the bones would break."
+    },
+    {
+      "idx": 675,
+      "start": 2878.35,
+      "end": 2885.35,
+      "text": "There are other sort of serious situations where parents are actually accused of abuse to the child."
+    },
+    {
+      "idx": 676,
+      "start": 2885.35,
+      "end": 2888.35,
+      "text": "But the child actually had brittle bone syndrome."
+    },
+    {
+      "idx": 677,
+      "start": 2888.35,
+      "end": 2889.35,
+      "text": "And it was just through, you know, helping them put their baby in a hospital."
+    },
+    {
+      "idx": 678,
+      "start": 2890.35,
+      "end": 2893.35,
+      "text": "And then they put their clothes on or taking them upstairs."
+    },
+    {
+      "idx": 679,
+      "start": 2893.35,
+      "end": 2895.35,
+      "text": "The bones got broken very readily."
+    },
+    {
+      "idx": 680,
+      "start": 2895.35,
+      "end": 2901.38,
+      "text": "So osteogenesis imperfecta really describes a collection of these defects."
+    },
+    {
+      "idx": 681,
+      "start": 2901.38,
+      "end": 2906.38,
+      "text": "Now, the collagen tertiary structure is shown here."
+    },
+    {
+      "idx": 682,
+      "start": 2906.38,
+      "end": 2909.38,
+      "text": "It's actually made up of a type of helix."
+    },
+    {
+      "idx": 683,
+      "start": 2909.38,
+      "end": 2911.38,
+      "text": "It's not an alpha helix."
+    },
+    {
+      "idx": 684,
+      "start": 2911.38,
+      "end": 2919.38,
+      "text": "It's a polyproline helix where the individual subunits in the structure are fairly long and extended."
+    },
+    {
+      "idx": 685,
+      "start": 2919.38,
+      "end": 2923.38,
+      "text": "And it shows you three strands in this polymeric structure."
+    },
+    {
+      "idx": 686,
+      "start": 2923.38,
+      "end": 2926.38,
+      "text": "Yellow, a red, and a green."
+    },
+    {
+      "idx": 687,
+      "start": 2926.38,
+      "end": 2931.38,
+      "text": "And these roll together into a three-helix bundle that has a fibrillar structure."
+    },
+    {
+      "idx": 688,
+      "start": 2931.38,
+      "end": 2937.38,
+      "text": "And then all these structures come together to make the macromolecular structure that is collagen."
+    },
+    {
+      "idx": 689,
+      "start": 2937.38,
+      "end": 2939.38,
+      "text": "It's not just one of those fibrils."
+    },
+    {
+      "idx": 690,
+      "start": 2939.38,
+      "end": 2948.38,
+      "text": "It's bundles of those fibrils in a very organized pattern where you could even see that patterning in electron microscopy."
+    },
+    {
+      "idx": 691,
+      "start": 2948.38,
+      "end": 2951.38,
+      "text": "And there are many genetic defects of collagen."
+    },
+    {
+      "idx": 692,
+      "start": 2951.38,
+      "end": 2960.38,
+      "text": "And what's so important to think about is if you have a defect in one strand, that defect will propagate through every single strand."
+    },
+    {
+      "idx": 693,
+      "start": 2960.38,
+      "end": 2968.38,
+      "text": "If this is one strand made up of three polypeptide chains, it propagates all the way through the structure."
+    },
+    {
+      "idx": 694,
+      "start": 2968.38,
+      "end": 2972.38,
+      "text": "And I believe I have a little time to just show you."
+    },
+    {
+      "idx": 695,
+      "start": 2972.38,
+      "end": 2974.38,
+      "text": "Here's the collagen structure."
+    },
+    {
+      "idx": 696,
+      "start": 2974.38,
+      "end": 2976.38,
+      "text": "I'm just showing you how it's extended."
+    },
+    {
+      "idx": 697,
+      "start": 2976.38,
+      "end": 2977.38,
+      "text": "Those are three independent strands."
+    },
+    {
+      "idx": 698,
+      "start": 2977.38,
+      "end": 2988.38,
+      "text": "And there's a set of magenta residues in the middle, which come from a defect in the sequence where a glycine has been changed to an alanine."
+    },
+    {
+      "idx": 699,
+      "start": 2988.38,
+      "end": 2993.73,
+      "text": "And so I'm going to show you this movie because it shows you right at the center of the structure."
+    },
+    {
+      "idx": 700,
+      "start": 2993.73,
+      "end": 2996.73,
+      "text": "There are residues painted in pink."
+    },
+    {
+      "idx": 701,
+      "start": 2996.73,
+      "end": 3000.73,
+      "text": "And what I'm going to do is show you close up of that segment."
+    },
+    {
+      "idx": 702,
+      "start": 3000.73,
+      "end": 3005.73,
+      "text": "If you look at those helices, they're all nicely organized except where that defect is."
+    },
+    {
+      "idx": 703,
+      "start": 3005.73,
+      "end": 3006.73,
+      "text": "And that defect is in the middle."
+    },
+    {
+      "idx": 704,
+      "start": 3006.73,
+      "end": 3013.73,
+      "text": "And that defect is caused by the change of a hydrogen to a methyl group on three residues that come together."
+    },
+    {
+      "idx": 705,
+      "start": 3013.73,
+      "end": 3023.73,
+      "text": "And that bulges out that fibrillous structure and makes it not as compact and beautiful as it should be in the version that's got the glycine there."
+    },
+    {
+      "idx": 706,
+      "start": 3023.73,
+      "end": 3032.73,
+      "text": "So if you look at it, you can even see that helix gets bulged out and is not as well aligned as the rest of the structure."
+    },
+    {
+      "idx": 707,
+      "start": 3032.73,
+      "end": 3034.73,
+      "text": "And then that defect gets propagated into all the fibrils."
+    },
+    {
+      "idx": 708,
+      "start": 3034.73,
+      "end": 3035.73,
+      "text": "And then that defect gets propagated into all the fibrils."
+    },
+    {
+      "idx": 709,
+      "start": 3035.73,
+      "end": 3037.73,
+      "text": "And then that defect gets propagated into all the fibrils."
+    },
+    {
+      "idx": 710,
+      "start": 3037.73,
+      "end": 3039.73,
+      "text": "And results in the weakening of the bones."
+    },
+    {
+      "idx": 711,
+      "start": 3039.73,
+      "end": 3046.73,
+      "text": "Either the collagen fails to form properly or the collagen, when it forms, it has much less mechanical stability."
+    },
+    {
+      "idx": 712,
+      "start": 3046.73,
+      "end": 3048.73,
+      "text": "So I think that's a good place to stop."
+    },
+    {
+      "idx": 713,
+      "start": 3048.73,
+      "end": 3051.73,
+      "text": "And I'll pick up next time with hemoglobin."
+    },
+    {
+      "idx": 714,
+      "start": 3051.73,
+      "end": 3056.92,
+      "text": "Oh, one last little thing, a couple of things for you to do."
+    },
+    {
+      "idx": 715,
+      "start": 3056.92,
+      "end": 3062.92,
+      "text": "There's a great link on the website to the protein databank to see how enzymes work."
+    },
+    {
+      "idx": 716,
+      "start": 3062.92,
+      "end": 3064.92,
+      "text": "And if you have a little time, it would be awesome if you could share that with us."
+    },
+    {
+      "idx": 717,
+      "start": 3064.92,
+      "end": 3066.92,
+      "text": "And if you have a little time, it would be awesome if you could share that with us."
+    },
+    {
+      "idx": 718,
+      "start": 3066.92,
+      "end": 3067.92,
+      "text": "And if you have a little time, it would be awesome if you could share that with us."
+    },
+    {
+      "idx": 719,
+      "start": 3067.92,
+      "end": 3069.92,
+      "text": "Just take a quick flick through those parts of the text."
+    },
+    {
+      "idx": 720,
+      "start": 3069.92,
+      "end": 3072.92,
+      "text": "These slides are posted with these reading assignments."
+    },
+    {
+      "idx": 721,
+      "start": 3072.92,
+      "end": 3075.92,
+      "text": "And they're posted in color if you want to look at them again."
+    },
+    {
+      "idx": 722,
+      "start": 3075.92,
+      "end": 3076.92,
+      "text": "And they're posted in color if you want to look at them again."
+    }
+  ]
+}

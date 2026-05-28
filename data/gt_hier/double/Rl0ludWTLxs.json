@@ -1,0 +1,349 @@
+{
+  "video_id": "Rl0ludWTLxs",
+  "annotator": "llm_b",
+  "status": "draft",
+  "double_mode": true,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Introduction"
+    },
+    {
+      "start_sec": 43.0,
+      "title": "Python"
+    },
+    {
+      "start_sec": 373.0,
+      "title": "Speller"
+    },
+    {
+      "start_sec": 767.0,
+      "title": "Filter"
+    },
+    {
+      "start_sec": 1011.0,
+      "title": "Functions"
+    },
+    {
+      "start_sec": 2296.0,
+      "title": "Data Types"
+    },
+    {
+      "start_sec": 2400.0,
+      "title": "Calculator"
+    },
+    {
+      "start_sec": 2930.0,
+      "title": "Conditionals"
+    },
+    {
+      "start_sec": 3131.0,
+      "title": "Compare"
+    },
+    {
+      "start_sec": 3775.0,
+      "title": "Object-Oriented Programming"
+    },
+    {
+      "start_sec": 3906.0,
+      "title": "copy.py"
+    },
+    {
+      "start_sec": 4313.0,
+      "title": "Loops"
+    },
+    {
+      "start_sec": 4368.0,
+      "title": "Meow"
+    },
+    {
+      "start_sec": 5259.0,
+      "title": "Truncation"
+    },
+    {
+      "start_sec": 5578.0,
+      "title": "Exceptions"
+    },
+    {
+      "start_sec": 6111.0,
+      "title": "Mario"
+    },
+    {
+      "start_sec": 6620.0,
+      "title": "Lists"
+    },
+    {
+      "start_sec": 6848.0,
+      "title": "Dictionaries"
+    },
+    {
+      "start_sec": 7715.0,
+      "title": "sys"
+    },
+    {
+      "start_sec": 8042.0,
+      "title": "csv"
+    },
+    {
+      "start_sec": 8524.0,
+      "title": "pip"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Introduction"
+    },
+    {
+      "start_sec": 43.0,
+      "chapter_idx": 1,
+      "title": "Introducing Python"
+    },
+    {
+      "start_sec": 313.0,
+      "chapter_idx": 1,
+      "title": "Higher-Level Language Benefits"
+    },
+    {
+      "start_sec": 313.0,
+      "chapter_idx": 1,
+      "title": "Choosing the Right Tool"
+    },
+    {
+      "start_sec": 373.0,
+      "chapter_idx": 2,
+      "title": "Implementing Spell Checker"
+    },
+    {
+      "start_sec": 630.0,
+      "chapter_idx": 2,
+      "title": "Defining Functions in Python"
+    },
+    {
+      "start_sec": 767.0,
+      "chapter_idx": 3,
+      "title": "Examining Alternative Problems"
+    },
+    {
+      "start_sec": 870.0,
+      "chapter_idx": 3,
+      "title": "Implementing the Blur Filter"
+    },
+    {
+      "start_sec": 1011.0,
+      "chapter_idx": 4,
+      "title": "Functions in C"
+    },
+    {
+      "start_sec": 1420.0,
+      "chapter_idx": 4,
+      "title": "Python Functions and Libraries"
+    },
+    {
+      "start_sec": 1930.0,
+      "chapter_idx": 4,
+      "title": "Modules and Packages in Python"
+    },
+    {
+      "start_sec": 2296.0,
+      "chapter_idx": 5,
+      "title": "Data Types"
+    },
+    {
+      "start_sec": 2400.0,
+      "chapter_idx": 6,
+      "title": "Converting C Code to Python"
+    },
+    {
+      "start_sec": 2730.0,
+      "chapter_idx": 6,
+      "title": "Understanding Input Function in Python"
+    },
+    {
+      "start_sec": 2840.0,
+      "chapter_idx": 6,
+      "title": "Fixing Calculator Program with Strings"
+    },
+    {
+      "start_sec": 2930.0,
+      "chapter_idx": 7,
+      "title": "Python Conditional Syntax"
+    },
+    {
+      "start_sec": 3071.0,
+      "chapter_idx": 7,
+      "title": "If-Else Construct in Scratch and C"
+    },
+    {
+      "start_sec": 3071.0,
+      "chapter_idx": 7,
+      "title": "Python's if-else-if-else Structure"
+    },
+    {
+      "start_sec": 3131.0,
+      "chapter_idx": 8,
+      "title": "Comparison Program Refresher"
+    },
+    {
+      "start_sec": 3645.0,
+      "chapter_idx": 8,
+      "title": "Comparing Integers in Python"
+    },
+    {
+      "start_sec": 3715.0,
+      "chapter_idx": 8,
+      "title": "Strings and String Comparison"
+    },
+    {
+      "start_sec": 3775.0,
+      "chapter_idx": 9,
+      "title": "Object-Oriented Programming Basics"
+    },
+    {
+      "start_sec": 3846.0,
+      "chapter_idx": 9,
+      "title": "Methods and Built-in Functionality"
+    },
+    {
+      "start_sec": 3906.0,
+      "chapter_idx": 10,
+      "title": "C String Copying Basics"
+    },
+    {
+      "start_sec": 4140.0,
+      "chapter_idx": 10,
+      "title": "Python Equivalent to C Code"
+    },
+    {
+      "start_sec": 4313.0,
+      "chapter_idx": 11,
+      "title": "Loops"
+    },
+    {
+      "start_sec": 4368.0,
+      "chapter_idx": 12,
+      "title": "Meow in Python"
+    },
+    {
+      "start_sec": 4760.0,
+      "chapter_idx": 12,
+      "title": "For Loops in Python"
+    },
+    {
+      "start_sec": 4990.0,
+      "chapter_idx": 12,
+      "title": "Range Function in Python"
+    },
+    {
+      "start_sec": 5259.0,
+      "chapter_idx": 13,
+      "title": "Truncation in Python"
+    },
+    {
+      "start_sec": 5411.0,
+      "chapter_idx": 13,
+      "title": "Floating Point Imprecision Issues"
+    },
+    {
+      "start_sec": 5578.0,
+      "chapter_idx": 14,
+      "title": "Exceptions in Python"
+    },
+    {
+      "start_sec": 5810.0,
+      "chapter_idx": 14,
+      "title": "Checking Return Values in C"
+    },
+    {
+      "start_sec": 5910.0,
+      "chapter_idx": 14,
+      "title": "Introducing Exceptions in Python"
+    },
+    {
+      "start_sec": 6111.0,
+      "chapter_idx": 15,
+      "title": "Playing with Mario in C"
+    },
+    {
+      "start_sec": 6374.0,
+      "chapter_idx": 15,
+      "title": "Pythonic Solution for User Input"
+    },
+    {
+      "start_sec": 6510.0,
+      "chapter_idx": 15,
+      "title": "Scope of Variables in Python"
+    },
+    {
+      "start_sec": 6620.0,
+      "chapter_idx": 16,
+      "title": "Lists in Python"
+    },
+    {
+      "start_sec": 6760.0,
+      "chapter_idx": 16,
+      "title": "Calculating Average with Lists"
+    },
+    {
+      "start_sec": 6788.0,
+      "chapter_idx": 16,
+      "title": "Using List Functions and Methods"
+    },
+    {
+      "start_sec": 6848.0,
+      "chapter_idx": 17,
+      "title": "Dictionaries and Hash Tables"
+    },
+    {
+      "start_sec": 7470.0,
+      "chapter_idx": 17,
+      "title": "Implementing Linear Search with Dictionaries"
+    },
+    {
+      "start_sec": 7580.0,
+      "chapter_idx": 17,
+      "title": "Using Else Clauses in For Loops"
+    },
+    {
+      "start_sec": 7715.0,
+      "chapter_idx": 18,
+      "title": "Command Line Arguments"
+    },
+    {
+      "start_sec": 7845.0,
+      "chapter_idx": 18,
+      "title": "Exit Statuses and sys Library"
+    },
+    {
+      "start_sec": 8042.0,
+      "chapter_idx": 19,
+      "title": "CSV Functionality in Python"
+    },
+    {
+      "start_sec": 8230.0,
+      "chapter_idx": 19,
+      "title": "Implementing a Phone Book with CSV"
+    },
+    {
+      "start_sec": 8425.0,
+      "chapter_idx": 19,
+      "title": "Tightening Up the Code with Context Manager"
+    },
+    {
+      "start_sec": 8524.0,
+      "chapter_idx": 20,
+      "title": "Installing Libraries with pip"
+    },
+    {
+      "start_sec": 8750.0,
+      "chapter_idx": 20,
+      "title": "Using pip to Install Third-Party Libraries"
+    },
+    {
+      "start_sec": 8910.0,
+      "chapter_idx": 20,
+      "title": "Text-to-Speech Library and Implementation"
+    }
+  ]
+}

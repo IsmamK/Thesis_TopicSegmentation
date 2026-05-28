@@ -1,0 +1,108 @@
+{
+  "video_id": "jGwO_UgTS7I",
+  "annotator": "llm_b",
+  "status": "draft",
+  "double_mode": true,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Introduction"
+    },
+    {
+      "start_sec": 321.0,
+      "title": "Teaching team introductions"
+    },
+    {
+      "start_sec": 402.0,
+      "title": "Goals for the course and the state of machine learning across research and industry"
+    },
+    {
+      "start_sec": 609.0,
+      "title": "Prerequisites for the course"
+    },
+    {
+      "start_sec": 713.0,
+      "title": "Homework, and a note about the Stanford honor code"
+    },
+    {
+      "start_sec": 1017.0,
+      "title": "Overview of the class project"
+    },
+    {
+      "start_sec": 1557.0,
+      "title": "Questions"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Welcome to CST 29 Machine Learning"
+    },
+    {
+      "start_sec": 261.0,
+      "chapter_idx": 0,
+      "title": "Machine Learning and AI in Industry"
+    },
+    {
+      "start_sec": 321.0,
+      "chapter_idx": 1,
+      "title": "Teaching team introductions"
+    },
+    {
+      "start_sec": 402.0,
+      "chapter_idx": 2,
+      "title": "Goals for the course and students"
+    },
+    {
+      "start_sec": 510.0,
+      "chapter_idx": 2,
+      "title": "Machine learning beyond tech companies"
+    },
+    {
+      "start_sec": 549.0,
+      "chapter_idx": 2,
+      "title": "Class updates and progress in machine learning"
+    },
+    {
+      "start_sec": 609.0,
+      "chapter_idx": 3,
+      "title": "Prerequisites for the course"
+    },
+    {
+      "start_sec": 713.0,
+      "chapter_idx": 4,
+      "title": "Migrating to Python"
+    },
+    {
+      "start_sec": 800.0,
+      "chapter_idx": 4,
+      "title": "Note on the Honor Code"
+    },
+    {
+      "start_sec": 1017.0,
+      "chapter_idx": 5,
+      "title": "Class Project Goals"
+    },
+    {
+      "start_sec": 1240.0,
+      "chapter_idx": 5,
+      "title": "Choosing a Class Project Idea"
+    },
+    {
+      "start_sec": 1557.0,
+      "chapter_idx": 6,
+      "title": "Course Logistics"
+    },
+    {
+      "start_sec": 2475.0,
+      "chapter_idx": 6,
+      "title": "Machine Learning Courses at Stanford"
+    },
+    {
+      "start_sec": 3785.0,
+      "chapter_idx": 6,
+      "title": "CS239 vs CS239A"
+    }
+  ]
+}

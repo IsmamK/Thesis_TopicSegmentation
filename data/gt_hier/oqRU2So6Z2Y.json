@@ -1,0 +1,228 @@
+{
+  "video_id": "oqRU2So6Z2Y",
+  "annotator": "llm_a",
+  "status": "reviewed",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Introduction"
+    },
+    {
+      "start_sec": 43.0,
+      "title": "Flat-file Databases"
+    },
+    {
+      "start_sec": 1450.0,
+      "title": "Relational Databases"
+    },
+    {
+      "start_sec": 3204.0,
+      "title": "Shows"
+    },
+    {
+      "start_sec": 3585.0,
+      "title": "Schema"
+    },
+    {
+      "start_sec": 3856.0,
+      "title": "Data Types and Constraints"
+    },
+    {
+      "start_sec": 3965.0,
+      "title": "Primary and Foreign Keys"
+    },
+    {
+      "start_sec": 4018.0,
+      "title": "Querying"
+    },
+    {
+      "start_sec": 6047.0,
+      "title": "Indexes"
+    },
+    {
+      "start_sec": 6356.0,
+      "title": "Python and SQL"
+    },
+    {
+      "start_sec": 7066.0,
+      "title": "SQL injection attacks"
+    },
+    {
+      "start_sec": 7575.0,
+      "title": "Race Conditions"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Introduction"
+    },
+    {
+      "start_sec": 43.0,
+      "chapter_idx": 1,
+      "title": "Introduction to SQL"
+    },
+    {
+      "start_sec": 445.0,
+      "chapter_idx": 1,
+      "title": "Demonstrating Multiple Tools for Problem Solving"
+    },
+    {
+      "start_sec": 968.0,
+      "chapter_idx": 1,
+      "title": "Declarative Programming Language vs Procedural Programming Languages"
+    },
+    {
+      "start_sec": 1245.0,
+      "chapter_idx": 1,
+      "title": "Collecting Real World Data with Google Forms"
+    },
+    {
+      "start_sec": 1450.0,
+      "chapter_idx": 2,
+      "title": "Transition to Relational Databases"
+    },
+    {
+      "start_sec": 2100.0,
+      "chapter_idx": 2,
+      "title": "Introduction to SQL Operations"
+    },
+    {
+      "start_sec": 2760.0,
+      "chapter_idx": 2,
+      "title": "Understanding Databases"
+    },
+    {
+      "start_sec": 3060.0,
+      "chapter_idx": 2,
+      "title": "Example of Using SQL"
+    },
+    {
+      "start_sec": 3204.0,
+      "chapter_idx": 3,
+      "title": "Introduction to Real-World Data"
+    },
+    {
+      "start_sec": 3378.0,
+      "chapter_idx": 3,
+      "title": "Modeling TV Show Data"
+    },
+    {
+      "start_sec": 3462.0,
+      "chapter_idx": 3,
+      "title": "Issues with a Single Column for Stars"
+    },
+    {
+      "start_sec": 3516.0,
+      "chapter_idx": 3,
+      "title": "Multiple Columns for Stars"
+    },
+    {
+      "start_sec": 3585.0,
+      "chapter_idx": 4,
+      "title": "Introduction to Schema"
+    },
+    {
+      "start_sec": 3750.0,
+      "chapter_idx": 4,
+      "title": "Relationships in the IMDB Database"
+    },
+    {
+      "start_sec": 3796.0,
+      "chapter_idx": 4,
+      "title": "Exploring the Shows Table"
+    },
+    {
+      "start_sec": 3856.0,
+      "chapter_idx": 5,
+      "title": "Data Types and Constraints"
+    },
+    {
+      "start_sec": 3965.0,
+      "chapter_idx": 6,
+      "title": "Primary and Foreign Keys"
+    },
+    {
+      "start_sec": 4018.0,
+      "chapter_idx": 7,
+      "title": "Executing SQL Commands"
+    },
+    {
+      "start_sec": 5027.0,
+      "chapter_idx": 7,
+      "title": "Retrieving Highly Rated Shows"
+    },
+    {
+      "start_sec": 5736.0,
+      "chapter_idx": 7,
+      "title": "Joining Two Tables"
+    },
+    {
+      "start_sec": 6047.0,
+      "chapter_idx": 8,
+      "title": "Slow vs. Quick Queries"
+    },
+    {
+      "start_sec": 6155.0,
+      "chapter_idx": 8,
+      "title": "Database Optimization for Specific Queries"
+    },
+    {
+      "start_sec": 6248.0,
+      "chapter_idx": 8,
+      "title": "Optimizing Commonly Executed Queries"
+    },
+    {
+      "start_sec": 6292.0,
+      "chapter_idx": 8,
+      "title": "Creating an Index for Optimization"
+    },
+    {
+      "start_sec": 6356.0,
+      "chapter_idx": 9,
+      "title": "Combining Languages"
+    },
+    {
+      "start_sec": 6510.0,
+      "chapter_idx": 9,
+      "title": "Python CS50 Library"
+    },
+    {
+      "start_sec": 6720.0,
+      "chapter_idx": 9,
+      "title": "Sorting Dictionaries in Python"
+    },
+    {
+      "start_sec": 7066.0,
+      "chapter_idx": 10,
+      "title": "Potential issues with SQL code in Python"
+    },
+    {
+      "start_sec": 7398.0,
+      "chapter_idx": 10,
+      "title": "SQL injection attacks overview"
+    },
+    {
+      "start_sec": 7464.0,
+      "chapter_idx": 10,
+      "title": "Example of SQL injection attack on GitHub login screen"
+    },
+    {
+      "start_sec": 7575.0,
+      "chapter_idx": 11,
+      "title": "Introduction to Race Conditions"
+    },
+    {
+      "start_sec": 7788.0,
+      "chapter_idx": 11,
+      "title": "Real-world examples of race conditions"
+    },
+    {
+      "start_sec": 7980.0,
+      "chapter_idx": 11,
+      "title": "Preventing race conditions in databases"
+    }
+  ]
+}

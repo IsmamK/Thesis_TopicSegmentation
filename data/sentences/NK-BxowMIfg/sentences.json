@@ -1,0 +1,6917 @@
+{
+  "video_id": "NK-BxowMIfg",
+  "sentences": [
+    {
+      "idx": 0,
+      "start": 2.1,
+      "end": 8.57,
+      "text": "So, I got to start by telling you the syllabus for this term, not the detailed one, just"
+    },
+    {
+      "idx": 1,
+      "start": 8.57,
+      "end": 10.79,
+      "text": "big game plan."
+    },
+    {
+      "idx": 2,
+      "start": 10.79,
+      "end": 16.17,
+      "text": "The game plan is we will do electromagnetic theory."
+    },
+    {
+      "idx": 3,
+      "start": 16.17,
+      "end": 21.07,
+      "text": "Electromagnetism is a new force that I will introduce to you and go through all the details,"
+    },
+    {
+      "idx": 4,
+      "start": 21.07,
+      "end": 26.53,
+      "text": "and I will do optics, and optics is part of electromagnetism."
+    },
+    {
+      "idx": 5,
+      "start": 26.53,
+      "end": 29.11,
+      "text": "Then near the end, we will do quantum mechanics."
+    },
+    {
+      "idx": 6,
+      "start": 29.11,
+      "end": 34.54,
+      "text": "Now, quantum mechanics is not like a new force."
+    },
+    {
+      "idx": 7,
+      "start": 34.54,
+      "end": 36.68,
+      "text": "It's a whole different ball game."
+    },
+    {
+      "idx": 8,
+      "start": 36.68,
+      "end": 42.27,
+      "text": "It's not about what forces are acting on this or that object that make it move or change"
+    },
+    {
+      "idx": 9,
+      "start": 43.27,
+      "end": 46.77,
+      "text": "The question there is, should we be even thinking about trajectories?"
+    },
+    {
+      "idx": 10,
+      "start": 46.77,
+      "end": 50.11,
+      "text": "Should we be even thinking about particles going on any trajectory?"
+    },
+    {
+      "idx": 11,
+      "start": 50.11,
+      "end": 53.01,
+      "text": "Forget about what the right trajectory is."
+    },
+    {
+      "idx": 12,
+      "start": 53.01,
+      "end": 59.02,
+      "text": "You will find out that most of the cherished ideas get destroyed."
+    },
+    {
+      "idx": 13,
+      "start": 59.02,
+      "end": 65.05,
+      "text": "But the good news is that you need quantum mechanics only to study very tiny things like"
+    },
+    {
+      "idx": 14,
+      "start": 65.05,
+      "end": 66.05,
+      "text": "atoms or molecules."
+    },
+    {
+      "idx": 15,
+      "start": 66.05,
+      "end": 70.45,
+      "text": "Of course, the big question is, where do you draw the line?"
+    },
+    {
+      "idx": 16,
+      "start": 70.45,
+      "end": 72.98,
+      "text": "How small is small?"
+    },
+    {
+      "idx": 17,
+      "start": 72.98,
+      "end": 78.28,
+      "text": "Some people even ask me, do you need quantum mechanics to describe the human brain?"
+    },
+    {
+      "idx": 18,
+      "start": 78.28,
+      "end": 82.6,
+      "text": "And the answer is, yes, if it is small enough."
+    },
+    {
+      "idx": 19,
+      "start": 82.6,
+      "end": 86.6,
+      "text": "So I've gone to parties where after a few minutes of talking to a person, I'm thinking,"
+    },
+    {
+      "idx": 20,
+      "start": 86.6,
+      "end": 93.05,
+      "text": "okay, this person's brain needs a fully quantum mechanical treatment."
+    },
+    {
+      "idx": 21,
+      "start": 93.05,
+      "end": 98.49,
+      "text": "But most of the time, everything macroscopic, you can describe the way you do with Newtonian"
+    },
+    {
+      "idx": 22,
+      "start": 98.49,
+      "end": 99.49,
+      "text": "mechanics or electrodynamics."
+    },
+    {
+      "idx": 23,
+      "start": 99.49,
+      "end": 100.37,
+      "text": "You don't need quantum mechanics."
+    },
+    {
+      "idx": 24,
+      "start": 100.37,
+      "end": 102.27,
+      "text": "You just need quantum theory."
+    },
+    {
+      "idx": 25,
+      "start": 102.27,
+      "end": 108.19,
+      "text": "All right, so now we'll start with the brand new force of electromagnetism."
+    },
+    {
+      "idx": 26,
+      "start": 108.19,
+      "end": 113.11,
+      "text": "But before doing the force, I've got to remind you people of certain things I expect you"
+    },
+    {
+      "idx": 27,
+      "start": 113.11,
+      "end": 118.83,
+      "text": "all to understand about the dynamics between force and mass and acceleration that you must"
+    },
+    {
+      "idx": 28,
+      "start": 118.83,
+      "end": 119.83,
+      "text": "have learned last term."
+    },
+    {
+      "idx": 29,
+      "start": 119.83,
+      "end": 121.82,
+      "text": "I don't want to take any chances."
+    },
+    {
+      "idx": 30,
+      "start": 121.82,
+      "end": 134.2,
+      "text": "I'm going to start by reminding you how we use this famous equation of Newton."
+    },
+    {
+      "idx": 31,
+      "start": 134.2,
+      "end": 136.44,
+      "text": "So we have seen this equation probably in high school."
+    },
+    {
+      "idx": 32,
+      "start": 136.44,
+      "end": 137.6,
+      "text": "But it's not the same equation."
+    },
+    {
+      "idx": 33,
+      "start": 137.6,
+      "end": 139.6,
+      "text": "It is a lot more subtle than you think."
+    },
+    {
+      "idx": 34,
+      "start": 139.6,
+      "end": 143.71,
+      "text": "Certainly a lot more subtle than I thought when I first learned it."
+    },
+    {
+      "idx": 35,
+      "start": 143.71,
+      "end": 148.31,
+      "text": "So I will tell you what I've figured out over these years on different ways to look"
+    },
+    {
+      "idx": 36,
+      "start": 148.31,
+      "end": 149.31,
+      "text": "at F equals ma."
+    },
+    {
+      "idx": 37,
+      "start": 149.31,
+      "end": 154.16,
+      "text": "In other words, if you had the equation, what's it good for?"
+    },
+    {
+      "idx": 38,
+      "start": 154.16,
+      "end": 158.2,
+      "text": "The only thing anybody knows right away is a stands for acceleration."
+    },
+    {
+      "idx": 39,
+      "start": 158.2,
+      "end": 160.81,
+      "text": "And we all know how to measure it."
+    },
+    {
+      "idx": 40,
+      "start": 160.81,
+      "end": 165.08,
+      "text": "By the way, any time I write any symbol on the board, you should be able to tell me how"
+    },
+    {
+      "idx": 41,
+      "start": 165.08,
+      "end": 166.9,
+      "text": "you'll measure it."
+    },
+    {
+      "idx": 42,
+      "start": 166.9,
+      "end": 168.94,
+      "text": "Otherwise you don't know what you're talking about as a physicist."
+    },
+    {
+      "idx": 43,
+      "start": 168.94,
+      "end": 174.94,
+      "text": "Now acceleration, I think I won't spend too much time on how you measure it."
+    },
+    {
+      "idx": 44,
+      "start": 174.94,
+      "end": 177.42,
+      "text": "You should know what instruments you will need."
+    },
+    {
+      "idx": 45,
+      "start": 177.42,
+      "end": 182.82,
+      "text": "So I will remind you that if you have a meter stick or many meter sticks and clocks, you"
+    },
+    {
+      "idx": 46,
+      "start": 182.82,
+      "end": 185.24,
+      "text": "can follow the body as it moves."
+    },
+    {
+      "idx": 47,
+      "start": 185.24,
+      "end": 188.3,
+      "text": "You can find its position now, its position later."
+    },
+    {
+      "idx": 48,
+      "start": 188.3,
+      "end": 192.03,
+      "text": "Take the difference, divide by the time, you get velocity."
+    },
+    {
+      "idx": 49,
+      "start": 192.03,
+      "end": 196.85,
+      "text": "Then find the velocity now, find the velocity later, take the difference, divide by time,"
+    },
+    {
+      "idx": 50,
+      "start": 196.85,
+      "end": 197.85,
+      "text": "you get acceleration."
+    },
+    {
+      "idx": 51,
+      "start": 197.85,
+      "end": 198.92,
+      "text": "So acceleration really requires three measurements."
+    },
+    {
+      "idx": 52,
+      "start": 198.92,
+      "end": 199.92,
+      "text": "One is the speed."
+    },
+    {
+      "idx": 53,
+      "start": 199.92,
+      "end": 200.6,
+      "text": "Two is the velocity."
+    },
+    {
+      "idx": 54,
+      "start": 200.6,
+      "end": 200.72,
+      "text": "Three is the velocity."
+    },
+    {
+      "idx": 55,
+      "start": 200.72,
+      "end": 200.76,
+      "text": "Four is the velocity."
+    },
+    {
+      "idx": 56,
+      "start": 200.76,
+      "end": 204.22,
+      "text": "So you have three measurements, two for each velocity."
+    },
+    {
+      "idx": 57,
+      "start": 204.22,
+      "end": 209.6,
+      "text": "But we talk of acceleration right now because you can make those three measurements arbitrarily"
+    },
+    {
+      "idx": 58,
+      "start": 209.6,
+      "end": 210.6,
+      "text": "near each other."
+    },
+    {
+      "idx": 59,
+      "start": 210.6,
+      "end": 214.48,
+      "text": "And in the limit in which the time difference between them goes to zero, you can talk about"
+    },
+    {
+      "idx": 60,
+      "start": 214.48,
+      "end": 217.57,
+      "text": "the velocity right now and acceleration right now."
+    },
+    {
+      "idx": 61,
+      "start": 217.57,
+      "end": 221.73,
+      "text": "But in your car, the needle points at 60, that's your velocity right now."
+    },
+    {
+      "idx": 62,
+      "start": 221.73,
+      "end": 223.67,
+      "text": "It's an instantaneous quantity."
+    },
+    {
+      "idx": 63,
+      "start": 223.67,
+      "end": 227.75,
+      "text": "And if you step on the gas, you feel this push, that's your acceleration right now."
+    },
+    {
+      "idx": 64,
+      "start": 227.75,
+      "end": 230.79,
+      "text": "That's the property of that instant."
+    },
+    {
+      "idx": 65,
+      "start": 230.79,
+      "end": 231.51,
+      "text": "So we know acceleration."
+    },
+    {
+      "idx": 66,
+      "start": 231.51,
+      "end": 239.58,
+      "text": "But the question is, can I use the equation to find the mass of anything?"
+    },
+    {
+      "idx": 67,
+      "start": 239.58,
+      "end": 246.8,
+      "text": "Now, very often when I pose the question, the answer given is go to a scale, weighing machine, and find the mass."
+    },
+    {
+      "idx": 68,
+      "start": 246.8,
+      "end": 253.74,
+      "text": "And as you know, that's not the correct answer because the weight of an object is related to being near the Earth due to gravity."
+    },
+    {
+      "idx": 69,
+      "start": 253.74,
+      "end": 257.38,
+      "text": "But the mass of an object is defined anywhere."
+    },
+    {
+      "idx": 70,
+      "start": 257.38,
+      "end": 260.38,
+      "text": "So here's one way you can do it."
+    },
+    {
+      "idx": 71,
+      "start": 260.38,
+      "end": 263.6,
+      "text": "Now, you might say, well, take a known force and"
+    },
+    {
+      "idx": 72,
+      "start": 263.6,
+      "end": 265.66,
+      "text": "see the acceleration it produces."
+    },
+    {
+      "idx": 73,
+      "start": 265.66,
+      "end": 268.46,
+      "text": "But we haven't talked about how to measure the force either."
+    },
+    {
+      "idx": 74,
+      "start": 268.46,
+      "end": 271.03,
+      "text": "All you have is this equation."
+    },
+    {
+      "idx": 75,
+      "start": 271.03,
+      "end": 280.15,
+      "text": "The correct thing to do is to buy yourself a spring, then go to the Bureau of Standards and"
+    },
+    {
+      "idx": 76,
+      "start": 280.15,
+      "end": 285.6,
+      "text": "tell them to loan you a block of some material, forgot what it is."
+    },
+    {
+      "idx": 77,
+      "start": 285.6,
+      "end": 288.1,
+      "text": "That's called a kilogram."
+    },
+    {
+      "idx": 78,
+      "start": 288.1,
+      "end": 290.88,
+      "text": "That is a kilogram by definition."
+    },
+    {
+      "idx": 79,
+      "start": 290.88,
+      "end": 292.8,
+      "text": "There is no God-given way to define mass."
+    },
+    {
+      "idx": 80,
+      "start": 292.8,
+      "end": 295.58,
+      "text": "You pick a random entity and say that's a kilogram."
+    },
+    {
+      "idx": 81,
+      "start": 295.58,
+      "end": 297.4,
+      "text": "So that's not right and that's not wrong."
+    },
+    {
+      "idx": 82,
+      "start": 297.4,
+      "end": 299.62,
+      "text": "That's what a kilogram is."
+    },
+    {
+      "idx": 83,
+      "start": 299.62,
+      "end": 309.03,
+      "text": "So you bring the kilogram, you hook it up to the spring, and you pull it by some amount, maybe to that position, and you release it."
+    },
+    {
+      "idx": 84,
+      "start": 309.03,
+      "end": 316.13,
+      "text": "You notice the acceleration of the one kilogram, and the mass of the thing is just one."
+    },
+    {
+      "idx": 85,
+      "start": 316.13,
+      "end": 318.48,
+      "text": "Then you detach that mass."
+    },
+    {
+      "idx": 86,
+      "start": 318.48,
+      "end": 323.19,
+      "text": "Then you ask, and the person says, what's the mass of something else?"
+    },
+    {
+      "idx": 87,
+      "start": 323.19,
+      "end": 325.23,
+      "text": "I don't know what the something else is."
+    },
+    {
+      "idx": 88,
+      "start": 325.23,
+      "end": 326.91,
+      "text": "Let's say potato."
+    },
+    {
+      "idx": 89,
+      "start": 326.91,
+      "end": 331.18,
+      "text": "And you take the potato or anything."
+    },
+    {
+      "idx": 90,
+      "start": 333.72,
+      "end": 337.93,
+      "text": "You pull that guy by the same distance."
+    },
+    {
+      "idx": 91,
+      "start": 337.93,
+      "end": 341.27,
+      "text": "You release that, and you find its acceleration."
+    },
+    {
+      "idx": 92,
+      "start": 341.27,
+      "end": 345.47,
+      "text": "Since you pulled it by the same amount, the force is the same, whatever it is."
+    },
+    {
+      "idx": 93,
+      "start": 345.47,
+      "end": 347.82,
+      "text": "We don't know what it is, but it's the same."
+    },
+    {
+      "idx": 94,
+      "start": 347.82,
+      "end": 358.03,
+      "text": "Therefore, we know the acceleration of one kilogram times one kilogram is equal to the unknown mass times the acceleration of the unknown mass."
+    },
+    {
+      "idx": 95,
+      "start": 358.03,
+      "end": 362.39,
+      "text": "That's how, by measuring this, you can find what that mass is."
+    },
+    {
+      "idx": 96,
+      "start": 362.39,
+      "end": 365.07,
+      "text": "So in principle, you can find the mass."
+    },
+    {
+      "idx": 97,
+      "start": 365.07,
+      "end": 366.45,
+      "text": "You can find the mass of everything."
+    },
+    {
+      "idx": 98,
+      "start": 366.45,
+      "end": 372.72,
+      "text": "So imagine masses of all objects have been determined by this process."
+    },
+    {
+      "idx": 99,
+      "start": 372.72,
+      "end": 381.46,
+      "text": "Then you can also use F equal to ma to find out what forces are acting on bodies in different situations."
+    },
+    {
+      "idx": 100,
+      "start": 381.46,
+      "end": 385.26,
+      "text": "Because if you don't know what force is acting on a body, you cannot predict anything."
+    },
+    {
+      "idx": 101,
+      "start": 385.26,
+      "end": 393.83,
+      "text": "So you can go back to the spring and say, I want to know what force the spring exerts when it's pulled by various amounts."
+    },
+    {
+      "idx": 102,
+      "start": 393.83,
+      "end": 396.33,
+      "text": "Well, you pull it by some amount x."
+    },
+    {
+      "idx": 103,
+      "start": 396.33,
+      "end": 400.15,
+      "text": "You put it to a known mass, and you find the acceleration."
+    },
+    {
+      "idx": 104,
+      "start": 400.15,
+      "end": 401.65,
+      "text": "And that's the force."
+    },
+    {
+      "idx": 105,
+      "start": 401.65,
+      "end": 413.66,
+      "text": "And if you plot it, you will find F as a function of x will be roughly a straight line, and it will take the form F equals minus kx."
+    },
+    {
+      "idx": 106,
+      "start": 413.66,
+      "end": 416.16,
+      "text": "That k is called the force constant."
+    },
+    {
+      "idx": 107,
+      "start": 416.16,
+      "end": 422.77,
+      "text": "So this is an example of your finding out the left-hand side of Newton's law."
+    },
+    {
+      "idx": 108,
+      "start": 422.77,
+      "end": 427.5,
+      "text": "You've got to understand the distinction between F equals minus kx and F equals ma."
+    },
+    {
+      "idx": 109,
+      "start": 428.18,
+      "end": 430.09,
+      "text": "What's the difference?"
+    },
+    {
+      "idx": 110,
+      "start": 430.09,
+      "end": 434.3,
+      "text": "This says if you know the force, I can tell you the acceleration."
+    },
+    {
+      "idx": 111,
+      "start": 434.3,
+      "end": 438.98,
+      "text": "But it's your job to go find out every time what forces might be acting on a body."
+    },
+    {
+      "idx": 112,
+      "start": 438.98,
+      "end": 448.64,
+      "text": "If it's connected to a spring, and you pull the spring and it exerts a force, someone's got to make this measurement to find out what the force will be."
+    },
+    {
+      "idx": 113,
+      "start": 448.64,
+      "end": 451.22,
+      "text": "All right, so that's one kind of force."
+    },
+    {
+      "idx": 114,
+      "start": 451.22,
+      "end": 459.63,
+      "text": "Another force that you can find is if you're near the surface of the Earth, if you drop something, it seems to accelerate towards the ground."
+    },
+    {
+      "idx": 115,
+      "start": 460.01,
+      "end": 468.0,
+      "text": "And everything accelerates by the same amount, g."
+    },
+    {
+      "idx": 116,
+      "start": 468.0,
+      "end": 473.61,
+      "text": "Well, according to Newton's laws, if anything is going to accelerate, it's because there's a force on it."
+    },
+    {
+      "idx": 117,
+      "start": 473.61,
+      "end": 483.38,
+      "text": "Therefore, the force on any mass m must be mg, because if I divide by m, I've got to get g."
+    },
+    {
+      "idx": 118,
+      "start": 483.38,
+      "end": 486.68,
+      "text": "So the force on masses near the Earth is mg."
+    },
+    {
+      "idx": 119,
+      "start": 486.68,
+      "end": 489.66,
+      "text": "That's another force."
+    },
+    {
+      "idx": 120,
+      "start": 489.66,
+      "end": 496.06,
+      "text": "Something interesting about that force is that, unlike the spring force, where the spring is touching the mass, you can see it's pulling it."
+    },
+    {
+      "idx": 121,
+      "start": 496.44,
+      "end": 499.8,
+      "text": "So when I push this chair, you can see I'm doing it."
+    },
+    {
+      "idx": 122,
+      "start": 499.8,
+      "end": 508.12,
+      "text": "The pull of gravity is a bit strange, because there is no real contact between the Earth and the object that's falling."
+    },
+    {
+      "idx": 123,
+      "start": 508.12,
+      "end": 514.54,
+      "text": "It was a great abstraction to believe that things can reach out and pull things which are not touching them."
+    },
+    {
+      "idx": 124,
+      "start": 514.54,
+      "end": 520.57,
+      "text": "And gravity was the first formally described force for which that was true."
+    },
+    {
+      "idx": 125,
+      "start": 520.57,
+      "end": 529.09,
+      "text": "And another excursion in the same theme is if this object gets very far, like the moon over there,"
+    },
+    {
+      "idx": 126,
+      "start": 529.77,
+      "end": 541.45,
+      "text": "then the force is not given by mg, but the force is given by this law of gravitation."
+    },
+    {
+      "idx": 127,
+      "start": 541.45,
+      "end": 549.38,
+      "text": "For r very near the surface of the Earth, if you put r equal to the surface of the Earth, you will get a constant force that is just mg."
+    },
+    {
+      "idx": 128,
+      "start": 549.38,
+      "end": 552.96,
+      "text": "But if you move far from the center of the Earth, you've got to take that into account."
+    },
+    {
+      "idx": 129,
+      "start": 552.96,
+      "end": 557.63,
+      "text": "And that's what Newton did and realized the force goes like 1 over r squared."
+    },
+    {
+      "idx": 130,
+      "start": 557.63,
+      "end": 564.57,
+      "text": "So every time things accelerate, you've got to find the reason, and that reason is the force."
+    },
+    {
+      "idx": 131,
+      "start": 566.56,
+      "end": 568.7,
+      "text": "Many forces can be acting on a body."
+    },
+    {
+      "idx": 132,
+      "start": 568.7,
+      "end": 573.06,
+      "text": "And if you put all the forces that are acting on a body, and that explains the acceleration, you're done."
+    },
+    {
+      "idx": 133,
+      "start": 573.06,
+      "end": 575.06,
+      "text": "But sometimes it won't."
+    },
+    {
+      "idx": 134,
+      "start": 575.06,
+      "end": 578.44,
+      "text": "That's when you have a new force."
+    },
+    {
+      "idx": 135,
+      "start": 578.44,
+      "end": 582.7,
+      "text": "And the final application of F equals ma is this one."
+    },
+    {
+      "idx": 136,
+      "start": 582.7,
+      "end": 588.05,
+      "text": "If you knew the force, for example, on a planet,"
+    },
+    {
+      "idx": 137,
+      "start": 588.05,
+      "end": 593.03,
+      "text": "and here's a planet going around the sun, and it's here."
+    },
+    {
+      "idx": 138,
+      "start": 593.03,
+      "end": 598.29,
+      "text": "This is the sun, and you know the force acting on it, given by Newton's law of gravity."
+    },
+    {
+      "idx": 139,
+      "start": 598.29,
+      "end": 600.53,
+      "text": "You can find the acceleration."
+    },
+    {
+      "idx": 140,
+      "start": 600.53,
+      "end": 605.57,
+      "text": "It will help you find out where it will be one second later and you repeat the calculation."
+    },
+    {
+      "idx": 141,
+      "start": 605.57,
+      "end": 608.65,
+      "text": "You will get the trajectory."
+    },
+    {
+      "idx": 142,
+      "start": 608.65,
+      "end": 612.31,
+      "text": "F equals ma is good for three things, that's what I want you to understand."
+    },
+    {
+      "idx": 143,
+      "start": 612.31,
+      "end": 618.26,
+      "text": "To define mass, to calculate forces acting on bodies by seeing how they accelerate."
+    },
+    {
+      "idx": 144,
+      "start": 618.26,
+      "end": 623.04,
+      "text": "And finally, to find the acceleration of bodies, given the forces."
+    },
+    {
+      "idx": 145,
+      "start": 623.04,
+      "end": 626.02,
+      "text": "This is the cycle of Newtonian dynamics."
+    },
+    {
+      "idx": 146,
+      "start": 626.02,
+      "end": 628.46,
+      "text": "And what I'm going to do now."
+    },
+    {
+      "idx": 147,
+      "start": 628.46,
+      "end": 629.64,
+      "text": "Is to add."
+    },
+    {
+      "idx": 148,
+      "start": 629.64,
+      "end": 634.62,
+      "text": "one more new force, because I'm going to find out"
+    },
+    {
+      "idx": 149,
+      "start": 634.62,
+      "end": 639.4,
+      "text": "that there is another force not listed here."
+    },
+    {
+      "idx": 150,
+      "start": 639.4,
+      "end": 643.26,
+      "text": "I'm going to demonstrate to you that new force."
+    },
+    {
+      "idx": 151,
+      "start": 643.26,
+      "end": 647.0,
+      "text": "Here's my demonstration, the only demonstration you will"
+    },
+    {
+      "idx": 152,
+      "start": 647.0,
+      "end": 650.3,
+      "text": "see in my class, because everything else I've"
+    },
+    {
+      "idx": 153,
+      "start": 650.3,
+      "end": 655.2,
+      "text": "tried generally failed, but this one always works."
+    },
+    {
+      "idx": 154,
+      "start": 655.2,
+      "end": 661.11,
+      "text": "So I have here a piece of paper."
+    },
+    {
+      "idx": 155,
+      "start": 661.11,
+      "end": 665.75,
+      "text": "I take this trusty comb and I comb the part of my head that's"
+    },
+    {
+      "idx": 156,
+      "start": 665.75,
+      "end": 668.38,
+      "text": "suited for this experiment."
+    },
+    {
+      "idx": 157,
+      "start": 668.38,
+      "end": 672.64,
+      "text": "Then I bring it next to this, and you see I'm able to lift"
+    },
+    {
+      "idx": 158,
+      "start": 674.54,
+      "end": 677.38,
+      "text": "That's not the force of gravity, because gravity doesn't"
+    },
+    {
+      "idx": 159,
+      "start": 677.38,
+      "end": 679.85,
+      "text": "care if you comb your hair or not."
+    },
+    {
+      "idx": 160,
+      "start": 680.63,
+      "end": 685.6,
+      "text": "And also when I shake it, it falls down."
+    },
+    {
+      "idx": 161,
+      "start": 685.6,
+      "end": 687.7,
+      "text": "So you're thinking, okay, maybe there is a new"
+    },
+    {
+      "idx": 162,
+      "start": 687.7,
+      "end": 689.7,
+      "text": "force, but it doesn't look awfully strong,"
+    },
+    {
+      "idx": 163,
+      "start": 689.7,
+      "end": 693.39,
+      "text": "because it's not able to even overcome gravity,"
+    },
+    {
+      "idx": 164,
+      "start": 693.39,
+      "end": 697.72,
+      "text": "because it eventually yielded to gravity and fell down."
+    },
+    {
+      "idx": 165,
+      "start": 697.72,
+      "end": 700.59,
+      "text": "There's actually a mistake to think so."
+    },
+    {
+      "idx": 166,
+      "start": 700.59,
+      "end": 704.82,
+      "text": "In fact, this new force that I'm talking about is 10 to the"
+    },
+    {
+      "idx": 167,
+      "start": 704.82,
+      "end": 709.44,
+      "text": "power of 40 stronger than gravitational force."
+    },
+    {
+      "idx": 168,
+      "start": 709.44,
+      "end": 713.26,
+      "text": "I will tell you by what metric I came up with that number,"
+    },
+    {
+      "idx": 169,
+      "start": 713.26,
+      "end": 715.28,
+      "text": "but it's an enormously strong force."
+    },
+    {
+      "idx": 170,
+      "start": 715.28,
+      "end": 718.88,
+      "text": "You've got to understand why I say it is such a strong force"
+    },
+    {
+      "idx": 171,
+      "start": 718.88,
+      "end": 723.3,
+      "text": "when I shook it, the thing fell down."
+    },
+    {
+      "idx": 172,
+      "start": 723.3,
+      "end": 726.96,
+      "text": "So the reason is that if you look at this experiment,"
+    },
+    {
+      "idx": 173,
+      "start": 726.96,
+      "end": 728.26,
+      "text": "here's the question."
+    },
+    {
+      "idx": 174,
+      "start": 728.26,
+      "end": 731.03,
+      "text": "Here's the comb and here's the paper."
+    },
+    {
+      "idx": 175,
+      "start": 731.03,
+      "end": 734.27,
+      "text": "The comb is trying to pull the paper, but what is trying to pull"
+    },
+    {
+      "idx": 176,
+      "start": 736.97,
+      "end": 741.2,
+      "text": "What is trying to pull it down?"
+    },
+    {
+      "idx": 177,
+      "start": 741.2,
+      "end": 742.44,
+      "text": "So here is me."
+    },
+    {
+      "idx": 178,
+      "start": 742.44,
+      "end": 744.04,
+      "text": "Here is that comb."
+    },
+    {
+      "idx": 179,
+      "start": 744.04,
+      "end": 746.14,
+      "text": "Here's the paper."
+    },
+    {
+      "idx": 180,
+      "start": 746.14,
+      "end": 750.99,
+      "text": "The entire planet is pulling it down."
+    },
+    {
+      "idx": 181,
+      "start": 750.99,
+      "end": 754.25,
+      "text": "Himalayas, pulling it down."
+    },
+    {
+      "idx": 182,
+      "start": 755.5,
+      "end": 759.36,
+      "text": "Pacific Ocean, pulling it down."
+    },
+    {
+      "idx": 183,
+      "start": 759.36,
+      "end": 764.46,
+      "text": "Bin Laden sitting in his cave, pulling it down."
+    },
+    {
+      "idx": 184,
+      "start": 764.46,
+      "end": 765.86,
+      "text": "Everything is pulling it down."
+    },
+    {
+      "idx": 185,
+      "start": 766.71,
+      "end": 769.75,
+      "text": "I'm one of these people generally convinced the world is"
+    },
+    {
+      "idx": 186,
+      "start": 769.75,
+      "end": 771.77,
+      "text": "acting against me, but this time I'm right."
+    },
+    {
+      "idx": 187,
+      "start": 771.77,
+      "end": 776.43,
+      "text": "Everything is acting against me, and I'm able to triumph"
+    },
+    {
+      "idx": 188,
+      "start": 776.43,
+      "end": 780.14,
+      "text": "against all of that with this tiny comb."
+    },
+    {
+      "idx": 189,
+      "start": 780.14,
+      "end": 783.04,
+      "text": "That is how you compare the electric force to the"
+    },
+    {
+      "idx": 190,
+      "start": 784.34,
+      "end": 787.97,
+      "text": "It takes the entire planet to compensate whatever tiny force"
+    },
+    {
+      "idx": 191,
+      "start": 787.97,
+      "end": 791.32,
+      "text": "they create between comb and a piece of paper."
+    },
+    {
+      "idx": 192,
+      "start": 791.32,
+      "end": 793.6,
+      "text": "To really get a number out of this, I'll have to do a little"
+    },
+    {
+      "idx": 193,
+      "start": 793.6,
+      "end": 796.66,
+      "text": "more, but I just want to point out to you this is a new force,"
+    },
+    {
+      "idx": 194,
+      "start": 796.66,
+      "end": 797.46,
+      "text": "strong enough to pull it down."
+    },
+    {
+      "idx": 195,
+      "start": 797.46,
+      "end": 798.0,
+      "text": "It's a new force."
+    },
+    {
+      "idx": 196,
+      "start": 798.0,
+      "end": 803.07,
+      "text": "It's stronger than, much stronger than gravitation."
+    },
+    {
+      "idx": 197,
+      "start": 803.07,
+      "end": 806.72,
+      "text": "So I want to tell you a few other experiments people did"
+    },
+    {
+      "idx": 198,
+      "start": 806.72,
+      "end": 811.12,
+      "text": "without going into what the explanation is right now,"
+    },
+    {
+      "idx": 199,
+      "start": 811.12,
+      "end": 813.72,
+      "text": "but let me just tell you, if you go through history,"
+    },
+    {
+      "idx": 200,
+      "start": 813.72,
+      "end": 816.39,
+      "text": "what all did people do?"
+    },
+    {
+      "idx": 201,
+      "start": 816.39,
+      "end": 823.65,
+      "text": "So one experiment you can do, you take a piece of glass and you"
+    },
+    {
+      "idx": 202,
+      "start": 823.65,
+      "end": 827.8,
+      "text": "rub it on some animal that's passing by."
+    },
+    {
+      "idx": 203,
+      "start": 829.24,
+      "end": 831.14,
+      "text": "That's why I cannot do all the experiments in class."
+    },
+    {
+      "idx": 204,
+      "start": 832.5,
+      "end": 833.7,
+      "text": "You rub it on that guy."
+    },
+    {
+      "idx": 205,
+      "start": 833.7,
+      "end": 836.39,
+      "text": "Then you do it to a second piece of glass,"
+    },
+    {
+      "idx": 206,
+      "start": 836.39,
+      "end": 840.58,
+      "text": "and you find out that they repel each other,"
+    },
+    {
+      "idx": 207,
+      "start": 840.58,
+      "end": 841.82,
+      "text": "meaning if you put them next to each other,"
+    },
+    {
+      "idx": 208,
+      "start": 841.82,
+      "end": 844.78,
+      "text": "they tend to fly apart."
+    },
+    {
+      "idx": 209,
+      "start": 844.78,
+      "end": 848.81,
+      "text": "Then you take a piece of hard rubber and you rub that on"
+    },
+    {
+      "idx": 210,
+      "start": 850.72,
+      "end": 854.83,
+      "text": "I forgot what, silk, yeti, some other thing."
+    },
+    {
+      "idx": 211,
+      "start": 854.83,
+      "end": 855.73,
+      "text": "Then you put that here."
+    },
+    {
+      "idx": 212,
+      "start": 855.73,
+      "end": 858.58,
+      "text": "So I'll give a different shape to that thing."
+    },
+    {
+      "idx": 213,
+      "start": 858.58,
+      "end": 860.08,
+      "text": "That's a rubber stick."
+    },
+    {
+      "idx": 214,
+      "start": 860.08,
+      "end": 862.08,
+      "text": "And you find when you do that to this,"
+    },
+    {
+      "idx": 215,
+      "start": 862.08,
+      "end": 866.0,
+      "text": "these two attract each other."
+    },
+    {
+      "idx": 216,
+      "start": 866.0,
+      "end": 867.73,
+      "text": "Sometimes they repel."
+    },
+    {
+      "idx": 217,
+      "start": 867.73,
+      "end": 870.06,
+      "text": "Sometimes they attract."
+    },
+    {
+      "idx": 218,
+      "start": 870.06,
+      "end": 872.47,
+      "text": "Here's another thing you can do."
+    },
+    {
+      "idx": 219,
+      "start": 872.47,
+      "end": 877.0,
+      "text": "By some nylon thread, you hang a small metallic"
+    },
+    {
+      "idx": 220,
+      "start": 877.0,
+      "end": 880.92,
+      "text": "sphere, and you bring one of these rods next to it."
+    },
+    {
+      "idx": 221,
+      "start": 880.92,
+      "end": 882.95,
+      "text": "It doesn't matter which one."
+    },
+    {
+      "idx": 222,
+      "start": 882.95,
+      "end": 887.68,
+      "text": "Initially they're attracted, and suddenly when you touch it"
+    },
+    {
+      "idx": 223,
+      "start": 887.68,
+      "end": 892.77,
+      "text": "and you remove it, they start repelling each other."
+    },
+    {
+      "idx": 224,
+      "start": 892.77,
+      "end": 893.73,
+      "text": "What's going on?"
+    },
+    {
+      "idx": 225,
+      "start": 893.73,
+      "end": 896.17,
+      "text": "That's another thing you could do."
+    },
+    {
+      "idx": 226,
+      "start": 896.17,
+      "end": 902.12,
+      "text": "Last thing I want to mention is if you took two of these things,"
+    },
+    {
+      "idx": 227,
+      "start": 902.12,
+      "end": 904.81,
+      "text": "which are repelling each other, let's say,"
+    },
+    {
+      "idx": 228,
+      "start": 904.81,
+      "end": 908.54,
+      "text": "let's say they're attracting each other like this,"
+    },
+    {
+      "idx": 229,
+      "start": 908.54,
+      "end": 912.76,
+      "text": "then you connect them with a piece of nylon and you take it"
+    },
+    {
+      "idx": 230,
+      "start": 912.76,
+      "end": 914.66,
+      "text": "away, nothing happens."
+    },
+    {
+      "idx": 231,
+      "start": 914.66,
+      "end": 918.26,
+      "text": "If you connect them with a piece of wire and take away the wire,"
+    },
+    {
+      "idx": 232,
+      "start": 918.26,
+      "end": 922.34,
+      "text": "they no longer attract each other."
+    },
+    {
+      "idx": 233,
+      "start": 922.34,
+      "end": 924.14,
+      "text": "So these are examples of different things."
+    },
+    {
+      "idx": 234,
+      "start": 924.14,
+      "end": 925.94,
+      "text": "I'm just going to say you do this, you do this,"
+    },
+    {
+      "idx": 235,
+      "start": 925.94,
+      "end": 927.14,
+      "text": "you do that."
+    },
+    {
+      "idx": 236,
+      "start": 927.14,
+      "end": 930.58,
+      "text": "Then finally you need a theory that explains everything."
+    },
+    {
+      "idx": 237,
+      "start": 930.58,
+      "end": 934.3,
+      "text": "So that's the theory that I'm going to give you now."
+    },
+    {
+      "idx": 238,
+      "start": 934.3,
+      "end": 935.84,
+      "text": "That's the theory of electrostatics."
+    },
+    {
+      "idx": 239,
+      "start": 935.84,
+      "end": 936.9,
+      "text": "That's the theory of quantum mechanics."
+    },
+    {
+      "idx": 240,
+      "start": 936.9,
+      "end": 937.93,
+      "text": "That's the theory of quantum mechanics."
+    },
+    {
+      "idx": 241,
+      "start": 937.93,
+      "end": 940.83,
+      "text": "And I don't have time to go into the entire history of how"
+    },
+    {
+      "idx": 242,
+      "start": 940.83,
+      "end": 943.53,
+      "text": "people arrived at this final formalism."
+    },
+    {
+      "idx": 243,
+      "start": 943.53,
+      "end": 949.12,
+      "text": "So I'm just going to tell you one formula that really will"
+    },
+    {
+      "idx": 244,
+      "start": 949.12,
+      "end": 953.94,
+      "text": "explain everything that I've described so far."
+    },
+    {
+      "idx": 245,
+      "start": 953.94,
+      "end": 960.02,
+      "text": "And that formula is called Coulomb's Law."
+    },
+    {
+      "idx": 246,
+      "start": 960.02,
+      "end": 962.52,
+      "text": "Even though Mr. Coulomb's name is on it,"
+    },
+    {
+      "idx": 247,
+      "start": 962.52,
+      "end": 966.86,
+      "text": "he was not the first one to formulate parts of the law,"
+    },
+    {
+      "idx": 248,
+      "start": 966.86,
+      "end": 971.02,
+      "text": "but he gave the final and direct verification of Coulomb's Law,"
+    },
+    {
+      "idx": 249,
+      "start": 971.02,
+      "end": 974.19,
+      "text": "which is what he had contributed to."
+    },
+    {
+      "idx": 250,
+      "start": 974.19,
+      "end": 980.3,
+      "text": "So Coulomb's Law says that certain entities have a property"
+    },
+    {
+      "idx": 251,
+      "start": 982.64,
+      "end": 984.14,
+      "text": "You have charge and you don't have charge."
+    },
+    {
+      "idx": 252,
+      "start": 984.14,
+      "end": 986.74,
+      "text": "But if you have charge, the charge that you have,"
+    },
+    {
+      "idx": 253,
+      "start": 986.74,
+      "end": 993.85,
+      "text": "you meaning any of these objects, is measured in Coulomb's."
+    },
+    {
+      "idx": 254,
+      "start": 993.85,
+      "end": 996.95,
+      "text": "Anyway, that was not Coulomb's idea to call it Coulomb."
+    },
+    {
+      "idx": 255,
+      "start": 996.95,
+      "end": 999.35,
+      "text": "Whenever you make a discovery, you're breathlessly waiting that"
+    },
+    {
+      "idx": 256,
+      "start": 999.35,
+      "end": 1002.35,
+      "text": "somebody will name it after you, but it's not in good taste to"
+    },
+    {
+      "idx": 257,
+      "start": 1002.35,
+      "end": 1004.28,
+      "text": "name it after yourself."
+    },
+    {
+      "idx": 258,
+      "start": 1004.28,
+      "end": 1006.08,
+      "text": "But it carries Coulomb's name."
+    },
+    {
+      "idx": 259,
+      "start": 1006.08,
+      "end": 1010.18,
+      "text": "He didn't say call it Coulomb, but he certainly wrote down this"
+    },
+    {
+      "idx": 260,
+      "start": 1011.37,
+      "end": 1016.12,
+      "text": "The law says that if you've got one entity which has some amount"
+    },
+    {
+      "idx": 261,
+      "start": 1016.12,
+      "end": 1019.92,
+      "text": "of charge called q1 and has another entity that's some"
+    },
+    {
+      "idx": 262,
+      "start": 1019.92,
+      "end": 1023.91,
+      "text": "amount of charge q2, they will exert a force on each"
+    },
+    {
+      "idx": 263,
+      "start": 1023.91,
+      "end": 1026.31,
+      "text": "other, which is given by q1,"
+    },
+    {
+      "idx": 264,
+      "start": 1026.31,
+      "end": 1030.95,
+      "text": "q2 times this constant, which is somehow written as 1"
+    },
+    {
+      "idx": 265,
+      "start": 1030.95,
+      "end": 1036.99,
+      "text": "over 4Πε0 times 1 over r squared."
+    },
+    {
+      "idx": 266,
+      "start": 1036.99,
+      "end": 1039.09,
+      "text": "But r is the distance between them."
+    },
+    {
+      "idx": 267,
+      "start": 1039.09,
+      "end": 1041.79,
+      "text": "Now you can ask in this picture, what do you mean by distance?"
+    },
+    {
+      "idx": 268,
+      "start": 1041.79,
+      "end": 1043.99,
+      "text": "I mean, is it from here to there, or is it from center to"
+    },
+    {
+      "idx": 269,
+      "start": 1044.89,
+      "end": 1047.79,
+      "text": "We are assuming here that the distance between them is much"
+    },
+    {
+      "idx": 270,
+      "start": 1047.79,
+      "end": 1051.25,
+      "text": "bigger than their individual sizes."
+    },
+    {
+      "idx": 271,
+      "start": 1051.25,
+      "end": 1053.75,
+      "text": "For example, you say, how far am I from Los Angeles?"
+    },
+    {
+      "idx": 272,
+      "start": 1053.75,
+      "end": 1055.85,
+      "text": "Well, 3,225 miles."
+    },
+    {
+      "idx": 273,
+      "start": 1055.85,
+      "end": 1057.55,
+      "text": "But you can say, are you talking about your right hand"
+    },
+    {
+      "idx": 274,
+      "start": 1057.55,
+      "end": 1058.65,
+      "text": "or your left hand?"
+    },
+    {
+      "idx": 275,
+      "start": 1058.65,
+      "end": 1061.25,
+      "text": "Well, I'm a point particle for this purpose, so it doesn't"
+    },
+    {
+      "idx": 276,
+      "start": 1062.35,
+      "end": 1065.05,
+      "text": "So here we are assuming that either they are mathematically"
+    },
+    {
+      "idx": 277,
+      "start": 1065.05,
+      "end": 1069.05,
+      "text": "point charges, or they're real charges with a finite size, but"
+    },
+    {
+      "idx": 278,
+      "start": 1069.05,
+      "end": 1071.95,
+      "text": "they are separated by a distance much bigger than the size,"
+    },
+    {
+      "idx": 279,
+      "start": 1071.95,
+      "end": 1075.55,
+      "text": "so r could stand, if you like, for center to center."
+    },
+    {
+      "idx": 280,
+      "start": 1075.55,
+      "end": 1078.63,
+      "text": "It doesn't matter too much."
+    },
+    {
+      "idx": 281,
+      "start": 1078.63,
+      "end": 1080.91,
+      "text": "This is what Coulomb said."
+    },
+    {
+      "idx": 282,
+      "start": 1080.91,
+      "end": 1085.81,
+      "text": "Now if you look at this number here, 1 over 4Πε0,"
+    },
+    {
+      "idx": 283,
+      "start": 1085.81,
+      "end": 1091.96,
+      "text": "its value is 9 times 10 to the 9."
+    },
+    {
+      "idx": 284,
+      "start": 1091.96,
+      "end": 1094.51,
+      "text": "What that means is the following."
+    },
+    {
+      "idx": 285,
+      "start": 1094.51,
+      "end": 1098.51,
+      "text": "If you take one body with one coulomb of charge,"
+    },
+    {
+      "idx": 286,
+      "start": 1098.51,
+      "end": 1100.81,
+      "text": "another body with one coulomb of charge,"
+    },
+    {
+      "idx": 287,
+      "start": 1100.81,
+      "end": 1104.2,
+      "text": "and they're separated by 1 meter, then the force between"
+    },
+    {
+      "idx": 288,
+      "start": 1104.4,
+      "end": 1108.8,
+      "text": "them will be this number, because everything else is a 1."
+    },
+    {
+      "idx": 289,
+      "start": 1108.8,
+      "end": 1112.36,
+      "text": "It'll be 9 times 10 to the 9 Newtons."
+    },
+    {
+      "idx": 290,
+      "start": 1112.36,
+      "end": 1114.86,
+      "text": "That's an enormous force, and normally you don't run into"
+    },
+    {
+      "idx": 291,
+      "start": 1114.86,
+      "end": 1115.96,
+      "text": "one coulomb of charge."
+    },
+    {
+      "idx": 292,
+      "start": 1115.96,
+      "end": 1119.16,
+      "text": "But the reason why a coulomb was picked is sort of historical,"
+    },
+    {
+      "idx": 293,
+      "start": 1119.16,
+      "end": 1121.36,
+      "text": "and it has to do with currents and so on."
+    },
+    {
+      "idx": 294,
+      "start": 1121.36,
+      "end": 1125.1,
+      "text": "But anyway, this is the definition."
+    },
+    {
+      "idx": 295,
+      "start": 1125.1,
+      "end": 1128.83,
+      "text": "Now if you want to be more precise, I should write a"
+    },
+    {
+      "idx": 296,
+      "start": 1128.83,
+      "end": 1133.3,
+      "text": "formula more carefully, because force is a vector."
+    },
+    {
+      "idx": 297,
+      "start": 1133.3,
+      "end": 1138.04,
+      "text": "Also, I should say force on whom, and due to what."
+    },
+    {
+      "idx": 298,
+      "start": 1138.04,
+      "end": 1142.37,
+      "text": "So let's say there are two charges, and say q1 is sitting"
+    },
+    {
+      "idx": 299,
+      "start": 1142.37,
+      "end": 1146.16,
+      "text": "at the origin, and q2 is sitting at a point"
+    },
+    {
+      "idx": 300,
+      "start": 1146.16,
+      "end": 1151.16,
+      "text": "whose position is the vector r."
+    },
+    {
+      "idx": 301,
+      "start": 1151.16,
+      "end": 1164.1,
+      "text": "Then the force on 2 due to 1 is given by q2q1 over 4Πε0"
+    },
+    {
+      "idx": 302,
+      "start": 1164.1,
+      "end": 1167.06,
+      "text": "times 1 over r squared."
+    },
+    {
+      "idx": 303,
+      "start": 1167.06,
+      "end": 1171.36,
+      "text": "That's the magnitude of the force, but I want to suggest that"
+    },
+    {
+      "idx": 304,
+      "start": 1171.36,
+      "end": 1173.36,
+      "text": "the force is such that q1 pushes q2 away."
+    },
+    {
+      "idx": 305,
+      "start": 1173.36,
+      "end": 1178.06,
+      "text": "So I want to make this into a vector, but I got the magnitude"
+    },
+    {
+      "idx": 306,
+      "start": 1178.06,
+      "end": 1179.06,
+      "text": "of the vector."
+    },
+    {
+      "idx": 307,
+      "start": 1179.06,
+      "end": 1183.61,
+      "text": "As you know, to make a real vector, you take its magnitude"
+    },
+    {
+      "idx": 308,
+      "start": 1183.61,
+      "end": 1186.21,
+      "text": "and multiply it by a vector of unit length in that same"
+    },
+    {
+      "idx": 309,
+      "start": 1187.01,
+      "end": 1190.01,
+      "text": "The unit vector we can write in many ways."
+    },
+    {
+      "idx": 310,
+      "start": 1190.01,
+      "end": 1192.71,
+      "text": "One is to say ER."
+    },
+    {
+      "idx": 311,
+      "start": 1192.71,
+      "end": 1197.61,
+      "text": "ER is the standard name for a vector of length 1 in the"
+    },
+    {
+      "idx": 312,
+      "start": 1197.61,
+      "end": 1198.61,
+      "text": "direction of r."
+    },
+    {
+      "idx": 313,
+      "start": 1198.61,
+      "end": 1201.05,
+      "text": "But I'll give you another choice."
+    },
+    {
+      "idx": 314,
+      "start": 1201.05,
+      "end": 1204.95,
+      "text": "You can also write it as r divided by the length of r."
+    },
+    {
+      "idx": 315,
+      "start": 1204.95,
+      "end": 1206.75,
+      "text": "That also will be a vector of unit length."
+    },
+    {
+      "idx": 316,
+      "start": 1206.75,
+      "end": 1208.75,
+      "text": "So r is equal to r, parallel to r."
+    },
+    {
+      "idx": 317,
+      "start": 1208.75,
+      "end": 1212.82,
+      "text": "There are many ways to write the thing that makes it a vector."
+    },
+    {
+      "idx": 318,
+      "start": 1212.82,
+      "end": 1224.24,
+      "text": "And F21 is minus of F12."
+    },
+    {
+      "idx": 319,
+      "start": 1224.24,
+      "end": 1228.98,
+      "text": "Now, how do we get attraction and how do we get repulsion?"
+    },
+    {
+      "idx": 320,
+      "start": 1228.98,
+      "end": 1232.48,
+      "text": "We get it because q1 and q2, if they're both positive,"
+    },
+    {
+      "idx": 321,
+      "start": 1232.48,
+      "end": 1235.18,
+      "text": "and if you use the formula, you will find they repel each"
+    },
+    {
+      "idx": 322,
+      "start": 1236.16,
+      "end": 1238.66,
+      "text": "But if they're of opposite signs, you'll do the same"
+    },
+    {
+      "idx": 323,
+      "start": 1238.66,
+      "end": 1241.16,
+      "text": "calculation, but you'll put a minus sign in front of the whole"
+    },
+    {
+      "idx": 324,
+      "start": 1241.96,
+      "end": 1246.24,
+      "text": "That will turn repulsion into an attraction."
+    },
+    {
+      "idx": 325,
+      "start": 1246.44,
+      "end": 1249.24,
+      "text": "So you must allow for the possibility that q can be of"
+    },
+    {
+      "idx": 326,
+      "start": 1250.55,
+      "end": 1252.95,
+      "text": "q can also be 0."
+    },
+    {
+      "idx": 327,
+      "start": 1252.95,
+      "end": 1255.15,
+      "text": "There are certain entities which don't have any electric"
+    },
+    {
+      "idx": 328,
+      "start": 1255.15,
+      "end": 1257.75,
+      "text": "charge, so if you put them next to a million coulombs,"
+    },
+    {
+      "idx": 329,
+      "start": 1259.67,
+      "end": 1261.77,
+      "text": "So some things have plus charge, some things have minus"
+    },
+    {
+      "idx": 330,
+      "start": 1261.77,
+      "end": 1265.04,
+      "text": "charge, some things have no charge."
+    },
+    {
+      "idx": 331,
+      "start": 1265.04,
+      "end": 1271.99,
+      "text": "But they're all contained in this coulomb's law."
+    },
+    {
+      "idx": 332,
+      "start": 1271.99,
+      "end": 1276.42,
+      "text": "Now, again, skipping all the intermediate discoveries,"
+    },
+    {
+      "idx": 333,
+      "start": 1276.42,
+      "end": 1281.45,
+      "text": "I want to tell you a couple of things we know about charge."
+    },
+    {
+      "idx": 334,
+      "start": 1281.45,
+      "end": 1290.44,
+      "text": "One thing is q is conserved."
+    },
+    {
+      "idx": 335,
+      "start": 1290.44,
+      "end": 1294.08,
+      "text": "Conserved is the physics term for saying does not change with"
+    },
+    {
+      "idx": 336,
+      "start": 1294.88,
+      "end": 1297.38,
+      "text": "For example, when you say energy is conserved,"
+    },
+    {
+      "idx": 337,
+      "start": 1297.38,
+      "end": 1300.38,
+      "text": "it means particles can come and collide and do all kinds of"
+    },
+    {
+      "idx": 338,
+      "start": 1300.38,
+      "end": 1302.38,
+      "text": "things, but if you add that energy"
+    },
+    {
+      "idx": 339,
+      "start": 1302.38,
+      "end": 1304.48,
+      "text": "before, you'll get the same answer"
+    },
+    {
+      "idx": 340,
+      "start": 1305.48,
+      "end": 1308.77,
+      "text": "Whenever that happens, the quantity is conserved."
+    },
+    {
+      "idx": 341,
+      "start": 1308.77,
+      "end": 1312.24,
+      "text": "The claim is electrical charge is conserved."
+    },
+    {
+      "idx": 342,
+      "start": 1312.24,
+      "end": 1315.54,
+      "text": "So electrical charge may migrate from A to B or B to A,"
+    },
+    {
+      "idx": 343,
+      "start": 1315.54,
+      "end": 1317.54,
+      "text": "but if you add up the total charge, say, in a chemical reaction,"
+    },
+    {
+      "idx": 344,
+      "start": 1317.54,
+      "end": 1320.34,
+      "text": "or in any process, including in big particle"
+    },
+    {
+      "idx": 345,
+      "start": 1320.34,
+      "end": 1322.84,
+      "text": "accelerators, where things collide and all kinds of stuff"
+    },
+    {
+      "idx": 346,
+      "start": 1322.84,
+      "end": 1324.84,
+      "text": "come flying out, the charge of the final"
+    },
+    {
+      "idx": 347,
+      "start": 1324.84,
+      "end": 1327.64,
+      "text": "products is always equal to the charge of the incoming products."
+    },
+    {
+      "idx": 348,
+      "start": 1327.64,
+      "end": 1333.62,
+      "text": "But charge conservation needs to be amended with one extra"
+    },
+    {
+      "idx": 349,
+      "start": 1333.62,
+      "end": 1335.82,
+      "text": "term, extra qualification."
+    },
+    {
+      "idx": 350,
+      "start": 1335.82,
+      "end": 1337.31,
+      "text": "It's called local."
+    },
+    {
+      "idx": 351,
+      "start": 1337.31,
+      "end": 1343.06,
+      "text": "Suppose I say the number of students in the class is"
+    },
+    {
+      "idx": 352,
+      "start": 1344.13,
+      "end": 1348.64,
+      "text": "That means you count them any time, you've got to get the same"
+    },
+    {
+      "idx": 353,
+      "start": 1349.24,
+      "end": 1351.84,
+      "text": "Well, here's one point."
+    },
+    {
+      "idx": 354,
+      "start": 1351.84,
+      "end": 1353.84,
+      "text": "Here's one possibility."
+    },
+    {
+      "idx": 355,
+      "start": 1353.84,
+      "end": 1358.34,
+      "text": "Suddenly, one of you guys disappears and appears here,"
+    },
+    {
+      "idx": 356,
+      "start": 1358.34,
+      "end": 1361.6,
+      "text": "the same instant."
+    },
+    {
+      "idx": 357,
+      "start": 1361.6,
+      "end": 1364.7,
+      "text": "That's also consistent with conservation of student number,"
+    },
+    {
+      "idx": 358,
+      "start": 1364.7,
+      "end": 1366.4,
+      "text": "because the number didn't change."
+    },
+    {
+      "idx": 359,
+      "start": 1366.4,
+      "end": 1370.3,
+      "text": "What disappeared there appeared here."
+    },
+    {
+      "idx": 360,
+      "start": 1370.3,
+      "end": 1372.9,
+      "text": "But that is not a local conservation of charge,"
+    },
+    {
+      "idx": 361,
+      "start": 1372.9,
+      "end": 1375.7,
+      "text": "because it disappears in one part of the world and appears in"
+    },
+    {
+      "idx": 362,
+      "start": 1375.7,
+      "end": 1378.87,
+      "text": "another one, and it's not even a meaningful"
+    },
+    {
+      "idx": 363,
+      "start": 1378.87,
+      "end": 1382.02,
+      "text": "law to have in the presence of relativity."
+    },
+    {
+      "idx": 364,
+      "start": 1382.02,
+      "end": 1385.52,
+      "text": "Can any of you guys think of why you would think that?"
+    },
+    {
+      "idx": 365,
+      "start": 1385.52,
+      "end": 1389.76,
+      "text": "Do you know why that might be true?"
+    },
+    {
+      "idx": 366,
+      "start": 1389.76,
+      "end": 1392.36,
+      "text": "Why charge disappearing somewhere and appearing"
+    },
+    {
+      "idx": 367,
+      "start": 1392.36,
+      "end": 1397.6,
+      "text": "somewhere else cannot be a very profound principle?"
+    },
+    {
+      "idx": 368,
+      "start": 1406.94,
+      "end": 1410.14,
+      "text": "Well, we don't know that it was the same thing that even"
+    },
+    {
+      "idx": 369,
+      "start": 1412.02,
+      "end": 1413.62,
+      "text": "It may not have traveled."
+    },
+    {
+      "idx": 370,
+      "start": 1413.62,
+      "end": 1416.77,
+      "text": "It may even be, here's another thing."
+    },
+    {
+      "idx": 371,
+      "start": 1416.77,
+      "end": 1420.12,
+      "text": "Suppose an electron, suppose a proton disappears"
+    },
+    {
+      "idx": 372,
+      "start": 1420.12,
+      "end": 1422.42,
+      "text": "there and a positron appears here."
+    },
+    {
+      "idx": 373,
+      "start": 1422.42,
+      "end": 1424.32,
+      "text": "That still conserves charge, but we don't think that the"
+    },
+    {
+      "idx": 374,
+      "start": 1424.32,
+      "end": 1427.9,
+      "text": "proton traveled and became the positron, right?"
+    },
+    {
+      "idx": 375,
+      "start": 1427.9,
+      "end": 1431.9,
+      "text": "So it is not that it has traveled."
+    },
+    {
+      "idx": 376,
+      "start": 1432.4,
+      "end": 1433.5,
+      "text": "I think I hadn't thought about that."
+    },
+    {
+      "idx": 377,
+      "start": 1433.5,
+      "end": 1436.7,
+      "text": "That's a good point that it implies it traveled infinitely"
+    },
+    {
+      "idx": 378,
+      "start": 1436.7,
+      "end": 1440.0,
+      "text": "fast, but that's not the reason you object to it."
+    },
+    {
+      "idx": 379,
+      "start": 1440.0,
+      "end": 1445.14,
+      "text": "Yep, that is the correct answer."
+    },
+    {
+      "idx": 380,
+      "start": 1445.14,
+      "end": 1449.43,
+      "text": "The answer is it is not simultaneous in every frame of"
+    },
+    {
+      "idx": 381,
+      "start": 1451.51,
+      "end": 1454.01,
+      "text": "You must know from special theory that if two events are"
+    },
+    {
+      "idx": 382,
+      "start": 1454.01,
+      "end": 1456.84,
+      "text": "simultaneous in one frame of reference,"
+    },
+    {
+      "idx": 383,
+      "start": 1456.84,
+      "end": 1460.04,
+      "text": "if you see those same two events in a moving train or plane or"
+    },
+    {
+      "idx": 384,
+      "start": 1460.04,
+      "end": 1461.54,
+      "text": "anything, they will not be"
+    },
+    {
+      "idx": 385,
+      "start": 1463.59,
+      "end": 1466.19,
+      "text": "Therefore, in any other frame of reference,"
+    },
+    {
+      "idx": 386,
+      "start": 1466.19,
+      "end": 1469.79,
+      "text": "either the charge would have been created first and then after"
+    },
+    {
+      "idx": 387,
+      "start": 1469.79,
+      "end": 1474.19,
+      "text": "a period of time destroyed somewhere and appeared after a"
+    },
+    {
+      "idx": 388,
+      "start": 1474.19,
+      "end": 1477.88,
+      "text": "delay, or the appearance could take place before the"
+    },
+    {
+      "idx": 389,
+      "start": 1477.88,
+      "end": 1481.52,
+      "text": "destruction, so suddenly you've got two charges."
+    },
+    {
+      "idx": 390,
+      "start": 1481.52,
+      "end": 1488.12,
+      "text": "So conservation of charge, which is conserved non-locally,"
+    },
+    {
+      "idx": 391,
+      "start": 1488.12,
+      "end": 1490.32,
+      "text": "cannot have a significance except in one frame of"
+    },
+    {
+      "idx": 392,
+      "start": 1491.52,
+      "end": 1493.52,
+      "text": "If you believe that all observers are equivalent and you"
+    },
+    {
+      "idx": 393,
+      "start": 1493.52,
+      "end": 1496.32,
+      "text": "want to write down loss that make sense for everybody,"
+    },
+    {
+      "idx": 394,
+      "start": 1496.32,
+      "end": 1498.53,
+      "text": "it can only be local."
+    },
+    {
+      "idx": 395,
+      "start": 1498.53,
+      "end": 1502.22,
+      "text": "So electrical charge is conserved and it is locally"
+    },
+    {
+      "idx": 396,
+      "start": 1503.42,
+      "end": 1505.42,
+      "text": "In other words, stuff doesn't just disappear."
+    },
+    {
+      "idx": 397,
+      "start": 1505.42,
+      "end": 1507.22,
+      "text": "Stuff just moves around."
+    },
+    {
+      "idx": 398,
+      "start": 1507.22,
+      "end": 1509.22,
+      "text": "You can keep track of it, and if you add it up,"
+    },
+    {
+      "idx": 399,
+      "start": 1509.22,
+      "end": 1512.46,
+      "text": "you get the same number."
+    },
+    {
+      "idx": 400,
+      "start": 1512.46,
+      "end": 1516.96,
+      "text": "The second part of Q, which is not necessary for any"
+    },
+    {
+      "idx": 401,
+      "start": 1516.96,
+      "end": 1527.58,
+      "text": "of these older phenomena, is that Q is quantized."
+    },
+    {
+      "idx": 402,
+      "start": 1527.58,
+      "end": 1532.78,
+      "text": "That means the electrical charge that we run into does not take a"
+    },
+    {
+      "idx": 403,
+      "start": 1532.78,
+      "end": 1536.55,
+      "text": "minimum of possible values."
+    },
+    {
+      "idx": 404,
+      "start": 1536.55,
+      "end": 1538.95,
+      "text": "For example, the length of any object you might think,"
+    },
+    {
+      "idx": 405,
+      "start": 1538.95,
+      "end": 1541.75,
+      "text": "at least in classical mechanics, any number you like,"
+    },
+    {
+      "idx": 406,
+      "start": 1541.75,
+      "end": 1543.58,
+      "text": "is a continuous variable."
+    },
+    {
+      "idx": 407,
+      "start": 1543.58,
+      "end": 1546.47,
+      "text": "The electric charge is not continuous."
+    },
+    {
+      "idx": 408,
+      "start": 1546.47,
+      "end": 1550.53,
+      "text": "As far as we can tell, all the charges we have ever"
+    },
+    {
+      "idx": 409,
+      "start": 1550.53,
+      "end": 1554.63,
+      "text": "seen are all multiples of a certain basic unit of charge,"
+    },
+    {
+      "idx": 410,
+      "start": 1554.63,
+      "end": 1558.73,
+      "text": "which turns out to be 1.6 times 10 to the"
+    },
+    {
+      "idx": 411,
+      "start": 1558.73,
+      "end": 1564.03,
+      "text": "minus 19 coulombs."
+    },
+    {
+      "idx": 412,
+      "start": 1564.03,
+      "end": 1567.03,
+      "text": "Every charge is either that or some multiple of it."
+    },
+    {
+      "idx": 413,
+      "start": 1567.03,
+      "end": 1571.6,
+      "text": "So a multiple could be plus or minus multiple."
+    },
+    {
+      "idx": 414,
+      "start": 1571.6,
+      "end": 1576.65,
+      "text": "So charge is granular, not continuous."
+    },
+    {
+      "idx": 415,
+      "start": 1576.65,
+      "end": 1582.62,
+      "text": "Okay, so I'm going to give you a little more knowledge we have"
+    },
+    {
+      "idx": 416,
+      "start": 1582.62,
+      "end": 1586.15,
+      "text": "had since the time of Coulomb that sort of explains these"
+    },
+    {
+      "idx": 417,
+      "start": 1588.08,
+      "end": 1591.32,
+      "text": "Namely, what's really going on microscopically?"
+    },
+    {
+      "idx": 418,
+      "start": 1591.32,
+      "end": 1592.92,
+      "text": "We don't have to pretend we don't know."
+    },
+    {
+      "idx": 419,
+      "start": 1592.92,
+      "end": 1597.46,
+      "text": "We do, so we might as well use that information from now on."
+    },
+    {
+      "idx": 420,
+      "start": 1597.46,
+      "end": 1601.88,
+      "text": "What we do know is that everything is made up of atoms,"
+    },
+    {
+      "idx": 421,
+      "start": 1601.88,
+      "end": 1603.98,
+      "text": "and that if you look into the atom, it's got a nucleus,"
+    },
+    {
+      "idx": 422,
+      "start": 1603.98,
+      "end": 1604.58,
+      "text": "and it's got a nucleus."
+    },
+    {
+      "idx": 423,
+      "start": 1604.58,
+      "end": 1609.04,
+      "text": "A lot of guys sitting here."
+    },
+    {
+      "idx": 424,
+      "start": 1609.04,
+      "end": 1611.94,
+      "text": "Some are called protons, and some are called neutrons,"
+    },
+    {
+      "idx": 425,
+      "start": 1611.94,
+      "end": 1618.9,
+      "text": "and then there are some guys running around called electrons."
+    },
+    {
+      "idx": 426,
+      "start": 1618.9,
+      "end": 1621.6,
+      "text": "Of course, we will see at the end of the semester that this"
+    },
+    {
+      "idx": 427,
+      "start": 1621.6,
+      "end": 1624.78,
+      "text": "picture is wrong, but it is good enough for this"
+    },
+    {
+      "idx": 428,
+      "start": 1627.07,
+      "end": 1629.67,
+      "text": "It's certainly true that there are charges in an atom which are"
+    },
+    {
+      "idx": 429,
+      "start": 1629.67,
+      "end": 1632.07,
+      "text": "near the center, and other light charges which"
+    },
+    {
+      "idx": 430,
+      "start": 1632.07,
+      "end": 1637.1,
+      "text": "are near the periphery or outside."
+    },
+    {
+      "idx": 431,
+      "start": 1637.1,
+      "end": 1640.0,
+      "text": "All things carrying electric charge in our world in daily"
+    },
+    {
+      "idx": 432,
+      "start": 1640.0,
+      "end": 1642.2,
+      "text": "life are either protons or electrons."
+    },
+    {
+      "idx": 433,
+      "start": 1643.79,
+      "end": 1646.79,
+      "text": "They can produce strange particles in an accelerator."
+    },
+    {
+      "idx": 434,
+      "start": 1646.79,
+      "end": 1649.29,
+      "text": "They would also carry some charge, which will in fact be a"
+    },
+    {
+      "idx": 435,
+      "start": 1649.29,
+      "end": 1652.29,
+      "text": "multiple of this charge, but they don't live very long."
+    },
+    {
+      "idx": 436,
+      "start": 1652.29,
+      "end": 1655.49,
+      "text": "So the stable things that you and I are made of,"
+    },
+    {
+      "idx": 437,
+      "start": 1655.49,
+      "end": 1657.79,
+      "text": "and that just about anything in this room is made of,"
+    },
+    {
+      "idx": 438,
+      "start": 1657.79,
+      "end": 1661.66,
+      "text": "is made up of protons, neutrons, and electrons."
+    },
+    {
+      "idx": 439,
+      "start": 1661.66,
+      "end": 1666.92,
+      "text": "The charge of the neutron, as you can guess, is 0."
+    },
+    {
+      "idx": 440,
+      "start": 1666.92,
+      "end": 1670.42,
+      "text": "The charge of the electron by some strange convention was"
+    },
+    {
+      "idx": 441,
+      "start": 1670.42,
+      "end": 1675.98,
+      "text": "given this minus sign by Franklin, and the charge of the"
+    },
+    {
+      "idx": 442,
+      "start": 1675.98,
+      "end": 1687.25,
+      "text": "proton is 1.6 times the negative minus 19 coulombs."
+    },
+    {
+      "idx": 443,
+      "start": 1687.25,
+      "end": 1690.95,
+      "text": "There are a lot of amazing things I find here."
+    },
+    {
+      "idx": 444,
+      "start": 1690.95,
+      "end": 1694.04,
+      "text": "I don't know if you've thought about it."
+    },
+    {
+      "idx": 445,
+      "start": 1694.04,
+      "end": 1697.94,
+      "text": "First interesting thing is that every electron anywhere in the"
+    },
+    {
+      "idx": 446,
+      "start": 1697.94,
+      "end": 1701.37,
+      "text": "universe has exactly the same charge."
+    },
+    {
+      "idx": 447,
+      "start": 1701.37,
+      "end": 1704.86,
+      "text": "It also has exactly the same mass."
+    },
+    {
+      "idx": 448,
+      "start": 1704.86,
+      "end": 1706.86,
+      "text": "Now you might say, look, that's a tautology,"
+    },
+    {
+      "idx": 449,
+      "start": 1706.86,
+      "end": 1709.66,
+      "text": "because if it wasn't the same charge and if it wasn't the same"
+    },
+    {
+      "idx": 450,
+      "start": 1709.66,
+      "end": 1711.06,
+      "text": "mass, you would call it something else."
+    },
+    {
+      "idx": 451,
+      "start": 1711.06,
+      "end": 1715.62,
+      "text": "But what makes it a non-empty statement is that there are"
+    },
+    {
+      "idx": 452,
+      "start": 1715.62,
+      "end": 1720.86,
+      "text": "many, many, many, many electrons which are absolutely identical."
+    },
+    {
+      "idx": 453,
+      "start": 1720.86,
+      "end": 1724.36,
+      "text": "Look, you try to manufacture two cars, the chance that they're"
+    },
+    {
+      "idx": 454,
+      "start": 1724.36,
+      "end": 1726.36,
+      "text": "identical is 0, right?"
+    },
+    {
+      "idx": 455,
+      "start": 1726.36,
+      "end": 1729.06,
+      "text": "I got one of those cars, so I know that."
+    },
+    {
+      "idx": 456,
+      "start": 1729.06,
+      "end": 1730.16,
+      "text": "It doesn't work."
+    },
+    {
+      "idx": 457,
+      "start": 1730.16,
+      "end": 1731.56,
+      "text": "It's supposed to."
+    },
+    {
+      "idx": 458,
+      "start": 1731.56,
+      "end": 1735.02,
+      "text": "So despite all the best efforts people make,"
+    },
+    {
+      "idx": 459,
+      "start": 1735.02,
+      "end": 1737.18,
+      "text": "things are not identical."
+    },
+    {
+      "idx": 460,
+      "start": 1737.18,
+      "end": 1740.48,
+      "text": "But at the microscopic level of electrons and protons,"
+    },
+    {
+      "idx": 461,
+      "start": 1740.48,
+      "end": 1742.48,
+      "text": "every proton anywhere in the universe is a neutron."
+    },
+    {
+      "idx": 462,
+      "start": 1742.98,
+      "end": 1745.48,
+      "text": "Every particle in the universe is identical."
+    },
+    {
+      "idx": 463,
+      "start": 1745.48,
+      "end": 1748.18,
+      "text": "And they can be manufactured in a collision in another part of"
+    },
+    {
+      "idx": 464,
+      "start": 1748.78,
+      "end": 1751.48,
+      "text": "This can be manufactured in a collision in Geneva."
+    },
+    {
+      "idx": 465,
+      "start": 1751.48,
+      "end": 1754.38,
+      "text": "The stuff that comes out is identical."
+    },
+    {
+      "idx": 466,
+      "start": 1754.38,
+      "end": 1756.88,
+      "text": "That is a mystery, at least in classical mechanics"
+    },
+    {
+      "idx": 467,
+      "start": 1756.88,
+      "end": 1758.18,
+      "text": "it's a mystery."
+    },
+    {
+      "idx": 468,
+      "start": 1758.18,
+      "end": 1761.88,
+      "text": "Quantum field theory gives you an answer to at least why all"
+    },
+    {
+      "idx": 469,
+      "start": 1761.88,
+      "end": 1766.06,
+      "text": "electrons are identical, why all protons are identical."
+    },
+    {
+      "idx": 470,
+      "start": 1766.06,
+      "end": 1768.86,
+      "text": "The fact that they're absolutely identical particles"
+    },
+    {
+      "idx": 471,
+      "start": 1768.86,
+      "end": 1770.66,
+      "text": "is very, very important."
+    },
+    {
+      "idx": 472,
+      "start": 1770.66,
+      "end": 1774.23,
+      "text": "It also makes your life easy, because if every particle was"
+    },
+    {
+      "idx": 473,
+      "start": 1774.23,
+      "end": 1779.02,
+      "text": "different from every other particle, you cannot make any predictions."
+    },
+    {
+      "idx": 474,
+      "start": 1779.02,
+      "end": 1783.02,
+      "text": "We know that the hydrogen atom on a receding galaxy is identical"
+    },
+    {
+      "idx": 475,
+      "start": 1783.02,
+      "end": 1785.41,
+      "text": "to the hydrogen atom on the earth."
+    },
+    {
+      "idx": 476,
+      "start": 1785.41,
+      "end": 1787.71,
+      "text": "That's why when the radiation coming from the atom has a"
+    },
+    {
+      "idx": 477,
+      "start": 1787.71,
+      "end": 1791.01,
+      "text": "shifted wavelength or frequency, we attribute it to the motion of"
+    },
+    {
+      "idx": 478,
+      "start": 1791.01,
+      "end": 1793.71,
+      "text": "the galaxy, and from that we deduce from the Doppler shift we"
+    },
+    {
+      "idx": 479,
+      "start": 1793.71,
+      "end": 1795.31,
+      "text": "find out its speed."
+    },
+    {
+      "idx": 480,
+      "start": 1795.31,
+      "end": 1797.91,
+      "text": "But another explanation could be, well, that's a different"
+    },
+    {
+      "idx": 481,
+      "start": 1798.91,
+      "end": 1800.91,
+      "text": "Maybe that's why the answer is different."
+    },
+    {
+      "idx": 482,
+      "start": 1800.91,
+      "end": 1804.01,
+      "text": "But we all believe it's the same hydrogen atom, but it's moving"
+    },
+    {
+      "idx": 483,
+      "start": 1804.01,
+      "end": 1806.15,
+      "text": "away from us."
+    },
+    {
+      "idx": 484,
+      "start": 1806.15,
+      "end": 1810.74,
+      "text": "Therefore, one of the remarkable things is that all electrons and"
+    },
+    {
+      "idx": 485,
+      "start": 1810.74,
+      "end": 1813.5,
+      "text": "all protons are equal."
+    },
+    {
+      "idx": 486,
+      "start": 1813.5,
+      "end": 1817.24,
+      "text": "But a really big mystery is why is the charge of the electron"
+    },
+    {
+      "idx": 487,
+      "start": 1817.24,
+      "end": 1820.94,
+      "text": "exactly equal and opposite the charge of the proton?"
+    },
+    {
+      "idx": 488,
+      "start": 1820.94,
+      "end": 1822.14,
+      "text": "They are not the same particle."
+    },
+    {
+      "idx": 489,
+      "start": 1822.14,
+      "end": 1823.84,
+      "text": "Their masses are different."
+    },
+    {
+      "idx": 490,
+      "start": 1823.84,
+      "end": 1825.54,
+      "text": "Their other interactions are different."
+    },
+    {
+      "idx": 491,
+      "start": 1825.54,
+      "end": 1828.04,
+      "text": "But in terms of electrical charge, these two numbers are"
+    },
+    {
+      "idx": 492,
+      "start": 1828.04,
+      "end": 1832.89,
+      "text": "absolutely equal as far as anybody knows."
+    },
+    {
+      "idx": 493,
+      "start": 1832.89,
+      "end": 1834.19,
+      "text": "That's another mystery."
+    },
+    {
+      "idx": 494,
+      "start": 1834.19,
+      "end": 1837.19,
+      "text": "Two different particles not related by any manifest"
+    },
+    {
+      "idx": 495,
+      "start": 1837.19,
+      "end": 1840.19,
+      "text": "family relationship have the same charge,"
+    },
+    {
+      "idx": 496,
+      "start": 1840.19,
+      "end": 1841.69,
+      "text": "except in sign."
+    },
+    {
+      "idx": 497,
+      "start": 1841.69,
+      "end": 1846.6,
+      "text": "And there are theories called grand unified theories which try"
+    },
+    {
+      "idx": 498,
+      "start": 1846.6,
+      "end": 1849.3,
+      "text": "to explain this, but certainly not part of any"
+    },
+    {
+      "idx": 499,
+      "start": 1849.3,
+      "end": 1851.1,
+      "text": "standard established theory."
+    },
+    {
+      "idx": 500,
+      "start": 1851.1,
+      "end": 1854.13,
+      "text": "But it's key to everything we see in daily life,"
+    },
+    {
+      "idx": 501,
+      "start": 1854.13,
+      "end": 1857.69,
+      "text": "because that's what makes the atom electrically neutral."
+    },
+    {
+      "idx": 502,
+      "start": 1857.69,
+      "end": 1862.61,
+      "text": "Okay, now we can understand the quantization of charge,"
+    },
+    {
+      "idx": 503,
+      "start": 1862.61,
+      "end": 1864.91,
+      "text": "because charge is carried by these guys,"
+    },
+    {
+      "idx": 504,
+      "start": 1864.91,
+      "end": 1867.11,
+      "text": "and these guys are either there or not there,"
+    },
+    {
+      "idx": 505,
+      "start": 1867.11,
+      "end": 1868.61,
+      "text": "so you can only have so many electrons."
+    },
+    {
+      "idx": 506,
+      "start": 1868.61,
+      "end": 1870.93,
+      "text": "You cannot have a part of an electron."
+    },
+    {
+      "idx": 507,
+      "start": 1870.93,
+      "end": 1874.48,
+      "text": "You cannot have a part of a proton."
+    },
+    {
+      "idx": 508,
+      "start": 1874.48,
+      "end": 1879.28,
+      "text": "Now let's try to understand all these experiments in terms of"
+    },
+    {
+      "idx": 509,
+      "start": 1879.28,
+      "end": 1881.42,
+      "text": "what we know."
+    },
+    {
+      "idx": 510,
+      "start": 1881.42,
+      "end": 1884.42,
+      "text": "First of all, when you take this piece of glass"
+    },
+    {
+      "idx": 511,
+      "start": 1884.42,
+      "end": 1889.06,
+      "text": "and you rub it, the atoms in glass are neutral."
+    },
+    {
+      "idx": 512,
+      "start": 1889.06,
+      "end": 1891.06,
+      "text": "They've got equal number of protons and electrons,"
+    },
+    {
+      "idx": 513,
+      "start": 1891.06,
+      "end": 1893.56,
+      "text": "but when you rub it, the glass atom loses some"
+    },
+    {
+      "idx": 514,
+      "start": 1893.56,
+      "end": 1896.06,
+      "text": "electrons to whatever you rubbed it on."
+    },
+    {
+      "idx": 515,
+      "start": 1896.06,
+      "end": 1899.06,
+      "text": "Therefore, it becomes positively charged,"
+    },
+    {
+      "idx": 516,
+      "start": 1899.06,
+      "end": 1902.96,
+      "text": "because some negative has been taken out."
+    },
+    {
+      "idx": 517,
+      "start": 1902.96,
+      "end": 1903.96,
+      "text": "In the case of the rubber stick, it's not going to be charged,"
+    },
+    {
+      "idx": 518,
+      "start": 1903.96,
+      "end": 1906.32,
+      "text": "but in the case of the rubber stick,"
+    },
+    {
+      "idx": 519,
+      "start": 1906.32,
+      "end": 1908.32,
+      "text": "it gains the electrons, and whatever animal you rubbed"
+    },
+    {
+      "idx": 520,
+      "start": 1908.32,
+      "end": 1912.22,
+      "text": "it on, it loses the electrons."
+    },
+    {
+      "idx": 521,
+      "start": 1912.22,
+      "end": 1915.22,
+      "text": "So actually, real charge transfer takes place only"
+    },
+    {
+      "idx": 522,
+      "start": 1916.88,
+      "end": 1918.88,
+      "text": "Protons carry charge, but you are never going to rip"
+    },
+    {
+      "idx": 523,
+      "start": 1918.88,
+      "end": 1921.68,
+      "text": "a proton out unless you use an accelerator."
+    },
+    {
+      "idx": 524,
+      "start": 1921.68,
+      "end": 1924.99,
+      "text": "It's really deeply bound to the nucleus."
+    },
+    {
+      "idx": 525,
+      "start": 1924.99,
+      "end": 1927.49,
+      "text": "But electrons are the ones who do all the business of electricity"
+    },
+    {
+      "idx": 526,
+      "start": 1927.49,
+      "end": 1928.49,
+      "text": "in daily life."
+    },
+    {
+      "idx": 527,
+      "start": 1928.49,
+      "end": 1930.49,
+      "text": "The current flowing in the wire, in your circuit,"
+    },
+    {
+      "idx": 528,
+      "start": 1930.49,
+      "end": 1934.12,
+      "text": "it's all a motion of electrons."
+    },
+    {
+      "idx": 529,
+      "start": 1934.12,
+      "end": 1938.64,
+      "text": "So from this and Coulomb's Law, can you understand the"
+    },
+    {
+      "idx": 530,
+      "start": 1938.64,
+      "end": 1942.53,
+      "text": "attraction between these two?"
+    },
+    {
+      "idx": 531,
+      "start": 1942.53,
+      "end": 1945.53,
+      "text": "How many people think you can, from Coulomb's Law,"
+    },
+    {
+      "idx": 532,
+      "start": 1945.53,
+      "end": 1950.8,
+      "text": "understand the attraction between these two rods?"
+    },
+    {
+      "idx": 533,
+      "start": 1950.8,
+      "end": 1953.32,
+      "text": "Nobody thinks you can."
+    },
+    {
+      "idx": 534,
+      "start": 1953.32,
+      "end": 1956.31,
+      "text": "Well, why do you think you cannot?"
+    },
+    {
+      "idx": 535,
+      "start": 1956.31,
+      "end": 1958.22,
+      "text": "You know why?"
+    },
+    {
+      "idx": 536,
+      "start": 1958.22,
+      "end": 1960.74,
+      "text": "Because they're on point charges."
+    },
+    {
+      "idx": 537,
+      "start": 1960.74,
+      "end": 1963.24,
+      "text": "Okay, any other reason why Coulomb's Law is not"
+    },
+    {
+      "idx": 538,
+      "start": 1968.66,
+      "end": 1971.16,
+      "text": "Well, how will you apply Coulomb's Law to understand"
+    },
+    {
+      "idx": 539,
+      "start": 1971.16,
+      "end": 1973.66,
+      "text": "the attraction between these two rods?"
+    },
+    {
+      "idx": 540,
+      "start": 1973.66,
+      "end": 1981.23,
+      "text": "What will you have to do?"
+    },
+    {
+      "idx": 541,
+      "start": 1981.23,
+      "end": 1984.73,
+      "text": "No, once you've got the F, the A will follow,"
+    },
+    {
+      "idx": 542,
+      "start": 1984.73,
+      "end": 1985.73,
+      "text": "and you've got the B."
+    },
+    {
+      "idx": 543,
+      "start": 1985.73,
+      "end": 1987.73,
+      "text": "Can you compute the force between two rods,"
+    },
+    {
+      "idx": 544,
+      "start": 1987.73,
+      "end": 1989.73,
+      "text": "one of which has got a lot of positive charge,"
+    },
+    {
+      "idx": 545,
+      "start": 1989.73,
+      "end": 1993.72,
+      "text": "one of which has a lot of negative charge,"
+    },
+    {
+      "idx": 546,
+      "start": 1993.72,
+      "end": 1994.72,
+      "text": "given Coulomb's Law?"
+    },
+    {
+      "idx": 547,
+      "start": 1996.91,
+      "end": 1997.91,
+      "text": "You don't need that."
+    },
+    {
+      "idx": 548,
+      "start": 1997.91,
+      "end": 1998.91,
+      "text": "Suppose I tell you."
+    },
+    {
+      "idx": 549,
+      "start": 1998.91,
+      "end": 2002.28,
+      "text": "I tell you how many charges there are."
+    },
+    {
+      "idx": 550,
+      "start": 2003.28,
+      "end": 2005.28,
+      "text": "No, we do know, because the plus and minus will"
+    },
+    {
+      "idx": 551,
+      "start": 2005.28,
+      "end": 2008.52,
+      "text": "be drawn towards each other."
+    },
+    {
+      "idx": 552,
+      "start": 2008.52,
+      "end": 2009.52,
+      "text": "Okay, I'll tell you what it is."
+    },
+    {
+      "idx": 553,
+      "start": 2009.52,
+      "end": 2012.52,
+      "text": "It's an assumption we all make, but you're not really supposed"
+    },
+    {
+      "idx": 554,
+      "start": 2012.52,
+      "end": 2013.52,
+      "text": "to make it."
+    },
+    {
+      "idx": 555,
+      "start": 2013.52,
+      "end": 2015.52,
+      "text": "It's not a consequence of any logic."
+    },
+    {
+      "idx": 556,
+      "start": 2015.52,
+      "end": 2020.22,
+      "text": "Coulomb's Law talks about two charges, two point charges."
+    },
+    {
+      "idx": 557,
+      "start": 2020.22,
+      "end": 2022.22,
+      "text": "What if there are three charges in the universe?"
+    },
+    {
+      "idx": 558,
+      "start": 2022.22,
+      "end": 2029.3,
+      "text": "What is the force this one will experience due to these two?"
+    },
+    {
+      "idx": 559,
+      "start": 2029.3,
+      "end": 2033.52,
+      "text": "This is q1, this is q2, this is q3."
+    },
+    {
+      "idx": 560,
+      "start": 2033.52,
+      "end": 2035.68,
+      "text": "Coulomb's Law doesn't tell you that."
+    },
+    {
+      "idx": 561,
+      "start": 2035.68,
+      "end": 2038.52,
+      "text": "It tells you only two at a time."
+    },
+    {
+      "idx": 562,
+      "start": 2038.52,
+      "end": 2049.92,
+      "text": "But we make an extra assumption called superposition,"
+    },
+    {
+      "idx": 563,
+      "start": 2049.92,
+      "end": 2052.92,
+      "text": "which says that if you want the force on 3,"
+    },
+    {
+      "idx": 564,
+      "start": 2052.92,
+      "end": 2059.24,
+      "text": "when there is q1 and q2, you find the force due to q2,"
+    },
+    {
+      "idx": 565,
+      "start": 2059.24,
+      "end": 2061.24,
+      "text": "and you find the force due to q3,"
+    },
+    {
+      "idx": 566,
+      "start": 2061.24,
+      "end": 2065.99,
+      "text": "and you add them up."
+    },
+    {
+      "idx": 567,
+      "start": 2065.99,
+      "end": 2070.92,
+      "text": "The fact that you can add these two vectors is not a logical"
+    },
+    {
+      "idx": 568,
+      "start": 2075.6,
+      "end": 2078.6,
+      "text": "In fact, it's not even true at an extremely accurate level that"
+    },
+    {
+      "idx": 569,
+      "start": 2078.6,
+      "end": 2081.6,
+      "text": "the force between two charges is not affected by the presence of a"
+    },
+    {
+      "idx": 570,
+      "start": 2082.6,
+      "end": 2085.14,
+      "text": "But it's an excellent approximation,"
+    },
+    {
+      "idx": 571,
+      "start": 2085.14,
+      "end": 2088.14,
+      "text": "but you must realize it is something you've got to find to"
+    },
+    {
+      "idx": 572,
+      "start": 2088.14,
+      "end": 2089.14,
+      "text": "be true experimentally."
+    },
+    {
+      "idx": 573,
+      "start": 2089.14,
+      "end": 2092.14,
+      "text": "It's not something you can say is logical consequence."
+    },
+    {
+      "idx": 574,
+      "start": 2092.14,
+      "end": 2095.3,
+      "text": "Logically, there's no reason why the interaction between two"
+    },
+    {
+      "idx": 575,
+      "start": 2095.3,
+      "end": 2098.3,
+      "text": "entities should not be affected by the presence of a third one."
+    },
+    {
+      "idx": 576,
+      "start": 2098.3,
+      "end": 2104.19,
+      "text": "But it seems to be a very good approximation for what we do,"
+    },
+    {
+      "idx": 577,
+      "start": 2104.19,
+      "end": 2108.19,
+      "text": "and that's the reason why eventually we can find the force"
+    },
+    {
+      "idx": 578,
+      "start": 2108.19,
+      "end": 2111.19,
+      "text": "between an extended object and another extended object by"
+    },
+    {
+      "idx": 579,
+      "start": 2111.19,
+      "end": 2114.19,
+      "text": "looking at the force on every one of these due to every one of"
+    },
+    {
+      "idx": 580,
+      "start": 2114.19,
+      "end": 2116.19,
+      "text": "those and adding all the vectors."
+    },
+    {
+      "idx": 581,
+      "start": 2116.19,
+      "end": 2121.34,
+      "text": "So superposition plus Coulomb's Law is what you need."
+    },
+    {
+      "idx": 582,
+      "start": 2121.34,
+      "end": 2124.82,
+      "text": "Then you can certainly understand the attraction."
+    },
+    {
+      "idx": 583,
+      "start": 2124.82,
+      "end": 2127.82,
+      "text": "How about the comb and the piece of paper?"
+    },
+    {
+      "idx": 584,
+      "start": 2127.82,
+      "end": 2130.78,
+      "text": "That's a very interesting example,"
+    },
+    {
+      "idx": 585,
+      "start": 2130.78,
+      "end": 2132.78,
+      "text": "and it's connected with this one."
+    },
+    {
+      "idx": 586,
+      "start": 2132.78,
+      "end": 2134.78,
+      "text": "The piece of paper is electrically neutral."
+    },
+    {
+      "idx": 587,
+      "start": 2134.78,
+      "end": 2138.39,
+      "text": "So let me do paper and comb instead of this one."
+    },
+    {
+      "idx": 588,
+      "start": 2138.39,
+      "end": 2140.39,
+      "text": "It's got the same model."
+    },
+    {
+      "idx": 589,
+      "start": 2140.39,
+      "end": 2141.39,
+      "text": "Here's the piece of paper."
+    },
+    {
+      "idx": 590,
+      "start": 2141.39,
+      "end": 2142.39,
+      "text": "Here's the comb."
+    },
+    {
+      "idx": 591,
+      "start": 2142.39,
+      "end": 2144.39,
+      "text": "The comb is positively charged."
+    },
+    {
+      "idx": 592,
+      "start": 2144.39,
+      "end": 2148.44,
+      "text": "The paper is neutral."
+    },
+    {
+      "idx": 593,
+      "start": 2148.44,
+      "end": 2150.44,
+      "text": "So in a way, there's nothing here to be"
+    },
+    {
+      "idx": 594,
+      "start": 2150.44,
+      "end": 2151.44,
+      "text": "attracted to this one."
+    },
+    {
+      "idx": 595,
+      "start": 2151.44,
+      "end": 2156.14,
+      "text": "But if I bring it close enough, there are equal amount of"
+    },
+    {
+      "idx": 596,
+      "start": 2156.14,
+      "end": 2160.14,
+      "text": "positive and negative charges, but what will happen is the"
+    },
+    {
+      "idx": 597,
+      "start": 2160.14,
+      "end": 2165.17,
+      "text": "negative charges will migrate near these positive charges from"
+    },
+    {
+      "idx": 598,
+      "start": 2165.17,
+      "end": 2166.17,
+      "text": "the positive charges."
+    },
+    {
+      "idx": 599,
+      "start": 2166.17,
+      "end": 2169.17,
+      "text": "So the positive charges will migrate from the other end,"
+    },
+    {
+      "idx": 600,
+      "start": 2169.17,
+      "end": 2172.26,
+      "text": "leaving positive charges in the back,"
+    },
+    {
+      "idx": 601,
+      "start": 2172.26,
+      "end": 2175.26,
+      "text": "so that the system will separate into a little bit of"
+    },
+    {
+      "idx": 602,
+      "start": 2175.26,
+      "end": 2179.12,
+      "text": "negative closer to the positive, and the leftover positive will be"
+    },
+    {
+      "idx": 603,
+      "start": 2180.12,
+      "end": 2182.12,
+      "text": "Therefore, even though it's neutral,"
+    },
+    {
+      "idx": 604,
+      "start": 2182.12,
+      "end": 2185.12,
+      "text": "the attraction of plus for this minus is stronger than the"
+    },
+    {
+      "idx": 605,
+      "start": 2185.12,
+      "end": 2188.12,
+      "text": "repulsion of this plus with this plus."
+    },
+    {
+      "idx": 606,
+      "start": 2188.12,
+      "end": 2190.12,
+      "text": "That's called polarization."
+    },
+    {
+      "idx": 607,
+      "start": 2190.12,
+      "end": 2193.12,
+      "text": "So polarization is when charge separates."
+    },
+    {
+      "idx": 608,
+      "start": 2193.12,
+      "end": 2194.12,
+      "text": "Some materials cannot be polarized,"
+    },
+    {
+      "idx": 609,
+      "start": 2194.12,
+      "end": 2197.12,
+      "text": "in which case no matter how much you do this with a comb,"
+    },
+    {
+      "idx": 610,
+      "start": 2197.12,
+      "end": 2198.12,
+      "text": "it won't work."
+    },
+    {
+      "idx": 611,
+      "start": 2198.12,
+      "end": 2201.12,
+      "text": "If you can't polarize, the piece of paper is an example"
+    },
+    {
+      "idx": 612,
+      "start": 2201.12,
+      "end": 2202.88,
+      "text": "of what can be polarized."
+    },
+    {
+      "idx": 613,
+      "start": 2202.88,
+      "end": 2204.88,
+      "text": "We can understand that too."
+    },
+    {
+      "idx": 614,
+      "start": 2204.88,
+      "end": 2207.88,
+      "text": "And in this example, if you bring a lot of plus"
+    },
+    {
+      "idx": 615,
+      "start": 2207.88,
+      "end": 2211.11,
+      "text": "charges here, and you look at what's going on"
+    },
+    {
+      "idx": 616,
+      "start": 2211.11,
+      "end": 2213.11,
+      "text": "here, the minus guys here will sit here,"
+    },
+    {
+      "idx": 617,
+      "start": 2213.11,
+      "end": 2216.11,
+      "text": "and the plus will be left over in the back,"
+    },
+    {
+      "idx": 618,
+      "start": 2216.11,
+      "end": 2219.11,
+      "text": "and then this attraction between plus and minus is bigger than"
+    },
+    {
+      "idx": 619,
+      "start": 2219.11,
+      "end": 2222.88,
+      "text": "this repulsion, so it will be attracted to it."
+    },
+    {
+      "idx": 620,
+      "start": 2222.88,
+      "end": 2226.52,
+      "text": "But once it touches it, this rod touches that,"
+    },
+    {
+      "idx": 621,
+      "start": 2226.52,
+      "end": 2229.52,
+      "text": "then what you have is a lot of plus charges here."
+    },
+    {
+      "idx": 622,
+      "start": 2229.52,
+      "end": 2232.52,
+      "text": "If they repel each other, they want to get out."
+    },
+    {
+      "idx": 623,
+      "start": 2232.52,
+      "end": 2234.52,
+      "text": "Previously they couldn't get out."
+    },
+    {
+      "idx": 624,
+      "start": 2234.52,
+      "end": 2237.52,
+      "text": "They're stuck on the rod, but now if you make contact,"
+    },
+    {
+      "idx": 625,
+      "start": 2237.52,
+      "end": 2240.8,
+      "text": "some of them will jump to that one."
+    },
+    {
+      "idx": 626,
+      "start": 2240.8,
+      "end": 2243.8,
+      "text": "Then when you separate them, you will have a ball with some"
+    },
+    {
+      "idx": 627,
+      "start": 2243.8,
+      "end": 2246.8,
+      "text": "plus charges, and you will have a rod with more"
+    },
+    {
+      "idx": 628,
+      "start": 2246.8,
+      "end": 2253.44,
+      "text": "plus charges, and they will repel each other."
+    },
+    {
+      "idx": 629,
+      "start": 2253.44,
+      "end": 2256.92,
+      "text": "And finally, I said if you take two of these"
+    },
+    {
+      "idx": 630,
+      "start": 2256.92,
+      "end": 2258.92,
+      "text": "spheres, suppose one was positively charged,"
+    },
+    {
+      "idx": 631,
+      "start": 2258.92,
+      "end": 2261.92,
+      "text": "one was negatively charged, they're attracting each other."
+    },
+    {
+      "idx": 632,
+      "start": 2261.92,
+      "end": 2264.92,
+      "text": "If you connect them with a nylon wire or a wooden stick,"
+    },
+    {
+      "idx": 633,
+      "start": 2264.92,
+      "end": 2267.99,
+      "text": "nothing happens, but if you connect them with"
+    },
+    {
+      "idx": 634,
+      "start": 2267.99,
+      "end": 2271.05,
+      "text": "an electrical wire, what happens is that the extra"
+    },
+    {
+      "idx": 635,
+      "start": 2271.05,
+      "end": 2274.05,
+      "text": "negative charges here will go to that side."
+    },
+    {
+      "idx": 636,
+      "start": 2274.05,
+      "end": 2277.05,
+      "text": "Then when you're done, they will both become"
+    },
+    {
+      "idx": 637,
+      "start": 2280.77,
+      "end": 2282.77,
+      "text": "Okay, so that's why."
+    },
+    {
+      "idx": 638,
+      "start": 2282.77,
+      "end": 2285.77,
+      "text": "So the point of this one is electric charges can flow"
+    },
+    {
+      "idx": 639,
+      "start": 2285.77,
+      "end": 2289.28,
+      "text": "through some materials, but not other materials."
+    },
+    {
+      "idx": 640,
+      "start": 2289.28,
+      "end": 2291.28,
+      "text": "If it can flow through some materials,"
+    },
+    {
+      "idx": 641,
+      "start": 2291.28,
+      "end": 2292.28,
+      "text": "it's called a conductor."
+    },
+    {
+      "idx": 642,
+      "start": 2292.28,
+      "end": 2295.32,
+      "text": "If it cannot flow through them, it's called an insulator."
+    },
+    {
+      "idx": 643,
+      "start": 2295.32,
+      "end": 2297.38,
+      "text": "So in real life, you've got both."
+    },
+    {
+      "idx": 644,
+      "start": 2297.38,
+      "end": 2300.38,
+      "text": "When you're changing the light bulb, if you don't want to get an"
+    },
+    {
+      "idx": 645,
+      "start": 2300.38,
+      "end": 2302.38,
+      "text": "electric shock, you're supposed to stand on a"
+    },
+    {
+      "idx": 646,
+      "start": 2302.38,
+      "end": 2304.38,
+      "text": "piece of wood before you stick your finger in,"
+    },
+    {
+      "idx": 647,
+      "start": 2304.38,
+      "end": 2306.38,
+      "text": "unless you've got other intentions."
+    },
+    {
+      "idx": 648,
+      "start": 2306.38,
+      "end": 2309.44,
+      "text": "Then you will find that you don't get the shock,"
+    },
+    {
+      "idx": 649,
+      "start": 2309.44,
+      "end": 2313.6,
+      "text": "because the wood doesn't conduct electricity."
+    },
+    {
+      "idx": 650,
+      "start": 2313.6,
+      "end": 2316.6,
+      "text": "But if you stand on a metallic stool on a metallic floor and"
+    },
+    {
+      "idx": 651,
+      "start": 2316.6,
+      "end": 2319.6,
+      "text": "put your hand on the socket, you'll be part of an electrical"
+    },
+    {
+      "idx": 652,
+      "start": 2320.6,
+      "end": 2322.88,
+      "text": "The human body is a good conductor of electricity,"
+    },
+    {
+      "idx": 653,
+      "start": 2322.88,
+      "end": 2325.88,
+      "text": "but what saves you is that it cannot go from your feet to the"
+    },
+    {
+      "idx": 654,
+      "start": 2326.88,
+      "end": 2329.4,
+      "text": "Now, there are also semiconductors,"
+    },
+    {
+      "idx": 655,
+      "start": 2329.4,
+      "end": 2330.4,
+      "text": "which are somewhere in between."
+    },
+    {
+      "idx": 656,
+      "start": 2330.4,
+      "end": 2332.4,
+      "text": "But in our course, either we'll talk about"
+    },
+    {
+      "idx": 657,
+      "start": 2332.4,
+      "end": 2335.4,
+      "text": "insulators, which don't conduct electricity,"
+    },
+    {
+      "idx": 658,
+      "start": 2335.4,
+      "end": 2339.52,
+      "text": "or imperfect conductors, which conduct electricity."
+    },
+    {
+      "idx": 659,
+      "start": 2339.52,
+      "end": 2344.9,
+      "text": "So summary of what I've said so far is that there's a new force"
+    },
+    {
+      "idx": 660,
+      "start": 2344.9,
+      "end": 2348.41,
+      "text": "in nature to produce, to be part of that game,"
+    },
+    {
+      "idx": 661,
+      "start": 2348.41,
+      "end": 2350.41,
+      "text": "you have to have charge."
+    },
+    {
+      "idx": 662,
+      "start": 2350.41,
+      "end": 2352.67,
+      "text": "If you have no charge, you cannot play that game."
+    },
+    {
+      "idx": 663,
+      "start": 2352.67,
+      "end": 2355.76,
+      "text": "Like neutrons cannot play this game."
+    },
+    {
+      "idx": 664,
+      "start": 2355.76,
+      "end": 2358.76,
+      "text": "Nothing is attracted to or repelled by neutrons,"
+    },
+    {
+      "idx": 665,
+      "start": 2358.76,
+      "end": 2360.76,
+      "text": "and neutrons cannot attract or repel anything."
+    },
+    {
+      "idx": 666,
+      "start": 2360.76,
+      "end": 2362.83,
+      "text": "So you've got to have electric charge."
+    },
+    {
+      "idx": 667,
+      "start": 2362.83,
+      "end": 2364.83,
+      "text": "It happens to be measured in coulombs."
+    },
+    {
+      "idx": 668,
+      "start": 2364.83,
+      "end": 2368.01,
+      "text": "So let me ask you another question."
+    },
+    {
+      "idx": 669,
+      "start": 2368.01,
+      "end": 2371.04,
+      "text": "Suppose I tell you, here is coulomb's law."
+    },
+    {
+      "idx": 670,
+      "start": 2371.04,
+      "end": 2379.94,
+      "text": "Let me just write the number, 1 over 4 pi epsilon 0."
+    },
+    {
+      "idx": 671,
+      "start": 2379.94,
+      "end": 2385.6,
+      "text": "How are you going to test that this law is correct?"
+    },
+    {
+      "idx": 672,
+      "start": 2385.6,
+      "end": 2386.85,
+      "text": "I'm giving you a bonus."
+    },
+    {
+      "idx": 673,
+      "start": 2386.85,
+      "end": 2388.85,
+      "text": "You don't have to discover the law."
+    },
+    {
+      "idx": 674,
+      "start": 2388.85,
+      "end": 2389.85,
+      "text": "I'm giving you the law."
+    },
+    {
+      "idx": 675,
+      "start": 2389.85,
+      "end": 2391.85,
+      "text": "All you have to do is to verify it,"
+    },
+    {
+      "idx": 676,
+      "start": 2391.85,
+      "end": 2396.58,
+      "text": "and don't use any other definition other than this law"
+    },
+    {
+      "idx": 677,
+      "start": 2397.58,
+      "end": 2400.71,
+      "text": "How will you know it depends on Q1 and Q2 in this fashion?"
+    },
+    {
+      "idx": 678,
+      "start": 2400.71,
+      "end": 2403.71,
+      "text": "How will you know it depends on R in that fashion?"
+    },
+    {
+      "idx": 679,
+      "start": 2403.71,
+      "end": 2407.05,
+      "text": "That's what I'm asking you."
+    },
+    {
+      "idx": 680,
+      "start": 2407.05,
+      "end": 2416.43,
+      "text": "Can anybody think of some setup, some experiments you will do?"
+    },
+    {
+      "idx": 681,
+      "start": 2416.43,
+      "end": 2418.43,
+      "text": "Let me ask an easier question."
+    },
+    {
+      "idx": 682,
+      "start": 2418.43,
+      "end": 2424.37,
+      "text": "How will you know it goes like 1 over R squared?"
+    },
+    {
+      "idx": 683,
+      "start": 2424.37,
+      "end": 2431.03,
+      "text": "Well, you're right that if you vary the distance between them"
+    },
+    {
+      "idx": 684,
+      "start": 2431.03,
+      "end": 2434.03,
+      "text": "and show the force falls like that,"
+    },
+    {
+      "idx": 685,
+      "start": 2434.03,
+      "end": 2440.45,
+      "text": "but how do you know what the force is?"
+    },
+    {
+      "idx": 686,
+      "start": 2442.48,
+      "end": 2443.48,
+      "text": "What is your plan?"
+    },
+    {
+      "idx": 687,
+      "start": 2446.84,
+      "end": 2447.84,
+      "text": "Both of you are right."
+    },
+    {
+      "idx": 688,
+      "start": 2447.84,
+      "end": 2449.97,
+      "text": "You can maybe hold this."
+    },
+    {
+      "idx": 689,
+      "start": 2449.97,
+      "end": 2454.84,
+      "text": "You can keep this guy fixed and let this go and see how it"
+    },
+    {
+      "idx": 690,
+      "start": 2454.84,
+      "end": 2457.87,
+      "text": "accelerates, and if you knew the mass of this"
+    },
+    {
+      "idx": 691,
+      "start": 2457.87,
+      "end": 2460.25,
+      "text": "guy, then you know the force."
+    },
+    {
+      "idx": 692,
+      "start": 2460.25,
+      "end": 2463.25,
+      "text": "Then you can vary the distance to another distance,"
+    },
+    {
+      "idx": 693,
+      "start": 2463.25,
+      "end": 2464.25,
+      "text": "maybe half the distance."
+    },
+    {
+      "idx": 694,
+      "start": 2464.25,
+      "end": 2467.25,
+      "text": "At half the distance, if you get 4 times the force,"
+    },
+    {
+      "idx": 695,
+      "start": 2467.25,
+      "end": 2469.25,
+      "text": "you verified 1 over R squared law."
+    },
+    {
+      "idx": 696,
+      "start": 2469.25,
+      "end": 2471.32,
+      "text": "Other one is with the spring."
+    },
+    {
+      "idx": 697,
+      "start": 2471.32,
+      "end": 2474.64,
+      "text": "You can take a spring, say maybe there are two metals,"
+    },
+    {
+      "idx": 698,
+      "start": 2474.64,
+      "end": 2478.4,
+      "text": "uncharged objects, then you dump some charge on"
+    },
+    {
+      "idx": 699,
+      "start": 2478.4,
+      "end": 2482.4,
+      "text": "this and some charge on that, and then the spring will expand"
+    },
+    {
+      "idx": 700,
+      "start": 2482.4,
+      "end": 2486.4,
+      "text": "and you can see what force the spring exerts and see if it's"
+    },
+    {
+      "idx": 701,
+      "start": 2486.4,
+      "end": 2489.4,
+      "text": "proportional to 1 over R squared."
+    },
+    {
+      "idx": 702,
+      "start": 2489.4,
+      "end": 2494.04,
+      "text": "That's how Newton deduced the 1 over R squared force law."
+    },
+    {
+      "idx": 703,
+      "start": 2494.04,
+      "end": 2498.04,
+      "text": "He found the acceleration of the apple is 1 over 3600 times"
+    },
+    {
+      "idx": 704,
+      "start": 2498.04,
+      "end": 2501.29,
+      "text": "the acceleration of the moon towards the earth,"
+    },
+    {
+      "idx": 705,
+      "start": 2501.29,
+      "end": 2504.29,
+      "text": "and the moon was 60 times further than the apple,"
+    },
+    {
+      "idx": 706,
+      "start": 2504.29,
+      "end": 2506.29,
+      "text": "and 60 squared is 3600."
+    },
+    {
+      "idx": 707,
+      "start": 2506.29,
+      "end": 2508.29,
+      "text": "That's how we found 1 over R squared."
+    },
+    {
+      "idx": 708,
+      "start": 2508.29,
+      "end": 2509.58,
+      "text": "Now he was very lucky."
+    },
+    {
+      "idx": 709,
+      "start": 2509.58,
+      "end": 2513.58,
+      "text": "It could have been 1 over R to the 2.110 or 1196,"
+    },
+    {
+      "idx": 710,
+      "start": 2513.58,
+      "end": 2517.58,
+      "text": "but it happens to be exactly 1 over R squared."
+    },
+    {
+      "idx": 711,
+      "start": 2517.58,
+      "end": 2520.58,
+      "text": "Anyway, that's how we can find, even if it's not 1 over R"
+    },
+    {
+      "idx": 712,
+      "start": 2520.58,
+      "end": 2523.58,
+      "text": "squared, if it's 1 over R cubed or 1 over R to the 4th,"
+    },
+    {
+      "idx": 713,
+      "start": 2523.58,
+      "end": 2526.58,
+      "text": "whatever it is, you can find by taking two"
+    },
+    {
+      "idx": 714,
+      "start": 2527.58,
+      "end": 2530.58,
+      "text": "See, we don't have to know what q1 and q2 are."
+    },
+    {
+      "idx": 715,
+      "start": 2530.58,
+      "end": 2532.58,
+      "text": "That's what I'm trying to emphasize here."
+    },
+    {
+      "idx": 716,
+      "start": 2532.58,
+      "end": 2534.58,
+      "text": "If all you're trying to see is does it vary like 1 over R"
+    },
+    {
+      "idx": 717,
+      "start": 2534.58,
+      "end": 2536.58,
+      "text": "squared, keep everything same except R."
+    },
+    {
+      "idx": 718,
+      "start": 2536.58,
+      "end": 2540.9,
+      "text": "Double the R and see what happens, and best way is what"
+    },
+    {
+      "idx": 719,
+      "start": 2540.9,
+      "end": 2542.9,
+      "text": "you said, watch the acceleration and see"
+    },
+    {
+      "idx": 720,
+      "start": 2543.9,
+      "end": 2546.9,
+      "text": "And if it falls to 1 fourth of the value for doubling the"
+    },
+    {
+      "idx": 721,
+      "start": 2546.9,
+      "end": 2549.6,
+      "text": "distance, it's 1 over R squared."
+    },
+    {
+      "idx": 722,
+      "start": 2549.6,
+      "end": 2552.76,
+      "text": "All right, suppose I got 1 over R squared."
+    },
+    {
+      "idx": 723,
+      "start": 2552.76,
+      "end": 2556.76,
+      "text": "I want to know it depends on the charges as the first power of"
+    },
+    {
+      "idx": 724,
+      "start": 2556.76,
+      "end": 2559.18,
+      "text": "q1 and first power of q2."
+    },
+    {
+      "idx": 725,
+      "start": 2559.18,
+      "end": 2562.32,
+      "text": "So how should we do that?"
+    },
+    {
+      "idx": 726,
+      "start": 2562.32,
+      "end": 2565.32,
+      "text": "And don't say put 10 electrons once and then 20 electrons,"
+    },
+    {
+      "idx": 727,
+      "start": 2565.32,
+      "end": 2567.32,
+      "text": "because you cannot see electrons that well."
+    },
+    {
+      "idx": 728,
+      "start": 2567.32,
+      "end": 2570.32,
+      "text": "In the old days, people did not even know about"
+    },
+    {
+      "idx": 729,
+      "start": 2570.32,
+      "end": 2573.32,
+      "text": "electrons, and yet they managed to test this."
+    },
+    {
+      "idx": 730,
+      "start": 2573.32,
+      "end": 2577.25,
+      "text": "So how will you vary the charge in a known way?"
+    },
+    {
+      "idx": 731,
+      "start": 2578.25,
+      "end": 2586.24,
+      "text": "Okay, many identical spheres."
+    },
+    {
+      "idx": 732,
+      "start": 2592.88,
+      "end": 2594.88,
+      "text": "Let me repeat what she said."
+    },
+    {
+      "idx": 733,
+      "start": 2594.88,
+      "end": 2597.88,
+      "text": "First you take many identical spheres, but I'm not going to"
+    },
+    {
+      "idx": 734,
+      "start": 2597.88,
+      "end": 2599.88,
+      "text": "even try to draw identical spheres,"
+    },
+    {
+      "idx": 735,
+      "start": 2599.88,
+      "end": 2602.88,
+      "text": "because I haven't learned how to draw spheres."
+    },
+    {
+      "idx": 736,
+      "start": 2602.88,
+      "end": 2605.88,
+      "text": "But let's imagine you've got a whole bunch of these guys."
+    },
+    {
+      "idx": 737,
+      "start": 2605.88,
+      "end": 2607.88,
+      "text": "You put some charge on this."
+    },
+    {
+      "idx": 738,
+      "start": 2607.88,
+      "end": 2609.98,
+      "text": "You don't know what it is, okay?"
+    },
+    {
+      "idx": 739,
+      "start": 2609.98,
+      "end": 2611.75,
+      "text": "We don't know what q is."
+    },
+    {
+      "idx": 740,
+      "start": 2611.75,
+      "end": 2612.75,
+      "text": "We're trying to find out."
+    },
+    {
+      "idx": 741,
+      "start": 2612.75,
+      "end": 2614.75,
+      "text": "You don't have to know what q is."
+    },
+    {
+      "idx": 742,
+      "start": 2614.75,
+      "end": 2616.75,
+      "text": "So let this be one of the objects."
+    },
+    {
+      "idx": 743,
+      "start": 2616.75,
+      "end": 2618.75,
+      "text": "That's my q."
+    },
+    {
+      "idx": 744,
+      "start": 2618.75,
+      "end": 2621.81,
+      "text": "For the other object, keep a fixed object containing"
+    },
+    {
+      "idx": 745,
+      "start": 2621.81,
+      "end": 2622.81,
+      "text": "some other q."
+    },
+    {
+      "idx": 746,
+      "start": 2622.81,
+      "end": 2625.55,
+      "text": "This has got charge q."
+    },
+    {
+      "idx": 747,
+      "start": 2625.55,
+      "end": 2626.55,
+      "text": "Don't vary the r."
+    },
+    {
+      "idx": 748,
+      "start": 2626.55,
+      "end": 2631.0,
+      "text": "The question is, can you change q to q over 2?"
+    },
+    {
+      "idx": 749,
+      "start": 2631.0,
+      "end": 2634.0,
+      "text": "And her answer was, if it's got some charge,"
+    },
+    {
+      "idx": 750,
+      "start": 2635.03,
+      "end": 2639.03,
+      "text": "Bring it in contact with the second identical sphere."
+    },
+    {
+      "idx": 751,
+      "start": 2639.03,
+      "end": 2642.57,
+      "text": "If it really is identical, you have to agree that when you"
+    },
+    {
+      "idx": 752,
+      "start": 2642.57,
+      "end": 2646.83,
+      "text": "separate them, they must exactly have half each."
+    },
+    {
+      "idx": 753,
+      "start": 2646.83,
+      "end": 2647.83,
+      "text": "That's a symmetry argument."
+    },
+    {
+      "idx": 754,
+      "start": 2647.83,
+      "end": 2649.83,
+      "text": "Because for any reason you give me for why one of them"
+    },
+    {
+      "idx": 755,
+      "start": 2649.83,
+      "end": 2651.83,
+      "text": "should have more, I will tell you why the other"
+    },
+    {
+      "idx": 756,
+      "start": 2651.83,
+      "end": 2652.83,
+      "text": "one should have more."
+    },
+    {
+      "idx": 757,
+      "start": 2653.83,
+      "end": 2657.83,
+      "text": "So they will split it evenly, and therefore charge will split"
+    },
+    {
+      "idx": 758,
+      "start": 2657.83,
+      "end": 2661.05,
+      "text": "evenly to q over 2 here and q over 2 here."
+    },
+    {
+      "idx": 759,
+      "start": 2661.05,
+      "end": 2663.66,
+      "text": "Then you can take this and put it there."
+    },
+    {
+      "idx": 760,
+      "start": 2663.66,
+      "end": 2664.66,
+      "text": "You've got q over 2."
+    },
+    {
+      "idx": 761,
+      "start": 2664.66,
+      "end": 2669.16,
+      "text": "Then you can do other combinations."
+    },
+    {
+      "idx": 762,
+      "start": 2669.16,
+      "end": 2672.16,
+      "text": "For example, you can take this q over 2 and"
+    },
+    {
+      "idx": 763,
+      "start": 2672.16,
+      "end": 2675.2,
+      "text": "connect it to the ground, so it becomes neutral."
+    },
+    {
+      "idx": 764,
+      "start": 2675.2,
+      "end": 2678.99,
+      "text": "So this has got 0 again."
+    },
+    {
+      "idx": 765,
+      "start": 2678.99,
+      "end": 2681.99,
+      "text": "You can touch that with the q over 2 and split it."
+    },
+    {
+      "idx": 766,
+      "start": 2681.99,
+      "end": 2687.14,
+      "text": "If you separate them, then each will have q over 4."
+    },
+    {
+      "idx": 767,
+      "start": 2687.14,
+      "end": 2690.14,
+      "text": "So in this way you can vary the charge in a known way,"
+    },
+    {
+      "idx": 768,
+      "start": 2690.14,
+      "end": 2692.14,
+      "text": "maybe half of it, double it."
+    },
+    {
+      "idx": 769,
+      "start": 2692.14,
+      "end": 2695.14,
+      "text": "I give you some homework problem where you want to get"
+    },
+    {
+      "idx": 770,
+      "start": 2695.14,
+      "end": 2696.14,
+      "text": "5 sixteenths of a coulomb."
+    },
+    {
+      "idx": 771,
+      "start": 2696.14,
+      "end": 2698.27,
+      "text": "By enough spheres you can do that."
+    },
+    {
+      "idx": 772,
+      "start": 2698.27,
+      "end": 2702.56,
+      "text": "Again, what I want you to notice is that you did not know"
+    },
+    {
+      "idx": 773,
+      "start": 2702.56,
+      "end": 2704.75,
+      "text": "what q was, but all you knew is that q went"
+    },
+    {
+      "idx": 774,
+      "start": 2704.75,
+      "end": 2707.75,
+      "text": "to q over 2 when you brought two identical spheres and separated"
+    },
+    {
+      "idx": 775,
+      "start": 2708.94,
+      "end": 2711.94,
+      "text": "That's how we can find it depends linearly on q1."
+    },
+    {
+      "idx": 776,
+      "start": 2711.94,
+      "end": 2713.94,
+      "text": "Of course, it also depends linearly on q2."
+    },
+    {
+      "idx": 777,
+      "start": 2713.94,
+      "end": 2717.94,
+      "text": "Because it's up to you to decide who you want to call q1,"
+    },
+    {
+      "idx": 778,
+      "start": 2717.94,
+      "end": 2722.24,
+      "text": "who you want to call q2."
+    },
+    {
+      "idx": 779,
+      "start": 2722.24,
+      "end": 2729.44,
+      "text": "Okay, so I want you people to understand all the time that you"
+    },
+    {
+      "idx": 780,
+      "start": 2729.44,
+      "end": 2733.44,
+      "text": "should be able to tell me how you'll measure anything."
+    },
+    {
+      "idx": 781,
+      "start": 2733.44,
+      "end": 2735.44,
+      "text": "That's very, very important."
+    },
+    {
+      "idx": 782,
+      "start": 2735.44,
+      "end": 2736.44,
+      "text": "That's what you should think about."
+    },
+    {
+      "idx": 783,
+      "start": 2736.44,
+      "end": 2739.44,
+      "text": "If you think in those terms, you'll also find you're doing"
+    },
+    {
+      "idx": 784,
+      "start": 2739.44,
+      "end": 2741.48,
+      "text": "all the problems very well."
+    },
+    {
+      "idx": 785,
+      "start": 2741.48,
+      "end": 2744.48,
+      "text": "If you're thinking of pushing symbols and canceling factors"
+    },
+    {
+      "idx": 786,
+      "start": 2744.48,
+      "end": 2746.48,
+      "text": "of pi, you won't get the feeling for what's happening."
+    },
+    {
+      "idx": 787,
+      "start": 2746.48,
+      "end": 2749.48,
+      "text": "So everything you write down, you should be able to measure"
+    },
+    {
+      "idx": 788,
+      "start": 2751.05,
+      "end": 2753.05,
+      "text": "If you say, oh, I want to measure the force,"
+    },
+    {
+      "idx": 789,
+      "start": 2753.05,
+      "end": 2755.05,
+      "text": "you've got to be sure how you'll measure it."
+    },
+    {
+      "idx": 790,
+      "start": 2755.05,
+      "end": 2757.05,
+      "text": "And one way is, like you said, find m times a."
+    },
+    {
+      "idx": 791,
+      "start": 2757.05,
+      "end": 2759.05,
+      "text": "If you knew the m, you can measure the force."
+    },
+    {
+      "idx": 792,
+      "start": 2759.05,
+      "end": 2762.69,
+      "text": "But everything, make sure you can measure it."
+    },
+    {
+      "idx": 793,
+      "start": 2762.69,
+      "end": 2764.69,
+      "text": "If I give you a sphere charged with something,"
+    },
+    {
+      "idx": 794,
+      "start": 2764.69,
+      "end": 2766.92,
+      "text": "then of course we've got to decide,"
+    },
+    {
+      "idx": 795,
+      "start": 2766.92,
+      "end": 2769.27,
+      "text": "suppose I give you a sphere, it's got some charge,"
+    },
+    {
+      "idx": 796,
+      "start": 2769.27,
+      "end": 2772.27,
+      "text": "and I want you to find out how much charge is on that sphere."
+    },
+    {
+      "idx": 797,
+      "start": 2772.27,
+      "end": 2775.59,
+      "text": "This time I want you to tell me how many coulombs there are."
+    },
+    {
+      "idx": 798,
+      "start": 2775.59,
+      "end": 2776.59,
+      "text": "What will you do?"
+    },
+    {
+      "idx": 799,
+      "start": 2776.59,
+      "end": 2781.28,
+      "text": "What process will you use?"
+    },
+    {
+      "idx": 800,
+      "start": 2781.28,
+      "end": 2790.23,
+      "text": "Well, then you have a problem, because you are not able to"
+    },
+    {
+      "idx": 801,
+      "start": 2790.23,
+      "end": 2794.16,
+      "text": "figure out whether, if I tell you here's an object,"
+    },
+    {
+      "idx": 802,
+      "start": 2794.16,
+      "end": 2796.16,
+      "text": "it is 3 meters long, you can test it,"
+    },
+    {
+      "idx": 803,
+      "start": 2796.16,
+      "end": 2799.16,
+      "text": "because you'll go and bring the meter stick from the Bureau of"
+    },
+    {
+      "idx": 804,
+      "start": 2799.16,
+      "end": 2801.16,
+      "text": "Standards and measure it three times."
+    },
+    {
+      "idx": 805,
+      "start": 2801.16,
+      "end": 2804.16,
+      "text": "I'm asking you, if I give you a certain charge"
+    },
+    {
+      "idx": 806,
+      "start": 2804.16,
+      "end": 2806.16,
+      "text": "and say how much charge is there,"
+    },
+    {
+      "idx": 807,
+      "start": 2806.16,
+      "end": 2810.25,
+      "text": "by what process can we calibrate charges?"
+    },
+    {
+      "idx": 808,
+      "start": 2810.25,
+      "end": 2818.81,
+      "text": "Yep, that's correct."
+    },
+    {
+      "idx": 809,
+      "start": 2818.81,
+      "end": 2823.25,
+      "text": "If you knew one standard charge, somehow or other,"
+    },
+    {
+      "idx": 810,
+      "start": 2823.25,
+      "end": 2826.25,
+      "text": "you knew its value, then bring the unknown one next"
+    },
+    {
+      "idx": 811,
+      "start": 2826.25,
+      "end": 2828.25,
+      "text": "to it, put it at a known distance,"
+    },
+    {
+      "idx": 812,
+      "start": 2828.25,
+      "end": 2830.25,
+      "text": "you know the r, you know the 4π,"
+    },
+    {
+      "idx": 813,
+      "start": 2830.25,
+      "end": 2832.25,
+      "text": "you know the ε, you find the force,"
+    },
+    {
+      "idx": 814,
+      "start": 2832.25,
+      "end": 2833.25,
+      "text": "you can find this charge."
+    },
+    {
+      "idx": 815,
+      "start": 2833.25,
+      "end": 2836.25,
+      "text": "So all we need to know is how to get a reference charge."
+    },
+    {
+      "idx": 816,
+      "start": 2836.25,
+      "end": 2840.34,
+      "text": "So how do I know something has a coulomb?"
+    },
+    {
+      "idx": 817,
+      "start": 2840.34,
+      "end": 2842.34,
+      "text": "How do I get one coulomb of charge,"
+    },
+    {
+      "idx": 818,
+      "start": 2842.34,
+      "end": 2845.71,
+      "text": "just to be sure?"
+    },
+    {
+      "idx": 819,
+      "start": 2845.71,
+      "end": 2847.71,
+      "text": "You know what you could do?"
+    },
+    {
+      "idx": 820,
+      "start": 2847.71,
+      "end": 2850.16,
+      "text": "Because you haven't defined yet the reference."
+    },
+    {
+      "idx": 821,
+      "start": 2850.16,
+      "end": 2853.16,
+      "text": "So you should think about how will I get a coulomb charge,"
+    },
+    {
+      "idx": 822,
+      "start": 2853.16,
+      "end": 2854.16,
+      "text": "or any other charge."
+    },
+    {
+      "idx": 823,
+      "start": 2854.16,
+      "end": 2859.28,
+      "text": "So I could take these two spheres that she talked about,"
+    },
+    {
+      "idx": 824,
+      "start": 2859.28,
+      "end": 2863.28,
+      "text": "each with the same charge q, and I could take the two spheres"
+    },
+    {
+      "idx": 825,
+      "start": 2863.28,
+      "end": 2864.28,
+      "text": "that she talked about."
+    },
+    {
+      "idx": 826,
+      "start": 2864.28,
+      "end": 2865.28,
+      "text": "We don't know what it is."
+    },
+    {
+      "idx": 827,
+      "start": 2865.28,
+      "end": 2867.28,
+      "text": "I put them at one meter distance,"
+    },
+    {
+      "idx": 828,
+      "start": 2867.28,
+      "end": 2870.28,
+      "text": "and I measure the force, namely how hard should I hold"
+    },
+    {
+      "idx": 829,
+      "start": 2870.28,
+      "end": 2872.28,
+      "text": "one from running away to the other one."
+    },
+    {
+      "idx": 830,
+      "start": 2872.28,
+      "end": 2875.28,
+      "text": "Once I got the force, the only thing unknown in the"
+    },
+    {
+      "idx": 831,
+      "start": 2875.28,
+      "end": 2876.28,
+      "text": "equation is q times q."
+    },
+    {
+      "idx": 832,
+      "start": 2876.28,
+      "end": 2878.28,
+      "text": "I know r, I know 1 over 4πε,"
+    },
+    {
+      "idx": 833,
+      "start": 2878.28,
+      "end": 2879.28,
+      "text": "I can get q."
+    },
+    {
+      "idx": 834,
+      "start": 2879.28,
+      "end": 2881.82,
+      "text": "So every time you write something,"
+    },
+    {
+      "idx": 835,
+      "start": 2881.82,
+      "end": 2883.82,
+      "text": "think about how you will measure it,"
+    },
+    {
+      "idx": 836,
+      "start": 2883.82,
+      "end": 2886.82,
+      "text": "because in that process you're learning how the physics is"
+    },
+    {
+      "idx": 837,
+      "start": 2887.82,
+      "end": 2889.82,
+      "text": "If you try to avoid that, you'll be just juggling"
+    },
+    {
+      "idx": 838,
+      "start": 2889.82,
+      "end": 2891.82,
+      "text": "equations, and that doesn't work for you,"
+    },
+    {
+      "idx": 839,
+      "start": 2891.82,
+      "end": 2892.82,
+      "text": "and that doesn't work for me."
+    },
+    {
+      "idx": 840,
+      "start": 2892.82,
+      "end": 2893.82,
+      "text": "No one wants to do good physics."
+    },
+    {
+      "idx": 841,
+      "start": 2893.82,
+      "end": 2896.82,
+      "text": "You should be constantly paying attention to the physical"
+    },
+    {
+      "idx": 842,
+      "start": 2896.82,
+      "end": 2899.82,
+      "text": "phenomenon, and not to the symbols that stand"
+    },
+    {
+      "idx": 843,
+      "start": 2899.82,
+      "end": 2900.82,
+      "text": "for physical objects."
+    },
+    {
+      "idx": 844,
+      "start": 2900.82,
+      "end": 2907.13,
+      "text": "All right, the final thing I want to do in this connection is"
+    },
+    {
+      "idx": 845,
+      "start": 2907.13,
+      "end": 2914.8,
+      "text": "to give this number I mentioned, F gravity over F electric."
+    },
+    {
+      "idx": 846,
+      "start": 2914.8,
+      "end": 2918.02,
+      "text": "I said gravity is 10 to the minus 40 times weaker."
+    },
+    {
+      "idx": 847,
+      "start": 2918.02,
+      "end": 2921.02,
+      "text": "Well, you have to be precise on how you got the number."
+    },
+    {
+      "idx": 848,
+      "start": 2921.02,
+      "end": 2923.12,
+      "text": "See, it's not like selling toothpaste,"
+    },
+    {
+      "idx": 849,
+      "start": 2923.12,
+      "end": 2926.12,
+      "text": "where you can say it is 7.2 times whiter."
+    },
+    {
+      "idx": 850,
+      "start": 2926.12,
+      "end": 2929.12,
+      "text": "I don't know how those guys measure whiteness in a unit with"
+    },
+    {
+      "idx": 851,
+      "start": 2929.12,
+      "end": 2932.12,
+      "text": "two decimal places, but that's a different game."
+    },
+    {
+      "idx": 852,
+      "start": 2932.12,
+      "end": 2934.12,
+      "text": "It's not subject to any rules."
+    },
+    {
+      "idx": 853,
+      "start": 2934.12,
+      "end": 2937.12,
+      "text": "But here, you have to say how you got the number."
+    },
+    {
+      "idx": 854,
+      "start": 2937.12,
+      "end": 2940.12,
+      "text": "In what context did you make the comparison?"
+    },
+    {
+      "idx": 855,
+      "start": 2940.12,
+      "end": 2943.24,
+      "text": "You'll turn out the answer does depend on what you chose."
+    },
+    {
+      "idx": 856,
+      "start": 2943.24,
+      "end": 2947.24,
+      "text": "There will be some variations, but those tiny variations are"
+    },
+    {
+      "idx": 857,
+      "start": 2947.24,
+      "end": 2951.49,
+      "text": "swamped by this enormous ratio I will get."
+    },
+    {
+      "idx": 858,
+      "start": 2951.49,
+      "end": 2955.49,
+      "text": "So what you could do is take any two bodies and find the ratio"
+    },
+    {
+      "idx": 859,
+      "start": 2955.49,
+      "end": 2957.49,
+      "text": "of gravity to electric force."
+    },
+    {
+      "idx": 860,
+      "start": 2957.49,
+      "end": 2960.49,
+      "text": "One option is to take two elementary particles,"
+    },
+    {
+      "idx": 861,
+      "start": 2960.49,
+      "end": 2962.49,
+      "text": "whichever two you like."
+    },
+    {
+      "idx": 862,
+      "start": 2962.49,
+      "end": 2964.49,
+      "text": "So I will take an electron and a proton,"
+    },
+    {
+      "idx": 863,
+      "start": 2964.49,
+      "end": 2966.49,
+      "text": "but you can take electron and a positron,"
+    },
+    {
+      "idx": 864,
+      "start": 2966.49,
+      "end": 2970.16,
+      "text": "or proton and a proton, it doesn't matter."
+    },
+    {
+      "idx": 865,
+      "start": 2970.16,
+      "end": 2974.29,
+      "text": "These two guys attract each other gravitationally and"
+    },
+    {
+      "idx": 866,
+      "start": 2975.29,
+      "end": 2979.22,
+      "text": "So I will write the force of gravitation,"
+    },
+    {
+      "idx": 867,
+      "start": 2979.22,
+      "end": 2982.22,
+      "text": "which is G, mass of the proton,"
+    },
+    {
+      "idx": 868,
+      "start": 2982.22,
+      "end": 2985.22,
+      "text": "mass of the electron, over R squared,"
+    },
+    {
+      "idx": 869,
+      "start": 2985.22,
+      "end": 2987.22,
+      "text": "divided by Q electron, Q proton,"
+    },
+    {
+      "idx": 870,
+      "start": 2987.22,
+      "end": 2988.22,
+      "text": "and R squared."
+    },
+    {
+      "idx": 871,
+      "start": 2989.22,
+      "end": 2996.78,
+      "text": "So that's R over 4Πε0 times 1 over R squared."
+    },
+    {
+      "idx": 872,
+      "start": 2996.78,
+      "end": 3002.32,
+      "text": "Notice in this calculation, R squared does not matter."
+    },
+    {
+      "idx": 873,
+      "start": 3002.32,
+      "end": 3005.32,
+      "text": "So you don't have to decide how far you want to keep them,"
+    },
+    {
+      "idx": 874,
+      "start": 3005.32,
+      "end": 3007.32,
+      "text": "because they both go like 1 over R squared,"
+    },
+    {
+      "idx": 875,
+      "start": 3007.32,
+      "end": 3008.32,
+      "text": "so you can pick any R."
+    },
+    {
+      "idx": 876,
+      "start": 3008.32,
+      "end": 3011.32,
+      "text": "So whatever you pick is going to cancel,"
+    },
+    {
+      "idx": 877,
+      "start": 3011.32,
+      "end": 3017.27,
+      "text": "and you will be left with this number of Q1,"
+    },
+    {
+      "idx": 878,
+      "start": 3017.27,
+      "end": 3025.34,
+      "text": "Q2, and the 1 over 4Πε is 9 times 10 to the 9th."
+    },
+    {
+      "idx": 879,
+      "start": 3025.34,
+      "end": 3027.37,
+      "text": "So now we put in some numbers."
+    },
+    {
+      "idx": 880,
+      "start": 3027.37,
+      "end": 3031.37,
+      "text": "So G is 10 to the minus 11, with some pre-factors,"
+    },
+    {
+      "idx": 881,
+      "start": 3031.37,
+      "end": 3032.37,
+      "text": "maybe 6 in the case."
+    },
+    {
+      "idx": 882,
+      "start": 3032.37,
+      "end": 3034.37,
+      "text": "I'm not going to worry about pre-factors."
+    },
+    {
+      "idx": 883,
+      "start": 3034.37,
+      "end": 3038.37,
+      "text": "The mass of the proton is 10 to the minus 27 kilograms."
+    },
+    {
+      "idx": 884,
+      "start": 3038.37,
+      "end": 3042.37,
+      "text": "The mass of the electron is 10 to the minus 30 kilograms."
+    },
+    {
+      "idx": 885,
+      "start": 3042.37,
+      "end": 3044.37,
+      "text": "So don't say, how come they all have these nice"
+    },
+    {
+      "idx": 886,
+      "start": 3045.37,
+      "end": 3046.37,
+      "text": "They are not."
+    },
+    {
+      "idx": 887,
+      "start": 3046.37,
+      "end": 3047.37,
+      "text": "They are factors like 1 and 2."
+    },
+    {
+      "idx": 888,
+      "start": 3047.37,
+      "end": 3049.37,
+      "text": "I'm not putting them, because I'm just counting"
+    },
+    {
+      "idx": 889,
+      "start": 3049.37,
+      "end": 3051.17,
+      "text": "powers of 10."
+    },
+    {
+      "idx": 890,
+      "start": 3051.17,
+      "end": 3055.17,
+      "text": "Q1 is 1.6 times 10 to the minus 19,"
+    },
+    {
+      "idx": 891,
+      "start": 3055.17,
+      "end": 3057.17,
+      "text": "so 2 of those Qs is 10 to the minus 19."
+    },
+    {
+      "idx": 892,
+      "start": 3057.17,
+      "end": 3061.84,
+      "text": "So that's 10 to the minus 38."
+    },
+    {
+      "idx": 893,
+      "start": 3061.84,
+      "end": 3066.16,
+      "text": "Then 9 times 10 to the 9 is roughly 10 to the 10th."
+    },
+    {
+      "idx": 894,
+      "start": 3066.16,
+      "end": 3070.95,
+      "text": "If you do all that, you will find this is 10 to the"
+    },
+    {
+      "idx": 895,
+      "start": 3071.95,
+      "end": 3075.75,
+      "text": "So it is some typical situation that you took,"
+    },
+    {
+      "idx": 896,
+      "start": 3075.75,
+      "end": 3077.75,
+      "text": "and you found this ratio of forces."
+    },
+    {
+      "idx": 897,
+      "start": 3077.75,
+      "end": 3079.75,
+      "text": "So there are two elementary particles,"
+    },
+    {
+      "idx": 898,
+      "start": 3079.75,
+      "end": 3081.75,
+      "text": "which are like the building blocks of matter,"
+    },
+    {
+      "idx": 899,
+      "start": 3081.75,
+      "end": 3083.75,
+      "text": "and you brought them to any distance you like."
+    },
+    {
+      "idx": 900,
+      "start": 3083.75,
+      "end": 3086.75,
+      "text": "You compare the electric attraction to the gravitational"
+    },
+    {
+      "idx": 901,
+      "start": 3089.86,
+      "end": 3091.89,
+      "text": "So one question is, if gravity is so weak,"
+    },
+    {
+      "idx": 902,
+      "start": 3091.89,
+      "end": 3092.89,
+      "text": "how did energy get there?"
+    },
+    {
+      "idx": 903,
+      "start": 3092.89,
+      "end": 3098.11,
+      "text": "How did anyone discover the force of gravity?"
+    },
+    {
+      "idx": 904,
+      "start": 3098.11,
+      "end": 3100.11,
+      "text": "If all you had was electrons and protons,"
+    },
+    {
+      "idx": 905,
+      "start": 3100.11,
+      "end": 3102.14,
+      "text": "you would have to measure the force between them."
+    },
+    {
+      "idx": 906,
+      "start": 3102.14,
+      "end": 3104.14,
+      "text": "Suppose you knew only about electricity,"
+    },
+    {
+      "idx": 907,
+      "start": 3104.14,
+      "end": 3106.27,
+      "text": "didn't know about gravitation."
+    },
+    {
+      "idx": 908,
+      "start": 3106.27,
+      "end": 3110.43,
+      "text": "One way to find there is an extra force is to measure the"
+    },
+    {
+      "idx": 909,
+      "start": 3110.43,
+      "end": 3114.43,
+      "text": "force to an accuracy good to 40 decimal places."
+    },
+    {
+      "idx": 910,
+      "start": 3114.43,
+      "end": 3117.94,
+      "text": "In the 40 decimal place, you find something is wrong."
+    },
+    {
+      "idx": 911,
+      "start": 3117.94,
+      "end": 3120.94,
+      "text": "You fiddle around and figure out the connection comes from"
+    },
+    {
+      "idx": 912,
+      "start": 3120.94,
+      "end": 3123.1,
+      "text": "m1m2 over R squared."
+    },
+    {
+      "idx": 913,
+      "start": 3123.1,
+      "end": 3125.1,
+      "text": "But that's not how it was done."
+    },
+    {
+      "idx": 914,
+      "start": 3125.1,
+      "end": 3126.1,
+      "text": "You guys know that."
+    },
+    {
+      "idx": 915,
+      "start": 3126.1,
+      "end": 3130.58,
+      "text": "So how did anyone discover force of gravity when it's"
+    },
+    {
+      "idx": 916,
+      "start": 3134.51,
+      "end": 3137.51,
+      "text": "Most things are electrically neutral."
+    },
+    {
+      "idx": 917,
+      "start": 3137.51,
+      "end": 3139.51,
+      "text": "In other words, electric force,"
+    },
+    {
+      "idx": 918,
+      "start": 3139.51,
+      "end": 3145.47,
+      "text": "even though it's very strong, comes with opposite charges."
+    },
+    {
+      "idx": 919,
+      "start": 3145.47,
+      "end": 3149.79,
+      "text": "It can occur with a plus sign or with a minus sign."
+    },
+    {
+      "idx": 920,
+      "start": 3149.79,
+      "end": 3151.79,
+      "text": "Therefore, if you take the planet Earth,"
+    },
+    {
+      "idx": 921,
+      "start": 3151.79,
+      "end": 3155.33,
+      "text": "you've got lots and lots of charges in every atom,"
+    },
+    {
+      "idx": 922,
+      "start": 3155.33,
+      "end": 3157.75,
+      "text": "but every atom is neutral."
+    },
+    {
+      "idx": 923,
+      "start": 3157.75,
+      "end": 3162.77,
+      "text": "You've got the moon, ditto, lots and lots of atoms,"
+    },
+    {
+      "idx": 924,
+      "start": 3162.77,
+      "end": 3166.4,
+      "text": "but they're all neutral."
+    },
+    {
+      "idx": 925,
+      "start": 3166.4,
+      "end": 3169.4,
+      "text": "But the mass of the electron does not cancel the mass of the"
+    },
+    {
+      "idx": 926,
+      "start": 3171.52,
+      "end": 3175.04,
+      "text": "So mass can never be hidden, whereas charge can be hidden."
+    },
+    {
+      "idx": 927,
+      "start": 3175.04,
+      "end": 3177.04,
+      "text": "Mass never cancels."
+    },
+    {
+      "idx": 928,
+      "start": 3177.04,
+      "end": 3180.04,
+      "text": "That's the reason why, in spite of the incredible"
+    },
+    {
+      "idx": 929,
+      "start": 3180.04,
+      "end": 3184.04,
+      "text": "amount of electrical forces they are potentially capable of"
+    },
+    {
+      "idx": 930,
+      "start": 3184.04,
+      "end": 3188.55,
+      "text": "exerting, they present to each other neutral entities."
+    },
+    {
+      "idx": 931,
+      "start": 3188.55,
+      "end": 3192.74,
+      "text": "Therefore, this remaining force which is not shielded is what you"
+    },
+    {
+      "idx": 932,
+      "start": 3192.74,
+      "end": 3196.0,
+      "text": "call gravity and has a dramatic role in the structure of the"
+    },
+    {
+      "idx": 933,
+      "start": 3196.0,
+      "end": 3198.06,
+      "text": "universe, force of gravity."
+    },
+    {
+      "idx": 934,
+      "start": 3198.06,
+      "end": 3202.06,
+      "text": "Most cosmological calculations, you can forget mainly the electric"
+    },
+    {
+      "idx": 935,
+      "start": 3202.06,
+      "end": 3204.12,
+      "text": "force, it's all gravitational force."
+    },
+    {
+      "idx": 936,
+      "start": 3204.12,
+      "end": 3208.05,
+      "text": "That's because electricity can be neutralized."
+    },
+    {
+      "idx": 937,
+      "start": 3208.05,
+      "end": 3210.05,
+      "text": "So you cannot hide gravity."
+    },
+    {
+      "idx": 938,
+      "start": 3210.05,
+      "end": 3211.05,
+      "text": "Everything has mass."
+    },
+    {
+      "idx": 939,
+      "start": 3211.05,
+      "end": 3213.05,
+      "text": "Even photons, which have no mass,"
+    },
+    {
+      "idx": 940,
+      "start": 3213.05,
+      "end": 3215.66,
+      "text": "have energy, they're also attracted by"
+    },
+    {
+      "idx": 941,
+      "start": 3216.66,
+      "end": 3219.82,
+      "text": "So gravity cannot be hidden, and that's the origin of"
+    },
+    {
+      "idx": 942,
+      "start": 3219.82,
+      "end": 3221.82,
+      "text": "something called dark matter."
+    },
+    {
+      "idx": 943,
+      "start": 3221.82,
+      "end": 3230.42,
+      "text": "So how many guys heard about dark matter?"
+    },
+    {
+      "idx": 944,
+      "start": 3230.42,
+      "end": 3232.42,
+      "text": "Anyone want to volunteer?"
+    },
+    {
+      "idx": 945,
+      "start": 3232.42,
+      "end": 3234.42,
+      "text": "Someone whose name begins with T."
+    },
+    {
+      "idx": 946,
+      "start": 3234.42,
+      "end": 3240.31,
+      "text": "Anybody's name begins with T and also knows the answer to this?"
+    },
+    {
+      "idx": 947,
+      "start": 3240.31,
+      "end": 3244.92,
+      "text": "The trouble is you people are plagued with one quality which is"
+    },
+    {
+      "idx": 948,
+      "start": 3244.92,
+      "end": 3248.92,
+      "text": "not good for being in physics, namely you're modest."
+    },
+    {
+      "idx": 949,
+      "start": 3248.92,
+      "end": 3250.92,
+      "text": "So you don't want to tell me the answer."
+    },
+    {
+      "idx": 950,
+      "start": 3250.92,
+      "end": 3254.92,
+      "text": "So I have to give an excuse for whoever gives the answer."
+    },
+    {
+      "idx": 951,
+      "start": 3254.92,
+      "end": 3260.33,
+      "text": "If your seat has a number, 142."
+    },
+    {
+      "idx": 952,
+      "start": 3260.33,
+      "end": 3262.33,
+      "text": "Anybody's seat 142?"
+    },
+    {
+      "idx": 953,
+      "start": 3262.33,
+      "end": 3267.76,
+      "text": "Maybe they're not even numbered."
+    },
+    {
+      "idx": 954,
+      "start": 3267.76,
+      "end": 3273.01,
+      "text": "Look, anybody with a red piece of clothing knows the answer to"
+    },
+    {
+      "idx": 955,
+      "start": 3274.01,
+      "end": 3277.16,
+      "text": "Go ahead, yes."
+    },
+    {
+      "idx": 956,
+      "start": 3287.32,
+      "end": 3290.7,
+      "text": "Basically there's no way you can see it,"
+    },
+    {
+      "idx": 957,
+      "start": 3290.7,
+      "end": 3294.82,
+      "text": "and there's dark matter right in this room."
+    },
+    {
+      "idx": 958,
+      "start": 3294.82,
+      "end": 3297.95,
+      "text": "And there's dark matter everywhere,"
+    },
+    {
+      "idx": 959,
+      "start": 3297.95,
+      "end": 3300.95,
+      "text": "but the reason the way people found out there is dark matter."
+    },
+    {
+      "idx": 960,
+      "start": 3300.95,
+      "end": 3305.2,
+      "text": "Do you know how that was determined?"
+    },
+    {
+      "idx": 961,
+      "start": 3311.48,
+      "end": 3314.48,
+      "text": "Maybe one example I can talk."
+    },
+    {
+      "idx": 962,
+      "start": 3314.48,
+      "end": 3317.48,
+      "text": "So you have a galaxy, about our own galaxy."
+    },
+    {
+      "idx": 963,
+      "start": 3317.48,
+      "end": 3322.85,
+      "text": "So here's a visible galaxy, the old spiral."
+    },
+    {
+      "idx": 964,
+      "start": 3322.85,
+      "end": 3326.68,
+      "text": "Now if something is orbiting this galaxy,"
+    },
+    {
+      "idx": 965,
+      "start": 3326.68,
+      "end": 3330.91,
+      "text": "just by using Newtonian gravity, by knowing the velocity of the"
+    },
+    {
+      "idx": 966,
+      "start": 3330.91,
+      "end": 3334.91,
+      "text": "object as it goes around, you can calculate how much mass is"
+    },
+    {
+      "idx": 967,
+      "start": 3334.91,
+      "end": 3337.06,
+      "text": "enclosed by the orbit."
+    },
+    {
+      "idx": 968,
+      "start": 3337.06,
+      "end": 3339.06,
+      "text": "That's a property of gravitation."
+    },
+    {
+      "idx": 969,
+      "start": 3339.06,
+      "end": 3342.48,
+      "text": "From the orbit you can find out how much mass is enclosed."
+    },
+    {
+      "idx": 970,
+      "start": 3342.48,
+      "end": 3345.48,
+      "text": "So what you will find is if you found something orbiting the"
+    },
+    {
+      "idx": 971,
+      "start": 3345.48,
+      "end": 3347.48,
+      "text": "center of the galaxy at that radius,"
+    },
+    {
+      "idx": 972,
+      "start": 3347.48,
+      "end": 3348.48,
+      "text": "you will enclose some mass."
+    },
+    {
+      "idx": 973,
+      "start": 3348.48,
+      "end": 3351.48,
+      "text": "If you take objects with bigger and bigger radius,"
+    },
+    {
+      "idx": 974,
+      "start": 3351.48,
+      "end": 3353.48,
+      "text": "you will enclose more and more mass."
+    },
+    {
+      "idx": 975,
+      "start": 3353.48,
+      "end": 3355.48,
+      "text": "Until you find orbits as big as the galaxy,"
+    },
+    {
+      "idx": 976,
+      "start": 3355.48,
+      "end": 3359.48,
+      "text": "then the mass enclosed as a function of radius should come"
+    },
+    {
+      "idx": 977,
+      "start": 3359.48,
+      "end": 3363.98,
+      "text": "and stop, because after that the orbit's"
+    },
+    {
+      "idx": 978,
+      "start": 3363.98,
+      "end": 3368.1,
+      "text": "getting bigger, but not enclosing any more mass."
+    },
+    {
+      "idx": 979,
+      "start": 3368.1,
+      "end": 3371.1,
+      "text": "But what people found is that even after you cross the"
+    },
+    {
+      "idx": 980,
+      "start": 3371.1,
+      "end": 3375.1,
+      "text": "nominal size of the galaxy, you still keep picking up mass,"
+    },
+    {
+      "idx": 981,
+      "start": 3375.1,
+      "end": 3380.06,
+      "text": "and that is the dark matter halo of our galaxy."
+    },
+    {
+      "idx": 982,
+      "start": 3380.06,
+      "end": 3383.06,
+      "text": "So it's dark to everything, but you cannot escape gravity."
+    },
+    {
+      "idx": 983,
+      "start": 3383.06,
+      "end": 3384.06,
+      "text": "That's what I meant to say."
+    },
+    {
+      "idx": 984,
+      "start": 3384.06,
+      "end": 3387.06,
+      "text": "You cannot avoid gravitational force."
+    },
+    {
+      "idx": 985,
+      "start": 3387.06,
+      "end": 3389.32,
+      "text": "People are trying to find dark matter."
+    },
+    {
+      "idx": 986,
+      "start": 3389.32,
+      "end": 3392.76,
+      "text": "People at Yale are trying to find dark matter."
+    },
+    {
+      "idx": 987,
+      "start": 3392.76,
+      "end": 3396.28,
+      "text": "The thing is you don't know exactly what it is."
+    },
+    {
+      "idx": 988,
+      "start": 3396.28,
+      "end": 3398.28,
+      "text": "It's not any of the usual suspects,"
+    },
+    {
+      "idx": 989,
+      "start": 3398.28,
+      "end": 3400.28,
+      "text": "because then they would have interacted very strongly."
+    },
+    {
+      "idx": 990,
+      "start": 3400.28,
+      "end": 3403.66,
+      "text": "So you're trying to find something not knowing exactly"
+    },
+    {
+      "idx": 991,
+      "start": 3403.66,
+      "end": 3404.82,
+      "text": "what it is."
+    },
+    {
+      "idx": 992,
+      "start": 3404.82,
+      "end": 3408.11,
+      "text": "You've got to build detectors that will detect something,"
+    },
+    {
+      "idx": 993,
+      "start": 3408.11,
+      "end": 3410.11,
+      "text": "and you go through it every day in your lab,"
+    },
+    {
+      "idx": 994,
+      "start": 3410.11,
+      "end": 3412.11,
+      "text": "and you're hoping that you're going to find something that"
+    },
+    {
+      "idx": 995,
+      "start": 3412.11,
+      "end": 3413.11,
+      "text": "will trigger a reaction."
+    },
+    {
+      "idx": 996,
+      "start": 3413.11,
+      "end": 3416.11,
+      "text": "One of these dark matter particles will collide with the"
+    },
+    {
+      "idx": 997,
+      "start": 3416.11,
+      "end": 3419.81,
+      "text": "stuff in your detector and trigger a reaction."
+    },
+    {
+      "idx": 998,
+      "start": 3419.81,
+      "end": 3423.42,
+      "text": "Of course, there will be lots of reactions every day,"
+    },
+    {
+      "idx": 999,
+      "start": 3423.42,
+      "end": 3425.42,
+      "text": "but most of them are due to other things."
+    },
+    {
+      "idx": 1000,
+      "start": 3425.42,
+      "end": 3426.42,
+      "text": "That's called background."
+    },
+    {
+      "idx": 1001,
+      "start": 3426.42,
+      "end": 3428.42,
+      "text": "You've got to throw the background out,"
+    },
+    {
+      "idx": 1002,
+      "start": 3428.42,
+      "end": 3431.48,
+      "text": "and whatever is left has got to be due to dark matter."
+    },
+    {
+      "idx": 1003,
+      "start": 3431.48,
+      "end": 3435.44,
+      "text": "And again, how do you know it's dark matter?"
+    },
+    {
+      "idx": 1004,
+      "start": 3435.44,
+      "end": 3437.44,
+      "text": "How do you know it's not something else?"
+    },
+    {
+      "idx": 1005,
+      "start": 3437.44,
+      "end": 3440.44,
+      "text": "Well, you can see that if you're drifting through dark"
+    },
+    {
+      "idx": 1006,
+      "start": 3440.44,
+      "end": 3442.44,
+      "text": "matter in a moving earth, you'll be rushing,"
+    },
+    {
+      "idx": 1007,
+      "start": 3442.44,
+      "end": 3445.44,
+      "text": "you'll be running into more of them in the direction of motion,"
+    },
+    {
+      "idx": 1008,
+      "start": 3445.44,
+      "end": 3448.56,
+      "text": "not in the other direction, because you're running into"
+    },
+    {
+      "idx": 1009,
+      "start": 3449.56,
+      "end": 3451.56,
+      "text": "So by looking at the direction dependence,"
+    },
+    {
+      "idx": 1010,
+      "start": 3451.56,
+      "end": 3453.56,
+      "text": "you can try to see if it's dark matter."
+    },
+    {
+      "idx": 1011,
+      "start": 3453.56,
+      "end": 3456.56,
+      "text": "Anyway, dark matter was discovered by simple Newtonian"
+    },
+    {
+      "idx": 1012,
+      "start": 3458.88,
+      "end": 3461.88,
+      "text": "The particles that form dark matter are very interesting to"
+    },
+    {
+      "idx": 1013,
+      "start": 3462.88,
+      "end": 3465.88,
+      "text": "There are many candidates in particle theory,"
+    },
+    {
+      "idx": 1014,
+      "start": 3465.88,
+      "end": 3468.88,
+      "text": "but the origin of the discrepancy came from just doing"
+    },
+    {
+      "idx": 1015,
+      "start": 3469.88,
+      "end": 3477.53,
+      "text": "All right, the final thing today before we break is that"
+    },
+    {
+      "idx": 1016,
+      "start": 3477.53,
+      "end": 3479.66,
+      "text": "we're going to talk about the energy of the earth."
+    },
+    {
+      "idx": 1017,
+      "start": 3479.66,
+      "end": 3487.12,
+      "text": "There's one variation of Coulomb's law."
+    },
+    {
+      "idx": 1018,
+      "start": 3487.12,
+      "end": 3497.61,
+      "text": "By the way, I do not know your mathematical training and how"
+    },
+    {
+      "idx": 1019,
+      "start": 3497.61,
+      "end": 3499.74,
+      "text": "much math you know."
+    },
+    {
+      "idx": 1020,
+      "start": 3499.74,
+      "end": 3501.74,
+      "text": "So you have to be on the lookout."
+    },
+    {
+      "idx": 1021,
+      "start": 3501.74,
+      "end": 3503.74,
+      "text": "So if I write something that looks very alien to you,"
+    },
+    {
+      "idx": 1022,
+      "start": 3503.74,
+      "end": 3505.77,
+      "text": "you've got to go take care of that,"
+    },
+    {
+      "idx": 1023,
+      "start": 3505.77,
+      "end": 3509.77,
+      "text": "in particular how to do integrals in maybe more than one"
+    },
+    {
+      "idx": 1024,
+      "start": 3511.6,
+      "end": 3513.6,
+      "text": "Anyway, what I wanted to discuss today is the following."
+    },
+    {
+      "idx": 1025,
+      "start": 3513.6,
+      "end": 3516.96,
+      "text": "We know how to do Coulomb's law due to any number of point"
+    },
+    {
+      "idx": 1026,
+      "start": 3517.96,
+      "end": 3519.96,
+      "text": "So if you put another charge q here,"
+    },
+    {
+      "idx": 1027,
+      "start": 3519.96,
+      "end": 3522.96,
+      "text": "you want the force on this guy due to all these."
+    },
+    {
+      "idx": 1028,
+      "start": 3522.96,
+      "end": 3523.96,
+      "text": "You draw those lines."
+    },
+    {
+      "idx": 1029,
+      "start": 3523.96,
+      "end": 3525.96,
+      "text": "You take the 1 over r squared due to that,"
+    },
+    {
+      "idx": 1030,
+      "start": 3525.96,
+      "end": 3527.96,
+      "text": "1 over r squared due to that, add all the vectors."
+    },
+    {
+      "idx": 1031,
+      "start": 3527.96,
+      "end": 3528.96,
+      "text": "That's very simple."
+    },
+    {
+      "idx": 1032,
+      "start": 3528.96,
+      "end": 3533.56,
+      "text": "But we will also take problems where the charges are"
+    },
+    {
+      "idx": 1033,
+      "start": 3534.56,
+      "end": 3535.56,
+      "text": "So here's an example."
+    },
+    {
+      "idx": 1034,
+      "start": 3535.56,
+      "end": 3538.33,
+      "text": "Here's a ring of charge."
+    },
+    {
+      "idx": 1035,
+      "start": 3538.33,
+      "end": 3541.93,
+      "text": "The ring has some radius."
+    },
+    {
+      "idx": 1036,
+      "start": 3541.93,
+      "end": 3546.08,
+      "text": "You pick your radius, r, and the charge on it is"
+    },
+    {
+      "idx": 1037,
+      "start": 3547.08,
+      "end": 3548.08,
+      "text": "It's not discrete."
+    },
+    {
+      "idx": 1038,
+      "start": 3548.08,
+      "end": 3551.08,
+      "text": "Or it could be in real life everything is discrete,"
+    },
+    {
+      "idx": 1039,
+      "start": 3551.08,
+      "end": 3554.08,
+      "text": "but to a coarse observer it will look like it's continuous."
+    },
+    {
+      "idx": 1040,
+      "start": 3554.08,
+      "end": 3557.08,
+      "text": "So we can draw some picture here."
+    },
+    {
+      "idx": 1041,
+      "start": 3557.08,
+      "end": 3562.12,
+      "text": "Charge is all over the ring, and λ is the number of Coulombs"
+    },
+    {
+      "idx": 1042,
+      "start": 3563.12,
+      "end": 3568.14,
+      "text": "That means if you snipped 1 meter of the wire,"
+    },
+    {
+      "idx": 1043,
+      "start": 3568.14,
+      "end": 3570.14,
+      "text": "it will have λ Coulombs in it."
+    },
+    {
+      "idx": 1044,
+      "start": 3570.14,
+      "end": 3574.62,
+      "text": "And you want to find the electric force on some other"
+    },
+    {
+      "idx": 1045,
+      "start": 3574.62,
+      "end": 3576.62,
+      "text": "charge q due to this wire."
+    },
+    {
+      "idx": 1046,
+      "start": 3576.62,
+      "end": 3581.38,
+      "text": "So you cannot do a sum, and you have to do an integral."
+    },
+    {
+      "idx": 1047,
+      "start": 3581.38,
+      "end": 3583.38,
+      "text": "That's what I'm driving at."
+    },
+    {
+      "idx": 1048,
+      "start": 3583.38,
+      "end": 3586.38,
+      "text": "I'm going to do one integral, then we'll do more complicated"
+    },
+    {
+      "idx": 1049,
+      "start": 3587.38,
+      "end": 3590.38,
+      "text": "So I want to find the force on a charge q here."
+    },
+    {
+      "idx": 1050,
+      "start": 3590.38,
+      "end": 3595.67,
+      "text": "So what I will do is I will divide this into segments,"
+    },
+    {
+      "idx": 1051,
+      "start": 3595.67,
+      "end": 3598.7,
+      "text": "each of length, say dl."
+    },
+    {
+      "idx": 1052,
+      "start": 3598.7,
+      "end": 3605.84,
+      "text": "Then I will find the force of the charge here, df."
+    },
+    {
+      "idx": 1053,
+      "start": 3605.84,
+      "end": 3609.89,
+      "text": "I will add the forces due to all the segments."
+    },
+    {
+      "idx": 1054,
+      "start": 3609.89,
+      "end": 3615.23,
+      "text": "Now force of this segment will be the charge."
+    },
+    {
+      "idx": 1055,
+      "start": 3615.23,
+      "end": 3619.36,
+      "text": "This segment is so small you can treat it as a point charge,"
+    },
+    {
+      "idx": 1056,
+      "start": 3619.36,
+      "end": 3623.36,
+      "text": "and the amount of charge there here is λ times 0."
+    },
+    {
+      "idx": 1057,
+      "start": 3625.28,
+      "end": 3627.92,
+      "text": "That's the q1."
+    },
+    {
+      "idx": 1058,
+      "start": 3627.92,
+      "end": 3629.92,
+      "text": "The q2 is the q I put there."
+    },
+    {
+      "idx": 1059,
+      "start": 3629.92,
+      "end": 3634.12,
+      "text": "Then there's a 4Πε0r2."
+    },
+    {
+      "idx": 1060,
+      "start": 3634.12,
+      "end": 3639.6,
+      "text": "r2 will be this distance z times this radius r will be,"
+    },
+    {
+      "idx": 1061,
+      "start": 3639.6,
+      "end": 3642.6,
+      "text": "maybe I shouldn't call it r."
+    },
+    {
+      "idx": 1062,
+      "start": 3642.6,
+      "end": 3643.6,
+      "text": "Let me call it R."
+    },
+    {
+      "idx": 1063,
+      "start": 3643.6,
+      "end": 3647.46,
+      "text": "That's r2 z2."
+    },
+    {
+      "idx": 1064,
+      "start": 3647.46,
+      "end": 3651.19,
+      "text": "That's the distance."
+    },
+    {
+      "idx": 1065,
+      "start": 3651.19,
+      "end": 3653.19,
+      "text": "But now that force is a vector."
+    },
+    {
+      "idx": 1066,
+      "start": 3653.19,
+      "end": 3654.64,
+      "text": "It's pointing in that direction."
+    },
+    {
+      "idx": 1067,
+      "start": 3654.64,
+      "end": 3658.64,
+      "text": "But I know that the total force is going to point in this"
+    },
+    {
+      "idx": 1068,
+      "start": 3658.64,
+      "end": 3661.64,
+      "text": "direction, because for every guy I find in this side,"
+    },
+    {
+      "idx": 1069,
+      "start": 3661.64,
+      "end": 3666.28,
+      "text": "I can find one in the opposite direction pointing that way."
+    },
+    {
+      "idx": 1070,
+      "start": 3666.28,
+      "end": 3668.28,
+      "text": "So they will always cancel horizontally."
+    },
+    {
+      "idx": 1071,
+      "start": 3668.28,
+      "end": 3671.28,
+      "text": "The only remaining force will be in the z direction."
+    },
+    {
+      "idx": 1072,
+      "start": 3671.28,
+      "end": 3676.2,
+      "text": "So I'm going to keep only the component of the force in the z"
+    },
+    {
+      "idx": 1073,
+      "start": 3677.2,
+      "end": 3680.2,
+      "text": "I denote it by df in the z direction."
+    },
+    {
+      "idx": 1074,
+      "start": 3680.2,
+      "end": 3682.2,
+      "text": "For that, you have to take this force and"
+    },
+    {
+      "idx": 1075,
+      "start": 3682.2,
+      "end": 3684.2,
+      "text": "multiply by cosine of that θ."
+    },
+    {
+      "idx": 1076,
+      "start": 3684.2,
+      "end": 3689.32,
+      "text": "I hope you know how to find the component of a force in a"
+    },
+    {
+      "idx": 1077,
+      "start": 3690.32,
+      "end": 3692.32,
+      "text": "It's the cosine of the angle between them."
+    },
+    {
+      "idx": 1078,
+      "start": 3692.32,
+      "end": 3696.32,
+      "text": "One angle is equal to this angle, and cosine of this is z"
+    },
+    {
+      "idx": 1079,
+      "start": 3696.32,
+      "end": 3699.76,
+      "text": "divided by r2 z2 under root."
+    },
+    {
+      "idx": 1080,
+      "start": 3699.76,
+      "end": 3704.52,
+      "text": "That is the df due to this segment,"
+    },
+    {
+      "idx": 1081,
+      "start": 3704.52,
+      "end": 3708.52,
+      "text": "and the total force in the z direction is the integral of"
+    },
+    {
+      "idx": 1082,
+      "start": 3709.52,
+      "end": 3711.52,
+      "text": "And what's that integrate?"
+    },
+    {
+      "idx": 1083,
+      "start": 3711.52,
+      "end": 3713.52,
+      "text": "Lambda, q, all these are constant,"
+    },
+    {
+      "idx": 1084,
+      "start": 3713.52,
+      "end": 3715.52,
+      "text": "r, z, everything is a constant."
+    },
+    {
+      "idx": 1085,
+      "start": 3715.52,
+      "end": 3717.52,
+      "text": "You have to add all the dl's."
+    },
+    {
+      "idx": 1086,
+      "start": 3717.52,
+      "end": 3722.93,
+      "text": "If you add all the dl's, you will get the circumference."
+    },
+    {
+      "idx": 1087,
+      "start": 3722.93,
+      "end": 3727.12,
+      "text": "In other words, this is going to be lambda,"
+    },
+    {
+      "idx": 1088,
+      "start": 3727.12,
+      "end": 3732.4,
+      "text": "q, z, divided by 4Πε0,"
+    },
+    {
+      "idx": 1089,
+      "start": 3732.4,
+      "end": 3739.24,
+      "text": "r2 z2 with a 3 over 2, integral of dl."
+    },
+    {
+      "idx": 1090,
+      "start": 3739.24,
+      "end": 3745.4,
+      "text": "Integral of dl is just 2Πr."
+    },
+    {
+      "idx": 1091,
+      "start": 3745.4,
+      "end": 3747.4,
+      "text": "In other words, every one of them is making an"
+    },
+    {
+      "idx": 1092,
+      "start": 3747.4,
+      "end": 3749.4,
+      "text": "equal contribution, so the integrand doesn't depend"
+    },
+    {
+      "idx": 1093,
+      "start": 3749.4,
+      "end": 3752.4,
+      "text": "on where you are in the circle, so you're just measuring the"
+    },
+    {
+      "idx": 1094,
+      "start": 3752.4,
+      "end": 3753.82,
+      "text": "length of the circle."
+    },
+    {
+      "idx": 1095,
+      "start": 3753.82,
+      "end": 3754.82,
+      "text": "That's the answer."
+    },
+    {
+      "idx": 1096,
+      "start": 3754.82,
+      "end": 3760.23,
+      "text": "The force looks like lambda times 2Πr."
+    },
+    {
+      "idx": 1097,
+      "start": 3760.23,
+      "end": 3761.39,
+      "text": "What is that?"
+    },
+    {
+      "idx": 1098,
+      "start": 3761.39,
+      "end": 3763.9,
+      "text": "Lambda is the charge per unit length."
+    },
+    {
+      "idx": 1099,
+      "start": 3763.9,
+      "end": 3766.9,
+      "text": "That times the length of the loop is the charge on the loop."
+    },
+    {
+      "idx": 1100,
+      "start": 3766.9,
+      "end": 3770.9,
+      "text": "This is the charge you're putting there,"
+    },
+    {
+      "idx": 1101,
+      "start": 3770.9,
+      "end": 3779.98,
+      "text": "divided by 4Πε0 divided by r2 z2 with a 3 over 2."
+    },
+    {
+      "idx": 1102,
+      "start": 3779.98,
+      "end": 3784.11,
+      "text": "That's an example of calculating the force which will"
+    },
+    {
+      "idx": 1103,
+      "start": 3784.11,
+      "end": 3787.91,
+      "text": "be in this direction."
+    },
+    {
+      "idx": 1104,
+      "start": 3787.91,
+      "end": 3790.41,
+      "text": "Now once you've done this calculation,"
+    },
+    {
+      "idx": 1105,
+      "start": 3790.41,
+      "end": 3793.41,
+      "text": "you may think maybe I missed a factor of π or a factor of e,"
+    },
+    {
+      "idx": 1106,
+      "start": 3794.41,
+      "end": 3796.41,
+      "text": "Can you think of a way to test this?"
+    },
+    {
+      "idx": 1107,
+      "start": 3796.41,
+      "end": 3801.88,
+      "text": "What test would you like to apply to this result?"
+    },
+    {
+      "idx": 1108,
+      "start": 3801.88,
+      "end": 3810.02,
+      "text": "Yes, very good."
+    },
+    {
+      "idx": 1109,
+      "start": 3810.02,
+      "end": 3813.02,
+      "text": "What he said is if you pick z equal to 0,"
+    },
+    {
+      "idx": 1110,
+      "start": 3813.02,
+      "end": 3816.02,
+      "text": "you're sitting in the middle of the circle and you're getting"
+    },
+    {
+      "idx": 1111,
+      "start": 3816.02,
+      "end": 3819.02,
+      "text": "pushed equally from all sides, and you better not have a force,"
+    },
+    {
+      "idx": 1112,
+      "start": 3819.02,
+      "end": 3820.02,
+      "text": "and that's certainly correct."
+    },
+    {
+      "idx": 1113,
+      "start": 3820.02,
+      "end": 3822.02,
+      "text": "This vanishes when z goes to 0."
+    },
+    {
+      "idx": 1114,
+      "start": 3827.03,
+      "end": 3843.56,
+      "text": "Any other test?"
+    },
+    {
+      "idx": 1115,
+      "start": 3843.56,
+      "end": 3847.94,
+      "text": "Yes, it will point down and be negative."
+    },
+    {
+      "idx": 1116,
+      "start": 3848.94,
+      "end": 3851.94,
+      "text": "But how about the magnitude of the force itself rather than just"
+    },
+    {
+      "idx": 1117,
+      "start": 3860.63,
+      "end": 3863.88,
+      "text": "If you go very, very far, someone's holding a loop,"
+    },
+    {
+      "idx": 1118,
+      "start": 3863.88,
+      "end": 3867.04,
+      "text": "you cannot see that it's even a loop."
+    },
+    {
+      "idx": 1119,
+      "start": 3867.04,
+      "end": 3870.04,
+      "text": "It's some tiny speck, and it should produce the field."
+    },
+    {
+      "idx": 1120,
+      "start": 3870.04,
+      "end": 3872.04,
+      "text": "So what field should it produce?"
+    },
+    {
+      "idx": 1121,
+      "start": 3872.04,
+      "end": 3874.04,
+      "text": "It should produce the Coulomb force,"
+    },
+    {
+      "idx": 1122,
+      "start": 3874.04,
+      "end": 3878.04,
+      "text": "q1q2 over 4Πε0 times distance squared,"
+    },
+    {
+      "idx": 1123,
+      "start": 3878.04,
+      "end": 3882.2,
+      "text": "and when z is much, much, much bigger than r,"
+    },
+    {
+      "idx": 1124,
+      "start": 3882.2,
+      "end": 3885.2,
+      "text": "this is 1 kilometer, this is 2 inches,"
+    },
+    {
+      "idx": 1125,
+      "start": 3885.2,
+      "end": 3888.2,
+      "text": "you forget this, you get z squared to the 3 over"
+    },
+    {
+      "idx": 1126,
+      "start": 3888.2,
+      "end": 3890.2,
+      "text": "4, and then z cubed."
+    },
+    {
+      "idx": 1127,
+      "start": 3890.2,
+      "end": 3894.68,
+      "text": "That means the whole thing here reduces to 1 over z squared,"
+    },
+    {
+      "idx": 1128,
+      "start": 3894.68,
+      "end": 3897.94,
+      "text": "and it looks like the force between two point charges."
+    },
+    {
+      "idx": 1129,
+      "start": 3897.94,
+      "end": 3900.94,
+      "text": "So I would ask you, whenever you do a calculation,"
+    },
+    {
+      "idx": 1130,
+      "start": 3900.94,
+      "end": 3904.03,
+      "text": "to test your result."
+    },
+    {
+      "idx": 1131,
+      "start": 3904.03,
+      "end": 3906.03,
+      "text": "Before going, I've got to tell you something"
+    },
+    {
+      "idx": 1132,
+      "start": 3906.03,
+      "end": 3908.57,
+      "text": "about those who come late."
+    },
+    {
+      "idx": 1133,
+      "start": 3908.57,
+      "end": 3911.57,
+      "text": "I realize that you guys come from near and far,"
+    },
+    {
+      "idx": 1134,
+      "start": 3911.57,
+      "end": 3914.57,
+      "text": "so when you come late, let me give you my preference"
+    },
+    {
+      "idx": 1135,
+      "start": 3915.57,
+      "end": 3918.7,
+      "text": "Door number 1 is that one."
+    },
+    {
+      "idx": 1136,
+      "start": 3918.7,
+      "end": 3920.99,
+      "text": "That's the least problematic."
+    },
+    {
+      "idx": 1137,
+      "start": 3920.99,
+      "end": 3923.99,
+      "text": "Door number 2 is this one, because in the beginning of"
+    },
+    {
+      "idx": 1138,
+      "start": 3923.99,
+      "end": 3926.99,
+      "text": "the lecture I'm usually on that side of the board,"
+    },
+    {
+      "idx": 1139,
+      "start": 3926.99,
+      "end": 3929.24,
+      "text": "so you guys can come in."
+    },
+    {
+      "idx": 1140,
+      "start": 3929.24,
+      "end": 3932.24,
+      "text": "Door number 3 is that one, where Jude is taking the"
+    },
+    {
+      "idx": 1141,
+      "start": 3932.24,
+      "end": 3935.24,
+      "text": "picture, but do not stand in front of the"
+    },
+    {
+      "idx": 1142,
+      "start": 3935.24,
+      "end": 3937.24,
+      "text": "camera and contemplate your future."
+    },
+    {
+      "idx": 1143,
+      "start": 3937.24,
+      "end": 3941.24,
+      "text": "If you do, I will make sure you don't have"
+    },
+    {
+      "idx": 1144,
+      "start": 3942.24,
+      "end": 3943.24,
+      "text": "Don't do that."
+    },
+    {
+      "idx": 1145,
+      "start": 3943.24,
+      "end": 3947.24,
+      "text": "If you come fashionably late, never come through that door."
+    },
+    {
+      "idx": 1146,
+      "start": 3947.24,
+      "end": 3948.24,
+      "text": "Maybe this one."
+    },
+    {
+      "idx": 1147,
+      "start": 3948.24,
+      "end": 3952.17,
+      "text": "In fact, if you come through that door,"
+    },
+    {
+      "idx": 1148,
+      "start": 3952.17,
+      "end": 3954.17,
+      "text": "because I read this side of the board,"
+    },
+    {
+      "idx": 1149,
+      "start": 3954.17,
+      "end": 3955.17,
+      "text": "you are very, very late."
+    },
+    {
+      "idx": 1150,
+      "start": 3955.17,
+      "end": 3959.17,
+      "text": "So I think you should take the day off and start fresh next time."
+    },
+    {
+      "idx": 1151,
+      "start": 3959.17,
+      "end": 3961.17,
+      "text": "Okay, thank you."
+    }
+  ]
+}

@@ -1,0 +1,3677 @@
+[
+  {
+    "slide_text": "Massachusetts Technology 6.006, Fall 2011 Introduction to Algorithms Srini Devadas Lecture 1: Algorithmic Thinking, Peak Finding MITOPENCOURSEWARE Massachusetts INSTITUTE",
+    "confidence": 0.9012,
+    "n_boxes": 9
+  },
+  {
+    "slide_text": "Massachusetts Technology 6.006, Fall 2011 Introduction to Algorithms Srini Devadas Lecture 1: Algorithmic Thinking, Peak Finding MITOPENCOURSEWARE Massachusetts INSTITUTE",
+    "confidence": 0.9012,
+    "n_boxes": 9
+  },
+  {
+    "slide_text": "Massachusetts Technology 6.006, Fall 2011 Introduction to Algorithms Srini Devadas Lecture 1: Algorithmic Thinking, Peak Finding MITOPENCOURSEWARE Massachusetts INSTITUTE",
+    "confidence": 0.9012,
+    "n_boxes": 9
+  },
+  {
+    "slide_text": "Massachusetts Technology 6.006, Fall 2011 Introduction to Algorithms Srini Devadas Lecture 1: Algorithmic Thinking, Peak Finding MITOPENCOURSEWARE Massachusetts INSTITUTE",
+    "confidence": 0.9012,
+    "n_boxes": 9
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "Peak blew",
+    "confidence": 0.8049,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Peak blew",
+    "confidence": 0.8049,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Peak blew",
+    "confidence": 0.8049,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Peak blew",
+    "confidence": 0.8049,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Peak blew",
+    "confidence": 0.8049,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Peak blew",
+    "confidence": 0.8049,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Peak blew",
+    "confidence": 0.8049,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Peak blew",
+    "confidence": 0.8049,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Peak blew",
+    "confidence": 0.8049,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "proslem 6, Scalab,kty",
+    "confidence": 0.6237,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "proslem 6, Scalab,kty",
+    "confidence": 0.6237,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "proslem 6, Scalab,kty",
+    "confidence": 0.6237,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "proslem 6, Scalab,kty",
+    "confidence": 0.6237,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "proslem 6, Scalab,kty",
+    "confidence": 0.6237,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "proslem 6, Scalab,kty",
+    "confidence": 0.6237,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "procedune}",
+    "confidence": 0.6123,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "procedune}",
+    "confidence": 0.6123,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "procedune}",
+    "confidence": 0.6123,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "procedune}",
+    "confidence": 0.6123,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "procedune}",
+    "confidence": 0.6123,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "procedune}",
+    "confidence": 0.6123,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "procedune}",
+    "confidence": 0.6123,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "(tur}",
+    "confidence": 0.5471,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "(tur}",
+    "confidence": 0.5471,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "(tur}",
+    "confidence": 0.5471,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "(tur}",
+    "confidence": 0.5471,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "(tur}",
+    "confidence": 0.5471,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "(tur}",
+    "confidence": 0.5471,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "(tur}",
+    "confidence": 0.5471,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "(tur}",
+    "confidence": 0.5471,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "(tur}",
+    "confidence": 0.5471,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Sccl prs Su",
+    "confidence": 0.6321,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Sccl prs Su",
+    "confidence": 0.6321,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Sccl prs Su",
+    "confidence": 0.6321,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Sccl prs Su",
+    "confidence": 0.6321,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Sccl prs Su",
+    "confidence": 0.6321,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Sccl prs Su",
+    "confidence": 0.6321,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Sccl prs Su",
+    "confidence": 0.6321,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Sccl prs Su",
+    "confidence": 0.6321,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "ntenl 6",
+    "confidence": 0.7382,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "ntenl 6",
+    "confidence": 0.7382,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "ntenl 6",
+    "confidence": 0.7382,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "ntenl 6",
+    "confidence": 0.7382,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "ntenl 6",
+    "confidence": 0.7382,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "ntenl 6",
+    "confidence": 0.7382,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "{hmic fa Pesk",
+    "confidence": 0.6275,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "{hmic fa Pesk",
+    "confidence": 0.6275,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "{hmic fa Pesk",
+    "confidence": 0.6275,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "{hmic fa Pesk",
+    "confidence": 0.6275,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "{hmic fa Pesk",
+    "confidence": 0.6275,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "{hmic fa Pesk",
+    "confidence": 0.6275,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "{hmic fa Pesk",
+    "confidence": 0.6275,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "{hmic fa Pesk",
+    "confidence": 0.6275,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "V 6",
+    "confidence": 0.8281,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "V 6",
+    "confidence": 0.8281,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "V 6",
+    "confidence": 0.8281,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "V 6",
+    "confidence": 0.8281,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "V 6",
+    "confidence": 0.8281,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "V 6",
+    "confidence": 0.8281,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "V 6",
+    "confidence": 0.8281,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "V 6",
+    "confidence": 0.8281,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "V 6",
+    "confidence": 0.8281,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "m hi",
+    "confidence": 0.9212,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "m hi",
+    "confidence": 0.9212,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "m hi",
+    "confidence": 0.9212,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "m hi",
+    "confidence": 0.9212,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "m hi",
+    "confidence": 0.9212,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "m hi",
+    "confidence": 0.9212,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "m hi",
+    "confidence": 0.9212,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "m hi",
+    "confidence": 0.9212,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "m hi",
+    "confidence": 0.9212,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "m hi",
+    "confidence": 0.9212,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "Gen y",
+    "confidence": 0.7676,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Gen y",
+    "confidence": 0.7676,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Gen y",
+    "confidence": 0.7676,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Gen y",
+    "confidence": 0.7676,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Gen y",
+    "confidence": 0.7676,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Gen y",
+    "confidence": 0.7676,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Gen y",
+    "confidence": 0.7676,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Gen y",
+    "confidence": 0.7676,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Gen y",
+    "confidence": 0.7676,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "henamu PJa Graphs",
+    "confidence": 0.6898,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "henamu PJa Graphs",
+    "confidence": 0.6898,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "henamu PJa Graphs",
+    "confidence": 0.6898,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "henamu PJa Graphs",
+    "confidence": 0.6898,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "henamu PJa Graphs",
+    "confidence": 0.6898,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "henamu PJa Graphs",
+    "confidence": 0.6898,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "henamu PJa Graphs",
+    "confidence": 0.6898,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "henamu PJa Graphs",
+    "confidence": 0.6898,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "henamu PJa Graphs",
+    "confidence": 0.6898,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "henamu PJa Graphs",
+    "confidence": 0.6898,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "henamu PJa Graphs",
+    "confidence": 0.6898,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "6 (altech , MIT",
+    "confidence": 0.6312,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "6 (altech , MIT",
+    "confidence": 0.6312,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "6 (altech , MIT",
+    "confidence": 0.6312,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "6 (altech , MIT",
+    "confidence": 0.6312,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "6 (altech , MIT",
+    "confidence": 0.6312,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "6 (altech , MIT",
+    "confidence": 0.6312,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "6 (altech , MIT",
+    "confidence": 0.6312,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "6 (altech , MIT",
+    "confidence": 0.6312,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "6 (altech , MIT",
+    "confidence": 0.6312,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "6 (altech , MIT",
+    "confidence": 0.6312,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "6 (altech , MIT",
+    "confidence": 0.6312,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "6,00 6 Admmiskviva Peak pro",
+    "confidence": 0.8153,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "6,00 6 Admmiskviva Peak pro",
+    "confidence": 0.8153,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "6,00 6 Admmiskviva Peak pro",
+    "confidence": 0.8153,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "6,00 6 Admmiskviva Peak pro",
+    "confidence": 0.8153,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "6,00 6 Admmiskviva Peak pro",
+    "confidence": 0.8153,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "6,00 6 Admmiskviva Peak pro",
+    "confidence": 0.8153,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "6,00 6 Admmiskviva Peak pro",
+    "confidence": 0.8153,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "6,00 6 Admmiskviva Peak pro",
+    "confidence": 0.8153,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "Pexk fnden",
+    "confidence": 0.7586,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Pexk fnden",
+    "confidence": 0.7586,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Pexk fnden",
+    "confidence": 0.7586,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Pexk fnden",
+    "confidence": 0.7586,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Pexk fnden",
+    "confidence": 0.7586,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Pexk fnden",
+    "confidence": 0.7586,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Pexk fnden d 9/6",
+    "confidence": 0.7153,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "Pexk fnden d 9/6",
+    "confidence": 0.7153,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "Pexk fnden d 9/6",
+    "confidence": 0.7153,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "Pexk fnden d 9/6",
+    "confidence": 0.7153,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "Pexk fnden d 9/6",
+    "confidence": 0.7153,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "Pexk fnden d 9/6",
+    "confidence": 0.7153,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "Pexk fnden d 9/6",
+    "confidence": 0.7153,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "Pexk fnden d 9/6",
+    "confidence": 0.7153,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "a humbey If and 6 > bezk",
+    "confidence": 0.7245,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "a humbey If and 6 > bezk",
+    "confidence": 0.7245,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "a humbey If and 6 > bezk",
+    "confidence": 0.7245,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "a humbey If and 6 > bezk",
+    "confidence": 0.7245,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "a humbey If and 6 > bezk",
+    "confidence": 0.7245,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "a humbey If and 6 > bezk",
+    "confidence": 0.7245,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "a humbey If and 6 > bezk",
+    "confidence": 0.7245,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "Pexk fnden alu humbey 6 Ic dle If a 2 3 5",
+    "confidence": 0.7622,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "Pexk fnden alu humbey 6 Ic dle If a 2 3 5",
+    "confidence": 0.7622,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "Pexk fnden alu humbey 6 Ic dle If a 2 3 5",
+    "confidence": 0.7622,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "Pexk fnden alu humbey 6 Ic dle If a 2 3 5",
+    "confidence": 0.7622,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "Pexk fnden alu humbey 6 Ic dle If a 2 3 5",
+    "confidence": 0.7622,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "Pexk fnden alu humbey 6 Ic dle If a 2 3 5",
+    "confidence": 0.7622,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "Pexk fnden alu humbey 6 Ic dle If a 2 3 5",
+    "confidence": 0.7622,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "Pexk fnden alu humbey 6 Ic dle If a 2 3 5",
+    "confidence": 0.7622,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "Pexk fnden alu humbey 6 Ic dle If a 2 3 5",
+    "confidence": 0.7622,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "2 3 4 5 6 7 8",
+    "confidence": 0.9464,
+    "n_boxes": 6
+  },
+  {
+    "slide_text": "2 3 4 5 6 7 8",
+    "confidence": 0.9464,
+    "n_boxes": 6
+  },
+  {
+    "slide_text": "2 3 4 5 6 7 8",
+    "confidence": 0.9464,
+    "n_boxes": 6
+  },
+  {
+    "slide_text": "2 3 4 5 6 7 8",
+    "confidence": 0.9464,
+    "n_boxes": 6
+  },
+  {
+    "slide_text": "2 3 4 5 6 7 8",
+    "confidence": 0.9464,
+    "n_boxes": 6
+  },
+  {
+    "slide_text": "2 3 4 5 6 7 8",
+    "confidence": 0.9464,
+    "n_boxes": 6
+  },
+  {
+    "slide_text": "Sbaghtfor W al",
+    "confidence": 0.5758,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Sbaghtfor W al",
+    "confidence": 0.5758,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Sbaghtfor W al",
+    "confidence": 0.5758,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Sbaghtfor W al",
+    "confidence": 0.5758,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Sbaghtfor W al",
+    "confidence": 0.5758,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Sbahtfor W all",
+    "confidence": 0.7631,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Sbahtfor W all",
+    "confidence": 0.7631,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Sbahtfor W all",
+    "confidence": 0.7631,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Sbahtfor W all",
+    "confidence": 0.7631,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Sbahtfor W all",
+    "confidence": 0.7631,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Sbahtfor W all",
+    "confidence": 0.7631,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "\"f",
+    "confidence": 0.9286,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "\"f",
+    "confidence": 0.9286,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "\"f",
+    "confidence": 0.9286,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "\"f",
+    "confidence": 0.9286,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "\"f",
+    "confidence": 0.9286,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "\"f",
+    "confidence": 0.9286,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "\"f",
+    "confidence": 0.9286,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "h-In 1 2",
+    "confidence": 0.7679,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "h-In 1 2",
+    "confidence": 0.7679,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "h-In 1 2",
+    "confidence": 0.7679,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "h-In 1 2",
+    "confidence": 0.7679,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "h-In 1 2",
+    "confidence": 0.7679,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "h-In 1 2",
+    "confidence": 0.7679,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "h-In Iw 'sht",
+    "confidence": 0.6018,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "h-In Iw 'sht",
+    "confidence": 0.6018,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "h-In Iw 'sht",
+    "confidence": 0.6018,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "h-In Iw 'sht",
+    "confidence": 0.6018,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "h-In Iw 'sht",
+    "confidence": 0.6018,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "O6)",
+    "confidence": 0.5382,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "O6)",
+    "confidence": 0.5382,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "O6)",
+    "confidence": 0.5382,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "O6)",
+    "confidence": 0.5382,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "h-In 6)",
+    "confidence": 0.7561,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "h-In 6)",
+    "confidence": 0.7561,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "h-In 6)",
+    "confidence": 0.7561,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "h-In 6)",
+    "confidence": 0.7561,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "h-In 6)",
+    "confidence": 0.7561,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "h-In 6)",
+    "confidence": 0.7561,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "h-In 6)",
+    "confidence": 0.7561,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Advanret",
+    "confidence": 0.6528,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Advanret",
+    "confidence": 0.6528,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Advanret",
+    "confidence": 0.6528,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Advanret",
+    "confidence": 0.6528,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Advanret",
+    "confidence": 0.6528,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Advanret",
+    "confidence": 0.6528,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "J mste ahted",
+    "confidence": 0.7924,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "J mste ahted",
+    "confidence": 0.7924,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "J mste ahted",
+    "confidence": 0.7924,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "J mste ahted",
+    "confidence": 0.7924,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "Peak fnden humbery 5 and Psblm: find W (m (eft h-In 66) peak",
+    "confidence": 0.7535,
+    "n_boxes": 11
+  },
+  {
+    "slide_text": "Peak fnden humbery 5 and Psblm: find W (m (eft h-In 66) peak",
+    "confidence": 0.7535,
+    "n_boxes": 11
+  },
+  {
+    "slide_text": "Peak fnden humbery 5 and Psblm: find W (m (eft h-In 66) peak",
+    "confidence": 0.7535,
+    "n_boxes": 11
+  },
+  {
+    "slide_text": "Peak fnden humbery 5 and Psblm: find W (m (eft h-In 66) peak",
+    "confidence": 0.7535,
+    "n_boxes": 11
+  },
+  {
+    "slide_text": "Peak fnden humbery 5 and Psblm: find W (m (eft h-In 66) peak",
+    "confidence": 0.7535,
+    "n_boxes": 11
+  },
+  {
+    "slide_text": "Peak fnden humbery 5 and Psblm: find W (m (eft h-In 66) peak",
+    "confidence": 0.7535,
+    "n_boxes": 11
+  },
+  {
+    "slide_text": "Peak fnden humbery 5 and Psblm: find W (m (eft h-In 66) peak",
+    "confidence": 0.7535,
+    "n_boxes": 11
+  },
+  {
+    "slide_text": "Peak fnden humbery 5 and Psblm: find W (m (eft h-In 66) peak",
+    "confidence": 0.7535,
+    "n_boxes": 11
+  },
+  {
+    "slide_text": "left nz Wovst- O6) Imi",
+    "confidence": 0.7795,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "left nz Wovst- O6) Imi",
+    "confidence": 0.7795,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "left nz Wovst- O6) Imi",
+    "confidence": 0.7795,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "left nz Wovst- O6) Imi",
+    "confidence": 0.7795,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "left nz Wovst- O6) Imi",
+    "confidence": 0.7795,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "left nz Wovst- O6) Imi",
+    "confidence": 0.7795,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "left nz Wovst- O6) Imi",
+    "confidence": 0.7795,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "Skal 6",
+    "confidence": 0.7932,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Skal 6",
+    "confidence": 0.7932,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Skal 6",
+    "confidence": 0.7932,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Skal 6",
+    "confidence": 0.7932,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Skal 6",
+    "confidence": 0.7932,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Skal 6",
+    "confidence": 0.7932,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Skal 6",
+    "confidence": 0.7932,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "2 n Divda",
+    "confidence": 0.8313,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "2 n Divda",
+    "confidence": 0.8313,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "2 n Divda",
+    "confidence": 0.8313,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "n D 1f",
+    "confidence": 0.9411,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "n D 1f",
+    "confidence": 0.9411,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "n D 1f",
+    "confidence": 0.9411,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "n D 1f",
+    "confidence": 0.9411,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "2 h-| n 'f (eft half 'tew",
+    "confidence": 0.7586,
+    "n_boxes": 6
+  },
+  {
+    "slide_text": "2 h-| n 'f (eft half 'tew",
+    "confidence": 0.7586,
+    "n_boxes": 6
+  },
+  {
+    "slide_text": "2 h-| n 'f (eft half 'tew",
+    "confidence": 0.7586,
+    "n_boxes": 6
+  },
+  {
+    "slide_text": "2 h-| n 'f (eft half 'tew",
+    "confidence": 0.7586,
+    "n_boxes": 6
+  },
+  {
+    "slide_text": "2 h-| n 'f (eft half 'tew",
+    "confidence": 0.7586,
+    "n_boxes": 6
+  },
+  {
+    "slide_text": "<",
+    "confidence": 0.991,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "<",
+    "confidence": 0.991,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "<",
+    "confidence": 0.991,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "<",
+    "confidence": 0.991,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "<",
+    "confidence": 0.991,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "<",
+    "confidence": 0.991,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "n",
+    "confidence": 0.9979,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "n",
+    "confidence": 0.9979,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "n",
+    "confidence": 0.9979,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "n",
+    "confidence": 0.9979,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "n",
+    "confidence": 0.9979,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "n",
+    "confidence": 0.9979,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "n",
+    "confidence": 0.9979,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "teft half hlz -1 t0 n ( p Meh",
+    "confidence": 0.6785,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "teft half hlz -1 t0 n ( p Meh",
+    "confidence": 0.6785,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "teft half hlz -1 t0 n ( p Meh",
+    "confidence": 0.6785,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "teft half hlz -1 t0 n ( p Meh",
+    "confidence": 0.6785,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "teft half hlz -1 t0 n ( p Meh",
+    "confidence": 0.6785,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "teft half hlz -1 t0 n ( p Meh",
+    "confidence": 0.6785,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "D bryammf hted",
+    "confidence": 0.6453,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "D bryammf hted",
+    "confidence": 0.6453,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "D bryammf hted",
+    "confidence": 0.6453,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "D bryammf hted",
+    "confidence": 0.6453,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "D bryammf hted",
+    "confidence": 0.6453,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "D bryammf hted",
+    "confidence": 0.6453,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "D bryammf hted",
+    "confidence": 0.6453,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "D bryammf hted",
+    "confidence": 0.6453,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "Nztl",
+    "confidence": 0.5378,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Nztl",
+    "confidence": 0.5378,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Nztl",
+    "confidence": 0.5378,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Nztl",
+    "confidence": 0.5378,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Nztl",
+    "confidence": 0.5378,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Skal @m",
+    "confidence": 0.5055,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Skal @m",
+    "confidence": 0.5055,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Skal @m",
+    "confidence": 0.5055,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Skal @m",
+    "confidence": 0.5055,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Skal @m",
+    "confidence": 0.5055,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "L",
+    "confidence": 0.5328,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "L",
+    "confidence": 0.5328,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "L",
+    "confidence": 0.5328,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "L",
+    "confidence": 0.5328,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "L",
+    "confidence": 0.5328,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Jrk \"",
+    "confidence": 0.8719,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Jrk \"",
+    "confidence": 0.8719,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Jrk \"",
+    "confidence": 0.8719,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Input",
+    "confidence": 0.6091,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Input",
+    "confidence": 0.6091,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Input",
+    "confidence": 0.6091,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Input",
+    "confidence": 0.6091,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "06) fize",
+    "confidence": 0.8288,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "06) fize",
+    "confidence": 0.8288,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "06) fize",
+    "confidence": 0.8288,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "06) fize",
+    "confidence": 0.8288,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "06) fize",
+    "confidence": 0.8288,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "06) fize",
+    "confidence": 0.8288,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "06) fize",
+    "confidence": 0.8288,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "06) fize",
+    "confidence": 0.8288,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "(9rx T() = Ollojzh)",
+    "confidence": 0.6441,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "(9rx T() = Ollojzh)",
+    "confidence": 0.6441,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "(9rx T() = Ollojzh)",
+    "confidence": 0.6441,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "(9rx T() = Ollojzh)",
+    "confidence": 0.6441,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "(9rx T() = Ollojzh)",
+    "confidence": 0.6441,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "(9rx T() = Ollojzh)",
+    "confidence": 0.6441,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "L",
+    "confidence": 0.5856,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "L",
+    "confidence": 0.5856,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "L",
+    "confidence": 0.5856,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "L",
+    "confidence": 0.5856,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "L",
+    "confidence": 0.5856,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "06)",
+    "confidence": 0.5929,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "06)",
+    "confidence": 0.5929,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "06)",
+    "confidence": 0.5929,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "06)",
+    "confidence": 0.5929,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "06)",
+    "confidence": 0.5929,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "0()+ n YawS ) Ollojzh fize bran$",
+    "confidence": 0.6625,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "0()+ n YawS ) Ollojzh fize bran$",
+    "confidence": 0.6625,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "0()+ n YawS ) Ollojzh fize bran$",
+    "confidence": 0.6625,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "0()+ n YawS ) Ollojzh fize bran$",
+    "confidence": 0.6625,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "0()+ n YawS ) Ollojzh fize bran$",
+    "confidence": 0.6625,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "0()+ n YawS ) Ollojzh fize bran$",
+    "confidence": 0.6625,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "a 4 n m Wmn $",
+    "confidence": 0.7528,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "a 4 n m Wmn $",
+    "confidence": 0.7528,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "a 4 n m Wmn $",
+    "confidence": 0.7528,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "a 4 n m Wmn $",
+    "confidence": 0.7528,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "12",
+    "confidence": 0.9998,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "12",
+    "confidence": 0.9998,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Skal 12 In 2o a7d ,",
+    "confidence": 0.8479,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "Skal 12 In 2o a7d ,",
+    "confidence": 0.8479,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "Skal 12 In 2o a7d ,",
+    "confidence": 0.8479,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "Skal 12 In 2o a7d ,",
+    "confidence": 0.8479,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "Skal 12 In 2o a7d ,",
+    "confidence": 0.8479,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "Skal 12 In 2o a7d ,",
+    "confidence": 0.8479,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "Skal 12 In 2o a7d ,",
+    "confidence": 0.8479,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "Skal 12 In 2o a7d ,",
+    "confidence": 0.8479,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "Skal 12 In 2o a7d ,",
+    "confidence": 0.8479,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "-12",
+    "confidence": 0.7122,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "-12",
+    "confidence": 0.7122,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "-12",
+    "confidence": 0.7122,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "-12",
+    "confidence": 0.7122,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "-12",
+    "confidence": 0.7122,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "-12",
+    "confidence": 0.7122,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "I",
+    "confidence": 0.9374,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "I",
+    "confidence": 0.9374,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "I",
+    "confidence": 0.9374,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "I",
+    "confidence": 0.9374,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "I",
+    "confidence": 0.9374,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "6",
+    "confidence": 0.861,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "6",
+    "confidence": 0.861,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "6",
+    "confidence": 0.861,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "6",
+    "confidence": 0.861,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "6",
+    "confidence": 0.861,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "6",
+    "confidence": 0.861,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "6",
+    "confidence": 0.861,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "12",
+    "confidence": 0.9971,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "12",
+    "confidence": 0.9971,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "12",
+    "confidence": 0.9971,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "12",
+    "confidence": 0.9971,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "12",
+    "confidence": 0.9971,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "12",
+    "confidence": 0.9971,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "12",
+    "confidence": 0.9971,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "12",
+    "confidence": 0.9971,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "56)",
+    "confidence": 0.5391,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "56)",
+    "confidence": 0.5391,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "56)",
+    "confidence": 0.5391,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "56)",
+    "confidence": 0.5391,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "56)",
+    "confidence": 0.5391,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "56)",
+    "confidence": 0.5391,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "56)",
+    "confidence": 0.5391,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "n hmes",
+    "confidence": 0.6324,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "n hmes",
+    "confidence": 0.6324,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "n hmes",
+    "confidence": 0.6324,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "n hmes",
+    "confidence": 0.6324,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "n hmes",
+    "confidence": 0.6324,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "n hmes",
+    "confidence": 0.6324,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "J a>e h-In Iy ) fmn 62 pek",
+    "confidence": 0.7715,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "J a>e h-In Iy ) fmn 62 pek",
+    "confidence": 0.7715,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "J a>e h-In Iy ) fmn 62 pek",
+    "confidence": 0.7715,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "J a>e h-In Iy ) fmn 62 pek",
+    "confidence": 0.7715,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "J a>e h-In Iy ) fmn 62 pek",
+    "confidence": 0.7715,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "J a>e h-In Iy ) fmn 62 pek",
+    "confidence": 0.7715,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "J a>e h-In Iy ) fmn 62 pek",
+    "confidence": 0.7715,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "J a>e h-In Iy ) fmn 62 pek",
+    "confidence": 0.7715,
+    "n_boxes": 7
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "Pck middl (lumh Find 4 at ('))",
+    "confidence": 0.7381,
+    "n_boxes": 6
+  },
+  {
+    "slide_text": "Pck middl (lumh Find 4 at ('))",
+    "confidence": 0.7381,
+    "n_boxes": 6
+  },
+  {
+    "slide_text": "Pck middl (lumh Find 4 at ('))",
+    "confidence": 0.7381,
+    "n_boxes": 6
+  },
+  {
+    "slide_text": "Pck middl (lumh Find 4 at ('))",
+    "confidence": 0.7381,
+    "n_boxes": 6
+  },
+  {
+    "slide_text": "mi Find 4 at Use",
+    "confidence": 0.8281,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "mi Find 4 at Use",
+    "confidence": 0.8281,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "mi Find 4 at Use",
+    "confidence": 0.8281,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "mi Find 4 at a rlanl to fnd (D-pesk raW Pesk",
+    "confidence": 0.7829,
+    "n_boxes": 9
+  },
+  {
+    "slide_text": "mi Find 4 at a rlanl to fnd (D-pesk raW Pesk",
+    "confidence": 0.7829,
+    "n_boxes": 9
+  },
+  {
+    "slide_text": "mi Find 4 at a rlanl to fnd (D-pesk raW Pesk",
+    "confidence": 0.7829,
+    "n_boxes": 9
+  },
+  {
+    "slide_text": "mi Find 4 at a rlanl to fnd (D-pesk raW Pesk",
+    "confidence": 0.7829,
+    "n_boxes": 9
+  },
+  {
+    "slide_text": "mi Find 4 at a rlanl to fnd (D-pesk raW Pesk",
+    "confidence": 0.7829,
+    "n_boxes": 9
+  },
+  {
+    "slide_text": "mi Find 4 at a rlanl to fnd (D-pesk raW Pesk",
+    "confidence": 0.7829,
+    "n_boxes": 9
+  },
+  {
+    "slide_text": "mi Find 4 at a rlanl to fnd (D-pesk raW Pesk",
+    "confidence": 0.7829,
+    "n_boxes": 9
+  },
+  {
+    "slide_text": "mi Find 4 at a rlanl to fnd (D-pesk raW Pesk",
+    "confidence": 0.7829,
+    "n_boxes": 9
+  },
+  {
+    "slide_text": "mi Find 4 at a rlanl to fnd (D-pesk raW Pesk",
+    "confidence": 0.7829,
+    "n_boxes": 9
+  },
+  {
+    "slide_text": "O(hm (oM}",
+    "confidence": 0.7142,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "O(hm (oM}",
+    "confidence": 0.7142,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "O(hm (oM}",
+    "confidence": 0.7142,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "O(hm (oM}",
+    "confidence": 0.7142,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "O(hm (oM}",
+    "confidence": 0.7142,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "O(hm (oM}",
+    "confidence": 0.7142,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "O(hm (oM}",
+    "confidence": 0.7142,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "O(hm (oM}",
+    "confidence": 0.7142,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "h-In b2 peak",
+    "confidence": 0.7954,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "h-In b2 peak",
+    "confidence": 0.7954,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "h-In b2 peak",
+    "confidence": 0.7954,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "h-In b2 peak",
+    "confidence": 0.7954,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "h-In b2 peak",
+    "confidence": 0.7954,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "h-In b2 peak",
+    "confidence": 0.7954,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "C a 0 ilm Wmn $",
+    "confidence": 0.7814,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "C a 0 ilm Wmn $",
+    "confidence": 0.7814,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "C a 0 ilm Wmn $",
+    "confidence": 0.7814,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "C a 0 ilm Wmn $",
+    "confidence": 0.7814,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "C a 0 ilm Wmn $",
+    "confidence": 0.7814,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "C a 0 ilm Wmn $",
+    "confidence": 0.7814,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "C a 0 Wmn $",
+    "confidence": 0.9273,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "C a 0 Wmn $",
+    "confidence": 0.9273,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "C a 0 Wmn $",
+    "confidence": 0.9273,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "C a 0 Wmn $",
+    "confidence": 0.9273,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "C a 0 Wmn $",
+    "confidence": 0.9273,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "C a 0 Wmn $",
+    "confidence": 0.9273,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "C a 0 Wmn $",
+    "confidence": 0.9273,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "4 ) n bant (rx 76) = 06) a' 06) pek",
+    "confidence": 0.7123,
+    "n_boxes": 8
+  },
+  {
+    "slide_text": "4 ) n bant (rx 76) = 06) a' 06) pek",
+    "confidence": 0.7123,
+    "n_boxes": 8
+  },
+  {
+    "slide_text": "4 ) n bant (rx 76) = 06) a' 06) pek",
+    "confidence": 0.7123,
+    "n_boxes": 8
+  },
+  {
+    "slide_text": "4 ) n bant (rx 76) = 06) a' 06) pek",
+    "confidence": 0.7123,
+    "n_boxes": 8
+  },
+  {
+    "slide_text": "4 ) n bant (rx 76) = 06) a' 06) pek",
+    "confidence": 0.7123,
+    "n_boxes": 8
+  },
+  {
+    "slide_text": "4 ) n bant (rx 76) = 06) a' 06) pek",
+    "confidence": 0.7123,
+    "n_boxes": 8
+  },
+  {
+    "slide_text": "4 ) n bant (rx 76) = 06) a' 06) pek",
+    "confidence": 0.7123,
+    "n_boxes": 8
+  },
+  {
+    "slide_text": "Pak",
+    "confidence": 0.517,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Pak",
+    "confidence": 0.517,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Pak",
+    "confidence": 0.517,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Pak",
+    "confidence": 0.517,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Rck Find at (6,)) CGmp",
+    "confidence": 0.6555,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "Rck Find at (6,)) CGmp",
+    "confidence": 0.6555,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "Rck Find at (6,)) CGmp",
+    "confidence": 0.6555,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "Rck Find at (6,)) CGmp",
+    "confidence": 0.6555,
+    "n_boxes": 5
+  },
+  {
+    "slide_text": "Rck Jemlz Max at (6,)) Gls m Wmn Compana Colmn $",
+    "confidence": 0.7289,
+    "n_boxes": 10
+  },
+  {
+    "slide_text": "Rck Jemlz Max at (6,)) Gls m Wmn Compana Colmn $",
+    "confidence": 0.7289,
+    "n_boxes": 10
+  },
+  {
+    "slide_text": "Rck Jemlz Max at (6,)) Gls m Wmn Compana Colmn $",
+    "confidence": 0.7289,
+    "n_boxes": 10
+  },
+  {
+    "slide_text": "Rck Jemlz Max at (6,)) Gls m Wmn Compana Colmn $",
+    "confidence": 0.7289,
+    "n_boxes": 10
+  },
+  {
+    "slide_text": "Rck Jemlz Max at (6,)) Gls m Wmn Compana Colmn $",
+    "confidence": 0.7289,
+    "n_boxes": 10
+  },
+  {
+    "slide_text": "1f",
+    "confidence": 0.8494,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "1f",
+    "confidence": 0.8494,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "1f",
+    "confidence": 0.8494,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "1f",
+    "confidence": 0.8494,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "1f",
+    "confidence": 0.8494,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "",
+    "confidence": 0.0,
+    "n_boxes": 0
+  },
+  {
+    "slide_text": "7 hum",
+    "confidence": 0.9493,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "7 hum",
+    "confidence": 0.9493,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "7 hum",
+    "confidence": 0.9493,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "7 hum",
+    "confidence": 0.9493,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "7 hum",
+    "confidence": 0.9493,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "7 hum",
+    "confidence": 0.9493,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "7 hum",
+    "confidence": 0.9493,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "7 hum",
+    "confidence": 0.9493,
+    "n_boxes": 2
+  },
+  {
+    "slide_text": "Il",
+    "confidence": 0.8453,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Il",
+    "confidence": 0.8453,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Il",
+    "confidence": 0.8453,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Il",
+    "confidence": 0.8453,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Il",
+    "confidence": 0.8453,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "Il",
+    "confidence": 0.8453,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "7 (6)saz 0 Ya have Ia m",
+    "confidence": 0.7927,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "7 (6)saz 0 Ya have Ia m",
+    "confidence": 0.7927,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "7 (6)saz 0 Ya have Ia m",
+    "confidence": 0.7927,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "7 (6)saz 0 Ya have Ia m",
+    "confidence": 0.7927,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "7 (6)saz 0 Ya have Ia m",
+    "confidence": 0.7927,
+    "n_boxes": 4
+  },
+  {
+    "slide_text": "06)",
+    "confidence": 0.9415,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "06)",
+    "confidence": 0.9415,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "06)",
+    "confidence": 0.9415,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "06)",
+    "confidence": 0.9415,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "06)",
+    "confidence": 0.9415,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "06)",
+    "confidence": 0.9415,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "06)",
+    "confidence": 0.9415,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "06)",
+    "confidence": 0.9415,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "06)",
+    "confidence": 0.9415,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "T(n,m) 06)e rax",
+    "confidence": 0.7905,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "T(n,m) 06)e rax",
+    "confidence": 0.7905,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "T(n,m) 06)e rax",
+    "confidence": 0.7905,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "T(n,m) 06)e rax",
+    "confidence": 0.7905,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "T(n,m) 06)e rax",
+    "confidence": 0.7905,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "T(n,m) 06)e rax",
+    "confidence": 0.7905,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "T(n,m) 06)e rax",
+    "confidence": 0.7905,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "T(n,m) 06)e rax",
+    "confidence": 0.7905,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "T(n,m) 06)e rax",
+    "confidence": 0.7905,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "T(n,m) 06)e rax",
+    "confidence": 0.7905,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "T(n,m) 06)e rax",
+    "confidence": 0.7905,
+    "n_boxes": 3
+  },
+  {
+    "slide_text": "T(n,m) = max 0 ( T(,m) 06 (hlojzn)",
+    "confidence": 0.8076,
+    "n_boxes": 6
+  },
+  {
+    "slide_text": "T(n,m) = max 0 ( T(,m) 06 (hlojzn)",
+    "confidence": 0.8076,
+    "n_boxes": 6
+  },
+  {
+    "slide_text": "T(n,m) = max 0 ( T(,m) 06 (hlojzn)",
+    "confidence": 0.8076,
+    "n_boxes": 6
+  },
+  {
+    "slide_text": "T(n,m) = max 0 ( T(,m) 06 (hlojzn)",
+    "confidence": 0.8076,
+    "n_boxes": 6
+  },
+  {
+    "slide_text": "T(n,m) = max 0 ( T(,m) 06 (hlojzn)",
+    "confidence": 0.8076,
+    "n_boxes": 6
+  },
+  {
+    "slide_text": "T(n,m) = max 0 ( T(,m) 06 (hlojzn)",
+    "confidence": 0.8076,
+    "n_boxes": 6
+  },
+  {
+    "slide_text": "max",
+    "confidence": 0.9911,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "max",
+    "confidence": 0.9911,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "max",
+    "confidence": 0.9911,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "max",
+    "confidence": 0.9911,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "max",
+    "confidence": 0.9911,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "max",
+    "confidence": 0.9911,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "max",
+    "confidence": 0.9911,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "max",
+    "confidence": 0.9911,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "max",
+    "confidence": 0.9911,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "max",
+    "confidence": 0.9911,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "max",
+    "confidence": 0.9911,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "max",
+    "confidence": 0.9911,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "max",
+    "confidence": 0.9911,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "max",
+    "confidence": 0.9911,
+    "n_boxes": 1
+  },
+  {
+    "slide_text": "max",
+    "confidence": 0.9911,
+    "n_boxes": 1
+  }
+]

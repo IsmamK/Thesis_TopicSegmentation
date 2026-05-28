@@ -1,7 +1,13 @@
 """Shared pytest fixtures for the LECSEG test suite."""
 from __future__ import annotations
 
+import sys
 from pathlib import Path
+
+# Ensure src/ is on the path when the package isn't pip-installed
+_src = Path(__file__).resolve().parent.parent / "src"
+if str(_src) not in sys.path:
+    sys.path.insert(0, str(_src))
 
 import pytest
 

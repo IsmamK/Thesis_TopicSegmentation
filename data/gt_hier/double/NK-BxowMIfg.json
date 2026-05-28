@@ -1,0 +1,100 @@
+{
+  "video_id": "NK-BxowMIfg",
+  "annotator": "llm_b",
+  "status": "draft",
+  "double_mode": true,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Chapter 1. Review of Forces and Introduction to Electrostatic Force"
+    },
+    {
+      "start_sec": 920.0,
+      "title": "Chapter 2. Coulomb's Law"
+    },
+    {
+      "start_sec": 1269.0,
+      "title": "Chapter 3. Conservation and Quantization of Charge"
+    },
+    {
+      "start_sec": 1575.0,
+      "title": "Chapter 4. Microscopic Understanding of Electrostatics"
+    },
+    {
+      "start_sec": 2001.0,
+      "title": "Chapter 5. Charge Distributions and the Principle of Superposition"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Course Syllabus and Electromagnetism Overview"
+    },
+    {
+      "start_sec": 860.0,
+      "chapter_idx": 0,
+      "title": "Newton's Equation and Mass-Acceleration Relationship"
+    },
+    {
+      "start_sec": 860.0,
+      "chapter_idx": 0,
+      "title": "Measuring Acceleration and Velocity"
+    },
+    {
+      "start_sec": 920.0,
+      "chapter_idx": 1,
+      "title": "Introduction to Electrostatics"
+    },
+    {
+      "start_sec": 1110.0,
+      "chapter_idx": 1,
+      "title": "Coulomb's Law and Charge"
+    },
+    {
+      "start_sec": 1209.0,
+      "chapter_idx": 1,
+      "title": "Vector Representation of Force"
+    },
+    {
+      "start_sec": 1269.0,
+      "chapter_idx": 2,
+      "title": "Charge Conservation"
+    },
+    {
+      "start_sec": 1470.0,
+      "chapter_idx": 2,
+      "title": "Local Charge Conservation"
+    },
+    {
+      "start_sec": 1515.0,
+      "chapter_idx": 2,
+      "title": "Quantization of Electrical Charge"
+    },
+    {
+      "start_sec": 1575.0,
+      "chapter_idx": 3,
+      "title": "Charge is Granular, Not Continuous"
+    },
+    {
+      "start_sec": 1770.0,
+      "chapter_idx": 3,
+      "title": "Microscopic Composition of Atoms and Particles"
+    },
+    {
+      "start_sec": 1905.0,
+      "chapter_idx": 3,
+      "title": "Electron Proton Charge Equality Mystery"
+    },
+    {
+      "start_sec": 2001.0,
+      "chapter_idx": 4,
+      "title": "Coulomb's Law Limitations"
+    },
+    {
+      "start_sec": 2910.0,
+      "chapter_idx": 4,
+      "title": "Polarization and Charge Separation"
+    }
+  ]
+}

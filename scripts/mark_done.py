@@ -22,6 +22,7 @@ def main() -> None:
     data["tasks"][tid]["status"] = "done"
     data["tasks"][tid]["completed_at"] = datetime.utcnow().isoformat(timespec="seconds") + "Z"
     PROG.write_text(yaml.safe_dump(data, sort_keys=False), encoding="utf-8")
+    sys.stdout.reconfigure(encoding="utf-8")
     print(f"✅ {tid} marked done. Run `python scripts/next.py` for the next one.")
 
 

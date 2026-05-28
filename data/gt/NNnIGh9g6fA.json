@@ -1,0 +1,40 @@
+{
+  "video_id": "NNnIGh9g6fA",
+  "boundaries_sec": [
+    196.0,
+    525.0,
+    625.0,
+    720.0,
+    1030.0,
+    2465.0,
+    2566.0,
+    2640.0,
+    2758.0,
+    2850.0,
+    3031.0,
+    3070.0,
+    3116.0,
+    3169.0,
+    3235.0
+  ],
+  "titles": [
+    "Intro",
+    "Something in Common",
+    "Categories",
+    "Colour",
+    "Categorisation",
+    "Categorical Thinking",
+    "Course Structure",
+    "Prerequisites",
+    "Introduction to Canary Theory",
+    "Office Hours",
+    "Chaos",
+    "handouts",
+    "other stuff",
+    "TAS",
+    "Units",
+    "Midterm"
+  ],
+  "num_chapters": 16,
+  "duration_sec": 3434.0
+}

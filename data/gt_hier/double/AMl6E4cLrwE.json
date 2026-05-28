@@ -1,0 +1,187 @@
+{
+  "video_id": "AMl6E4cLrwE",
+  "annotator": "llm_b_fallback",
+  "status": "draft",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Intro"
+    },
+    {
+      "start_sec": 16.0,
+      "title": "What is DNA"
+    },
+    {
+      "start_sec": 170.0,
+      "title": "Bases"
+    },
+    {
+      "start_sec": 477.0,
+      "title": "Phosphate Groups"
+    },
+    {
+      "start_sec": 587.0,
+      "title": "Linking nucleotides"
+    },
+    {
+      "start_sec": 848.0,
+      "title": "Chromosomes"
+    },
+    {
+      "start_sec": 1190.0,
+      "title": "Replication Origin"
+    },
+    {
+      "start_sec": 1281.0,
+      "title": "Chromosome Structure"
+    },
+    {
+      "start_sec": 1438.0,
+      "title": "Histones"
+    },
+    {
+      "start_sec": 1768.0,
+      "title": "Nucleosome"
+    },
+    {
+      "start_sec": 1833.0,
+      "title": "chromatin"
+    },
+    {
+      "start_sec": 2262.0,
+      "title": "heterochromatin"
+    },
+    {
+      "start_sec": 2512.0,
+      "title": "inactivation"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Intro"
+    },
+    {
+      "start_sec": 16.0,
+      "chapter_idx": 1,
+      "title": "Introduction to DNA"
+    },
+    {
+      "start_sec": 80.0,
+      "chapter_idx": 1,
+      "title": "Nucleotides and Their Structure"
+    },
+    {
+      "start_sec": 170.0,
+      "chapter_idx": 2,
+      "title": "Pyrimidine and Purine Groups"
+    },
+    {
+      "start_sec": 270.0,
+      "chapter_idx": 2,
+      "title": "Purines (Adenine and Guanine)"
+    },
+    {
+      "start_sec": 370.0,
+      "chapter_idx": 2,
+      "title": "Hydrogen Bonds in DNA/RNA"
+    },
+    {
+      "start_sec": 477.0,
+      "chapter_idx": 3,
+      "title": "Phosphate Groups"
+    },
+    {
+      "start_sec": 587.0,
+      "chapter_idx": 4,
+      "title": "Linking Nucleotides Together"
+    },
+    {
+      "start_sec": 690.0,
+      "chapter_idx": 4,
+      "title": "Phosphodiester Bonds and Dehydration Reaction"
+    },
+    {
+      "start_sec": 788.0,
+      "chapter_idx": 4,
+      "title": "Hydrogen Bonding Between Bases"
+    },
+    {
+      "start_sec": 848.0,
+      "chapter_idx": 5,
+      "title": "Chromosomes and Human Cells"
+    },
+    {
+      "start_sec": 1050.0,
+      "chapter_idx": 5,
+      "title": "Sex vs. Gender and Chromosome Deformities"
+    },
+    {
+      "start_sec": 1190.0,
+      "chapter_idx": 6,
+      "title": "Replication Origin"
+    },
+    {
+      "start_sec": 1281.0,
+      "chapter_idx": 7,
+      "title": "Chromosome Structure"
+    },
+    {
+      "start_sec": 1350.0,
+      "chapter_idx": 7,
+      "title": "Central Mirror and Chromatids"
+    },
+    {
+      "start_sec": 1438.0,
+      "chapter_idx": 8,
+      "title": "Histone Structure and Function"
+    },
+    {
+      "start_sec": 1590.0,
+      "chapter_idx": 8,
+      "title": "Nucleosome Composition and H1 Protein"
+    },
+    {
+      "start_sec": 1768.0,
+      "chapter_idx": 9,
+      "title": "Nucleosome"
+    },
+    {
+      "start_sec": 1833.0,
+      "chapter_idx": 10,
+      "title": "Nucleosome Assembly"
+    },
+    {
+      "start_sec": 2085.0,
+      "chapter_idx": 10,
+      "title": "Chromatin Remodeling Complex"
+    },
+    {
+      "start_sec": 2180.0,
+      "chapter_idx": 10,
+      "title": "Histone Modification and Gene Expression"
+    },
+    {
+      "start_sec": 2262.0,
+      "chapter_idx": 11,
+      "title": "Heterochromatin vs U-chromatin"
+    },
+    {
+      "start_sec": 2430.0,
+      "chapter_idx": 11,
+      "title": "Telomeres and Centromeres"
+    },
+    {
+      "start_sec": 2512.0,
+      "chapter_idx": 12,
+      "title": "Heterochromatin and Euchromatin Switching"
+    },
+    {
+      "start_sec": 2670.0,
+      "chapter_idx": 12,
+      "title": "Mosaic Mutations in the Embryo"
+    }
+  ]
+}

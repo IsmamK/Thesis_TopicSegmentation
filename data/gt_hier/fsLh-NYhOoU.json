@@ -1,0 +1,202 @@
+{
+  "video_id": "fsLh-NYhOoU",
+  "annotator": "llm_a",
+  "status": "reviewed",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Introduction"
+    },
+    {
+      "start_sec": 61.0,
+      "title": "Random puzzle"
+    },
+    {
+      "start_sec": 376.0,
+      "title": "Outside the box"
+    },
+    {
+      "start_sec": 875.0,
+      "title": "Setting up the volume grid"
+    },
+    {
+      "start_sec": 1274.0,
+      "title": "Why 4πr^2"
+    },
+    {
+      "start_sec": 1521.0,
+      "title": "Archimedes in higher dimensions"
+    },
+    {
+      "start_sec": 2177.0,
+      "title": "The general formula"
+    },
+    {
+      "start_sec": 2440.0,
+      "title": "1/2 factorial"
+    },
+    {
+      "start_sec": 2698.0,
+      "title": "Why 5D spheres are the biggest"
+    },
+    {
+      "start_sec": 3016.0,
+      "title": "Concentration at the surface"
+    },
+    {
+      "start_sec": 3267.0,
+      "title": "A unit-free interpretation"
+    },
+    {
+      "start_sec": 3470.0,
+      "title": "3b1b Talent"
+    },
+    {
+      "start_sec": 3553.0,
+      "title": "Explaining the intro animation"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Introduction"
+    },
+    {
+      "start_sec": 61.0,
+      "chapter_idx": 1,
+      "title": "Random Numbers X and Y"
+    },
+    {
+      "start_sec": 195.0,
+      "chapter_idx": 1,
+      "title": "Geometric Interpretation of the Problem"
+    },
+    {
+      "start_sec": 310.0,
+      "chapter_idx": 1,
+      "title": "Generalizing to Higher Dimensions"
+    },
+    {
+      "start_sec": 376.0,
+      "chapter_idx": 2,
+      "title": "High Dimensional Geometry"
+    },
+    {
+      "start_sec": 630.0,
+      "chapter_idx": 2,
+      "title": "The Two-Dimensional Puzzle"
+    },
+    {
+      "start_sec": 800.0,
+      "chapter_idx": 2,
+      "title": "Three Dimensions and Counterintuitive Results"
+    },
+    {
+      "start_sec": 875.0,
+      "chapter_idx": 3,
+      "title": "Higher Dimensional Spheres"
+    },
+    {
+      "start_sec": 1110.0,
+      "chapter_idx": 3,
+      "title": "Familiar Formulas in Lower Dimensions"
+    },
+    {
+      "start_sec": 1214.0,
+      "chapter_idx": 3,
+      "title": "The Relationship Between Boundary and Volume"
+    },
+    {
+      "start_sec": 1274.0,
+      "chapter_idx": 4,
+      "title": "The Suspicious Sphere"
+    },
+    {
+      "start_sec": 1425.0,
+      "chapter_idx": 4,
+      "title": "Archimedes' Clever Idea"
+    },
+    {
+      "start_sec": 1521.0,
+      "chapter_idx": 5,
+      "title": "Archimedes' Generalization"
+    },
+    {
+      "start_sec": 1845.0,
+      "chapter_idx": 5,
+      "title": "The Knight's Move Analogy"
+    },
+    {
+      "start_sec": 1995.0,
+      "chapter_idx": 5,
+      "title": "One-Dimensional Ball Concept"
+    },
+    {
+      "start_sec": 2177.0,
+      "chapter_idx": 6,
+      "title": "Describing the General Formula"
+    },
+    {
+      "start_sec": 2310.0,
+      "chapter_idx": 6,
+      "title": "Recursive Relation and Base Cases"
+    },
+    {
+      "start_sec": 2440.0,
+      "chapter_idx": 7,
+      "title": "The Formula's Oddities"
+    },
+    {
+      "start_sec": 2610.0,
+      "chapter_idx": 7,
+      "title": "Defining Half Factorial"
+    },
+    {
+      "start_sec": 2698.0,
+      "chapter_idx": 8,
+      "title": "Volume of Unit Balls in Different Dimensions"
+    },
+    {
+      "start_sec": 2910.0,
+      "chapter_idx": 8,
+      "title": "The Turning Point at Five Dimensions"
+    },
+    {
+      "start_sec": 3016.0,
+      "chapter_idx": 9,
+      "title": "The One Third Factor"
+    },
+    {
+      "start_sec": 3207.0,
+      "chapter_idx": 9,
+      "title": "Volume Distribution in High Dimensions"
+    },
+    {
+      "start_sec": 3267.0,
+      "chapter_idx": 10,
+      "title": "Comparing volumes in different dimensions"
+    },
+    {
+      "start_sec": 3410.0,
+      "chapter_idx": 10,
+      "title": "Unit-free interpretation of the ratio"
+    },
+    {
+      "start_sec": 3410.0,
+      "chapter_idx": 10,
+      "title": "Visualizing high-dimensional spaces"
+    },
+    {
+      "start_sec": 3470.0,
+      "chapter_idx": 11,
+      "title": "3b1b Talent"
+    },
+    {
+      "start_sec": 3553.0,
+      "chapter_idx": 12,
+      "title": "Explaining the intro animation"
+    }
+  ]
+}

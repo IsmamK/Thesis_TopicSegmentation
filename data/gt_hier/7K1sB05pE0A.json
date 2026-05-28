@@ -1,0 +1,197 @@
+{
+  "video_id": "7K1sB05pE0A",
+  "annotator": "llm_a",
+  "status": "reviewed",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Intro"
+    },
+    {
+      "start_sec": 20.0,
+      "title": "Lec 1 Introduction"
+    },
+    {
+      "start_sec": 230.0,
+      "title": "Geometric Problem"
+    },
+    {
+      "start_sec": 477.0,
+      "title": "Tangent Lines"
+    },
+    {
+      "start_sec": 739.0,
+      "title": "Slope"
+    },
+    {
+      "start_sec": 1024.0,
+      "title": "Example"
+    },
+    {
+      "start_sec": 1164.0,
+      "title": "Algebra"
+    },
+    {
+      "start_sec": 1529.0,
+      "title": "Calculus Made Hard"
+    },
+    {
+      "start_sec": 1609.0,
+      "title": "Word Problem"
+    },
+    {
+      "start_sec": 2034.0,
+      "title": "Symmetry"
+    },
+    {
+      "start_sec": 2219.0,
+      "title": "One Variable Calculus"
+    },
+    {
+      "start_sec": 2489.0,
+      "title": "Notations"
+    },
+    {
+      "start_sec": 2754.0,
+      "title": "Binomial Theorem"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Intro"
+    },
+    {
+      "start_sec": 20.0,
+      "chapter_idx": 1,
+      "title": "Welcome to 18.01"
+    },
+    {
+      "start_sec": 130.0,
+      "chapter_idx": 1,
+      "title": "Geometric Interpretation of Derivative"
+    },
+    {
+      "start_sec": 230.0,
+      "chapter_idx": 2,
+      "title": "Geometric Interpretation of Derivatives"
+    },
+    {
+      "start_sec": 330.0,
+      "chapter_idx": 2,
+      "title": "Drawing the Tangent Line"
+    },
+    {
+      "start_sec": 380.0,
+      "chapter_idx": 2,
+      "title": "Equation of a Tangent Line"
+    },
+    {
+      "start_sec": 477.0,
+      "chapter_idx": 3,
+      "title": "Definition of Derivative"
+    },
+    {
+      "start_sec": 585.0,
+      "chapter_idx": 3,
+      "title": "Distinguishing Tangent Lines"
+    },
+    {
+      "start_sec": 739.0,
+      "chapter_idx": 4,
+      "title": "Computing Slope"
+    },
+    {
+      "start_sec": 870.0,
+      "chapter_idx": 4,
+      "title": "Notation and Limit Definition"
+    },
+    {
+      "start_sec": 964.0,
+      "chapter_idx": 4,
+      "title": "Derivative Formula Derivation"
+    },
+    {
+      "start_sec": 1024.0,
+      "chapter_idx": 5,
+      "title": "Introducing Example 1"
+    },
+    {
+      "start_sec": 1104.0,
+      "chapter_idx": 5,
+      "title": "Calculating Difference Quotient"
+    },
+    {
+      "start_sec": 1164.0,
+      "chapter_idx": 6,
+      "title": "Simplifying Algebraic Expression"
+    },
+    {
+      "start_sec": 1350.0,
+      "chapter_idx": 6,
+      "title": "Limiting Process Explained"
+    },
+    {
+      "start_sec": 1529.0,
+      "chapter_idx": 7,
+      "title": "Calculus Made Hard"
+    },
+    {
+      "start_sec": 1609.0,
+      "chapter_idx": 8,
+      "title": "Introducing Word Problem"
+    },
+    {
+      "start_sec": 1810.0,
+      "chapter_idx": 8,
+      "title": "Understanding the Calculus Step"
+    },
+    {
+      "start_sec": 2034.0,
+      "chapter_idx": 9,
+      "title": "Claiming Shortcut to Y-Intercept"
+    },
+    {
+      "start_sec": 2130.0,
+      "chapter_idx": 9,
+      "title": "Explaining Symmetry Concept"
+    },
+    {
+      "start_sec": 2219.0,
+      "chapter_idx": 10,
+      "title": "One-Variable Calculus Complexity"
+    },
+    {
+      "start_sec": 2429.0,
+      "chapter_idx": 10,
+      "title": "Sloppiness in Variable Representation"
+    },
+    {
+      "start_sec": 2489.0,
+      "chapter_idx": 11,
+      "title": "Notations for Derivatives"
+    },
+    {
+      "start_sec": 2625.0,
+      "chapter_idx": 11,
+      "title": "Leibniz Notation and Variants"
+    },
+    {
+      "start_sec": 2670.0,
+      "chapter_idx": 11,
+      "title": "Derivative of x to the n"
+    },
+    {
+      "start_sec": 2754.0,
+      "chapter_idx": 12,
+      "title": "Binomial Theorem Statement"
+    },
+    {
+      "start_sec": 2970.0,
+      "chapter_idx": 12,
+      "title": "Deriving the Main Result"
+    }
+  ]
+}

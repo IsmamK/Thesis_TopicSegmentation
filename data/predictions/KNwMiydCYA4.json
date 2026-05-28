@@ -1,0 +1,34 @@
+{
+  "video_id": "KNwMiydCYA4",
+  "n_sentences": 334,
+  "model": "mpnet",
+  "n_chapters": 8,
+  "n_subtopics": 16,
+  "chapters": [
+    18,
+    19,
+    78,
+    82,
+    241,
+    243,
+    248
+  ],
+  "subtopics": [
+    18,
+    19,
+    62,
+    77,
+    78,
+    82,
+    123,
+    227,
+    241,
+    242,
+    243,
+    244,
+    248,
+    251,
+    317
+  ],
+  "titles": null
+}

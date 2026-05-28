@@ -1,0 +1,371 @@
+{
+  "video_id": "S7TUe5w6RHo",
+  "annotator": "llm_b",
+  "status": "draft",
+  "double_mode": true,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Intro"
+    },
+    {
+      "start_sec": 51.0,
+      "title": "Hadean"
+    },
+    {
+      "start_sec": 484.0,
+      "title": "Eoarchean"
+    },
+    {
+      "start_sec": 800.0,
+      "title": "Paleoarchean"
+    },
+    {
+      "start_sec": 1115.0,
+      "title": "Mesoarchean"
+    },
+    {
+      "start_sec": 1431.0,
+      "title": "Neoarchean"
+    },
+    {
+      "start_sec": 1667.0,
+      "title": "Siderian"
+    },
+    {
+      "start_sec": 1824.0,
+      "title": "Rhyacian"
+    },
+    {
+      "start_sec": 2022.0,
+      "title": "Orosirian"
+    },
+    {
+      "start_sec": 2218.0,
+      "title": "Statherian"
+    },
+    {
+      "start_sec": 2378.0,
+      "title": "Calymmian"
+    },
+    {
+      "start_sec": 2535.0,
+      "title": "Ectasian"
+    },
+    {
+      "start_sec": 2692.0,
+      "title": "Stenian"
+    },
+    {
+      "start_sec": 2850.0,
+      "title": "Tonian"
+    },
+    {
+      "start_sec": 3072.0,
+      "title": "Cryogenian"
+    },
+    {
+      "start_sec": 3138.0,
+      "title": "Ediacaran"
+    },
+    {
+      "start_sec": 3215.0,
+      "title": "Cambrian"
+    },
+    {
+      "start_sec": 3257.0,
+      "title": "Ordovician"
+    },
+    {
+      "start_sec": 3289.0,
+      "title": "Silurian"
+    },
+    {
+      "start_sec": 3308.0,
+      "title": "Devonian"
+    },
+    {
+      "start_sec": 3355.0,
+      "title": "Carboniferous"
+    },
+    {
+      "start_sec": 3403.0,
+      "title": "Permian"
+    },
+    {
+      "start_sec": 3441.0,
+      "title": "Triassic"
+    },
+    {
+      "start_sec": 3482.0,
+      "title": "Jurassic"
+    },
+    {
+      "start_sec": 3526.0,
+      "title": "Cretaceous"
+    },
+    {
+      "start_sec": 3588.0,
+      "title": "Paleogene"
+    },
+    {
+      "start_sec": 3621.0,
+      "title": "Neogene"
+    },
+    {
+      "start_sec": 3638.0,
+      "title": "Quaternary"
+    },
+    {
+      "start_sec": 3645.0,
+      "title": "Ending"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Intro"
+    },
+    {
+      "start_sec": 51.0,
+      "chapter_idx": 1,
+      "title": "The Hadean Eon Begins"
+    },
+    {
+      "start_sec": 170.0,
+      "chapter_idx": 1,
+      "title": "Lava Hell and Asteroid Bombardment"
+    },
+    {
+      "start_sec": 330.0,
+      "chapter_idx": 1,
+      "title": "Evidence of Water in the Hadean"
+    },
+    {
+      "start_sec": 484.0,
+      "chapter_idx": 2,
+      "title": "The First Cells Emerge"
+    },
+    {
+      "start_sec": 645.0,
+      "chapter_idx": 2,
+      "title": "Oceans Form and Life Develops"
+    },
+    {
+      "start_sec": 740.0,
+      "chapter_idx": 2,
+      "title": "Transition to Paleoarchaean Era"
+    },
+    {
+      "start_sec": 800.0,
+      "chapter_idx": 3,
+      "title": "Entering the Paleoarchaean"
+    },
+    {
+      "start_sec": 945.0,
+      "chapter_idx": 3,
+      "title": "Earth's Early Conditions and Life"
+    },
+    {
+      "start_sec": 1050.0,
+      "chapter_idx": 3,
+      "title": "Photosynthesis and Early Evidence of Life"
+    },
+    {
+      "start_sec": 1115.0,
+      "chapter_idx": 4,
+      "title": "The Mesoarchaean Era Begins"
+    },
+    {
+      "start_sec": 1240.0,
+      "chapter_idx": 4,
+      "title": "Tectonic Activity and Continent Formation"
+    },
+    {
+      "start_sec": 1431.0,
+      "chapter_idx": 5,
+      "title": "Earth's Hostile Environment"
+    },
+    {
+      "start_sec": 1540.0,
+      "chapter_idx": 5,
+      "title": "Prokaryote Colonization and Diversification"
+    },
+    {
+      "start_sec": 1667.0,
+      "chapter_idx": 6,
+      "title": "The Great Oxidation Event"
+    },
+    {
+      "start_sec": 1730.0,
+      "chapter_idx": 6,
+      "title": "Oxygen Reaches the Atmosphere"
+    },
+    {
+      "start_sec": 1764.0,
+      "chapter_idx": 6,
+      "title": "Planetary Consequences Begin"
+    },
+    {
+      "start_sec": 1824.0,
+      "chapter_idx": 7,
+      "title": "Rhyacian Begins"
+    },
+    {
+      "start_sec": 1908.0,
+      "chapter_idx": 7,
+      "title": "Earth Unfreezes and Melts"
+    },
+    {
+      "start_sec": 1962.0,
+      "chapter_idx": 7,
+      "title": "Life Evolves Quietly"
+    },
+    {
+      "start_sec": 2022.0,
+      "chapter_idx": 8,
+      "title": "Assyrian Asteroid Impact"
+    },
+    {
+      "start_sec": 2110.0,
+      "chapter_idx": 8,
+      "title": "Early Continental Formation"
+    },
+    {
+      "start_sec": 2218.0,
+      "chapter_idx": 9,
+      "title": "Formation of Columbia"
+    },
+    {
+      "start_sec": 2285.0,
+      "chapter_idx": 9,
+      "title": "Natural Nuclear Reactor Discovery"
+    },
+    {
+      "start_sec": 2378.0,
+      "chapter_idx": 10,
+      "title": "First Eukaryotic Cells"
+    },
+    {
+      "start_sec": 2455.0,
+      "chapter_idx": 10,
+      "title": "Ocean Shallowing and Fungi Emergence"
+    },
+    {
+      "start_sec": 2535.0,
+      "chapter_idx": 11,
+      "title": "Earth's Inner Core Formation"
+    },
+    {
+      "start_sec": 2625.0,
+      "chapter_idx": 11,
+      "title": "The Stenian Period in Context"
+    },
+    {
+      "start_sec": 2692.0,
+      "chapter_idx": 12,
+      "title": "Algae-Bangiomorpho-Pubescence"
+    },
+    {
+      "start_sec": 2770.0,
+      "chapter_idx": 12,
+      "title": "Earth's Geology and Environment"
+    },
+    {
+      "start_sec": 2850.0,
+      "chapter_idx": 13,
+      "title": "Life in the Tonian"
+    },
+    {
+      "start_sec": 2985.0,
+      "chapter_idx": 13,
+      "title": "Emergence of Eukaryotes"
+    },
+    {
+      "start_sec": 3012.0,
+      "chapter_idx": 13,
+      "title": "Arms Race and Diversity"
+    },
+    {
+      "start_sec": 3072.0,
+      "chapter_idx": 14,
+      "title": "Cryogenian"
+    },
+    {
+      "start_sec": 3138.0,
+      "chapter_idx": 15,
+      "title": "Ediacaran"
+    },
+    {
+      "start_sec": 3215.0,
+      "chapter_idx": 16,
+      "title": "Cambrian"
+    },
+    {
+      "start_sec": 3257.0,
+      "chapter_idx": 17,
+      "title": "Ordovician"
+    },
+    {
+      "start_sec": 3289.0,
+      "chapter_idx": 18,
+      "title": "Silurian"
+    },
+    {
+      "start_sec": 3308.0,
+      "chapter_idx": 19,
+      "title": "Devonian"
+    },
+    {
+      "start_sec": 3355.0,
+      "chapter_idx": 20,
+      "title": "Carboniferous"
+    },
+    {
+      "start_sec": 3403.0,
+      "chapter_idx": 21,
+      "title": "Permian"
+    },
+    {
+      "start_sec": 3441.0,
+      "chapter_idx": 22,
+      "title": "Triassic"
+    },
+    {
+      "start_sec": 3482.0,
+      "chapter_idx": 23,
+      "title": "Jurassic"
+    },
+    {
+      "start_sec": 3526.0,
+      "chapter_idx": 24,
+      "title": "Cretaceous"
+    },
+    {
+      "start_sec": 3588.0,
+      "chapter_idx": 25,
+      "title": "Paleogene"
+    },
+    {
+      "start_sec": 3621.0,
+      "chapter_idx": 26,
+      "title": "Neogene"
+    },
+    {
+      "start_sec": 3638.0,
+      "chapter_idx": 27,
+      "title": "Quaternary"
+    },
+    {
+      "start_sec": 3645.0,
+      "chapter_idx": 28,
+      "title": "Project Reflection"
+    },
+    {
+      "start_sec": 3735.0,
+      "chapter_idx": 28,
+      "title": "Call to Action"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "video_id": "TjZBTDzGeGg",
+  "annotator": "llm_b",
+  "status": "draft",
+  "double_mode": true,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Introduction"
+    },
+    {
+      "start_sec": 120.0,
+      "title": "Artificial Intelligence"
+    },
+    {
+      "start_sec": 660.0,
+      "title": "Algorithms"
+    },
+    {
+      "start_sec": 780.0,
+      "title": "Generating Tests"
+    },
+    {
+      "start_sec": 840.0,
+      "title": "Rumpelstiltskin"
+    },
+    {
+      "start_sec": 1260.0,
+      "title": "Lady Lovelace"
+    },
+    {
+      "start_sec": 1320.0,
+      "title": "Marvin Minsky"
+    },
+    {
+      "start_sec": 2100.0,
+      "title": "Noam Chomsky"
+    },
+    {
+      "start_sec": 2160.0,
+      "title": "Language"
+    },
+    {
+      "start_sec": 2340.0,
+      "title": "Remarks"
+    },
+    {
+      "start_sec": 2760.0,
+      "title": "Announcements"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Introduction to the Course"
+    },
+    {
+      "start_sec": 60.0,
+      "chapter_idx": 0,
+      "title": "Course Overview and Expectations"
+    },
+    {
+      "start_sec": 120.0,
+      "chapter_idx": 1,
+      "title": "Definition of Artificial Intelligence"
+    },
+    {
+      "start_sec": 390.0,
+      "chapter_idx": 1,
+      "title": "Models Targeted at Thinking, Perception, and Action"
+    },
+    {
+      "start_sec": 550.0,
+      "chapter_idx": 1,
+      "title": "Representations Supporting Models of Thinking"
+    },
+    {
+      "start_sec": 660.0,
+      "chapter_idx": 2,
+      "title": "Algorithms and Artificial Intelligence"
+    },
+    {
+      "start_sec": 720.0,
+      "chapter_idx": 2,
+      "title": "Generate and Test Method Example"
+    },
+    {
+      "start_sec": 720.0,
+      "chapter_idx": 2,
+      "title": "The Generate and Test Process"
+    },
+    {
+      "start_sec": 780.0,
+      "chapter_idx": 3,
+      "title": "Generating Tests"
+    },
+    {
+      "start_sec": 840.0,
+      "chapter_idx": 4,
+      "title": "The Rumpelstiltskin Principle"
+    },
+    {
+      "start_sec": 1200.0,
+      "chapter_idx": 4,
+      "title": "Simple vs. Trivial Ideas"
+    },
+    {
+      "start_sec": 1200.0,
+      "chapter_idx": 4,
+      "title": "Artificial Intelligence and Representation"
+    },
+    {
+      "start_sec": 1260.0,
+      "chapter_idx": 5,
+      "title": "Lady Lovelace"
+    },
+    {
+      "start_sec": 1320.0,
+      "chapter_idx": 6,
+      "title": "Integration Program"
+    },
+    {
+      "start_sec": 1590.0,
+      "chapter_idx": 6,
+      "title": "Dawn Age AI Programs"
+    },
+    {
+      "start_sec": 1880.0,
+      "chapter_idx": 6,
+      "title": "Late Dawn Age Developments"
+    },
+    {
+      "start_sec": 2100.0,
+      "chapter_idx": 7,
+      "title": "Noam Chomsky"
+    },
+    {
+      "start_sec": 2160.0,
+      "chapter_idx": 8,
+      "title": "Storytelling and Story Understanding"
+    },
+    {
+      "start_sec": 2280.0,
+      "chapter_idx": 8,
+      "title": "Language Enables Internal Imagination Simulation"
+    },
+    {
+      "start_sec": 2280.0,
+      "chapter_idx": 8,
+      "title": "Course Operations and Activities"
+    },
+    {
+      "start_sec": 2340.0,
+      "chapter_idx": 9,
+      "title": "Skill Building and Big Ideas"
+    },
+    {
+      "start_sec": 2560.0,
+      "chapter_idx": 9,
+      "title": "Course Structure and Components"
+    },
+    {
+      "start_sec": 2660.0,
+      "chapter_idx": 9,
+      "title": "Attendance and Grades Correlation"
+    },
+    {
+      "start_sec": 2760.0,
+      "chapter_idx": 10,
+      "title": "Announcements"
+    }
+  ]
+}

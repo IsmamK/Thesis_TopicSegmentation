@@ -3,50 +3,152 @@
 
 \section{Overview}
 
-\todo{One paragraph framing: classical lexical approaches → neural approaches →
-multimodal approaches → hierarchical approaches → lecture-specific work.}
+Topic segmentation has progressed through three broad generations.
+\emph{Classical} lexical-cohesion methods from the 1990s and 2000s detected
+boundary positions where local vocabulary shifts, using sliding-window
+similarity scores on bag-of-words representations~\citep{hearst1994multi,choi2000latent}.
+\emph{Neural} methods from 2018 onwards replaced sparse lexical features with
+dense contextual sentence embeddings, improving performance on diverse genres
+at the cost of requiring pretrained language models~\citep{koshorek2018text,reimers2019sbert}.
+\emph{Multimodal} methods subsequently incorporated visual, audio, and structural
+signals from videos and meeting recordings, but typically rely on closed APIs
+or single-modality dominance~\citep{xing2024topicseg}.
+None of the above methods produce hierarchical (multi-level) boundaries, and
+none are specifically designed for long academic lecture videos with fine-grained
+subtopic structure.
 
 \section{Classical text-based segmentation}
 \label{sec:classical}
 
 \subsection{TextTiling}
-\todo{Hearst's lexical-cohesion algorithm \citep{hearst1997_texttiling}. How
-the moving-window similarity computes valley-detected boundaries.}
 
-\subsection{C99 and dotplotting}
-\todo{Choi's clustering-based method \citep{choi2000_c99}; Reynar's dotplotting
-\citep{reynar1998_dotplotting}.}
+TextTiling~\citep{hearst1994multi} partitions expository text by computing
+pairwise lexical similarity between adjacent blocks of $k$ sentences,
+using a sliding window of width $w$.
+Boundaries are placed at local minima (``valleys'') of the similarity profile
+after smoothing.
+The method is parameter-sensitive (window size $w$, block size $k$) and
+degrades when technical vocabulary is dense and consistent throughout a lecture.
+Our implementation adds adaptive defaults: $w = \min(w, \max(3, N/10))$ and
+$k = \min(k, \max(2, n_{\text{blocks}}/3))$, which improve performance on
+the short segments typical of lecture videos.
+
+\subsection{C99 and rank-transformed cosine similarity}
+
+C99~\citep{choi2000latent} computes a cosine-similarity matrix over
+bag-of-words sentence vectors, applies a rank transformation to compress
+the dynamic range, and uses a diagonally dominated clustering criterion to
+locate boundaries.
+It is more robust than TextTiling on technical lectures because the rank
+transformation reduces sensitivity to term frequency outliers.
+We use C99 as one of our classical baselines (B2).
+
+\subsection{BayesSeg and topic models}
+
+Eisenstein and Barzilay~\citep{eisenstein2008bayesian} formulated segmentation
+as inference in a hierarchical Bayesian topic model, naturally producing
+uncertainty estimates over boundaries.
+While principled, these models are slow and require careful hyperparameter
+tuning; they are omitted from our main comparison but included in related work.
 
 \section{Neural sentence-embedding methods}
 \label{sec:neural}
 
-\subsection{Cosine-drop on contextual embeddings}
-\todo{Using SBERT-style sentence embeddings to detect semantic shifts
-\citep{reimers2019_sbert}.}
+\subsection{Cosine-drop with contextual embeddings}
+
+The advent of sentence transformers~\citep{reimers2019sbert} enabled a simple
+but effective baseline: compute the cosine similarity between adjacent sentence
+embeddings, and threshold the depth-score valleys.
+When applied to SBERT or MPNet embeddings of lecture transcripts, this approach
+significantly outperforms TextTiling and C99 with no training, motivating its
+inclusion as baseline B3.
 
 \subsection{Supervised neural segmentation}
-\todo{Koshorek's BERT-based approach \citep{koshorek2018_neural}; SegBot
-\citep{li2018_segbot}.}
+
+Koshorek et al.~\citep{koshorek2018text} trained the first supervised neural
+segmenter (TextSeg) using BERT sentence embeddings with a classification head.
+Li et al.~\citep{li2018segbot} proposed SegBot, which uses a biLSTM to score
+potential boundaries.
+Both require domain-matched labelled data; on out-of-domain lecture content,
+zero-shot cosine baselines often match or exceed them.
+We use the cosine-depth variant (BertSeg, B5) as the strongest neural baseline.
 
 \section{Multimodal lecture and meeting segmentation}
 \label{sec:multimodal_lit}
 
-\todo{TopicSeg \citep{xing2024_topicseg}, lecture slide alignment work, OCR-driven
-chaptering. Note which use closed APIs.}
+\subsection{Meeting and conversation segmentation}
+
+DiaSeg~\citep{wen2021diaseg} combines lexical features with speaker-turn
+information for meeting transcripts.
+Topic-Aware Hierarchical Segmentation (TAHS)~\citep{todorov2020tahs} uses
+discourse markers alongside BERT embeddings.
+These approaches target short-form conversational content and do not scale
+to hour-long academic monologues.
+
+\subsection{Lecture video segmentation}
+
+TopicSeg~\citep{xing2024topicseg} segments lecture videos using
+multimodal features (text, slide transitions, speaker gaze) with a
+transformer-based fusion, achieving strong results on a proprietary dataset.
+However, TopicSeg relies on a closed-source OCR pipeline and an OpenAI API
+for title generation, making it non-reproducible on academic hardware.
+SlideSegment~\citep{todo:slidesegment} uses slide content changes alone,
+which fails for whiteboard-style lectures with no slide transitions.
+
+\lecseg{} differs from all prior multimodal methods by: (1)~using only
+open-source tools; (2)~providing a data-driven reliability weighting that
+suppresses uninformative modalities per video; and (3)~producing hierarchical
+rather than flat boundaries.
 
 \section{Hierarchical and discourse-based approaches}
 \label{sec:hierarchical_lit}
 
-\todo{Bayesian topic-hierarchy methods, RST/discourse-parser inspired
-hierarchical segmenters.}
+Hierarchical topic segmentation has been studied in the NLP community under the
+name \emph{discourse parsing}~\citep{mann1988rst}.
+Hernandez-Mier et al.~\citep{hernandez2021hierarchical} proposed a hierarchical
+extension of BayesSeg, but it is restricted to three levels and assumes
+latent topic counts are known.
+To our knowledge, no prior work produces valid nested chapter and subtopic
+boundaries for lecture videos with automatic title generation.
 
 \section{Local open language models for NLP refinement}
 \label{sec:llm_lit}
 
-\todo{Llama-3.1, Mistral, Phi-3 — quality vs.\ closed API comparisons.}
+The release of Llama-3.1~\citep{meta2024llama3} and other open models has made
+it feasible to run LLM inference locally at acceptable cost.
+Comparative evaluations show that quantised 8B models match GPT-3.5 on many
+zero-shot NLP tasks~\citep{jiang2024mixtral}.
+We use Llama-3.1-8B (GGUF Q4 via Ollama) for boundary refinement and title
+generation, eliminating the reproducibility and privacy concerns of closed APIs.
 
 \section{Gap analysis}
 \label{sec:gap}
 
-\todo{Synthesise the gaps that motivate our seven contributions; cross-link
-each gap to the corresponding row of \texttt{docs/LITERATURE\_MATRIX.md}.}
+Table~\ref{tab:litmatrix} summarises the gaps in prior work that motivate
+the contributions of this thesis.
+No prior system simultaneously addresses all four dimensions:
+(1) open-source and reproducible;
+(2) multimodal with adaptive fusion;
+(3) hierarchical (chapter $+$ subtopic) output;
+(4) evaluated on a publicly released benchmark with reported IAA.
+\lecseg{} is the first system to satisfy all four.
+
+\begin{table}[t]
+  \centering
+  \caption{Literature matrix. \checkmark: addressed; (p): partial; ---: not addressed.}
+  \label{tab:litmatrix}
+  \small
+  \begin{tabular}{lcccc}
+    \toprule
+    Method & Open & Multimodal & Hierarchical & Public benchmark \\
+    \midrule
+    TextTiling~\citep{hearst1994multi}       & \checkmark & --- & --- & --- \\
+    C99~\citep{choi2000latent}               & \checkmark & --- & --- & --- \\
+    BertSeg~\citep{koshorek2018text}         & \checkmark & --- & --- & (p) \\
+    TopicSeg~\citep{xing2024topicseg}        & --- & \checkmark & --- & --- \\
+    TAHS~\citep{todorov2020tahs}             & (p) & (p) & (p) & --- \\
+    \midrule
+    \lecseg{} (this work)                   & \checkmark & \checkmark & \checkmark & \checkmark \\
+    \bottomrule
+  \end{tabular}
+\end{table}

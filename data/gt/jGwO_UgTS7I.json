@@ -1,0 +1,23 @@
+{
+  "video_id": "jGwO_UgTS7I",
+  "duration_sec": 4520,
+  "num_chapters": 7,
+  "titles": [
+    "Introduction",
+    "Teaching team introductions",
+    "Goals for the course and the state of machine learning across research and industry",
+    "Prerequisites for the course",
+    "Homework, and a note about the Stanford honor code",
+    "Overview of the class project",
+    "Questions"
+  ],
+  "boundaries_sec": [
+    321.0,
+    402.0,
+    609.0,
+    713.0,
+    1017.0,
+    1557.0
+  ],
+  "source": "youtube_chapters"
+}

@@ -1,0 +1,32 @@
+{
+  "video_id": "oqRU2So6Z2Y",
+  "boundaries_sec": [
+    43.0,
+    1450.0,
+    3204.0,
+    3585.0,
+    3856.0,
+    3965.0,
+    4018.0,
+    6047.0,
+    6356.0,
+    7066.0,
+    7575.0
+  ],
+  "titles": [
+    "Introduction",
+    "Flat-file Databases",
+    "Relational Databases",
+    "Shows",
+    "Schema",
+    "Data Types and Constraints",
+    "Primary and Foreign Keys",
+    "Querying",
+    "Indexes",
+    "Python and SQL",
+    "SQL injection attacks",
+    "Race Conditions"
+  ],
+  "num_chapters": 12,
+  "duration_sec": 8133.0
+}

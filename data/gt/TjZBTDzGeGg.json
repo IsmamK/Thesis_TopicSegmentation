@@ -1,0 +1,30 @@
+{
+  "video_id": "TjZBTDzGeGg",
+  "boundaries_sec": [
+    120.0,
+    660.0,
+    780.0,
+    840.0,
+    1260.0,
+    1320.0,
+    2100.0,
+    2160.0,
+    2340.0,
+    2760.0
+  ],
+  "titles": [
+    "Introduction",
+    "Artificial Intelligence",
+    "Algorithms",
+    "Generating Tests",
+    "Rumpelstiltskin",
+    "Lady Lovelace",
+    "Marvin Minsky",
+    "Noam Chomsky",
+    "Language",
+    "Remarks",
+    "Announcements"
+  ],
+  "num_chapters": 11,
+  "duration_sec": 2839.0
+}

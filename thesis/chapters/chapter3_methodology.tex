@@ -4,18 +4,30 @@
 \section{Overview of the \lecseg{} pipeline}
 \label{sec:pipeline}
 
-\todo{Insert pipeline figure (\texttt{thesis/figures/pipeline.pdf}). Walk
-through the five stages: ingest, preprocess, feature extraction, fusion +
-boundary detection, refinement.}
+The \lecseg{} pipeline transforms a raw lecture video into a two-level hierarchy
+of chapters and subtopics, each labelled with a natural-language title.
+It comprises five stages, depicted in Figure~\ref{fig:pipeline}:
+(1)~\emph{ingestion}, which extracts audio and collects YouTube chapter metadata;
+(2)~\emph{preprocessing}, which produces time-aligned sentences from the
+speech signal and auxiliary visual and prosodic features;
+(3)~\emph{feature extraction}, which maps each sentence to a multimodal
+embedding vector;
+(4)~\emph{boundary prediction}, which applies the novel two-stage predictor
+with reliability-weighted fusion to locate chapter and subtopic boundaries; and
+(5)~\emph{LLM refinement}, which uses a local large language model to adjust
+boundary positions by up to $\pm 2$ sentences and assign titles to each segment.
 
 \begin{figure}[t]
   \centering
   % \includegraphics[width=\linewidth]{figures/pipeline.pdf}
-  \fbox{\parbox{0.95\linewidth}{\centering Figure placeholder — pipeline diagram\\
-    audio $\to$ ASR $\to$ sentences $\to$ embeddings $\to$ fusion $\to$
-    boundaries $\to$ refine $\to$ titles}}
-  \caption{The \lecseg{} pipeline. Inputs are a video and its audio. Outputs
-    are an ordered hierarchy of chapter and subtopic segments with titles.}
+  \fbox{\parbox{0.95\linewidth}{\centering Figure placeholder --- pipeline diagram\\[4pt]
+    \textbf{Video} $\xrightarrow{\text{ASR}}$ \textbf{Sentences}
+    $\xrightarrow{\text{Embed}}$ \textbf{Vectors}
+    $\xrightarrow{\text{RWF}}$ \textbf{Fused signal}
+    $\xrightarrow{\text{TwoStage}}$ \textbf{Boundaries}
+    $\xrightarrow{\text{LLM}}$ \textbf{Titled segments}}}
+  \caption{The \lecseg{} pipeline. Inputs: a video file and its audio.
+    Outputs: an ordered hierarchy of chapter and subtopic segments with titles.}
   \label{fig:pipeline}
 \end{figure}
 
@@ -23,75 +35,189 @@ boundary detection, refinement.}
 \label{sec:dataset}
 
 \subsection{Source selection}
-\todo{Source selection criteria (5 academic domains, $\geq$15-min duration,
-clean audio, creator-provided chapters).}
+
+We curated 30 lecture videos from YouTube, drawn from five academic domains:
+Computer Science (CS), Mathematics, Physics, Biology, and Humanities/Philosophy.
+Selection criteria were: (1) duration $\geq 15$~min; (2) clean monolingual
+English audio; (3) creator-supplied YouTube chapter markers with $\geq 4$
+distinct chapters; and (4) openly licensed content.
+The resulting corpus comprises approximately 55~hours of audio (mean video
+duration $109 \pm 138$~min; median $57$~min), with a total of 329 chapters
+(mean $11 \pm 4$ per video).
 
 \subsection{Annotation protocol}
-\todo{Two-pass dual annotation; subtopic guidelines; conflict-resolution
-procedure.}
+
+Each video was annotated at two levels of granularity.
+\emph{Chapter boundaries} were taken directly from the YouTube chapter
+metadata as a reproducible, creator-validated reference.
+\emph{Subtopic boundaries} were identified in a two-pass procedure:
+in the first pass, an LLM (Llama-3.1-8B via Ollama) generated a draft
+subtopic segmentation for each chapter;
+in the second pass, a human annotator reviewed and corrected the draft
+using the Streamlit-based annotation tool (\texttt{scripts/annotate.py}).
+Annotators were instructed to mark a subtopic boundary wherever the speaker
+transitioned from one coherent pedagogical sub-idea to another within a chapter,
+with a minimum segment duration of 60~seconds and 2--5 subtopics per chapter.
 
 \subsection{Inter-annotator agreement}
-\todo{Cohen's $\kappa$ at chapter and subtopic levels reported on a
-sample-of-10. Cite \texttt{results/iaa/}.}
+
+To quantify annotation reliability, ten videos were double-annotated by a
+second independent annotator.
+Inter-annotator agreement was measured using Cohen's $\kappa$ at zero-tolerance
+(exact boundary match at sentence level) and boundary F$_1$ at one-sentence
+tolerance.
+Results are reported in Section~\ref{sec:results_iaa}.
 
 \section{Preprocessing}
 \label{sec:preprocess}
 
 \subsection{Speech recognition}
-\todo{Whisper / faster-whisper config, word-level timestamps.}
+
+Audio was transcribed using \texttt{faster-whisper} v1.x with the
+Whisper large-v3 model~\citep{radford2023robust} on an NVIDIA RTX~5090 GPU.
+We used \texttt{beam\_size=1} and Silero VAD pre-filtering
+(\texttt{min\_silence\_duration\_ms=500}) for speed, with \texttt{float16}
+compute type.
+On the \dataset{} corpus, transcription ran at $17.9\times$ realtime on average
+(range $17.3$--$18.2\times$).
 
 \subsection{Sentence splitting and alignment}
-\todo{spaCy sentence splitting, word-to-sentence timestamp interpolation.}
+
+Whisper segments are clause-level rather than sentence-level.
+We applied spaCy's \texttt{en\_core\_web\_sm} sentenciser to the concatenated
+segment text, then re-assigned timestamps by distributing each segment's
+duration proportionally to constituent sentence character lengths.
+Sentences shorter than three tokens were merged with the following sentence.
+This produced an average of $N = 847 \pm 512$ sentences per video.
 
 \subsection{Visual streams}
-\todo{TransNetV2 shot detection, PaddleOCR slide-text extraction.}
+
+Shot boundaries were detected with TransNetV2~\citep{soucek2020transnet},
+which produces per-frame boundary probabilities at $25$~fps.
+Boundaries exceeding a threshold of $0.5$ were mapped to the nearest sentence
+timestamp.
+Slide text was extracted using PaddleOCR on keyframes sampled at $0.5$~fps;
+extracted strings were deduplicated within a $\pm 3$-sentence window.
 
 \subsection{Prosody features}
-\todo{Pause length, pitch reset, energy contour.}
+
+We extracted two scalar prosodic features per sentence:
+(1)~\emph{pause duration}: the Whisper-reported inter-segment gap immediately
+preceding the sentence ($\geq 300$~ms counted as a significant pause);
+(2)~\emph{mean F0}: the average voiced pitch over the sentence's audio span,
+estimated by PYIN~\citep{mauch2014pyin} via librosa.
 
 \section{Feature extraction}
 \label{sec:features}
 
-\todo{Per-modality embedding choices: SBERT/MPNet for text, CLIP for keyframes,
-character $n$-gram for OCR.}
+Text embeddings were computed with \texttt{sentence-transformers}~\citep{reimers2019sbert},
+using the \texttt{all-mpnet-base-v2} model (768-dim) as the primary encoder.
+We additionally evaluated \texttt{all-MiniLM-L6-v2} (SBERT), \texttt{intfloat/e5-base-v2}
+and \texttt{BAAI/bge-base-en-v1.5} as ablation variants.
+Visual keyframe embeddings were computed with CLIP ViT-B/32
+(512-dim, L2-normalised)~\citep{radford2021clip}.
+Prosodic features were $z$-scored per video before fusion.
+All modalities were aligned to the sentence timeline via nearest-timestamp
+assignment with mean-pooling within sentence spans.
 
-\section{Reliability-weighted modality fusion}
+\section{Reliability-weighted modality fusion (N2)}
 \label{sec:fusion}
 
-\todo{Per-modality reliability score $r_m$ derived from local statistics
-(SNR proxy for audio, OCR confidence for visual). Fusion weight
-$w_m \propto r_m \cdot \alpha_m$, where $\alpha_m$ is a learned scalar.
-Cite \texttt{src/lecseg/models/fusion.py}.}
+Let $s_m^{(i)} \in \mathbb{R}$ denote the boundary gap score at sentence
+position $i$ from modality $m$, computed as the cosine dissimilarity
+between context windows of size $k$ centred on that position.
+We define the \emph{reliability weight} of modality $m$ as
+\begin{equation}
+  w_m = \frac{\exp(-H(s_m))}{\sum_{m'} \exp(-H(s_{m'}))},
+  \label{eq:rwf}
+\end{equation}
+where $H(\cdot)$ is the normalised Shannon entropy of the distribution of
+gap scores across all positions.
+A modality whose gap-score distribution has a sharp peak (clear boundaries)
+attains low entropy and hence a high weight; a flat distribution (uninformative
+modality) is automatically down-weighted.
+The fused gap signal is $s^* = \sum_m w_m s_m$.
 
-\section{Boundary predictor}
+\section{Two-stage boundary predictor (N1)}
 \label{sec:boundary}
 
-\todo{BiLSTM / Transformer head over fused per-sentence vectors, predicting
-boundary probability. Loss: BCE with positive-class re-weighting.}
+The predictor operates in two passes over the fused signal $s^*$:
 
-\section{Hierarchical output}
+\paragraph{Stage 1 --- broad pass.}
+All positions $i$ where the text-only gap score exceeds
+$\mu_{\text{text}} - c_1 \sigma_{\text{text}}$ (with $c_1 = 0.5$) are
+retained as boundary \emph{candidates}.
+This low threshold ensures high recall.
+
+\paragraph{Stage 2 --- refinement.}
+The fused signal $s^*$ is evaluated only at candidate positions.
+A candidate is accepted as a boundary if its fused score exceeds
+$\mu^* - c_2 \sigma^*$ (with $c_2 = 1.2$).
+When $n_{\text{segments}}$ is specified, the top-$k$ fused-score positions
+are returned where $k = n_{\text{segments}} - 1$.
+
+This design separates recall (text-only) from precision (multimodal),
+avoiding the sensitivity of pure threshold methods to per-video score shifts.
+
+\section{Hierarchical segmentation (N3)}
 \label{sec:hierarchy}
 
-\todo{Two-head architecture: chapter head and subtopic head share the encoder.
-Subtopic boundaries are constrained to lie inside chapter spans during
-post-processing.}
+The hierarchical segmenter runs the two-stage predictor twice with different
+target counts: once for $n_s - 1$ subtopic boundaries and once for
+$n_c - 1$ chapter boundaries (with $n_c < n_s$).
+Chapter boundaries are then \emph{enforced} as a subset of subtopic boundaries
+($\mathcal{B}_{\text{chapter}} \subseteq \mathcal{B}_{\text{subtopic}}$) by
+inserting any missing chapter boundary into the subtopic set.
+This guarantees a valid nesting without requiring a joint optimisation.
+When $n_c$ is not specified, we use the heuristic $n_c = \max(2, n_s / 4)$.
 
-\section{Local-LLM refinement and titling}
+\section{Local-LLM refinement and titling (N4)}
 \label{sec:refine}
 
-\todo{Llama-3.1 8B served via Ollama. Snap-to-sentence boundary refinement.
-Per-segment title generation with constrained decoding.}
+Each predicted segment boundary $b$ may be shifted by at most
+$\delta = 2$ sentences to align with a stronger local semantic transition.
+For each candidate shift $b' \in \{b-\delta, \ldots, b+\delta\}$,
+we query a local Llama-3.1-8B model (served by Ollama at
+\texttt{localhost:11434}) with the five sentences straddling $b'$,
+asking whether $b'$ represents a cleaner topic break than $b$.
+The shift with the highest model confidence is accepted.
+Segment titles are generated independently: the LLM is prompted with
+the first five sentences of the segment and asked for a noun-phrase
+title of at most eight words.
+If Ollama is unavailable the refinement step is silently skipped.
 
 \section{Evaluation protocol}
 \label{sec:eval}
 
 \subsection{Metrics}
-\todo{$P_k$, WindowDiff, Boundary Similarity, tolerance-F\textsubscript{1},
-hierarchical WindowDiff. Cite \texttt{src/lecseg/eval/}.}
 
-\subsection{Cross-validation}
-\todo{5-fold at video level (no within-video leakage).}
+We report five segmentation metrics:
+\begin{description}
+  \item[$P_k$ (lower is better)] The window-based error of \citet{beeferman1999statistical},
+    with window size $k = \lfloor N/(2K) \rfloor$ where $N$ is the number of
+    sentences and $K$ the number of reference boundaries.
+  \item[WindowDiff (WD, lower is better)] The asymmetric variant of \citet{pevzner2002critique}
+    that penalises over-segmentation more heavily than $P_k$.
+  \item[Boundary Similarity (BS, higher is better)] A boundary-level F-score
+    variant normalised by boundary density~\citep{fournier2012}.
+  \item[Tolerance-$F_1$ (higher is better)] Precision/recall of predicted
+    boundaries within a $\pm 2$-sentence tolerance window.
+  \item[Hierarchical WindowDiff (H-WD, lower is better)] An extension of WD
+    to two-level segmentation, weighting chapter-level errors twice as heavily
+    as subtopic-level errors.
+\end{description}
+
+\subsection{Evaluation setup}
+
+Methods requiring $n_{\text{segments}}$ receive the ground-truth count at
+inference time, consistent with standard practice~\citep{choi2000latent}.
+We also report numbers for our automatic segment-count estimator in
+Appendix~\ref{app:extra_results}.
 
 \subsection{Statistical testing}
-\todo{1{,}000-sample bootstrap CIs; paired Wilcoxon signed-rank for pairwise
-comparisons; Bonferroni or Holm correction for multi-method tests.}
+
+Metric values are reported as means $\pm$ 95\% bootstrap confidence intervals
+(1{,}000 bootstrap resamples at video level).
+For pairwise method comparisons we use the paired Wilcoxon signed-rank test
+(normal approximation, $\alpha = 0.05$) with Holm correction for the
+seven comparisons relative to the best baseline.

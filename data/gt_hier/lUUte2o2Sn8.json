@@ -1,0 +1,259 @@
+{
+  "video_id": "lUUte2o2Sn8",
+  "annotator": "llm_a",
+  "status": "reviewed",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Seating"
+    },
+    {
+      "start_sec": 536.0,
+      "title": "Class start"
+    },
+    {
+      "start_sec": 605.0,
+      "title": "Alan Edelman's speech about Gilbert Strang"
+    },
+    {
+      "start_sec": 777.0,
+      "title": "Gilbert Strang's introduction"
+    },
+    {
+      "start_sec": 942.0,
+      "title": "Solving linear equations"
+    },
+    {
+      "start_sec": 1842.0,
+      "title": "Visualization of four-dimensional space"
+    },
+    {
+      "start_sec": 1897.0,
+      "title": "Nonzero Solutions"
+    },
+    {
+      "start_sec": 1936.0,
+      "title": "Finding Solutions"
+    },
+    {
+      "start_sec": 2059.0,
+      "title": "Elimination Process"
+    },
+    {
+      "start_sec": 2465.0,
+      "title": "Introduction to Equations"
+    },
+    {
+      "start_sec": 2546.0,
+      "title": "Finding Solutions"
+    },
+    {
+      "start_sec": 2669.0,
+      "title": "Solution 1"
+    },
+    {
+      "start_sec": 2862.0,
+      "title": "Rank of the Matrix"
+    },
+    {
+      "start_sec": 3099.0,
+      "title": "In appreciation of Gilbert Strang"
+    },
+    {
+      "start_sec": 3128.0,
+      "title": "Congratulations on retirement"
+    },
+    {
+      "start_sec": 3158.0,
+      "title": "Personal experiences with Strang"
+    },
+    {
+      "start_sec": 3301.0,
+      "title": "Life lessons learned from Strang"
+    },
+    {
+      "start_sec": 3668.0,
+      "title": "Gil Strang's impact on math education"
+    },
+    {
+      "start_sec": 3704.0,
+      "title": "Gil Strang's teaching style"
+    },
+    {
+      "start_sec": 3740.0,
+      "title": "Gil Strang's legacy"
+    },
+    {
+      "start_sec": 3803.0,
+      "title": "Congratulations to Gil Strang"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Seating"
+    },
+    {
+      "start_sec": 536.0,
+      "chapter_idx": 1,
+      "title": "Class start"
+    },
+    {
+      "start_sec": 605.0,
+      "chapter_idx": 2,
+      "title": "Apologies to the 1806 Class"
+    },
+    {
+      "start_sec": 690.0,
+      "chapter_idx": 2,
+      "title": "Gilbert Strang's Teaching Style"
+    },
+    {
+      "start_sec": 777.0,
+      "chapter_idx": 3,
+      "title": "Thanking Andrew Horning"
+    },
+    {
+      "start_sec": 870.0,
+      "chapter_idx": 3,
+      "title": "Teaching Linear Algebra and Family History"
+    },
+    {
+      "start_sec": 942.0,
+      "chapter_idx": 4,
+      "title": "Solving Linear Equations with Three Unknowns"
+    },
+    {
+      "start_sec": 1390.0,
+      "chapter_idx": 4,
+      "title": "Elimination Method to Get Zeros"
+    },
+    {
+      "start_sec": 1590.0,
+      "chapter_idx": 4,
+      "title": "Reducing the Number of Variables"
+    },
+    {
+      "start_sec": 1842.0,
+      "chapter_idx": 5,
+      "title": "Visualization of four-dimensional space"
+    },
+    {
+      "start_sec": 1897.0,
+      "chapter_idx": 6,
+      "title": "Nonzero Solutions"
+    },
+    {
+      "start_sec": 1936.0,
+      "chapter_idx": 7,
+      "title": "Visualizing the Equation"
+    },
+    {
+      "start_sec": 1999.0,
+      "chapter_idx": 7,
+      "title": "Simplifying the Matrix"
+    },
+    {
+      "start_sec": 2059.0,
+      "chapter_idx": 8,
+      "title": "Elimination Process Overview"
+    },
+    {
+      "start_sec": 2250.0,
+      "chapter_idx": 8,
+      "title": "Identifying Special Rows in Matrix"
+    },
+    {
+      "start_sec": 2405.0,
+      "chapter_idx": 8,
+      "title": "Subtracting Suitable Multiples of a Row"
+    },
+    {
+      "start_sec": 2465.0,
+      "chapter_idx": 9,
+      "title": "Introduction to Equations"
+    },
+    {
+      "start_sec": 2546.0,
+      "chapter_idx": 10,
+      "title": "Four-Dimensional Space Challenge"
+    },
+    {
+      "start_sec": 2609.0,
+      "chapter_idx": 10,
+      "title": "Multiplying Solutions by Constants"
+    },
+    {
+      "start_sec": 2669.0,
+      "chapter_idx": 11,
+      "title": "Solving for x1 and x2"
+    },
+    {
+      "start_sec": 2775.0,
+      "chapter_idx": 11,
+      "title": "Two Independent Solutions Found"
+    },
+    {
+      "start_sec": 2862.0,
+      "chapter_idx": 12,
+      "title": "Rank of the Matrix is 2"
+    },
+    {
+      "start_sec": 2970.0,
+      "chapter_idx": 12,
+      "title": "Row Rank and Column Rank"
+    },
+    {
+      "start_sec": 3099.0,
+      "chapter_idx": 13,
+      "title": "In appreciation of Gilbert Strang"
+    },
+    {
+      "start_sec": 3128.0,
+      "chapter_idx": 14,
+      "title": "Congratulations on retirement"
+    },
+    {
+      "start_sec": 3158.0,
+      "chapter_idx": 15,
+      "title": "Passing Quals and First Name Basis"
+    },
+    {
+      "start_sec": 3241.0,
+      "chapter_idx": 15,
+      "title": "Your Office as a Safe Place"
+    },
+    {
+      "start_sec": 3301.0,
+      "chapter_idx": 16,
+      "title": "Lessons from Strang"
+    },
+    {
+      "start_sec": 3608.0,
+      "chapter_idx": 16,
+      "title": "Appreciation for Teaching Style"
+    },
+    {
+      "start_sec": 3668.0,
+      "chapter_idx": 17,
+      "title": "Gil Strang's impact on math education"
+    },
+    {
+      "start_sec": 3704.0,
+      "chapter_idx": 18,
+      "title": "Gil Strang's teaching style"
+    },
+    {
+      "start_sec": 3740.0,
+      "chapter_idx": 19,
+      "title": "Gil Strang's legacy"
+    },
+    {
+      "start_sec": 3803.0,
+      "chapter_idx": 20,
+      "title": "Congratulations to Gil Strang"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "video_id": "oOya3cFmAMc",
+  "annotator": "llm_a",
+  "status": "reviewed",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Intro"
+    },
+    {
+      "start_sec": 16.0,
+      "title": "Lipids"
+    },
+    {
+      "start_sec": 182.0,
+      "title": "phospholipids"
+    },
+    {
+      "start_sec": 335.0,
+      "title": "membrane selfhealing"
+    },
+    {
+      "start_sec": 587.0,
+      "title": "amino acids"
+    },
+    {
+      "start_sec": 800.0,
+      "title": "amino acid side chains"
+    },
+    {
+      "start_sec": 942.0,
+      "title": "amino acid polymers"
+    },
+    {
+      "start_sec": 1293.0,
+      "title": "peptides"
+    },
+    {
+      "start_sec": 1593.0,
+      "title": "protein folding"
+    },
+    {
+      "start_sec": 1797.0,
+      "title": "secondary structure"
+    },
+    {
+      "start_sec": 2192.0,
+      "title": "tertiary structure"
+    },
+    {
+      "start_sec": 2472.0,
+      "title": "protein simulation"
+    },
+    {
+      "start_sec": 2577.0,
+      "title": "Quaternary structure"
+    },
+    {
+      "start_sec": 2700.0,
+      "title": "Proteins"
+    },
+    {
+      "start_sec": 2762.0,
+      "title": "Collagen"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Intro"
+    },
+    {
+      "start_sec": 16.0,
+      "chapter_idx": 1,
+      "title": "Lipidic Molecules"
+    },
+    {
+      "start_sec": 122.0,
+      "chapter_idx": 1,
+      "title": "Phospholipid Structure"
+    },
+    {
+      "start_sec": 182.0,
+      "chapter_idx": 2,
+      "title": "Phospholipid Structure"
+    },
+    {
+      "start_sec": 260.0,
+      "chapter_idx": 2,
+      "title": "Semi-Permeable Membrane Function"
+    },
+    {
+      "start_sec": 335.0,
+      "chapter_idx": 3,
+      "title": "Semipermeable Barrier"
+    },
+    {
+      "start_sec": 440.0,
+      "chapter_idx": 3,
+      "title": "Membrane Self-Healing Mechanism"
+    },
+    {
+      "start_sec": 587.0,
+      "chapter_idx": 4,
+      "title": "Building Blocks of Proteins"
+    },
+    {
+      "start_sec": 690.0,
+      "chapter_idx": 4,
+      "title": "Amino Acid Structure and Properties"
+    },
+    {
+      "start_sec": 800.0,
+      "chapter_idx": 5,
+      "title": "Amino Acid Side Chain Properties"
+    },
+    {
+      "start_sec": 870.0,
+      "chapter_idx": 5,
+      "title": "Hydrophobic Amino Acids with Different Features"
+    },
+    {
+      "start_sec": 882.0,
+      "chapter_idx": 5,
+      "title": "Polar and Charged Amino Acids"
+    },
+    {
+      "start_sec": 942.0,
+      "chapter_idx": 6,
+      "title": "Amino Acid Building Blocks"
+    },
+    {
+      "start_sec": 1110.0,
+      "chapter_idx": 6,
+      "title": "Unique Properties of Amino Acids"
+    },
+    {
+      "start_sec": 1210.0,
+      "chapter_idx": 6,
+      "title": "Primary Sequence and Protein Structure"
+    },
+    {
+      "start_sec": 1293.0,
+      "chapter_idx": 7,
+      "title": "Peptide Structure Basics"
+    },
+    {
+      "start_sec": 1470.0,
+      "chapter_idx": 7,
+      "title": "Dipeptide and Peptide Bond Properties"
+    },
+    {
+      "start_sec": 1593.0,
+      "chapter_idx": 8,
+      "title": "Drawing Amino Acids"
+    },
+    {
+      "start_sec": 1710.0,
+      "chapter_idx": 8,
+      "title": "Protein Folding Process"
+    },
+    {
+      "start_sec": 1797.0,
+      "chapter_idx": 9,
+      "title": "Primary Sequence"
+    },
+    {
+      "start_sec": 1950.0,
+      "chapter_idx": 9,
+      "title": "Secondary Structure Basics"
+    },
+    {
+      "start_sec": 2060.0,
+      "chapter_idx": 9,
+      "title": "Alpha Helix and Beta Sheet"
+    },
+    {
+      "start_sec": 2192.0,
+      "chapter_idx": 10,
+      "title": "Tertiary Structure Basics"
+    },
+    {
+      "start_sec": 2370.0,
+      "chapter_idx": 10,
+      "title": "Identifying Interactions in Motifs"
+    },
+    {
+      "start_sec": 2412.0,
+      "chapter_idx": 10,
+      "title": "Protein Folding Simulation"
+    },
+    {
+      "start_sec": 2472.0,
+      "chapter_idx": 11,
+      "title": "protein simulation"
+    },
+    {
+      "start_sec": 2577.0,
+      "chapter_idx": 12,
+      "title": "Quaternary Structure Basics"
+    },
+    {
+      "start_sec": 2640.0,
+      "chapter_idx": 12,
+      "title": "Hemoglobin as a Quaternary Example"
+    },
+    {
+      "start_sec": 2700.0,
+      "chapter_idx": 13,
+      "title": "Proteins"
+    },
+    {
+      "start_sec": 2762.0,
+      "chapter_idx": 14,
+      "title": "Collagen Structure and Function"
+    },
+    {
+      "start_sec": 3015.0,
+      "chapter_idx": 14,
+      "title": "Osteogenesis Imperfecta and Collagenopathies"
+    }
+  ]
+}

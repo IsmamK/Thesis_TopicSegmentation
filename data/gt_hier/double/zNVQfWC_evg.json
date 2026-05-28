@@ -1,0 +1,201 @@
+{
+  "video_id": "zNVQfWC_evg",
+  "annotator": "llm_b",
+  "status": "draft",
+  "double_mode": true,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Introduction"
+    },
+    {
+      "start_sec": 189.0,
+      "title": "The periodic table"
+    },
+    {
+      "start_sec": 360.0,
+      "title": "Inside the atom"
+    },
+    {
+      "start_sec": 687.0,
+      "title": "The electric and magnetic fields"
+    },
+    {
+      "start_sec": 2012.0,
+      "title": "The new periodic table"
+    },
+    {
+      "start_sec": 2106.0,
+      "title": "Four forces"
+    },
+    {
+      "start_sec": 2262.0,
+      "title": "The standard model"
+    },
+    {
+      "start_sec": 2348.0,
+      "title": "The Higgs field"
+    },
+    {
+      "start_sec": 2545.0,
+      "title": "The theory of everything (so far) Electromagnetism"
+    },
+    {
+      "start_sec": 2641.0,
+      "title": "There's stuff we're missing"
+    },
+    {
+      "start_sec": 2749.0,
+      "title": "The Fireball of the Big Bang"
+    },
+    {
+      "start_sec": 2837.0,
+      "title": "What quantum field are we seeing here?"
+    },
+    {
+      "start_sec": 2961.0,
+      "title": "Back on Earth"
+    },
+    {
+      "start_sec": 3030.0,
+      "title": "Ideas of unification"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Introduction to the Big Question"
+    },
+    {
+      "start_sec": 129.0,
+      "chapter_idx": 0,
+      "title": "Current Understanding and Future Progress"
+    },
+    {
+      "start_sec": 189.0,
+      "chapter_idx": 1,
+      "title": "The Periodic Table"
+    },
+    {
+      "start_sec": 270.0,
+      "chapter_idx": 1,
+      "title": "A Messy Classification System"
+    },
+    {
+      "start_sec": 300.0,
+      "chapter_idx": 1,
+      "title": "Beyond the Periodic Table"
+    },
+    {
+      "start_sec": 360.0,
+      "chapter_idx": 2,
+      "title": "Nucleus and Electrons"
+    },
+    {
+      "start_sec": 570.0,
+      "chapter_idx": 2,
+      "title": "Quarks and Fundamental Building Blocks"
+    },
+    {
+      "start_sec": 627.0,
+      "chapter_idx": 2,
+      "title": "The Lie of Particles"
+    },
+    {
+      "start_sec": 687.0,
+      "chapter_idx": 3,
+      "title": "Michael Faraday's Lecture Series"
+    },
+    {
+      "start_sec": 990.0,
+      "chapter_idx": 3,
+      "title": "The Concept of Electric and Magnetic Fields"
+    },
+    {
+      "start_sec": 1510.0,
+      "chapter_idx": 3,
+      "title": "Faraday's Genius and the Discovery of Induction"
+    },
+    {
+      "start_sec": 2012.0,
+      "chapter_idx": 4,
+      "title": "The new periodic table"
+    },
+    {
+      "start_sec": 2106.0,
+      "chapter_idx": 5,
+      "title": "Four Fundamental Forces"
+    },
+    {
+      "start_sec": 2187.0,
+      "chapter_idx": 5,
+      "title": "Fields and Their Associations"
+    },
+    {
+      "start_sec": 2262.0,
+      "chapter_idx": 6,
+      "title": "The standard model"
+    },
+    {
+      "start_sec": 2348.0,
+      "chapter_idx": 7,
+      "title": "The Discovery of the Higgs Particle"
+    },
+    {
+      "start_sec": 2485.0,
+      "chapter_idx": 7,
+      "title": "Understanding Mass and the Higgs Field"
+    },
+    {
+      "start_sec": 2485.0,
+      "chapter_idx": 7,
+      "title": "The Standard Model and Its Predictions"
+    },
+    {
+      "start_sec": 2545.0,
+      "chapter_idx": 8,
+      "title": "The theory of everything (so far) Electromagnetism"
+    },
+    {
+      "start_sec": 2641.0,
+      "chapter_idx": 9,
+      "title": "There's stuff we're missing"
+    },
+    {
+      "start_sec": 2749.0,
+      "chapter_idx": 10,
+      "title": "The Fireball of the Big Bang"
+    },
+    {
+      "start_sec": 2837.0,
+      "chapter_idx": 11,
+      "title": "Quantum Fluctuations in Early Universe"
+    },
+    {
+      "start_sec": 2901.0,
+      "chapter_idx": 11,
+      "title": "Implications of the Quantum Field"
+    },
+    {
+      "start_sec": 2961.0,
+      "chapter_idx": 12,
+      "title": "Back on Earth"
+    },
+    {
+      "start_sec": 3030.0,
+      "chapter_idx": 13,
+      "title": "Patterns in the periodic table"
+    },
+    {
+      "start_sec": 3390.0,
+      "chapter_idx": 13,
+      "title": "The idea of unification and grand unification"
+    },
+    {
+      "start_sec": 3557.0,
+      "chapter_idx": 13,
+      "title": "Supersymmetry and combining matter and forces"
+    }
+  ]
+}

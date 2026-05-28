@@ -1,0 +1,104 @@
+{
+  "video_id": "KOKnWaLiL8w",
+  "annotator": "llm_b",
+  "status": "draft",
+  "double_mode": true,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Chapter 1. Introduction and Course Organization"
+    },
+    {
+      "start_sec": 1285.0,
+      "title": "Chapter 2. Newtonian Mechanics: Dynamics and Kinematics"
+    },
+    {
+      "start_sec": 1700.0,
+      "title": "Chapter 3. Average and Instantaneous Rate of Motion"
+    },
+    {
+      "start_sec": 2276.0,
+      "title": "Chapter 4. Motion at Constant Acceleration"
+    },
+    {
+      "start_sec": 3157.0,
+      "title": "Chapter 5. Example Problem: Physical Meaning of Equations"
+    },
+    {
+      "start_sec": 4122.0,
+      "title": "Chapter 6. Derive New Relations Using Calculus Laws of Limits"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Course Overview and Objectives"
+    },
+    {
+      "start_sec": 1225.0,
+      "chapter_idx": 0,
+      "title": "Course Organization and Logistics"
+    },
+    {
+      "start_sec": 1225.0,
+      "chapter_idx": 0,
+      "title": "Classroom Dynamics and Recording"
+    },
+    {
+      "start_sec": 1285.0,
+      "chapter_idx": 1,
+      "title": "Introduction to Newtonian Mechanics"
+    },
+    {
+      "start_sec": 1450.0,
+      "chapter_idx": 1,
+      "title": "Predicting the Future with Initial Conditions"
+    },
+    {
+      "start_sec": 1700.0,
+      "chapter_idx": 2,
+      "title": "Mathematical Point as Object"
+    },
+    {
+      "start_sec": 1950.0,
+      "chapter_idx": 2,
+      "title": "Measuring and Units in Kinematics"
+    },
+    {
+      "start_sec": 2170.0,
+      "chapter_idx": 2,
+      "title": "Graphs of Time vs. Space Motion"
+    },
+    {
+      "start_sec": 2276.0,
+      "chapter_idx": 3,
+      "title": "Motion at Constant Acceleration Basics"
+    },
+    {
+      "start_sec": 3097.0,
+      "chapter_idx": 3,
+      "title": "Constant Acceleration and the Backwards Problem"
+    },
+    {
+      "start_sec": 3157.0,
+      "chapter_idx": 4,
+      "title": "Problem Setup and Formulation"
+    },
+    {
+      "start_sec": 3735.0,
+      "chapter_idx": 4,
+      "title": "Using the Formula with Assumptions"
+    },
+    {
+      "start_sec": 4122.0,
+      "chapter_idx": 5,
+      "title": "Deriving a New Result Using Calculus"
+    },
+    {
+      "start_sec": 4280.0,
+      "chapter_idx": 5,
+      "title": "Canceling dt's and Manipulating Derivatives"
+    }
+  ]
+}

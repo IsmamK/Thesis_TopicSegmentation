@@ -1,0 +1,298 @@
+{
+  "video_id": "D8RRq3TbtHU",
+  "annotator": "llm_a",
+  "status": "reviewed",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Introduction"
+    },
+    {
+      "start_sec": 15.0,
+      "title": "Uncertainty"
+    },
+    {
+      "start_sec": 292.0,
+      "title": "Probability"
+    },
+    {
+      "start_sec": 577.0,
+      "title": "Conditional Probability"
+    },
+    {
+      "start_sec": 1039.0,
+      "title": "Random Variables"
+    },
+    {
+      "start_sec": 1588.0,
+      "title": "Bayes' Rule"
+    },
+    {
+      "start_sec": 2041.0,
+      "title": "Joint Probability"
+    },
+    {
+      "start_sec": 2413.0,
+      "title": "Probability Rules"
+    },
+    {
+      "start_sec": 2982.0,
+      "title": "Bayesian Networks"
+    },
+    {
+      "start_sec": 4860.0,
+      "title": "Sampling"
+    },
+    {
+      "start_sec": 5578.0,
+      "title": "Markov Models"
+    },
+    {
+      "start_sec": 6257.0,
+      "title": "Hidden Markov Models"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Introduction"
+    },
+    {
+      "start_sec": 15.0,
+      "chapter_idx": 1,
+      "title": "Introduction to AI and Uncertainty"
+    },
+    {
+      "start_sec": 156.0,
+      "chapter_idx": 1,
+      "title": "Examples of Uncertainty in AI"
+    },
+    {
+      "start_sec": 232.0,
+      "chapter_idx": 1,
+      "title": "Probability Theory Basics"
+    },
+    {
+      "start_sec": 232.0,
+      "chapter_idx": 1,
+      "title": "Representing Probability and Possible Worlds"
+    },
+    {
+      "start_sec": 292.0,
+      "chapter_idx": 2,
+      "title": "Single Die Probability Basics"
+    },
+    {
+      "start_sec": 398.0,
+      "chapter_idx": 2,
+      "title": "Multiple Dice Probability Introduction"
+    },
+    {
+      "start_sec": 462.0,
+      "chapter_idx": 2,
+      "title": "Equal Likelihood of Possible Worlds"
+    },
+    {
+      "start_sec": 517.0,
+      "chapter_idx": 2,
+      "title": "Unequal Probability of Sums in Multiple Dice"
+    },
+    {
+      "start_sec": 577.0,
+      "chapter_idx": 3,
+      "title": "Introduction to Conditional Probability"
+    },
+    {
+      "start_sec": 765.0,
+      "chapter_idx": 3,
+      "title": "Notation for Conditional Probability"
+    },
+    {
+      "start_sec": 870.0,
+      "chapter_idx": 3,
+      "title": "Examples of Conditional Probability"
+    },
+    {
+      "start_sec": 979.0,
+      "chapter_idx": 3,
+      "title": "Calculating Conditional Probability"
+    },
+    {
+      "start_sec": 1039.0,
+      "chapter_idx": 4,
+      "title": "Introduction to Random Variables"
+    },
+    {
+      "start_sec": 1245.0,
+      "chapter_idx": 4,
+      "title": "Examples of Random Variables"
+    },
+    {
+      "start_sec": 1399.0,
+      "chapter_idx": 4,
+      "title": "Probability Distribution"
+    },
+    {
+      "start_sec": 1528.0,
+      "chapter_idx": 4,
+      "title": "Representation of Probability Distribution"
+    },
+    {
+      "start_sec": 1588.0,
+      "chapter_idx": 5,
+      "title": "Introduction to Bayes' Rule"
+    },
+    {
+      "start_sec": 1905.0,
+      "chapter_idx": 5,
+      "title": "Deriving Bayes' Rule"
+    },
+    {
+      "start_sec": 1981.0,
+      "chapter_idx": 5,
+      "title": "Example Application of Bayes' Rule"
+    },
+    {
+      "start_sec": 1981.0,
+      "chapter_idx": 5,
+      "title": "General Discussion on Bayes' Rule"
+    },
+    {
+      "start_sec": 2041.0,
+      "chapter_idx": 6,
+      "title": "Introduction to Joint Probability"
+    },
+    {
+      "start_sec": 2185.0,
+      "chapter_idx": 6,
+      "title": "Joint Probability Distribution Explanation"
+    },
+    {
+      "start_sec": 2307.0,
+      "chapter_idx": 6,
+      "title": "Calculating Conditional Probability"
+    },
+    {
+      "start_sec": 2353.0,
+      "chapter_idx": 6,
+      "title": "Conditional Probability Calculation Example"
+    },
+    {
+      "start_sec": 2413.0,
+      "chapter_idx": 7,
+      "title": "Introduction to Probability Rules"
+    },
+    {
+      "start_sec": 2578.0,
+      "chapter_idx": 7,
+      "title": "Negation Rule in Probability"
+    },
+    {
+      "start_sec": 2769.0,
+      "chapter_idx": 7,
+      "title": "Probability of A or B Calculation"
+    },
+    {
+      "start_sec": 2851.0,
+      "chapter_idx": 7,
+      "title": "Inclusion-Exclusion Formula"
+    },
+    {
+      "start_sec": 2922.0,
+      "chapter_idx": 7,
+      "title": "Marginalization Rule"
+    },
+    {
+      "start_sec": 2982.0,
+      "chapter_idx": 8,
+      "title": "Introduction to Bayesian Networks"
+    },
+    {
+      "start_sec": 3198.0,
+      "chapter_idx": 8,
+      "title": "Structure and Notation of Bayesian Networks"
+    },
+    {
+      "start_sec": 3462.0,
+      "chapter_idx": 8,
+      "title": "Example of a Bayesian Network"
+    },
+    {
+      "start_sec": 3998.0,
+      "chapter_idx": 8,
+      "title": "Reasoning about Bayesian Networks"
+    },
+    {
+      "start_sec": 4465.0,
+      "chapter_idx": 8,
+      "title": "Conclusion and Recap of Bayesian Networks"
+    },
+    {
+      "start_sec": 4860.0,
+      "chapter_idx": 9,
+      "title": "Introduction to Sampling"
+    },
+    {
+      "start_sec": 5025.0,
+      "chapter_idx": 9,
+      "title": "Sampling from the Root Node (Rain)"
+    },
+    {
+      "start_sec": 5208.0,
+      "chapter_idx": 9,
+      "title": "Sampling from Other Nodes"
+    },
+    {
+      "start_sec": 5457.0,
+      "chapter_idx": 9,
+      "title": "Power of Multiple Samples"
+    },
+    {
+      "start_sec": 5578.0,
+      "chapter_idx": 10,
+      "title": "Introduction to Markov Models"
+    },
+    {
+      "start_sec": 5809.0,
+      "chapter_idx": 10,
+      "title": "Defining Random Variables for Time Steps"
+    },
+    {
+      "start_sec": 5932.0,
+      "chapter_idx": 10,
+      "title": "Dealing with Large Amounts of Data"
+    },
+    {
+      "start_sec": 6047.0,
+      "chapter_idx": 10,
+      "title": "The Markov Assumption Explanation"
+    },
+    {
+      "start_sec": 6176.0,
+      "chapter_idx": 10,
+      "title": "Creating a Markov Chain Example"
+    },
+    {
+      "start_sec": 6257.0,
+      "chapter_idx": 11,
+      "title": "Introduction to Hidden Markov Models"
+    },
+    {
+      "start_sec": 6512.0,
+      "chapter_idx": 11,
+      "title": "Transition Model in HMM"
+    },
+    {
+      "start_sec": 6729.0,
+      "chapter_idx": 11,
+      "title": "Sensor Model in HMM"
+    },
+    {
+      "start_sec": 6809.0,
+      "chapter_idx": 11,
+      "title": "Sensor Markov Assumption"
+    }
+  ]
+}

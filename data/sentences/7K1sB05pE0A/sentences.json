@@ -1,0 +1,4595 @@
+{
+  "video_id": "7K1sB05pE0A",
+  "sentences": [
+    {
+      "idx": 0,
+      "start": 0.0,
+      "end": 2.22,
+      "text": "The following content is provided under a Creative"
+    },
+    {
+      "idx": 1,
+      "start": 3.32,
+      "end": 5.92,
+      "text": "Your support will help MIT OpenCourseWare"
+    },
+    {
+      "idx": 2,
+      "start": 5.92,
+      "end": 9.26,
+      "text": "continue to offer high quality educational resources for free."
+    },
+    {
+      "idx": 3,
+      "start": 9.42,
+      "end": 12.34,
+      "text": "To make a donation or to view additional materials"
+    },
+    {
+      "idx": 4,
+      "start": 12.34,
+      "end": 16.34,
+      "text": "from hundreds of MIT courses, visit MIT OpenCourseWare"
+    },
+    {
+      "idx": 5,
+      "start": 21.5,
+      "end": 24.25,
+      "text": "So again, welcome to 18.01."
+    },
+    {
+      "idx": 6,
+      "start": 25.24,
+      "end": 28.65,
+      "text": "We're getting started today with what"
+    },
+    {
+      "idx": 7,
+      "start": 28.78,
+      "end": 33.32,
+      "text": "we're calling Unit 1, highly imaginative topic,"
+    },
+    {
+      "idx": 8,
+      "start": 33.93,
+      "end": 36.84,
+      "text": "highly imaginative title, and it's differentiation."
+    },
+    {
+      "idx": 9,
+      "start": 43.04,
+      "end": 46.68,
+      "text": "So let me first tell you briefly what's"
+    },
+    {
+      "idx": 10,
+      "start": 46.68,
+      "end": 48.26,
+      "text": "in store in the next couple of weeks."
+    },
+    {
+      "idx": 11,
+      "start": 49.31,
+      "end": 54.75,
+      "text": "The main topic today is what is a derivative."
+    },
+    {
+      "idx": 12,
+      "start": 62.72,
+      "end": 70.23,
+      "text": "And we're going to look at this from several different points"
+    },
+    {
+      "idx": 13,
+      "start": 71.33,
+      "end": 74.93,
+      "text": "And the first one is the geometric interpretation."
+    },
+    {
+      "idx": 14,
+      "start": 75.03,
+      "end": 81.0,
+      "text": "And that's what we'll spend most of today on."
+    },
+    {
+      "idx": 15,
+      "start": 81.76,
+      "end": 87.89,
+      "text": "And then, we'll also talk about a physical interpretation"
+    },
+    {
+      "idx": 16,
+      "start": 92.59,
+      "end": 93.81,
+      "text": "of what a derivative is."
+    },
+    {
+      "idx": 17,
+      "start": 97.82,
+      "end": 104.08,
+      "text": "And then, there's going to be something else,"
+    },
+    {
+      "idx": 18,
+      "start": 104.1,
+      "end": 107.48,
+      "text": "which I guess is maybe the reason why calculus"
+    },
+    {
+      "idx": 19,
+      "start": 107.48,
+      "end": 109.5,
+      "text": "is so fundamental, and why we always start"
+    },
+    {
+      "idx": 20,
+      "start": 109.5,
+      "end": 113.98,
+      "text": "with it in most science and engineering schools,"
+    },
+    {
+      "idx": 21,
+      "start": 114.2,
+      "end": 119.6,
+      "text": "which is the importance of derivatives."
+    },
+    {
+      "idx": 22,
+      "start": 119.6,
+      "end": 124.95,
+      "text": "of this to all measurements."
+    },
+    {
+      "idx": 23,
+      "start": 129.22,
+      "end": 131.76,
+      "text": "So that means pretty much every place."
+    },
+    {
+      "idx": 24,
+      "start": 131.82,
+      "end": 136.88,
+      "text": "That means in science, in engineering, in economics,"
+    },
+    {
+      "idx": 25,
+      "start": 138.39,
+      "end": 144.56,
+      "text": "in political science, et cetera, polling,"
+    },
+    {
+      "idx": 26,
+      "start": 145.56,
+      "end": 149.3,
+      "text": "lots of commercial applications, just about everything."
+    },
+    {
+      "idx": 27,
+      "start": 149.86,
+      "end": 152.96,
+      "text": "Now, so that's what we'll be getting started with."
+    },
+    {
+      "idx": 28,
+      "start": 153.14,
+      "end": 156.42,
+      "text": "And then there's another thing that we're going to do"
+    },
+    {
+      "idx": 29,
+      "start": 156.42,
+      "end": 161.47,
+      "text": "in this unit, which is we're going to explain"
+    },
+    {
+      "idx": 30,
+      "start": 161.47,
+      "end": 164.29,
+      "text": "how to differentiate anything."
+    },
+    {
+      "idx": 31,
+      "start": 164.57,
+      "end": 172.82,
+      "text": "So how to differentiate any function you know."
+    },
+    {
+      "idx": 32,
+      "start": 181.86,
+      "end": 183.76,
+      "text": "And that's kind of a tall order,"
+    },
+    {
+      "idx": 33,
+      "start": 184.32,
+      "end": 185.84,
+      "text": "but let me just give you an example."
+    },
+    {
+      "idx": 34,
+      "start": 186.08,
+      "end": 187.7,
+      "text": "If you want to take the derivative,"
+    },
+    {
+      "idx": 35,
+      "start": 187.94,
+      "end": 189.88,
+      "text": "this we'll see today as the notation"
+    },
+    {
+      "idx": 36,
+      "start": 189.88,
+      "end": 191.24,
+      "text": "for the derivative of something,"
+    },
+    {
+      "idx": 37,
+      "start": 191.34,
+      "end": 197.66,
+      "text": "of some messy function like e to the x arctan of x,"
+    },
+    {
+      "idx": 38,
+      "start": 199.83,
+      "end": 202.57,
+      "text": "we'll work this out by the,"
+    },
+    {
+      "idx": 39,
+      "start": 203.4,
+      "end": 206.26,
+      "text": "end of this unit, all right?"
+    },
+    {
+      "idx": 40,
+      "start": 206.3,
+      "end": 207.78,
+      "text": "So anything you can think of,"
+    },
+    {
+      "idx": 41,
+      "start": 207.82,
+      "end": 210.46,
+      "text": "anything you can write down, we can differentiate it."
+    },
+    {
+      "idx": 42,
+      "start": 212.18,
+      "end": 213.8,
+      "text": "All right, so that's what we're going to do."
+    },
+    {
+      "idx": 43,
+      "start": 215.47,
+      "end": 219.49,
+      "text": "And today, as I said, we're going to spend most of our time"
+    },
+    {
+      "idx": 44,
+      "start": 219.49,
+      "end": 222.01,
+      "text": "on this geometric interpretation."
+    },
+    {
+      "idx": 45,
+      "start": 224.72,
+      "end": 226.54,
+      "text": "So let's begin with that."
+    },
+    {
+      "idx": 46,
+      "start": 230.11,
+      "end": 233.97,
+      "text": "So here we go with the geometric interpretation"
+    },
+    {
+      "idx": 47,
+      "start": 242.57,
+      "end": 246.99,
+      "text": "And what we're going to do is,"
+    },
+    {
+      "idx": 48,
+      "start": 246.99,
+      "end": 251.3,
+      "text": "what we're going to do is just ask the geometric problem"
+    },
+    {
+      "idx": 49,
+      "start": 251.3,
+      "end": 266.82,
+      "text": "of finding the tangent line to some graph of some function"
+    },
+    {
+      "idx": 50,
+      "start": 266.82,
+      "end": 273.02,
+      "text": "at some point, say x0, y0."
+    },
+    {
+      "idx": 51,
+      "start": 273.14,
+      "end": 276.64,
+      "text": "So that's the problem that we're addressing here."
+    },
+    {
+      "idx": 52,
+      "start": 278.16,
+      "end": 281.37,
+      "text": "Guess I should probably turn this off."
+    },
+    {
+      "idx": 53,
+      "start": 282.46,
+      "end": 285.28,
+      "text": "All right, so here's our problem."
+    },
+    {
+      "idx": 54,
+      "start": 285.71,
+      "end": 287.96,
+      "text": "And now let me show you the solution."
+    },
+    {
+      "idx": 55,
+      "start": 292.48,
+      "end": 293.96,
+      "text": "well, let's graph the function."
+    },
+    {
+      "idx": 56,
+      "start": 297.71,
+      "end": 299.65,
+      "text": "So let's say here's its graph."
+    },
+    {
+      "idx": 57,
+      "start": 300.44,
+      "end": 301.72,
+      "text": "And here's some point."
+    },
+    {
+      "idx": 58,
+      "start": 303.86,
+      "end": 307.08,
+      "text": "Maybe I should draw it just a bit lower so that I don't."
+    },
+    {
+      "idx": 59,
+      "start": 309.18,
+      "end": 310.78,
+      "text": "All right, so here's a point p."
+    },
+    {
+      "idx": 60,
+      "start": 311.28,
+      "end": 314.96,
+      "text": "Maybe it's above the point x0."
+    },
+    {
+      "idx": 61,
+      "start": 316.28,
+      "end": 319.36,
+      "text": "x0, by the way, this was supposed to be an x0."
+    },
+    {
+      "idx": 62,
+      "start": 319.42,
+      "end": 323.14,
+      "text": "That was the, some fixed place on the x-axis."
+    },
+    {
+      "idx": 63,
+      "start": 327.09,
+      "end": 330.31,
+      "text": "And now, in order to perform this,"
+    },
+    {
+      "idx": 64,
+      "start": 331.35,
+      "end": 337.5,
+      "text": "I will use another color of chalk, how about red?"
+    },
+    {
+      "idx": 65,
+      "start": 337.86,
+      "end": 341.29,
+      "text": "Okay, so, so here it is."
+    },
+    {
+      "idx": 66,
+      "start": 342.23,
+      "end": 343.37,
+      "text": "Here's the tangent line."
+    },
+    {
+      "idx": 67,
+      "start": 343.57,
+      "end": 345.35,
+      "text": "Well, not quite straight, close enough."
+    },
+    {
+      "idx": 68,
+      "start": 345.83,
+      "end": 347.57,
+      "text": "All right, I did it."
+    },
+    {
+      "idx": 69,
+      "start": 348.33,
+      "end": 349.41,
+      "text": "All right, that's the end."
+    },
+    {
+      "idx": 70,
+      "start": 349.45,
+      "end": 350.51,
+      "text": "That's the geometric problem."
+    },
+    {
+      "idx": 71,
+      "start": 350.79,
+      "end": 353.57,
+      "text": "I achieved what I wanted to do."
+    },
+    {
+      "idx": 72,
+      "start": 355.63,
+      "end": 357.87,
+      "text": "And it's kind of an interesting question,"
+    },
+    {
+      "idx": 73,
+      "start": 358.03,
+      "end": 361.55,
+      "text": "which unfortunately I can't solve for you in this class,"
+    },
+    {
+      "idx": 74,
+      "start": 361.65,
+      "end": 363.01,
+      "text": "which is how did I do that?"
+    },
+    {
+      "idx": 75,
+      "start": 363.01,
+      "end": 368.17,
+      "text": "That is, how physically did I manage to know what to do to draw this tangent line?"
+    },
+    {
+      "idx": 76,
+      "start": 368.27,
+      "end": 370.11,
+      "text": "But that's what geometric problems are like."
+    },
+    {
+      "idx": 77,
+      "start": 370.59,
+      "end": 374.91,
+      "text": "We visualize it, we can figure it out somewhere in our brains, it happens."
+    },
+    {
+      "idx": 78,
+      "start": 375.39,
+      "end": 381.07,
+      "text": "And the task that we have now is to figure out how to do it analytically,"
+    },
+    {
+      "idx": 79,
+      "start": 381.17,
+      "end": 390.5,
+      "text": "to do it in a way that a machine could do just as well as I did in drawing this tangent line."
+    },
+    {
+      "idx": 80,
+      "start": 392.35,
+      "end": 396.81,
+      "text": "So, so what do we learn?"
+    },
+    {
+      "idx": 81,
+      "start": 396.81,
+      "end": 400.6,
+      "text": "We learn in high school about what a tangent line is."
+    },
+    {
+      "idx": 82,
+      "start": 400.86,
+      "end": 403.08,
+      "text": "Well, a tangent line has an equation."
+    },
+    {
+      "idx": 83,
+      "start": 403.4,
+      "end": 409.32,
+      "text": "Any line through a point has the equation y minus y zero is equal to m,"
+    },
+    {
+      "idx": 84,
+      "start": 409.34,
+      "end": 411.3,
+      "text": "the slope, times x minus x zero."
+    },
+    {
+      "idx": 85,
+      "start": 411.44,
+      "end": 417.69,
+      "text": "So, so here's the, the equation for that line."
+    },
+    {
+      "idx": 86,
+      "start": 419.08,
+      "end": 427.21,
+      "text": "And now there are two pieces of information that we're going to need to work out what the line is."
+    },
+    {
+      "idx": 87,
+      "start": 427.35,
+      "end": 428.61,
+      "text": "The first one is the tangent line."
+    },
+    {
+      "idx": 88,
+      "start": 428.63,
+      "end": 429.29,
+      "text": "The second one is the point."
+    },
+    {
+      "idx": 89,
+      "start": 430.94,
+      "end": 433.18,
+      "text": "That's that point p there."
+    },
+    {
+      "idx": 90,
+      "start": 433.34,
+      "end": 439.78,
+      "text": "And to specify p given, given x, we need to know the, the, the level of y,"
+    },
+    {
+      "idx": 91,
+      "start": 440.04,
+      "end": 441.72,
+      "text": "which is of course just f of x zero."
+    },
+    {
+      "idx": 92,
+      "start": 442.1,
+      "end": 447.8,
+      "text": "Now that's, that's not a calculus problem, but anyway that's a very important part of the process."
+    },
+    {
+      "idx": 93,
+      "start": 448.3,
+      "end": 450.24,
+      "text": "So that's the first thing we need to know."
+    },
+    {
+      "idx": 94,
+      "start": 451.86,
+      "end": 456.6,
+      "text": "And the second thing we need to know is the slope."
+    },
+    {
+      "idx": 95,
+      "start": 459.49,
+      "end": 461.11,
+      "text": "And that's this number m."
+    },
+    {
+      "idx": 96,
+      "start": 461.11,
+      "end": 465.43,
+      "text": "And in calculus, we have another name for it."
+    },
+    {
+      "idx": 97,
+      "start": 465.47,
+      "end": 471.53,
+      "text": "We call it f prime of x0, namely the derivative of f."
+    },
+    {
+      "idx": 98,
+      "start": 471.71,
+      "end": 473.31,
+      "text": "So that's the calculus part."
+    },
+    {
+      "idx": 99,
+      "start": 473.43,
+      "end": 474.37,
+      "text": "That's the tricky part."
+    },
+    {
+      "idx": 100,
+      "start": 474.49,
+      "end": 476.39,
+      "text": "And that's the part that we have to discuss now."
+    },
+    {
+      "idx": 101,
+      "start": 477.72,
+      "end": 481.44,
+      "text": "So just to make that explicit here,"
+    },
+    {
+      "idx": 102,
+      "start": 481.56,
+      "end": 483.9,
+      "text": "I'm going to make a definition, which"
+    },
+    {
+      "idx": 103,
+      "start": 483.9,
+      "end": 493.47,
+      "text": "is that f prime of x0, which is known as the derivative of f"
+    },
+    {
+      "idx": 104,
+      "start": 495.12,
+      "end": 513.47,
+      "text": "at x0, is the slope of the tangent line to y"
+    },
+    {
+      "idx": 105,
+      "start": 514.46,
+      "end": 522.12,
+      "text": "equals f of x at the point, let's just call it P."
+    },
+    {
+      "idx": 106,
+      "start": 530.4,
+      "end": 534.14,
+      "text": "So that's what it is."
+    },
+    {
+      "idx": 107,
+      "start": 534.44,
+      "end": 536.54,
+      "text": "But still, I haven't made any predictions"
+    },
+    {
+      "idx": 108,
+      "start": 536.56,
+      "end": 539.0,
+      "text": "or any progress in figuring out any better"
+    },
+    {
+      "idx": 109,
+      "start": 539.0,
+      "end": 540.36,
+      "text": "how I drew that line."
+    },
+    {
+      "idx": 110,
+      "start": 541.14,
+      "end": 544.7,
+      "text": "So I have to say something that's more concrete,"
+    },
+    {
+      "idx": 111,
+      "start": 544.88,
+      "end": 547.62,
+      "text": "because I want to be able to cook up what these numbers are."
+    },
+    {
+      "idx": 112,
+      "start": 547.76,
+      "end": 550.52,
+      "text": "I have to figure out what this number m is."
+    },
+    {
+      "idx": 113,
+      "start": 551.42,
+      "end": 556.18,
+      "text": "And one way of thinking about that, let me just try it,"
+    },
+    {
+      "idx": 114,
+      "start": 556.28,
+      "end": 559.24,
+      "text": "is so I certainly am taking for granted"
+    },
+    {
+      "idx": 115,
+      "start": 559.24,
+      "end": 560.98,
+      "text": "the sort of non-calculus part, that I"
+    },
+    {
+      "idx": 116,
+      "start": 560.98,
+      "end": 562.48,
+      "text": "know what a line through a point is."
+    },
+    {
+      "idx": 117,
+      "start": 562.82,
+      "end": 564.06,
+      "text": "So I know this equation."
+    },
+    {
+      "idx": 118,
+      "start": 564.54,
+      "end": 566.44,
+      "text": "But another possibility might be,"
+    },
+    {
+      "idx": 119,
+      "start": 566.72,
+      "end": 568.74,
+      "text": "you know, this line here, how do I know,"
+    },
+    {
+      "idx": 120,
+      "start": 568.9,
+      "end": 570.96,
+      "text": "well, unfortunately, I didn't draw it quite straight,"
+    },
+    {
+      "idx": 121,
+      "start": 571.1,
+      "end": 571.76,
+      "text": "but there it is."
+    },
+    {
+      "idx": 122,
+      "start": 572.2,
+      "end": 577.21,
+      "text": "How do I know that this orange line is not a tangent line,"
+    },
+    {
+      "idx": 123,
+      "start": 577.71,
+      "end": 581.29,
+      "text": "but this other line is a tangent line?"
+    },
+    {
+      "idx": 124,
+      "start": 585.11,
+      "end": 591.34,
+      "text": "Well, it's actually not so obvious."
+    },
+    {
+      "idx": 125,
+      "start": 592.56,
+      "end": 596.51,
+      "text": "But I'm going to describe it a little bit."
+    },
+    {
+      "idx": 126,
+      "start": 596.59,
+      "end": 600.39,
+      "text": "It's not really the fact, this thing crosses at some other place,"
+    },
+    {
+      "idx": 127,
+      "start": 600.63,
+      "end": 602.35,
+      "text": "which is this point Q."
+    },
+    {
+      "idx": 128,
+      "start": 602.35,
+      "end": 606.71,
+      "text": "But it's not really the fact that the thing crosses at two places,"
+    },
+    {
+      "idx": 129,
+      "start": 606.77,
+      "end": 609.31,
+      "text": "because the line could be wiggly, the curve could be wiggly,"
+    },
+    {
+      "idx": 130,
+      "start": 609.43,
+      "end": 611.91,
+      "text": "and it could cross back and forth a number of times."
+    },
+    {
+      "idx": 131,
+      "start": 612.07,
+      "end": 615.45,
+      "text": "That's not what distinguishes the tangent line."
+    },
+    {
+      "idx": 132,
+      "start": 617.1,
+      "end": 620.08,
+      "text": "So I'm going to have to somehow grasp this,"
+    },
+    {
+      "idx": 133,
+      "start": 620.14,
+      "end": 621.42,
+      "text": "and I'll first do it in language."
+    },
+    {
+      "idx": 134,
+      "start": 623.54,
+      "end": 625.38,
+      "text": "And it's the following idea."
+    },
+    {
+      "idx": 135,
+      "start": 626.02,
+      "end": 630.82,
+      "text": "It's that if you take this orange line,"
+    },
+    {
+      "idx": 136,
+      "start": 631.0,
+      "end": 633.32,
+      "text": "which is called a secant line,"
+    },
+    {
+      "idx": 137,
+      "start": 633.32,
+      "end": 637.01,
+      "text": "and you think of the Q,"
+    },
+    {
+      "idx": 138,
+      "start": 637.25,
+      "end": 639.99,
+      "text": "the point Q is getting closer and closer to P,"
+    },
+    {
+      "idx": 139,
+      "start": 640.83,
+      "end": 643.95,
+      "text": "then the slope of that line will get closer and closer"
+    },
+    {
+      "idx": 140,
+      "start": 643.95,
+      "end": 646.75,
+      "text": "to the slope of the red line."
+    },
+    {
+      "idx": 141,
+      "start": 647.97,
+      "end": 651.56,
+      "text": "And if we draw it close enough,"
+    },
+    {
+      "idx": 142,
+      "start": 652.7,
+      "end": 654.54,
+      "text": "then that's going to be the correct line."
+    },
+    {
+      "idx": 143,
+      "start": 654.7,
+      "end": 657.18,
+      "text": "So that's really what I did sort of in my brain"
+    },
+    {
+      "idx": 144,
+      "start": 657.18,
+      "end": 658.38,
+      "text": "when I drew that first line."
+    },
+    {
+      "idx": 145,
+      "start": 658.52,
+      "end": 661.54,
+      "text": "And so that's the way I'm going to articulate it first now."
+    },
+    {
+      "idx": 146,
+      "start": 661.64,
+      "end": 662.74,
+      "text": "So the tangent line"
+    },
+    {
+      "idx": 147,
+      "start": 662.74,
+      "end": 674.92,
+      "text": "is equal to the limit of what's so-called secant lines,"
+    },
+    {
+      "idx": 148,
+      "start": 680.17,
+      "end": 683.72,
+      "text": "PQ, as Q tends to P."
+    },
+    {
+      "idx": 149,
+      "start": 683.98,
+      "end": 686.62,
+      "text": "And here we're thinking of P as being fixed"
+    },
+    {
+      "idx": 150,
+      "start": 687.89,
+      "end": 689.59,
+      "text": "and Q as varying."
+    },
+    {
+      "idx": 151,
+      "start": 691.72,
+      "end": 693.52,
+      "text": "All right, so that's the..."
+    },
+    {
+      "idx": 152,
+      "start": 695.34,
+      "end": 697.74,
+      "text": "Again, this is still a geometric discussion,"
+    },
+    {
+      "idx": 153,
+      "start": 698.08,
+      "end": 701.96,
+      "text": "but now we're going to be able to put symbols and formulas"
+    },
+    {
+      "idx": 154,
+      "start": 701.96,
+      "end": 703.16,
+      "text": "to this computation,"
+    },
+    {
+      "idx": 155,
+      "start": 703.52,
+      "end": 704.96,
+      "text": "and we'll be able to..."
+    },
+    {
+      "idx": 156,
+      "start": 705.8,
+      "end": 709.16,
+      "text": "to work out formulas in any example."
+    },
+    {
+      "idx": 157,
+      "start": 715.06,
+      "end": 717.32,
+      "text": "So let's do that."
+    },
+    {
+      "idx": 158,
+      "start": 718.62,
+      "end": 719.98,
+      "text": "So first of all,"
+    },
+    {
+      "idx": 159,
+      "start": 721.46,
+      "end": 725.0,
+      "text": "I'm going to write out these points P and Q again."
+    },
+    {
+      "idx": 160,
+      "start": 725.34,
+      "end": 729.18,
+      "text": "So maybe we'll put P here and Q here."
+    },
+    {
+      "idx": 161,
+      "start": 731.2,
+      "end": 733.12,
+      "text": "And I'm thinking of this line through them."
+    },
+    {
+      "idx": 162,
+      "start": 733.16,
+      "end": 734.14,
+      "text": "I guess it was orange,"
+    },
+    {
+      "idx": 163,
+      "start": 734.26,
+      "end": 736.28,
+      "text": "so we'll leave it as orange."
+    },
+    {
+      "idx": 164,
+      "start": 739.52,
+      "end": 742.24,
+      "text": "And now I want to compute its slope."
+    },
+    {
+      "idx": 165,
+      "start": 743.72,
+      "end": 745.6,
+      "text": "And so this will gradually..."
+    },
+    {
+      "idx": 166,
+      "start": 745.6,
+      "end": 747.2,
+      "text": "We'll do this in two steps,"
+    },
+    {
+      "idx": 167,
+      "start": 747.34,
+      "end": 750.38,
+      "text": "and these steps will introduce us to the basic notations"
+    },
+    {
+      "idx": 168,
+      "start": 750.38,
+      "end": 751.66,
+      "text": "which are used throughout calculus,"
+    },
+    {
+      "idx": 169,
+      "start": 752.29,
+      "end": 755.04,
+      "text": "including multivariable calculus, across the board."
+    },
+    {
+      "idx": 170,
+      "start": 755.24,
+      "end": 758.74,
+      "text": "So the first notation that's used is..."
+    },
+    {
+      "idx": 171,
+      "start": 758.74,
+      "end": 761.92,
+      "text": "You imagine here's the x-axis underneath,"
+    },
+    {
+      "idx": 172,
+      "start": 762.14,
+      "end": 764.16,
+      "text": "and here's the x0,"
+    },
+    {
+      "idx": 173,
+      "start": 764.22,
+      "end": 766.88,
+      "text": "the location directly below the point P."
+    },
+    {
+      "idx": 174,
+      "start": 767.38,
+      "end": 770.8,
+      "text": "And we're traveling here a horizontal distance,"
+    },
+    {
+      "idx": 175,
+      "start": 771.16,
+      "end": 773.3,
+      "text": "which is denoted by delta x."
+    },
+    {
+      "idx": 176,
+      "start": 774.58,
+      "end": 777.98,
+      "text": "Delta x, so-called."
+    },
+    {
+      "idx": 177,
+      "start": 778.97,
+      "end": 782.39,
+      "text": "And we could also call it the change in x."
+    },
+    {
+      "idx": 178,
+      "start": 787.27,
+      "end": 789.67,
+      "text": "So that's one thing we want to measure"
+    },
+    {
+      "idx": 179,
+      "start": 789.67,
+      "end": 792.05,
+      "text": "in order to get the slope of this line PQ."
+    },
+    {
+      "idx": 180,
+      "start": 792.33,
+      "end": 793.93,
+      "text": "And the other thing is this height."
+    },
+    {
+      "idx": 181,
+      "start": 794.37,
+      "end": 796.11,
+      "text": "So that's this distance here,"
+    },
+    {
+      "idx": 182,
+      "start": 796.25,
+      "end": 798.15,
+      "text": "which we denote delta f,"
+    },
+    {
+      "idx": 183,
+      "start": 798.37,
+      "end": 799.49,
+      "text": "which is the change in f."
+    },
+    {
+      "idx": 184,
+      "start": 801.99,
+      "end": 808.99,
+      "text": "And then the slope is just the ratio delta f over delta x."
+    },
+    {
+      "idx": 185,
+      "start": 809.27,
+      "end": 812.15,
+      "text": "So this is the slope of the..."
+    },
+    {
+      "idx": 186,
+      "start": 812.29,
+      "end": 814.9,
+      "text": "of the secant."
+    },
+    {
+      "idx": 187,
+      "start": 819.76,
+      "end": 822.98,
+      "text": "And the process I just described over here with this limit"
+    },
+    {
+      "idx": 188,
+      "start": 824.4,
+      "end": 826.52,
+      "text": "applies not just to the whole line itself,"
+    },
+    {
+      "idx": 189,
+      "start": 826.64,
+      "end": 828.5,
+      "text": "but also in particular to its slope."
+    },
+    {
+      "idx": 190,
+      "start": 828.88,
+      "end": 831.0,
+      "text": "And the way we write that is the limit"
+    },
+    {
+      "idx": 191,
+      "start": 831.0,
+      "end": 833.46,
+      "text": "as delta x goes to 0,"
+    },
+    {
+      "idx": 192,
+      "start": 834.12,
+      "end": 835.52,
+      "text": "and that's going to be our slope."
+    },
+    {
+      "idx": 193,
+      "start": 836.02,
+      "end": 839.04,
+      "text": "So this is the slope of the tangent line."
+    },
+    {
+      "idx": 194,
+      "start": 851.89,
+      "end": 859.33,
+      "text": "Now, this is still a little general,"
+    },
+    {
+      "idx": 195,
+      "start": 859.53,
+      "end": 860.37,
+      "text": "and I'm going to..."
+    },
+    {
+      "idx": 196,
+      "start": 860.37,
+      "end": 862.55,
+      "text": "I want to work out..."
+    },
+    {
+      "idx": 197,
+      "start": 862.55,
+      "end": 864.95,
+      "text": "a more usable form here."
+    },
+    {
+      "idx": 198,
+      "start": 865.58,
+      "end": 868.12,
+      "text": "I want to work out a better formula for this."
+    },
+    {
+      "idx": 199,
+      "start": 868.42,
+      "end": 869.94,
+      "text": "And in order to do that,"
+    },
+    {
+      "idx": 200,
+      "start": 870.1,
+      "end": 873.14,
+      "text": "I'm going to write delta f,"
+    },
+    {
+      "idx": 201,
+      "start": 873.3,
+      "end": 876.16,
+      "text": "the numerator, more explicitly here,"
+    },
+    {
+      "idx": 202,
+      "start": 876.28,
+      "end": 877.48,
+      "text": "the change in f."
+    },
+    {
+      "idx": 203,
+      "start": 877.72,
+      "end": 880.68,
+      "text": "So remember that the point P"
+    },
+    {
+      "idx": 204,
+      "start": 880.68,
+      "end": 884.08,
+      "text": "is the point x0, f of x0."
+    },
+    {
+      "idx": 205,
+      "start": 887.43,
+      "end": 889.57,
+      "text": "That's what we got from our formula for the point."
+    },
+    {
+      "idx": 206,
+      "start": 891.4,
+      "end": 895.44,
+      "text": "And in order to compute these distances,"
+    },
+    {
+      "idx": 207,
+      "start": 895.44,
+      "end": 897.42,
+      "text": "and in particular the vertical distance here,"
+    },
+    {
+      "idx": 208,
+      "start": 897.54,
+      "end": 900.12,
+      "text": "I'm going to have to get a formula for Q as well."
+    },
+    {
+      "idx": 209,
+      "start": 900.62,
+      "end": 905.06,
+      "text": "So if this horizontal distance is delta x,"
+    },
+    {
+      "idx": 210,
+      "start": 905.36,
+      "end": 909.58,
+      "text": "then this location is x0 plus delta x."
+    },
+    {
+      "idx": 211,
+      "start": 911.14,
+      "end": 914.82,
+      "text": "And so the point above that point has a formula,"
+    },
+    {
+      "idx": 212,
+      "start": 914.94,
+      "end": 918.9,
+      "text": "which is x0 plus..."
+    },
+    {
+      "idx": 213,
+      "start": 918.9,
+      "end": 920.42,
+      "text": "sorry, plus delta x,"
+    },
+    {
+      "idx": 214,
+      "start": 920.95,
+      "end": 924.27,
+      "text": "f of, and this is a mouthful,"
+    },
+    {
+      "idx": 215,
+      "start": 924.39,
+      "end": 926.81,
+      "text": "x0 plus delta x."
+    },
+    {
+      "idx": 216,
+      "start": 932.27,
+      "end": 934.21,
+      "text": "So there's the formula for the point Q."
+    },
+    {
+      "idx": 217,
+      "start": 934.29,
+      "end": 935.73,
+      "text": "Here's the formula for the point P."
+    },
+    {
+      "idx": 218,
+      "start": 936.17,
+      "end": 939.67,
+      "text": "And now I can write a different formula"
+    },
+    {
+      "idx": 219,
+      "start": 944.04,
+      "end": 945.08,
+      "text": "for the derivative,"
+    },
+    {
+      "idx": 220,
+      "start": 947.53,
+      "end": 948.81,
+      "text": "which is the following."
+    },
+    {
+      "idx": 221,
+      "start": 948.95,
+      "end": 951.73,
+      "text": "So this f prime of x0,"
+    },
+    {
+      "idx": 222,
+      "start": 952.29,
+      "end": 953.79,
+      "text": "which is the same as m,"
+    },
+    {
+      "idx": 223,
+      "start": 955.65,
+      "end": 957.09,
+      "text": "is going to be the limit,"
+    },
+    {
+      "idx": 224,
+      "start": 958.12,
+      "end": 960.12,
+      "text": "as delta x goes to 0,"
+    },
+    {
+      "idx": 225,
+      "start": 960.26,
+      "end": 962.18,
+      "text": "of the change in f."
+    },
+    {
+      "idx": 226,
+      "start": 962.32,
+      "end": 964.06,
+      "text": "Well, the change in f"
+    },
+    {
+      "idx": 227,
+      "start": 964.06,
+      "end": 966.16,
+      "text": "is the value of f"
+    },
+    {
+      "idx": 228,
+      "start": 966.16,
+      "end": 968.34,
+      "text": "at the upper point,"
+    },
+    {
+      "idx": 229,
+      "start": 968.78,
+      "end": 971.5,
+      "text": "which is x0 plus delta x,"
+    },
+    {
+      "idx": 230,
+      "start": 972.94,
+      "end": 975.42,
+      "text": "and minus its value at the lower point,"
+    },
+    {
+      "idx": 231,
+      "start": 975.92,
+      "end": 977.32,
+      "text": "which is f of x0,"
+    },
+    {
+      "idx": 232,
+      "start": 979.86,
+      "end": 981.88,
+      "text": "divided by delta x."
+    },
+    {
+      "idx": 233,
+      "start": 983.82,
+      "end": 985.02,
+      "text": "So this is the formula."
+    },
+    {
+      "idx": 234,
+      "start": 985.12,
+      "end": 987.42,
+      "text": "I'm going to put this in a little box,"
+    },
+    {
+      "idx": 235,
+      "start": 987.68,
+      "end": 988.92,
+      "text": "because this is by far"
+    },
+    {
+      "idx": 236,
+      "start": 989.4,
+      "end": 992.2,
+      "text": "the most important formula today,"
+    },
+    {
+      "idx": 237,
+      "start": 992.36,
+      "end": 994.86,
+      "text": "which we use to derive pretty much everything else."
+    },
+    {
+      "idx": 238,
+      "start": 995.46,
+      "end": 997.66,
+      "text": "And this is the way that we're going to be able"
+    },
+    {
+      "idx": 239,
+      "start": 997.66,
+      "end": 999.54,
+      "text": "to compute these numbers."
+    },
+    {
+      "idx": 240,
+      "start": 1007.72,
+      "end": 1008.98,
+      "text": "Let's do an example."
+    },
+    {
+      "idx": 241,
+      "start": 1027.61,
+      "end": 1029.35,
+      "text": "So we'll call this example 1."
+    },
+    {
+      "idx": 242,
+      "start": 1033.36,
+      "end": 1035.98,
+      "text": "We'll take the function f of x,"
+    },
+    {
+      "idx": 243,
+      "start": 1036.12,
+      "end": 1037.85,
+      "text": "which is 1 over x."
+    },
+    {
+      "idx": 244,
+      "start": 1039.8,
+      "end": 1041.26,
+      "text": "That's sufficiently complicated"
+    },
+    {
+      "idx": 245,
+      "start": 1041.26,
+      "end": 1043.26,
+      "text": "to have an interesting answer,"
+    },
+    {
+      "idx": 246,
+      "start": 1043.4,
+      "end": 1046.04,
+      "text": "and sufficiently straightforward"
+    },
+    {
+      "idx": 247,
+      "start": 1046.04,
+      "end": 1049.6,
+      "text": "that we can compute the derivative fairly quickly."
+    },
+    {
+      "idx": 248,
+      "start": 1052.09,
+      "end": 1054.42,
+      "text": "So what is it that we're going to do here?"
+    },
+    {
+      "idx": 249,
+      "start": 1056.35,
+      "end": 1057.47,
+      "text": "All we're going to do"
+    },
+    {
+      "idx": 250,
+      "start": 1057.47,
+      "end": 1061.8,
+      "text": "is we're going to plug in"
+    },
+    {
+      "idx": 251,
+      "start": 1061.8,
+      "end": 1064.58,
+      "text": "this formula here for that function."
+    },
+    {
+      "idx": 252,
+      "start": 1064.7,
+      "end": 1065.92,
+      "text": "That's all we're going to do."
+    },
+    {
+      "idx": 253,
+      "start": 1066.58,
+      "end": 1068.9,
+      "text": "And visually, what we're accomplishing"
+    },
+    {
+      "idx": 254,
+      "start": 1068.9,
+      "end": 1072.74,
+      "text": "is somehow to take the hyperbola"
+    },
+    {
+      "idx": 255,
+      "start": 1072.74,
+      "end": 1074.96,
+      "text": "and take a point on the hyperbola"
+    },
+    {
+      "idx": 256,
+      "start": 1074.96,
+      "end": 1080.6,
+      "text": "and figure out some tangent line."
+    },
+    {
+      "idx": 257,
+      "start": 1081.22,
+      "end": 1083.18,
+      "text": "That's what we're accomplishing when we do that."
+    },
+    {
+      "idx": 258,
+      "start": 1083.36,
+      "end": 1085.12,
+      "text": "So we're accomplishing this geometrically,"
+    },
+    {
+      "idx": 259,
+      "start": 1085.18,
+      "end": 1086.6,
+      "text": "but we'll be doing it algebraically."
+    },
+    {
+      "idx": 260,
+      "start": 1086.98,
+      "end": 1091.23,
+      "text": "So first, we consider this difference,"
+    },
+    {
+      "idx": 261,
+      "start": 1091.53,
+      "end": 1093.89,
+      "text": "delta f over delta x."
+    },
+    {
+      "idx": 262,
+      "start": 1093.91,
+      "end": 1096.42,
+      "text": "And write out its formula."
+    },
+    {
+      "idx": 263,
+      "start": 1096.7,
+      "end": 1098.44,
+      "text": "So I have to have a place,"
+    },
+    {
+      "idx": 264,
+      "start": 1098.54,
+      "end": 1099.86,
+      "text": "so I'm going to make it, again,"
+    },
+    {
+      "idx": 265,
+      "start": 1099.94,
+      "end": 1101.72,
+      "text": "above this point x0,"
+    },
+    {
+      "idx": 266,
+      "start": 1101.82,
+      "end": 1102.74,
+      "text": "which is a general point."
+    },
+    {
+      "idx": 267,
+      "start": 1102.82,
+      "end": 1104.22,
+      "text": "We'll make the general calculation."
+    },
+    {
+      "idx": 268,
+      "start": 1105.99,
+      "end": 1108.73,
+      "text": "So the value of f at the top,"
+    },
+    {
+      "idx": 269,
+      "start": 1108.89,
+      "end": 1111.17,
+      "text": "when we move to the right by f ,"
+    },
+    {
+      "idx": 270,
+      "start": 1111.17,
+      "end": 1117.88,
+      "text": "so I just read off from here the formula."
+    },
+    {
+      "idx": 271,
+      "start": 1118.4,
+      "end": 1122.8,
+      "text": "The first thing I get here is 1 over x0 plus delta x."
+    },
+    {
+      "idx": 272,
+      "start": 1124.25,
+      "end": 1126.13,
+      "text": "That's the left-hand term."
+    },
+    {
+      "idx": 273,
+      "start": 1126.13,
+      "end": 1128.13,
+      "text": "Minus 1 over x0."
+    },
+    {
+      "idx": 274,
+      "start": 1128.71,
+      "end": 1130.01,
+      "text": "That's the right-hand term."
+    },
+    {
+      "idx": 275,
+      "start": 1130.19,
+      "end": 1132.55,
+      "text": "And then I have to divide that by delta x."
+    },
+    {
+      "idx": 276,
+      "start": 1134.22,
+      "end": 1137.52,
+      "text": "Okay, so here's our expression."
+    },
+    {
+      "idx": 277,
+      "start": 1137.9,
+      "end": 1140.58,
+      "text": "And by the way, this has a name."
+    },
+    {
+      "idx": 278,
+      "start": 1141.21,
+      "end": 1144.47,
+      "text": "This thing is called a difference quotient."
+    },
+    {
+      "idx": 279,
+      "start": 1150.26,
+      "end": 1151.5,
+      "text": "It's pretty complicated"
+    },
+    {
+      "idx": 280,
+      "start": 1151.5,
+      "end": 1153.84,
+      "text": "because there's always a difference in the numerator,"
+    },
+    {
+      "idx": 281,
+      "start": 1154.12,
+      "end": 1156.3,
+      "text": "and in disguise, the denominator is a difference"
+    },
+    {
+      "idx": 282,
+      "start": 1156.3,
+      "end": 1158.08,
+      "text": "because it's the difference between the value"
+    },
+    {
+      "idx": 283,
+      "start": 1158.08,
+      "end": 1162.26,
+      "text": "on the right side and the value on the left side here."
+    },
+    {
+      "idx": 284,
+      "start": 1166.66,
+      "end": 1172.96,
+      "text": "Okay, so now we're going to simplify it by some algebra."
+    },
+    {
+      "idx": 285,
+      "start": 1174.64,
+      "end": 1176.14,
+      "text": "So let's just take a look."
+    },
+    {
+      "idx": 286,
+      "start": 1176.24,
+      "end": 1177.34,
+      "text": "So this is equal to,"
+    },
+    {
+      "idx": 287,
+      "start": 1177.44,
+      "end": 1180.83,
+      "text": "let's continue on the next level here,"
+    },
+    {
+      "idx": 288,
+      "start": 1181.03,
+      "end": 1184.45,
+      "text": "this is equal to 1 over delta x times,"
+    },
+    {
+      "idx": 289,
+      "start": 1184.99,
+      "end": 1188.39,
+      "text": "now all I'm going to do is put it over a common denominator."
+    },
+    {
+      "idx": 290,
+      "start": 1189.15,
+      "end": 1195.89,
+      "text": "So the common denominator is x0 plus delta x times x0."
+    },
+    {
+      "idx": 291,
+      "start": 1196.35,
+      "end": 1199.15,
+      "text": "And so in the numerator for the first expression,"
+    },
+    {
+      "idx": 292,
+      "start": 1199.47,
+      "end": 1200.37,
+      "text": "I have x0."
+    },
+    {
+      "idx": 293,
+      "start": 1200.63,
+      "end": 1204.03,
+      "text": "And for the second expression, I have x0 plus delta x."
+    },
+    {
+      "idx": 294,
+      "start": 1205.06,
+      "end": 1208.72,
+      "text": "So this is the same thing as I had in the numerator before,"
+    },
+    {
+      "idx": 295,
+      "start": 1208.9,
+      "end": 1210.4,
+      "text": "factoring out this denominator."
+    },
+    {
+      "idx": 296,
+      "start": 1210.86,
+      "end": 1216.72,
+      "text": "And here I put that numerator into this more amenable form."
+    },
+    {
+      "idx": 297,
+      "start": 1216.98,
+      "end": 1220.62,
+      "text": "And now there are two basic cancellations."
+    },
+    {
+      "idx": 298,
+      "start": 1220.7,
+      "end": 1222.96,
+      "text": "The first one is that x0 and x0 cancel."
+    },
+    {
+      "idx": 299,
+      "start": 1223.91,
+      "end": 1225.11,
+      "text": "So we have this."
+    },
+    {
+      "idx": 300,
+      "start": 1233.11,
+      "end": 1236.29,
+      "text": "And then the second step is that these,"
+    },
+    {
+      "idx": 301,
+      "start": 1236.29,
+      "end": 1238.69,
+      "text": "two expressions cancel."
+    },
+    {
+      "idx": 302,
+      "start": 1239.03,
+      "end": 1240.49,
+      "text": "The numerator and denominator,"
+    },
+    {
+      "idx": 303,
+      "start": 1240.67,
+      "end": 1244.01,
+      "text": "now we have a cancellation that we can make use of."
+    },
+    {
+      "idx": 304,
+      "start": 1244.19,
+      "end": 1246.45,
+      "text": "So we'll write that under here."
+    },
+    {
+      "idx": 305,
+      "start": 1248.62,
+      "end": 1257.2,
+      "text": "And this is equals minus 1 over x0 plus delta x times x0."
+    },
+    {
+      "idx": 306,
+      "start": 1257.6,
+      "end": 1261.42,
+      "text": "And then the very last step is to take the limit"
+    },
+    {
+      "idx": 307,
+      "start": 1262.9,
+      "end": 1264.84,
+      "text": "as delta x tends to 0."
+    },
+    {
+      "idx": 308,
+      "start": 1266.37,
+      "end": 1269.74,
+      "text": "And now we can do it."
+    },
+    {
+      "idx": 309,
+      "start": 1269.74,
+      "end": 1271.0,
+      "text": "Before, we couldn't do it."
+    },
+    {
+      "idx": 310,
+      "start": 1271.72,
+      "end": 1274.9,
+      "text": "Because the numerator and the dominator gave us 0 over 0."
+    },
+    {
+      "idx": 311,
+      "start": 1275.3,
+      "end": 1277.42,
+      "text": "But now that I've made this cancellation,"
+    },
+    {
+      "idx": 312,
+      "start": 1277.86,
+      "end": 1279.2,
+      "text": "I can pass to the limit."
+    },
+    {
+      "idx": 313,
+      "start": 1279.48,
+      "end": 1282.3,
+      "text": "And all that happens is I set this delta x equal to 0,"
+    },
+    {
+      "idx": 314,
+      "start": 1282.42,
+      "end": 1285.16,
+      "text": "and I get minus 1 over x0 squared."
+    },
+    {
+      "idx": 315,
+      "start": 1285.68,
+      "end": 1287.14,
+      "text": "All right, so that's the answer."
+    },
+    {
+      "idx": 316,
+      "start": 1292.15,
+      "end": 1293.89,
+      "text": "All right, so in other words, what I've shown,"
+    },
+    {
+      "idx": 317,
+      "start": 1294.09,
+      "end": 1300.51,
+      "text": "let me put it up here, is that f prime of x0 is minus 1 over x0 squared."
+    },
+    {
+      "idx": 318,
+      "start": 1313.23,
+      "end": 1315.51,
+      "text": "Now, let's look at the graph."
+    },
+    {
+      "idx": 319,
+      "start": 1315.51,
+      "end": 1319.15,
+      "text": "Just a little bit to check this for plausibility, all right?"
+    },
+    {
+      "idx": 320,
+      "start": 1321.84,
+      "end": 1325.46,
+      "text": "What's happening here is, first of all, it's negative, right?"
+    },
+    {
+      "idx": 321,
+      "start": 1325.8,
+      "end": 1328.64,
+      "text": "It's less than 0, which is a good thing."
+    },
+    {
+      "idx": 322,
+      "start": 1328.74,
+      "end": 1330.38,
+      "text": "You see that slope there is negative."
+    },
+    {
+      "idx": 323,
+      "start": 1336.66,
+      "end": 1340.6,
+      "text": "That's the simplest check that you could make."
+    },
+    {
+      "idx": 324,
+      "start": 1340.88,
+      "end": 1344.76,
+      "text": "And the second thing that I would just like to point out"
+    },
+    {
+      "idx": 325,
+      "start": 1344.76,
+      "end": 1348.66,
+      "text": "is that as x goes to infinity, that is,"
+    },
+    {
+      "idx": 326,
+      "start": 1348.68,
+      "end": 1350.24,
+      "text": "as we go farther to the right,"
+    },
+    {
+      "idx": 327,
+      "start": 1350.24,
+      "end": 1352.18,
+      "text": "it gets less and less steep."
+    },
+    {
+      "idx": 328,
+      "start": 1352.74,
+      "end": 1359.7,
+      "text": "So less and, whoops, as x0 goes to infinity, not 0."
+    },
+    {
+      "idx": 329,
+      "start": 1360.3,
+      "end": 1363.9,
+      "text": "As x0 goes to infinity, less and less steep."
+    },
+    {
+      "idx": 330,
+      "start": 1366.02,
+      "end": 1368.26,
+      "text": "So that's also consistent here."
+    },
+    {
+      "idx": 331,
+      "start": 1368.44,
+      "end": 1371.4,
+      "text": "When x0 is very large, this is a smaller and smaller number"
+    },
+    {
+      "idx": 332,
+      "start": 1371.4,
+      "end": 1374.04,
+      "text": "in magnitude, although it's always negative."
+    },
+    {
+      "idx": 333,
+      "start": 1374.24,
+      "end": 1375.34,
+      "text": "It's always sloping down."
+    },
+    {
+      "idx": 334,
+      "start": 1382.3,
+      "end": 1384.2,
+      "text": "So I've managed to fill the boards,"
+    },
+    {
+      "idx": 335,
+      "start": 1384.24,
+      "end": 1386.2,
+      "text": "so maybe I should stop for a question or two."
+    },
+    {
+      "idx": 336,
+      "start": 1386.78,
+      "end": 1401.41,
+      "text": "So the question is to explain again this limiting process."
+    },
+    {
+      "idx": 337,
+      "start": 1402.23,
+      "end": 1405.91,
+      "text": "So the formula here is we have basically two numbers."
+    },
+    {
+      "idx": 338,
+      "start": 1406.62,
+      "end": 1408.84,
+      "text": "So in other words, why is it that this expression,"
+    },
+    {
+      "idx": 339,
+      "start": 1409.06,
+      "end": 1413.52,
+      "text": "when delta x tends to 0, is equal to minus 1 over x0 squared?"
+    },
+    {
+      "idx": 340,
+      "start": 1413.9,
+      "end": 1418.0,
+      "text": "Let me illustrate it by sticking in a number for x0"
+    },
+    {
+      "idx": 341,
+      "start": 1418.0,
+      "end": 1420.38,
+      "text": "to make it more explicit, all right?"
+    },
+    {
+      "idx": 342,
+      "start": 1420.4,
+      "end": 1424.78,
+      "text": "So for instance, let me stick in here for x0,"
+    },
+    {
+      "idx": 343,
+      "start": 1424.78,
+      "end": 1425.82,
+      "text": "the number 3."
+    },
+    {
+      "idx": 344,
+      "start": 1426.14,
+      "end": 1431.84,
+      "text": "Then it's minus 1 over 3 plus delta x times 3."
+    },
+    {
+      "idx": 345,
+      "start": 1432.6,
+      "end": 1434.32,
+      "text": "That's the situation that we've got."
+    },
+    {
+      "idx": 346,
+      "start": 1434.56,
+      "end": 1436.28,
+      "text": "And now the question is, what happens"
+    },
+    {
+      "idx": 347,
+      "start": 1436.28,
+      "end": 1438.28,
+      "text": "as this number gets smaller and smaller and smaller"
+    },
+    {
+      "idx": 348,
+      "start": 1438.74,
+      "end": 1441.48,
+      "text": "and gets to be practically 0?"
+    },
+    {
+      "idx": 349,
+      "start": 1441.9,
+      "end": 1444.76,
+      "text": "Well, literally, what we can do is just plug in 0 there."
+    },
+    {
+      "idx": 350,
+      "start": 1444.84,
+      "end": 1447.2,
+      "text": "Then you get 3 plus 0 times 3 in the denominator,"
+    },
+    {
+      "idx": 351,
+      "start": 1447.44,
+      "end": 1448.72,
+      "text": "minus 1 in the numerator."
+    },
+    {
+      "idx": 352,
+      "start": 1448.92,
+      "end": 1455.06,
+      "text": "So this tends to minus 1 over 9 over 3 squared."
+    },
+    {
+      "idx": 353,
+      "start": 1455.06,
+      "end": 1457.82,
+      "text": "And that's what I'm saying in general"
+    },
+    {
+      "idx": 354,
+      "start": 1457.82,
+      "end": 1461.47,
+      "text": "with this extra number here."
+    },
+    {
+      "idx": 355,
+      "start": 1475.82,
+      "end": 1481.61,
+      "text": "So the question is, what happened between this step"
+    },
+    {
+      "idx": 356,
+      "start": 1481.61,
+      "end": 1483.11,
+      "text": "and this step, right?"
+    },
+    {
+      "idx": 357,
+      "start": 1483.63,
+      "end": 1486.35,
+      "text": "Explain this step here, all right?"
+    },
+    {
+      "idx": 358,
+      "start": 1486.39,
+      "end": 1488.15,
+      "text": "So there were two parts to that."
+    },
+    {
+      "idx": 359,
+      "start": 1488.29,
+      "end": 1492.51,
+      "text": "The first is this delta x, which was sitting in the denominator,"
+    },
+    {
+      "idx": 360,
+      "start": 1493.74,
+      "end": 1495.66,
+      "text": "I factored all the way out front."
+    },
+    {
+      "idx": 361,
+      "start": 1496.02,
+      "end": 1499.4,
+      "text": "And so what's in the parentheses is supposed to be the same"
+    },
+    {
+      "idx": 362,
+      "start": 1499.4,
+      "end": 1503.0,
+      "text": "as what's in the numerator of this other expression."
+    },
+    {
+      "idx": 363,
+      "start": 1503.22,
+      "end": 1506.14,
+      "text": "And then at the same time as doing that,"
+    },
+    {
+      "idx": 364,
+      "start": 1506.26,
+      "end": 1509.66,
+      "text": "I put that expression, which is the difference of two fractions,"
+    },
+    {
+      "idx": 365,
+      "start": 1509.96,
+      "end": 1511.78,
+      "text": "I expressed it with a common denominator."
+    },
+    {
+      "idx": 366,
+      "start": 1512.1,
+      "end": 1514.36,
+      "text": "So in the denominator here, you see the product"
+    },
+    {
+      "idx": 367,
+      "start": 1514.36,
+      "end": 1517.1,
+      "text": "of the denominators of the two fractions."
+    },
+    {
+      "idx": 368,
+      "start": 1517.18,
+      "end": 1519.46,
+      "text": "And then I just figured out what the numerator had to be"
+    },
+    {
+      "idx": 369,
+      "start": 1519.94,
+      "end": 1523.68,
+      "text": "without really, yeah, other questions."
+    },
+    {
+      "idx": 370,
+      "start": 1529.27,
+      "end": 1536.78,
+      "text": "So now, so I claim that on the whole,"
+    },
+    {
+      "idx": 371,
+      "start": 1537.24,
+      "end": 1540.9,
+      "text": "calculus gets a bad rap,"
+    },
+    {
+      "idx": 372,
+      "start": 1541.16,
+      "end": 1545.76,
+      "text": "that it's actually easier than most things."
+    },
+    {
+      "idx": 373,
+      "start": 1547.02,
+      "end": 1551.42,
+      "text": "But there's a perception that it's harder."
+    },
+    {
+      "idx": 374,
+      "start": 1551.78,
+      "end": 1555.8,
+      "text": "And so I really have a duty to give you"
+    },
+    {
+      "idx": 375,
+      "start": 1555.8,
+      "end": 1557.9,
+      "text": "the calculus made harder story."
+    },
+    {
+      "idx": 376,
+      "start": 1558.8,
+      "end": 1563.32,
+      "text": "So we have to make things harder because that's our job."
+    },
+    {
+      "idx": 377,
+      "start": 1563.56,
+      "end": 1566.42,
+      "text": "And this is actually what most people do in calculus,"
+    },
+    {
+      "idx": 378,
+      "start": 1566.62,
+      "end": 1569.28,
+      "text": "and it's the reason why calculus has a bad reputation."
+    },
+    {
+      "idx": 379,
+      "start": 1569.64,
+      "end": 1576.58,
+      "text": "So the secret is that when people ask problems in calculus,"
+    },
+    {
+      "idx": 380,
+      "start": 1576.8,
+      "end": 1578.76,
+      "text": "they generally ask them in context."
+    },
+    {
+      "idx": 381,
+      "start": 1579.38,
+      "end": 1582.02,
+      "text": "And there are many, many other things going on."
+    },
+    {
+      "idx": 382,
+      "start": 1582.64,
+      "end": 1585.48,
+      "text": "And so the little piece of the problem, which is calculus,"
+    },
+    {
+      "idx": 383,
+      "start": 1585.7,
+      "end": 1588.54,
+      "text": "is actually fairly routine and has to be isolated"
+    },
+    {
+      "idx": 384,
+      "start": 1588.54,
+      "end": 1589.3,
+      "text": "and gotten through."
+    },
+    {
+      "idx": 385,
+      "start": 1589.38,
+      "end": 1591.88,
+      "text": "But all the rest of it relies on everything else you learned"
+    },
+    {
+      "idx": 386,
+      "start": 1592.32,
+      "end": 1593.94,
+      "text": "in mathematics up to this stage,"
+    },
+    {
+      "idx": 387,
+      "start": 1594.14,
+      "end": 1597.16,
+      "text": "from grade school through high school."
+    },
+    {
+      "idx": 388,
+      "start": 1597.34,
+      "end": 1600.16,
+      "text": "So that's the complication."
+    },
+    {
+      "idx": 389,
+      "start": 1600.36,
+      "end": 1602.88,
+      "text": "So now we're going to do a little bit of calculus made hard"
+    },
+    {
+      "idx": 390,
+      "start": 1609.72,
+      "end": 1611.74,
+      "text": "by talking about a word problem."
+    },
+    {
+      "idx": 391,
+      "start": 1612.93,
+      "end": 1617.49,
+      "text": "Now, we only have one sort of word problem that we can pose"
+    },
+    {
+      "idx": 392,
+      "start": 1618.51,
+      "end": 1623.13,
+      "text": "because all we've talked about is this geometry point of view."
+    },
+    {
+      "idx": 393,
+      "start": 1623.29,
+      "end": 1624.11,
+      "text": "So, so far,"
+    },
+    {
+      "idx": 394,
+      "start": 1624.11,
+      "end": 1626.03,
+      "text": "those are the only kinds of word problems we can pose."
+    },
+    {
+      "idx": 395,
+      "start": 1626.19,
+      "end": 1628.63,
+      "text": "So what we're going to do is just pose such a problem."
+    },
+    {
+      "idx": 396,
+      "start": 1628.85,
+      "end": 1645.89,
+      "text": "So find the areas, triangles, enclosed, the axes,"
+    },
+    {
+      "idx": 397,
+      "start": 1648.65,
+      "end": 1658.86,
+      "text": "and the tangent, y equals 1 over x."
+    },
+    {
+      "idx": 398,
+      "start": 1660.09,
+      "end": 1662.43,
+      "text": "So that's a geometry problem."
+    },
+    {
+      "idx": 399,
+      "start": 1663.64,
+      "end": 1665.86,
+      "text": "And let me draw a picture of it."
+    },
+    {
+      "idx": 400,
+      "start": 1666.65,
+      "end": 1670.31,
+      "text": "It's practically the same as the picture for example one,"
+    },
+    {
+      "idx": 401,
+      "start": 1672.55,
+      "end": 1674.59,
+      "text": "We'll only consider the first quadrant."
+    },
+    {
+      "idx": 402,
+      "start": 1674.99,
+      "end": 1676.09,
+      "text": "Here's our shape."
+    },
+    {
+      "idx": 403,
+      "start": 1677.61,
+      "end": 1679.47,
+      "text": "It's the hyperbola."
+    },
+    {
+      "idx": 404,
+      "start": 1680.03,
+      "end": 1682.17,
+      "text": "And here's maybe one of our tangent lines,"
+    },
+    {
+      "idx": 405,
+      "start": 1682.65,
+      "end": 1684.55,
+      "text": "which is coming in like this."
+    },
+    {
+      "idx": 406,
+      "start": 1685.22,
+      "end": 1689.89,
+      "text": "And then we're trying to find this area here."
+    },
+    {
+      "idx": 407,
+      "start": 1692.88,
+      "end": 1694.28,
+      "text": "So there's our problem."
+    },
+    {
+      "idx": 408,
+      "start": 1694.46,
+      "end": 1696.16,
+      "text": "So why does it have to do with calculus?"
+    },
+    {
+      "idx": 409,
+      "start": 1696.38,
+      "end": 1698.72,
+      "text": "It has to do with calculus because there's a tangent line in it."
+    },
+    {
+      "idx": 410,
+      "start": 1698.88,
+      "end": 1701.08,
+      "text": "And so we're going to need to do some calculus"
+    },
+    {
+      "idx": 411,
+      "start": 1701.82,
+      "end": 1703.46,
+      "text": "to answer this question."
+    },
+    {
+      "idx": 412,
+      "start": 1704.21,
+      "end": 1705.67,
+      "text": "But as you'll see,"
+    },
+    {
+      "idx": 413,
+      "start": 1705.67,
+      "end": 1707.97,
+      "text": "the calculus is the easy part."
+    },
+    {
+      "idx": 414,
+      "start": 1710.09,
+      "end": 1712.94,
+      "text": "So let's get started with this problem."
+    },
+    {
+      "idx": 415,
+      "start": 1714.24,
+      "end": 1716.98,
+      "text": "First of all, I'm going to label a few things."
+    },
+    {
+      "idx": 416,
+      "start": 1717.28,
+      "end": 1720.14,
+      "text": "And one important thing to remember, of course,"
+    },
+    {
+      "idx": 417,
+      "start": 1720.16,
+      "end": 1722.32,
+      "text": "is that the curve is y equals 1 over x."
+    },
+    {
+      "idx": 418,
+      "start": 1722.9,
+      "end": 1724.6,
+      "text": "That's perfectly reasonable to do."
+    },
+    {
+      "idx": 419,
+      "start": 1725.9,
+      "end": 1728.62,
+      "text": "And also, we're going to calculate the areas"
+    },
+    {
+      "idx": 420,
+      "start": 1728.62,
+      "end": 1729.26,
+      "text": "of the triangles."
+    },
+    {
+      "idx": 421,
+      "start": 1729.38,
+      "end": 1731.32,
+      "text": "And you could ask yourself, in terms of what?"
+    },
+    {
+      "idx": 422,
+      "start": 1731.78,
+      "end": 1734.56,
+      "text": "Well, we're going to have to pick a point and give it a name."
+    },
+    {
+      "idx": 423,
+      "start": 1734.72,
+      "end": 1736.64,
+      "text": "And since we need a number, we're going to have to do more"
+    },
+    {
+      "idx": 424,
+      "start": 1737.02,
+      "end": 1737.28,
+      "text": "of the geometry."
+    },
+    {
+      "idx": 425,
+      "start": 1737.34,
+      "end": 1739.16,
+      "text": "We're going to have to do some of this analysis,"
+    },
+    {
+      "idx": 426,
+      "start": 1739.34,
+      "end": 1741.16,
+      "text": "just as we've done before."
+    },
+    {
+      "idx": 427,
+      "start": 1741.38,
+      "end": 1742.32,
+      "text": "So I'm going to pick a point."
+    },
+    {
+      "idx": 428,
+      "start": 1742.52,
+      "end": 1745.16,
+      "text": "And consistent with the labeling we've done before,"
+    },
+    {
+      "idx": 429,
+      "start": 1745.4,
+      "end": 1746.68,
+      "text": "I'm going to call it ."
+    },
+    {
+      "idx": 430,
+      "start": 1748.21,
+      "end": 1750.69,
+      "text": "So that's almost half the battle,"
+    },
+    {
+      "idx": 431,
+      "start": 1751.73,
+      "end": 1754.77,
+      "text": "having notations x and y for the variables"
+    },
+    {
+      "idx": 432,
+      "start": 1754.77,
+      "end": 1758.03,
+      "text": "and x0 and y0 for the specific point."
+    },
+    {
+      "idx": 433,
+      "start": 1759.85,
+      "end": 1763.35,
+      "text": "Now, once you see that you have these labelings,"
+    },
+    {
+      "idx": 434,
+      "start": 1764.4,
+      "end": 1766.0,
+      "text": "I hope it's reasonable"
+    },
+    {
+      "idx": 435,
+      "start": 1766.0,
+      "end": 1768.33,
+      "text": "to do the following."
+    },
+    {
+      "idx": 436,
+      "start": 1768.47,
+      "end": 1771.25,
+      "text": "So first of all, this is the point x0,"
+    },
+    {
+      "idx": 437,
+      "start": 1771.43,
+      "end": 1773.27,
+      "text": "and over here is the point y0."
+    },
+    {
+      "idx": 438,
+      "start": 1773.77,
+      "end": 1776.75,
+      "text": "That's something that we're used to in graphs."
+    },
+    {
+      "idx": 439,
+      "start": 1777.79,
+      "end": 1780.11,
+      "text": "And in order to figure out the area of this triangle,"
+    },
+    {
+      "idx": 440,
+      "start": 1780.31,
+      "end": 1782.69,
+      "text": "it's pretty clear that we should find the base,"
+    },
+    {
+      "idx": 441,
+      "start": 1782.91,
+      "end": 1785.73,
+      "text": "which is that we should find this location here,"
+    },
+    {
+      "idx": 442,
+      "start": 1785.89,
+      "end": 1787.57,
+      "text": "and we should find the height."
+    },
+    {
+      "idx": 443,
+      "start": 1787.75,
+      "end": 1790.94,
+      "text": "So we need to find that value there."
+    },
+    {
+      "idx": 444,
+      "start": 1794.04,
+      "end": 1797.78,
+      "text": "All right, so let's go ahead and do it."
+    },
+    {
+      "idx": 445,
+      "start": 1798.86,
+      "end": 1799.34,
+      "text": "So let's go ahead and do it."
+    },
+    {
+      "idx": 446,
+      "start": 1799.34,
+      "end": 1802.14,
+      "text": "So how are we going to do this?"
+    },
+    {
+      "idx": 447,
+      "start": 1802.64,
+      "end": 1811.0,
+      "text": "Well, so let's just take a look."
+    },
+    {
+      "idx": 448,
+      "start": 1815.02,
+      "end": 1816.7,
+      "text": "So what is it that we need to do?"
+    },
+    {
+      "idx": 449,
+      "start": 1817.25,
+      "end": 1820.67,
+      "text": "I claim that there's only one calculus step."
+    },
+    {
+      "idx": 450,
+      "start": 1821.05,
+      "end": 1825.78,
+      "text": "And I'm going to put a star here for this tangent line."
+    },
+    {
+      "idx": 451,
+      "start": 1825.9,
+      "end": 1828.42,
+      "text": "I have to understand what the tangent line is."
+    },
+    {
+      "idx": 452,
+      "start": 1828.8,
+      "end": 1830.78,
+      "text": "And once I figure out what the tangent line is,"
+    },
+    {
+      "idx": 453,
+      "start": 1830.82,
+      "end": 1833.04,
+      "text": "the rest of the problem is no longer calculus."
+    },
+    {
+      "idx": 454,
+      "start": 1833.26,
+      "end": 1835.44,
+      "text": "It's just that slope that we need."
+    },
+    {
+      "idx": 455,
+      "start": 1835.94,
+      "end": 1838.2,
+      "text": "So what's the formula for the tangent line?"
+    },
+    {
+      "idx": 456,
+      "start": 1838.2,
+      "end": 1839.38,
+      "text": "Put that over here."
+    },
+    {
+      "idx": 457,
+      "start": 1840.88,
+      "end": 1845.94,
+      "text": "It's going to be y minus y0 is equal to,"
+    },
+    {
+      "idx": 458,
+      "start": 1846.02,
+      "end": 1847.3,
+      "text": "and here's the magic number."
+    },
+    {
+      "idx": 459,
+      "start": 1847.4,
+      "end": 1848.62,
+      "text": "We already calculated it."
+    },
+    {
+      "idx": 460,
+      "start": 1848.66,
+      "end": 1850.38,
+      "text": "It's in the box over there."
+    },
+    {
+      "idx": 461,
+      "start": 1851.4,
+      "end": 1857.59,
+      "text": "It's minus 1 over x0 squared, x minus x0."
+    },
+    {
+      "idx": 462,
+      "start": 1858.21,
+      "end": 1861.65,
+      "text": "So this is the only bit of calculus in this problem."
+    },
+    {
+      "idx": 463,
+      "start": 1861.93,
+      "end": 1875.01,
+      "text": "But now we're not done."
+    },
+    {
+      "idx": 464,
+      "start": 1875.41,
+      "end": 1877.05,
+      "text": "We have to finish it."
+    },
+    {
+      "idx": 465,
+      "start": 1877.15,
+      "end": 1879.45,
+      "text": "We have to figure out all the rest of these quantities"
+    },
+    {
+      "idx": 466,
+      "start": 1879.45,
+      "end": 1880.65,
+      "text": "so we can figure out the area."
+    },
+    {
+      "idx": 467,
+      "start": 1891.16,
+      "end": 1892.42,
+      "text": "So how do we do that?"
+    },
+    {
+      "idx": 468,
+      "start": 1901.71,
+      "end": 1904.37,
+      "text": "To find this point, this has a name."
+    },
+    {
+      "idx": 469,
+      "start": 1904.67,
+      "end": 1909.27,
+      "text": "We're going to find the so-called x-intercept."
+    },
+    {
+      "idx": 470,
+      "start": 1912.8,
+      "end": 1914.46,
+      "text": "That's the first thing we're going to do."
+    },
+    {
+      "idx": 471,
+      "start": 1914.62,
+      "end": 1919.31,
+      "text": "So to do that, what we need to do is to find where this"
+    },
+    {
+      "idx": 472,
+      "start": 1919.31,
+      "end": 1921.87,
+      "text": "horizontal line meets that diagonal line."
+    },
+    {
+      "idx": 473,
+      "start": 1922.49,
+      "end": 1927.37,
+      "text": "And the equation for the x-intercept is y equals 0."
+    },
+    {
+      "idx": 474,
+      "start": 1929.64,
+      "end": 1932.64,
+      "text": "So we plug in y equals 0."
+    },
+    {
+      "idx": 475,
+      "start": 1932.64,
+      "end": 1933.7,
+      "text": "That's this horizontal line."
+    },
+    {
+      "idx": 476,
+      "start": 1933.76,
+      "end": 1934.66,
+      "text": "And we find this point."
+    },
+    {
+      "idx": 477,
+      "start": 1935.16,
+      "end": 1937.04,
+      "text": "So let's do that into star."
+    },
+    {
+      "idx": 478,
+      "start": 1938.36,
+      "end": 1942.74,
+      "text": "So we get 0 minus, oh, one other thing we need to know."
+    },
+    {
+      "idx": 479,
+      "start": 1942.88,
+      "end": 1948.96,
+      "text": "We know that y0 is f of x0 and f of x is 1 over x."
+    },
+    {
+      "idx": 480,
+      "start": 1949.08,
+      "end": 1952.18,
+      "text": "So this thing is 1 over x0."
+    },
+    {
+      "idx": 481,
+      "start": 1954.2,
+      "end": 1957.96,
+      "text": "And that's equal to minus 1 over x0 squared."
+    },
+    {
+      "idx": 482,
+      "start": 1958.52,
+      "end": 1960.72,
+      "text": "And here's x and here's x0."
+    },
+    {
+      "idx": 483,
+      "start": 1962.51,
+      "end": 1966.18,
+      "text": "So in order to find this x value,"
+    },
+    {
+      "idx": 484,
+      "start": 1966.54,
+      "end": 1970.68,
+      "text": "I have to plug in one equation into the other."
+    },
+    {
+      "idx": 485,
+      "start": 1973.74,
+      "end": 1975.84,
+      "text": "So this simplifies a bit."
+    },
+    {
+      "idx": 486,
+      "start": 1977.29,
+      "end": 1983.09,
+      "text": "Let's put, let's see, this is minus x over x0 squared."
+    },
+    {
+      "idx": 487,
+      "start": 1983.35,
+      "end": 1988.71,
+      "text": "And this is plus 1 over x0 because the x0 and x0 squared"
+    },
+    {
+      "idx": 488,
+      "start": 1990.39,
+      "end": 1992.65,
+      "text": "And so if I put this on the other side,"
+    },
+    {
+      "idx": 489,
+      "start": 1992.65,
+      "end": 2000.06,
+      "text": "I get x divided by x0 squared is equal to 2 over x0."
+    },
+    {
+      "idx": 490,
+      "start": 2000.82,
+      "end": 2004.58,
+      "text": "And if I then multiply through, so that's what this implies."
+    },
+    {
+      "idx": 491,
+      "start": 2004.72,
+      "end": 2009.19,
+      "text": "And if I multiply through by x0 squared,"
+    },
+    {
+      "idx": 492,
+      "start": 2009.31,
+      "end": 2011.25,
+      "text": "I get x is equal to 2x0."
+    },
+    {
+      "idx": 493,
+      "start": 2014.37,
+      "end": 2022.46,
+      "text": "OK, so I claim at this point, we've just calculated,"
+    },
+    {
+      "idx": 494,
+      "start": 2031.83,
+      "end": 2036.28,
+      "text": "Now, I'm almost done."
+    },
+    {
+      "idx": 495,
+      "start": 2037.24,
+      "end": 2040.42,
+      "text": "I need to get the other one."
+    },
+    {
+      "idx": 496,
+      "start": 2040.5,
+      "end": 2041.78,
+      "text": "I need to get this one up here."
+    },
+    {
+      "idx": 497,
+      "start": 2041.78,
+      "end": 2046.15,
+      "text": "Now, I'm going to use a very big shortcut to do that."
+    },
+    {
+      "idx": 498,
+      "start": 2047.52,
+      "end": 2053.84,
+      "text": "So the shortcut to the y-intercept,"
+    },
+    {
+      "idx": 499,
+      "start": 2053.96,
+      "end": 2062.04,
+      "text": "sorry, yeah, the y-intercept is to use symmetry."
+    },
+    {
+      "idx": 500,
+      "start": 2062.5,
+      "end": 2071.14,
+      "text": "All right, I claim I can stare at this and I can look at that"
+    },
+    {
+      "idx": 501,
+      "start": 2071.14,
+      "end": 2073.12,
+      "text": "and I know the formula for the y-intercept."
+    },
+    {
+      "idx": 502,
+      "start": 2073.72,
+      "end": 2078.36,
+      "text": "It's equal to 2y0."
+    },
+    {
+      "idx": 503,
+      "start": 2078.72,
+      "end": 2081.65,
+      "text": "All right, that's what that one is."
+    },
+    {
+      "idx": 504,
+      "start": 2082.19,
+      "end": 2083.89,
+      "text": "So this one is 2y0."
+    },
+    {
+      "idx": 505,
+      "start": 2083.89,
+      "end": 2087.79,
+      "text": "And the reason I know this is the following."
+    },
+    {
+      "idx": 506,
+      "start": 2087.95,
+      "end": 2089.59,
+      "text": "So here's the symmetry of the situation,"
+    },
+    {
+      "idx": 507,
+      "start": 2089.91,
+      "end": 2092.39,
+      "text": "which is not completely direct."
+    },
+    {
+      "idx": 508,
+      "start": 2092.75,
+      "end": 2095.99,
+      "text": "It's a kind of mirror symmetry around the diagonal."
+    },
+    {
+      "idx": 509,
+      "start": 2096.31,
+      "end": 2104.42,
+      "text": "It involves the exchange of xy with yx."
+    },
+    {
+      "idx": 510,
+      "start": 2105.29,
+      "end": 2107.33,
+      "text": "So it's trading the roles of x and y."
+    },
+    {
+      "idx": 511,
+      "start": 2107.55,
+      "end": 2110.13,
+      "text": "So the symmetry that I'm using is that any formula that I get"
+    },
+    {
+      "idx": 512,
+      "start": 2110.13,
+      "end": 2113.31,
+      "text": "that involves x's and y's, if I trade all the x's"
+    },
+    {
+      "idx": 513,
+      "start": 2113.31,
+      "end": 2115.35,
+      "text": "and replace them by y's and trade all the y's"
+    },
+    {
+      "idx": 514,
+      "start": 2115.35,
+      "end": 2117.15,
+      "text": "and replace them by x's, then I'll"
+    },
+    {
+      "idx": 515,
+      "start": 2117.25,
+      "end": 2118.95,
+      "text": "have a correct formula on the other way."
+    },
+    {
+      "idx": 516,
+      "start": 2119.03,
+      "end": 2121.37,
+      "text": "So everywhere I see a y, I make it an x,"
+    },
+    {
+      "idx": 517,
+      "start": 2121.41,
+      "end": 2122.73,
+      "text": "and everywhere I see an x, I make it a y."
+    },
+    {
+      "idx": 518,
+      "start": 2122.89,
+      "end": 2124.29,
+      "text": "The switch will take place."
+    },
+    {
+      "idx": 519,
+      "start": 2124.45,
+      "end": 2125.43,
+      "text": "So why is that?"
+    },
+    {
+      "idx": 520,
+      "start": 2126.54,
+      "end": 2129.66,
+      "text": "That's because that's just an accident of this equation."
+    },
+    {
+      "idx": 521,
+      "start": 2130.65,
+      "end": 2137.18,
+      "text": "That's because, so the symmetry explained"
+    },
+    {
+      "idx": 522,
+      "start": 2146.08,
+      "end": 2148.74,
+      "text": "is that the equation is y equals 1 over x,"
+    },
+    {
+      "idx": 523,
+      "start": 2149.26,
+      "end": 2152.68,
+      "text": "but that's the same thing as xy equals 1,"
+    },
+    {
+      "idx": 524,
+      "start": 2152.86,
+      "end": 2154.2,
+      "text": "if I multiply through by x,"
+    },
+    {
+      "idx": 525,
+      "start": 2154.8,
+      "end": 2158.02,
+      "text": "which is the same thing as x equals 1 over y."
+    },
+    {
+      "idx": 526,
+      "start": 2159.12,
+      "end": 2161.06,
+      "text": "So here's where the x and the y get reversed."
+    },
+    {
+      "idx": 527,
+      "start": 2165.52,
+      "end": 2167.8,
+      "text": "Now, if you don't trust this explanation,"
+    },
+    {
+      "idx": 528,
+      "start": 2168.4,
+      "end": 2174.24,
+      "text": "you can also get the y-intercept"
+    },
+    {
+      "idx": 529,
+      "start": 2174.24,
+      "end": 2185.43,
+      "text": "by plugging 0 into the equation star."
+    },
+    {
+      "idx": 530,
+      "start": 2188.95,
+      "end": 2193.21,
+      "text": "We plugged y equals 0 in, and we got the x value,"
+    },
+    {
+      "idx": 531,
+      "start": 2193.43,
+      "end": 2197.49,
+      "text": "and you could do the same thing analogously the other way."
+    },
+    {
+      "idx": 532,
+      "start": 2203.23,
+      "end": 2206.75,
+      "text": "So I'm almost done with the geometry problem,"
+    },
+    {
+      "idx": 533,
+      "start": 2206.75,
+      "end": 2213.48,
+      "text": "and let's finish it off now."
+    },
+    {
+      "idx": 534,
+      "start": 2218.25,
+      "end": 2221.01,
+      "text": "Well, let me hold off for one second before I finish it off."
+    },
+    {
+      "idx": 535,
+      "start": 2221.17,
+      "end": 2224.33,
+      "text": "What I'd like to say is just make one more tiny remark,"
+    },
+    {
+      "idx": 536,
+      "start": 2224.55,
+      "end": 2228.13,
+      "text": "and this is the hardest part of calculus, in my opinion."
+    },
+    {
+      "idx": 537,
+      "start": 2229.17,
+      "end": 2236.44,
+      "text": "So the hardest part of calculus is that we call it one-variable calculus,"
+    },
+    {
+      "idx": 538,
+      "start": 2238.06,
+      "end": 2242.02,
+      "text": "but we're perfectly happy to deal with four variables"
+    },
+    {
+      "idx": 539,
+      "start": 2242.02,
+      "end": 2245.31,
+      "text": "at a time, or five, or any number."
+    },
+    {
+      "idx": 540,
+      "start": 2245.51,
+      "end": 2250.15,
+      "text": "In this problem, I had an x, a y, an x0, and a y0."
+    },
+    {
+      "idx": 541,
+      "start": 2250.19,
+      "end": 2251.75,
+      "text": "That's already four different things."
+    },
+    {
+      "idx": 542,
+      "start": 2252.07,
+      "end": 2254.53,
+      "text": "They have various interrelationships between them."
+    },
+    {
+      "idx": 543,
+      "start": 2254.89,
+      "end": 2258.25,
+      "text": "So, of course, the manipulations we do with them are algebraic,"
+    },
+    {
+      "idx": 544,
+      "start": 2258.25,
+      "end": 2260.01,
+      "text": "and when we're doing the derivatives,"
+    },
+    {
+      "idx": 545,
+      "start": 2260.17,
+      "end": 2263.27,
+      "text": "we just consider what's known as one-variable calculus,"
+    },
+    {
+      "idx": 546,
+      "start": 2263.47,
+      "end": 2266.25,
+      "text": "but really there are millions of variables floating around, potentially."
+    },
+    {
+      "idx": 547,
+      "start": 2267.06,
+      "end": 2269.0,
+      "text": "So that's what makes things complicated,"
+    },
+    {
+      "idx": 548,
+      "start": 2269.32,
+      "end": 2271.3,
+      "text": "and that's something that you have to get used to."
+    },
+    {
+      "idx": 549,
+      "start": 2271.3,
+      "end": 2273.88,
+      "text": "Now, there's something else which is more subtle,"
+    },
+    {
+      "idx": 550,
+      "start": 2273.96,
+      "end": 2277.16,
+      "text": "and that I think many people who teach the subject"
+    },
+    {
+      "idx": 551,
+      "start": 2277.16,
+      "end": 2279.7,
+      "text": "or use the subject aren't aware,"
+    },
+    {
+      "idx": 552,
+      "start": 2279.92,
+      "end": 2281.72,
+      "text": "because they've already entered into the language,"
+    },
+    {
+      "idx": 553,
+      "start": 2281.82,
+      "end": 2284.06,
+      "text": "and they're so comfortable with it"
+    },
+    {
+      "idx": 554,
+      "start": 2284.06,
+      "end": 2286.72,
+      "text": "that they don't even notice this confusion."
+    },
+    {
+      "idx": 555,
+      "start": 2286.96,
+      "end": 2288.86,
+      "text": "There's something deliberately sloppy"
+    },
+    {
+      "idx": 556,
+      "start": 2289.44,
+      "end": 2291.96,
+      "text": "about the way we deal with these variables."
+    },
+    {
+      "idx": 557,
+      "start": 2292.67,
+      "end": 2294.45,
+      "text": "The reason is very simple."
+    },
+    {
+      "idx": 558,
+      "start": 2294.85,
+      "end": 2296.69,
+      "text": "There are already four variables here."
+    },
+    {
+      "idx": 559,
+      "start": 2296.89,
+      "end": 2300.01,
+      "text": "I don't want to create six names for variables"
+    },
+    {
+      "idx": 560,
+      "start": 2300.01,
+      "end": 2301.59,
+      "text": "or eight names for variables,"
+    },
+    {
+      "idx": 561,
+      "start": 2303.27,
+      "end": 2306.29,
+      "text": "but really in this problem, there were about eight."
+    },
+    {
+      "idx": 562,
+      "start": 2306.59,
+      "end": 2308.83,
+      "text": "I just slipped them by you."
+    },
+    {
+      "idx": 563,
+      "start": 2309.13,
+      "end": 2310.47,
+      "text": "So why is that?"
+    },
+    {
+      "idx": 564,
+      "start": 2310.79,
+      "end": 2316.45,
+      "text": "Well, notice that the first time that I got a formula for y0 here,"
+    },
+    {
+      "idx": 565,
+      "start": 2316.65,
+      "end": 2319.17,
+      "text": "it was this point,"
+    },
+    {
+      "idx": 566,
+      "start": 2319.41,
+      "end": 2323.57,
+      "text": "and so the formula for y0, which I plugged in right here,"
+    },
+    {
+      "idx": 567,
+      "start": 2325.38,
+      "end": 2329.94,
+      "text": "was from the equation of the curve, y0 equals 1 over x0."
+    },
+    {
+      "idx": 568,
+      "start": 2330.12,
+      "end": 2331.72,
+      "text": "The second time I did that,"
+    },
+    {
+      "idx": 569,
+      "start": 2331.74,
+      "end": 2335.06,
+      "text": "I did not use y equals 1 over x."
+    },
+    {
+      "idx": 570,
+      "start": 2335.3,
+      "end": 2337.46,
+      "text": "I used this equation here."
+    },
+    {
+      "idx": 571,
+      "start": 2337.7,
+      "end": 2341.92,
+      "text": "So this is not y equals 1 over x."
+    },
+    {
+      "idx": 572,
+      "start": 2342.0,
+      "end": 2343.32,
+      "text": "That's the wrong thing to do."
+    },
+    {
+      "idx": 573,
+      "start": 2343.58,
+      "end": 2345.16,
+      "text": "That's an easy mistake to make"
+    },
+    {
+      "idx": 574,
+      "start": 2345.16,
+      "end": 2347.3,
+      "text": "if the formulas are all a blur to you"
+    },
+    {
+      "idx": 575,
+      "start": 2347.3,
+      "end": 2350.66,
+      "text": "and you're not paying attention to where they are on the diagram."
+    },
+    {
+      "idx": 576,
+      "start": 2351.1,
+      "end": 2355.42,
+      "text": "You see, that x-intercept calculation there"
+    },
+    {
+      "idx": 577,
+      "start": 2356.26,
+      "end": 2360.4,
+      "text": "involved where this horizontal line met this diagonal line,"
+    },
+    {
+      "idx": 578,
+      "start": 2360.6,
+      "end": 2362.36,
+      "text": "and y equals 0 represented here."
+    },
+    {
+      "idx": 579,
+      "start": 2363.52,
+      "end": 2370.28,
+      "text": "So the sloppiness is that y means two different things,"
+    },
+    {
+      "idx": 580,
+      "start": 2371.48,
+      "end": 2373.04,
+      "text": "and we do this constantly"
+    },
+    {
+      "idx": 581,
+      "start": 2373.04,
+      "end": 2376.72,
+      "text": "because it's way, way more complicated not to do it."
+    },
+    {
+      "idx": 582,
+      "start": 2377.64,
+      "end": 2380.86,
+      "text": "It's much more convenient for us to allow ourselves the flexibility"
+    },
+    {
+      "idx": 583,
+      "start": 2381.42,
+      "end": 2383.92,
+      "text": "to change the role that this letter plays"
+    },
+    {
+      "idx": 584,
+      "start": 2383.92,
+      "end": 2386.28,
+      "text": "in the middle of the computation."
+    },
+    {
+      "idx": 585,
+      "start": 2387.67,
+      "end": 2389.33,
+      "text": "And similarly, later on,"
+    },
+    {
+      "idx": 586,
+      "start": 2389.35,
+      "end": 2391.79,
+      "text": "if I had done this by this more straightforward method"
+    },
+    {
+      "idx": 587,
+      "start": 2391.79,
+      "end": 2394.65,
+      "text": "for the y-intercept,"
+    },
+    {
+      "idx": 588,
+      "start": 2394.77,
+      "end": 2395.91,
+      "text": "I would have set x equal to 0,"
+    },
+    {
+      "idx": 589,
+      "start": 2395.91,
+      "end": 2397.37,
+      "text": "that would have been this vertical line,"
+    },
+    {
+      "idx": 590,
+      "start": 2397.53,
+      "end": 2398.99,
+      "text": "which is x equals 0."
+    },
+    {
+      "idx": 591,
+      "start": 2400.0,
+      "end": 2402.66,
+      "text": "But I didn't change the letter x when I did that"
+    },
+    {
+      "idx": 592,
+      "start": 2403.3,
+      "end": 2405.2,
+      "text": "because that would be a waste for us."
+    },
+    {
+      "idx": 593,
+      "start": 2406.34,
+      "end": 2409.58,
+      "text": "So this is one of the main confusions that happens."
+    },
+    {
+      "idx": 594,
+      "start": 2409.68,
+      "end": 2412.08,
+      "text": "If you can keep yourself straight,"
+    },
+    {
+      "idx": 595,
+      "start": 2412.78,
+      "end": 2414.48,
+      "text": "you're a lot better off,"
+    },
+    {
+      "idx": 596,
+      "start": 2414.62,
+      "end": 2420.57,
+      "text": "and as I say, this is one of the complexities."
+    },
+    {
+      "idx": 597,
+      "start": 2421.72,
+      "end": 2425.08,
+      "text": "All right, so now let's finish off the problem."
+    },
+    {
+      "idx": 598,
+      "start": 2425.14,
+      "end": 2426.98,
+      "text": "Let me finally get this area here."
+    },
+    {
+      "idx": 599,
+      "start": 2431.0,
+      "end": 2433.12,
+      "text": "So actually, I'll just finish it off right here."
+    },
+    {
+      "idx": 600,
+      "start": 2433.78,
+      "end": 2437.0,
+      "text": "So the area of the triangle is,"
+    },
+    {
+      "idx": 601,
+      "start": 2440.86,
+      "end": 2442.8,
+      "text": "well, it's the base times the height."
+    },
+    {
+      "idx": 602,
+      "start": 2442.92,
+      "end": 2444.5,
+      "text": "The base is 2x0."
+    },
+    {
+      "idx": 603,
+      "start": 2444.54,
+      "end": 2446.8,
+      "text": "The height is 2y0 and a half of that."
+    },
+    {
+      "idx": 604,
+      "start": 2446.94,
+      "end": 2450.86,
+      "text": "So it's a half 2x0 times 2y0,"
+    },
+    {
+      "idx": 605,
+      "start": 2451.04,
+      "end": 2453.8,
+      "text": "which is 2x0y0,"
+    },
+    {
+      "idx": 606,
+      "start": 2454.02,
+      "end": 2456.38,
+      "text": "which is, lo and behold, 2."
+    },
+    {
+      "idx": 607,
+      "start": 2457.78,
+      "end": 2459.66,
+      "text": "So the amusing thing in this case"
+    },
+    {
+      "idx": 608,
+      "start": 2459.66,
+      "end": 2461.98,
+      "text": "is it actually didn't matter what x0 and y0 are."
+    },
+    {
+      "idx": 609,
+      "start": 2462.1,
+      "end": 2464.68,
+      "text": "We get the same answer every time."
+    },
+    {
+      "idx": 610,
+      "start": 2466.24,
+      "end": 2469.88,
+      "text": "That's just an accident of the function 1 over x."
+    },
+    {
+      "idx": 611,
+      "start": 2470.04,
+      "end": 2472.32,
+      "text": "It happens to be the function with that property."
+    },
+    {
+      "idx": 612,
+      "start": 2480.83,
+      "end": 2483.59,
+      "text": "So we still have more business today,"
+    },
+    {
+      "idx": 613,
+      "start": 2483.91,
+      "end": 2486.99,
+      "text": "serious business, so let me continue."
+    },
+    {
+      "idx": 614,
+      "start": 2491.02,
+      "end": 2495.02,
+      "text": "So first of all, I want to give you a few more notations,"
+    },
+    {
+      "idx": 615,
+      "start": 2495.02,
+      "end": 2507.84,
+      "text": "and these are just other ways that people refer,"
+    },
+    {
+      "idx": 616,
+      "start": 2509.38,
+      "end": 2511.38,
+      "text": "notations that people use to refer to derivatives."
+    },
+    {
+      "idx": 617,
+      "start": 2511.86,
+      "end": 2513.96,
+      "text": "And the first one is the following."
+    },
+    {
+      "idx": 618,
+      "start": 2514.42,
+      "end": 2516.4,
+      "text": "We already wrote y is equal to f of x,"
+    },
+    {
+      "idx": 619,
+      "start": 2516.66,
+      "end": 2518.9,
+      "text": "and so when we write delta y,"
+    },
+    {
+      "idx": 620,
+      "start": 2519.22,
+      "end": 2521.38,
+      "text": "that means the same thing as delta f."
+    },
+    {
+      "idx": 621,
+      "start": 2522.21,
+      "end": 2523.67,
+      "text": "That's a typical notation."
+    },
+    {
+      "idx": 622,
+      "start": 2525.15,
+      "end": 2533.01,
+      "text": "And previously, we wrote f prime for the derivative."
+    },
+    {
+      "idx": 623,
+      "start": 2533.55,
+      "end": 2538.87,
+      "text": "So this is Newton's notation for the derivative."
+    },
+    {
+      "idx": 624,
+      "start": 2540.15,
+      "end": 2542.77,
+      "text": "But there are other notations,"
+    },
+    {
+      "idx": 625,
+      "start": 2542.77,
+      "end": 2544.89,
+      "text": "and one of them is df dx,"
+    },
+    {
+      "idx": 626,
+      "start": 2545.77,
+      "end": 2547.71,
+      "text": "and another one is dy dx,"
+    },
+    {
+      "idx": 627,
+      "start": 2548.05,
+      "end": 2549.67,
+      "text": "meaning exactly the same thing."
+    },
+    {
+      "idx": 628,
+      "start": 2549.87,
+      "end": 2554.15,
+      "text": "And sometimes we let the function slip down below,"
+    },
+    {
+      "idx": 629,
+      "start": 2554.27,
+      "end": 2556.93,
+      "text": "so that becomes d by dx of f,"
+    },
+    {
+      "idx": 630,
+      "start": 2557.19,
+      "end": 2560.24,
+      "text": "or d by dx of y."
+    },
+    {
+      "idx": 631,
+      "start": 2560.5,
+      "end": 2564.3,
+      "text": "So these are all notations that are used for the derivative,"
+    },
+    {
+      "idx": 632,
+      "start": 2564.5,
+      "end": 2566.94,
+      "text": "and these were initiated by Leibniz."
+    },
+    {
+      "idx": 633,
+      "start": 2569.03,
+      "end": 2573.9,
+      "text": "And these notations are used interchangeably,"
+    },
+    {
+      "idx": 634,
+      "start": 2573.9,
+      "end": 2576.56,
+      "text": "sometimes practically together."
+    },
+    {
+      "idx": 635,
+      "start": 2576.82,
+      "end": 2579.5,
+      "text": "They both turn out to be extremely useful."
+    },
+    {
+      "idx": 636,
+      "start": 2579.82,
+      "end": 2581.64,
+      "text": "This one omits."
+    },
+    {
+      "idx": 637,
+      "start": 2581.7,
+      "end": 2586.7,
+      "text": "Notice that this thing omits the underlying base point, x0."
+    },
+    {
+      "idx": 638,
+      "start": 2587.06,
+      "end": 2588.84,
+      "text": "That's one of the nuisances."
+    },
+    {
+      "idx": 639,
+      "start": 2589.02,
+      "end": 2591.16,
+      "text": "It doesn't give you all the information."
+    },
+    {
+      "idx": 640,
+      "start": 2591.5,
+      "end": 2595.1,
+      "text": "But there are lots of situations like that"
+    },
+    {
+      "idx": 641,
+      "start": 2595.1,
+      "end": 2600.02,
+      "text": "where people leave out some of the important information,"
+    },
+    {
+      "idx": 642,
+      "start": 2600.3,
+      "end": 2602.56,
+      "text": "and you have to fill it in from context."
+    },
+    {
+      "idx": 643,
+      "start": 2603.06,
+      "end": 2604.36,
+      "text": "So that's another."
+    },
+    {
+      "idx": 644,
+      "start": 2604.36,
+      "end": 2606.3,
+      "text": "Another couple of notations."
+    },
+    {
+      "idx": 645,
+      "start": 2608.33,
+      "end": 2612.37,
+      "text": "So now I have one more calculation for you today."
+    },
+    {
+      "idx": 646,
+      "start": 2613.27,
+      "end": 2625.65,
+      "text": "I carried out this calculation of the derivative of the function 1 over x."
+    },
+    {
+      "idx": 647,
+      "start": 2625.91,
+      "end": 2627.97,
+      "text": "I want to take care of some other powers."
+    },
+    {
+      "idx": 648,
+      "start": 2628.62,
+      "end": 2629.8,
+      "text": "So let's do that."
+    },
+    {
+      "idx": 649,
+      "start": 2639.16,
+      "end": 2647.94,
+      "text": "So example 2 is going to be the function f of x is x to the n,"
+    },
+    {
+      "idx": 650,
+      "start": 2648.72,
+      "end": 2652.28,
+      "text": "n equals 1, 2, 3, one of these guys."
+    },
+    {
+      "idx": 651,
+      "start": 2654.03,
+      "end": 2656.19,
+      "text": "And now what we're trying to figure out"
+    },
+    {
+      "idx": 652,
+      "start": 2657.49,
+      "end": 2660.39,
+      "text": "is the derivative with respect to x of x to the n"
+    },
+    {
+      "idx": 653,
+      "start": 2660.39,
+      "end": 2663.21,
+      "text": "in our new notation, what this is equal to."
+    },
+    {
+      "idx": 654,
+      "start": 2667.07,
+      "end": 2674.66,
+      "text": "So again, we're going to form this expression delta f delta x,"
+    },
+    {
+      "idx": 655,
+      "start": 2674.86,
+      "end": 2678.33,
+      "text": "and we're going to make some algebraic simplification."
+    },
+    {
+      "idx": 656,
+      "start": 2678.77,
+      "end": 2684.62,
+      "text": "So what we plug in for delta f is x plus delta x to the n"
+    },
+    {
+      "idx": 657,
+      "start": 2684.62,
+      "end": 2687.46,
+      "text": "minus x to the n divided by delta x."
+    },
+    {
+      "idx": 658,
+      "start": 2689.25,
+      "end": 2692.01,
+      "text": "let me just stick this in and I'm going to erase it."
+    },
+    {
+      "idx": 659,
+      "start": 2692.47,
+      "end": 2696.17,
+      "text": "Before, I wrote x0 here and x0 there."
+    },
+    {
+      "idx": 660,
+      "start": 2696.63,
+      "end": 2698.89,
+      "text": "But now I'm going to get rid of it"
+    },
+    {
+      "idx": 661,
+      "start": 2699.61,
+      "end": 2702.23,
+      "text": "because in this particular calculation it's a nuisance."
+    },
+    {
+      "idx": 662,
+      "start": 2702.35,
+      "end": 2703.81,
+      "text": "I don't have an x floating around,"
+    },
+    {
+      "idx": 663,
+      "start": 2703.91,
+      "end": 2706.13,
+      "text": "which means something different from the x0."
+    },
+    {
+      "idx": 664,
+      "start": 2706.33,
+      "end": 2709.71,
+      "text": "And I just don't want to have to keep on writing all those symbols."
+    },
+    {
+      "idx": 665,
+      "start": 2710.35,
+      "end": 2713.45,
+      "text": "It's a waste of blackboard energy."
+    },
+    {
+      "idx": 666,
+      "start": 2713.99,
+      "end": 2716.85,
+      "text": "There's a total amount of energy that I'm, you know,"
+    },
+    {
+      "idx": 667,
+      "start": 2716.87,
+      "end": 2718.63,
+      "text": "I've already filled up so many blackboards"
+    },
+    {
+      "idx": 668,
+      "start": 2719.25,
+      "end": 2721.53,
+      "text": "and it's just a limited amount of,"
+    },
+    {
+      "idx": 669,
+      "start": 2721.63,
+      "end": 2723.21,
+      "text": "plus I'm trying to conserve chalk."
+    },
+    {
+      "idx": 670,
+      "start": 2723.49,
+      "end": 2724.99,
+      "text": "Okay, anyway, no zeros."
+    },
+    {
+      "idx": 671,
+      "start": 2725.91,
+      "end": 2727.61,
+      "text": "So think of x as fixed."
+    },
+    {
+      "idx": 672,
+      "start": 2727.77,
+      "end": 2738.06,
+      "text": "Again, in this case, delta x moves and x is fixed in this calculation."
+    },
+    {
+      "idx": 673,
+      "start": 2740.04,
+      "end": 2742.46,
+      "text": "All right, now, in order to simplify this,"
+    },
+    {
+      "idx": 674,
+      "start": 2742.54,
+      "end": 2744.82,
+      "text": "in order to understand algebraically what's going on,"
+    },
+    {
+      "idx": 675,
+      "start": 2744.94,
+      "end": 2748.0,
+      "text": "I need to understand what the nth power of a sum is."
+    },
+    {
+      "idx": 676,
+      "start": 2748.24,
+      "end": 2750.34,
+      "text": "And that's a famous formula."
+    },
+    {
+      "idx": 677,
+      "start": 2750.42,
+      "end": 2752.26,
+      "text": "We only need a little tiny bit of it,"
+    },
+    {
+      "idx": 678,
+      "start": 2752.26,
+      "end": 2754.86,
+      "text": "called the binomial theorem."
+    },
+    {
+      "idx": 679,
+      "start": 2755.88,
+      "end": 2757.8,
+      "text": "So the binomial theorem,"
+    },
+    {
+      "idx": 680,
+      "start": 2762.55,
+      "end": 2768.95,
+      "text": "which is in your text and explained in an exercise,"
+    },
+    {
+      "idx": 681,
+      "start": 2769.41,
+      "end": 2771.83,
+      "text": "says, in an appendix, sorry,"
+    },
+    {
+      "idx": 682,
+      "start": 2772.47,
+      "end": 2776.03,
+      "text": "says that if you take the sum of two guys"
+    },
+    {
+      "idx": 683,
+      "start": 2776.03,
+      "end": 2777.43,
+      "text": "and you take them to the nth power,"
+    },
+    {
+      "idx": 684,
+      "start": 2777.61,
+      "end": 2783.71,
+      "text": "that, of course, is x plus delta x multiplied by itself n times."
+    },
+    {
+      "idx": 685,
+      "start": 2784.61,
+      "end": 2786.43,
+      "text": "And so the first thing,"
+    },
+    {
+      "idx": 686,
+      "start": 2786.45,
+      "end": 2788.96,
+      "text": "the first term is x to the n."
+    },
+    {
+      "idx": 687,
+      "start": 2789.12,
+      "end": 2791.16,
+      "text": "That's when all of the n factors come in."
+    },
+    {
+      "idx": 688,
+      "start": 2791.79,
+      "end": 2795.41,
+      "text": "And then you could have this factor of delta x"
+    },
+    {
+      "idx": 689,
+      "start": 2795.41,
+      "end": 2796.79,
+      "text": "and all the rest x's."
+    },
+    {
+      "idx": 690,
+      "start": 2797.03,
+      "end": 2801.31,
+      "text": "So at least one term of the form x to the n minus 1 times delta x."
+    },
+    {
+      "idx": 691,
+      "start": 2801.85,
+      "end": 2803.79,
+      "text": "And how many times does that happen?"
+    },
+    {
+      "idx": 692,
+      "start": 2803.95,
+      "end": 2806.15,
+      "text": "Well, it happens when there's a factor from here,"
+    },
+    {
+      "idx": 693,
+      "start": 2806.25,
+      "end": 2808.29,
+      "text": "from the next factor and so on and so on and so on."
+    },
+    {
+      "idx": 694,
+      "start": 2808.35,
+      "end": 2812.71,
+      "text": "There's a total of n possible times that that happens."
+    },
+    {
+      "idx": 695,
+      "start": 2814.34,
+      "end": 2816.4,
+      "text": "And now the great thing is"
+    },
+    {
+      "idx": 696,
+      "start": 2816.4,
+      "end": 2818.7,
+      "text": "that with this alone,"
+    },
+    {
+      "idx": 697,
+      "start": 2819.08,
+      "end": 2821.52,
+      "text": "all the rest of the terms are junk"
+    },
+    {
+      "idx": 698,
+      "start": 2821.52,
+      "end": 2826.44,
+      "text": "that we won't have to worry about."
+    },
+    {
+      "idx": 699,
+      "start": 2826.7,
+      "end": 2828.7,
+      "text": "So to be more specific,"
+    },
+    {
+      "idx": 700,
+      "start": 2829.12,
+      "end": 2832.44,
+      "text": "the junk, there's a very careful notation for the junk."
+    },
+    {
+      "idx": 701,
+      "start": 2832.52,
+      "end": 2836.94,
+      "text": "The junk is what's called big O of delta x squared."
+    },
+    {
+      "idx": 702,
+      "start": 2837.96,
+      "end": 2844.88,
+      "text": "What that means is that these are terms of order,"
+    },
+    {
+      "idx": 703,
+      "start": 2845.0,
+      "end": 2849.12,
+      "text": "so with delta x squared,"
+    },
+    {
+      "idx": 704,
+      "start": 2849.97,
+      "end": 2853.1,
+      "text": "delta x cubed or higher."
+    },
+    {
+      "idx": 705,
+      "start": 2854.22,
+      "end": 2861.78,
+      "text": "That's how very exciting higher order terms."
+    },
+    {
+      "idx": 706,
+      "start": 2863.04,
+      "end": 2867.67,
+      "text": "OK, so this is the only algebra that we need to do."
+    },
+    {
+      "idx": 707,
+      "start": 2867.75,
+      "end": 2871.09,
+      "text": "And now we just need to combine it together to get our result."
+    },
+    {
+      "idx": 708,
+      "start": 2871.35,
+      "end": 2877.19,
+      "text": "So now I'm going to just carry out the cancellations that we need."
+    },
+    {
+      "idx": 709,
+      "start": 2882.45,
+      "end": 2883.67,
+      "text": "So here we go."
+    },
+    {
+      "idx": 710,
+      "start": 2883.91,
+      "end": 2888.1,
+      "text": "We have delta f over delta x,"
+    },
+    {
+      "idx": 711,
+      "start": 2889.28,
+      "end": 2892.52,
+      "text": "was 1 over delta x times this,"
+    },
+    {
+      "idx": 712,
+      "start": 2898.33,
+      "end": 2900.17,
+      "text": "which is this times,"
+    },
+    {
+      "idx": 713,
+      "start": 2900.53,
+      "end": 2906.11,
+      "text": "now this is x to the n plus nx to the n minus 1 delta x"
+    },
+    {
+      "idx": 714,
+      "start": 2906.11,
+      "end": 2913.46,
+      "text": "plus this junk term minus x to the n."
+    },
+    {
+      "idx": 715,
+      "start": 2913.74,
+      "end": 2917.57,
+      "text": "All right, so that's what we have so far"
+    },
+    {
+      "idx": 716,
+      "start": 2917.57,
+      "end": 2920.27,
+      "text": "based on our previous calculations."
+    },
+    {
+      "idx": 717,
+      "start": 2921.8,
+      "end": 2925.2,
+      "text": "Now I'm going to do the main cancellation,"
+    },
+    {
+      "idx": 718,
+      "start": 2925.56,
+      "end": 2926.4,
+      "text": "which is this."
+    },
+    {
+      "idx": 719,
+      "start": 2928.66,
+      "end": 2934.7,
+      "text": "So that's 1 over delta x times nx to the n minus 1 delta x"
+    },
+    {
+      "idx": 720,
+      "start": 2935.78,
+      "end": 2937.2,
+      "text": "plus this term here."
+    },
+    {
+      "idx": 721,
+      "start": 2941.25,
+      "end": 2944.07,
+      "text": "And now I can divide in by delta x."
+    },
+    {
+      "idx": 722,
+      "start": 2945.04,
+      "end": 2948.3,
+      "text": "So I get nx to the n minus 1 plus,"
+    },
+    {
+      "idx": 723,
+      "start": 2948.7,
+      "end": 2950.14,
+      "text": "now it's O of delta x."
+    },
+    {
+      "idx": 724,
+      "start": 2950.64,
+      "end": 2952.7,
+      "text": "There's at least one factor of delta x,"
+    },
+    {
+      "idx": 725,
+      "start": 2952.78,
+      "end": 2954.46,
+      "text": "not two factors of delta x,"
+    },
+    {
+      "idx": 726,
+      "start": 2954.5,
+      "end": 2955.84,
+      "text": "because I have to cancel one of them."
+    },
+    {
+      "idx": 727,
+      "start": 2957.68,
+      "end": 2959.46,
+      "text": "And now I can just take the limit."
+    },
+    {
+      "idx": 728,
+      "start": 2959.92,
+      "end": 2961.76,
+      "text": "In the limit, this term is going to be 0."
+    },
+    {
+      "idx": 729,
+      "start": 2962.5,
+      "end": 2965.52,
+      "text": "That's why I called it junk originally,"
+    },
+    {
+      "idx": 730,
+      "start": 2965.88,
+      "end": 2966.96,
+      "text": "because it disappears."
+    },
+    {
+      "idx": 731,
+      "start": 2967.68,
+      "end": 2970.98,
+      "text": "And in math, junk is something that goes away."
+    },
+    {
+      "idx": 732,
+      "start": 2971.16,
+      "end": 2974.4,
+      "text": "So this tends to, as delta x goes to 0,"
+    },
+    {
+      "idx": 733,
+      "start": 2975.56,
+      "end": 2976.96,
+      "text": "nx to the n minus 1."
+    },
+    {
+      "idx": 734,
+      "start": 2977.32,
+      "end": 2984.2,
+      "text": "And so what I've shown you is that d by dx of x to the n minus"
+    },
+    {
+      "idx": 735,
+      "start": 2984.2,
+      "end": 2987.66,
+      "text": "sorry, n is equal to nx to the n minus 1."
+    },
+    {
+      "idx": 736,
+      "start": 2991.23,
+      "end": 2993.65,
+      "text": "So now this is going to be super important to you"
+    },
+    {
+      "idx": 737,
+      "start": 2993.65,
+      "end": 2995.11,
+      "text": "right on your problem set"
+    },
+    {
+      "idx": 738,
+      "start": 2995.11,
+      "end": 2996.39,
+      "text": "in every possible way."
+    },
+    {
+      "idx": 739,
+      "start": 2996.55,
+      "end": 2998.41,
+      "text": "And I want to tell you one thing,"
+    },
+    {
+      "idx": 740,
+      "start": 2998.49,
+      "end": 3000.05,
+      "text": "one way in which it's very important"
+    },
+    {
+      "idx": 741,
+      "start": 3000.05,
+      "end": 3001.83,
+      "text": "and one way that extends it immediately."
+    },
+    {
+      "idx": 742,
+      "start": 3002.19,
+      "end": 3008.54,
+      "text": "So this thing extends to polynomials."
+    },
+    {
+      "idx": 743,
+      "start": 3010.98,
+      "end": 3013.64,
+      "text": "We get quite a lot out of this one calculation."
+    },
+    {
+      "idx": 744,
+      "start": 3014.24,
+      "end": 3018.08,
+      "text": "Namely, if I take d by dx of something like x cubed"
+    },
+    {
+      "idx": 745,
+      "start": 3018.08,
+      "end": 3020.84,
+      "text": "plus 5x to the 10th power,"
+    },
+    {
+      "idx": 746,
+      "start": 3022.02,
+      "end": 3024.44,
+      "text": "that's going to be equal to 3x squared."
+    },
+    {
+      "idx": 747,
+      "start": 3024.9,
+      "end": 3026.94,
+      "text": "That's applying this rule to x cubed."
+    },
+    {
+      "idx": 748,
+      "start": 3027.2,
+      "end": 3028.68,
+      "text": "And then here I'll get"
+    },
+    {
+      "idx": 749,
+      "start": 3028.68,
+      "end": 3034.35,
+      "text": "5 times 10, so 50x to the 9th."
+    },
+    {
+      "idx": 750,
+      "start": 3035.08,
+      "end": 3037.48,
+      "text": "So this is the type of thing that we get out of it."
+    },
+    {
+      "idx": 751,
+      "start": 3037.74,
+      "end": 3041.4,
+      "text": "And we're going to make more hay with that next time."
+    },
+    {
+      "idx": 752,
+      "start": 3041.66,
+      "end": 3051.32,
+      "text": "I turned myself off."
+    },
+    {
+      "idx": 753,
+      "start": 3057.21,
+      "end": 3059.35,
+      "text": "The question was,"
+    },
+    {
+      "idx": 754,
+      "start": 3059.57,
+      "end": 3064.07,
+      "text": "the binomial theorem only works when delta x goes to 0."
+    },
+    {
+      "idx": 755,
+      "start": 3064.49,
+      "end": 3067.11,
+      "text": "No, the binomial theorem is a general formula"
+    },
+    {
+      "idx": 756,
+      "start": 3067.11,
+      "end": 3069.99,
+      "text": "which also specifies exactly what the junk is."
+    },
+    {
+      "idx": 757,
+      "start": 3069.99,
+      "end": 3071.63,
+      "text": "It's very much more detailed."
+    },
+    {
+      "idx": 758,
+      "start": 3071.95,
+      "end": 3073.91,
+      "text": "But we only needed this part."
+    },
+    {
+      "idx": 759,
+      "start": 3074.07,
+      "end": 3076.55,
+      "text": "We didn't care what all these crazy terms were."
+    },
+    {
+      "idx": 760,
+      "start": 3079.42,
+      "end": 3081.96,
+      "text": "It's junk for our purposes now"
+    },
+    {
+      "idx": 761,
+      "start": 3081.96,
+      "end": 3084.94,
+      "text": "because we don't happen to need any more"
+    },
+    {
+      "idx": 762,
+      "start": 3084.94,
+      "end": 3086.24,
+      "text": "than those first two terms."
+    },
+    {
+      "idx": 763,
+      "start": 3087.64,
+      "end": 3089.5,
+      "text": "Yes, because the delta x goes to 0."
+    },
+    {
+      "idx": 764,
+      "start": 3090.18,
+      "end": 3091.58,
+      "text": "Okay, see you next time."
+    }
+  ]
+}

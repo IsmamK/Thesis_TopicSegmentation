@@ -1,0 +1,200 @@
+{
+  "video_id": "KlVHqq38KJU",
+  "annotator": "llm_a",
+  "status": "reviewed",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Introduction"
+    },
+    {
+      "start_sec": 447.0,
+      "title": "Motivations"
+    },
+    {
+      "start_sec": 600.0,
+      "title": "Where did the world start"
+    },
+    {
+      "start_sec": 900.0,
+      "title": "Human genome"
+    },
+    {
+      "start_sec": 965.0,
+      "title": "Molecular clock"
+    },
+    {
+      "start_sec": 1013.0,
+      "title": "Genome"
+    },
+    {
+      "start_sec": 1109.0,
+      "title": "Structure of DNA"
+    },
+    {
+      "start_sec": 1403.0,
+      "title": "Cell Size"
+    },
+    {
+      "start_sec": 1453.0,
+      "title": "Imaging Visualization"
+    },
+    {
+      "start_sec": 1510.0,
+      "title": "Cell Cycle"
+    },
+    {
+      "start_sec": 1578.0,
+      "title": "Genetics"
+    },
+    {
+      "start_sec": 1798.0,
+      "title": "Shape"
+    },
+    {
+      "start_sec": 1949.0,
+      "title": "Cell Division"
+    },
+    {
+      "start_sec": 2020.0,
+      "title": "Running Hours"
+    },
+    {
+      "start_sec": 2167.0,
+      "title": "Biochemistry"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Introduction to the Course"
+    },
+    {
+      "start_sec": 387.0,
+      "chapter_idx": 0,
+      "title": "The Breakthrough in DNA Structure"
+    },
+    {
+      "start_sec": 387.0,
+      "chapter_idx": 0,
+      "title": "Modern Biology as a Synthesis of Disciplines"
+    },
+    {
+      "start_sec": 447.0,
+      "chapter_idx": 1,
+      "title": "Motivations for Understanding Health"
+    },
+    {
+      "start_sec": 540.0,
+      "chapter_idx": 1,
+      "title": "Systems and Synthetic Biology"
+    },
+    {
+      "start_sec": 600.0,
+      "chapter_idx": 2,
+      "title": "The Earth's Early Formation"
+    },
+    {
+      "start_sec": 750.0,
+      "chapter_idx": 2,
+      "title": "The Emergence of Cells and Cellular Compartmentalization"
+    },
+    {
+      "start_sec": 900.0,
+      "chapter_idx": 3,
+      "title": "Human genome"
+    },
+    {
+      "start_sec": 965.0,
+      "chapter_idx": 4,
+      "title": "Molecular clock"
+    },
+    {
+      "start_sec": 1013.0,
+      "chapter_idx": 5,
+      "title": "Genome"
+    },
+    {
+      "start_sec": 1109.0,
+      "chapter_idx": 6,
+      "title": "Discovery of DNA Structure"
+    },
+    {
+      "start_sec": 1343.0,
+      "chapter_idx": 6,
+      "title": "Genetic Code and RNA"
+    },
+    {
+      "start_sec": 1343.0,
+      "chapter_idx": 6,
+      "title": "DNA Sequencing Technology"
+    },
+    {
+      "start_sec": 1403.0,
+      "chapter_idx": 7,
+      "title": "Cell Size"
+    },
+    {
+      "start_sec": 1453.0,
+      "chapter_idx": 8,
+      "title": "Imaging Visualization"
+    },
+    {
+      "start_sec": 1510.0,
+      "chapter_idx": 9,
+      "title": "Cell Cycle"
+    },
+    {
+      "start_sec": 1578.0,
+      "chapter_idx": 10,
+      "title": "Genetics and Model Organisms"
+    },
+    {
+      "start_sec": 1690.0,
+      "chapter_idx": 10,
+      "title": "Personal Genetics and Ancestry"
+    },
+    {
+      "start_sec": 1738.0,
+      "chapter_idx": 10,
+      "title": "Ethics of Personalized Genomics"
+    },
+    {
+      "start_sec": 1798.0,
+      "chapter_idx": 11,
+      "title": "Encoding Shape in the Genome"
+    },
+    {
+      "start_sec": 1889.0,
+      "chapter_idx": 11,
+      "title": "Folding and Tissue Morphogenesis"
+    },
+    {
+      "start_sec": 1949.0,
+      "chapter_idx": 12,
+      "title": "Cell Division"
+    },
+    {
+      "start_sec": 2020.0,
+      "chapter_idx": 13,
+      "title": "Encouraging Student Interaction"
+    },
+    {
+      "start_sec": 2107.0,
+      "chapter_idx": 13,
+      "title": "Introducing Running Hours"
+    },
+    {
+      "start_sec": 2167.0,
+      "chapter_idx": 14,
+      "title": "Biochemistry Overview"
+    },
+    {
+      "start_sec": 2250.0,
+      "chapter_idx": 14,
+      "title": "Course Structure and Expectations"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "video_id": "HtSuA80QTyo",
+  "boundaries_sec": [
+    275.0,
+    507.0,
+    925.0,
+    1105.0,
+    1645.0,
+    1975.0,
+    2155.0,
+    2725.0
+  ],
+  "titles": [
+    "Intro",
+    "Class Overview",
+    "Content",
+    "Problem Statement",
+    "Simple Algorithm",
+    "recursive algorithm",
+    "computation",
+    "greedy ascent",
+    "example"
+  ],
+  "num_chapters": 9,
+  "duration_sec": 3201.0
+}

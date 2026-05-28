@@ -1,0 +1,7379 @@
+{
+  "video_id": "Hy7ou5R_vjE",
+  "sentences": [
+    {
+      "idx": 0,
+      "start": 0.14,
+      "end": 10.38,
+      "text": "Professor Ramamurti Shankaracharyam, Ph.D.: Everything I told you last time, you can summarize in these two equations."
+    },
+    {
+      "idx": 1,
+      "start": 10.38,
+      "end": 11.887,
+      "text": "Remember what we did."
+    },
+    {
+      "idx": 2,
+      "start": 11.887,
+      "end": 16.98,
+      "text": "We said, let's take for the simplest case that we can possibly imagine,"
+    },
+    {
+      "idx": 3,
+      "start": 16.98,
+      "end": 23.98,
+      "text": "namely a particle moving in one dimension along the x-axis with a constant acceleration a."
+    },
+    {
+      "idx": 4,
+      "start": 23.98,
+      "end": 27.96,
+      "text": "What is the fate of this particle?"
+    },
+    {
+      "idx": 5,
+      "start": 27.96,
+      "end": 31.94,
+      "text": "And the answer was, at any time t,"
+    },
+    {
+      "idx": 6,
+      "start": 31.94,
+      "end": 42.78,
+      "text": "the location of the particle is given by this formula."
+    },
+    {
+      "idx": 7,
+      "start": 42.78,
+      "end": 48.52,
+      "text": "You can easily check by taking two derivatives that this particle does have the acceleration a."
+    },
+    {
+      "idx": 8,
+      "start": 48.52,
+      "end": 53.235,
+      "text": "So what are these two other numbers, x0 and v0 and x0 and v0?"
+    },
+    {
+      "idx": 9,
+      "start": 53.235,
+      "end": 55.94,
+      "text": "I think we know now what they mean."
+    },
+    {
+      "idx": 10,
+      "start": 55.94,
+      "end": 60.94,
+      "text": "They tell you the initial location and initial velocity of the object."
+    },
+    {
+      "idx": 11,
+      "start": 60.94,
+      "end": 69.58,
+      "text": "For example, suppose you use vertical motion and use y instead of x, and a would be g or minus g."
+    },
+    {
+      "idx": 12,
+      "start": 69.58,
+      "end": 70.58,
+      "text": "That's a particle."
+    },
+    {
+      "idx": 13,
+      "start": 70.58,
+      "end": 74.58,
+      "text": "So, if you have a particle falling down under the effect of gravity,"
+    },
+    {
+      "idx": 14,
+      "start": 74.58,
+      "end": 77.58,
+      "text": "if all you know is the particle is falling under the effect of gravity,"
+    },
+    {
+      "idx": 15,
+      "start": 77.58,
+      "end": 80.58,
+      "text": "that's not enough to say where the particle is, right?"
+    },
+    {
+      "idx": 16,
+      "start": 80.58,
+      "end": 86.58,
+      "text": "Suppose we all go to a tall building, start throwing things at various times, at various speeds."
+    },
+    {
+      "idx": 17,
+      "start": 86.58,
+      "end": 90.25,
+      "text": "We are all throwing objects whose acceleration is minus g."
+    },
+    {
+      "idx": 18,
+      "start": 90.25,
+      "end": 94.25,
+      "text": "But the objects are at different locations at a given time."
+    },
+    {
+      "idx": 19,
+      "start": 94.25,
+      "end": 99.6,
+      "text": "That's because they could have been released from different heights with different initial velocities."
+    },
+    {
+      "idx": 20,
+      "start": 99.6,
+      "end": 100.6,
+      "text": "Therefore, it's not simply enough to say what the acceleration is."
+    },
+    {
+      "idx": 21,
+      "start": 100.6,
+      "end": 103.6,
+      "text": "You have to give these two numbers."
+    },
+    {
+      "idx": 22,
+      "start": 103.6,
+      "end": 107.6,
+      "text": "Then, once you've got those two numbers, they're no longer free parameters."
+    },
+    {
+      "idx": 23,
+      "start": 107.6,
+      "end": 110.6,
+      "text": "They're concrete numbers, maybe 5 and 9."
+    },
+    {
+      "idx": 24,
+      "start": 110.6,
+      "end": 115.6,
+      "text": "Then, for any time t, you plug in the time t and you'll get the location."
+    },
+    {
+      "idx": 25,
+      "start": 115.6,
+      "end": 124.75,
+      "text": "If you took the derivative of this, you'll get the velocity at time t to be v0 plus at."
+    },
+    {
+      "idx": 26,
+      "start": 124.75,
+      "end": 126.75,
+      "text": "Again, you should memorize the formula."
+    },
+    {
+      "idx": 27,
+      "start": 126.75,
+      "end": 129.75,
+      "text": "I hope you know why it makes sense, right?"
+    },
+    {
+      "idx": 28,
+      "start": 129.75,
+      "end": 130.75,
+      "text": "You want to know how fast the guy is moving."
+    },
+    {
+      "idx": 29,
+      "start": 130.75,
+      "end": 132.75,
+      "text": "This is the starting speed."
+    },
+    {
+      "idx": 30,
+      "start": 132.75,
+      "end": 134.82,
+      "text": "That's the rate at which it is gaining velocity."
+    },
+    {
+      "idx": 31,
+      "start": 134.82,
+      "end": 136.82,
+      "text": "And that's how long it's been gaining it."
+    },
+    {
+      "idx": 32,
+      "start": 136.82,
+      "end": 137.82,
+      "text": "So, you add the two."
+    },
+    {
+      "idx": 33,
+      "start": 137.82,
+      "end": 141.9,
+      "text": "This also means the following."
+    },
+    {
+      "idx": 34,
+      "start": 141.9,
+      "end": 148.37,
+      "text": "It is true that if you give me the time, I can tell you the velocity."
+    },
+    {
+      "idx": 35,
+      "start": 148.37,
+      "end": 155.69,
+      "text": "But conversely, if I knew the velocity of this object, I also know what time it is, provided I knew the initial velocity."
+    },
+    {
+      "idx": 36,
+      "start": 155.69,
+      "end": 163.91,
+      "text": "Therefore, mathematically, at a given time t, we can trade t for v and put it into this formula."
+    },
+    {
+      "idx": 37,
+      "start": 163.91,
+      "end": 165.91,
+      "text": "Banish t everywhere."
+    },
+    {
+      "idx": 38,
+      "start": 165.91,
+      "end": 168.91,
+      "text": "By doing it, I got this formula."
+    },
+    {
+      "idx": 39,
+      "start": 168.91,
+      "end": 181.06,
+      "text": "This is a matter of simple algebra of taking this and putting it here."
+    },
+    {
+      "idx": 40,
+      "start": 181.06,
+      "end": 186.16,
+      "text": "But I showed you in the end how you can use calculus to derive that."
+    },
+    {
+      "idx": 41,
+      "start": 186.16,
+      "end": 193.16,
+      "text": "And I got the feeling when I was talking to some of you guys that maybe you should brush up on your calculus."
+    },
+    {
+      "idx": 42,
+      "start": 193.16,
+      "end": 199.58,
+      "text": "You have done it before, but when you say, I know calculus, sometimes it means you know it."
+    },
+    {
+      "idx": 43,
+      "start": 199.58,
+      "end": 202.58,
+      "text": "Sometimes it means you know some fellow who does."
+    },
+    {
+      "idx": 44,
+      "start": 203.58,
+      "end": 205.58,
+      "text": "You met somebody who knows."
+    },
+    {
+      "idx": 45,
+      "start": 205.58,
+      "end": 206.58,
+      "text": "That's not good enough."
+    },
+    {
+      "idx": 46,
+      "start": 206.58,
+      "end": 208.58,
+      "text": "You really have to know calculus."
+    },
+    {
+      "idx": 47,
+      "start": 208.58,
+      "end": 209.58,
+      "text": "And this is a constant problem."
+    },
+    {
+      "idx": 48,
+      "start": 209.58,
+      "end": 212.58,
+      "text": "It has nothing to do with you guys."
+    },
+    {
+      "idx": 49,
+      "start": 212.58,
+      "end": 214.58,
+      "text": "It is just that you have done it at various times."
+    },
+    {
+      "idx": 50,
+      "start": 214.58,
+      "end": 218.58,
+      "text": "It's a problem we have dealt with in the physics department year after year."
+    },
+    {
+      "idx": 51,
+      "start": 218.58,
+      "end": 226.86,
+      "text": "And one solution for that is to get a copy of a textbook I wrote called Basic Training in Mathematics."
+    },
+    {
+      "idx": 52,
+      "start": 226.86,
+      "end": 229.86,
+      "text": "It's a paperback for 30 bucks."
+    },
+    {
+      "idx": 53,
+      "start": 229.86,
+      "end": 232.86,
+      "text": "And I've given the name of the book in our class's website."
+    },
+    {
+      "idx": 54,
+      "start": 232.86,
+      "end": 236.06,
+      "text": "If I hadn't written it, I would prescribe it."
+    },
+    {
+      "idx": 55,
+      "start": 236.06,
+      "end": 238.06,
+      "text": "But that is a little awkward moment."
+    },
+    {
+      "idx": 56,
+      "start": 238.06,
+      "end": 240.06,
+      "text": "You don't want to sell your own book."
+    },
+    {
+      "idx": 57,
+      "start": 240.06,
+      "end": 244.06,
+      "text": "On the other hand, you don't have to withhold information that may be useful to the class."
+    },
+    {
+      "idx": 58,
+      "start": 244.06,
+      "end": 253.06,
+      "text": "So I think that book will give you all the basic principles you need in calculus, one variable, more variables, elementary complex numbers,"
+    },
+    {
+      "idx": 59,
+      "start": 253.06,
+      "end": 258.06,
+      "text": "maybe solving some problems with vectors and so on, which you're going to get into."
+    },
+    {
+      "idx": 60,
+      "start": 258.06,
+      "end": 260.12,
+      "text": "Whether you're going to physics or not is irrelevant."
+    },
+    {
+      "idx": 61,
+      "start": 260.12,
+      "end": 262.12,
+      "text": "If you're going to any science that uses mathematics,"
+    },
+    {
+      "idx": 62,
+      "start": 262.12,
+      "end": 266.12,
+      "text": "chemistry or engineering or even economics,"
+    },
+    {
+      "idx": 63,
+      "start": 266.12,
+      "end": 269.66,
+      "text": "you should find the contents of that useful."
+    },
+    {
+      "idx": 64,
+      "start": 269.66,
+      "end": 273.66,
+      "text": "So I think it will be in your interest to get that any way you like."
+    },
+    {
+      "idx": 65,
+      "start": 273.66,
+      "end": 277.66,
+      "text": "You can go to Amazon or you can go to our bookstore."
+    },
+    {
+      "idx": 66,
+      "start": 277.66,
+      "end": 280.66,
+      "text": "The bookstore has some copies, but they are really for another course."
+    },
+    {
+      "idx": 67,
+      "start": 280.66,
+      "end": 283.66,
+      "text": "So you should look at it and order it on your own."
+    },
+    {
+      "idx": 68,
+      "start": 283.66,
+      "end": 290.88,
+      "text": "Okay, so I will now proceed to the actual subject matter for today."
+    },
+    {
+      "idx": 69,
+      "start": 290.88,
+      "end": 294.58,
+      "text": "So I told you the way I'm going to teach any subject is to get the content out of the book."
+    },
+    {
+      "idx": 70,
+      "start": 295.58,
+      "end": 302.96,
+      "text": "So I'm going to start with the easiest example and lull you into some kind of security and then slowly increase the difficulty."
+    },
+    {
+      "idx": 71,
+      "start": 302.96,
+      "end": 305.22,
+      "text": "So what's the next difficult thing?"
+    },
+    {
+      "idx": 72,
+      "start": 305.22,
+      "end": 309.22,
+      "text": "Next difficult thing is to consider motion in higher dimensions."
+    },
+    {
+      "idx": 73,
+      "start": 309.22,
+      "end": 311.89,
+      "text": "So how high do you want to go?"
+    },
+    {
+      "idx": 74,
+      "start": 311.89,
+      "end": 318.5,
+      "text": "Now, for most of us, we can go up to three dimensions because we know we live in a three-dimensional world."
+    },
+    {
+      "idx": 75,
+      "start": 318.5,
+      "end": 320.5,
+      "text": "Everything moves around in 3D."
+    },
+    {
+      "idx": 76,
+      "start": 320.5,
+      "end": 322.56,
+      "text": "That will be enough for this course."
+    },
+    {
+      "idx": 77,
+      "start": 322.56,
+      "end": 325.56,
+      "text": "In fact, I'm going to use only two dimensions for most of the time."
+    },
+    {
+      "idx": 78,
+      "start": 325.56,
+      "end": 326.56,
+      "text": "Because the difference is that,"
+    },
+    {
+      "idx": 79,
+      "start": 326.56,
+      "end": 331.14,
+      "text": "because the difference between one dimension and two is very great."
+    },
+    {
+      "idx": 80,
+      "start": 331.14,
+      "end": 335.46,
+      "text": "But between two and three and four and so on is not very different."
+    },
+    {
+      "idx": 81,
+      "start": 335.46,
+      "end": 343.52,
+      "text": "There's only one occasion where it helps to go to three dimensions because there are certain things you can do in 3D you cannot do in less than 3D."
+    },
+    {
+      "idx": 82,
+      "start": 343.52,
+      "end": 347.45,
+      "text": "But that's later, so we don't have to worry about that."
+    },
+    {
+      "idx": 83,
+      "start": 347.45,
+      "end": 349.45,
+      "text": "So we'll stop with two."
+    },
+    {
+      "idx": 84,
+      "start": 349.45,
+      "end": 353.45,
+      "text": "If you talk to string theorists, they will tell you there are really how many dimensions?"
+    },
+    {
+      "idx": 85,
+      "start": 353.45,
+      "end": 354.45,
+      "text": "Do you know?"
+    },
+    {
+      "idx": 86,
+      "start": 354.45,
+      "end": 357.34,
+      "text": "There are actually ten, including space and time."
+    },
+    {
+      "idx": 87,
+      "start": 358.44,
+      "end": 361.44,
+      "text": "So, there are nine dimensions, including space and time, there are nine spatial dimensions."
+    },
+    {
+      "idx": 88,
+      "start": 361.44,
+      "end": 363.63,
+      "text": "That's according to string guys."
+    },
+    {
+      "idx": 89,
+      "start": 363.63,
+      "end": 369.95,
+      "text": "So, mathematicians have likely told us how to analyze mathematics in any number of dimensions."
+    },
+    {
+      "idx": 90,
+      "start": 369.95,
+      "end": 374.3,
+      "text": "We don't pay attention to them when they are going beyond three, but now we know we need that."
+    },
+    {
+      "idx": 91,
+      "start": 374.3,
+      "end": 376.3,
+      "text": "So, we are going to do two."
+    },
+    {
+      "idx": 92,
+      "start": 376.88,
+      "end": 386.06,
+      "text": "So, our picture now is going to be some particle that's traveling in the xy plane."
+    },
+    {
+      "idx": 93,
+      "start": 386.06,
+      "end": 391.72,
+      "text": "So, the guy is just moving around like this."
+    },
+    {
+      "idx": 94,
+      "start": 391.72,
+      "end": 394.72,
+      "text": "We're going to do the x versus time plot, the y versus time."
+    },
+    {
+      "idx": 95,
+      "start": 394.72,
+      "end": 396.72,
+      "text": "It's the actual motion of the particle."
+    },
+    {
+      "idx": 96,
+      "start": 396.72,
+      "end": 398.82,
+      "text": "And if you say, where is time?"
+    },
+    {
+      "idx": 97,
+      "start": 398.82,
+      "end": 407.54,
+      "text": "Well, one way to mark time is to imagine it carries a clock as it moves and put markers every second."
+    },
+    {
+      "idx": 98,
+      "start": 407.54,
+      "end": 412.54,
+      "text": "That may be t equal to zero, t equal to one, t equal to two, and so on."
+    },
+    {
+      "idx": 99,
+      "start": 412.54,
+      "end": 415.54,
+      "text": "So, time is measured as a parameter along the motion of the particle."
+    },
+    {
+      "idx": 100,
+      "start": 415.54,
+      "end": 417.64,
+      "text": "It is not explicitly shown."
+    },
+    {
+      "idx": 101,
+      "start": 417.64,
+      "end": 422.64,
+      "text": "But you can sort of tell the particle is moving slowly or rapidly by looking at the motion."
+    },
+    {
+      "idx": 102,
+      "start": 422.64,
+      "end": 425.64,
+      "text": "By looking at the spacing between these tick marks."
+    },
+    {
+      "idx": 103,
+      "start": 425.64,
+      "end": 428.64,
+      "text": "For example, here in one second it went from here to here."
+    },
+    {
+      "idx": 104,
+      "start": 428.64,
+      "end": 434.92,
+      "text": "Here in one second it seems to have gone much further, so probably it's traveling faster."
+    },
+    {
+      "idx": 105,
+      "start": 434.92,
+      "end": 438.92,
+      "text": "But if you want to describe this particle, what's the kinematics?"
+    },
+    {
+      "idx": 106,
+      "start": 438.92,
+      "end": 445.42,
+      "text": "You can pick a point and say, I am at the point xy."
+    },
+    {
+      "idx": 107,
+      "start": 445.42,
+      "end": 448.42,
+      "text": "So, when you go to two dimensions, you need a pair of numbers."
+    },
+    {
+      "idx": 108,
+      "start": 448.42,
+      "end": 450.42,
+      "text": "Instead of x, you need x and y."
+    },
+    {
+      "idx": 109,
+      "start": 450.42,
+      "end": 454.42,
+      "text": "But what we will find is it's more convenient to lump these two numbers in one."
+    },
+    {
+      "idx": 110,
+      "start": 455.42,
+      "end": 458.42,
+      "text": "So, we will find a single entity which is called a vector."
+    },
+    {
+      "idx": 111,
+      "start": 458.42,
+      "end": 461.42,
+      "text": "So, that's what we are going to talk about a little bit."
+    },
+    {
+      "idx": 112,
+      "start": 461.42,
+      "end": 464.29,
+      "text": "Talk a little bit about vectors."
+    },
+    {
+      "idx": 113,
+      "start": 464.29,
+      "end": 467.9,
+      "text": "Now, you guys have also seen vectors, I'm pretty sure."
+    },
+    {
+      "idx": 114,
+      "start": 467.9,
+      "end": 473.98,
+      "text": "But it is worth going over some properties and some may be new and some may be old."
+    },
+    {
+      "idx": 115,
+      "start": 473.98,
+      "end": 483.37,
+      "text": "So, the simplest context in which one can motivate a vector and also motivate the rules for dealing with vectors"
+    },
+    {
+      "idx": 116,
+      "start": 483.37,
+      "end": 486.37,
+      "text": "is when you look at real space."
+    },
+    {
+      "idx": 117,
+      "start": 486.37,
+      "end": 487.37,
+      "text": "I mean, this coordinates."
+    },
+    {
+      "idx": 118,
+      "start": 487.37,
+      "end": 489.53,
+      "text": "This coordinates x and y."
+    },
+    {
+      "idx": 119,
+      "start": 489.53,
+      "end": 499.65,
+      "text": "And let's imagine that I went on a camping trip and on the first day, here is where I was."
+    },
+    {
+      "idx": 120,
+      "start": 499.65,
+      "end": 508.15,
+      "text": "Then I tell you I went for 5 kilometers on the second day and another 5 kilometers on the third day."
+    },
+    {
+      "idx": 121,
+      "start": 508.15,
+      "end": 511.82,
+      "text": "Then I ask you, where am I?"
+    },
+    {
+      "idx": 122,
+      "start": 511.82,
+      "end": 515.2,
+      "text": "How far am I from camp?"
+    },
+    {
+      "idx": 123,
+      "start": 515.2,
+      "end": 517.2,
+      "text": "You realize that you cannot answer that."
+    },
+    {
+      "idx": 124,
+      "start": 518.7,
+      "end": 522.7,
+      "text": "You cannot answer that even if I promise to move only along the x-axis."
+    },
+    {
+      "idx": 125,
+      "start": 522.7,
+      "end": 529.5,
+      "text": "Because I think I don't want to pose this as a question because I think the answer is fairly obvious to everybody."
+    },
+    {
+      "idx": 126,
+      "start": 529.5,
+      "end": 531.5,
+      "text": "It's not enough to say I went 5 kilometers."
+    },
+    {
+      "idx": 127,
+      "start": 531.5,
+      "end": 534.5,
+      "text": "I got to tell you whether I went to the right or whether I went to the left."
+    },
+    {
+      "idx": 128,
+      "start": 534.5,
+      "end": 538.21,
+      "text": "So, I could be 10 kilometers from home."
+    },
+    {
+      "idx": 129,
+      "start": 538.21,
+      "end": 540.21,
+      "text": "I could be 0 kilometers from home."
+    },
+    {
+      "idx": 130,
+      "start": 540.21,
+      "end": 544.21,
+      "text": "Or I could be minus 10 if I had gone 2 steps to the left."
+    },
+    {
+      "idx": 131,
+      "start": 544.21,
+      "end": 550.59,
+      "text": "But you can deal with this by saying not just 5 kilometers but plus or minus 5 kilometers."
+    },
+    {
+      "idx": 132,
+      "start": 550.59,
+      "end": 552.59,
+      "text": "If you give a sign on top of the number,"
+    },
+    {
+      "idx": 133,
+      "start": 552.59,
+      "end": 555.59,
+      "text": "that takes care of all ambiguity in one dimension."
+    },
+    {
+      "idx": 134,
+      "start": 555.59,
+      "end": 559.59,
+      "text": "So, a sign on the number is adequate to keep track of my motion."
+    },
+    {
+      "idx": 135,
+      "start": 559.59,
+      "end": 564.88,
+      "text": "But you know in 2D, the options are not just left and right or north and south"
+    },
+    {
+      "idx": 136,
+      "start": 564.88,
+      "end": 568.88,
+      "text": "but infinity of possible directions in which I could go those 5 kilometers."
+    },
+    {
+      "idx": 137,
+      "start": 568.88,
+      "end": 572.88,
+      "text": "So, what I could do on the first day is to come here."
+    },
+    {
+      "idx": 138,
+      "start": 572.88,
+      "end": 576.26,
+      "text": "On the second day, it could be to go there."
+    },
+    {
+      "idx": 139,
+      "start": 576.26,
+      "end": 578.26,
+      "text": "These two guys are 5 kilometers long."
+    },
+    {
+      "idx": 140,
+      "start": 578.26,
+      "end": 582.9,
+      "text": "For that purpose, to describe that displacement,"
+    },
+    {
+      "idx": 141,
+      "start": 582.9,
+      "end": 584.99,
+      "text": "we use a vector."
+    },
+    {
+      "idx": 142,
+      "start": 584.99,
+      "end": 587.31,
+      "text": "This is called a vector."
+    },
+    {
+      "idx": 143,
+      "start": 587.31,
+      "end": 589.31,
+      "text": "I'm going to give it a name, A."
+    },
+    {
+      "idx": 144,
+      "start": 589.31,
+      "end": 592.38,
+      "text": "It starts in the origin and goes to this point."
+    },
+    {
+      "idx": 145,
+      "start": 592.38,
+      "end": 597.11,
+      "text": "That is a description of what I did on the first day."
+    },
+    {
+      "idx": 146,
+      "start": 597.11,
+      "end": 600.62,
+      "text": "And the second day, I did this."
+    },
+    {
+      "idx": 147,
+      "start": 600.62,
+      "end": 604.82,
+      "text": "And that is the description of what I did on the second day."
+    },
+    {
+      "idx": 148,
+      "start": 604.82,
+      "end": 607.82,
+      "text": "The proper way to draw a vector is to draw an arrow."
+    },
+    {
+      "idx": 149,
+      "start": 607.82,
+      "end": 609.82,
+      "text": "It's got a beginning and it's got an end."
+    },
+    {
+      "idx": 150,
+      "start": 609.82,
+      "end": 618.14,
+      "text": "So, this is the reason behind saying a vector has a magnitude and a direction."
+    },
+    {
+      "idx": 151,
+      "start": 618.14,
+      "end": 620.14,
+      "text": "Well, magnitude is how long this guy is."
+    },
+    {
+      "idx": 152,
+      "start": 620.14,
+      "end": 622.14,
+      "text": "And direction is at what angle it is."
+    },
+    {
+      "idx": 153,
+      "start": 622.14,
+      "end": 624.62,
+      "text": "So, this is A and this is B."
+    },
+    {
+      "idx": 154,
+      "start": 624.62,
+      "end": 627.62,
+      "text": "And now you realize that, by the way,"
+    },
+    {
+      "idx": 155,
+      "start": 627.62,
+      "end": 629.62,
+      "text": "when you draw a vector like A,"
+    },
+    {
+      "idx": 156,
+      "start": 629.62,
+      "end": 632.62,
+      "text": "you're supposed to put a little arrow on top."
+    },
+    {
+      "idx": 157,
+      "start": 632.62,
+      "end": 633.62,
+      "text": "If you don't put an arrow on top,"
+    },
+    {
+      "idx": 158,
+      "start": 633.62,
+      "end": 636.62,
+      "text": "it means you're talking about just a number A,"
+    },
+    {
+      "idx": 159,
+      "start": 636.62,
+      "end": 638.62,
+      "text": "which could be positive or negative or complex,"
+    },
+    {
+      "idx": 160,
+      "start": 638.62,
+      "end": 640.62,
+      "text": "but it's just an ordinary number."
+    },
+    {
+      "idx": 161,
+      "start": 640.62,
+      "end": 643.72,
+      "text": "If you want to talk about an arrow of any kind,"
+    },
+    {
+      "idx": 162,
+      "start": 643.72,
+      "end": 645.72,
+      "text": "you've got to put a little arrow on top of it."
+    },
+    {
+      "idx": 163,
+      "start": 645.72,
+      "end": 648.88,
+      "text": "In a textbook, they use boldface letters."
+    },
+    {
+      "idx": 164,
+      "start": 648.88,
+      "end": 650.88,
+      "text": "In the classroom, you use the letter A."
+    },
+    {
+      "idx": 165,
+      "start": 650.88,
+      "end": 652.91,
+      "text": "You use the symbol."
+    },
+    {
+      "idx": 166,
+      "start": 652.91,
+      "end": 655.55,
+      "text": "This is A and this is B."
+    },
+    {
+      "idx": 167,
+      "start": 655.55,
+      "end": 660.35,
+      "text": "It's a very natural quantity that you can call A plus B."
+    },
+    {
+      "idx": 168,
+      "start": 660.35,
+      "end": 662.54,
+      "text": "If you want to call something as A plus B,"
+    },
+    {
+      "idx": 169,
+      "start": 662.54,
+      "end": 665.54,
+      "text": "it means that I did A and then I did B,"
+    },
+    {
+      "idx": 170,
+      "start": 665.54,
+      "end": 668.54,
+      "text": "but if I want to do it all in one shot,"
+    },
+    {
+      "idx": 171,
+      "start": 668.54,
+      "end": 671.54,
+      "text": "what is the equivalent step I should take?"
+    },
+    {
+      "idx": 172,
+      "start": 671.54,
+      "end": 675.54,
+      "text": "It's obvious that the bottom line of my two-day trip"
+    },
+    {
+      "idx": 173,
+      "start": 675.54,
+      "end": 677.77,
+      "text": "is this object C,"
+    },
+    {
+      "idx": 174,
+      "start": 677.77,
+      "end": 680.77,
+      "text": "and we will call that A plus B."
+    },
+    {
+      "idx": 175,
+      "start": 680.77,
+      "end": 684.37,
+      "text": "It does represent the sum,"
+    },
+    {
+      "idx": 176,
+      "start": 684.37,
+      "end": 686.37,
+      "text": "in the sense that if I gave you four bucks,"
+    },
+    {
+      "idx": 177,
+      "start": 686.37,
+      "end": 687.37,
+      "text": "then I gave you five bucks,"
+    },
+    {
+      "idx": 178,
+      "start": 687.37,
+      "end": 689.37,
+      "text": "I gave you effectively nine."
+    },
+    {
+      "idx": 179,
+      "start": 689.37,
+      "end": 691.37,
+      "text": "Here, we are not talking about a single number,"
+    },
+    {
+      "idx": 180,
+      "start": 691.37,
+      "end": 693.37,
+      "text": "but a displacement in the plane,"
+    },
+    {
+      "idx": 181,
+      "start": 693.37,
+      "end": 697.62,
+      "text": "and C indeed represents an effective displacement."
+    },
+    {
+      "idx": 182,
+      "start": 697.62,
+      "end": 699.62,
+      "text": "This is the rule for adding vectors,"
+    },
+    {
+      "idx": 183,
+      "start": 699.62,
+      "end": 702.62,
+      "text": "and it has its origin in this simple example."
+    },
+    {
+      "idx": 184,
+      "start": 702.62,
+      "end": 706.22,
+      "text": "Okay, so the rule for adding the two vectors is"
+    },
+    {
+      "idx": 185,
+      "start": 706.22,
+      "end": 707.22,
+      "text": "you draw the first one,"
+    },
+    {
+      "idx": 186,
+      "start": 707.22,
+      "end": 709.22,
+      "text": "and at the end of that first one,"
+    },
+    {
+      "idx": 187,
+      "start": 709.22,
+      "end": 710.22,
+      "text": "you begin the second one,"
+    },
+    {
+      "idx": 188,
+      "start": 710.22,
+      "end": 713.22,
+      "text": "and the sum starts at the beginning of the first"
+    },
+    {
+      "idx": 189,
+      "start": 713.22,
+      "end": 716.22,
+      "text": "and ends at the end of the second."
+    },
+    {
+      "idx": 190,
+      "start": 716.22,
+      "end": 721.34,
+      "text": "Okay, so that tells you how to add two vectors"
+    },
+    {
+      "idx": 191,
+      "start": 721.34,
+      "end": 722.34,
+      "text": "and get a sum."
+    },
+    {
+      "idx": 192,
+      "start": 722.34,
+      "end": 725.69,
+      "text": "You can verify in this simple example"
+    },
+    {
+      "idx": 193,
+      "start": 725.69,
+      "end": 729.91,
+      "text": "that A plus B is the same as B plus A."
+    },
+    {
+      "idx": 194,
+      "start": 729.91,
+      "end": 734.32,
+      "text": "B plus A would be first draw B,"
+    },
+    {
+      "idx": 195,
+      "start": 734.32,
+      "end": 736.32,
+      "text": "and from there you draw A,"
+    },
+    {
+      "idx": 196,
+      "start": 736.32,
+      "end": 739.09,
+      "text": "and you will end up with the same point."
+    },
+    {
+      "idx": 197,
+      "start": 739.09,
+      "end": 741.09,
+      "text": "So you say this is a commutative law."
+    },
+    {
+      "idx": 198,
+      "start": 741.09,
+      "end": 744.09,
+      "text": "It doesn't matter the sequence in which you add the two vectors."
+    },
+    {
+      "idx": 199,
+      "start": 744.09,
+      "end": 747.54,
+      "text": "We know that's true for ordinary numbers, right?"
+    },
+    {
+      "idx": 200,
+      "start": 747.54,
+      "end": 749.54,
+      "text": "3 plus 4 and 4 plus 3 are same."
+    },
+    {
+      "idx": 201,
+      "start": 749.54,
+      "end": 751.54,
+      "text": "It's also true for vectors."
+    },
+    {
+      "idx": 202,
+      "start": 751.54,
+      "end": 754.82,
+      "text": "But the law of composition is not always commutative."
+    },
+    {
+      "idx": 203,
+      "start": 754.82,
+      "end": 757.82,
+      "text": "There are certain occasions in which you first do A"
+    },
+    {
+      "idx": 204,
+      "start": 757.82,
+      "end": 760.82,
+      "text": "and then you do B that's not the same as first doing B"
+    },
+    {
+      "idx": 205,
+      "start": 760.82,
+      "end": 763.3,
+      "text": "and then doing A."
+    },
+    {
+      "idx": 206,
+      "start": 763.3,
+      "end": 765.3,
+      "text": "We'll come to that later."
+    },
+    {
+      "idx": 207,
+      "start": 765.3,
+      "end": 767.66,
+      "text": "Right now, this is the simple law."
+    },
+    {
+      "idx": 208,
+      "start": 767.66,
+      "end": 773.06,
+      "text": "All right, next thing I want to do is to define"
+    },
+    {
+      "idx": 209,
+      "start": 773.06,
+      "end": 776.06,
+      "text": "a vector that plays the role of the number 0."
+    },
+    {
+      "idx": 210,
+      "start": 776.06,
+      "end": 779.54,
+      "text": "The number 0 has a property."
+    },
+    {
+      "idx": 211,
+      "start": 779.54,
+      "end": 780.54,
+      "text": "When you add it to any number,"
+    },
+    {
+      "idx": 212,
+      "start": 780.54,
+      "end": 782.89,
+      "text": "it doesn't make a difference."
+    },
+    {
+      "idx": 213,
+      "start": 782.89,
+      "end": 784.89,
+      "text": "I want a vector that I want to call the 0 vector,"
+    },
+    {
+      "idx": 214,
+      "start": 784.89,
+      "end": 787.89,
+      "text": "and it should have the property that when I add it to anybody,"
+    },
+    {
+      "idx": 215,
+      "start": 787.89,
+      "end": 790.02,
+      "text": "I get the same vector."
+    },
+    {
+      "idx": 216,
+      "start": 790.02,
+      "end": 793.55,
+      "text": "So you can guess who the 0 vector is."
+    },
+    {
+      "idx": 217,
+      "start": 793.55,
+      "end": 795.55,
+      "text": "0 vector is a vector of no length."
+    },
+    {
+      "idx": 218,
+      "start": 795.55,
+      "end": 798.9,
+      "text": "I cannot, if this is A, I'm going to draw a vector here."
+    },
+    {
+      "idx": 219,
+      "start": 798.9,
+      "end": 800.9,
+      "text": "I cannot show you the 0 vector."
+    },
+    {
+      "idx": 220,
+      "start": 800.9,
+      "end": 803.9,
+      "text": "The minute you can see it, I'm doing something wrong, right?"
+    },
+    {
+      "idx": 221,
+      "start": 803.9,
+      "end": 806.9,
+      "text": "If you can see it, it's wrong because it's not supposed"
+    },
+    {
+      "idx": 222,
+      "start": 806.9,
+      "end": 808.1,
+      "text": "to have any length."
+    },
+    {
+      "idx": 223,
+      "start": 808.1,
+      "end": 811.86,
+      "text": "But it has a property that when you add it to anything,"
+    },
+    {
+      "idx": 224,
+      "start": 811.86,
+      "end": 812.86,
+      "text": "you get the same vector."
+    },
+    {
+      "idx": 225,
+      "start": 812.86,
+      "end": 814.86,
+      "text": "So that vector is called a null vector."
+    },
+    {
+      "idx": 226,
+      "start": 814.86,
+      "end": 815.86,
+      "text": "How about this vector?"
+    },
+    {
+      "idx": 227,
+      "start": 815.86,
+      "end": 816.86,
+      "text": "It's a vector."
+    },
+    {
+      "idx": 228,
+      "start": 816.86,
+      "end": 820.75,
+      "text": "How about this guy?"
+    },
+    {
+      "idx": 229,
+      "start": 820.75,
+      "end": 828.62,
+      "text": "I draw A, then I draw another A."
+    },
+    {
+      "idx": 230,
+      "start": 828.62,
+      "end": 836.51,
+      "text": "This is A plus A."
+    },
+    {
+      "idx": 231,
+      "start": 836.51,
+      "end": 839.51,
+      "text": "You have to agree that if there's any vector that"
+    },
+    {
+      "idx": 232,
+      "start": 839.51,
+      "end": 842.58,
+      "text": "deserves to be called 2A, it is this guy, right?"
+    },
+    {
+      "idx": 233,
+      "start": 842.58,
+      "end": 844.58,
+      "text": "This is A plus A."
+    },
+    {
+      "idx": 234,
+      "start": 844.58,
+      "end": 847.76,
+      "text": "So we're going to call it 2A."
+    },
+    {
+      "idx": 235,
+      "start": 847.76,
+      "end": 851.24,
+      "text": "The beauty of that is now we have discovered a notion of"
+    },
+    {
+      "idx": 236,
+      "start": 851.24,
+      "end": 854.24,
+      "text": "what it means to multiply a vector by a number."
+    },
+    {
+      "idx": 237,
+      "start": 854.24,
+      "end": 859.01,
+      "text": "If you multiply it by 2, you get a vector 2 times as long."
+    },
+    {
+      "idx": 238,
+      "start": 859.01,
+      "end": 861.01,
+      "text": "But then you're able to generalize that and say,"
+    },
+    {
+      "idx": 239,
+      "start": 861.01,
+      "end": 867.01,
+      "text": "if you multiply it by 2.6, I mean a vector 2.6 as long as A."
+    },
+    {
+      "idx": 240,
+      "start": 867.01,
+      "end": 872.13,
+      "text": "So multiplying a vector by a number means stretch it by the factor."
+    },
+    {
+      "idx": 241,
+      "start": 872.13,
+      "end": 880.0,
+      "text": "Then I want to think of a vector that I can call minus A."
+    },
+    {
+      "idx": 242,
+      "start": 880.0,
+      "end": 882.0,
+      "text": "What do I expect of minus A?"
+    },
+    {
+      "idx": 243,
+      "start": 882.0,
+      "end": 887.0,
+      "text": "I expect that if I add minus A to A, I should get the guy"
+    },
+    {
+      "idx": 244,
+      "start": 887.0,
+      "end": 889.0,
+      "text": "who plays the role of zero in this world,"
+    },
+    {
+      "idx": 245,
+      "start": 889.0,
+      "end": 891.0,
+      "text": "which is the vector of no length."
+    },
+    {
+      "idx": 246,
+      "start": 891.0,
+      "end": 894.99,
+      "text": "It's very clear that if you want to take A and ask,"
+    },
+    {
+      "idx": 247,
+      "start": 894.99,
+      "end": 897.18,
+      "text": "what should I add to A?"
+    },
+    {
+      "idx": 248,
+      "start": 897.18,
+      "end": 899.18,
+      "text": "So I get the null vector."
+    },
+    {
+      "idx": 249,
+      "start": 899.18,
+      "end": 901.18,
+      "text": "It's clear that you want to add a vector that looks like that"
+    },
+    {
+      "idx": 250,
+      "start": 901.18,
+      "end": 904.18,
+      "text": "because then if you go from the start of this to the finish of that,"
+    },
+    {
+      "idx": 251,
+      "start": 904.18,
+      "end": 908.22,
+      "text": "you end up at the same point and you get this invisible zero vector."
+    },
+    {
+      "idx": 252,
+      "start": 908.22,
+      "end": 912.22,
+      "text": "So the minus vector is that the same vector flipped over"
+    },
+    {
+      "idx": 253,
+      "start": 912.22,
+      "end": 914.22,
+      "text": "to point the opposite way."
+    },
+    {
+      "idx": 254,
+      "start": 914.22,
+      "end": 917.72,
+      "text": "So that's like minus 1 times a vector."
+    },
+    {
+      "idx": 255,
+      "start": 917.72,
+      "end": 919.72,
+      "text": "Once you've got that, you can do minus 7 times a vector"
+    },
+    {
+      "idx": 256,
+      "start": 919.72,
+      "end": 921.72,
+      "text": "or minus pi times a vector."
+    },
+    {
+      "idx": 257,
+      "start": 921.72,
+      "end": 924.72,
+      "text": "Just take the vector, multiply it by pi, and flip it over."
+    },
+    {
+      "idx": 258,
+      "start": 924.72,
+      "end": 926.72,
+      "text": "That's minus pi times a vector."
+    },
+    {
+      "idx": 259,
+      "start": 926.72,
+      "end": 928.75,
+      "text": "This is how you get the rules for a vector."
+    },
+    {
+      "idx": 260,
+      "start": 928.75,
+      "end": 932.75,
+      "text": "So if you're adding a vector to another vector,"
+    },
+    {
+      "idx": 261,
+      "start": 932.75,
+      "end": 935.75,
+      "text": "then taking a vector and multiplying it by some constant."
+    },
+    {
+      "idx": 262,
+      "start": 935.75,
+      "end": 939.68,
+      "text": "Then, of course, you can do more complicated things."
+    },
+    {
+      "idx": 263,
+      "start": 939.68,
+      "end": 941.68,
+      "text": "You can take this vector, multiply it by one number,"
+    },
+    {
+      "idx": 264,
+      "start": 941.68,
+      "end": 943.68,
+      "text": "take that vector, multiply it by another number,"
+    },
+    {
+      "idx": 265,
+      "start": 943.68,
+      "end": 944.68,
+      "text": "add the two of them."
+    },
+    {
+      "idx": 266,
+      "start": 944.68,
+      "end": 949.09,
+      "text": "We know what all those operations mean now."
+    },
+    {
+      "idx": 267,
+      "start": 949.09,
+      "end": 951.09,
+      "text": "But you don't have to memorize all this."
+    },
+    {
+      "idx": 268,
+      "start": 951.09,
+      "end": 953.09,
+      "text": "The only rule is, do what comes naturally."
+    },
+    {
+      "idx": 269,
+      "start": 953.09,
+      "end": 955.09,
+      "text": "Do what you normally do with ordinary numbers,"
+    },
+    {
+      "idx": 270,
+      "start": 955.09,
+      "end": 957.09,
+      "text": "and this seems to work for vectors."
+    },
+    {
+      "idx": 271,
+      "start": 957.09,
+      "end": 960.54,
+      "text": "But you should know what multiplying a vector by a number means."
+    },
+    {
+      "idx": 272,
+      "start": 960.54,
+      "end": 965.88,
+      "text": "So this is the notion of what vectors are."
+    },
+    {
+      "idx": 273,
+      "start": 965.88,
+      "end": 969.36,
+      "text": "Now we're going to come to some important concept,"
+    },
+    {
+      "idx": 274,
+      "start": 969.36,
+      "end": 971.81,
+      "text": "which is the following."
+    },
+    {
+      "idx": 275,
+      "start": 971.81,
+      "end": 976.29,
+      "text": "You go back to the same xy plane."
+    },
+    {
+      "idx": 276,
+      "start": 976.29,
+      "end": 978.29,
+      "text": "Here is some vector a."
+    },
+    {
+      "idx": 277,
+      "start": 978.29,
+      "end": 981.96,
+      "text": "I'm going to introduce two very special vectors."
+    },
+    {
+      "idx": 278,
+      "start": 981.96,
+      "end": 984.86,
+      "text": "They are called the unit vectors."
+    },
+    {
+      "idx": 279,
+      "start": 984.86,
+      "end": 987.34,
+      "text": "And this guy is i."
+    },
+    {
+      "idx": 280,
+      "start": 987.34,
+      "end": 988.34,
+      "text": "That is j."
+    },
+    {
+      "idx": 281,
+      "start": 988.34,
+      "end": 990.34,
+      "text": "If I had a third axis, I would draw a k,"
+    },
+    {
+      "idx": 282,
+      "start": 990.34,
+      "end": 991.34,
+      "text": "but we don't need that."
+    },
+    {
+      "idx": 283,
+      "start": 991.34,
+      "end": 994.4,
+      "text": "So i and j are vectors of length 1,"
+    },
+    {
+      "idx": 284,
+      "start": 994.4,
+      "end": 996.4,
+      "text": "pointing along x and y."
+    },
+    {
+      "idx": 285,
+      "start": 996.4,
+      "end": 1002.32,
+      "text": "The claim is, I can write any vector you give me"
+    },
+    {
+      "idx": 286,
+      "start": 1002.32,
+      "end": 1006.58,
+      "text": "as a rescaled i plus a rescaled j."
+    },
+    {
+      "idx": 287,
+      "start": 1006.58,
+      "end": 1010.09,
+      "text": "There's nothing you can throw at me that I cannot handle"
+    },
+    {
+      "idx": 288,
+      "start": 1010.09,
+      "end": 1012.09,
+      "text": "with some multiple of i and some multiple of j."
+    },
+    {
+      "idx": 289,
+      "start": 1012.09,
+      "end": 1017.54,
+      "text": "Now it's intuitively clear, but I will just prove it beyond any doubt."
+    },
+    {
+      "idx": 290,
+      "start": 1017.54,
+      "end": 1018.54,
+      "text": "Here is the vector a."
+    },
+    {
+      "idx": 291,
+      "start": 1018.54,
+      "end": 1023.54,
+      "text": "It is clear that that vector is the sum of that vector and that vector,"
+    },
+    {
+      "idx": 292,
+      "start": 1023.54,
+      "end": 1027.05,
+      "text": "by the rules of vector addition, right?"
+    },
+    {
+      "idx": 293,
+      "start": 1027.05,
+      "end": 1030.05,
+      "text": "Because that plus that is equal to the a."
+    },
+    {
+      "idx": 294,
+      "start": 1030.05,
+      "end": 1032.05,
+      "text": "But how about this part?"
+    },
+    {
+      "idx": 295,
+      "start": 1032.05,
+      "end": 1036.3,
+      "text": "This part being parallel to i has to be a multiple of i."
+    },
+    {
+      "idx": 296,
+      "start": 1036.3,
+      "end": 1040.62,
+      "text": "We know that because you can stretch i by whatever factor you like."
+    },
+    {
+      "idx": 297,
+      "start": 1040.62,
+      "end": 1044.62,
+      "text": "So whatever number it takes, ax times i is this part."
+    },
+    {
+      "idx": 298,
+      "start": 1044.62,
+      "end": 1049.1,
+      "text": "This part being parallel to j has to be some multiple of j."
+    },
+    {
+      "idx": 299,
+      "start": 1049.1,
+      "end": 1052.32,
+      "text": "I'm going to call it ay."
+    },
+    {
+      "idx": 300,
+      "start": 1052.32,
+      "end": 1055.32,
+      "text": "Therefore, the vector a that you gave me,"
+    },
+    {
+      "idx": 301,
+      "start": 1055.32,
+      "end": 1057.32,
+      "text": "I have managed to write as i times ax,"
+    },
+    {
+      "idx": 302,
+      "start": 1057.32,
+      "end": 1059.86,
+      "text": "plus j times ay."
+    },
+    {
+      "idx": 303,
+      "start": 1059.86,
+      "end": 1068.66,
+      "text": "So you can ask yourself, if you gave me a particular vector,"
+    },
+    {
+      "idx": 304,
+      "start": 1068.66,
+      "end": 1070.66,
+      "text": "what do I use for ax and ay?"
+    },
+    {
+      "idx": 305,
+      "start": 1070.66,
+      "end": 1075.08,
+      "text": "Well, you can see from trigonometry that at this angle"
+    },
+    {
+      "idx": 306,
+      "start": 1075.08,
+      "end": 1079.08,
+      "text": "was theta here, and that the length of the vector"
+    },
+    {
+      "idx": 307,
+      "start": 1079.08,
+      "end": 1082.26,
+      "text": "I'm going to call by a."
+    },
+    {
+      "idx": 308,
+      "start": 1082.26,
+      "end": 1084.26,
+      "text": "a is the length of a."
+    },
+    {
+      "idx": 309,
+      "start": 1084.26,
+      "end": 1089.34,
+      "text": "If you drop the arrow, it's the usual convention"
+    },
+    {
+      "idx": 310,
+      "start": 1089.34,
+      "end": 1091.34,
+      "text": "as you're talking about the length of the vector a."
+    },
+    {
+      "idx": 311,
+      "start": 1091.34,
+      "end": 1096.1,
+      "text": "First of all, it's clear from the first line"
+    },
+    {
+      "idx": 312,
+      "start": 1096.1,
+      "end": 1098.1,
+      "text": "that the vector a is the length of the vector a."
+    },
+    {
+      "idx": 313,
+      "start": 1098.1,
+      "end": 1103.36,
+      "text": "The Pythagoras theorem that a is square root of ax squared"
+    },
+    {
+      "idx": 314,
+      "start": 1103.36,
+      "end": 1106.13,
+      "text": "plus ay squared."
+    },
+    {
+      "idx": 315,
+      "start": 1106.13,
+      "end": 1112.69,
+      "text": "And the angle theta that it makes with the x-axis"
+    },
+    {
+      "idx": 316,
+      "start": 1112.69,
+      "end": 1122.94,
+      "text": "satisfies the condition tan theta is ay over ax."
+    },
+    {
+      "idx": 317,
+      "start": 1122.94,
+      "end": 1126.14,
+      "text": "So what this means, now here's the main point."
+    },
+    {
+      "idx": 318,
+      "start": 1126.14,
+      "end": 1129.26,
+      "text": "If you give me a pair of numbers, ax and ay,"
+    },
+    {
+      "idx": 319,
+      "start": 1129.26,
+      "end": 1132.74,
+      "text": "that's as good as giving me this arrow,"
+    },
+    {
+      "idx": 320,
+      "start": 1132.74,
+      "end": 1134.74,
+      "text": "because I can find the length of the arrow"
+    },
+    {
+      "idx": 321,
+      "start": 1134.74,
+      "end": 1136.74,
+      "text": "by Pythagoras' theorem, and I can find the length"
+    },
+    {
+      "idx": 322,
+      "start": 1136.74,
+      "end": 1139.74,
+      "text": "of the arrow by saying the angle theta satisfies"
+    },
+    {
+      "idx": 323,
+      "start": 1139.74,
+      "end": 1141.74,
+      "text": "tan theta is ay over ax."
+    },
+    {
+      "idx": 324,
+      "start": 1141.74,
+      "end": 1146.25,
+      "text": "So you have the option of either working with the two"
+    },
+    {
+      "idx": 325,
+      "start": 1146.25,
+      "end": 1149.25,
+      "text": "components of a or with the arrow."
+    },
+    {
+      "idx": 326,
+      "start": 1149.25,
+      "end": 1155.87,
+      "text": "Now, in practice, most of the time we work with these"
+    },
+    {
+      "idx": 327,
+      "start": 1155.87,
+      "end": 1157.87,
+      "text": "two numbers, ax and ay."
+    },
+    {
+      "idx": 328,
+      "start": 1157.87,
+      "end": 1164.25,
+      "text": "If you're describing a particle with location r,"
+    },
+    {
+      "idx": 329,
+      "start": 1164.25,
+      "end": 1169.24,
+      "text": "the vector we use typically to locate a particle, r,"
+    },
+    {
+      "idx": 330,
+      "start": 1169.24,
+      "end": 1172.24,
+      "text": "then r is just i times x,"
+    },
+    {
+      "idx": 331,
+      "start": 1172.24,
+      "end": 1177.78,
+      "text": "plus j times y, because you all know that's x"
+    },
+    {
+      "idx": 332,
+      "start": 1177.78,
+      "end": 1185.35,
+      "text": "and that's y."
+    },
+    {
+      "idx": 333,
+      "start": 1185.35,
+      "end": 1188.35,
+      "text": "Now, I've not given you any other example besides the"
+    },
+    {
+      "idx": 334,
+      "start": 1188.35,
+      "end": 1191.35,
+      "text": "displacement vector, but at the moment we'll define a"
+    },
+    {
+      "idx": 335,
+      "start": 1191.35,
+      "end": 1194.35,
+      "text": "vector to be any object which looks like some multiple of i"
+    },
+    {
+      "idx": 336,
+      "start": 1194.35,
+      "end": 1200.74,
+      "text": "plus some multiple of j."
+    },
+    {
+      "idx": 337,
+      "start": 1200.74,
+      "end": 1203.74,
+      "text": "So suppose I tell you to add two vectors,"
+    },
+    {
+      "idx": 338,
+      "start": 1203.74,
+      "end": 1210.17,
+      "text": "a and b, equal to c, and I say what's the result of"
+    },
+    {
+      "idx": 339,
+      "start": 1210.17,
+      "end": 1211.721,
+      "text": "adding a and b?"
+    },
+    {
+      "idx": 340,
+      "start": 1211.721,
+      "end": 1214.1,
+      "text": "You've got two options."
+    },
+    {
+      "idx": 341,
+      "start": 1214.1,
+      "end": 1216.38,
+      "text": "You can draw the arrow corresponding to a,"
+    },
+    {
+      "idx": 342,
+      "start": 1216.38,
+      "end": 1218.38,
+      "text": "then you make an arrow corresponding to b,"
+    },
+    {
+      "idx": 343,
+      "start": 1218.38,
+      "end": 1220.38,
+      "text": "you lay it on the edge of this one,"
+    },
+    {
+      "idx": 344,
+      "start": 1220.38,
+      "end": 1222.38,
+      "text": "then add them as shown here."
+    },
+    {
+      "idx": 345,
+      "start": 1222.38,
+      "end": 1227.53,
+      "text": "But you can also do something without drawing any pictures."
+    },
+    {
+      "idx": 346,
+      "start": 1227.53,
+      "end": 1233.14,
+      "text": "That would come by saying I'm taking i times ax"
+    },
+    {
+      "idx": 347,
+      "start": 1233.65,
+      "end": 1238.0,
+      "text": "plus j times ay plus i times bx"
+    },
+    {
+      "idx": 348,
+      "start": 1238.0,
+      "end": 1242.7,
+      "text": "plus j times by, and I'm trying to add all these guys."
+    },
+    {
+      "idx": 349,
+      "start": 1242.7,
+      "end": 1248.02,
+      "text": "But then I combine i times ax with i times bx,"
+    },
+    {
+      "idx": 350,
+      "start": 1248.02,
+      "end": 1251.02,
+      "text": "because that's the vector parallel to i with the length ax,"
+    },
+    {
+      "idx": 351,
+      "start": 1251.02,
+      "end": 1254.02,
+      "text": "that's the vector parallel to i with length bx."
+    },
+    {
+      "idx": 352,
+      "start": 1254.02,
+      "end": 1258.02,
+      "text": "It's clear if I add them, I'll get a vector parallel to i"
+    },
+    {
+      "idx": 353,
+      "start": 1258.02,
+      "end": 1265.2,
+      "text": "with length ax plus bx, then j equals ay plus by."
+    },
+    {
+      "idx": 354,
+      "start": 1265.2,
+      "end": 1268.65,
+      "text": "I have to be a little careful when I said add the lengths."
+    },
+    {
+      "idx": 355,
+      "start": 1268.65,
+      "end": 1270.65,
+      "text": "I'm assuming all the components are positive."
+    },
+    {
+      "idx": 356,
+      "start": 1270.65,
+      "end": 1272.65,
+      "text": "If the ax and ay, some are positive,"
+    },
+    {
+      "idx": 357,
+      "start": 1272.65,
+      "end": 1275.65,
+      "text": "some are negative, this is the way by which we have"
+    },
+    {
+      "idx": 358,
+      "start": 1275.65,
+      "end": 1278.65,
+      "text": "learned we should combine multiples of i."
+    },
+    {
+      "idx": 359,
+      "start": 1278.65,
+      "end": 1280.65,
+      "text": "When I give you a multiple of i and another multiple of i,"
+    },
+    {
+      "idx": 360,
+      "start": 1280.65,
+      "end": 1286.67,
+      "text": "the sum has got as its coefficient the sum of the two coefficients."
+    },
+    {
+      "idx": 361,
+      "start": 1286.67,
+      "end": 1288.67,
+      "text": "This says when you add two vectors,"
+    },
+    {
+      "idx": 362,
+      "start": 1288.67,
+      "end": 1290.67,
+      "text": "you just add the components."
+    },
+    {
+      "idx": 363,
+      "start": 1290.67,
+      "end": 1296.74,
+      "text": "So that if this vector is called i times cx plus j times cy,"
+    },
+    {
+      "idx": 364,
+      "start": 1296.74,
+      "end": 1302.63,
+      "text": "then it's worth knowing that cx is ax plus bx"
+    },
+    {
+      "idx": 365,
+      "start": 1302.63,
+      "end": 1309.64,
+      "text": "and cy is ay plus by."
+    },
+    {
+      "idx": 366,
+      "start": 1309.64,
+      "end": 1312.64,
+      "text": "So most of the time when we deal with vectors,"
+    },
+    {
+      "idx": 367,
+      "start": 1312.64,
+      "end": 1314.64,
+      "text": "we don't draw these arrows anymore."
+    },
+    {
+      "idx": 368,
+      "start": 1314.64,
+      "end": 1316.64,
+      "text": "We just add the two vectors."
+    },
+    {
+      "idx": 369,
+      "start": 1316.64,
+      "end": 1318.64,
+      "text": "So that's another pair of numbers."
+    },
+    {
+      "idx": 370,
+      "start": 1318.64,
+      "end": 1319.64,
+      "text": "And if you give me another vector,"
+    },
+    {
+      "idx": 371,
+      "start": 1319.64,
+      "end": 1320.64,
+      "text": "that's another pair of numbers."
+    },
+    {
+      "idx": 372,
+      "start": 1320.64,
+      "end": 1321.64,
+      "text": "And if you say add the vectors,"
+    },
+    {
+      "idx": 373,
+      "start": 1321.64,
+      "end": 1323.64,
+      "text": "I will just add the x to the x and the y to the y,"
+    },
+    {
+      "idx": 374,
+      "start": 1323.64,
+      "end": 1328.14,
+      "text": "and I'm keeping track of what the sum is."
+    },
+    {
+      "idx": 375,
+      "start": 1328.14,
+      "end": 1333.66,
+      "text": "A very important result is that if two vectors are equal,"
+    },
+    {
+      "idx": 376,
+      "start": 1333.66,
+      "end": 1338.66,
+      "text": "if a equals b, the only way it can happen is if"
+    },
+    {
+      "idx": 377,
+      "start": 1338.66,
+      "end": 1347.4,
+      "text": "separately ax is equal to bx and ay is equal to by."
+    },
+    {
+      "idx": 378,
+      "start": 1347.4,
+      "end": 1349.98,
+      "text": "That's the very important difference."
+    },
+    {
+      "idx": 379,
+      "start": 1349.98,
+      "end": 1353.98,
+      "text": "So if you have two vectors equal with exactly the same x component"
+    },
+    {
+      "idx": 380,
+      "start": 1353.98,
+      "end": 1355.98,
+      "text": "and exactly the same y component,"
+    },
+    {
+      "idx": 381,
+      "start": 1355.98,
+      "end": 1356.98,
+      "text": "that's pretty obvious."
+    },
+    {
+      "idx": 382,
+      "start": 1356.98,
+      "end": 1358.17,
+      "text": "If two arrows are equal,"
+    },
+    {
+      "idx": 383,
+      "start": 1358.17,
+      "end": 1360.17,
+      "text": "you cannot be longer in the x direction"
+    },
+    {
+      "idx": 384,
+      "start": 1360.17,
+      "end": 1362.17,
+      "text": "and correspondingly shorter in the y direction."
+    },
+    {
+      "idx": 385,
+      "start": 1362.17,
+      "end": 1364.17,
+      "text": "Everything has to completely match."
+    },
+    {
+      "idx": 386,
+      "start": 1364.17,
+      "end": 1369.3,
+      "text": "So vector equation a equals b is actually a shorthand for two equations."
+    },
+    {
+      "idx": 387,
+      "start": 1369.3,
+      "end": 1377.26,
+      "text": "The x parts match and the y parts match."
+    },
+    {
+      "idx": 388,
+      "start": 1378.26,
+      "end": 1380.42,
+      "text": "Now when you work with components,"
+    },
+    {
+      "idx": 389,
+      "start": 1380.42,
+      "end": 1383.42,
+      "text": "ax and ay, if I didn't mention it,"
+    },
+    {
+      "idx": 390,
+      "start": 1383.42,
+      "end": 1387.85,
+      "text": "they are the components of the vector."
+    },
+    {
+      "idx": 391,
+      "start": 1387.85,
+      "end": 1390.88,
+      "text": "You can do all your bookkeeping in terms of ax and ay,"
+    },
+    {
+      "idx": 392,
+      "start": 1390.88,
+      "end": 1395.06,
+      "text": "but you've got to be aware of one fact."
+    },
+    {
+      "idx": 393,
+      "start": 1395.06,
+      "end": 1397.06,
+      "text": "If I just come and say to you,"
+    },
+    {
+      "idx": 394,
+      "start": 1397.06,
+      "end": 1400.06,
+      "text": "here's a vector whose components are 3 and 5."
+    },
+    {
+      "idx": 395,
+      "start": 1400.06,
+      "end": 1402.06,
+      "text": "Can you draw the vector for me?"
+    },
+    {
+      "idx": 396,
+      "start": 1402.06,
+      "end": 1403.32,
+      "text": "Can you draw it or not?"
+    },
+    {
+      "idx": 397,
+      "start": 1403.32,
+      "end": 1407.05,
+      "text": "Does anybody have a view?"
+    },
+    {
+      "idx": 398,
+      "start": 1413.22,
+      "end": 1415.22,
+      "text": "If you immediately said,"
+    },
+    {
+      "idx": 399,
+      "start": 1415.22,
+      "end": 1417.38,
+      "text": "well, if the vector is 3, 4,"
+    },
+    {
+      "idx": 400,
+      "start": 1417.38,
+      "end": 1419.38,
+      "text": "then the vector looks like this,"
+    },
+    {
+      "idx": 401,
+      "start": 1419.38,
+      "end": 1421.38,
+      "text": "you're making the assumption that"
+    },
+    {
+      "idx": 402,
+      "start": 1421.38,
+      "end": 1423.38,
+      "text": "I am writing the vector in terms of i, y, and b."
+    },
+    {
+      "idx": 403,
+      "start": 1423.38,
+      "end": 1426.31,
+      "text": "I see i and j as very natural direction."
+    },
+    {
+      "idx": 404,
+      "start": 1426.31,
+      "end": 1428.31,
+      "text": "For most of us, gravity acts this way,"
+    },
+    {
+      "idx": 405,
+      "start": 1428.31,
+      "end": 1430.31,
+      "text": "defines a vertical direction very naturally."
+    },
+    {
+      "idx": 406,
+      "start": 1430.31,
+      "end": 1432.31,
+      "text": "Then the blackboard is oriented this way."
+    },
+    {
+      "idx": 407,
+      "start": 1432.31,
+      "end": 1434.31,
+      "text": "It's very natural to call that x and call that y"
+    },
+    {
+      "idx": 408,
+      "start": 1434.31,
+      "end": 1436.31,
+      "text": "and line up our axes."
+    },
+    {
+      "idx": 409,
+      "start": 1436.31,
+      "end": 1438.31,
+      "text": "But do you agree that there is no reason why"
+    },
+    {
+      "idx": 410,
+      "start": 1438.31,
+      "end": 1440.31,
+      "text": "somebody else couldn't come along and say,"
+    },
+    {
+      "idx": 411,
+      "start": 1440.31,
+      "end": 1442.31,
+      "text": "you know what, I want to use a different set of axes."
+    },
+    {
+      "idx": 412,
+      "start": 1442.31,
+      "end": 1444.31,
+      "text": "Those directions are more natural for me."
+    },
+    {
+      "idx": 413,
+      "start": 1444.31,
+      "end": 1446.31,
+      "text": "In fact, just because the world is round,"
+    },
+    {
+      "idx": 414,
+      "start": 1446.31,
+      "end": 1448.95,
+      "text": "you can already see this is the earth."
+    },
+    {
+      "idx": 415,
+      "start": 1448.95,
+      "end": 1450.95,
+      "text": "You can already see the sun."
+    },
+    {
+      "idx": 416,
+      "start": 1450.95,
+      "end": 1452.95,
+      "text": "You can already see the sun."
+    },
+    {
+      "idx": 417,
+      "start": 1452.95,
+      "end": 1453.95,
+      "text": "You can already see the sun."
+    },
+    {
+      "idx": 418,
+      "start": 1453.95,
+      "end": 1455.95,
+      "text": "This is the earth."
+    },
+    {
+      "idx": 419,
+      "start": 1455.95,
+      "end": 1457.95,
+      "text": "To somebody, that's the natural direction."
+    },
+    {
+      "idx": 420,
+      "start": 1457.95,
+      "end": 1459.95,
+      "text": "If you go to another neighboring country,"
+    },
+    {
+      "idx": 421,
+      "start": 1459.95,
+      "end": 1461.95,
+      "text": "that's what they think is naturally x and y."
+    },
+    {
+      "idx": 422,
+      "start": 1461.95,
+      "end": 1465.95,
+      "text": "There's no reason why x and y are nailed in absolute space."
+    },
+    {
+      "idx": 423,
+      "start": 1465.95,
+      "end": 1468.95,
+      "text": "It's very important that x and y are human constructs,"
+    },
+    {
+      "idx": 424,
+      "start": 1468.95,
+      "end": 1470.95,
+      "text": "and we're not wedded to any of them."
+    },
+    {
+      "idx": 425,
+      "start": 1470.95,
+      "end": 1473.95,
+      "text": "Quite often, it's natural to pick x and y in a certain way."
+    },
+    {
+      "idx": 426,
+      "start": 1473.95,
+      "end": 1476.05,
+      "text": "If you're studying a projectile near the earth,"
+    },
+    {
+      "idx": 427,
+      "start": 1476.05,
+      "end": 1478.05,
+      "text": "it makes sense to pick the horizontal as x"
+    },
+    {
+      "idx": 428,
+      "start": 1478.05,
+      "end": 1480.05,
+      "text": "and vertical as y."
+    },
+    {
+      "idx": 429,
+      "start": 1480.05,
+      "end": 1482.05,
+      "text": "But mathematically, you don't have to."
+    },
+    {
+      "idx": 430,
+      "start": 1482.05,
+      "end": 1484.46,
+      "text": "So a very important point that comes up"
+    },
+    {
+      "idx": 431,
+      "start": 1484.46,
+      "end": 1486.59,
+      "text": "is the following."
+    },
+    {
+      "idx": 432,
+      "start": 1486.59,
+      "end": 1493.46,
+      "text": "What if somebody comes along and has got a new axis?"
+    },
+    {
+      "idx": 433,
+      "start": 1493.46,
+      "end": 1496.58,
+      "text": "Here is the unit vector i prime."
+    },
+    {
+      "idx": 434,
+      "start": 1496.58,
+      "end": 1498.58,
+      "text": "That's unit vector j prime."
+    },
+    {
+      "idx": 435,
+      "start": 1498.58,
+      "end": 1500.68,
+      "text": "And here is this vector a."
+    },
+    {
+      "idx": 436,
+      "start": 1500.68,
+      "end": 1503.97,
+      "text": "And the angle between my axis, let's say,"
+    },
+    {
+      "idx": 437,
+      "start": 1503.97,
+      "end": 1511.62,
+      "text": "and your axis is some angle phi."
+    },
+    {
+      "idx": 438,
+      "start": 1511.62,
+      "end": 1515.62,
+      "text": "The same vector a can be written either in terms of i and j"
+    },
+    {
+      "idx": 439,
+      "start": 1515.62,
+      "end": 1523.46,
+      "text": "or in terms of i prime and j prime."
+    },
+    {
+      "idx": 440,
+      "start": 1523.46,
+      "end": 1526.46,
+      "text": "So let's take a minute to just play this game of asking,"
+    },
+    {
+      "idx": 441,
+      "start": 1526.46,
+      "end": 1531.46,
+      "text": "how are the components of a in the new rotated coordinate system"
+    },
+    {
+      "idx": 442,
+      "start": 1531.46,
+      "end": 1534.94,
+      "text": "related to the components in the old coordinate system?"
+    },
+    {
+      "idx": 443,
+      "start": 1534.94,
+      "end": 1536.94,
+      "text": "This is a simple problem, but I just want to do it"
+    },
+    {
+      "idx": 444,
+      "start": 1536.94,
+      "end": 1538.94,
+      "text": "so you get used to working with vectors."
+    },
+    {
+      "idx": 445,
+      "start": 1538.94,
+      "end": 1542.13,
+      "text": "So the point is, the arrow a,"
+    },
+    {
+      "idx": 446,
+      "start": 1542.13,
+      "end": 1547.45,
+      "text": "somebody has chosen to write in terms of i prime and j prime"
+    },
+    {
+      "idx": 447,
+      "start": 1547.45,
+      "end": 1551.93,
+      "text": "as ax prime and ay prime."
+    },
+    {
+      "idx": 448,
+      "start": 1551.93,
+      "end": 1552.93,
+      "text": "You guys follow that?"
+    },
+    {
+      "idx": 449,
+      "start": 1552.93,
+      "end": 1554.93,
+      "text": "i prime and j prime are now rotated,"
+    },
+    {
+      "idx": 450,
+      "start": 1554.93,
+      "end": 1557.06,
+      "text": "and they are now in the same place."
+    },
+    {
+      "idx": 451,
+      "start": 1557.06,
+      "end": 1559.06,
+      "text": "So you have two unit vectors."
+    },
+    {
+      "idx": 452,
+      "start": 1559.06,
+      "end": 1561.06,
+      "text": "And somebody wants to think in terms of those."
+    },
+    {
+      "idx": 453,
+      "start": 1561.06,
+      "end": 1563.06,
+      "text": "In other words, the person wants to ask,"
+    },
+    {
+      "idx": 454,
+      "start": 1563.06,
+      "end": 1565.06,
+      "text": "how much i prime and how much j prime do I need"
+    },
+    {
+      "idx": 455,
+      "start": 1565.06,
+      "end": 1567.06,
+      "text": "to build up the vector a?"
+    },
+    {
+      "idx": 456,
+      "start": 1567.06,
+      "end": 1569.06,
+      "text": "That person will get a definite answer."
+    },
+    {
+      "idx": 457,
+      "start": 1569.06,
+      "end": 1571.06,
+      "text": "You're asking, how much i and how much j do I need"
+    },
+    {
+      "idx": 458,
+      "start": 1571.06,
+      "end": 1573.06,
+      "text": "to build the same object,"
+    },
+    {
+      "idx": 459,
+      "start": 1573.06,
+      "end": 1576.73,
+      "text": "so the same entity written in two different ways."
+    },
+    {
+      "idx": 460,
+      "start": 1576.73,
+      "end": 1580.73,
+      "text": "So she's got a pair of numbers, and you've got a pair of numbers."
+    },
+    {
+      "idx": 461,
+      "start": 1580.73,
+      "end": 1582.73,
+      "text": "The new numbers are called the prime numbers,"
+    },
+    {
+      "idx": 462,
+      "start": 1582.73,
+      "end": 1585.14,
+      "text": "and you want to write them in terms of yours."
+    },
+    {
+      "idx": 463,
+      "start": 1585.14,
+      "end": 1586.14,
+      "text": "So what do you need?"
+    },
+    {
+      "idx": 464,
+      "start": 1586.14,
+      "end": 1590.14,
+      "text": "You need to know what i prime is in terms of i and j."
+    },
+    {
+      "idx": 465,
+      "start": 1590.14,
+      "end": 1593.4,
+      "text": "So let's draw a little picture on the side here."
+    },
+    {
+      "idx": 466,
+      "start": 1593.4,
+      "end": 1594.5,
+      "text": "This is i prime."
+    },
+    {
+      "idx": 467,
+      "start": 1594.5,
+      "end": 1596.5,
+      "text": "It's got a length 1."
+    },
+    {
+      "idx": 468,
+      "start": 1596.5,
+      "end": 1600.19,
+      "text": "It's at an angle phi."
+    },
+    {
+      "idx": 469,
+      "start": 1600.19,
+      "end": 1602.38,
+      "text": "So I'm going to write something,"
+    },
+    {
+      "idx": 470,
+      "start": 1602.38,
+      "end": 1605.38,
+      "text": "and I'll wait till you guys tell me you're comfortable with this."
+    },
+    {
+      "idx": 471,
+      "start": 1605.38,
+      "end": 1612.31,
+      "text": "i prime is i cosine phi plus j sine phi."
+    },
+    {
+      "idx": 472,
+      "start": 1612.31,
+      "end": 1614.66,
+      "text": "There should not be anybody in this room"
+    },
+    {
+      "idx": 473,
+      "start": 1614.66,
+      "end": 1616.66,
+      "text": "who is mystified by this statement."
+    },
+    {
+      "idx": 474,
+      "start": 1616.66,
+      "end": 1618.98,
+      "text": "This vector i prime"
+    },
+    {
+      "idx": 475,
+      "start": 1618.98,
+      "end": 1620.98,
+      "text": "is a horizontal part,"
+    },
+    {
+      "idx": 476,
+      "start": 1620.98,
+      "end": 1623.98,
+      "text": "its length which is 1 times cosine phi,"
+    },
+    {
+      "idx": 477,
+      "start": 1623.98,
+      "end": 1627.27,
+      "text": "and a vertical part which is 1 times sine phi."
+    },
+    {
+      "idx": 478,
+      "start": 1627.27,
+      "end": 1630.27,
+      "text": "This kind of trigonometry you should know all the time."
+    },
+    {
+      "idx": 479,
+      "start": 1630.27,
+      "end": 1633.27,
+      "text": "It's not something you're going to go back and remember."
+    },
+    {
+      "idx": 480,
+      "start": 1633.27,
+      "end": 1634.27,
+      "text": "It's the opposite side."
+    },
+    {
+      "idx": 481,
+      "start": 1634.27,
+      "end": 1635.27,
+      "text": "It's the adjacent side."
+    },
+    {
+      "idx": 482,
+      "start": 1635.27,
+      "end": 1637.27,
+      "text": "You've got to know that really well."
+    },
+    {
+      "idx": 483,
+      "start": 1637.27,
+      "end": 1640.27,
+      "text": "So you've got to be very used to the notion of taking a vector"
+    },
+    {
+      "idx": 484,
+      "start": 1640.27,
+      "end": 1641.27,
+      "text": "in some oblique direction,"
+    },
+    {
+      "idx": 485,
+      "start": 1641.27,
+      "end": 1643.94,
+      "text": "writing it in terms of i and j."
+    },
+    {
+      "idx": 486,
+      "start": 1643.94,
+      "end": 1646.1,
+      "text": "How about j prime?"
+    },
+    {
+      "idx": 487,
+      "start": 1646.1,
+      "end": 1648.1,
+      "text": "j prime is pointing in that direction."
+    },
+    {
+      "idx": 488,
+      "start": 1648.1,
+      "end": 1650.97,
+      "text": "It's at an angle phi."
+    },
+    {
+      "idx": 489,
+      "start": 1650.97,
+      "end": 1663.15,
+      "text": "So j prime will be minus i sine phi plus j cosine phi."
+    },
+    {
+      "idx": 490,
+      "start": 1663.15,
+      "end": 1664.15,
+      "text": "If it's not obvious,"
+    },
+    {
+      "idx": 491,
+      "start": 1664.15,
+      "end": 1667.73,
+      "text": "I think this is the kind of thing you should fill in the blanks"
+    },
+    {
+      "idx": 492,
+      "start": 1667.73,
+      "end": 1668.73,
+      "text": "when you go home."
+    },
+    {
+      "idx": 493,
+      "start": 1668.73,
+      "end": 1669.73,
+      "text": "Leave a line there and think about it,"
+    },
+    {
+      "idx": 494,
+      "start": 1669.73,
+      "end": 1671.73,
+      "text": "and fill in the blanks later."
+    },
+    {
+      "idx": 495,
+      "start": 1671.73,
+      "end": 1672.73,
+      "text": "Very important to know,"
+    },
+    {
+      "idx": 496,
+      "start": 1672.73,
+      "end": 1675.73,
+      "text": "if these two axes are at angle phi,"
+    },
+    {
+      "idx": 497,
+      "start": 1675.73,
+      "end": 1677.73,
+      "text": "those two axes are also at angle phi."
+    },
+    {
+      "idx": 498,
+      "start": 1677.73,
+      "end": 1680.73,
+      "text": "That's the result you use all the time in mechanics."
+    },
+    {
+      "idx": 499,
+      "start": 1680.73,
+      "end": 1682.24,
+      "text": "So once you do that,"
+    },
+    {
+      "idx": 500,
+      "start": 1682.24,
+      "end": 1685.24,
+      "text": "I think it's fairly clear that it has got a y component"
+    },
+    {
+      "idx": 501,
+      "start": 1685.24,
+      "end": 1686.24,
+      "text": "that's given by cosine,"
+    },
+    {
+      "idx": 502,
+      "start": 1686.24,
+      "end": 1688.24,
+      "text": "and x component that's given by sine phi,"
+    },
+    {
+      "idx": 503,
+      "start": 1688.24,
+      "end": 1690.24,
+      "text": "but the x component is negative."
+    },
+    {
+      "idx": 504,
+      "start": 1690.24,
+      "end": 1693.24,
+      "text": "Because this vector has a little bit of negative i in it."
+    },
+    {
+      "idx": 505,
+      "start": 1693.24,
+      "end": 1696.33,
+      "text": "Now here's what I say you should do,"
+    },
+    {
+      "idx": 506,
+      "start": 1696.33,
+      "end": 1699.33,
+      "text": "and this is the kind of thing I don't want to do in classroom."
+    },
+    {
+      "idx": 507,
+      "start": 1699.33,
+      "end": 1701.33,
+      "text": "It takes time and I'm probably going to screw up."
+    },
+    {
+      "idx": 508,
+      "start": 1701.33,
+      "end": 1705.62,
+      "text": "So imagine taking i prime and j prime"
+    },
+    {
+      "idx": 509,
+      "start": 1705.62,
+      "end": 1707.84,
+      "text": "and stick them here and here."
+    },
+    {
+      "idx": 510,
+      "start": 1707.84,
+      "end": 1711.47,
+      "text": "Do this in your head and ask,"
+    },
+    {
+      "idx": 511,
+      "start": 1711.47,
+      "end": 1713.47,
+      "text": "what can I possibly get?"
+    },
+    {
+      "idx": 512,
+      "start": 1713.47,
+      "end": 1715.63,
+      "text": "i prime and j prime have been banished."
+    },
+    {
+      "idx": 513,
+      "start": 1715.63,
+      "end": 1718.63,
+      "text": "Everywhere they're replaced by i and j."
+    },
+    {
+      "idx": 514,
+      "start": 1718.63,
+      "end": 1722.05,
+      "text": "So you can now collect the whole expression"
+    },
+    {
+      "idx": 515,
+      "start": 1722.05,
+      "end": 1726.05,
+      "text": "as something something i plus something something j."
+    },
+    {
+      "idx": 516,
+      "start": 1726.05,
+      "end": 1733.49,
+      "text": "And what you will get for i will be ax cosine phi"
+    },
+    {
+      "idx": 517,
+      "start": 1733.49,
+      "end": 1737.03,
+      "text": "minus ay sine phi."
+    },
+    {
+      "idx": 518,
+      "start": 1737.03,
+      "end": 1749.89,
+      "text": "Then here you will get ay cosine phi plus ax sine phi."
+    },
+    {
+      "idx": 519,
+      "start": 1749.89,
+      "end": 1751.89,
+      "text": "This is the only part I don't want to do explicitly."
+    },
+    {
+      "idx": 520,
+      "start": 1751.89,
+      "end": 1753.89,
+      "text": "I'm just saying take this and put it there"
+    },
+    {
+      "idx": 521,
+      "start": 1753.89,
+      "end": 1756.78,
+      "text": "and combine i and j."
+    },
+    {
+      "idx": 522,
+      "start": 1756.78,
+      "end": 1759.78,
+      "text": "But this is the same vector we are calling"
+    },
+    {
+      "idx": 523,
+      "start": 1759.78,
+      "end": 1763.94,
+      "text": "i times ax plus j times ay."
+    },
+    {
+      "idx": 524,
+      "start": 1763.94,
+      "end": 1767.19,
+      "text": "And I've told you if two vectors are equal,"
+    },
+    {
+      "idx": 525,
+      "start": 1767.19,
+      "end": 1769.19,
+      "text": "the components must match."
+    },
+    {
+      "idx": 526,
+      "start": 1769.19,
+      "end": 1773.25,
+      "text": "I may then, I'm sorry, I'm making a mistake here."
+    },
+    {
+      "idx": 527,
+      "start": 1773.25,
+      "end": 1774.25,
+      "text": "This should be prime."
+    },
+    {
+      "idx": 528,
+      "start": 1774.25,
+      "end": 1779.7,
+      "text": "By the way, when you guys do this,"
+    },
+    {
+      "idx": 529,
+      "start": 1779.7,
+      "end": 1781.7,
+      "text": "did anybody notice it's a prime?"
+    },
+    {
+      "idx": 530,
+      "start": 1781.7,
+      "end": 1785.76,
+      "text": "Yeah, so if you noticed it, you've got to stop."
+    },
+    {
+      "idx": 531,
+      "start": 1785.76,
+      "end": 1788.79,
+      "text": "You cannot let me write anything that's incorrect."
+    },
+    {
+      "idx": 532,
+      "start": 1788.79,
+      "end": 1790.79,
+      "text": "So you've got to follow it in some detail."
+    },
+    {
+      "idx": 533,
+      "start": 1790.79,
+      "end": 1792.79,
+      "text": "I know you couldn't do the details,"
+    },
+    {
+      "idx": 534,
+      "start": 1792.79,
+      "end": 1795.79,
+      "text": "but you should at least know that it's i prime and j prime"
+    },
+    {
+      "idx": 535,
+      "start": 1795.79,
+      "end": 1797.79,
+      "text": "that have been replaced by i and j,"
+    },
+    {
+      "idx": 536,
+      "start": 1797.79,
+      "end": 1802.78,
+      "text": "but ax prime and ay prime will continue to be the coefficients."
+    },
+    {
+      "idx": 537,
+      "start": 1802.78,
+      "end": 1804.78,
+      "text": "So if I make a comparison,"
+    },
+    {
+      "idx": 538,
+      "start": 1804.78,
+      "end": 1808.94,
+      "text": "I find ax is equal to ax prime cosine phi"
+    },
+    {
+      "idx": 539,
+      "start": 1808.94,
+      "end": 1814.45,
+      "text": "minus ay prime sine phi."
+    },
+    {
+      "idx": 540,
+      "start": 1814.45,
+      "end": 1820.41,
+      "text": "And ay is equal to minus ax prime sine phi"
+    },
+    {
+      "idx": 541,
+      "start": 1820.41,
+      "end": 1828.08,
+      "text": "plus ay prime cosine phi."
+    },
+    {
+      "idx": 542,
+      "start": 1828.08,
+      "end": 1830.08,
+      "text": "So what's the purpose of the exercise?"
+    },
+    {
+      "idx": 543,
+      "start": 1830.08,
+      "end": 1834.04,
+      "text": "It's to make the following precise remark."
+    },
+    {
+      "idx": 544,
+      "start": 1834.04,
+      "end": 1837.04,
+      "text": "You can pick your unit vectors,"
+    },
+    {
+      "idx": 545,
+      "start": 1837.04,
+      "end": 1839.04,
+      "text": "or what are called basis vectors,"
+    },
+    {
+      "idx": 546,
+      "start": 1839.04,
+      "end": 1841.04,
+      "text": "any way you like."
+    },
+    {
+      "idx": 547,
+      "start": 1841.04,
+      "end": 1843.04,
+      "text": "Pick any two perpendicular directions,"
+    },
+    {
+      "idx": 548,
+      "start": 1843.04,
+      "end": 1846.04,
+      "text": "which may be related to the ones I picked by an angle phi."
+    },
+    {
+      "idx": 549,
+      "start": 1846.04,
+      "end": 1849.81,
+      "text": "Then the same entity, the same arrow,"
+    },
+    {
+      "idx": 550,
+      "start": 1849.81,
+      "end": 1853.81,
+      "text": "which has an existence of its own independent of axes,"
+    },
+    {
+      "idx": 551,
+      "start": 1853.81,
+      "end": 1856.94,
+      "text": "can be described by you and me using different numbers."
+    },
+    {
+      "idx": 552,
+      "start": 1856.94,
+      "end": 1859.94,
+      "text": "That's the precise connection between the numbers you use"
+    },
+    {
+      "idx": 553,
+      "start": 1859.94,
+      "end": 1860.94,
+      "text": "and the numbers I use."
+    },
+    {
+      "idx": 554,
+      "start": 1861.94,
+      "end": 1869.18,
+      "text": "Your numbers with a prime on it are related to mine by this relation."
+    },
+    {
+      "idx": 555,
+      "start": 1869.18,
+      "end": 1871.18,
+      "text": "Now you can ask the opposite question."
+    },
+    {
+      "idx": 556,
+      "start": 1871.18,
+      "end": 1877.81,
+      "text": "How do I get your numbers in terms of my numbers?"
+    },
+    {
+      "idx": 557,
+      "start": 1877.81,
+      "end": 1882.3,
+      "text": "So what should I do?"
+    },
+    {
+      "idx": 558,
+      "start": 1882.3,
+      "end": 1884.3,
+      "text": "If I want to invert the relation,"
+    },
+    {
+      "idx": 559,
+      "start": 1884.3,
+      "end": 1892.19,
+      "text": "anybody have an idea what I should do now?"
+    },
+    {
+      "idx": 560,
+      "start": 1892.19,
+      "end": 1897.22,
+      "text": "No one has a clue on how I can go back from these to that?"
+    },
+    {
+      "idx": 561,
+      "start": 1897.22,
+      "end": 1903.0,
+      "text": "Let me take a second to ask."
+    },
+    {
+      "idx": 562,
+      "start": 1903.0,
+      "end": 1905.0,
+      "text": "Do you have any idea what you should do?"
+    },
+    {
+      "idx": 563,
+      "start": 1905.0,
+      "end": 1909.3,
+      "text": "Okay, maybe you are, yes?"
+    },
+    {
+      "idx": 564,
+      "start": 1909.3,
+      "end": 1934.32,
+      "text": "Yes, negative of phi, yes, okay."
+    },
+    {
+      "idx": 565,
+      "start": 1934.32,
+      "end": 1938.45,
+      "text": "All right, so his idea was the formula written for the opposite"
+    },
+    {
+      "idx": 566,
+      "start": 1938.45,
+      "end": 1942.61,
+      "text": "one will have the opposite angle, replaces phi by minus of that."
+    },
+    {
+      "idx": 567,
+      "start": 1942.61,
+      "end": 1945.61,
+      "text": "Now that turns out to be the correct answer,"
+    },
+    {
+      "idx": 568,
+      "start": 1945.61,
+      "end": 1949.15,
+      "text": "but I want you guys to think about why it was difficult to do"
+    },
+    {
+      "idx": 569,
+      "start": 1949.15,
+      "end": 1952.22,
+      "text": "it another way, which is more pedestrian."
+    },
+    {
+      "idx": 570,
+      "start": 1952.22,
+      "end": 1957.34,
+      "text": "I mean, if I told you 3x plus 2y is 9 and 4x plus 6y is 10,"
+    },
+    {
+      "idx": 571,
+      "start": 1957.34,
+      "end": 1959.41,
+      "text": "you would have the same answer."
+    },
+    {
+      "idx": 572,
+      "start": 1959.41,
+      "end": 1960.41,
+      "text": "You would have the same answer."
+    },
+    {
+      "idx": 573,
+      "start": 1960.41,
+      "end": 1961.41,
+      "text": "You would have the same answer."
+    },
+    {
+      "idx": 574,
+      "start": 1961.41,
+      "end": 1962.41,
+      "text": "You would have the same answer."
+    },
+    {
+      "idx": 575,
+      "start": 1962.41,
+      "end": 1964.41,
+      "text": "But if you have a formula,"
+    },
+    {
+      "idx": 576,
+      "start": 1964.41,
+      "end": 1970.4,
+      "text": "6y is 6, you certainly know how to solve for x and y, right?"
+    },
+    {
+      "idx": 577,
+      "start": 1970.4,
+      "end": 1973.78,
+      "text": "This is something you've seen in your high school."
+    },
+    {
+      "idx": 578,
+      "start": 1973.78,
+      "end": 1975.78,
+      "text": "You've got to juggle the two equations,"
+    },
+    {
+      "idx": 579,
+      "start": 1975.78,
+      "end": 1978.07,
+      "text": "multiply that by 4, multiply that by 3,"
+    },
+    {
+      "idx": 580,
+      "start": 1978.07,
+      "end": 1980.07,
+      "text": "add and subtract and so on."
+    },
+    {
+      "idx": 581,
+      "start": 1980.07,
+      "end": 1982.07,
+      "text": "Why is it when you saw this,"
+    },
+    {
+      "idx": 582,
+      "start": 1982.07,
+      "end": 1984.14,
+      "text": "you didn't realize it's the same problem?"
+    },
+    {
+      "idx": 583,
+      "start": 1984.14,
+      "end": 1986.14,
+      "text": "But it's the same problem."
+    },
+    {
+      "idx": 584,
+      "start": 1986.14,
+      "end": 1989.14,
+      "text": "Phi is an angle, sine and cosine are different numbers."
+    },
+    {
+      "idx": 585,
+      "start": 1989.14,
+      "end": 1991.14,
+      "text": "If I pick an angle of 60 degrees,"
+    },
+    {
+      "idx": 586,
+      "start": 1991.14,
+      "end": 1993.14,
+      "text": "these are some numbers like half and root 3 over 2."
+    },
+    {
+      "idx": 587,
+      "start": 1993.14,
+      "end": 1996.14,
+      "text": "So, you can eliminate these two unknowns"
+    },
+    {
+      "idx": 588,
+      "start": 1996.14,
+      "end": 1999.14,
+      "text": "in terms of these two knowns and you can solve for them."
+    },
+    {
+      "idx": 589,
+      "start": 1999.14,
+      "end": 2002.51,
+      "text": "Here, though, what you will multiply by"
+    },
+    {
+      "idx": 590,
+      "start": 2002.51,
+      "end": 2004.51,
+      "text": "would be sine phi and cosine phi,"
+    },
+    {
+      "idx": 591,
+      "start": 2004.51,
+      "end": 2005.51,
+      "text": "so you can eliminate..."
+    },
+    {
+      "idx": 592,
+      "start": 2005.51,
+      "end": 2008.93,
+      "text": "For example, if you multiply this by sine phi"
+    },
+    {
+      "idx": 593,
+      "start": 2008.93,
+      "end": 2011.93,
+      "text": "and multiply this by cosine phi and add them,"
+    },
+    {
+      "idx": 594,
+      "start": 2011.93,
+      "end": 2015.21,
+      "text": "Ax prime will drop out."
+    },
+    {
+      "idx": 595,
+      "start": 2015.21,
+      "end": 2017.21,
+      "text": "So, that's the kind of thing you should do."
+    },
+    {
+      "idx": 596,
+      "start": 2017.21,
+      "end": 2018.21,
+      "text": "Maybe you should..."
+    },
+    {
+      "idx": 597,
+      "start": 2018.21,
+      "end": 2023.29,
+      "text": "I will add this on as a problem you should do in the homework."
+    },
+    {
+      "idx": 598,
+      "start": 2023.29,
+      "end": 2026.29,
+      "text": "But do you realize that this is a pair of simultaneous equations"
+    },
+    {
+      "idx": 599,
+      "start": 2026.29,
+      "end": 2028.29,
+      "text": "in which you can solve for..."
+    },
+    {
+      "idx": 600,
+      "start": 2028.29,
+      "end": 2031.35,
+      "text": "You can solve for these two unknowns, if you like,"
+    },
+    {
+      "idx": 601,
+      "start": 2031.35,
+      "end": 2034.35,
+      "text": "in terms of these two knowns and these coefficients,"
+    },
+    {
+      "idx": 602,
+      "start": 2034.35,
+      "end": 2037.86,
+      "text": "which are like these numbers 3, 2, 4, and 6."
+    },
+    {
+      "idx": 603,
+      "start": 2037.86,
+      "end": 2040.86,
+      "text": "You can do that, but we like to get the answer"
+    },
+    {
+      "idx": 604,
+      "start": 2040.86,
+      "end": 2042.86,
+      "text": "the way this gentleman described it"
+    },
+    {
+      "idx": 605,
+      "start": 2042.86,
+      "end": 2045.86,
+      "text": "because we like to get an answer more readily"
+    },
+    {
+      "idx": 606,
+      "start": 2045.86,
+      "end": 2047.86,
+      "text": "than by doing the mundane work."
+    },
+    {
+      "idx": 607,
+      "start": 2047.86,
+      "end": 2049.86,
+      "text": "And the idea that he had was,"
+    },
+    {
+      "idx": 608,
+      "start": 2049.86,
+      "end": 2053.86,
+      "text": "if you go from me to you with a clockwise rotation,"
+    },
+    {
+      "idx": 609,
+      "start": 2053.86,
+      "end": 2056.86,
+      "text": "you go from you to me by a counterclockwise rotation."
+    },
+    {
+      "idx": 610,
+      "start": 2058.25,
+      "end": 2061.41,
+      "text": "My angle, if I go by phi to you,"
+    },
+    {
+      "idx": 611,
+      "start": 2061.41,
+      "end": 2064.41,
+      "text": "then you must go by minus phi to come to me."
+    },
+    {
+      "idx": 612,
+      "start": 2065.41,
+      "end": 2069.05,
+      "text": "So, you will find then the result is"
+    },
+    {
+      "idx": 613,
+      "start": 2069.05,
+      "end": 2073.05,
+      "text": "Ax cosine phi plus Ay sine phi."
+    },
+    {
+      "idx": 614,
+      "start": 2073.05,
+      "end": 2076.05,
+      "text": "I'm using the fact that when you take a cosine"
+    },
+    {
+      "idx": 615,
+      "start": 2076.05,
+      "end": 2078.05,
+      "text": "and change the angle inside the cosine,"
+    },
+    {
+      "idx": 616,
+      "start": 2078.05,
+      "end": 2079.05,
+      "text": "it doesn't care."
+    },
+    {
+      "idx": 617,
+      "start": 2079.05,
+      "end": 2081.05,
+      "text": "Whereas if you go to the sine"
+    },
+    {
+      "idx": 618,
+      "start": 2081.05,
+      "end": 2083.05,
+      "text": "and change the angle inside the sine,"
+    },
+    {
+      "idx": 619,
+      "start": 2083.05,
+      "end": 2084.05,
+      "text": "it becomes minus sine."
+    },
+    {
+      "idx": 620,
+      "start": 2084.05,
+      "end": 2087.37,
+      "text": "In other words, sine of minus theta"
+    },
+    {
+      "idx": 621,
+      "start": 2087.37,
+      "end": 2088.37,
+      "text": "is minus sine."
+    },
+    {
+      "idx": 622,
+      "start": 2088.37,
+      "end": 2091.46,
+      "text": "And cosine of minus theta is cosine theta."
+    },
+    {
+      "idx": 623,
+      "start": 2091.46,
+      "end": 2093.5,
+      "text": "This, by the way, is another property"
+    },
+    {
+      "idx": 624,
+      "start": 2093.5,
+      "end": 2095.5,
+      "text": "I expect people to know in this course."
+    },
+    {
+      "idx": 625,
+      "start": 2095.5,
+      "end": 2097.5,
+      "text": "You cannot say, I've never heard of it,"
+    },
+    {
+      "idx": 626,
+      "start": 2097.5,
+      "end": 2099.5,
+      "text": "or I don't know where it came from."
+    },
+    {
+      "idx": 627,
+      "start": 2099.5,
+      "end": 2101.5,
+      "text": "You should think about why that is true."
+    },
+    {
+      "idx": 628,
+      "start": 2101.5,
+      "end": 2102.5,
+      "text": "Okay, so if you do that,"
+    },
+    {
+      "idx": 629,
+      "start": 2102.5,
+      "end": 2107.28,
+      "text": "you will find then this result."
+    },
+    {
+      "idx": 630,
+      "start": 2107.28,
+      "end": 2110.28,
+      "text": "Okay, so there is a way to go from"
+    },
+    {
+      "idx": 631,
+      "start": 2110.28,
+      "end": 2121.58,
+      "text": "the unprimed coordinates,"
+    },
+    {
+      "idx": 632,
+      "start": 2121.58,
+      "end": 2122.58,
+      "text": "the prime coordinate,"
+    },
+    {
+      "idx": 633,
+      "start": 2122.58,
+      "end": 2125.28,
+      "text": "by rotating your axis"
+    },
+    {
+      "idx": 634,
+      "start": 2125.28,
+      "end": 2127.28,
+      "text": "and actually calculating the components."
+    },
+    {
+      "idx": 635,
+      "start": 2127.28,
+      "end": 2129.28,
+      "text": "Now, here is the problem."
+    },
+    {
+      "idx": 636,
+      "start": 2129.28,
+      "end": 2131.28,
+      "text": "If you have a prime coordinate,"
+    },
+    {
+      "idx": 637,
+      "start": 2131.28,
+      "end": 2135.06,
+      "text": "you have to find the prime coordinate."
+    },
+    {
+      "idx": 638,
+      "start": 2135.06,
+      "end": 2138.06,
+      "text": "Now, here is a very important message,"
+    },
+    {
+      "idx": 639,
+      "start": 2138.06,
+      "end": 2140.22,
+      "text": "which is the following."
+    },
+    {
+      "idx": 640,
+      "start": 2140.22,
+      "end": 2142.22,
+      "text": "When you go from one set of axes"
+    },
+    {
+      "idx": 641,
+      "start": 2142.22,
+      "end": 2143.22,
+      "text": "to another set of axes,"
+    },
+    {
+      "idx": 642,
+      "start": 2143.22,
+      "end": 2144.22,
+      "text": "the numbers change."
+    },
+    {
+      "idx": 643,
+      "start": 2144.22,
+      "end": 2146.22,
+      "text": "The components of the vector are not the same."
+    },
+    {
+      "idx": 644,
+      "start": 2146.22,
+      "end": 2148.29,
+      "text": "You might think it's all along x"
+    },
+    {
+      "idx": 645,
+      "start": 2148.29,
+      "end": 2149.29,
+      "text": "and somebody can tell me"
+    },
+    {
+      "idx": 646,
+      "start": 2149.29,
+      "end": 2151.29,
+      "text": "it's all along my new y-axis."
+    },
+    {
+      "idx": 647,
+      "start": 2151.29,
+      "end": 2153.29,
+      "text": "So the components of the vector are not invariant."
+    },
+    {
+      "idx": 648,
+      "start": 2153.29,
+      "end": 2155.29,
+      "text": "They depend on who is looking at the vector."
+    },
+    {
+      "idx": 649,
+      "start": 2155.29,
+      "end": 2159.31,
+      "text": "But there is one quantity"
+    },
+    {
+      "idx": 650,
+      "start": 2159.31,
+      "end": 2161.31,
+      "text": "that's going to come out the same"
+    },
+    {
+      "idx": 651,
+      "start": 2161.31,
+      "end": 2163.31,
+      "text": "no matter who is looking at the vector."
+    },
+    {
+      "idx": 652,
+      "start": 2163.31,
+      "end": 2166.14,
+      "text": "Anybody have a guess on, yes?"
+    },
+    {
+      "idx": 653,
+      "start": 2167.53,
+      "end": 2169.53,
+      "text": "The length of the vector is the length of the vector."
+    },
+    {
+      "idx": 654,
+      "start": 2169.53,
+      "end": 2170.53,
+      "text": "Perhaps it's clear to you that"
+    },
+    {
+      "idx": 655,
+      "start": 2170.53,
+      "end": 2172.53,
+      "text": "no matter how your axes are oriented,"
+    },
+    {
+      "idx": 656,
+      "start": 2172.53,
+      "end": 2174.53,
+      "text": "when you ask how long is this arrow,"
+    },
+    {
+      "idx": 657,
+      "start": 2174.53,
+      "end": 2176.53,
+      "text": "you're going to get the same answer."
+    },
+    {
+      "idx": 658,
+      "start": 2176.53,
+      "end": 2178.88,
+      "text": "And that means"
+    },
+    {
+      "idx": 659,
+      "start": 2178.88,
+      "end": 2183.14,
+      "text": "ax squared plus ay squared"
+    },
+    {
+      "idx": 660,
+      "start": 2183.14,
+      "end": 2187.23,
+      "text": "is ax prime squared plus ay prime squared."
+    },
+    {
+      "idx": 661,
+      "start": 2187.23,
+      "end": 2189.23,
+      "text": "And that's a property of this expression."
+    },
+    {
+      "idx": 662,
+      "start": 2189.23,
+      "end": 2190.23,
+      "text": "You can square this guy"
+    },
+    {
+      "idx": 663,
+      "start": 2190.23,
+      "end": 2192.23,
+      "text": "and add it to the square of this guy"
+    },
+    {
+      "idx": 664,
+      "start": 2192.23,
+      "end": 2193.23,
+      "text": "and you will find,"
+    },
+    {
+      "idx": 665,
+      "start": 2193.23,
+      "end": 2195.23,
+      "text": "using the magic of trigonometry,"
+    },
+    {
+      "idx": 666,
+      "start": 2195.23,
+      "end": 2197.54,
+      "text": "that this is true."
+    },
+    {
+      "idx": 667,
+      "start": 2197.54,
+      "end": 2198.54,
+      "text": "Now, I'm going over these points"
+    },
+    {
+      "idx": 668,
+      "start": 2198.54,
+      "end": 2200.54,
+      "text": "because they're very, very important."
+    },
+    {
+      "idx": 669,
+      "start": 2200.54,
+      "end": 2201.54,
+      "text": "When we do relativity,"
+    },
+    {
+      "idx": 670,
+      "start": 2201.54,
+      "end": 2204.54,
+      "text": "we'll be dealing with vectors in space-time"
+    },
+    {
+      "idx": 671,
+      "start": 2204.54,
+      "end": 2206.54,
+      "text": "and there we'll find that"
+    },
+    {
+      "idx": 672,
+      "start": 2206.54,
+      "end": 2208.54,
+      "text": "different observers disagree on"
+    },
+    {
+      "idx": 673,
+      "start": 2208.54,
+      "end": 2209.54,
+      "text": "what is this and what is that,"
+    },
+    {
+      "idx": 674,
+      "start": 2209.54,
+      "end": 2211.54,
+      "text": "but they will agree on certain things."
+    },
+    {
+      "idx": 675,
+      "start": 2220.78,
+      "end": 2227.11,
+      "text": "This has a minus and that doesn't have a minus."
+    },
+    {
+      "idx": 676,
+      "start": 2228.11,
+      "end": 2230.24,
+      "text": "No, here both are plus,"
+    },
+    {
+      "idx": 677,
+      "start": 2230.24,
+      "end": 2233.49,
+      "text": "but this one has a minus."
+    },
+    {
+      "idx": 678,
+      "start": 2233.49,
+      "end": 2234.49,
+      "text": "Oh, I'm so sorry."
+    },
+    {
+      "idx": 679,
+      "start": 2234.49,
+      "end": 2236.49,
+      "text": "Yes, that is correct."
+    },
+    {
+      "idx": 680,
+      "start": 2239.89,
+      "end": 2241.89,
+      "text": "That's right, the minuses only are there."
+    },
+    {
+      "idx": 681,
+      "start": 2244.26,
+      "end": 2247.49,
+      "text": "So, certain things are called invariants."
+    },
+    {
+      "idx": 682,
+      "start": 2247.49,
+      "end": 2252.37,
+      "text": "This is an example of an invariant."
+    },
+    {
+      "idx": 683,
+      "start": 2252.37,
+      "end": 2255.37,
+      "text": "By the way, I want to conclude with one important point."
+    },
+    {
+      "idx": 684,
+      "start": 2255.37,
+      "end": 2257.37,
+      "text": "We learned that a vector is a quantity"
+    },
+    {
+      "idx": 685,
+      "start": 2257.37,
+      "end": 2259.78,
+      "text": "that is a magnitude and a direction."
+    },
+    {
+      "idx": 686,
+      "start": 2259.78,
+      "end": 2262.78,
+      "text": "But actually, the view of vectors we take nowadays"
+    },
+    {
+      "idx": 687,
+      "start": 2262.78,
+      "end": 2265.85,
+      "text": "is that a vector is a pair of numbers"
+    },
+    {
+      "idx": 688,
+      "start": 2265.85,
+      "end": 2267.85,
+      "text": "that are associated with a pair of numbers"
+    },
+    {
+      "idx": 689,
+      "start": 2267.85,
+      "end": 2271.85,
+      "text": "which under rotation of axes transform like this."
+    },
+    {
+      "idx": 690,
+      "start": 2271.85,
+      "end": 2277.15,
+      "text": "Anything that transforms this way is called a vector."
+    },
+    {
+      "idx": 691,
+      "start": 2277.15,
+      "end": 2279.15,
+      "text": "All right, so now I want to ask the following question."
+    },
+    {
+      "idx": 692,
+      "start": 2279.15,
+      "end": 2284.25,
+      "text": "Can I manufacture new vectors?"
+    },
+    {
+      "idx": 693,
+      "start": 2284.25,
+      "end": 2286.31,
+      "text": "We got one vector which is r."
+    },
+    {
+      "idx": 694,
+      "start": 2286.31,
+      "end": 2289.31,
+      "text": "How about more vectors, more position vectors?"
+    },
+    {
+      "idx": 695,
+      "start": 2289.31,
+      "end": 2292.43,
+      "text": "So, I want to look at that."
+    },
+    {
+      "idx": 696,
+      "start": 2292.43,
+      "end": 2295.43,
+      "text": "That turns out to be a very nice way to produce vectors"
+    },
+    {
+      "idx": 697,
+      "start": 2295.43,
+      "end": 2297.43,
+      "text": "given one vector, the position vector."
+    },
+    {
+      "idx": 698,
+      "start": 2297.43,
+      "end": 2299.43,
+      "text": "And that's the following."
+    },
+    {
+      "idx": 699,
+      "start": 2299.43,
+      "end": 2305.07,
+      "text": "Let's take a particle that is moving in the xy plane"
+    },
+    {
+      "idx": 700,
+      "start": 2305.07,
+      "end": 2307.07,
+      "text": "so that at one instant,"
+    },
+    {
+      "idx": 701,
+      "start": 2307.07,
+      "end": 2309.2,
+      "text": "so let me change this graph,"
+    },
+    {
+      "idx": 702,
+      "start": 2310.39,
+      "end": 2312.39,
+      "text": "Oh, this is bad."
+    },
+    {
+      "idx": 703,
+      "start": 2316.34,
+      "end": 2317.34,
+      "text": "It's moving like this."
+    },
+    {
+      "idx": 704,
+      "start": 2317.34,
+      "end": 2319.34,
+      "text": "So, I'm here now."
+    },
+    {
+      "idx": 705,
+      "start": 2319.34,
+      "end": 2321.69,
+      "text": "A little later, I am there."
+    },
+    {
+      "idx": 706,
+      "start": 2321.69,
+      "end": 2322.98,
+      "text": "That's what I meant."
+    },
+    {
+      "idx": 707,
+      "start": 2322.98,
+      "end": 2324.98,
+      "text": "So, this is called r."
+    },
+    {
+      "idx": 708,
+      "start": 2324.98,
+      "end": 2327.26,
+      "text": "This is called delta r."
+    },
+    {
+      "idx": 709,
+      "start": 2327.26,
+      "end": 2330.46,
+      "text": "This is called r plus delta r."
+    },
+    {
+      "idx": 710,
+      "start": 2330.46,
+      "end": 2334.86,
+      "text": "So, the particle is moving along this arc."
+    },
+    {
+      "idx": 711,
+      "start": 2334.86,
+      "end": 2343.29,
+      "text": "Initially, its location as a function of time"
+    },
+    {
+      "idx": 712,
+      "start": 2343.29,
+      "end": 2347.77,
+      "text": "is equal to i times x of t"
+    },
+    {
+      "idx": 713,
+      "start": 2347.77,
+      "end": 2350.28,
+      "text": "plus j times r."
+    },
+    {
+      "idx": 714,
+      "start": 2350.28,
+      "end": 2357.44,
+      "text": "So, this is equal to r times y of t."
+    },
+    {
+      "idx": 715,
+      "start": 2357.44,
+      "end": 2359.44,
+      "text": "If you wait a short amount of time,"
+    },
+    {
+      "idx": 716,
+      "start": 2359.44,
+      "end": 2361.63,
+      "text": "it goes to the new location"
+    },
+    {
+      "idx": 717,
+      "start": 2361.63,
+      "end": 2365.89,
+      "text": "which I'm going to call r of t plus delta t."
+    },
+    {
+      "idx": 718,
+      "start": 2365.89,
+      "end": 2366.89,
+      "text": "What can that be?"
+    },
+    {
+      "idx": 719,
+      "start": 2366.89,
+      "end": 2372.82,
+      "text": "It can be x of t plus some change in x"
+    },
+    {
+      "idx": 720,
+      "start": 2372.82,
+      "end": 2380.69,
+      "text": "plus j times y of t plus a change in y."
+    },
+    {
+      "idx": 721,
+      "start": 2380.69,
+      "end": 2385.04,
+      "text": "That we recognize to be r at time t"
+    },
+    {
+      "idx": 722,
+      "start": 2385.04,
+      "end": 2387.04,
+      "text": "plus everything else,"
+    },
+    {
+      "idx": 723,
+      "start": 2387.04,
+      "end": 2389.3,
+      "text": "which is i times delta x"
+    },
+    {
+      "idx": 724,
+      "start": 2389.3,
+      "end": 2391.3,
+      "text": "plus some change in y."
+    },
+    {
+      "idx": 725,
+      "start": 2391.3,
+      "end": 2396.5,
+      "text": "I'm going to call this guy a tiny vector delta r."
+    },
+    {
+      "idx": 726,
+      "start": 2396.5,
+      "end": 2398.5,
+      "text": "In other words, when you move on a line,"
+    },
+    {
+      "idx": 727,
+      "start": 2398.5,
+      "end": 2400.5,
+      "text": "you wait a small time delta t,"
+    },
+    {
+      "idx": 728,
+      "start": 2400.5,
+      "end": 2402.5,
+      "text": "you move by an amount delta x."
+    },
+    {
+      "idx": 729,
+      "start": 2402.5,
+      "end": 2403.95,
+      "text": "When you move in the plane,"
+    },
+    {
+      "idx": 730,
+      "start": 2403.95,
+      "end": 2405.95,
+      "text": "your change is itself a vector."
+    },
+    {
+      "idx": 731,
+      "start": 2405.95,
+      "end": 2407.95,
+      "text": "You start at the vector,"
+    },
+    {
+      "idx": 732,
+      "start": 2407.95,
+      "end": 2409.95,
+      "text": "you change by this vector delta r,"
+    },
+    {
+      "idx": 733,
+      "start": 2409.95,
+      "end": 2412.14,
+      "text": "it gives you the new location."
+    },
+    {
+      "idx": 734,
+      "start": 2412.14,
+      "end": 2414.14,
+      "text": "Delta r has got two components."
+    },
+    {
+      "idx": 735,
+      "start": 2414.14,
+      "end": 2415.14,
+      "text": "It's got a change in x"
+    },
+    {
+      "idx": 736,
+      "start": 2415.14,
+      "end": 2418.36,
+      "text": "and it's got a change in y."
+    },
+    {
+      "idx": 737,
+      "start": 2418.36,
+      "end": 2421.36,
+      "text": "Therefore, we will define what's called the velocity vector,"
+    },
+    {
+      "idx": 738,
+      "start": 2422.36,
+      "end": 2424.42,
+      "text": "what's called the velocity vector."
+    },
+    {
+      "idx": 739,
+      "start": 2424.42,
+      "end": 2426.65,
+      "text": "It's a vector that's going to be"
+    },
+    {
+      "idx": 740,
+      "start": 2426.65,
+      "end": 2428.68,
+      "text": "the velocity vector of delta r"
+    },
+    {
+      "idx": 741,
+      "start": 2428.68,
+      "end": 2429.68,
+      "text": "over delta t."
+    },
+    {
+      "idx": 742,
+      "start": 2429.68,
+      "end": 2431.68,
+      "text": "You can see that it's going to be"
+    },
+    {
+      "idx": 743,
+      "start": 2431.68,
+      "end": 2434.68,
+      "text": "i times dx dt"
+    },
+    {
+      "idx": 744,
+      "start": 2434.68,
+      "end": 2438.06,
+      "text": "plus j times dy dt."
+    },
+    {
+      "idx": 745,
+      "start": 2438.06,
+      "end": 2443.37,
+      "text": "You can actually take derivatives of a vector"
+    },
+    {
+      "idx": 746,
+      "start": 2444.37,
+      "end": 2448.26,
+      "text": "and that's also a vector."
+    },
+    {
+      "idx": 747,
+      "start": 2448.26,
+      "end": 2450.42,
+      "text": "Why is the derivative of a vector also a vector?"
+    },
+    {
+      "idx": 748,
+      "start": 2450.42,
+      "end": 2452.42,
+      "text": "Because the difference in the vector"
+    },
+    {
+      "idx": 749,
+      "start": 2452.42,
+      "end": 2454.42,
+      "text": "between two times is this vector."
+    },
+    {
+      "idx": 750,
+      "start": 2454.42,
+      "end": 2457.06,
+      "text": "Dividing by delta t is like multiplying"
+    },
+    {
+      "idx": 751,
+      "start": 2457.06,
+      "end": 2459.06,
+      "text": "by 1 over delta t."
+    },
+    {
+      "idx": 752,
+      "start": 2459.06,
+      "end": 2461.06,
+      "text": "But I know when I multiply a vector by a number,"
+    },
+    {
+      "idx": 753,
+      "start": 2461.06,
+      "end": 2463.89,
+      "text": "I get a vector in the same direction."
+    },
+    {
+      "idx": 754,
+      "start": 2463.89,
+      "end": 2465.89,
+      "text": "So what this really means is that"
+    },
+    {
+      "idx": 755,
+      "start": 2465.89,
+      "end": 2467.89,
+      "text": "if you take the limit as delta t goes to 0,"
+    },
+    {
+      "idx": 756,
+      "start": 2467.89,
+      "end": 2469.89,
+      "text": "I cannot draw it that well,"
+    },
+    {
+      "idx": 757,
+      "start": 2469.89,
+      "end": 2471.89,
+      "text": "but imagine bringing the second point closer"
+    },
+    {
+      "idx": 758,
+      "start": 2471.89,
+      "end": 2474.24,
+      "text": "and closer to the first one."
+    },
+    {
+      "idx": 759,
+      "start": 2474.24,
+      "end": 2476.24,
+      "text": "Delta r is getting very small,"
+    },
+    {
+      "idx": 760,
+      "start": 2476.24,
+      "end": 2477.24,
+      "text": "delta t is very small,"
+    },
+    {
+      "idx": 761,
+      "start": 2477.24,
+      "end": 2479.24,
+      "text": "but by the miracle of calculus,"
+    },
+    {
+      "idx": 762,
+      "start": 2479.24,
+      "end": 2481.24,
+      "text": "the ratio will approach a definite limit."
+    },
+    {
+      "idx": 763,
+      "start": 2481.24,
+      "end": 2483.24,
+      "text": "That limit will be some arrow"
+    },
+    {
+      "idx": 764,
+      "start": 2483.24,
+      "end": 2485.24,
+      "text": "you can call the velocity at that time,"
+    },
+    {
+      "idx": 765,
+      "start": 2485.24,
+      "end": 2487.24,
+      "text": "and it will always be tangent to the curve."
+    },
+    {
+      "idx": 766,
+      "start": 2487.24,
+      "end": 2489.24,
+      "text": "The tangent is pointing towards the direction"
+    },
+    {
+      "idx": 767,
+      "start": 2489.24,
+      "end": 2491.24,
+      "text": "you are headed at that instant."
+    },
+    {
+      "idx": 768,
+      "start": 2491.24,
+      "end": 2495.68,
+      "text": "So if I gave you the location of a particle"
+    },
+    {
+      "idx": 769,
+      "start": 2495.68,
+      "end": 2496.68,
+      "text": "as a function of time,"
+    },
+    {
+      "idx": 770,
+      "start": 2496.68,
+      "end": 2499.68,
+      "text": "you can find the velocity by taking derivatives."
+    },
+    {
+      "idx": 771,
+      "start": 2499.68,
+      "end": 2502.68,
+      "text": "For example, if I say a particle's location"
+    },
+    {
+      "idx": 772,
+      "start": 2502.68,
+      "end": 2507.68,
+      "text": "is i times t squared plus j times 9t cubed,"
+    },
+    {
+      "idx": 773,
+      "start": 2507.68,
+      "end": 2509.97,
+      "text": "for every value of time,"
+    },
+    {
+      "idx": 774,
+      "start": 2509.97,
+      "end": 2510.97,
+      "text": "you can put the numbers in,"
+    },
+    {
+      "idx": 775,
+      "start": 2510.97,
+      "end": 2513.97,
+      "text": "and you can find the velocity by just taking derivatives."
+    },
+    {
+      "idx": 776,
+      "start": 2513.97,
+      "end": 2516.97,
+      "text": "The derivative of this guy will be 2t times i"
+    },
+    {
+      "idx": 777,
+      "start": 2517.97,
+      "end": 2522.63,
+      "text": "27t squared times j."
+    },
+    {
+      "idx": 778,
+      "start": 2522.63,
+      "end": 2523.63,
+      "text": "So the rule for taking derivatives,"
+    },
+    {
+      "idx": 779,
+      "start": 2523.63,
+      "end": 2525.63,
+      "text": "if you want to do just mindless application of calculus,"
+    },
+    {
+      "idx": 780,
+      "start": 2525.63,
+      "end": 2526.63,
+      "text": "you can do it."
+    },
+    {
+      "idx": 781,
+      "start": 2526.63,
+      "end": 2528.63,
+      "text": "i and j are constant."
+    },
+    {
+      "idx": 782,
+      "start": 2528.63,
+      "end": 2530.63,
+      "text": "Ignore them when you take derivatives."
+    },
+    {
+      "idx": 783,
+      "start": 2530.63,
+      "end": 2531.63,
+      "text": "x and y depend on time."
+    },
+    {
+      "idx": 784,
+      "start": 2531.63,
+      "end": 2533.63,
+      "text": "Just take the derivatives,"
+    },
+    {
+      "idx": 785,
+      "start": 2533.63,
+      "end": 2535.63,
+      "text": "and that's the velocity vector."
+    },
+    {
+      "idx": 786,
+      "start": 2535.63,
+      "end": 2539.11,
+      "text": "And you can take a derivative of the derivative,"
+    },
+    {
+      "idx": 787,
+      "start": 2539.11,
+      "end": 2541.11,
+      "text": "and you can get the acceleration vector."
+    },
+    {
+      "idx": 788,
+      "start": 2541.11,
+      "end": 2547.86,
+      "text": "It will be d2r over dt squared,"
+    },
+    {
+      "idx": 789,
+      "start": 2547.86,
+      "end": 2550.86,
+      "text": "and you can also write it as dv dt."
+    },
+    {
+      "idx": 790,
+      "start": 2557.7,
+      "end": 2560.4,
+      "text": "Anybody have a question with what I've done now"
+    },
+    {
+      "idx": 791,
+      "start": 2560.4,
+      "end": 2562.4,
+      "text": "or what we're doing here?"
+    },
+    {
+      "idx": 792,
+      "start": 2562.4,
+      "end": 2565.78,
+      "text": "Let me summarize what I'm saying."
+    },
+    {
+      "idx": 793,
+      "start": 2565.78,
+      "end": 2567.84,
+      "text": "Particles moving in a plane."
+    },
+    {
+      "idx": 794,
+      "start": 2567.84,
+      "end": 2571.9,
+      "text": "At every instant, it's got a location given by the vector r."
+    },
+    {
+      "idx": 795,
+      "start": 2571.9,
+      "end": 2573.9,
+      "text": "r itself is contained in a pair of numbers,"
+    },
+    {
+      "idx": 796,
+      "start": 2573.9,
+      "end": 2574.9,
+      "text": "x and y,"
+    },
+    {
+      "idx": 797,
+      "start": 2574.9,
+      "end": 2577.51,
+      "text": "and they vary with time."
+    },
+    {
+      "idx": 798,
+      "start": 2577.51,
+      "end": 2578.51,
+      "text": "So when you vary time a little bit"
+    },
+    {
+      "idx": 799,
+      "start": 2578.51,
+      "end": 2580.51,
+      "text": "and ask how does r change,"
+    },
+    {
+      "idx": 800,
+      "start": 2580.51,
+      "end": 2583.51,
+      "text": "and you take the quotient of delta r to delta t,"
+    },
+    {
+      "idx": 801,
+      "start": 2583.51,
+      "end": 2585.61,
+      "text": "you get the velocity vector."
+    },
+    {
+      "idx": 802,
+      "start": 2585.61,
+      "end": 2588.61,
+      "text": "Mathematically, it's done by taking the expression for r"
+    },
+    {
+      "idx": 803,
+      "start": 2588.61,
+      "end": 2589.61,
+      "text": "and differentiating everything in sight."
+    },
+    {
+      "idx": 804,
+      "start": 2589.61,
+      "end": 2592.61,
+      "text": "That can be differentiated with respect to t."
+    },
+    {
+      "idx": 805,
+      "start": 2592.61,
+      "end": 2597.11,
+      "text": "So even though we started with a single vector,"
+    },
+    {
+      "idx": 806,
+      "start": 2597.11,
+      "end": 2599.11,
+      "text": "which is the position vector,"
+    },
+    {
+      "idx": 807,
+      "start": 2599.11,
+      "end": 2602.14,
+      "text": "we are now finding out that its derivative has to be a vector,"
+    },
+    {
+      "idx": 808,
+      "start": 2602.14,
+      "end": 2605.14,
+      "text": "and the derivative of the derivative is also a vector."
+    },
+    {
+      "idx": 809,
+      "start": 2605.14,
+      "end": 2607.34,
+      "text": "Again, when you learn relativity,"
+    },
+    {
+      "idx": 810,
+      "start": 2607.34,
+      "end": 2610.72,
+      "text": "you will find out there's one vector that's staring at you."
+    },
+    {
+      "idx": 811,
+      "start": 2610.72,
+      "end": 2611.72,
+      "text": "I'll come to what that is."
+    },
+    {
+      "idx": 812,
+      "start": 2611.72,
+      "end": 2613.72,
+      "text": "That's the analog of the position vector."
+    },
+    {
+      "idx": 813,
+      "start": 2613.72,
+      "end": 2615.72,
+      "text": "But more and more vectors can be manufactured"
+    },
+    {
+      "idx": 814,
+      "start": 2615.72,
+      "end": 2617.72,
+      "text": "by taking derivatives."
+    },
+    {
+      "idx": 815,
+      "start": 2620.45,
+      "end": 2622.45,
+      "text": "So now I want to do one concrete example"
+    },
+    {
+      "idx": 816,
+      "start": 2622.45,
+      "end": 2625.48,
+      "text": "of this one concrete problem"
+    },
+    {
+      "idx": 817,
+      "start": 2625.48,
+      "end": 2630.41,
+      "text": "where you will see how to use these derivatives."
+    },
+    {
+      "idx": 818,
+      "start": 2630.41,
+      "end": 2634.41,
+      "text": "I'm going to write the particular case of r and take derivatives,"
+    },
+    {
+      "idx": 819,
+      "start": 2634.41,
+      "end": 2636.98,
+      "text": "and we'll get a feeling for what's going on."
+    },
+    {
+      "idx": 820,
+      "start": 2636.98,
+      "end": 2639.98,
+      "text": "The problem I have in mind looks like this."
+    },
+    {
+      "idx": 821,
+      "start": 2639.98,
+      "end": 2650.13,
+      "text": "r is going to be a fixed number r times i times cosine omega t"
+    },
+    {
+      "idx": 822,
+      "start": 2650.13,
+      "end": 2654.95,
+      "text": "plus j times sine omega t."
+    },
+    {
+      "idx": 823,
+      "start": 2654.95,
+      "end": 2655.95,
+      "text": "Omega is a new creature."
+    },
+    {
+      "idx": 824,
+      "start": 2655.95,
+      "end": 2657.95,
+      "text": "You don't know what it is right now."
+    },
+    {
+      "idx": 825,
+      "start": 2657.95,
+      "end": 2658.95,
+      "text": "I just put that in."
+    },
+    {
+      "idx": 826,
+      "start": 2658.95,
+      "end": 2660.95,
+      "text": "And omega times t is some number,"
+    },
+    {
+      "idx": 827,
+      "start": 2660.95,
+      "end": 2662.95,
+      "text": "and it's the cosine of the number times i"
+    },
+    {
+      "idx": 828,
+      "start": 2662.95,
+      "end": 2667.71,
+      "text": "plus sine of the number times j times r."
+    },
+    {
+      "idx": 829,
+      "start": 2667.71,
+      "end": 2670.71,
+      "text": "So what is going on as a function of time?"
+    },
+    {
+      "idx": 830,
+      "start": 2670.71,
+      "end": 2672.71,
+      "text": "What's this particle doing?"
+    },
+    {
+      "idx": 831,
+      "start": 2672.71,
+      "end": 2678.8,
+      "text": "First thing you can tell is that if you find the length of this vector,"
+    },
+    {
+      "idx": 832,
+      "start": 2679.7,
+      "end": 2681.7,
+      "text": "you'll find the square of the x and the square of the y,"
+    },
+    {
+      "idx": 833,
+      "start": 2681.7,
+      "end": 2684.7,
+      "text": "but since sine squared plus cosine squared is 1,"
+    },
+    {
+      "idx": 834,
+      "start": 2684.7,
+      "end": 2686.7,
+      "text": "you'll find this vector is a fixed length r."
+    },
+    {
+      "idx": 835,
+      "start": 2686.7,
+      "end": 2691.3,
+      "text": "That means it can only be rattling around in a circle of radius r."
+    },
+    {
+      "idx": 836,
+      "start": 2692.3,
+      "end": 2699.89,
+      "text": "And in fact, what the guy is doing looks like this."
+    },
+    {
+      "idx": 837,
+      "start": 2699.89,
+      "end": 2706.27,
+      "text": "At any given time t, draw an angle omega t and a radius r,"
+    },
+    {
+      "idx": 838,
+      "start": 2706.27,
+      "end": 2708.27,
+      "text": "and that's where your particle is."
+    },
+    {
+      "idx": 839,
+      "start": 2708.27,
+      "end": 2709.85,
+      "text": "You see that?"
+    },
+    {
+      "idx": 840,
+      "start": 2709.85,
+      "end": 2713.88,
+      "text": "Because the x component of this one is r cosine omega t,"
+    },
+    {
+      "idx": 841,
+      "start": 2713.88,
+      "end": 2718.16,
+      "text": "and the y part is r sine omega t."
+    },
+    {
+      "idx": 842,
+      "start": 2718.16,
+      "end": 2720.16,
+      "text": "Omega is a fixed number."
+    },
+    {
+      "idx": 843,
+      "start": 2720.16,
+      "end": 2723.16,
+      "text": "As t increases, this angle increases,"
+    },
+    {
+      "idx": 844,
+      "start": 2723.16,
+      "end": 2725.16,
+      "text": "and the particle goes round and round."
+    },
+    {
+      "idx": 845,
+      "start": 2725.16,
+      "end": 2727.16,
+      "text": "So we're describing the motion of a particle on a circle."
+    },
+    {
+      "idx": 846,
+      "start": 2727.16,
+      "end": 2732.37,
+      "text": "Now, let's understand what omega is."
+    },
+    {
+      "idx": 847,
+      "start": 2732.37,
+      "end": 2735.04,
+      "text": "Let's get a feeling for omega."
+    },
+    {
+      "idx": 848,
+      "start": 2735.04,
+      "end": 2738.04,
+      "text": "As time increases, the angle increases,"
+    },
+    {
+      "idx": 849,
+      "start": 2738.04,
+      "end": 2744.62,
+      "text": "and we can ask, how long does it take for the particle to come back to the starting point?"
+    },
+    {
+      "idx": 850,
+      "start": 2744.62,
+      "end": 2749.18,
+      "text": "Suppose the starting point was here."
+    },
+    {
+      "idx": 851,
+      "start": 2749.18,
+      "end": 2751.18,
+      "text": "So as I increase little t, omega t will increase,"
+    },
+    {
+      "idx": 852,
+      "start": 2751.18,
+      "end": 2755.11,
+      "text": "and I want to come back to where I start."
+    },
+    {
+      "idx": 853,
+      "start": 2755.11,
+      "end": 2759.11,
+      "text": "So you've got to ask yourself, let the time it takes to do a full circle,"
+    },
+    {
+      "idx": 854,
+      "start": 2759.11,
+      "end": 2762.11,
+      "text": "that's the time period, do a full circle."
+    },
+    {
+      "idx": 855,
+      "start": 2762.11,
+      "end": 2766.84,
+      "text": "Then what can you say about omega t?"
+    },
+    {
+      "idx": 856,
+      "start": 2766.84,
+      "end": 2769.16,
+      "text": "What should be the value of omega t?"
+    },
+    {
+      "idx": 857,
+      "start": 2771.6,
+      "end": 2773.6,
+      "text": "So you can say it's 360 degrees."
+    },
+    {
+      "idx": 858,
+      "start": 2774.6,
+      "end": 2776.6,
+      "text": "But we like to measure angle and radians."
+    },
+    {
+      "idx": 859,
+      "start": 2776.6,
+      "end": 2778.6,
+      "text": "Now, how many people know about radians?"
+    },
+    {
+      "idx": 860,
+      "start": 2778.6,
+      "end": 2782.5,
+      "text": "Okay, for those who have not seen a radian,"
+    },
+    {
+      "idx": 861,
+      "start": 2782.5,
+      "end": 2785.56,
+      "text": "it's just another way to measure angle"
+    },
+    {
+      "idx": 862,
+      "start": 2785.56,
+      "end": 2788.56,
+      "text": "with the understanding that a full circle,"
+    },
+    {
+      "idx": 863,
+      "start": 2788.56,
+      "end": 2792.46,
+      "text": "which we used to think is 360 degrees,"
+    },
+    {
+      "idx": 864,
+      "start": 2792.46,
+      "end": 2794.46,
+      "text": "is equal to 2 pi radians."
+    },
+    {
+      "idx": 865,
+      "start": 2794.46,
+      "end": 2796.84,
+      "text": "2 pi is roughly 6."
+    },
+    {
+      "idx": 866,
+      "start": 2796.84,
+      "end": 2799.84,
+      "text": "So radian is roughly 60 degrees."
+    },
+    {
+      "idx": 867,
+      "start": 2799.84,
+      "end": 2801.84,
+      "text": "It's 58 and fraction."
+    },
+    {
+      "idx": 868,
+      "start": 2801.84,
+      "end": 2805.51,
+      "text": "Why do you like to measure angle in the peculiar way?"
+    },
+    {
+      "idx": 869,
+      "start": 2805.51,
+      "end": 2807.51,
+      "text": "You will see the advantages of that later."
+    },
+    {
+      "idx": 870,
+      "start": 2807.51,
+      "end": 2811.77,
+      "text": "But we'll adopt the convention that we'll measure angle in a radian."
+    },
+    {
+      "idx": 871,
+      "start": 2811.77,
+      "end": 2816.06,
+      "text": "So that a half circle, instead of calling it 180 degrees,"
+    },
+    {
+      "idx": 872,
+      "start": 2816.06,
+      "end": 2818.06,
+      "text": "you will call it as pi."
+    },
+    {
+      "idx": 873,
+      "start": 2818.06,
+      "end": 2820.25,
+      "text": "And a quarter circle, instead of 90,"
+    },
+    {
+      "idx": 874,
+      "start": 2820.25,
+      "end": 2821.25,
+      "text": "you will call it pi over 2,"
+    },
+    {
+      "idx": 875,
+      "start": 2821.25,
+      "end": 2824.25,
+      "text": "and 45 is pi over 4 and so on."
+    },
+    {
+      "idx": 876,
+      "start": 2824.25,
+      "end": 2827.28,
+      "text": "But it's good to know certain famous angles."
+    },
+    {
+      "idx": 877,
+      "start": 2827.28,
+      "end": 2829.28,
+      "text": "This is pi over 2."
+    },
+    {
+      "idx": 878,
+      "start": 2829.28,
+      "end": 2830.28,
+      "text": "This is pi."
+    },
+    {
+      "idx": 879,
+      "start": 2830.28,
+      "end": 2832.28,
+      "text": "This is 3 pi over 2."
+    },
+    {
+      "idx": 880,
+      "start": 2832.28,
+      "end": 2835.21,
+      "text": "And this is back to 2 pi."
+    },
+    {
+      "idx": 881,
+      "start": 2835.21,
+      "end": 2840.34,
+      "text": "Therefore, omega t equal to 2 pi tells you that omega is 2 pi"
+    },
+    {
+      "idx": 882,
+      "start": 2840.34,
+      "end": 2846.54,
+      "text": "divided by the time it takes to complete a revolution."
+    },
+    {
+      "idx": 883,
+      "start": 2846.54,
+      "end": 2849.54,
+      "text": "And 1 over the time period is what we call the frequency,"
+    },
+    {
+      "idx": 884,
+      "start": 2849.54,
+      "end": 2854.28,
+      "text": "so you can write it as f is just the usual frequency."
+    },
+    {
+      "idx": 885,
+      "start": 2854.28,
+      "end": 2857.28,
+      "text": "60 hertz means you do 60 revolutions per second."
+    },
+    {
+      "idx": 886,
+      "start": 2861.22,
+      "end": 2864.22,
+      "text": "So how fast is this particle moving?"
+    },
+    {
+      "idx": 887,
+      "start": 2865.22,
+      "end": 2869.71,
+      "text": "It's going around a circle."
+    },
+    {
+      "idx": 888,
+      "start": 2869.71,
+      "end": 2871.71,
+      "text": "The angle is increasing at a steady rate,"
+    },
+    {
+      "idx": 889,
+      "start": 2871.71,
+      "end": 2873.71,
+      "text": "so we know it's going at a steady speed."
+    },
+    {
+      "idx": 890,
+      "start": 2873.71,
+      "end": 2879.83,
+      "text": "I'm asking, what's the tangential speed as it moves along the circle?"
+    },
+    {
+      "idx": 891,
+      "start": 2881.89,
+      "end": 2890.42,
+      "text": "How do you reach that conclusion?"
+    },
+    {
+      "idx": 892,
+      "start": 2891.42,
+      "end": 2893.42,
+      "text": "But I want the speed in meters per second,"
+    },
+    {
+      "idx": 893,
+      "start": 2893.42,
+      "end": 2896.42,
+      "text": "and omega will be in radians per second."
+    },
+    {
+      "idx": 894,
+      "start": 2898.67,
+      "end": 2907.33,
+      "text": "And how did you get that?"
+    },
+    {
+      "idx": 895,
+      "start": 2908.33,
+      "end": 2910.33,
+      "text": "But let me deduce that in another way."
+    },
+    {
+      "idx": 896,
+      "start": 2910.33,
+      "end": 2911.33,
+      "text": "Your answer is completely correct."
+    },
+    {
+      "idx": 897,
+      "start": 2911.33,
+      "end": 2912.33,
+      "text": "It is omega r."
+    },
+    {
+      "idx": 898,
+      "start": 2912.33,
+      "end": 2914.33,
+      "text": "But I want to say how you get it."
+    },
+    {
+      "idx": 899,
+      "start": 2914.33,
+      "end": 2917.33,
+      "text": "One way is to say, if I do a full revolution,"
+    },
+    {
+      "idx": 900,
+      "start": 2917.33,
+      "end": 2922.0,
+      "text": "I think of the speed as the distance over time."
+    },
+    {
+      "idx": 901,
+      "start": 2922.0,
+      "end": 2924.0,
+      "text": "I'm going to go one full revolution."
+    },
+    {
+      "idx": 902,
+      "start": 2924.0,
+      "end": 2929.46,
+      "text": "This sense that I travel is 2 pi r."
+    },
+    {
+      "idx": 903,
+      "start": 2929.46,
+      "end": 2932.78,
+      "text": "But 2 pi over t was identified as omega."
+    },
+    {
+      "idx": 904,
+      "start": 2932.78,
+      "end": 2939.35,
+      "text": "So the tangential velocity at any point is equal to omega times r."
+    },
+    {
+      "idx": 905,
+      "start": 2939.35,
+      "end": 2941.35,
+      "text": "That's a useful quantity to know."
+    },
+    {
+      "idx": 906,
+      "start": 2941.35,
+      "end": 2945.38,
+      "text": "So now you can take this velocity,"
+    },
+    {
+      "idx": 907,
+      "start": 2945.38,
+      "end": 2947.38,
+      "text": "and you can take this r."
+    },
+    {
+      "idx": 908,
+      "start": 2947.38,
+      "end": 2950.47,
+      "text": "Let me find v of t."
+    },
+    {
+      "idx": 909,
+      "start": 2950.47,
+      "end": 2955.53,
+      "text": "v of t is obtained by taking derivative of this expression."
+    },
+    {
+      "idx": 910,
+      "start": 2955.53,
+      "end": 2958.53,
+      "text": "I think you guys know enough calculus for me to write."
+    },
+    {
+      "idx": 911,
+      "start": 2958.53,
+      "end": 2968.49,
+      "text": "It's equal to r times i times minus omega sine omega t"
+    },
+    {
+      "idx": 912,
+      "start": 2968.49,
+      "end": 2973.1,
+      "text": "plus j times omega cosine omega t."
+    },
+    {
+      "idx": 913,
+      "start": 2973.1,
+      "end": 2979.96,
+      "text": "That is the velocity of this guy."
+    },
+    {
+      "idx": 914,
+      "start": 2979.96,
+      "end": 2982.96,
+      "text": "And I invite you to try this formula whenever you want."
+    },
+    {
+      "idx": 915,
+      "start": 2982.96,
+      "end": 2983.96,
+      "text": "Pick a time."
+    },
+    {
+      "idx": 916,
+      "start": 2983.96,
+      "end": 2987.34,
+      "text": "Let's say if I go a quarter of a circle,"
+    },
+    {
+      "idx": 917,
+      "start": 2987.34,
+      "end": 2990.34,
+      "text": "I expect to be moving to the left."
+    },
+    {
+      "idx": 918,
+      "start": 2990.34,
+      "end": 2993.79,
+      "text": "Quarter of a circle means omega t is pi over 2."
+    },
+    {
+      "idx": 919,
+      "start": 2993.79,
+      "end": 2998.18,
+      "text": "Cosine of pi over 2 is 0, because cosine of 90 is 0."
+    },
+    {
+      "idx": 920,
+      "start": 2998.18,
+      "end": 3000.18,
+      "text": "Sine of pi over 2 is 1."
+    },
+    {
+      "idx": 921,
+      "start": 3000.18,
+      "end": 3004.18,
+      "text": "And I get a speed of omega r in the negative i direction."
+    },
+    {
+      "idx": 922,
+      "start": 3004.18,
+      "end": 3006.18,
+      "text": "Which is omega r was the speed."
+    },
+    {
+      "idx": 923,
+      "start": 3006.18,
+      "end": 3008.18,
+      "text": "That's indeed the correct answer."
+    },
+    {
+      "idx": 924,
+      "start": 3008.18,
+      "end": 3010.18,
+      "text": "You can satisfy yourself at various times."
+    },
+    {
+      "idx": 925,
+      "start": 3010.18,
+      "end": 3012.18,
+      "text": "It's going like this."
+    },
+    {
+      "idx": 926,
+      "start": 3012.18,
+      "end": 3016.16,
+      "text": "So let's sneak in one more derivative here."
+    },
+    {
+      "idx": 927,
+      "start": 3017.16,
+      "end": 3020.16,
+      "text": "Which is to take the derivative of the derivative."
+    },
+    {
+      "idx": 928,
+      "start": 3020.16,
+      "end": 3022.16,
+      "text": "And that's a very important result."
+    },
+    {
+      "idx": 929,
+      "start": 3022.16,
+      "end": 3025.96,
+      "text": "If you do that, let's take one more derivative."
+    },
+    {
+      "idx": 930,
+      "start": 3025.96,
+      "end": 3028.96,
+      "text": "Let's try to do part of it in the head so I can just write down the answer."
+    },
+    {
+      "idx": 931,
+      "start": 3028.96,
+      "end": 3031.06,
+      "text": "If you take one more derivative,"
+    },
+    {
+      "idx": 932,
+      "start": 3031.06,
+      "end": 3035.38,
+      "text": "the sine is going to become a cosine and yield another omega."
+    },
+    {
+      "idx": 933,
+      "start": 3035.38,
+      "end": 3039.44,
+      "text": "This cosine is going to become a minus sine and give me another omega."
+    },
+    {
+      "idx": 934,
+      "start": 3039.44,
+      "end": 3042.44,
+      "text": "If you do that, you will find the whole answer is equal to"
+    },
+    {
+      "idx": 935,
+      "start": 3042.44,
+      "end": 3048.53,
+      "text": "minus omega squared times just the vector r itself."
+    },
+    {
+      "idx": 936,
+      "start": 3048.53,
+      "end": 3052.38,
+      "text": "That's a very interesting result."
+    },
+    {
+      "idx": 937,
+      "start": 3052.38,
+      "end": 3054.38,
+      "text": "It tells you when a particle moves in a circle,"
+    },
+    {
+      "idx": 938,
+      "start": 3054.38,
+      "end": 3058.45,
+      "text": "it has an acceleration in the negative r direction,"
+    },
+    {
+      "idx": 939,
+      "start": 3058.45,
+      "end": 3060.45,
+      "text": "namely directed towards the center."
+    },
+    {
+      "idx": 940,
+      "start": 3060.45,
+      "end": 3065.14,
+      "text": "What's the magnitude of that acceleration?"
+    },
+    {
+      "idx": 941,
+      "start": 3065.14,
+      "end": 3067.14,
+      "text": "I write it without an arrow here."
+    },
+    {
+      "idx": 942,
+      "start": 3067.14,
+      "end": 3071.14,
+      "text": "That's equal to omega squared times the magnitude of this vector,"
+    },
+    {
+      "idx": 943,
+      "start": 3071.14,
+      "end": 3072.14,
+      "text": "which is just r."
+    },
+    {
+      "idx": 944,
+      "start": 3073.26,
+      "end": 3078.36,
+      "text": "But now I can also write it as v squared over r."
+    },
+    {
+      "idx": 945,
+      "start": 3083.41,
+      "end": 3085.41,
+      "text": "This is a very important formula."
+    },
+    {
+      "idx": 946,
+      "start": 3085.41,
+      "end": 3089.72,
+      "text": "I don't know how many kids, generation after generation,"
+    },
+    {
+      "idx": 947,
+      "start": 3089.72,
+      "end": 3093.72,
+      "text": "get in trouble because they do not remember the following fact."
+    },
+    {
+      "idx": 948,
+      "start": 3093.72,
+      "end": 3097.04,
+      "text": "So I'm going to say it once more with feeling."
+    },
+    {
+      "idx": 949,
+      "start": 3097.04,
+      "end": 3099.04,
+      "text": "When a particle moves in a circle,"
+    },
+    {
+      "idx": 950,
+      "start": 3099.04,
+      "end": 3103.49,
+      "text": "it has an acceleration towards the center of this size,"
+    },
+    {
+      "idx": 951,
+      "start": 3103.49,
+      "end": 3106.74,
+      "text": "v squared over r."
+    },
+    {
+      "idx": 952,
+      "start": 3107.74,
+      "end": 3109.74,
+      "text": "It comes from the fact that velocity is a vector"
+    },
+    {
+      "idx": 953,
+      "start": 3109.74,
+      "end": 3112.74,
+      "text": "and you can change your velocity vector by changing your direction."
+    },
+    {
+      "idx": 954,
+      "start": 3112.74,
+      "end": 3115.77,
+      "text": "This particle is constantly changing its direction,"
+    },
+    {
+      "idx": 955,
+      "start": 3115.77,
+      "end": 3117.77,
+      "text": "but it therefore has an acceleration,"
+    },
+    {
+      "idx": 956,
+      "start": 3117.77,
+      "end": 3120.77,
+      "text": "and the acceleration we have shown here is pointing towards the center."
+    },
+    {
+      "idx": 957,
+      "start": 3120.77,
+      "end": 3122.77,
+      "text": "And the size of that is v squared over r."
+    },
+    {
+      "idx": 958,
+      "start": 3122.77,
+      "end": 3127.15,
+      "text": "So for example, if a car is going on a racetrack"
+    },
+    {
+      "idx": 959,
+      "start": 3127.15,
+      "end": 3129.66,
+      "text": "and you're seeing it from the top,"
+    },
+    {
+      "idx": 960,
+      "start": 3129.66,
+      "end": 3133.53,
+      "text": "if the gas pedal says 60 miles per hour speedometer,"
+    },
+    {
+      "idx": 961,
+      "start": 3133.53,
+      "end": 3135.53,
+      "text": "you might say it's not accelerating."
+    },
+    {
+      "idx": 962,
+      "start": 3135.53,
+      "end": 3137.62,
+      "text": "That's the layperson's view."
+    },
+    {
+      "idx": 963,
+      "start": 3137.62,
+      "end": 3139.62,
+      "text": "But if it's going on a circle,"
+    },
+    {
+      "idx": 964,
+      "start": 3139.62,
+      "end": 3143.62,
+      "text": "you will say from now on that it indeed has an acceleration"
+    },
+    {
+      "idx": 965,
+      "start": 3143.62,
+      "end": 3146.62,
+      "text": "even though no one's stepping on the accelerator"
+    },
+    {
+      "idx": 966,
+      "start": 3146.62,
+      "end": 3148.69,
+      "text": "of the amount v squared over r."
+    },
+    {
+      "idx": 967,
+      "start": 3148.69,
+      "end": 3152.54,
+      "text": "So that's a very important thing."
+    },
+    {
+      "idx": 968,
+      "start": 3152.54,
+      "end": 3155.54,
+      "text": "That's the part, that's what you're learning in this course."
+    },
+    {
+      "idx": 969,
+      "start": 3155.54,
+      "end": 3157.54,
+      "text": "The fact that when you step on your gas,"
+    },
+    {
+      "idx": 970,
+      "start": 3157.54,
+      "end": 3159.54,
+      "text": "you accelerate, everybody knows."
+    },
+    {
+      "idx": 971,
+      "start": 3159.54,
+      "end": 3161.54,
+      "text": "The fact that when you go in a circle,"
+    },
+    {
+      "idx": 972,
+      "start": 3161.54,
+      "end": 3163.54,
+      "text": "you accelerate is what we're learning here."
+    },
+    {
+      "idx": 973,
+      "start": 3163.54,
+      "end": 3166.54,
+      "text": "And it's coming from the fact the velocity is a vector"
+    },
+    {
+      "idx": 974,
+      "start": 3166.54,
+      "end": 3168.54,
+      "text": "and its change can be due to change in the magnitude"
+    },
+    {
+      "idx": 975,
+      "start": 3168.54,
+      "end": 3170.54,
+      "text": "or change in direction."
+    },
+    {
+      "idx": 976,
+      "start": 3170.54,
+      "end": 3172.54,
+      "text": "This is the problem where the magnitude of velocity"
+    },
+    {
+      "idx": 977,
+      "start": 3172.54,
+      "end": 3175.54,
+      "text": "was nailed down and fixed at omega r."
+    },
+    {
+      "idx": 978,
+      "start": 3175.54,
+      "end": 3179.05,
+      "text": "The direction is constantly changing."
+    },
+    {
+      "idx": 979,
+      "start": 3179.05,
+      "end": 3181.05,
+      "text": "Okay, so I'm going to now,"
+    },
+    {
+      "idx": 980,
+      "start": 3182.05,
+      "end": 3186.77,
+      "text": "do a second class of problems."
+    },
+    {
+      "idx": 981,
+      "start": 3186.77,
+      "end": 3189.8,
+      "text": "We will return to this issue later."
+    },
+    {
+      "idx": 982,
+      "start": 3189.8,
+      "end": 3191.99,
+      "text": "By the way, one thing I should mention to you."
+    },
+    {
+      "idx": 983,
+      "start": 3191.99,
+      "end": 3196.06,
+      "text": "Suppose the particle is not moving in a circle but does this."
+    },
+    {
+      "idx": 984,
+      "start": 3196.06,
+      "end": 3200.41,
+      "text": "Let's take a circle and just keep a quarter of the circle."
+    },
+    {
+      "idx": 985,
+      "start": 3200.41,
+      "end": 3205.74,
+      "text": "During this part, when you're doing a quarter of a circle,"
+    },
+    {
+      "idx": 986,
+      "start": 3205.74,
+      "end": 3207.74,
+      "text": "this is supposed to be a quarter of a circle,"
+    },
+    {
+      "idx": 987,
+      "start": 3207.74,
+      "end": 3210.74,
+      "text": "you have the same acceleration directed towards the center."
+    },
+    {
+      "idx": 988,
+      "start": 3210.74,
+      "end": 3213.9,
+      "text": "In other words, you don't have to be moving actually in a circle"
+    },
+    {
+      "idx": 989,
+      "start": 3213.9,
+      "end": 3215.9,
+      "text": "to have the acceleration."
+    },
+    {
+      "idx": 990,
+      "start": 3215.9,
+      "end": 3216.9,
+      "text": "At any instant,"
+    },
+    {
+      "idx": 991,
+      "start": 3216.9,
+      "end": 3220.1,
+      "text": "your motion, if it follows any curve,"
+    },
+    {
+      "idx": 992,
+      "start": 3220.1,
+      "end": 3224.26,
+      "text": "locally can be approximated as being part of some circle."
+    },
+    {
+      "idx": 993,
+      "start": 3224.26,
+      "end": 3226.26,
+      "text": "You can take circles of different size"
+    },
+    {
+      "idx": 994,
+      "start": 3226.26,
+      "end": 3229.26,
+      "text": "and place them against your trajectory and see which one fits."
+    },
+    {
+      "idx": 995,
+      "start": 3229.26,
+      "end": 3230.26,
+      "text": "That's the r."
+    },
+    {
+      "idx": 996,
+      "start": 3230.26,
+      "end": 3236.18,
+      "text": "v squared over r is the acceleration directed towards the center of that circle."
+    },
+    {
+      "idx": 997,
+      "start": 3236.18,
+      "end": 3243.38,
+      "text": "One miscellaneous result which we don't use very much now"
+    },
+    {
+      "idx": 998,
+      "start": 3243.38,
+      "end": 3246.74,
+      "text": "but which I should mention to you is the following."
+    },
+    {
+      "idx": 999,
+      "start": 3246.74,
+      "end": 3249.74,
+      "text": "Suppose this is the ground with some origin here."
+    },
+    {
+      "idx": 1000,
+      "start": 3249.74,
+      "end": 3250.74,
+      "text": "That's a plane."
+    },
+    {
+      "idx": 1001,
+      "start": 3251.74,
+      "end": 3254.74,
+      "text": "It's a plane with some origin here."
+    },
+    {
+      "idx": 1002,
+      "start": 3254.74,
+      "end": 3257.86,
+      "text": "And in the plane, there is some other object."
+    },
+    {
+      "idx": 1003,
+      "start": 3257.86,
+      "end": 3262.03,
+      "text": "What's the location of the object?"
+    },
+    {
+      "idx": 1004,
+      "start": 3262.03,
+      "end": 3267.9,
+      "text": "Let us say p for plane, g for ground, o for object."
+    },
+    {
+      "idx": 1005,
+      "start": 3267.9,
+      "end": 3272.9,
+      "text": "I think it's clear the position of the object with respect to the ground,"
+    },
+    {
+      "idx": 1006,
+      "start": 3272.9,
+      "end": 3279.96,
+      "text": "this vector, is the same as the position of the object with respect to the plane"
+    },
+    {
+      "idx": 1007,
+      "start": 3279.96,
+      "end": 3286.52,
+      "text": "plus position of the plane with respect to the ground."
+    },
+    {
+      "idx": 1008,
+      "start": 3286.52,
+      "end": 3288.613,
+      "text": "Okay, this is the picture here."
+    },
+    {
+      "idx": 1009,
+      "start": 3288.613,
+      "end": 3290.3,
+      "text": "Now, you can start taking"
+    },
+    {
+      "idx": 1010,
+      "start": 3290.3,
+      "end": 3294.0,
+      "text": "derivatives with respect to time, and that will say the"
+    },
+    {
+      "idx": 1011,
+      "start": 3294.0,
+      "end": 3296.64,
+      "text": "velocity of the object with respect to the ground,"
+    },
+    {
+      "idx": 1012,
+      "start": 3297.16,
+      "end": 3299.14,
+      "text": "the velocity of the object with respect to the plane,"
+    },
+    {
+      "idx": 1013,
+      "start": 3299.56,
+      "end": 3302.02,
+      "text": "the velocity of the plane with respect to the ground."
+    },
+    {
+      "idx": 1014,
+      "start": 3305.41,
+      "end": 3308.07,
+      "text": "That means if you're going in a plane and you throw something up"
+    },
+    {
+      "idx": 1015,
+      "start": 3308.07,
+      "end": 3310.37,
+      "text": "in the air, it seems to be going up and down to you,"
+    },
+    {
+      "idx": 1016,
+      "start": 3310.99,
+      "end": 3314.27,
+      "text": "but if I see you through the glass, the object is going on"
+    },
+    {
+      "idx": 1017,
+      "start": 3314.27,
+      "end": 3317.55,
+      "text": "some trajectory which has got both up and down and horizontal"
+    },
+    {
+      "idx": 1018,
+      "start": 3317.55,
+      "end": 3320.83,
+      "text": "motion, and this is the rule for adding velocities."
+    },
+    {
+      "idx": 1019,
+      "start": 3322.31,
+      "end": 3326.11,
+      "text": "So, when you have a velocity in the moving plane frame and you"
+    },
+    {
+      "idx": 1020,
+      "start": 3326.11,
+      "end": 3327.35,
+      "text": "want to find the velocity on the ground,"
+    },
+    {
+      "idx": 1021,
+      "start": 3327.47,
+      "end": 3330.93,
+      "text": "you should add to every object in the plane the velocity of the"
+    },
+    {
+      "idx": 1022,
+      "start": 3330.93,
+      "end": 3332.53,
+      "text": "plane with respect to the ground."
+    },
+    {
+      "idx": 1023,
+      "start": 3334.25,
+      "end": 3335.342,
+      "text": "That's intuitively clear."
+    },
+    {
+      "idx": 1024,
+      "start": 3335.342,
+      "end": 3336.39,
+      "text": "You use it all the time,"
+    },
+    {
+      "idx": 1025,
+      "start": 3336.39,
+      "end": 3340.15,
+      "text": "but maybe along one dimension, but this is the way to do it in"
+    },
+    {
+      "idx": 1026,
+      "start": 3340.15,
+      "end": 3343.016,
+      "text": "There may be some simple problem"
+    },
+    {
+      "idx": 1027,
+      "start": 3344.36,
+      "end": 3346.74,
+      "text": "involving this in the problem I assigned,"
+    },
+    {
+      "idx": 1028,
+      "start": 3346.82,
+      "end": 3348.899,
+      "text": "so I'm just going over this."
+    },
+    {
+      "idx": 1029,
+      "start": 3348.899,
+      "end": 3351.2,
+      "text": "Okay, the problem we want to do"
+    },
+    {
+      "idx": 1030,
+      "start": 3351.58,
+      "end": 3353.64,
+      "text": "a whole family of problems, looks like this."
+    },
+    {
+      "idx": 1031,
+      "start": 3355.36,
+      "end": 3358.02,
+      "text": "I want to consider a particle which has definite"
+    },
+    {
+      "idx": 1032,
+      "start": 3358.02,
+      "end": 3361.98,
+      "text": "acceleration a, a constant one, but a is now a vector."
+    },
+    {
+      "idx": 1033,
+      "start": 3363.72,
+      "end": 3368.92,
+      "text": "The question I have is, what is its location at all future"
+    },
+    {
+      "idx": 1034,
+      "start": 3368.92,
+      "end": 3372.511,
+      "text": "I think you can tell by analogy with what I did in one"
+    },
+    {
+      "idx": 1035,
+      "start": 3372.91,
+      "end": 3378.37,
+      "text": "dimension that the position of that object at any time t is"
+    },
+    {
+      "idx": 1036,
+      "start": 3378.37,
+      "end": 3384.35,
+      "text": "going to be the initial position plus velocity times t plus 1"
+    },
+    {
+      "idx": 1037,
+      "start": 3386.32,
+      "end": 3387.73,
+      "text": "So, I'm going to say t squared."
+    },
+    {
+      "idx": 1038,
+      "start": 3387.73,
+      "end": 3389.14,
+      "text": "Everything is the same as in 1d"
+    },
+    {
+      "idx": 1039,
+      "start": 3389.14,
+      "end": 3390.79,
+      "text": "except everybody is a vector now."
+    },
+    {
+      "idx": 1040,
+      "start": 3390.79,
+      "end": 3392.24,
+      "text": "Initial position is a pair of"
+    },
+    {
+      "idx": 1041,
+      "start": 3392.24,
+      "end": 3393.651,
+      "text": "Initial velocity is a pair of"
+    },
+    {
+      "idx": 1042,
+      "start": 3394.04,
+      "end": 3395.154,
+      "text": "Once you know those,"
+    },
+    {
+      "idx": 1043,
+      "start": 3395.6,
+      "end": 3398.24,
+      "text": "you can find the position of the object at all future times."
+    },
+    {
+      "idx": 1044,
+      "start": 3398.24,
+      "end": 3403.22,
+      "text": "Let's take one simple example."
+    },
+    {
+      "idx": 1045,
+      "start": 3403.22,
+      "end": 3408.2,
+      "text": "There is somebody in a car and"
+    },
+    {
+      "idx": 1046,
+      "start": 3408.2,
+      "end": 3411.609,
+      "text": "decided to fly off."
+    },
+    {
+      "idx": 1047,
+      "start": 3411.609,
+      "end": 3414.48,
+      "text": "We want to know,"
+    },
+    {
+      "idx": 1048,
+      "start": 3414.48,
+      "end": 3417.8,
+      "text": "as you can tell, our concern is where does the car"
+    },
+    {
+      "idx": 1049,
+      "start": 3417.8,
+      "end": 3418.544,
+      "text": "hit the ground?"
+    },
+    {
+      "idx": 1050,
+      "start": 3418.544,
+      "end": 3420.18,
+      "text": "When does the car hit the ground?"
+    },
+    {
+      "idx": 1051,
+      "start": 3420.18,
+      "end": 3421.72,
+      "text": "That's the problem in two dimensions."
+    },
+    {
+      "idx": 1052,
+      "start": 3421.86,
+      "end": 3424.27,
+      "text": "How do we solve this problem?"
+    },
+    {
+      "idx": 1053,
+      "start": 3424.27,
+      "end": 3426.68,
+      "text": "We pick our origin to be this"
+    },
+    {
+      "idx": 1054,
+      "start": 3426.68,
+      "end": 3429.48,
+      "text": "point here, let the height of the building be h."
+    },
+    {
+      "idx": 1055,
+      "start": 3429.48,
+      "end": 3433.98,
+      "text": "The car is traveling at some initial speed, v0 in a horizontal"
+    },
+    {
+      "idx": 1056,
+      "start": 3433.98,
+      "end": 3438.176,
+      "text": "This equation is a pair of equations,"
+    },
+    {
+      "idx": 1057,
+      "start": 3439.31,
+      "end": 3443.96,
+      "text": "one along x and one along y. For the x part, I'm going to"
+    },
+    {
+      "idx": 1058,
+      "start": 3443.96,
+      "end": 3449.25,
+      "text": "write x is equal to x0 plus v0t."
+    },
+    {
+      "idx": 1059,
+      "start": 3449.25,
+      "end": 3453.03,
+      "text": "And x0, I'm going to choose to be 0 by choice of my origin,"
+    },
+    {
+      "idx": 1060,
+      "start": 3453.03,
+      "end": 3454.237,
+      "text": "The x coordinate is 0."
+    },
+    {
+      "idx": 1061,
+      "start": 3454.96,
+      "end": 3462.03,
+      "text": "the car is the 0, because this is my origin."
+    },
+    {
+      "idx": 1062,
+      "start": 3462.03,
+      "end": 3464.18,
+      "text": "How about the y coordinate?"
+    },
+    {
+      "idx": 1063,
+      "start": 3464.18,
+      "end": 3468.32,
+      "text": "The equation for the y coordinate is the height of the building."
+    },
+    {
+      "idx": 1064,
+      "start": 3468.32,
+      "end": 3471.25,
+      "text": "The velocity has no vertical component."
+    },
+    {
+      "idx": 1065,
+      "start": 3471.25,
+      "end": 3477.66,
+      "text": "There is no vy, but it has an acceleration of minus g."
+    },
+    {
+      "idx": 1066,
+      "start": 3477.66,
+      "end": 3481.16,
+      "text": "So this is the fate of this person at any given time t."
+    },
+    {
+      "idx": 1067,
+      "start": 3481.16,
+      "end": 3484.52,
+      "text": "At t equals 0, you have him right on top of this edge."
+    },
+    {
+      "idx": 1068,
+      "start": 3484.52,
+      "end": 3489.96,
+      "text": "And at all future times, x proceeds as if nothing happened."
+    },
+    {
+      "idx": 1069,
+      "start": 3489.96,
+      "end": 3491.84,
+      "text": "And then y, you're falling."
+    },
+    {
+      "idx": 1070,
+      "start": 3491.84,
+      "end": 3494.72,
+      "text": "And if you want to know something like when do you hit the ground,"
+    },
+    {
+      "idx": 1071,
+      "start": 3494.72,
+      "end": 3497.69,
+      "text": "I think it's fairly clear what you have to do."
+    },
+    {
+      "idx": 1072,
+      "start": 3497.69,
+      "end": 3503.01,
+      "text": "For example, if t star is the time you hit the ground,"
+    },
+    {
+      "idx": 1073,
+      "start": 3503.01,
+      "end": 3511.41,
+      "text": "then t star satisfies the equation h minus 1 half g t star squared is 0."
+    },
+    {
+      "idx": 1074,
+      "start": 3511.41,
+      "end": 3515.03,
+      "text": "You solve for the t star from this one, and you put it there,"
+    },
+    {
+      "idx": 1075,
+      "start": 3515.03,
+      "end": 3518.51,
+      "text": "and that tells you where you land."
+    },
+    {
+      "idx": 1076,
+      "start": 3518.51,
+      "end": 3520.83,
+      "text": "I don't think I have to actually do that step."
+    },
+    {
+      "idx": 1077,
+      "start": 3520.83,
+      "end": 3522.63,
+      "text": "I'm assuming you can fill in the blanks."
+    },
+    {
+      "idx": 1078,
+      "start": 3522.63,
+      "end": 3524.73,
+      "text": "Solve this equation for t star, put it there,"
+    },
+    {
+      "idx": 1079,
+      "start": 3524.73,
+      "end": 3526.13,
+      "text": "and that's where you land."
+    },
+    {
+      "idx": 1080,
+      "start": 3526.13,
+      "end": 3529.54,
+      "text": "That's one class of problems."
+    },
+    {
+      "idx": 1081,
+      "start": 3529.54,
+      "end": 3531.28,
+      "text": "Here's the second class."
+    },
+    {
+      "idx": 1082,
+      "start": 3531.28,
+      "end": 3542.62,
+      "text": "The second class is the most popular application of what I'm doing now."
+    },
+    {
+      "idx": 1083,
+      "start": 3542.62,
+      "end": 3548.74,
+      "text": "But I want you not to memorize every formula the book gives you for this problem."
+    },
+    {
+      "idx": 1084,
+      "start": 3548.74,
+      "end": 3551.0,
+      "text": "That's the problem of projectile motion."
+    },
+    {
+      "idx": 1085,
+      "start": 3551.0,
+      "end": 3556.37,
+      "text": "So projectile motion, you start here,"
+    },
+    {
+      "idx": 1086,
+      "start": 3556.37,
+      "end": 3561.37,
+      "text": "and you fire a projectile with some velocity v naught at some angle theta,"
+    },
+    {
+      "idx": 1087,
+      "start": 3561.37,
+      "end": 3562.49,
+      "text": "and you fire it."
+    },
+    {
+      "idx": 1088,
+      "start": 3562.61,
+      "end": 3567.8,
+      "text": "And it's going to go up, and it's going to come down."
+    },
+    {
+      "idx": 1089,
+      "start": 3567.8,
+      "end": 3571.4,
+      "text": "One question is, where is it going to land?"
+    },
+    {
+      "idx": 1090,
+      "start": 3571.4,
+      "end": 3578.34,
+      "text": "Another question is, at what angle should you fire your projectile so it'll go the furthest?"
+    },
+    {
+      "idx": 1091,
+      "start": 3578.34,
+      "end": 3582.18,
+      "text": "So you can find the equation, but you've got to think a little bit before you solve everything."
+    },
+    {
+      "idx": 1092,
+      "start": 3582.18,
+      "end": 3584.8,
+      "text": "It's good to have an idea of what's coming."
+    },
+    {
+      "idx": 1093,
+      "start": 3584.8,
+      "end": 3587.72,
+      "text": "So imagine you've got this monster cannon."
+    },
+    {
+      "idx": 1094,
+      "start": 3587.72,
+      "end": 3588.56,
+      "text": "You can fire things."
+    },
+    {
+      "idx": 1095,
+      "start": 3588.56,
+      "end": 3590.82,
+      "text": "It's got a fixed speed, v naught."
+    },
+    {
+      "idx": 1096,
+      "start": 3590.82,
+      "end": 3596.17,
+      "text": "And how do you want to aim it so you can be most effective, go as far as you can?"
+    },
+    {
+      "idx": 1097,
+      "start": 3596.17,
+      "end": 3598.15,
+      "text": "Well, there are two schools of thought."
+    },
+    {
+      "idx": 1098,
+      "start": 3598.15,
+      "end": 3601.29,
+      "text": "One says, aim at your enemy."
+    },
+    {
+      "idx": 1099,
+      "start": 3601.29,
+      "end": 3603.29,
+      "text": "Fire like this, then it lands on your foot."
+    },
+    {
+      "idx": 1100,
+      "start": 3603.29,
+      "end": 3606.15,
+      "text": "Because assuming the cannon is at zero height,"
+    },
+    {
+      "idx": 1101,
+      "start": 3606.15,
+      "end": 3611.34,
+      "text": "the cannonball certainly comes out towards the enemy, but has no time of flight."
+    },
+    {
+      "idx": 1102,
+      "start": 3611.34,
+      "end": 3615.58,
+      "text": "Other one says, maximize the time of flight, and you point a cannon like this."
+    },
+    {
+      "idx": 1103,
+      "start": 3615.58,
+      "end": 3620.28,
+      "text": "So it goes up, stays in the air for a very long time, but it falls on your head."
+    },
+    {
+      "idx": 1104,
+      "start": 3620.28,
+      "end": 3624.54,
+      "text": "So we know the truth is somewhere between 0 and 90."
+    },
+    {
+      "idx": 1105,
+      "start": 3624.54,
+      "end": 3629.53,
+      "text": "A naive guess may be 45, but it turns out naive guess is actually correct."
+    },
+    {
+      "idx": 1106,
+      "start": 3629.53,
+      "end": 3630.23,
+      "text": "So I just want to know."
+    },
+    {
+      "idx": 1107,
+      "start": 3630.23,
+      "end": 3631.99,
+      "text": "I want to show you how that comes out."
+    },
+    {
+      "idx": 1108,
+      "start": 3631.99,
+      "end": 3633.73,
+      "text": "But I don't want you to cram this formula."
+    },
+    {
+      "idx": 1109,
+      "start": 3633.73,
+      "end": 3636.53,
+      "text": "This is the kind of thing you should be able to deduce."
+    },
+    {
+      "idx": 1110,
+      "start": 3636.53,
+      "end": 3639.41,
+      "text": "So let's go back to the same thing I wrote earlier."
+    },
+    {
+      "idx": 1111,
+      "start": 3639.41,
+      "end": 3645.27,
+      "text": "x equals 0 plus, what's the horizontal velocity?"
+    },
+    {
+      "idx": 1112,
+      "start": 3645.27,
+      "end": 3649.67,
+      "text": "Horizontal velocity is v0 cosine theta."
+    },
+    {
+      "idx": 1113,
+      "start": 3649.67,
+      "end": 3654.08,
+      "text": "So x is v0 cosine theta times t."
+    },
+    {
+      "idx": 1114,
+      "start": 3654.08,
+      "end": 3662.49,
+      "text": "And y is v0 sine theta times t minus 1 half gt squared."
+    },
+    {
+      "idx": 1115,
+      "start": 3662.69,
+      "end": 3670.36,
+      "text": "So 1 half gt is v0, because we are in the air."
+    },
+    {
+      "idx": 1116,
+      "start": 3670.36,
+      "end": 3673.04,
+      "text": "So I just want to know how long is the velocity."
+    },
+    {
+      "idx": 1117,
+      "start": 3673.54,
+      "end": 3675.12,
+      "text": "So now we know everything about this particle."
+    },
+    {
+      "idx": 1118,
+      "start": 3675.12,
+      "end": 3678.22,
+      "text": "I told you, once you know the three parameters, r0 and v0,"
+    },
+    {
+      "idx": 1119,
+      "start": 3678.22,
+      "end": 3682.74,
+      "text": "you know everything about the future of the object."
+    },
+    {
+      "idx": 1120,
+      "start": 3682.74,
+      "end": 3684.84,
+      "text": "So let's ask, what's the range?"
+    },
+    {
+      "idx": 1121,
+      "start": 3684.84,
+      "end": 3687.3,
+      "text": "Range is that distance."
+    },
+    {
+      "idx": 1122,
+      "start": 3687.3,
+      "end": 3688.8,
+      "text": "So what's the strategy for range?"
+    },
+    {
+      "idx": 1123,
+      "start": 3688.8,
+      "end": 3693.08,
+      "text": "You see how long you're in the air, and the whole time you're in the air,"
+    },
+    {
+      "idx": 1124,
+      "start": 3693.08,
+      "end": 3696.9,
+      "text": "you're traveling horizontally at the speed."
+    },
+    {
+      "idx": 1125,
+      "start": 3696.9,
+      "end": 3700.5,
+      "text": "So again, let t star be the time when you hit the ground."
+    },
+    {
+      "idx": 1126,
+      "start": 3700.5,
+      "end": 3704.86,
+      "text": "minus one-half gT star times T star."
+    },
+    {
+      "idx": 1127,
+      "start": 3706.73,
+      "end": 3708.13,
+      "text": "I just pulled out a common T."
+    },
+    {
+      "idx": 1128,
+      "start": 3710.28,
+      "end": 3712.16,
+      "text": "So it says you are in the ground on two occasions."
+    },
+    {
+      "idx": 1129,
+      "start": 3712.5,
+      "end": 3715.22,
+      "text": "One is initially, but we're not interested in that."
+    },
+    {
+      "idx": 1130,
+      "start": 3715.9,
+      "end": 3717.98,
+      "text": "Well, if the time you're interested in is not zero,"
+    },
+    {
+      "idx": 1131,
+      "start": 3718.02,
+      "end": 3720.84,
+      "text": "you're allowed to cancel it and get the time from here."
+    },
+    {
+      "idx": 1132,
+      "start": 3721.16,
+      "end": 3726.78,
+      "text": "And that time is T star equal to 2V0 sine theta over g."
+    },
+    {
+      "idx": 1133,
+      "start": 3729.6,
+      "end": 3730.9,
+      "text": "That's how long you're in the air."
+    },
+    {
+      "idx": 1134,
+      "start": 3731.7,
+      "end": 3733.68,
+      "text": "This says if you want to be in the air for a long time,"
+    },
+    {
+      "idx": 1135,
+      "start": 3733.68,
+      "end": 3736.34,
+      "text": "maximize sine theta, so you may think it's 90 degrees"
+    },
+    {
+      "idx": 1136,
+      "start": 3736.34,
+      "end": 3737.32,
+      "text": "is the best angle."
+    },
+    {
+      "idx": 1137,
+      "start": 3738.14,
+      "end": 3739.42,
+      "text": "But that's not the goal."
+    },
+    {
+      "idx": 1138,
+      "start": 3739.72,
+      "end": 3741.26,
+      "text": "The goal is to get the biggest range."
+    },
+    {
+      "idx": 1139,
+      "start": 3741.7,
+      "end": 3746.06,
+      "text": "So go back to x and put your value for T star,"
+    },
+    {
+      "idx": 1140,
+      "start": 3746.68,
+      "end": 3750.28,
+      "text": "which is 2V0 sine theta over g."
+    },
+    {
+      "idx": 1141,
+      "start": 3750.74,
+      "end": 3758.31,
+      "text": "And that becomes V0 squared over g times 2 sine theta cosine theta."
+    },
+    {
+      "idx": 1142,
+      "start": 3760.26,
+      "end": 3762.36,
+      "text": "Now, if you go back to your trigonometry,"
+    },
+    {
+      "idx": 1143,
+      "start": 3762.94,
+      "end": 3766.03,
+      "text": "you should find that is really the formula"
+    },
+    {
+      "idx": 1144,
+      "start": 3766.03,
+      "end": 3766.19,
+      "text": "for the equation."
+    },
+    {
+      "idx": 1145,
+      "start": 3766.21,
+      "end": 3771.59,
+      "text": "That's another example where knowing the trigonometry"
+    },
+    {
+      "idx": 1146,
+      "start": 3771.59,
+      "end": 3772.29,
+      "text": "is very helpful."
+    },
+    {
+      "idx": 1147,
+      "start": 3779.96,
+      "end": 3781.9,
+      "text": "Okay, so this tells you exactly what you want."
+    },
+    {
+      "idx": 1148,
+      "start": 3782.22,
+      "end": 3784.86,
+      "text": "It says make sine 2 theta as big as you want,"
+    },
+    {
+      "idx": 1149,
+      "start": 3785.2,
+      "end": 3789.08,
+      "text": "and that tells you 2 theta is going to be 90"
+    },
+    {
+      "idx": 1150,
+      "start": 3789.08,
+      "end": 3790.54,
+      "text": "and theta is going to be 45."
+    },
+    {
+      "idx": 1151,
+      "start": 3792.17,
+      "end": 3797.31,
+      "text": "But it's not from a naive guess that it's halfway between 0 and 90."
+    },
+    {
+      "idx": 1152,
+      "start": 3797.51,
+      "end": 3802.0,
+      "text": "It turns out to be a fairly complicated balance"
+    },
+    {
+      "idx": 1153,
+      "start": 3802.0,
+      "end": 3803.84,
+      "text": "between the time of flight and the range."
+    },
+    {
+      "idx": 1154,
+      "start": 3803.84,
+      "end": 3807.3,
+      "text": "So some people memorize this."
+    },
+    {
+      "idx": 1155,
+      "start": 3807.3,
+      "end": 3810.27,
+      "text": "I would say don't do that because after a while,"
+    },
+    {
+      "idx": 1156,
+      "start": 3810.27,
+      "end": 3811.75,
+      "text": "you won't have room in your head for anything."
+    },
+    {
+      "idx": 1157,
+      "start": 3811.75,
+      "end": 3817.11,
+      "text": "Just go back as often as possible to this formula"
+    },
+    {
+      "idx": 1158,
+      "start": 3817.11,
+      "end": 3818.23,
+      "text": "and work your way from there."
+    },
+    {
+      "idx": 1159,
+      "start": 3818.23,
+      "end": 3823.45,
+      "text": "Now, there's more variations, but it's always the same thing."
+    },
+    {
+      "idx": 1160,
+      "start": 3823.45,
+      "end": 3824.45,
+      "text": "Here's another variation."
+    },
+    {
+      "idx": 1161,
+      "start": 3824.45,
+      "end": 3830.88,
+      "text": "In my days, they would say find out when you want an object"
+    },
+    {
+      "idx": 1162,
+      "start": 3830.88,
+      "end": 3831.96,
+      "text": "to go through that point."
+    },
+    {
+      "idx": 1163,
+      "start": 3831.96,
+      "end": 3836.01,
+      "text": "And I tell you the muzzle velocity V0,"
+    },
+    {
+      "idx": 1164,
+      "start": 3836.01,
+      "end": 3836.53,
+      "text": "what are I talking about?"
+    },
+    {
+      "idx": 1165,
+      "start": 3836.53,
+      "end": 3836.77,
+      "text": "I'm talking about the muzzle velocity V0."
+    },
+    {
+      "idx": 1166,
+      "start": 3836.77,
+      "end": 3839.31,
+      "text": "And I tell you at what angle I fire it."
+    },
+    {
+      "idx": 1167,
+      "start": 3839.31,
+      "end": 3843.95,
+      "text": "I want you to find the speed so it'll land here."
+    },
+    {
+      "idx": 1168,
+      "start": 3843.95,
+      "end": 3846.07,
+      "text": "So how do you do that problem?"
+    },
+    {
+      "idx": 1169,
+      "start": 3846.07,
+      "end": 3847.77,
+      "text": "You do that problem by saying,"
+    },
+    {
+      "idx": 1170,
+      "start": 3847.77,
+      "end": 3850.85,
+      "text": "suppose this actually happens at some time t."
+    },
+    {
+      "idx": 1171,
+      "start": 3850.85,
+      "end": 3855.47,
+      "text": "At that time t, the x coordinate must have a certain value."
+    },
+    {
+      "idx": 1172,
+      "start": 3855.47,
+      "end": 3857.67,
+      "text": "They go to the x equation and demand"
+    },
+    {
+      "idx": 1173,
+      "start": 3857.67,
+      "end": 3861.53,
+      "text": "that this be equal to the desired x value and find the time."
+    },
+    {
+      "idx": 1174,
+      "start": 3861.53,
+      "end": 3864.03,
+      "text": "I take the time and put it in the y equation"
+    },
+    {
+      "idx": 1175,
+      "start": 3864.03,
+      "end": 3869.59,
+      "text": "and demand that the y I get agree with this y."
+    },
+    {
+      "idx": 1176,
+      "start": 3869.59,
+      "end": 3870.79,
+      "text": "If you do that, you will find there's"
+    },
+    {
+      "idx": 1177,
+      "start": 3870.79,
+      "end": 3876.52,
+      "text": "one unknown which is V0 and you can solve for V0."
+    },
+    {
+      "idx": 1178,
+      "start": 3876.52,
+      "end": 3879.92,
+      "text": "This is the most general problem you can have."
+    },
+    {
+      "idx": 1179,
+      "start": 3879.92,
+      "end": 3881.54,
+      "text": "Now, in the textbook, of course,"
+    },
+    {
+      "idx": 1180,
+      "start": 3881.54,
+      "end": 3883.48,
+      "text": "people make them interesting."
+    },
+    {
+      "idx": 1181,
+      "start": 3883.48,
+      "end": 3887.81,
+      "text": "Suddenly, there's a mountain and there's a physicist"
+    },
+    {
+      "idx": 1182,
+      "start": 3887.81,
+      "end": 3890.21,
+      "text": "hiking on this mountain."
+    },
+    {
+      "idx": 1183,
+      "start": 3890.21,
+      "end": 3891.49,
+      "text": "See, you're already laughing."
+    },
+    {
+      "idx": 1184,
+      "start": 3891.49,
+      "end": 3894.37,
+      "text": "This is not a very credible problem."
+    },
+    {
+      "idx": 1185,
+      "start": 3894.37,
+      "end": 3896.99,
+      "text": "We don't hike and when we get stuck, we don't want food."
+    },
+    {
+      "idx": 1186,
+      "start": 3896.99,
+      "end": 3898.89,
+      "text": "We want our table of integrals, which"
+    },
+    {
+      "idx": 1187,
+      "start": 3898.89,
+      "end": 3901.86,
+      "text": "is what we want somebody to send to us."
+    },
+    {
+      "idx": 1188,
+      "start": 3901.86,
+      "end": 3903.9,
+      "text": "So these problems are embellished in many ways."
+    },
+    {
+      "idx": 1189,
+      "start": 3903.9,
+      "end": 3907.06,
+      "text": "To make you all feel involved."
+    },
+    {
+      "idx": 1190,
+      "start": 3907.06,
+      "end": 3909.56,
+      "text": "For example, instead of a stone dropping,"
+    },
+    {
+      "idx": 1191,
+      "start": 3909.56,
+      "end": 3912.72,
+      "text": "nowadays there's a monkey that's falling down."
+    },
+    {
+      "idx": 1192,
+      "start": 3912.72,
+      "end": 3914.26,
+      "text": "So the people in life sciences feel,"
+    },
+    {
+      "idx": 1193,
+      "start": 3914.26,
+      "end": 3919.0,
+      "text": "hey, we are represented in this subject."
+    },
+    {
+      "idx": 1194,
+      "start": 3919.0,
+      "end": 3921.48,
+      "text": "But all those creatures, which are very interesting,"
+    },
+    {
+      "idx": 1195,
+      "start": 3921.48,
+      "end": 3923.6,
+      "text": "in the end, you are told, you know,"
+    },
+    {
+      "idx": 1196,
+      "start": 3923.6,
+      "end": 3926.08,
+      "text": "there's a horse inside a railway carriage"
+    },
+    {
+      "idx": 1197,
+      "start": 3926.08,
+      "end": 3928.66,
+      "text": "and you cannot see the horse, but the horse is moving."
+    },
+    {
+      "idx": 1198,
+      "start": 3928.66,
+      "end": 3930.1,
+      "text": "You can deduce it because the carriage"
+    },
+    {
+      "idx": 1199,
+      "start": 3930.1,
+      "end": 3931.97,
+      "text": "is moving the other way."
+    },
+    {
+      "idx": 1200,
+      "start": 3931.97,
+      "end": 3934.25,
+      "text": "There's a picture of a horse, picture of a carriage,"
+    },
+    {
+      "idx": 1201,
+      "start": 3934.25,
+      "end": 3935.21,
+      "text": "all glossy stuff."
+    },
+    {
+      "idx": 1202,
+      "start": 3935.37,
+      "end": 3940.25,
+      "text": "Then it says, treat the horse as a point particle."
+    },
+    {
+      "idx": 1203,
+      "start": 3940.25,
+      "end": 3942.63,
+      "text": "See, that's what we learned in the old days."
+    },
+    {
+      "idx": 1204,
+      "start": 3942.63,
+      "end": 3945.09,
+      "text": "But nowadays, it's a horse, but in the end,"
+    },
+    {
+      "idx": 1205,
+      "start": 3945.09,
+      "end": 3946.47,
+      "text": "if you're going to treat it as a point particle,"
+    },
+    {
+      "idx": 1206,
+      "start": 3946.47,
+      "end": 3949.19,
+      "text": "it seems to me it'd be a real waste."
+    },
+    {
+      "idx": 1207,
+      "start": 3949.19,
+      "end": 3951.44,
+      "text": "If you're the godfather, right, you"
+    },
+    {
+      "idx": 1208,
+      "start": 3951.44,
+      "end": 3954.36,
+      "text": "want to get the contract for Johnny Fontaine,"
+    },
+    {
+      "idx": 1209,
+      "start": 3954.36,
+      "end": 3956.98,
+      "text": "you don't tell your conciliary, hey, Tom,"
+    },
+    {
+      "idx": 1210,
+      "start": 3956.98,
+      "end": 3960.42,
+      "text": "put a point particle on Jack's bed."
+    },
+    {
+      "idx": 1211,
+      "start": 3960.42,
+      "end": 3962.56,
+      "text": "When you want a horse, use a horse."
+    },
+    {
+      "idx": 1212,
+      "start": 3962.56,
+      "end": 3964.94,
+      "text": "When you want a point particle, if you wake up"
+    },
+    {
+      "idx": 1213,
+      "start": 3964.94,
+      "end": 3967.08,
+      "text": "and find a point particle on your bed, what's your reaction?"
+    },
+    {
+      "idx": 1214,
+      "start": 3967.1,
+      "end": 3972.48,
+      "text": "So I think these extra pictures,"
+    },
+    {
+      "idx": 1215,
+      "start": 3972.48,
+      "end": 3976.78,
+      "text": "sometimes they're helpful, sometimes they just make"
+    },
+    {
+      "idx": 1216,
+      "start": 3976.78,
+      "end": 3979.46,
+      "text": "the book cost a lot more."
+    },
+    {
+      "idx": 1217,
+      "start": 3979.46,
+      "end": 3981.52,
+      "text": "There are problems where a horse must be treated,"
+    },
+    {
+      "idx": 1218,
+      "start": 3981.52,
+      "end": 3984.0,
+      "text": "we'll see when we study rigid bodies."
+    },
+    {
+      "idx": 1219,
+      "start": 3984.0,
+      "end": 3986.88,
+      "text": "Even there, a horse is not really a rigid body"
+    },
+    {
+      "idx": 1220,
+      "start": 3986.88,
+      "end": 3988.9,
+      "text": "unless it's been dead for a long time."
+    },
+    {
+      "idx": 1221,
+      "start": 3988.9,
+      "end": 3991.12,
+      "text": "At least there, the fact it's not a point particle"
+    },
+    {
+      "idx": 1222,
+      "start": 3992.68,
+      "end": 3995.6,
+      "text": "So I think the reason books are bigger and bigger"
+    },
+    {
+      "idx": 1223,
+      "start": 3995.6,
+      "end": 3997.78,
+      "text": "but still carry the same information is that examples"
+    },
+    {
+      "idx": 1224,
+      "start": 3997.78,
+      "end": 3999.04,
+      "text": "are more and more interesting."
+    },
+    {
+      "idx": 1225,
+      "start": 3999.04,
+      "end": 3999.84,
+      "text": "Sometimes, you can't just read a book, you can't just read a book."
+    },
+    {
+      "idx": 1226,
+      "start": 4000.04,
+      "end": 4003.57,
+      "text": "Sometimes, they serve a purpose, sometimes they distract you."
+    },
+    {
+      "idx": 1227,
+      "start": 4003.57,
+      "end": 4005.07,
+      "text": "But I haven't written a book in this field,"
+    },
+    {
+      "idx": 1228,
+      "start": 4005.07,
+      "end": 4007.57,
+      "text": "so I will not say anything more."
+    }
+  ]
+}

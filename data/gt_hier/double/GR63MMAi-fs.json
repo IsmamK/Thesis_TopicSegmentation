@@ -1,0 +1,95 @@
+{
+  "video_id": "GR63MMAi-fs",
+  "annotator": "llm_b_fallback",
+  "status": "draft",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Chapter 1. Introduction: The P-Functioning Body"
+    },
+    {
+      "start_sec": 182.0,
+      "title": "Chapter 2. The Mind According to Physicalists and Dualists"
+    },
+    {
+      "start_sec": 737.0,
+      "title": "Chapter 3. Inferencing to the Best Explanation to Prove the Soul's Existence"
+    },
+    {
+      "start_sec": 1195.0,
+      "title": "Chapter 4. Can Only the Soul Justify Feature F?"
+    },
+    {
+      "start_sec": 2107.0,
+      "title": "Chapter 5. Abilities, Desires, Emotions -- Candidates for Feature F"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Dualist and Physicalist Views"
+    },
+    {
+      "start_sec": 122.0,
+      "chapter_idx": 0,
+      "title": "P Abilities and P Functions"
+    },
+    {
+      "start_sec": 182.0,
+      "chapter_idx": 1,
+      "title": "Physicalist View of the Mind"
+    },
+    {
+      "start_sec": 390.0,
+      "chapter_idx": 1,
+      "title": "Analogy with Smiles and Abilities"
+    },
+    {
+      "start_sec": 585.0,
+      "chapter_idx": 1,
+      "title": "Mind Not Identical to Body or Brain"
+    },
+    {
+      "start_sec": 737.0,
+      "chapter_idx": 2,
+      "title": "Dualist and Physicalist Views"
+    },
+    {
+      "start_sec": 990.0,
+      "chapter_idx": 2,
+      "title": "Proving the Existence of Things"
+    },
+    {
+      "start_sec": 1100.0,
+      "chapter_idx": 2,
+      "title": "Inferencing to Explain Unseen Entities"
+    },
+    {
+      "start_sec": 1195.0,
+      "chapter_idx": 3,
+      "title": "Inference to the Best Explanation"
+    },
+    {
+      "start_sec": 1530.0,
+      "chapter_idx": 3,
+      "title": "Feature F and Ordinary Facts"
+    },
+    {
+      "start_sec": 1875.0,
+      "chapter_idx": 3,
+      "title": "Extraordinary, Supernatural Features"
+    },
+    {
+      "start_sec": 2107.0,
+      "chapter_idx": 4,
+      "title": "Mere Machines and Beliefs"
+    },
+    {
+      "start_sec": 2480.0,
+      "chapter_idx": 4,
+      "title": "Computer Programs and Desires"
+    }
+  ]
+}

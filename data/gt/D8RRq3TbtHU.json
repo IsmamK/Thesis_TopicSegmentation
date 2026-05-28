@@ -1,0 +1,32 @@
+{
+  "video_id": "D8RRq3TbtHU",
+  "boundaries_sec": [
+    15.0,
+    292.0,
+    577.0,
+    1039.0,
+    1588.0,
+    2041.0,
+    2413.0,
+    2982.0,
+    4860.0,
+    5578.0,
+    6257.0
+  ],
+  "titles": [
+    "Introduction",
+    "Uncertainty",
+    "Probability",
+    "Conditional Probability",
+    "Random Variables",
+    "Bayes' Rule",
+    "Joint Probability",
+    "Probability Rules",
+    "Bayesian Networks",
+    "Sampling",
+    "Markov Models",
+    "Hidden Markov Models"
+  ],
+  "num_chapters": 12,
+  "duration_sec": 6869.0
+}

@@ -1,0 +1,25 @@
+{
+  "video_id": "S7TUe5w6RHo",
+  "n_sentences": 205,
+  "model": "mpnet",
+  "n_chapters": 5,
+  "n_subtopics": 10,
+  "chapters": [
+    87,
+    98,
+    99,
+    100
+  ],
+  "subtopics": [
+    87,
+    98,
+    99,
+    100,
+    103,
+    168,
+    170,
+    190,
+    191
+  ],
+  "titles": null
+}

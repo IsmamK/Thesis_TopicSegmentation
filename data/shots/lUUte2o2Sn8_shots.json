@@ -1,0 +1,557 @@
+[
+  {
+    "frame_idx": 12594,
+    "timestamp_s": 419.833333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 13130,
+    "timestamp_s": 437.666667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 13904,
+    "timestamp_s": 463.466667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 15744,
+    "timestamp_s": 524.833333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 16137,
+    "timestamp_s": 537.9,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 17229,
+    "timestamp_s": 574.3,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 17394,
+    "timestamp_s": 579.8,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 18672,
+    "timestamp_s": 622.4,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 23847,
+    "timestamp_s": 794.933333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 23940,
+    "timestamp_s": 798.033333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 24651,
+    "timestamp_s": 821.7,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 25047,
+    "timestamp_s": 834.933333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 25233,
+    "timestamp_s": 841.1,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 25353,
+    "timestamp_s": 845.1,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 26063,
+    "timestamp_s": 868.766667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 28062,
+    "timestamp_s": 935.4,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 28509,
+    "timestamp_s": 950.333333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 28784,
+    "timestamp_s": 959.466667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 29322,
+    "timestamp_s": 977.4,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 29520,
+    "timestamp_s": 984.0,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 30375,
+    "timestamp_s": 1012.533333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 30605,
+    "timestamp_s": 1020.166667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 39303,
+    "timestamp_s": 1310.1,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 39426,
+    "timestamp_s": 1314.2,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 40455,
+    "timestamp_s": 1348.5,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 41631,
+    "timestamp_s": 1387.733333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 42974,
+    "timestamp_s": 1432.466667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 43082,
+    "timestamp_s": 1436.066667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 43866,
+    "timestamp_s": 1462.233333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 44039,
+    "timestamp_s": 1467.966667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 44798,
+    "timestamp_s": 1493.266667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 45354,
+    "timestamp_s": 1511.833333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 45453,
+    "timestamp_s": 1515.1,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 48681,
+    "timestamp_s": 1622.733333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 48876,
+    "timestamp_s": 1629.233333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 50259,
+    "timestamp_s": 1675.333333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 50553,
+    "timestamp_s": 1685.1,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 50787,
+    "timestamp_s": 1692.933333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 50978,
+    "timestamp_s": 1699.266667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 51398,
+    "timestamp_s": 1713.266667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 51687,
+    "timestamp_s": 1722.9,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 53028,
+    "timestamp_s": 1767.633333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 53214,
+    "timestamp_s": 1773.833333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 55197,
+    "timestamp_s": 1839.9,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 55698,
+    "timestamp_s": 1856.6,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 55907,
+    "timestamp_s": 1863.566667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 56049,
+    "timestamp_s": 1868.3,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 57380,
+    "timestamp_s": 1912.666667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 57450,
+    "timestamp_s": 1915.0,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 58299,
+    "timestamp_s": 1943.3,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 58446,
+    "timestamp_s": 1948.233333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 59037,
+    "timestamp_s": 1967.933333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 59150,
+    "timestamp_s": 1971.666667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 60438,
+    "timestamp_s": 2014.633333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 60548,
+    "timestamp_s": 2018.266667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 61556,
+    "timestamp_s": 2051.866667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 61736,
+    "timestamp_s": 2057.866667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 63404,
+    "timestamp_s": 2113.466667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 63581,
+    "timestamp_s": 2119.366667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 64380,
+    "timestamp_s": 2146.033333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 64541,
+    "timestamp_s": 2151.366667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 71972,
+    "timestamp_s": 2399.066667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 72615,
+    "timestamp_s": 2420.5,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 72822,
+    "timestamp_s": 2427.433333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 73026,
+    "timestamp_s": 2434.2,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 73307,
+    "timestamp_s": 2443.566667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 73428,
+    "timestamp_s": 2447.6,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 73704,
+    "timestamp_s": 2456.8,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 76908,
+    "timestamp_s": 2563.633333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 77022,
+    "timestamp_s": 2567.433333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 78521,
+    "timestamp_s": 2617.366667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 78626,
+    "timestamp_s": 2620.866667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 81237,
+    "timestamp_s": 2707.9,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 81344,
+    "timestamp_s": 2711.466667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 85325,
+    "timestamp_s": 2844.166667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 86697,
+    "timestamp_s": 2889.933333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 86847,
+    "timestamp_s": 2894.9,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 90632,
+    "timestamp_s": 3021.066667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 90852,
+    "timestamp_s": 3028.4,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 91536,
+    "timestamp_s": 3051.2,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 91797,
+    "timestamp_s": 3059.9,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 92471,
+    "timestamp_s": 3082.366667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 92625,
+    "timestamp_s": 3087.5,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 93251,
+    "timestamp_s": 3108.366667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 93453,
+    "timestamp_s": 3115.133333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 93969,
+    "timestamp_s": 3132.3,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 94209,
+    "timestamp_s": 3140.333333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 94407,
+    "timestamp_s": 3146.9,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 94500,
+    "timestamp_s": 3150.033333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 94608,
+    "timestamp_s": 3153.633333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 95990,
+    "timestamp_s": 3199.666667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 96144,
+    "timestamp_s": 3204.8,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 97491,
+    "timestamp_s": 3249.7,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 97715,
+    "timestamp_s": 3257.166667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 98706,
+    "timestamp_s": 3290.233333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 99839,
+    "timestamp_s": 3327.966667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 99998,
+    "timestamp_s": 3333.266667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 101727,
+    "timestamp_s": 3390.933333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 101903,
+    "timestamp_s": 3396.766667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 103763,
+    "timestamp_s": 3458.766667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 103986,
+    "timestamp_s": 3466.233333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 105398,
+    "timestamp_s": 3513.266667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 106136,
+    "timestamp_s": 3537.866667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 106899,
+    "timestamp_s": 3563.333333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 111317,
+    "timestamp_s": 3710.566667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 111612,
+    "timestamp_s": 3720.433333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 113478,
+    "timestamp_s": 3782.633333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 113568,
+    "timestamp_s": 3785.633333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 114192,
+    "timestamp_s": 3806.4,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 115074,
+    "timestamp_s": 3835.8,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 115433,
+    "timestamp_s": 3847.766667,
+    "probability": 0.5
+  }
+]

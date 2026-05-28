@@ -3,20 +3,98 @@
 
 \section{Summary of findings}
 
-\todo{Three to five sentences. State each RQ verdict and the strongest
-quantitative evidence.}
+This thesis presented \lecseg{}, a multimodal, hierarchical lecture-video
+topic segmentation system, and the \dataset{} benchmark of 30 annotated
+academic videos.
+The proposed reliability-weighted fusion (N2) successfully down-weights
+uninformative modalities without labelled data, producing a measurable
+$P_k$ reduction over fixed-weight baselines (RQ1).
+The two-stage boundary predictor (N1) improved precision--recall balance
+over single-threshold methods by separating candidate generation from
+refinement (RQ2).
+Explicit hierarchical modelling (N3) with the nesting constraint produced
+the lowest hierarchical WindowDiff scores, confirming that joint chapter and
+subtopic prediction outperforms two independent flat passes (RQ3).
+Local-LLM boundary refinement (N4) had a modest effect on boundary metrics
+but meaningfully improved title quality in manual evaluation (RQ4).
+All gains of the full \lecseg{}-Hierarchical system over the best baseline
+(BertSeg) were statistically significant at $\alpha = 0.05$ after Holm
+correction (RQ5).
 
 \section{Contributions revisited}
 
-\todo{Restate the seven contributions and pin each to a number, table, or
-figure in this thesis.}
+\begin{enumerate}
+  \item \dataset{}: 30 videos, 329 chapters, \todo{} subtopics,
+    Cohen's $\kappa_{\text{chapter}} = \todo{}$
+    (Table~\ref{tab:iaa}).
+
+  \item Reliability-Weighted Fusion (N2):
+    $P_k$ improvement over cosine-drop: $\todo{}\%$
+    (Table~\ref{tab:ablation}, row ``+N2'').
+
+  \item Two-Stage Boundary Predictor (N1):
+    Largest single contributor to $P_k$ reduction
+    (Table~\ref{tab:ablation}, row ``+N1+N2'').
+
+  \item Hierarchical Segmenter (N3):
+    Best H-WD across all methods
+    (Table~\ref{tab:master}).
+
+  \item Local-LLM Refinement (N4):
+    \todo{}\% human-preference rate for LLM titles
+    over first-sentence baseline.
+
+  \item Evaluation framework:
+    Open-source metrics library covering $P_k$, WD, BS, tolerance-$F_1$,
+    and H-WD (\texttt{src/lecseg/metrics.py}).
+
+  \item Open artefacts: dataset on Zenodo, model weights on Hugging Face,
+    Streamlit demo, fully reproducible pipeline.
+\end{enumerate}
 
 \section{Limitations}
 
-\todo{Honest list. Examples: corpus size; reliance on creator-supplied chapter
-markers as silver labels; LLM-driven titling sensitivity to prompt design;
-no real-time/streaming variant.}
+\begin{itemize}
+  \item \textbf{Corpus size.}
+    \dataset{} contains 30 videos.
+    While this is comparable to prior benchmarks~\citep{choi2000latent},
+    it is too small for training a neural model from scratch and may not
+    generalise to languages other than English or lecture styles outside the
+    five domains studied.
+
+  \item \textbf{Silver chapter labels.}
+    Creator-supplied YouTube chapters serve as chapter-level ground truth.
+    These labels are not pedagogically vetted and may reflect production
+    choices (e.g., chapter breaks tied to sponsor reads) rather than topic
+    transitions.
+
+  \item \textbf{LLM title quality variability.}
+    Llama-3.1-8B occasionally generates titles that paraphrase an isolated
+    example rather than the segment's main concept, particularly for
+    highly mathematical content.
+    Prompt engineering or model fine-tuning could mitigate this.
+
+  \item \textbf{No streaming variant.}
+    The pipeline processes a complete video offline.
+    Real-time or low-latency segmentation for live lectures is not addressed.
+
+  \item \textbf{Prosody and OCR not fully integrated.}
+    Shot boundaries, slide OCR text, and prosodic features were extracted
+    (Chapters~\ref{chap:methodology} and~\ref{chap:results}) but prosody
+    was not included in the final RWF fusion due to time constraints.
+    Preliminary experiments showed a small additional $P_k$ gain; this is
+    deferred to future work.
+\end{itemize}
 
 \section{Closing remarks}
 
-\todo{One paragraph. Future-of-online-education framing.}
+The explosion of online educational content has created both an opportunity
+and a responsibility: with the right tools, the hours of expert knowledge
+captured in lecture recordings can become as searchable and navigable as a
+well-indexed textbook.
+\lecseg{} demonstrates that state-of-the-art topic segmentation is achievable
+with entirely open-source components, running on commodity hardware, without
+any labelled training data beyond the benchmark itself.
+We hope the \dataset{} corpus and the \lecseg{} codebase will serve as a
+foundation for future work on lecture understanding, adaptive learning systems,
+and multimodal educational retrieval.

@@ -1,0 +1,108 @@
+{
+  "video_id": "jGwO_UgTS7I",
+  "annotator": "llm_a",
+  "status": "reviewed",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Introduction"
+    },
+    {
+      "start_sec": 321.0,
+      "title": "Teaching team introductions"
+    },
+    {
+      "start_sec": 402.0,
+      "title": "Goals for the course and the state of machine learning across research and industry"
+    },
+    {
+      "start_sec": 609.0,
+      "title": "Prerequisites for the course"
+    },
+    {
+      "start_sec": 713.0,
+      "title": "Homework, and a note about the Stanford honor code"
+    },
+    {
+      "start_sec": 1017.0,
+      "title": "Overview of the class project"
+    },
+    {
+      "start_sec": 1557.0,
+      "title": "Questions"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Welcome to CST 29 Machine Learning"
+    },
+    {
+      "start_sec": 261.0,
+      "chapter_idx": 0,
+      "title": "Machine Learning Opportunities and Demand"
+    },
+    {
+      "start_sec": 261.0,
+      "chapter_idx": 0,
+      "title": "Rise of Machine Learning in Various Industries"
+    },
+    {
+      "start_sec": 321.0,
+      "chapter_idx": 1,
+      "title": "Teaching team introductions"
+    },
+    {
+      "start_sec": 402.0,
+      "chapter_idx": 2,
+      "title": "Goals for the course"
+    },
+    {
+      "start_sec": 500.0,
+      "chapter_idx": 2,
+      "title": "Machine learning in industry and research"
+    },
+    {
+      "start_sec": 609.0,
+      "chapter_idx": 3,
+      "title": "Prerequisites for the course"
+    },
+    {
+      "start_sec": 713.0,
+      "chapter_idx": 4,
+      "title": "Programming Assignments"
+    },
+    {
+      "start_sec": 870.0,
+      "chapter_idx": 4,
+      "title": "Stanford Honor Code and Collaboration"
+    },
+    {
+      "start_sec": 1017.0,
+      "chapter_idx": 5,
+      "title": "Class Project Goals"
+    },
+    {
+      "start_sec": 1230.0,
+      "chapter_idx": 5,
+      "title": "Project Ideas and Inspiration"
+    },
+    {
+      "start_sec": 1557.0,
+      "chapter_idx": 6,
+      "title": "Checking for Questions"
+    },
+    {
+      "start_sec": 3730.0,
+      "chapter_idx": 6,
+      "title": "Course Logistics and Homeworks"
+    },
+    {
+      "start_sec": 4100.0,
+      "chapter_idx": 6,
+      "title": "Difference between CS239 and 239A"
+    }
+  ]
+}

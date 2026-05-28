@@ -1,0 +1,108 @@
+{
+  "video_id": "YdOXS_9_P4U",
+  "annotator": "llm_a",
+  "status": "reviewed",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "About Terence Tao and the Distance Ladder"
+    },
+    {
+      "start_sec": 122.0,
+      "title": "Earth"
+    },
+    {
+      "start_sec": 487.0,
+      "title": "Moon"
+    },
+    {
+      "start_sec": 675.0,
+      "title": "Sun"
+    },
+    {
+      "start_sec": 945.0,
+      "title": "Heliocentrism in Antiquity"
+    },
+    {
+      "start_sec": 1107.0,
+      "title": "Kepler’s genius"
+    },
+    {
+      "start_sec": 1636.0,
+      "title": "Where this leaves us"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Terence Tao's Genius"
+    },
+    {
+      "start_sec": 62.0,
+      "chapter_idx": 0,
+      "title": "Cosmic Distances and Measurement"
+    },
+    {
+      "start_sec": 122.0,
+      "chapter_idx": 1,
+      "title": "Ancient Proof of Earth's Sphericity"
+    },
+    {
+      "start_sec": 285.0,
+      "chapter_idx": 1,
+      "title": "Lunar Eclipses and the Earth's Shadow"
+    },
+    {
+      "start_sec": 390.0,
+      "chapter_idx": 1,
+      "title": "Eratosthenes' Measurement of the Earth"
+    },
+    {
+      "start_sec": 487.0,
+      "chapter_idx": 2,
+      "title": "Measuring the Distance to the Moon"
+    },
+    {
+      "start_sec": 615.0,
+      "chapter_idx": 2,
+      "title": "Determining the Size of the Moon"
+    },
+    {
+      "start_sec": 675.0,
+      "chapter_idx": 3,
+      "title": "Estimating the Sun's Size"
+    },
+    {
+      "start_sec": 810.0,
+      "chapter_idx": 3,
+      "title": "Using Phases of the Moon"
+    },
+    {
+      "start_sec": 945.0,
+      "chapter_idx": 4,
+      "title": "Aristarchus's Heliocentric Model"
+    },
+    {
+      "start_sec": 1047.0,
+      "chapter_idx": 4,
+      "title": "Parallax and the Constellations"
+    },
+    {
+      "start_sec": 1107.0,
+      "chapter_idx": 5,
+      "title": "Kepler's Genius Step"
+    },
+    {
+      "start_sec": 1410.0,
+      "chapter_idx": 5,
+      "title": "Kepler's Theory and Data"
+    },
+    {
+      "start_sec": 1636.0,
+      "chapter_idx": 6,
+      "title": "Where this leaves us"
+    }
+  ]
+}

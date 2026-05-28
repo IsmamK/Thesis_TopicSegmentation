@@ -1,0 +1,104 @@
+{
+  "video_id": "Hy7ou5R_vjE",
+  "annotator": "llm_a",
+  "status": "reviewed",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Chapter 1. Review of Motion at Constant Acceleration"
+    },
+    {
+      "start_sec": 285.0,
+      "title": "Chapter 2. Vector Motion 2D Space: Properties"
+    },
+    {
+      "start_sec": 1377.0,
+      "title": "Chapter 3. Choice of Basis Axis and Vector Transformation"
+    },
+    {
+      "start_sec": 2300.0,
+      "title": "Chapter 4. Velocity Vectors: Derivatives of Displacement Vectors"
+    },
+    {
+      "start_sec": 2620.0,
+      "title": "Chapter 5. Derivatives of Vectors: Application to Circular Motion"
+    },
+    {
+      "start_sec": 3240.0,
+      "title": "Chapter 6. Projectile Motion"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Review of Motion at Constant Acceleration"
+    },
+    {
+      "start_sec": 225.0,
+      "chapter_idx": 0,
+      "title": "Initial Conditions and the Particle's Fate"
+    },
+    {
+      "start_sec": 225.0,
+      "chapter_idx": 0,
+      "title": "Velocity and Time Relationship"
+    },
+    {
+      "start_sec": 285.0,
+      "chapter_idx": 1,
+      "title": "Motion in Higher Dimensions"
+    },
+    {
+      "start_sec": 750.0,
+      "chapter_idx": 1,
+      "title": "Two-Dimensional Motion Basics"
+    },
+    {
+      "start_sec": 1095.0,
+      "chapter_idx": 1,
+      "title": "Vectors and Coordinate Systems"
+    },
+    {
+      "start_sec": 1377.0,
+      "chapter_idx": 2,
+      "title": "Components of a Vector"
+    },
+    {
+      "start_sec": 1770.0,
+      "chapter_idx": 2,
+      "title": "Rotated Coordinate System"
+    },
+    {
+      "start_sec": 2300.0,
+      "chapter_idx": 3,
+      "title": "Particle Motion in the xy Plane"
+    },
+    {
+      "start_sec": 2490.0,
+      "chapter_idx": 3,
+      "title": "Velocity Vector as a Derivative of Displacement"
+    },
+    {
+      "start_sec": 2620.0,
+      "chapter_idx": 4,
+      "title": "Particle Motion on a Circle"
+    },
+    {
+      "start_sec": 3030.0,
+      "chapter_idx": 4,
+      "title": "Understanding Omega and Frequency"
+    },
+    {
+      "start_sec": 3240.0,
+      "chapter_idx": 5,
+      "title": "Vector Addition in Two Dimensions"
+    },
+    {
+      "start_sec": 3750.0,
+      "chapter_idx": 5,
+      "title": "Projectile Motion with Constant Acceleration"
+    }
+  ]
+}

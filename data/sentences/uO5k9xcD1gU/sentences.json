@@ -1,0 +1,4547 @@
+{
+  "video_id": "uO5k9xcD1gU",
+  "sentences": [
+    {
+      "idx": 0,
+      "start": 17.04,
+      "end": 22.62,
+      "text": "In this video, we will be going over how mRNA is translated into proteins."
+    },
+    {
+      "idx": 1,
+      "start": 23.12,
+      "end": 24.86,
+      "text": "So we're going to find out how proteins are made."
+    },
+    {
+      "idx": 2,
+      "start": 25.42,
+      "end": 29.2,
+      "text": "Now in the previous video, I said that RNA polymerase reads from the 3' to 5'"
+    },
+    {
+      "idx": 3,
+      "start": 29.46,
+      "end": 33.6,
+      "text": "and it lays down nucleotides in the 5' to 3' direction."
+    },
+    {
+      "idx": 4,
+      "start": 34.04,
+      "end": 36.58,
+      "text": "Now a nucleotide is one of these letters."
+    },
+    {
+      "idx": 5,
+      "start": 37.26,
+      "end": 39.86,
+      "text": "So C stands for cytosine, that is a nucleotide."
+    },
+    {
+      "idx": 6,
+      "start": 40.26,
+      "end": 42.6,
+      "text": "U stands for uracil, that is a nucleotide."
+    },
+    {
+      "idx": 7,
+      "start": 42.78,
+      "end": 45.42,
+      "text": "And of course, C is another nucleotide."
+    },
+    {
+      "idx": 8,
+      "start": 45.42,
+      "end": 49.16,
+      "text": "Whenever you get three nucleotides together, they create a codon."
+    },
+    {
+      "idx": 9,
+      "start": 49.68,
+      "end": 57.57,
+      "text": "So typically, three nucleotides gives us a codon."
+    },
+    {
+      "idx": 10,
+      "start": 58.94,
+      "end": 61.62,
+      "text": "And a codon is just a chunk of information."
+    },
+    {
+      "idx": 11,
+      "start": 61.9,
+      "end": 68.71,
+      "text": "So this is a chunk of information, right there."
+    },
+    {
+      "idx": 12,
+      "start": 69.43,
+      "end": 75.34,
+      "text": "And the way proteins are made is that a tRNA,"
+    },
+    {
+      "idx": 13,
+      "start": 75.64,
+      "end": 79.14,
+      "text": "so a tRNA, which we also discussed in the last video,"
+    },
+    {
+      "idx": 14,
+      "start": 79.14,
+      "end": 83.74,
+      "text": "will read these groups of information, these chunks of information,"
+    },
+    {
+      "idx": 15,
+      "start": 83.96,
+      "end": 86.2,
+      "text": "and they will create amino acids."
+    },
+    {
+      "idx": 16,
+      "start": 86.62,
+      "end": 90.38,
+      "text": "And these amino acids are the building block for proteins."
+    },
+    {
+      "idx": 17,
+      "start": 91.61,
+      "end": 94.87,
+      "text": "So if tRNA were to read this, it would read it."
+    },
+    {
+      "idx": 18,
+      "start": 94.97,
+      "end": 97.55,
+      "text": "Let's just make up a tRNA molecule."
+    },
+    {
+      "idx": 19,
+      "start": 97.87,
+      "end": 99.59,
+      "text": "So let's say I start reading."
+    },
+    {
+      "idx": 20,
+      "start": 101.69,
+      "end": 105.43,
+      "text": "And when it reads, it reads from the 5' to the 3'."
+    },
+    {
+      "idx": 21,
+      "start": 105.43,
+      "end": 109.57,
+      "text": "So here's the 5' end, and here's the 3' end, right there."
+    },
+    {
+      "idx": 22,
+      "start": 110.26,
+      "end": 112.5,
+      "text": "And when it reads, it reads UCA."
+    },
+    {
+      "idx": 23,
+      "start": 113.28,
+      "end": 114.64,
+      "text": "And UCA actually closes..."
+    },
+    {
+      "idx": 24,
+      "start": 115.76,
+      "end": 117.76,
+      "text": "It codes for serine."
+    },
+    {
+      "idx": 25,
+      "start": 117.76,
+      "end": 122.52,
+      "text": "So we go to the U block, and we go to UCA, and that is serine."
+    },
+    {
+      "idx": 26,
+      "start": 122.52,
+      "end": 125.0,
+      "text": "So again, serine is an amino acid."
+    },
+    {
+      "idx": 27,
+      "start": 127.08,
+      "end": 133.44,
+      "text": "So when tRNA reads all these information blocks, right,"
+    },
+    {
+      "idx": 28,
+      "start": 133.44,
+      "end": 135.06,
+      "text": "it creates a protein."
+    },
+    {
+      "idx": 29,
+      "start": 135.06,
+      "end": 140.3,
+      "text": "So serine, alanine, leucine, proline, those amino acids create a new protein."
+    },
+    {
+      "idx": 30,
+      "start": 140.3,
+      "end": 144.3,
+      "text": "And let's say that protein codes for, I don't know, a hair or something."
+    },
+    {
+      "idx": 31,
+      "start": 146.07,
+      "end": 148.67,
+      "text": "But that's how proteins are made, and they're made by these codons."
+    },
+    {
+      "idx": 32,
+      "start": 148.73,
+      "end": 154.73,
+      "text": "And so now we are going to investigate how this occurs, how this process takes place."
+    },
+    {
+      "idx": 33,
+      "start": 154.73,
+      "end": 161.69,
+      "text": "But before we can do that, we have to know that there are about 61 codons."
+    },
+    {
+      "idx": 34,
+      "start": 161.69,
+      "end": 168.0,
+      "text": "There are about 61 codons that code for amino acids."
+    },
+    {
+      "idx": 35,
+      "start": 168.0,
+      "end": 170.0,
+      "text": "So we call that AA."
+    },
+    {
+      "idx": 36,
+      "start": 170.0,
+      "end": 176.48,
+      "text": "And there are 3 codons that code for stop."
+    },
+    {
+      "idx": 37,
+      "start": 176.48,
+      "end": 181.96,
+      "text": "So when tRNA reads a stop codon, for instance UGA,"
+    },
+    {
+      "idx": 38,
+      "start": 181.96,
+      "end": 182.72,
+      "text": "let's write stop,"
+    },
+    {
+      "idx": 39,
+      "start": 182.72,
+      "end": 184.72,
+      "text": "let's write it over here, UGA,"
+    },
+    {
+      "idx": 40,
+      "start": 184.72,
+      "end": 190.44,
+      "text": "it reads it, and it says, hey, this is a stop codon."
+    },
+    {
+      "idx": 41,
+      "start": 190.44,
+      "end": 193.44,
+      "text": "You know, I have to stop making these amino acids,"
+    },
+    {
+      "idx": 42,
+      "start": 193.44,
+      "end": 197.54,
+      "text": "and the process of making proteins stops."
+    },
+    {
+      "idx": 43,
+      "start": 197.54,
+      "end": 203.54,
+      "text": "Now, there is a start codon, and a start codon is one of the 61 codons right there."
+    },
+    {
+      "idx": 44,
+      "start": 203.54,
+      "end": 207.54,
+      "text": "So a start codon is actually methionine."
+    },
+    {
+      "idx": 45,
+      "start": 207.54,
+      "end": 214.18,
+      "text": "So notice that there is only one codon that reads for methionine."
+    },
+    {
+      "idx": 46,
+      "start": 215.18,
+      "end": 217.18,
+      "text": "And this codon is called AUG."
+    },
+    {
+      "idx": 47,
+      "start": 217.18,
+      "end": 220.69,
+      "text": "And again, this is from the 5' to the 3' direction."
+    },
+    {
+      "idx": 48,
+      "start": 220.69,
+      "end": 228.14,
+      "text": "And whenever tRNA reads AUG, it will actually code for methionine."
+    },
+    {
+      "idx": 49,
+      "start": 228.14,
+      "end": 234.94,
+      "text": "So within eukaryotic cells, AUG codes for methionine."
+    },
+    {
+      "idx": 50,
+      "start": 234.94,
+      "end": 238.94,
+      "text": "And methionine begins the process of creating amino acids,"
+    },
+    {
+      "idx": 51,
+      "start": 238.94,
+      "end": 241.94,
+      "text": "and thus it begins the process of creating proteins."
+    },
+    {
+      "idx": 52,
+      "start": 241.94,
+      "end": 244.39,
+      "text": "Now, what are the stop codons?"
+    },
+    {
+      "idx": 53,
+      "start": 244.39,
+      "end": 246.39,
+      "text": "Well, the stop codons are pretty easy to remember."
+    },
+    {
+      "idx": 54,
+      "start": 246.39,
+      "end": 249.39,
+      "text": "Because they all start with U."
+    },
+    {
+      "idx": 55,
+      "start": 249.39,
+      "end": 250.39,
+      "text": "So we have U."
+    },
+    {
+      "idx": 56,
+      "start": 250.39,
+      "end": 256.87,
+      "text": "We can also have UGA, UAA."
+    },
+    {
+      "idx": 57,
+      "start": 256.87,
+      "end": 258.87,
+      "text": "And what else can we have?"
+    },
+    {
+      "idx": 58,
+      "start": 258.87,
+      "end": 262.19,
+      "text": "We can have UAG."
+    },
+    {
+      "idx": 59,
+      "start": 262.19,
+      "end": 270.17,
+      "text": "So notice that all the stop codons start with U."
+    },
+    {
+      "idx": 60,
+      "start": 270.17,
+      "end": 272.17,
+      "text": "One of them have UAA."
+    },
+    {
+      "idx": 61,
+      "start": 272.17,
+      "end": 275.27,
+      "text": "We can also have UAG."
+    },
+    {
+      "idx": 62,
+      "start": 275.27,
+      "end": 277.27,
+      "text": "But what if we switch this guy?"
+    },
+    {
+      "idx": 63,
+      "start": 277.27,
+      "end": 278.52,
+      "text": "What if we do that?"
+    },
+    {
+      "idx": 64,
+      "start": 278.52,
+      "end": 280.52,
+      "text": "We get UGA."
+    },
+    {
+      "idx": 65,
+      "start": 280.52,
+      "end": 283.52,
+      "text": "And so they are very easy to remember, the stop codons."
+    },
+    {
+      "idx": 66,
+      "start": 283.52,
+      "end": 287.62,
+      "text": "And AUG is the start codon."
+    },
+    {
+      "idx": 67,
+      "start": 287.62,
+      "end": 292.62,
+      "text": "So if you're taking an exam, then I recommend that you just memorize those four codons."
+    },
+    {
+      "idx": 68,
+      "start": 292.62,
+      "end": 295.62,
+      "text": "Because sometimes that will show up on an exam."
+    },
+    {
+      "idx": 69,
+      "start": 295.62,
+      "end": 302.2,
+      "text": "They'll say, this codon UAA is coded for."
+    },
+    {
+      "idx": 70,
+      "start": 302.2,
+      "end": 303.2,
+      "text": "What will happen?"
+    },
+    {
+      "idx": 71,
+      "start": 303.2,
+      "end": 307.2,
+      "text": "You can say, oh, okay, it will actually stop the process of creating proteins."
+    },
+    {
+      "idx": 72,
+      "start": 307.2,
+      "end": 308.2,
+      "text": "And that would be the correct answer."
+    },
+    {
+      "idx": 73,
+      "start": 308.2,
+      "end": 311.2,
+      "text": "So remember those four amino acids."
+    },
+    {
+      "idx": 74,
+      "start": 311.2,
+      "end": 313.2,
+      "text": "Well, excuse me, those codons."
+    },
+    {
+      "idx": 75,
+      "start": 313.2,
+      "end": 317.42,
+      "text": "And that AUG codes for the amino acid of methionine."
+    },
+    {
+      "idx": 76,
+      "start": 317.42,
+      "end": 324.15,
+      "text": "Now, codons can actually code for the same amino acid."
+    },
+    {
+      "idx": 77,
+      "start": 324.15,
+      "end": 330.28,
+      "text": "Notice that UUU, UUC both code for phenylalanine."
+    },
+    {
+      "idx": 78,
+      "start": 330.28,
+      "end": 336.27,
+      "text": "And sometimes multiple codons code for the same amino acid."
+    },
+    {
+      "idx": 79,
+      "start": 336.27,
+      "end": 340.27,
+      "text": "For instance, when we have, let's see, let's see here."
+    },
+    {
+      "idx": 80,
+      "start": 340.27,
+      "end": 343.27,
+      "text": "We have leucine being UUA."
+    },
+    {
+      "idx": 81,
+      "start": 343.27,
+      "end": 345.59,
+      "text": "We also have UUG for leucine."
+    },
+    {
+      "idx": 82,
+      "start": 345.59,
+      "end": 348.59,
+      "text": "But this whole section right there also codes for leucine."
+    },
+    {
+      "idx": 83,
+      "start": 348.59,
+      "end": 356.59,
+      "text": "And so we have about like, I don't know, like one, two, three, four, five, six, seven, like seven different codons coding for the same thing."
+    },
+    {
+      "idx": 84,
+      "start": 356.59,
+      "end": 360.59,
+      "text": "And so this allows us to do a redundancy."
+    },
+    {
+      "idx": 85,
+      "start": 360.59,
+      "end": 364.59,
+      "text": "So the code for amino acids are very redundant."
+    },
+    {
+      "idx": 86,
+      "start": 365.59,
+      "end": 370.35,
+      "text": "And that kind of allows us to do like a fail safe."
+    },
+    {
+      "idx": 87,
+      "start": 370.35,
+      "end": 371.35,
+      "text": "What if I don't have any UU?"
+    },
+    {
+      "idx": 88,
+      "start": 371.35,
+      "end": 375.35,
+      "text": "What if I don't have any UUAs and I need leucine?"
+    },
+    {
+      "idx": 89,
+      "start": 375.35,
+      "end": 378.35,
+      "text": "Well, I can have a UUG and I'm safe."
+    },
+    {
+      "idx": 90,
+      "start": 378.35,
+      "end": 381.35,
+      "text": "I could still produce leucine as long as I have one or the other."
+    },
+    {
+      "idx": 91,
+      "start": 381.35,
+      "end": 387.44,
+      "text": "Now, if I don't have either of those two, I have five more codons that can code for leucine."
+    },
+    {
+      "idx": 92,
+      "start": 387.44,
+      "end": 393.44,
+      "text": "And so there will almost be no way for me to not have leucine because I always have codons."
+    },
+    {
+      "idx": 93,
+      "start": 393.44,
+      "end": 400.33,
+      "text": "And that's kind of like a fail safe mechanism that organisms use to create proteins."
+    },
+    {
+      "idx": 94,
+      "start": 400.33,
+      "end": 403.33,
+      "text": "Now, there's something that is almost always tested on us."
+    },
+    {
+      "idx": 95,
+      "start": 403.33,
+      "end": 405.33,
+      "text": "And that is called a wobble."
+    },
+    {
+      "idx": 96,
+      "start": 405.33,
+      "end": 410.39,
+      "text": "So wobbles, they sound very cute."
+    },
+    {
+      "idx": 97,
+      "start": 410.39,
+      "end": 412.39,
+      "text": "But what are wobbles?"
+    },
+    {
+      "idx": 98,
+      "start": 412.39,
+      "end": 424.21,
+      "text": "Well, wobbles are kind of like changes in the third nucleotide of a codon."
+    },
+    {
+      "idx": 99,
+      "start": 424.21,
+      "end": 433.34,
+      "text": "So, for instance, UUG and UUC, that is a wobble."
+    },
+    {
+      "idx": 100,
+      "start": 434.34,
+      "end": 435.34,
+      "text": "Well, this is the first nucleotide."
+    },
+    {
+      "idx": 101,
+      "start": 436.34,
+      "end": 437.34,
+      "text": "Because this is the second nucleotide."
+    },
+    {
+      "idx": 102,
+      "start": 437.34,
+      "end": 438.34,
+      "text": "That is the second nucleotide."
+    },
+    {
+      "idx": 103,
+      "start": 438.34,
+      "end": 440.34,
+      "text": "And this is the third nucleotide."
+    },
+    {
+      "idx": 104,
+      "start": 441.34,
+      "end": 444.6,
+      "text": "One and two, they are the same."
+    },
+    {
+      "idx": 105,
+      "start": 444.6,
+      "end": 446.43,
+      "text": "They're not bonding, by the way."
+    },
+    {
+      "idx": 106,
+      "start": 446.43,
+      "end": 448.43,
+      "text": "I'm just showing that they're the same."
+    },
+    {
+      "idx": 107,
+      "start": 449.43,
+      "end": 450.43,
+      "text": "So these are arrows."
+    },
+    {
+      "idx": 108,
+      "start": 450.43,
+      "end": 452.43,
+      "text": "But notice that G is different from C."
+    },
+    {
+      "idx": 109,
+      "start": 453.43,
+      "end": 460.43,
+      "text": "Well, since we only did one change on the third nucleotide, it has to be the third nucleotide."
+    },
+    {
+      "idx": 110,
+      "start": 460.43,
+      "end": 462.43,
+      "text": "It cannot be anything else."
+    },
+    {
+      "idx": 111,
+      "start": 462.43,
+      "end": 467.32,
+      "text": "The protein itself isn't really going to change that much."
+    },
+    {
+      "idx": 112,
+      "start": 467.32,
+      "end": 468.32,
+      "text": "It's pretty stable."
+    },
+    {
+      "idx": 113,
+      "start": 468.32,
+      "end": 471.36,
+      "text": "But notice that we're not coding for a leucine anymore."
+    },
+    {
+      "idx": 114,
+      "start": 471.36,
+      "end": 473.36,
+      "text": "Notice that we're coding for a phenylalanine."
+    },
+    {
+      "idx": 115,
+      "start": 473.36,
+      "end": 479.96,
+      "text": "So sometimes you can get away with this."
+    },
+    {
+      "idx": 116,
+      "start": 480.96,
+      "end": 485.96,
+      "text": "For instance, if I had UUA and UUG, that is also a wobble."
+    },
+    {
+      "idx": 117,
+      "start": 485.96,
+      "end": 487.96,
+      "text": "But they code for the same thing."
+    },
+    {
+      "idx": 118,
+      "start": 487.96,
+      "end": 488.96,
+      "text": "This would be leucine."
+    },
+    {
+      "idx": 119,
+      "start": 489.96,
+      "end": 498.34,
+      "text": "But sometimes if they code for different proteins or, I guess, different amino acids, that can have a detrimental effect."
+    },
+    {
+      "idx": 120,
+      "start": 498.34,
+      "end": 500.34,
+      "text": "It can be a really bad thing."
+    },
+    {
+      "idx": 121,
+      "start": 500.34,
+      "end": 508.34,
+      "text": "So sometimes wobbles can change the reading codon, but they still code for the same amino acid."
+    },
+    {
+      "idx": 122,
+      "start": 508.34,
+      "end": 512.34,
+      "text": "Sometimes wobbles change the amino acid completely."
+    },
+    {
+      "idx": 123,
+      "start": 512.34,
+      "end": 514.34,
+      "text": "And that would kind of be unfavorable."
+    },
+    {
+      "idx": 124,
+      "start": 515.34,
+      "end": 518.34,
+      "text": "That can destroy the whole protein or disrupt stability."
+    },
+    {
+      "idx": 125,
+      "start": 518.34,
+      "end": 520.44,
+      "text": "So you have to be really mindful for it."
+    },
+    {
+      "idx": 126,
+      "start": 521.44,
+      "end": 523.44,
+      "text": "So now you know what a wobble is."
+    },
+    {
+      "idx": 127,
+      "start": 523.44,
+      "end": 527.44,
+      "text": "And now you know that it's just one modification of a nucleotide."
+    },
+    {
+      "idx": 128,
+      "start": 527.44,
+      "end": 529.69,
+      "text": "In a codon."
+    },
+    {
+      "idx": 129,
+      "start": 530.69,
+      "end": 535.69,
+      "text": "So these make the same amino acid and they have one modification."
+    },
+    {
+      "idx": 130,
+      "start": 535.69,
+      "end": 539.69,
+      "text": "These make different amino acids and they have one modification."
+    },
+    {
+      "idx": 131,
+      "start": 539.69,
+      "end": 543.69,
+      "text": "And it's mandatory that it's on the third nucleotide."
+    },
+    {
+      "idx": 132,
+      "start": 543.69,
+      "end": 549.06,
+      "text": "And now this is tRNA."
+    },
+    {
+      "idx": 133,
+      "start": 549.06,
+      "end": 560.11,
+      "text": "And tRNA is the main guy that starts doing the translation between mRNA and proteins."
+    },
+    {
+      "idx": 134,
+      "start": 560.11,
+      "end": 561.11,
+      "text": "So this right here."
+    },
+    {
+      "idx": 135,
+      "start": 562.11,
+      "end": 566.26,
+      "text": "Now tRNA has four double helical regions."
+    },
+    {
+      "idx": 136,
+      "start": 566.26,
+      "end": 569.26,
+      "text": "So if we count that is one region."
+    },
+    {
+      "idx": 137,
+      "start": 569.26,
+      "end": 573.26,
+      "text": "That is two, three, and four."
+    },
+    {
+      "idx": 138,
+      "start": 574.26,
+      "end": 576.52,
+      "text": "So that are the, those are the regions."
+    },
+    {
+      "idx": 139,
+      "start": 576.52,
+      "end": 578.93,
+      "text": "And notice that it has three loops."
+    },
+    {
+      "idx": 140,
+      "start": 579.93,
+      "end": 580.93,
+      "text": "So it has three loops."
+    },
+    {
+      "idx": 141,
+      "start": 580.93,
+      "end": 583.93,
+      "text": "One, two, and three."
+    },
+    {
+      "idx": 142,
+      "start": 583.93,
+      "end": 587.28,
+      "text": "So that's kind of like the anatomy of tRNA."
+    },
+    {
+      "idx": 143,
+      "start": 587.28,
+      "end": 591.28,
+      "text": "And the 3D structure of the tRNA is the same."
+    },
+    {
+      "idx": 144,
+      "start": 593.82,
+      "end": 597.82,
+      "text": "And the 3D structure is kind of like an L shape."
+    },
+    {
+      "idx": 145,
+      "start": 597.82,
+      "end": 598.82,
+      "text": "So it's an L shape."
+    },
+    {
+      "idx": 146,
+      "start": 598.82,
+      "end": 602.82,
+      "text": "For some reason that's almost always on exams."
+    },
+    {
+      "idx": 147,
+      "start": 602.82,
+      "end": 603.82,
+      "text": "Kind of weird."
+    },
+    {
+      "idx": 148,
+      "start": 604.82,
+      "end": 605.95,
+      "text": "So it's an L shape."
+    },
+    {
+      "idx": 149,
+      "start": 605.95,
+      "end": 608.95,
+      "text": "So now we have to look at the anticodon."
+    },
+    {
+      "idx": 150,
+      "start": 608.95,
+      "end": 613.95,
+      "text": "Because everything else is kind of meaningless except for the anticodon."
+    },
+    {
+      "idx": 151,
+      "start": 613.95,
+      "end": 618.95,
+      "text": "So the anticodon for this guy, as you can see here, if we go from the 5-prime to the"
+    },
+    {
+      "idx": 152,
+      "start": 618.95,
+      "end": 622.95,
+      "text": "3-prime direction, the anticodon would be this guy."
+    },
+    {
+      "idx": 153,
+      "start": 623.95,
+      "end": 625.4,
+      "text": "So let's redo this 5."
+    },
+    {
+      "idx": 154,
+      "start": 625.4,
+      "end": 634.22,
+      "text": "So 5-prime would be G, A, A. And then 3-prime at this end."
+    },
+    {
+      "idx": 155,
+      "start": 634.22,
+      "end": 639.48,
+      "text": "But the most important thing that you have to remember, and possibly the most difficult"
+    },
+    {
+      "idx": 156,
+      "start": 639.48,
+      "end": 644.48,
+      "text": "thing in this course, is knowing how to read anticodons."
+    },
+    {
+      "idx": 157,
+      "start": 644.48,
+      "end": 654.24,
+      "text": "So yes, it is from 5-prime to 3-prime G, A, A. But whenever the tRNA, whenever the tRNA"
+    },
+    {
+      "idx": 158,
+      "start": 654.24,
+      "end": 655.24,
+      "text": "is being read and being, um, read."
+    },
+    {
+      "idx": 159,
+      "start": 655.24,
+      "end": 662.72,
+      "text": "And being, um, it's in the process of creating a protein, it attaches to the mRNA from the"
+    },
+    {
+      "idx": 160,
+      "start": 662.72,
+      "end": 666.43,
+      "text": "3-prime to the 5-prime."
+    },
+    {
+      "idx": 161,
+      "start": 666.43,
+      "end": 668.56,
+      "text": "Kind of weird, right?"
+    },
+    {
+      "idx": 162,
+      "start": 668.56,
+      "end": 672.56,
+      "text": "What I'm saying is the tRNA is going to have its anticodon."
+    },
+    {
+      "idx": 163,
+      "start": 673.56,
+      "end": 679.1,
+      "text": "So here is going to be the 3-prime and here is going to be the 5-prime."
+    },
+    {
+      "idx": 164,
+      "start": 679.1,
+      "end": 684.26,
+      "text": "So if we go from the 3-prime we have A, A, G."
+    },
+    {
+      "idx": 165,
+      "start": 684.26,
+      "end": 686.19,
+      "text": "So now we would have this."
+    },
+    {
+      "idx": 166,
+      "start": 686.19,
+      "end": 687.19,
+      "text": "We would have A, G."
+    },
+    {
+      "idx": 167,
+      "start": 687.19,
+      "end": 695.66,
+      "text": "So now it's zipping along the mRNA."
+    },
+    {
+      "idx": 168,
+      "start": 695.66,
+      "end": 697.66,
+      "text": "So let's have our little mRNA right there."
+    },
+    {
+      "idx": 169,
+      "start": 697.66,
+      "end": 701.66,
+      "text": "And this is from the 5-prime to the 3-prime direction."
+    },
+    {
+      "idx": 170,
+      "start": 701.66,
+      "end": 705.49,
+      "text": "Now it's going to read the complementary strand."
+    },
+    {
+      "idx": 171,
+      "start": 705.49,
+      "end": 709.91,
+      "text": "So what's complementary to A in mRNA?"
+    },
+    {
+      "idx": 172,
+      "start": 709.91,
+      "end": 718.35,
+      "text": "Since this is RNA, it is not going to have thymine."
+    },
+    {
+      "idx": 173,
+      "start": 718.35,
+      "end": 720.35,
+      "text": "It would actually have uracil."
+    },
+    {
+      "idx": 174,
+      "start": 720.35,
+      "end": 722.35,
+      "text": "Since this is RNA."
+    },
+    {
+      "idx": 175,
+      "start": 722.35,
+      "end": 727.79,
+      "text": "So it would have U, U, C."
+    },
+    {
+      "idx": 176,
+      "start": 727.79,
+      "end": 733.56,
+      "text": "And so this protein would be created from UUC."
+    },
+    {
+      "idx": 177,
+      "start": 733.56,
+      "end": 742.91,
+      "text": "So tRNA will take the UUC that it reads and it will actually produce, it will produce"
+    },
+    {
+      "idx": 178,
+      "start": 742.91,
+      "end": 748.39,
+      "text": "from this bulb on its head, an amino acid."
+    },
+    {
+      "idx": 179,
+      "start": 748.39,
+      "end": 752.39,
+      "text": "So the amino acid could be phenylalanine."
+    },
+    {
+      "idx": 180,
+      "start": 752.39,
+      "end": 757.97,
+      "text": "And it can also be serine."
+    },
+    {
+      "idx": 181,
+      "start": 757.97,
+      "end": 765.1,
+      "text": "And so what I'm saying is, within the mRNA, the UUC already existed."
+    },
+    {
+      "idx": 182,
+      "start": 765.1,
+      "end": 766.1,
+      "text": "We didn't create it."
+    },
+    {
+      "idx": 183,
+      "start": 766.1,
+      "end": 769.1,
+      "text": "The tRNA just has what it wants."
+    },
+    {
+      "idx": 184,
+      "start": 769.1,
+      "end": 774.1,
+      "text": "It says, well, I need something that is complementary to the A, A, G."
+    },
+    {
+      "idx": 185,
+      "start": 774.1,
+      "end": 777.61,
+      "text": "Oh, UUC is complementary to the A, A, G."
+    },
+    {
+      "idx": 186,
+      "start": 777.61,
+      "end": 782.61,
+      "text": "Therefore, I should make the protein that the mRNA codes for."
+    },
+    {
+      "idx": 187,
+      "start": 782.61,
+      "end": 785.61,
+      "text": "This, sorry, not protein but amino acid."
+    },
+    {
+      "idx": 188,
+      "start": 785.61,
+      "end": 793.02,
+      "text": "So this amino acid that UUC codes for is phenylalanine and also serine."
+    },
+    {
+      "idx": 189,
+      "start": 794.02,
+      "end": 800.02,
+      "text": "So sometimes, and you'll see this in textbooks, sometimes you'll see these weird symbols."
+    },
+    {
+      "idx": 190,
+      "start": 800.02,
+      "end": 802.02,
+      "text": "For instance, what is D doing there?"
+    },
+    {
+      "idx": 191,
+      "start": 802.02,
+      "end": 807.37,
+      "text": "And what is this little candlestick-looking thing doing there?"
+    },
+    {
+      "idx": 192,
+      "start": 807.37,
+      "end": 816.46,
+      "text": "Well, respectively, if we were to look at it, if we have this and I was never really good at physics."
+    },
+    {
+      "idx": 193,
+      "start": 816.46,
+      "end": 817.46,
+      "text": "But we have that symbol."
+    },
+    {
+      "idx": 194,
+      "start": 817.46,
+      "end": 819.65,
+      "text": "And we also have D."
+    },
+    {
+      "idx": 195,
+      "start": 819.65,
+      "end": 825.65,
+      "text": "And what these symbols stand for is kind of like this is a pseudo-uridine, if I remember correctly."
+    },
+    {
+      "idx": 196,
+      "start": 825.65,
+      "end": 831.12,
+      "text": "So this is a pseudo-uridine right here."
+    },
+    {
+      "idx": 197,
+      "start": 831.12,
+      "end": 837.73,
+      "text": "And this right here is dihydrouridine."
+    },
+    {
+      "idx": 198,
+      "start": 837.73,
+      "end": 843.07,
+      "text": "So these are some unusual bases."
+    },
+    {
+      "idx": 199,
+      "start": 843.07,
+      "end": 845.13,
+      "text": "But they're not really important."
+    },
+    {
+      "idx": 200,
+      "start": 845.13,
+      "end": 851.13,
+      "text": "I guess they would be important if you're in these upper-level graduate courses before just undergraduate."
+    },
+    {
+      "idx": 201,
+      "start": 851.13,
+      "end": 857.8,
+      "text": "But if you're in graduate biology, they're just kind of there for, just to be there."
+    },
+    {
+      "idx": 202,
+      "start": 857.8,
+      "end": 859.8,
+      "text": "So they're not important for us right now."
+    },
+    {
+      "idx": 203,
+      "start": 859.8,
+      "end": 861.8,
+      "text": "And they're not important in this course."
+    },
+    {
+      "idx": 204,
+      "start": 861.8,
+      "end": 862.8,
+      "text": "So don't worry about it."
+    },
+    {
+      "idx": 205,
+      "start": 862.8,
+      "end": 866.24,
+      "text": "Though they do look really cool."
+    },
+    {
+      "idx": 206,
+      "start": 866.24,
+      "end": 869.24,
+      "text": "And here's another picture illustrating what I just said to you."
+    },
+    {
+      "idx": 207,
+      "start": 869.24,
+      "end": 880.08,
+      "text": "So notice that the anticodon in the tRNA has the 3'ACC and the 5' right there."
+    },
+    {
+      "idx": 208,
+      "start": 880.08,
+      "end": 882.08,
+      "text": "Now, it's reading the mRNA."
+    },
+    {
+      "idx": 209,
+      "start": 882.08,
+      "end": 883.08,
+      "text": "And it will actually create the amino acid."
+    },
+    {
+      "idx": 210,
+      "start": 883.08,
+      "end": 886.08,
+      "text": "So the mRNA is going to be complementary."
+    },
+    {
+      "idx": 211,
+      "start": 886.08,
+      "end": 888.08,
+      "text": "And it goes from the 5' to the 3'."
+    },
+    {
+      "idx": 212,
+      "start": 888.08,
+      "end": 890.4,
+      "text": "So this is going to be mRNA."
+    },
+    {
+      "idx": 213,
+      "start": 890.4,
+      "end": 893.4,
+      "text": "And this is what actually makes the amino acids."
+    },
+    {
+      "idx": 214,
+      "start": 893.4,
+      "end": 901.4,
+      "text": "So we will have UGG."
+    },
+    {
+      "idx": 215,
+      "start": 901.4,
+      "end": 906.78,
+      "text": "And so UGG actually goes for, it goes for tryptophan."
+    },
+    {
+      "idx": 216,
+      "start": 906.78,
+      "end": 912.84,
+      "text": "So tryptophan, which I believe is TRP, that's an amino acid."
+    },
+    {
+      "idx": 217,
+      "start": 912.84,
+      "end": 915.91,
+      "text": "So hopefully you'll understand what I'm talking about."
+    },
+    {
+      "idx": 218,
+      "start": 915.91,
+      "end": 917.04,
+      "text": "So that's the amino acid."
+    },
+    {
+      "idx": 219,
+      "start": 917.04,
+      "end": 922.04,
+      "text": "So hopefully you'll understand how tRNA reads and how it creates proteins."
+    },
+    {
+      "idx": 220,
+      "start": 922.04,
+      "end": 926.04,
+      "text": "Because when I was an undergraduate, this was very difficult to understand."
+    },
+    {
+      "idx": 221,
+      "start": 926.04,
+      "end": 928.04,
+      "text": "Because they would ask questions."
+    },
+    {
+      "idx": 222,
+      "start": 928.04,
+      "end": 932.51,
+      "text": "And let's see if I can make up a question."
+    },
+    {
+      "idx": 223,
+      "start": 932.51,
+      "end": 943.91,
+      "text": "So for instance, they will ask, if the anticodon has something like, let's see, AAC."
+    },
+    {
+      "idx": 224,
+      "start": 943.91,
+      "end": 945.91,
+      "text": "And this is the anticodon."
+    },
+    {
+      "idx": 225,
+      "start": 945.91,
+      "end": 954.86,
+      "text": "What will we create?"
+    },
+    {
+      "idx": 226,
+      "start": 954.86,
+      "end": 956.86,
+      "text": "And so some people, they would say, oh, that's easy."
+    },
+    {
+      "idx": 227,
+      "start": 956.86,
+      "end": 958.86,
+      "text": "We go into 3 to 5."
+    },
+    {
+      "idx": 228,
+      "start": 958.86,
+      "end": 961.86,
+      "text": "And this is going to be mRNA."
+    },
+    {
+      "idx": 229,
+      "start": 961.86,
+      "end": 964.69,
+      "text": "And this is wrong, by the way."
+    },
+    {
+      "idx": 230,
+      "start": 964.69,
+      "end": 965.69,
+      "text": "This is wrong."
+    },
+    {
+      "idx": 231,
+      "start": 965.69,
+      "end": 967.69,
+      "text": "So they say, OK, well, this is C."
+    },
+    {
+      "idx": 232,
+      "start": 967.69,
+      "end": 970.69,
+      "text": "No, they'll say, this is UUG."
+    },
+    {
+      "idx": 233,
+      "start": 970.69,
+      "end": 972.69,
+      "text": "And they'll look at their little table."
+    },
+    {
+      "idx": 234,
+      "start": 972.69,
+      "end": 975.69,
+      "text": "And they'll say, oh, it's this amino acid."
+    },
+    {
+      "idx": 235,
+      "start": 975.69,
+      "end": 976.69,
+      "text": "But that's wrong."
+    },
+    {
+      "idx": 236,
+      "start": 976.69,
+      "end": 978.88,
+      "text": "Do you know why it's wrong?"
+    },
+    {
+      "idx": 237,
+      "start": 978.88,
+      "end": 983.88,
+      "text": "Because the first thing they did was that they read the anticodon in the incorrect direction."
+    },
+    {
+      "idx": 238,
+      "start": 983.88,
+      "end": 984.88,
+      "text": "So they read it from the 5' to the 3'."
+    },
+    {
+      "idx": 239,
+      "start": 985.88,
+      "end": 986.88,
+      "text": "But that's wrong."
+    },
+    {
+      "idx": 240,
+      "start": 986.88,
+      "end": 987.88,
+      "text": "Don't ever do that."
+    },
+    {
+      "idx": 241,
+      "start": 987.88,
+      "end": 992.88,
+      "text": "You have to read the anticodon from the 3' to 5'."
+    },
+    {
+      "idx": 242,
+      "start": 992.88,
+      "end": 998.48,
+      "text": "So let's do that really quickly."
+    },
+    {
+      "idx": 243,
+      "start": 998.48,
+      "end": 1001.48,
+      "text": "So I would convert this into this right here."
+    },
+    {
+      "idx": 244,
+      "start": 1001.48,
+      "end": 1003.48,
+      "text": "So this is going to be the correct answer."
+    },
+    {
+      "idx": 245,
+      "start": 1003.48,
+      "end": 1005.48,
+      "text": "So over here we have 5'."
+    },
+    {
+      "idx": 246,
+      "start": 1005.48,
+      "end": 1008.76,
+      "text": "I'm going to flip this."
+    },
+    {
+      "idx": 247,
+      "start": 1008.76,
+      "end": 1015.69,
+      "text": "So we would actually have 3'CAA."
+    },
+    {
+      "idx": 248,
+      "start": 1015.69,
+      "end": 1017.72,
+      "text": "And that would be the 5'."
+    },
+    {
+      "idx": 249,
+      "start": 1017.72,
+      "end": 1018.72,
+      "text": "And this is the tRNA."
+    },
+    {
+      "idx": 250,
+      "start": 1018.72,
+      "end": 1021.39,
+      "text": "And this is the tRNA."
+    },
+    {
+      "idx": 251,
+      "start": 1021.39,
+      "end": 1026.39,
+      "text": "Now, if I wanted to code for this, I would have the complementary strand of mRNA."
+    },
+    {
+      "idx": 252,
+      "start": 1026.39,
+      "end": 1030.39,
+      "text": "So the mRNA would go in the 5' to the 3'."
+    },
+    {
+      "idx": 253,
+      "start": 1030.39,
+      "end": 1034.64,
+      "text": "This is going to be mRNA."
+    },
+    {
+      "idx": 254,
+      "start": 1034.64,
+      "end": 1040.69,
+      "text": "And we would have GUU."
+    },
+    {
+      "idx": 255,
+      "start": 1040.69,
+      "end": 1042.69,
+      "text": "And so that would be the correct answer."
+    },
+    {
+      "idx": 256,
+      "start": 1042.69,
+      "end": 1046.69,
+      "text": "And by the way, this would actually code for the amino acid valine."
+    },
+    {
+      "idx": 257,
+      "start": 1046.69,
+      "end": 1052.59,
+      "text": "So never ever read the anticodon from 5' to 3'."
+    },
+    {
+      "idx": 258,
+      "start": 1053.59,
+      "end": 1059.61,
+      "text": "Instead, read the anticodon from 3' to 5'."
+    },
+    {
+      "idx": 259,
+      "start": 1059.61,
+      "end": 1064.96,
+      "text": "So you can think of anti as antagonist."
+    },
+    {
+      "idx": 260,
+      "start": 1064.96,
+      "end": 1066.96,
+      "text": "So it's the opposite of what you would expect."
+    },
+    {
+      "idx": 261,
+      "start": 1066.96,
+      "end": 1069.96,
+      "text": "So you would expect to read it from the 5' to 3'."
+    },
+    {
+      "idx": 262,
+      "start": 1069.96,
+      "end": 1072.96,
+      "text": "But really, you read it from the 3' to 5'."
+    },
+    {
+      "idx": 263,
+      "start": 1072.96,
+      "end": 1075.96,
+      "text": "And then you make the complementary strand of mRNA."
+    },
+    {
+      "idx": 264,
+      "start": 1075.96,
+      "end": 1080.19,
+      "text": "And the mRNA is what you code for, for valine."
+    },
+    {
+      "idx": 265,
+      "start": 1080.19,
+      "end": 1084.19,
+      "text": "So this would not be a good thing to code."
+    },
+    {
+      "idx": 266,
+      "start": 1084.19,
+      "end": 1086.19,
+      "text": "So this is not the correct answer."
+    },
+    {
+      "idx": 267,
+      "start": 1086.19,
+      "end": 1088.19,
+      "text": "You would say, oh, we code for this amino acid."
+    },
+    {
+      "idx": 268,
+      "start": 1089.19,
+      "end": 1094.67,
+      "text": "You don't make amino acids using the antisense strand."
+    },
+    {
+      "idx": 269,
+      "start": 1094.67,
+      "end": 1098.67,
+      "text": "Instead, you make amino acids from the mRNA strand."
+    },
+    {
+      "idx": 270,
+      "start": 1098.67,
+      "end": 1100.73,
+      "text": "Hopefully that clears it up for you."
+    },
+    {
+      "idx": 271,
+      "start": 1100.73,
+      "end": 1106.52,
+      "text": "Now, within organisms, we have ribosomes."
+    },
+    {
+      "idx": 272,
+      "start": 1106.52,
+      "end": 1109.94,
+      "text": "But what are these ribosomes made of?"
+    },
+    {
+      "idx": 273,
+      "start": 1109.94,
+      "end": 1118.47,
+      "text": "These ribosomes are made from rRNA."
+    },
+    {
+      "idx": 274,
+      "start": 1118.47,
+      "end": 1124.3,
+      "text": "Now, there is a difference between eukaryotic ribosomes and prokaryotic ribosomes."
+    },
+    {
+      "idx": 275,
+      "start": 1124.3,
+      "end": 1129.78,
+      "text": "And the difference is the size of the ribosomes."
+    },
+    {
+      "idx": 276,
+      "start": 1129.78,
+      "end": 1139.03,
+      "text": "So eukaryotes, they have the ADS ribosome."
+    },
+    {
+      "idx": 277,
+      "start": 1139.03,
+      "end": 1147.23,
+      "text": "And the ADS is kind of like the overall size of the ribosome."
+    },
+    {
+      "idx": 278,
+      "start": 1147.23,
+      "end": 1151.74,
+      "text": "So this would be the ADS ribosome."
+    },
+    {
+      "idx": 279,
+      "start": 1151.74,
+      "end": 1153.74,
+      "text": "And it's comprised from two parts."
+    },
+    {
+      "idx": 280,
+      "start": 1153.74,
+      "end": 1157.74,
+      "text": "It has a large subunit and a small subunit."
+    },
+    {
+      "idx": 281,
+      "start": 1157.74,
+      "end": 1168.34,
+      "text": "Now, the large subunit has about 60, like 60 parts within the subunit."
+    },
+    {
+      "idx": 282,
+      "start": 1168.34,
+      "end": 1172.34,
+      "text": "So we call it the 60S because it's after some scientists."
+    },
+    {
+      "idx": 283,
+      "start": 1172.34,
+      "end": 1174.34,
+      "text": "And scientists are very egotistical."
+    },
+    {
+      "idx": 284,
+      "start": 1174.34,
+      "end": 1177.34,
+      "text": "If they discover something, they say, oh, you got to put my initial behind it."
+    },
+    {
+      "idx": 285,
+      "start": 1177.34,
+      "end": 1179.34,
+      "text": "Who cares, honestly?"
+    },
+    {
+      "idx": 286,
+      "start": 1179.34,
+      "end": 1184.37,
+      "text": "Anyways, so the large subunit for eukaryotes is 60, right?"
+    },
+    {
+      "idx": 287,
+      "start": 1184.37,
+      "end": 1189.37,
+      "text": "And the small subunit is going to be 40S."
+    },
+    {
+      "idx": 288,
+      "start": 1189.37,
+      "end": 1193.72,
+      "text": "Well, you're saying, well, how did they add up to 80S?"
+    },
+    {
+      "idx": 289,
+      "start": 1193.72,
+      "end": 1198.88,
+      "text": "Well, I know it's not the correct way to think about it, but this is the way I do it."
+    },
+    {
+      "idx": 290,
+      "start": 1198.88,
+      "end": 1203.88,
+      "text": "So 60 minus 40 is 20."
+    },
+    {
+      "idx": 291,
+      "start": 1203.88,
+      "end": 1209.49,
+      "text": "OK, 60 plus 20 gives you 80."
+    },
+    {
+      "idx": 292,
+      "start": 1209.49,
+      "end": 1211.792,
+      "text": "And so you have the ADS ribosome."
+    },
+    {
+      "idx": 293,
+      "start": 1212.49,
+      "end": 1213.81,
+      "text": "And so what you should remember is that eukaryotes, they have the ADS ribosome."
+    },
+    {
+      "idx": 294,
+      "start": 1213.81,
+      "end": 1218.81,
+      "text": "So what you should remember is that eukaryotes, they have the ADS ribosome for the big unit."
+    },
+    {
+      "idx": 295,
+      "start": 1218.81,
+      "end": 1223.61,
+      "text": "And then they have the 60S for the large unit."
+    },
+    {
+      "idx": 296,
+      "start": 1223.61,
+      "end": 1228.35,
+      "text": "And then they also have the 40S for the small."
+    },
+    {
+      "idx": 297,
+      "start": 1228.35,
+      "end": 1230.35,
+      "text": "And so that will be on exams."
+    },
+    {
+      "idx": 298,
+      "start": 1230.35,
+      "end": 1232.35,
+      "text": "They'll say, what is the difference between prokaryotes?"
+    },
+    {
+      "idx": 299,
+      "start": 1232.35,
+      "end": 1234.35,
+      "text": "And they'll be like true or false."
+    },
+    {
+      "idx": 300,
+      "start": 1234.35,
+      "end": 1236.35,
+      "text": "Eukaryotes have the 50S ribosome."
+    },
+    {
+      "idx": 301,
+      "start": 1236.35,
+      "end": 1238.35,
+      "text": "And you'll say, no, that's incorrect."
+    },
+    {
+      "idx": 302,
+      "start": 1238.35,
+      "end": 1241.35,
+      "text": "They actually have the 60S ribosome."
+    },
+    {
+      "idx": 303,
+      "start": 1241.35,
+      "end": 1244.35,
+      "text": "So that's very important that you have to remember it."
+    },
+    {
+      "idx": 304,
+      "start": 1245.35,
+      "end": 1258.61,
+      "text": "For prokaryotes, the large subunit will have to be 70S."
+    },
+    {
+      "idx": 305,
+      "start": 1260.54,
+      "end": 1262.54,
+      "text": "Or I guess the overall subunit."
+    },
+    {
+      "idx": 306,
+      "start": 1263.54,
+      "end": 1267.89,
+      "text": "Now the large subunit will be 50S."
+    },
+    {
+      "idx": 307,
+      "start": 1267.89,
+      "end": 1270.89,
+      "text": "And the small subunit would be 30S."
+    },
+    {
+      "idx": 308,
+      "start": 1270.89,
+      "end": 1275.89,
+      "text": "And again, 50 minus 30 is 20."
+    },
+    {
+      "idx": 309,
+      "start": 1275.89,
+      "end": 1281.56,
+      "text": "Ergo, 50 plus 20 gives you 70."
+    },
+    {
+      "idx": 310,
+      "start": 1283.14,
+      "end": 1284.14,
+      "text": "So that's just kind of how I remember it."
+    },
+    {
+      "idx": 311,
+      "start": 1284.14,
+      "end": 1288.27,
+      "text": "And let's write it over here."
+    },
+    {
+      "idx": 312,
+      "start": 1288.27,
+      "end": 1291.27,
+      "text": "So prokaryotes, they have the 70S overall."
+    },
+    {
+      "idx": 313,
+      "start": 1291.27,
+      "end": 1298.73,
+      "text": "And they have the 50S for the large subunit."
+    },
+    {
+      "idx": 314,
+      "start": 1298.73,
+      "end": 1305.95,
+      "text": "And the 30S for the small subunit."
+    },
+    {
+      "idx": 315,
+      "start": 1305.95,
+      "end": 1315.66,
+      "text": "In general, for eukaryotic organisms and prokaryotic organisms,"
+    },
+    {
+      "idx": 316,
+      "start": 1315.66,
+      "end": 1320.66,
+      "text": "the large subunit is the one that actually catalyzes the peptide of the large subunit."
+    },
+    {
+      "idx": 317,
+      "start": 1320.66,
+      "end": 1334.13,
+      "text": "So this one catalyzes peptide bond formation."
+    },
+    {
+      "idx": 318,
+      "start": 1334.13,
+      "end": 1342.61,
+      "text": "The large, yeah, so that's the large subunit."
+    },
+    {
+      "idx": 319,
+      "start": 1342.61,
+      "end": 1350.61,
+      "text": "And then the small subunit is the guy that, it kind of matches the tRNAs."
+    },
+    {
+      "idx": 320,
+      "start": 1350.61,
+      "end": 1357.66,
+      "text": "So again, this one matches the tRNA to codon."
+    },
+    {
+      "idx": 321,
+      "start": 1357.66,
+      "end": 1369.24,
+      "text": "So it's going to be facilitating the connections between tRNA and mRNA."
+    },
+    {
+      "idx": 322,
+      "start": 1369.24,
+      "end": 1373.24,
+      "text": "So let's look at how this occurs in detail."
+    },
+    {
+      "idx": 323,
+      "start": 1373.24,
+      "end": 1379.91,
+      "text": "So here we have a very nice looking ribosome."
+    },
+    {
+      "idx": 324,
+      "start": 1379.91,
+      "end": 1386.94,
+      "text": "And this ribosome actually have one binding site for mRNA and three for tRNA."
+    },
+    {
+      "idx": 325,
+      "start": 1386.94,
+      "end": 1391.2,
+      "text": "So here is the one binding site for mRNA."
+    },
+    {
+      "idx": 326,
+      "start": 1391.2,
+      "end": 1396.0,
+      "text": "But over here you have three binding sites for tRNA."
+    },
+    {
+      "idx": 327,
+      "start": 1396.0,
+      "end": 1400.0,
+      "text": "So tRNA is going to be read from the 3' to the 5'."
+    },
+    {
+      "idx": 328,
+      "start": 1400.0,
+      "end": 1404.0,
+      "text": "And the mRNA again is from the 5' to the 3'."
+    },
+    {
+      "idx": 329,
+      "start": 1404.0,
+      "end": 1410.8,
+      "text": "So now you have the A site, the P site, and the E site."
+    },
+    {
+      "idx": 330,
+      "start": 1410.8,
+      "end": 1418.93,
+      "text": "So the A site actually stands for aminoacyl."
+    },
+    {
+      "idx": 331,
+      "start": 1418.93,
+      "end": 1423.57,
+      "text": "Well that's an L, so let's write acyl."
+    },
+    {
+      "idx": 332,
+      "start": 1423.57,
+      "end": 1424.57,
+      "text": "And this is tRNA."
+    },
+    {
+      "idx": 333,
+      "start": 1424.57,
+      "end": 1427.11,
+      "text": "And the P."
+    },
+    {
+      "idx": 334,
+      "start": 1428.11,
+      "end": 1432.99,
+      "text": "It stands for peptidyl."
+    },
+    {
+      "idx": 335,
+      "start": 1437.29,
+      "end": 1442.9,
+      "text": "So peptidyl is the one that actually catalyzes the formation of peptide bonds."
+    },
+    {
+      "idx": 336,
+      "start": 1442.9,
+      "end": 1449.9,
+      "text": "So when the amino acid is being transferred into the P site, it's going to form a covalent bond."
+    },
+    {
+      "idx": 337,
+      "start": 1449.9,
+      "end": 1450.9,
+      "text": "So, pretty interesting."
+    },
+    {
+      "idx": 338,
+      "start": 1450.9,
+      "end": 1455.38,
+      "text": "And the E site is actually the exit."
+    },
+    {
+      "idx": 339,
+      "start": 1455.38,
+      "end": 1459.76,
+      "text": "So this is called the ejector site."
+    },
+    {
+      "idx": 340,
+      "start": 1459.76,
+      "end": 1462.86,
+      "text": "So that's kind of like the main parts of the ribosome."
+    },
+    {
+      "idx": 341,
+      "start": 1462.86,
+      "end": 1463.86,
+      "text": "Now within eukaryotes,"
+    },
+    {
+      "idx": 342,
+      "start": 1466.86,
+      "end": 1473.62,
+      "text": "there's about 6 to 9 amino acids processed per second."
+    },
+    {
+      "idx": 343,
+      "start": 1473.62,
+      "end": 1479.32,
+      "text": "So we can say that we make 9 amino acids per second."
+    },
+    {
+      "idx": 344,
+      "start": 1479.32,
+      "end": 1481.32,
+      "text": "Now for prokaryotes,"
+    },
+    {
+      "idx": 345,
+      "start": 1481.32,
+      "end": 1483.83,
+      "text": "it's pretty surprising,"
+    },
+    {
+      "idx": 346,
+      "start": 1483.83,
+      "end": 1488.86,
+      "text": "but they can actually make 21 amino acids per second."
+    },
+    {
+      "idx": 347,
+      "start": 1488.86,
+      "end": 1491.15,
+      "text": "So they're a lot faster than eukaryotes,"
+    },
+    {
+      "idx": 348,
+      "start": 1491.15,
+      "end": 1495.43,
+      "text": "which is, again, pretty interesting."
+    },
+    {
+      "idx": 349,
+      "start": 1495.43,
+      "end": 1497.43,
+      "text": "And here we have the process taking place."
+    },
+    {
+      "idx": 350,
+      "start": 1497.43,
+      "end": 1499.43,
+      "text": "So there are about 4 steps."
+    },
+    {
+      "idx": 351,
+      "start": 1499.43,
+      "end": 1503.43,
+      "text": "4 steps to make an amino acid."
+    },
+    {
+      "idx": 352,
+      "start": 1503.43,
+      "end": 1509.64,
+      "text": "So here we have the ribosome in its entirety."
+    },
+    {
+      "idx": 353,
+      "start": 1509.64,
+      "end": 1511.64,
+      "text": "So we have the large ribosome subunit,"
+    },
+    {
+      "idx": 354,
+      "start": 1511.64,
+      "end": 1513.64,
+      "text": "and we also have the small ribosome subunit."
+    },
+    {
+      "idx": 355,
+      "start": 1513.64,
+      "end": 1519.64,
+      "text": "Here, the small ribosome subunit has bound itself to the mRNA."
+    },
+    {
+      "idx": 356,
+      "start": 1519.64,
+      "end": 1522.64,
+      "text": "Now notice that we have these little things right there."
+    },
+    {
+      "idx": 357,
+      "start": 1522.64,
+      "end": 1527.15,
+      "text": "These are the tRNAs."
+    },
+    {
+      "idx": 358,
+      "start": 1527.15,
+      "end": 1531.15,
+      "text": "And remember that tRNAs, they have the anticodon."
+    },
+    {
+      "idx": 359,
+      "start": 1531.15,
+      "end": 1535.15,
+      "text": "So again, the anticodon is right from the 3' to the 5'."
+    },
+    {
+      "idx": 360,
+      "start": 1535.15,
+      "end": 1537.15,
+      "text": "That's how it's read."
+    },
+    {
+      "idx": 361,
+      "start": 1537.15,
+      "end": 1539.15,
+      "text": "Now in step 1,"
+    },
+    {
+      "idx": 362,
+      "start": 1539.15,
+      "end": 1544.15,
+      "text": "the tRNAs are being captured by the large ribosomal subunit."
+    },
+    {
+      "idx": 363,
+      "start": 1544.15,
+      "end": 1545.85,
+      "text": "So as you can see,"
+    },
+    {
+      "idx": 364,
+      "start": 1545.85,
+      "end": 1550.85,
+      "text": "we are already in the process of creating this amino acid sequence."
+    },
+    {
+      "idx": 365,
+      "start": 1550.85,
+      "end": 1561.99,
+      "text": "Now notice that this amino acid sequence jumped from the 3 codon to the 4th codon."
+    },
+    {
+      "idx": 366,
+      "start": 1563.99,
+      "end": 1567.99,
+      "text": "whenever these amino acids are growing,"
+    },
+    {
+      "idx": 367,
+      "start": 1567.99,
+      "end": 1570.99,
+      "text": "they're going to be jumping into the newly added tRNA."
+    },
+    {
+      "idx": 368,
+      "start": 1570.99,
+      "end": 1573.99,
+      "text": "So 4 just entered the subunit,"
+    },
+    {
+      "idx": 369,
+      "start": 1573.99,
+      "end": 1579.05,
+      "text": "and it will inherit the growing amino acid chain"
+    },
+    {
+      "idx": 370,
+      "start": 1579.05,
+      "end": 1583.05,
+      "text": "from the previously entered tRNA."
+    },
+    {
+      "idx": 371,
+      "start": 1583.05,
+      "end": 1585.05,
+      "text": "Okay, so 3 entered first,"
+    },
+    {
+      "idx": 372,
+      "start": 1585.05,
+      "end": 1590.05,
+      "text": "but then it's going to transfer its sequence into the newly entered tRNA."
+    },
+    {
+      "idx": 373,
+      "start": 1590.05,
+      "end": 1593.05,
+      "text": "Eventually, the ribosomal subunit is going to shift"
+    },
+    {
+      "idx": 374,
+      "start": 1593.05,
+      "end": 1595.4,
+      "text": "towards the right."
+    },
+    {
+      "idx": 375,
+      "start": 1595.4,
+      "end": 1598.4,
+      "text": "And when it shifts towards the right,"
+    },
+    {
+      "idx": 376,
+      "start": 1598.4,
+      "end": 1601.4,
+      "text": "the 3 codon, in this case,"
+    },
+    {
+      "idx": 377,
+      "start": 1601.4,
+      "end": 1603.4,
+      "text": "it will enter the E site."
+    },
+    {
+      "idx": 378,
+      "start": 1603.4,
+      "end": 1606.4,
+      "text": "And when the 3 codon enters the,"
+    },
+    {
+      "idx": 379,
+      "start": 1606.4,
+      "end": 1608.4,
+      "text": "not the codon, but the tRNA,"
+    },
+    {
+      "idx": 380,
+      "start": 1608.4,
+      "end": 1610.4,
+      "text": "when it enters the E site,"
+    },
+    {
+      "idx": 381,
+      "start": 1610.4,
+      "end": 1612.4,
+      "text": "it's going to become ejected."
+    },
+    {
+      "idx": 382,
+      "start": 1612.4,
+      "end": 1615.4,
+      "text": "Now notice that when it ejects,"
+    },
+    {
+      "idx": 383,
+      "start": 1615.4,
+      "end": 1619.65,
+      "text": "the 4th tRNA enters the P site."
+    },
+    {
+      "idx": 384,
+      "start": 1619.65,
+      "end": 1623.32,
+      "text": "So now when the 4th tRNA enters the P site,"
+    },
+    {
+      "idx": 385,
+      "start": 1623.32,
+      "end": 1625.32,
+      "text": "it will actually transfer,"
+    },
+    {
+      "idx": 386,
+      "start": 1625.32,
+      "end": 1629.32,
+      "text": "its amino acid sequence into the newly entered tRNA."
+    },
+    {
+      "idx": 387,
+      "start": 1629.32,
+      "end": 1631.61,
+      "text": "So this cycle will repeat."
+    },
+    {
+      "idx": 388,
+      "start": 1631.61,
+      "end": 1634.61,
+      "text": "So let's do this again."
+    },
+    {
+      "idx": 389,
+      "start": 1634.61,
+      "end": 1637.16,
+      "text": "So first of all,"
+    },
+    {
+      "idx": 390,
+      "start": 1637.16,
+      "end": 1640.16,
+      "text": "a new tRNA enters the large ribosomal subunit."
+    },
+    {
+      "idx": 391,
+      "start": 1640.16,
+      "end": 1644.22,
+      "text": "Therefore, the previously entered tRNA"
+    },
+    {
+      "idx": 392,
+      "start": 1644.22,
+      "end": 1647.22,
+      "text": "is going to transfer its sequence into the new tRNA."
+    },
+    {
+      "idx": 393,
+      "start": 1647.22,
+      "end": 1649.48,
+      "text": "When this happens,"
+    },
+    {
+      "idx": 394,
+      "start": 1649.48,
+      "end": 1652.48,
+      "text": "the large ribosomal subunit will shift towards the right."
+    },
+    {
+      "idx": 395,
+      "start": 1652.48,
+      "end": 1654.48,
+      "text": "And when this occurs,"
+    },
+    {
+      "idx": 396,
+      "start": 1655.48,
+      "end": 1657.48,
+      "text": "the 3rd codon,"
+    },
+    {
+      "idx": 397,
+      "start": 1657.48,
+      "end": 1659.48,
+      "text": "or tRNA in this case,"
+    },
+    {
+      "idx": 398,
+      "start": 1659.48,
+      "end": 1661.76,
+      "text": "is going to enter the E site."
+    },
+    {
+      "idx": 399,
+      "start": 1661.76,
+      "end": 1663.76,
+      "text": "And when that happens, it becomes ejected."
+    },
+    {
+      "idx": 400,
+      "start": 1663.76,
+      "end": 1665.92,
+      "text": "And when that occurs,"
+    },
+    {
+      "idx": 401,
+      "start": 1665.92,
+      "end": 1669.18,
+      "text": "the newly entered tRNA"
+    },
+    {
+      "idx": 402,
+      "start": 1669.18,
+      "end": 1671.18,
+      "text": "is going to be in the P site,"
+    },
+    {
+      "idx": 403,
+      "start": 1671.18,
+      "end": 1674.18,
+      "text": "and is going to transfer its amino acid sequence"
+    },
+    {
+      "idx": 404,
+      "start": 1674.18,
+      "end": 1677.18,
+      "text": "to the newly entered tRNA."
+    },
+    {
+      "idx": 405,
+      "start": 1677.18,
+      "end": 1684.0,
+      "text": "And so, we can say that whenever an amino acid is being created,"
+    },
+    {
+      "idx": 406,
+      "start": 1684.0,
+      "end": 1686.0,
+      "text": "or the sequence,"
+    },
+    {
+      "idx": 407,
+      "start": 1686.0,
+      "end": 1688.0,
+      "text": "it's created from the 5 prime,"
+    },
+    {
+      "idx": 408,
+      "start": 1688.0,
+      "end": 1693.45,
+      "text": "to the 3 prime."
+    },
+    {
+      "idx": 409,
+      "start": 1694.45,
+      "end": 1698.92,
+      "text": "the N terminal"
+    },
+    {
+      "idx": 410,
+      "start": 1698.92,
+      "end": 1704.88,
+      "text": "is made first."
+    },
+    {
+      "idx": 411,
+      "start": 1704.88,
+      "end": 1707.88,
+      "text": "And this makes sense because we go from the N terminal"
+    },
+    {
+      "idx": 412,
+      "start": 1707.88,
+      "end": 1710.08,
+      "text": "to the C terminal."
+    },
+    {
+      "idx": 413,
+      "start": 1712.68,
+      "end": 1719.28,
+      "text": "And so, this kind of reminds me of some questions that I had"
+    },
+    {
+      "idx": 414,
+      "start": 1719.28,
+      "end": 1721.28,
+      "text": "in exams and school."
+    },
+    {
+      "idx": 415,
+      "start": 1721.28,
+      "end": 1724.28,
+      "text": "And sometimes people would just randomly ask me stuff, you know."
+    },
+    {
+      "idx": 416,
+      "start": 1724.28,
+      "end": 1725.28,
+      "text": "It's pretty cool."
+    },
+    {
+      "idx": 417,
+      "start": 1725.28,
+      "end": 1727.28,
+      "text": "So one of the questions would be,"
+    },
+    {
+      "idx": 418,
+      "start": 1727.28,
+      "end": 1729.28,
+      "text": "let's say that we have 3000,"
+    },
+    {
+      "idx": 419,
+      "start": 1730.28,
+      "end": 1735.96,
+      "text": "And remember that a nucleotide is like A,"
+    },
+    {
+      "idx": 420,
+      "start": 1735.96,
+      "end": 1738.96,
+      "text": "G, C, U, etc."
+    },
+    {
+      "idx": 421,
+      "start": 1738.96,
+      "end": 1741.96,
+      "text": "So let's say that we have 3000 nucleotides."
+    },
+    {
+      "idx": 422,
+      "start": 1741.96,
+      "end": 1745.09,
+      "text": "How many amino acids could we make?"
+    },
+    {
+      "idx": 423,
+      "start": 1745.09,
+      "end": 1749.28,
+      "text": "And you're probably wondering, well, how do I, what?"
+    },
+    {
+      "idx": 424,
+      "start": 1749.28,
+      "end": 1751.28,
+      "text": "How does that make sense?"
+    },
+    {
+      "idx": 425,
+      "start": 1751.28,
+      "end": 1753.28,
+      "text": "Well, notice that an anticodon,"
+    },
+    {
+      "idx": 426,
+      "start": 1756.2,
+      "end": 1761.41,
+      "text": "requires 3 nucleotides."
+    },
+    {
+      "idx": 427,
+      "start": 1761.41,
+      "end": 1764.41,
+      "text": "Therefore, since we have 3000 nucleotides,"
+    },
+    {
+      "idx": 428,
+      "start": 1764.41,
+      "end": 1766.41,
+      "text": "if we divide them by 3,"
+    },
+    {
+      "idx": 429,
+      "start": 1766.41,
+      "end": 1768.41,
+      "text": "we can get what?"
+    },
+    {
+      "idx": 430,
+      "start": 1768.41,
+      "end": 1773.27,
+      "text": "We can get 1000 amino acids."
+    },
+    {
+      "idx": 431,
+      "start": 1773.27,
+      "end": 1777.46,
+      "text": "And so, you'll often see that on exams and stuff, right?"
+    },
+    {
+      "idx": 432,
+      "start": 1777.46,
+      "end": 1780.46,
+      "text": "So if you had 1500 nucleotides,"
+    },
+    {
+      "idx": 433,
+      "start": 1780.46,
+      "end": 1782.46,
+      "text": "you can only make 300,"
+    },
+    {
+      "idx": 434,
+      "start": 1782.46,
+      "end": 1785.46,
+      "text": "no, you can only make 500 amino acids."
+    },
+    {
+      "idx": 435,
+      "start": 1785.46,
+      "end": 1792.67,
+      "text": "Let's say that I had a modification."
+    },
+    {
+      "idx": 436,
+      "start": 1792.67,
+      "end": 1794.67,
+      "text": "So I have A, U, C."
+    },
+    {
+      "idx": 437,
+      "start": 1794.67,
+      "end": 1796.67,
+      "text": "And then something was modified,"
+    },
+    {
+      "idx": 438,
+      "start": 1796.67,
+      "end": 1797.67,
+      "text": "like a mutation occurred."
+    },
+    {
+      "idx": 439,
+      "start": 1797.67,
+      "end": 1799.67,
+      "text": "And so now I inserted"
+    },
+    {
+      "idx": 440,
+      "start": 1801.67,
+      "end": 1803.67,
+      "text": "A, U, C, G."
+    },
+    {
+      "idx": 441,
+      "start": 1803.67,
+      "end": 1806.89,
+      "text": "How will that affect the amino acid sequence?"
+    },
+    {
+      "idx": 442,
+      "start": 1806.89,
+      "end": 1809.89,
+      "text": "Or how will that affect the protein formation?"
+    },
+    {
+      "idx": 443,
+      "start": 1809.89,
+      "end": 1811.89,
+      "text": "And so one of the possible answers could be that"
+    },
+    {
+      "idx": 444,
+      "start": 1811.89,
+      "end": 1813.89,
+      "text": "you shift the reading frame,"
+    },
+    {
+      "idx": 445,
+      "start": 1813.89,
+      "end": 1815.89,
+      "text": "so instead of reading A, U, C,"
+    },
+    {
+      "idx": 446,
+      "start": 1815.89,
+      "end": 1817.89,
+      "text": "you now read U, C, G."
+    },
+    {
+      "idx": 447,
+      "start": 1817.89,
+      "end": 1820.89,
+      "text": "And that could code for a different amino acid, maybe."
+    },
+    {
+      "idx": 448,
+      "start": 1820.89,
+      "end": 1824.12,
+      "text": "But another answer choice could be"
+    },
+    {
+      "idx": 449,
+      "start": 1824.12,
+      "end": 1828.12,
+      "text": "that the C terminus will become affected."
+    },
+    {
+      "idx": 450,
+      "start": 1828.12,
+      "end": 1830.44,
+      "text": "And that would actually be,"
+    },
+    {
+      "idx": 451,
+      "start": 1830.44,
+      "end": 1832.44,
+      "text": "one of the correct answer choice."
+    },
+    {
+      "idx": 452,
+      "start": 1832.44,
+      "end": 1835.98,
+      "text": "The other one would be a possible reading frame shift."
+    },
+    {
+      "idx": 453,
+      "start": 1835.98,
+      "end": 1837.98,
+      "text": "But the reason why we actually do a modification"
+    },
+    {
+      "idx": 454,
+      "start": 1837.98,
+      "end": 1839.98,
+      "text": "for the C terminus"
+    },
+    {
+      "idx": 455,
+      "start": 1839.98,
+      "end": 1841.98,
+      "text": "is because we go from the N terminus"
+    },
+    {
+      "idx": 456,
+      "start": 1841.98,
+      "end": 1842.98,
+      "text": "to the C terminus."
+    },
+    {
+      "idx": 457,
+      "start": 1842.98,
+      "end": 1844.98,
+      "text": "And so if I do a point addition,"
+    },
+    {
+      "idx": 458,
+      "start": 1844.98,
+      "end": 1846.98,
+      "text": "which is what this is called, right?"
+    },
+    {
+      "idx": 459,
+      "start": 1846.98,
+      "end": 1848.98,
+      "text": "We added a nucleotide."
+    },
+    {
+      "idx": 460,
+      "start": 1848.98,
+      "end": 1851.98,
+      "text": "This can actually change the C side."
+    },
+    {
+      "idx": 461,
+      "start": 1851.98,
+      "end": 1853.98,
+      "text": "So if you think of that like this,"
+    },
+    {
+      "idx": 462,
+      "start": 1853.98,
+      "end": 1855.98,
+      "text": "N side to the C side,"
+    },
+    {
+      "idx": 463,
+      "start": 1855.98,
+      "end": 1859.52,
+      "text": "adding something to the reading codon"
+    },
+    {
+      "idx": 464,
+      "start": 1859.52,
+      "end": 1861.52,
+      "text": "can actually modify the C side."
+    },
+    {
+      "idx": 465,
+      "start": 1861.52,
+      "end": 1863.52,
+      "text": "So that's the C terminus."
+    },
+    {
+      "idx": 466,
+      "start": 1863.52,
+      "end": 1866.52,
+      "text": "So that was never taught to me in undergrad,"
+    },
+    {
+      "idx": 467,
+      "start": 1866.52,
+      "end": 1869.52,
+      "text": "but I had to learn that to myself."
+    },
+    {
+      "idx": 468,
+      "start": 1869.52,
+      "end": 1875.18,
+      "text": "So now I'm sharing that knowledge with you."
+    },
+    {
+      "idx": 469,
+      "start": 1875.18,
+      "end": 1880.21,
+      "text": "So before we can even begin making proteins,"
+    },
+    {
+      "idx": 470,
+      "start": 1880.21,
+      "end": 1883.21,
+      "text": "we have to make an initiation."
+    },
+    {
+      "idx": 471,
+      "start": 1883.21,
+      "end": 1886.21,
+      "text": "So right here we have a translation initiation factor."
+    },
+    {
+      "idx": 472,
+      "start": 1886.21,
+      "end": 1888.21,
+      "text": "And this protein or this factor"
+    },
+    {
+      "idx": 473,
+      "start": 1888.21,
+      "end": 1891.21,
+      "text": "gets an initiator tRNA."
+    },
+    {
+      "idx": 474,
+      "start": 1891.21,
+      "end": 1893.21,
+      "text": "Now remember that methionine"
+    },
+    {
+      "idx": 475,
+      "start": 1893.21,
+      "end": 1895.21,
+      "text": "actually calls for AUG, right?"
+    },
+    {
+      "idx": 476,
+      "start": 1895.21,
+      "end": 1898.21,
+      "text": "And so whenever AUG is read,"
+    },
+    {
+      "idx": 477,
+      "start": 1898.21,
+      "end": 1900.21,
+      "text": "methionine, which is already present,"
+    },
+    {
+      "idx": 478,
+      "start": 1900.21,
+      "end": 1902.21,
+      "text": "will begin to expand."
+    },
+    {
+      "idx": 479,
+      "start": 1902.21,
+      "end": 1905.21,
+      "text": "It will begin to create new amino acids."
+    },
+    {
+      "idx": 480,
+      "start": 1905.21,
+      "end": 1908.21,
+      "text": "So this translation initiation factor"
+    },
+    {
+      "idx": 481,
+      "start": 1908.21,
+      "end": 1910.21,
+      "text": "has the small ribosomal subunit"
+    },
+    {
+      "idx": 482,
+      "start": 1910.21,
+      "end": 1913.21,
+      "text": "and the initiator tRNA."
+    },
+    {
+      "idx": 483,
+      "start": 1913.21,
+      "end": 1915.21,
+      "text": "Now it begins reading the mRNA"
+    },
+    {
+      "idx": 484,
+      "start": 1915.21,
+      "end": 1917.21,
+      "text": "from the 5' to the 3'."
+    },
+    {
+      "idx": 485,
+      "start": 1917.21,
+      "end": 1921.28,
+      "text": "And when it reaches the AUG mRNA codon,"
+    },
+    {
+      "idx": 486,
+      "start": 1921.28,
+      "end": 1922.28,
+      "text": "it reads the mRNA."
+    },
+    {
+      "idx": 487,
+      "start": 1923.47,
+      "end": 1927.79,
+      "text": "It leaves the initiator tRNA."
+    },
+    {
+      "idx": 488,
+      "start": 1927.79,
+      "end": 1930.79,
+      "text": "And this initiator tRNA starts sending signals."
+    },
+    {
+      "idx": 489,
+      "start": 1930.79,
+      "end": 1933.97,
+      "text": "And these little signals are picked up"
+    },
+    {
+      "idx": 490,
+      "start": 1933.97,
+      "end": 1935.97,
+      "text": "by the large ribosomal subunit."
+    },
+    {
+      "idx": 491,
+      "start": 1935.97,
+      "end": 1938.97,
+      "text": "So the large ribosomal subunit binds"
+    },
+    {
+      "idx": 492,
+      "start": 1938.97,
+      "end": 1940.97,
+      "text": "to the initiator tRNA."
+    },
+    {
+      "idx": 493,
+      "start": 1940.97,
+      "end": 1943.97,
+      "text": "And now it can begin the process"
+    },
+    {
+      "idx": 494,
+      "start": 1943.97,
+      "end": 1946.97,
+      "text": "of creating amino acids."
+    },
+    {
+      "idx": 495,
+      "start": 1946.97,
+      "end": 1948.97,
+      "text": "And so really, to get the ball rolling,"
+    },
+    {
+      "idx": 496,
+      "start": 1948.97,
+      "end": 1952.97,
+      "text": "you have to have the translation initiation factor,"
+    },
+    {
+      "idx": 497,
+      "start": 1952.97,
+      "end": 1954.97,
+      "text": "which connects to the methionine,"
+    },
+    {
+      "idx": 498,
+      "start": 1954.97,
+      "end": 1958.32,
+      "text": "which is always the initiator tRNA."
+    },
+    {
+      "idx": 499,
+      "start": 1958.32,
+      "end": 1961.45,
+      "text": "And eventually it's going to read AUG."
+    },
+    {
+      "idx": 500,
+      "start": 1961.45,
+      "end": 1963.45,
+      "text": "And when it reads AUG, it sends a signal."
+    },
+    {
+      "idx": 501,
+      "start": 1963.45,
+      "end": 1965.45,
+      "text": "It binds to the large ribosomal subunit."
+    },
+    {
+      "idx": 502,
+      "start": 1965.45,
+      "end": 1968.45,
+      "text": "And it creates more amino acids."
+    },
+    {
+      "idx": 503,
+      "start": 1968.45,
+      "end": 1977.3,
+      "text": "And now a charged tRNA can bind to the A site."
+    },
+    {
+      "idx": 504,
+      "start": 1977.3,
+      "end": 1979.33,
+      "text": "And when this occurs,"
+    },
+    {
+      "idx": 505,
+      "start": 1979.33,
+      "end": 1981.33,
+      "text": "a covalent bond is going to form."
+    },
+    {
+      "idx": 506,
+      "start": 1981.33,
+      "end": 1984.33,
+      "text": "Because again, methionine is in the P site."
+    },
+    {
+      "idx": 507,
+      "start": 1984.33,
+      "end": 1986.33,
+      "text": "And that has peptidyl."
+    },
+    {
+      "idx": 508,
+      "start": 1986.33,
+      "end": 1988.33,
+      "text": "And peptidyl is a cat..."
+    },
+    {
+      "idx": 509,
+      "start": 1988.33,
+      "end": 1993.65,
+      "text": "It serves as a catalysis for peptide bond formation."
+    },
+    {
+      "idx": 510,
+      "start": 1993.65,
+      "end": 2000.32,
+      "text": "So again, peptidyl serves as a catalyst"
+    },
+    {
+      "idx": 511,
+      "start": 2000.32,
+      "end": 2005.42,
+      "text": "for peptide bond formation."
+    },
+    {
+      "idx": 512,
+      "start": 2005.42,
+      "end": 2007.42,
+      "text": "And that's in the P site."
+    },
+    {
+      "idx": 513,
+      "start": 2007.42,
+      "end": 2012.28,
+      "text": "So again, methionine is in the P site."
+    },
+    {
+      "idx": 514,
+      "start": 2012.28,
+      "end": 2014.28,
+      "text": "We have the acceptor site open."
+    },
+    {
+      "idx": 515,
+      "start": 2014.28,
+      "end": 2018.28,
+      "text": "A tRNA is going to be accepted into the A site."
+    },
+    {
+      "idx": 516,
+      "start": 2018.28,
+      "end": 2021.66,
+      "text": "The methionine in the P site is going to use peptidyl"
+    },
+    {
+      "idx": 517,
+      "start": 2021.66,
+      "end": 2023.92,
+      "text": "to create a peptide bond."
+    },
+    {
+      "idx": 518,
+      "start": 2023.92,
+      "end": 2025.92,
+      "text": "And that is connected."
+    },
+    {
+      "idx": 519,
+      "start": 2025.92,
+      "end": 2027.92,
+      "text": "Now eventually, this large ribosomal subunit"
+    },
+    {
+      "idx": 520,
+      "start": 2027.92,
+      "end": 2029.92,
+      "text": "will move to the right."
+    },
+    {
+      "idx": 521,
+      "start": 2029.92,
+      "end": 2031.92,
+      "text": "And when it moves to the right,"
+    },
+    {
+      "idx": 522,
+      "start": 2031.92,
+      "end": 2033.92,
+      "text": "the methionine is going to enter the E site."
+    },
+    {
+      "idx": 523,
+      "start": 2033.92,
+      "end": 2035.92,
+      "text": "And therefore, it is ejected."
+    },
+    {
+      "idx": 524,
+      "start": 2035.92,
+      "end": 2039.45,
+      "text": "And the process will continue."
+    },
+    {
+      "idx": 525,
+      "start": 2039.45,
+      "end": 2043.45,
+      "text": "But eventually, all good things must come to an end."
+    },
+    {
+      "idx": 526,
+      "start": 2043.45,
+      "end": 2046.48,
+      "text": "And so eventually, we will reach a stop codon."
+    },
+    {
+      "idx": 527,
+      "start": 2046.48,
+      "end": 2049.48,
+      "text": "So the stop codon, again, would be UAG."
+    },
+    {
+      "idx": 528,
+      "start": 2049.48,
+      "end": 2052.48,
+      "text": "We have another U. We can have AA."
+    },
+    {
+      "idx": 529,
+      "start": 2052.48,
+      "end": 2054.48,
+      "text": "And again, we can have UGA."
+    },
+    {
+      "idx": 530,
+      "start": 2054.48,
+      "end": 2057.48,
+      "text": "So again, these are stop codons."
+    },
+    {
+      "idx": 531,
+      "start": 2057.48,
+      "end": 2060.68,
+      "text": "When the tRNA reaches a stop codon,"
+    },
+    {
+      "idx": 532,
+      "start": 2060.68,
+      "end": 2063.68,
+      "text": "it actually doesn't recognize it."
+    },
+    {
+      "idx": 533,
+      "start": 2063.68,
+      "end": 2065.68,
+      "text": "It doesn't recognize the stop codons."
+    },
+    {
+      "idx": 534,
+      "start": 2065.68,
+      "end": 2074.69,
+      "text": "So we can say that tRNA does not read t..."
+    },
+    {
+      "idx": 535,
+      "start": 2074.69,
+      "end": 2076.69,
+      "text": "Well, not tRNA, but..."
+    },
+    {
+      "idx": 536,
+      "start": 2076.69,
+      "end": 2084.25,
+      "text": "We can say stop codon does not read, right?"
+    },
+    {
+      "idx": 537,
+      "start": 2084.25,
+      "end": 2089.15,
+      "text": "So what actually happens is that a binding release factor"
+    },
+    {
+      "idx": 538,
+      "start": 2091.15,
+      "end": 2095.47,
+      "text": "It will recognize the stop codon."
+    },
+    {
+      "idx": 539,
+      "start": 2095.47,
+      "end": 2099.47,
+      "text": "So here, it's going to bind to the A site."
+    },
+    {
+      "idx": 540,
+      "start": 2099.47,
+      "end": 2102.56,
+      "text": "The binding factor, or binding release, right?"
+    },
+    {
+      "idx": 541,
+      "start": 2102.56,
+      "end": 2109.58,
+      "text": "And so when the release factor binds to the A site of the tRNA,"
+    },
+    {
+      "idx": 542,
+      "start": 2109.58,
+      "end": 2111.58,
+      "text": "it becomes incorporated."
+    },
+    {
+      "idx": 543,
+      "start": 2111.58,
+      "end": 2113.84,
+      "text": "It becomes like a..."
+    },
+    {
+      "idx": 544,
+      "start": 2113.84,
+      "end": 2116.84,
+      "text": "It's like a little worker that clocks in to work."
+    },
+    {
+      "idx": 545,
+      "start": 2116.84,
+      "end": 2121.03,
+      "text": "And whenever it reads the stop codon,"
+    },
+    {
+      "idx": 546,
+      "start": 2121.03,
+      "end": 2126.35,
+      "text": "it facilitates the release of the amino acid sequence."
+    },
+    {
+      "idx": 547,
+      "start": 2126.35,
+      "end": 2128.35,
+      "text": "And it does this by using water."
+    },
+    {
+      "idx": 548,
+      "start": 2128.35,
+      "end": 2131.35,
+      "text": "And so we can say that when the release factor..."
+    },
+    {
+      "idx": 549,
+      "start": 2131.35,
+      "end": 2140.41,
+      "text": "Release factor reads stop codons"
+    },
+    {
+      "idx": 550,
+      "start": 2140.41,
+      "end": 2142.41,
+      "text": "and binds to the A site."
+    },
+    {
+      "idx": 551,
+      "start": 2142.41,
+      "end": 2148.43,
+      "text": "And binds to the A site."
+    },
+    {
+      "idx": 552,
+      "start": 2148.43,
+      "end": 2150.97,
+      "text": "And whenever that happens,"
+    },
+    {
+      "idx": 553,
+      "start": 2150.97,
+      "end": 2155.2,
+      "text": "and it wants to release the amino acid sequence,"
+    },
+    {
+      "idx": 554,
+      "start": 2155.2,
+      "end": 2157.2,
+      "text": "it wants to stop it, it uses water."
+    },
+    {
+      "idx": 555,
+      "start": 2157.2,
+      "end": 2159.2,
+      "text": "So it uses water."
+    },
+    {
+      "idx": 556,
+      "start": 2159.2,
+      "end": 2166.12,
+      "text": "Uses water to cut peptide bond."
+    },
+    {
+      "idx": 557,
+      "start": 2166.12,
+      "end": 2172.37,
+      "text": "So it uses hydrolysis."
+    },
+    {
+      "idx": 558,
+      "start": 2177.76,
+      "end": 2179.76,
+      "text": "So that is kind of like a hydration reaction,"
+    },
+    {
+      "idx": 559,
+      "start": 2181.76,
+      "end": 2184.99,
+      "text": "So to recap, in order to stop this process"
+    },
+    {
+      "idx": 560,
+      "start": 2184.99,
+      "end": 2186.99,
+      "text": "of creating amino acid sequences,"
+    },
+    {
+      "idx": 561,
+      "start": 2186.99,
+      "end": 2187.99,
+      "text": "which create proteins,"
+    },
+    {
+      "idx": 562,
+      "start": 2187.99,
+      "end": 2189.99,
+      "text": "we need a release factor."
+    },
+    {
+      "idx": 563,
+      "start": 2189.99,
+      "end": 2191.99,
+      "text": "And this release factor goes into the A site"
+    },
+    {
+      "idx": 564,
+      "start": 2191.99,
+      "end": 2193.99,
+      "text": "of the ribosomal subunit."
+    },
+    {
+      "idx": 565,
+      "start": 2193.99,
+      "end": 2195.99,
+      "text": "And when it does, it will actually use water."
+    },
+    {
+      "idx": 566,
+      "start": 2195.99,
+      "end": 2197.99,
+      "text": "It will actually use water to cut down"
+    },
+    {
+      "idx": 567,
+      "start": 2197.99,
+      "end": 2199.99,
+      "text": "this amino acid sequence."
+    },
+    {
+      "idx": 568,
+      "start": 2199.99,
+      "end": 2201.99,
+      "text": "And when that happens, the whole thing,"
+    },
+    {
+      "idx": 569,
+      "start": 2201.99,
+      "end": 2204.99,
+      "text": "the whole ribosome explodes."
+    },
+    {
+      "idx": 570,
+      "start": 2204.99,
+      "end": 2205.99,
+      "text": "It doesn't really explode."
+    },
+    {
+      "idx": 571,
+      "start": 2205.99,
+      "end": 2206.99,
+      "text": "It just dissociates."
+    },
+    {
+      "idx": 572,
+      "start": 2206.99,
+      "end": 2207.99,
+      "text": "I'm being dramatic."
+    },
+    {
+      "idx": 573,
+      "start": 2207.99,
+      "end": 2209.99,
+      "text": "But it dissociates."
+    },
+    {
+      "idx": 574,
+      "start": 2209.99,
+      "end": 2211.99,
+      "text": "And now, we don't have any more protein"
+    },
+    {
+      "idx": 575,
+      "start": 2211.99,
+      "end": 2214.99,
+      "text": "synthesis until we need it."
+    },
+    {
+      "idx": 576,
+      "start": 2214.99,
+      "end": 2216.99,
+      "text": "And the reason why we use a release factor"
+    },
+    {
+      "idx": 577,
+      "start": 2216.99,
+      "end": 2220.99,
+      "text": "is because tRNA does not read stop codons."
+    },
+    {
+      "idx": 578,
+      "start": 2220.99,
+      "end": 2224.08,
+      "text": "It actually uses the release factor."
+    },
+    {
+      "idx": 579,
+      "start": 2224.08,
+      "end": 2228.26,
+      "text": "And so within the release factor,"
+    },
+    {
+      "idx": 580,
+      "start": 2228.26,
+      "end": 2231.26,
+      "text": "an organism, you not just have one ribosome"
+    },
+    {
+      "idx": 581,
+      "start": 2231.26,
+      "end": 2235.26,
+      "text": "doing all the creation of proteins."
+    },
+    {
+      "idx": 582,
+      "start": 2235.26,
+      "end": 2237.26,
+      "text": "That would be really inefficient."
+    },
+    {
+      "idx": 583,
+      "start": 2238.26,
+      "end": 2241.26,
+      "text": "You have a million, trillion mRNAs in your body."
+    },
+    {
+      "idx": 584,
+      "start": 2241.26,
+      "end": 2244.26,
+      "text": "And so you need more than one ribosome to do this."
+    },
+    {
+      "idx": 585,
+      "start": 2244.26,
+      "end": 2246.26,
+      "text": "And so within one mRNA,"
+    },
+    {
+      "idx": 586,
+      "start": 2246.26,
+      "end": 2249.26,
+      "text": "you can have multiple ribosomes"
+    },
+    {
+      "idx": 587,
+      "start": 2249.26,
+      "end": 2252.26,
+      "text": "in different sections coding for amino acids."
+    },
+    {
+      "idx": 588,
+      "start": 2252.26,
+      "end": 2254.26,
+      "text": "So we can have amino acids over there,"
+    },
+    {
+      "idx": 589,
+      "start": 2254.26,
+      "end": 2257.26,
+      "text": "amino acid right there, right there, etc."
+    },
+    {
+      "idx": 590,
+      "start": 2257.26,
+      "end": 2260.26,
+      "text": "And so eventually, they will actually"
+    },
+    {
+      "idx": 591,
+      "start": 2260.26,
+      "end": 2263.26,
+      "text": "create amino acids at the same time."
+    },
+    {
+      "idx": 592,
+      "start": 2263.26,
+      "end": 2265.26,
+      "text": "And right here, we have a nice picture"
+    },
+    {
+      "idx": 593,
+      "start": 2265.26,
+      "end": 2267.26,
+      "text": "where we have these ribosomal subunits"
+    },
+    {
+      "idx": 594,
+      "start": 2267.26,
+      "end": 2270.26,
+      "text": "creating amino acids."
+    },
+    {
+      "idx": 595,
+      "start": 2270.26,
+      "end": 2272.45,
+      "text": "And it's very beautiful."
+    },
+    {
+      "idx": 596,
+      "start": 2272.45,
+      "end": 2274.74,
+      "text": "It's kind of weird if you think about it."
+    },
+    {
+      "idx": 597,
+      "start": 2274.74,
+      "end": 2276.77,
+      "text": "But I think it's beautiful."
+    },
+    {
+      "idx": 598,
+      "start": 2276.77,
+      "end": 2278.8,
+      "text": "Anyways, what I'm saying is"
+    },
+    {
+      "idx": 599,
+      "start": 2278.8,
+      "end": 2281.8,
+      "text": "this can occur simultaneously."
+    },
+    {
+      "idx": 600,
+      "start": 2281.8,
+      "end": 2282.8,
+      "text": "So we can have multiple subunits"
+    },
+    {
+      "idx": 601,
+      "start": 2282.8,
+      "end": 2287.98,
+      "text": "creating proteins at the same time."
+    },
+    {
+      "idx": 602,
+      "start": 2287.98,
+      "end": 2288.98,
+      "text": "You're probably wondering, whenever we make proteins,"
+    },
+    {
+      "idx": 603,
+      "start": 2288.98,
+      "end": 2291.98,
+      "text": "and we don't need it anymore,"
+    },
+    {
+      "idx": 604,
+      "start": 2291.98,
+      "end": 2293.98,
+      "text": "how do we get rid of them?"
+    },
+    {
+      "idx": 605,
+      "start": 2293.98,
+      "end": 2299.68,
+      "text": "And to that, I say that we use proteasomes."
+    },
+    {
+      "idx": 606,
+      "start": 2304.06,
+      "end": 2308.64,
+      "text": "These are little guys that we use to break down proteins."
+    },
+    {
+      "idx": 607,
+      "start": 2308.64,
+      "end": 2311.92,
+      "text": "So a proteasome contains a cylinder,"
+    },
+    {
+      "idx": 608,
+      "start": 2311.92,
+      "end": 2314.92,
+      "text": "and that cylinder is made from proteases,"
+    },
+    {
+      "idx": 609,
+      "start": 2314.92,
+      "end": 2316.92,
+      "text": "which are enzymes."
+    },
+    {
+      "idx": 610,
+      "start": 2316.92,
+      "end": 2319.92,
+      "text": "Now these proteases, they form active sites,"
+    },
+    {
+      "idx": 611,
+      "start": 2319.92,
+      "end": 2321.92,
+      "text": "and they face the inner chambers."
+    },
+    {
+      "idx": 612,
+      "start": 2321.92,
+      "end": 2325.02,
+      "text": "So here, we have a protease."
+    },
+    {
+      "idx": 613,
+      "start": 2325.02,
+      "end": 2329.42,
+      "text": "Let's write that better."
+    },
+    {
+      "idx": 614,
+      "start": 2331.42,
+      "end": 2335.28,
+      "text": "So this right here is a proteasome,"
+    },
+    {
+      "idx": 615,
+      "start": 2335.28,
+      "end": 2338.28,
+      "text": "and this center is a protease."
+    },
+    {
+      "idx": 616,
+      "start": 2338.28,
+      "end": 2341.28,
+      "text": "Now this protease has active sites"
+    },
+    {
+      "idx": 617,
+      "start": 2341.28,
+      "end": 2345.54,
+      "text": "all along its face, inside the center cylinder."
+    },
+    {
+      "idx": 618,
+      "start": 2345.54,
+      "end": 2348.54,
+      "text": "Now when a protein that is no longer needed"
+    },
+    {
+      "idx": 619,
+      "start": 2348.54,
+      "end": 2353.02,
+      "text": "enters this active site,"
+    },
+    {
+      "idx": 620,
+      "start": 2353.02,
+      "end": 2355.02,
+      "text": "it begins to get cut."
+    },
+    {
+      "idx": 621,
+      "start": 2355.02,
+      "end": 2360.31,
+      "text": "So this protease cleaves the peptide."
+    },
+    {
+      "idx": 622,
+      "start": 2360.31,
+      "end": 2363.31,
+      "text": "And when it's cleaved, it becomes inactivated,"
+    },
+    {
+      "idx": 623,
+      "start": 2363.31,
+      "end": 2366.31,
+      "text": "and it begins to be degraded."
+    },
+    {
+      "idx": 624,
+      "start": 2366.31,
+      "end": 2378.24,
+      "text": "So now this protein is degraded by protease."
+    },
+    {
+      "idx": 625,
+      "start": 2380.94,
+      "end": 2385.16,
+      "text": "So that is how we can get rid of proteins."
+    },
+    {
+      "idx": 626,
+      "start": 2385.16,
+      "end": 2388.16,
+      "text": "So again, to recap, proteasomes break down proteins"
+    },
+    {
+      "idx": 627,
+      "start": 2388.16,
+      "end": 2390.16,
+      "text": "by using protease."
+    },
+    {
+      "idx": 628,
+      "start": 2390.16,
+      "end": 2393.16,
+      "text": "And protease can be found within the center cylinder"
+    },
+    {
+      "idx": 629,
+      "start": 2393.16,
+      "end": 2395.16,
+      "text": "of the proteasomes."
+    },
+    {
+      "idx": 630,
+      "start": 2395.16,
+      "end": 2397.87,
+      "text": "And you're probably wondering,"
+    },
+    {
+      "idx": 631,
+      "start": 2397.87,
+      "end": 2400.87,
+      "text": "well, how do we know when to break down peptides?"
+    },
+    {
+      "idx": 632,
+      "start": 2400.87,
+      "end": 2402.87,
+      "text": "You know, if we don't know when to break down peptides,"
+    },
+    {
+      "idx": 633,
+      "start": 2402.87,
+      "end": 2404.87,
+      "text": "we're going to just break down all of the peptides"
+    },
+    {
+      "idx": 634,
+      "start": 2404.87,
+      "end": 2406.87,
+      "text": "in our body, and then we would die."
+    },
+    {
+      "idx": 635,
+      "start": 2406.87,
+      "end": 2409.87,
+      "text": "But our body is pretty smart, surprisingly."
+    },
+    {
+      "idx": 636,
+      "start": 2409.87,
+      "end": 2412.87,
+      "text": "Instead, what we have here"
+    },
+    {
+      "idx": 637,
+      "start": 2412.87,
+      "end": 2415.87,
+      "text": "is that we are going to be using some ubiquitin."
+    },
+    {
+      "idx": 638,
+      "start": 2415.87,
+      "end": 2417.87,
+      "text": "So we have poly, we have poly,"
+    },
+    {
+      "idx": 639,
+      "start": 2419.93,
+      "end": 2425.44,
+      "text": "u, u, ubiquitin."
+    },
+    {
+      "idx": 640,
+      "start": 2425.44,
+      "end": 2427.44,
+      "text": "And ubiquitin, in general,"
+    },
+    {
+      "idx": 641,
+      "start": 2427.44,
+      "end": 2430.44,
+      "text": "is kind of like a signal marker."
+    },
+    {
+      "idx": 642,
+      "start": 2433.08,
+      "end": 2438.1,
+      "text": "And it marks things that need to be degraded."
+    },
+    {
+      "idx": 643,
+      "start": 2438.1,
+      "end": 2441.2,
+      "text": "So, you know, we can write this."
+    },
+    {
+      "idx": 644,
+      "start": 2441.2,
+      "end": 2444.58,
+      "text": "It says signal marker, and we can say"
+    },
+    {
+      "idx": 645,
+      "start": 2444.58,
+      "end": 2451.45,
+      "text": "makes things break down."
+    },
+    {
+      "idx": 646,
+      "start": 2451.45,
+      "end": 2457.14,
+      "text": "So for instance, it's kind of like a,"
+    },
+    {
+      "idx": 647,
+      "start": 2457.14,
+      "end": 2459.33,
+      "text": "it's kind of like a message."
+    },
+    {
+      "idx": 648,
+      "start": 2459.33,
+      "end": 2463.65,
+      "text": "So whenever something is marked with polyubiquitin,"
+    },
+    {
+      "idx": 649,
+      "start": 2463.65,
+      "end": 2466.84,
+      "text": "the proteasome is going to open up."
+    },
+    {
+      "idx": 650,
+      "start": 2466.84,
+      "end": 2468.84,
+      "text": "And when it opens up,"
+    },
+    {
+      "idx": 651,
+      "start": 2468.84,
+      "end": 2472.84,
+      "text": "it accepts the peptide."
+    },
+    {
+      "idx": 652,
+      "start": 2472.84,
+      "end": 2475.84,
+      "text": "So the protein cannot enter the site"
+    },
+    {
+      "idx": 653,
+      "start": 2475.84,
+      "end": 2477.84,
+      "text": "without having a ticket."
+    },
+    {
+      "idx": 654,
+      "start": 2477.84,
+      "end": 2481.84,
+      "text": "And this ticket is the signal of polyubiquitin."
+    },
+    {
+      "idx": 655,
+      "start": 2481.84,
+      "end": 2483.84,
+      "text": "So whenever it presents the ticket"
+    },
+    {
+      "idx": 656,
+      "start": 2483.84,
+      "end": 2485.84,
+      "text": "to the proteasome, it says,"
+    },
+    {
+      "idx": 657,
+      "start": 2485.84,
+      "end": 2487.84,
+      "text": "okay, I see that you need to be degraded,"
+    },
+    {
+      "idx": 658,
+      "start": 2487.84,
+      "end": 2490.84,
+      "text": "and so I'm going to take your ticket,"
+    },
+    {
+      "idx": 659,
+      "start": 2490.84,
+      "end": 2493.13,
+      "text": "I'm going to throw it away,"
+    },
+    {
+      "idx": 660,
+      "start": 2493.13,
+      "end": 2495.13,
+      "text": "which is what happens here,"
+    },
+    {
+      "idx": 661,
+      "start": 2495.13,
+      "end": 2498.13,
+      "text": "and then I'm going to accept you into the active site."
+    },
+    {
+      "idx": 662,
+      "start": 2498.13,
+      "end": 2500.13,
+      "text": "So now whenever the protein,"
+    },
+    {
+      "idx": 663,
+      "start": 2500.13,
+      "end": 2502.13,
+      "text": "which has the polyubiquitin,"
+    },
+    {
+      "idx": 664,
+      "start": 2502.13,
+      "end": 2504.13,
+      "text": "enters the proteasome,"
+    },
+    {
+      "idx": 665,
+      "start": 2504.13,
+      "end": 2510.14,
+      "text": "it enters the protease."
+    },
+    {
+      "idx": 666,
+      "start": 2510.14,
+      "end": 2514.14,
+      "text": "So it enters the protease, which is the cylinder,"
+    },
+    {
+      "idx": 667,
+      "start": 2514.14,
+      "end": 2516.14,
+      "text": "and it begins to unfold."
+    },
+    {
+      "idx": 668,
+      "start": 2516.14,
+      "end": 2519.14,
+      "text": "So remember that peptides, or proteins,"
+    },
+    {
+      "idx": 669,
+      "start": 2519.14,
+      "end": 2521.14,
+      "text": "are folded in their active site."
+    },
+    {
+      "idx": 670,
+      "start": 2521.14,
+      "end": 2524.27,
+      "text": "So, sorry, not the active site,"
+    },
+    {
+      "idx": 671,
+      "start": 2524.27,
+      "end": 2526.27,
+      "text": "but the active form."
+    },
+    {
+      "idx": 672,
+      "start": 2526.27,
+      "end": 2529.27,
+      "text": "So when proteins are active, they're folded."
+    },
+    {
+      "idx": 673,
+      "start": 2529.27,
+      "end": 2531.27,
+      "text": "But what happens here is that protease"
+    },
+    {
+      "idx": 674,
+      "start": 2531.27,
+      "end": 2535.27,
+      "text": "will deactivate the protein by unfolding it."
+    },
+    {
+      "idx": 675,
+      "start": 2535.27,
+      "end": 2537.27,
+      "text": "And whenever it unfolds,"
+    },
+    {
+      "idx": 676,
+      "start": 2537.27,
+      "end": 2540.27,
+      "text": "it has more exposure to the active sites"
+    },
+    {
+      "idx": 677,
+      "start": 2540.27,
+      "end": 2542.27,
+      "text": "of the protease."
+    },
+    {
+      "idx": 678,
+      "start": 2542.27,
+      "end": 2544.27,
+      "text": "And when that happens, it begins to get cut,"
+    },
+    {
+      "idx": 679,
+      "start": 2544.27,
+      "end": 2547.27,
+      "text": "and it gets cleaved even more."
+    },
+    {
+      "idx": 680,
+      "start": 2547.27,
+      "end": 2550.27,
+      "text": "And so eventually, we have protein degradation."
+    },
+    {
+      "idx": 681,
+      "start": 2550.27,
+      "end": 2553.75,
+      "text": "So to recap, when a protein needs to be destroyed,"
+    },
+    {
+      "idx": 682,
+      "start": 2553.75,
+      "end": 2555.75,
+      "text": "it is marked with ubiquitin."
+    },
+    {
+      "idx": 683,
+      "start": 2555.75,
+      "end": 2557.75,
+      "text": "And that's for anything in the cell."
+    },
+    {
+      "idx": 684,
+      "start": 2557.75,
+      "end": 2561.0,
+      "text": "You can have a lysosome that is marked with ubiquitin,"
+    },
+    {
+      "idx": 685,
+      "start": 2561.0,
+      "end": 2563.0,
+      "text": "and it would actually be degraded."
+    },
+    {
+      "idx": 686,
+      "start": 2563.0,
+      "end": 2566.0,
+      "text": "So in general, when something is marked with ubiquitin,"
+    },
+    {
+      "idx": 687,
+      "start": 2566.0,
+      "end": 2568.0,
+      "text": "it's going to be destroyed."
+    },
+    {
+      "idx": 688,
+      "start": 2568.0,
+      "end": 2571.1,
+      "text": "So when protein is marked with ubiquitin,"
+    },
+    {
+      "idx": 689,
+      "start": 2571.1,
+      "end": 2573.1,
+      "text": "it presents the ubiquitin to proteasome."
+    },
+    {
+      "idx": 690,
+      "start": 2573.1,
+      "end": 2576.1,
+      "text": "Proteasome opens the, I guess, mouth of it."
+    },
+    {
+      "idx": 691,
+      "start": 2576.1,
+      "end": 2578.1,
+      "text": "And it accepts the ubiquitin."
+    },
+    {
+      "idx": 692,
+      "start": 2578.1,
+      "end": 2580.1,
+      "text": "And then it opens the mouth of the cell."
+    },
+    {
+      "idx": 693,
+      "start": 2580.1,
+      "end": 2582.1,
+      "text": "And it accepts the protein."
+    },
+    {
+      "idx": 694,
+      "start": 2582.1,
+      "end": 2586.1,
+      "text": "When this happens, it gets rid of the ubiquitin."
+    },
+    {
+      "idx": 695,
+      "start": 2586.1,
+      "end": 2589.16,
+      "text": "And it enters the protein."
+    },
+    {
+      "idx": 696,
+      "start": 2589.16,
+      "end": 2591.16,
+      "text": "And it unfolds the protein."
+    },
+    {
+      "idx": 697,
+      "start": 2591.16,
+      "end": 2593.16,
+      "text": "And this allows for more exposure"
+    },
+    {
+      "idx": 698,
+      "start": 2593.16,
+      "end": 2595.16,
+      "text": "to the active site of protease."
+    },
+    {
+      "idx": 699,
+      "start": 2595.16,
+      "end": 2600.49,
+      "text": "And it becomes cut down."
+    },
+    {
+      "idx": 700,
+      "start": 2600.49,
+      "end": 2604.49,
+      "text": "So after that whole fiasco of proteins being broken down,"
+    },
+    {
+      "idx": 701,
+      "start": 2604.49,
+      "end": 2608.49,
+      "text": "let's watch a video about how proteins are made"
+    },
+    {
+      "idx": 702,
+      "start": 2608.49,
+      "end": 2612.49,
+      "text": "and how everything that I just taught you ties together."
+    },
+    {
+      "idx": 703,
+      "start": 2615.06,
+      "end": 2619.06,
+      "text": "The mRNA is to carry the gene's message from the DNA"
+    },
+    {
+      "idx": 704,
+      "start": 2619.06,
+      "end": 2621.06,
+      "text": "out of the nucleus to a ribosome"
+    },
+    {
+      "idx": 705,
+      "start": 2621.06,
+      "end": 2627.79,
+      "text": "for production of the particular protein that this gene codes for."
+    },
+    {
+      "idx": 706,
+      "start": 2627.79,
+      "end": 2634.2,
+      "text": "There can be several million ribosomes in a typical eukaryotic cell."
+    },
+    {
+      "idx": 707,
+      "start": 2634.2,
+      "end": 2639.2,
+      "text": "These complex catalytic machines use the mRNA copy of the genetic information"
+    },
+    {
+      "idx": 708,
+      "start": 2639.2,
+      "end": 2643.2,
+      "text": "to assemble amino acid building blocks into the three-dimensional proteins"
+    },
+    {
+      "idx": 709,
+      "start": 2643.2,
+      "end": 2646.35,
+      "text": "that are essential for life."
+    },
+    {
+      "idx": 710,
+      "start": 2646.35,
+      "end": 2649.79,
+      "text": "Let's see how it works."
+    },
+    {
+      "idx": 711,
+      "start": 2650.79,
+      "end": 2653.79,
+      "text": "The ribosome is composed of one large and one small subunit"
+    },
+    {
+      "idx": 712,
+      "start": 2653.79,
+      "end": 2656.79,
+      "text": "that assemble around the messenger RNA,"
+    },
+    {
+      "idx": 713,
+      "start": 2656.79,
+      "end": 2663.12,
+      "text": "which then passes through the ribosome like a computer tape."
+    },
+    {
+      "idx": 714,
+      "start": 2663.12,
+      "end": 2665.12,
+      "text": "The amino acid building blocks,"
+    },
+    {
+      "idx": 715,
+      "start": 2665.12,
+      "end": 2667.12,
+      "text": "that's the small glowing red molecules,"
+    },
+    {
+      "idx": 716,
+      "start": 2667.12,
+      "end": 2673.12,
+      "text": "are carried into the ribosome attached to specific transfer RNAs."
+    },
+    {
+      "idx": 717,
+      "start": 2673.12,
+      "end": 2679.76,
+      "text": "That's the larger green molecules also referred to as tRNA."
+    },
+    {
+      "idx": 718,
+      "start": 2679.76,
+      "end": 2683.76,
+      "text": "The small subunit of the ribosome positions the mRNA"
+    },
+    {
+      "idx": 719,
+      "start": 2683.76,
+      "end": 2688.36,
+      "text": "so that it can be read in groups of three letters known as a codon."
+    },
+    {
+      "idx": 720,
+      "start": 2688.36,
+      "end": 2693.36,
+      "text": "Each codon on the mRNA matches a corresponding anticodon"
+    },
+    {
+      "idx": 721,
+      "start": 2693.36,
+      "end": 2696.36,
+      "text": "on the base of a transfer RNA molecule."
+    },
+    {
+      "idx": 722,
+      "start": 2696.36,
+      "end": 2701.93,
+      "text": "The larger subunit of the ribosome removes each amino acid"
+    },
+    {
+      "idx": 723,
+      "start": 2701.93,
+      "end": 2704.93,
+      "text": "and joins it onto the growing protein chain."
+    },
+    {
+      "idx": 724,
+      "start": 2704.93,
+      "end": 2711.52,
+      "text": "As the mRNA is ratcheted through the ribosome,"
+    },
+    {
+      "idx": 725,
+      "start": 2711.52,
+      "end": 2718.67,
+      "text": "the mRNA sequence is translated into an amino acid sequence."
+    },
+    {
+      "idx": 726,
+      "start": 2718.67,
+      "end": 2721.67,
+      "text": "There are three locations inside the ribosome,"
+    },
+    {
+      "idx": 727,
+      "start": 2721.67,
+      "end": 2729.58,
+      "text": "designated the A site, the P site, and the E site."
+    },
+    {
+      "idx": 728,
+      "start": 2729.58,
+      "end": 2733.58,
+      "text": "The addition of each amino acid is a three-step cycle."
+    },
+    {
+      "idx": 729,
+      "start": 2733.58,
+      "end": 2738.12,
+      "text": "First, the tRNA enters the ribosome at the A site"
+    },
+    {
+      "idx": 730,
+      "start": 2738.12,
+      "end": 2744.6,
+      "text": "and is tested for a codon-anticodon match with the mRNA."
+    },
+    {
+      "idx": 731,
+      "start": 2744.6,
+      "end": 2747.6,
+      "text": "Next, provided there is a correct match,"
+    },
+    {
+      "idx": 732,
+      "start": 2747.6,
+      "end": 2750.6,
+      "text": "the tRNA is shifted to the P site,"
+    },
+    {
+      "idx": 733,
+      "start": 2750.6,
+      "end": 2752.6,
+      "text": "and the amino acid it carries is added to the end"
+    },
+    {
+      "idx": 734,
+      "start": 2752.6,
+      "end": 2754.6,
+      "text": "of the amino acid chain."
+    },
+    {
+      "idx": 735,
+      "start": 2754.6,
+      "end": 2761.84,
+      "text": "The mRNA is also ratcheted on three nucleotides, or one codon."
+    },
+    {
+      "idx": 736,
+      "start": 2761.84,
+      "end": 2766.26,
+      "text": "Thirdly, the spent tRNA is moved to the E site"
+    },
+    {
+      "idx": 737,
+      "start": 2766.26,
+      "end": 2769.26,
+      "text": "and then ejected from the ribosome to be recycled."
+    },
+    {
+      "idx": 738,
+      "start": 2769.26,
+      "end": 2774.12,
+      "text": "As the protein synthesis proceeds,"
+    },
+    {
+      "idx": 739,
+      "start": 2774.12,
+      "end": 2777.12,
+      "text": "the finished chain emerges from the ribosome."
+    },
+    {
+      "idx": 740,
+      "start": 2777.12,
+      "end": 2779.18,
+      "text": "It folds up into a precise shape"
+    },
+    {
+      "idx": 741,
+      "start": 2779.18,
+      "end": 2783.56,
+      "text": "determined by the exact order of amino acids."
+    },
+    {
+      "idx": 742,
+      "start": 2783.56,
+      "end": 2785.56,
+      "text": "Thus, the central dogma explains"
+    },
+    {
+      "idx": 743,
+      "start": 2785.56,
+      "end": 2789.56,
+      "text": "how the four-letter DNA code is, quite literally,"
+    },
+    {
+      "idx": 744,
+      "start": 2789.56,
+      "end": 2791.56,
+      "text": "turned into flesh and blood."
+    },
+    {
+      "idx": 745,
+      "start": 2791.56,
+      "end": 2800.65,
+      "text": "And that concludes the lecture over tRNA"
+    },
+    {
+      "idx": 746,
+      "start": 2800.65,
+      "end": 2803.65,
+      "text": "and how protein is translated."
+    },
+    {
+      "idx": 747,
+      "start": 2803.65,
+      "end": 2806.65,
+      "text": "So hopefully you understand how protein is translated,"
+    },
+    {
+      "idx": 748,
+      "start": 2806.65,
+      "end": 2808.65,
+      "text": "how we even make mRNA,"
+    },
+    {
+      "idx": 749,
+      "start": 2808.65,
+      "end": 2812.65,
+      "text": "how we splice exons and entrons and whatever we do."
+    },
+    {
+      "idx": 750,
+      "start": 2812.65,
+      "end": 2817.65,
+      "text": "And hopefully you understand how genetic information is processed and made."
+    },
+    {
+      "idx": 751,
+      "start": 2817.65,
+      "end": 2819.75,
+      "text": "So thank you so much for watching these videos."
+    },
+    {
+      "idx": 752,
+      "start": 2820.75,
+      "end": 2822.75,
+      "text": "And I hope that you have a great day."
+    },
+    {
+      "idx": 753,
+      "start": 2822.75,
+      "end": 2824.75,
+      "text": "And remember that I love you"
+    },
+    {
+      "idx": 754,
+      "start": 2824.75,
+      "end": 2828.81,
+      "text": "and that you are really, really cool."
+    },
+    {
+      "idx": 755,
+      "start": 2828.81,
+      "end": 2832.0,
+      "text": "And I'm glad to have known you."
+    },
+    {
+      "idx": 756,
+      "start": 2832.0,
+      "end": 2835.55,
+      "text": "Alright, I love you, and take care."
+    }
+  ]
+}

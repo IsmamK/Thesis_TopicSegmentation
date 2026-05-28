@@ -1,0 +1,127 @@
+{
+  "video_id": "j0wJBEZdwLs",
+  "annotator": "llm_b",
+  "status": "draft",
+  "double_mode": true,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Understanding the engine"
+    },
+    {
+      "start_sec": 76.0,
+      "title": "Key background ideas"
+    },
+    {
+      "start_sec": 341.0,
+      "title": "Definition and intuition"
+    },
+    {
+      "start_sec": 643.0,
+      "title": "Complex integration"
+    },
+    {
+      "start_sec": 1243.0,
+      "title": "Analytic continuation"
+    },
+    {
+      "start_sec": 1432.0,
+      "title": "The transform of exponentials"
+    },
+    {
+      "start_sec": 1575.0,
+      "title": "A deep look at cos(t)"
+    },
+    {
+      "start_sec": 1979.0,
+      "title": "What’s coming next"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Understanding the engine"
+    },
+    {
+      "start_sec": 76.0,
+      "chapter_idx": 1,
+      "title": "Problem of the Laplace Transform"
+    },
+    {
+      "start_sec": 195.0,
+      "chapter_idx": 1,
+      "title": "Exponential Functions and Complex Numbers"
+    },
+    {
+      "start_sec": 265.0,
+      "chapter_idx": 1,
+      "title": "Expressing Functions as Exponential Pieces"
+    },
+    {
+      "start_sec": 341.0,
+      "chapter_idx": 2,
+      "title": "Laplace Transform Introduction"
+    },
+    {
+      "start_sec": 510.0,
+      "chapter_idx": 2,
+      "title": "Transformed Function and Poles"
+    },
+    {
+      "start_sec": 643.0,
+      "chapter_idx": 3,
+      "title": "Complex Integration Basics"
+    },
+    {
+      "start_sec": 870.0,
+      "chapter_idx": 3,
+      "title": "Interpreting Integrals as Area"
+    },
+    {
+      "start_sec": 1095.0,
+      "chapter_idx": 3,
+      "title": "Visualizing Complex Functions"
+    },
+    {
+      "start_sec": 1243.0,
+      "chapter_idx": 4,
+      "title": "Analytic Continuation Concept"
+    },
+    {
+      "start_sec": 1350.0,
+      "chapter_idx": 4,
+      "title": "Constrained Extension of Complex Functions"
+    },
+    {
+      "start_sec": 1432.0,
+      "chapter_idx": 5,
+      "title": "The Laplace Transform of a Constant Function"
+    },
+    {
+      "start_sec": 1515.0,
+      "chapter_idx": 5,
+      "title": "Transforming Exponential Functions with Shifts"
+    },
+    {
+      "start_sec": 1575.0,
+      "chapter_idx": 6,
+      "title": "Symbolic Reasoning for Cosine of t"
+    },
+    {
+      "start_sec": 1770.0,
+      "chapter_idx": 6,
+      "title": "Visualizing the Laplace Transform"
+    },
+    {
+      "start_sec": 1905.0,
+      "chapter_idx": 6,
+      "title": "Analytic Continuation and Convergence"
+    },
+    {
+      "start_sec": 1979.0,
+      "chapter_idx": 7,
+      "title": "What’s coming next"
+    }
+  ]
+}

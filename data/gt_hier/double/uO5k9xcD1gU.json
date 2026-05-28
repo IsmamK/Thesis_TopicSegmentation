@@ -1,0 +1,168 @@
+{
+  "video_id": "uO5k9xcD1gU",
+  "annotator": "llm_b",
+  "status": "draft",
+  "double_mode": true,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Introduction"
+    },
+    {
+      "start_sec": 545.0,
+      "title": "tRNA"
+    },
+    {
+      "start_sec": 1308.0,
+      "title": "peptide bond formation"
+    },
+    {
+      "start_sec": 1374.0,
+      "title": "tRNA binding sites"
+    },
+    {
+      "start_sec": 1872.0,
+      "title": "Translation initiation factor"
+    },
+    {
+      "start_sec": 1970.0,
+      "title": "Covalent bond"
+    },
+    {
+      "start_sec": 2038.0,
+      "title": "Stop codons"
+    },
+    {
+      "start_sec": 2225.0,
+      "title": "Multiple subunits"
+    },
+    {
+      "start_sec": 2286.0,
+      "title": "Proteasomes"
+    },
+    {
+      "start_sec": 2396.0,
+      "title": "Polyubiquitin"
+    },
+    {
+      "start_sec": 2613.0,
+      "title": "Protein Production"
+    },
+    {
+      "start_sec": 2796.0,
+      "title": "Outro"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "mRNA Translation Overview"
+    },
+    {
+      "start_sec": 485.0,
+      "chapter_idx": 0,
+      "title": "Codons and Amino Acids"
+    },
+    {
+      "start_sec": 485.0,
+      "chapter_idx": 0,
+      "title": "Start and Stop Codons"
+    },
+    {
+      "start_sec": 545.0,
+      "chapter_idx": 1,
+      "title": "The Structure of tRNA"
+    },
+    {
+      "start_sec": 860.0,
+      "chapter_idx": 1,
+      "title": "The Anticodon and Complementary Strand"
+    },
+    {
+      "start_sec": 1110.0,
+      "chapter_idx": 1,
+      "title": "Unusual Bases in tRNA"
+    },
+    {
+      "start_sec": 1308.0,
+      "chapter_idx": 2,
+      "title": "peptide bond formation"
+    },
+    {
+      "start_sec": 1374.0,
+      "chapter_idx": 3,
+      "title": "Ribosome Structure"
+    },
+    {
+      "start_sec": 1575.0,
+      "chapter_idx": 3,
+      "title": "tRNA Binding Sites and Process"
+    },
+    {
+      "start_sec": 1725.0,
+      "chapter_idx": 3,
+      "title": "Amino Acid Synthesis Cycle"
+    },
+    {
+      "start_sec": 1872.0,
+      "chapter_idx": 4,
+      "title": "Translation initiation factor"
+    },
+    {
+      "start_sec": 1970.0,
+      "chapter_idx": 5,
+      "title": "Covalent bond"
+    },
+    {
+      "start_sec": 2038.0,
+      "chapter_idx": 6,
+      "title": "Stop Codons"
+    },
+    {
+      "start_sec": 2165.0,
+      "chapter_idx": 6,
+      "title": "Release Factor and A Site"
+    },
+    {
+      "start_sec": 2225.0,
+      "chapter_idx": 7,
+      "title": "Multiple subunits"
+    },
+    {
+      "start_sec": 2286.0,
+      "chapter_idx": 8,
+      "title": "Proteasomes"
+    },
+    {
+      "start_sec": 2396.0,
+      "chapter_idx": 9,
+      "title": "Ubiquitin as Signal Marker"
+    },
+    {
+      "start_sec": 2553.0,
+      "chapter_idx": 9,
+      "title": "Proteasome Activation and Protein Degradation"
+    },
+    {
+      "start_sec": 2553.0,
+      "chapter_idx": 9,
+      "title": "Ubiquitin Removal and Proteolytic Processing"
+    },
+    {
+      "start_sec": 2613.0,
+      "chapter_idx": 10,
+      "title": "mRNA and Ribosome Assembly"
+    },
+    {
+      "start_sec": 2710.0,
+      "chapter_idx": 10,
+      "title": "tRNA and Codon Matching Process"
+    },
+    {
+      "start_sec": 2796.0,
+      "chapter_idx": 11,
+      "title": "Outro"
+    }
+  ]
+}

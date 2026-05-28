@@ -1,0 +1,158 @@
+{
+  "video_id": "uO5k9xcD1gU",
+  "annotator": "llm_a",
+  "status": "reviewed",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Introduction"
+    },
+    {
+      "start_sec": 545.0,
+      "title": "tRNA"
+    },
+    {
+      "start_sec": 1308.0,
+      "title": "peptide bond formation"
+    },
+    {
+      "start_sec": 1374.0,
+      "title": "tRNA binding sites"
+    },
+    {
+      "start_sec": 1872.0,
+      "title": "Translation initiation factor"
+    },
+    {
+      "start_sec": 1970.0,
+      "title": "Covalent bond"
+    },
+    {
+      "start_sec": 2038.0,
+      "title": "Stop codons"
+    },
+    {
+      "start_sec": 2225.0,
+      "title": "Multiple subunits"
+    },
+    {
+      "start_sec": 2286.0,
+      "title": "Proteasomes"
+    },
+    {
+      "start_sec": 2396.0,
+      "title": "Polyubiquitin"
+    },
+    {
+      "start_sec": 2613.0,
+      "title": "Protein Production"
+    },
+    {
+      "start_sec": 2796.0,
+      "title": "Outro"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "mRNA Translation Basics"
+    },
+    {
+      "start_sec": 485.0,
+      "chapter_idx": 0,
+      "title": "Codons and Amino Acids"
+    },
+    {
+      "start_sec": 485.0,
+      "chapter_idx": 0,
+      "title": "Start and Stop Codons"
+    },
+    {
+      "start_sec": 545.0,
+      "chapter_idx": 1,
+      "title": "tRNA Anatomy"
+    },
+    {
+      "start_sec": 870.0,
+      "chapter_idx": 1,
+      "title": "Reading Anticodons"
+    },
+    {
+      "start_sec": 1100.0,
+      "chapter_idx": 1,
+      "title": "Unusual Bases in tRNA"
+    },
+    {
+      "start_sec": 1308.0,
+      "chapter_idx": 2,
+      "title": "peptide bond formation"
+    },
+    {
+      "start_sec": 1374.0,
+      "chapter_idx": 3,
+      "title": "Ribosome Structure and tRNA Binding"
+    },
+    {
+      "start_sec": 1650.0,
+      "chapter_idx": 3,
+      "title": "Amino Acid Synthesis Process"
+    },
+    {
+      "start_sec": 1872.0,
+      "chapter_idx": 4,
+      "title": "Translation initiation factor"
+    },
+    {
+      "start_sec": 1970.0,
+      "chapter_idx": 5,
+      "title": "Covalent bond"
+    },
+    {
+      "start_sec": 2038.0,
+      "chapter_idx": 6,
+      "title": "Stop Codons"
+    },
+    {
+      "start_sec": 2165.0,
+      "chapter_idx": 6,
+      "title": "Release Factor's Role"
+    },
+    {
+      "start_sec": 2225.0,
+      "chapter_idx": 7,
+      "title": "Multiple subunits"
+    },
+    {
+      "start_sec": 2286.0,
+      "chapter_idx": 8,
+      "title": "Proteasomes"
+    },
+    {
+      "start_sec": 2396.0,
+      "chapter_idx": 9,
+      "title": "Why Proteins Need to be Degraded"
+    },
+    {
+      "start_sec": 2553.0,
+      "chapter_idx": 9,
+      "title": "Role of Polyubiquitin in Protein Degradation"
+    },
+    {
+      "start_sec": 2613.0,
+      "chapter_idx": 10,
+      "title": "The mRNA's Role in Protein Production"
+    },
+    {
+      "start_sec": 2730.0,
+      "chapter_idx": 10,
+      "title": "How Ribosomes Assemble Amino Acids"
+    },
+    {
+      "start_sec": 2796.0,
+      "chapter_idx": 11,
+      "title": "Outro"
+    }
+  ]
+}

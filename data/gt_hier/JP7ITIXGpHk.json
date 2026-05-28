@@ -1,0 +1,489 @@
+{
+  "video_id": "JP7ITIXGpHk",
+  "annotator": "llm_a",
+  "status": "reviewed",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Introduction"
+    },
+    {
+      "start_sec": 24.0,
+      "title": "hello.py"
+    },
+    {
+      "start_sec": 199.0,
+      "title": "Command-line Interface"
+    },
+    {
+      "start_sec": 240.0,
+      "title": "Python Interpreter"
+    },
+    {
+      "start_sec": 306.0,
+      "title": "Functions, Arguments, Side Effects"
+    },
+    {
+      "start_sec": 455.0,
+      "title": "Bugs and Debugging"
+    },
+    {
+      "start_sec": 594.0,
+      "title": "VS Code and Integrated Development Environments (IDEs)"
+    },
+    {
+      "start_sec": 736.0,
+      "title": "Return Values and Variables"
+    },
+    {
+      "start_sec": 1196.0,
+      "title": "Comments and Pseudocode"
+    },
+    {
+      "start_sec": 1505.0,
+      "title": "Multiple Function Arguments"
+    },
+    {
+      "start_sec": 1861.0,
+      "title": "Named Parameters"
+    },
+    {
+      "start_sec": 2448.0,
+      "title": "Escaping Characters"
+    },
+    {
+      "start_sec": 2590.0,
+      "title": "f-Strings"
+    },
+    {
+      "start_sec": 2704.0,
+      "title": "String Methods"
+    },
+    {
+      "start_sec": 3283.0,
+      "title": "Style"
+    },
+    {
+      "start_sec": 3470.0,
+      "title": "split"
+    },
+    {
+      "start_sec": 3575.0,
+      "title": "Integers and Operators"
+    },
+    {
+      "start_sec": 3793.0,
+      "title": "calculator.py"
+    },
+    {
+      "start_sec": 3985.0,
+      "title": "Type Conversion"
+    },
+    {
+      "start_sec": 4476.0,
+      "title": "Floating Point Values"
+    },
+    {
+      "start_sec": 4758.0,
+      "title": "Numeric Formatting"
+    },
+    {
+      "start_sec": 4967.0,
+      "title": "Division"
+    },
+    {
+      "start_sec": 5174.0,
+      "title": "Defining Functions"
+    },
+    {
+      "start_sec": 5941.0,
+      "title": "Scope"
+    },
+    {
+      "start_sec": 6077.0,
+      "title": "Return Values"
+    },
+    {
+      "start_sec": 6311.0,
+      "title": "Conclusion"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Introduction"
+    },
+    {
+      "start_sec": 24.0,
+      "chapter_idx": 1,
+      "title": "Introduction to the lecture"
+    },
+    {
+      "start_sec": 105.0,
+      "chapter_idx": 1,
+      "title": "Using Visual Studio Code for coding"
+    },
+    {
+      "start_sec": 139.0,
+      "chapter_idx": 1,
+      "title": "Writing a simple Python program (hello.py)"
+    },
+    {
+      "start_sec": 139.0,
+      "chapter_idx": 1,
+      "title": "Running the Python program from command line interface"
+    },
+    {
+      "start_sec": 199.0,
+      "chapter_idx": 2,
+      "title": "Command-line Interface"
+    },
+    {
+      "start_sec": 240.0,
+      "chapter_idx": 3,
+      "title": "Python Interpreter"
+    },
+    {
+      "start_sec": 306.0,
+      "chapter_idx": 4,
+      "title": "Writing First Program in Python"
+    },
+    {
+      "start_sec": 372.0,
+      "chapter_idx": 4,
+      "title": "Understanding Functions in Programming"
+    },
+    {
+      "start_sec": 395.0,
+      "chapter_idx": 4,
+      "title": "Exploring the Print Function and Arguments"
+    },
+    {
+      "start_sec": 455.0,
+      "chapter_idx": 5,
+      "title": "Introduction to Bugs"
+    },
+    {
+      "start_sec": 522.0,
+      "chapter_idx": 5,
+      "title": "Explanation of Syntax Errors"
+    },
+    {
+      "start_sec": 534.0,
+      "chapter_idx": 5,
+      "title": "Debugging and Error Correction"
+    },
+    {
+      "start_sec": 594.0,
+      "chapter_idx": 6,
+      "title": "Writing Code with Word or Excel"
+    },
+    {
+      "start_sec": 636.0,
+      "chapter_idx": 6,
+      "title": "Introducing VS Code as a Text Editor"
+    },
+    {
+      "start_sec": 736.0,
+      "chapter_idx": 7,
+      "title": "Improving the Program Interactivity"
+    },
+    {
+      "start_sec": 828.0,
+      "chapter_idx": 7,
+      "title": "Asking User for Input"
+    },
+    {
+      "start_sec": 936.0,
+      "chapter_idx": 7,
+      "title": "Simplifying Code with input Function"
+    },
+    {
+      "start_sec": 1044.0,
+      "chapter_idx": 7,
+      "title": "Handling User's Input and Return Values"
+    },
+    {
+      "start_sec": 1196.0,
+      "chapter_idx": 8,
+      "title": "Introduction to Comments"
+    },
+    {
+      "start_sec": 1428.0,
+      "chapter_idx": 8,
+      "title": "Writing Comments in Python"
+    },
+    {
+      "start_sec": 1445.0,
+      "chapter_idx": 8,
+      "title": "Purpose of Comments"
+    },
+    {
+      "start_sec": 1445.0,
+      "chapter_idx": 8,
+      "title": "Pseudocode as a Planning Tool"
+    },
+    {
+      "start_sec": 1505.0,
+      "chapter_idx": 9,
+      "title": "Problem Statement - Improving Program Output"
+    },
+    {
+      "start_sec": 1638.0,
+      "chapter_idx": 9,
+      "title": "Solution Approach - Manual String Concatenation"
+    },
+    {
+      "start_sec": 1801.0,
+      "chapter_idx": 9,
+      "title": "Aesthetic Considerations - Space After Question Mark"
+    },
+    {
+      "start_sec": 1801.0,
+      "chapter_idx": 9,
+      "title": "Function Arguments - Multiple Arguments in Print Function"
+    },
+    {
+      "start_sec": 1861.0,
+      "chapter_idx": 10,
+      "title": "Introduction to Named Parameters"
+    },
+    {
+      "start_sec": 2124.0,
+      "chapter_idx": 10,
+      "title": "Understanding Python Strings (stirs)"
+    },
+    {
+      "start_sec": 2268.0,
+      "chapter_idx": 10,
+      "title": "Improving the Code with Multiple print Statements"
+    },
+    {
+      "start_sec": 2356.0,
+      "chapter_idx": 10,
+      "title": "Overriding Behavior of print Function"
+    },
+    {
+      "start_sec": 2448.0,
+      "chapter_idx": 11,
+      "title": "Corner Case with Quotation Marks"
+    },
+    {
+      "start_sec": 2496.0,
+      "chapter_idx": 11,
+      "title": "Printing a Sentence with Quotes"
+    },
+    {
+      "start_sec": 2530.0,
+      "chapter_idx": 11,
+      "title": "Solving the Problem with Single or Double Quotes"
+    },
+    {
+      "start_sec": 2530.0,
+      "chapter_idx": 11,
+      "title": "Using Escaping Characters"
+    },
+    {
+      "start_sec": 2590.0,
+      "chapter_idx": 12,
+      "title": "f-Strings"
+    },
+    {
+      "start_sec": 2704.0,
+      "chapter_idx": 13,
+      "title": "Potential issues with user input"
+    },
+    {
+      "start_sec": 2916.0,
+      "chapter_idx": 13,
+      "title": "Built-in string functionality in Python"
+    },
+    {
+      "start_sec": 3132.0,
+      "chapter_idx": 13,
+      "title": "Removing white space from strings (strip method)"
+    },
+    {
+      "start_sec": 3283.0,
+      "chapter_idx": 14,
+      "title": "Code Comparison"
+    },
+    {
+      "start_sec": 3378.0,
+      "chapter_idx": 14,
+      "title": "Readability vs. Length"
+    },
+    {
+      "start_sec": 3470.0,
+      "chapter_idx": 15,
+      "title": "split"
+    },
+    {
+      "start_sec": 3575.0,
+      "chapter_idx": 16,
+      "title": "Introduction to Integers"
+    },
+    {
+      "start_sec": 3642.0,
+      "chapter_idx": 16,
+      "title": "Python Operators Overview"
+    },
+    {
+      "start_sec": 3708.0,
+      "chapter_idx": 16,
+      "title": "Interactive Python Mode"
+    },
+    {
+      "start_sec": 3733.0,
+      "chapter_idx": 16,
+      "title": "Creating a Simple Calculator"
+    },
+    {
+      "start_sec": 3793.0,
+      "chapter_idx": 17,
+      "title": "Creating a new Python file"
+    },
+    {
+      "start_sec": 3865.0,
+      "chapter_idx": 17,
+      "title": "Declaring variables and basic calculation"
+    },
+    {
+      "start_sec": 3925.0,
+      "chapter_idx": 17,
+      "title": "Making the calculator interactive"
+    },
+    {
+      "start_sec": 3925.0,
+      "chapter_idx": 17,
+      "title": "Identifying and resolving string concatenation issue"
+    },
+    {
+      "start_sec": 3985.0,
+      "chapter_idx": 18,
+      "title": "Resolving Type Mismatch"
+    },
+    {
+      "start_sec": 4188.0,
+      "chapter_idx": 18,
+      "title": "Converting Strings to Integers"
+    },
+    {
+      "start_sec": 4350.0,
+      "chapter_idx": 18,
+      "title": "Improving Code Efficiency"
+    },
+    {
+      "start_sec": 4416.0,
+      "chapter_idx": 18,
+      "title": "Nesting Functions"
+    },
+    {
+      "start_sec": 4476.0,
+      "chapter_idx": 19,
+      "title": "Transition to Floating Point Values"
+    },
+    {
+      "start_sec": 4524.0,
+      "chapter_idx": 19,
+      "title": "Modifying the Calculator for Floating Points"
+    },
+    {
+      "start_sec": 4620.0,
+      "chapter_idx": 19,
+      "title": "Rounding Floating Point Results"
+    },
+    {
+      "start_sec": 4698.0,
+      "chapter_idx": 19,
+      "title": "Using Round Function in Python"
+    },
+    {
+      "start_sec": 4758.0,
+      "chapter_idx": 20,
+      "title": "Arithmetic with Integers"
+    },
+    {
+      "start_sec": 4845.0,
+      "chapter_idx": 20,
+      "title": "Number Formatting in US Approach"
+    },
+    {
+      "start_sec": 4896.0,
+      "chapter_idx": 20,
+      "title": "Formatting Numbers with F strings"
+    },
+    {
+      "start_sec": 4907.0,
+      "chapter_idx": 20,
+      "title": "Limitations of Floats"
+    },
+    {
+      "start_sec": 4967.0,
+      "chapter_idx": 21,
+      "title": "Introduction to Division"
+    },
+    {
+      "start_sec": 5038.0,
+      "chapter_idx": 21,
+      "title": "Simple Division with Python Calculator"
+    },
+    {
+      "start_sec": 5114.0,
+      "chapter_idx": 21,
+      "title": "Rounding Results of Division"
+    },
+    {
+      "start_sec": 5114.0,
+      "chapter_idx": 21,
+      "title": "F-string Approach to Rounding"
+    },
+    {
+      "start_sec": 5174.0,
+      "chapter_idx": 22,
+      "title": "Transition to Functions"
+    },
+    {
+      "start_sec": 5458.0,
+      "chapter_idx": 22,
+      "title": "Creating a Custom Function"
+    },
+    {
+      "start_sec": 5687.0,
+      "chapter_idx": 22,
+      "title": "Defining a Function in Python"
+    },
+    {
+      "start_sec": 5941.0,
+      "chapter_idx": 23,
+      "title": "Defining Function and Arguments"
+    },
+    {
+      "start_sec": 6017.0,
+      "chapter_idx": 23,
+      "title": "Variable Scope Issue"
+    },
+    {
+      "start_sec": 6077.0,
+      "chapter_idx": 24,
+      "title": "Function Return Values"
+    },
+    {
+      "start_sec": 6156.0,
+      "chapter_idx": 24,
+      "title": "Implementing a Square Function"
+    },
+    {
+      "start_sec": 6245.0,
+      "chapter_idx": 24,
+      "title": "Alternative Methods for Squaring a Number"
+    },
+    {
+      "start_sec": 6311.0,
+      "chapter_idx": 25,
+      "title": "Conclusion"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "video_id": "TjZBTDzGeGg",
+  "annotator": "llm_a",
+  "status": "reviewed",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Introduction"
+    },
+    {
+      "start_sec": 120.0,
+      "title": "Artificial Intelligence"
+    },
+    {
+      "start_sec": 660.0,
+      "title": "Algorithms"
+    },
+    {
+      "start_sec": 780.0,
+      "title": "Generating Tests"
+    },
+    {
+      "start_sec": 840.0,
+      "title": "Rumpelstiltskin"
+    },
+    {
+      "start_sec": 1260.0,
+      "title": "Lady Lovelace"
+    },
+    {
+      "start_sec": 1320.0,
+      "title": "Marvin Minsky"
+    },
+    {
+      "start_sec": 2100.0,
+      "title": "Noam Chomsky"
+    },
+    {
+      "start_sec": 2160.0,
+      "title": "Language"
+    },
+    {
+      "start_sec": 2340.0,
+      "title": "Remarks"
+    },
+    {
+      "start_sec": 2760.0,
+      "title": "Announcements"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Welcome to the Course"
+    },
+    {
+      "start_sec": 60.0,
+      "chapter_idx": 0,
+      "title": "What is Artificial Intelligence"
+    },
+    {
+      "start_sec": 60.0,
+      "chapter_idx": 0,
+      "title": "History of Artificial Intelligence"
+    },
+    {
+      "start_sec": 120.0,
+      "chapter_idx": 1,
+      "title": "Definition of Artificial Intelligence"
+    },
+    {
+      "start_sec": 600.0,
+      "chapter_idx": 1,
+      "title": "Representations in AI Models"
+    },
+    {
+      "start_sec": 600.0,
+      "chapter_idx": 1,
+      "title": "Gyroscopes and Representation"
+    },
+    {
+      "start_sec": 660.0,
+      "chapter_idx": 2,
+      "title": "Algorithms and Artificial Intelligence"
+    },
+    {
+      "start_sec": 720.0,
+      "chapter_idx": 2,
+      "title": "Generate and Test Method"
+    },
+    {
+      "start_sec": 780.0,
+      "chapter_idx": 3,
+      "title": "Generating Tests"
+    },
+    {
+      "start_sec": 840.0,
+      "chapter_idx": 4,
+      "title": "The Rumpelstiltskin Principle"
+    },
+    {
+      "start_sec": 1200.0,
+      "chapter_idx": 4,
+      "title": "The Power of Simple Ideas"
+    },
+    {
+      "start_sec": 1200.0,
+      "chapter_idx": 4,
+      "title": "Artificial Intelligence and Symbolic Labels"
+    },
+    {
+      "start_sec": 1260.0,
+      "chapter_idx": 5,
+      "title": "Lady Lovelace"
+    },
+    {
+      "start_sec": 1320.0,
+      "chapter_idx": 6,
+      "title": "The Integration Program"
+    },
+    {
+      "start_sec": 1710.0,
+      "chapter_idx": 6,
+      "title": "Geometric Analogy Problems"
+    },
+    {
+      "start_sec": 1940.0,
+      "chapter_idx": 6,
+      "title": "Perceptual Apparatus and Learning"
+    },
+    {
+      "start_sec": 2100.0,
+      "chapter_idx": 7,
+      "title": "Noam Chomsky"
+    },
+    {
+      "start_sec": 2160.0,
+      "chapter_idx": 8,
+      "title": "Storytelling and Story Understanding"
+    },
+    {
+      "start_sec": 2280.0,
+      "chapter_idx": 8,
+      "title": "Language Enables Imagination Simulation"
+    },
+    {
+      "start_sec": 2280.0,
+      "chapter_idx": 8,
+      "title": "Course Operations and Activities"
+    },
+    {
+      "start_sec": 2340.0,
+      "chapter_idx": 9,
+      "title": "Skill Building and Big Ideas at MIT"
+    },
+    {
+      "start_sec": 2700.0,
+      "chapter_idx": 9,
+      "title": "Recitations, Mega Recitations, and Tutorials"
+    },
+    {
+      "start_sec": 2700.0,
+      "chapter_idx": 9,
+      "title": "Attendance and Grades at MIT"
+    },
+    {
+      "start_sec": 2760.0,
+      "chapter_idx": 10,
+      "title": "Announcements"
+    }
+  ]
+}

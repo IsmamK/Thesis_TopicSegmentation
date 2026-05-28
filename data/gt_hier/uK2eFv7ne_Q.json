@@ -1,0 +1,139 @@
+{
+  "video_id": "uK2eFv7ne_Q",
+  "annotator": "llm_a",
+  "status": "reviewed",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Chapter 1. Recap of Young's double slit experiment"
+    },
+    {
+      "start_sec": 550.0,
+      "title": "Chapter 2. The Particulate Nature of Light"
+    },
+    {
+      "start_sec": 1395.0,
+      "title": "Chapter 3. The Photoelectric Effect"
+    },
+    {
+      "start_sec": 1879.0,
+      "title": "Chapter 4. Compton's scattering"
+    },
+    {
+      "start_sec": 2170.0,
+      "title": "Chapter 5. Particle-wave duality of matter"
+    },
+    {
+      "start_sec": 2913.0,
+      "title": "Chapter 6. The Uncertainty Principle"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Introduction to Quantum Mechanics"
+    },
+    {
+      "start_sec": 90.0,
+      "chapter_idx": 0,
+      "title": "Difficulty of Understanding Quantum Mechanics"
+    },
+    {
+      "start_sec": 265.0,
+      "chapter_idx": 0,
+      "title": "Goal of the Lecture Series"
+    },
+    {
+      "start_sec": 390.0,
+      "chapter_idx": 0,
+      "title": "Double Slit Experiment Introduction"
+    },
+    {
+      "start_sec": 550.0,
+      "chapter_idx": 1,
+      "title": "Chapter 2. The Particulate Nature of Light"
+    },
+    {
+      "start_sec": 1395.0,
+      "chapter_idx": 2,
+      "title": "Introduction to the Photoelectric Effect"
+    },
+    {
+      "start_sec": 1608.0,
+      "chapter_idx": 2,
+      "title": "Electrons in Metals and Work Function"
+    },
+    {
+      "start_sec": 1785.0,
+      "chapter_idx": 2,
+      "title": "The Photoelectric Effect Experiment"
+    },
+    {
+      "start_sec": 1819.0,
+      "chapter_idx": 2,
+      "title": "Einstein's Prediction of Photons"
+    },
+    {
+      "start_sec": 1879.0,
+      "chapter_idx": 3,
+      "title": "Introduction to Compton's Scattering"
+    },
+    {
+      "start_sec": 1965.0,
+      "chapter_idx": 3,
+      "title": "Compton Scattering Formula Derivation"
+    },
+    {
+      "start_sec": 2070.0,
+      "chapter_idx": 3,
+      "title": "Understanding Light as Particles"
+    },
+    {
+      "start_sec": 2110.0,
+      "chapter_idx": 3,
+      "title": "Single Photon Double Slit Experiment"
+    },
+    {
+      "start_sec": 2170.0,
+      "chapter_idx": 4,
+      "title": "Le Broit's Argument"
+    },
+    {
+      "start_sec": 2578.0,
+      "chapter_idx": 4,
+      "title": "Double Slit Experiment with Electrons"
+    },
+    {
+      "start_sec": 2839.0,
+      "chapter_idx": 4,
+      "title": "Interference Pattern and Wavelength Calculation"
+    },
+    {
+      "start_sec": 2853.0,
+      "chapter_idx": 4,
+      "title": "Macroscopic Bodies and Particle-Wave Duality"
+    },
+    {
+      "start_sec": 2913.0,
+      "chapter_idx": 5,
+      "title": "Explanation of the Uncertainty Principle"
+    },
+    {
+      "start_sec": 3137.0,
+      "chapter_idx": 5,
+      "title": "The Problem with Measuring Electron Position"
+    },
+    {
+      "start_sec": 3408.0,
+      "chapter_idx": 5,
+      "title": "Diffraction of Light and its Impact on Momentum"
+    },
+    {
+      "start_sec": 3757.0,
+      "chapter_idx": 5,
+      "title": "Deriving the Uncertainty Principle Equation"
+    }
+  ]
+}

@@ -4,48 +4,124 @@
 \section{Motivation}
 \label{sec:motivation}
 
-\todo{Open with the explosion of online lecture content post-2020 and the
-search/access problem this creates. Cite at least two sources for the volume
-claim.}
+The proliferation of online lecture content since 2020 has created an
+unprecedented body of educational material that is largely inaccessible
+by topic.
+By 2025, YouTube alone hosted over 800~million videos, with educational content
+accounting for one of the fastest-growing categories~\citep{youtube2024stats}.
+Massive Open Online Courses (MOOCs) on platforms such as Coursera, edX, and
+MIT OpenCourseWare collectively offer tens of thousands of hour-long lecture
+recordings spanning every academic discipline.
+Yet students navigating this content face a fundamental discoverability problem:
+without fine-grained, automatically generated chapter structure, finding the
+10-minute explanation of \emph{eigenvalue decomposition} within a 3-hour
+linear algebra recording requires either sequential viewing or prior knowledge
+of where to look.
+
+Existing video-retrieval systems typically rely on manually authored chapter
+markers---available for fewer than 15\,\% of YouTube educational videos at
+time of writing~\citep{todo:youtube_chapter_stats}---or on coarse metadata
+(title, description) that rarely reflects intra-video structure.
+Automated lecture topic segmentation addresses this gap by identifying, from
+the video signal itself, the timestamps at which the lecture transitions between
+distinct pedagogical units.
 
 \section{Problem statement}
 \label{sec:problem}
 
-\todo{One paragraph that defines lecture topic segmentation as the task of
-partitioning a video transcript (and its aligned modalities) into a sequence
-of contiguous, semantically coherent units, and a hierarchical version that
-emits both chapter-level and subtopic-level boundaries.}
+\emph{Lecture topic segmentation} is the task of partitioning a video
+transcript (and its aligned multimodal streams) into a sequence of
+contiguous, semantically coherent segments such that each segment covers
+a single coherent topic or pedagogical unit.
+Formally, given a sequence of $N$ sentences $\{s_1, \ldots, s_N\}$ with
+associated timestamps, the task is to predict a set of boundary indices
+$\mathcal{B} \subset \{1, \ldots, N-1\}$ that maximises some measure of
+intra-segment coherence and inter-segment contrast.
+
+\emph{Hierarchical} lecture topic segmentation extends this to two levels:
+\emph{chapters} (coarser, corresponding to major topic shifts) and
+\emph{subtopics} (finer, corresponding to transitions between sub-ideas within
+a chapter).
+The nesting constraint requires that every chapter boundary is also a subtopic
+boundary: $\mathcal{B}_{\text{chapter}} \subseteq \mathcal{B}_{\text{subtopic}}$.
+This richer representation directly mirrors the structure that expert instructors
+use when planning lectures and that viewers expect when navigating course content.
 
 \section{Research questions}
 \label{sec:rqs}
 
 \begin{description}
-  \item[RQ1] Can a multimodal lecture-segmentation pipeline produce
-    hierarchical (chapter and subtopic) outputs while remaining open-source
-    and reproducible?
-  \item[RQ2] Does a learned reliability-weighted fusion outperform fixed-weight
-    modality fusion when source quality varies?
-  \item[RQ3] Does a small open local language model match closed-API
-    alternatives for boundary refinement and chapter titling?
-  \item[RQ4] Does explicit hierarchical modelling improve segmentation quality
-    over independent flat passes?
-  \item[RQ5] Are gains over prior baselines statistically significant under
-    paired non-parametric testing on a held-out fold?
+  \item[RQ1] Does a reliability-weighted modality fusion that dynamically
+    suppresses uninformative channels outperform fixed-weight fusion and
+    text-only baselines?
+
+  \item[RQ2] Does a two-stage boundary predictor (broad candidate generation
+    followed by multimodal refinement) achieve better precision--recall balance
+    than a single-stage threshold method?
+
+  \item[RQ3] Does explicit hierarchical modelling with a nesting constraint
+    improve chapter-level and subtopic-level segmentation quality simultaneously?
+
+  \item[RQ4] Can a small local language model (Llama-3.1-8B) meaningfully
+    improve boundary alignment and generate useful segment titles?
+
+  \item[RQ5] Are the gains of the proposed method over the best prior baseline
+    statistically significant across the \dataset{} benchmark?
 \end{description}
 
 \section{Contributions}
 \label{sec:contributions}
 
-\todo{Restate the seven contributions from \texttt{docs/NOVELTY\_TRACKER.md}.
-Each contribution should reference the chapter where it is developed and the
-experiment that validates it.}
+This thesis makes the following contributions:
+
+\begin{enumerate}
+  \item \textbf{\dataset{}}: A manually annotated benchmark of 30 academic
+    lecture videos from five domains, with creator-validated chapter boundaries
+    and human-reviewed subtopic annotations, totalling approximately 55~hours
+    of transcribed audio.
+    (Chapter~\ref{chap:methodology}, Section~\ref{sec:dataset}.)
+
+  \item \textbf{Reliability-Weighted Fusion (N2)}: A modality fusion module
+    that assigns each modality a weight inversely proportional to the entropy
+    of its gap-score distribution, requiring no labelled data or manual tuning.
+    (Chapter~\ref{chap:methodology}, Section~\ref{sec:fusion}.)
+
+  \item \textbf{Two-Stage Boundary Predictor (N1)}: A predictor that first
+    generates high-recall candidates using text-only cosine depth scores, then
+    re-ranks them with the fused multimodal signal.
+    (Chapter~\ref{chap:methodology}, Section~\ref{sec:boundary}.)
+
+  \item \textbf{Hierarchical Segmenter (N3)}: A segmenter that produces
+    valid nested chapter and subtopic boundaries by construction, enforcing
+    $\mathcal{B}_{\text{chapter}} \subseteq \mathcal{B}_{\text{subtopic}}$
+    without joint optimisation.
+    (Chapter~\ref{chap:methodology}, Section~\ref{sec:hierarchy}.)
+
+  \item \textbf{Local-LLM Refinement (N4)}: A post-processing module that uses
+    an on-device Llama-3.1-8B to shift boundaries by up to $\pm 2$ sentences
+    toward cleaner semantic transitions and to generate concise segment titles.
+    (Chapter~\ref{chap:methodology}, Section~\ref{sec:refine}.)
+
+  \item \textbf{Comprehensive evaluation}: A comparison of eight methods across
+    five metrics with bootstrap confidence intervals and paired statistical
+    testing, plus a qualitative error analysis.
+    (Chapter~\ref{chap:results}.)
+
+  \item \textbf{Open-source implementation}: All code, the \dataset{} dataset,
+    and model weights are released under permissive licences at
+    \href{https://huggingface.co/lecseg}{huggingface.co/lecseg} and
+    \href{https://zenodo.org/record/lecseg}{zenodo.org/record/lecseg}.
+    (Chapter~\ref{chap:deliverables} and Appendix~\ref{app:dataset}.)
+\end{enumerate}
 
 \section{Thesis structure}
 \label{sec:structure}
 
 \Cref{chap:literature} reviews prior work on text-only, multimodal, and
-hierarchical segmentation. \Cref{chap:methodology} details the \lecseg{}
-pipeline, its novel modules, and \dataset{}. \Cref{chap:results} reports
-quantitative results, ablations, statistical tests, and error analysis.
-\Cref{chap:conclusion} summarises findings, and \cref{chap:future} sketches
-extensions.
+hierarchical segmentation.
+\Cref{chap:methodology} describes the \lecseg{} pipeline, its novel modules,
+and the \dataset{} corpus.
+\Cref{chap:results} reports quantitative results, ablations, statistical tests,
+and qualitative error analysis.
+\Cref{chap:conclusion} summarises findings and \cref{chap:future} sketches
+directions for future research.

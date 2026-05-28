@@ -1,0 +1,209 @@
+{
+  "video_id": "NNnIGh9g6fA",
+  "annotator": "llm_b",
+  "status": "draft",
+  "double_mode": true,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Intro"
+    },
+    {
+      "start_sec": 196.0,
+      "title": "Something in Common"
+    },
+    {
+      "start_sec": 525.0,
+      "title": "Categories"
+    },
+    {
+      "start_sec": 625.0,
+      "title": "Colour"
+    },
+    {
+      "start_sec": 720.0,
+      "title": "Categorisation"
+    },
+    {
+      "start_sec": 1030.0,
+      "title": "Categorical Thinking"
+    },
+    {
+      "start_sec": 2465.0,
+      "title": "Course Structure"
+    },
+    {
+      "start_sec": 2566.0,
+      "title": "Prerequisites"
+    },
+    {
+      "start_sec": 2640.0,
+      "title": "Introduction to Canary Theory"
+    },
+    {
+      "start_sec": 2758.0,
+      "title": "Office Hours"
+    },
+    {
+      "start_sec": 2850.0,
+      "title": "Chaos"
+    },
+    {
+      "start_sec": 3031.0,
+      "title": "handouts"
+    },
+    {
+      "start_sec": 3070.0,
+      "title": "other stuff"
+    },
+    {
+      "start_sec": 3116.0,
+      "title": "TAS"
+    },
+    {
+      "start_sec": 3169.0,
+      "title": "Units"
+    },
+    {
+      "start_sec": 3235.0,
+      "title": "Midterm"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Introduction to Bio 150"
+    },
+    {
+      "start_sec": 136.0,
+      "chapter_idx": 0,
+      "title": "The Bizarre Behavior Scenario"
+    },
+    {
+      "start_sec": 136.0,
+      "chapter_idx": 0,
+      "title": "Genetic Influence on Human Behavior"
+    },
+    {
+      "start_sec": 196.0,
+      "chapter_idx": 1,
+      "title": "Four Circumstances in Common"
+    },
+    {
+      "start_sec": 375.0,
+      "chapter_idx": 1,
+      "title": "The Role of Hormones"
+    },
+    {
+      "start_sec": 450.0,
+      "chapter_idx": 1,
+      "title": "Courtroom Examples and Physiology"
+    },
+    {
+      "start_sec": 525.0,
+      "chapter_idx": 2,
+      "title": "Categories"
+    },
+    {
+      "start_sec": 625.0,
+      "chapter_idx": 3,
+      "title": "Colour"
+    },
+    {
+      "start_sec": 720.0,
+      "chapter_idx": 4,
+      "title": "Categorisation and Continua"
+    },
+    {
+      "start_sec": 910.0,
+      "chapter_idx": 4,
+      "title": "Language and Categorical Thinking"
+    },
+    {
+      "start_sec": 970.0,
+      "chapter_idx": 4,
+      "title": "Dangers of Categorical Thinking"
+    },
+    {
+      "start_sec": 1030.0,
+      "chapter_idx": 5,
+      "title": "Categorical Thinking in Number Series"
+    },
+    {
+      "start_sec": 1615.0,
+      "chapter_idx": 5,
+      "title": "Problems with Categorical Thinking"
+    },
+    {
+      "start_sec": 2130.0,
+      "chapter_idx": 5,
+      "title": "Avoiding Categorical Thinking in Biology"
+    },
+    {
+      "start_sec": 2465.0,
+      "chapter_idx": 6,
+      "title": "Course Structure"
+    },
+    {
+      "start_sec": 2566.0,
+      "chapter_idx": 7,
+      "title": "Prerequisites"
+    },
+    {
+      "start_sec": 2640.0,
+      "chapter_idx": 8,
+      "title": "Introduction to Canary Theory"
+    },
+    {
+      "start_sec": 2758.0,
+      "chapter_idx": 9,
+      "title": "Office Hours"
+    },
+    {
+      "start_sec": 2850.0,
+      "chapter_idx": 10,
+      "title": "Challenging Reductionism in Biology"
+    },
+    {
+      "start_sec": 2971.0,
+      "chapter_idx": 10,
+      "title": "Introduction to Chaos and Complexity"
+    },
+    {
+      "start_sec": 3031.0,
+      "chapter_idx": 11,
+      "title": "handouts"
+    },
+    {
+      "start_sec": 3070.0,
+      "chapter_idx": 12,
+      "title": "other stuff"
+    },
+    {
+      "start_sec": 3116.0,
+      "chapter_idx": 13,
+      "title": "TAS"
+    },
+    {
+      "start_sec": 3169.0,
+      "chapter_idx": 14,
+      "title": "Units"
+    },
+    {
+      "start_sec": 3235.0,
+      "chapter_idx": 15,
+      "title": "Workload and Class Time"
+    },
+    {
+      "start_sec": 3374.0,
+      "chapter_idx": 15,
+      "title": "Taped Lectures and Online Coursework"
+    },
+    {
+      "start_sec": 3374.0,
+      "chapter_idx": 15,
+      "title": "Midterm Exam Details"
+    }
+  ]
+}

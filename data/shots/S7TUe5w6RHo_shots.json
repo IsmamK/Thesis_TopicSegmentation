@@ -1,0 +1,57 @@
+[
+  {
+    "frame_idx": 517,
+    "timestamp_s": 8.633333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 1987,
+    "timestamp_s": 33.116667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 3028,
+    "timestamp_s": 50.466667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 135049,
+    "timestamp_s": 2250.833333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 138643,
+    "timestamp_s": 2310.733333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 142677,
+    "timestamp_s": 2377.95,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 219181,
+    "timestamp_s": 3653.016667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 219858,
+    "timestamp_s": 3664.3,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 220222,
+    "timestamp_s": 3670.366667,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 221082,
+    "timestamp_s": 3684.7,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 221758,
+    "timestamp_s": 3695.983333,
+    "probability": 0.5
+  }
+]

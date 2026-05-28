@@ -1,0 +1,204 @@
+{
+  "video_id": "MGyygiXMzRk",
+  "annotator": "llm_a",
+  "status": "reviewed",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Intro"
+    },
+    {
+      "start_sec": 38.0,
+      "title": "John Locke"
+    },
+    {
+      "start_sec": 158.0,
+      "title": "The State of Nature"
+    },
+    {
+      "start_sec": 275.0,
+      "title": "Lockes Answer"
+    },
+    {
+      "start_sec": 456.0,
+      "title": "Unalienable Rights"
+    },
+    {
+      "start_sec": 773.0,
+      "title": "Intellectual Property Rights"
+    },
+    {
+      "start_sec": 961.0,
+      "title": "Lockes Private Property"
+    },
+    {
+      "start_sec": 1512.0,
+      "title": "Next Time"
+    },
+    {
+      "start_sec": 1915.0,
+      "title": "Consent"
+    },
+    {
+      "start_sec": 2475.0,
+      "title": "Implied Consent"
+    },
+    {
+      "start_sec": 2697.0,
+      "title": "Stand Up"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Intro"
+    },
+    {
+      "start_sec": 38.0,
+      "chapter_idx": 1,
+      "title": "John Locke"
+    },
+    {
+      "start_sec": 158.0,
+      "chapter_idx": 2,
+      "title": "The State of Nature"
+    },
+    {
+      "start_sec": 275.0,
+      "chapter_idx": 3,
+      "title": "Origin of Natural Rights"
+    },
+    {
+      "start_sec": 375.0,
+      "chapter_idx": 3,
+      "title": "God's Prior Property Right"
+    },
+    {
+      "start_sec": 396.0,
+      "chapter_idx": 3,
+      "title": "Reason and Freedom"
+    },
+    {
+      "start_sec": 396.0,
+      "chapter_idx": 3,
+      "title": "Unalienable Rights"
+    },
+    {
+      "start_sec": 456.0,
+      "chapter_idx": 4,
+      "title": "Definition of Unalienable Rights"
+    },
+    {
+      "start_sec": 585.0,
+      "chapter_idx": 4,
+      "title": "Locke's Concept of Property in the State of Nature"
+    },
+    {
+      "start_sec": 680.0,
+      "chapter_idx": 4,
+      "title": "Acquiring Property through Labor and Enclosure"
+    },
+    {
+      "start_sec": 773.0,
+      "chapter_idx": 5,
+      "title": "Trade-related intellectual property rights disputes"
+    },
+    {
+      "start_sec": 858.0,
+      "chapter_idx": 5,
+      "title": "AIDS crisis in South Africa and drug patent laws"
+    },
+    {
+      "start_sec": 961.0,
+      "chapter_idx": 6,
+      "title": "Discussion on Locke's Private Property"
+    },
+    {
+      "start_sec": 1425.0,
+      "chapter_idx": 6,
+      "title": "Application of Locke's Theory in North America"
+    },
+    {
+      "start_sec": 1452.0,
+      "chapter_idx": 6,
+      "title": "Critique of Locke's Justification for Land Appropriation"
+    },
+    {
+      "start_sec": 1452.0,
+      "chapter_idx": 6,
+      "title": "Defense of Locke's Account of Private Property"
+    },
+    {
+      "start_sec": 1512.0,
+      "chapter_idx": 7,
+      "title": "Locke's State of Nature and Private Property"
+    },
+    {
+      "start_sec": 1656.0,
+      "chapter_idx": 7,
+      "title": "Locke's Theory of Consent"
+    },
+    {
+      "start_sec": 1848.0,
+      "chapter_idx": 7,
+      "title": "Inconveniences in the State of Nature"
+    },
+    {
+      "start_sec": 1855.0,
+      "chapter_idx": 7,
+      "title": "Legitimate Government's Powers"
+    },
+    {
+      "start_sec": 1915.0,
+      "chapter_idx": 8,
+      "title": "Nature of Consent"
+    },
+    {
+      "start_sec": 2262.0,
+      "chapter_idx": 8,
+      "title": "Majority Power Limits"
+    },
+    {
+      "start_sec": 2408.0,
+      "chapter_idx": 8,
+      "title": "Locke's Objection to Forced Taxation"
+    },
+    {
+      "start_sec": 2475.0,
+      "chapter_idx": 9,
+      "title": "Locke's View on Leaving Government"
+    },
+    {
+      "start_sec": 2556.0,
+      "chapter_idx": 9,
+      "title": "Implied Consent and Obligation to Obey Government"
+    },
+    {
+      "start_sec": 2637.0,
+      "chapter_idx": 9,
+      "title": "Personal Preferences for Taxation System"
+    },
+    {
+      "start_sec": 2697.0,
+      "chapter_idx": 10,
+      "title": "Military Conscription and Right to Life"
+    },
+    {
+      "start_sec": 2792.0,
+      "chapter_idx": 10,
+      "title": "Locke's View on Consent and Natural Rights"
+    },
+    {
+      "start_sec": 2958.0,
+      "chapter_idx": 10,
+      "title": "Individual vs Government Rights in Conscription"
+    },
+    {
+      "start_sec": 3147.0,
+      "chapter_idx": 10,
+      "title": "Random Selection for Military Service"
+    }
+  ]
+}

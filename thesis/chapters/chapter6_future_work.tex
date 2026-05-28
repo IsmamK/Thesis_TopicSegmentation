@@ -1,27 +1,70 @@
 \chapter{Future Work}
 \label{chap:future}
 
+\section{Prosody and visual integration}
+
+The most immediate extension is the full integration of prosodic features
+(pause duration, pitch reset) and visual streams (shot boundaries, slide OCR)
+into the RWF fusion, which was implemented but not included in the final
+evaluation due to time constraints.
+Preliminary experiments suggest an additional \todo{}\% $P_k$ reduction.
+A modality-dropout training scheme could make the system robust to missing
+modalities (e.g., audio-only or slides-only lectures).
+
 \section{Streaming and online inference}
 
-\todo{Adapt fusion + boundary head for windowed, streaming inputs. Discuss
-latency budget for live-lecture chaptering.}
+The current pipeline processes a complete video offline.
+A streaming variant would segment lecture content as it is being recorded,
+enabling real-time chaptering for live classes.
+This requires adapting the sliding-window fusion to operate on a causal context
+window and replacing the global threshold computation with an exponential moving
+average of past gap scores.
+The target latency budget for live chaptering is $<30$~seconds of delay.
 
 \section{Cross-lingual extension}
 
-\todo{Use multilingual SBERT (LaBSE / multilingual-e5) and a multilingual
-Whisper variant; what data is needed; what evaluation is needed.}
+\lecseg{} currently targets English lectures.
+Extending to other languages requires: (1)~replacing \texttt{all-mpnet-base-v2}
+with a multilingual text encoder such as LaBSE~\citep{feng2022language} or
+\texttt{multilingual-e5-large}; and (2)~using Whisper's multilingual mode for
+transcription.
+Suitable evaluation data could be sourced from non-English MOOCs (e.g.,
+Coursera's French and Spanish tracks) or from university recordings in South
+and South-East Asian languages.
+
+\section{End-to-end fine-tuning}
+
+The current architecture uses frozen pre-trained encoders.
+Fine-tuning the text encoder jointly with the boundary predictor on a larger
+annotated corpus (e.g., constructed by scaling the \dataset{} annotation
+procedure to 200+ videos) could yield further gains, at the cost of reduced
+generalisability.
+A natural training objective is a soft version of the tolerance-$F_1$ metric,
+differentiable via a sigmoid boundary-probability output.
+
+\section{Larger and domain-tuned local LLMs}
+
+Replacing Llama-3.1-8B with a 70B parameter model or a domain-specific
+fine-tune (e.g., fine-tuned on lecture transcripts) could improve title
+quality and boundary-shift accuracy, particularly for highly technical content.
+Quantised models (GGUF 4-bit) make 70B inference feasible on a single 24\,GB
+GPU with acceptable latency ($\approx 5$~seconds per boundary refinement call).
 
 \section{Multi-speaker lectures and panels}
 
-\todo{Speaker diarisation as an additional reliability signal. How to handle
-speaker turns in a hierarchy.}
+Panel discussions and multi-instructor courses introduce speaker turns as an
+additional boundary signal.
+Speaker diarisation (e.g., using pyannote.audio) could provide a speaker-change
+feature that complements text embeddings, particularly for sections where the
+topic does not change but the speaker does.
 
-\section{Larger or instruction-tuned local LLMs}
+\section{User study on learning outcomes}
 
-\todo{Llama-3.1 70B, Mixtral, or domain-tuned variants. Quantisation trade-offs.}
-
-\section{User study on educational outcomes}
-
-\todo{Move beyond IR-style metrics to a controlled user study: do learners
-locate target concepts faster with \lecseg{}-generated chapters than with
-flat scrubbing?}
+All metrics in this thesis are information-retrieval proxies for segmentation
+quality.
+A controlled user study would directly measure whether learners locate
+target concepts faster, and whether their retention improves, when using
+\lecseg{}-generated chapters compared to flat video scrubbing or manually
+authored chapters.
+Such a study could also reveal which granularity (chapter vs.\ subtopic)
+is most useful for different learning tasks (review vs.\ first-watch).

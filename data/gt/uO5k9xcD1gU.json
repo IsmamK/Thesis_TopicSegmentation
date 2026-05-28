@@ -1,0 +1,32 @@
+{
+  "video_id": "uO5k9xcD1gU",
+  "boundaries_sec": [
+    545.0,
+    1308.0,
+    1374.0,
+    1872.0,
+    1970.0,
+    2038.0,
+    2225.0,
+    2286.0,
+    2396.0,
+    2613.0,
+    2796.0
+  ],
+  "titles": [
+    "Introduction",
+    "tRNA",
+    "peptide bond formation",
+    "tRNA binding sites",
+    "Translation initiation factor",
+    "Covalent bond",
+    "Stop codons",
+    "Multiple subunits",
+    "Proteasomes",
+    "Polyubiquitin",
+    "Protein Production",
+    "Outro"
+  ],
+  "num_chapters": 12,
+  "duration_sec": 2837.0
+}

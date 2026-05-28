@@ -1,0 +1,32 @@
+[
+  {
+    "frame_idx": 388,
+    "timestamp_s": 12.979633,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 469,
+    "timestamp_s": 15.682333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 709,
+    "timestamp_s": 23.690333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 2059,
+    "timestamp_s": 68.735333,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 2176,
+    "timestamp_s": 72.639233,
+    "probability": 0.5
+  },
+  {
+    "frame_idx": 102764,
+    "timestamp_s": 3428.9255,
+    "probability": 0.5
+  }
+]

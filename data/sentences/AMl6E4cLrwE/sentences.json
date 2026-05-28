@@ -1,0 +1,4061 @@
+{
+  "video_id": "AMl6E4cLrwE",
+  "sentences": [
+    {
+      "idx": 0,
+      "start": 17.65,
+      "end": 24.23,
+      "text": "Over the next 11 lectures, we will cover cell biology and understand how our cells operate"
+    },
+    {
+      "idx": 1,
+      "start": 24.23,
+      "end": 27.45,
+      "text": "and interact with signals in our bodies."
+    },
+    {
+      "idx": 2,
+      "start": 28.4,
+      "end": 32.4,
+      "text": "But before we can do that, we first have to learn about DNA."
+    },
+    {
+      "idx": 3,
+      "start": 33.14,
+      "end": 38.74,
+      "text": "And DNA is our genetic material in which we ourselves are created from."
+    },
+    {
+      "idx": 4,
+      "start": 39.64,
+      "end": 41.12,
+      "text": "So what is DNA?"
+    },
+    {
+      "idx": 5,
+      "start": 41.94,
+      "end": 45.2,
+      "text": "DNA stands for deoxyribonucleic acid."
+    },
+    {
+      "idx": 6,
+      "start": 45.2,
+      "end": 50.8,
+      "text": "And to understand what DNA is, we have to look at what makes DNA."
+    },
+    {
+      "idx": 7,
+      "start": 51.48,
+      "end": 54.06,
+      "text": "So here we're going to be talking about nucleotides."
+    },
+    {
+      "idx": 8,
+      "start": 54.62,
+      "end": 56.26,
+      "text": "This is a nucleotide."
+    },
+    {
+      "idx": 9,
+      "start": 57.94,
+      "end": 65.9,
+      "text": "Alright, so a nucleotide is a 5-carbon sugar attached to a phosphate group and a base."
+    },
+    {
+      "idx": 10,
+      "start": 66.34,
+      "end": 69.62,
+      "text": "In this case, this base is using adenine."
+    },
+    {
+      "idx": 11,
+      "start": 71.16,
+      "end": 74.94,
+      "text": "And I'll talk about the different bases that we can use later on."
+    },
+    {
+      "idx": 12,
+      "start": 75.2,
+      "end": 77.52,
+      "text": "But notice that when we're counting sugars,"
+    },
+    {
+      "idx": 13,
+      "start": 77.54,
+      "end": 80.22,
+      "text": "we count in a clockwise fashion."
+    },
+    {
+      "idx": 14,
+      "start": 80.86,
+      "end": 85.24,
+      "text": "We go 1, 2, 3, 4, and then 5."
+    },
+    {
+      "idx": 15,
+      "start": 85.68,
+      "end": 90.76,
+      "text": "So this carbon right here is away from the sugar, and it is the 5th carbon."
+    },
+    {
+      "idx": 16,
+      "start": 91.34,
+      "end": 95.04,
+      "text": "The 5th carbon is going to be attached to a phosphate group."
+    },
+    {
+      "idx": 17,
+      "start": 96.68,
+      "end": 100.38,
+      "text": "So why do we call this deoxyribonucleic acid?"
+    },
+    {
+      "idx": 18,
+      "start": 100.38,
+      "end": 102.28,
+      "text": "Well, we call it deoxy."
+    },
+    {
+      "idx": 19,
+      "start": 104.52,
+      "end": 108.53,
+      "text": "Because we have taken out an alcohol or an oxygen"
+    },
+    {
+      "idx": 20,
+      "start": 108.53,
+      "end": 108.99,
+      "text": "from the sugar."
+    },
+    {
+      "idx": 21,
+      "start": 109.53,
+      "end": 113.05,
+      "text": "Normally, this second carbon has an alcohol."
+    },
+    {
+      "idx": 22,
+      "start": 113.05,
+      "end": 120.33,
+      "text": "But whenever we're making DNA, and we need to deoxify it, we take away this oxygen and"
+    },
+    {
+      "idx": 23,
+      "start": 120.33,
+      "end": 123.58,
+      "text": "just replace it with hydrogen."
+    },
+    {
+      "idx": 24,
+      "start": 123.58,
+      "end": 130.39,
+      "text": "Now if we were to take out this oxygen as well, then we would call it dideoxy."
+    },
+    {
+      "idx": 25,
+      "start": 130.39,
+      "end": 133.33,
+      "text": "And you would write it abbreviated like this."
+    },
+    {
+      "idx": 26,
+      "start": 135.39,
+      "end": 137.59,
+      "text": "So we can have DDATP."
+    },
+    {
+      "idx": 27,
+      "start": 137.59,
+      "end": 139.49,
+      "text": "So it would be dideoxyadenosine triphosphate."
+    },
+    {
+      "idx": 28,
+      "start": 139.49,
+      "end": 143.13,
+      "text": "That would be a different molecule."
+    },
+    {
+      "idx": 29,
+      "start": 143.13,
+      "end": 147.44,
+      "text": "So if you were to take out this oxygen and replace it with just a hydrogen, you would"
+    },
+    {
+      "idx": 30,
+      "start": 149.84,
+      "end": 155.34,
+      "text": "If you have both oxygens here, then we just call it oxyribose."
+    },
+    {
+      "idx": 31,
+      "start": 155.34,
+      "end": 156.34,
+      "text": "And that is the nomenclature."
+    },
+    {
+      "idx": 32,
+      "start": 156.34,
+      "end": 158.76,
+      "text": "That's how you name it."
+    },
+    {
+      "idx": 33,
+      "start": 159.95,
+      "end": 165.73,
+      "text": "And so these nucleotides are essentially the building blocks for nucleic acids."
+    },
+    {
+      "idx": 34,
+      "start": 165.73,
+      "end": 171.8,
+      "text": "And we'll later see the nucleic acid later on this lecture."
+    },
+    {
+      "idx": 35,
+      "start": 171.8,
+      "end": 176.17,
+      "text": "But here we have the four bases."
+    },
+    {
+      "idx": 36,
+      "start": 176.17,
+      "end": 178.49,
+      "text": "And for these four bases, we actually have two groups."
+    },
+    {
+      "idx": 37,
+      "start": 178.49,
+      "end": 182.79,
+      "text": "We have the pyrimidine groups and the purine groups."
+    },
+    {
+      "idx": 38,
+      "start": 182.79,
+      "end": 187.93,
+      "text": "Now the main difference between pyrimidines and purines is that the purines have two cycles."
+    },
+    {
+      "idx": 39,
+      "start": 188.93,
+      "end": 193.07,
+      "text": "So they have an extra shape attached to them."
+    },
+    {
+      "idx": 40,
+      "start": 193.07,
+      "end": 196.01,
+      "text": "And so these guys are kind of like the easiest to remember."
+    },
+    {
+      "idx": 41,
+      "start": 197.01,
+      "end": 200.81,
+      "text": "Where adenine, adenine only has a nitrogen group at the top."
+    },
+    {
+      "idx": 42,
+      "start": 200.81,
+      "end": 201.69,
+      "text": "Kind of like a little antenna."
+    },
+    {
+      "idx": 43,
+      "start": 202.69,
+      "end": 206.29,
+      "text": "And so adenine, the A, is for antenna."
+    },
+    {
+      "idx": 44,
+      "start": 206.29,
+      "end": 209.19,
+      "text": "That would be the nitrogen group right there."
+    },
+    {
+      "idx": 45,
+      "start": 209.19,
+      "end": 214.93,
+      "text": "The guanine is also easy to remember because it has two groups right here."
+    },
+    {
+      "idx": 46,
+      "start": 214.93,
+      "end": 220.53,
+      "text": "And it has kind of like a ketone group, an amide, and then a nitrogen."
+    },
+    {
+      "idx": 47,
+      "start": 220.53,
+      "end": 227.01,
+      "text": "And so the way I look for the differences, because for the MCAT or for your exams, you'll"
+    },
+    {
+      "idx": 48,
+      "start": 227.01,
+      "end": 231.85,
+      "text": "often be asked, you know, which nucleotide this is."
+    },
+    {
+      "idx": 49,
+      "start": 231.85,
+      "end": 235.53,
+      "text": "And so if you have two rings, you're going to say, okay, well this is a purine."
+    },
+    {
+      "idx": 50,
+      "start": 235.53,
+      "end": 237.35,
+      "text": "And then you're just going to look for the antenna."
+    },
+    {
+      "idx": 51,
+      "start": 237.35,
+      "end": 242.64,
+      "text": "If you don't see this lone nitrogen group by itself, then it's a guanine."
+    },
+    {
+      "idx": 52,
+      "start": 243.64,
+      "end": 246.58,
+      "text": "So that's the easiest to tell the difference from."
+    },
+    {
+      "idx": 53,
+      "start": 246.58,
+      "end": 250.54,
+      "text": "Now for pyrimidines, they're a little bit more tricky."
+    },
+    {
+      "idx": 54,
+      "start": 250.54,
+      "end": 254.14,
+      "text": "For pyrimidines, this guy kind of looks like adenine."
+    },
+    {
+      "idx": 55,
+      "start": 255.14,
+      "end": 258.81,
+      "text": "Except it only has one ring and also has a ketone group."
+    },
+    {
+      "idx": 56,
+      "start": 258.81,
+      "end": 260.52,
+      "text": "So that's going to be cytosine."
+    },
+    {
+      "idx": 57,
+      "start": 261.52,
+      "end": 263.76,
+      "text": "It looks like it's waving."
+    },
+    {
+      "idx": 58,
+      "start": 264.76,
+      "end": 267.12,
+      "text": "Where we have this head right here."
+    },
+    {
+      "idx": 59,
+      "start": 267.12,
+      "end": 268.12,
+      "text": "We have a little arm."
+    },
+    {
+      "idx": 60,
+      "start": 268.12,
+      "end": 269.54,
+      "text": "That's a methyl group."
+    },
+    {
+      "idx": 61,
+      "start": 269.54,
+      "end": 272.42,
+      "text": "And then we also have like a leg right there."
+    },
+    {
+      "idx": 62,
+      "start": 272.42,
+      "end": 274.88,
+      "text": "Looks kind of weird, but that's thymine."
+    },
+    {
+      "idx": 63,
+      "start": 274.88,
+      "end": 280.11,
+      "text": "And the way that these purines interact, or I guess these nucleotides interact, is that"
+    },
+    {
+      "idx": 64,
+      "start": 280.11,
+      "end": 285.01,
+      "text": "adenine will actually pair with thymine."
+    },
+    {
+      "idx": 65,
+      "start": 285.01,
+      "end": 288.66,
+      "text": "And that's when we're talking about DNA."
+    },
+    {
+      "idx": 66,
+      "start": 288.66,
+      "end": 292.14,
+      "text": "And here, guanine will interact with cytosine."
+    },
+    {
+      "idx": 67,
+      "start": 292.14,
+      "end": 299.03,
+      "text": "Now for RNA, everything is the same."
+    },
+    {
+      "idx": 68,
+      "start": 299.03,
+      "end": 303.41,
+      "text": "Where we have guanine attaching to cytosine, etc."
+    },
+    {
+      "idx": 69,
+      "start": 303.41,
+      "end": 307.07,
+      "text": "But instead of thymine, we're actually going to have uracil."
+    },
+    {
+      "idx": 70,
+      "start": 307.07,
+      "end": 312.21,
+      "text": "So adenine will interact with uracil, U."
+    },
+    {
+      "idx": 71,
+      "start": 312.21,
+      "end": 318.51,
+      "text": "Now we have to talk about the hydrogen bonds that can be created within the DNA structure,"
+    },
+    {
+      "idx": 72,
+      "start": 318.51,
+      "end": 321.22,
+      "text": "or genetic information."
+    },
+    {
+      "idx": 73,
+      "start": 321.22,
+      "end": 324.14,
+      "text": "The strands are attached to each other with hydrogen bonds."
+    },
+    {
+      "idx": 74,
+      "start": 326.0,
+      "end": 330.36,
+      "text": "And so we have to talk about acceptors and donors."
+    },
+    {
+      "idx": 75,
+      "start": 330.36,
+      "end": 335.4,
+      "text": "Which base will create the hydrogen bonds?"
+    },
+    {
+      "idx": 76,
+      "start": 335.4,
+      "end": 336.66,
+      "text": "That's called a donor."
+    },
+    {
+      "idx": 77,
+      "start": 336.66,
+      "end": 339.76,
+      "text": "And which bond will accept the hydrogen bonds?"
+    },
+    {
+      "idx": 78,
+      "start": 339.76,
+      "end": 342.75,
+      "text": "That's going to be called the acceptor."
+    },
+    {
+      "idx": 79,
+      "start": 342.75,
+      "end": 347.97,
+      "text": "So for thymine and adenine and uracil, those are going to be pretty weak."
+    },
+    {
+      "idx": 80,
+      "start": 347.97,
+      "end": 351.55,
+      "text": "They're going to have one acceptor and one donor."
+    },
+    {
+      "idx": 81,
+      "start": 351.55,
+      "end": 355.46,
+      "text": "So adenine, thymine, and uracil."
+    },
+    {
+      "idx": 82,
+      "start": 356.46,
+      "end": 359.76,
+      "text": "We'll have one acceptor."
+    },
+    {
+      "idx": 83,
+      "start": 359.76,
+      "end": 361.72,
+      "text": "So we're going to have acceptor."
+    },
+    {
+      "idx": 84,
+      "start": 361.72,
+      "end": 363.63,
+      "text": "And then one donor."
+    },
+    {
+      "idx": 85,
+      "start": 363.63,
+      "end": 369.63,
+      "text": "And so between adenine and thymine and uracil, they can only have one hydrogen bond."
+    },
+    {
+      "idx": 86,
+      "start": 369.63,
+      "end": 376.42,
+      "text": "So they would have, like this, hydrogen bond into another base."
+    },
+    {
+      "idx": 87,
+      "start": 376.42,
+      "end": 378.34,
+      "text": "And so that makes it pretty weak."
+    },
+    {
+      "idx": 88,
+      "start": 378.34,
+      "end": 383.3,
+      "text": "So within a genetic information, like a genetic strand, if you just have a bunch of adenines"
+    },
+    {
+      "idx": 89,
+      "start": 383.3,
+      "end": 388.46,
+      "text": "and thymines and uracils within that strand, well, it's going to be very weak."
+    },
+    {
+      "idx": 90,
+      "start": 388.46,
+      "end": 391.72,
+      "text": "Hydrogen is not going to be very stable."
+    },
+    {
+      "idx": 91,
+      "start": 391.72,
+      "end": 401.31,
+      "text": "Now compared to this, when we have guanine and cytosine, these are actually stronger."
+    },
+    {
+      "idx": 92,
+      "start": 401.31,
+      "end": 409.29,
+      "text": "And so together, they usually have three acceptors and two donors."
+    },
+    {
+      "idx": 93,
+      "start": 409.29,
+      "end": 417.86,
+      "text": "Between guanine and cytosine, guanine can actually hydrogen bond to cytosine three times."
+    },
+    {
+      "idx": 94,
+      "start": 417.86,
+      "end": 422.4,
+      "text": "Therefore guanine actually has three hydrogen donors."
+    },
+    {
+      "idx": 95,
+      "start": 422.4,
+      "end": 423.62,
+      "text": "And this means that cytosine has three hydrogen donors."
+    },
+    {
+      "idx": 96,
+      "start": 423.62,
+      "end": 427.64,
+      "text": "Here cytosine can only donate two hydrogens."
+    },
+    {
+      "idx": 97,
+      "start": 427.64,
+      "end": 432.64,
+      "text": "And here guanine can only accept, like, two hydrogen bonds."
+    },
+    {
+      "idx": 98,
+      "start": 432.64,
+      "end": 442.12,
+      "text": "And so on the exam, when they say which is more stable, and we have GC, GC, GC, etc.,"
+    },
+    {
+      "idx": 99,
+      "start": 442.12,
+      "end": 447.18,
+      "text": "compared to AT, GC, AA, which one is more stable?"
+    },
+    {
+      "idx": 100,
+      "start": 447.18,
+      "end": 449.18,
+      "text": "You pick this guy."
+    },
+    {
+      "idx": 101,
+      "start": 449.18,
+      "end": 450.18,
+      "text": "And you pick this guy."
+    },
+    {
+      "idx": 102,
+      "start": 450.18,
+      "end": 451.47,
+      "text": "And you pick this guy."
+    },
+    {
+      "idx": 103,
+      "start": 451.47,
+      "end": 452.47,
+      "text": "And you pick this guy."
+    },
+    {
+      "idx": 104,
+      "start": 452.47,
+      "end": 453.47,
+      "text": "And you pick this guy."
+    },
+    {
+      "idx": 105,
+      "start": 453.47,
+      "end": 454.47,
+      "text": "And you pick this guy."
+    },
+    {
+      "idx": 106,
+      "start": 454.47,
+      "end": 457.01,
+      "text": "And you pick this guy."
+    },
+    {
+      "idx": 107,
+      "start": 457.01,
+      "end": 461.09,
+      "text": "And then you pick the top one because obviously it has more hydrogen bonding."
+    },
+    {
+      "idx": 108,
+      "start": 461.09,
+      "end": 463.56,
+      "text": "Therefore, it would be more structurally stable."
+    },
+    {
+      "idx": 109,
+      "start": 463.56,
+      "end": 468.66,
+      "text": "So that's kind of like all you need to know about guanine, cytosine, adenine, thymine,"
+    },
+    {
+      "idx": 110,
+      "start": 469.92,
+      "end": 474.62,
+      "text": "Just know about the hydrogen bondings, how they look like, and the structures that makes"
+    },
+    {
+      "idx": 111,
+      "start": 478.27,
+      "end": 483.99,
+      "text": "Now we must talk about the phosphate groups that are attached to the nucleotides."
+    },
+    {
+      "idx": 112,
+      "start": 483.99,
+      "end": 486.61,
+      "text": "So we have adenosine triphosphate."
+    },
+    {
+      "idx": 113,
+      "start": 486.61,
+      "end": 488.15,
+      "text": "This is like three phosphates right here."
+    },
+    {
+      "idx": 114,
+      "start": 488.15,
+      "end": 494.77,
+      "text": "So really we're going to be looking at adenosine X phosphate where X is the amount of phosphates attached."
+    },
+    {
+      "idx": 115,
+      "start": 495.05,
+      "end": 498.45,
+      "text": "If you have a T, this is tri, which means 3."
+    },
+    {
+      "idx": 116,
+      "start": 498.83,
+      "end": 502.05,
+      "text": "If you have D, that's di, which means 2."
+    },
+    {
+      "idx": 117,
+      "start": 502.51,
+      "end": 508.42,
+      "text": "And if we have M, that's mono, and that means 1."
+    },
+    {
+      "idx": 118,
+      "start": 509.06,
+      "end": 512.36,
+      "text": "So we have 3 phosphates, 2 phosphates, 1 phosphate."
+    },
+    {
+      "idx": 119,
+      "start": 512.64,
+      "end": 518.38,
+      "text": "Adenosine monophosphate, adenosine diphosphate, adenosine triphosphate."
+    },
+    {
+      "idx": 120,
+      "start": 519.02,
+      "end": 524.92,
+      "text": "Now in organic chemistry, whenever you're cutting the phosphate bonds, when you're cutting the phosphodiester bonds,"
+    },
+    {
+      "idx": 121,
+      "start": 525.26,
+      "end": 530.09,
+      "text": "which is this guy and this guy, these are phosphodiester bonds."
+    },
+    {
+      "idx": 122,
+      "start": 530.85,
+      "end": 534.61,
+      "text": "Whenever you're cutting them, you have a kind of specific order."
+    },
+    {
+      "idx": 123,
+      "start": 534.61,
+      "end": 541.71,
+      "text": "And so really, when compared to this carbon, we have Greek letters."
+    },
+    {
+      "idx": 124,
+      "start": 542.25,
+      "end": 545.59,
+      "text": "So this phosphate right here would be called the alpha phosphate."
+    },
+    {
+      "idx": 125,
+      "start": 546.17,
+      "end": 548.61,
+      "text": "This phosphate right here would be called the beta phosphate."
+    },
+    {
+      "idx": 126,
+      "start": 548.73,
+      "end": 554.85,
+      "text": "And this phosphate right here would be called the gamma phosphate."
+    },
+    {
+      "idx": 127,
+      "start": 555.7,
+      "end": 561.04,
+      "text": "So the gamma phosphate is the first phosphate to be removed during chemical reactions."
+    },
+    {
+      "idx": 128,
+      "start": 561.04,
+      "end": 565.04,
+      "text": "And that will be tested on exams, on MCATs, on LSATs."
+    },
+    {
+      "idx": 129,
+      "start": 565.66,
+      "end": 567.94,
+      "text": "You will go to the mall and they'll ask you that question."
+    },
+    {
+      "idx": 130,
+      "start": 568.3,
+      "end": 569.74,
+      "text": "It's a very popular question."
+    },
+    {
+      "idx": 131,
+      "start": 570.24,
+      "end": 579.38,
+      "text": "So this one would be called the phosphoATP, or I guess the gamma phosphate."
+    },
+    {
+      "idx": 132,
+      "start": 580.16,
+      "end": 585.04,
+      "text": "So if that's an answer choice and it says which phosphate is removed first, it's the gamma phosphate."
+    },
+    {
+      "idx": 133,
+      "start": 587.86,
+      "end": 590.26,
+      "text": "Now let's actually link these guys together."
+    },
+    {
+      "idx": 134,
+      "start": 590.48,
+      "end": 592.64,
+      "text": "So let's say that I have just a random base."
+    },
+    {
+      "idx": 135,
+      "start": 592.64,
+      "end": 594.82,
+      "text": "This could be any base you can think of."
+    },
+    {
+      "idx": 136,
+      "start": 594.96,
+      "end": 598.08,
+      "text": "A, G, C, T, even U."
+    },
+    {
+      "idx": 137,
+      "start": 598.64,
+      "end": 599.84,
+      "text": "It could be any base, really."
+    },
+    {
+      "idx": 138,
+      "start": 600.5,
+      "end": 610.02,
+      "text": "And the way that we connect these nucleotides together is that we are going to connect the 5' phosphate to the 3' alcohol."
+    },
+    {
+      "idx": 139,
+      "start": 610.81,
+      "end": 611.35,
+      "text": "So let's say that we have a 5' phosphate."
+    },
+    {
+      "idx": 140,
+      "start": 611.35,
+      "end": 611.91,
+      "text": "And let's say that again."
+    },
+    {
+      "idx": 141,
+      "start": 612.57,
+      "end": 621.31,
+      "text": "The 5' phosphate will connect to the 3' alcohol."
+    },
+    {
+      "idx": 142,
+      "start": 623.04,
+      "end": 623.84,
+      "text": "So what does that mean?"
+    },
+    {
+      "idx": 143,
+      "start": 624.22,
+      "end": 628.06,
+      "text": "Well, first of all, we have to find out what direction we're talking about."
+    },
+    {
+      "idx": 144,
+      "start": 628.76,
+      "end": 633.24,
+      "text": "So in this direction, we're going to say that the 5' is this way."
+    },
+    {
+      "idx": 145,
+      "start": 634.02,
+      "end": 637.64,
+      "text": "And as we go downwards, this is going to be the 3' end."
+    },
+    {
+      "idx": 146,
+      "start": 638.16,
+      "end": 641.14,
+      "text": "Now, DNA is actually anti-parallel."
+    },
+    {
+      "idx": 147,
+      "start": 641.14,
+      "end": 642.38,
+      "text": "So what does that mean?"
+    },
+    {
+      "idx": 148,
+      "start": 642.8,
+      "end": 646.94,
+      "text": "Anti-parallel means that if we go in the 5' to 3' direction downwards,"
+    },
+    {
+      "idx": 149,
+      "start": 647.66,
+      "end": 652.24,
+      "text": "then we have to go in the 5' to 3' direction upwards for the other strand."
+    },
+    {
+      "idx": 150,
+      "start": 653.2,
+      "end": 656.17,
+      "text": "Remember that DNA is double-stranded."
+    },
+    {
+      "idx": 151,
+      "start": 656.37,
+      "end": 658.15,
+      "text": "So that means that there are two strands."
+    },
+    {
+      "idx": 152,
+      "start": 659.12,
+      "end": 664.18,
+      "text": "And since we go from the 5' going downwards, we have to go upwards like this."
+    },
+    {
+      "idx": 153,
+      "start": 665.24,
+      "end": 666.78,
+      "text": "That is anti-parallel."
+    },
+    {
+      "idx": 154,
+      "start": 667.06,
+      "end": 669.08,
+      "text": "So they go in opposite directions."
+    },
+    {
+      "idx": 155,
+      "start": 669.08,
+      "end": 671.1,
+      "text": "This is anti-parallel."
+    },
+    {
+      "idx": 156,
+      "start": 672.64,
+      "end": 676.14,
+      "text": "So let's start making our bases."
+    },
+    {
+      "idx": 157,
+      "start": 676.14,
+      "end": 680.2,
+      "text": "So for my bases, notice that I'm going to start with this guy right here."
+    },
+    {
+      "idx": 158,
+      "start": 680.2,
+      "end": 682.16,
+      "text": "I'm not starting with him."
+    },
+    {
+      "idx": 159,
+      "start": 682.16,
+      "end": 683.16,
+      "text": "This wouldn't make any sense."
+    },
+    {
+      "idx": 160,
+      "start": 684.16,
+      "end": 685.16,
+      "text": "I'm not starting with the top one."
+    },
+    {
+      "idx": 161,
+      "start": 685.16,
+      "end": 690.14,
+      "text": "But rather, I'm going to go downwards and I'm going to start to connect these phosphates"
+    },
+    {
+      "idx": 162,
+      "start": 691.14,
+      "end": 696.62,
+      "text": "So notice that I'm going from the 5' direction and I'm going to connect this oxygen to this"
+    },
+    {
+      "idx": 163,
+      "start": 699.99,
+      "end": 701.01,
+      "text": "When this happens, we actually lose the 5' to 3' direction."
+    },
+    {
+      "idx": 164,
+      "start": 702.01,
+      "end": 703.01,
+      "text": "So we lose a water."
+    },
+    {
+      "idx": 165,
+      "start": 703.01,
+      "end": 705.01,
+      "text": "And so a water is shot out."
+    },
+    {
+      "idx": 166,
+      "start": 705.01,
+      "end": 710.85,
+      "text": "So you can kind of think of this as a dehydration or a condensation reaction in which you lose"
+    },
+    {
+      "idx": 167,
+      "start": 710.85,
+      "end": 714.09,
+      "text": "water when you're forming phosphodiester bonds."
+    },
+    {
+      "idx": 168,
+      "start": 714.09,
+      "end": 724.1,
+      "text": "And so the bonds that hold DNA together are called phosphodiester bonds."
+    },
+    {
+      "idx": 169,
+      "start": 724.1,
+      "end": 729.9,
+      "text": "And again, the phosphodiester bonds is the bond between this oxygen and this new carbon"
+    },
+    {
+      "idx": 170,
+      "start": 732.93,
+      "end": 733.93,
+      "text": "So we're going to have to do this again."
+    },
+    {
+      "idx": 171,
+      "start": 733.93,
+      "end": 738.75,
+      "text": "So you can see right here that we've actually formed a new bond and they have lost a water."
+    },
+    {
+      "idx": 172,
+      "start": 738.75,
+      "end": 741.57,
+      "text": "And we do this in the 5' to 3' direction."
+    },
+    {
+      "idx": 173,
+      "start": 741.57,
+      "end": 749.09,
+      "text": "So notice that this 5' phosphate attached to this 3' carbon or 3' oxygen."
+    },
+    {
+      "idx": 174,
+      "start": 749.09,
+      "end": 753.69,
+      "text": "And we keep doing this and doing this until we have a chain of nucleotides."
+    },
+    {
+      "idx": 175,
+      "start": 753.69,
+      "end": 762.55,
+      "text": "Eventually, when you keep doing this, notice that we have a negative oxygen."
+    },
+    {
+      "idx": 176,
+      "start": 765.0,
+      "end": 769.66,
+      "text": "Each time you add a nucleotide, you get a negative oxygen."
+    },
+    {
+      "idx": 177,
+      "start": 770.36,
+      "end": 774.14,
+      "text": "And when you get a negative oxygen, these are oxygens with the negative sign, by the way,"
+    },
+    {
+      "idx": 178,
+      "start": 774.54,
+      "end": 780.81,
+      "text": "whenever you have this negative oxygen chain, the overall DNA is negative."
+    },
+    {
+      "idx": 179,
+      "start": 781.29,
+      "end": 785.17,
+      "text": "And so we can say that DNA is negative."
+    },
+    {
+      "idx": 180,
+      "start": 789.1,
+      "end": 792.62,
+      "text": "And we can actually exploit that whenever we're making genetic information."
+    },
+    {
+      "idx": 181,
+      "start": 793.06,
+      "end": 796.64,
+      "text": "Because charges do matter when you're making genetic information."
+    },
+    {
+      "idx": 182,
+      "start": 796.64,
+      "end": 805.31,
+      "text": "So whenever we're making DNA, and we keep creating these links between each nucleotide,"
+    },
+    {
+      "idx": 183,
+      "start": 805.93,
+      "end": 809.47,
+      "text": "the bases can interact with other bases from the other strand."
+    },
+    {
+      "idx": 184,
+      "start": 809.65,
+      "end": 813.97,
+      "text": "So notice that this strand is going from the 5' and this strand is going to the 3'."
+    },
+    {
+      "idx": 185,
+      "start": 813.97,
+      "end": 818.47,
+      "text": "And the opposite direction, we have to go from the 5' to the 3' as well."
+    },
+    {
+      "idx": 186,
+      "start": 819.27,
+      "end": 823.07,
+      "text": "But notice that in this base, this is an adenine."
+    },
+    {
+      "idx": 187,
+      "start": 823.37,
+      "end": 826.21,
+      "text": "And it will hydrogen bond twice to the thymine."
+    },
+    {
+      "idx": 188,
+      "start": 826.39,
+      "end": 829.13,
+      "text": "For the guanine, again, we have 3'."
+    },
+    {
+      "idx": 189,
+      "start": 831.55,
+      "end": 835.11,
+      "text": "And for the cytosine, we have 3' hydrogen acceptors."
+    },
+    {
+      "idx": 190,
+      "start": 835.77,
+      "end": 840.15,
+      "text": "And so notice that this bond, or this connection between the guanine and the cytosine,"
+    },
+    {
+      "idx": 191,
+      "start": 840.15,
+      "end": 843.33,
+      "text": "would be a lot stronger compared to the adenine and thymine,"
+    },
+    {
+      "idx": 192,
+      "start": 843.53,
+      "end": 845.31,
+      "text": "because there are more hydrogen bonds."
+    },
+    {
+      "idx": 193,
+      "start": 849.32,
+      "end": 853.2,
+      "text": "And eventually, we will create these nice shapes."
+    },
+    {
+      "idx": 194,
+      "start": 853.4,
+      "end": 856.8,
+      "text": "And so these shapes right here, these shapes, are called chromosomes."
+    },
+    {
+      "idx": 195,
+      "start": 857.3,
+      "end": 858.34,
+      "text": "These are called chromosomes."
+    },
+    {
+      "idx": 196,
+      "start": 860.3,
+      "end": 862.52,
+      "text": "And within most people,"
+    },
+    {
+      "idx": 197,
+      "start": 863.24,
+      "end": 866.56,
+      "text": "most people have a complete set of 46 chromosomes."
+    },
+    {
+      "idx": 198,
+      "start": 871.73,
+      "end": 875.41,
+      "text": "Some people, they have less than 46 chromosomes."
+    },
+    {
+      "idx": 199,
+      "start": 875.73,
+      "end": 878.21,
+      "text": "And this occurs during a mutation,"
+    },
+    {
+      "idx": 200,
+      "start": 878.81,
+      "end": 882.57,
+      "text": "whenever the cell is dividing, whenever the genetic material is dividing."
+    },
+    {
+      "idx": 201,
+      "start": 883.03,
+      "end": 885.09,
+      "text": "And that could lead to genetic mutations."
+    },
+    {
+      "idx": 202,
+      "start": 885.75,
+      "end": 890.71,
+      "text": "For instance, trisomy 21 is a result of having less chromosomes."
+    },
+    {
+      "idx": 203,
+      "start": 892.12,
+      "end": 897.2,
+      "text": "And Jacobson's disease is also a result of having some chromosomes deformity."
+    },
+    {
+      "idx": 204,
+      "start": 899.54,
+      "end": 905.26,
+      "text": "But just from this picture, the main thing that you have to remember is that"
+    },
+    {
+      "idx": 205,
+      "start": 905.26,
+      "end": 911.92,
+      "text": "normally, we get 23 chromosomes from the father and 23 chromosomes from the mother."
+    },
+    {
+      "idx": 206,
+      "start": 912.54,
+      "end": 915.66,
+      "text": "And together, they will make 46 chromosomes."
+    },
+    {
+      "idx": 207,
+      "start": 916.38,
+      "end": 921.82,
+      "text": "And what determines your sex is the X chromosome and the Y chromosome."
+    },
+    {
+      "idx": 208,
+      "start": 922.52,
+      "end": 926.14,
+      "text": "And so we can see from this picture, since this individual has an X and a Y chromosome,"
+    },
+    {
+      "idx": 209,
+      "start": 926.58,
+      "end": 928.08,
+      "text": "this person is a male."
+    },
+    {
+      "idx": 210,
+      "start": 929.48,
+      "end": 930.36,
+      "text": "But there is a difference."
+    },
+    {
+      "idx": 211,
+      "start": 930.4,
+      "end": 932.4,
+      "text": "Between sex and gender."
+    },
+    {
+      "idx": 212,
+      "start": 933.64,
+      "end": 936.16,
+      "text": "And sex has to do with your genitals."
+    },
+    {
+      "idx": 213,
+      "start": 938.75,
+      "end": 943.02,
+      "text": "And so, just kind of speaking from a scientific standpoint,"
+    },
+    {
+      "idx": 214,
+      "start": 943.36,
+      "end": 945.42,
+      "text": "sex is defined as your genitals."
+    },
+    {
+      "idx": 215,
+      "start": 945.56,
+      "end": 948.44,
+      "text": "Either you have a penis or you have a vagina."
+    },
+    {
+      "idx": 216,
+      "start": 949.34,
+      "end": 953.54,
+      "text": "And then gender has to do with your identity."
+    },
+    {
+      "idx": 217,
+      "start": 956.42,
+      "end": 963.49,
+      "text": "And we know that identification within gender can be very diverse"
+    },
+    {
+      "idx": 218,
+      "start": 963.49,
+      "end": 965.25,
+      "text": "for a specific individual."
+    },
+    {
+      "idx": 219,
+      "start": 965.27,
+      "end": 969.85,
+      "text": "You know, they can identify as whatever they may identify as."
+    },
+    {
+      "idx": 220,
+      "start": 970.61,
+      "end": 976.97,
+      "text": "And really, sex is not really a good indication of people anymore."
+    },
+    {
+      "idx": 221,
+      "start": 977.09,
+      "end": 980.59,
+      "text": "Because really, if you want to think about it in a scientific viewpoint,"
+    },
+    {
+      "idx": 222,
+      "start": 981.55,
+      "end": 990.4,
+      "text": "Turner Syndrome is when these individuals have 45 chromosomes."
+    },
+    {
+      "idx": 223,
+      "start": 991.06,
+      "end": 993.68,
+      "text": "And initially, they were supposed to have two X chromosomes,"
+    },
+    {
+      "idx": 224,
+      "start": 993.68,
+      "end": 996.2,
+      "text": "which designates a female."
+    },
+    {
+      "idx": 225,
+      "start": 996.2,
+      "end": 997.2,
+      "text": "A female body."
+    },
+    {
+      "idx": 226,
+      "start": 997.2,
+      "end": 1001.2,
+      "text": "But instead, they have an X and an empty space."
+    },
+    {
+      "idx": 227,
+      "start": 1001.2,
+      "end": 1005.2,
+      "text": "And so scientists designate this empty space as a circle."
+    },
+    {
+      "idx": 228,
+      "start": 1005.2,
+      "end": 1008.2,
+      "text": "And so this individual only has one X chromosome."
+    },
+    {
+      "idx": 229,
+      "start": 1008.2,
+      "end": 1010.7,
+      "text": "And so there is a loss of genetic diversity."
+    },
+    {
+      "idx": 230,
+      "start": 1010.7,
+      "end": 1017.89,
+      "text": "Because within the chromosomes, the X chromosome has the most genetic information compared to the Y chromosome."
+    },
+    {
+      "idx": 231,
+      "start": 1017.89,
+      "end": 1020.89,
+      "text": "The Y chromosome, as you can see in this photo, is very small."
+    },
+    {
+      "idx": 232,
+      "start": 1020.89,
+      "end": 1025.89,
+      "text": "And so if this individual who has Turner Syndrome is only carrying the X chromosome,"
+    },
+    {
+      "idx": 233,
+      "start": 1026.39,
+      "end": 1028.39,
+      "text": "then a lot of the information is lost."
+    },
+    {
+      "idx": 234,
+      "start": 1028.39,
+      "end": 1033.39,
+      "text": "And within this individual, when you look at their genitals, especially when they're infants,"
+    },
+    {
+      "idx": 235,
+      "start": 1033.39,
+      "end": 1036.39,
+      "text": "the genitalia is very ambiguous."
+    },
+    {
+      "idx": 236,
+      "start": 1036.39,
+      "end": 1038.39,
+      "text": "And so it might look like a vagina."
+    },
+    {
+      "idx": 237,
+      "start": 1038.39,
+      "end": 1040.39,
+      "text": "It might look like a penis."
+    },
+    {
+      "idx": 238,
+      "start": 1040.39,
+      "end": 1042.39,
+      "text": "Or it might be kind of like a..."
+    },
+    {
+      "idx": 239,
+      "start": 1042.39,
+      "end": 1043.89,
+      "text": "almost a combination."
+    },
+    {
+      "idx": 240,
+      "start": 1044.39,
+      "end": 1048.39,
+      "text": "But it's very hard to distinguish the differences."
+    },
+    {
+      "idx": 241,
+      "start": 1048.39,
+      "end": 1054.39,
+      "text": "And so these individuals, they may not have a genital that is very easy to identify."
+    },
+    {
+      "idx": 242,
+      "start": 1054.39,
+      "end": 1055.39,
+      "text": "And therefore, their gender identity is very difficult."
+    },
+    {
+      "idx": 243,
+      "start": 1055.39,
+      "end": 1059.39,
+      "text": "And therefore, their gender identity could be different from the accepted norm."
+    },
+    {
+      "idx": 244,
+      "start": 1059.39,
+      "end": 1065.39,
+      "text": "So really, what I'm saying here is that sex is dependent on your genitals."
+    },
+    {
+      "idx": 245,
+      "start": 1065.39,
+      "end": 1068.39,
+      "text": "And gender is dependent on your identity."
+    },
+    {
+      "idx": 246,
+      "start": 1068.39,
+      "end": 1073.39,
+      "text": "And even then, there can be a very ambiguous area of what you have and what you identify as."
+    },
+    {
+      "idx": 247,
+      "start": 1073.39,
+      "end": 1078.39,
+      "text": "And I'm only saying this because I was tested on the differences when I was an undergrad."
+    },
+    {
+      "idx": 248,
+      "start": 1078.39,
+      "end": 1082.39,
+      "text": "When I was taking genetics and microbiology as well."
+    },
+    {
+      "idx": 249,
+      "start": 1082.39,
+      "end": 1084.46,
+      "text": "And so they are..."
+    },
+    {
+      "idx": 250,
+      "start": 1085.46,
+      "end": 1087.46,
+      "text": "Yeah, they are completely different."
+    },
+    {
+      "idx": 251,
+      "start": 1087.46,
+      "end": 1093.62,
+      "text": "And so we can actually do this study, which is called karyotyping."
+    },
+    {
+      "idx": 252,
+      "start": 1093.62,
+      "end": 1098.62,
+      "text": "And we can actually see if there are any genetic deformities within an individual."
+    },
+    {
+      "idx": 253,
+      "start": 1098.62,
+      "end": 1099.62,
+      "text": "If they're missing any chromosomes."
+    },
+    {
+      "idx": 254,
+      "start": 1099.62,
+      "end": 1104.7,
+      "text": "If they have an extra chromosome, etc."
+    },
+    {
+      "idx": 255,
+      "start": 1104.7,
+      "end": 1111.05,
+      "text": "The chromosome structure is a very condensed packet of information."
+    },
+    {
+      "idx": 256,
+      "start": 1111.05,
+      "end": 1116.05,
+      "text": "Here, if we were to just take this one little section of chromosome and break it apart"
+    },
+    {
+      "idx": 257,
+      "start": 1116.05,
+      "end": 1118.05,
+      "text": "and look at the parts,"
+    },
+    {
+      "idx": 258,
+      "start": 1118.05,
+      "end": 1120.05,
+      "text": "and then I were to take this section right here,"
+    },
+    {
+      "idx": 259,
+      "start": 1120.05,
+      "end": 1122.05,
+      "text": "and zoom in even more,"
+    },
+    {
+      "idx": 260,
+      "start": 1122.05,
+      "end": 1125.05,
+      "text": "and then zoom in on one tiny bit of information,"
+    },
+    {
+      "idx": 261,
+      "start": 1125.05,
+      "end": 1128.05,
+      "text": "and zoom in even more,"
+    },
+    {
+      "idx": 262,
+      "start": 1128.05,
+      "end": 1130.05,
+      "text": "you can see this structure."
+    },
+    {
+      "idx": 263,
+      "start": 1130.05,
+      "end": 1133.05,
+      "text": "And in this structure, we have the regulatory DNA sequence."
+    },
+    {
+      "idx": 264,
+      "start": 1133.05,
+      "end": 1136.05,
+      "text": "We have structures called exons and introns."
+    },
+    {
+      "idx": 265,
+      "start": 1136.05,
+      "end": 1139.69,
+      "text": "And so the gray structure is called an intron."
+    },
+    {
+      "idx": 266,
+      "start": 1139.69,
+      "end": 1141.78,
+      "text": "And it is inhibited."
+    },
+    {
+      "idx": 267,
+      "start": 1141.78,
+      "end": 1146.97,
+      "text": "The exon is eventually expressed."
+    },
+    {
+      "idx": 268,
+      "start": 1146.97,
+      "end": 1148.97,
+      "text": "So the exon is expressed."
+    },
+    {
+      "idx": 269,
+      "start": 1153.02,
+      "end": 1156.02,
+      "text": "The introns are inhibited."
+    },
+    {
+      "idx": 270,
+      "start": 1158.02,
+      "end": 1161.44,
+      "text": "So we have inhibited right there."
+    },
+    {
+      "idx": 271,
+      "start": 1161.44,
+      "end": 1169.44,
+      "text": "The DNA will be cut into little sections that erase, or not erase, but that get rid of the introns."
+    },
+    {
+      "idx": 272,
+      "start": 1169.44,
+      "end": 1173.44,
+      "text": "And eventually we will just have a structure that has exons."
+    },
+    {
+      "idx": 273,
+      "start": 1173.44,
+      "end": 1177.44,
+      "text": "And these exons can create proteins, and these proteins can become folded"
+    },
+    {
+      "idx": 274,
+      "start": 1177.44,
+      "end": 1180.44,
+      "text": "and do whatever they need to do within the cell."
+    },
+    {
+      "idx": 275,
+      "start": 1180.44,
+      "end": 1184.44,
+      "text": "And so what I'm saying here is that the chromosome structure is very condensed,"
+    },
+    {
+      "idx": 276,
+      "start": 1184.44,
+      "end": 1191.49,
+      "text": "and we only use a little bit of the genetic information to do one thing at a time."
+    },
+    {
+      "idx": 277,
+      "start": 1191.49,
+      "end": 1197.49,
+      "text": "During the cell cycle, whenever we need to duplicate the genetic information,"
+    },
+    {
+      "idx": 278,
+      "start": 1197.49,
+      "end": 1200.49,
+      "text": "we have to kind of split the DNA in half."
+    },
+    {
+      "idx": 279,
+      "start": 1200.49,
+      "end": 1204.49,
+      "text": "And so here, we have this DNA strand."
+    },
+    {
+      "idx": 280,
+      "start": 1204.49,
+      "end": 1208.65,
+      "text": "And if I kind of split the DNA at this section right here,"
+    },
+    {
+      "idx": 281,
+      "start": 1208.65,
+      "end": 1210.65,
+      "text": "we call this the replication origin."
+    },
+    {
+      "idx": 282,
+      "start": 1210.65,
+      "end": 1212.65,
+      "text": "And here I can have a DNA strand."
+    },
+    {
+      "idx": 283,
+      "start": 1212.65,
+      "end": 1217.65,
+      "text": "And then the DNA polymerase insert itself and create a new strand of DNA."
+    },
+    {
+      "idx": 284,
+      "start": 1217.65,
+      "end": 1219.65,
+      "text": "And we can look at that process later on."
+    },
+    {
+      "idx": 285,
+      "start": 1219.65,
+      "end": 1223.97,
+      "text": "Here, notice that for eukaryotic cells,"
+    },
+    {
+      "idx": 286,
+      "start": 1223.97,
+      "end": 1225.97,
+      "text": "for eukaryotic cells,"
+    },
+    {
+      "idx": 287,
+      "start": 1228.97,
+      "end": 1233.22,
+      "text": "we have more than one replication of origin."
+    },
+    {
+      "idx": 288,
+      "start": 1233.22,
+      "end": 1237.38,
+      "text": "Okay, so we have multiple, we have multiple,"
+    },
+    {
+      "idx": 289,
+      "start": 1237.38,
+      "end": 1241.28,
+      "text": "we have multiple replication origins."
+    },
+    {
+      "idx": 290,
+      "start": 1241.28,
+      "end": 1248.62,
+      "text": "And so really,"
+    },
+    {
+      "idx": 291,
+      "start": 1248.62,
+      "end": 1251.62,
+      "text": "that is always a question that is asked on exams."
+    },
+    {
+      "idx": 292,
+      "start": 1251.62,
+      "end": 1256.62,
+      "text": "How many replication of origins do you have in the eukaryotic cell?"
+    },
+    {
+      "idx": 293,
+      "start": 1256.62,
+      "end": 1259.62,
+      "text": "And they'll be like, more than one, exactly one, none."
+    },
+    {
+      "idx": 294,
+      "start": 1259.62,
+      "end": 1263.23,
+      "text": "It's very commonly asked."
+    },
+    {
+      "idx": 295,
+      "start": 1263.23,
+      "end": 1267.23,
+      "text": "And in the other lectures, especially lecture 10,"
+    },
+    {
+      "idx": 296,
+      "start": 1267.23,
+      "end": 1271.33,
+      "text": "is when I go into the cell cycle."
+    },
+    {
+      "idx": 297,
+      "start": 1271.33,
+      "end": 1274.33,
+      "text": "And so I'm not really going to talk about that in this lecture."
+    },
+    {
+      "idx": 298,
+      "start": 1274.33,
+      "end": 1278.33,
+      "text": "I just have to mention that the DNA has more than one replication of origin."
+    },
+    {
+      "idx": 299,
+      "start": 1278.33,
+      "end": 1280.33,
+      "text": "And it's structure."
+    },
+    {
+      "idx": 300,
+      "start": 1280.33,
+      "end": 1284.12,
+      "text": "Here we have the chromosome structure."
+    },
+    {
+      "idx": 301,
+      "start": 1284.12,
+      "end": 1288.12,
+      "text": "And the chromosome structure kind of looks like some bunny ears."
+    },
+    {
+      "idx": 302,
+      "start": 1288.12,
+      "end": 1291.12,
+      "text": "So you can kind of imagine a little bunny right here."
+    },
+    {
+      "idx": 303,
+      "start": 1291.12,
+      "end": 1294.12,
+      "text": "And the bunny has some ears and some legs."
+    },
+    {
+      "idx": 304,
+      "start": 1294.12,
+      "end": 1299.12,
+      "text": "So really, when I see this guy, I'm thinking about this bunny."
+    },
+    {
+      "idx": 305,
+      "start": 1299.12,
+      "end": 1301.208,
+      "text": "You know, I love this bunny."
+    },
+    {
+      "idx": 306,
+      "start": 1301.208,
+      "end": 1302.7,
+      "text": "He's my best friend."
+    },
+    {
+      "idx": 307,
+      "start": 1302.7,
+      "end": 1308.3,
+      "text": "And when I was in class back in the day, decades ago,"
+    },
+    {
+      "idx": 308,
+      "start": 1308.3,
+      "end": 1310.3,
+      "text": "like this was like in the 40s, right?"
+    },
+    {
+      "idx": 309,
+      "start": 1310.3,
+      "end": 1316.43,
+      "text": "We had this kind of like this mnemonic that we used."
+    },
+    {
+      "idx": 310,
+      "start": 1316.43,
+      "end": 1319.43,
+      "text": "And here we have the central mirror."
+    },
+    {
+      "idx": 311,
+      "start": 1319.43,
+      "end": 1323.66,
+      "text": "So this is to help you differentiate between centrosome,"
+    },
+    {
+      "idx": 312,
+      "start": 1323.66,
+      "end": 1326.66,
+      "text": "which is somewhere else in the nucleus, and central mirror."
+    },
+    {
+      "idx": 313,
+      "start": 1326.66,
+      "end": 1330.66,
+      "text": "So the central mirror is the center of the ears."
+    },
+    {
+      "idx": 314,
+      "start": 1330.66,
+      "end": 1333.66,
+      "text": "So central mirror, central ears."
+    },
+    {
+      "idx": 315,
+      "start": 1333.66,
+      "end": 1335.66,
+      "text": "Here you have the little bunny ears."
+    },
+    {
+      "idx": 316,
+      "start": 1335.66,
+      "end": 1338.66,
+      "text": "And they attach to the central mirror."
+    },
+    {
+      "idx": 317,
+      "start": 1338.66,
+      "end": 1340.66,
+      "text": "So here we have the central mirror."
+    },
+    {
+      "idx": 318,
+      "start": 1340.66,
+      "end": 1342.66,
+      "text": "And we have the little bunny ears."
+    },
+    {
+      "idx": 319,
+      "start": 1342.66,
+      "end": 1345.66,
+      "text": "So central mirror, center ears."
+    },
+    {
+      "idx": 320,
+      "start": 1347.94,
+      "end": 1351.94,
+      "text": "So these individual structures are called chromatids."
+    },
+    {
+      "idx": 321,
+      "start": 1351.94,
+      "end": 1355.94,
+      "text": "And eventually, we will have sister chromatids."
+    },
+    {
+      "idx": 322,
+      "start": 1355.94,
+      "end": 1363.25,
+      "text": "And each sister chromatid will carry bundles of DNA inside of it."
+    },
+    {
+      "idx": 323,
+      "start": 1363.25,
+      "end": 1367.25,
+      "text": "This is a very condensed and compacted DNA."
+    },
+    {
+      "idx": 324,
+      "start": 1367.25,
+      "end": 1371.31,
+      "text": "So later in this lecture, we're going to talk about how the DNA is compacted"
+    },
+    {
+      "idx": 325,
+      "start": 1371.31,
+      "end": 1375.31,
+      "text": "and then condensed to form these structures of chromosomes."
+    },
+    {
+      "idx": 326,
+      "start": 1375.31,
+      "end": 1379.66,
+      "text": "And the way this happens is that we will have to get,"
+    },
+    {
+      "idx": 327,
+      "start": 1379.66,
+      "end": 1382.66,
+      "text": "we will have to eventually wrap chromatin together."
+    },
+    {
+      "idx": 328,
+      "start": 1382.66,
+      "end": 1384.66,
+      "text": "So what is chromatin?"
+    },
+    {
+      "idx": 329,
+      "start": 1384.66,
+      "end": 1394.1,
+      "text": "Chromatin, chromatin, chromatin is just DNA plus some proteins."
+    },
+    {
+      "idx": 330,
+      "start": 1394.1,
+      "end": 1398.1,
+      "text": "And these proteins are going to be wrapping it around."
+    },
+    {
+      "idx": 331,
+      "start": 1398.1,
+      "end": 1402.1,
+      "text": "And it will continue to wrap it around until it forms chromatin."
+    },
+    {
+      "idx": 332,
+      "start": 1402.1,
+      "end": 1406.1,
+      "text": "And then these little chromatin strands will be wrapped around themselves"
+    },
+    {
+      "idx": 333,
+      "start": 1406.1,
+      "end": 1410.79,
+      "text": "to create the chromosome."
+    },
+    {
+      "idx": 334,
+      "start": 1410.79,
+      "end": 1416.98,
+      "text": "And the chromatin can enter the nuclear pore via these structures."
+    },
+    {
+      "idx": 335,
+      "start": 1416.98,
+      "end": 1419.98,
+      "text": "So notice that the nucleus is right here."
+    },
+    {
+      "idx": 336,
+      "start": 1419.98,
+      "end": 1424.27,
+      "text": "And the nucleus has these little structures right there."
+    },
+    {
+      "idx": 337,
+      "start": 1424.27,
+      "end": 1427.3,
+      "text": "So we have these little dots right here."
+    },
+    {
+      "idx": 338,
+      "start": 1427.3,
+      "end": 1431.49,
+      "text": "And these little dots act as gates."
+    },
+    {
+      "idx": 339,
+      "start": 1431.49,
+      "end": 1434.49,
+      "text": "And that allows for the transport of information inside and outside."
+    },
+    {
+      "idx": 340,
+      "start": 1434.49,
+      "end": 1439.79,
+      "text": "And outside of the nucleus."
+    },
+    {
+      "idx": 341,
+      "start": 1439.79,
+      "end": 1444.11,
+      "text": "Here we have the foundation of chromosome packing."
+    },
+    {
+      "idx": 342,
+      "start": 1444.11,
+      "end": 1447.11,
+      "text": "These little yo-yo looking things are proteins."
+    },
+    {
+      "idx": 343,
+      "start": 1447.11,
+      "end": 1451.11,
+      "text": "And specifically these proteins are called histones."
+    },
+    {
+      "idx": 344,
+      "start": 1451.11,
+      "end": 1454.11,
+      "text": "So these guys right here are called histones."
+    },
+    {
+      "idx": 345,
+      "start": 1454.11,
+      "end": 1457.78,
+      "text": "And I always like the structure of the histone."
+    },
+    {
+      "idx": 346,
+      "start": 1457.78,
+      "end": 1460.78,
+      "text": "Because histones kind of look like yo-yos."
+    },
+    {
+      "idx": 347,
+      "start": 1460.78,
+      "end": 1462.78,
+      "text": "And these histones are proteins."
+    },
+    {
+      "idx": 348,
+      "start": 1462.78,
+      "end": 1464.78,
+      "text": "Hopefully you enjoyed this color by the way."
+    },
+    {
+      "idx": 349,
+      "start": 1464.78,
+      "end": 1466.268,
+      "text": "It's kind of like a peach color."
+    },
+    {
+      "idx": 350,
+      "start": 1466.268,
+      "end": 1466.78,
+      "text": "I enjoy it."
+    },
+    {
+      "idx": 351,
+      "start": 1466.78,
+      "end": 1472.91,
+      "text": "And whenever these histones wrap around the chromosome,"
+    },
+    {
+      "idx": 352,
+      "start": 1472.91,
+      "end": 1474.91,
+      "text": "or the DNA,"
+    },
+    {
+      "idx": 353,
+      "start": 1474.91,
+      "end": 1479.91,
+      "text": "the combination of the histones and the DNA makes up chromatin."
+    },
+    {
+      "idx": 354,
+      "start": 1479.91,
+      "end": 1483.91,
+      "text": "And so these little yo-yos and the string are chromatin."
+    },
+    {
+      "idx": 355,
+      "start": 1483.91,
+      "end": 1489.58,
+      "text": "So the purpose of the histones is to grab the chromatin"
+    },
+    {
+      "idx": 356,
+      "start": 1489.58,
+      "end": 1491.58,
+      "text": "and to wrap it around tightly."
+    },
+    {
+      "idx": 357,
+      "start": 1491.58,
+      "end": 1494.58,
+      "text": "Because really we need to compact the DNA."
+    },
+    {
+      "idx": 358,
+      "start": 1494.58,
+      "end": 1496.58,
+      "text": "If we did not have DNA compaction,"
+    },
+    {
+      "idx": 359,
+      "start": 1496.58,
+      "end": 1498.58,
+      "text": "then we would have miles and miles"
+    },
+    {
+      "idx": 360,
+      "start": 1498.58,
+      "end": 1500.58,
+      "text": "of genetic information within our body."
+    },
+    {
+      "idx": 361,
+      "start": 1500.58,
+      "end": 1502.58,
+      "text": "And that would take up too much space."
+    },
+    {
+      "idx": 362,
+      "start": 1502.58,
+      "end": 1507.58,
+      "text": "And so here we have the DNA connected to these histones."
+    },
+    {
+      "idx": 363,
+      "start": 1507.58,
+      "end": 1512.86,
+      "text": "And these histones, whenever they're connected to the DNA,"
+    },
+    {
+      "idx": 364,
+      "start": 1512.86,
+      "end": 1515.86,
+      "text": "they are called nucleosomes."
+    },
+    {
+      "idx": 365,
+      "start": 1515.86,
+      "end": 1518.93,
+      "text": "So this is a nucleo-o-o-ome."
+    },
+    {
+      "idx": 366,
+      "start": 1518.93,
+      "end": 1522.34,
+      "text": "So you might be a little confused."
+    },
+    {
+      "idx": 367,
+      "start": 1522.34,
+      "end": 1525.44,
+      "text": "The whole unit is called chromatin."
+    },
+    {
+      "idx": 368,
+      "start": 1525.44,
+      "end": 1529.44,
+      "text": "An individual connection is called a nucleosome."
+    },
+    {
+      "idx": 369,
+      "start": 1529.44,
+      "end": 1530.488,
+      "text": "You got it?"
+    },
+    {
+      "idx": 370,
+      "start": 1531.44,
+      "end": 1535.47,
+      "text": "So individual, nucleosome, together, chromatin."
+    },
+    {
+      "idx": 371,
+      "start": 1535.47,
+      "end": 1538.104,
+      "text": "So eventually we will use an enzyme."
+    },
+    {
+      "idx": 372,
+      "start": 1538.47,
+      "end": 1543.47,
+      "text": "And this enzyme is going to release the DNA when it's finished."
+    },
+    {
+      "idx": 373,
+      "start": 1543.47,
+      "end": 1547.142,
+      "text": "So really we need to talk about the nucleosome structure"
+    },
+    {
+      "idx": 374,
+      "start": 1547.47,
+      "end": 1549.47,
+      "text": "from this slide."
+    },
+    {
+      "idx": 375,
+      "start": 1549.47,
+      "end": 1552.47,
+      "text": "And so here we can say that a nucleosome consists"
+    },
+    {
+      "idx": 376,
+      "start": 1552.47,
+      "end": 1555.47,
+      "text": "of four pairs of histones."
+    },
+    {
+      "idx": 377,
+      "start": 1555.47,
+      "end": 1559.044,
+      "text": "So a nucleosome is four pairs of histones."
+    },
+    {
+      "idx": 378,
+      "start": 1559.47,
+      "end": 1562.6,
+      "text": "So what exactly is a histone?"
+    },
+    {
+      "idx": 379,
+      "start": 1562.6,
+      "end": 1566.86,
+      "text": "A histone is called an octomer."
+    },
+    {
+      "idx": 380,
+      "start": 1568.86,
+      "end": 1570.86,
+      "text": "What does that mean?"
+    },
+    {
+      "idx": 381,
+      "start": 1570.86,
+      "end": 1572.86,
+      "text": "Octo means eight."
+    },
+    {
+      "idx": 382,
+      "start": 1572.86,
+      "end": 1575.86,
+      "text": "So there are eight parts within the histone structure."
+    },
+    {
+      "idx": 383,
+      "start": 1575.86,
+      "end": 1578.86,
+      "text": "And the eight parts are here."
+    },
+    {
+      "idx": 384,
+      "start": 1578.86,
+      "end": 1590.74,
+      "text": "Within one histone, we have H2A, H2B, H3, and H4."
+    },
+    {
+      "idx": 385,
+      "start": 1592.03,
+      "end": 1595.03,
+      "text": "Each part has two pieces."
+    },
+    {
+      "idx": 386,
+      "start": 1595.03,
+      "end": 1598.03,
+      "text": "So there are two pieces of H2A,"
+    },
+    {
+      "idx": 387,
+      "start": 1598.03,
+      "end": 1601.19,
+      "text": "two pieces of H2B,"
+    },
+    {
+      "idx": 388,
+      "start": 1601.19,
+      "end": 1603.19,
+      "text": "two pieces of H3,"
+    },
+    {
+      "idx": 389,
+      "start": 1603.19,
+      "end": 1605.19,
+      "text": "and two pieces of H4."
+    },
+    {
+      "idx": 390,
+      "start": 1605.19,
+      "end": 1608.19,
+      "text": "Together, whenever you get these eight slices,"
+    },
+    {
+      "idx": 391,
+      "start": 1608.19,
+      "end": 1609.19,
+      "text": "you make a whole pizza."
+    },
+    {
+      "idx": 392,
+      "start": 1609.19,
+      "end": 1611.19,
+      "text": "The pizza being histone."
+    },
+    {
+      "idx": 393,
+      "start": 1611.19,
+      "end": 1616.19,
+      "text": "Now, exams will always try to throw in this structure."
+    },
+    {
+      "idx": 394,
+      "start": 1616.19,
+      "end": 1620.67,
+      "text": "They'll say H1, is it a part of the octomer?"
+    },
+    {
+      "idx": 395,
+      "start": 1620.67,
+      "end": 1621.67,
+      "text": "True or false?"
+    },
+    {
+      "idx": 396,
+      "start": 1621.67,
+      "end": 1624.67,
+      "text": "And you'll probably say, oh, it's true because, you know, H1,"
+    },
+    {
+      "idx": 397,
+      "start": 1624.67,
+      "end": 1627.67,
+      "text": "it has an H in it and it must be part of the octomer."
+    },
+    {
+      "idx": 398,
+      "start": 1627.67,
+      "end": 1629.7,
+      "text": "No, it's not."
+    },
+    {
+      "idx": 399,
+      "start": 1629.7,
+      "end": 1632.7,
+      "text": "So H1 is not included within the histone structure."
+    },
+    {
+      "idx": 400,
+      "start": 1632.7,
+      "end": 1636.7,
+      "text": "In fact, it is actually outside of the histone structure."
+    },
+    {
+      "idx": 401,
+      "start": 1636.7,
+      "end": 1639.7,
+      "text": "This H1 is going to be acting as a linker."
+    },
+    {
+      "idx": 402,
+      "start": 1639.7,
+      "end": 1641.7,
+      "text": "This is called a linker protein."
+    },
+    {
+      "idx": 403,
+      "start": 1641.7,
+      "end": 1643.7,
+      "text": "Or, yeah, protein."
+    },
+    {
+      "idx": 404,
+      "start": 1643.7,
+      "end": 1650.22,
+      "text": "And this linker protein is going to guide the DNA into the slot of the histone."
+    },
+    {
+      "idx": 405,
+      "start": 1650.22,
+      "end": 1656.31,
+      "text": "And so it's kind of like a little helping hand that guides the genetic information into the histone."
+    },
+    {
+      "idx": 406,
+      "start": 1656.31,
+      "end": 1660.34,
+      "text": "But it is not connected to the histone."
+    },
+    {
+      "idx": 407,
+      "start": 1660.34,
+      "end": 1664.34,
+      "text": "So here we have the side view of the yo-yo structure."
+    },
+    {
+      "idx": 408,
+      "start": 1664.34,
+      "end": 1668.34,
+      "text": "So here we have the different parts of the histone."
+    },
+    {
+      "idx": 409,
+      "start": 1668.34,
+      "end": 1673.34,
+      "text": "Now, before I leave this slide, I have to mention that these histones are actually positively charged."
+    },
+    {
+      "idx": 410,
+      "start": 1673.34,
+      "end": 1678.86,
+      "text": "So this is positively, positively, positively charged."
+    },
+    {
+      "idx": 411,
+      "start": 1678.86,
+      "end": 1680.86,
+      "text": "Why do they have to be positively charged?"
+    },
+    {
+      "idx": 412,
+      "start": 1680.86,
+      "end": 1687.82,
+      "text": "Well, they have to be positive because the structure that they're connecting to is negative."
+    },
+    {
+      "idx": 413,
+      "start": 1687.82,
+      "end": 1691.82,
+      "text": "So positive has to connect to the negative DNA."
+    },
+    {
+      "idx": 414,
+      "start": 1691.82,
+      "end": 1697.82,
+      "text": "And whenever they connect together, the attraction is very, very strong."
+    },
+    {
+      "idx": 415,
+      "start": 1697.82,
+      "end": 1701.82,
+      "text": "So histones are positively charged and the DNA is negatively charged."
+    },
+    {
+      "idx": 416,
+      "start": 1701.82,
+      "end": 1706.54,
+      "text": "Here we can see the H1 protein."
+    },
+    {
+      "idx": 417,
+      "start": 1706.54,
+      "end": 1708.54,
+      "text": "So we have the H1 protein."
+    },
+    {
+      "idx": 418,
+      "start": 1708.54,
+      "end": 1711.83,
+      "text": "And this H1 protein is going to attach itself to the DNA."
+    },
+    {
+      "idx": 419,
+      "start": 1711.83,
+      "end": 1714.83,
+      "text": "And this H1 protein is going to attach itself to the nucleosome."
+    },
+    {
+      "idx": 420,
+      "start": 1714.83,
+      "end": 1721.93,
+      "text": "And when it attaches itself to the nucleosome, it's going to be guiding the genetic material into the histone."
+    },
+    {
+      "idx": 421,
+      "start": 1721.93,
+      "end": 1726.93,
+      "text": "So in this photo, in this picture, we have the uncondensed chromatin."
+    },
+    {
+      "idx": 422,
+      "start": 1726.93,
+      "end": 1729.93,
+      "text": "So this is right during the cell cycle."
+    },
+    {
+      "idx": 423,
+      "start": 1729.93,
+      "end": 1734.47,
+      "text": "It's before you enter the mitotics phase."
+    },
+    {
+      "idx": 424,
+      "start": 1734.47,
+      "end": 1741.47,
+      "text": "And after the chromatin has been condensed with the histones, we see that we have these little chains."
+    },
+    {
+      "idx": 425,
+      "start": 1741.47,
+      "end": 1742.47,
+      "text": "And these chains are the ones that are going to be connected to the histone."
+    },
+    {
+      "idx": 426,
+      "start": 1742.47,
+      "end": 1745.54,
+      "text": "And these chains are the DNA."
+    },
+    {
+      "idx": 427,
+      "start": 1745.54,
+      "end": 1747.126,
+      "text": "The chains are the DNA."
+    },
+    {
+      "idx": 428,
+      "start": 1747.54,
+      "end": 1751.54,
+      "text": "And inside the chains, we see little dots."
+    },
+    {
+      "idx": 429,
+      "start": 1751.54,
+      "end": 1753.54,
+      "text": "So what are these little dots?"
+    },
+    {
+      "idx": 430,
+      "start": 1753.54,
+      "end": 1757.54,
+      "text": "These little dots are the histones."
+    },
+    {
+      "idx": 431,
+      "start": 1757.54,
+      "end": 1763.08,
+      "text": "And so you can see the histones kind of condensing the DNA together."
+    },
+    {
+      "idx": 432,
+      "start": 1763.08,
+      "end": 1767.08,
+      "text": "And eventually, this condensed DNA will take the shape of the chromosome."
+    },
+    {
+      "idx": 433,
+      "start": 1767.08,
+      "end": 1773.52,
+      "text": "To recap, let's look at the individual structures."
+    },
+    {
+      "idx": 434,
+      "start": 1773.52,
+      "end": 1775.52,
+      "text": "The individual structures begin here."
+    },
+    {
+      "idx": 435,
+      "start": 1775.52,
+      "end": 1776.457,
+      "text": "Here's the DNA."
+    },
+    {
+      "idx": 436,
+      "start": 1777.52,
+      "end": 1783.52,
+      "text": "Whenever the DNA is connected to the histone proteins, they become wrapped around."
+    },
+    {
+      "idx": 437,
+      "start": 1783.52,
+      "end": 1784.52,
+      "text": "And this is called a nucleosome."
+    },
+    {
+      "idx": 438,
+      "start": 1784.52,
+      "end": 1787.52,
+      "text": "This is a nucleosome."
+    },
+    {
+      "idx": 439,
+      "start": 1787.52,
+      "end": 1794.9,
+      "text": "Now when these nucleosomes need to condense even more, they start stacking up on each other."
+    },
+    {
+      "idx": 440,
+      "start": 1794.9,
+      "end": 1799.57,
+      "text": "And when they stack up on each other, we can condense."
+    },
+    {
+      "idx": 441,
+      "start": 1799.57,
+      "end": 1805.37,
+      "text": "Okay, but what if this structure, or this section right here, got on top of the other structure?"
+    },
+    {
+      "idx": 442,
+      "start": 1805.37,
+      "end": 1809.37,
+      "text": "Well, if this occurred, then we would have even more condensation."
+    },
+    {
+      "idx": 443,
+      "start": 1809.37,
+      "end": 1814.37,
+      "text": "And if we keep doing this, eventually we will create the chromosome."
+    },
+    {
+      "idx": 444,
+      "start": 1814.37,
+      "end": 1817.43,
+      "text": "And here is the structure of the chromosome."
+    },
+    {
+      "idx": 445,
+      "start": 1817.43,
+      "end": 1824.68,
+      "text": "So we can see here that the chromosome is made up from these tiny, tiny compact strands of DNA."
+    },
+    {
+      "idx": 446,
+      "start": 1824.68,
+      "end": 1832.06,
+      "text": "And now we will actually see this process in action with a small video."
+    },
+    {
+      "idx": 447,
+      "start": 1832.06,
+      "end": 1837.79,
+      "text": "In this animation, we'll see the remarkable way our DNA is tightly packed together."
+    },
+    {
+      "idx": 448,
+      "start": 1838.79,
+      "end": 1844.39,
+      "text": "And we'll see how it's packed up to fit into the nucleus of every cell."
+    },
+    {
+      "idx": 449,
+      "start": 1844.39,
+      "end": 1855.57,
+      "text": "The process starts with assembly of a nucleosome, which is formed when eight separate histone protein subunits attach to the DNA molecule."
+    },
+    {
+      "idx": 450,
+      "start": 1855.57,
+      "end": 1861.46,
+      "text": "The combined tight loop of DNA and protein is the nucleosome."
+    },
+    {
+      "idx": 451,
+      "start": 1861.46,
+      "end": 1867.1,
+      "text": "Multiple nucleosomes are coiled together, and these then stack on top of each other."
+    },
+    {
+      "idx": 452,
+      "start": 1867.1,
+      "end": 1873.13,
+      "text": "The end result is a fiber of packed nucleosomes known as chromatin."
+    },
+    {
+      "idx": 453,
+      "start": 1873.13,
+      "end": 1874.13,
+      "text": "This fiber, which at this point is called a chromosome, is packed into the nucleus of every cell."
+    },
+    {
+      "idx": 454,
+      "start": 1874.13,
+      "end": 1878.13,
+      "text": "The chromosome, which at this point is condensed to a thickness of 30 nanometers,"
+    },
+    {
+      "idx": 455,
+      "start": 1878.13,
+      "end": 1885.86,
+      "text": "is then looped and further packaged using other proteins which are not shown here."
+    },
+    {
+      "idx": 456,
+      "start": 1885.86,
+      "end": 1892.86,
+      "text": "This remarkable multiple folding allows six feet of DNA to fit into the nucleus of each cell in our body."
+    },
+    {
+      "idx": 457,
+      "start": 1892.86,
+      "end": 1898.86,
+      "text": "An object so small that 10,000 nuclei could fit on the tip of a needle."
+    },
+    {
+      "idx": 458,
+      "start": 1898.86,
+      "end": 1906.94,
+      "text": "The end result is that the DNA is tightly packed into the familiar structures we can see through a microscope."
+    },
+    {
+      "idx": 459,
+      "start": 1907.94,
+      "end": 1916.64,
+      "text": "It is important to realize that chromosomes are not always present."
+    },
+    {
+      "idx": 460,
+      "start": 1916.64,
+      "end": 1918.64,
+      "text": "They form only when cells are dividing."
+    },
+    {
+      "idx": 461,
+      "start": 1918.64,
+      "end": 1930.77,
+      "text": "At other times, as we can see here at the end of cell division, our DNA becomes less highly organized."
+    },
+    {
+      "idx": 462,
+      "start": 1930.77,
+      "end": 1945.4,
+      "text": "Now we have to ask ourselves, how do the histones condense the DNA, and how do they decondense the DNA?"
+    },
+    {
+      "idx": 463,
+      "start": 1945.4,
+      "end": 1950.4,
+      "text": "Well, they decondense the DNA by using an energy source called ATP."
+    },
+    {
+      "idx": 464,
+      "start": 1950.4,
+      "end": 1958.552,
+      "text": "And whenever ATP is broken or hydrolyzed into adenosine diphosphate, the broken bond"
+    },
+    {
+      "idx": 465,
+      "start": 1958.94,
+      "end": 1960.718,
+      "text": "will release a lot of energy."
+    },
+    {
+      "idx": 466,
+      "start": 1960.718,
+      "end": 1964.52,
+      "text": "And this energy will activate the histone and the histone will"
+    },
+    {
+      "idx": 467,
+      "start": 1964.52,
+      "end": 1966.035,
+      "text": "act like a motor."
+    },
+    {
+      "idx": 468,
+      "start": 1966.035,
+      "end": 1970.223,
+      "text": "Here the histone will shoot out the DNA, right?"
+    },
+    {
+      "idx": 469,
+      "start": 1970.223,
+      "end": 1972.54,
+      "text": "So the genetic information"
+    },
+    {
+      "idx": 470,
+      "start": 1972.54,
+      "end": 1974.307,
+      "text": "will become decondensed."
+    },
+    {
+      "idx": 471,
+      "start": 1974.307,
+      "end": 1978.431,
+      "text": "But really we also need kind of like a little mechanism."
+    },
+    {
+      "idx": 472,
+      "start": 1979.02,
+      "end": 1983.712,
+      "text": "mechanism is called ATP dependent chromatin remodeling complex."
+    },
+    {
+      "idx": 473,
+      "start": 1983.712,
+      "end": 1985.5,
+      "text": "So it's going to bind to"
+    },
+    {
+      "idx": 474,
+      "start": 1985.5,
+      "end": 1989.553,
+      "text": "the chromatin and it's going to remodel the genetic information."
+    },
+    {
+      "idx": 475,
+      "start": 1989.553,
+      "end": 1991.2,
+      "text": "Here we have the condensed"
+    },
+    {
+      "idx": 476,
+      "start": 1991.2,
+      "end": 1995.491,
+      "text": "Let's say that we need to express some genetic information."
+    },
+    {
+      "idx": 477,
+      "start": 1995.491,
+      "end": 1996.873,
+      "text": "In order to express"
+    },
+    {
+      "idx": 478,
+      "start": 1997.6,
+      "end": 2001.917,
+      "text": "genetic information, I have to actually read the DNA."
+    },
+    {
+      "idx": 479,
+      "start": 2001.917,
+      "end": 2005.42,
+      "text": "Right now I can't read the DNA because it's"
+    },
+    {
+      "idx": 480,
+      "start": 2005.42,
+      "end": 2006.994,
+      "text": "I need to be able to split over the DNA."
+    },
+    {
+      "idx": 481,
+      "start": 2006.994,
+      "end": 2008.567,
+      "text": "I need to be able to split over the DNA."
+    },
+    {
+      "idx": 482,
+      "start": 2009.0,
+      "end": 2013.315,
+      "text": "open these sections and to read the genetic information."
+    },
+    {
+      "idx": 483,
+      "start": 2013.315,
+      "end": 2015.78,
+      "text": "In order to split these sections"
+    },
+    {
+      "idx": 484,
+      "start": 2015.78,
+      "end": 2019.788,
+      "text": "apart, I need the remodeling complex and I also need ATP."
+    },
+    {
+      "idx": 485,
+      "start": 2019.788,
+      "end": 2022.6,
+      "text": "So when I have these two paired together"
+    },
+    {
+      "idx": 486,
+      "start": 2022.6,
+      "end": 2028.445,
+      "text": "and I insert ATP, the remodeling complex will loosen the chromatin."
+    },
+    {
+      "idx": 487,
+      "start": 2028.445,
+      "end": 2030.8,
+      "text": "It will actually decondense"
+    },
+    {
+      "idx": 488,
+      "start": 2030.8,
+      "end": 2035.105,
+      "text": "And so now I can have my little other proteins right here."
+    },
+    {
+      "idx": 489,
+      "start": 2035.105,
+      "end": 2036.441,
+      "text": "They can go inside"
+    },
+    {
+      "idx": 490,
+      "start": 2037.48,
+      "end": 2043.68,
+      "text": "and they can actually create proteins and other structures from this decondensed chromatin."
+    },
+    {
+      "idx": 491,
+      "start": 2046.12,
+      "end": 2051.1,
+      "text": "And now you're probably wondering, well, Brian, how do we get the signal to even know when to"
+    },
+    {
+      "idx": 492,
+      "start": 2051.1,
+      "end": 2052.351,
+      "text": "condense and decondense?"
+    },
+    {
+      "idx": 493,
+      "start": 2052.351,
+      "end": 2053.498,
+      "text": "It's very complicated."
+    },
+    {
+      "idx": 494,
+      "start": 2053.498,
+      "end": 2054.384,
+      "text": "Well, not really."
+    },
+    {
+      "idx": 495,
+      "start": 2054.384,
+      "end": 2055.74,
+      "text": "It's not that complicated."
+    },
+    {
+      "idx": 496,
+      "start": 2056.36,
+      "end": 2062.34,
+      "text": "You actually see within the structure, within the histone modification structure, we have signals."
+    },
+    {
+      "idx": 497,
+      "start": 2062.7,
+      "end": 2064.957,
+      "text": "See, these guys are going to be signals."
+    },
+    {
+      "idx": 498,
+      "start": 2064.957,
+      "end": 2067.44,
+      "text": "And this guy is called a methylation signal."
+    },
+    {
+      "idx": 499,
+      "start": 2067.7,
+      "end": 2072.54,
+      "text": "And this is called the acetylacetyl."
+    },
+    {
+      "idx": 500,
+      "start": 2072.72,
+      "end": 2080.416,
+      "text": "And this guy is called phosphorylation signal."
+    },
+    {
+      "idx": 501,
+      "start": 2080.416,
+      "end": 2088.28,
+      "text": "And so whenever the signals are being sent out,"
+    },
+    {
+      "idx": 502,
+      "start": 2088.74,
+      "end": 2096.547,
+      "text": "if the histone reads a methyl signal, then the methylation will occur."
+    },
+    {
+      "idx": 503,
+      "start": 2096.547,
+      "end": 2098.22,
+      "text": "So here we have"
+    },
+    {
+      "idx": 504,
+      "start": 2098.22,
+      "end": 2105.338,
+      "text": "And what happens during methylation is the formation of heterochromatin."
+    },
+    {
+      "idx": 505,
+      "start": 2105.338,
+      "end": 2106.624,
+      "text": "So now you're"
+    },
+    {
+      "idx": 506,
+      "start": 2107.81,
+      "end": 2110.943,
+      "text": "probably wondering, well, what is heterochromatin?"
+    },
+    {
+      "idx": 507,
+      "start": 2110.943,
+      "end": 2113.95,
+      "text": "Heterochromatin is a very compact DNA structure."
+    },
+    {
+      "idx": 508,
+      "start": 2113.99,
+      "end": 2117.464,
+      "text": "So here, this is very compact."
+    },
+    {
+      "idx": 509,
+      "start": 2117.464,
+      "end": 2120.243,
+      "text": "This is heterochromatin."
+    },
+    {
+      "idx": 510,
+      "start": 2120.243,
+      "end": 2125.57,
+      "text": "Whenever I need to make proteins and I need to"
+    },
+    {
+      "idx": 511,
+      "start": 2125.57,
+      "end": 2131.958,
+      "text": "read the DNA, the machinery, the cell machinery, cannot read the DNA because it's so compact."
+    },
+    {
+      "idx": 512,
+      "start": 2132.37,
+      "end": 2136.137,
+      "text": "here we have a sad face because you can't read the DNA."
+    },
+    {
+      "idx": 513,
+      "start": 2136.137,
+      "end": 2139.15,
+      "text": "However, if the histones have an acetylation"
+    },
+    {
+      "idx": 514,
+      "start": 2139.15,
+      "end": 2144.383,
+      "text": "signal or a phosphorylation signal, then we will actually have gene expression."
+    },
+    {
+      "idx": 515,
+      "start": 2144.383,
+      "end": 2145.31,
+      "text": "And so the DNA"
+    },
+    {
+      "idx": 516,
+      "start": 2145.31,
+      "end": 2146.942,
+      "text": "will look like this."
+    },
+    {
+      "idx": 517,
+      "start": 2146.942,
+      "end": 2153.06,
+      "text": "Notice that this guy right here was super compact and it was tightly bound."
+    },
+    {
+      "idx": 518,
+      "start": 2153.06,
+      "end": 2156.899,
+      "text": "This again is heterochromatin."
+    },
+    {
+      "idx": 519,
+      "start": 2156.899,
+      "end": 2162.786,
+      "text": "And this guy right here is called U-chromatin."
+    },
+    {
+      "idx": 520,
+      "start": 2162.786,
+      "end": 2165.73,
+      "text": "So this structure right"
+    },
+    {
+      "idx": 521,
+      "start": 2165.73,
+      "end": 2166.757,
+      "text": "here is silenced."
+    },
+    {
+      "idx": 522,
+      "start": 2166.757,
+      "end": 2169.959,
+      "text": "You cannot create anything from this heterochromatin."
+    },
+    {
+      "idx": 523,
+      "start": 2169.959,
+      "end": 2171.53,
+      "text": "But this guy right here is"
+    },
+    {
+      "idx": 524,
+      "start": 2171.53,
+      "end": 2179.192,
+      "text": "So now we have gene expression and some gene expression right there."
+    },
+    {
+      "idx": 525,
+      "start": 2181.3,
+      "end": 2186.098,
+      "text": "again, heterochromatin is silenced, but U-chromatin is expressed."
+    },
+    {
+      "idx": 526,
+      "start": 2186.098,
+      "end": 2188.46,
+      "text": "And the way that this happens is"
+    },
+    {
+      "idx": 527,
+      "start": 2188.46,
+      "end": 2193.847,
+      "text": "that acetylation will kind of remove the negative groups, right?"
+    },
+    {
+      "idx": 528,
+      "start": 2193.847,
+      "end": 2196.54,
+      "text": "So here we have the histones and"
+    },
+    {
+      "idx": 529,
+      "start": 2196.54,
+      "end": 2198.193,
+      "text": "they're positively charged."
+    },
+    {
+      "idx": 530,
+      "start": 2198.193,
+      "end": 2201.378,
+      "text": "And here we have the DNA that is negatively charged."
+    },
+    {
+      "idx": 531,
+      "start": 2201.378,
+      "end": 2202.48,
+      "text": "Now they will form"
+    },
+    {
+      "idx": 532,
+      "start": 2202.48,
+      "end": 2204.287,
+      "text": "bonds with each other, right?"
+    },
+    {
+      "idx": 533,
+      "start": 2204.287,
+      "end": 2208.4,
+      "text": "So they will have some salt bridges, which is a salt bridge is the"
+    },
+    {
+      "idx": 534,
+      "start": 2208.4,
+      "end": 2211.265,
+      "text": "attraction between a positively charged portion and a negatively charged portion."
+    },
+    {
+      "idx": 535,
+      "start": 2211.265,
+      "end": 2211.76,
+      "text": "And so this is"
+    },
+    {
+      "idx": 536,
+      "start": 2211.78,
+      "end": 2214.718,
+      "text": "the positively charged portion of the same molecule."
+    },
+    {
+      "idx": 537,
+      "start": 2214.718,
+      "end": 2217.6,
+      "text": "However, when we have acetylation, what acetylation"
+    },
+    {
+      "idx": 538,
+      "start": 2217.6,
+      "end": 2221.977,
+      "text": "will do is that it will block some of the connections."
+    },
+    {
+      "idx": 539,
+      "start": 2221.977,
+      "end": 2225.22,
+      "text": "And whenever the connections are blocked"
+    },
+    {
+      "idx": 540,
+      "start": 2225.22,
+      "end": 2232.75,
+      "text": "with acetylation, the connections between the histones and the DNA is weakened."
+    },
+    {
+      "idx": 541,
+      "start": 2232.75,
+      "end": 2234.18,
+      "text": "And whenever it"
+    },
+    {
+      "idx": 542,
+      "start": 2234.18,
+      "end": 2238.416,
+      "text": "is weakened, this structure right there becomes less condensed."
+    },
+    {
+      "idx": 543,
+      "start": 2238.416,
+      "end": 2240.5,
+      "text": "And the less condensed you are,"
+    },
+    {
+      "idx": 544,
+      "start": 2240.5,
+      "end": 2242.5,
+      "text": "the more genetic information that can be expressed."
+    },
+    {
+      "idx": 545,
+      "start": 2242.64,
+      "end": 2246.955,
+      "text": "And so acetylation replaces the negative charges on the DNA."
+    },
+    {
+      "idx": 546,
+      "start": 2246.955,
+      "end": 2249.76,
+      "text": "And with little, whenever you have less"
+    },
+    {
+      "idx": 547,
+      "start": 2249.76,
+      "end": 2252.576,
+      "text": "negative charges, you have less binding to histones."
+    },
+    {
+      "idx": 548,
+      "start": 2252.576,
+      "end": 2254.58,
+      "text": "And whenever you have less binding to"
+    },
+    {
+      "idx": 549,
+      "start": 2254.58,
+      "end": 2256.971,
+      "text": "histones, you have more gene expression."
+    },
+    {
+      "idx": 550,
+      "start": 2256.971,
+      "end": 2260.02,
+      "text": "And so acetylation removes some of those negatively"
+    },
+    {
+      "idx": 551,
+      "start": 2260.02,
+      "end": 2263.789,
+      "text": "Here we can see the two regions."
+    },
+    {
+      "idx": 552,
+      "start": 2263.789,
+      "end": 2269.206,
+      "text": "We have the heterochromatin region and we have"
+    },
+    {
+      "idx": 553,
+      "start": 2271.09,
+      "end": 2272.645,
+      "text": "the U-chromatin region."
+    },
+    {
+      "idx": 554,
+      "start": 2272.645,
+      "end": 2274.741,
+      "text": "We have the U-chromatin region."
+    },
+    {
+      "idx": 555,
+      "start": 2274.741,
+      "end": 2277.58,
+      "text": "So notice that the heterochromatin region,"
+    },
+    {
+      "idx": 556,
+      "start": 2277.76,
+      "end": 2281.734,
+      "text": "the heterochromatin region, is really bunched up together."
+    },
+    {
+      "idx": 557,
+      "start": 2281.734,
+      "end": 2282.898,
+      "text": "This is silenced."
+    },
+    {
+      "idx": 558,
+      "start": 2282.898,
+      "end": 2284.2,
+      "text": "And the U-chromatin"
+    },
+    {
+      "idx": 559,
+      "start": 2284.2,
+      "end": 2286.793,
+      "text": "is actually not bunched together."
+    },
+    {
+      "idx": 560,
+      "start": 2286.793,
+      "end": 2288.521,
+      "text": "It is more spread out."
+    },
+    {
+      "idx": 561,
+      "start": 2288.521,
+      "end": 2290.25,
+      "text": "And that is expressed."
+    },
+    {
+      "idx": 562,
+      "start": 2290.25,
+      "end": 2292.956,
+      "text": "So where do you find the heterochromatin?"
+    },
+    {
+      "idx": 563,
+      "start": 2292.956,
+      "end": 2296.19,
+      "text": "Well, you find the heterochromatin on the portion"
+    },
+    {
+      "idx": 564,
+      "start": 2296.19,
+      "end": 2300.812,
+      "text": "of the chromosome that does not need to be expressed."
+    },
+    {
+      "idx": 565,
+      "start": 2300.812,
+      "end": 2303.69,
+      "text": "So usually find them within areas"
+    },
+    {
+      "idx": 566,
+      "start": 2303.69,
+      "end": 2307.243,
+      "text": "of the chromosome that do not have genetic information."
+    },
+    {
+      "idx": 567,
+      "start": 2307.243,
+      "end": 2308.341,
+      "text": "So where is that?"
+    },
+    {
+      "idx": 568,
+      "start": 2308.341,
+      "end": 2309.31,
+      "text": "Well, you often"
+    },
+    {
+      "idx": 569,
+      "start": 2309.31,
+      "end": 2312.469,
+      "text": "find them at the tips of the chromosome."
+    },
+    {
+      "idx": 570,
+      "start": 2312.469,
+      "end": 2316.26,
+      "text": "Because really, these tips are called telomeres."
+    },
+    {
+      "idx": 571,
+      "start": 2316.26,
+      "end": 2318.798,
+      "text": "And these telomeres are just there."
+    },
+    {
+      "idx": 572,
+      "start": 2318.798,
+      "end": 2322.64,
+      "text": "They are kind of like the little plastic caps on your"
+    },
+    {
+      "idx": 573,
+      "start": 2322.64,
+      "end": 2324.067,
+      "text": "shoelace which are called aglets."
+    },
+    {
+      "idx": 574,
+      "start": 2324.067,
+      "end": 2326.36,
+      "text": "They are kind of like the little plastic caps on your"
+    },
+    {
+      "idx": 575,
+      "start": 2326.36,
+      "end": 2329.681,
+      "text": "shoelace that help the shoelace to stay condensed."
+    },
+    {
+      "idx": 576,
+      "start": 2329.681,
+      "end": 2332.337,
+      "text": "You don't want them to become unraveled."
+    },
+    {
+      "idx": 577,
+      "start": 2332.47,
+      "end": 2336.978,
+      "text": "the telomeres, they are there to act as caps for the chromosome."
+    },
+    {
+      "idx": 578,
+      "start": 2336.978,
+      "end": 2338.95,
+      "text": "And that is there to protect"
+    },
+    {
+      "idx": 579,
+      "start": 2338.95,
+      "end": 2340.91,
+      "text": "the chromosome from unraveling."
+    },
+    {
+      "idx": 580,
+      "start": 2340.91,
+      "end": 2343.39,
+      "text": "And so the telomere is made from heterochromatin."
+    },
+    {
+      "idx": 581,
+      "start": 2343.69,
+      "end": 2345.79,
+      "text": "The telomere doesn't really have genetic information."
+    },
+    {
+      "idx": 582,
+      "start": 2345.97,
+      "end": 2347.21,
+      "text": "It's just there for protection."
+    },
+    {
+      "idx": 583,
+      "start": 2347.77,
+      "end": 2351.45,
+      "text": "The centromere as well does not have genetic information."
+    },
+    {
+      "idx": 584,
+      "start": 2351.67,
+      "end": 2357.47,
+      "text": "It is there to connect to the microtubules for the gene cycle or for the cell cycle and"
+    },
+    {
+      "idx": 585,
+      "start": 2359.14,
+      "end": 2363.4,
+      "text": "And so the centromere does not have a lot of genetic information, and therefore it will"
+    },
+    {
+      "idx": 586,
+      "start": 2364.22,
+      "end": 2365.62,
+      "text": "It will be very compact."
+    },
+    {
+      "idx": 587,
+      "start": 2365.62,
+      "end": 2372.54,
+      "text": "The euchromatin, however, the other regions of this structure, the other regions, they"
+    },
+    {
+      "idx": 588,
+      "start": 2372.54,
+      "end": 2377.36,
+      "text": "will have gene expression, and therefore it will be euchromatin."
+    },
+    {
+      "idx": 589,
+      "start": 2378.46,
+      "end": 2381.78,
+      "text": "So again, heterochromatin is often methylated."
+    },
+    {
+      "idx": 590,
+      "start": 2382.12,
+      "end": 2383.66,
+      "text": "So this is methylated."
+    },
+    {
+      "idx": 591,
+      "start": 2384.87,
+      "end": 2386.23,
+      "text": "This is like a nice color."
+    },
+    {
+      "idx": 592,
+      "start": 2386.45,
+      "end": 2387.25,
+      "text": "It's like a mint."
+    },
+    {
+      "idx": 593,
+      "start": 2387.47,
+      "end": 2388.41,
+      "text": "My gosh, it's great."
+    },
+    {
+      "idx": 594,
+      "start": 2390.27,
+      "end": 2392.81,
+      "text": "So how does this occur?"
+    },
+    {
+      "idx": 595,
+      "start": 2393.23,
+      "end": 2395.75,
+      "text": "Well, here we have the cell machinery."
+    },
+    {
+      "idx": 596,
+      "start": 2396.23,
+      "end": 2402.57,
+      "text": "So notice, let's say that we are trying to modify some gene expression."
+    },
+    {
+      "idx": 597,
+      "start": 2403.03,
+      "end": 2405.99,
+      "text": "Let's say that I don't want to express anything right now."
+    },
+    {
+      "idx": 598,
+      "start": 2406.31,
+      "end": 2411.23,
+      "text": "If I don't want to express anything right now, I will actually have some histone modifications."
+    },
+    {
+      "idx": 599,
+      "start": 2411.73,
+      "end": 2414.11,
+      "text": "So here we have euchromatin."
+    },
+    {
+      "idx": 600,
+      "start": 2414.47,
+      "end": 2415.91,
+      "text": "So this is euchromatin."
+    },
+    {
+      "idx": 601,
+      "start": 2416.47,
+      "end": 2421.03,
+      "text": "And let's say, well, okay, I need to condense it because I don't want to express anything."
+    },
+    {
+      "idx": 602,
+      "start": 2421.61,
+      "end": 2423.63,
+      "text": "And so histone modifications will occur."
+    },
+    {
+      "idx": 603,
+      "start": 2423.93,
+      "end": 2426.75,
+      "text": "And here we have the creation of cytokine."
+    },
+    {
+      "idx": 604,
+      "start": 2426.87,
+      "end": 2428.05,
+      "text": "So this is the cell machinery."
+    },
+    {
+      "idx": 605,
+      "start": 2428.67,
+      "end": 2432.13,
+      "text": "And this cell machinery will actually act as a magnet."
+    },
+    {
+      "idx": 606,
+      "start": 2432.49,
+      "end": 2437.29,
+      "text": "So let's say that we have a methyl group right there and a methyl group right here."
+    },
+    {
+      "idx": 607,
+      "start": 2437.71,
+      "end": 2441.81,
+      "text": "Again, these little methyl groups are going to be acting as signals for this guy to operate."
+    },
+    {
+      "idx": 608,
+      "start": 2443.67,
+      "end": 2449.55,
+      "text": "So he reads the signal, and he's going to bind itself to the portion of the chromosome,"
+    },
+    {
+      "idx": 609,
+      "start": 2449.73,
+      "end": 2451.09,
+      "text": "and it's going to act as a magnet."
+    },
+    {
+      "idx": 610,
+      "start": 2451.09,
+      "end": 2456.57,
+      "text": "So now notice that over time, these nucleosomes are going to be attracted to this cell machinery."
+    },
+    {
+      "idx": 611,
+      "start": 2456.57,
+      "end": 2459.99,
+      "text": "And the more nucleosomes that are attracted to this cell machinery,"
+    },
+    {
+      "idx": 612,
+      "start": 2460.31,
+      "end": 2463.93,
+      "text": "the more the heterochromatin portion of the DNA grows."
+    },
+    {
+      "idx": 613,
+      "start": 2465.81,
+      "end": 2470.57,
+      "text": "And so over time, we will have this bunching up of the heterochromatin."
+    },
+    {
+      "idx": 614,
+      "start": 2470.91,
+      "end": 2475.83,
+      "text": "And whenever you have so much heterochromatin bound together, you actually lose gene expression."
+    },
+    {
+      "idx": 615,
+      "start": 2476.27,
+      "end": 2481.53,
+      "text": "And so now, instead of creating protein X and protein Y,"
+    },
+    {
+      "idx": 616,
+      "start": 2481.53,
+      "end": 2484.53,
+      "text": "we don't code for that anymore because they are condensed,"
+    },
+    {
+      "idx": 617,
+      "start": 2484.53,
+      "end": 2488.19,
+      "text": "and we can't read the information to make these proteins anymore."
+    },
+    {
+      "idx": 618,
+      "start": 2488.51,
+      "end": 2494.62,
+      "text": "Instead, we will now make protein W and protein, I don't know, like Z."
+    },
+    {
+      "idx": 619,
+      "start": 2496.86,
+      "end": 2499.9,
+      "text": "Because protein W and protein Z are not condensed."
+    },
+    {
+      "idx": 620,
+      "start": 2500.22,
+      "end": 2502.78,
+      "text": "They're a part of this euchromatin structure."
+    },
+    {
+      "idx": 621,
+      "start": 2503.26,
+      "end": 2507.58,
+      "text": "And so really, the formation of heterochromatin is dependent on the signals"
+    },
+    {
+      "idx": 622,
+      "start": 2507.58,
+      "end": 2510.56,
+      "text": "and the cell machinery that reads those signals."
+    },
+    {
+      "idx": 623,
+      "start": 2513.38,
+      "end": 2517.86,
+      "text": "And so when do we see this heterochromatin and euchromatin switching on and off?"
+    },
+    {
+      "idx": 624,
+      "start": 2519.52,
+      "end": 2524.88,
+      "text": "We actually see them via the inactivation of certain genes within the embryo."
+    },
+    {
+      "idx": 625,
+      "start": 2524.88,
+      "end": 2530.8,
+      "text": "So within the embryo, you have the chromosomes being expressed by the ex-parent,"
+    },
+    {
+      "idx": 626,
+      "start": 2530.8,
+      "end": 2534.48,
+      "text": "by the dad, and you have the genetic information by the mother."
+    },
+    {
+      "idx": 627,
+      "start": 2534.48,
+      "end": 2539.36,
+      "text": "Now sometimes, one of these chromosomes are going to be inactivated."
+    },
+    {
+      "idx": 628,
+      "start": 2539.36,
+      "end": 2543.52,
+      "text": "So let's say that here, the ex-chromosome from the father is inactivated."
+    },
+    {
+      "idx": 629,
+      "start": 2543.52,
+      "end": 2546.16,
+      "text": "And this cell is going to divide later on."
+    },
+    {
+      "idx": 630,
+      "start": 2546.16,
+      "end": 2547.84,
+      "text": "So when it divides,"
+    },
+    {
+      "idx": 631,
+      "start": 2548.08,
+      "end": 2550.88,
+      "text": "the ex-chromosome is still inactivated."
+    },
+    {
+      "idx": 632,
+      "start": 2550.88,
+      "end": 2552.56,
+      "text": "It became heterochromatin."
+    },
+    {
+      "idx": 633,
+      "start": 2553.7,
+      "end": 2557.7,
+      "text": "And so now we have that only the ex-portion on the mother is active."
+    },
+    {
+      "idx": 634,
+      "start": 2558.34,
+      "end": 2564.56,
+      "text": "But let's say that the brother cell has the ex-portion of the father activated"
+    },
+    {
+      "idx": 635,
+      "start": 2564.56,
+      "end": 2567.12,
+      "text": "and the ex-portion of the mother deactivated."
+    },
+    {
+      "idx": 636,
+      "start": 2567.12,
+      "end": 2571.28,
+      "text": "And so here, we can see that only the ex-portion of the father is passed on."
+    },
+    {
+      "idx": 637,
+      "start": 2572.14,
+      "end": 2575.58,
+      "text": "But notice that we didn't really lose genetic information because we have"
+    },
+    {
+      "idx": 638,
+      "start": 2575.58,
+      "end": 2579.18,
+      "text": "the mother's chromosome over here and the father's chromosome over there."
+    },
+    {
+      "idx": 639,
+      "start": 2579.26,
+      "end": 2582.7,
+      "text": "And together, they have enough information to pass on to the other cells."
+    },
+    {
+      "idx": 640,
+      "start": 2582.7,
+      "end": 2589.58,
+      "text": "But it is the inactivation and reactivation of heterochromatin and euchromatin that guides us."
+    },
+    {
+      "idx": 641,
+      "start": 2589.58,
+      "end": 2596.38,
+      "text": "And so sometimes, sometimes if we have a genetic mutation, let's say in the father's cells,"
+    },
+    {
+      "idx": 642,
+      "start": 2596.38,
+      "end": 2602.54,
+      "text": "then that genetic mutation will only be found in the father's cells and not in the mother's cells."
+    },
+    {
+      "idx": 643,
+      "start": 2602.54,
+      "end": 2606.78,
+      "text": "But the infant, the baby, will have both cells."
+    },
+    {
+      "idx": 644,
+      "start": 2606.78,
+      "end": 2609.1,
+      "text": "And so whenever they have a mutation,"
+    },
+    {
+      "idx": 645,
+      "start": 2609.1,
+      "end": 2613.06,
+      "text": "we call that the mosaic mutation."
+    },
+    {
+      "idx": 646,
+      "start": 2613.06,
+      "end": 2615.86,
+      "text": "And here we have the mosaic mutation."
+    },
+    {
+      "idx": 647,
+      "start": 2615.86,
+      "end": 2622.02,
+      "text": "So notice, let's say that the cells over here have the X chromosome from the mother,"
+    },
+    {
+      "idx": 648,
+      "start": 2622.02,
+      "end": 2626.1,
+      "text": "and this guy right here only has the X chromosome from the father,"
+    },
+    {
+      "idx": 649,
+      "start": 2626.1,
+      "end": 2628.82,
+      "text": "and this X chromosome from the father is mutated."
+    },
+    {
+      "idx": 650,
+      "start": 2628.82,
+      "end": 2633.54,
+      "text": "Okay, so these purple cells do not have the father's chromosome,"
+    },
+    {
+      "idx": 651,
+      "start": 2633.54,
+      "end": 2638.18,
+      "text": "but this beige cell does have the father's mutation."
+    },
+    {
+      "idx": 652,
+      "start": 2639.62,
+      "end": 2642.0,
+      "text": "So notice that when these cells start to divide,"
+    },
+    {
+      "idx": 653,
+      "start": 2642.0,
+      "end": 2645.12,
+      "text": "we will have a little bit of cells that have the mutation from the father."
+    },
+    {
+      "idx": 654,
+      "start": 2645.12,
+      "end": 2652.16,
+      "text": "And eventually, those cells are somatic cells that will kind of deposit themselves in different parts of the body."
+    },
+    {
+      "idx": 655,
+      "start": 2652.16,
+      "end": 2657.68,
+      "text": "So sometimes there is a sweat mutation where, let's say, the beige has a sweat mutation,"
+    },
+    {
+      "idx": 656,
+      "start": 2657.68,
+      "end": 2663.04,
+      "text": "and the sweat mutation allows the body to not produce sweat in certain parts of the body."
+    },
+    {
+      "idx": 657,
+      "start": 2663.04,
+      "end": 2666.88,
+      "text": "So when this person is exercising, they may not sweat on their head."
+    },
+    {
+      "idx": 658,
+      "start": 2666.88,
+      "end": 2670.08,
+      "text": "They may not sweat on their body."
+    },
+    {
+      "idx": 659,
+      "start": 2670.64,
+      "end": 2675.52,
+      "text": "They may not sweat on their shoulders, but they sweat everywhere else on the purple region."
+    },
+    {
+      "idx": 660,
+      "start": 2675.52,
+      "end": 2682.56,
+      "text": "And so really, this mutation comes from the flipping on and off of the heterochromatin and the euchromatin expression."
+    },
+    {
+      "idx": 661,
+      "start": 2682.56,
+      "end": 2695.66,
+      "text": "And so these mosaic mutations are the result of the switching on and off of certain genes in certain chromosomes."
+    },
+    {
+      "idx": 662,
+      "start": 2695.66,
+      "end": 2698.3,
+      "text": "And so hopefully now you understand what makes up DNA,"
+    },
+    {
+      "idx": 663,
+      "start": 2698.3,
+      "end": 2700.22,
+      "text": "the mutations that could arise in DNA,"
+    },
+    {
+      "idx": 664,
+      "start": 2700.22,
+      "end": 2701.34,
+      "text": "the signals that could be used to make up DNA,"
+    },
+    {
+      "idx": 665,
+      "start": 2701.34,
+      "end": 2706.94,
+      "text": "the signals that signal for condensation or decondensation of chromosomes,"
+    },
+    {
+      "idx": 666,
+      "start": 2706.94,
+      "end": 2712.46,
+      "text": "heterochromatin, euchromatin, histones, phosphorus, etc.,"
+    },
+    {
+      "idx": 667,
+      "start": 2712.46,
+      "end": 2715.9,
+      "text": "gender expression and sex expression, etc."
+    },
+    {
+      "idx": 668,
+      "start": 2715.9,
+      "end": 2717.9,
+      "text": "So I hope that you learned so much from this video,"
+    },
+    {
+      "idx": 669,
+      "start": 2717.9,
+      "end": 2719.66,
+      "text": "and I hope that you have a great day."
+    },
+    {
+      "idx": 670,
+      "start": 2719.66,
+      "end": 2723.18,
+      "text": "Thank you so much for watching this video and spending your time with me."
+    },
+    {
+      "idx": 671,
+      "start": 2723.18,
+      "end": 2727.04,
+      "text": "Remember that you are an amazing person,"
+    },
+    {
+      "idx": 672,
+      "start": 2727.04,
+      "end": 2730.5,
+      "text": "and that you can do anything you put your mind to."
+    },
+    {
+      "idx": 673,
+      "start": 2730.5,
+      "end": 2731.7,
+      "text": "And remember that I will always be your friend."
+    },
+    {
+      "idx": 674,
+      "start": 2731.7,
+      "end": 2733.57,
+      "text": "I will always love you."
+    },
+    {
+      "idx": 675,
+      "start": 2733.57,
+      "end": 2735.73,
+      "text": "So have a great day, and be safe."
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "video_id": "Qw4l1w0rkjs",
+  "annotator": "llm_a",
+  "status": "reviewed",
+  "double_mode": false,
+  "chapters": [
+    {
+      "start_sec": 0.0,
+      "title": "Introduction"
+    },
+    {
+      "start_sec": 35.0,
+      "title": "Utilitarianism"
+    },
+    {
+      "start_sec": 123.0,
+      "title": "Mills Defense"
+    },
+    {
+      "start_sec": 144.0,
+      "title": "Why Justice"
+    },
+    {
+      "start_sec": 168.0,
+      "title": "Exception"
+    },
+    {
+      "start_sec": 217.0,
+      "title": "Objection"
+    },
+    {
+      "start_sec": 272.0,
+      "title": "Worthier Pleasures"
+    },
+    {
+      "start_sec": 336.0,
+      "title": "Strong Theories of Rights"
+    },
+    {
+      "start_sec": 366.0,
+      "title": "Libertarianism"
+    },
+    {
+      "start_sec": 462.0,
+      "title": "What Does Libertarianism Say"
+    },
+    {
+      "start_sec": 549.0,
+      "title": "No Morals Legislation"
+    },
+    {
+      "start_sec": 614.0,
+      "title": "No Taxation"
+    },
+    {
+      "start_sec": 721.0,
+      "title": "Two Principles"
+    },
+    {
+      "start_sec": 817.0,
+      "title": "Bill Gates"
+    },
+    {
+      "start_sec": 853.0,
+      "title": "Microsoft"
+    },
+    {
+      "start_sec": 956.0,
+      "title": "Utilitarians"
+    },
+    {
+      "start_sec": 1024.0,
+      "title": "Michael Jordan"
+    },
+    {
+      "start_sec": 1072.0,
+      "title": "redistribution is wrong"
+    },
+    {
+      "start_sec": 1108.0,
+      "title": "Michael Jordan and redistribution"
+    },
+    {
+      "start_sec": 1194.0,
+      "title": "Is it theft"
+    },
+    {
+      "start_sec": 1237.0,
+      "title": "Is it redistribution"
+    },
+    {
+      "start_sec": 1336.0,
+      "title": "Is it taxation"
+    },
+    {
+      "start_sec": 1496.0,
+      "title": "The Fundamental Principle"
+    },
+    {
+      "start_sec": 1594.0,
+      "title": "The Stakes Are High"
+    },
+    {
+      "start_sec": 1642.0,
+      "title": "Self Possession"
+    },
+    {
+      "start_sec": 1672.0,
+      "title": "The Minimal State"
+    },
+    {
+      "start_sec": 2110.0,
+      "title": "Objections"
+    },
+    {
+      "start_sec": 2180.0,
+      "title": "The poor need the money"
+    },
+    {
+      "start_sec": 2234.0,
+      "title": "Need vs deserving"
+    },
+    {
+      "start_sec": 2332.0,
+      "title": "Property rights"
+    },
+    {
+      "start_sec": 2397.0,
+      "title": "Democracy"
+    },
+    {
+      "start_sec": 2451.0,
+      "title": "Alice Alex"
+    },
+    {
+      "start_sec": 2616.0,
+      "title": "Anna Anna"
+    },
+    {
+      "start_sec": 3000.0,
+      "title": "Conclusion"
+    }
+  ],
+  "subtopics": [
+    {
+      "start_sec": 0.0,
+      "chapter_idx": 0,
+      "title": "Introduction"
+    },
+    {
+      "start_sec": 35.0,
+      "chapter_idx": 1,
+      "title": "Utilitarianism"
+    },
+    {
+      "start_sec": 123.0,
+      "chapter_idx": 2,
+      "title": "Mills Defense"
+    },
+    {
+      "start_sec": 144.0,
+      "chapter_idx": 3,
+      "title": "Why Justice"
+    },
+    {
+      "start_sec": 168.0,
+      "chapter_idx": 4,
+      "title": "Exception"
+    },
+    {
+      "start_sec": 217.0,
+      "chapter_idx": 5,
+      "title": "Objection"
+    },
+    {
+      "start_sec": 272.0,
+      "chapter_idx": 6,
+      "title": "Worthier Pleasures"
+    },
+    {
+      "start_sec": 336.0,
+      "chapter_idx": 7,
+      "title": "Strong Theories of Rights"
+    },
+    {
+      "start_sec": 366.0,
+      "chapter_idx": 8,
+      "title": "Libertarianism"
+    },
+    {
+      "start_sec": 462.0,
+      "chapter_idx": 9,
+      "title": "What Does Libertarianism Say"
+    },
+    {
+      "start_sec": 549.0,
+      "chapter_idx": 10,
+      "title": "No Morals Legislation"
+    },
+    {
+      "start_sec": 614.0,
+      "chapter_idx": 11,
+      "title": "No Taxation"
+    },
+    {
+      "start_sec": 721.0,
+      "chapter_idx": 12,
+      "title": "Two Principles"
+    },
+    {
+      "start_sec": 817.0,
+      "chapter_idx": 13,
+      "title": "Bill Gates"
+    },
+    {
+      "start_sec": 853.0,
+      "chapter_idx": 14,
+      "title": "Microsoft"
+    },
+    {
+      "start_sec": 956.0,
+      "chapter_idx": 15,
+      "title": "Utilitarians"
+    },
+    {
+      "start_sec": 1024.0,
+      "chapter_idx": 16,
+      "title": "Michael Jordan"
+    },
+    {
+      "start_sec": 1072.0,
+      "chapter_idx": 17,
+      "title": "redistribution is wrong"
+    },
+    {
+      "start_sec": 1108.0,
+      "chapter_idx": 18,
+      "title": "Michael Jordan and redistribution"
+    },
+    {
+      "start_sec": 1194.0,
+      "chapter_idx": 19,
+      "title": "Is it theft"
+    },
+    {
+      "start_sec": 1237.0,
+      "chapter_idx": 20,
+      "title": "Is it redistribution"
+    },
+    {
+      "start_sec": 1336.0,
+      "chapter_idx": 21,
+      "title": "Taxation as taking earnings"
+    },
+    {
+      "start_sec": 1396.0,
+      "chapter_idx": 21,
+      "title": "Taxation and forced labor equivalence"
+    },
+    {
+      "start_sec": 1436.0,
+      "chapter_idx": 21,
+      "title": "State's entitlement to labor"
+    },
+    {
+      "start_sec": 1436.0,
+      "chapter_idx": 21,
+      "title": "Forced labor as slavery"
+    },
+    {
+      "start_sec": 1496.0,
+      "chapter_idx": 22,
+      "title": "The Fundamental Principle"
+    },
+    {
+      "start_sec": 1594.0,
+      "chapter_idx": 23,
+      "title": "The Stakes Are High"
+    },
+    {
+      "start_sec": 1642.0,
+      "chapter_idx": 24,
+      "title": "Self Possession"
+    },
+    {
+      "start_sec": 1672.0,
+      "chapter_idx": 25,
+      "title": "Minimal State Overview"
+    },
+    {
+      "start_sec": 1818.0,
+      "chapter_idx": 25,
+      "title": "Social Security and Minimal State"
+    },
+    {
+      "start_sec": 1966.0,
+      "chapter_idx": 25,
+      "title": "Private Fire Protection vs Public Goods"
+    },
+    {
+      "start_sec": 2050.0,
+      "chapter_idx": 25,
+      "title": "Libertarian's Argument Against Redistribution"
+    },
+    {
+      "start_sec": 2110.0,
+      "chapter_idx": 26,
+      "title": "Objections"
+    },
+    {
+      "start_sec": 2180.0,
+      "chapter_idx": 27,
+      "title": "The poor need the money"
+    },
+    {
+      "start_sec": 2234.0,
+      "chapter_idx": 28,
+      "title": "Need vs deserving"
+    },
+    {
+      "start_sec": 2332.0,
+      "chapter_idx": 29,
+      "title": "Property rights"
+    },
+    {
+      "start_sec": 2397.0,
+      "chapter_idx": 30,
+      "title": "Democracy"
+    },
+    {
+      "start_sec": 2451.0,
+      "chapter_idx": 31,
+      "title": "Winning a Vote vs Property Rights"
+    },
+    {
+      "start_sec": 2527.0,
+      "chapter_idx": 31,
+      "title": "Democracy Argument for Taxation"
+    },
+    {
+      "start_sec": 2556.0,
+      "chapter_idx": 31,
+      "title": "Limited Democracy and Fundamental Rights"
+    },
+    {
+      "start_sec": 2616.0,
+      "chapter_idx": 32,
+      "title": "Religion vs Economics Comparison"
+    },
+    {
+      "start_sec": 2892.0,
+      "chapter_idx": 32,
+      "title": "Stealing to Survive Justification"
+    },
+    {
+      "start_sec": 2940.0,
+      "chapter_idx": 32,
+      "title": "Debt to Society Discussion"
+    },
+    {
+      "start_sec": 3000.0,
+      "chapter_idx": 33,
+      "title": "Libertarian Logic Challenge"
+    },
+    {
+      "start_sec": 3138.0,
+      "chapter_idx": 33,
+      "title": "Self-Possession and Justice Theory"
+    },
+    {
+      "start_sec": 3243.0,
+      "chapter_idx": 33,
+      "title": "John Locke's Account of Private Property and Self-Ownership"
+    }
+  ]
+}
