@@ -7,9 +7,10 @@
 The proliferation of online lecture content since 2020 has created an
 unprecedented body of educational material that is largely inaccessible
 by topic.
-By 2025, YouTube alone hosted over 800~million videos, with educational content
-accounting for one of the fastest-growing categories~\citep{youtube2024stats}.
-Massive Open Online Courses (MOOCs) on platforms such as Coursera, edX, and
+By 2025, public video platforms and course portals hosted vast amounts of
+educational video, with lectures spanning both formal courses and informal
+creator-produced tutorials. Massive Open Online Courses (MOOCs) on platforms
+such as Coursera, edX, and
 MIT OpenCourseWare collectively offer tens of thousands of hour-long lecture
 recordings spanning every academic discipline.
 Yet students navigating this content face a fundamental discoverability problem:
@@ -19,8 +20,7 @@ linear algebra recording requires either sequential viewing or prior knowledge
 of where to look.
 
 Existing video-retrieval systems typically rely on manually authored chapter
-markers---available for fewer than 15\,\% of YouTube educational videos at
-time of writing~\citep{todo:youtube_chapter_stats}---or on coarse metadata
+markers---often unavailable or inconsistent in public lecture videos---or on coarse metadata
 (title, description) that rarely reflects intra-video structure.
 Automated lecture topic segmentation addresses this gap by identifying, from
 the video signal itself, the timestamps at which the lecture transitions between
@@ -51,21 +51,19 @@ use when planning lectures and that viewers expect when navigating course conten
 \label{sec:rqs}
 
 \begin{description}
-  \item[RQ1] Does a reliability-weighted modality fusion that dynamically
-    suppresses uninformative channels outperform fixed-weight fusion and
-    text-only baselines?
+  \item[RQ1] Which text, multimodal, and cross-model boundary-selection
+    strategies are most reliable for low-resource lecture segmentation?
 
-  \item[RQ2] Does a two-stage boundary predictor (broad candidate generation
-    followed by multimodal refinement) achieve better precision--recall balance
-    than a single-stage threshold method?
+  \item[RQ2] Does method selection or candidate selection improve the
+    precision--recall tradeoff beyond a single global segmentation method?
 
-  \item[RQ3] Does explicit hierarchical modelling with a nesting constraint
-    improve chapter-level and subtopic-level segmentation quality simultaneously?
+  \item[RQ3] Can explicit hierarchical annotation and nesting constraints make
+    lecture segmentation outputs easier to inspect and evaluate?
 
-  \item[RQ4] Can a small local language model (Llama-3.1-8B) meaningfully
-    improve boundary alignment and generate useful segment titles?
+  \item[RQ4] Which auxiliary signals, including local LLM refinement, OCR,
+    shots, and prosody, help or hurt under the same evaluation protocol?
 
-  \item[RQ5] Are the gains of the proposed method over the best prior baseline
+  \item[RQ5] Which improvements over the stable local baseline are
     statistically significant across the \dataset{} benchmark?
 \end{description}
 
@@ -77,19 +75,14 @@ This thesis makes the following contributions:
 \begin{enumerate}
   \item \textbf{\dataset{}}: A manually annotated benchmark of 30 academic
     lecture videos from five domains, with creator-validated chapter boundaries
-    and human-reviewed subtopic annotations, totalling approximately 55~hours
+    and human-reviewed subtopic annotations, totalling 32.52~hours
     of transcribed audio.
     (Chapter~\ref{chap:methodology}, Section~\ref{sec:dataset}.)
 
-  \item \textbf{Reliability-Weighted Fusion (N2)}: A modality fusion module
-    that assigns each modality a weight inversely proportional to the entropy
-    of its gap-score distribution, requiring no labelled data or manual tuning.
-    (Chapter~\ref{chap:methodology}, Section~\ref{sec:fusion}.)
-
-  \item \textbf{Two-Stage Boundary Predictor (N1)}: A predictor that first
-    generates high-recall candidates using text-only cosine depth scores, then
-    re-ranks them with the fused multimodal signal.
-    (Chapter~\ref{chap:methodology}, Section~\ref{sec:boundary}.)
+  \item \textbf{Boundary-selection analysis}: Cross-model conservative
+    selection, method-portfolio analysis, and selector experiments that expose
+    candidate selection as the main bottleneck.
+    (Chapter~\ref{chap:methodology}, Sections~\ref{sec:fusion}--\ref{sec:boundary}.)
 
   \item \textbf{Hierarchical Segmenter (N3)}: A segmenter that produces
     valid nested chapter and subtopic boundaries by construction, enforcing
@@ -98,20 +91,20 @@ This thesis makes the following contributions:
     (Chapter~\ref{chap:methodology}, Section~\ref{sec:hierarchy}.)
 
   \item \textbf{Local-LLM Refinement (N4)}: A post-processing module that uses
-    an on-device Llama-3.1-8B to shift boundaries by up to $\pm 2$ sentences
-    toward cleaner semantic transitions and to generate concise segment titles.
+    an on-device Llama-3.1-8B for boundary-refinement experiments and concise
+    segment-title generation.
     (Chapter~\ref{chap:methodology}, Section~\ref{sec:refine}.)
 
-  \item \textbf{Comprehensive evaluation}: A comparison of eight methods across
-    five metrics with bootstrap confidence intervals and paired statistical
-    testing, plus a qualitative error analysis.
+  \item \textbf{Comprehensive evaluation}: A comparison of classical, neural,
+    cross-model, multimodal, selector, and oracle variants across multiple
+    metrics with bootstrap confidence intervals and paired statistical testing,
+    plus a qualitative error analysis.
     (Chapter~\ref{chap:results}.)
 
-  \item \textbf{Open-source implementation}: All code, the \dataset{} dataset,
-    and model weights are released under permissive licences at
-    \href{https://huggingface.co/lecseg}{huggingface.co/lecseg} and
-    \href{https://zenodo.org/record/lecseg}{zenodo.org/record/lecseg}.
-    (Chapter~\ref{chap:deliverables} and Appendix~\ref{app:dataset}.)
+  \item \textbf{Reproducibility package}: The repository contains runnable
+    preprocessing, evaluation, statistics, and table-generation scripts for the
+    reported experiments.
+    (Chapter~\ref{chap:methodology} and Appendix~\ref{app:dataset}.)
 \end{enumerate}
 
 \section{Thesis structure}

@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\caption{Paired Wilcoxon significance tests for key LECSEG comparisons.}
+\label{tab:lecseg_significance}
+\begin{tabular}{p{0.30\linewidth}lrrlp{0.09\linewidth}}
+\toprule
+Comparison & Metric & Delta & p & Significant & Wins \\
+\midrule
+Cross-model vs BGE baseline & pk & -0.0171 & 0.0064 & yes & 22/30 \\
+Cross-model vs BGE baseline & wd & -0.0193 & 0.0001 & yes & 26/30 \\
+Cross-model vs BGE baseline & boundary\_similarity & -0.0930 & 0.0074 & yes & 4/30 \\
+Cross-model vs BGE baseline & f1\_tol2 & -0.0641 & 0.0090 & yes & 4/30 \\
+Selector vs cross-model & pk & -0.0126 & 0.3560 & no & 9/30 \\
+Selector vs cross-model & wd & -0.0025 & 0.9039 & no & 7/30 \\
+Selector vs cross-model & boundary\_similarity & 0.0395 & 0.0076 & yes & 10/30 \\
+Selector vs cross-model & f1\_tol2 & 0.0656 & 0.0076 & yes & 10/30 \\
+Selector vs BGE baseline & pk & -0.0296 & 0.0252 & yes & 19/30 \\
+Selector vs BGE baseline & wd & -0.0217 & 0.0238 & yes & 23/30 \\
+Selector vs BGE baseline & boundary\_similarity & -0.0534 & 0.1541 & no & 8/30 \\
+Selector vs BGE baseline & f1\_tol2 & 0.0015 & 0.9170 & no & 9/30 \\
+\bottomrule
+\end{tabular}
+\end{table}

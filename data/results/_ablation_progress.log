@@ -1,0 +1,44 @@
+Using YouTube chapter GT (30 videos)
+  7K1sB05pE0A: N=765  n_seg=13  ref_boundaries=12
+  8yT4RZy1t3s: N=800 [capped 972->800]  n_seg=18  ref_boundaries=17
+  9N1MxkbFhsc: N=572  n_seg=23  ref_boundaries=22
+  AMl6E4cLrwE: N=676  n_seg=13  ref_boundaries=12
+  D8RRq3TbtHU: N=800 [capped 2183->800]  n_seg=12  ref_boundaries=8
+  fsLh-NYhOoU: N=800 [capped 1219->800]  n_seg=13  ref_boundaries=7
+  GR63MMAi-fs: N=800 [capped 957->800]  n_seg=5  ref_boundaries=4
+  HtSuA80QTyo: N=735  n_seg=9  ref_boundaries=8
+  Hy7ou5R_vjE: N=800 [capped 1229->800]  n_seg=6  ref_boundaries=4
+  j0wJBEZdwLs: N=580  n_seg=8  ref_boundaries=7
+  jGwO_UgTS7I: N=800 [capped 1471->800]  n_seg=7  ref_boundaries=6
+  JP7ITIXGpHk: N=800 [capped 2017->800]  n_seg=26  ref_boundaries=12
+  KlVHqq38KJU: N=584  n_seg=15  ref_boundaries=14
+  KNwMiydCYA4: N=334  n_seg=25  ref_boundaries=23
+  KOKnWaLiL8w: N=800 [capped 1385->800]  n_seg=6  ref_boundaries=4
+  lUUte2o2Sn8: N=800 [capped 844->800]  n_seg=21  ref_boundaries=19
+  MGyygiXMzRk: N=769  n_seg=11  ref_boundaries=10
+  NK-BxowMIfg: N=800 [capped 1152->800]  n_seg=5  ref_boundaries=4
+  NNnIGh9g6fA: N=800 [capped 1002->800]  n_seg=16  ref_boundaries=9
+  Ns6GB4Dph9U: N=800 [capped 1550->800]  n_seg=6  ref_boundaries=3
+  oOya3cFmAMc: N=723  n_seg=15  ref_boundaries=14
+  oqRU2So6Z2Y: N=800 [capped 2918->800]  n_seg=12  ref_boundaries=3
+  Qw4l1w0rkjs: N=800 [capped 972->800]  n_seg=34  ref_boundaries=33
+  Rl0ludWTLxs: N=800 [capped 5820->800]  n_seg=21  ref_boundaries=5
+  S7TUe5w6RHo: N=205  n_seg=29  ref_boundaries=26
+  TjZBTDzGeGg: N=800 [capped 819->800]  n_seg=11  ref_boundaries=10
+  uK2eFv7ne_Q: N=800 [capped 1583->800]  n_seg=6  ref_boundaries=5
+  uO5k9xcD1gU: N=757  n_seg=12  ref_boundaries=11
+  YdOXS_9_P4U: N=598  n_seg=7  ref_boundaries=6
+  zNVQfWC_evg: N=800 [capped 960->800]  n_seg=14  ref_boundaries=13
+
+Results saved to G:\THESIS\PreThesis2_TopicSegmentation\results\eval.json
+
+=== EVALUATION SUMMARY ===
+Method                Pk       WD       BS       F1
+-------------------------------------------
+texttiling        0.5913   0.8372   0.1490   0.1439
+c99               0.4219   0.4494   0.0345   0.0290
+cosine            0.4775   0.5295   0.0783   0.0874
+kmeans            0.6171   0.9984   0.4964   0.0484
+bert_seg          0.4703   0.5156   0.0624   0.0645
+two_stage         0.4914   0.5410   0.0696   0.0787
+hierarchical      0.4170   0.4256   0.0615   0.0486

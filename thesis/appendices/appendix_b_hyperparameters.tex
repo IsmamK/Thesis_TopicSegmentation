@@ -53,12 +53,14 @@ ensuring full reproducibility.
 
 \section{Hardware and wall-clock runtimes}
 
-All experiments were run on a single workstation with:
+Experiments were run across the local Windows workstation and rented vast.ai GPU
+instances. Exact CPU/RAM values varied by run; GPU-backed runs used NVIDIA
+RTX-class hardware.
 \begin{itemize}
-  \item CPU: \todo{processor model}
-  \item GPU: NVIDIA RTX~5090 (24\,GB GDDR7)
-  \item RAM: \todo{} GB
-  \item OS: Ubuntu 22.04 / Windows 11 (WSL2 for GPU transcription)
+  \item CPU: local Windows workstation CPU for orchestration and light tests
+  \item GPU: NVIDIA RTX~5090 for transcription; NVIDIA RTX~3090 for later embedding experiments
+  \item RAM: instance-dependent; no run required model-parallel execution
+  \item OS: Windows 11 locally; Ubuntu Linux on GPU instances
 \end{itemize}
 
 \noindent Approximate wall-clock times per pipeline stage for a 60-minute lecture:

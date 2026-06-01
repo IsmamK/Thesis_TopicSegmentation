@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "selector_file": "results\\method_selector_experiment_trainrank_balanced.json",
+    "selector_name": "extra",
+    "current_method": "cross_e5_frac70_minlen11__align_contains_before",
+    "baseline_method": "divisive",
+    "n_bootstrap": 5000
+  },
+  "summary": {
+    "baseline": {
+      "pk": 0.3884245196546067,
+      "wd": 0.3956060993802347,
+      "boundary_similarity": 0.1291534895310639,
+      "f1_tol2": 0.08780333333333333
+    },
+    "current": {
+      "pk": 0.37132872933904826,
+      "wd": 0.37635058524085163,
+      "boundary_similarity": 0.036187381477797424,
+      "f1_tol2": 0.023746666666666662
+    },
+    "selector": {
+      "pk": 0.3587753784775456,
+      "wd": 0.3738977802479712,
+      "boundary_similarity": 0.07571331714447657,
+      "f1_tol2": 0.08932333333333335
+    }
+  },
+  "selector_vs_current": {
+    "n_videos": 30,
+    "metrics": {
+      "pk": {
+        "baseline_mean": 0.3713,
+        "baseline_ci": [
+          0.3459,
+          0.396
+        ],
+        "novel_mean": 0.3588,
+        "novel_ci": [
+          0.3303,
+          0.3854
+        ],
+        "delta": -0.0126,
+        "relative_delta_pct": -3.38,
+        "p_value": 0.356,
+        "significant": false,
+        "win_count": 9,
+        "loss_count": 21,
+        "lower_better": true
+      },
+      "wd": {
+        "baseline_mean": 0.3764,
+        "baseline_ci": [
+          0.3516,
+          0.4001
+        ],
+        "novel_mean": 0.3739,
+        "novel_ci": [
+          0.3459,
+          0.4005
+        ],
+        "delta": -0.0025,
+        "relative_delta_pct": -0.65,
+        "p_value": 0.9039,
+        "significant": false,
+        "win_count": 7,
+        "loss_count": 23,
+        "lower_better": true
+      },
+      "boundary_similarity": {
+        "baseline_mean": 0.0362,
+        "baseline_ci": [
+          0.0102,
+          0.0677
+        ],
+        "novel_mean": 0.0757,
+        "novel_ci": [
+          0.0359,
+          0.1195
+        ],
+        "delta": 0.0395,
+        "relative_delta_pct": 109.23,
+        "p_value": 0.0076,
+        "significant": true,
+        "win_count": 10,
+        "loss_count": 20,
+        "lower_better": false
+      },
+      "f1_tol2": {
+        "baseline_mean": 0.0237,
+        "baseline_ci": [
+          0.0069,
+          0.0443
+        ],
+        "novel_mean": 0.0893,
+        "novel_ci": [
+          0.0416,
+          0.144
+        ],
+        "delta": 0.0656,
+        "relative_delta_pct": 276.15,
+        "p_value": 0.0076,
+        "significant": true,
+        "win_count": 10,
+        "loss_count": 20,
+        "lower_better": false
+      }
+    }
+  },
+  "selector_vs_baseline": {
+    "n_videos": 30,
+    "metrics": {
+      "pk": {
+        "baseline_mean": 0.3884,
+        "baseline_ci": [
+          0.3607,
+          0.4164
+        ],
+        "novel_mean": 0.3588,
+        "novel_ci": [
+          0.3303,
+          0.3854
+        ],
+        "delta": -0.0296,
+        "relative_delta_pct": -7.63,
+        "p_value": 0.0252,
+        "significant": true,
+        "win_count": 19,
+        "loss_count": 11,
+        "lower_better": true
+      },
+      "wd": {
+        "baseline_mean": 0.3956,
+        "baseline_ci": [
+          0.3678,
+          0.4239
+        ],
+        "novel_mean": 0.3739,
+        "novel_ci": [
+          0.3459,
+          0.4005
+        ],
+        "delta": -0.0217,
+        "relative_delta_pct": -5.49,
+        "p_value": 0.0238,
+        "significant": true,
+        "win_count": 23,
+        "loss_count": 7,
+        "lower_better": true
+      },
+      "boundary_similarity": {
+        "baseline_mean": 0.1292,
+        "baseline_ci": [
+          0.0839,
+          0.1798
+        ],
+        "novel_mean": 0.0757,
+        "novel_ci": [
+          0.0359,
+          0.1195
+        ],
+        "delta": -0.0534,
+        "relative_delta_pct": -41.38,
+        "p_value": 0.1541,
+        "significant": false,
+        "win_count": 8,
+        "loss_count": 22,
+        "lower_better": false
+      },
+      "f1_tol2": {
+        "baseline_mean": 0.0878,
+        "baseline_ci": [
+          0.0588,
+          0.1191
+        ],
+        "novel_mean": 0.0893,
+        "novel_ci": [
+          0.0416,
+          0.144
+        ],
+        "delta": 0.0015,
+        "relative_delta_pct": 1.73,
+        "p_value": 0.917,
+        "significant": false,
+        "win_count": 9,
+        "loss_count": 21,
+        "lower_better": false
+      }
+    }
+  },
+  "current_vs_baseline": {
+    "n_videos": 30,
+    "metrics": {
+      "pk": {
+        "baseline_mean": 0.3884,
+        "baseline_ci": [
+          0.3607,
+          0.4164
+        ],
+        "novel_mean": 0.3713,
+        "novel_ci": [
+          0.3459,
+          0.396
+        ],
+        "delta": -0.0171,
+        "relative_delta_pct": -4.4,
+        "p_value": 0.0064,
+        "significant": true,
+        "win_count": 22,
+        "loss_count": 8,
+        "lower_better": true
+      },
+      "wd": {
+        "baseline_mean": 0.3956,
+        "baseline_ci": [
+          0.3678,
+          0.4239
+        ],
+        "novel_mean": 0.3764,
+        "novel_ci": [
+          0.3516,
+          0.4001
+        ],
+        "delta": -0.0193,
+        "relative_delta_pct": -4.87,
+        "p_value": 0.0001,
+        "significant": true,
+        "win_count": 26,
+        "loss_count": 4,
+        "lower_better": true
+      },
+      "boundary_similarity": {
+        "baseline_mean": 0.1292,
+        "baseline_ci": [
+          0.0839,
+          0.1798
+        ],
+        "novel_mean": 0.0362,
+        "novel_ci": [
+          0.0102,
+          0.0677
+        ],
+        "delta": -0.093,
+        "relative_delta_pct": -71.98,
+        "p_value": 0.0074,
+        "significant": true,
+        "win_count": 4,
+        "loss_count": 26,
+        "lower_better": false
+      },
+      "f1_tol2": {
+        "baseline_mean": 0.0878,
+        "baseline_ci": [
+          0.0588,
+          0.1191
+        ],
+        "novel_mean": 0.0237,
+        "novel_ci": [
+          0.0069,
+          0.0443
+        ],
+        "delta": -0.0641,
+        "relative_delta_pct": -72.95,
+        "p_value": 0.009,
+        "significant": true,
+        "win_count": 4,
+        "loss_count": 26,
+        "lower_better": false
+      }
+    }
+  }
+}

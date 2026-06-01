@@ -1,0 +1,590 @@
+Einstein once wrote an introduction to a book on astronomy.
+He mentioned this idea, he called it an idea of pure genius.
+This is Terence Tao, one of the world's most renowned mathematicians.
+What he's referencing right now is how Kepler deduced the shape of Earth's orbit,
+which was astoundingly more clever than I had realized.
+But I'm getting a little ahead of myself.
+A lot of math enthusiasts will be familiar with Tao
+as a story of prodigy-turned-prodigious mathematician.
+But one of the most remarkable features of his career is how collaborative it's been,
+spanning an unusually wide breadth of topics within math.
+I had the chance to sit down with him,
+and I asked if there were any topics that he believed
+would benefit from some strongly visual presentation.
+And I fully expected an answer from pure math.
+But I was pleasantly surprised when he proposed instead a story of cosmic distances.
+It's the story of how humanity first figured out the sizes of objects
+from the size of the Earth to that of the solar system on up to the universe,
+and how each measurement unlocks a path to the next one.
+I always liked...
+I liked astronomy as a child.
+Just found, like, red dwarfs and neutron stars and so forth fascinating, you know.
+Then I had a little telescope.
+As a kid, I just read all these books and said, you know,
+the distance to Mars is 18 million miles or whatever.
+And I just sort of accepted, oh, they figured out some way to do this.
+I never knew how they did it.
+Science communication at its best is, to me,
+less about presenting facts in a memorable way
+and more about showing how it is that we know what we know.
+When it comes to cosmic distances,
+it's very easy to be awestruck by the sheer unfathomable scales involved.
+But what deserves just as much awe
+and is much less commonly highlighted in pop science documentaries
+is how clever the reasoning can be at each step.
+And I realized, oh, it was always some mathematical trick.
+And it was always a cool trick.
+Like, if you want to measure the distance to X,
+you can never just look at X.
+You have to look at Y and how X impacts Y.
+So the idea is clever, and then you have to have data,
+which needs technology and so forth.
+But then it's just mathematics.
+In this video, we'll cover the steps of the ladder up to the planets,
+that moment of sheer genius,
+that Kepler brought.
+And in the next part,
+we'll continue on up to the most distant galaxies.
+The very first measurement of the ladder is the radius of the Earth,
+a somewhat classic tale.
+But to even ask this question presumes that the Earth is a sphere,
+or at least roughly spherical.
+So you might wonder how the ancients first deduced the shape of the Earth.
+The first really convincing proof came from the Moon.
+And this is the constant theme in the distance ladder.
+If you want to measure one object, in this case the Earth,
+you have to use a reference object,
+that is some distance away.
+See, the thing is that we're stuck on the Earth.
+Like, if we could step away,
+if you look from many different angles, you could see that it's round.
+If you only saw it from one angle, it could be a flat disk.
+A flat disk, if you look at it from a different angle,
+it would look like an ellipse.
+But you can actually prove this nice little geometric argument, actually,
+that if there's a convex body and every single projection is a circle,
+then it has to be a sphere.
+I'm going to guess that most of you find this pretty intuitive.
+After all, if every shadow of a given shape is a circle,
+what could that shape be other than a sphere?
+But of course,
+a mathematician always keeps a keen eye out
+for those strange counterintuitive exceptions.
+And he shared with me a nice proof of this fact after the interview,
+which I'll link to in the description.
+In two dimensions, what I just said is not true.
+So there are two dimensions, shapes,
+which every projection is an interval of the same length,
+but they're not round.
+But in 3D, there's enough perspective, as it turns out.
+If you could look at the Earth and you could always see that it was round,
+that tells you the Earth is a sphere.
+NASA can do this, but Aristotle could do this.
+And he used the Moon,
+because he knew about lunar eclipses.
+Lunar eclipses happen when the Moon falls onto the Earth's shadow.
+And the Earth's shadow, as you can just visibly see,
+it's always a circular arc.
+So there's a picture I can show you.
+This is not my photo,
+but someone took several images of the Moon entering and exiting the lunar eclipse
+and composited them together into a single shot.
+You can see the shadow of the Earth.
+This is visible proof that the Earth is round.
+And you don't need telescopes, sextants, spacecraft.
+You just need to look at the Moon.
+Something else very cool revealed by these kinds of compositions
+is how you can just see the relative size of the Earth and the Moon.
+We'll get to that in a moment, but first things first,
+how do we figure out how big the Earth is?
+The first person to do this that we know of is Eratosthenes.
+The way the story goes is that he had read somewhere
+of this well in this town called Syene,
+where on one day of the year, the summer solstice,
+you could look down on the well and you could see the sun reflected in the water underneath.
+And he said, oh, that's kind of cool.
+I don't live there, but I have a well in my own town, Alexandria,
+I'm going to go try the same thing.
+So he waited until the summer solstice.
+At noon, he went down and looked at the well,
+and there was no reflection of the sun.
+So I think like if you're a regular person at this point,
+we say, oh, you know, that story is fake news or whatever,
+whatever the film was at the time.
+And he knew from Aristotle and the others that the Earth was round.
+The reason what was happening was that the sun was not actually vertical.
+Let's think of the sun as far enough away from Earth
+that all of its rays of light are effectively parallel.
+At any given moment, if you draw a line from the center of the Earth straight to the sun,
+if you draw a line from the center of the Earth straight to the sun,
+it passes through some point on the surface,
+which must be experiencing this phenomenon where the sun is directly overhead.
+But if you were someone in Eratosthenes time,
+it would be very difficult to know exactly where this was happening at a given moment.
+So what makes the summer solstice special is that on that day,
+the axis of Earth's rotation is tilted directly towards the sun.
+And as a result, on this day,
+as the Earth revolves around that axis over 24 hours,
+there is a consistent line of latitude
+where all of the locations on this line predictably experience this phenomenon,
+where at high noon, it's the highest of all high noons, where the sun is overhead.
+This line has a special name. It's called the Tropic of Cancer.
+And the town Syene that Eratosthenes had read about sits on this line.
+Now, Eratosthenes himself was a bit further north than that, in Alexandria.
+So on that day, at exactly noon, the direction he perceives as straight up,
+which I'll draw with a pink line here, is not pointed towards the sun.
+It sits at some angle with all of those rays.
+He had what's called a gnomon,
+which is kind of like an ancient protractor or sundial, a portable sundial, basically.
+He measured that the sun was actually about seven degrees off of the vertical.
+Critically, because he could also know that at this exact moment,
+down in Syene, many, many, many miles away, the sun was directly overhead,
+he deduced that this means the arc length along Earth between Alexandria and Syene is about seven degrees.
+This, in turn, means the ratio between the sun and the earth is about seven degrees.
+So the distance between seven degrees and the full 360 degrees of a circle
+must be the same as the ratio of the distance between those two towns
+and the full circumference of the earth.
+Now, keep in mind, in the records that we have,
+it's not like he's reporting this distance in miles or kilometers.
+The units they were using back then were stadia,
+where a single unit is something like the length of a stadium.
+So the distance was about 5,000 stadia, which is about 500 miles.
+How accurate is our conversion between stadia and miles?
+Good question. We are not completely certain.
+So with the conventionally accepted conversions,
+I think the accuracy of Eratosthenes' estimate is about 10%.
+You can find sources online that claim his estimate was more accurate than this,
+but just keep in mind, if you selectively choose
+which of the many possible conversions between stadia and miles to use,
+you can kind of p-hack your way into a better number here.
+Still, 10% is pretty good with no technology.
+But of course, all of this hinges on actually knowing the distance between these two towns.
+So the natural question you might ask is, how would he know that?
+This is not recorded. There are some theories.
+One is that there are merchants that go up and down the Nile,
+and they know that in a certain day that their sailboat can travel so and so many stadia,
+and it takes them so and so many days, x to y.
+And so from that, they have some estimate.
+The joke is that he basically hired what we would now call a graduate student
+to pace the distance from a graduate student.
+Carefully counting the road steps.
+That 5,000 stadia is the only direct measurement, just from that one graduate student.
+You can actually get all the way to the measure of the diameter of the universe.
+Right. Now, that's not actually what we do nowadays.
+I mean, because the errors stack up. But in principle, you could do that.
+If you have a sense for how big the Earth is,
+one of the first cosmological distances that you can deduce from this value
+is the distance between the Earth and the Moon.
+You can use eclipses again.
+So shadows are what let you observe things from a different location in the Earth.
+When you have a lunar eclipse, so when the sun is over here,
+the Earth shadow has signs.
+It's basically twice the radius of the Earth.
+It's a little trickier than that.
+There's something called the penumbra and the umbra,
+but that's a post-approximation.
+Lunar eclipses, they last no longer than four hours.
+And this they knew from many, many observations.
+The Moon actually takes one lunar month to traverse its orbit.
+And so, again, by taking the ratio between 28 days and four hours,
+you can work out the relation between the distance to the Moon
+and the radius of the Earth.
+To be slightly more accurate,
+measuring the full eclipse between first and last contact,
+the distance that the Moon passes through would not only be those two Earth radii,
+but it would also include two Moon radii.
+So if you want to measure how long it takes for the Moon
+to traverse one Earth diameter in space,
+it might be more like the time between the first moment the Moon hits the shadow
+and the first moment that it starts to exit it.
+Another thing to keep in mind if you were to go out
+and try this yourself on the next lunar eclipse
+is that lunar eclipses don't necessarily go through the center of Earth's shadow like this.
+So the measurements that the Greeks did,
+or the Greeks would have had to use,
+would be with respect to the longest known eclipses.
+In either case, the slightly more accurate number to put in here
+would be more like three and a half hours.
+And then when you work it out,
+this ratio between the length of a lunar month
+and the length of a lunar eclipse,
+all divided by pi,
+would tell you how many Earth radii away the Moon is.
+Aristarchus did this.
+He measured that the distance to the Moon is about 60 Earth radii.
+And actually, the orbit varies between like 58 and 62 or something.
+So actually, it's really good.
+As good as you could hope.
+Yeah, yeah, yeah.
+I brought up earlier how with these lunar eclipses,
+you can see the relative size of the Moon and the Earth.
+The Moon is about a quarter as wide as the Earth is.
+Now in practice, it's difficult to make this a precise measurement without photography.
+So the Greeks had a different way that they could deduce the size of the Moon.
+Next time you see a full Moon rising, try to measure how long it takes.
+What you should find is that it's around two minutes.
+What you're watching is not so much the Moon moving through the orbit.
+Instead, it's that as you and the Earth are rotating,
+your line of sight over the horizon is scanning over the Moon.
+The Moon basically takes 24 hours to cycle around the Earth,
+at least as observed by us because of the Earth's rotation.
+Actually, slightly less because the Moon's also moving, but basically 24 hours.
+And so therefore, you can work out the ratio between the radius of the Moon
+and the distance to the Moon,
+just by taking the ratio between two minutes and 24 hours.
+So because they knew the distance to the Moon,
+they could use this to figure out the radius.
+Now keep in mind,
+both of their estimates could be at best approximately true.
+Since the real orbit of the Moon is an ellipse, it's not a perfect circle.
+But the point is that with almost no technology,
+they had pretty decent estimates for the size of the Moon and how far away it was.
+The Sun was trickier.
+So at the time, they thought the Sun went around the Earth,
+but it actually doesn't matter for the argument
+whether the Sun goes around the Earth or if it goes around the Sun.
+Again, there's these two numbers.
+There's the size of the Sun and the distance to the Sun.
+You can compute the ratio again because of eclipses.
+And this is weird coincidence.
+I mean,
+there's no reason why it should be true,
+but when there's a solar eclipse,
+the Moon and the Sun are almost exactly the same size.
+I guess it's not true for lunar eclipses.
+Lunar eclipses, as we saw, Earth's shadow is much bigger.
+But for some reason, they are almost the same size.
+What this means is that if you look at the ratio between the radius of the Moon
+and the distance that it is away from the Earth,
+which is what determines how big it looks to us up in the sky,
+because of this solar eclipse coincidence,
+that has to be the same as the ratio between the radius of the Sun
+and its distance away from the Earth.
+As we saw, the Greeks already knew that ratio for the Moon.
+The point is that they could get at least an approximate sense
+for the size of the Sun if they could figure out how far away it is, or vice versa.
+Now, the animation I'm showing right now is very grossly not to scale.
+You and I both know that the Sun is actually much, much farther away than the Moon is.
+But of course, that's not obvious when you just look at it in the sky.
+And so you might wonder, how could you conclude that it has to be so far away?
+In ancient times, for all people knew, seeing that it was roughly the same size,
+as the Moon in the sky, it could be, say, twice as far away as the Moon is,
+and only twice as big.
+In fact, for the animation, I'm going to go ahead and leave it unrealistically close like this,
+because it helps clarify how the next logical step works.
+How do you work out the distance to the Sun?
+You can use the Moon. It's almost the only available object you can use.
+But you do something else. You look at phases of the Moon.
+The Sun illuminates half of the Moon.
+And so we on Earth, we also see half the Moon, but it's a different half.
+And so because of that, we get phases of the Moon.
+This is also, by the way, why we know the Moon is round.
+If the Moon was flat, we would not get phases.
+We would get either a dim Moon or a lit Moon, but we wouldn't get these phases.
+Sometimes you get a full Moon. If the Moon is over here, you see the whole lit thing.
+Sometimes you get a new Moon over here, and sometimes you get a half Moon.
+You can pretty much rediscover for yourself a way to estimate the distance to the Sun
+by asking when exactly a half Moon occurs.
+From the name, you would guess that it's halfway between a new Moon and a full Moon,
+but that's actually not true.
+Half Moon occurs not when the Moon and the Sun make a right angle at the Earth,
+but actually when the Earth and the Sun make a right angle at the Moon.
+Hopefully your graph will be better than the one I'm drawing here.
+Hopefully this makes some sense.
+For us to see a half Moon, it means that the side of the Moon that we see facing us
+overlaps by exactly 90 degrees with the side of the Moon being illuminated by the Sun,
+which in turn means we have a right angle at the spot labeled here.
+As your lovely illustration will show,
+half Moons are slightly closer to new Moons than the other full Moons.
+Of course, in this graphic, the effect is very exaggerated
+because the Sun is being drawn so close to the Earth.
+How far away the Sun is determines when exactly that half Moon occurs.
+The farther away, the closer it is to the true halfway point.
+In fact, you can make this a little more quantitative,
+where if you measure the angle separating that halfway point between new Moons and full Moons
+from the point of a half Moon, which again is confusingly not the same thing,
+then intuitively you can see
+how a smaller angle means a larger distance to the Sun.
+And more precisely, when you do the little bit of trigonometry here,
+you can conclude that the distance to the Sun
+is the same as the distance to the Moon divided by the sine of that angle.
+This is where the Greeks started hitting a wall of technology.
+What they did is that they knew that the Moon took 28 days to go around the Earth,
+and so they had to measure exactly when a half Moon occurred and what the deviation is.
+Now, Aristarchus, he thought that the distance was six hours.
+Half Moons occurred six hours before the Moon.
+He doesn't write how he came up with this.
+And it's wrong.
+The actual discrepancy is half an hour.
+He's off by a huge factor.
+So the thing is, well, A, we have clocks which work in the dark.
+They have sundials which don't work in the dark.
+They also did not have telescopes.
+Mathematically, the method was sound.
+Technologically, it was just not possible for this method to work.
+No, but it worked well enough.
+So he was off by basically a whole order of magnitude.
+He thought that the distance was six hours.
+He thought that the distance was six hours.
+The Sun was 20 times further away than the Moon.
+The true answer, based on the slight change to that angle that he was trying to measure,
+is more like 370 times the distance to the Moon.
+And he thought that the Sun was seven times bigger than the Earth,
+when in fact it is 109 times bigger.
+Even with that lousy measurement,
+Aristarchus was the first to make a really important conclusion,
+which is that the Sun did not revolve around the Earth.
+The Sun was seven times... Well, he thought the Sun was seven times larger.
+Why would the Sun go around the Earth? So the Earth should go around the Sun.
+Qualitatively, his conclusion was correct.
+It says that the Sun is much, much larger than he thought.
+But he was the first.
+And it's not obvious. You look at the Sun, it's this big.
+But it's actually 100 times bigger than the Earth.
+So he was the first to propose the heliocentric model, actually.
+If you look at Copernicus's famous book, he says,
+Aristarchus proposed the heliocentric model.
+And the other Greeks dismissed him for good mathematical reasons,
+but again, they were limited by their technology.
+They said that it doesn't make sense for the Earth
+to revolve around the Sun, because if the Earth would go around the Sun,
+the position of the shape of the constellations would shift
+as you go from one side of the Sun to the other, and we don't see that.
+This is an important point to emphasize,
+because it's going to come up again for us later
+when we figure out the size of the galaxy.
+So if you've got a bunch of stars sitting here in three-dimensional space,
+and you picture yourself as an observer staring at those stars,
+and you move around through that three-dimensional space,
+then the apparent relative position of those stars
+shifts around as you move.
+We call this parallax.
+It's the same phenomenon where if you're on a car on the highway
+and you look out, all of the nearby trees seem to be moving
+much more quickly than the background mountains.
+So when Aristarchus says,
+hey, guys, maybe the Earth is going around the Sun,
+all of his fellow Greeks are like, well, if that was true,
+and you've got this Earth-Sun system sitting among a bunch of stars,
+then for us, the observers sitting here on the planet Earth,
+as we move around through space from winter to spring to summer,
+and it's going to be quite a bit of movement through space,
+since evidently the Sun is supposed to be quite far away from the Earth,
+then because of this parallax,
+we should see a change in the pattern of the stars.
+The nearby stars should be moving a little bit more than the background stars,
+and the overall shape of the constellations
+should slowly drift through the seasons.
+But that's not what we see.
+The constellations seem to be the same shape between the summer and the winter.
+And that would only be possible if the stars were much, much, much further away
+than we currently think they are.
+So, Aristarchus, if you were to accept your model,
+we must make the universe thousands and thousands of years old.
+Thousands and thousands of times bigger,
+therefore we are not going to dismiss your theory.
+It shows you that even when you have the math right,
+you don't necessarily get to the truth.
+Because of course the universe is in fact not just thousands of times larger than the theory,
+but actually billions and trillions of times larger.
+This is not an obvious fact.
+At this point, let's jump ahead quite a bit in history up to Kepler,
+perhaps the best part of this whole story.
+This is the most genius step of the ladder.
+The first time you climb from one step to the next, it's always heroic.
+Because the first time, you're at the edge of what the data and the math and the technology can give you.
+Now, Kepler was not working from a blank slate.
+He was building off of the work of others, most notably that of Copernicus.
+So Copernicus had already worked out that the planets move around the Sun.
+He said that the planets move around the Sun in circular orbits.
+And he even figured out the period, how long it takes for each planet to go around the Sun.
+So, for example, we know that the Earth takes exactly one year to do a full orbit.
+And Copernicus had figured out that Mars,
+takes 687 days for its orbit, and likewise for all the other known planets.
+He gets all the fame because of heliocentrism,
+but these numbers were arguably his most important contribution.
+You'll see in a moment why they are critical.
+The way he computed this was that he had all this Babylonian data.
+Essentially, the way this worked was by compiling centuries of observations
+for where the planets appear among the stars,
+then figuring out when those patterns repeat,
+and then, very importantly, factoring in the movement of Earth in that time.
+Kepler was interested in figuring out
+the relative sizes of all of these orbits.
+He had this funny little pet theory that was linked to the five platonic solids.
+The idea was, if you imagine a sphere inscribed in an octahedron,
+and then you fit the smallest possible sphere around that,
+and then fit the smallest possible icosahedron around that,
+then layer on another sphere, and then a dodecahedron,
+one more sphere, then a tetrahedron, one more sphere,
+a cube, and then one final sphere,
+you get these six spheres, and the ratios between
+the sizes of those spheres, Kepler believed,
+would match the ratios of the orbits for the six known planets.
+Since these are the platonic solids, it somehow feels like
+a very natural or universal set of ratios.
+It would have been a beautiful theory if this was true.
+So, hungry to prove his very beautiful theory,
+he needed to look at the historical data
+for where all the planets appeared in the sky.
+There was this astronomer at the time, Tycho Brahe,
+who was this very wealthy, eccentric aristocrat
+who had an interest in astronomy,
+and so he convinced the government of Denmark to give him an idea.
+He built a huge island, complete with peasants,
+to build him an astronomy school, Juranenburg.
+And he just made decades and decades of observations
+of all kinds of things, including all the planets.
+Kepler wanted his data, but Tycho Brahe wouldn't give it to him.
+He stole the data, actually.
+They weren't on the best of terms.
+Anyway, he took all his data,
+and he wanted to use it to confirm his theory.
+And it was off by a couple of percent.
+Like, he could not make the theory fit.
+And in fact, not only could he not make his own theory fit,
+he couldn't even make Copernicus' theory fit.
+He could not make circular orbits match.
+It's really important to understand
+that once you throw out the assumption that orbits are circular,
+it is very difficult to make sense out of the observational data.
+It's not like what Tycho Brahe was recording
+is the exact position in 3D space for all the planets over time.
+They didn't know the distances to the planets.
+The only thing that you can see
+is where in the sky a given planet appears,
+what constellation it's inside on a given date.
+From that information alone,
+just a sequence of angles in the sky, basically,
+Kepler managed to deduce the shapes of all of these planets' orbits,
+including the shape of Earth's orbit.
+The Sun is fixed.
+Earth is moving around in some orbit, not quite circular.
+And Mars is also moving around by some orbit, not quite circular.
+And we don't know what the orbit is.
+About the only thing we can do is at any given time on Earth,
+you can work out where you are with the Sun,
+and you can work out this direction.
+But you have no notion of distance. You only have direction.
+Imagine that you had observed Mars night after night.
+Each night, you can see where Mars is with respect to the constellations.
+And this tells you, basically, the direction from Earth to Mars
+with respect to the celestial sphere.
+But you don't know exactly where Earth is,
+and you also don't know how far away Mars is.
+You do know the direction to the Sun.
+Even if you can't literally see it in the constellations,
+you know this because of what date of the year it is,
+since that tells you how far the Earth has gone around.
+Keep in mind, although Aristarchus had his estimate for how far away the Sun was,
+people still didn't really have a precise measure for that distance.
+Aristarchus's method is just too error-prone for anything exact.
+So all you really know are these two different angles,
+and you want to figure out these two unknown orbits.
+That doesn't seem like enough information.
+Even if you assume everything's on a plane, which you more or less can,
+all the planets live on the zodiac, so it's pretty much a planar diagram.
+This looks unsolvable.
+In math, if you can't solve a problem, you first try to solve a simpler problem.
+So let's solve a simpler problem. Suppose Mars doesn't move.
+Suppose Mars is actually nailed to space.
+Okay. Then you can at least work out the orbit of the Earth.
+If Mars was fixed in space like this,
+then these two directions are at least enough to tell you where the Earth is,
+at least with respect to that fixed location for Mars
+and the fixed location for the Sun.
+You would essentially draw these two lines and find the intersection.
+So if you have the data for many different nights in this idealized hypothetical,
+you could plot where the Earth is on each night,
+and so see how it moves around the Sun,
+at least with respect to these two fixed locations for Mars and the Sun.
+You still don't know absolute distances.
+So if you had two fixed landmarks, the Sun and the Mars,
+then you can work out the orbit of the Earth.
+But Mars, of course, moves.
+So how do you triangulate when something moves?
+So this is the genius thing.
+Kepler knew because of Copernicus that every 728, 729 days,
+Mars comes back to where it was before.
+So,
+if he takes Tycho's data,
+but takes a time series spaced at spacings of 729 days,
+then in that time series, Mars is a reference point.
+Brahe observed for 10 years Mars.
+There was just enough data in this data set.
+It is perhaps worth being extra clear about how exactly this works.
+Like we said, on a given night, using these two different directions,
+you can figure out Earth's location with respect to where Mars happens to be.
+So if you wait 687 days,
+and Mars is back in that same location,
+you get another data point for Earth with respect to that same spot.
+Using 10 years worth of data,
+this gives you five different locations for where Earth is.
+But again, this depends on exactly where in space Mars is.
+If you jiggle it about, it jiggles around the implied five points for Earth.
+I'll go ahead and give those a slightly different color,
+and then have you imagine looking just a couple days later
+to a different location of Mars,
+and then taking a similar time series, again spaced out by this Martian year,
+to get five more positions for Earth,
+but now they're dependent on that different location for Mars.
+Of course, you don't know exactly how Mars moves,
+so you don't know exactly where these five points are,
+but if it's just a day later, Mars only will have moved a little bit.
+And you know those five points should only have moved a little bit.
+So what Kepler has is essentially like this massive jigsaw puzzle,
+where each piece looks like five points for where Earth is,
+conditioned on a mystery location for Mars.
+Knowing that all of those pieces have to fit together about a day apart,
+he was able to piece them all together to get a coherent orbit for Earth,
+with respect to a certain coherent orbit for Mars.
+To be clear, nothing about this tells you absolute distances,
+it's just giving you the shape of the orbit,
+but even still, he was able to see what no one before him had ever seen,
+which is that this orbit is not a circle, it's an ellipse.
+And he was even able to find other neat facts,
+like how the area that Earth sweeps out as it goes along this orbit
+is the same for a given time period, no matter where on the ellipse it sits.
+And once you have a sense of the orbit,
+and a sense for the shape of Earth's orbit,
+it makes it a lot easier to deduce the orbit of Mars, or any other planet.
+You can do this in reverse.
+If you take one fixed point of Mars,
+you can take measurements from Earth,
+and you can now work out the location of Mars.
+This angle measurement may not tell you the distance to Mars on one night,
+but if you take five separate nights spaced out by 687 days,
+meaning you know that Mars is at the same point in space on those five different days,
+then you get these
+different angles that are more than enough to help you triangulate where Mars is,
+at least with respect to Earth's orbit.
+When you do this for many different adjacent time series,
+you can draw out the exact orbit of Mars over the course of those 687 days.
+Einstein once wrote an introduction to a book on astronomy,
+and I think he mentioned this idea, he called it an idea of pure genius.
+He needed the data, he needed not just Tycho's data,
+but Copernicus' data, which came all the way from the Babylonians.
+So the period of Mars,
+that was a period of a century.
+Yeah, so, but he could put it all together with what we would now call data analysis.
+Again, you still don't know the absolute distances.
+This gives you the shapes of both orbits,
+and doing something similar, you can get the shapes of all the other planets' orbits relative to Earth's.
+But to Kepler and his contemporaries,
+the exact scale of the solar system remained a mystery.
+It's like they could draw the exact picture, but they didn't know the size of the paper.
+So from this point on, astronomers were on a hunt
+to figure out a way to measure any distance they could in the solar system.
+Because if they could do it precisely,
+just one distance would be enough to lock everything else into place.
+In the next part, we'll continue with the interview,
+and you'll see how this was first done,
+and how once you finally have an accurate measure
+for the distance between the Earth and the Sun,
+you can use it to deduce the speed of light,
+the distance to the nearest stars,
+and ultimately the distance to the farthest observable galaxies.
+If you want to stay updated for the next part,
+make sure to follow 3BlueAndBrown
+on whatever platform it is that you most like to follow stuff on.
+There's an email list, just gonna throw that out there.

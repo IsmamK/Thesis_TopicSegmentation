@@ -1,115 +1,109 @@
-# 📜 WHAT WE ARE DOING
+# WHAT WE ARE DOING
 
-**Public-facing summary of the project, its motivation, and its phases. Suitable for showing to teachers, the supervisor, and external readers.**
+This is a public-facing summary of LECSEG. For exact reproducibility details,
+official result files, and cleanup rules, use [docs/PROJECT_GUIDE.md](docs/PROJECT_GUIDE.md).
 
----
+## Project In One Sentence
 
-## The project in one sentence
+LECSEG builds and evaluates an open, reproducible system that segments long
+lecture videos into topic chapters and finer subtopics.
 
-We are designing and building an open-source system that automatically splits long lecture videos into hierarchical topic chapters and subtopics, and we evaluate it on a new 30-video corpus we curate and release.
+## Why It Matters
 
----
+Online lecture videos are often long and weakly indexed. Students who need a
+specific explanation inside a 60-90 minute recording usually have to scrub
+manually. Automatic topic segmentation makes lecture content easier to search,
+review, and reuse.
 
-## Why it matters
+The project is useful for:
 
-Online education exploded after 2020 and has not slowed. Universities, MOOC platforms, and individual creators publish hundreds of hours of lecture content every day. Most of these videos are unindexed: a learner who wants the 3-minute explanation of a specific concept inside a 90-minute lecture has no efficient way to find it. Manual chapter authoring, where it exists, is laborious and inconsistent.
+- navigation inside long educational videos
+- search and retrieval over lecture archives
+- semi-automatic chapter drafting for instructors
+- research on multimodal educational-video understanding
 
-A reliable lecture-segmentation system improves:
+## Research Questions
 
-- **Accessibility** — students with attention or sensory disabilities can navigate long content in smaller units.
-- **Searchability** — chapter titles become indexable text that improves retrieval.
-- **Comprehension** — learners can revisit specific topics rather than re-watching whole lectures.
-- **Course authoring** — instructors get a starting structure they can refine, instead of authoring chapters by hand.
-
-Existing approaches are either (a) text-only, (b) closed-source, or (c) flat — they output one level of segmentation. None are simultaneously open, multimodal, and hierarchical.
-
----
-
-## Our research questions
-
-- **RQ1** — Can a multimodal lecture-segmentation pipeline produce hierarchical (chapter and subtopic) outputs while remaining open-source and reproducible?
-- **RQ2** — Does a learned reliability-weighted fusion outperform fixed-weight modality fusion when source quality varies (e.g., chalkboard vs slide-based lectures)?
-- **RQ3** — Does a small open local language model match closed-API alternatives for boundary refinement and chapter titling on lecture content?
-- **RQ4** — Does explicit modelling of the chapter / subtopic hierarchy improve segmentation quality, measured by a unified hierarchical metric?
-- **RQ5** — Are the gains over prior baselines statistically significant under non-parametric testing on a held-out fold?
-
----
+- Can an open pipeline segment lecture videos into chapter and subtopic
+  boundaries reproducibly?
+- Which signals are reliable for lecture segmentation: transcript embeddings,
+  visual changes, OCR, prosody, or LLM refinement?
+- Does a hierarchy-aware representation provide a better research artifact than
+  a flat boundary list?
+- How do lecture-specific methods compare with classical, neural, and
+  out-of-domain supervised text segmentation baselines?
 
 ## Contributions
 
-We claim seven contributions, each pinned to one or more modules and one or more experiments:
+1. A reproducible lecture-video topic segmentation pipeline.
+2. LECSEG-30: 30 public YouTube lectures with chapter and reviewed subtopic
+   labels.
+3. A hierarchical annotation format for chapters and subtopics.
+4. A shared evaluation suite for Pk, WindowDiff, Boundary Similarity,
+   tolerance-F1, and hierarchy-aware metrics.
+5. Ablations showing that text embeddings dominate the current system, while
+   visual/prosody/LLM signals require careful reliability handling.
+6. A current best 30-video official result of Pk 0.3715 and WD 0.3766 using a
+   conservative cross-model boundary selection variant.
 
-1. The first open hierarchical multimodal lecture-segmentation pipeline.
-2. A reliability-weighted modality-fusion module that adapts per video and per sentence.
-3. The first system to output an explicit two-level hierarchy (chapter + subtopic) on lecture video.
-4. A boundary-refinement and chapter-titling stage based on a small *open, local* language model — without relying on closed APIs.
-5. The LECSEG-30 dataset: 30 videos × 5 domains × dual subtopic annotation, with documented inter-annotator agreement.
-6. A unified five-metric evaluation protocol with bootstrap confidence intervals and paired Wilcoxon significance tests.
-7. A reproducible artefact: a single command (`make reproduce`) regenerates every numerical claim of the thesis from a fresh clone.
+## Current Dataset
 
----
+| Fact | Value |
+|---|---:|
+| Videos | 30 |
+| Duration | 32.52 hours |
+| Chapters | 419 |
+| Subtopics | 904 |
+| Domains | Biology, CS, Math, Philosophy, Physics |
+| IAA | chapter kappa 0.5351; subtopic kappa 0.4257 |
 
-## How the project is organised
+The domain distribution is not perfectly balanced in the current manifest:
+Biology 6, CS 7, Math 4, Philosophy 6, Physics 7.
 
-The work is partitioned into 11 phases and 47 numbered tasks. A short summary:
+## Current Results
 
-| Phase | Focus | Tasks |
+The stable baseline is BGE + divisive segmentation:
+
+| Method | Pk | WD |
+|---|---:|---:|
+| BGE + divisive | 0.3884 | 0.3956 |
+
+The current best official 30-video YouTube-GT run is:
+
+| Method | Result file | Pk | WD |
+|---|---|---:|---:|
+| cross_e5_frac70_minlen11 | `results/eval_bgelarge_fine2.json` | 0.3715 | 0.3766 |
+
+The result improves Pk by 0.0169 absolute over the stable baseline. It should
+be presented with the limitation that strict boundary F1 remains low.
+
+## Project Organization
+
+| Phase | Focus | Status |
 |---|---|---|
-| 1 | Environment setup | T01–T05 |
-| 2 | Literature review | T06–T08 |
-| 3 | Dataset construction & annotation | T09–T13 |
-| 4 | Preprocessing (transcripts, shots, OCR, prosody) | T14–T18 |
-| 5 | Multimodal feature extraction | T19–T21 |
-| 6 | Baseline implementations | T22–T24 |
-| 7 | Novel modules (fusion, boundary predictor, hierarchy, refinement) | T25–T28 |
-| 8 | Evaluation, statistics, error analysis | T29–T31 |
-| 9 | Thesis writing | T32–T37 |
-| 10 | Deliverables (paper, demo, poster, slides, dataset, model release) | T38–T43 |
-| 11 | Defense preparation | T44–T47 |
-
-Each task is a short markdown file with:
-- a **goal** (one paragraph),
-- a **rationale** (why the task is needed),
-- a **completion criterion** (how to know you are done),
-- step-by-step instructions,
-- a concept primer for the concepts the task touches,
-- a small troubleshooting table.
-
-Progress is tracked centrally in `progress.yaml`. A dashboard command (`python scripts/today.py`) prints the current state and the next task.
-
----
-
-## Dataset & ethics
-
-The LECSEG-30 corpus contains 30 publicly available YouTube lecture videos with creator-provided chapter timestamps. We do not redistribute the video files (per YouTube's terms of service); the dataset release contains URLs, metadata, ground-truth chapter and subtopic timestamps, annotation guidelines, and reproduction scripts.
-
-All annotators are project members; annotation guidelines and a sample-of-10 inter-annotator agreement (Cohen's κ at chapter and subtopic levels) are reported in the methodology chapter.
-
-The dataset is published on Zenodo with a CC-BY-4.0 licence. The trained model is published on Hugging Face under a permissive open licence. The full code base is released on GitHub.
-
----
-
-## Evaluation summary
-
-We compare classical baselines (TextTiling, C99), neural baselines (cosine-drop on sentence embeddings, KMeans segmentation, BERT-SegBot), and our four novel variants on five metrics: Pk, WindowDiff, Boundary Similarity, tolerance-F1, and a hierarchical WindowDiff that we propose. All numbers are reported with bootstrap 95 % confidence intervals (n = 1000 resamples). Pairwise improvements are tested with paired Wilcoxon signed-rank.
-
----
+| T01-T05 | Setup | Done |
+| T06-T08 | Literature and novelty framing | Done; needs final consistency pass |
+| T09-T13 | Dataset and annotation | Done |
+| T14-T18 | Preprocessing | Done |
+| T19-T21 | Features | Done |
+| T22-T24 | Baselines | Done |
+| T25-T28 | Proposed methods | Done; claims need careful wording |
+| T29-T31 | Evaluation and error analysis | Done; official result selection needed |
+| T32-T37 | Thesis writing and review | In progress |
+| T38-T47 | Paper, demo, release, defense | Not final |
 
 ## Deliverables
 
-- A 60–95 page thesis (`thesis/main.pdf`).
-- An 8-page IEEE-style paper (`paper/ieee.pdf`).
-- A live web demo (Streamlit, `webapp/`).
-- The LECSEG-30 dataset on Zenodo.
-- The trained model on Hugging Face.
-- An A1 defense poster, slide deck, and Q&A document.
+- thesis source and PDF under `thesis/`
+- IEEE-style paper draft under `paper/`
+- Streamlit demo under `webapp/`
+- dataset metadata and annotations under `data/`
+- evaluation results under `results/`
+- reproducibility and cleanup guide under `docs/PROJECT_GUIDE.md`
 
----
+## Public Release Rule
 
-## Timeline
-
-The project is organised task-by-task rather than day-by-day, so productive days can advance multiple tasks. The phases above provide rough sequencing; `progress.yaml` records the live state.
-
----
-
-*This document is a public-facing summary. Internal coordination, project-management notes, and tooling-specific discussion live elsewhere in the repository and are removed before the final submission.*
+Before any public submission or release, exclude internal coordination files,
+Claude worktrees, cookies, vast.ai details, raw videos, and scratch logs. The
+release should contain only code, allowed metadata/annotations, reproducible
+results, thesis/paper artifacts, and documentation.

@@ -4,158 +4,169 @@
 \section{Experimental setup}
 \label{sec:setup}
 
-All experiments were run on a single NVIDIA RTX~5090 GPU (24\,GB VRAM) with
-Python~3.14 and CUDA~12.x.
-Text embeddings were computed with \texttt{all-mpnet-base-v2} (768-dim).
-For methods requiring a segment count, we supplied the ground-truth count.
-Metrics were computed with our open-source implementation
-(\texttt{src/lecseg/metrics.py}).
-Random seeds were fixed to 42 for all stochastic methods.
+The official chapter-level evaluation uses the 30 videos listed in
+\texttt{data/manifest.jsonl} and the creator-provided YouTube chapter
+boundaries in \texttt{data/gt/}. Metrics were computed with the project
+implementation in \texttt{src/lecseg/metrics.py}. Unless otherwise stated,
+all values are macro averages over the 30 videos. Lower $P_k$ and WindowDiff
+(WD) are better; higher Boundary Similarity (BS) and tolerance-$F_1$ are
+better.
+
+The main stable baseline is BGE sentence embeddings with divisive
+segmentation. The best joint $P_k$/WindowDiff run combines BGE/E5-style
+cross-model boundary scoring with conservative minimum-length postprocessing
+and the alignment-audited reference mapping
+(\texttt{cross\_e5\_frac70\_minlen11\_\_align\_contains\_before} in
+\texttt{results/eval\_alignment\_sweep.json}). A separate leave-one-video-out
+method selector improves mean $P_k$, WD, and boundary-hit metrics, although the
+$P_k$/WD gains over the joint-best cross-model method are not significant.
+
+\section{Dataset and annotation status}
+\label{sec:dataset_status}
+
+\dataset{} contains 30 lectures, 32.52 hours of video, 419 chapter boundaries,
+and 904 reviewed subtopic labels. The domain distribution is Biology 6,
+Computer Science 7, Mathematics 4, Philosophy 6, and Physics 7 videos.
+The current manifest is therefore cross-domain but not perfectly balanced.
+
+\begin{table}[t]
+  \centering
+  \caption{Inter-annotator agreement for hierarchical annotations
+  (\texttt{data/gt\_hier/iaa\_report.json}, tolerance = 1 sentence).}
+  \label{tab:iaa}
+  \begin{tabular}{lcc}
+    \toprule
+    Level & Cohen's $\kappa$ & Boundary $F_1$ \\
+    \midrule
+    Chapter & 0.5351 & 1.0000 \\
+    Subtopic & 0.4257 & 0.7793 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
 
 \section{Main results}
 \label{sec:main}
 
-\begin{table}[t]
-  \centering
-  \caption{Main results on \dataset{} (30 videos). All values are means over
-    all videos; 95\,\% bootstrap CIs in parentheses.
-    $P_k$ and WD: lower is better ($\downarrow$).
-    BS and $F_1$: higher is better ($\uparrow$).
-    Bold = best per column. \dag{} = statistically different from BertSeg
-    ($p < 0.05$, Wilcoxon signed-rank with Holm correction).}
-  \label{tab:master}
-  \begin{tabular}{lcccc}
-    \toprule
-    Method & $P_k\downarrow$ & WD$\downarrow$ & BS$\uparrow$ & $F_1\uparrow$ \\
-    \midrule
-    TextTiling~\citep{hearst1994multi}  & \todo{} & \todo{} & \todo{} & \todo{} \\
-    C99~\citep{choi2000latent}          & \todo{} & \todo{} & \todo{} & \todo{} \\
-    CosineSeg                           & \todo{} & \todo{} & \todo{} & \todo{} \\
-    KMeansSeg                           & \todo{} & \todo{} & \todo{} & \todo{} \\
-    BertSeg~\citep{koshorek2018text}    & \todo{} & \todo{} & \todo{} & \todo{} \\
-    \midrule
-    \lecseg-TwoStage (N1+N2)\dag{}           & \todo{} & \todo{} & \todo{} & \todo{} \\
-    \lecseg-TwoStage+LLM (N1+N2+N4)\dag{}   & \todo{} & \todo{} & \todo{} & \todo{} \\
-    \lecseg-Hierarchical (N1+N2+N3)\dag{}   & \textbf{\todo{}} & \textbf{\todo{}} & \textbf{\todo{}} & \textbf{\todo{}} \\
-    \bottomrule
-  \end{tabular}
-\end{table}
+\input{tables/main_results}
 
-\todo{Fill in Table~\ref{tab:master} from \texttt{results/eval.json} after
-  running \texttt{python scripts/run\_eval.py}.
-  Run \texttt{python scripts/tables.py results/eval.json} to auto-generate the
-  LaTeX cells.
-  Walk through the table row by row: TextTiling is the weakest baseline due to
-  lexical sparsity in technical lectures; BertSeg is the strongest baseline;
-  TwoStage outperforms all baselines on $P_k$ and $F_1$ with statistical
-  significance.}
+Table~\ref{tab:lecseg_result_variants} shows three important patterns. First, the stable
+BGE-divisive baseline is much stronger than the classical and neural baselines
+under $P_k$ and WD. Second, conservative cross-model boundary selection gives
+the best statistically supported joint $P_k$/WD result, reducing $P_k$ by
+0.0171 absolute relative to BGE-divisive. Third, the method selector reaches
+the best mean $P_k$, improves mean WD slightly, and produces much higher F1@2.
 
-\section{Ablation study}
+\input{tables/significance}
+
+Table~\ref{tab:lecseg_significance} separates mean improvements from
+statistically supported claims. The cross-model method significantly improves
+$P_k$ and WD over BGE-divisive. The method selector also significantly improves
+$P_k$ and WD over BGE-divisive, and significantly improves Boundary Similarity
+and F1@2 over the cross-model method. Its $P_k$/WD gains over the cross-model
+method are not significant, so it is best interpreted as a stronger
+operating-point experiment rather than a conclusive replacement.
+
+\input{tables/selector_operating_points}
+
+Table~\ref{tab:selector_operating_points} explains why the balanced selector is
+used as the selector result. Ranking candidate methods by Pk alone or by WD
+alone is weaker after the stable-feature fix. The balanced selector gives the
+best deployable Pk/WD operating point among the listed selector variants. The
+text-transition ranker reaches much higher strict F1@2, but only by hurting
+$P_k$ and WD; it is therefore diagnostic evidence that exact boundary-hit
+optimisation is a different operating point, not the main chapter segmentation
+result.
+
+\section{Ablation and diagnostic findings}
 \label{sec:ablations}
 
-\label{sec:results_iaa}
-\todo{Fill IAA table. Example target: $\kappa_{\text{chapter}} = 0.82$,
-  $\kappa_{\text{subtopic}} = 0.71$. See \texttt{results/iaa/iaa\_report.json}.}
-
-Table~\ref{tab:ablation} presents the ablation study.
-Starting from the cosine-drop baseline, each novel module is added in turn.
-
 \begin{table}[t]
   \centering
-  \caption{Ablation study. Checkmarks indicate which novel components are
-    enabled. Baselines use the same text-only cosine-drop boundary detector.}
+  \caption{Selected ablations and diagnostics.}
   \label{tab:ablation}
-  \begin{tabular}{lcccc|cc}
+  \begin{tabular}{lrrl}
     \toprule
-    Variant & N1 & N2 & N3 & N4 & $P_k\downarrow$ & $F_1\uparrow$ \\
+    Variant & $P_k\downarrow$ & WD$\downarrow$ & Interpretation \\
     \midrule
-    CosineSeg (baseline) &  &  &  &  & \todo{} & \todo{} \\
-    +N2 (RWF only)       &  & \checkmark &  &  & \todo{} & \todo{} \\
-    +N1+N2 (TwoStage)    & \checkmark & \checkmark &  &  & \todo{} & \todo{} \\
-    +N1+N2+N3 (Hierarchical) & \checkmark & \checkmark & \checkmark &  & \todo{} & \todo{} \\
-    +N1+N2+N4 (TwoStage+LLM) & \checkmark & \checkmark &  & \checkmark & \todo{} & \todo{} \\
+    BGE + divisive & 0.3884 & 0.3956 & Stable text-only baseline \\
+    Hierarchical & 0.4118 & 0.4206 & Useful representation, weaker chapter Pk \\
+    TwoStage + prosody & 0.4333 & 0.4970 & Higher F1, worse Pk/WD \\
+    BERT-wiki zero-shot & 0.4932 & 0.5397 & Poor domain transfer \\
+    Boundary classifier LOOCV & 0.5803 & 0.9933 & Over-predicts boundaries \\
+    Oracle-k divisive & 0.4237 & -- & Segment count is not the bottleneck \\
     \bottomrule
   \end{tabular}
 \end{table}
 
-\todo{Discuss: N2 (RWF) alone yields a modest $P_k$ reduction.
-  N1 (two-stage predictor) provides the largest single gain.
-  N3 and N4 provide complementary improvements on different metrics.}
-
-\section{Statistical significance}
-\label{sec:significance}
-
-\todo{Insert Wilcoxon $p$-value table from \texttt{python scripts/run\_eval.py}
-  (--stats flag). Target: all three \lecseg{} variants significantly outperform
-  BertSeg at $\alpha = 0.05$ after Holm correction.}
-
-\section{Qualitative error analysis}
-\label{sec:errors}
-
-We manually inspected the 10 highest-error videos (by $P_k$) from the
-TwoStage system and identified four recurring failure modes:
-
-\begin{enumerate}
-  \item \textbf{Dense-transition lectures.}
-    When a speaker covers six or more subtopics within a single chapter,
-    the gap-score distribution becomes flat and individual transitions are
-    difficult to distinguish.
-
-  \item \textbf{Accented or fast speech.}
-    Whisper WER is approximately $14\%$ for heavily-accented speakers,
-    compared to $8\%$ for native English.
-    Degraded transcripts weaken text embeddings and reduce boundary contrast.
-
-  \item \textbf{Static visual channel.}
-    When a lecturer uses a whiteboard or no slides, the visual modality
-    contributes a flat gap signal.
-    RWF correctly down-weights it (entropy $\approx \log N$), but the fused
-    signal loses one information source entirely.
-
-  \item \textbf{LLM title drift.}
-    For highly technical segments (e.g., dense mathematical derivations),
-    the LLM occasionally generates titles that paraphrase an example rather
-    than the concept, reducing title quality without affecting boundary accuracy.
-\end{enumerate}
-
-\todo{Add 1--2 concrete examples per failure mode.
-  Use video IDs from \texttt{results/error\_analysis/}.}
+The diagnostics are as important as the positive result. Oracle-k evaluation
+showed that giving divisive segmentation the exact number of gold segments did
+not materially improve placement quality. This indicates that boundary scoring
+and ranking, not segment-count estimation, is the main bottleneck. The
+Wikipedia-trained supervised segmenter performed worse than the unsupervised
+lecture-specific methods, supporting the claim that out-of-domain text
+segmentation does not transfer cleanly to spoken lecture transcripts.
 
 \section{Per-domain analysis}
 \label{sec:domain}
 
-\todo{Break down $P_k$ and $F_1$ by domain (CS / Math / Physics / Biology /
-  Humanities). Hypothesis: Math lectures have the most stable structure
-  (theorem, proof, example) and should show the lowest $P_k$.}
+\begin{table}[t]
+  \centering
+  \caption{Per-domain performance of \texttt{cross\_e5\_frac70\_minlen11}.}
+  \label{tab:domain}
+  \begin{tabular}{lrrrr}
+    \toprule
+    Domain & Videos & $P_k\downarrow$ & WD$\downarrow$ & $F_1\uparrow$ \\
+    \midrule
+    Biology & 6 & 0.3965 & 0.4009 & 0.0475 \\
+    CS & 7 & 0.3297 & 0.3338 & 0.0000 \\
+    Math & 4 & 0.3793 & 0.3867 & 0.0000 \\
+    Philosophy & 6 & 0.3959 & 0.4073 & 0.0663 \\
+    Physics & 7 & 0.3665 & 0.3665 & 0.0000 \\
+    \midrule
+    All & 30 & 0.3713 & 0.3764 & 0.0237 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Computer Science and Physics are the easiest domains by $P_k$ in the current
+best run, while Biology and Philosophy are harder. The near-zero strict F1 in
+several domains shows that the method often places segment structure
+approximately correctly under $P_k$/WD while missing exact boundary matches.
+
+\section{Qualitative error analysis}
+\label{sec:errors}
+
+Manual inspection and aggregate error summaries point to four recurring failure
+modes:
+
+\begin{enumerate}
+  \item \textbf{Dense-transition lectures.} Videos with many short conceptual
+  shifts flatten the gap-score distribution and make individual transitions
+  hard to rank.
+
+  \item \textbf{Long homogeneous lectures.} When vocabulary remains stable over
+  long stretches, text embeddings produce weak local contrast even when the
+  pedagogical topic changes.
+
+  \item \textbf{Noisy or unhelpful auxiliary modalities.} Shot, OCR, and prosody
+  features are available, but current ablations show that they can hurt Pk/WD
+  when the signal is flat or poorly aligned with semantic transitions.
+
+  \item \textbf{Conservative boundary selection.} The best Pk/WD method reduces
+  false positives by predicting fewer boundaries, but this lowers recall and
+  strict boundary F1.
+\end{enumerate}
 
 \section{Discussion}
 \label{sec:discussion}
 
-The results support all five research questions:
-
-\begin{description}
-  \item[RQ1 (multimodal $>$ text-only)]
-    The RWF fusion of text, visual, and prosodic signals consistently reduces
-    $P_k$ relative to the text-only cosine baseline, confirming that auxiliary
-    modalities carry complementary topic-shift cues.
-
-  \item[RQ2 (hierarchical $>$ flat)]
-    The Hierarchical variant achieves the best H-WD score, demonstrating that
-    predicting chapter and subtopic boundaries jointly (with the nesting
-    constraint) produces more coherent two-level outputs than two independent
-    flat models.
-
-  \item[RQ3 (reliability weighting helps)]
-    The ablation shows that replacing uniform fusion with RWF reduces $P_k$
-    by approximately \todo{}\%, primarily because it suppresses the visual
-    modality on whiteboard-style lectures.
-
-  \item[RQ4 (LLM refinement improves title quality)]
-    N4 does not significantly change boundary placement metrics, but manual
-    evaluation of 50 titles (not reported here) showed a preference rate of
-    \todo{}\% for LLM-generated titles over first-sentence baselines.
-
-  \item[RQ5 (reproducible on commodity hardware)]
-    The complete pipeline runs in under five minutes per video on a single GPU,
-    using only open-source components, making it viable for academic deployments.
-\end{description}
+The results support a careful, defensible interpretation. LECSEG is a complete
+open benchmark and pipeline, and the best joint $P_k$/WD method significantly
+improves over a strong BGE-divisive baseline. The method selector shows that
+the method family contains complementary boundary evidence and can recover much
+of the strict-F1 loss, but its $P_k$ gain over the cross-model method is not
+significant. The project therefore does not support a universal SOTA claim. The
+strongest next technical direction is supervised candidate ranking: generate a
+high-recall candidate pool, score each candidate with text, cross-model, pause,
+OCR, and local-coherence features, and select a non-overlapping set with
+minimum-duration constraints.

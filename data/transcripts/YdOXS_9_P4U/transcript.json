@@ -1,0 +1,2957 @@
+{
+  "video_id": "YdOXS_9_P4U",
+  "language": "en",
+  "duration_sec": 1712.9,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.64,
+      "text": "Einstein once wrote an introduction to a book on astronomy."
+    },
+    {
+      "start": 2.86,
+      "end": 5.14,
+      "text": "He mentioned this idea, he called it an idea of pure genius."
+    },
+    {
+      "start": 5.4,
+      "end": 8.62,
+      "text": "This is Terence Tao, one of the world's most renowned mathematicians."
+    },
+    {
+      "start": 9.06,
+      "end": 12.9,
+      "text": "What he's referencing right now is how Kepler deduced the shape of Earth's orbit,"
+    },
+    {
+      "start": 13.2,
+      "end": 15.68,
+      "text": "which was astoundingly more clever than I had realized."
+    },
+    {
+      "start": 16.06,
+      "end": 17.56,
+      "text": "But I'm getting a little ahead of myself."
+    },
+    {
+      "start": 18.04,
+      "end": 20.28,
+      "text": "A lot of math enthusiasts will be familiar with Tao"
+    },
+    {
+      "start": 20.28,
+      "end": 22.96,
+      "text": "as a story of prodigy-turned-prodigious mathematician."
+    },
+    {
+      "start": 23.5,
+      "end": 27.46,
+      "text": "But one of the most remarkable features of his career is how collaborative it's been,"
+    },
+    {
+      "start": 27.46,
+      "end": 30.84,
+      "text": "spanning an unusually wide breadth of topics within math."
+    },
+    {
+      "start": 31.26,
+      "end": 32.6,
+      "text": "I had the chance to sit down with him,"
+    },
+    {
+      "start": 32.74,
+      "end": 34.7,
+      "text": "and I asked if there were any topics that he believed"
+    },
+    {
+      "start": 34.7,
+      "end": 37.46,
+      "text": "would benefit from some strongly visual presentation."
+    },
+    {
+      "start": 37.9,
+      "end": 40.28,
+      "text": "And I fully expected an answer from pure math."
+    },
+    {
+      "start": 40.52,
+      "end": 44.64,
+      "text": "But I was pleasantly surprised when he proposed instead a story of cosmic distances."
+    },
+    {
+      "start": 45.22,
+      "end": 48.58,
+      "text": "It's the story of how humanity first figured out the sizes of objects"
+    },
+    {
+      "start": 48.58,
+      "end": 52.4,
+      "text": "from the size of the Earth to that of the solar system on up to the universe,"
+    },
+    {
+      "start": 52.94,
+      "end": 55.9,
+      "text": "and how each measurement unlocks a path to the next one."
+    },
+    {
+      "start": 56.59,
+      "end": 57.55,
+      "text": "I always liked..."
+    },
+    {
+      "start": 57.59,
+      "end": 58.67,
+      "text": "I liked astronomy as a child."
+    },
+    {
+      "start": 58.77,
+      "end": 62.25,
+      "text": "Just found, like, red dwarfs and neutron stars and so forth fascinating, you know."
+    },
+    {
+      "start": 62.57,
+      "end": 63.49,
+      "text": "Then I had a little telescope."
+    },
+    {
+      "start": 63.85,
+      "end": 65.89,
+      "text": "As a kid, I just read all these books and said, you know,"
+    },
+    {
+      "start": 65.93,
+      "end": 68.61,
+      "text": "the distance to Mars is 18 million miles or whatever."
+    },
+    {
+      "start": 68.75,
+      "end": 71.31,
+      "text": "And I just sort of accepted, oh, they figured out some way to do this."
+    },
+    {
+      "start": 71.41,
+      "end": 72.67,
+      "text": "I never knew how they did it."
+    },
+    {
+      "start": 73.11,
+      "end": 75.85,
+      "text": "Science communication at its best is, to me,"
+    },
+    {
+      "start": 75.97,
+      "end": 78.15,
+      "text": "less about presenting facts in a memorable way"
+    },
+    {
+      "start": 78.15,
+      "end": 81.45,
+      "text": "and more about showing how it is that we know what we know."
+    },
+    {
+      "start": 81.79,
+      "end": 83.11,
+      "text": "When it comes to cosmic distances,"
+    },
+    {
+      "start": 83.31,
+      "end": 87.11,
+      "text": "it's very easy to be awestruck by the sheer unfathomable scales involved."
+    },
+    {
+      "start": 87.59,
+      "end": 89.73,
+      "text": "But what deserves just as much awe"
+    },
+    {
+      "start": 89.73,
+      "end": 92.83,
+      "text": "and is much less commonly highlighted in pop science documentaries"
+    },
+    {
+      "start": 92.83,
+      "end": 96.09,
+      "text": "is how clever the reasoning can be at each step."
+    },
+    {
+      "start": 96.75,
+      "end": 99.09,
+      "text": "And I realized, oh, it was always some mathematical trick."
+    },
+    {
+      "start": 99.35,
+      "end": 100.39,
+      "text": "And it was always a cool trick."
+    },
+    {
+      "start": 100.49,
+      "end": 101.91,
+      "text": "Like, if you want to measure the distance to X,"
+    },
+    {
+      "start": 102.19,
+      "end": 103.57,
+      "text": "you can never just look at X."
+    },
+    {
+      "start": 103.93,
+      "end": 106.39,
+      "text": "You have to look at Y and how X impacts Y."
+    },
+    {
+      "start": 106.73,
+      "end": 109.01,
+      "text": "So the idea is clever, and then you have to have data,"
+    },
+    {
+      "start": 109.31,
+      "end": 110.85,
+      "text": "which needs technology and so forth."
+    },
+    {
+      "start": 111.31,
+      "end": 112.25,
+      "text": "But then it's just mathematics."
+    },
+    {
+      "start": 112.91,
+      "end": 115.73,
+      "text": "In this video, we'll cover the steps of the ladder up to the planets,"
+    },
+    {
+      "start": 115.73,
+      "end": 117.27,
+      "text": "that moment of sheer genius,"
+    },
+    {
+      "start": 117.27,
+      "end": 118.09,
+      "text": "that Kepler brought."
+    },
+    {
+      "start": 118.49,
+      "end": 119.23,
+      "text": "And in the next part,"
+    },
+    {
+      "start": 119.39,
+      "end": 121.67,
+      "text": "we'll continue on up to the most distant galaxies."
+    },
+    {
+      "start": 122.61,
+      "end": 125.31,
+      "text": "The very first measurement of the ladder is the radius of the Earth,"
+    },
+    {
+      "start": 125.45,
+      "end": 126.53,
+      "text": "a somewhat classic tale."
+    },
+    {
+      "start": 127.25,
+      "end": 130.77,
+      "text": "But to even ask this question presumes that the Earth is a sphere,"
+    },
+    {
+      "start": 131.01,
+      "end": 132.33,
+      "text": "or at least roughly spherical."
+    },
+    {
+      "start": 132.81,
+      "end": 136.41,
+      "text": "So you might wonder how the ancients first deduced the shape of the Earth."
+    },
+    {
+      "start": 136.61,
+      "end": 139.41,
+      "text": "The first really convincing proof came from the Moon."
+    },
+    {
+      "start": 140.03,
+      "end": 142.99,
+      "text": "And this is the constant theme in the distance ladder."
+    },
+    {
+      "start": 143.09,
+      "end": 145.15,
+      "text": "If you want to measure one object, in this case the Earth,"
+    },
+    {
+      "start": 145.31,
+      "end": 147.23,
+      "text": "you have to use a reference object,"
+    },
+    {
+      "start": 147.39,
+      "end": 149.19,
+      "text": "that is some distance away."
+    },
+    {
+      "start": 149.31,
+      "end": 151.31,
+      "text": "See, the thing is that we're stuck on the Earth."
+    },
+    {
+      "start": 151.43,
+      "end": 152.69,
+      "text": "Like, if we could step away,"
+    },
+    {
+      "start": 152.81,
+      "end": 154.81,
+      "text": "if you look from many different angles, you could see that it's round."
+    },
+    {
+      "start": 154.93,
+      "end": 158.43,
+      "text": "If you only saw it from one angle, it could be a flat disk."
+    },
+    {
+      "start": 158.55,
+      "end": 160.35,
+      "text": "A flat disk, if you look at it from a different angle,"
+    },
+    {
+      "start": 160.47,
+      "end": 161.27,
+      "text": "it would look like an ellipse."
+    },
+    {
+      "start": 161.39,
+      "end": 163.71,
+      "text": "But you can actually prove this nice little geometric argument, actually,"
+    },
+    {
+      "start": 163.83,
+      "end": 166.87,
+      "text": "that if there's a convex body and every single projection is a circle,"
+    },
+    {
+      "start": 166.99,
+      "end": 168.07,
+      "text": "then it has to be a sphere."
+    },
+    {
+      "start": 168.19,
+      "end": 170.67,
+      "text": "I'm going to guess that most of you find this pretty intuitive."
+    },
+    {
+      "start": 170.79,
+      "end": 173.95,
+      "text": "After all, if every shadow of a given shape is a circle,"
+    },
+    {
+      "start": 174.07,
+      "end": 176.29,
+      "text": "what could that shape be other than a sphere?"
+    },
+    {
+      "start": 176.41,
+      "end": 177.09,
+      "text": "But of course,"
+    },
+    {
+      "start": 177.09,
+      "end": 178.89,
+      "text": "a mathematician always keeps a keen eye out"
+    },
+    {
+      "start": 179.01,
+      "end": 181.59,
+      "text": "for those strange counterintuitive exceptions."
+    },
+    {
+      "start": 181.71,
+      "end": 184.27,
+      "text": "And he shared with me a nice proof of this fact after the interview,"
+    },
+    {
+      "start": 184.39,
+      "end": 186.13,
+      "text": "which I'll link to in the description."
+    },
+    {
+      "start": 186.25,
+      "end": 187.85,
+      "text": "In two dimensions, what I just said is not true."
+    },
+    {
+      "start": 187.97,
+      "end": 189.37,
+      "text": "So there are two dimensions, shapes,"
+    },
+    {
+      "start": 189.49,
+      "end": 192.03,
+      "text": "which every projection is an interval of the same length,"
+    },
+    {
+      "start": 192.15,
+      "end": 193.39,
+      "text": "but they're not round."
+    },
+    {
+      "start": 193.51,
+      "end": 197.31,
+      "text": "But in 3D, there's enough perspective, as it turns out."
+    },
+    {
+      "start": 197.43,
+      "end": 200.77,
+      "text": "If you could look at the Earth and you could always see that it was round,"
+    },
+    {
+      "start": 200.89,
+      "end": 202.63,
+      "text": "that tells you the Earth is a sphere."
+    },
+    {
+      "start": 202.75,
+      "end": 205.01,
+      "text": "NASA can do this, but Aristotle could do this."
+    },
+    {
+      "start": 205.13,
+      "end": 206.21,
+      "text": "And he used the Moon,"
+    },
+    {
+      "start": 206.21,
+      "end": 208.13,
+      "text": "because he knew about lunar eclipses."
+    },
+    {
+      "start": 208.25,
+      "end": 211.21,
+      "text": "Lunar eclipses happen when the Moon falls onto the Earth's shadow."
+    },
+    {
+      "start": 211.33,
+      "end": 214.55,
+      "text": "And the Earth's shadow, as you can just visibly see,"
+    },
+    {
+      "start": 214.67,
+      "end": 217.48,
+      "text": "it's always a circular arc."
+    },
+    {
+      "start": 217.6,
+      "end": 219.52,
+      "text": "So there's a picture I can show you."
+    },
+    {
+      "start": 219.64,
+      "end": 220.64,
+      "text": "This is not my photo,"
+    },
+    {
+      "start": 220.76,
+      "end": 225.22,
+      "text": "but someone took several images of the Moon entering and exiting the lunar eclipse"
+    },
+    {
+      "start": 225.34,
+      "end": 227.88,
+      "text": "and composited them together into a single shot."
+    },
+    {
+      "start": 228.0,
+      "end": 229.6,
+      "text": "You can see the shadow of the Earth."
+    },
+    {
+      "start": 229.72,
+      "end": 232.5,
+      "text": "This is visible proof that the Earth is round."
+    },
+    {
+      "start": 232.62,
+      "end": 236.3,
+      "text": "And you don't need telescopes, sextants, spacecraft."
+    },
+    {
+      "start": 236.42,
+      "end": 237.18,
+      "text": "You just need to look at the Moon."
+    },
+    {
+      "start": 237.38,
+      "end": 240.38,
+      "text": "Something else very cool revealed by these kinds of compositions"
+    },
+    {
+      "start": 240.5,
+      "end": 244.3,
+      "text": "is how you can just see the relative size of the Earth and the Moon."
+    },
+    {
+      "start": 244.42,
+      "end": 246.68,
+      "text": "We'll get to that in a moment, but first things first,"
+    },
+    {
+      "start": 246.8,
+      "end": 248.88,
+      "text": "how do we figure out how big the Earth is?"
+    },
+    {
+      "start": 249.0,
+      "end": 251.42,
+      "text": "The first person to do this that we know of is Eratosthenes."
+    },
+    {
+      "start": 251.54,
+      "end": 253.96,
+      "text": "The way the story goes is that he had read somewhere"
+    },
+    {
+      "start": 254.1,
+      "end": 256.14,
+      "text": "of this well in this town called Syene,"
+    },
+    {
+      "start": 256.26,
+      "end": 259.14,
+      "text": "where on one day of the year, the summer solstice,"
+    },
+    {
+      "start": 259.26,
+      "end": 263.54,
+      "text": "you could look down on the well and you could see the sun reflected in the water underneath."
+    },
+    {
+      "start": 263.68,
+      "end": 264.68,
+      "text": "And he said, oh, that's kind of cool."
+    },
+    {
+      "start": 264.8,
+      "end": 267.26,
+      "text": "I don't live there, but I have a well in my own town, Alexandria,"
+    },
+    {
+      "start": 267.38,
+      "end": 268.68,
+      "text": "I'm going to go try the same thing."
+    },
+    {
+      "start": 268.8,
+      "end": 270.92,
+      "text": "So he waited until the summer solstice."
+    },
+    {
+      "start": 271.06,
+      "end": 272.8,
+      "text": "At noon, he went down and looked at the well,"
+    },
+    {
+      "start": 272.92,
+      "end": 274.68,
+      "text": "and there was no reflection of the sun."
+    },
+    {
+      "start": 274.8,
+      "end": 277.06,
+      "text": "So I think like if you're a regular person at this point,"
+    },
+    {
+      "start": 277.18,
+      "end": 278.8,
+      "text": "we say, oh, you know, that story is fake news or whatever,"
+    },
+    {
+      "start": 278.92,
+      "end": 280.3,
+      "text": "whatever the film was at the time."
+    },
+    {
+      "start": 280.42,
+      "end": 283.68,
+      "text": "And he knew from Aristotle and the others that the Earth was round."
+    },
+    {
+      "start": 283.8,
+      "end": 286.68,
+      "text": "The reason what was happening was that the sun was not actually vertical."
+    },
+    {
+      "start": 286.8,
+      "end": 289.3,
+      "text": "Let's think of the sun as far enough away from Earth"
+    },
+    {
+      "start": 289.42,
+      "end": 292.3,
+      "text": "that all of its rays of light are effectively parallel."
+    },
+    {
+      "start": 292.42,
+      "end": 296.38,
+      "text": "At any given moment, if you draw a line from the center of the Earth straight to the sun,"
+    },
+    {
+      "start": 296.5,
+      "end": 297.26,
+      "text": "if you draw a line from the center of the Earth straight to the sun,"
+    },
+    {
+      "start": 297.38,
+      "end": 299.18,
+      "text": "it passes through some point on the surface,"
+    },
+    {
+      "start": 299.3,
+      "end": 303.68,
+      "text": "which must be experiencing this phenomenon where the sun is directly overhead."
+    },
+    {
+      "start": 303.8,
+      "end": 306.0,
+      "text": "But if you were someone in Eratosthenes time,"
+    },
+    {
+      "start": 306.14,
+      "end": 310.8,
+      "text": "it would be very difficult to know exactly where this was happening at a given moment."
+    },
+    {
+      "start": 310.92,
+      "end": 314.5,
+      "text": "So what makes the summer solstice special is that on that day,"
+    },
+    {
+      "start": 314.64,
+      "end": 319.34,
+      "text": "the axis of Earth's rotation is tilted directly towards the sun."
+    },
+    {
+      "start": 319.46,
+      "end": 321.54,
+      "text": "And as a result, on this day,"
+    },
+    {
+      "start": 321.68,
+      "end": 324.92,
+      "text": "as the Earth revolves around that axis over 24 hours,"
+    },
+    {
+      "start": 325.06,
+      "end": 327.26,
+      "text": "there is a consistent line of latitude"
+    },
+    {
+      "start": 327.38,
+      "end": 332.34,
+      "text": "where all of the locations on this line predictably experience this phenomenon,"
+    },
+    {
+      "start": 332.46,
+      "end": 336.6,
+      "text": "where at high noon, it's the highest of all high noons, where the sun is overhead."
+    },
+    {
+      "start": 336.72,
+      "end": 339.76,
+      "text": "This line has a special name. It's called the Tropic of Cancer."
+    },
+    {
+      "start": 339.88,
+      "end": 343.88,
+      "text": "And the town Syene that Eratosthenes had read about sits on this line."
+    },
+    {
+      "start": 344.0,
+      "end": 348.06,
+      "text": "Now, Eratosthenes himself was a bit further north than that, in Alexandria."
+    },
+    {
+      "start": 348.18,
+      "end": 352.92,
+      "text": "So on that day, at exactly noon, the direction he perceives as straight up,"
+    },
+    {
+      "start": 353.06,
+      "end": 356.38,
+      "text": "which I'll draw with a pink line here, is not pointed towards the sun."
+    },
+    {
+      "start": 356.46,
+      "end": 359.26,
+      "text": "It sits at some angle with all of those rays."
+    },
+    {
+      "start": 359.38,
+      "end": 361.26,
+      "text": "He had what's called a gnomon,"
+    },
+    {
+      "start": 361.38,
+      "end": 366.26,
+      "text": "which is kind of like an ancient protractor or sundial, a portable sundial, basically."
+    },
+    {
+      "start": 366.38,
+      "end": 369.38,
+      "text": "He measured that the sun was actually about seven degrees off of the vertical."
+    },
+    {
+      "start": 369.5,
+      "end": 372.88,
+      "text": "Critically, because he could also know that at this exact moment,"
+    },
+    {
+      "start": 373.0,
+      "end": 377.5,
+      "text": "down in Syene, many, many, many miles away, the sun was directly overhead,"
+    },
+    {
+      "start": 377.62,
+      "end": 384.26,
+      "text": "he deduced that this means the arc length along Earth between Alexandria and Syene is about seven degrees."
+    },
+    {
+      "start": 384.38,
+      "end": 386.34,
+      "text": "This, in turn, means the ratio between the sun and the earth is about seven degrees."
+    },
+    {
+      "start": 386.46,
+      "end": 390.46,
+      "text": "So the distance between seven degrees and the full 360 degrees of a circle"
+    },
+    {
+      "start": 390.58,
+      "end": 394.46,
+      "text": "must be the same as the ratio of the distance between those two towns"
+    },
+    {
+      "start": 394.58,
+      "end": 396.58,
+      "text": "and the full circumference of the earth."
+    },
+    {
+      "start": 396.72,
+      "end": 398.72,
+      "text": "Now, keep in mind, in the records that we have,"
+    },
+    {
+      "start": 398.84,
+      "end": 402.34,
+      "text": "it's not like he's reporting this distance in miles or kilometers."
+    },
+    {
+      "start": 402.46,
+      "end": 405.22,
+      "text": "The units they were using back then were stadia,"
+    },
+    {
+      "start": 405.34,
+      "end": 408.42,
+      "text": "where a single unit is something like the length of a stadium."
+    },
+    {
+      "start": 408.54,
+      "end": 412.46,
+      "text": "So the distance was about 5,000 stadia, which is about 500 miles."
+    },
+    {
+      "start": 412.58,
+      "end": 416.34,
+      "text": "How accurate is our conversion between stadia and miles?"
+    },
+    {
+      "start": 416.46,
+      "end": 418.46,
+      "text": "Good question. We are not completely certain."
+    },
+    {
+      "start": 418.58,
+      "end": 420.76,
+      "text": "So with the conventionally accepted conversions,"
+    },
+    {
+      "start": 420.88,
+      "end": 423.5,
+      "text": "I think the accuracy of Eratosthenes' estimate is about 10%."
+    },
+    {
+      "start": 423.62,
+      "end": 427.22,
+      "text": "You can find sources online that claim his estimate was more accurate than this,"
+    },
+    {
+      "start": 427.34,
+      "end": 429.42,
+      "text": "but just keep in mind, if you selectively choose"
+    },
+    {
+      "start": 429.54,
+      "end": 433.38,
+      "text": "which of the many possible conversions between stadia and miles to use,"
+    },
+    {
+      "start": 433.5,
+      "end": 436.14,
+      "text": "you can kind of p-hack your way into a better number here."
+    },
+    {
+      "start": 436.26,
+      "end": 439.0,
+      "text": "Still, 10% is pretty good with no technology."
+    },
+    {
+      "start": 439.14,
+      "end": 443.38,
+      "text": "But of course, all of this hinges on actually knowing the distance between these two towns."
+    },
+    {
+      "start": 443.5,
+      "end": 446.34,
+      "text": "So the natural question you might ask is, how would he know that?"
+    },
+    {
+      "start": 446.46,
+      "end": 448.68,
+      "text": "This is not recorded. There are some theories."
+    },
+    {
+      "start": 448.8,
+      "end": 451.34,
+      "text": "One is that there are merchants that go up and down the Nile,"
+    },
+    {
+      "start": 451.46,
+      "end": 455.88,
+      "text": "and they know that in a certain day that their sailboat can travel so and so many stadia,"
+    },
+    {
+      "start": 456.0,
+      "end": 458.58,
+      "text": "and it takes them so and so many days, x to y."
+    },
+    {
+      "start": 458.72,
+      "end": 461.08,
+      "text": "And so from that, they have some estimate."
+    },
+    {
+      "start": 461.22,
+      "end": 464.46,
+      "text": "The joke is that he basically hired what we would now call a graduate student"
+    },
+    {
+      "start": 464.58,
+      "end": 468.26,
+      "text": "to pace the distance from a graduate student."
+    },
+    {
+      "start": 468.38,
+      "end": 471.46,
+      "text": "Carefully counting the road steps."
+    },
+    {
+      "start": 471.58,
+      "end": 476.18,
+      "text": "That 5,000 stadia is the only direct measurement, just from that one graduate student."
+    },
+    {
+      "start": 476.26,
+      "end": 480.74,
+      "text": "You can actually get all the way to the measure of the diameter of the universe."
+    },
+    {
+      "start": 480.86,
+      "end": 482.94,
+      "text": "Right. Now, that's not actually what we do nowadays."
+    },
+    {
+      "start": 483.06,
+      "end": 491.16,
+      "text": "I mean, because the errors stack up. But in principle, you could do that."
+    },
+    {
+      "start": 491.28,
+      "end": 493.44,
+      "text": "If you have a sense for how big the Earth is,"
+    },
+    {
+      "start": 493.58,
+      "end": 497.7,
+      "text": "one of the first cosmological distances that you can deduce from this value"
+    },
+    {
+      "start": 497.82,
+      "end": 500.48,
+      "text": "is the distance between the Earth and the Moon."
+    },
+    {
+      "start": 500.62,
+      "end": 501.62,
+      "text": "You can use eclipses again."
+    },
+    {
+      "start": 501.74,
+      "end": 505.28,
+      "text": "So shadows are what let you observe things from a different location in the Earth."
+    },
+    {
+      "start": 505.4,
+      "end": 509.0,
+      "text": "When you have a lunar eclipse, so when the sun is over here,"
+    },
+    {
+      "start": 510.88,
+      "end": 512.6,
+      "text": "the Earth shadow has signs."
+    },
+    {
+      "start": 512.72,
+      "end": 515.34,
+      "text": "It's basically twice the radius of the Earth."
+    },
+    {
+      "start": 515.48,
+      "end": 516.68,
+      "text": "It's a little trickier than that."
+    },
+    {
+      "start": 516.8,
+      "end": 518.84,
+      "text": "There's something called the penumbra and the umbra,"
+    },
+    {
+      "start": 518.98,
+      "end": 521.98,
+      "text": "but that's a post-approximation."
+    },
+    {
+      "start": 522.12,
+      "end": 526.6,
+      "text": "Lunar eclipses, they last no longer than four hours."
+    },
+    {
+      "start": 526.72,
+      "end": 529.44,
+      "text": "And this they knew from many, many observations."
+    },
+    {
+      "start": 529.56,
+      "end": 534.17,
+      "text": "The Moon actually takes one lunar month to traverse its orbit."
+    },
+    {
+      "start": 534.31,
+      "end": 537.51,
+      "text": "And so, again, by taking the ratio between 28 days and four hours,"
+    },
+    {
+      "start": 537.63,
+      "end": 541.21,
+      "text": "you can work out the relation between the distance to the Moon"
+    },
+    {
+      "start": 541.35,
+      "end": 542.85,
+      "text": "and the radius of the Earth."
+    },
+    {
+      "start": 542.97,
+      "end": 544.81,
+      "text": "To be slightly more accurate,"
+    },
+    {
+      "start": 544.89,
+      "end": 547.47,
+      "text": "measuring the full eclipse between first and last contact,"
+    },
+    {
+      "start": 547.61,
+      "end": 551.35,
+      "text": "the distance that the Moon passes through would not only be those two Earth radii,"
+    },
+    {
+      "start": 551.47,
+      "end": 553.89,
+      "text": "but it would also include two Moon radii."
+    },
+    {
+      "start": 554.01,
+      "end": 556.01,
+      "text": "So if you want to measure how long it takes for the Moon"
+    },
+    {
+      "start": 556.15,
+      "end": 558.89,
+      "text": "to traverse one Earth diameter in space,"
+    },
+    {
+      "start": 559.01,
+      "end": 562.43,
+      "text": "it might be more like the time between the first moment the Moon hits the shadow"
+    },
+    {
+      "start": 562.57,
+      "end": 565.05,
+      "text": "and the first moment that it starts to exit it."
+    },
+    {
+      "start": 565.19,
+      "end": 567.11,
+      "text": "Another thing to keep in mind if you were to go out"
+    },
+    {
+      "start": 567.23,
+      "end": 569.47,
+      "text": "and try this yourself on the next lunar eclipse"
+    },
+    {
+      "start": 569.61,
+      "end": 573.65,
+      "text": "is that lunar eclipses don't necessarily go through the center of Earth's shadow like this."
+    },
+    {
+      "start": 573.77,
+      "end": 574.77,
+      "text": "So the measurements that the Greeks did,"
+    },
+    {
+      "start": 574.89,
+      "end": 576.69,
+      "text": "or the Greeks would have had to use,"
+    },
+    {
+      "start": 576.81,
+      "end": 579.69,
+      "text": "would be with respect to the longest known eclipses."
+    },
+    {
+      "start": 579.81,
+      "end": 582.19,
+      "text": "In either case, the slightly more accurate number to put in here"
+    },
+    {
+      "start": 582.31,
+      "end": 584.39,
+      "text": "would be more like three and a half hours."
+    },
+    {
+      "start": 584.51,
+      "end": 585.81,
+      "text": "And then when you work it out,"
+    },
+    {
+      "start": 585.93,
+      "end": 588.31,
+      "text": "this ratio between the length of a lunar month"
+    },
+    {
+      "start": 588.43,
+      "end": 590.01,
+      "text": "and the length of a lunar eclipse,"
+    },
+    {
+      "start": 590.15,
+      "end": 591.65,
+      "text": "all divided by pi,"
+    },
+    {
+      "start": 591.77,
+      "end": 595.93,
+      "text": "would tell you how many Earth radii away the Moon is."
+    },
+    {
+      "start": 596.05,
+      "end": 597.73,
+      "text": "Aristarchus did this."
+    },
+    {
+      "start": 597.85,
+      "end": 601.15,
+      "text": "He measured that the distance to the Moon is about 60 Earth radii."
+    },
+    {
+      "start": 601.27,
+      "end": 604.61,
+      "text": "And actually, the orbit varies between like 58 and 62 or something."
+    },
+    {
+      "start": 604.69,
+      "end": 605.73,
+      "text": "So actually, it's really good."
+    },
+    {
+      "start": 605.85,
+      "end": 606.73,
+      "text": "As good as you could hope."
+    },
+    {
+      "start": 606.85,
+      "end": 607.49,
+      "text": "Yeah, yeah, yeah."
+    },
+    {
+      "start": 607.61,
+      "end": 609.61,
+      "text": "I brought up earlier how with these lunar eclipses,"
+    },
+    {
+      "start": 609.73,
+      "end": 612.91,
+      "text": "you can see the relative size of the Moon and the Earth."
+    },
+    {
+      "start": 613.03,
+      "end": 615.61,
+      "text": "The Moon is about a quarter as wide as the Earth is."
+    },
+    {
+      "start": 615.73,
+      "end": 619.77,
+      "text": "Now in practice, it's difficult to make this a precise measurement without photography."
+    },
+    {
+      "start": 619.91,
+      "end": 623.15,
+      "text": "So the Greeks had a different way that they could deduce the size of the Moon."
+    },
+    {
+      "start": 623.27,
+      "end": 627.49,
+      "text": "Next time you see a full Moon rising, try to measure how long it takes."
+    },
+    {
+      "start": 627.61,
+      "end": 630.07,
+      "text": "What you should find is that it's around two minutes."
+    },
+    {
+      "start": 630.19,
+      "end": 633.45,
+      "text": "What you're watching is not so much the Moon moving through the orbit."
+    },
+    {
+      "start": 633.45,
+      "end": 636.07,
+      "text": "Instead, it's that as you and the Earth are rotating,"
+    },
+    {
+      "start": 636.21,
+      "end": 640.33,
+      "text": "your line of sight over the horizon is scanning over the Moon."
+    },
+    {
+      "start": 640.45,
+      "end": 643.37,
+      "text": "The Moon basically takes 24 hours to cycle around the Earth,"
+    },
+    {
+      "start": 643.49,
+      "end": 645.95,
+      "text": "at least as observed by us because of the Earth's rotation."
+    },
+    {
+      "start": 646.07,
+      "end": 649.33,
+      "text": "Actually, slightly less because the Moon's also moving, but basically 24 hours."
+    },
+    {
+      "start": 649.45,
+      "end": 653.25,
+      "text": "And so therefore, you can work out the ratio between the radius of the Moon"
+    },
+    {
+      "start": 653.37,
+      "end": 654.69,
+      "text": "and the distance to the Moon,"
+    },
+    {
+      "start": 654.83,
+      "end": 657.33,
+      "text": "just by taking the ratio between two minutes and 24 hours."
+    },
+    {
+      "start": 657.45,
+      "end": 659.25,
+      "text": "So because they knew the distance to the Moon,"
+    },
+    {
+      "start": 659.37,
+      "end": 661.65,
+      "text": "they could use this to figure out the radius."
+    },
+    {
+      "start": 661.79,
+      "end": 662.53,
+      "text": "Now keep in mind,"
+    },
+    {
+      "start": 662.53,
+      "end": 664.95,
+      "text": "both of their estimates could be at best approximately true."
+    },
+    {
+      "start": 665.07,
+      "end": 668.61,
+      "text": "Since the real orbit of the Moon is an ellipse, it's not a perfect circle."
+    },
+    {
+      "start": 668.73,
+      "end": 670.99,
+      "text": "But the point is that with almost no technology,"
+    },
+    {
+      "start": 671.11,
+      "end": 675.46,
+      "text": "they had pretty decent estimates for the size of the Moon and how far away it was."
+    },
+    {
+      "start": 675.58,
+      "end": 676.66,
+      "text": "The Sun was trickier."
+    },
+    {
+      "start": 676.78,
+      "end": 679.24,
+      "text": "So at the time, they thought the Sun went around the Earth,"
+    },
+    {
+      "start": 679.38,
+      "end": 681.08,
+      "text": "but it actually doesn't matter for the argument"
+    },
+    {
+      "start": 681.2,
+      "end": 683.24,
+      "text": "whether the Sun goes around the Earth or if it goes around the Sun."
+    },
+    {
+      "start": 683.38,
+      "end": 684.24,
+      "text": "Again, there's these two numbers."
+    },
+    {
+      "start": 684.38,
+      "end": 687.48,
+      "text": "There's the size of the Sun and the distance to the Sun."
+    },
+    {
+      "start": 687.6,
+      "end": 690.02,
+      "text": "You can compute the ratio again because of eclipses."
+    },
+    {
+      "start": 690.14,
+      "end": 691.94,
+      "text": "And this is weird coincidence."
+    },
+    {
+      "start": 692.06,
+      "end": 692.6,
+      "text": "I mean,"
+    },
+    {
+      "start": 692.6,
+      "end": 693.56,
+      "text": "there's no reason why it should be true,"
+    },
+    {
+      "start": 693.68,
+      "end": 695.36,
+      "text": "but when there's a solar eclipse,"
+    },
+    {
+      "start": 695.48,
+      "end": 698.52,
+      "text": "the Moon and the Sun are almost exactly the same size."
+    },
+    {
+      "start": 698.64,
+      "end": 699.84,
+      "text": "I guess it's not true for lunar eclipses."
+    },
+    {
+      "start": 699.98,
+      "end": 702.36,
+      "text": "Lunar eclipses, as we saw, Earth's shadow is much bigger."
+    },
+    {
+      "start": 702.48,
+      "end": 704.6,
+      "text": "But for some reason, they are almost the same size."
+    },
+    {
+      "start": 704.72,
+      "end": 708.52,
+      "text": "What this means is that if you look at the ratio between the radius of the Moon"
+    },
+    {
+      "start": 708.64,
+      "end": 710.9,
+      "text": "and the distance that it is away from the Earth,"
+    },
+    {
+      "start": 711.02,
+      "end": 714.87,
+      "text": "which is what determines how big it looks to us up in the sky,"
+    },
+    {
+      "start": 715.01,
+      "end": 717.17,
+      "text": "because of this solar eclipse coincidence,"
+    },
+    {
+      "start": 717.29,
+      "end": 720.71,
+      "text": "that has to be the same as the ratio between the radius of the Sun"
+    },
+    {
+      "start": 720.83,
+      "end": 722.63,
+      "text": "and its distance away from the Earth."
+    },
+    {
+      "start": 722.75,
+      "end": 725.79,
+      "text": "As we saw, the Greeks already knew that ratio for the Moon."
+    },
+    {
+      "start": 725.91,
+      "end": 728.71,
+      "text": "The point is that they could get at least an approximate sense"
+    },
+    {
+      "start": 728.83,
+      "end": 733.29,
+      "text": "for the size of the Sun if they could figure out how far away it is, or vice versa."
+    },
+    {
+      "start": 733.43,
+      "end": 737.67,
+      "text": "Now, the animation I'm showing right now is very grossly not to scale."
+    },
+    {
+      "start": 737.79,
+      "end": 742.05,
+      "text": "You and I both know that the Sun is actually much, much farther away than the Moon is."
+    },
+    {
+      "start": 742.17,
+      "end": 745.17,
+      "text": "But of course, that's not obvious when you just look at it in the sky."
+    },
+    {
+      "start": 745.29,
+      "end": 749.17,
+      "text": "And so you might wonder, how could you conclude that it has to be so far away?"
+    },
+    {
+      "start": 749.29,
+      "end": 752.63,
+      "text": "In ancient times, for all people knew, seeing that it was roughly the same size,"
+    },
+    {
+      "start": 752.75,
+      "end": 756.75,
+      "text": "as the Moon in the sky, it could be, say, twice as far away as the Moon is,"
+    },
+    {
+      "start": 756.87,
+      "end": 758.47,
+      "text": "and only twice as big."
+    },
+    {
+      "start": 758.59,
+      "end": 762.37,
+      "text": "In fact, for the animation, I'm going to go ahead and leave it unrealistically close like this,"
+    },
+    {
+      "start": 762.51,
+      "end": 765.21,
+      "text": "because it helps clarify how the next logical step works."
+    },
+    {
+      "start": 765.33,
+      "end": 766.75,
+      "text": "How do you work out the distance to the Sun?"
+    },
+    {
+      "start": 766.87,
+      "end": 770.37,
+      "text": "You can use the Moon. It's almost the only available object you can use."
+    },
+    {
+      "start": 770.51,
+      "end": 773.29,
+      "text": "But you do something else. You look at phases of the Moon."
+    },
+    {
+      "start": 777.62,
+      "end": 780.74,
+      "text": "The Sun illuminates half of the Moon."
+    },
+    {
+      "start": 780.86,
+      "end": 785.94,
+      "text": "And so we on Earth, we also see half the Moon, but it's a different half."
+    },
+    {
+      "start": 786.02,
+      "end": 792.31,
+      "text": "And so because of that, we get phases of the Moon."
+    },
+    {
+      "start": 792.43,
+      "end": 794.93,
+      "text": "This is also, by the way, why we know the Moon is round."
+    },
+    {
+      "start": 795.05,
+      "end": 796.81,
+      "text": "If the Moon was flat, we would not get phases."
+    },
+    {
+      "start": 796.93,
+      "end": 801.74,
+      "text": "We would get either a dim Moon or a lit Moon, but we wouldn't get these phases."
+    },
+    {
+      "start": 801.86,
+      "end": 805.32,
+      "text": "Sometimes you get a full Moon. If the Moon is over here, you see the whole lit thing."
+    },
+    {
+      "start": 805.44,
+      "end": 809.1,
+      "text": "Sometimes you get a new Moon over here, and sometimes you get a half Moon."
+    },
+    {
+      "start": 809.24,
+      "end": 812.86,
+      "text": "You can pretty much rediscover for yourself a way to estimate the distance to the Sun"
+    },
+    {
+      "start": 812.98,
+      "end": 816.56,
+      "text": "by asking when exactly a half Moon occurs."
+    },
+    {
+      "start": 816.68,
+      "end": 820.28,
+      "text": "From the name, you would guess that it's halfway between a new Moon and a full Moon,"
+    },
+    {
+      "start": 820.28,
+      "end": 821.7,
+      "text": "but that's actually not true."
+    },
+    {
+      "start": 821.82,
+      "end": 826.08,
+      "text": "Half Moon occurs not when the Moon and the Sun make a right angle at the Earth,"
+    },
+    {
+      "start": 826.2,
+      "end": 829.44,
+      "text": "but actually when the Earth and the Sun make a right angle at the Moon."
+    },
+    {
+      "start": 829.58,
+      "end": 832.12,
+      "text": "Hopefully your graph will be better than the one I'm drawing here."
+    },
+    {
+      "start": 832.24,
+      "end": 833.48,
+      "text": "Hopefully this makes some sense."
+    },
+    {
+      "start": 833.62,
+      "end": 838.28,
+      "text": "For us to see a half Moon, it means that the side of the Moon that we see facing us"
+    },
+    {
+      "start": 838.4,
+      "end": 843.66,
+      "text": "overlaps by exactly 90 degrees with the side of the Moon being illuminated by the Sun,"
+    },
+    {
+      "start": 843.78,
+      "end": 847.94,
+      "text": "which in turn means we have a right angle at the spot labeled here."
+    },
+    {
+      "start": 848.06,
+      "end": 850.02,
+      "text": "As your lovely illustration will show,"
+    },
+    {
+      "start": 850.02,
+      "end": 853.82,
+      "text": "half Moons are slightly closer to new Moons than the other full Moons."
+    },
+    {
+      "start": 853.94,
+      "end": 856.68,
+      "text": "Of course, in this graphic, the effect is very exaggerated"
+    },
+    {
+      "start": 856.82,
+      "end": 859.22,
+      "text": "because the Sun is being drawn so close to the Earth."
+    },
+    {
+      "start": 859.36,
+      "end": 863.86,
+      "text": "How far away the Sun is determines when exactly that half Moon occurs."
+    },
+    {
+      "start": 863.98,
+      "end": 867.02,
+      "text": "The farther away, the closer it is to the true halfway point."
+    },
+    {
+      "start": 867.14,
+      "end": 869.44,
+      "text": "In fact, you can make this a little more quantitative,"
+    },
+    {
+      "start": 869.56,
+      "end": 874.1,
+      "text": "where if you measure the angle separating that halfway point between new Moons and full Moons"
+    },
+    {
+      "start": 874.22,
+      "end": 878.32,
+      "text": "from the point of a half Moon, which again is confusingly not the same thing,"
+    },
+    {
+      "start": 878.44,
+      "end": 879.56,
+      "text": "then intuitively you can see"
+    },
+    {
+      "start": 879.56,
+      "end": 882.98,
+      "text": "how a smaller angle means a larger distance to the Sun."
+    },
+    {
+      "start": 883.1,
+      "end": 885.98,
+      "text": "And more precisely, when you do the little bit of trigonometry here,"
+    },
+    {
+      "start": 886.1,
+      "end": 888.22,
+      "text": "you can conclude that the distance to the Sun"
+    },
+    {
+      "start": 888.36,
+      "end": 893.48,
+      "text": "is the same as the distance to the Moon divided by the sine of that angle."
+    },
+    {
+      "start": 893.6,
+      "end": 896.22,
+      "text": "This is where the Greeks started hitting a wall of technology."
+    },
+    {
+      "start": 896.36,
+      "end": 900.44,
+      "text": "What they did is that they knew that the Moon took 28 days to go around the Earth,"
+    },
+    {
+      "start": 900.56,
+      "end": 904.76,
+      "text": "and so they had to measure exactly when a half Moon occurred and what the deviation is."
+    },
+    {
+      "start": 904.9,
+      "end": 907.98,
+      "text": "Now, Aristarchus, he thought that the distance was six hours."
+    },
+    {
+      "start": 908.1,
+      "end": 909.36,
+      "text": "Half Moons occurred six hours before the Moon."
+    },
+    {
+      "start": 909.56,
+      "end": 912.36,
+      "text": "He doesn't write how he came up with this."
+    },
+    {
+      "start": 912.48,
+      "end": 913.48,
+      "text": "And it's wrong."
+    },
+    {
+      "start": 913.6,
+      "end": 915.44,
+      "text": "The actual discrepancy is half an hour."
+    },
+    {
+      "start": 915.56,
+      "end": 916.94,
+      "text": "He's off by a huge factor."
+    },
+    {
+      "start": 917.06,
+      "end": 921.18,
+      "text": "So the thing is, well, A, we have clocks which work in the dark."
+    },
+    {
+      "start": 921.32,
+      "end": 924.22,
+      "text": "They have sundials which don't work in the dark."
+    },
+    {
+      "start": 924.34,
+      "end": 925.72,
+      "text": "They also did not have telescopes."
+    },
+    {
+      "start": 925.84,
+      "end": 927.64,
+      "text": "Mathematically, the method was sound."
+    },
+    {
+      "start": 927.76,
+      "end": 930.64,
+      "text": "Technologically, it was just not possible for this method to work."
+    },
+    {
+      "start": 930.76,
+      "end": 932.18,
+      "text": "No, but it worked well enough."
+    },
+    {
+      "start": 932.3,
+      "end": 934.84,
+      "text": "So he was off by basically a whole order of magnitude."
+    },
+    {
+      "start": 934.96,
+      "end": 937.22,
+      "text": "He thought that the distance was six hours."
+    },
+    {
+      "start": 937.34,
+      "end": 939.26,
+      "text": "He thought that the distance was six hours."
+    },
+    {
+      "start": 939.76,
+      "end": 942.22,
+      "text": "The Sun was 20 times further away than the Moon."
+    },
+    {
+      "start": 942.34,
+      "end": 946.18,
+      "text": "The true answer, based on the slight change to that angle that he was trying to measure,"
+    },
+    {
+      "start": 946.3,
+      "end": 949.6,
+      "text": "is more like 370 times the distance to the Moon."
+    },
+    {
+      "start": 949.72,
+      "end": 952.72,
+      "text": "And he thought that the Sun was seven times bigger than the Earth,"
+    },
+    {
+      "start": 952.84,
+      "end": 955.34,
+      "text": "when in fact it is 109 times bigger."
+    },
+    {
+      "start": 955.46,
+      "end": 959.06,
+      "text": "Even with that lousy measurement,"
+    },
+    {
+      "start": 959.18,
+      "end": 962.26,
+      "text": "Aristarchus was the first to make a really important conclusion,"
+    },
+    {
+      "start": 962.38,
+      "end": 964.46,
+      "text": "which is that the Sun did not revolve around the Earth."
+    },
+    {
+      "start": 964.6,
+      "end": 967.14,
+      "text": "The Sun was seven times... Well, he thought the Sun was seven times larger."
+    },
+    {
+      "start": 967.26,
+      "end": 969.76,
+      "text": "Why would the Sun go around the Earth? So the Earth should go around the Sun."
+    },
+    {
+      "start": 969.88,
+      "end": 972.94,
+      "text": "Qualitatively, his conclusion was correct."
+    },
+    {
+      "start": 973.06,
+      "end": 975.86,
+      "text": "It says that the Sun is much, much larger than he thought."
+    },
+    {
+      "start": 975.98,
+      "end": 977.36,
+      "text": "But he was the first."
+    },
+    {
+      "start": 977.48,
+      "end": 980.7,
+      "text": "And it's not obvious. You look at the Sun, it's this big."
+    },
+    {
+      "start": 980.82,
+      "end": 983.2,
+      "text": "But it's actually 100 times bigger than the Earth."
+    },
+    {
+      "start": 983.32,
+      "end": 986.32,
+      "text": "So he was the first to propose the heliocentric model, actually."
+    },
+    {
+      "start": 986.44,
+      "end": 989.82,
+      "text": "If you look at Copernicus's famous book, he says,"
+    },
+    {
+      "start": 989.94,
+      "end": 991.78,
+      "text": "Aristarchus proposed the heliocentric model."
+    },
+    {
+      "start": 991.9,
+      "end": 995.48,
+      "text": "And the other Greeks dismissed him for good mathematical reasons,"
+    },
+    {
+      "start": 995.6,
+      "end": 997.56,
+      "text": "but again, they were limited by their technology."
+    },
+    {
+      "start": 997.7,
+      "end": 999.98,
+      "text": "They said that it doesn't make sense for the Earth"
+    },
+    {
+      "start": 1000.48,
+      "end": 1003.48,
+      "text": "to revolve around the Sun, because if the Earth would go around the Sun,"
+    },
+    {
+      "start": 1003.6,
+      "end": 1006.28,
+      "text": "the position of the shape of the constellations would shift"
+    },
+    {
+      "start": 1006.4,
+      "end": 1009.74,
+      "text": "as you go from one side of the Sun to the other, and we don't see that."
+    },
+    {
+      "start": 1009.86,
+      "end": 1011.66,
+      "text": "This is an important point to emphasize,"
+    },
+    {
+      "start": 1011.78,
+      "end": 1013.56,
+      "text": "because it's going to come up again for us later"
+    },
+    {
+      "start": 1013.7,
+      "end": 1016.28,
+      "text": "when we figure out the size of the galaxy."
+    },
+    {
+      "start": 1016.4,
+      "end": 1019.54,
+      "text": "So if you've got a bunch of stars sitting here in three-dimensional space,"
+    },
+    {
+      "start": 1019.66,
+      "end": 1022.78,
+      "text": "and you picture yourself as an observer staring at those stars,"
+    },
+    {
+      "start": 1022.9,
+      "end": 1026.28,
+      "text": "and you move around through that three-dimensional space,"
+    },
+    {
+      "start": 1026.4,
+      "end": 1028.9,
+      "text": "then the apparent relative position of those stars"
+    },
+    {
+      "start": 1029.02,
+      "end": 1030.62,
+      "text": "shifts around as you move."
+    },
+    {
+      "start": 1030.78,
+      "end": 1031.94,
+      "text": "We call this parallax."
+    },
+    {
+      "start": 1032.08,
+      "end": 1034.66,
+      "text": "It's the same phenomenon where if you're on a car on the highway"
+    },
+    {
+      "start": 1034.78,
+      "end": 1037.48,
+      "text": "and you look out, all of the nearby trees seem to be moving"
+    },
+    {
+      "start": 1037.62,
+      "end": 1040.24,
+      "text": "much more quickly than the background mountains."
+    },
+    {
+      "start": 1040.36,
+      "end": 1041.48,
+      "text": "So when Aristarchus says,"
+    },
+    {
+      "start": 1041.62,
+      "end": 1044.28,
+      "text": "hey, guys, maybe the Earth is going around the Sun,"
+    },
+    {
+      "start": 1044.4,
+      "end": 1047.36,
+      "text": "all of his fellow Greeks are like, well, if that was true,"
+    },
+    {
+      "start": 1047.48,
+      "end": 1051.12,
+      "text": "and you've got this Earth-Sun system sitting among a bunch of stars,"
+    },
+    {
+      "start": 1051.24,
+      "end": 1054.62,
+      "text": "then for us, the observers sitting here on the planet Earth,"
+    },
+    {
+      "start": 1054.74,
+      "end": 1058.54,
+      "text": "as we move around through space from winter to spring to summer,"
+    },
+    {
+      "start": 1058.66,
+      "end": 1060.66,
+      "text": "and it's going to be quite a bit of movement through space,"
+    },
+    {
+      "start": 1060.86,
+      "end": 1063.86,
+      "text": "since evidently the Sun is supposed to be quite far away from the Earth,"
+    },
+    {
+      "start": 1063.98,
+      "end": 1065.36,
+      "text": "then because of this parallax,"
+    },
+    {
+      "start": 1065.48,
+      "end": 1067.94,
+      "text": "we should see a change in the pattern of the stars."
+    },
+    {
+      "start": 1068.08,
+      "end": 1071.44,
+      "text": "The nearby stars should be moving a little bit more than the background stars,"
+    },
+    {
+      "start": 1071.58,
+      "end": 1073.48,
+      "text": "and the overall shape of the constellations"
+    },
+    {
+      "start": 1073.62,
+      "end": 1075.78,
+      "text": "should slowly drift through the seasons."
+    },
+    {
+      "start": 1075.9,
+      "end": 1076.94,
+      "text": "But that's not what we see."
+    },
+    {
+      "start": 1077.08,
+      "end": 1081.02,
+      "text": "The constellations seem to be the same shape between the summer and the winter."
+    },
+    {
+      "start": 1081.16,
+      "end": 1085.62,
+      "text": "And that would only be possible if the stars were much, much, much further away"
+    },
+    {
+      "start": 1085.74,
+      "end": 1086.7,
+      "text": "than we currently think they are."
+    },
+    {
+      "start": 1086.82,
+      "end": 1088.58,
+      "text": "So, Aristarchus, if you were to accept your model,"
+    },
+    {
+      "start": 1088.7,
+      "end": 1089.9,
+      "text": "we must make the universe thousands and thousands of years old."
+    },
+    {
+      "start": 1089.9,
+      "end": 1091.28,
+      "text": "Thousands and thousands of times bigger,"
+    },
+    {
+      "start": 1091.4,
+      "end": 1093.28,
+      "text": "therefore we are not going to dismiss your theory."
+    },
+    {
+      "start": 1093.4,
+      "end": 1095.82,
+      "text": "It shows you that even when you have the math right,"
+    },
+    {
+      "start": 1095.94,
+      "end": 1097.7,
+      "text": "you don't necessarily get to the truth."
+    },
+    {
+      "start": 1097.82,
+      "end": 1102.52,
+      "text": "Because of course the universe is in fact not just thousands of times larger than the theory,"
+    },
+    {
+      "start": 1102.66,
+      "end": 1105.1,
+      "text": "but actually billions and trillions of times larger."
+    },
+    {
+      "start": 1105.24,
+      "end": 1106.9,
+      "text": "This is not an obvious fact."
+    },
+    {
+      "start": 1107.02,
+      "end": 1110.66,
+      "text": "At this point, let's jump ahead quite a bit in history up to Kepler,"
+    },
+    {
+      "start": 1110.78,
+      "end": 1113.4,
+      "text": "perhaps the best part of this whole story."
+    },
+    {
+      "start": 1113.52,
+      "end": 1115.56,
+      "text": "This is the most genius step of the ladder."
+    },
+    {
+      "start": 1115.7,
+      "end": 1119.7,
+      "text": "The first time you climb from one step to the next, it's always heroic."
+    },
+    {
+      "start": 1119.9,
+      "end": 1125.24,
+      "text": "Because the first time, you're at the edge of what the data and the math and the technology can give you."
+    },
+    {
+      "start": 1125.36,
+      "end": 1127.52,
+      "text": "Now, Kepler was not working from a blank slate."
+    },
+    {
+      "start": 1127.66,
+      "end": 1132.36,
+      "text": "He was building off of the work of others, most notably that of Copernicus."
+    },
+    {
+      "start": 1132.48,
+      "end": 1135.78,
+      "text": "So Copernicus had already worked out that the planets move around the Sun."
+    },
+    {
+      "start": 1135.9,
+      "end": 1138.98,
+      "text": "He said that the planets move around the Sun in circular orbits."
+    },
+    {
+      "start": 1139.1,
+      "end": 1142.86,
+      "text": "And he even figured out the period, how long it takes for each planet to go around the Sun."
+    },
+    {
+      "start": 1142.98,
+      "end": 1147.7,
+      "text": "So, for example, we know that the Earth takes exactly one year to do a full orbit."
+    },
+    {
+      "start": 1147.82,
+      "end": 1149.66,
+      "text": "And Copernicus had figured out that Mars,"
+    },
+    {
+      "start": 1149.66,
+      "end": 1154.62,
+      "text": "takes 687 days for its orbit, and likewise for all the other known planets."
+    },
+    {
+      "start": 1154.74,
+      "end": 1156.9,
+      "text": "He gets all the fame because of heliocentrism,"
+    },
+    {
+      "start": 1157.04,
+      "end": 1160.16,
+      "text": "but these numbers were arguably his most important contribution."
+    },
+    {
+      "start": 1160.28,
+      "end": 1162.12,
+      "text": "You'll see in a moment why they are critical."
+    },
+    {
+      "start": 1162.24,
+      "end": 1164.7,
+      "text": "The way he computed this was that he had all this Babylonian data."
+    },
+    {
+      "start": 1164.82,
+      "end": 1168.42,
+      "text": "Essentially, the way this worked was by compiling centuries of observations"
+    },
+    {
+      "start": 1168.54,
+      "end": 1171.32,
+      "text": "for where the planets appear among the stars,"
+    },
+    {
+      "start": 1171.46,
+      "end": 1173.58,
+      "text": "then figuring out when those patterns repeat,"
+    },
+    {
+      "start": 1173.7,
+      "end": 1177.74,
+      "text": "and then, very importantly, factoring in the movement of Earth in that time."
+    },
+    {
+      "start": 1177.86,
+      "end": 1179.54,
+      "text": "Kepler was interested in figuring out"
+    },
+    {
+      "start": 1179.66,
+      "end": 1182.42,
+      "text": "the relative sizes of all of these orbits."
+    },
+    {
+      "start": 1182.54,
+      "end": 1186.78,
+      "text": "He had this funny little pet theory that was linked to the five platonic solids."
+    },
+    {
+      "start": 1186.9,
+      "end": 1190.62,
+      "text": "The idea was, if you imagine a sphere inscribed in an octahedron,"
+    },
+    {
+      "start": 1190.74,
+      "end": 1193.16,
+      "text": "and then you fit the smallest possible sphere around that,"
+    },
+    {
+      "start": 1193.28,
+      "end": 1196.58,
+      "text": "and then fit the smallest possible icosahedron around that,"
+    },
+    {
+      "start": 1196.7,
+      "end": 1199.5,
+      "text": "then layer on another sphere, and then a dodecahedron,"
+    },
+    {
+      "start": 1199.62,
+      "end": 1203.78,
+      "text": "one more sphere, then a tetrahedron, one more sphere,"
+    },
+    {
+      "start": 1203.9,
+      "end": 1206.08,
+      "text": "a cube, and then one final sphere,"
+    },
+    {
+      "start": 1206.2,
+      "end": 1209.16,
+      "text": "you get these six spheres, and the ratios between"
+    },
+    {
+      "start": 1209.16,
+      "end": 1211.92,
+      "text": "the sizes of those spheres, Kepler believed,"
+    },
+    {
+      "start": 1212.04,
+      "end": 1215.54,
+      "text": "would match the ratios of the orbits for the six known planets."
+    },
+    {
+      "start": 1215.66,
+      "end": 1217.78,
+      "text": "Since these are the platonic solids, it somehow feels like"
+    },
+    {
+      "start": 1217.92,
+      "end": 1221.16,
+      "text": "a very natural or universal set of ratios."
+    },
+    {
+      "start": 1221.28,
+      "end": 1223.54,
+      "text": "It would have been a beautiful theory if this was true."
+    },
+    {
+      "start": 1223.66,
+      "end": 1225.92,
+      "text": "So, hungry to prove his very beautiful theory,"
+    },
+    {
+      "start": 1226.04,
+      "end": 1227.66,
+      "text": "he needed to look at the historical data"
+    },
+    {
+      "start": 1227.78,
+      "end": 1230.24,
+      "text": "for where all the planets appeared in the sky."
+    },
+    {
+      "start": 1230.36,
+      "end": 1232.24,
+      "text": "There was this astronomer at the time, Tycho Brahe,"
+    },
+    {
+      "start": 1232.36,
+      "end": 1234.74,
+      "text": "who was this very wealthy, eccentric aristocrat"
+    },
+    {
+      "start": 1234.86,
+      "end": 1236.16,
+      "text": "who had an interest in astronomy,"
+    },
+    {
+      "start": 1236.28,
+      "end": 1238.96,
+      "text": "and so he convinced the government of Denmark to give him an idea."
+    },
+    {
+      "start": 1239.16,
+      "end": 1241.08,
+      "text": "He built a huge island, complete with peasants,"
+    },
+    {
+      "start": 1241.2,
+      "end": 1243.54,
+      "text": "to build him an astronomy school, Juranenburg."
+    },
+    {
+      "start": 1243.66,
+      "end": 1246.4,
+      "text": "And he just made decades and decades of observations"
+    },
+    {
+      "start": 1246.54,
+      "end": 1248.24,
+      "text": "of all kinds of things, including all the planets."
+    },
+    {
+      "start": 1248.36,
+      "end": 1251.36,
+      "text": "Kepler wanted his data, but Tycho Brahe wouldn't give it to him."
+    },
+    {
+      "start": 1251.5,
+      "end": 1253.2,
+      "text": "He stole the data, actually."
+    },
+    {
+      "start": 1253.32,
+      "end": 1255.32,
+      "text": "They weren't on the best of terms."
+    },
+    {
+      "start": 1255.46,
+      "end": 1256.82,
+      "text": "Anyway, he took all his data,"
+    },
+    {
+      "start": 1256.96,
+      "end": 1259.16,
+      "text": "and he wanted to use it to confirm his theory."
+    },
+    {
+      "start": 1259.28,
+      "end": 1261.5,
+      "text": "And it was off by a couple of percent."
+    },
+    {
+      "start": 1261.62,
+      "end": 1263.28,
+      "text": "Like, he could not make the theory fit."
+    },
+    {
+      "start": 1263.4,
+      "end": 1265.58,
+      "text": "And in fact, not only could he not make his own theory fit,"
+    },
+    {
+      "start": 1265.7,
+      "end": 1267.78,
+      "text": "he couldn't even make Copernicus' theory fit."
+    },
+    {
+      "start": 1267.92,
+      "end": 1268.96,
+      "text": "He could not make circular orbits match."
+    },
+    {
+      "start": 1269.16,
+      "end": 1271.32,
+      "text": "It's really important to understand"
+    },
+    {
+      "start": 1271.46,
+      "end": 1274.46,
+      "text": "that once you throw out the assumption that orbits are circular,"
+    },
+    {
+      "start": 1274.58,
+      "end": 1278.46,
+      "text": "it is very difficult to make sense out of the observational data."
+    },
+    {
+      "start": 1278.58,
+      "end": 1280.54,
+      "text": "It's not like what Tycho Brahe was recording"
+    },
+    {
+      "start": 1280.66,
+      "end": 1284.74,
+      "text": "is the exact position in 3D space for all the planets over time."
+    },
+    {
+      "start": 1284.86,
+      "end": 1286.86,
+      "text": "They didn't know the distances to the planets."
+    },
+    {
+      "start": 1287.0,
+      "end": 1288.5,
+      "text": "The only thing that you can see"
+    },
+    {
+      "start": 1288.62,
+      "end": 1291.28,
+      "text": "is where in the sky a given planet appears,"
+    },
+    {
+      "start": 1291.42,
+      "end": 1294.82,
+      "text": "what constellation it's inside on a given date."
+    },
+    {
+      "start": 1294.96,
+      "end": 1296.28,
+      "text": "From that information alone,"
+    },
+    {
+      "start": 1296.4,
+      "end": 1299.04,
+      "text": "just a sequence of angles in the sky, basically,"
+    },
+    {
+      "start": 1299.24,
+      "end": 1302.58,
+      "text": "Kepler managed to deduce the shapes of all of these planets' orbits,"
+    },
+    {
+      "start": 1302.7,
+      "end": 1304.86,
+      "text": "including the shape of Earth's orbit."
+    },
+    {
+      "start": 1305.0,
+      "end": 1306.32,
+      "text": "The Sun is fixed."
+    },
+    {
+      "start": 1306.46,
+      "end": 1310.82,
+      "text": "Earth is moving around in some orbit, not quite circular."
+    },
+    {
+      "start": 1310.96,
+      "end": 1314.93,
+      "text": "And Mars is also moving around by some orbit, not quite circular."
+    },
+    {
+      "start": 1315.05,
+      "end": 1317.04,
+      "text": "And we don't know what the orbit is."
+    },
+    {
+      "start": 1317.16,
+      "end": 1320.32,
+      "text": "About the only thing we can do is at any given time on Earth,"
+    },
+    {
+      "start": 1320.46,
+      "end": 1322.2,
+      "text": "you can work out where you are with the Sun,"
+    },
+    {
+      "start": 1322.32,
+      "end": 1324.1,
+      "text": "and you can work out this direction."
+    },
+    {
+      "start": 1324.24,
+      "end": 1326.56,
+      "text": "But you have no notion of distance. You only have direction."
+    },
+    {
+      "start": 1326.7,
+      "end": 1329.16,
+      "text": "Imagine that you had observed Mars night after night."
+    },
+    {
+      "start": 1329.16,
+      "end": 1332.78,
+      "text": "Each night, you can see where Mars is with respect to the constellations."
+    },
+    {
+      "start": 1332.92,
+      "end": 1336.28,
+      "text": "And this tells you, basically, the direction from Earth to Mars"
+    },
+    {
+      "start": 1336.4,
+      "end": 1339.0,
+      "text": "with respect to the celestial sphere."
+    },
+    {
+      "start": 1339.12,
+      "end": 1341.28,
+      "text": "But you don't know exactly where Earth is,"
+    },
+    {
+      "start": 1341.4,
+      "end": 1344.24,
+      "text": "and you also don't know how far away Mars is."
+    },
+    {
+      "start": 1344.36,
+      "end": 1346.5,
+      "text": "You do know the direction to the Sun."
+    },
+    {
+      "start": 1346.62,
+      "end": 1349.32,
+      "text": "Even if you can't literally see it in the constellations,"
+    },
+    {
+      "start": 1349.46,
+      "end": 1351.7,
+      "text": "you know this because of what date of the year it is,"
+    },
+    {
+      "start": 1351.82,
+      "end": 1354.54,
+      "text": "since that tells you how far the Earth has gone around."
+    },
+    {
+      "start": 1354.66,
+      "end": 1358.46,
+      "text": "Keep in mind, although Aristarchus had his estimate for how far away the Sun was,"
+    },
+    {
+      "start": 1358.46,
+      "end": 1361.46,
+      "text": "people still didn't really have a precise measure for that distance."
+    },
+    {
+      "start": 1361.58,
+      "end": 1365.26,
+      "text": "Aristarchus's method is just too error-prone for anything exact."
+    },
+    {
+      "start": 1365.38,
+      "end": 1368.38,
+      "text": "So all you really know are these two different angles,"
+    },
+    {
+      "start": 1368.52,
+      "end": 1372.93,
+      "text": "and you want to figure out these two unknown orbits."
+    },
+    {
+      "start": 1373.05,
+      "end": 1375.01,
+      "text": "That doesn't seem like enough information."
+    },
+    {
+      "start": 1375.15,
+      "end": 1377.73,
+      "text": "Even if you assume everything's on a plane, which you more or less can,"
+    },
+    {
+      "start": 1377.85,
+      "end": 1381.41,
+      "text": "all the planets live on the zodiac, so it's pretty much a planar diagram."
+    },
+    {
+      "start": 1381.55,
+      "end": 1382.67,
+      "text": "This looks unsolvable."
+    },
+    {
+      "start": 1382.79,
+      "end": 1385.79,
+      "text": "In math, if you can't solve a problem, you first try to solve a simpler problem."
+    },
+    {
+      "start": 1385.93,
+      "end": 1388.87,
+      "text": "So let's solve a simpler problem. Suppose Mars doesn't move."
+    },
+    {
+      "start": 1388.87,
+      "end": 1391.87,
+      "text": "Suppose Mars is actually nailed to space."
+    },
+    {
+      "start": 1391.99,
+      "end": 1396.52,
+      "text": "Okay. Then you can at least work out the orbit of the Earth."
+    },
+    {
+      "start": 1396.64,
+      "end": 1399.02,
+      "text": "If Mars was fixed in space like this,"
+    },
+    {
+      "start": 1399.14,
+      "end": 1402.9,
+      "text": "then these two directions are at least enough to tell you where the Earth is,"
+    },
+    {
+      "start": 1403.02,
+      "end": 1405.86,
+      "text": "at least with respect to that fixed location for Mars"
+    },
+    {
+      "start": 1405.98,
+      "end": 1407.98,
+      "text": "and the fixed location for the Sun."
+    },
+    {
+      "start": 1408.12,
+      "end": 1411.78,
+      "text": "You would essentially draw these two lines and find the intersection."
+    },
+    {
+      "start": 1411.9,
+      "end": 1416.28,
+      "text": "So if you have the data for many different nights in this idealized hypothetical,"
+    },
+    {
+      "start": 1416.42,
+      "end": 1418.74,
+      "text": "you could plot where the Earth is on each night,"
+    },
+    {
+      "start": 1418.74,
+      "end": 1420.86,
+      "text": "and so see how it moves around the Sun,"
+    },
+    {
+      "start": 1421.0,
+      "end": 1425.0,
+      "text": "at least with respect to these two fixed locations for Mars and the Sun."
+    },
+    {
+      "start": 1425.12,
+      "end": 1427.85,
+      "text": "You still don't know absolute distances."
+    },
+    {
+      "start": 1427.97,
+      "end": 1431.31,
+      "text": "So if you had two fixed landmarks, the Sun and the Mars,"
+    },
+    {
+      "start": 1431.45,
+      "end": 1433.77,
+      "text": "then you can work out the orbit of the Earth."
+    },
+    {
+      "start": 1433.91,
+      "end": 1435.61,
+      "text": "But Mars, of course, moves."
+    },
+    {
+      "start": 1435.73,
+      "end": 1439.6,
+      "text": "So how do you triangulate when something moves?"
+    },
+    {
+      "start": 1439.72,
+      "end": 1440.9,
+      "text": "So this is the genius thing."
+    },
+    {
+      "start": 1441.02,
+      "end": 1445.82,
+      "text": "Kepler knew because of Copernicus that every 728, 729 days,"
+    },
+    {
+      "start": 1446.07,
+      "end": 1448.21,
+      "text": "Mars comes back to where it was before."
+    },
+    {
+      "start": 1448.49,
+      "end": 1449.11,
+      "text": "So,"
+    },
+    {
+      "start": 1449.11,
+      "end": 1451.11,
+      "text": "if he takes Tycho's data,"
+    },
+    {
+      "start": 1451.23,
+      "end": 1455.61,
+      "text": "but takes a time series spaced at spacings of 729 days,"
+    },
+    {
+      "start": 1455.75,
+      "end": 1459.67,
+      "text": "then in that time series, Mars is a reference point."
+    },
+    {
+      "start": 1459.79,
+      "end": 1462.67,
+      "text": "Brahe observed for 10 years Mars."
+    },
+    {
+      "start": 1462.79,
+      "end": 1465.37,
+      "text": "There was just enough data in this data set."
+    },
+    {
+      "start": 1465.51,
+      "end": 1469.13,
+      "text": "It is perhaps worth being extra clear about how exactly this works."
+    },
+    {
+      "start": 1469.25,
+      "end": 1472.21,
+      "text": "Like we said, on a given night, using these two different directions,"
+    },
+    {
+      "start": 1472.35,
+      "end": 1476.43,
+      "text": "you can figure out Earth's location with respect to where Mars happens to be."
+    },
+    {
+      "start": 1476.55,
+      "end": 1478.31,
+      "text": "So if you wait 687 days,"
+    },
+    {
+      "start": 1478.31,
+      "end": 1480.19,
+      "text": "and Mars is back in that same location,"
+    },
+    {
+      "start": 1480.31,
+      "end": 1484.15,
+      "text": "you get another data point for Earth with respect to that same spot."
+    },
+    {
+      "start": 1484.27,
+      "end": 1486.15,
+      "text": "Using 10 years worth of data,"
+    },
+    {
+      "start": 1486.27,
+      "end": 1489.19,
+      "text": "this gives you five different locations for where Earth is."
+    },
+    {
+      "start": 1489.33,
+      "end": 1492.25,
+      "text": "But again, this depends on exactly where in space Mars is."
+    },
+    {
+      "start": 1492.37,
+      "end": 1496.67,
+      "text": "If you jiggle it about, it jiggles around the implied five points for Earth."
+    },
+    {
+      "start": 1496.79,
+      "end": 1498.83,
+      "text": "I'll go ahead and give those a slightly different color,"
+    },
+    {
+      "start": 1498.95,
+      "end": 1501.79,
+      "text": "and then have you imagine looking just a couple days later"
+    },
+    {
+      "start": 1501.91,
+      "end": 1503.51,
+      "text": "to a different location of Mars,"
+    },
+    {
+      "start": 1503.63,
+      "end": 1507.83,
+      "text": "and then taking a similar time series, again spaced out by this Martian year,"
+    },
+    {
+      "start": 1507.83,
+      "end": 1509.79,
+      "text": "to get five more positions for Earth,"
+    },
+    {
+      "start": 1509.91,
+      "end": 1512.91,
+      "text": "but now they're dependent on that different location for Mars."
+    },
+    {
+      "start": 1513.05,
+      "end": 1515.05,
+      "text": "Of course, you don't know exactly how Mars moves,"
+    },
+    {
+      "start": 1515.17,
+      "end": 1517.43,
+      "text": "so you don't know exactly where these five points are,"
+    },
+    {
+      "start": 1517.55,
+      "end": 1520.67,
+      "text": "but if it's just a day later, Mars only will have moved a little bit."
+    },
+    {
+      "start": 1520.81,
+      "end": 1524.26,
+      "text": "And you know those five points should only have moved a little bit."
+    },
+    {
+      "start": 1524.38,
+      "end": 1527.88,
+      "text": "So what Kepler has is essentially like this massive jigsaw puzzle,"
+    },
+    {
+      "start": 1528.0,
+      "end": 1531.6,
+      "text": "where each piece looks like five points for where Earth is,"
+    },
+    {
+      "start": 1531.72,
+      "end": 1534.56,
+      "text": "conditioned on a mystery location for Mars."
+    },
+    {
+      "start": 1534.68,
+      "end": 1537.98,
+      "text": "Knowing that all of those pieces have to fit together about a day apart,"
+    },
+    {
+      "start": 1537.98,
+      "end": 1541.78,
+      "text": "he was able to piece them all together to get a coherent orbit for Earth,"
+    },
+    {
+      "start": 1541.9,
+      "end": 1544.78,
+      "text": "with respect to a certain coherent orbit for Mars."
+    },
+    {
+      "start": 1544.9,
+      "end": 1547.86,
+      "text": "To be clear, nothing about this tells you absolute distances,"
+    },
+    {
+      "start": 1547.98,
+      "end": 1550.0,
+      "text": "it's just giving you the shape of the orbit,"
+    },
+    {
+      "start": 1550.12,
+      "end": 1553.66,
+      "text": "but even still, he was able to see what no one before him had ever seen,"
+    },
+    {
+      "start": 1553.78,
+      "end": 1556.92,
+      "text": "which is that this orbit is not a circle, it's an ellipse."
+    },
+    {
+      "start": 1557.04,
+      "end": 1559.0,
+      "text": "And he was even able to find other neat facts,"
+    },
+    {
+      "start": 1559.12,
+      "end": 1562.42,
+      "text": "like how the area that Earth sweeps out as it goes along this orbit"
+    },
+    {
+      "start": 1562.54,
+      "end": 1567.13,
+      "text": "is the same for a given time period, no matter where on the ellipse it sits."
+    },
+    {
+      "start": 1567.25,
+      "end": 1568.37,
+      "text": "And once you have a sense of the orbit,"
+    },
+    {
+      "start": 1568.49,
+      "end": 1570.19,
+      "text": "and a sense for the shape of Earth's orbit,"
+    },
+    {
+      "start": 1570.31,
+      "end": 1573.89,
+      "text": "it makes it a lot easier to deduce the orbit of Mars, or any other planet."
+    },
+    {
+      "start": 1574.01,
+      "end": 1575.11,
+      "text": "You can do this in reverse."
+    },
+    {
+      "start": 1575.23,
+      "end": 1578.99,
+      "text": "If you take one fixed point of Mars,"
+    },
+    {
+      "start": 1579.11,
+      "end": 1582.73,
+      "text": "you can take measurements from Earth,"
+    },
+    {
+      "start": 1582.85,
+      "end": 1585.57,
+      "text": "and you can now work out the location of Mars."
+    },
+    {
+      "start": 1585.69,
+      "end": 1589.33,
+      "text": "This angle measurement may not tell you the distance to Mars on one night,"
+    },
+    {
+      "start": 1589.45,
+      "end": 1593.67,
+      "text": "but if you take five separate nights spaced out by 687 days,"
+    },
+    {
+      "start": 1593.79,
+      "end": 1597.29,
+      "text": "meaning you know that Mars is at the same point in space on those five different days,"
+    },
+    {
+      "start": 1597.41,
+      "end": 1598.37,
+      "text": "then you get these"
+    },
+    {
+      "start": 1598.49,
+      "end": 1602.23,
+      "text": "different angles that are more than enough to help you triangulate where Mars is,"
+    },
+    {
+      "start": 1602.35,
+      "end": 1604.27,
+      "text": "at least with respect to Earth's orbit."
+    },
+    {
+      "start": 1604.39,
+      "end": 1606.99,
+      "text": "When you do this for many different adjacent time series,"
+    },
+    {
+      "start": 1607.11,
+      "end": 1612.37,
+      "text": "you can draw out the exact orbit of Mars over the course of those 687 days."
+    },
+    {
+      "start": 1612.49,
+      "end": 1615.19,
+      "text": "Einstein once wrote an introduction to a book on astronomy,"
+    },
+    {
+      "start": 1615.31,
+      "end": 1619.49,
+      "text": "and I think he mentioned this idea, he called it an idea of pure genius."
+    },
+    {
+      "start": 1619.61,
+      "end": 1622.49,
+      "text": "He needed the data, he needed not just Tycho's data,"
+    },
+    {
+      "start": 1622.61,
+      "end": 1626.29,
+      "text": "but Copernicus' data, which came all the way from the Babylonians."
+    },
+    {
+      "start": 1626.41,
+      "end": 1628.37,
+      "text": "So the period of Mars,"
+    },
+    {
+      "start": 1628.49,
+      "end": 1630.69,
+      "text": "that was a period of a century."
+    },
+    {
+      "start": 1630.81,
+      "end": 1636.39,
+      "text": "Yeah, so, but he could put it all together with what we would now call data analysis."
+    },
+    {
+      "start": 1636.51,
+      "end": 1639.19,
+      "text": "Again, you still don't know the absolute distances."
+    },
+    {
+      "start": 1639.31,
+      "end": 1641.57,
+      "text": "This gives you the shapes of both orbits,"
+    },
+    {
+      "start": 1641.69,
+      "end": 1646.29,
+      "text": "and doing something similar, you can get the shapes of all the other planets' orbits relative to Earth's."
+    },
+    {
+      "start": 1646.41,
+      "end": 1648.21,
+      "text": "But to Kepler and his contemporaries,"
+    },
+    {
+      "start": 1648.33,
+      "end": 1651.53,
+      "text": "the exact scale of the solar system remained a mystery."
+    },
+    {
+      "start": 1651.65,
+      "end": 1655.59,
+      "text": "It's like they could draw the exact picture, but they didn't know the size of the paper."
+    },
+    {
+      "start": 1655.71,
+      "end": 1658.29,
+      "text": "So from this point on, astronomers were on a hunt"
+    },
+    {
+      "start": 1658.39,
+      "end": 1662.29,
+      "text": "to figure out a way to measure any distance they could in the solar system."
+    },
+    {
+      "start": 1662.41,
+      "end": 1663.87,
+      "text": "Because if they could do it precisely,"
+    },
+    {
+      "start": 1663.99,
+      "end": 1667.63,
+      "text": "just one distance would be enough to lock everything else into place."
+    },
+    {
+      "start": 1667.75,
+      "end": 1669.75,
+      "text": "In the next part, we'll continue with the interview,"
+    },
+    {
+      "start": 1669.87,
+      "end": 1671.75,
+      "text": "and you'll see how this was first done,"
+    },
+    {
+      "start": 1671.87,
+      "end": 1674.39,
+      "text": "and how once you finally have an accurate measure"
+    },
+    {
+      "start": 1674.51,
+      "end": 1676.43,
+      "text": "for the distance between the Earth and the Sun,"
+    },
+    {
+      "start": 1676.55,
+      "end": 1678.43,
+      "text": "you can use it to deduce the speed of light,"
+    },
+    {
+      "start": 1678.55,
+      "end": 1680.43,
+      "text": "the distance to the nearest stars,"
+    },
+    {
+      "start": 1680.55,
+      "end": 1684.07,
+      "text": "and ultimately the distance to the farthest observable galaxies."
+    },
+    {
+      "start": 1684.19,
+      "end": 1685.79,
+      "text": "If you want to stay updated for the next part,"
+    },
+    {
+      "start": 1685.91,
+      "end": 1687.59,
+      "text": "make sure to follow 3BlueAndBrown"
+    },
+    {
+      "start": 1687.59,
+      "end": 1690.63,
+      "text": "on whatever platform it is that you most like to follow stuff on."
+    },
+    {
+      "start": 1690.75,
+      "end": 1693.19,
+      "text": "There's an email list, just gonna throw that out there."
+    }
+  ]
+}

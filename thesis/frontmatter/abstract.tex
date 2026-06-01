@@ -1,33 +1,36 @@
 \chapter*{Abstract}
 \addcontentsline{toc}{chapter}{Abstract}
 
-Online education produces hundreds of hours of unindexed lecture video every
-day. Manual chaptering does not scale, and existing automatic methods are
-either text-only, closed-source, or restricted to a single (flat) level of
-segmentation. This thesis presents \lecseg{}, the first open hierarchical
-multimodal pipeline for lecture-video topic segmentation that produces both
-chapter-level and subtopic-level boundaries.
+Online education produces large volumes of lecture video, but many recordings
+remain difficult to navigate because their topic structure is missing,
+incomplete, or inconsistent. This thesis presents \lecseg{}, an open and
+reproducible artifact for lecture-video topic segmentation. The system segments
+long lecture transcripts into chapter-level topic boundaries and supports a
+hierarchical chapter/subtopic annotation format for finer analysis.
 
-We make four technical contributions. (1) A reliability-weighted modality-fusion
-module learns to down-weight unreliable channels (e.g.\ noisy OCR on a chalkboard
-lecture) per video and per sentence. (2) An explicit two-level hierarchy is
-modelled jointly, rather than as two independent flat tasks. (3) Boundary
-refinement and chapter titling are performed by a small, locally-hosted open
-language model, removing the dependence on closed APIs reported in prior work.
-(4) We release \dataset{}: a corpus of 30 lecture videos covering 5 academic
-domains, with dual subtopic annotation and reported inter-annotator agreement.
+The project contributes the \dataset{} benchmark: 30 public YouTube lectures
+covering Biology, Computer Science, Mathematics, Philosophy, and Physics. The
+corpus contains 32.52 hours of video, 419 creator-provided chapter boundaries,
+and 904 reviewed subtopic labels. Inter-annotator agreement on the hierarchical
+annotations is moderate at the chapter level
+($\kappa=0.5351$) and fair-to-moderate at the subtopic level
+($\kappa=0.4257$), with boundary F1 scores of 1.0000 and 0.7793 respectively.
 
-We evaluate against three classical and two neural baselines on five metrics:
-$P_k$, WindowDiff, Boundary Similarity, tolerance-F\textsubscript{1}, and a
-hierarchical WindowDiff variant we propose. All results are reported with
-1{,}000-sample bootstrap confidence intervals and pairwise Wilcoxon
-signed-rank tests at video granularity. \lecseg{} reduces $P_k$ by
-\todo{X.XX}\,\% relative ($\Delta=$\,\todo{0.0XX} absolute) over the strongest
-baseline, with $p < \todo{0.0X}$. The full reproduction artefact regenerates
-every numerical claim of this thesis from a fresh clone with a single command
-(\texttt{make reproduce}).
+We evaluate classical baselines, neural/embedding baselines, divisive
+segmentation, cross-model boundary scoring, and diagnostic variants using
+$P_k$, WindowDiff, Boundary Similarity, and tolerance-F\textsubscript{1}. A
+stable BGE-divisive baseline obtains $P_k=0.3884$ and WindowDiff $=0.3956$ on
+the 30-video chapter benchmark. The best joint $P_k$/WindowDiff run improves
+this to $P_k=0.3713$ and WindowDiff $=0.3764$, a 0.0171 absolute reduction in
+$P_k$. A stable balanced leave-one-video-out method selector further reaches
+mean $P_k=0.3588$, WindowDiff $=0.3739$, and F1@2 $=0.0893$. Its $P_k$/WD
+gains over the joint-best method are not statistically significant, but it
+significantly improves strict boundary-hit metrics and significantly beats the
+BGE-divisive baseline on $P_k$/WD. The results also show that exact boundary F1
+remains difficult, that visual/prosodic signals require careful reliability
+handling, and that out-of-domain supervised segmentation transfers poorly to
+lecture videos.
 
 \vspace{1em}
 \noindent\textbf{Keywords:} topic segmentation, lecture video, multimodal
-fusion, hierarchical segmentation, local language models, reproducible
-research.
+analysis, hierarchical annotation, reproducible research.

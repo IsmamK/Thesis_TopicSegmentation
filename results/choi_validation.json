@@ -1,0 +1,28 @@
+{
+  "overall_nltk_texttiling_pk": 0.4896,
+  "overall_our_c99_pk": 0.5106,
+  "published_texttiling_pk": 0.46,
+  "published_c99_pk": 0.12,
+  "conditions": {
+    "3-11": {
+      "n_docs": 50,
+      "nltk_texttiling_pk": 0.503,
+      "our_c99_pk": 0.5095
+    },
+    "3-5": {
+      "n_docs": 50,
+      "nltk_texttiling_pk": 0.4698,
+      "our_c99_pk": 0.5186
+    },
+    "6-8": {
+      "n_docs": 50,
+      "nltk_texttiling_pk": 0.4897,
+      "our_c99_pk": 0.5131
+    },
+    "9-11": {
+      "n_docs": 50,
+      "nltk_texttiling_pk": 0.4958,
+      "our_c99_pk": 0.5013
+    }
+  }
+}

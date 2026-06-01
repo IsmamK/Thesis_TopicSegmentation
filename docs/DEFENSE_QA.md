@@ -82,8 +82,9 @@ means it adapts to a chalkboard video that was never seen during training.
 without notice and cannot be re-run offline; (2) cost — 30 videos × repeated
 experiments would incur significant API spend; (3) data privacy — lecture
 content from universities may be sensitive. A local 8B model with zero API
-calls satisfies all three constraints. We show it matches closed-API quality
-on our benchmark (see Table TODO in Results).
+calls satisfies all three constraints. In the current thesis we present it as an
+implemented refinement and titling module, while avoiding unsupported claims
+about large boundary-metric gains.
 
 ---
 

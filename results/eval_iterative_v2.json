@@ -1,0 +1,1113 @@
+{
+  "results": {
+    "iterative_v2_frac75": {
+      "7K1sB05pE0A": {
+        "error": "operands could not be broadcast together with shapes (765,768) (765,1024) "
+      },
+      "8yT4RZy1t3s": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "9N1MxkbFhsc": {
+        "error": "operands could not be broadcast together with shapes (572,768) (572,1024) "
+      },
+      "AMl6E4cLrwE": {
+        "error": "operands could not be broadcast together with shapes (676,768) (676,1024) "
+      },
+      "D8RRq3TbtHU": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "fsLh-NYhOoU": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "GR63MMAi-fs": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "HtSuA80QTyo": {
+        "error": "operands could not be broadcast together with shapes (735,768) (735,1024) "
+      },
+      "Hy7ou5R_vjE": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "j0wJBEZdwLs": {
+        "error": "operands could not be broadcast together with shapes (580,768) (580,1024) "
+      },
+      "jGwO_UgTS7I": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "JP7ITIXGpHk": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "KlVHqq38KJU": {
+        "error": "operands could not be broadcast together with shapes (584,768) (584,1024) "
+      },
+      "KNwMiydCYA4": {
+        "error": "operands could not be broadcast together with shapes (334,768) (334,1024) "
+      },
+      "KOKnWaLiL8w": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "lUUte2o2Sn8": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "MGyygiXMzRk": {
+        "error": "operands could not be broadcast together with shapes (769,768) (769,1024) "
+      },
+      "NK-BxowMIfg": {
+        "pk": 0.4486111111111111,
+        "wd": 0.4486111111111111,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.0
+      },
+      "NNnIGh9g6fA": {
+        "pk": 0.32763157894736844,
+        "wd": 0.3736842105263158,
+        "boundary_similarity": 0.10101010101010101,
+        "f1": 0.09999999999999999,
+        "precision": 0.09090909090909091,
+        "recall": 0.1111111111111111,
+        "f1_t1": 0.1,
+        "f1_t2": 0.1,
+        "f1_t3": 0.1,
+        "f1_t5": 0.2
+      },
+      "Ns6GB4Dph9U": {
+        "pk": 0.2885714285714286,
+        "wd": 0.29,
+        "boundary_similarity": 0.4444444444444444,
+        "f1": 0.3333333333333333,
+        "precision": 0.3333333333333333,
+        "recall": 0.3333333333333333,
+        "f1_t1": 0.3333,
+        "f1_t2": 0.3333,
+        "f1_t3": 0.3333,
+        "f1_t5": 0.3333
+      },
+      "oOya3cFmAMc": {
+        "pk": 0.4434907010014306,
+        "wd": 0.4449213161659514,
+        "boundary_similarity": 0.11904761904761905,
+        "f1": 0.08333333333333333,
+        "precision": 0.1,
+        "recall": 0.07142857142857142,
+        "f1_t1": 0.0833,
+        "f1_t2": 0.0833,
+        "f1_t3": 0.0833,
+        "f1_t5": 0.0833
+      },
+      "oqRU2So6Z2Y": {
+        "pk": 0.15428571428571428,
+        "wd": 0.15571428571428572,
+        "boundary_similarity": 0.5,
+        "f1": 0.36363636363636365,
+        "precision": 0.25,
+        "recall": 0.6666666666666666,
+        "f1_t1": 0.3636,
+        "f1_t2": 0.3636,
+        "f1_t3": 0.3636,
+        "f1_t5": 0.3636
+      },
+      "Qw4l1w0rkjs": {
+        "pk": 0.36548223350253806,
+        "wd": 0.41878172588832485,
+        "boundary_similarity": 0.3391919191919192,
+        "f1": 0.20689655172413793,
+        "precision": 0.24,
+        "recall": 0.18181818181818182,
+        "f1_t1": 0.2069,
+        "f1_t2": 0.2069,
+        "f1_t3": 0.2414,
+        "f1_t5": 0.2414
+      },
+      "Rl0ludWTLxs": {
+        "pk": 0.31105047748976805,
+        "wd": 0.31241473396998637,
+        "boundary_similarity": 0.16666666666666669,
+        "f1": 0.1,
+        "precision": 0.06666666666666667,
+        "recall": 0.2,
+        "f1_t1": 0.1,
+        "f1_t2": 0.1,
+        "f1_t3": 0.1,
+        "f1_t5": 0.1
+      },
+      "S7TUe5w6RHo": {
+        "pk": 0.5572139303482587,
+        "wd": 0.582089552238806,
+        "boundary_similarity": 0.1163003663003663,
+        "f1": 0.12765957446808512,
+        "precision": 0.14285714285714285,
+        "recall": 0.11538461538461539,
+        "f1_t1": 0.1277,
+        "f1_t2": 0.1277,
+        "f1_t3": 0.1277,
+        "f1_t5": 0.1277
+      },
+      "TjZBTDzGeGg": {
+        "pk": 0.33638743455497383,
+        "wd": 0.3468586387434555,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.0
+      },
+      "uK2eFv7ne_Q": {
+        "pk": 0.3710777626193724,
+        "wd": 0.3710777626193724,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.0
+      },
+      "uO5k9xcD1gU": {
+        "pk": 0.3820689655172414,
+        "wd": 0.3903448275862069,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.1053
+      },
+      "YdOXS_9_P4U": {
+        "pk": 0.4252252252252252,
+        "wd": 0.42702702702702705,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.0
+      },
+      "zNVQfWC_evg": {
+        "pk": 0.41245136186770426,
+        "wd": 0.41893644617380027,
+        "boundary_similarity": 0.09401709401709402,
+        "f1": 0.09090909090909093,
+        "precision": 0.1111111111111111,
+        "recall": 0.07692307692307693,
+        "f1_t1": 0.0909,
+        "f1_t2": 0.0909,
+        "f1_t3": 0.0909,
+        "f1_t5": 0.0909
+      }
+    },
+    "iterative_v2_frac70": {
+      "7K1sB05pE0A": {
+        "error": "operands could not be broadcast together with shapes (765,768) (765,1024) "
+      },
+      "8yT4RZy1t3s": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "9N1MxkbFhsc": {
+        "error": "operands could not be broadcast together with shapes (572,768) (572,1024) "
+      },
+      "AMl6E4cLrwE": {
+        "error": "operands could not be broadcast together with shapes (676,768) (676,1024) "
+      },
+      "D8RRq3TbtHU": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "fsLh-NYhOoU": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "GR63MMAi-fs": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "HtSuA80QTyo": {
+        "error": "operands could not be broadcast together with shapes (735,768) (735,1024) "
+      },
+      "Hy7ou5R_vjE": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "j0wJBEZdwLs": {
+        "error": "operands could not be broadcast together with shapes (580,768) (580,1024) "
+      },
+      "jGwO_UgTS7I": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "JP7ITIXGpHk": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "KlVHqq38KJU": {
+        "error": "operands could not be broadcast together with shapes (584,768) (584,1024) "
+      },
+      "KNwMiydCYA4": {
+        "error": "operands could not be broadcast together with shapes (334,768) (334,1024) "
+      },
+      "KOKnWaLiL8w": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "lUUte2o2Sn8": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "MGyygiXMzRk": {
+        "error": "operands could not be broadcast together with shapes (769,768) (769,1024) "
+      },
+      "NK-BxowMIfg": {
+        "pk": 0.4486111111111111,
+        "wd": 0.4486111111111111,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.0
+      },
+      "NNnIGh9g6fA": {
+        "pk": 0.32894736842105265,
+        "wd": 0.3736842105263158,
+        "boundary_similarity": 0.10555555555555556,
+        "f1": 0.10526315789473685,
+        "precision": 0.1,
+        "recall": 0.1111111111111111,
+        "f1_t1": 0.1053,
+        "f1_t2": 0.1053,
+        "f1_t3": 0.1053,
+        "f1_t5": 0.2105
+      },
+      "Ns6GB4Dph9U": {
+        "pk": 0.2885714285714286,
+        "wd": 0.29,
+        "boundary_similarity": 0.4444444444444444,
+        "f1": 0.3333333333333333,
+        "precision": 0.3333333333333333,
+        "recall": 0.3333333333333333,
+        "f1_t1": 0.3333,
+        "f1_t2": 0.3333,
+        "f1_t3": 0.3333,
+        "f1_t5": 0.3333
+      },
+      "oOya3cFmAMc": {
+        "pk": 0.44206008583690987,
+        "wd": 0.44206008583690987,
+        "boundary_similarity": 0.09126984126984126,
+        "f1": 0.08695652173913043,
+        "precision": 0.1111111111111111,
+        "recall": 0.07142857142857142,
+        "f1_t1": 0.087,
+        "f1_t2": 0.087,
+        "f1_t3": 0.087,
+        "f1_t5": 0.087
+      },
+      "oqRU2So6Z2Y": {
+        "pk": 0.15285714285714286,
+        "wd": 0.15428571428571428,
+        "boundary_similarity": 0.5238095238095238,
+        "f1": 0.4,
+        "precision": 0.2857142857142857,
+        "recall": 0.6666666666666666,
+        "f1_t1": 0.4,
+        "f1_t2": 0.4,
+        "f1_t3": 0.4,
+        "f1_t5": 0.4
+      },
+      "Qw4l1w0rkjs": {
+        "pk": 0.3730964467005076,
+        "wd": 0.4200507614213198,
+        "boundary_similarity": 0.3539745278875714,
+        "f1": 0.21428571428571427,
+        "precision": 0.2608695652173913,
+        "recall": 0.18181818181818182,
+        "f1_t1": 0.2143,
+        "f1_t2": 0.2143,
+        "f1_t3": 0.25,
+        "f1_t5": 0.25
+      },
+      "Rl0ludWTLxs": {
+        "pk": 0.3096862210095498,
+        "wd": 0.31105047748976805,
+        "boundary_similarity": 0.17142857142857143,
+        "f1": 0.10526315789473682,
+        "precision": 0.07142857142857142,
+        "recall": 0.2,
+        "f1_t1": 0.1053,
+        "f1_t2": 0.1053,
+        "f1_t3": 0.1053,
+        "f1_t5": 0.1053
+      },
+      "S7TUe5w6RHo": {
+        "pk": 0.5671641791044776,
+        "wd": 0.582089552238806,
+        "boundary_similarity": 0.08468286099865047,
+        "f1": 0.08888888888888889,
+        "precision": 0.10526315789473684,
+        "recall": 0.07692307692307693,
+        "f1_t1": 0.0889,
+        "f1_t2": 0.0889,
+        "f1_t3": 0.0889,
+        "f1_t5": 0.1333
+      },
+      "TjZBTDzGeGg": {
+        "pk": 0.33638743455497383,
+        "wd": 0.3468586387434555,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.0
+      },
+      "uK2eFv7ne_Q": {
+        "pk": 0.3710777626193724,
+        "wd": 0.3710777626193724,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.0
+      },
+      "uO5k9xcD1gU": {
+        "pk": 0.38068965517241377,
+        "wd": 0.3889655172413793,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.1111
+      },
+      "YdOXS_9_P4U": {
+        "pk": 0.4252252252252252,
+        "wd": 0.42702702702702705,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.0
+      },
+      "zNVQfWC_evg": {
+        "pk": 0.41245136186770426,
+        "wd": 0.41893644617380027,
+        "boundary_similarity": 0.09401709401709402,
+        "f1": 0.09090909090909093,
+        "precision": 0.1111111111111111,
+        "recall": 0.07692307692307693,
+        "f1_t1": 0.0909,
+        "f1_t2": 0.0909,
+        "f1_t3": 0.0909,
+        "f1_t5": 0.0909
+      }
+    },
+    "iterative_v2_w04": {
+      "7K1sB05pE0A": {
+        "error": "operands could not be broadcast together with shapes (765,768) (765,1024) "
+      },
+      "8yT4RZy1t3s": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "9N1MxkbFhsc": {
+        "error": "operands could not be broadcast together with shapes (572,768) (572,1024) "
+      },
+      "AMl6E4cLrwE": {
+        "error": "operands could not be broadcast together with shapes (676,768) (676,1024) "
+      },
+      "D8RRq3TbtHU": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "fsLh-NYhOoU": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "GR63MMAi-fs": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "HtSuA80QTyo": {
+        "error": "operands could not be broadcast together with shapes (735,768) (735,1024) "
+      },
+      "Hy7ou5R_vjE": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "j0wJBEZdwLs": {
+        "error": "operands could not be broadcast together with shapes (580,768) (580,1024) "
+      },
+      "jGwO_UgTS7I": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "JP7ITIXGpHk": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "KlVHqq38KJU": {
+        "error": "operands could not be broadcast together with shapes (584,768) (584,1024) "
+      },
+      "KNwMiydCYA4": {
+        "error": "operands could not be broadcast together with shapes (334,768) (334,1024) "
+      },
+      "KOKnWaLiL8w": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "lUUte2o2Sn8": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "MGyygiXMzRk": {
+        "error": "operands could not be broadcast together with shapes (769,768) (769,1024) "
+      },
+      "NK-BxowMIfg": {
+        "pk": 0.4486111111111111,
+        "wd": 0.4486111111111111,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.0
+      },
+      "NNnIGh9g6fA": {
+        "pk": 0.32763157894736844,
+        "wd": 0.3736842105263158,
+        "boundary_similarity": 0.10101010101010101,
+        "f1": 0.09999999999999999,
+        "precision": 0.09090909090909091,
+        "recall": 0.1111111111111111,
+        "f1_t1": 0.1,
+        "f1_t2": 0.1,
+        "f1_t3": 0.1,
+        "f1_t5": 0.2
+      },
+      "Ns6GB4Dph9U": {
+        "pk": 0.2885714285714286,
+        "wd": 0.29,
+        "boundary_similarity": 0.4444444444444444,
+        "f1": 0.3333333333333333,
+        "precision": 0.3333333333333333,
+        "recall": 0.3333333333333333,
+        "f1_t1": 0.3333,
+        "f1_t2": 0.3333,
+        "f1_t3": 0.3333,
+        "f1_t5": 0.3333
+      },
+      "oOya3cFmAMc": {
+        "pk": 0.4434907010014306,
+        "wd": 0.4449213161659514,
+        "boundary_similarity": 0.11904761904761905,
+        "f1": 0.08333333333333333,
+        "precision": 0.1,
+        "recall": 0.07142857142857142,
+        "f1_t1": 0.0833,
+        "f1_t2": 0.0833,
+        "f1_t3": 0.0833,
+        "f1_t5": 0.0833
+      },
+      "oqRU2So6Z2Y": {
+        "pk": 0.15428571428571428,
+        "wd": 0.15571428571428572,
+        "boundary_similarity": 0.5,
+        "f1": 0.36363636363636365,
+        "precision": 0.25,
+        "recall": 0.6666666666666666,
+        "f1_t1": 0.3636,
+        "f1_t2": 0.3636,
+        "f1_t3": 0.3636,
+        "f1_t5": 0.3636
+      },
+      "Qw4l1w0rkjs": {
+        "pk": 0.36548223350253806,
+        "wd": 0.41878172588832485,
+        "boundary_similarity": 0.3391919191919192,
+        "f1": 0.20689655172413793,
+        "precision": 0.24,
+        "recall": 0.18181818181818182,
+        "f1_t1": 0.2069,
+        "f1_t2": 0.2069,
+        "f1_t3": 0.2414,
+        "f1_t5": 0.2414
+      },
+      "Rl0ludWTLxs": {
+        "pk": 0.31105047748976805,
+        "wd": 0.31241473396998637,
+        "boundary_similarity": 0.16666666666666669,
+        "f1": 0.1,
+        "precision": 0.06666666666666667,
+        "recall": 0.2,
+        "f1_t1": 0.1,
+        "f1_t2": 0.1,
+        "f1_t3": 0.1,
+        "f1_t5": 0.1
+      },
+      "S7TUe5w6RHo": {
+        "pk": 0.5572139303482587,
+        "wd": 0.582089552238806,
+        "boundary_similarity": 0.1163003663003663,
+        "f1": 0.12765957446808512,
+        "precision": 0.14285714285714285,
+        "recall": 0.11538461538461539,
+        "f1_t1": 0.1277,
+        "f1_t2": 0.1277,
+        "f1_t3": 0.1277,
+        "f1_t5": 0.1277
+      },
+      "TjZBTDzGeGg": {
+        "pk": 0.33638743455497383,
+        "wd": 0.3468586387434555,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.0
+      },
+      "uK2eFv7ne_Q": {
+        "pk": 0.3710777626193724,
+        "wd": 0.3710777626193724,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.0
+      },
+      "uO5k9xcD1gU": {
+        "pk": 0.3820689655172414,
+        "wd": 0.3903448275862069,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.1053
+      },
+      "YdOXS_9_P4U": {
+        "pk": 0.4252252252252252,
+        "wd": 0.42702702702702705,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.0
+      },
+      "zNVQfWC_evg": {
+        "pk": 0.41245136186770426,
+        "wd": 0.41893644617380027,
+        "boundary_similarity": 0.09401709401709402,
+        "f1": 0.09090909090909093,
+        "precision": 0.1111111111111111,
+        "recall": 0.07692307692307693,
+        "f1_t1": 0.0909,
+        "f1_t2": 0.0909,
+        "f1_t3": 0.0909,
+        "f1_t5": 0.0909
+      }
+    },
+    "iterative_v2_w02": {
+      "7K1sB05pE0A": {
+        "error": "operands could not be broadcast together with shapes (765,768) (765,1024) "
+      },
+      "8yT4RZy1t3s": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "9N1MxkbFhsc": {
+        "error": "operands could not be broadcast together with shapes (572,768) (572,1024) "
+      },
+      "AMl6E4cLrwE": {
+        "error": "operands could not be broadcast together with shapes (676,768) (676,1024) "
+      },
+      "D8RRq3TbtHU": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "fsLh-NYhOoU": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "GR63MMAi-fs": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "HtSuA80QTyo": {
+        "error": "operands could not be broadcast together with shapes (735,768) (735,1024) "
+      },
+      "Hy7ou5R_vjE": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "j0wJBEZdwLs": {
+        "error": "operands could not be broadcast together with shapes (580,768) (580,1024) "
+      },
+      "jGwO_UgTS7I": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "JP7ITIXGpHk": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "KlVHqq38KJU": {
+        "error": "operands could not be broadcast together with shapes (584,768) (584,1024) "
+      },
+      "KNwMiydCYA4": {
+        "error": "operands could not be broadcast together with shapes (334,768) (334,1024) "
+      },
+      "KOKnWaLiL8w": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "lUUte2o2Sn8": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "MGyygiXMzRk": {
+        "error": "operands could not be broadcast together with shapes (769,768) (769,1024) "
+      },
+      "NK-BxowMIfg": {
+        "pk": 0.4486111111111111,
+        "wd": 0.4486111111111111,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.0
+      },
+      "NNnIGh9g6fA": {
+        "pk": 0.32763157894736844,
+        "wd": 0.3736842105263158,
+        "boundary_similarity": 0.10101010101010101,
+        "f1": 0.09999999999999999,
+        "precision": 0.09090909090909091,
+        "recall": 0.1111111111111111,
+        "f1_t1": 0.1,
+        "f1_t2": 0.1,
+        "f1_t3": 0.1,
+        "f1_t5": 0.2
+      },
+      "Ns6GB4Dph9U": {
+        "pk": 0.2885714285714286,
+        "wd": 0.29,
+        "boundary_similarity": 0.4444444444444444,
+        "f1": 0.3333333333333333,
+        "precision": 0.3333333333333333,
+        "recall": 0.3333333333333333,
+        "f1_t1": 0.3333,
+        "f1_t2": 0.3333,
+        "f1_t3": 0.3333,
+        "f1_t5": 0.3333
+      },
+      "oOya3cFmAMc": {
+        "pk": 0.4434907010014306,
+        "wd": 0.4449213161659514,
+        "boundary_similarity": 0.11904761904761905,
+        "f1": 0.08333333333333333,
+        "precision": 0.1,
+        "recall": 0.07142857142857142,
+        "f1_t1": 0.0833,
+        "f1_t2": 0.0833,
+        "f1_t3": 0.0833,
+        "f1_t5": 0.0833
+      },
+      "oqRU2So6Z2Y": {
+        "pk": 0.15428571428571428,
+        "wd": 0.15571428571428572,
+        "boundary_similarity": 0.5,
+        "f1": 0.36363636363636365,
+        "precision": 0.25,
+        "recall": 0.6666666666666666,
+        "f1_t1": 0.3636,
+        "f1_t2": 0.3636,
+        "f1_t3": 0.3636,
+        "f1_t5": 0.3636
+      },
+      "Qw4l1w0rkjs": {
+        "pk": 0.36548223350253806,
+        "wd": 0.41878172588832485,
+        "boundary_similarity": 0.3391919191919192,
+        "f1": 0.20689655172413793,
+        "precision": 0.24,
+        "recall": 0.18181818181818182,
+        "f1_t1": 0.2069,
+        "f1_t2": 0.2069,
+        "f1_t3": 0.2414,
+        "f1_t5": 0.2414
+      },
+      "Rl0ludWTLxs": {
+        "pk": 0.31105047748976805,
+        "wd": 0.31241473396998637,
+        "boundary_similarity": 0.16666666666666669,
+        "f1": 0.1,
+        "precision": 0.06666666666666667,
+        "recall": 0.2,
+        "f1_t1": 0.1,
+        "f1_t2": 0.1,
+        "f1_t3": 0.1,
+        "f1_t5": 0.1
+      },
+      "S7TUe5w6RHo": {
+        "pk": 0.5572139303482587,
+        "wd": 0.582089552238806,
+        "boundary_similarity": 0.1163003663003663,
+        "f1": 0.12765957446808512,
+        "precision": 0.14285714285714285,
+        "recall": 0.11538461538461539,
+        "f1_t1": 0.1277,
+        "f1_t2": 0.1277,
+        "f1_t3": 0.1277,
+        "f1_t5": 0.1277
+      },
+      "TjZBTDzGeGg": {
+        "pk": 0.33638743455497383,
+        "wd": 0.3468586387434555,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.0
+      },
+      "uK2eFv7ne_Q": {
+        "pk": 0.3710777626193724,
+        "wd": 0.3710777626193724,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.0
+      },
+      "uO5k9xcD1gU": {
+        "pk": 0.3820689655172414,
+        "wd": 0.3903448275862069,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.1053
+      },
+      "YdOXS_9_P4U": {
+        "pk": 0.4252252252252252,
+        "wd": 0.42702702702702705,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.0
+      },
+      "zNVQfWC_evg": {
+        "pk": 0.41245136186770426,
+        "wd": 0.41893644617380027,
+        "boundary_similarity": 0.09401709401709402,
+        "f1": 0.09090909090909093,
+        "precision": 0.1111111111111111,
+        "recall": 0.07692307692307693,
+        "f1_t1": 0.0909,
+        "f1_t2": 0.0909,
+        "f1_t3": 0.0909,
+        "f1_t5": 0.0909
+      }
+    },
+    "iterative_v2_segs4": {
+      "7K1sB05pE0A": {
+        "error": "operands could not be broadcast together with shapes (765,768) (765,1024) "
+      },
+      "8yT4RZy1t3s": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "9N1MxkbFhsc": {
+        "error": "operands could not be broadcast together with shapes (572,768) (572,1024) "
+      },
+      "AMl6E4cLrwE": {
+        "error": "operands could not be broadcast together with shapes (676,768) (676,1024) "
+      },
+      "D8RRq3TbtHU": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "fsLh-NYhOoU": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "GR63MMAi-fs": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "HtSuA80QTyo": {
+        "error": "operands could not be broadcast together with shapes (735,768) (735,1024) "
+      },
+      "Hy7ou5R_vjE": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "j0wJBEZdwLs": {
+        "error": "operands could not be broadcast together with shapes (580,768) (580,1024) "
+      },
+      "jGwO_UgTS7I": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "JP7ITIXGpHk": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "KlVHqq38KJU": {
+        "error": "operands could not be broadcast together with shapes (584,768) (584,1024) "
+      },
+      "KNwMiydCYA4": {
+        "error": "operands could not be broadcast together with shapes (334,768) (334,1024) "
+      },
+      "KOKnWaLiL8w": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "lUUte2o2Sn8": {
+        "error": "operands could not be broadcast together with shapes (800,768) (800,1024) "
+      },
+      "MGyygiXMzRk": {
+        "error": "operands could not be broadcast together with shapes (769,768) (769,1024) "
+      },
+      "NK-BxowMIfg": {
+        "pk": 0.4486111111111111,
+        "wd": 0.4486111111111111,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.0
+      },
+      "NNnIGh9g6fA": {
+        "pk": 0.32763157894736844,
+        "wd": 0.3736842105263158,
+        "boundary_similarity": 0.10101010101010101,
+        "f1": 0.09999999999999999,
+        "precision": 0.09090909090909091,
+        "recall": 0.1111111111111111,
+        "f1_t1": 0.1,
+        "f1_t2": 0.1,
+        "f1_t3": 0.1,
+        "f1_t5": 0.2
+      },
+      "Ns6GB4Dph9U": {
+        "pk": 0.2885714285714286,
+        "wd": 0.29,
+        "boundary_similarity": 0.4444444444444444,
+        "f1": 0.3333333333333333,
+        "precision": 0.3333333333333333,
+        "recall": 0.3333333333333333,
+        "f1_t1": 0.3333,
+        "f1_t2": 0.3333,
+        "f1_t3": 0.3333,
+        "f1_t5": 0.3333
+      },
+      "oOya3cFmAMc": {
+        "pk": 0.4434907010014306,
+        "wd": 0.4449213161659514,
+        "boundary_similarity": 0.11904761904761905,
+        "f1": 0.08333333333333333,
+        "precision": 0.1,
+        "recall": 0.07142857142857142,
+        "f1_t1": 0.0833,
+        "f1_t2": 0.0833,
+        "f1_t3": 0.0833,
+        "f1_t5": 0.0833
+      },
+      "oqRU2So6Z2Y": {
+        "pk": 0.15428571428571428,
+        "wd": 0.15571428571428572,
+        "boundary_similarity": 0.5,
+        "f1": 0.36363636363636365,
+        "precision": 0.25,
+        "recall": 0.6666666666666666,
+        "f1_t1": 0.3636,
+        "f1_t2": 0.3636,
+        "f1_t3": 0.3636,
+        "f1_t5": 0.3636
+      },
+      "Qw4l1w0rkjs": {
+        "pk": 0.36548223350253806,
+        "wd": 0.41878172588832485,
+        "boundary_similarity": 0.3391919191919192,
+        "f1": 0.20689655172413793,
+        "precision": 0.24,
+        "recall": 0.18181818181818182,
+        "f1_t1": 0.2069,
+        "f1_t2": 0.2069,
+        "f1_t3": 0.2414,
+        "f1_t5": 0.2414
+      },
+      "Rl0ludWTLxs": {
+        "pk": 0.31105047748976805,
+        "wd": 0.31241473396998637,
+        "boundary_similarity": 0.16666666666666669,
+        "f1": 0.1,
+        "precision": 0.06666666666666667,
+        "recall": 0.2,
+        "f1_t1": 0.1,
+        "f1_t2": 0.1,
+        "f1_t3": 0.1,
+        "f1_t5": 0.1
+      },
+      "S7TUe5w6RHo": {
+        "pk": 0.5572139303482587,
+        "wd": 0.582089552238806,
+        "boundary_similarity": 0.1163003663003663,
+        "f1": 0.12765957446808512,
+        "precision": 0.14285714285714285,
+        "recall": 0.11538461538461539,
+        "f1_t1": 0.1277,
+        "f1_t2": 0.1277,
+        "f1_t3": 0.1277,
+        "f1_t5": 0.1277
+      },
+      "TjZBTDzGeGg": {
+        "pk": 0.33638743455497383,
+        "wd": 0.3468586387434555,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.0
+      },
+      "uK2eFv7ne_Q": {
+        "pk": 0.3710777626193724,
+        "wd": 0.3710777626193724,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.0
+      },
+      "uO5k9xcD1gU": {
+        "pk": 0.3820689655172414,
+        "wd": 0.3903448275862069,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.1053
+      },
+      "YdOXS_9_P4U": {
+        "pk": 0.4252252252252252,
+        "wd": 0.42702702702702705,
+        "boundary_similarity": 0.0,
+        "f1": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_t1": 0.0,
+        "f1_t2": 0.0,
+        "f1_t3": 0.0,
+        "f1_t5": 0.0
+      },
+      "zNVQfWC_evg": {
+        "pk": 0.41245136186770426,
+        "wd": 0.41893644617380027,
+        "boundary_similarity": 0.09401709401709402,
+        "f1": 0.09090909090909093,
+        "precision": 0.1111111111111111,
+        "recall": 0.07692307692307693,
+        "f1_t1": 0.0909,
+        "f1_t2": 0.0909,
+        "f1_t3": 0.0909,
+        "f1_t5": 0.0909
+      }
+    }
+  },
+  "summary": {
+    "iterative_v2_frac75": {
+      "pk": 0.371,
+      "wd": 0.3831,
+      "boundary_similarity": 0.1447,
+      "f1": 0.1081,
+      "precision": 0.1027,
+      "recall": 0.1351,
+      "f1_t1": 0.1081,
+      "f1_t2": 0.1081,
+      "f1_t3": 0.1108,
+      "f1_t5": 0.1266
+    },
+    "iterative_v2_frac70": {
+      "pk": 0.3721,
+      "wd": 0.3827,
+      "boundary_similarity": 0.1438,
+      "f1": 0.1096,
+      "precision": 0.1061,
+      "recall": 0.1322,
+      "f1_t1": 0.1096,
+      "f1_t2": 0.1096,
+      "f1_t3": 0.1124,
+      "f1_t5": 0.1324
+    },
+    "iterative_v2_w04": {
+      "pk": 0.371,
+      "wd": 0.3831,
+      "boundary_similarity": 0.1447,
+      "f1": 0.1081,
+      "precision": 0.1027,
+      "recall": 0.1351,
+      "f1_t1": 0.1081,
+      "f1_t2": 0.1081,
+      "f1_t3": 0.1108,
+      "f1_t5": 0.1266
+    },
+    "iterative_v2_w02": {
+      "pk": 0.371,
+      "wd": 0.3831,
+      "boundary_similarity": 0.1447,
+      "f1": 0.1081,
+      "precision": 0.1027,
+      "recall": 0.1351,
+      "f1_t1": 0.1081,
+      "f1_t2": 0.1081,
+      "f1_t3": 0.1108,
+      "f1_t5": 0.1266
+    },
+    "iterative_v2_segs4": {
+      "pk": 0.371,
+      "wd": 0.3831,
+      "boundary_similarity": 0.1447,
+      "f1": 0.1081,
+      "precision": 0.1027,
+      "recall": 0.1351,
+      "f1_t1": 0.1081,
+      "f1_t2": 0.1081,
+      "f1_t3": 0.1108,
+      "f1_t5": 0.1266
+    }
+  },
+  "n_videos": 31,
+  "gt_mode": "reviewed_only"
+}

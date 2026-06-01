@@ -1,0 +1,1623 @@
+Alright, so let me start again by reminding you what it is that was done last time.
+So if you say, can you summarize for me in a few words main ideas, so I would like to do that.
+So what I did last time was to show you how to handle motion in more than one dimension,
+and I picked for it two dimensions as the standard way to explain it.
+Okay, by the way, I would like to make one recommendation.
+If you guys are coming in a little late, don't worry about submitting the homework.
+Just come in and settle down because it's very hard to lecture with this amount of traffic.
+I do try to start a few minutes late, but I also have to finish a few minutes early so you can go to the next class.
+And also, people who come in early maybe should try to sit in the middle part of the classroom
+so the latecomers can come in without too much disruption.
+All right, so summary of last time.
+If you live in two dimensions or more,
+you've got to use vectors to describe most things.
+So the vector was typical vectors called V or A or B, something with an arrow on it.
+Most important vector is position vector that tells you where the object is.
+It's got components which are X and Y that could vary with time.
+I and J are unit vectors in the X and Y directions.
+And you can deal with the vector in one of two ways.
+You can either think of it as an arrow,
+and imagine the arrow,
+or you can reduce it to a pair of numbers X and Y.
+If you want to add two vectors,
+you can add the arrows by the rule I gave you,
+or just add the components of X,
+or the two guys to get the component of the sum,
+and likewise for the Y.
+I mentioned something of increasing importance only later,
+which is that you are free to pick another set of axes,
+not in the traditional X and Y direction,
+but that's an oblique direction.
+So you can imagine that if you have a vector that's viewed from an angle,
+the unit vectors are called I prime and J prime,
+the components of the vector change.
+You can imagine that if a vector is viewed from an angle,
+then its components will vary with the perspective.
+So the components of the vector are not invariant characterizations of the vector.
+Whereas the vector itself has a life of its own,
+the components come in the minute you pick your axes.
+So it's not enough to say these are the components of the vector.
+You've got to tell me I'm working with I and J,
+and I'm working with X and Y.
+I gave you a law of transformation of the components,
+namely if the vector has components AX and AY in one reference frame,
+and AX prime and AY prime in another reference frame,
+how are the two related?
+They come from writing I prime and J prime in terms of I and J,
+then sticking it into the expression and identifying the new representation.
+Somehow, when I told you to invert the transformation,
+some of you had some difficulty.
+Maybe you didn't realize that they are just simultaneous equations that you solve,
+but they are not.
+Normally, if I tell you 3X plus 4Y is 6 and 9X plus 6Y is 14,
+you know how to solve it.
+It's really the same kind of problem,
+except that the 3 and 4 were all replaced by sine phi and cosine phi,
+but they are just some numbers,
+and you eliminate them the same way you eliminate them.
+But I've given you a homework problem where you can try your skills.
+So when you go today and look at the homework,
+you'll find besides problems from the textbook,
+one extra problem that deals with all of this.
+Then I gave you one other problem.
+Very important example of a particle moving in the XY plane.
+X and Y can be whatever you like,
+but I picked a very special example where it looked like this.
+R times cosine omega t is times I plus R times sine omega t.
+Now you should go back and remember what we did.
+If it took you a while to digest it, I asked you to think harder.
+This describes a particle that's going around in a circle.
+We know it's going around in a circle because if I find the length of this vector,
+which is the X squared part plus the Y squared part,
+I just get R squared at all times
+because sine squared plus cosine squared is 1.
+So we know it's moving on a circle of radius R.
+Furthermore, as time increases,
+the angle omega t is increasing in this fashion.
+And omega is called the angular velocity.
+And I related it to the time period,
+which is the time it takes to go around a full circle,
+by saying once you've done a full circle,
+omega t better.
+It better be 2 pi.
+So this new quantity omega, which may be new to you,
+is related to the time period for which you have an intuitive feeling.
+How long does it take to go one round in this fashion?
+You're also free to write it in terms of the frequency.
+The time period and frequency are reciprocals.
+If it takes you 1 sixtieth of a second to go around once,
+then you do it 60 times a second.
+So omega is really a very simple quantity.
+It's related to the frequency with which you go around a circle,
+and it's multiplied by 2 pi.
+Why is that?
+Frequency is how many times you go around,
+and 2 pi is the rate at which the angle is being changed.
+But if every revolution is worth 2 pi radians,
+then 2 pi f is the number of radians per second.
+So f is revolutions per second,
+and 2 pi f is radians per second.
+And it's called the angular velocity.
+The most important result from last time
+was that if you took this R,
+and you took two derivatives of this,
+to find the acceleration,
+d2R over dt squared,
+try to do this in your head.
+If you took the two derivatives of this guy,
+first time it will become minus omega sine omega t.
+Second time it will become minus omega squared cos omega t.
+In other words, it will become minus omega squared times itself.
+Same thing here.
+And the final result is
+the acceleration is minus omega squared times the position.
+That means the acceleration is pointing towards the center of the circle,
+and it has a magnitude, a.
+When I draw something without an arrow,
+I'm talking about the magnitude.
+It is just omega squared R.
+But I've shown you yesterday
+that the velocity,
+and I'm sorry, the speed of the particle
+as it goes around the circle,
+is this.
+Again, you should make sure you know how to derive this.
+You can do it any way you like.
+You can take one full circle,
+realize the distance traveled is 2 pi R,
+divide by the time,
+and you will get this.
+Another way,
+take the derivative of this,
+get the velocity vector,
+and you notice its magnitude is a constant,
+and the constant will be omega R.
+So whichever way you do it,
+you can then rewrite this as v squared over R.
+This is called the centripetal acceleration.
+This is the acceleration directed towards the center.
+And I told you this is a very important result.
+You've got to get this in your head.
+Whenever you see a particle moving in a circle,
+even if it's at constant speed,
+it has an acceleration,
+v squared over R,
+directed towards the center.
+This formula doesn't tell you which way it's pointing,
+because it's a scalar,
+it's not a vector equation.
+If you want to write it as a vector equation,
+you want to write it as v squared over R minus,
+I want to say that it's pointing in the direction towards the center.
+So sometimes what we do is we introduce a little vector here
+called E sub R.
+I'll tell you more about it later.
+E sub R is a vector at each point of length 1
+pointing radially away from the center.
+It's like the unit vector i.
+Unit vector i points away from the origin in the x direction.
+j points away from the origin in the y direction.
+E R is not a fixed vector.
+At each point,
+E R is a different vector
+pointing in the radial direction of length 1.
+The advantage of introducing that guy
+is that if you like,
+I can now write an equation for the acceleration as a vector.
+The magnitude is v squared over R.
+The direction is negative E R.
+So E R, E sub R is a new entity
+I've introduced for convenience.
+It plays a big role in gravitation
+and the Coulomb interaction.
+It's good to have a vector
+pointing in the radial direction of length 1.
+That's what it is.
+That's really the heart of what I did last time.
+Then we did some projectile problems.
+You shoot something,
+you should know when it will land,
+where it will land,
+with what speed it will land,
+how high it will go.
+I assume that those problems are not that difficult
+and I've given you a lot of practice.
+Now I'm going to move to the really important
+and central topic.
+I guess you can guess what that is.
+We're going to talk about Newton's laws.
+This is a big day in your life
+because this is when you learned
+the laws in terms of which you can understand
+and explain a large number of phenomena.
+In fact,
+until we do electricity and magnetism next semester,
+everything is going to be based on just
+the laws of Newton.
+It's really amazing that somebody could condense
+that much of information into a few,
+namely three different laws.
+That's what we're going to talk about.
+Let's start.
+Your reaction may be that you've seen Newton's laws,
+you've applied them in school.
+I've got to tell you that
+I realized fairly late in life
+they're more subtle than I imagined the first time.
+It's one thing to plug in all the numbers
+and say I know the Newton's laws
+and I know how they work.
+But as you get older
+and you have a lot of spare time,
+you think about what you're doing,
+which is something I have the luxury of doing right now.
+I realized this is more tricky.
+I want to share some of that with you
+so you can fast forward
+and get the understanding
+it took me much longer to get.
+That's what I'm going to emphasize more
+than just plugging in the numbers.
+Of course, we have to also know
+how to plug in the numbers
+so we can pass all the tests.
+But it's good to understand
+the nature of the edifice set up by Newton.
+The first statement by Newton,
+I don't feel like writing it down.
+It's too long and everybody knows what the law is.
+It's called the law of inertia.
+Let me just say it and talk about it.
+The law of inertia says that
+if a body has no forces acting on it,
+then it will remain at rest
+if it was at rest to begin with
+or if it had a velocity to begin with,
+it will maintain that velocity.
+One way to say it is
+everybody will continue to remain in a state of rest
+or uniform motion in a straight line.
+That's another way of saying
+maintain a velocity
+if it's not acted upon by a force.
+Now what makes the law surprising
+is that if I only gave you half the law,
+namely everybody will remain at rest
+if it's not acted upon by a force,
+you will say that's fine.
+I accept that because here's something.
+You leave it there, it doesn't move.
+It's not a big surprise.
+People are used to that from the time of Aristotle.
+But Aristotle used to think that
+if you want something to move,
+there has to be some agency making it move,
+an agency you could call force.
+The great discovery that Galileo and Newton made
+is that you don't need a force
+for a body to move at constant velocity.
+It's very clear you don't need a force
+if something is doing nothing,
+if it's sitting there.
+The fact that you don't need a force
+for it to move forever at a given speed
+in a given direction,
+that's not obvious,
+because in daily life you don't see that.
+Daily life everything seems to come to rest
+unless you push it or you pull it
+or you exert some kind of force.
+But we all know
+that the reason things come to a halt
+when you push them
+is that eventually some friction or drag
+or something is bringing them to rest.
+Somehow if you could manufacture
+a really smooth frictionless surface,
+that if you took a hockey puck or something
+and an air cushion and you give it a push,
+in some idealized world it'll travel forever.
+So it's hard to realize that
+in the terrestrial situation,
+but Galileo already managed to find examples
+where things would roll on for a very, very long time.
+But nowadays if you go to outer space
+you can check for yourself
+that if you throw something out
+it just goes on forever without your intervention.
+That it's the nature of things
+to go at a constant velocity.
+They don't need your help to do that.
+Now you have to be careful
+that this first law of Newton
+is not valid for everybody.
+In fact, I'll give an example
+in your own life where you will find
+that this law doesn't work.
+So here's the situation.
+You go on an airplane
+and then after the usual delays
+the plane begins to accelerate down the runway.
+At that instant,
+if you leave anything on the floor
+you know it's no longer yours.
+It's going to slide down
+and the guy in the last row
+is going to collect everything.
+Why is that?
+Because we find in that plane
+when objects are left on the ground
+at what we think is at rest
+with no external agency acting on them
+they all slide backwards
+towards the rear end of the plane.
+That happens during takeoff.
+That doesn't happen in flight
+but it happens during takeoff.
+So that is an example of a person
+for whom the law of inertia does not work.
+So this is something you guys may not have realized.
+Newton's laws are not for everybody.
+You have to be what's called an inertial observer.
+If you're an inertial observer
+then in your system of reference
+objects left at rest will remain at rest.
+The plane that's ready to take off
+or is taking off
+is not such a system.
+The earth seems to be a pretty good inertial system
+because on the ground
+you leave something, it stays there.
+It depends on what you leave.
+If you leave your iPod
+it's not going to stay there for very long.
+But then you can trace it to some external forces
+which are carrying your iPod.
+But if you don't do anything
+things stay.
+So here is the main point.
+The point of Newton is
+two things in the law of inertia
+which one may think is trivial.
+First, free velocity, constant velocity
+can be obtained for free without doing anything.
+And there are people for whom this is true.
+For example, in outer space
+if you're an astronaut
+you send something, you'll find it goes on forever.
+Here's another thing.
+If you find one inertial observer
+namely one person for whom this law of inertia works
+I can manufacture for you
+an infinite number of other people
+for whom this is true.
+Who are these other people?
+Do you know what I'm talking about?
+If I give you one observer
+for whom the law of inertia is true
+I say there are others
+for whom it's also true.
+Yes?
+Did you hear that?
+Let me repeat that.
+First of all
+if the law of inertia is valid for me
+it's valid for other people
+in the same room at rest with respect to me.
+Because if I think it's not moving
+you'll think it's not moving.
+That's just fine.
+But suppose you are in a train
+and you're moving past me
+and you look at this piece of chalk
+of course everything in my room
+is going backwards for you.
+But things which were at rest
+will move at a constant velocity
+opposite to the velocity
+that you have relative to me.
+So you will find that objects
+which are at constant initial velocity
+maintain the velocity.
+So if I am an inertial observer
+another person moving relative to me
+at constant velocity
+will also be an inertial observer.
+Why?
+Because any velocity I ascribe to a party
+to a party of a person
+will be a constant velocity.
+So if I am an inertial observer
+and I have a particular object
+you will add a certain constant to it
+by the law of composition of velocities.
+All velocities I see
+you will add a certain number
+to get the velocities according to you.
+But adding a constant velocity to objects
+does not change the fact
+that those which were maintaining constant velocity
+still maintain a constant velocity.
+It's a different constant velocity.
+In particular things that I say are at rest
+you will say are moving backwards
+at the velocity that you had relative to me.
+Things that I say are going at 50 miles per hour
+you may say are going at 80.
+But 50 is a constant and 80 is a constant.
+Therefore it's not that there's only one
+fortunate family of inertial observers.
+There's an infinite number of them.
+They're all moving relative to each other
+at constant velocity.
+So if the Earth is an inertial frame of reference
+if you go in a train
+relative to the Earth at constant velocity
+you're also inertial.
+But if you go in a plane which is accelerating
+you're no longer inertial.
+That's the main point.
+The point is
+that the Earth is an inertial frame of reference.
+Now you must know the Earth is not precisely inertial.
+The Earth has an acceleration.
+Maybe, can you tell me why I'm sure
+the Earth has an acceleration?
+Yes?
+It's going around the Sun.
+Let's imagine it's a circular orbit
+that we've just shown here.
+It's an accelerated frame of reference.
+It just turns out that if you put the V squared
+and you put the r
+you know r is 93 million miles
+you will find that acceleration is small enough
+for us to ignore.
+But there are effects of the Earth's acceleration
+which will demonstrate.
+The Foucault pendulum is one example
+where you can see that the Earth is rotating
+around its own axis.
+Then the fact that Earth is going around the Sun
+all of them mean it's really not inertial
+but it's approximately inertial.
+But if you go to outer space nowadays
+you can find truly inertial frames of reference.
+Okay, so that's the first law.
+First law if you want
+if you want to say
+okay, what's the summary of all of this?
+Summary is that constant velocity
+doesn't require anything.
+Now the reason things don't have constant
+it looks like a tautology
+because you look around
+nothing seems to have its velocity forever.
+Then you say oh that's because
+there's a force acting on it.
+It looks like a tautology
+because you're never able to show me something
+that moves forever at constant velocity
+because every time you don't find such a thing
+I give an excuse
+namely a force is acting.
+But it's not a big con
+because you can set up experiments
+in free space far from everything
+where objects will in fact
+maintain their velocity forever.
+That's a possibility.
+And it's a useful concept on the earth
+because earth is approximately inertial.
+Now you come to the second law
+which is the law
+this is the law that we all memorize and learn
+and it says that if a body has an acceleration
+then you need a force
+and the relation of the force to acceleration
+is this thing.
+Now I have to say a few words about units.
+Acceleration is measured in meters per second square.
+Mass is measured in kilometers.
+So the way to measure force
+is in kilogram meters per second square
+but we get tired of saying that long expression
+so we're going to call that a Newton.
+If you'd invented it
+we'd call it whatever your name is
+but this is the guy who invented it
+so it's called a Newton
+usually denoted by a capital N.
+So a typical problem that you may have done
+in your first pass at Newton's law
+someone tells you a force of 36 Newtons
+is acting on a mass of whatever
+4 kilograms, what's the acceleration?
+You divide and you find it's 9
+and you say, okay, I know what to do with Newton's laws.
+That's where I want to tell you
+that it's actually more complicated than that.
+Let's really look at this equation.
+Take yourself back to 1600 whatever
+whenever Newton was inventing these laws.
+So you don't know any of these laws.
+You have an intuitive definition of force
+you sort of know what force is, right?
+Somebody pushes you or pulls you
+that's a force.
+And suddenly you are told
+here is a law.
+Are you better off in any way?
+Can you do anything with this law?
+Is what I'm asking you.
+What can you do with this law?
+I give you Newton's law and say good luck.
+What will you do?
+What does it help you predict?
+You can't even tell if it's true.
+Here's a body that's moving, right?
+I want you to tell me
+is Newton right?
+How are you going to check that?
+Well, you want to measure the left-hand side
+and you want to measure the right-hand side.
+If they're equal maybe you would say the law is working.
+So what can you measure
+in this equation?
+Pardon me?
+All right.
+So let's start with acceleration.
+What's your plan for measuring acceleration
+if some little thing is moving?
+How do you plan?
+What do you need to measure it?
+Right, but what instruments
+will you need to measure it?
+You are supposed to really measure it.
+What will you ask me for?
+A watch? Yes.
+And what else?
+A ruler.
+Okay.
+Or that's right.
+I mean you don't mean Queen Elizabeth, right?
+You mean some law?
+Very good.
+Okay.
+So what you really want
+a ruler may not be enough
+but maybe it's enough.
+So here's a long ruler
+and here's this thing moving, right?
+And you ask for a Rolex.
+So here's your watch.
+It's telling time.
+Tell me exactly what you want to do
+to measure the acceleration.
+What do you have to do?
+I want the acceleration now.
+What will you measure?
+Okay, you go ahead.
+Okay, you can try.
+It may not be at rest to begin with.
+It's doing its thing.
+It's going at some speed.
+It's going at some speed.
+Yes.
+That'll give you the velocity.
+Good.
+So in principle,
+let me repeat what he said.
+He said first let it go a little distance.
+Take the distance over time.
+That gives the velocity now.
+Let it go a little more.
+That gives the velocity later.
+Take the difference of the two velocities
+and divide by the difference of the two times
+and you got the acceleration.
+Of course,
+you have allowed it to move a finite distance
+and a finite time.
+So what you should imagine doing
+is making these three measurements
+more and more quickly.
+You need three position measurements.
+Now, a little later,
+and a little later, later.
+Because between the first and second,
+you get a velocity.
+Second and third,
+you get another velocity.
+Their difference divided by the difference in times
+is going to be the acceleration.
+But if you imagine making these measurements
+more and more and more quickly,
+in the end,
+you can measure what you can say
+is the acceleration now.
+That's the meaning of the limit in calculus.
+You take delta,
+you take the velocity,
+you take the velocity in calculus.
+You take delta x and you take delta t.
+What's the meaning of delta x and delta t going to zero?
+It means measure them as quickly as you can.
+So in real world,
+no one's going to measure it instantaneously.
+But we can make the difference as small as we like.
+Mathematically,
+we can make it zero.
+So in that limit,
+we can measure velocity right now.
+That means we can also measure velocity slightly later
+and make the slightly later come as close to right now
+as we want.
+And then that ratio will give you acceleration.
+So acceleration is the easiest way
+to measure these three quantities.
+We all have a good intuitive feeling
+for what acceleration is.
+So you want to test what Newton told you is right.
+You see an object in motion.
+You find A and you give A a certain numerical value,
+10 meters per second squared.
+But that's not yet testing the equation
+because you've got to find both sides.
+So what about the mass?
+What's the mass of this object?
+Anybody want to try from this section here?
+Yes?
+Okay.
+So you can measure the mass of this object.
+His idea was following.
+You take a standard mass
+and you maybe go to a seesaw, right?
+You put the standard mass here
+and you put some other fellow,
+the mass you're looking at there,
+and you adjust the lengths
+and when it balances,
+you can sort of tell what this mass is, right?
+But suppose you were in outer space.
+There's no gravity.
+Then the seesaw will balance
+even if you put a potato on one side
+and an elephant on the other side.
+You cannot tell the mass
+because what you are doing now
+is appealing to the notion of mass
+as something that's related to the pull of the Earth
+on the object.
+But Newton's laws, you see,
+you've got to go back
+and wipe out everything you know.
+If this is what you have,
+there is no mention of the Earth in these equations.
+And yet the notion of mass is defined.
+It's not talking about
+the gravitational pull of the Earth on an object.
+Yes.
+But do you know what the force on the body is?
+We don't have to measure that either.
+Do you agree?
+We don't know what the force is
+because we are hoping to say
+force is going to be m times a.
+We're just getting around to measuring m.
+It looks like a circular definition right now.
+Yes.
+But density is mass over volume.
+But we don't know the mass.
+Right?
+How is anyone going to give you the density of anything?
+We're just asking,
+what's the mass of any object?
+We have not yet found a satisfactory answer
+to what's the mass of an object.
+Yes.
+Yes.
+This cannot depend on the planet Earth.
+Yes?
+I'm sorry.
+What did you just say?
+You can have a spring.
+Yes.
+You can have a spring.
+Let me repeat what he said.
+He said,
+take a spring to outer space
+and hook up some objects to them
+and see how fast they move
+and do a comparison.
+That's fairly close to what I had in mind.
+But it's not the word perfect answer.
+And I just want to take some time thinking about,
+yes, what do I learn from the period?
+How?
+Remember, you cannot peek into chapter six and seven
+because you've seen it before.
+I'm asking you,
+if somebody wrote, apparently,
+Shakespeare's place for it.
+It's one of the rumors, right?
+Suppose Newton comes to you and says,
+I have this great law,
+but I don't want to publish it under my name.
+So I'm going to give it to you.
+And you have got this new law,
+but how are you going to sell this?
+You've got to tell people how to use it.
+And you realize it's very subtle
+because the very first thing in that equation,
+which is M,
+is not yet being defined.
+And he gave an answer,
+which is fairly close.
+It doesn't rely on gravity.
+It doesn't rely on the planet.
+Now, you cannot say to me,
+take a force due to a spring
+and see what force it applies
+and divide by the acceleration to get the mass
+because we haven't defined force either.
+You've got to realize that.
+Let me ask you something.
+How do we decide how long a meter is?
+Can you tell me how do we know how long a meter is?
+Right.
+We will call it.
+First thing you've got to do is that
+some of these things are not God-given.
+A meter, for example,
+is not deduced from anything.
+Napoleon or somebody said,
+the size of my ego is one meter.
+That's it.
+That's a new unit of length.
+You take a material like silver,
+you put it in a glass case,
+and that's a meter.
+And that's the definition of a meter.
+That's not right or wrong.
+Then I ask you,
+what is two meters and what is three meters?
+We have ways of doing that, right?
+Take the meter and put it next to the meter.
+That's two meters.
+I cut it in half.
+I use some protractors and dividers and compasses.
+You can split the meter into any fraction you like.
+Likewise, for mass,
+we will take a chunk of some energy
+and some material,
+and we will call it a kilogram.
+I should give you some hint.
+That kilogram,
+I don't expect you to deduce.
+That is a matter of convention.
+Just like one second is some convention we use,
+and one meter is some convention we use.
+I'm going to give you a little help.
+I'm going to give you a glass case,
+and the glass case is an entity
+which is one kilogram by definition.
+Then I give you another object,
+elephants.
+Here's an elephant.
+I'm telling you,
+I'm going to give you a glass of the elephant.
+How do you find its mass?
+You got to take the hint he gave.
+I give you a spring and an elephant.
+What should we do?
+Yes?
+No.
+Remember,
+when we hang the elephant in outer space,
+nothing's going to happen.
+Right.
+Okay.
+When you say push the elephant,
+you want to push it a particular way?
+Or what do you want to do?
+That is correct,
+but you don't want to give it a definite push.
+Yes?
+Yeah.
+Or maybe,
+that's an interesting thing,
+but that's correct.
+You can do that too,
+but let me now put you out of your suspense.
+I think I've heard bits and pieces of the answer everywhere,
+so I don't want to wait till we get it word perfect.
+The point is,
+the one kilogram is a matter of convention.
+We want to know what is the mass of the elephant.
+We can do the seesaw experiment you suggested,
+but the seesaw experiment requires gravity.
+We don't want to do that.
+A spring will, on the other hand,
+exert a force.
+We don't know what the force of a spring is.
+If you assume that,
+you're not playing by the rule,
+because we don't know what force it exerts.
+But we do know it exerts a force.
+So here's what you do.
+You hook one end of the spring to a wall,
+and you pull it from rest by some amount,
+and you attach the one kilogram mass to it.
+Yes?
+A wall that will not move?
+No.
+Well,
+no, no, you're right.
+What can actually happen
+is that if you're in an enormous laboratory,
+which is made up of an enormous amount of material,
+and you're in an enormous object,
+then you will find that you can,
+in fact, attach it to the wall.
+You can go to outer space.
+No, it won't move very much.
+And once we know enough dynamics,
+we can answer your question.
+Does outer space even rob you of something
+to which you can anchor the spring?
+Answer is no.
+You can anchor things to objects in outer space.
+They just won't act the way gravity does.
+But you can nail it to the wall and pull one end.
+So you pull one end.
+We don't know what force it exerts,
+but it exerts some force.
+Now, I tie this one kilogram mass to it.
+I let it go,
+and I find the acceleration.
+That is the force,
+which I do not know in magnitude.
+Okay?
+But this is the acceleration of the one kilogram mass.
+Then I bring the elephants,
+and I pull the spring by the same amount,
+and I find the acceleration of the elephants.
+And the denominator is obviously the mass of the elephant.
+The force is not known,
+but it's the same force.
+So when I divide these two numbers,
+I'm going to find A1 over AE is equal to ME over M,
+which is the one kilogram mass.
+So what we needed was some mechanism
+of exerting some fixed force.
+We didn't have to know its magnitude.
+But the acceleration it produces on the elephant
+and on the mass are in the inverse ratio of their masses.
+So if you knew this was one kilogram,
+then the acceleration of the elephant,
+which would be some tiny number,
+maybe one hundredth of what this guy did,
+the mass of the elephant is 100 kilograms.
+Now there are again subtleties even here.
+If you think harder,
+you can get worried about other things.
+For example,
+how do I know that when I pull the spring the first time
+for the mass,
+it exerted the same force
+when I pulled the spring the second time for the elephant?
+After all, springs wear out.
+That's why you change your shock absorbers in your car.
+After a while, they don't do the same thing.
+So first we've got to make sure
+the spring exerts the fixed force.
+So the spring exerts the fixed force every time.
+You can say,
+how am I going to check that?
+I don't have the definition of force yet.
+But we do know the following.
+If I pull the one kilogram mass and I let it go,
+it does something, some acceleration.
+Then I pull it again by the same amount and let it go.
+I do it ten times.
+If every time I get the same acceleration,
+I'm convinced this is a reliable spring
+that is somehow producing the same force
+under the same condition.
+On the eleventh time,
+I pull the mass out and put the elephant in.
+I have some degree of confidence.
+I'm working with reliability.
+I'm going to get the mass of the elephant.
+Why is it so important?
+It's important for you guys to know
+that everything you write down on the notebook
+or blackboard as a symbol
+is actually a measured quantity.
+And you should know at all times
+how you will measure anything.
+If you don't know how to measure anything,
+you are doing algebra or trigonometry.
+You are not doing physics.
+So this also tells you
+that the mass of an object
+has nothing to do with gravitation.
+The mass of an object
+is how much it hates to accelerate
+in response to a force.
+Newton tells you
+forces cause acceleration.
+But that acceleration is not the same
+on different objects.
+Certain objects resisted more than others.
+They are said to have a bigger mass.
+And we can be precise about how much bigger
+by saying if the acceleration of a body
+to a given force is ten times that
+of a one kilogram mass,
+then its mass is then one tenth of one kilogram.
+This is how masses can be tabulated
+using a spring.
+So imagine then
+from now on
+we can find the mass of any object.
+Right?
+We know now with the same spring
+by this comparison we'll find.
+So all objects now can be attributed a mass.
+Then we may from this equation say
+a certain force is acting
+in a given situation
+by multiplying the m times the a.
+But then here is what we actually do.
+Now we go back to the spring.
+We go back to the spring
+and we want to learn something about the spring.
+We want to know how much force it exerts
+when I pull it by a certain amount.
+Now I can measure that
+because I pull it by one centimeter
+and I find the acceleration it exerts
+on a known mass that m times a
+is the force the spring is exerting.
+Then I pull it by 1.1 centimeter
+and I find m a.
+I find 1.2.
+I find m a.
+I draw a graph here
+of the amount by which I pull the spring
+versus the force it exerts.
+And it will typically look like this.
+And the formula we say is
+F equals minus kx
+where k is called the force constant.
+You've got to understand
+what the minus sign is doing here.
+This is the force exerted by the spring
+on the mass.
+It says if you pull it to the right
+so that x is positive
+the spring will exert a force
+which is in the negative direction.
+That's why you have a minus sign.
+And then all springs will do something like this.
+Further out they can do various things.
+The force may taper off.
+The force may not be given by a straight line.
+But for modest deformations
+every spring will have a linear regime
+in which the force is linearly proportional
+to the stretching.
+It also tells you that if you compress the spring
+compress it means x is now
+x is measured from this position
+where the spring is neither compressed
+nor expanded.
+So x is not really the coordinate of the endpoint.
+You've got to understand that.
+Springs have a natural length.
+So x is measured from that length.
+If it's positive it means you stretched it
+if it's negative it means compressed.
+And this equation is telling you
+if you compress it
+namely if x is negative
+f will be then positive
+because it's pushing you outwards.
+Therefore what we have done now
+is we can take all kinds of springs
+and we can calibrate the force they will exert
+under various conditions
+namely if you pull it by so much
+that's the force it will exert.
+So I want you to think for a second
+about two equations.
+One equation says f equals ma.
+Other equation says f equals minus x.
+So what's going on?
+Is one of them Newton's law?
+Then what's the other one?
+Maybe f equals minus kx should be called Newton's law.
+Why is f equals ma called Newton's law?
+Then what's the meaning of this expression?
+What's the difference between saying f is minus kx
+and saying f equals ma?
+They're saying very different things.
+Yep, right.
+Let me repeat.
+f equals ma is universally true
+independent of the nature of the force acting on a body.
+And then?
+Very good.
+That's the whole point.
+So the cycle of Newtonian dynamics has two parts.
+First one says if you knew the force acting on any body
+without going into what caused the force
+then you may set that force
+equal to the mass times acceleration of the body.
+We think of force as the cause
+and a as the result or the effect.
+Force causes acceleration
+and this is a precise statement.
+There Newton doesn't tell you
+what forces are going to be acting on a body
+in a given situation.
+If you leave the body alone
+maybe there's no force acting on it.
+If you connect the body to a spring
+which is neither compressed nor extended
+there's no force acting on it.
+If you pull the spring
+there is a force acting on it.
+Newton is not going to come and tell you
+what force the spring will exert
+when it's pulled by some amount.
+That is another part of your assignment.
+So the physicist has to constantly
+find out what forces act on bodies.
+That's a separate exercise.
+In every context in which I place a body
+I'll have to know what are the forces acting on it.
+I've got to find them by experimenting
+by putting other bodies
+and seeing how they react
+and then finding out
+that's the force that acts on a body
+when it's placed in this or that situation.
+Once you've got that
+then you come back.
+So in the case of a spring
+this is the law that you will deduce.
+If it's something else
+you'll have to deduce another law.
+For example we know
+that if a body is near the surface of the earth
+the force of gravity
+and that object seems to be
+m times g
+where g is 9.8.
+That's something you find out by experiment.
+So every time you're finding out
+a different force that's acting on a body
+with different origin.
+One says leave any body near the earth
+it feels the force.
+I know this is the right answer
+because if I now find the acceleration
+I find it's mg divided by m
+and I get minus g
+as the answer for all bodies.
+By the way that's a very remarkable property
+of the gravitational force.
+The cancellation of the two m's.
+If you look at the electrical force
+the force of say the proton
+and the electron or something
+is not proportional to the mass of either object.
+It's proportional to the electric charge
+of either object.
+Therefore when you divide by the mass
+to get the acceleration
+the response of different bodies
+is the inverse of the mass.
+But gravity has the remarkable property
+that the pull of the earth
+is still proportional to the inertia of the object.
+So when you divide by m
+m cancels
+and everything falls at the same rate
+at the surface of the earth.
+In fact it's a property of gravitational fields
+anywhere even in outer space
+where there is some residual field
+due to all the planets
+and all the stars in the universe
+that the force on a body
+is proportional to the mass of the body.
+So when you divide by the mass
+to get the acceleration
+you get the same answer.
+Everything
+gold, silver, diamonds, particles
+everything accelerates
+the same way in a gravitational field
+due to this remarkable fact.
+This was known for a long time
+but it took Mr. Einstein to figure out
+why nature was behaving in that fashion.
+If you have some time I'll tell you later.
+But there are two qualities
+which happen to be equal.
+One is inertial mass
+which is how much you hate your velocity to change.
+How hard you resist acceleration.
+That exists far from planets
+far from everything.
+Others is gravitational mass
+which is a measure of how much
+you're attracted to the earth.
+There's no reason why these two attributes
+have to be proportional.
+They are proportional and they are equal
+by choice of units
+and you can ask
+is it just an accident
+or is it part of the big picture?
+It turns out it's part of the big picture
+and all of general relativity
+is based on this one great equivalence
+of two quantities
+which are very different attributes.
+Why should the amount
+by which you're attracted to the earth
+be also a measure of how much you hate acceleration?
+Two different features, right?
+But they happen to be the same.
+Anyway, what physicists do
+is they put bodies in various circumstances
+and they did use various forces.
+This is the force of gravity.
+This is the force of the spring.
+Here's another force you might find.
+You put a chunk of wood on a table
+and you try to move it
+at constant speed
+then you find that you have to apply minimum force.
+You're moving at constant velocity.
+That means the force you're applying
+is cancelled by another force
+which has got to be the force of friction.
+So force of friction is the force
+of the force of the force of the force.
+It's yet another force.
+Then there are other forces, right?
+You guys know there's the electrical force.
+If you bring a plus charge near a plus charge
+if my body M has a plus charge
+and another plus charge is there
+it'll feel a force due to that.
+That's not going to be given by Newton.
+So Newton did not ever tell you
+what the expression for force is in a given constant.
+That is a constant study.
+Coulomb discovered the Coulomb's law
+which is the repulsion between charges.
+So if you have a proton that has quarks
+there are forces between the quarks
+and you can ask what's the force
+that this quark will exert on that quark
+at a certain separation.
+That's obviously not known to Newton.
+Remember, Newton said F equals M A
+but didn't tell you what value F has
+in a given contest.
+He just said whenever there's an acceleration
+it's going to be due to some forces
+and it's your job to find what the forces are.
+And to find the force what you will do is
+suppose somebody says,
+I've got a new force.
+Every time I go near the podium
+I find I'm drawn to it.
+That's the new force.
+Word gets around and we want to measure the force.
+So what do I do?
+I stand near this podium.
+I'm drawn to it.
+I cannot stop.
+So I tie a spring to my back
+and I anchor it to the wall
+and I see how much the spring stretches
+before the two forces balance.
+Then I know that the Kx is equal to the force
+this is exerting at this separation.
+I move a little closer
+and I find the stretching is a different number.
+Maybe the force is getting stronger.
+That's how by either balancing the unknown force
+with the known force
+or by simply measuring the acceleration
+as I fall towards the podium
+and multiplying by mass
+you can find the force that exerts on me.
+So it's not a cyclical and useless definition.
+It's a very interesting interplay
+and that's the foundation of all of mechanics.
+So we are constantly looking for values of F
+and we're constantly looking for responses of bodies
+to a known force.
+So here's a simple example
+of a complete Newtonian problem.
+A mass is attached to a spring.
+It is pulled by a certain amount, x,
+and it's released.
+What is it going to do?
+We go to Newton.
+Newton says F equals ma.
+So to make it a useful result in this problem
+we know the mass of this guy.
+We did the comparison with the elephant or something.
+a is the second derivative of x
+and for this problem
+when F is due to a spring
+we know the force is that
+by studying the spring
+and suddenly
+you have a mathematically complete problem.
+Mathematically complete problem is
+that you can find the function x of t
+by saying that the second derivative of the function
+is equal to minus k over m times the function.
+Then you go to the math department
+and say please tell me
+what's the answer to this equation.
+You don't have to worry about how you solve it
+but it's a problem in mathematics
+and the answer will be
+the price is going to be oscillating back and forth
+and that will come out of the water.
+This is how you formulate problems.
+You can formulate another problem.
+Later on we know about gravity.
+Newton finds out there's a force of gravity
+acting on everything.
+Here's the sun.
+Here's your planet.
+And at this instant
+the planet may be moving at that speed.
+Then the acceleration of the planet
+is the force of gravity
+between the planet and the sun
+which Newton will tell you
+is directed towards the sun
+and it depends on how far you are.
+So depending on how far the planet is from the sun
+and where it's located
+you will get the left hand side.
+That's another law.
+That's the law of universal gravitation.
+Then again you will find the evolution
+of the planetary motion
+because the rate of change of the rate of change
+of position is connected to the position.
+Again go to the math guys
+and say what's the answer to that
+and they tell you the answer
+which will be some elliptical motion.
+Okay.
+By the way, Mr. Newton
+did not have math guys he could go to.
+So not only did he formulate laws of gravitation
+he also invented calculus
+and he also learned how to solve
+the differential equation for calculus.
+So he probably felt that nobody around
+was doing any work
+because all the thing was given to this one person.
+It's really amazing
+that what Newton did in the case of gravity
+was to find the expression for this
+and humans a few years earlier
+he had also gotten this law
+by putting the two together
+out comes the elliptical motion of the planets.
+Okay.
+So we'll come back to that
+but you have to understand
+the structure of Newtonian mechanics.
+Generally any mechanics
+will require knowledge of the force.
+Now I'm going to add one more amendment
+you don't have to write in your notebook
+but you got to remember
+maybe you'll put a little T and circle it.
+Let me write it here.
+Ft means the total force on a body.
+If there are many forces acting on a body
+the acceleration is controlled by the sum.
+If I'm now working in one dimension
+it's obvious because I'm not using any vectors
+then you may have forces to the right
+forces to the left
+pushing, pulling
+you add them all up algebraically
+keeping track of their sign
+and that's the total force.
+That's connected to mass times acceleration.
+Now I'll give you the third law.
+The third law says that if there are two bodies
+then call one and two
+force of one on two
+is minus the force of second on the first one.
+This is the thing about action and reaction
+and all the laws that anybody knows
+have this property.
+So what does it require to be a successful mechanic
+to do all the mechanic problems?
+You got to be good at writing down the forces acting on a body.
+That's what it's all going to boil down to.
+So here's my advice to you.
+Do not forget the existing forces
+and do not make up your own forces.
+I've seen both happen.
+And right now at this point in our course
+whenever you have a problem where there is somebody
+and someone says write all the forces on it
+what you have to do is very simple.
+Every force with one exception
+can be seen as a force due to direct contact with the body.
+Either a rope is pulling it, rope is pushing it,
+you're pushing it, you're pulling it.
+That's a contact on the body.
+If nothing is touching the body
+there are no forces on it with one exception
+which is of course gravity.
+Gravity is one force that acts on a body
+without the source of the force actually touching it.
+That's it.
+Do not draw any more forces.
+People do draw other forces.
+When a body is going around in a circle
+they say there's some centrifugal force acting.
+There's no such thing.
+So be careful.
+Whenever there's a force it can be traced back
+to a tangible material cause
+which is all the time a force of contact
+with the exception of gravity.
+Okay, so with that if you write the right forces
+you will be just fine.
+You'll be able to solve all the problems we have in mechanics.
+So I'm going to now start doing simple problems in mechanics
+because they'll start out simple
+and as usual they will get progressively more difficult.
+Okay, so let's start with our first triumph
+will be motion in 1D.
+Here is some object.
+It's 5 kilograms and I apply 10 Newtons.
+Someone says what's the acceleration?
+And everyone knows it is 10 over 5 equals 2.
+But now we know how we got all the numbers
+that go into the very question.
+How do we know 10 Newtons is acting?
+Now I think you people know how we can say that with confidence.
+How do we know the mass of this is 5 kilograms?
+You know how you got that from an earlier experiment.
+So now we know how the numbers come in.
+The algebra is of course very trivial here.
+Then the next problem is a little more interesting.
+So here I got 3 kilograms and I got 2 kilograms
+and I'm pushing with 10 Newtons
+and I want to know what happens.
+So one way is just use your common sense
+and realize that if you push it this way
+these two guys are going to move together
+and know intuitively that if they move together
+they will behave like an object of mass 5
+and the acceleration will again be 2.
+But there's another way to do this
+and I'm going to give you now the simplest example
+of the other way which is to draw a free body diagram.
+By the way, when I say there's 10 Newtons acting this way
+you might say what about gravity?
+What about the table?
+So imagine that this is an outer circle.
+This is a space where there's no gravity for now.
+The motion is just along the x-axis.
+So the free body diagram, it says you can pick any one body that you like
+and apply F equal to ma to it
+provided you identify all the forces acting on that body.
+So we'll first pick the body with mass 3.
+Here's the body of mass 3.
+What are the forces on it?
+This is certainly acting on it.
+Then you have to ask what other force is acting.
+So here is where you have to think.
+Anybody want to guess from the last row what force?
+Yes?
+Right.
+So let's give it a name.
+So let's point it that way and call it F213.
+That's the end of this guy.
+Then let's look at the other fellow.
+Maybe you should complete the force acting on this one.
+Can you tell me what it is?
+Same person from the last row.
+And how big is that?
+Right.
+So I don't want to give it too many different names, right?
+Because F23 and F32 are equal and opposite.
+I'm already showing F23 acting to the left.
+So let me give it some other name like F.
+Then you agree this would be the same F but pointing that way.
+And here is a mistake some people make.
+They add to that the 10 Newtons.
+It's the 10 Newtons acting on it because I know the 10 Newton is pushing me
+and I'm going to feel it even if I'm here.
+That would be a mistake.
+That's an example of adding a force
+that you really shouldn't be adding.
+The only force acting on this guy is this little f.
+That's in turn because this guy is being pushed by the 10 Newton
+but that's not your problem.
+Your problem is to only look at the forces of contact on you
+and that is just this f.
+Then we do F equals ma for these two guys.
+For this guy, F equals ma would be 10 minus F is 3 times a.
+The other one will be F equals 2a.
+Notice I'm using the same acceleration for both.
+I know that if the second mass moved faster than the first one
+then the picture is completely wrong.
+If it moves slower than the first one, it means it's rammed into this one.
+That also cannot happen.
+They're moving at the same acceleration.
+There's only one unknown a.
+Once you got this, you realize what you got to do.
+This equation is begging you to be added to this equation.
+You got a plus F and a minus F so you got to do what you got to do.
+You add the two.
+You get 10 equals 5a and you get a equals 2.
+Once you got a equals 2, you can go back and realize here that F is equal to 4.
+You got really 4 Newtons.
+Now we know the full story.
+4 Newtons acting on 2 kilograms gives you an acceleration of 2.
+On this guy, I have 10 from the left and I have 4 acting this way, 4 acting that way.
+That is 6 Newtons.
+So I have 3 Newtons divided by 3 kilograms is also an acceleration of 2.
+This is a simple example of free body diagrams.
+Very simple.
+If you can do this, you can do most of the problems you will run into.
+Just don't add stuff that's not there.
+That's all you have to be careful about.
+And the stuff that people tend to add sometimes is to keep drawing the 10 Newton as acting on that.
+Now here's another variation.
+The variation looks like this.
+I got 3 kilograms and I have a rope and I got 2 kilograms and I pulled this guy with 10 Newtons.
+What's going to happen?
+Again, your common sense tells you, look, you're pulling something whose effective mass seems to be 5.
+The answer is 2.
+But let's get that systematically by using free body diagrams.
+Now there are really 3 bodies here.
+Block 1, block 2 and the rope connecting them.
+Now in all these examples, this rope is...
+Assumed to be massless.
+Now we know there is no thing called a massless rope.
+But most ropes have a mass which may be negligible compared to the 2 blocks you're pulling.
+So we'll take the idealized limit where the mass of the rope is 0.
+So here is the deal.
+3 kilograms is being pulled by the rope on the right with a force that I'm going to call T, which stands for tension.
+The rope is being pulled backwards by this guy with T.
+And what is the force on the other side?
+What should that be?
+Who said T?
+And why is it definitely T and not something else?
+What would happen if it's something else?
+It won't snap, but something else will be a problem.
+Yes?
+Not only faster, what will be its acceleration?
+If the 2 forces don't cancel, you have a net force.
+What are you going to divide by to get the acceleration?
+0, right?
+So massless body cannot have a net force on it because the acceleration of the rope cannot be a net force.
+Right?
+The acceleration of the rope cannot be infinite.
+In fact, it has to be some finite number, which is the acceleration of either of these 2 guys.
+So massless bodies will always have, like a massless rope, equal and opposite forces on the 2 ends.
+And that is called the tension on the rope.
+So when you say the rope is under tension, being pulled from both sides by a certain force,
+the tension is not 0 just because this T and that T cancel.
+It's true the net force is 0, but it doesn't mean you can ignore it.
+Right?
+So when you say the rope is under tension, being pulled by my favorite animals, the elephants from both sides,
+by equal force, you don't find any consolation in the fact that these forces add up to 0.
+You feel the pain.
+That pain is what we...
+This gentleman doesn't agree.
+One of you guys nodding your head.
+You feel the pain, you agree?
+Okay.
+That force is called the tension.
+So whenever you're asked in a problem, what's the tension on the rope?
+You're looking for that equal and opposite forces acting at 2 ends of the rope.
+We don't know what it is.
+We'll give it a name.
+But by linking that T to that T, you can also figure out the same T must be exerted on this one by Newton's third law.
+Because if this block is the only one that could be pulling this rope with T,
+therefore the rope should be pulling the block with T in the other direction.
+Then I got 10 Newtons here.
+Now you can do F equals ma for the three different objects.
+There's nothing to do here because the forces are 0, the mass is 0.
+It doesn't tell you anything.
+The first one tells you T equals 3a.
+The other one tells you 10 minus T equals 2a.
+Now again, we know what to do.
+We add these numbers and we get 10 equals 5a.
+Therefore, we find a equals 2.
+Once you find a equals 2, you find T equals 6.
+The tension on the rope is 6 Newtons.
+Now this is very important because when you buy a rope, they'll tell you how much tension it can take before it'll snap.
+If your plan is to accelerate a 3 kilogram mass with an acceleration of 2 meters per second,
+you better have a rope that can furnish that force and it can take the tension of 6 Newtons.
+All right.
+Now for the...
+Whoa.
+Okay, I'm going to give the last class of problem, which is pretty interesting,
+which is what happens to you when you're in an elevator.
+So here is the weighing machine and that's you standing on the elevator.
+And we're going to ask,
+what's the needle showing at different times?
+First take the case in the elevator is in the ground floor of some building and completely at rest.
+Then let's look at the spring.
+The spring is getting squashed because you're pushing down and the floor is pushing up.
+You're pushing down with the weight mg and the floor is going to be pushing up with weight mg
+because the spring is not going anywhere.
+So the spring is being pushed by mg here and mg here.
+Therefore, it'll compress by an amount x,
+which is equal to mg divided by the force constant of the spring.
+By the way, that's the subtle thing people may not have realized.
+Even in the case of this spring, when you pull it,
+if you pull it to the right by some force,
+remember the wall is pulling to the left with the same force.
+So springs are always pushed or pulled on either side with the same force.
+We focus on one because we are paying for it,
+but the wall is doing the opposite.
+We don't pay any attention to that.
+But you cannot have a spring pulled only at one side
+because then it'll then accelerate with infinite acceleration.
+So this spring is getting squashed on either side
+and it'll be squashed by a certain amount of x that depends on your mass
+and that x will be turned into a motion of a needle
+and that'll read your mass.
+Now what happens if the elevator is accelerating upwards
+with an acceleration a?
+That's the question.
+Now the way I analyze it is I say,
+if I look at me and I write the forces on me,
+that is mg acting down,
+let me use w as the force constant
+as the symbol to represent the force exerted by the spring.
+W minus mg is ma.
+That is f equals ma.
+When I was not accelerating and everything was at rest,
+ma was zero, w was mg,
+and w was the reading on the needle.
+But if I'm accelerating,
+the force exerted by the spring
+and therefore the needle, the weighing machine reads,
+is m times g plus a.
+That means when you're accelerating upwards,
+as the elevator picks up speed,
+the reading on the spring will be more
+and you will feel heavy.
+You feel heavy and it reads more
+because the poor spring not only has to support you
+from falling through the floor,
+but also accelerate you counter to what gravity wants to do.
+That's why it is g plus a.
+So you picked up some speed,
+then you're coasting along at a steady speed,
+then a drops out and you weigh your normal self.
+As you come to the top of the building,
+the elevator has to decelerate
+so that it loses its positive and negative forces
+and comes to rest.
+So a will be negative
+and w, in fact, will be less than mg.
+So you will feel weightless for a short time
+or you will feel your weight is little,
+then you come to rest.
+Then the opposite happens on the way down.
+Let me just briefly look at the ride on the way down.
+As you start at the top and go down,
+your acceleration is negative.
+Remember, you've got to keep track of the sign of acceleration.
+So if you're picking up speed towards the ground,
+a is negative,
+so it would be g plus a, but a is a negative number.
+So let me write it as g minus the absolute value of a.
+And you can see that if a was equal to g,
+your downward acceleration is that of gravity,
+namely the cable has snapped in the elevator,
+then you don't feel any weight.
+You don't feel any weight because your weight is the opposition
+you get to falling through the floor,
+but if the floor is giving way and you're just falling freely,
+you feel weightless.
+So it's wrong to think that you feel weightless
+because you've escaped the pull of gravity.
+We all know that in the falling elevator,
+you've definitely not escaped the pull of gravity.
+It's going to catch up with you in a few seconds.
+Likewise, when you're in outer space,
+when you're orbiting the Earth,
+people are always floating around in these space stations.
+They have not escaped the pull of gravity either.
+They just stopped fighting it.
+If you escape the pull of gravity,
+your spaceship will be off, won't be orbiting the Earth.
+So anyway, I will return to this next time.
+So do your problems.
+Now, there's quite a few problems.
+You should start them.
+Right away.

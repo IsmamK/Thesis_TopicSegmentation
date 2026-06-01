@@ -1,58 +1,39 @@
-# 📋 DECISION LOG
+# DECISION LOG
 
-**Every significant design or scope decision goes here. Prevents re-litigating the same questions.**
+This file records significant design and scope decisions. Dates reflect when the
+current project state made each decision operational.
 
-Format per entry:
-- **Date** — when was this decided
-- **Decision** — what was decided (one sentence)
-- **Alternatives considered** — what else was on the table
-- **Reason** — why this option was chosen
-- **Owner** — who made the final call
-
----
-
-## Architecture decisions
+## Architecture Decisions
 
 | Date | Decision | Alternatives | Reason | Owner |
 |---|---|---|---|---|
-| TBD | Use faster-whisper for ASR | openai-whisper, AssemblyAI API | 3× faster on CPU, same WER, fully local | Team |
-| TBD | Use Llama-3.1 8B via Ollama for refinement | GPT-4 API, Mistral 7B | Reproducible, free, no data leaves local | Team |
-| TBD | SBERT/MPNet as primary text backbone | E5, BGE, GTE | Strong on semantic similarity benchmarks, well-documented | Team |
-| TBD | 5-fold cross-validation at video level | Random sentence split, 80/20 holdout | Prevents within-video leakage; standard for small corpora | Team |
-| TBD | Two-level hierarchy (chapter + subtopic) | Three levels, flat only | Three levels unsupported by creator annotations; flat loses novelty claim N3 | Team |
-| TBD | TransNetV2 for shot detection | PySceneDetect, custom CNN | Pre-trained, no fine-tuning needed, fast | Team |
-| TBD | PaddleOCR for slide text | Tesseract, EasyOCR | Better accuracy on projected slides, GPU-optional | Team |
+| 2026-05-26 | Use Whisper/faster-whisper style ASR for transcripts | Manual transcripts, API ASR | Local, reproducible, strong lecture transcription quality | Team |
+| 2026-05-26 | Use local Ollama Llama-3.1 8B for optional refinement/titling | GPT-4 API, no LLM | Avoid closed API dependency and data egress | Team |
+| 2026-05-31 | Treat BGE/E5 cross-model scores as the current best chapter-level direction | MPNet-only, visual-first fusion | Best verified 30-video Pk/WD is from cross-model conservative selection | Team |
+| 2026-05-27 | Keep two-level hierarchy: chapters and subtopics | Flat only, three levels | Matches available labels and is understandable for defense | Team |
+| 2026-05-27 | Extract shot, OCR, and prosody signals but report caveats | Text-only only | Enables multimodal analysis while acknowledging noisy auxiliary signals | Team |
 
----
-
-## Dataset decisions
+## Dataset Decisions
 
 | Date | Decision | Alternatives | Reason | Owner |
 |---|---|---|---|---|
-| TBD | Use YouTube creator-provided chapters as silver labels | Manual annotation from scratch | 30 videos × 2 annotators from scratch = 300+ hours; creators know their own content | Team |
-| TBD | Release URLs + metadata only, not video files | Full video release | YouTube ToS prohibits redistribution | Team |
-| TBD | 5 academic domains (CS, Math, Physics, Biology, History) | All CS, random domains | Stress-test cross-domain generalisation | Team |
+| 2026-05-25 | Use public YouTube lectures with creator chapters | Private lectures, fully manual GT | Public, reproducible, feasible within thesis timeline | Team |
+| 2026-05-25 | Release URLs/metadata/annotations rather than raw videos | Redistribute videos | Respects platform terms and reduces release size | Team |
+| 2026-05-31 | Report the true domain distribution rather than a balanced claim | Force 5x6 balance | Manifest is Biology 6, CS 7, Math 4, Philosophy 6, Physics 7 | Team |
 
----
-
-## Evaluation decisions
+## Evaluation Decisions
 
 | Date | Decision | Alternatives | Reason | Owner |
 |---|---|---|---|---|
-| TBD | Bootstrap n=1000 for CIs | n=500, analytical CI | 1000 is the community standard; 500 gives noisier CIs | Team |
-| TBD | Wilcoxon signed-rank for significance | t-test, permutation test | Non-parametric; video-level scores are not normally distributed | Team |
-| TBD | Holm correction for multi-method comparisons | Bonferroni | Holm is more powerful while still controlling FWER | Team |
+| 2026-05-28 | Use 30-video YouTube GT as official chapter benchmark | `reviewed_only` 31-video runs | Official dataset has 30 videos; 31-video runs are not clean enough for final claims | Team |
+| 2026-05-28 | Report Pk and WD as primary segmentation metrics | Accuracy only, strict F1 only | Pk/WD are standard and less brittle for near-boundary shifts | Team |
+| 2026-05-31 | Discuss strict F1 as a limitation | Hide low F1 | Best Pk/WD method is conservative and has low exact-match recall | Team |
+| 2026-05-31 | Use diagnostic negative results in the thesis | Report only wins | Oracle-k and bert-wiki transfer results strengthen the research argument | Team |
 
----
-
-## Scope decisions
+## Scope Decisions
 
 | Date | Decision | Alternatives | Reason | Owner |
 |---|---|---|---|---|
-| TBD | Publish model on HuggingFace | GitHub release only | HuggingFace model hub is the community norm; easier deployment | Team |
-| TBD | Publish dataset on Zenodo | GitHub LFS, OSF | Zenodo provides DOI + CC licence + long-term archival | Team |
-| TBD | No real-time/streaming support in v1 | Streaming from day 1 | Scope creep; flagged as Future Work | Team |
-
----
-
-*Add new rows as decisions are made. Don't delete rows — if a decision reverses, add a new row with the updated decision and a "Supersedes [date]" in the Reason column.*
+| 2026-05-31 | Do not claim sub-0.30 Pk/WD | Overstate result | Current verified best is Pk 0.3715, WD 0.3766 | Team |
+| 2026-05-31 | Keep public-release cleanup separate from research cleanup | Delete files immediately | Avoid accidental loss of user data; release package can exclude internal files | Team |
+| 2026-05-31 | Frame candidate ranking as future work | Keep random ablations | Oracle-k shows k-selection is not the bottleneck | Team |

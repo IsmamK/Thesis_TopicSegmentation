@@ -20,11 +20,11 @@ boundary positions by up to $\pm 2$ sentences and assign titles to each segment.
 \begin{figure}[t]
   \centering
   % \includegraphics[width=\linewidth]{figures/pipeline.pdf}
-  \fbox{\parbox{0.95\linewidth}{\centering Figure placeholder --- pipeline diagram\\[4pt]
+  \fbox{\parbox{0.95\linewidth}{\centering Pipeline summary\\[4pt]
     \textbf{Video} $\xrightarrow{\text{ASR}}$ \textbf{Sentences}
     $\xrightarrow{\text{Embed}}$ \textbf{Vectors}
-    $\xrightarrow{\text{RWF}}$ \textbf{Fused signal}
-    $\xrightarrow{\text{TwoStage}}$ \textbf{Boundaries}
+    $\xrightarrow{\text{Scoring}}$ \textbf{Boundary signal}
+    $\xrightarrow{\text{Selection}}$ \textbf{Boundaries}
     $\xrightarrow{\text{LLM}}$ \textbf{Titled segments}}}
   \caption{The \lecseg{} pipeline. Inputs: a video file and its audio.
     Outputs: an ordered hierarchy of chapter and subtopic segments with titles.}
@@ -41,9 +41,11 @@ Computer Science (CS), Mathematics, Physics, Biology, and Humanities/Philosophy.
 Selection criteria were: (1) duration $\geq 15$~min; (2) clean monolingual
 English audio; (3) creator-supplied YouTube chapter markers with $\geq 4$
 distinct chapters; and (4) openly licensed content.
-The resulting corpus comprises approximately 55~hours of audio (mean video
-duration $109 \pm 138$~min; median $57$~min), with a total of 329 chapters
-(mean $11 \pm 4$ per video).
+The resulting corpus comprises 32.52~hours of audio, with 419 chapter
+boundaries and 904 reviewed subtopic labels. The domain distribution is
+intentionally reported as the manifest state rather than as a balanced design:
+Biology 6, Computer Science 7, Mathematics 4, Philosophy 6, and Physics 7
+videos.
 
 \subsection{Annotation protocol}
 

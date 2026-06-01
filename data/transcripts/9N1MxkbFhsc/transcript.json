@@ -1,0 +1,3067 @@
+{
+  "video_id": "9N1MxkbFhsc",
+  "language": "en",
+  "duration_sec": 2564.6,
+  "segments": [
+    {
+      "start": 6.0,
+      "end": 13.54,
+      "text": "Hello class, so this is lecture two. We're going to cover chemistry of the cell. Now all of you"
+    },
+    {
+      "start": 13.54,
+      "end": 18.4,
+      "text": "have taken organic chemistry. It's a prerequisite for the course and some of you are"
+    },
+    {
+      "start": 18.4,
+      "end": 26.12,
+      "text": "currently enrolled in biochemistry or you have taken biochemistry either 403 and 404 with Dr."
+    },
+    {
+      "start": 26.12,
+      "end": 38.5,
+      "text": "Khan or 304 I believe is the other biochemistry lecture or course. And so this subject matter is"
+    },
+    {
+      "start": 38.5,
+      "end": 44.2,
+      "text": "actually pretty important for everything that we do in the course and this lecture is mainly set"
+    },
+    {
+      "start": 44.2,
+      "end": 50.82,
+      "text": "up to be a review of that and so if you guys aren't all that familiar with biochemistry,"
+    },
+    {
+      "start": 50.82,
+      "end": 56.02,
+      "text": "I suggest that you sort of review this lecture very closely."
+    },
+    {
+      "start": 56.12,
+      "end": 63.32,
+      "text": "And do the reading in the book. Remember this is a course on cell biology and biochemistry is an"
+    },
+    {
+      "start": 63.32,
+      "end": 69.62,
+      "text": "important part of that but you can probably get through if you haven't taken biochemistry. Just"
+    },
+    {
+      "start": 69.62,
+      "end": 76.52,
+      "text": "make sure that you understand a lot of what's going on here. Okay so to just begin, we saw"
+    },
+    {
+      "start": 76.52,
+      "end": 82.12,
+      "text": "last time that that cells actually have a lot of different compartments. The ER, the Golgi,"
+    },
+    {
+      "start": 82.12,
+      "end": 85.82,
+      "text": "and these compartments help segregate chemical reactions."
+    },
+    {
+      "start": 85.82,
+      "end": 85.94,
+      "text": "So we're going to talk about the different compartments and how they're used. And then"
+    },
+    {
+      "start": 85.94,
+      "end": 86.04,
+      "text": "we're going to talk about the different compartments and how they're used. And then"
+    },
+    {
+      "start": 86.04,
+      "end": 86.1,
+      "text": "we're going to talk about the different compartments and how they're used. And then"
+    },
+    {
+      "start": 86.1,
+      "end": 87.62,
+      "text": "we're going to talk about the different compartments and how they're used. And in its most"
+    },
+    {
+      "start": 87.62,
+      "end": 92.82,
+      "text": "basic form you can sort of think of it as in the cytoplasm that's a reducing environment,"
+    },
+    {
+      "start": 92.82,
+      "end": 99.86,
+      "text": "okay it's very hard for certain bonds to form. Versus the ER which is actually an oxidizing"
+    },
+    {
+      "start": 99.86,
+      "end": 104.5,
+      "text": "environment. And we'll learn more about this later, especially when we're covering"
+    },
+    {
+      "start": 105.7,
+      "end": 111.59,
+      "text": "transport through the ER and the Golgi. But one of the things that you guys really need"
+    },
+    {
+      "start": 111.59,
+      "end": 116.35,
+      "text": "to know for the course are redox reactions. And these are essential for the body. And so"
+    },
+    {
+      "start": 116.35,
+      "end": 121.31,
+      "text": "for life. And redox is just short for oxidation reduction or reduction oxidation reactions."
+    },
+    {
+      "start": 121.31,
+      "end": 128.53,
+      "text": "And we'll see some examples of these later on. They become very important for a whole"
+    },
+    {
+      "start": 128.53,
+      "end": 135.13,
+      "text": "bunch of different processes. Now, when it comes to chemistry of the cell, the cell is"
+    },
+    {
+      "start": 135.13,
+      "end": 140.27,
+      "text": "predominantly composed of hydrogen, carbon, oxygen, and nitrogen. But there's also a whole"
+    },
+    {
+      "start": 140.27,
+      "end": 147.51,
+      "text": "bunch of other essential elements like calcium, sodium, potassium, phosphorus, sulfur, zinc,"
+    },
+    {
+      "start": 147.51,
+      "end": 153.55,
+      "text": "copper, iron, and magnesium. And I'm sure you guys can all think of different aspects"
+    },
+    {
+      "start": 153.55,
+      "end": 159.83,
+      "text": "of the cell that sort of use these different elements. I'm sure you're all familiar with"
+    },
+    {
+      "start": 159.83,
+      "end": 168.31,
+      "text": "the sodium-potassium pump. Calcium is also a small signaling molecule that is stored"
+    },
+    {
+      "start": 168.31,
+      "end": 169.99,
+      "text": "in the endoplasmic reticulum."
+    },
+    {
+      "start": 170.27,
+      "end": 179.59,
+      "text": "We all know about where phosphorus is used. It's actually used in ATP and in DNA as well"
+    },
+    {
+      "start": 179.59,
+      "end": 187.97,
+      "text": "as oxidative phosphorylation and the phosphate group, which we'll see in a second, is used"
+    },
+    {
+      "start": 187.97,
+      "end": 195.16,
+      "text": "in signaling. There's also a bunch of others, sulfur, zinc, copper, iron, and magnesium."
+    },
+    {
+      "start": 195.16,
+      "end": 199.94,
+      "text": "And in the case with zinc, I'm sure you guys have all heard of zinc fingers. These are"
+    },
+    {
+      "start": 199.94,
+      "end": 200.62,
+      "text": "transcriptional."
+    },
+    {
+      "start": 200.62,
+      "end": 204.1,
+      "text": "And in the case with copper, zinc, copper, and iron, both copper and iron are very important"
+    },
+    {
+      "start": 204.1,
+      "end": 210.5,
+      "text": "in the electron transport chain, which is used for oxidative phosphorylation. And so"
+    },
+    {
+      "start": 210.5,
+      "end": 214.92,
+      "text": "these guys are great at sort of shuttling electrons around."
+    },
+    {
+      "start": 214.92,
+      "end": 224.06,
+      "text": "Also iron is used in hemoglobin and myoglobin to sort of shuttle around oxygen. And if any"
+    },
+    {
+      "start": 224.06,
+      "end": 230.02,
+      "text": "of you guys have ever set up a PCR reaction using Taq polymerase in one of your laboratory"
+    },
+    {
+      "start": 230.62,
+      "end": 236.26,
+      "text": "cases, the buffer actually contains magnesium because magnesium is contained in the active"
+    },
+    {
+      "start": 236.26,
+      "end": 243.83,
+      "text": "site of pretty much all polymerases. And we'll see that when we're covering DNA replication."
+    },
+    {
+      "start": 243.83,
+      "end": 249.31,
+      "text": "So here's just another way to sort of look at the elements in a cell. They're color-coded"
+    },
+    {
+      "start": 249.31,
+      "end": 254.81,
+      "text": "here. And 70% of the cell is water. And if you take out the water, the relative amounts"
+    },
+    {
+      "start": 254.81,
+      "end": 260.71,
+      "text": "of the other elements become a lot more prominent. And so if you compare the human body to the"
+    },
+    {
+      "start": 260.71,
+      "end": 269.01,
+      "text": "earth's crust, you can see we're very enriched in hydrogen, carbon, oxygen, and nitrogen,"
+    },
+    {
+      "start": 269.01,
+      "end": 274.59,
+      "text": "and a lot less of the others. Whereas in the earth's crust, some of these other elements"
+    },
+    {
+      "start": 274.59,
+      "end": 283.27,
+      "text": "like aluminum, silica, oxygen, calcium, and sodium are much more prevalent. And the take-home"
+    },
+    {
+      "start": 283.27,
+      "end": 290.03,
+      "text": "message here is that it actually takes a lot of energy to contain, to maintain this ordered"
+    },
+    {
+      "start": 290.03,
+      "end": 296.11,
+      "text": "state where you have mostly hydrogen, carbon, and oxygen, and nitrogen in the cell. And"
+    },
+    {
+      "start": 296.11,
+      "end": 298.99,
+      "text": "we'll see that later on."
+    },
+    {
+      "start": 298.99,
+      "end": 307.05,
+      "text": "So if we look at some of the different elements in a cell, iron sulfur is a pretty minor component"
+    },
+    {
+      "start": 307.05,
+      "end": 314.15,
+      "text": "when you sort of factor in the amount of iron and sulfur within a cell. But it's actually"
+    },
+    {
+      "start": 314.15,
+      "end": 319.15,
+      "text": "a major player. Okay, this is just an EM of mitochondria. We saw this last week. And this"
+    },
+    {
+      "start": 319.15,
+      "end": 320.09,
+      "text": "is a very important component of mitochondria. And this is a very important component of"
+    },
+    {
+      "start": 320.09,
+      "end": 327.47,
+      "text": "the last time. And the iron sulfur clusters are very important for cellular metabolism."
+    },
+    {
+      "start": 327.47,
+      "end": 335.37,
+      "text": "There's two main types of iron sulfur cluster, 2-iron-2-sulfur or 4-iron-4-sulfur. And these"
+    },
+    {
+      "start": 335.37,
+      "end": 341.15,
+      "text": "are integral components of electron transfer or oxidative phosphorylation that actually"
+    },
+    {
+      "start": 341.15,
+      "end": 347.71,
+      "text": "happens in the mitochondria. But they're also contained in the catalytic centers of"
+    },
+    {
+      "start": 347.71,
+      "end": 350.15,
+      "text": "other proteins as well."
+    },
+    {
+      "start": 350.15,
+      "end": 356.93,
+      "text": "And iron is great at moving electrons because it can exist in a plus 2 or plus 3 state."
+    },
+    {
+      "start": 356.93,
+      "end": 363.03,
+      "text": "Now one of the interesting things about iron is that it's insoluble. And it's also toxic."
+    },
+    {
+      "start": 363.03,
+      "end": 369.71,
+      "text": "So cells actually go to great lengths to acquire the appropriate amount of iron and regulate"
+    },
+    {
+      "start": 369.71,
+      "end": 375.45,
+      "text": "how much is around. Because if you have too much iron, it becomes toxic. And if not enough,"
+    },
+    {
+      "start": 375.45,
+      "end": 378.91,
+      "text": "it makes it that much more difficult to survive."
+    },
+    {
+      "start": 378.91,
+      "end": 380.15,
+      "text": "And I already sort of answered this question. I think it's important to know that iron is"
+    },
+    {
+      "start": 380.15,
+      "end": 381.15,
+      "text": "very important."
+    },
+    {
+      "start": 381.15,
+      "end": 384.87,
+      "text": "But I also wanted to ask you a question earlier. But can you think of other molecules in mammals"
+    },
+    {
+      "start": 384.87,
+      "end": 392.03,
+      "text": "that require iron? And two great examples are hemoglobin and myoglobin, which are involved"
+    },
+    {
+      "start": 392.03,
+      "end": 398.26,
+      "text": "in sort of shuttling oxygen around."
+    },
+    {
+      "start": 398.26,
+      "end": 402.82,
+      "text": "So here's just some of the chemistry of some of the major elements, carbon, oxygen, and"
+    },
+    {
+      "start": 402.82,
+      "end": 407.26,
+      "text": "nitrogen. And you guys should have all had this in organic chemistry. Oxygen can form"
+    },
+    {
+      "start": 407.26,
+      "end": 412.84,
+      "text": "two bonds, nitrogen can form three, and carbon forms four."
+    },
+    {
+      "start": 412.84,
+      "end": 419.8,
+      "text": "And these are sort of, it's important that you guys sort of understand sort of the chemical"
+    },
+    {
+      "start": 419.8,
+      "end": 424.84,
+      "text": "properties of these because they become very important in cell biology."
+    },
+    {
+      "start": 424.84,
+      "end": 428.08,
+      "text": "And part of the reason is because of dipoles, right?"
+    },
+    {
+      "start": 428.08,
+      "end": 433.26,
+      "text": "And here's just a simple dipole and dipole moment with water."
+    },
+    {
+      "start": 433.26,
+      "end": 438.54,
+      "text": "And so you can see that it has a net positive charge on one side and a net negative charge"
+    },
+    {
+      "start": 438.54,
+      "end": 439.62,
+      "text": "on the other."
+    },
+    {
+      "start": 439.62,
+      "end": 444.84,
+      "text": "And so if you have a positively charged ion in the cell, it can get surrounded by water"
+    },
+    {
+      "start": 444.84,
+      "end": 452.06,
+      "text": "in this fashion versus a negatively charged ion will associate with water in this sort"
+    },
+    {
+      "start": 452.06,
+      "end": 458.72,
+      "text": "of fashion where the hydrogens are sort of surrounding the negative charged ion."
+    },
+    {
+      "start": 458.72,
+      "end": 463.66,
+      "text": "Okay."
+    },
+    {
+      "start": 463.66,
+      "end": 469.82,
+      "text": "And so some of the other things that you really need to know are covalent versus non-covalent"
+    },
+    {
+      "start": 469.82,
+      "end": 470.82,
+      "text": "bonds."
+    },
+    {
+      "start": 470.82,
+      "end": 471.82,
+      "text": "Okay."
+    },
+    {
+      "start": 471.82,
+      "end": 474.24,
+      "text": "And so covalent bonds are very important in a cell."
+    },
+    {
+      "start": 474.24,
+      "end": 478.26,
+      "text": "Covalent bond you can sort of think of as being sort of tight."
+    },
+    {
+      "start": 478.26,
+      "end": 479.26,
+      "text": "Okay."
+    },
+    {
+      "start": 479.26,
+      "end": 486.2,
+      "text": "It's tightly associated, requires a lot of energy to be broken and they tend to be a"
+    },
+    {
+      "start": 486.2,
+      "end": 493.44,
+      "text": "lot shorter versus hydrogen bonds, which are much further apart and you have a donor arm"
+    },
+    {
+      "start": 493.44,
+      "end": 495.88,
+      "text": "and an acceptor arm in hydrogen bonding."
+    },
+    {
+      "start": 495.88,
+      "end": 496.88,
+      "text": "Okay."
+    },
+    {
+      "start": 496.88,
+      "end": 497.5,
+      "text": "And these become important in everything from the way proteins fold to the way they're going."
+    },
+    {
+      "start": 497.5,
+      "end": 498.5,
+      "text": "Okay."
+    },
+    {
+      "start": 498.5,
+      "end": 499.5,
+      "text": "And so you can see that these are very important in a cell."
+    },
+    {
+      "start": 499.5,
+      "end": 500.5,
+      "text": "And so covalent bonds are sort of important in a cell."
+    },
+    {
+      "start": 500.5,
+      "end": 501.5,
+      "text": "Covalent bonds, you can sort of think of as being sort of tight."
+    },
+    {
+      "start": 501.5,
+      "end": 505.12,
+      "text": "And so covalent bonds are sort of interlinked to the way DNA and RNA associate with one"
+    },
+    {
+      "start": 505.12,
+      "end": 506.48,
+      "text": "another."
+    },
+    {
+      "start": 506.48,
+      "end": 507.78,
+      "text": "And we'll see that in a second."
+    },
+    {
+      "start": 507.78,
+      "end": 508.78,
+      "text": "Okay."
+    },
+    {
+      "start": 508.78,
+      "end": 514.0,
+      "text": "But here are just some of the hydrogen bonds that can exist in the cell where you have"
+    },
+    {
+      "start": 514.0,
+      "end": 517.18,
+      "text": "a donor arm and an acceptor arm."
+    },
+    {
+      "start": 517.18,
+      "end": 521.58,
+      "text": "And the donor arm will always have the hydrogen on it."
+    },
+    {
+      "start": 521.58,
+      "end": 524.15,
+      "text": "Okay."
+    },
+    {
+      "start": 524.15,
+      "end": 529.55,
+      "text": "And these just are very, very important for non-covalent interactions."
+    },
+    {
+      "start": 529.55,
+      "end": 530.55,
+      "text": "And you know."
+    },
+    {
+      "start": 530.55,
+      "end": 531.55,
+      "text": "Covalent bonds in a cell."
+    },
+    {
+      "start": 531.55,
+      "end": 536.89,
+      "text": "in polypeptides and in nucleic acids are very important to hold them together"
+    },
+    {
+      "start": 536.89,
+      "end": 543.25,
+      "text": "like the phosphodiester bond whereas you know the anti parallel beta sheets rely"
+    },
+    {
+      "start": 543.25,
+      "end": 550.55,
+      "text": "on or the anti parallel DNA requires the hydrogen bonding and we'll see this in"
+    },
+    {
+      "start": 550.55,
+      "end": 556.81,
+      "text": "the next slide okay so as you guys all know DNA is double stranded and it's"
+    },
+    {
+      "start": 556.81,
+      "end": 563.05,
+      "text": "actually held together by the hydrogen bonds so A&T base pair together and"
+    },
+    {
+      "start": 563.05,
+      "end": 570.39,
+      "text": "share two hydrogen bonds where g and C actually have three hydrogen bonds okay"
+    },
+    {
+      "start": 570.39,
+      "end": 578.83,
+      "text": "and you always have a purine base pairing with a pyr своеmakein in DNA now some of"
+    },
+    {
+      "start": 578.83,
+      "end": 583.01,
+      "text": "the things you need to know about DNA and we'll cover this more is it's"
+    },
+    {
+      "start": 583.01,
+      "end": 586.77,
+      "text": "anti parallel okay it runs basically three prime to"
+    },
+    {
+      "start": 586.77,
+      "end": 586.79,
+      "text": "five prime結p❤ and😊 hetupraformette in general something that's often say is well how does this create you know what is this idea of so much so tools for"
+    },
+    {
+      "start": 586.79,
+      "end": 595.39,
+      "text": "5' and then 3' to 5' in the other direction. You have the phosphate group as the backbone"
+    },
+    {
+      "start": 595.39,
+      "end": 601.71,
+      "text": "and the phosphodiester bonds that connect the different bases together. What's a little"
+    },
+    {
+      "start": 601.71,
+      "end": 608.73,
+      "text": "interesting here in just some history, so Watson and Crick actually sort of stole Rosalind"
+    },
+    {
+      "start": 608.73,
+      "end": 613.23,
+      "text": "Franklin's X-ray crystal data, and we'll see this later on when we're looking closer at the"
+    },
+    {
+      "start": 613.23,
+      "end": 620.87,
+      "text": "structure of DNA. From what they could tell from her X-ray data was that DNA was likely helical,"
+    },
+    {
+      "start": 621.39,
+      "end": 626.09,
+      "text": "but they had to figure out how it all came together. It was this base pairing and the"
+    },
+    {
+      "start": 626.09,
+      "end": 633.39,
+      "text": "hydrogen bonding that existed between the bases that was the real key breakthrough in the solution"
+    },
+    {
+      "start": 633.39,
+      "end": 641.49,
+      "text": "of it. Now, Rosalind Franklin had also proposed that the phosphate backbone must be on the outside"
+    },
+    {
+      "start": 641.49,
+      "end": 643.21,
+      "text": "because of its net negativity."
+    },
+    {
+      "start": 643.23,
+      "end": 646.77,
+      "text": "Rosalind Franklin's X-ray crystal data is a very interesting example of a net negative charge"
+    },
+    {
+      "start": 646.77,
+      "end": 656.19,
+      "text": "because that would sort of repel if it was tried to be forced on the inside and as we'll see when"
+    },
+    {
+      "start": 656.19,
+      "end": 663.49,
+      "text": "we start to cover chromatin, which I introduced last lecture, the histones in chromatin actually"
+    },
+    {
+      "start": 663.49,
+      "end": 671.39,
+      "text": "help to neutralize this net negative charge that comes from DNA. But it's really important for you"
+    },
+    {
+      "start": 671.39,
+      "end": 671.41,
+      "text": "guys to understand the directionality of DNA from 3' to 5' and how that might help you. Now, the"
+    },
+    {
+      "start": 671.41,
+      "end": 671.51,
+      "text": "last thing I want to talk about is the genetic Cystic Acid. So, we've seen that a lot in the data."
+    },
+    {
+      "start": 671.51,
+      "end": 671.57,
+      "text": "We've seen that a lot in the data. We've seen that a lot in the data. We've seen that a lot in the data."
+    },
+    {
+      "start": 671.57,
+      "end": 671.65,
+      "text": "And we've seen that a lot in the data. And so, we've seen that a lot in the data."
+    },
+    {
+      "start": 671.65,
+      "end": 678.61,
+      "text": "prime and I take this very seriously and it seems like everybody in the class"
+    },
+    {
+      "start": 678.61,
+      "end": 684.25,
+      "text": "always will lose points on exams for not doing this properly and keeping track of"
+    },
+    {
+      "start": 684.25,
+      "end": 689.11,
+      "text": "the five prime and three prime DNA. And you don't necessarily have to appreciate"
+    },
+    {
+      "start": 689.11,
+      "end": 693.61,
+      "text": "the numbers but here they are. You have your number one carbon, two carbon, three"
+    },
+    {
+      "start": 693.61,
+      "end": 698.63,
+      "text": "carbon and that gets has a phosphodiester linkage here and then"
+    },
+    {
+      "start": 698.63,
+      "end": 702.53,
+      "text": "your four carbon and then your five carbon where the other phosphate comes"
+    },
+    {
+      "start": 702.53,
+      "end": 709.01,
+      "text": "off of. So once again the directionality of DNA is super important"
+    },
+    {
+      "start": 709.01,
+      "end": 712.85,
+      "text": "and there'll be a lot of questions throughout the course of the term so you"
+    },
+    {
+      "start": 712.85,
+      "end": 720.66,
+      "text": "guys might as well appreciate that now. Ionic and hydrophobic"
+    },
+    {
+      "start": 720.66,
+      "end": 725.8,
+      "text": "interactions also come into play with proteins. We have the hydrogen"
+    },
+    {
+      "start": 725.8,
+      "end": 729.04,
+      "text": "bonding in DNA but when it comes to"
+    },
+    {
+      "start": 729.04,
+      "end": 729.38,
+      "text": "DNA, we have the hydrogen bonding in DNA but when it comes to"
+    },
+    {
+      "start": 729.38,
+      "end": 735.8,
+      "text": "proteins and forming large protein complexes, ionic and hydrophobic"
+    },
+    {
+      "start": 735.8,
+      "end": 741.62,
+      "text": "interactions come to play as well. And so you can have between two proteins in"
+    },
+    {
+      "start": 741.62,
+      "end": 746.96,
+      "text": "this case they're showing protein A and protein B which can form a stable"
+    },
+    {
+      "start": 746.96,
+      "end": 753.26,
+      "text": "complex. You have hydrogen bonding and then you have ionic interactions, more"
+    },
+    {
+      "start": 753.26,
+      "end": 757.18,
+      "text": "hydrogen bonding and then you can have these hydrophobic van der Waals"
+    },
+    {
+      "start": 757.18,
+      "end": 759.02,
+      "text": "interaction which can help bring the two together."
+    },
+    {
+      "start": 759.02,
+      "end": 764.58,
+      "text": "These are all very important in protein folding, not only holding two"
+    },
+    {
+      "start": 764.58,
+      "end": 769.04,
+      "text": "proteins together in a complex but also in protein folding. We'll look at"
+    },
+    {
+      "start": 769.04,
+      "end": 777.58,
+      "text": "that next lecture. And so the number of these sort of hydrogen bonding and ionic"
+    },
+    {
+      "start": 777.58,
+      "end": 782.92,
+      "text": "bonds and hydrophobic interactions will actually dictate how stable a protein"
+    },
+    {
+      "start": 782.92,
+      "end": 788.12,
+      "text": "Complex is. So the more of these that are available and the better fit that they"
+    },
+    {
+      "start": 788.12,
+      "end": 788.66,
+      "text": "have,"
+    },
+    {
+      "start": 789.02,
+      "end": 794.12,
+      "text": "the tighter the interaction will be versus a less stable complex,"
+    },
+    {
+      "start": 794.36,
+      "end": 798.18,
+      "text": "which will have fewer interactions to hold them together."
+    },
+    {
+      "start": 799.12,
+      "end": 800.9,
+      "text": "And I have a little thing here."
+    },
+    {
+      "start": 801.38,
+      "end": 802.42,
+      "text": "What is hydrophobic?"
+    },
+    {
+      "start": 802.54,
+      "end": 806.34,
+      "text": "I'm assuming you guys have all had this at some point in time."
+    },
+    {
+      "start": 806.74,
+      "end": 811.36,
+      "text": "But if you want the derivative of the word, hydrophobic actually I think comes from Latin,"
+    },
+    {
+      "start": 811.92,
+      "end": 815.3,
+      "text": "where hydro is water and phobic is fearing."
+    },
+    {
+      "start": 815.3,
+      "end": 817.02,
+      "text": "So it's water fearing."
+    },
+    {
+      "start": 817.02,
+      "end": 819.02,
+      "text": "It just doesn't like water."
+    },
+    {
+      "start": 819.26,
+      "end": 824.12,
+      "text": "And water is always displaced out of these sort of hydrophobic interactions."
+    },
+    {
+      "start": 826.6,
+      "end": 837.58,
+      "text": "Okay, so now we're going to go on to talk about various groups that are actually used in a cell quite regularly."
+    },
+    {
+      "start": 838.08,
+      "end": 840.22,
+      "text": "Okay, so there's the methyl group."
+    },
+    {
+      "start": 840.72,
+      "end": 845.78,
+      "text": "And the methyl group is actually added to proteins, DNA, and RNA."
+    },
+    {
+      "start": 845.78,
+      "end": 848.04,
+      "text": "It can also be removed."
+    },
+    {
+      "start": 848.3,
+      "end": 854.3,
+      "text": "It plays sort of an important role in gene regulation and chromatin regulation."
+    },
+    {
+      "start": 854.3,
+      "end": 858.5,
+      "text": "I'm sure some of you guys have heard of DNA methylation."
+    },
+    {
+      "start": 858.5,
+      "end": 861.3,
+      "text": "But RNA can also get methylated."
+    },
+    {
+      "start": 861.3,
+      "end": 865.5,
+      "text": "And histones can get methylated within the cell."
+    },
+    {
+      "start": 865.5,
+      "end": 871.7,
+      "text": "But also the methyl group can get added also in the cytoplasm and other places."
+    },
+    {
+      "start": 871.7,
+      "end": 877.1,
+      "text": "So it's just this really super important group that gets added and subtracted from proteins"
+    },
+    {
+      "start": 877.1,
+      "end": 878.28,
+      "text": "during all kinds of various processes."
+    },
+    {
+      "start": 878.28,
+      "end": 885.17,
+      "text": "And so it's actually an important group that gets added during all kinds of various chemical reactions."
+    },
+    {
+      "start": 885.17,
+      "end": 890.47,
+      "text": "There's also the phosphate group, and we've already sort of seen this."
+    },
+    {
+      "start": 890.47,
+      "end": 895.31,
+      "text": "And the phosphodiester bond, which is right here, between here and here,"
+    },
+    {
+      "start": 895.31,
+      "end": 900.11,
+      "text": "actually connects nucleotides in DNA and RNA."
+    },
+    {
+      "start": 900.11,
+      "end": 906.41,
+      "text": "And once again, there's a directionality here, 3 prime to 5 prime, and you can count out the carbons."
+    },
+    {
+      "start": 906.41,
+      "end": 908.37,
+      "text": "And this actually, this,"
+    },
+    {
+      "start": 908.37,
+      "end": 914.47,
+      "text": "phosphate to nucleotides in DNA actually gives it the directionality."
+    },
+    {
+      "start": 914.81,
+      "end": 917.15,
+      "text": "Okay, so 3' to 5'."
+    },
+    {
+      "start": 917.15,
+      "end": 922.49,
+      "text": "Phosphate's also a ubiquitous modification that's added to proteins."
+    },
+    {
+      "start": 923.35,
+      "end": 929.93,
+      "text": "One of the most prevalent examples of it is the phosphate group that's added to proteins"
+    },
+    {
+      "start": 929.93,
+      "end": 936.81,
+      "text": "by kinases in cell signaling, and that can be reversed by phosphatases that actually"
+    },
+    {
+      "start": 936.81,
+      "end": 938.19,
+      "text": "remove the phosphate group."
+    },
+    {
+      "start": 938.67,
+      "end": 943.47,
+      "text": "Okay, so here's just an example of phosphate getting added to an R group."
+    },
+    {
+      "start": 944.43,
+      "end": 947.31,
+      "text": "Another place where phosphate's used is in ATP."
+    },
+    {
+      "start": 947.93,
+      "end": 956.87,
+      "text": "Okay, you can have the phosphates, specifically the gamma phosphate in ATP, is a huge energy"
+    },
+    {
+      "start": 956.87,
+      "end": 959.55,
+      "text": "store, and we'll look at that later on in the lecture here."
+    },
+    {
+      "start": 959.55,
+      "end": 968.19,
+      "text": "But you can also have pyrophosphate released when you're synthesizing RNA or DNA, and we'll"
+    },
+    {
+      "start": 968.19,
+      "end": 968.35,
+      "text": "look at that later on in the lecture here."
+    },
+    {
+      "start": 968.35,
+      "end": 968.37,
+      "text": "Okay, so here's just an example of phosphate getting added to an R group."
+    },
+    {
+      "start": 968.37,
+      "end": 969.37,
+      "text": "We'll look at that later as well."
+    },
+    {
+      "start": 971.39,
+      "end": 977.93,
+      "text": "You also have the acetyl group, and this is actually an important modification to proteins"
+    },
+    {
+      "start": 977.93,
+      "end": 979.85,
+      "text": "as well as coenzymes."
+    },
+    {
+      "start": 980.05,
+      "end": 985.43,
+      "text": "Okay, so I'm sure you guys have all heard of acetyl coenzyme A, which is very important"
+    },
+    {
+      "start": 985.43,
+      "end": 986.71,
+      "text": "in central metabolism."
+    },
+    {
+      "start": 987.35,
+      "end": 990.45,
+      "text": "But acetylation is also very important in gene regulation."
+    },
+    {
+      "start": 991.13,
+      "end": 997.63,
+      "text": "Okay, and not only do transcription factors get acetylated, but also histones get this"
+    },
+    {
+      "start": 997.63,
+      "end": 998.25,
+      "text": "modification."
+    },
+    {
+      "start": 998.25,
+      "end": 998.83,
+      "text": "Okay, so this is a very important modification."
+    },
+    {
+      "start": 998.83,
+      "end": 1002.53,
+      "text": "And that actually helps transcriptional regulation."
+    },
+    {
+      "start": 1003.25,
+      "end": 1008.11,
+      "text": "And just for some more historical context in all of this, there's this protein in cells"
+    },
+    {
+      "start": 1008.11,
+      "end": 1009.45,
+      "text": "called GCN5."
+    },
+    {
+      "start": 1010.21,
+      "end": 1015.77,
+      "text": "Okay, and it was discovered by this guy by the name of David Ellis."
+    },
+    {
+      "start": 1015.83,
+      "end": 1017.13,
+      "text": "Well, it wasn't discovered by him."
+    },
+    {
+      "start": 1017.23,
+      "end": 1025.59,
+      "text": "It was long known that GCN5 was actually involved in transcriptional regulation, but it didn't"
+    },
+    {
+      "start": 1025.59,
+      "end": 1028.81,
+      "text": "have any kind of DNA binding domain or anything."
+    },
+    {
+      "start": 1028.81,
+      "end": 1037.35,
+      "text": "And for decades, they were trying to figure out what this enzyme GCN5 does to sort of"
+    },
+    {
+      "start": 1037.35,
+      "end": 1039.51,
+      "text": "assist in gene regulation."
+    },
+    {
+      "start": 1040.47,
+      "end": 1045.49,
+      "text": "And this guy, David Ellis, who's now over at Rockefeller, what he ended up doing was"
+    },
+    {
+      "start": 1045.49,
+      "end": 1055.87,
+      "text": "figuring out that GCN5 is actually a histone acetyltransferase, and it can add the acetyl"
+    },
+    {
+      "start": 1055.87,
+      "end": 1057.81,
+      "text": "group to proteins."
+    },
+    {
+      "start": 1058.81,
+      "end": 1065.67,
+      "text": "Okay, specifically histones, which assists in their gene regulation."
+    },
+    {
+      "start": 1068.42,
+      "end": 1073.26,
+      "text": "Okay, some other prominent things in the cell are sugars and polysaccharides."
+    },
+    {
+      "start": 1074.42,
+      "end": 1078.36,
+      "text": "And these are mainly used in glycolysis, right?"
+    },
+    {
+      "start": 1078.4,
+      "end": 1080.78,
+      "text": "We use sugar as a food source."
+    },
+    {
+      "start": 1084.69,
+      "end": 1088.17,
+      "text": "But sugars are also added to proteins in the secretory pathway."
+    },
+    {
+      "start": 1089.05,
+      "end": 1092.19,
+      "text": "Okay, and that's called glycosylation."
+    },
+    {
+      "start": 1092.19,
+      "end": 1094.81,
+      "text": "And we'll cover that sort of at the end."
+    },
+    {
+      "start": 1094.83,
+      "end": 1101.55,
+      "text": "But one important thing that you guys have to know about sugars, as well as just other"
+    },
+    {
+      "start": 1101.55,
+      "end": 1107.75,
+      "text": "chemical reactions in the cell, is that they oftentimes undergo two different reactions."
+    },
+    {
+      "start": 1107.75,
+      "end": 1114.91,
+      "text": "Okay, a condensation reaction, where water is expelled, and then you can go from sort"
+    },
+    {
+      "start": 1114.91,
+      "end": 1120.29,
+      "text": "of a monosaccharide to a disaccharide, or polysaccharides if you add a whole bunch of"
+    },
+    {
+      "start": 1120.29,
+      "end": 1121.29,
+      "text": "them."
+    },
+    {
+      "start": 1121.29,
+      "end": 1123.75,
+      "text": "And then when you want to break them apart, you do hydrolysis."
+    },
+    {
+      "start": 1123.75,
+      "end": 1124.75,
+      "text": "Okay."
+    },
+    {
+      "start": 1124.83,
+      "end": 1131.91,
+      "text": "And in hydrolysis, a water molecule is actually consumed and gets added to the protein."
+    },
+    {
+      "start": 1131.91,
+      "end": 1136.07,
+      "text": "So condensation, water is expelled."
+    },
+    {
+      "start": 1136.07,
+      "end": 1138.71,
+      "text": "And in hydrolysis, water is consumed."
+    },
+    {
+      "start": 1138.71,
+      "end": 1144.18,
+      "text": "And we'll see some examples of this coming up in the next few slides."
+    },
+    {
+      "start": 1144.18,
+      "end": 1148.42,
+      "text": "Okay, another really important component of cells are phospholipids."
+    },
+    {
+      "start": 1148.42,
+      "end": 1151.32,
+      "text": "Okay, these make up the lipid bilayer."
+    },
+    {
+      "start": 1151.32,
+      "end": 1154.82,
+      "text": "And we saw these yesterday in the Harvard video."
+    },
+    {
+      "start": 1154.82,
+      "end": 1163.44,
+      "text": "Or last lecture in the Harvard video, where you basically have these sort of lipid bilayer."
+    },
+    {
+      "start": 1163.44,
+      "end": 1164.44,
+      "text": "Okay."
+    },
+    {
+      "start": 1164.44,
+      "end": 1170.48,
+      "text": "And one of the things about lipids, as we'll see later on in the course, is that they're"
+    },
+    {
+      "start": 1170.48,
+      "end": 1171.48,
+      "text": "amphiphilic."
+    },
+    {
+      "start": 1171.48,
+      "end": 1173.7,
+      "text": "They're both hydrophobic and hydrophilic."
+    },
+    {
+      "start": 1173.7,
+      "end": 1174.7,
+      "text": "Okay."
+    },
+    {
+      "start": 1174.7,
+      "end": 1179.44,
+      "text": "So you have a hydrophilic head group and a hydrophobic tail section."
+    },
+    {
+      "start": 1179.44,
+      "end": 1184.4,
+      "text": "And the way these things are set up, they're only energetically favorable if they're laid"
+    },
+    {
+      "start": 1184.4,
+      "end": 1191.16,
+      "text": "out in this sort of lipid bilayer, where you have these two leaflets that come together."
+    },
+    {
+      "start": 1191.16,
+      "end": 1192.16,
+      "text": "Okay."
+    },
+    {
+      "start": 1192.16,
+      "end": 1196.88,
+      "text": "And this is what really helps sort of compartmentalize a cell, right?"
+    },
+    {
+      "start": 1196.88,
+      "end": 1203.44,
+      "text": "It's not only does it represent the outer cell membrane, but you have a lipid bilayer"
+    },
+    {
+      "start": 1203.44,
+      "end": 1210.1,
+      "text": "separating the ER from the cytoplasm and the Golgi from the cytoplasm."
+    },
+    {
+      "start": 1210.1,
+      "end": 1213.64,
+      "text": "And so you can also have integral membrane proteins."
+    },
+    {
+      "start": 1213.64,
+      "end": 1217.98,
+      "text": "So you can have these two proteins that are contained there and peripheral membrane proteins."
+    },
+    {
+      "start": 1217.98,
+      "end": 1223.66,
+      "text": "And then, as I mentioned before, certain proteins in the secretory pathway get glycosylated,"
+    },
+    {
+      "start": 1223.66,
+      "end": 1228.4,
+      "text": "so they get these carbohydrates added to them."
+    },
+    {
+      "start": 1228.4,
+      "end": 1229.4,
+      "text": "Okay."
+    },
+    {
+      "start": 1229.4,
+      "end": 1234.05,
+      "text": "And that makes them glycoproteins."
+    },
+    {
+      "start": 1234.05,
+      "end": 1242.64,
+      "text": "And this particular phospholipid, phosphatidylcholine, is actually enriched in lipid rafts along"
+    },
+    {
+      "start": 1242.64,
+      "end": 1243.84,
+      "text": "with cholesterol."
+    },
+    {
+      "start": 1243.84,
+      "end": 1244.84,
+      "text": "Okay."
+    },
+    {
+      "start": 1244.84,
+      "end": 1250.14,
+      "text": "And so here's just what cholesterol looks like, the chemical structure of it."
+    },
+    {
+      "start": 1250.14,
+      "end": 1257.6,
+      "text": "Now cholesterol is actually circulating throughout our body in sort of low density lipoprotein."
+    },
+    {
+      "start": 1257.6,
+      "end": 1262.98,
+      "text": "But the majority of cholesterol is actually made in the ER, and it becomes part of the"
+    },
+    {
+      "start": 1262.98,
+      "end": 1264.46,
+      "text": "lipid bilayer."
+    },
+    {
+      "start": 1264.46,
+      "end": 1265.56,
+      "text": "Okay."
+    },
+    {
+      "start": 1265.56,
+      "end": 1271.12,
+      "text": "And so if you have high cholesterol circulating through your body, chances are you have a"
+    },
+    {
+      "start": 1271.12,
+      "end": 1273.84,
+      "text": "mutation in this protein called the LDL receptor."
+    },
+    {
+      "start": 1273.84,
+      "end": 1274.84,
+      "text": "Okay."
+    },
+    {
+      "start": 1274.84,
+      "end": 1279.9,
+      "text": "And we'll cover this later when we look at LDL trafficking."
+    },
+    {
+      "start": 1279.9,
+      "end": 1285.54,
+      "text": "But some people who have high cholesterol, they're actually taking these things called"
+    },
+    {
+      "start": 1285.54,
+      "end": 1286.54,
+      "text": "statins."
+    },
+    {
+      "start": 1286.54,
+      "end": 1287.54,
+      "text": "Okay."
+    },
+    {
+      "start": 1287.54,
+      "end": 1294.79,
+      "text": "And the statins actually inhibit this enzyme called HMG-CoA reductase."
+    },
+    {
+      "start": 1294.79,
+      "end": 1295.79,
+      "text": "Okay."
+    },
+    {
+      "start": 1295.79,
+      "end": 1297.25,
+      "text": "That's the target of statins."
+    },
+    {
+      "start": 1297.25,
+      "end": 1303.29,
+      "text": "And here's sort of a cartoon image of what HMG-CoA reductase."
+    },
+    {
+      "start": 1303.29,
+      "end": 1304.29,
+      "text": "Okay."
+    },
+    {
+      "start": 1304.29,
+      "end": 1309.53,
+      "text": "And this is the rate limiting enzyme in cholesterol synthesis."
+    },
+    {
+      "start": 1309.53,
+      "end": 1313.37,
+      "text": "And so by inhibiting it, you can actually lower people's cholesterol."
+    },
+    {
+      "start": 1313.37,
+      "end": 1319.19,
+      "text": "And if you're like me and you have a mutation in your LDL receptor and you love Five Guys,"
+    },
+    {
+      "start": 1319.19,
+      "end": 1321.99,
+      "text": "then you're basically going to be on statins."
+    },
+    {
+      "start": 1321.99,
+      "end": 1324.14,
+      "text": "Okay."
+    },
+    {
+      "start": 1324.14,
+      "end": 1325.14,
+      "text": "Okay."
+    },
+    {
+      "start": 1325.14,
+      "end": 1327.4,
+      "text": "So the amino acids."
+    },
+    {
+      "start": 1327.4,
+      "end": 1333.84,
+      "text": "Now you guys should all sort of memorize these, especially the graduate students, because"
+    },
+    {
+      "start": 1333.84,
+      "end": 1335.24,
+      "text": "it's just so important."
+    },
+    {
+      "start": 1335.24,
+      "end": 1337.52,
+      "text": "I'm not going to hold you to memorize them all."
+    },
+    {
+      "start": 1337.52,
+      "end": 1341.0,
+      "text": "Like I won't give you a question on an exam."
+    },
+    {
+      "start": 1341.0,
+      "end": 1348.14,
+      "text": "Please draw out all the 20 essential amino acids."
+    },
+    {
+      "start": 1348.14,
+      "end": 1353.52,
+      "text": "But it's important that you guys do know them because specific amino acids have specific"
+    },
+    {
+      "start": 1353.52,
+      "end": 1357.5,
+      "text": "functions and are important for different things."
+    },
+    {
+      "start": 1357.5,
+      "end": 1362.74,
+      "text": "Like serine, threonine, and tyrosine, they can all get a phosphate added to them and"
+    },
+    {
+      "start": 1362.74,
+      "end": 1365.12,
+      "text": "that becomes important in cell signaling."
+    },
+    {
+      "start": 1365.12,
+      "end": 1365.24,
+      "text": "Okay."
+    },
+    {
+      "start": 1365.24,
+      "end": 1370.96,
+      "text": "But in general, to make your life easy on learning the amino acids, the amino acids"
+    },
+    {
+      "start": 1370.96,
+      "end": 1376.62,
+      "text": "are all broken down into sort of a similar sort of structure."
+    },
+    {
+      "start": 1376.62,
+      "end": 1377.62,
+      "text": "Okay."
+    },
+    {
+      "start": 1377.62,
+      "end": 1383.72,
+      "text": "You have your amino group on one end and a carboxyl group on the other."
+    },
+    {
+      "start": 1383.72,
+      "end": 1388.02,
+      "text": "And then you have a variable group that comes off the C alpha carbon."
+    },
+    {
+      "start": 1388.02,
+      "end": 1389.02,
+      "text": "Okay."
+    },
+    {
+      "start": 1389.02,
+      "end": 1394.58,
+      "text": "So this is your C alpha carbon right here in proteins or in amino acids."
+    },
+    {
+      "start": 1394.58,
+      "end": 1395.12,
+      "text": "Okay."
+    },
+    {
+      "start": 1395.24,
+      "end": 1404.0,
+      "text": "And if you look down here at the chart, the R groups are all sort of shaded here so that"
+    },
+    {
+      "start": 1404.0,
+      "end": 1406.82,
+      "text": "you can see the various ones."
+    },
+    {
+      "start": 1406.82,
+      "end": 1412.2,
+      "text": "And the amino acids are actually broken down into different categories."
+    },
+    {
+      "start": 1412.2,
+      "end": 1413.28,
+      "text": "All right."
+    },
+    {
+      "start": 1413.28,
+      "end": 1418.72,
+      "text": "You have your nonpolar or the noncharged hydrophobic amino acids."
+    },
+    {
+      "start": 1418.72,
+      "end": 1424.7,
+      "text": "So these will be involved in van der Waals and hydrophobic-hydrophobic interactions."
+    },
+    {
+      "start": 1424.7,
+      "end": 1425.7,
+      "text": "You have your polar."
+    },
+    {
+      "start": 1425.7,
+      "end": 1428.7,
+      "text": "You have your nonpolar amino acids."
+    },
+    {
+      "start": 1428.7,
+      "end": 1431.7,
+      "text": "Or the noncharged hydrophilic amino acids."
+    },
+    {
+      "start": 1431.7,
+      "end": 1441.13,
+      "text": "These will oftentimes have an OH or an SH or a free amine to go from."
+    },
+    {
+      "start": 1441.13,
+      "end": 1447.03,
+      "text": "And then there's electrically charged amino acids that are broken down into either acidic."
+    },
+    {
+      "start": 1447.03,
+      "end": 1455.77,
+      "text": "So those will have a carboxylic acid group on the end of them or a basic group where"
+    },
+    {
+      "start": 1455.77,
+      "end": 1458.13,
+      "text": "you'll have a free amine on the end of them."
+    },
+    {
+      "start": 1458.13,
+      "end": 1465.63,
+      "text": "So lysine, arginine, or histidine versus aspartic acid and glutamic acid."
+    },
+    {
+      "start": 1465.63,
+      "end": 1470.77,
+      "text": "And so once again, you know, I'm never going to ask you guys to draw a specific amino acid,"
+    },
+    {
+      "start": 1470.77,
+      "end": 1473.65,
+      "text": "but you really should memorize these and know these."
+    },
+    {
+      "start": 1473.65,
+      "end": 1479.51,
+      "text": "I sort of chalk them up to, you know, this is nitty-gritty details, but really you should"
+    },
+    {
+      "start": 1479.51,
+      "end": 1484.45,
+      "text": "understand some of the big things, especially the difference between the acidic ones and"
+    },
+    {
+      "start": 1484.45,
+      "end": 1485.57,
+      "text": "the basic ones."
+    },
+    {
+      "start": 1485.57,
+      "end": 1490.71,
+      "text": "And some of the ones with OH groups on the end, like serine, threonine."
+    },
+    {
+      "start": 1490.71,
+      "end": 1492.39,
+      "text": "And cysteine is a special case."
+    },
+    {
+      "start": 1492.39,
+      "end": 1499.35,
+      "text": "It forms disulfides, which we'll cover when we get to the secretory pathway later in the"
+    },
+    {
+      "start": 1499.35,
+      "end": 1500.35,
+      "text": "term."
+    },
+    {
+      "start": 1500.35,
+      "end": 1505.11,
+      "text": "And another important one you guys should all be aware of is proline."
+    },
+    {
+      "start": 1505.11,
+      "end": 1514.11,
+      "text": "Proline, the side chain coming off the C alpha carbon is actually attached to the amino terminal"
+    },
+    {
+      "start": 1514.11,
+      "end": 1514.97,
+      "text": "end of the protein."
+    },
+    {
+      "start": 1514.97,
+      "end": 1515.49,
+      "text": "And so it's a special case."
+    },
+    {
+      "start": 1515.57,
+      "end": 1517.25,
+      "text": "And it also forms an antioxidant as well."
+    },
+    {
+      "start": 1517.25,
+      "end": 1521.35,
+      "text": "And when this comes to folding, it can oftentimes create a kink in like an alpha helix and break"
+    },
+    {
+      "start": 1521.35,
+      "end": 1522.35,
+      "text": "the continuation of an alpha helix."
+    },
+    {
+      "start": 1522.35,
+      "end": 1523.35,
+      "text": "And we'll look at that next time when we're talking about protein folding."
+    },
+    {
+      "start": 1523.35,
+      "end": 1530.51,
+      "text": "Okay, so amino acids actually make or proteins and polypeptides are actually composed of amino"
+    },
+    {
+      "start": 1530.51,
+      "end": 1531.51,
+      "text": "acids."
+    },
+    {
+      "start": 1531.51,
+      "end": 1532.51,
+      "text": "Okay."
+    },
+    {
+      "start": 1532.51,
+      "end": 1534.44,
+      "text": "And the amino acids are actually assembled on the ribosome."
+    },
+    {
+      "start": 1534.44,
+      "end": 1535.44,
+      "text": "And this is the main component of the ribosome."
+    },
+    {
+      "start": 1535.44,
+      "end": 1536.44,
+      "text": "This is the amino acid called the monen."
+    },
+    {
+      "start": 1536.44,
+      "end": 1537.44,
+      "text": "And then on the top here, you have these little birds of a feather like these."
+    },
+    {
+      "start": 1537.44,
+      "end": 1538.44,
+      "text": "And then on the right, you actually see the monen that looks like these."
+    },
+    {
+      "start": 1538.44,
+      "end": 1539.44,
+      "text": "And then on the left, you actually see these little birds that looks like these."
+    },
+    {
+      "start": 1539.44,
+      "end": 1540.44,
+      "text": "So these are those hairs, and these are the follicles, and these are the enemy moles,"
+    },
+    {
+      "start": 1540.44,
+      "end": 1541.44,
+      "text": "what they have."
+    },
+    {
+      "start": 1541.44,
+      "end": 1544.14,
+      "text": "composed of amino acids."
+    },
+    {
+      "start": 1544.14,
+      "end": 1547.1,
+      "text": "And the amino acids are actually assembled on the ribosome."
+    },
+    {
+      "start": 1547.1,
+      "end": 1552.94,
+      "text": "We saw this last time, last lecture, how the ribosome sort of functions and we'll cover"
+    },
+    {
+      "start": 1552.94,
+      "end": 1556.2,
+      "text": "that in much greater detail later on."
+    },
+    {
+      "start": 1556.2,
+      "end": 1561.62,
+      "text": "But what you end up having here is what's called a peptide bond where you have the amino"
+    },
+    {
+      "start": 1561.62,
+      "end": 1570.47,
+      "text": "terminal end of one amino acid joined to the carboxy terminal end of another amino acid."
+    },
+    {
+      "start": 1570.47,
+      "end": 1574.09,
+      "text": "And just like DNA, proteins are directional."
+    },
+    {
+      "start": 1574.09,
+      "end": 1579.31,
+      "text": "You have a C-terminal end of a polypeptide and an N-terminal end."
+    },
+    {
+      "start": 1579.31,
+      "end": 1585.06,
+      "text": "So the amino terminal end and the carboxy terminal end."
+    },
+    {
+      "start": 1585.06,
+      "end": 1589.74,
+      "text": "And this bond right here, which you all should know, is the peptide bond."
+    },
+    {
+      "start": 1589.74,
+      "end": 1600.26,
+      "text": "And when this is formed on the ribosome, it's done by the peptidyl transferase in the ribosome"
+    },
+    {
+      "start": 1600.26,
+      "end": 1600.52,
+      "text": "itself."
+    },
+    {
+      "start": 1600.54,
+      "end": 1608.75,
+      "text": "Another important thing in cells are nucleotides."
+    },
+    {
+      "start": 1608.75,
+      "end": 1614.95,
+      "text": "And besides for being the major constituents of DNA and RNA, nucleotides are also good"
+    },
+    {
+      "start": 1614.95,
+      "end": 1616.89,
+      "text": "energy carriers."
+    },
+    {
+      "start": 1616.89,
+      "end": 1624.15,
+      "text": "So we've all seen in previous courses, I'm sure, how ATP is one of the major energy stores"
+    },
+    {
+      "start": 1624.15,
+      "end": 1626.59,
+      "text": "in the cell."
+    },
+    {
+      "start": 1626.59,
+      "end": 1630.37,
+      "text": "And there's also plenty of GTP around."
+    },
+    {
+      "start": 1630.37,
+      "end": 1632.37,
+      "text": "And GTP can be used."
+    },
+    {
+      "start": 1632.37,
+      "end": 1633.87,
+      "text": "It can be used for a couple of things."
+    },
+    {
+      "start": 1633.87,
+      "end": 1636.69,
+      "text": "It can be used as an energy store."
+    },
+    {
+      "start": 1636.69,
+      "end": 1641.43,
+      "text": "And it can also be used in cell signaling."
+    },
+    {
+      "start": 1641.43,
+      "end": 1647.53,
+      "text": "And when we cover cell signaling, we'll see a whole bunch of different what are called"
+    },
+    {
+      "start": 1647.53,
+      "end": 1653.43,
+      "text": "G proteins that's involved in a whole bunch of different cellular processes."
+    },
+    {
+      "start": 1653.43,
+      "end": 1661.49,
+      "text": "So GTP and G proteins are very important in regulating different aspects of the cell from"
+    },
+    {
+      "start": 1661.49,
+      "end": 1662.33,
+      "text": "sort of translation."
+    },
+    {
+      "start": 1662.33,
+      "end": 1676.83,
+      "text": "So we'll see G proteins come into play in the secretory pathway, both when secretory"
+    },
+    {
+      "start": 1676.83,
+      "end": 1682.11,
+      "text": "vesicles are formed and when they fuse."
+    },
+    {
+      "start": 1682.11,
+      "end": 1687.13,
+      "text": "And ATP and GTP are mainly synthesized in the mitochondria."
+    },
+    {
+      "start": 1687.13,
+      "end": 1688.85,
+      "text": "That's just an important little thing."
+    },
+    {
+      "start": 1688.85,
+      "end": 1691.65,
+      "text": "And we'll start at the end of this lecture to look a little bit at GTP."
+    },
+    {
+      "start": 1691.65,
+      "end": 1695.47,
+      "text": "And we'll start at the end of this lecture to look a little bit at oxidative phosphorylation,"
+    },
+    {
+      "start": 1695.47,
+      "end": 1700.94,
+      "text": "at least in the part two of lecture one."
+    },
+    {
+      "start": 1700.94,
+      "end": 1701.94,
+      "text": "Okay."
+    },
+    {
+      "start": 1701.94,
+      "end": 1704.74,
+      "text": "So I'm sure you guys have all seen this."
+    },
+    {
+      "start": 1704.74,
+      "end": 1709.82,
+      "text": "Oftentimes if you ever walk through a chemistry department, you'll see a big poster with all"
+    },
+    {
+      "start": 1709.82,
+      "end": 1712.2,
+      "text": "of the different biochemical pathways here."
+    },
+    {
+      "start": 1712.2,
+      "end": 1717.32,
+      "text": "And it just goes to show you all of the sort of interconnected circuits that are involved"
+    },
+    {
+      "start": 1717.32,
+      "end": 1722.86,
+      "text": "in cellular metabolism and all of the different biochemical reactions that are happening."
+    },
+    {
+      "start": 1722.86,
+      "end": 1722.98,
+      "text": "Okay."
+    },
+    {
+      "start": 1723.18,
+      "end": 1725.06,
+      "text": "So we'll start at the end of this lecture to look at G proteins."
+    },
+    {
+      "start": 1725.06,
+      "end": 1729.26,
+      "text": "And what's interesting about this, and we'll cover it a little bit, not too much in this"
+    },
+    {
+      "start": 1729.26,
+      "end": 1736.46,
+      "text": "course, but all of the cellular metabolism, a lot of it is governed by our circadian clock."
+    },
+    {
+      "start": 1736.46,
+      "end": 1740.68,
+      "text": "This is one of the major regulators of metabolism."
+    },
+    {
+      "start": 1740.68,
+      "end": 1746.98,
+      "text": "And what it does, what the clock does is actually regulate key regulatory enzymes."
+    },
+    {
+      "start": 1746.98,
+      "end": 1752.0,
+      "text": "It regulates the transcription of key regulatory enzymes in this process."
+    },
+    {
+      "start": 1752.0,
+      "end": 1752.94,
+      "text": "And by controlling that, it regulates the transcription of key regulatory enzymes in this process."
+    },
+    {
+      "start": 1752.94,
+      "end": 1758.12,
+      "text": "And by controlling that, you can control the time of day when metabolism is mainly active."
+    },
+    {
+      "start": 1758.12,
+      "end": 1763.72,
+      "text": "And you guys can sort of think about this as, you know, we sleep at night and, you know,"
+    },
+    {
+      "start": 1763.72,
+      "end": 1768.08,
+      "text": "when we wake up in the morning, one of the first things we do is have breakfast."
+    },
+    {
+      "start": 1768.08,
+      "end": 1774.92,
+      "text": "And that sort of kicks on our metabolism and we're generating ATP all day long to sort"
+    },
+    {
+      "start": 1774.92,
+      "end": 1779.0,
+      "text": "of generate energy."
+    },
+    {
+      "start": 1779.0,
+      "end": 1782.82,
+      "text": "And one other thing that you need to know is there's oftentimes a lot of feedback."
+    },
+    {
+      "start": 1782.82,
+      "end": 1791.94,
+      "text": "And we'll sort of look at that later on, how the buildup of certain byproducts can slow"
+    },
+    {
+      "start": 1791.94,
+      "end": 1798.93,
+      "text": "reactions or speed up reactions depending on where they are."
+    },
+    {
+      "start": 1798.93,
+      "end": 1803.07,
+      "text": "Okay, another thing that you guys need to sort of know, and I'm sure you've all had"
+    },
+    {
+      "start": 1803.07,
+      "end": 1805.87,
+      "text": "it, is basic thermodynamics."
+    },
+    {
+      "start": 1805.87,
+      "end": 1809.47,
+      "text": "In particular, entropy versus enthalpy."
+    },
+    {
+      "start": 1809.47,
+      "end": 1814.33,
+      "text": "Okay, now entropy is sort of a measure of disorder."
+    },
+    {
+      "start": 1814.33,
+      "end": 1815.25,
+      "text": "Okay."
+    },
+    {
+      "start": 1815.29,
+      "end": 1818.57,
+      "text": "The greater the disorder, the greater the entropy."
+    },
+    {
+      "start": 1818.57,
+      "end": 1824.05,
+      "text": "Whereas enthalpy is actually a measure of the total energy in a system."
+    },
+    {
+      "start": 1824.05,
+      "end": 1825.05,
+      "text": "Okay."
+    },
+    {
+      "start": 1825.05,
+      "end": 1830.79,
+      "text": "And if we go through the three laws of thermodynamics, the first law states that energy cannot be"
+    },
+    {
+      "start": 1830.79,
+      "end": 1832.29,
+      "text": "created or destroyed."
+    },
+    {
+      "start": 1832.29,
+      "end": 1834.01,
+      "text": "It can only be transferred."
+    },
+    {
+      "start": 1834.01,
+      "end": 1835.01,
+      "text": "Okay."
+    },
+    {
+      "start": 1835.01,
+      "end": 1842.81,
+      "text": "So, you know, cells have to take in foodstuffs to generate energy and then it's transferred"
+    },
+    {
+      "start": 1842.81,
+      "end": 1844.31,
+      "text": "oftentimes to like ATP."
+    },
+    {
+      "start": 1844.31,
+      "end": 1845.27,
+      "text": "Okay."
+    },
+    {
+      "start": 1845.29,
+      "end": 1849.01,
+      "text": "And then it can be used in various chemical reactions."
+    },
+    {
+      "start": 1849.01,
+      "end": 1855.19,
+      "text": "The second law of thermodynamics states that all systems tend toward equilibrium or otherwise"
+    },
+    {
+      "start": 1855.19,
+      "end": 1857.53,
+      "text": "known as the maximum state of entropy."
+    },
+    {
+      "start": 1857.53,
+      "end": 1858.53,
+      "text": "Okay."
+    },
+    {
+      "start": 1858.53,
+      "end": 1860.85,
+      "text": "Which is completely disordered."
+    },
+    {
+      "start": 1860.85,
+      "end": 1868.39,
+      "text": "And the third law of thermodynamics at absolute zero, zero Kelvin, a system approaches zero"
+    },
+    {
+      "start": 1868.39,
+      "end": 1872.11,
+      "text": "enthalpy, entropy, which is completely ordered."
+    },
+    {
+      "start": 1872.11,
+      "end": 1873.11,
+      "text": "Okay."
+    },
+    {
+      "start": 1873.11,
+      "end": 1875.37,
+      "text": "So the take home message here is that."
+    },
+    {
+      "start": 1875.37,
+      "end": 1879.81,
+      "text": "All biological systems require energy to maintain an ordered state."
+    },
+    {
+      "start": 1879.81,
+      "end": 1885.23,
+      "text": "I mean, your book uses this little example of, of this boy, um, sort of studying at his"
+    },
+    {
+      "start": 1885.23,
+      "end": 1889.77,
+      "text": "desk and as time elapses and he gets bored with studying, he's going to start playing"
+    },
+    {
+      "start": 1889.77,
+      "end": 1893.87,
+      "text": "with all his toys and not putting them away and it just becomes disordered."
+    },
+    {
+      "start": 1893.87,
+      "end": 1894.87,
+      "text": "Okay."
+    },
+    {
+      "start": 1894.87,
+      "end": 1900.97,
+      "text": "And then it takes energy to actually, and some effort to clean his room back up and"
+    },
+    {
+      "start": 1900.97,
+      "end": 1902.61,
+      "text": "get it organized again."
+    },
+    {
+      "start": 1902.61,
+      "end": 1903.61,
+      "text": "Um."
+    },
+    {
+      "start": 1903.61,
+      "end": 1905.01,
+      "text": "And so when I was in graduate school."
+    },
+    {
+      "start": 1905.01,
+      "end": 1905.13,
+      "text": "Uh."
+    },
+    {
+      "start": 1905.13,
+      "end": 1908.69,
+      "text": "One of the professors basically explained it this way."
+    },
+    {
+      "start": 1908.69,
+      "end": 1909.69,
+      "text": "Um."
+    },
+    {
+      "start": 1909.69,
+      "end": 1911.61,
+      "text": "When you die, you have increasing entropy, right?"
+    },
+    {
+      "start": 1911.61,
+      "end": 1917.61,
+      "text": "You become increasingly disordered, um, as your body starts to decompose and without"
+    },
+    {
+      "start": 1917.61,
+      "end": 1925.79,
+      "text": "any energy to put into it to reorder it, um, you just have increasing entropy."
+    },
+    {
+      "start": 1925.79,
+      "end": 1929.51,
+      "text": "So then the question does, well, where does all the energy for life come from?"
+    },
+    {
+      "start": 1929.51,
+      "end": 1933.46,
+      "text": "Okay."
+    },
+    {
+      "start": 1933.46,
+      "end": 1936.16,
+      "text": "And I'm sure you guys all know the answer to this."
+    },
+    {
+      "start": 1936.16,
+      "end": 1937.64,
+      "text": "It's actually photosynthesis, right?"
+    },
+    {
+      "start": 1937.64,
+      "end": 1939.66,
+      "text": "It all comes from the sun."
+    },
+    {
+      "start": 1939.66,
+      "end": 1939.86,
+      "text": "Okay."
+    },
+    {
+      "start": 1939.86,
+      "end": 1950.14,
+      "text": "So photosynthesis, uh, can basically take, um, water and CO2 and you put energy in, um,"
+    },
+    {
+      "start": 1950.14,
+      "end": 1954.8,
+      "text": "and that actually will convert into oxygen and sugars."
+    },
+    {
+      "start": 1954.8,
+      "end": 1955.8,
+      "text": "Okay."
+    },
+    {
+      "start": 1955.8,
+      "end": 1965.76,
+      "text": "So you get light energy, water and CO2 coming in, it releases oxygen and then the, the carbon"
+    },
+    {
+      "start": 1965.76,
+      "end": 1969.86,
+      "text": "and CO2 can actually be converted to sugar and other organic molecules."
+    },
+    {
+      "start": 1969.86,
+      "end": 1970.86,
+      "text": "Okay."
+    },
+    {
+      "start": 1970.86,
+      "end": 1978.98,
+      "text": "And then most other living organisms will either take and eat the plants and algae and"
+    },
+    {
+      "start": 1978.98,
+      "end": 1987.28,
+      "text": "some bacteria and will basically break down the sugars into CO2 and H2O and consume oxygen"
+    },
+    {
+      "start": 1987.28,
+      "end": 1988.28,
+      "text": "in the process."
+    },
+    {
+      "start": 1988.28,
+      "end": 1989.28,
+      "text": "Okay."
+    },
+    {
+      "start": 1989.28,
+      "end": 1995.56,
+      "text": "And this can then be used for useful chemical energy and organization of a cell."
+    },
+    {
+      "start": 1995.56,
+      "end": 1999.28,
+      "text": "So pretty much all life on earth, um, derives its energy from the sun."
+    },
+    {
+      "start": 1999.28,
+      "end": 2000.28,
+      "text": "But there is exceptional energy."
+    },
+    {
+      "start": 2000.28,
+      "end": 2001.28,
+      "text": "There are exceptions to the rule."
+    },
+    {
+      "start": 2001.28,
+      "end": 2007.66,
+      "text": "And I, normally if we weren't remote, I would ask you guys, do you, do you know, um, the"
+    },
+    {
+      "start": 2007.66,
+      "end": 2009.14,
+      "text": "exception to the rule?"
+    },
+    {
+      "start": 2009.14,
+      "end": 2014.22,
+      "text": "And the exception is actually organisms that live deep at the bottom of the ocean where"
+    },
+    {
+      "start": 2014.22,
+      "end": 2015.62,
+      "text": "no sunlight gets."
+    },
+    {
+      "start": 2015.62,
+      "end": 2018.28,
+      "text": "Um, there's a whole bunch of different ones."
+    },
+    {
+      "start": 2018.28,
+      "end": 2026.36,
+      "text": "Um, and these use geochemical energy and inorganic raw materials, um, to derive their energy."
+    },
+    {
+      "start": 2026.36,
+      "end": 2028.28,
+      "text": "And then you can actually get multicellular organisms."
+    },
+    {
+      "start": 2028.28,
+      "end": 2029.28,
+      "text": "Here's a nice little picture."
+    },
+    {
+      "start": 2029.28,
+      "end": 2033.28,
+      "text": "The bottom of the ocean where there is no sunlight."
+    },
+    {
+      "start": 2033.28,
+      "end": 2040.6,
+      "text": "Um, and they can live on, uh, the bacteria that are down there can live on, um, hydrogen"
+    },
+    {
+      "start": 2040.6,
+      "end": 2047.02,
+      "text": "sulfide coming from, uh, volcanic eruptions at the bottom of the ocean."
+    },
+    {
+      "start": 2047.02,
+      "end": 2048.58,
+      "text": "Um, okay."
+    },
+    {
+      "start": 2048.58,
+      "end": 2052.42,
+      "text": "So now onto, uh, catalysis and activation enzymes."
+    },
+    {
+      "start": 2052.42,
+      "end": 2053.42,
+      "text": "Okay."
+    },
+    {
+      "start": 2053.42,
+      "end": 2057.88,
+      "text": "So to maintain an ordered state with really low entropy, a cell needs energy."
+    },
+    {
+      "start": 2057.88,
+      "end": 2058.88,
+      "text": "Okay."
+    },
+    {
+      "start": 2058.88,
+      "end": 2065.2,
+      "text": "And it needs chemical reactions and enzymes, uh, are there to sort of help out."
+    },
+    {
+      "start": 2065.2,
+      "end": 2066.2,
+      "text": "Okay."
+    },
+    {
+      "start": 2066.2,
+      "end": 2071.7,
+      "text": "And enzymes don't change the amount of energy that's required."
+    },
+    {
+      "start": 2071.7,
+      "end": 2074.6,
+      "text": "Um, it just lowers the activation energy."
+    },
+    {
+      "start": 2074.6,
+      "end": 2083.64,
+      "text": "So the net result, um, is the energy is this same from a reactant to a product and you"
+    },
+    {
+      "start": 2083.64,
+      "end": 2088.94,
+      "text": "can see it both here, but the activation energy from the enzyme."
+    },
+    {
+      "start": 2088.94,
+      "end": 2090.56,
+      "text": "It actually gets lowered."
+    },
+    {
+      "start": 2090.56,
+      "end": 2096.26,
+      "text": "So it's easier for this reactant to become this product."
+    },
+    {
+      "start": 2096.26,
+      "end": 2097.26,
+      "text": "Okay."
+    },
+    {
+      "start": 2097.26,
+      "end": 2100.68,
+      "text": "Um, and that's basically all that enzymes do."
+    },
+    {
+      "start": 2100.68,
+      "end": 2106.74,
+      "text": "They lower the activation energy for normally unfavorable reactions."
+    },
+    {
+      "start": 2106.74,
+      "end": 2108.52,
+      "text": "And here's kind of how it works."
+    },
+    {
+      "start": 2108.52,
+      "end": 2114.28,
+      "text": "You have an enzyme and a substrate and the enzyme will actually bind the substrate."
+    },
+    {
+      "start": 2114.28,
+      "end": 2119.28,
+      "text": "Um, and the enzyme substrate complex then undergoes catalysis."
+    },
+    {
+      "start": 2119.28,
+      "end": 2121.32,
+      "text": "Then you have your enzyme product."
+    },
+    {
+      "start": 2121.32,
+      "end": 2123.98,
+      "text": "The enzyme's released and your left with your product."
+    },
+    {
+      "start": 2123.98,
+      "end": 2124.98,
+      "text": "Okay."
+    },
+    {
+      "start": 2124.98,
+      "end": 2130.3,
+      "text": "So once again, enzymes lower the activation energy, um, and they do this by sort of the"
+    },
+    {
+      "start": 2130.3,
+      "end": 2135.38,
+      "text": "unique chemical properties that are present in the active side of the enzyme."
+    },
+    {
+      "start": 2135.38,
+      "end": 2141.22,
+      "text": "Um, and it's typically the active site where the enzymes bind their substrate and these"
+    },
+    {
+      "start": 2141.22,
+      "end": 2147.32,
+      "text": "electrochemical properties lower the activation enzymes, and we'll see specific examples of"
+    },
+    {
+      "start": 2147.32,
+      "end": 2149.14,
+      "text": "these later on in the term."
+    },
+    {
+      "start": 2149.14,
+      "end": 2154.48,
+      "text": "But as a general rule, you guys need to sort of appreciate this."
+    },
+    {
+      "start": 2154.48,
+      "end": 2163.04,
+      "text": "It doesn't change the overall energy for the reaction, it just lowers the activation energy."
+    },
+    {
+      "start": 2163.04,
+      "end": 2169.84,
+      "text": "And cells actually couple reactions to create useful work."
+    },
+    {
+      "start": 2169.84,
+      "end": 2175.0,
+      "text": "So there's these things called energetically favorable reactions, where delta G is less"
+    },
+    {
+      "start": 2175.0,
+      "end": 2177.52,
+      "text": "than zero."
+    },
+    {
+      "start": 2177.52,
+      "end": 2181.54,
+      "text": "And so these reactions will occur spontaneously, right?"
+    },
+    {
+      "start": 2181.54,
+      "end": 2185.62,
+      "text": "Y is going to become X because the delta G is less than zero."
+    },
+    {
+      "start": 2185.62,
+      "end": 2190.26,
+      "text": "And so Y will just produce a lot of X, and this will occur spontaneously."
+    },
+    {
+      "start": 2190.26,
+      "end": 2196.36,
+      "text": "You also have then energetically unfavorable reactions, where X needs to be converted back"
+    },
+    {
+      "start": 2196.36,
+      "end": 2197.36,
+      "text": "to Y."
+    },
+    {
+      "start": 2197.36,
+      "end": 2201.9,
+      "text": "So in this case, delta G is greater than zero and it requires energy."
+    },
+    {
+      "start": 2201.9,
+      "end": 2207.5,
+      "text": "And this reaction is only going to occur if it's coupled to a second energetically favorable"
+    },
+    {
+      "start": 2207.5,
+      "end": 2208.88,
+      "text": "reaction."
+    },
+    {
+      "start": 2208.88,
+      "end": 2217.8,
+      "text": "And so what you end up getting then are reactions with a negative delta G, which can drive,"
+    },
+    {
+      "start": 2217.8,
+      "end": 2225.66,
+      "text": "and this would be sort of a spontaneous favorable reaction, and this would drive a non-spontaneous"
+    },
+    {
+      "start": 2225.66,
+      "end": 2232.6,
+      "text": "unfavorable reaction and convert X to Y."
+    },
+    {
+      "start": 2232.6,
+      "end": 2239.24,
+      "text": "And so the cells use this whole coupling of unfavorable reactions to reactions to a lower"
+    },
+    {
+      "start": 2239.24,
+      "end": 2240.24,
+      "text": "level of energy."
+    },
+    {
+      "start": 2240.24,
+      "end": 2242.62,
+      "text": "And so this is the way that we're going to allow them to proceed."
+    },
+    {
+      "start": 2242.62,
+      "end": 2246.74,
+      "text": "Now, another thing that comes into play is concentration and dynamic equilibrium."
+    },
+    {
+      "start": 2246.74,
+      "end": 2247.74,
+      "text": "Okay?"
+    },
+    {
+      "start": 2247.74,
+      "end": 2255.44,
+      "text": "Now, typically, all enzymatic reactions are reversible, and they depend heavily on the"
+    },
+    {
+      "start": 2255.44,
+      "end": 2257.48,
+      "text": "concentration of the substrate."
+    },
+    {
+      "start": 2257.48,
+      "end": 2258.48,
+      "text": "Okay?"
+    },
+    {
+      "start": 2258.48,
+      "end": 2265.52,
+      "text": "So in this instance, you have Y, and it's basically energetically favorable to go to"
+    },
+    {
+      "start": 2265.52,
+      "end": 2266.52,
+      "text": "X."
+    },
+    {
+      "start": 2266.52,
+      "end": 2267.52,
+      "text": "Okay?"
+    },
+    {
+      "start": 2267.52,
+      "end": 2269.86,
+      "text": "And so, in this case, you have Y."
+    },
+    {
+      "start": 2269.86,
+      "end": 2270.86,
+      "text": "And so, in this case, you have Y."
+    },
+    {
+      "start": 2270.86,
+      "end": 2272.56,
+      "text": "And so, in this case, you have Y."
+    },
+    {
+      "start": 2272.56,
+      "end": 2281.22,
+      "text": "And X will actually go back to Y at some level because of sort of thermal bombardments"
+    },
+    {
+      "start": 2281.22,
+      "end": 2283.28,
+      "text": "and other things like that."
+    },
+    {
+      "start": 2283.28,
+      "end": 2289.56,
+      "text": "And the cell can actually control the level of downstream catalysis by tightly regulating"
+    },
+    {
+      "start": 2289.56,
+      "end": 2292.68,
+      "text": "the rate-limiting enzymes in this whole thing."
+    },
+    {
+      "start": 2292.68,
+      "end": 2293.68,
+      "text": "Okay?"
+    },
+    {
+      "start": 2293.68,
+      "end": 2299.81,
+      "text": "So as well as controlling the concentration of the various reactants and products."
+    },
+    {
+      "start": 2299.81,
+      "end": 2301.13,
+      "text": "Okay."
+    },
+    {
+      "start": 2301.13,
+      "end": 2302.13,
+      "text": "So."
+    },
+    {
+      "start": 2302.13,
+      "end": 2308.81,
+      "text": "So, if we start with an equal number of X and Y's, and the formation of X is favorable,"
+    },
+    {
+      "start": 2308.81,
+      "end": 2310.89,
+      "text": "this conversion will occur often."
+    },
+    {
+      "start": 2310.89,
+      "end": 2311.89,
+      "text": "Okay?"
+    },
+    {
+      "start": 2311.89,
+      "end": 2317.03,
+      "text": "Whereas, X will occur, X back to Y will occur less often."
+    },
+    {
+      "start": 2317.03,
+      "end": 2322.61,
+      "text": "And so, if you sort of couple these together, what's going to end up happening is the Y's"
+    },
+    {
+      "start": 2322.61,
+      "end": 2330.47,
+      "text": "will go to X until you get to the point where you're at equilibrium, and equal number of"
+    },
+    {
+      "start": 2330.47,
+      "end": 2331.97,
+      "text": "X's go back to Y."
+    },
+    {
+      "start": 2331.97,
+      "end": 2337.73,
+      "text": "And Y and an equal number of Y's go to X's."
+    },
+    {
+      "start": 2337.73,
+      "end": 2338.73,
+      "text": "Okay?"
+    },
+    {
+      "start": 2338.73,
+      "end": 2345.73,
+      "text": "And so, the equilibrium constant in all of this is K, and it's the concentration of X"
+    },
+    {
+      "start": 2345.73,
+      "end": 2346.73,
+      "text": "and Y."
+    },
+    {
+      "start": 2346.73,
+      "end": 2349.21,
+      "text": "So, I hope that I made that clear to everybody."
+    },
+    {
+      "start": 2349.21,
+      "end": 2352.73,
+      "text": "It's not as difficult as I sort of just made it sound."
+    },
+    {
+      "start": 2352.73,
+      "end": 2360.99,
+      "text": "But, ultimately, if a favorable reaction is there, controlling the amount of product and"
+    },
+    {
+      "start": 2360.99,
+      "end": 2361.99,
+      "text": "reactant."
+    },
+    {
+      "start": 2361.99,
+      "end": 2364.75,
+      "text": "And, then, if you control the reactions."
+    },
+    {
+      "start": 2364.75,
+      "end": 2365.75,
+      "text": "All right?"
+    },
+    {
+      "start": 2365.75,
+      "end": 2367.87,
+      "text": "So, Y to X is favorable."
+    },
+    {
+      "start": 2367.87,
+      "end": 2370.27,
+      "text": "X to Y is not favorable."
+    },
+    {
+      "start": 2370.27,
+      "end": 2374.05,
+      "text": "And so, when you have a lot of it, you'll eventually get to equilibrium where there's"
+    },
+    {
+      "start": 2374.05,
+      "end": 2377.49,
+      "text": "fewer Y's being driven to X."
+    },
+    {
+      "start": 2377.49,
+      "end": 2379.99,
+      "text": "And there's many more X's."
+    },
+    {
+      "start": 2379.99,
+      "end": 2387.19,
+      "text": "But, and the rate at which Y goes to X is equal to the rate at which X goes to Y, even"
+    },
+    {
+      "start": 2387.19,
+      "end": 2389.75,
+      "text": "though there's so much more X here."
+    },
+    {
+      "start": 2389.75,
+      "end": 2391.75,
+      "text": "So, I hope that made sense."
+    },
+    {
+      "start": 2391.75,
+      "end": 2392.51,
+      "text": "Okay?"
+    },
+    {
+      "start": 2392.51,
+      "end": 2402.05,
+      "text": "But, this becomes very important in certain chemical reactions in sort of central metabolism."
+    },
+    {
+      "start": 2402.05,
+      "end": 2403.05,
+      "text": "Okay."
+    },
+    {
+      "start": 2403.05,
+      "end": 2407.53,
+      "text": "But, once again, enzymes don't actually change the equilibrium constant."
+    },
+    {
+      "start": 2407.53,
+      "end": 2408.79,
+      "text": "Okay?"
+    },
+    {
+      "start": 2408.79,
+      "end": 2416.05,
+      "text": "What they can do is, oftentimes, drive a reaction to become a product."
+    },
+    {
+      "start": 2416.05,
+      "end": 2417.05,
+      "text": "Okay?"
+    },
+    {
+      "start": 2417.05,
+      "end": 2419.05,
+      "text": "So, here, because the reactions are additive."
+    },
+    {
+      "start": 2419.05,
+      "end": 2420.05,
+      "text": "Okay?"
+    },
+    {
+      "start": 2420.05,
+      "end": 2421.05,
+      "text": "So, here we have one reaction."
+    },
+    {
+      "start": 2421.05,
+      "end": 2422.05,
+      "text": "X to Y."
+    },
+    {
+      "start": 2422.05,
+      "end": 2426.88,
+      "text": "And it's actually more favorable in the back direction."
+    },
+    {
+      "start": 2426.88,
+      "end": 2432.36,
+      "text": "So, whenever there's Y's, it's actually going to sort of spontaneously form X's."
+    },
+    {
+      "start": 2432.36,
+      "end": 2433.36,
+      "text": "Okay?"
+    },
+    {
+      "start": 2433.36,
+      "end": 2437.5,
+      "text": "But that's energetically unfavorable for the cell."
+    },
+    {
+      "start": 2437.5,
+      "end": 2445.36,
+      "text": "However, you have Y to Z, and it's much more favorable to form Z than Y."
+    },
+    {
+      "start": 2445.36,
+      "end": 2446.36,
+      "text": "Okay?"
+    },
+    {
+      "start": 2446.36,
+      "end": 2452.15,
+      "text": "So, the vast, when you couple these together, Y's going to want to become X. But, every"
+    },
+    {
+      "start": 2452.31,
+      "end": 2456.47,
+      "text": "X that becomes a Y is more likely to become a Z over here."
+    },
+    {
+      "start": 2456.47,
+      "end": 2461.31,
+      "text": "And so, what you're doing is, you're getting these sequential reactions set up so that"
+    },
+    {
+      "start": 2461.31,
+      "end": 2469.13,
+      "text": "the equilibrium point produces a lot of X from very little, or a lot of Z from very"
+    },
+    {
+      "start": 2469.13,
+      "end": 2470.25,
+      "text": "little X."
+    },
+    {
+      "start": 2470.25,
+      "end": 2474.75,
+      "text": "Because Y is rapidly removed from the system."
+    },
+    {
+      "start": 2474.75,
+      "end": 2477.55,
+      "text": "If Y was to build up, it would just go back to being X."
+    },
+    {
+      "start": 2477.55,
+      "end": 2478.55,
+      "text": "Okay?"
+    },
+    {
+      "start": 2478.55,
+      "end": 2480.31,
+      "text": "So, these sequential reactions are additive."
+    },
+    {
+      "start": 2480.31,
+      "end": 2481.31,
+      "text": "And, thus, unfavorable reactions."
+    },
+    {
+      "start": 2481.31,
+      "end": 2482.31,
+      "text": "Okay?"
+    },
+    {
+      "start": 2482.31,
+      "end": 2490.25,
+      "text": "So, these reactions can be driven by favorable reactions."
+    },
+    {
+      "start": 2490.25,
+      "end": 2495.43,
+      "text": "And so, one of the things that helps to do this is that you have stored energy in a cell,"
+    },
+    {
+      "start": 2495.43,
+      "end": 2497.45,
+      "text": "which actually is used to drive energy."
+    },
+    {
+      "start": 2497.45,
+      "end": 2502.43,
+      "text": "And you can sort of, the example that your book uses is that if you sort of think about"
+    },
+    {
+      "start": 2502.43,
+      "end": 2507.83,
+      "text": "a rock falling off a cliff, when it hits the bottom, it can break up and it's all, all"
+    },
+    {
+      "start": 2507.83,
+      "end": 2512.05,
+      "text": "the energy is dissipated as heat."
+    },
+    {
+      "start": 2512.05,
+      "end": 2514.07,
+      "text": "But you can actually capture that falling rock."
+    },
+    {
+      "start": 2514.07,
+      "end": 2521.12,
+      "text": "Which is an energetically favorable reaction to do useful work."
+    },
+    {
+      "start": 2521.12,
+      "end": 2523.42,
+      "text": "In this case, it raises a bucket."
+    },
+    {
+      "start": 2523.42,
+      "end": 2524.42,
+      "text": "Okay?"
+    },
+    {
+      "start": 2524.42,
+      "end": 2528.18,
+      "text": "And then once the bucket is raised, you can pour the water out."
+    },
+    {
+      "start": 2528.18,
+      "end": 2532.74,
+      "text": "And you can use that in a hydraulic machine to create useful work."
+    },
+    {
+      "start": 2532.74,
+      "end": 2533.74,
+      "text": "Okay?"
+    },
+    {
+      "start": 2533.74,
+      "end": 2538.98,
+      "text": "So, basically, kinetic energy can be stored within the cell."
+    },
+    {
+      "start": 2538.98,
+      "end": 2542.4,
+      "text": "And this kinetic energy can be used for different processes."
+    },
+    {
+      "start": 2542.4,
+      "end": 2544.12,
+      "text": "And so, I'm going to sort of end this."
+    },
+    {
+      "start": 2544.12,
+      "end": 2544.62,
+      "text": "Okay?"
+    },
+    {
+      "start": 2544.62,
+      "end": 2550.8,
+      "text": "End this part of the lecture asking what are the major sources of energy in a cell."
+    },
+    {
+      "start": 2550.8,
+      "end": 2555.94,
+      "text": "I'll give you guys a little second to think about that before I start up the next lecture."
+    },
+    {
+      "start": 2555.94,
+      "end": 2559.4,
+      "text": "Okay, so that's the end of part one."
+    },
+    {
+      "start": 2559.4,
+      "end": 2562.7,
+      "text": "And I will start part two in just a second here."
+    }
+  ]
+}

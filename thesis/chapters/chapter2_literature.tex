@@ -11,11 +11,11 @@ similarity scores on bag-of-words representations~\citep{hearst1994multi,choi200
 dense contextual sentence embeddings, improving performance on diverse genres
 at the cost of requiring pretrained language models~\citep{koshorek2018text,reimers2019sbert}.
 \emph{Multimodal} methods subsequently incorporated visual, audio, and structural
-signals from videos and meeting recordings, but typically rely on closed APIs
-or single-modality dominance~\citep{xing2024topicseg}.
-None of the above methods produce hierarchical (multi-level) boundaries, and
-none are specifically designed for long academic lecture videos with fine-grained
-subtopic structure.
+signals from videos and meeting recordings, but often target different
+benchmarks, larger supervised settings, or task-specific chapter-generation
+metrics~\citep{yu2024_multimodal,cao2022_chaptergen,yang2023_vidchapters}. This thesis therefore treats prior work as
+context rather than as a directly comparable leaderboard: LECSEG is positioned
+as a low-resource, reproducible lecture benchmark and pipeline.
 
 \section{Classical text-based segmentation}
 \label{sec:classical}
@@ -78,46 +78,64 @@ We use the cosine-depth variant (BertSeg, B5) as the strongest neural baseline.
 
 \subsection{Meeting and conversation segmentation}
 
-DiaSeg~\citep{wen2021diaseg} combines lexical features with speaker-turn
-information for meeting transcripts.
-Topic-Aware Hierarchical Segmentation (TAHS)~\citep{todorov2020tahs} uses
-discourse markers alongside BERT embeddings.
-These approaches target short-form conversational content and do not scale
-to hour-long academic monologues.
+Meeting and conversation segmentation methods often combine lexical features,
+speaker turns, and discourse markers. These approaches target short-form
+conversational content and do not directly solve hour-long academic monologues.
 
 \subsection{Lecture video segmentation}
 
-TopicSeg~\citep{xing2024topicseg} segments lecture videos using
-multimodal features (text, slide transitions, speaker gaze) with a
-transformer-based fusion, achieving strong results on a proprietary dataset.
-However, TopicSeg relies on a closed-source OCR pipeline and an OpenAI API
-for title generation, making it non-reproducible on academic hardware.
-SlideSegment~\citep{todo:slidesegment} uses slide content changes alone,
+Recent multimodal lecture-video segmentation work uses text and visual features
+with supervised or transformer-based fusion, achieving strong results when
+labelled training data are available~\citep{yu2024_multimodal}.
+Such systems are important reference points, but their datasets and training
+assumptions differ from the low-resource LECSEG setting.
+Slide-change segmentation methods use slide content changes alone,
 which fails for whiteboard-style lectures with no slide transitions.
 
-\lecseg{} differs from all prior multimodal methods by: (1)~using only
-open-source tools; (2)~providing a data-driven reliability weighting that
-suppresses uninformative modalities per video; and (3)~producing hierarchical
-rather than flat boundaries.
+\lecseg{} differs from many prior multimodal lecture systems by emphasising
+local reproducibility, shared metrics, and explicit negative results when OCR,
+shot, or prosody cues fail to improve $P_k$/WindowDiff.
+
+\subsection{Large-scale video chaptering benchmarks}
+
+Recent video chaptering work has moved toward much larger supervised datasets.
+Chapter-Gen localises and titles chapters in thousands of user-generated
+videos~\citep{cao2022_chaptergen}. VidChapters-7M scales this direction to
+hundreds of thousands of videos and millions of chapters, evaluating generation
+and localisation with video-captioning and temporal-localisation metrics rather
+than the $P_k$/WindowDiff pair used in text segmentation~\citep{yang2023_vidchapters}.
+MiniSeg/YTSEG reports strong supervised smart-chaptering results on 19,299
+YouTube videos~\citep{retkowski2024_miniseg}, and Chapter-Llama shows that
+trained long-context LLM chaptering can be highly effective on VidChapters-scale
+benchmarks~\citep{ventura2025_chapterllama}. TreeSeg is a closer small-data
+transcript comparator because it reports $P_k$/WindowDiff on lecture and
+meeting transcripts~\citep{gklezakos2024_treeseg}.
+
+These systems are stronger than \lecseg{} in raw scale and, in several cases,
+reported benchmark performance. \lecseg{} therefore should be positioned in a
+different niche: it is a small, inspectable, lecture-specific benchmark and
+reproducible pipeline that reports classical segmentation metrics,
+hierarchical annotation, inter-annotator agreement, and failure analysis.
+Table~\ref{tab:external_scale} summarises this scale difference.
+
+\input{tables/external_scale}
 
 \section{Hierarchical and discourse-based approaches}
 \label{sec:hierarchical_lit}
 
 Hierarchical topic segmentation has been studied in the NLP community under the
 name \emph{discourse parsing}~\citep{mann1988rst}.
-Hernandez-Mier et al.~\citep{hernandez2021hierarchical} proposed a hierarchical
-extension of BayesSeg, but it is restricted to three levels and assumes
-latent topic counts are known.
-To our knowledge, no prior work produces valid nested chapter and subtopic
-boundaries for lecture videos with automatic title generation.
+Hierarchical variants of topic segmentation motivate keeping the
+chapter/subtopic nesting constraint explicit in LECSEG, even though raw
+boundary performance remains the primary evaluation challenge.
 
 \section{Local open language models for NLP refinement}
 \label{sec:llm_lit}
 
 The release of Llama-3.1~\citep{meta2024llama3} and other open models has made
 it feasible to run LLM inference locally at acceptable cost.
-Comparative evaluations show that quantised 8B models match GPT-3.5 on many
-zero-shot NLP tasks~\citep{jiang2024mixtral}.
+Comparative evaluations show that compact open-weight models can be strong on
+many zero-shot NLP tasks~\citep{jiang2024mixtral}.
 We use Llama-3.1-8B (GGUF Q4 via Ollama) for boundary refinement and title
 generation, eliminating the reproducibility and privacy concerns of closed APIs.
 
@@ -125,13 +143,12 @@ generation, eliminating the reproducibility and privacy concerns of closed APIs.
 \label{sec:gap}
 
 Table~\ref{tab:litmatrix} summarises the gaps in prior work that motivate
-the contributions of this thesis.
-No prior system simultaneously addresses all four dimensions:
-(1) open-source and reproducible;
-(2) multimodal with adaptive fusion;
-(3) hierarchical (chapter $+$ subtopic) output;
-(4) evaluated on a publicly released benchmark with reported IAA.
-\lecseg{} is the first system to satisfy all four.
+the contributions of this thesis. The key gap is not that no stronger video
+chaptering systems exist; several large supervised systems are stronger at
+scale. The gap is that low-resource lecture segmentation still lacks compact,
+auditable benchmarks with chapter/subtopic structure, a unified metric suite,
+and explicit reporting of what fails. \lecseg{} is designed for this
+reproducible lecture-specific niche.
 
 \begin{table}[t]
   \centering
@@ -145,10 +162,10 @@ No prior system simultaneously addresses all four dimensions:
     TextTiling~\citep{hearst1994multi}       & \checkmark & --- & --- & --- \\
     C99~\citep{choi2000latent}               & \checkmark & --- & --- & --- \\
     BertSeg~\citep{koshorek2018text}         & \checkmark & --- & --- & (p) \\
-    TopicSeg~\citep{xing2024topicseg}        & --- & \checkmark & --- & --- \\
-    TAHS~\citep{todorov2020tahs}             & (p) & (p) & (p) & --- \\
+    Multimodal VTS~\citep{yu2024_multimodal} & --- & \checkmark & --- & --- \\
+    Meeting/topic hierarchy methods          & (p) & (p) & (p) & --- \\
     \midrule
-    \lecseg{} (this work)                   & \checkmark & \checkmark & \checkmark & \checkmark \\
+    \lecseg{} (this work)                   & \checkmark & (p) & \checkmark & \checkmark \\
     \bottomrule
   \end{tabular}
 \end{table}

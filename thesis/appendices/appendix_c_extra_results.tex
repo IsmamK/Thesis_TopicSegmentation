@@ -4,101 +4,71 @@
 \section{Per-domain breakdown}
 \label{app:per_domain}
 
-Table~\ref{tab:domain_breakdown} reports the best-performing method (\lecseg{} full)
-broken down across all five academic domains of \dataset{}.
-Domain-level results reveal where multimodal signals are most and least effective.
+Table~\ref{tab:domain_breakdown} reports the alignment-audited joint
+$P_k$/WindowDiff method, \texttt{cross\_e5\_frac70\_minlen11}, broken down by
+domain.
 
 \begin{table}[h]
   \centering
-  \caption{Per-domain evaluation of \lecseg{} (full system) on the chapter-level task.
-           Best metric per domain is \textbf{bold}. Numbers are mean $\pm$ 95\,\%
-           bootstrap CI over all videos in that domain.}
+  \caption{Per-domain evaluation of the current best official method.}
   \label{tab:domain_breakdown}
   \small
-  \begin{tabular}{lrrrrr}
+  \begin{tabular}{lrrrr}
     \toprule
-    Domain & $P_k$ $\downarrow$ & WD $\downarrow$ & BS $\uparrow$ & F1 $\uparrow$ & H-WD $\downarrow$ \\
+    Domain & Videos & $P_k$ $\downarrow$ & WD $\downarrow$ & F1 $\uparrow$ \\
     \midrule
-    CS          & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
-    Mathematics & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
-    Physics     & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
-    Biology     & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
-    Humanities  & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
+    Biology & 6 & 0.3965 & 0.4009 & 0.0475 \\
+    CS & 7 & 0.3297 & 0.3338 & 0.0000 \\
+    Mathematics & 4 & 0.3793 & 0.3867 & 0.0000 \\
+    Philosophy & 6 & 0.3959 & 0.4073 & 0.0663 \\
+    Physics & 7 & 0.3665 & 0.3665 & 0.0000 \\
     \midrule
-    All domains & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
+    All domains & 30 & 0.3713 & 0.3764 & 0.0237 \\
     \bottomrule
   \end{tabular}
 \end{table}
 
-\section{Per-fold cross-validation results}
-\label{app:per_fold}
-
-Table~\ref{tab:per_fold} shows all five metrics for every method across all 5
-cross-validation folds. Variance across folds indicates sensitivity to the
-particular hold-out split.
+\section{Additional benchmark rows}
+\label{app:additional_benchmarks}
 
 \begin{table}[htbp]
   \centering
-  \caption{Per-fold $P_k$ scores for all methods (5-fold CV).
-           Lower is better. Each cell is the mean over 6 held-out videos.}
-  \label{tab:per_fold}
+  \caption{Selected additional benchmark and diagnostic rows.}
+  \label{tab:additional_benchmarks}
   \small
-  \setlength{\tabcolsep}{4pt}
-  \begin{tabular}{lrrrrr|r}
+  \begin{tabular}{lrrl}
     \toprule
-    Method & Fold 1 & Fold 2 & Fold 3 & Fold 4 & Fold 5 & Mean \\
+    Method & $P_k$ $\downarrow$ & WD $\downarrow$ & Source \\
     \midrule
-    \multicolumn{7}{l}{\textit{Classical baselines}} \\
-    TextTiling           & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
-    C99                  & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
-    \midrule
-    \multicolumn{7}{l}{\textit{Neural baselines}} \\
-    Cosine-drop          & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
-    KMeans               & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
-    BertSeg              & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
-    \midrule
-    \multicolumn{7}{l}{\textit{\lecseg{} ablation}} \\
-    +N1 (two-stage)      & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
-    +N2 (RWF)            & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
-    +N3 (hierarchy)      & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
-    +N4 (LLM)            & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} & \todo{} \\
+    TextTiling & 0.6053 & 0.8978 & \texttt{eval\_bge.json} \\
+    C99 & 0.4219 & 0.4494 & \texttt{eval\_bge.json} \\
+    CosineSeg & 0.4902 & 0.5392 & \texttt{eval\_bge.json} \\
+    KMeansSeg & 0.6172 & 0.9986 & \texttt{eval\_bge.json} \\
+    BertSeg & 0.4891 & 0.5403 & \texttt{eval\_bge.json} \\
+    BGE + divisive & 0.3884 & 0.3956 & \texttt{eval\_bge.json} \\
+    Cross-model conservative & 0.3713 & 0.3764 & \texttt{eval\_alignment\_sweep.json} \\
+    LOO ExtraTrees selector & 0.3588 & 0.3739 & \texttt{method\_selector\_experiment\_trainrank\_balanced.json} \\
+    Per-video method oracle & 0.2980 & 0.3280 & \texttt{method\_portfolio\_analysis.json} \\
+    BERT-wiki zero-shot & 0.4932 & 0.5397 & \texttt{eval\_bert\_wiki.json} \\
+    Boundary classifier LOOCV & 0.5803 & 0.9933 & \texttt{eval\_boundary\_clf.json} \\
     \bottomrule
   \end{tabular}
 \end{table}
 
-\section{Qualitative segmentation examples}
+\section{Qualitative examples}
 \label{app:qualitative}
 
-Figures~\ref{fig:qual_good}--\ref{fig:qual_fail} show side-by-side boundary
-strip-plots comparing predicted boundaries with ground truth for a high-quality
-prediction, a mediocre prediction, and a failure case. Each strip covers the
-full video duration; vertical lines mark boundaries; shaded regions are matched
-pairs (within $\pm 2$ sentence tolerance).
+The current repository does not yet contain final publication-quality
+qualitative boundary strip figures. The strongest candidates for such figures
+are:
 
-\begin{figure}[htbp]
-  \centering
-  \todo{Insert figures/qual\_good.pdf}
-  \caption{Best-case example: CS video \texttt{TjZBTDzGeGg}. Predicted chapter
-           boundaries align within one sentence of all 11 gold boundaries.
-           $P_k = \todo{}$, F1\,=\,\todo{}.}
-  \label{fig:qual_good}
-\end{figure}
+\begin{itemize}
+  \item Best case by $P_k$: \texttt{oqRU2So6Z2Y} (CS), $P_k=0.1457$.
+  \item Typical mid-range case: select a video near the median $P_k$ from
+    \texttt{results/eval\_bgelarge\_fine2.json}.
+  \item Hard case: \texttt{S7TUe5w6RHo} (Philosophy), $P_k=0.4975$.
+\end{itemize}
 
-\begin{figure}[htbp]
-  \centering
-  \todo{Insert figures/qual\_mediocre.pdf}
-  \caption{Mediocre case: Physics video \texttt{zNVQfWC\_evg}. Dense technical
-           vocabulary leads to smaller cosine drops; 3 of 14 boundaries missed.
-           $P_k = \todo{}$, F1\,=\,\todo{}.}
-  \label{fig:qual_mediocre}
-\end{figure}
-
-\begin{figure}[htbp]
-  \centering
-  \todo{Insert figures/qual\_fail.pdf}
-  \caption{Failure case: 700-minute Humanities lecture \texttt{hyctIDPRSqY}.
-           Speaker uses highly consistent vocabulary across topics; visual channel
-           shows no slides; both modalities give near-uniform similarity.
-           $P_k = \todo{}$, F1\,=\,\todo{}.}
-  \label{fig:qual_fail}
-\end{figure}
+These examples should be rendered with a script before final PDF submission so
+the thesis can show matched and missed boundaries visually rather than relying
+only on aggregate metrics.

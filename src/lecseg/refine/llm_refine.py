@@ -187,26 +187,66 @@ class LLMRefiner:
                 return refined
         return boundary
 
+    def is_real_boundary(
+        self,
+        sentences: Sequence[str],
+        boundary: int,
+        context: int = 5,
+    ) -> bool:
+        """Ask LLM: is this predicted boundary a genuine topic change?"""
+        sents = list(sentences)
+        N = len(sents)
+        lo = max(0, boundary - context)
+        hi = min(N, boundary + context)
+        before = " ".join(sents[lo:boundary])[-400:]
+        after = " ".join(sents[boundary:hi])[:400:]
+        prompt = (
+            "You are reviewing a lecture transcript. Two consecutive passages are shown.\n\n"
+            f"PASSAGE A (before boundary): {before}\n\n"
+            f"PASSAGE B (after boundary): {after}\n\n"
+            "Does the topic change significantly between passage A and B? "
+            "Answer with a single word: YES or NO."
+        )
+        response = _ollama_generate(prompt, self.model, temperature=0.0)
+        return "YES" in response.upper()
+
+    def filter_boundaries(
+        self,
+        sentences: Sequence[str],
+        boundaries: list[int],
+        context: int = 5,
+    ) -> list[int]:
+        """Remove false-positive boundaries by asking LLM to verify each one.
+
+        For each predicted boundary, ask the LLM if it's a genuine topic change.
+        Only keep boundaries the LLM confirms. This directly reduces false positives
+        which are the primary source of Pk error.
+        """
+        if not self._is_available():
+            return boundaries
+        return [b for b in sorted(boundaries) if self.is_real_boundary(sentences, b, context)]
+
     def refine_boundaries(
         self,
         sentences: Sequence[str],
         boundaries: list[int],
         tolerance: int = 2,
+        filter_fp: bool = True,
     ) -> list[int]:
         """
         Refine all predicted boundaries using LLM context.
 
-        Args:
-            sentences:  all sentences in order
-            boundaries: predicted 1-based boundary indices
-            tolerance:  max adjustment per boundary
-
-        Returns:
-            Refined boundary list (may have fewer boundaries if LLM collapses some).
+        First filters false positives (if filter_fp=True), then nudges
+        remaining boundaries to their best position within ±tolerance.
         """
         if not self._is_available():
-            return boundaries  # fall back to original if Ollama not running
+            return boundaries
 
+        # Step 1: remove false positives
+        if filter_fp:
+            boundaries = self.filter_boundaries(sentences, boundaries)
+
+        # Step 2: nudge survivors to best position
         refined = []
         used = set()
         for b in sorted(boundaries):

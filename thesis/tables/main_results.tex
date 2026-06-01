@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Current LECSEG result variants and diagnostic upper bound.}
+\label{tab:lecseg_result_variants}
+\begin{tabularx}{\linewidth}{lrrrrX}
+\toprule
+Method & Pk & WD & BS & F1@2 & Role \\
+\midrule
+BGE-divisive baseline & 0.3884 & 0.3956 & 0.1292 & 0.0878 & Strong implemented baseline \\
+Cross-model conservative & 0.3713 & 0.3764 & 0.0362 & 0.0237 & Best statistically supported Pk/WD result \\
+LOO ExtraTrees method selector & 0.3588 & 0.3739 & 0.0757 & 0.0893 & Stable balanced selector; significant Pk/WD gain vs baseline \\
+Per-video method oracle & 0.2980 & 0.3280 & 0.1366 & 0.1676 & Diagnostic upper bound, not deployable \\
+\bottomrule
+\end{tabularx}
+\end{table}

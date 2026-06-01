@@ -1,15 +1,25 @@
 \chapter{Future Work}
 \label{chap:future}
 
-\section{Prosody and visual integration}
+\section{Robust candidate and method selection}
 
-The most immediate extension is the full integration of prosodic features
-(pause duration, pitch reset) and visual streams (shot boundaries, slide OCR)
-into the RWF fusion, which was implemented but not included in the final
-evaluation due to time constraints.
-Preliminary experiments suggest an additional \todo{}\% $P_k$ reduction.
-A modality-dropout training scheme could make the system robust to missing
-modalities (e.g., audio-only or slides-only lectures).
+The strongest immediate extension is a sequence-aware candidate selector.
+Current oracle and method-portfolio experiments show that plausible boundaries
+are often present in the candidate pool, but the system does not reliably pick
+the right subset for each video. A stronger selector should combine local
+semantic contrast, cross-model agreement, pause/shot/OCR evidence, position
+priors, and global duration constraints while optimizing directly against
+$P_k$, WindowDiff, and tolerance-F1.
+
+\section{Reliability-aware prosody and visual integration}
+
+Prosodic features (pause duration, pitch reset) and visual streams (shot
+boundaries, slide OCR) are available in the pipeline, but current ablations show
+that they can hurt $P_k$/WindowDiff when the signal is flat or poorly aligned
+with semantic transitions. Future work should treat these modalities as
+conditional evidence rather than always-on features. A modality-dropout or
+quality-gating scheme could make the system robust to missing modalities
+(e.g., audio-only or slides-only lectures).
 
 \section{Streaming and online inference}
 
@@ -25,8 +35,8 @@ The target latency budget for live chaptering is $<30$~seconds of delay.
 
 \lecseg{} currently targets English lectures.
 Extending to other languages requires: (1)~replacing \texttt{all-mpnet-base-v2}
-with a multilingual text encoder such as LaBSE~\citep{feng2022language} or
-\texttt{multilingual-e5-large}; and (2)~using Whisper's multilingual mode for
+with a multilingual text encoder such as LaBSE or \texttt{multilingual-e5-large};
+and (2)~using Whisper's multilingual mode for
 transcription.
 Suitable evaluation data could be sourced from non-English MOOCs (e.g.,
 Coursera's French and Spanish tracks) or from university recordings in South

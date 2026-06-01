@@ -1,0 +1,1400 @@
+This is a first part of a year-long course introducing you to all the major ideas in physics,
+starting from Galileo and Newton right up to the big revolutions of the last century,
+which was on relativity and quantum mechanics.
+The target audience for this course is really very broad.
+In fact, I've always been surprised at how broad the representation is.
+So I don't know what your major is.
+I don't know what you're going to do later.
+So I picked the topics that all of us in physics find fascinating.
+Some may or may not be useful, but you just don't know.
+Some of you are probably going to be doctors,
+and you don't know why I'm going to do special relativity or quantum mechanics.
+But you don't know when it'll come in handy.
+If you're a doctor and you've got a patient who's running away from you at the speed of light,
+you'll know.
+You'll know what to do.
+Or if you're a pediatrician with a really small patient who will not sit still,
+it's because the laws of quantum mechanics don't allow an object to have a definite...
+cannot have a definite position and momentum.
+So these are all things you just don't know when they will come in handy.
+And I teach them because these are the things that turned me on and got me going into physics.
+And whether or not you go into physics,
+you certainly learn about the biggest and most interesting revolutions right up to present-day physics.
+All right, so that's what the subject matter is going to be.
+And I'm going to tell you a little bit about how the course is organized.
+First thing is this year, it's going to be taped.
+You can see some people in the back with cameras.
+That's part of an experimental pilot program funded by the Hewlett Foundation.
+And at some point, they will decide,
+what they will do with these lectures.
+Most probably they'll post them somewhere so people elsewhere can have the benefit
+of what you have sitting in the Yale classroom.
+So I've been told that from now on,
+we just ignore the camera and do business as usual.
+Nothing's going to be changed.
+I tried to negotiate a laugh track so that the jokes don't work,
+we can superpose some laughter.
+I was told, no, I just got to deal with it as it happens.
+So it's going to be, it's like one of the reality shows
+where things are going to be as they are.
+And hopefully after a while, we'll learn to act and behave normally
+and not worry about its presence.
+Then, coming to the rest of the details of the course,
+by the way, there are more details on the website that I posted
+that was given to me by the university
+if you want to know more about what all this is about.
+The course organization is fairly simple.
+We're going to meet Monday,
+and Wednesday in this room, 1130 to 1245.
+I will give you some problems to do on Wednesday,
+and I'll post them on the website.
+So you guys should get used to going to the classes website.
+I'm really, really dependent on that now.
+Finally learned how to use it.
+I will use that to post information.
+Maybe once in a while, send email to the whole class.
+If you want to get those emails, you got to sign up for the course,
+because I push a button and it goes to anybody who's signed up there.
+The homework will be given on Wednesday,
+and it's due before class the following Wednesday.
+And let me introduce you to our head TA, Mara Daniel,
+who's recently Mara Barabas.
+Right.
+She's really come a little...
+Okay, so Mara's going to be the person who will see you after class,
+and she will take the problem sets that you have submitted before class,
+and she'll give you the graded ones from after class.
+Okay, that will be sorted out.
+It will be up there.
+So you should drop the homework before you come into class,
+rather than furiously working on it during class.
+And the solutions will be posted the same afternoon.
+So there is not much point in giving a homework that's late.
+But once in a while, you know, you will come up with a reason that I just cannot argue.
+You got married, you're getting a transplant, whatever it is, that's fine.
+You got a transplant, I want to see the old body part.
+You got married, I want to see your spouse.
+If something happened to a grandparent, I'm counting up to four.
+I don't get suspicious, go five, six, seven, eight.
+I will have to look at the family tree.
+But you know, look, any reasonable excuse will be entertained.
+And relative importance,
+given to these different things is 20% for your homework,
+30% for the midterm, which will be sometime in October,
+and 50% for the final.
+That will be the weighted average.
+But I have another plan called the amnesty plan,
+in which I also compare just your final grade,
+what you did in the final exam.
+And whichever is higher of the two is what I will take
+to determine your overall course grade.
+This is something I used to announce near the end,
+but then some people felt that it's not fair not to know this from the beginning.
+So I'm telling you from the beginning, but don't dream and think that somehow
+the final is going to be so much different from your regular day-to-day performance,
+but it will give you some reason to live after the midterm.
+You feel that is hope, I can change everything overnight.
+It does happen.
+I put that in for a reason, because sometimes some of you have not taken a physics course,
+and you don't know how to do well in physics, and slowly you catch on.
+But sometimes it's the final exam.
+You crack the code, you know how to do well.
+As far as I'm concerned, that's just fine.
+If at the end of the semester you take a three-hour exam in a closed environment,
+and you answer everything, I don't care what you did in your homework or your midterm.
+That's not relevant.
+So that's how the grading will be done.
+We have Mara's group of TAs.
+She is the head TA, and she's the one you should write to whenever you have a problem.
+Then we also have two faculty members.
+One is our postdoctoral fellow, Mark Caprio.
+He will have a discussion section on Tuesdays between 1 and 2 in Sloan Lab.
+Steve Fuloneto, I don't know if Steve is here or not.
+That's Steve, our new assistant professor.
+He will have a section on Tuesday night in Dunham Lab, room 220.
+Tuesday night is the night when you people realize homework is due on Wednesday.
+We know that, so he will be there to comfort you,
+and give you some advice.
+Whatever help you need.
+All right, my own office hours, I'm not determined yet.
+I'll have to find out when it is good for you.
+I used to, you know, I live and work out of Sloan Lab up on the hill,
+and it was easy to have office hours before or after class.
+But now you have to make a special trip.
+So just give me a little bit of time to find out,
+maybe by soliciting email responses from you,
+what would be a good time for my office hours.
+But for any procedural things like, you know, this problem set was not great,
+or I didn't write it properly and so on,
+there's no point emailing me because I'm going to send it to Mara anyway.
+So directly deal with the powers that be.
+Okay, finally, I want to give you some tips on how to do well in this course,
+and what attitude you should have.
+First advice is you should come to the lectures.
+It's not self-serving.
+It's not so much for my benefit.
+I think there's something useful about hearing the subject.
+It's not something that you can just present it once orally.
+Secondly, the book, you can see one of you had a book here.
+It's about 1,100 pages, and when I learned physics, it was like 300 pages.
+Now I look around this room, I don't see anybody whose head is three times bigger than mine.
+So I know that you cannot digest everything the books have.
+So I have to take out what I think is a really essential part and cover that in the lecture.
+So you come to class.
+Find out what's in and what's not in.
+If you don't do that, it's a danger you will learn something you don't have to,
+and we don't want that.
+So that's why you come to class.
+Second thing, most important thing for doing well in physics is to do the homework.
+The 20% given to the homework is not a real measure of how important it is.
+Homework is when you really figure out how much you know and don't know.
+If you watch me do the thing on the blackboard, it looks very reasonable.
+It looks like you can do it, but the only way you're going to find out is when you actually do it.
+Deal with the problem.
+That's the only time you're going to find out.
+So I ask you to do the problems as and when they are posted.
+So if you post it on Wednesday, it's to cover the material for that week,
+then you should attempt it as quickly as possible because I'm going to assume you've done the problems
+when you come for the next few lectures.
+And in doing the homework, it is perfectly okay to work in groups.
+You don't have to do it for yourself.
+That's not how physics is done.
+I'm now writing a paper with two other people that are my experimental colleagues
+who write papers with 400 other people, maybe even 1,000 other people.
+When they do the big collider experiments in Geneva and Fermilab,
+collaborations can run into hundreds.
+So it's perfectly okay to be a part of a collaboration,
+but you've got to make sure that you're pulling your weight.
+You've got to make sure that if you explain to others how to do this problem,
+then somebody else contributed something else, but you know what everybody contributed in the end.
+So the game is not just to somehow or other get the solution to the problem set,
+but to fully understand how it's done.
+And the TAs will be there to help you.
+Every day there's going to be a TA in the undergraduate lounge.
+I would urge you to use that.
+That's a beautiful new lounge that the Provost's office allowed us to build
+for physicists and chemists, whoever happens to be in the building.
+If you go there on the third floor of Sloan, you may run into other people like you
+who are trying to work on problems.
+You may run into upper-class students.
+You may run into advanced students.
+You may run into your TA.
+So that's a good climate that there are coffee machines,
+and there are lounge sofas and everything else,
+there are computers, there are printers.
+So it's a good lounge.
+And I think if you go there one day a week to do your problem sets,
+or more often, that's a good meeting place.
+I recommend that.
+The final piece of advice, this is very important,
+so please pay attention to this,
+which is I ask you not to talk to your neighbors during lecture.
+Now this looks like a very innocuous thing,
+but you will find out it's the only thing that really gets my back up.
+Most of the time I don't really care.
+I'm very liberal.
+But this disturbs me because I'm looking at you.
+I'm trying to see from your reaction how much of my lecture you're following.
+And then it's very distracting when people are talking.
+So please don't do that.
+If you talk, I'm going to assume you're talking about me.
+If you laugh, I'm going to assume you're laughing at me.
+Let's make that, that's not really what I think,
+but that's how disturbing it is when people talk.
+And very nice students who do not realize this often disrupt my line of thinking.
+So I ask you to keep that to a minimum.
+Once in a while you'll have to talk to your neighbor and say,
+can you please pass me my pacemaker that fell down?
+That's fine.
+Then you go back to your business.
+But don't do too much of that.
+Finally, there is this ancient issue about sleeping in the class.
+And the view is it's just fine.
+I know you guys need the rest.
+And interestingly, the best sleepers are in the first couple of rows.
+I haven't met you guys.
+It's not personal.
+I have found some people really have to come to the first or second row
+because they claim that if they don't hear me, they cannot really go to sleep.
+Now that was true in Sloan, but I think Luce has got very good acoustics,
+so you can stretch out in the back.
+But my only criterion is if you talk in your sleep,
+that's not allowed because talking is not allowed.
+Next, if you're going to sleep, I ask you to sit between two non-sleepers.
+Sometimes what happens, the whole row will topple over.
+We don't want the domino effect.
+Now it's going to be captured on tape,
+and that's going to be really bad for my reputation.
+So spread yourself around other people.
+All right, so that's it in terms of class, logistics, and everything.
+I'm going to start going into the physics proper.
+I will try to finish every lecture on time,
+but sometimes I'm in the middle of a sentence or in the middle of a derivation.
+I may have to go over by a couple of minutes.
+There's no need to shuffle your feet and move stuff around.
+I know what time it is.
+I also want to get out like you guys, but let me finish something.
+Other days, I may finish a few minutes before time.
+That's because the ideas of physics don't fall into 75-minute segments,
+and sometimes they spill over a little bit.
+Also, I'm used to teaching this course three times a week,
+and now it's suddenly twice a week.
+And so things that fell into nice 50-minute units
+are now being snipped up different ways, so it's pretty difficult.
+So even for me, some of it will be new, and the timing may not be just right.
+Anybody have any...
+I should tell you, first of all, that in this class,
+the taping is not going to affect you
+because the camera is going to be behind your head.
+I mentioned to you in the website
+that this is not the big opportunity you've been looking for to be a star.
+Only the back of your head will be seen.
+In some cases, the back of the head could be more expressive than the front,
+in which case, this is your opportunity, and I wish you luck.
+But otherwise, just don't worry about it because you will be only heard.
+You may not even be heard.
+So I've been asked that if a question is not very clear,
+I should repeat it so that people listening to this later
+will know what the question was.
+But I would ask you, let me make one thing very clear.
+That is, I'm not in favor of you talking to each other because it's distracting.
+You're stopping me any time is just fine.
+I welcome that because I've seen this subject for God knows how many years.
+The only thing that makes it different for me
+is the questions that you people have.
+So you can stop me any time,
+and you should not feel somehow you're stopping the progress of the class.
+There is no fixed syllabus. We can move things around.
+And it's far more exciting for me to answer your questions
+than to have a monologue.
+So don't worry about that.
+So stop me any time you don't follow something.
+And don't assume that you're not following something
+because there's something wrong with your level of comprehension.
+Quite often, you guys come up with questions that never cross my mind.
+It's very interesting.
+Things we've been repeating year after year after year
+because they sound so reasonable suddenly sound unreasonable
+when some of you point out some aspect of it that you didn't follow.
+So it could be very interesting for all of us to have issues
+with discussing class.
+And quite often, some questions are very common,
+and your classmates will be grateful to you that you brought it up.
+Otherwise, you know, you get 10 TAs, get 10 emails,
+all with the same question.
+Okay, so I'm going to start now.
+Anybody have any questions about the class,
+the format, the midterm, the exams?
+All right. Yes.
+Oh, you mean my office hours?
+No.
+The midterm sections are Tuesday afternoon from 1 to 2
+and Tuesday night from 8 to 10.
+And the website has got all the details on when and where.
+Yes.
+Yeah, there are many, many lab times.
+And you have to go to the website for the lab.
+And by the way, that reminds me,
+I got here lots of flyers given to me by the director of the laboratories,
+which will tell you which lab is the right lab for you.
+And they're offered many times a week.
+Yes.
+I think it's a good idea to take the lab
+because particularly in this particular class,
+because I don't have any demonstrations.
+They're all in the other building.
+So this will remind you that physics is after all an experimental science,
+and you will be able to see where all the laws of physics come from.
+So if you're going to take it, you should take it at the same time.
+Yes. Very good.
+This is a calculus-based class,
+and I expect everyone to know at least a rudiments of
+differential calculus.
+What's a function? What's a derivative?
+What's a second derivative?
+How to take derivatives of elementary functions?
+How to do elementary integrals?
+Sometime later, I will deal with functions of more than one variable,
+which I will briefly introduce to you,
+because that may not be prerequisite,
+but certainly something you will learn
+and you may use on and off.
+But there are different ways of doing physics.
+Mine is to demonstrate over and over
+how little mathematics you need to get the job done.
+There are others who like to show you
+how much mathematics you could somehow insinuate into the process.
+There are different ways of playing the game,
+and some of us find great pride
+in finding the most simple way to understand something.
+That's certainly my trademark.
+That's how I do my research also.
+So if you feel there's not enough math used,
+I guarantee you that I certainly know enough
+eventually to snow the whole class,
+but that's not the point.
+I'm going to use it in moderation
+and use it to the best effect possible
+rather than use it because it is there.
+Okay, so I don't know your mathematical background,
+but the textbook has an appendix,
+which is a reasonable measure of how much math you should know.
+You've got to know your trigonometry.
+You've got to know what's a sine and what's a cosine.
+You cannot say, I will look it up.
+Your birthday and social security number is what you look up.
+Trigonometric functions you know.
+You don't have to go through the whole thing all the time.
+I will assume you do.
+And of course, trigonometric identities you know from high school,
+pages and pages of them.
+So no one expects you to know all those identities,
+but there are a few popular ones we will use.
+All right, anything else?
+Yes?
+Yeah, midterm will be sometime around 20th of October.
+I have to find out exactly the right time.
+We have 24 lectures for this class,
+and the first 12 roughly will be part of the midterm.
+But after the 12th lecture, I may wait a week
+so that you have time to do the problems and get the solutions.
+Then I will give you the midterm.
+Yes?
+Yeah, this tells you in detail.
+This flyer answers exactly that.
+Okay, there's one more question for somebody.
+Yes?
+I don't have a strong view.
+I think you should take the lab sometime,
+but I don't know how many semesters of it you have to take.
+But I would say the advice of your predecessors
+is very important.
+If they tell you this is what works,
+that's better than what somebody like me can tell you.
+Also, you should talk to Steven Irons,
+who is the director of the labs.
+He has seen every possible situation.
+He will give you good advice.
+Let's start now.
+Okay, so we are going to be studying in the beginning
+what's called Newtonian mechanics.
+It's pretty remarkable that the whole edifice
+was set up by just one person, Newton.
+And he set us on the road to understanding
+all the natural phenomena till the year 1800 and something
+when Maxwell invented the laws of electromagnetism
+and wrote down the famous Maxwell equation.
+But except for electromagnetism,
+the basics of mechanics,
+which is the motion of billiard balls and trucks
+and marbles and whatnot,
+was set up by Newton.
+So that's what we are going to focus on.
+And you will find out that the laws of physics
+for this entire semester certainly can be written
+on one of those blackboards or even half of those blackboards.
+And the purpose of this course is to show you
+over and over and over again
+that starting with those one or two laws,
+you can deduce everything.
+And I would encourage you to think the same way.
+In fact, I would encourage you to think the way physicists do,
+even if you don't plan to be a physicist,
+because that's the easiest way to do the subject.
+And that is to follow the reasoning behind everything I give you.
+And my purpose will be not to say something as a postulate,
+but to show you where everything comes from.
+And it's best for you if you try to follow the logic.
+That way you don't have to store too many things in your head.
+In the early days when there were four or five formulas,
+you can memorize all of them.
+And you can try each one of them until something works.
+But after a couple of weeks, you will have 100 formulas
+and you cannot memorize all of them.
+You cannot resort to trial and error.
+You have to know the logic.
+So the logical way is not just the way the physicists do it.
+It's the easier way to do it.
+If there is another way that will work for non-physicists,
+I won't hesitate to teach it to you that way.
+But that turns out to be the best way.
+So try to follow the logic of everything.
+So Newtonian mechanics is our first topic.
+So Newtonian mechanics has two parts.
+All of physics is a two-part program.
+The plan every time is to predict the future given the present.
+That's what we always do.
+When we do that right, we are satisfied.
+The question is, what do you mean by predict the future?
+What do you mean by the future?
+What do you mean by the present?
+By present, we mean we will pick some part of the universe we want to study.
+And we will ask, what information do I need to know about that system
+at the initial time, like right now, in order to be able to predict the future?
+So for example, if you were trying to study the motion of some object,
+here is one example here.
+See, that's an example of Newtonian mechanics.
+I'll give you one more demonstration.
+Let's see who can catch this one.
+That's a good example.
+So that was Newtonian mechanics at work.
+Because what did I do?
+I released a piece of candy, threw it from my hand,
+and the initial condition had to do with where did I release it and with what velocity.
+That's what he sees with his eyes.
+Then that's all you really need to know.
+Then he knows it's going to go up, it's going to curve, follow some kind of parabola,
+then his hands go there to receive it.
+That is verification of a prediction.
+His prediction was the candy is going to land here, then he put his hand there.
+He also knew where the candy was going to land, but he couldn't get his hand there in time.
+But we can always make predictions.
+But this is a good example of what you need to know.
+What is it he had to know about this object that was thrown, I claim,
+the initial location of the object, the initial velocity.
+The fact that it was blue or red, not relevant.
+And if I threw a gorilla at him, it doesn't matter what the color of the gorilla is,
+what mood it is in.
+These are things we don't deal with in physics.
+Or if there is a tall building, a standard physics problem, an object falls off a tall building.
+Object could be a person.
+So we don't ask, why is this guy ending it all today?
+That's not...
+We don't know.
+And we cannot deal with that.
+So we don't answer everything.
+We just want to know when he's going to hit the pavement.
+And with what speed.
+So we ask very limited questions, which is why we brag about how accurately we can predict the future.
+We only ask limited goals, and we are very successful in satisfying them.
+So we are basically dealing with inanimate objects.
+So the project of Newtonian mechanics of predicting the future, given the present,
+has got two parts.
+One is called kinematics, and the other is called dynamics.
+So kinematics is a complete description of the present.
+It's a list of what you have to know about a system right now.
+For example, if you're talking about the chalk, if I throw the chalk,
+you will have to know where it is and how fast it's moving.
+The dynamics doesn't...
+Dynamics then tells you why the object goes up, why the object goes down,
+why is it pulled down, and so on.
+The reason it comes down is gravity is pulling it.
+In kinematics, you don't ask the reason behind anything.
+You simply want to describe things the way they are,
+and then dynamics tells you how they change and why they change.
+So I'm going to illustrate the idea of kinematics by taking the simplest possible example.
+That's going to be the way I'm going to do everything in this course.
+I'm going to start with the simplest example
+and slowly add on bells and whistles and make it more and more complicated.
+So some of you might say, well, I've seen this before,
+so maybe there is nothing new here.
+That may well be. I don't know how much you've seen,
+but quite often the way you learned physics earlier on in high school
+is probably different from the way professional physicists think about it.
+The sense of values we have, the things that we get excited about are different.
+Problems may be more difficult.
+But I want to start in every example, in every situation that I explained to you,
+the simplest example, and slowly add on things.
+So what we are going to study now is a non-living object,
+and we're going to pick it to be a mathematical point.
+So the object is a mathematical point. It has no size.
+If you rotate it, you won't know. It's not like a potato.
+Take a potato, you turn it around, it looks different.
+So it's not enough to say the potato is here.
+You've got to say which way the nose is pointing and so on.
+So we don't want to deal with that now.
+That comes later when we study what are called rigid bodies.
+Right now, we want to study an entity which has no spatial extent.
+So just a dot.
+And the dot can move around all over space.
+So we're going to simplify that too.
+We're going to take an entity that lives along the x-axis.
+It moves along a line.
+So you can imagine a bead with a wire going through it,
+and the bead can only slide back and forth.
+So this is about the simplest thing.
+I cannot reduce the number of dimensions.
+One is the lowest dimension.
+I cannot make the object simpler than being just a mathematical point.
+Then you've got to say,
+what do I have to know about this object at the initial time?
+What constitutes the present?
+Or what constitutes maximal information about the present?
+So what we do is we pick an origin.
+We call it zero.
+We put some markers there to measure distance.
+And we say this guy is sitting at 1, 2, 3, 4, 5.
+This is sitting at x equal to 5.
+Now, of course, we've got to have units,
+and the units for length are going to be meters.
+Units for time will be second.
+And time will be measured in seconds.
+Then we'll come to other units.
+Right now in kinematics, this is all you need.
+Now, there are some tricky problems in the book.
+Sometimes they give you the speed in miles per hour, kilometers per year,
+poundles per square foot, whatever it is.
+You've got to learn to transform them.
+But I won't do that.
+I'm going to do elementary stuff.
+But sometimes I may not write units,
+but I weren't the right to do that, and you guys haven't.
+So you still have to keep track of your units.
+Everything's got to be in the right units.
+If you don't have the units, then if you say the answer is 19,
+then we don't know what it means.
+OK.
+So here's an object.
+At a given instant, it's got a location.
+So what we would like to do is to describe what the object does
+by drawing a graph of time versus space.
+And the graph could be something like this.
+You've got to learn how to read this graph.
+I'm assuming everyone knows how to read it.
+This doesn't mean the object is bobbing up and down.
+I hope you realize that.
+Even though the graph is going up and down,
+the object is moving from left to right.
+So for example, when it does this,
+it's crossed the origin and it's going to the left of the origin.
+Now, which is the left of the origin,
+it turns around and starts coming to the origin and going to the right.
+That is x versus t.
+So in the language of calculus, x is the function of time,
+and this is a particular function.
+This function doesn't have a name.
+There are other functions which have a name.
+For example, this is x equals t, x equals t squared.
+You can have x equals sine t and cosine t and log t.
+So some functions have a name.
+Some functions don't have a name.
+What a particle tries to do generally is some crazy thing
+which doesn't have a name.
+But it's a function x of t.
+So you should know when you look at a graph like this
+that you can see what it's doing.
+So the two most elementary ideas you learn
+are what is the average velocity of an object
+as denoted by the symbol d bar.
+So the average is found by taking two instants in time,
+say t1 and later t2.
+And you find out where it was at t2
+minus where it was at t1 and divide by the time.
+So the average velocity
+may not tell you the whole story.
+For example, if you started here and you did all this
+and you came back here,
+the average velocity will be zero
+because you start and end at the same value of x.
+You get something zero divided by time,
+it will still be zero.
+So you cannot tell from the average everything that happened
+because another way to get the same zero
+is to just not move at all.
+The average is what it is.
+It's an average.
+It does not give you enough detail.
+So it's useful to have the average velocity
+and it's useful to have the average acceleration,
+which you can find by taking similar differences of velocities.
+But before you even do that,
+I want to define for you an important concept,
+which is the velocity at a given time.
+So this is the central idea of calculus.
+I'm hoping that if you learned your calculus,
+you learned about derivatives and so on
+by looking at x versus t.
+So I will remind you, again, this is not a course in calculus.
+It's not a problem.
+It has nothing to do with any detail.
+I will draw the famous picture of some particle moving
+and it's here at time t at some value of x.
+A little later, which is time t plus delta t.
+So delta t is going to stand always
+for a small finite interval of time,
+infinitesimal interval of time, not yet zero.
+So during that time, the particle's gone from here to there.
+That is x plus delta x.
+So the average velocity in that interval
+is delta x divided by delta t.
+Graphically, this guy is delta x and this guy is delta t.
+And delta x over delta t is the ratio.
+So in calculus, what you want to do
+is to get the notion of the velocity right now.
+We all have an intuitive notion of velocity right now.
+When you're driving in your car,
+there's a needle and the needle says 60.
+That's the velocity at this instant.
+It's very interesting
+because velocity seems to require two different times
+to define it, the initial time and the final time.
+And yet you want to talk about the velocity right now.
+That is the whole triumph of calculus.
+It's to know that by looking at the position now,
+the position slightly later,
+take the ratio and bringing later,
+as close as possible to right now,
+we define a quantity that we can say
+is the velocity at this instant.
+So v of t is the limit delta t.
+So v of t is the limit delta t goes to 0 of delta x over delta t.
+And we use the symbol dx dt for velocity.
+So technically, if you ask what does the velocity stand for,
+it stands for, let me draw a general situation.
+If a particle goes from here to here,
+delta x over delta t,
+I don't know how well you can see it in this figure here,
+is the slope of a straight line connecting these two points.
+And as the points come closer and closer,
+the straight line will become tangent to the curve.
+The velocity at any part of the curve
+is a tangent to the curve at that point.
+It's tangent of that theta.
+This angle is theta.
+Then delta x over delta t by trigonometry is tan theta.
+Okay, once you can take one derivative,
+you can take any number of derivatives,
+and the derivative of the velocity
+is called the acceleration.
+And we write it as the second derivative
+of position.
+So I'm hoping you guys are comfortable
+with the notion of taking one or two
+or any number of derivatives.
+Interestingly, the first two derivatives have a name.
+First one is velocity, second one is acceleration.
+The third derivative, unfortunately,
+was never given a name.
+And I don't know why.
+I think the main reason is that there are no equations
+that involve the third derivative explicitly.
+F equals ma, the a is this fellow here,
+and nothing else is given an independent name.
+Of course, you can take a function
+and take derivatives any number of times.
+So you are supposed to know, for example,
+if x of t is t to the n,
+you're supposed to know dx dt is n to the n minus 1.
+Then you're supposed to know derivatives
+of simple functions like sines and cosines.
+So if you don't know that, then of course,
+you have to work harder than other people.
+If you know that,
+that may be enough for quite some time.
+So what I've said so far is a particle moving in time
+from point to point can be represented by a graph, x versus t.
+At any point on the graph, you can take the derivative,
+which will be tangent to the curve at each point,
+and its numerical value will be what you can call
+the instantaneous velocity at that point,
+and you can take the derivative over the derivative
+and call it the acceleration.
+So we are going to specialize
+to a very limited class of problems
+in the rest of this class.
+The limited class of problems is one in which
+the acceleration is just a constant.
+Now that is not the most general thing,
+but I'm sure you guys have some idea
+why we are interested in that.
+Anybody know why that's such a big,
+so much time is spent on that? Yes? Pardon me?
+The most famous example is that when things fall
+near the surface of the Earth,
+they all have the same acceleration,
+and the acceleration that's most common is called g,
+and that's 9.8 meters per second squared.
+So that's a very typical problem.
+When you fall near the surface of the Earth,
+you are describing a problem of constant acceleration.
+That's why there's a lot of emphasis on sharpening your teeth
+by doing this class of problems.
+The question we are going to ask is the following.
+If I tell you that the particle
+has a constant acceleration a,
+can you tell me what the position x is?
+Normally, I will give you a function
+and tell you to take any number of derivatives.
+That's very easy. This is the backwards problem.
+You're only given the particle has acceleration a,
+and you're asked to find out what is x.
+In other words, your job is to guess a function
+whose second derivative is a,
+and this is called integration,
+which is the opposite of differentiation.
+Integration is just guessing.
+Integration is not an algorithmic process like differentiation.
+If I give you a function, you know how to take the derivative,
+change the independent variable,
+find the change in the function, take the ratio,
+and that's the derivative.
+The opposite is being asked here.
+I tell you something about the second derivative of a function
+and ask you what is the function.
+The way we do that is we guess,
+and the guessing has been going on for 300 years,
+so we sort of know how to guess.
+So let me think aloud
+and ask how I will guess in this problem.
+I will say, okay, this guy wants me to find a function
+which reduces to the number a when I take two derivatives.
+And I wrote somewhere here this result,
+which says that when I take a derivative,
+I lose the power of t.
+In the end, I don't want any powers of t.
+Very clear, I've got to start with a function
+that looks like t squared.
+This way, when I take two derivatives,
+there'll be no t left.
+Unfortunately, we know this is not the right answer
+because if I take the first derivative,
+I get 2t.
+If I take the second derivative,
+I get 2.
+But I want to get a and not 2.
+Then it's very clear the way you patch that up
+is you multiply it by this constant,
+and now we are all set.
+This function will have the right second derivative.
+This certainly describes a particle
+whose acceleration is a,
+but a is not dependent on time.
+But the question is, is this the most,
+general answer, or is it just one answer?
+I think you all know that this is not the most general answer.
+It is one answer.
+But I can add to this some number like 96.
+That'll still have the property that if you take two derivatives,
+you're going to get the same acceleration.
+So 96 now is a typical constant,
+so I'm going to give the name c, the constant.
+Everyone knows from calculus that if you're trying to find a function
+about which you know only the derivative,
+you can always add a constant to one person's answer
+without changing anything.
+But I think here you know you can do more.
+You can add something else to the answer
+without invalidating it,
+and that is anything with one power of t in it,
+because if you take one derivative, it'll survive,
+but if you take two derivatives, it'll get wiped out.
+Now it's not obvious, but it is true
+that you cannot add to this anymore.
+Basic idea in solving these things
+is to integrate these equations.
+In integrating, you find one answer
+so that when you take enough derivatives,
+the function does what it's supposed to do.
+But then having found one answer,
+you can add to it anything that gets killed
+by the act of taking derivatives.
+If you're taking only one derivative,
+you can add a constant.
+If you're taking two derivatives,
+you can add a constant and something linear in t.
+If you knew only the third derivative of the function,
+you can add something quadratic in t
+without changing the outcome.
+So that's the general position
+for a particle of constant acceleration, a.
+Now you must remember that
+this describes a particle going side to side.
+I can also describe a particle going up and down.
+If I do that,
+I would like to call that coordinate y,
+then I will write the same thing.
+You've got to realize that in calculus,
+the symbols that you call x and y are completely arbitrary.
+If you know the second derivative of y to be a,
+then the answer looks like this.
+If you knew the second derivative of x,
+the answer looks like that.
+Now we have to ask,
+what are these numbers b and c?
+So let me go back now to this expression,
+x of t equals a t squared over 2 plus c plus b t.
+It is true mathematically you can add two numbers,
+but you've got to ask yourself,
+what am I doing as a physicist when I add these two numbers?
+What am I supposed to do with a and b?
+What am I supposed to do with a and b?
+What am I supposed to do with a and b?
+What value should I pick?
+The answer is that simply knowing the particle has that acceleration
+is not enough to tell you where the particle will be.
+For example, let's take the case
+where the particle is falling under gravity.
+Then you guys know, you just told me,
+acceleration is minus 9.8,
+where g is minus 9.8.
+We call it minus because it's accelerating down
+and up was taken to be the positive direction.
+So the y of t will be minus 1 half gt squared plus c plus bt.
+So the point is every object falling under gravity
+is given by the same formula,
+but there are many, many objects that can have many histories
+all falling under gravity.
+And what's different from one object and the other object is
+when was it dropped, from what height,
+and with what initial speed?
+That's what these numbers are going to tell us,
+and we can verify that as follows.
+So the number c is, you say,
+let's put time t equal to 0.
+In fact, let me go back to this equation here.
+If you put time t equal to 0, x at 0 doesn't have this term,
+doesn't have this term, and it is c.
+So I realize that the constant c
+is the initial location of the object,
+and it's very common to denote that by x naught.
+So the meaning of the constant is
+where was the object at the initial time?
+It could have been anywhere.
+Simply knowing the acceleration is not enough
+to tell you where it was at the initial time.
+You get to pick where it was at the initial time.
+Then to find the meaning of b,
+we take one derivative of this, dx dt.
+That's velocity as a function of time.
+And if you took the derivative of this guy,
+you'll find it's at plus b.
+That's the velocity of the object.
+Then you can then understand that v of 0 is what b is,
+and that's the velocity of the object.
+So the final answer is that x of t looks like x naught
+plus v naught t plus 1 half at square.
+So what I'm saying here is we are specializing
+to a limited class of motion where the particle
+has a definite acceleration a.
+Then in every situation where the body has an acceleration a,
+the location has to have this form.
+Where this number is where it was initially,
+this was the initial velocity of the object.
+So when I threw that thing up and you caught it,
+what you were doing mentally was immediately figuring out
+where it started and at what speed.
+That was your initial data.
+Then in your mind, without realizing it,
+you found the trajectory at all future times.
+Now, there is one other celebrated formula
+that goes with this.
+I'm going to find that.
+Then I'll give you an example.
+Now, I'm fully aware that this is not the flashiest example
+in physics, but I'm not worried about that right now.
+You'll see enough things that will confound you.
+But right now, I want to demonstrate a simple paradigm
+of what it means to know the present
+and what it means to say this is what the future behavior will be.
+If you want to do that in the simplest context,
+then we can make the example more and more complicated,
+but the phenomenon will be the same.
+So what we have found out so far
+is that the first formula is the second formula.
+I'm purposely going from x to y
+because I want you to know that the unknown variable
+can be called an x or can be called a y.
+It doesn't matter.
+As long as the second derivative is a,
+that's the answer.
+Now, there's a second formula one derives from this.
+You guys probably know that too from your days at the daycare,
+but I want to derive that formula and put it up.
+Then we'll see how to use that.
+The second formula tries to relate the final velocity
+at some time t
+and the distance traveled with no reference to time.
+So the trick is to eliminate time from this equation.
+So let's see how we can eliminate time.
+You know that if you took a derivative of this,
+you'll find v of t is v0 plus at.
+What that means is if you know the velocity at a given time
+and you know the initial velocity,
+you know what time it is.
+The time, in fact, is v minus v0 over a.
+If I don't show you the initial velocity,
+you can see that it's v minus v0 over a.
+If you don't see any arguments for v,
+it means v at time t,
+and the subscript 0 means v of 0.
+So what this says is you can measure time
+by having your own clock.
+The clock tells you what time it is.
+But you can also say what time it is
+by seeing how fast the particle is moving
+because you know it started with some speed.
+It's gaining speed at some rate a.
+So if the speed was so and so now,
+then the time had to be this.
+The time can be indirectly inferred from these quantities.
+Then you take that formula here,
+and you put it here.
+Wherever you see a time t, you put this expression.
+So what will you get?
+You'll get an expression in which there is no t.
+t has been banished in favor of this.
+I'm not going to waste your time by asking
+what happens if you put it in.
+I'll just tell you what happens.
+What happens is you will find that v squared
+is equal to v0 squared plus 2a times x minus x0.
+How many people have seen this thing before?
+Okay, that's a lot.
+Look, I know you've seen this.
+At the moment, I have to go through
+some of the more standard material
+before we go to the more non-standard material.
+This part is very easy for you.
+There's not much I can do right now.
+So let me draw a box.
+Just drawing a box to you guys means important.
+These are the two important things.
+I claim now.
+Remember, I want you to understand one thing.
+How much of this should you memorize?
+Suppose you've never seen this in high school.
+How much are you supposed to memorize?
+I would say keep that to a minimum
+because what the first formula tells you
+should be so intuitive that you don't have to cram this.
+We're talking about particles of constant acceleration.
+That means when I take two derivatives,
+I want to get a.
+Then you should know enough calculus
+to know it has to be something like at squared.
+The half comes from taking two derivatives.
+The other two you know are stuff you can add.
+You know why you're adding those things
+because the particle has a head start.
+It's got an initial position.
+Even at t equal to zero,
+it has an initial velocity.
+Even without any acceleration,
+it'll be moving from y naught to y naught plus vt.
+The acceleration gives you an extra stuff,
+a quadratic in time.
+Once you've got that,
+one derivative will give you the velocity.
+Then in a crunch, you can eliminate t
+and put it into this formula.
+But most people end up memorizing these two
+because you use it so many times.
+Eventually it sticks in you,
+but you shouldn't try to memorize everything.
+We are now going to do one standard problem
+where we will convince ourselves
+we can apply this formula and predict the future
+given the present.
+The problem I want to do,
+there are many things you could do,
+but I just picked one.
+This is the one with the wrong number,
+so I can do it without a calculator.
+Here's the problem.
+There is this building,
+and it's going to be 15 meters high.
+I'm going to throw something,
+and it's going to go up and come down.
+Something I throw up has an initial speed
+of 10 meters per second.
+So we have to ask now,
+now that my claim is,
+you can ask me any question you want
+about this particle,
+and I can answer you.
+You can ask me where it will be
+9 seconds from now, 8 seconds from now,
+how fast will it be moving.
+I can answer anything at all.
+But what I needed to do it,
+to do this problem,
+was to find these two unknowns.
+What is the initial velocity given in general,
+and what is tailor-made to the occasion?
+We know in this example,
+the initial height should be 15 meters,
+and the initial velocity should be 10.
+For acceleration, I'm going to use minus g,
+and to keep life simple,
+I'm going to call it minus 10.
+As you know, the correct answer is 9.8,
+but we don't want to use a calculator now,
+so we'll call it minus 10.
+Consequently, for this object,
+the position y at any time t
+is known to be 15 plus 10t minus 5t squared.
+That is the full story of this object.
+Of course, you've got to be a little careful
+when you use it.
+For example, let's put t equal to 10,000 years.
+What are you going to get?
+If you put t equal to 10,000 years or 10,000 seconds,
+you're going to find y is some huge negative number.
+Is that right?
+That's wrong with that reasoning.
+You cannot use the formula once it hits the ground
+because once it hits the ground,
+the fundamental premise that a was a constant
+of minus 9.8 or minus 10 is wrong.
+That's another thing to remember.
+Once you get a formula,
+you've got to always remember
+the terms under which the formula was derived.
+If you blindly use it beyond the validity,
+you will get results which don't make any sense.
+Conversely, if you get an answer
+and it doesn't seem to make sense,
+you will go back and ask,
+am I violating some of the assumptions?
+Here you will find the assumption
+that the particle had that acceleration is true
+as long as it's freely falling under gravity
+but not when you hit the ground.
+If you dug a hole here to there,
+then of course it may work until that happens.
+But you've got to know every time.
+This is so obvious in this problem,
+but when you see a more complicated formula,
+you may not know all the assumptions
+that went into derivation.
+Quite often you'll be using it
+to find out the answer.
+You agree that it's a complete solution
+to this miniature, tiny Mickey Mouse problem.
+Give me the time and I'll tell you where it is.
+If you want to know how fast it's moving at a given time,
+if you want another velocity,
+I just take the derivative of this answer,
+which is 10 minus 10t.
+Let me pick a couple of trivial questions one can ask.
+One can ask the following question.
+How high does it go?
+How high will it rise to 1?
+How high will it rise to 2?
+What height will it rise to?
+What height will it rise to?
+What height will it rise to?
+We know it's going to go up and turn around and come down.
+We're trying to see how high that is.
+That is a tricky problem to begin with
+because if you take this formula here,
+it tells you y if you know t,
+but now we are not saying that.
+We don't know the time,
+and we don't know how high it's rising,
+so you can ask how am I supposed to deal with this problem.
+What is the point when it's neither going up nor coming down?
+If it's going up, that's not the highest point.
+If it's coming down, that's not the highest point.
+So at the highest point, it cannot go up and it cannot go down.
+That's the point where velocity is 0.
+If you do that, let's call that particular time t star,
+then 10t star minus 10 is equal to 0,
+or t star is 1 second.
+So we know that it will go up for 1 second,
+then it will turn around and come back.
+Now we are done because now you can ask how high does it go?
+Then you go back to your y of 1,
+and y of 1 is 15 plus 10 minus 5,
+which is what? 20 meters.
+By the way, you will find that I make quite a lot of mistakes on the blackboard.
+You're going to find out one of these years when you start teaching
+that when you get really close to the blackboard,
+you just cannot think.
+It's definitely an inverse correlation between your level of thinking
+and the proximity to the blackboard.
+So if you find me making a mistake, you've got to stop me.
+Why do you stop me? For two reasons.
+First of all, I'm very pleased when this happens.
+I'm pretty confident that I can do this under duress.
+I may not do it right every time,
+but if my students can catch me making a mistake,
+it means they're following it and they're not hesitating to tell me.
+Secondly, as we go to the more advanced part of the course,
+we'll take a result from this part of the blackboard,
+stick it into the second part and keep manipulating.
+If I screwed up in the beginning and you guys keep quiet,
+we'll have to do the whole thing again.
+I would ask you, when you follow this thing, to do it actively.
+Try to be one step ahead of me.
+For example, if I'm struck by lightning, can you do anything?
+Can you guess what I'm going to say next?
+Do you have any idea where this is going?
+You should have a clue.
+If I die and you stop,
+you should have a sign.
+You've got to keep going a little further
+because you should follow the logic.
+For example, I'm going to calculate next when it hits the ground.
+You should have some idea how I'll do it
+because this is not a spectator sport.
+If you just watch me, you're going to learn nothing.
+It's like watching the US Open and thinking you're some kind of player.
+You will have to shed the tears and you've got to bang your head on the wall,
+go through your own private struggle.
+I cannot do that for you.
+I cannot even make it look hard,
+because I've been through this problem from childhood.
+There is no way I can make this look difficult.
+That's your job.
+We know this point at one second is 20 meters.
+Let's just ask one other question and we'll stop.
+One other question may be,
+when does it hit the ground and at what speed?
+That's a typical physics question.
+When does it hit the ground?
+Well, I think you must know now how to formulate that question.
+When does it hit the ground is when is y equal to 0?
+By the way, I didn't tell you this,
+but I think you knew that I picked my origin to be here
+and measured y positively to be upwards,
+and I call that 15 meters.
+You can call that your origin.
+If you call that your origin, your y0 will be 0,
+but ground will be called minus 15.
+In the end, the physics is the same,
+but the numbers describing it can be different.
+You have to interpret the data differently.
+The standard origin for everybody is the foot of the building.
+You can pick your origin here, some crazy spot.
+It doesn't matter, but some origins are more equal than others
+because there are some natural landmarks there.
+Here, the foot of the building is what I call the origin.
+In that notation, I want to ask when is y equal to 0?
+If I ask when y is equal to 0, then I say 0 is 15 plus 10t,
+minus 5t squared, or I cancel the 5 everywhere
+and change the sign here, I get t squared minus 2t minus 3
+equal to 0.
+That's when it hits ground.
+Let's find out what the time is.
+t is then 2 plus or minus 4 plus 12 over 2,
+which is 2 plus or minus 4 over 2,
+minus 1 or 3.
+You get two answers when it hits the ground.
+It's clear that we should pick 3, but you can ask,
+why is it giving me a second solution?
+Anybody have an idea why it's yes?
+That's correct.
+Her answer was, if it was a full parabola,
+then we know it would have been at the ground
+before I set my clock to 0.
+First of all, negative time should not bother anyone.
+t equals 0 is when I set the clock,
+I measure time forward, but yesterday would be
+t equal to minus 1 day.
+We don't have any trouble with negative times.
+The point is, this equation does not know about the building.
+It doesn't know the whole song and dance that you went
+to a building and you threw up a rock.
+It knows nothing.
+What does the mathematics know?
+It knows that this particle happened to have a height of 15
+at time 0 and a velocity of 10 at time 0.
+It is falling under gravity with an acceleration of minus 10.
+That's all it knows.
+If that's all it knows, then in that scenario,
+if there is no building at anything else,
+it continues a trajectory both forward in time
+and backward in time.
+It says that whatever seconds,
+one second before you set your clock to 0,
+it would have been in the ground.
+What it means is, if you release a rock at that location
+one second before with a certain speed
+that we can calculate, it would have ended up here
+with precisely the position and velocity it had
+at the beginning of our experiment.
+Sometimes the extra solution is very interesting.
+You should always listen to the mathematics
+when you get extra solutions.
+In fact, when a very famous physicist called Dirac
+was looking for the energy of a particle
+in relativistic quantum mechanics,
+he found the energy of a particle is connected to its momentum.
+This p is y.
+That's what we call momentum.
+And its mass by this relation.
+So particle of mass m and momentum p has this energy.
+So you solve for the energy.
+You get two answers.
+Now your temptation is to keep the first answer
+because you know the energy is not going to be negative.
+Particle is moving.
+It's got some energy and that's it.
+But the mathematicians told Dirac
+you cannot ignore the negative energy solution
+because it tells you there's a second solution
+and you cannot throw them out.
+It turns out the second solution with negative energy
+was when the theory is telling you,
+hey, there are particles and there are antiparticles.
+And the negative energy, even properly interpreted,
+will describe antiparticles.
+So the equations are very smart.
+The way the physics works is
+you find some loss of motion in mathematical form.
+You put in the initial conditions of whatever.
+You solve the equations.
+And the answer that comes, you have no choice.
+You have to accept the answer.
+If there are new answers besides the one you were looking for,
+you've got to think about what they mean.
+And that's one of the best things about physics
+because here's a person who is not looking for antiparticles.
+He was trying to describe electrons.
+But the theory said there are two roots in the quadratic equation
+and the second root is mathematically
+as interesting as the first one.
+It has to be part of the theory.
+And in trying to adjust it so it can be incorporated,
+you discovered antiparticles.
+So always amazing to us how we go into the problem.
+Our eye or mind can see one class of solutions.
+But the math will tell you sometimes there are new solutions.
+And you've got to respect it and understand
+and interpret the unwanted solutions.
+And this is a simple example where you can follow
+what the meaning of the second solution is.
+It means that to the problem you post,
+there's more than the answers that you could imagine.
+Here it meant particle that was released from the ground earlier.
+There it meant something much more interesting,
+namely antiparticles accompanying particles.
+They are going to accompany particles surely
+as every quadratic equation has two solutions.
+All right.
+So now in this problem, we can do something slightly different.
+And that's use this expression here.
+And I will do that then.
+I'll stop for today.
+If you are asking questions like how high does it go,
+but you don't ask when does it go to the highest point,
+then you don't have to go through the whole process
+of finding the time at which it turned around.
+I don't know where that is.
+That disappeared on the blackboard.
+So I'm putting the time equal to one second into this formula.
+If the question of time is not explicitly brought up,
+then you should know that you have to use this formula.
+So how do we get it here?
+Well, we say at the top of the loop,
+when it goes up and comes down, the velocity is zero.
+Therefore, you say zero squared equals
+initial velocity squared plus two times minus g,
+that's my acceleration, times y minus,
+plus y zero.
+If you solve for that, you find y minus y zero
+equals v zero squared over two g.
+And if you put in the v zero I gave you,
+which is what, 10, that's 100 over 20,
+which is five meters.
+So y equals y zero plus five meters,
+and that is the height to which it rises.
+I think we got it somewhere else.
+We found the maximum height
+of the velocity, which is 20 meters.
+Another thing you can do is you can find the speed here.
+If you want to find the speed there,
+you put the equation v squared equals
+v zero squared plus two times minus g.
+What is y minus y zero?
+The final y is zero.
+The initial y is minus, is 15.
+You solve for that equation,
+then you will find the final velocity.
+So if time is not involved, you can do it that way.
+I want to derive the last result,
+and I want to derive the result in another way.
+Then I will stop, and that's pretty interesting
+because it tells you use and abuse of calculus.
+I'm going to find for you this result
+using calculus in a different way.
+So from the calculus, we know dv dt is equal to a.
+So multiply both sides by v.
+Now, you have to know from elementary calculus
+that v times dv dt
+is equal to the derivative of v squared over two.
+Now, I hope you guys know that much calculus,
+that when you take a derivative of a function of a function,
+namely v squared over two is a function of v,
+and v itself is a function of t,
+then the rule for taking the derivative
+is first take the v derivative of this object,
+then take the d by dt of v, which is this one.
+The right-hand side, I'm going to write as adx dt.
+So I'm going to write this as standard.
+But now here is what I'm going to do something
+which somehow we are told never ever to do,
+which is to just cancel the dt's.
+You all know that when you do dy dx,
+you're not supposed to cancel that d.
+That's actually correct.
+You don't want to cancel the d in the derivative,
+but this happens to be completely legitimate.
+So I'm going to assume it's true,
+and I'll maybe take a second,
+and I'll put in some more data.
+So I'm going to write this as,
+so one time, delta t,
+the change in this quantity
+is eight times the change in this quantity.
+Therefore, you can multiply both sides by the delta t,
+but the only thing you should understand is
+delta t, as long as it's small and finite,
+will lead to some small and finite errors in the formula
+because the formula is really the limit
+in which delta x and delta t both go to zero.
+So what you have to do is multiply both sides by delta t,
+but remember it's got to be in the end
+can do this cancellation.
+And this says on the left-hand side,
+the change in the quantity v squared over 2
+is the change, a times the change in the quantity x.
+So add up all the changes, or what you mean by integral,
+same thing, add up all the changes.
+The change in v squared over 2 will
+be the final v squared over 2 minus the initial v
+squared over 2.
+And the other side will be a times the change in x,
+x minus x0.
+And that's the formula I wrote for you,
+v squared is v0 squared plus 2a, x minus x0.
+So the point is, whenever you have derivatives with something
+over dt, do not hesitate to cancel the dt's and think
+of them as delta v squared over 2 is equal to a times delta
+of x.
+This will be actually true as long as both quantities are
+vanishingly small.
+It will become more and more true
+if delta x and delta v squared become
+vanishingly small.
+In the limit in which they are approaching 0,
+the two will be in fact equal.
+If delta x is a finite amount, like one second,
+this will not be true.
+Because in the starting equation, delta x and delta t
+and delta v squared are all assumed to be infinitesimal.
+So don't hesitate to do manipulations of this type.
+And I will do them quite often.
+You've got to understand when it's OK and when it's not OK.
+What this means is, in a time delta t,
+if this quantity changes by some amount,
+then keeping the delta t equal to some number,
+we may equate the changes in the two quantities.
+Provided it is understood that delta v squared over 2
+is a change in v squared over 2 in the same time
+in which the particle moved a distance delta x.
+Then by adding the differences, we eliminate time
+and we get this final result.
+All right.
+So if you go to your website today,
+you will find I have assigned some problems.
+And you should try to do your own math.
+But I will try to do it.
+And I will try to do it.
+Thank you.
+If you go to the pop culture online Christie
+and rather than try to do them, they apply to this chapter then
+next week we'll do more complicated problems
+that involve motion in higher dimension,
+how to go to 2 dimensions or 3 dimensions.

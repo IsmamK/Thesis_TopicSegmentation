@@ -1,0 +1,1251 @@
+Professor Ramamurti Shankaracharyam, Ph.D.: Everything I told you last time, you can summarize in these two equations.
+Remember what we did. We said, let's take for the simplest case that we can possibly imagine,
+namely a particle moving in one dimension along the x-axis with a constant acceleration a.
+What is the fate of this particle? And the answer was, at any time t,
+the location of the particle is given by this formula.
+You can easily check by taking two derivatives that this particle does have the acceleration a.
+So what are these two other numbers, x0 and v0 and x0 and v0? I think we know now what they mean.
+They tell you the initial location and initial velocity of the object.
+For example, suppose you use vertical motion and use y instead of x, and a would be g or minus g.
+That's a particle.
+So, if you have a particle falling down under the effect of gravity,
+if all you know is the particle is falling under the effect of gravity,
+that's not enough to say where the particle is, right?
+Suppose we all go to a tall building, start throwing things at various times, at various speeds.
+We are all throwing objects whose acceleration is minus g.
+But the objects are at different locations at a given time.
+That's because they could have been released from different heights with different initial velocities.
+Therefore, it's not simply enough to say what the acceleration is.
+You have to give these two numbers.
+Then, once you've got those two numbers, they're no longer free parameters.
+They're concrete numbers, maybe 5 and 9.
+Then, for any time t, you plug in the time t and you'll get the location.
+If you took the derivative of this, you'll get the velocity at time t to be v0 plus at.
+Again, you should memorize the formula.
+I hope you know why it makes sense, right?
+You want to know how fast the guy is moving.
+This is the starting speed.
+That's the rate at which it is gaining velocity.
+And that's how long it's been gaining it.
+So, you add the two.
+This also means the following.
+It is true that if you give me the time, I can tell you the velocity.
+But conversely, if I knew the velocity of this object, I also know what time it is, provided I knew the initial velocity.
+Therefore, mathematically, at a given time t, we can trade t for v and put it into this formula.
+Banish t everywhere.
+By doing it, I got this formula.
+This is a matter of simple algebra of taking this and putting it here.
+But I showed you in the end how you can use calculus to derive that.
+And I got the feeling when I was talking to some of you guys that maybe you should brush up on your calculus.
+You have done it before, but when you say, I know calculus, sometimes it means you know it.
+Sometimes it means you know some fellow who does.
+You met somebody who knows.
+That's not good enough.
+You really have to know calculus.
+And this is a constant problem.
+It has nothing to do with you guys.
+It is just that you have done it at various times.
+It's a problem we have dealt with in the physics department year after year.
+And one solution for that is to get a copy of a textbook I wrote called Basic Training in Mathematics.
+It's a paperback for 30 bucks.
+And I've given the name of the book in our class's website.
+If I hadn't written it, I would prescribe it.
+But that is a little awkward moment.
+You don't want to sell your own book.
+On the other hand, you don't have to withhold information that may be useful to the class.
+So I think that book will give you all the basic principles you need in calculus, one variable, more variables, elementary complex numbers,
+maybe solving some problems with vectors and so on, which you're going to get into.
+Whether you're going to physics or not is irrelevant.
+If you're going to any science that uses mathematics,
+chemistry or engineering or even economics,
+you should find the contents of that useful.
+So I think it will be in your interest to get that any way you like.
+You can go to Amazon or you can go to our bookstore.
+The bookstore has some copies, but they are really for another course.
+So you should look at it and order it on your own.
+Okay, so I will now proceed to the actual subject matter for today.
+So I told you the way I'm going to teach any subject is to get the content out of the book.
+So I'm going to start with the easiest example and lull you into some kind of security and then slowly increase the difficulty.
+So what's the next difficult thing?
+Next difficult thing is to consider motion in higher dimensions.
+So how high do you want to go?
+Now, for most of us, we can go up to three dimensions because we know we live in a three-dimensional world.
+Everything moves around in 3D.
+That will be enough for this course.
+In fact, I'm going to use only two dimensions for most of the time.
+Because the difference is that,
+because the difference between one dimension and two is very great.
+But between two and three and four and so on is not very different.
+There's only one occasion where it helps to go to three dimensions because there are certain things you can do in 3D you cannot do in less than 3D.
+But that's later, so we don't have to worry about that.
+So we'll stop with two.
+If you talk to string theorists, they will tell you there are really how many dimensions?
+Do you know?
+There are actually ten, including space and time.
+Okay.
+So, there are nine dimensions, including space and time, there are nine spatial dimensions.
+That's according to string guys.
+So, mathematicians have likely told us how to analyze mathematics in any number of dimensions.
+We don't pay attention to them when they are going beyond three, but now we know we need that.
+So, we are going to do two.
+So, our picture now is going to be some particle that's traveling in the xy plane.
+So, the guy is just moving around like this.
+We're going to do the x versus time plot, the y versus time.
+It's the actual motion of the particle.
+And if you say, where is time?
+Well, one way to mark time is to imagine it carries a clock as it moves and put markers every second.
+That may be t equal to zero, t equal to one, t equal to two, and so on.
+So, time is measured as a parameter along the motion of the particle.
+It is not explicitly shown.
+But you can sort of tell the particle is moving slowly or rapidly by looking at the motion.
+By looking at the spacing between these tick marks.
+For example, here in one second it went from here to here.
+Here in one second it seems to have gone much further, so probably it's traveling faster.
+But if you want to describe this particle, what's the kinematics?
+You can pick a point and say, I am at the point xy.
+So, when you go to two dimensions, you need a pair of numbers.
+Instead of x, you need x and y.
+But what we will find is it's more convenient to lump these two numbers in one.
+So, we will find a single entity which is called a vector.
+So, that's what we are going to talk about a little bit.
+Talk a little bit about vectors.
+Now, you guys have also seen vectors, I'm pretty sure.
+But it is worth going over some properties and some may be new and some may be old.
+So, the simplest context in which one can motivate a vector and also motivate the rules for dealing with vectors
+is when you look at real space.
+I mean, this coordinates.
+This coordinates x and y.
+And let's imagine that I went on a camping trip and on the first day, here is where I was.
+Then I tell you I went for 5 kilometers on the second day and another 5 kilometers on the third day.
+Then I ask you, where am I?
+How far am I from camp?
+You realize that you cannot answer that.
+You cannot answer that even if I promise to move only along the x-axis.
+Because I think I don't want to pose this as a question because I think the answer is fairly obvious to everybody.
+It's not enough to say I went 5 kilometers.
+I got to tell you whether I went to the right or whether I went to the left.
+So, I could be 10 kilometers from home.
+I could be 0 kilometers from home.
+Or I could be minus 10 if I had gone 2 steps to the left.
+But you can deal with this by saying not just 5 kilometers but plus or minus 5 kilometers.
+If you give a sign on top of the number,
+that takes care of all ambiguity in one dimension.
+So, a sign on the number is adequate to keep track of my motion.
+But you know in 2D, the options are not just left and right or north and south
+but infinity of possible directions in which I could go those 5 kilometers.
+So, what I could do on the first day is to come here.
+On the second day, it could be to go there.
+These two guys are 5 kilometers long.
+For that purpose, to describe that displacement,
+we use a vector.
+This is called a vector.
+I'm going to give it a name, A.
+It starts in the origin and goes to this point.
+That is a description of what I did on the first day.
+And the second day, I did this.
+And that is the description of what I did on the second day.
+The proper way to draw a vector is to draw an arrow.
+It's got a beginning and it's got an end.
+So, this is the reason behind saying a vector has a magnitude and a direction.
+Well, magnitude is how long this guy is.
+And direction is at what angle it is.
+So, this is A and this is B.
+And now you realize that, by the way,
+when you draw a vector like A,
+you're supposed to put a little arrow on top.
+If you don't put an arrow on top,
+it means you're talking about just a number A,
+which could be positive or negative or complex,
+but it's just an ordinary number.
+If you want to talk about an arrow of any kind,
+you've got to put a little arrow on top of it.
+In a textbook, they use boldface letters.
+In the classroom, you use the letter A.
+You use the symbol.
+This is A and this is B.
+It's a very natural quantity that you can call A plus B.
+If you want to call something as A plus B,
+it means that I did A and then I did B,
+but if I want to do it all in one shot,
+what is the equivalent step I should take?
+It's obvious that the bottom line of my two-day trip
+is this object C,
+and we will call that A plus B.
+It does represent the sum,
+in the sense that if I gave you four bucks,
+then I gave you five bucks,
+I gave you effectively nine.
+Here, we are not talking about a single number,
+but a displacement in the plane,
+and C indeed represents an effective displacement.
+This is the rule for adding vectors,
+and it has its origin in this simple example.
+Okay, so the rule for adding the two vectors is
+you draw the first one,
+and at the end of that first one,
+you begin the second one,
+and the sum starts at the beginning of the first
+and ends at the end of the second.
+Okay, so that tells you how to add two vectors
+and get a sum.
+You can verify in this simple example
+that A plus B is the same as B plus A.
+B plus A would be first draw B,
+and from there you draw A,
+and you will end up with the same point.
+So you say this is a commutative law.
+It doesn't matter the sequence in which you add the two vectors.
+We know that's true for ordinary numbers, right?
+3 plus 4 and 4 plus 3 are same.
+It's also true for vectors.
+But the law of composition is not always commutative.
+There are certain occasions in which you first do A
+and then you do B that's not the same as first doing B
+and then doing A.
+We'll come to that later.
+Right now, this is the simple law.
+All right, next thing I want to do is to define
+a vector that plays the role of the number 0.
+The number 0 has a property.
+When you add it to any number,
+it doesn't make a difference.
+I want a vector that I want to call the 0 vector,
+and it should have the property that when I add it to anybody,
+I get the same vector.
+So you can guess who the 0 vector is.
+0 vector is a vector of no length.
+I cannot, if this is A, I'm going to draw a vector here.
+I cannot show you the 0 vector.
+The minute you can see it, I'm doing something wrong, right?
+If you can see it, it's wrong because it's not supposed
+to have any length.
+But it has a property that when you add it to anything,
+you get the same vector.
+So that vector is called a null vector.
+How about this vector?
+It's a vector.
+How about this guy?
+I draw A, then I draw another A.
+This is A plus A.
+You have to agree that if there's any vector that
+deserves to be called 2A, it is this guy, right?
+This is A plus A.
+So we're going to call it 2A.
+The beauty of that is now we have discovered a notion of
+what it means to multiply a vector by a number.
+If you multiply it by 2, you get a vector 2 times as long.
+But then you're able to generalize that and say,
+if you multiply it by 2.6, I mean a vector 2.6 as long as A.
+So multiplying a vector by a number means stretch it by the factor.
+Then I want to think of a vector that I can call minus A.
+What do I expect of minus A?
+I expect that if I add minus A to A, I should get the guy
+who plays the role of zero in this world,
+which is the vector of no length.
+It's very clear that if you want to take A and ask,
+what should I add to A?
+So I get the null vector.
+It's clear that you want to add a vector that looks like that
+because then if you go from the start of this to the finish of that,
+you end up at the same point and you get this invisible zero vector.
+So the minus vector is that the same vector flipped over
+to point the opposite way.
+So that's like minus 1 times a vector.
+Once you've got that, you can do minus 7 times a vector
+or minus pi times a vector.
+Just take the vector, multiply it by pi, and flip it over.
+That's minus pi times a vector.
+This is how you get the rules for a vector.
+So if you're adding a vector to another vector,
+then taking a vector and multiplying it by some constant.
+Then, of course, you can do more complicated things.
+You can take this vector, multiply it by one number,
+take that vector, multiply it by another number,
+add the two of them.
+We know what all those operations mean now.
+But you don't have to memorize all this.
+The only rule is, do what comes naturally.
+Do what you normally do with ordinary numbers,
+and this seems to work for vectors.
+But you should know what multiplying a vector by a number means.
+So this is the notion of what vectors are.
+Now we're going to come to some important concept,
+which is the following.
+You go back to the same xy plane.
+Here is some vector a.
+I'm going to introduce two very special vectors.
+They are called the unit vectors.
+And this guy is i.
+That is j.
+If I had a third axis, I would draw a k,
+but we don't need that.
+So i and j are vectors of length 1,
+pointing along x and y.
+The claim is, I can write any vector you give me
+as a rescaled i plus a rescaled j.
+There's nothing you can throw at me that I cannot handle
+with some multiple of i and some multiple of j.
+Now it's intuitively clear, but I will just prove it beyond any doubt.
+Here is the vector a.
+It is clear that that vector is the sum of that vector and that vector,
+by the rules of vector addition, right?
+Because that plus that is equal to the a.
+But how about this part?
+This part being parallel to i has to be a multiple of i.
+We know that because you can stretch i by whatever factor you like.
+So whatever number it takes, ax times i is this part.
+This part being parallel to j has to be some multiple of j.
+I'm going to call it ay.
+Therefore, the vector a that you gave me,
+I have managed to write as i times ax,
+plus j times ay.
+So you can ask yourself, if you gave me a particular vector,
+what do I use for ax and ay?
+Well, you can see from trigonometry that at this angle
+was theta here, and that the length of the vector
+I'm going to call by a.
+a is the length of a.
+If you drop the arrow, it's the usual convention
+as you're talking about the length of the vector a.
+First of all, it's clear from the first line
+that the vector a is the length of the vector a.
+The Pythagoras theorem that a is square root of ax squared
+plus ay squared.
+And the angle theta that it makes with the x-axis
+satisfies the condition tan theta is ay over ax.
+So what this means, now here's the main point.
+If you give me a pair of numbers, ax and ay,
+that's as good as giving me this arrow,
+because I can find the length of the arrow
+by Pythagoras' theorem, and I can find the length
+of the arrow by saying the angle theta satisfies
+tan theta is ay over ax.
+So you have the option of either working with the two
+components of a or with the arrow.
+Now, in practice, most of the time we work with these
+two numbers, ax and ay.
+If you're describing a particle with location r,
+the vector we use typically to locate a particle, r,
+then r is just i times x,
+plus j times y, because you all know that's x
+and that's y.
+Now, I've not given you any other example besides the
+displacement vector, but at the moment we'll define a
+vector to be any object which looks like some multiple of i
+plus some multiple of j.
+So suppose I tell you to add two vectors,
+a and b, equal to c, and I say what's the result of
+adding a and b? You've got two options.
+You can draw the arrow corresponding to a,
+then you make an arrow corresponding to b,
+you lay it on the edge of this one,
+then add them as shown here.
+But you can also do something without drawing any pictures.
+That would come by saying I'm taking i times ax
+plus j times ay plus i times bx
+plus j times by, and I'm trying to add all these guys.
+But then I combine i times ax with i times bx,
+because that's the vector parallel to i with the length ax,
+that's the vector parallel to i with length bx.
+It's clear if I add them, I'll get a vector parallel to i
+with length ax plus bx, then j equals ay plus by.
+I have to be a little careful when I said add the lengths.
+I'm assuming all the components are positive.
+If the ax and ay, some are positive,
+some are negative, this is the way by which we have
+learned we should combine multiples of i.
+When I give you a multiple of i and another multiple of i,
+the sum has got as its coefficient the sum of the two coefficients.
+This says when you add two vectors,
+you just add the components.
+So that if this vector is called i times cx plus j times cy,
+then it's worth knowing that cx is ax plus bx
+and cy is ay plus by.
+So most of the time when we deal with vectors,
+we don't draw these arrows anymore.
+We just add the two vectors.
+So that's another pair of numbers.
+And if you give me another vector,
+that's another pair of numbers.
+And if you say add the vectors,
+I will just add the x to the x and the y to the y,
+and I'm keeping track of what the sum is.
+A very important result is that if two vectors are equal,
+if a equals b, the only way it can happen is if
+separately ax is equal to bx and ay is equal to by.
+That's the very important difference.
+So if you have two vectors equal with exactly the same x component
+and exactly the same y component,
+that's pretty obvious.
+If two arrows are equal,
+you cannot be longer in the x direction
+and correspondingly shorter in the y direction.
+Everything has to completely match.
+So vector equation a equals b is actually a shorthand for two equations.
+The x parts match and the y parts match.
+Okay.
+Now when you work with components,
+ax and ay, if I didn't mention it,
+they are the components of the vector.
+You can do all your bookkeeping in terms of ax and ay,
+but you've got to be aware of one fact.
+If I just come and say to you,
+here's a vector whose components are 3 and 5.
+Can you draw the vector for me?
+Can you draw it or not?
+Does anybody have a view?
+Yes? No? Yes?
+Pardon me?
+Yeah.
+If you immediately said,
+well, if the vector is 3, 4,
+then the vector looks like this,
+you're making the assumption that
+I am writing the vector in terms of i, y, and b.
+I see i and j as very natural direction.
+For most of us, gravity acts this way,
+defines a vertical direction very naturally.
+Then the blackboard is oriented this way.
+It's very natural to call that x and call that y
+and line up our axes.
+But do you agree that there is no reason why
+somebody else couldn't come along and say,
+you know what, I want to use a different set of axes.
+Those directions are more natural for me.
+In fact, just because the world is round,
+you can already see this is the earth.
+You can already see the sun.
+You can already see the sun.
+You can already see the sun.
+This is the earth.
+To somebody, that's the natural direction.
+If you go to another neighboring country,
+that's what they think is naturally x and y.
+There's no reason why x and y are nailed in absolute space.
+It's very important that x and y are human constructs,
+and we're not wedded to any of them.
+Quite often, it's natural to pick x and y in a certain way.
+If you're studying a projectile near the earth,
+it makes sense to pick the horizontal as x
+and vertical as y.
+But mathematically, you don't have to.
+So a very important point that comes up
+is the following.
+What if somebody comes along and has got a new axis?
+Here is the unit vector i prime.
+That's unit vector j prime.
+And here is this vector a.
+And the angle between my axis, let's say,
+and your axis is some angle phi.
+The same vector a can be written either in terms of i and j
+or in terms of i prime and j prime.
+So let's take a minute to just play this game of asking,
+how are the components of a in the new rotated coordinate system
+related to the components in the old coordinate system?
+This is a simple problem, but I just want to do it
+so you get used to working with vectors.
+So the point is, the arrow a,
+somebody has chosen to write in terms of i prime and j prime
+as ax prime and ay prime.
+You guys follow that?
+i prime and j prime are now rotated,
+and they are now in the same place.
+So you have two unit vectors.
+And somebody wants to think in terms of those.
+In other words, the person wants to ask,
+how much i prime and how much j prime do I need
+to build up the vector a?
+That person will get a definite answer.
+You're asking, how much i and how much j do I need
+to build the same object,
+so the same entity written in two different ways.
+So she's got a pair of numbers, and you've got a pair of numbers.
+The new numbers are called the prime numbers,
+and you want to write them in terms of yours.
+So what do you need?
+You need to know what i prime is in terms of i and j.
+So let's draw a little picture on the side here.
+This is i prime.
+It's got a length 1.
+It's at an angle phi.
+So I'm going to write something,
+and I'll wait till you guys tell me you're comfortable with this.
+i prime is i cosine phi plus j sine phi.
+There should not be anybody in this room
+who is mystified by this statement.
+This vector i prime
+is a horizontal part,
+its length which is 1 times cosine phi,
+and a vertical part which is 1 times sine phi.
+This kind of trigonometry you should know all the time.
+It's not something you're going to go back and remember.
+It's the opposite side.
+It's the adjacent side.
+You've got to know that really well.
+So you've got to be very used to the notion of taking a vector
+in some oblique direction,
+writing it in terms of i and j.
+How about j prime?
+j prime is pointing in that direction.
+It's at an angle phi.
+So j prime will be minus i sine phi plus j cosine phi.
+If it's not obvious,
+I think this is the kind of thing you should fill in the blanks
+when you go home.
+Leave a line there and think about it,
+and fill in the blanks later.
+Very important to know,
+if these two axes are at angle phi,
+those two axes are also at angle phi.
+That's the result you use all the time in mechanics.
+So once you do that,
+I think it's fairly clear that it has got a y component
+that's given by cosine,
+and x component that's given by sine phi,
+but the x component is negative.
+Because this vector has a little bit of negative i in it.
+Now here's what I say you should do,
+and this is the kind of thing I don't want to do in classroom.
+It takes time and I'm probably going to screw up.
+So imagine taking i prime and j prime
+and stick them here and here.
+Do this in your head and ask,
+what can I possibly get?
+i prime and j prime have been banished.
+Everywhere they're replaced by i and j.
+So you can now collect the whole expression
+as something something i plus something something j.
+And what you will get for i will be ax cosine phi
+minus ay sine phi.
+Then here you will get ay cosine phi plus ax sine phi.
+This is the only part I don't want to do explicitly.
+I'm just saying take this and put it there
+and combine i and j.
+But this is the same vector we are calling
+i times ax plus j times ay.
+And I've told you if two vectors are equal,
+the components must match.
+I may then, I'm sorry, I'm making a mistake here.
+This should be prime.
+By the way, when you guys do this,
+did anybody notice it's a prime?
+Yeah, so if you noticed it, you've got to stop.
+You cannot let me write anything that's incorrect.
+So you've got to follow it in some detail.
+I know you couldn't do the details,
+but you should at least know that it's i prime and j prime
+that have been replaced by i and j,
+but ax prime and ay prime will continue to be the coefficients.
+So if I make a comparison,
+I find ax is equal to ax prime cosine phi
+minus ay prime sine phi.
+And ay is equal to minus ax prime sine phi
+plus ay prime cosine phi.
+So what's the purpose of the exercise?
+It's to make the following precise remark.
+You can pick your unit vectors,
+or what are called basis vectors,
+any way you like.
+Pick any two perpendicular directions,
+which may be related to the ones I picked by an angle phi.
+Then the same entity, the same arrow,
+which has an existence of its own independent of axes,
+can be described by you and me using different numbers.
+That's the precise connection between the numbers you use
+and the numbers I use.
+Your numbers with a prime on it are related to mine by this relation.
+Now you can ask the opposite question.
+How do I get your numbers in terms of my numbers?
+So what should I do?
+If I want to invert the relation,
+anybody have an idea what I should do now?
+No one has a clue on how I can go back from these to that?
+Let me take a second to ask.
+Do you have any idea what you should do?
+Okay, maybe you are, yes?
+Yes, negative of phi, yes, okay.
+All right, so his idea was the formula written for the opposite
+one will have the opposite angle, replaces phi by minus of that.
+Now that turns out to be the correct answer,
+but I want you guys to think about why it was difficult to do
+it another way, which is more pedestrian.
+I mean, if I told you 3x plus 2y is 9 and 4x plus 6y is 10,
+you would have the same answer.
+You would have the same answer.
+You would have the same answer.
+You would have the same answer.
+But if you have a formula,
+6y is 6, you certainly know how to solve for x and y, right?
+This is something you've seen in your high school.
+You've got to juggle the two equations,
+multiply that by 4, multiply that by 3,
+add and subtract and so on.
+Why is it when you saw this,
+you didn't realize it's the same problem?
+But it's the same problem.
+Phi is an angle, sine and cosine are different numbers.
+If I pick an angle of 60 degrees,
+these are some numbers like half and root 3 over 2.
+So, you can eliminate these two unknowns
+in terms of these two knowns and you can solve for them.
+Here, though, what you will multiply by
+would be sine phi and cosine phi,
+so you can eliminate...
+For example, if you multiply this by sine phi
+and multiply this by cosine phi and add them,
+Ax prime will drop out.
+So, that's the kind of thing you should do.
+Maybe you should...
+I will add this on as a problem you should do in the homework.
+But do you realize that this is a pair of simultaneous equations
+in which you can solve for...
+You can solve for these two unknowns, if you like,
+in terms of these two knowns and these coefficients,
+which are like these numbers 3, 2, 4, and 6.
+You can do that, but we like to get the answer
+the way this gentleman described it
+because we like to get an answer more readily
+than by doing the mundane work.
+And the idea that he had was,
+if you go from me to you with a clockwise rotation,
+you go from you to me by a counterclockwise rotation.
+Therefore, if...
+My angle, if I go by phi to you,
+then you must go by minus phi to come to me.
+That's correct.
+So, you will find then the result is
+Ax cosine phi plus Ay sine phi.
+I'm using the fact that when you take a cosine
+and change the angle inside the cosine,
+it doesn't care.
+Whereas if you go to the sine
+and change the angle inside the sine,
+it becomes minus sine.
+In other words, sine of minus theta
+is minus sine.
+And cosine of minus theta is cosine theta.
+This, by the way, is another property
+I expect people to know in this course.
+You cannot say, I've never heard of it,
+or I don't know where it came from.
+You should think about why that is true.
+Okay, so if you do that,
+you will find then this result.
+Okay, so there is a way to go from
+the unprimed coordinates,
+the prime coordinate,
+by rotating your axis
+and actually calculating the components.
+Now, here is the problem.
+If you have a prime coordinate,
+you have to find the prime coordinate.
+Now, here is a very important message,
+which is the following.
+When you go from one set of axes
+to another set of axes,
+the numbers change.
+The components of the vector are not the same.
+You might think it's all along x
+and somebody can tell me
+it's all along my new y-axis.
+So the components of the vector are not invariant.
+They depend on who is looking at the vector.
+But there is one quantity
+that's going to come out the same
+no matter who is looking at the vector.
+Anybody have a guess on, yes?
+The length.
+The length of the vector is the length of the vector.
+Perhaps it's clear to you that
+no matter how your axes are oriented,
+when you ask how long is this arrow,
+you're going to get the same answer.
+And that means
+ax squared plus ay squared
+is ax prime squared plus ay prime squared.
+And that's a property of this expression.
+You can square this guy
+and add it to the square of this guy
+and you will find,
+using the magic of trigonometry,
+that this is true.
+Now, I'm going over these points
+because they're very, very important.
+When we do relativity,
+we'll be dealing with vectors in space-time
+and there we'll find that
+different observers disagree on
+what is this and what is that,
+but they will agree on certain things.
+Yes?
+Here?
+Here?
+This has a minus and that doesn't have a minus.
+Oh, here?
+No, here both are plus,
+but this one has a minus.
+Oh, I'm so sorry.
+Yes, that is correct.
+Thank you.
+That's right, the minuses only are there.
+Very good.
+So, certain things are called invariants.
+This is an example of an invariant.
+By the way, I want to conclude with one important point.
+We learned that a vector is a quantity
+that is a magnitude and a direction.
+But actually, the view of vectors we take nowadays
+is that a vector is a pair of numbers
+that are associated with a pair of numbers
+which under rotation of axes transform like this.
+Anything that transforms this way is called a vector.
+All right, so now I want to ask the following question.
+Can I manufacture new vectors?
+We got one vector which is r.
+How about more vectors, more position vectors?
+So, I want to look at that.
+That turns out to be a very nice way to produce vectors
+given one vector, the position vector.
+And that's the following.
+Let's take a particle that is moving in the xy plane
+so that at one instant,
+so let me change this graph,
+it's here.
+Oh, this is bad.
+Let's see.
+It's moving like this.
+So, I'm here now.
+A little later, I am there.
+That's what I meant.
+So, this is called r.
+This is called delta r.
+This is called r plus delta r.
+So, the particle is moving along this arc.
+Initially, its location as a function of time
+is equal to i times x of t
+plus j times r.
+So, this is equal to r times y of t.
+If you wait a short amount of time,
+it goes to the new location
+which I'm going to call r of t plus delta t.
+What can that be?
+It can be x of t plus some change in x
+plus j times y of t plus a change in y.
+That we recognize to be r at time t
+plus everything else,
+which is i times delta x
+plus some change in y.
+I'm going to call this guy a tiny vector delta r.
+In other words, when you move on a line,
+you wait a small time delta t,
+you move by an amount delta x.
+When you move in the plane,
+your change is itself a vector.
+You start at the vector,
+you change by this vector delta r,
+it gives you the new location.
+Delta r has got two components.
+It's got a change in x
+and it's got a change in y.
+Therefore, we will define what's called the velocity vector,
+which is,
+what's called the velocity vector.
+It's a vector that's going to be
+the velocity vector of delta r
+over delta t.
+You can see that it's going to be
+i times dx dt
+plus j times dy dt.
+You can actually take derivatives of a vector
+with time,
+and that's also a vector.
+Why is the derivative of a vector also a vector?
+Because the difference in the vector
+between two times is this vector.
+Dividing by delta t is like multiplying
+by 1 over delta t.
+But I know when I multiply a vector by a number,
+I get a vector in the same direction.
+So what this really means is that
+if you take the limit as delta t goes to 0,
+I cannot draw it that well,
+but imagine bringing the second point closer
+and closer to the first one.
+Delta r is getting very small,
+delta t is very small,
+but by the miracle of calculus,
+the ratio will approach a definite limit.
+That limit will be some arrow
+you can call the velocity at that time,
+and it will always be tangent to the curve.
+The tangent is pointing towards the direction
+you are headed at that instant.
+So if I gave you the location of a particle
+as a function of time,
+you can find the velocity by taking derivatives.
+For example, if I say a particle's location
+is i times t squared plus j times 9t cubed,
+for every value of time,
+you can put the numbers in,
+and you can find the velocity by just taking derivatives.
+The derivative of this guy will be 2t times i
+plus what?
+27t squared times j.
+So the rule for taking derivatives,
+if you want to do just mindless application of calculus,
+you can do it.
+i and j are constant.
+Ignore them when you take derivatives.
+x and y depend on time.
+Just take the derivatives,
+and that's the velocity vector.
+And you can take a derivative of the derivative,
+and you can get the acceleration vector.
+It will be d2r over dt squared,
+and you can also write it as dv dt.
+Okay.
+Any questions?
+Anybody have a question with what I've done now
+or what we're doing here?
+Let me summarize what I'm saying.
+Particles moving in a plane.
+At every instant, it's got a location given by the vector r.
+r itself is contained in a pair of numbers,
+x and y,
+and they vary with time.
+So when you vary time a little bit
+and ask how does r change,
+and you take the quotient of delta r to delta t,
+you get the velocity vector.
+Mathematically, it's done by taking the expression for r
+and differentiating everything in sight.
+That can be differentiated with respect to t.
+So even though we started with a single vector,
+which is the position vector,
+we are now finding out that its derivative has to be a vector,
+and the derivative of the derivative is also a vector.
+Again, when you learn relativity,
+you will find out there's one vector that's staring at you.
+I'll come to what that is.
+That's the analog of the position vector.
+But more and more vectors can be manufactured
+by taking derivatives.
+Okay.
+So now I want to do one concrete example
+of this one concrete problem
+where you will see how to use these derivatives.
+I'm going to write the particular case of r and take derivatives,
+and we'll get a feeling for what's going on.
+The problem I have in mind looks like this.
+r is going to be a fixed number r times i times cosine omega t
+plus j times sine omega t.
+Omega is a new creature.
+You don't know what it is right now.
+I just put that in.
+And omega times t is some number,
+and it's the cosine of the number times i
+plus sine of the number times j times r.
+So what is going on as a function of time?
+What's this particle doing?
+First thing you can tell is that if you find the length of this vector,
+you'll find the square of the x and the square of the y,
+but since sine squared plus cosine squared is 1,
+you'll find this vector is a fixed length r.
+That means it can only be rattling around in a circle of radius r.
+And in fact, what the guy is doing looks like this.
+At any given time t, draw an angle omega t and a radius r,
+and that's where your particle is.
+You see that?
+Because the x component of this one is r cosine omega t,
+and the y part is r sine omega t.
+Omega is a fixed number.
+As t increases, this angle increases,
+and the particle goes round and round.
+So we're describing the motion of a particle on a circle.
+Now, let's understand what omega is.
+Let's get a feeling for omega.
+As time increases, the angle increases,
+and we can ask, how long does it take for the particle to come back to the starting point?
+Suppose the starting point was here.
+So as I increase little t, omega t will increase,
+and I want to come back to where I start.
+So you've got to ask yourself, let the time it takes to do a full circle,
+that's the time period, do a full circle.
+Then what can you say about omega t?
+What should be the value of omega t?
+Very good.
+So you can say it's 360 degrees.
+That's fine.
+But we like to measure angle and radians.
+Now, how many people know about radians?
+Okay, for those who have not seen a radian,
+it's just another way to measure angle
+with the understanding that a full circle,
+which we used to think is 360 degrees,
+is equal to 2 pi radians.
+2 pi is roughly 6.
+So radian is roughly 60 degrees.
+It's 58 and fraction.
+Why do you like to measure angle in the peculiar way?
+You will see the advantages of that later.
+But we'll adopt the convention that we'll measure angle in a radian.
+So that a half circle, instead of calling it 180 degrees,
+you will call it as pi.
+And a quarter circle, instead of 90,
+you will call it pi over 2,
+and 45 is pi over 4 and so on.
+But it's good to know certain famous angles.
+This is pi over 2.
+This is pi.
+This is 3 pi over 2.
+And this is back to 2 pi.
+Therefore, omega t equal to 2 pi tells you that omega is 2 pi
+divided by the time it takes to complete a revolution.
+And 1 over the time period is what we call the frequency,
+so you can write it as f is just the usual frequency.
+60 hertz means you do 60 revolutions per second.
+All right.
+So how fast is this particle moving?
+It's going around a circle.
+The angle is increasing at a steady rate,
+so we know it's going at a steady speed.
+I'm asking, what's the tangential speed as it moves along the circle?
+Yes?
+How do you reach that conclusion?
+I agree.
+But I want the speed in meters per second,
+and omega will be in radians per second.
+Yes?
+And how did you get that?
+That's correct.
+But let me deduce that in another way.
+Your answer is completely correct.
+It is omega r.
+But I want to say how you get it.
+One way is to say, if I do a full revolution,
+I think of the speed as the distance over time.
+I'm going to go one full revolution.
+This sense that I travel is 2 pi r.
+But 2 pi over t was identified as omega.
+So the tangential velocity at any point is equal to omega times r.
+That's a useful quantity to know.
+So now you can take this velocity,
+and you can take this r.
+Let me find v of t.
+v of t is obtained by taking derivative of this expression.
+I think you guys know enough calculus for me to write.
+It's equal to r times i times minus omega sine omega t
+plus j times omega cosine omega t.
+That is the velocity of this guy.
+And I invite you to try this formula whenever you want.
+Pick a time.
+Let's say if I go a quarter of a circle,
+I expect to be moving to the left.
+Quarter of a circle means omega t is pi over 2.
+Cosine of pi over 2 is 0, because cosine of 90 is 0.
+Sine of pi over 2 is 1.
+And I get a speed of omega r in the negative i direction.
+Which is omega r was the speed.
+That's indeed the correct answer.
+You can satisfy yourself at various times.
+It's going like this.
+So let's sneak in one more derivative here.
+Which is to take the derivative of the derivative.
+And that's a very important result.
+If you do that, let's take one more derivative.
+Let's try to do part of it in the head so I can just write down the answer.
+If you take one more derivative,
+the sine is going to become a cosine and yield another omega.
+This cosine is going to become a minus sine and give me another omega.
+If you do that, you will find the whole answer is equal to
+minus omega squared times just the vector r itself.
+That's a very interesting result.
+It tells you when a particle moves in a circle,
+it has an acceleration in the negative r direction,
+namely directed towards the center.
+What's the magnitude of that acceleration?
+I write it without an arrow here.
+That's equal to omega squared times the magnitude of this vector,
+which is just r.
+But now I can also write it as v squared over r.
+So here. Ready?
+This is a very important formula.
+I don't know how many kids, generation after generation,
+get in trouble because they do not remember the following fact.
+So I'm going to say it once more with feeling.
+When a particle moves in a circle,
+it has an acceleration towards the center of this size,
+v squared over r.
+Very simple.
+It comes from the fact that velocity is a vector
+and you can change your velocity vector by changing your direction.
+This particle is constantly changing its direction,
+but it therefore has an acceleration,
+and the acceleration we have shown here is pointing towards the center.
+And the size of that is v squared over r.
+So for example, if a car is going on a racetrack
+and you're seeing it from the top,
+if the gas pedal says 60 miles per hour speedometer,
+you might say it's not accelerating.
+That's the layperson's view.
+But if it's going on a circle,
+you will say from now on that it indeed has an acceleration
+even though no one's stepping on the accelerator
+of the amount v squared over r.
+So that's a very important thing.
+That's the part, that's what you're learning in this course.
+The fact that when you step on your gas,
+you accelerate, everybody knows.
+The fact that when you go in a circle,
+you accelerate is what we're learning here.
+And it's coming from the fact the velocity is a vector
+and its change can be due to change in the magnitude
+or change in direction.
+This is the problem where the magnitude of velocity
+was nailed down and fixed at omega r.
+The direction is constantly changing.
+Okay, so I'm going to now,
+do a second class of problems.
+We will return to this issue later.
+By the way, one thing I should mention to you.
+Suppose the particle is not moving in a circle but does this.
+Let's take a circle and just keep a quarter of the circle.
+During this part, when you're doing a quarter of a circle,
+this is supposed to be a quarter of a circle,
+you have the same acceleration directed towards the center.
+In other words, you don't have to be moving actually in a circle
+to have the acceleration.
+At any instant,
+your motion, if it follows any curve,
+locally can be approximated as being part of some circle.
+You can take circles of different size
+and place them against your trajectory and see which one fits.
+That's the r.
+v squared over r is the acceleration directed towards the center of that circle.
+One miscellaneous result which we don't use very much now
+but which I should mention to you is the following.
+Suppose this is the ground with some origin here.
+That's a plane.
+It's a plane with some origin here.
+And in the plane, there is some other object.
+What's the location of the object?
+Let us say p for plane, g for ground, o for object.
+I think it's clear the position of the object with respect to the ground,
+this vector, is the same as the position of the object with respect to the plane
+plus position of the plane with respect to the ground.
+Okay, this is the picture here. Now, you can start taking
+derivatives with respect to time, and that will say the
+velocity of the object with respect to the ground,
+the velocity of the object with respect to the plane,
+the velocity of the plane with respect to the ground.
+That means if you're going in a plane and you throw something up
+in the air, it seems to be going up and down to you,
+but if I see you through the glass, the object is going on
+some trajectory which has got both up and down and horizontal
+motion, and this is the rule for adding velocities.
+So, when you have a velocity in the moving plane frame and you
+want to find the velocity on the ground,
+you should add to every object in the plane the velocity of the
+plane with respect to the ground.
+That's intuitively clear. You use it all the time,
+but maybe along one dimension, but this is the way to do it in
+two dimensions. There may be some simple problem
+involving this in the problem I assigned,
+so I'm just going over this. Okay, the problem we want to do
+today,
+a whole family of problems, looks like this.
+I want to consider a particle which has definite
+acceleration a, a constant one, but a is now a vector.
+The question I have is, what is its location at all future
+times? I think you can tell by analogy with what I did in one
+dimension that the position of that object at any time t is
+going to be the initial position plus velocity times t plus 1
+half.
+So, I'm going to say t squared. Everything is the same as in 1d
+except everybody is a vector now. Initial position is a pair of
+numbers. Initial velocity is a pair of
+numbers. Once you know those,
+you can find the position of the object at all future times.
+Let's take one simple example. There is somebody in a car and
+decided to fly off. We want to know,
+as you can tell, our concern is where does the car
+hit the ground? When does the car hit the ground?
+That's the problem in two dimensions.
+How do we solve this problem? We pick our origin to be this
+point here, let the height of the building be h.
+The car is traveling at some initial speed, v0 in a horizontal
+direction. This equation is a pair of equations,
+one along x and one along y. For the x part, I'm going to
+write x is equal to x0 plus v0t.
+And x0, I'm going to choose to be 0 by choice of my origin,
+being here. The x coordinate is 0.
+the car is the 0, because this is my origin.
+How about the y coordinate?
+The equation for the y coordinate is the height of the building.
+The velocity has no vertical component.
+There is no vy, but it has an acceleration of minus g.
+So this is the fate of this person at any given time t.
+At t equals 0, you have him right on top of this edge.
+And at all future times, x proceeds as if nothing happened.
+And then y, you're falling.
+And if you want to know something like when do you hit the ground,
+I think it's fairly clear what you have to do.
+For example, if t star is the time you hit the ground,
+then t star satisfies the equation h minus 1 half g t star squared is 0.
+You solve for the t star from this one, and you put it there,
+and that tells you where you land.
+I don't think I have to actually do that step.
+I'm assuming you can fill in the blanks.
+Solve this equation for t star, put it there,
+and that's where you land.
+That's one class of problems.
+Here's the second class.
+The second class is the most popular application of what I'm doing now.
+But I want you not to memorize every formula the book gives you for this problem.
+That's the problem of projectile motion.
+So projectile motion, you start here,
+and you fire a projectile with some velocity v naught at some angle theta,
+and you fire it.
+And it's going to go up, and it's going to come down.
+One question is, where is it going to land?
+Another question is, at what angle should you fire your projectile so it'll go the furthest?
+So you can find the equation, but you've got to think a little bit before you solve everything.
+It's good to have an idea of what's coming.
+So imagine you've got this monster cannon.
+You can fire things.
+It's got a fixed speed, v naught.
+And how do you want to aim it so you can be most effective, go as far as you can?
+Well, there are two schools of thought.
+One says, aim at your enemy.
+Fire like this, then it lands on your foot.
+Because assuming the cannon is at zero height,
+the cannonball certainly comes out towards the enemy, but has no time of flight.
+Other one says, maximize the time of flight, and you point a cannon like this.
+So it goes up, stays in the air for a very long time, but it falls on your head.
+So we know the truth is somewhere between 0 and 90.
+A naive guess may be 45, but it turns out naive guess is actually correct.
+So I just want to know.
+I want to show you how that comes out.
+But I don't want you to cram this formula.
+This is the kind of thing you should be able to deduce.
+So let's go back to the same thing I wrote earlier.
+x equals 0 plus, what's the horizontal velocity?
+Horizontal velocity is v0 cosine theta.
+So x is v0 cosine theta times t.
+And y is v0 sine theta times t minus 1 half gt squared.
+So 1 half gt is v0, because we are in the air.
+So I just want to know how long is the velocity.
+OK?
+So now we know everything about this particle.
+I told you, once you know the three parameters, r0 and v0,
+you know everything about the future of the object.
+So let's ask, what's the range?
+Range is that distance.
+So what's the strategy for range?
+You see how long you're in the air, and the whole time you're in the air,
+you're traveling horizontally at the speed.
+So again, let t star be the time when you hit the ground.
+minus one-half gT star times T star.
+I just pulled out a common T.
+So it says you are in the ground on two occasions.
+One is initially, but we're not interested in that.
+Well, if the time you're interested in is not zero,
+you're allowed to cancel it and get the time from here.
+And that time is T star equal to 2V0 sine theta over g.
+That's how long you're in the air.
+This says if you want to be in the air for a long time,
+maximize sine theta, so you may think it's 90 degrees
+is the best angle.
+But that's not the goal.
+The goal is to get the biggest range.
+So go back to x and put your value for T star,
+which is 2V0 sine theta over g.
+And that becomes V0 squared over g times 2 sine theta cosine theta.
+Now, if you go back to your trigonometry,
+you should find that is really the formula
+for the equation.
+That's another example where knowing the trigonometry
+is very helpful.
+Okay, so this tells you exactly what you want.
+It says make sine 2 theta as big as you want,
+and that tells you 2 theta is going to be 90
+and theta is going to be 45.
+But it's not from a naive guess that it's halfway between 0 and 90.
+It turns out to be a fairly complicated balance
+between the time of flight and the range.
+So some people memorize this.
+I would say don't do that because after a while,
+you won't have room in your head for anything.
+Just go back as often as possible to this formula
+and work your way from there.
+Now, there's more variations, but it's always the same thing.
+Here's another variation.
+In my days, they would say find out when you want an object
+to go through that point.
+And I tell you the muzzle velocity V0,
+what are I talking about?
+I'm talking about the muzzle velocity V0.
+And I tell you at what angle I fire it.
+I want you to find the speed so it'll land here.
+So how do you do that problem?
+You do that problem by saying,
+suppose this actually happens at some time t.
+At that time t, the x coordinate must have a certain value.
+They go to the x equation and demand
+that this be equal to the desired x value and find the time.
+I take the time and put it in the y equation
+and demand that the y I get agree with this y.
+If you do that, you will find there's
+one unknown which is V0 and you can solve for V0.
+This is the most general problem you can have.
+Now, in the textbook, of course,
+people make them interesting.
+Suddenly, there's a mountain and there's a physicist
+hiking on this mountain.
+See, you're already laughing.
+This is not a very credible problem.
+We don't hike and when we get stuck, we don't want food.
+We want our table of integrals, which
+is what we want somebody to send to us.
+So these problems are embellished in many ways.
+To make you all feel involved.
+For example, instead of a stone dropping,
+nowadays there's a monkey that's falling down.
+So the people in life sciences feel,
+hey, we are represented in this subject.
+But all those creatures, which are very interesting,
+in the end, you are told, you know,
+there's a horse inside a railway carriage
+and you cannot see the horse, but the horse is moving.
+You can deduce it because the carriage
+is moving the other way.
+There's a picture of a horse, picture of a carriage,
+all glossy stuff.
+Then it says, treat the horse as a point particle.
+See, that's what we learned in the old days.
+But nowadays, it's a horse, but in the end,
+if you're going to treat it as a point particle,
+it seems to me it'd be a real waste.
+If you're the godfather, right, you
+want to get the contract for Johnny Fontaine,
+you don't tell your conciliary, hey, Tom,
+put a point particle on Jack's bed.
+When you want a horse, use a horse.
+When you want a point particle, if you wake up
+and find a point particle on your bed, what's your reaction?
+So I think these extra pictures,
+sometimes they're helpful, sometimes they just make
+the book cost a lot more.
+There are problems where a horse must be treated,
+we'll see when we study rigid bodies.
+Even there, a horse is not really a rigid body
+unless it's been dead for a long time.
+At least there, the fact it's not a point particle
+is important.
+So I think the reason books are bigger and bigger
+but still carry the same information is that examples
+are more and more interesting.
+Sometimes, you can't just read a book, you can't just read a book.
+Sometimes, they serve a purpose, sometimes they distract you.
+But I haven't written a book in this field,
+so I will not say anything more.

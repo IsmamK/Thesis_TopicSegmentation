@@ -3,94 +3,107 @@
 
 \section{Video list}
 
-\noindent Table~\ref{tab:video_list} lists all 30 videos in \dataset{}.
-Full metadata (URLs, annotator IDs, boundary timestamps) is available in
-\texttt{data/manifest.jsonl} and \texttt{data/gt/*.json} in the repository.
+\noindent Table~\ref{tab:video_list} lists the 30 videos in \dataset{}.
+Full metadata, URLs, and timestamps are stored in
+\texttt{data/manifest.jsonl}, \texttt{data/gt/*.json}, and
+\texttt{data/gt\_hier/*.json}.
 
 \begin{table}[h]
   \centering
-  \caption{\dataset{} video list. Sorted alphabetically by video ID.}
+  \caption{\dataset{} video list, sorted by domain and video ID.}
   \label{tab:video_list}
   \scriptsize
   \begin{tabular}{llrr}
     \toprule
-    Video ID & Domain & Duration (min) & \# Chapters \\
+    Video ID & Domain & Duration (min) & Chapters \\
     \midrule
-    7K1sB05pE0A & \todo{} & \todo{} & \todo{} \\
-    8yT4RZy1t3s & \todo{} & \todo{} & \todo{} \\
-    9N1MxkbFhsc & \todo{} & \todo{} & \todo{} \\
-    AMl6E4cLrwE & \todo{} & \todo{} & \todo{} \\
-    D8RRq3TbtHU & \todo{} & \todo{} & \todo{} \\
-    GR63MMAi-fs & \todo{} & \todo{} & \todo{} \\
-    HtSuA80QTyo & \todo{} & \todo{} & \todo{} \\
-    Hy7ou5R\_vjE & \todo{} & \todo{} & \todo{} \\
-    JP7ITIXGpHk & \todo{} & \todo{} & \todo{} \\
-    KNwMiydCYA4 & \todo{} & \todo{} & \todo{} \\
-    KOKnWaLiL8w & \todo{} & \todo{} & \todo{} \\
-    KlVHqq38KJU & \todo{} & \todo{} & \todo{} \\
-    M2FL6nGmptw & Math & 700 & 11 \\
-    MGyygiXMzRk & \todo{} & \todo{} & \todo{} \\
-    NNnIGh9g6fA & Biology & 57 & 16 \\
-    Ns6GB4Dph9U & \todo{} & \todo{} & \todo{} \\
-    Qw4l1w0rkjs & \todo{} & \todo{} & \todo{} \\
-    Rl0ludWTLxs & \todo{} & 150 & \todo{} \\
-    S7TUe5w6RHo & \todo{} & \todo{} & \todo{} \\
-    TjZBTDzGeGg & CS & 47 & 11 \\
-    YdOXS\_9\_P4U & \todo{} & \todo{} & \todo{} \\
-    fsLh-NYhOoU & Math & 60 & 13 \\
-    hyctIDPRSqY & \todo{} & 703 & \todo{} \\
-    j0wJBEZdwLs & Math & 35 & 8 \\
-    oOya3cFmAMc & \todo{} & \todo{} & \todo{} \\
-    oqRU2So6Z2Y & \todo{} & 136 & \todo{} \\
-    uK2eFv7ne\_Q & \todo{} & \todo{} & \todo{} \\
-    uO5k9xcD1gU & \todo{} & \todo{} & \todo{} \\
-    xxpc-HPKN28 & \todo{} & 495 & \todo{} \\
-    zNVQfWC\_evg & Physics & 60 & 14 \\
+    9N1MxkbFhsc & Biology & 42.8 & 23 \\
+    AMl6E4cLrwE & Biology & 45.6 & 13 \\
+    KlVHqq38KJU & Biology & 38.8 & 15 \\
+    NNnIGh9g6fA & Biology & 57.2 & 16 \\
+    oOya3cFmAMc & Biology & 51.7 & 15 \\
+    uO5k9xcD1gU & Biology & 47.3 & 12 \\
+    D8RRq3TbtHU & CS & 114.5 & 12 \\
+    HtSuA80QTyo & CS & 53.4 & 9 \\
+    JP7ITIXGpHk & CS & 105.6 & 26 \\
+    Rl0ludWTLxs & CS & 149.5 & 21 \\
+    TjZBTDzGeGg & CS & 47.3 & 11 \\
+    jGwO\_UgTS7I & CS & 75.3 & 7 \\
+    oqRU2So6Z2Y & CS & 135.6 & 12 \\
+    7K1sB05pE0A & Math & 51.5 & 13 \\
+    fsLh-NYhOoU & Math & 60.4 & 13 \\
+    j0wJBEZdwLs & Math & 34.7 & 8 \\
+    lUUte2o2Sn8 & Math & 65.2 & 21 \\
+    8yT4RZy1t3s & Philosophy & 55.2 & 18 \\
+    GR63MMAi-fs & Philosophy & 45.8 & 5 \\
+    KNwMiydCYA4 & Philosophy & 63.4 & 25 \\
+    MGyygiXMzRk & Philosophy & 55.0 & 11 \\
+    Qw4l1w0rkjs & Philosophy & 55.1 & 34 \\
+    S7TUe5w6RHo & Philosophy & 63.5 & 29 \\
+    Hy7ou5R\_vjE & Physics & 66.8 & 6 \\
+    KOKnWaLiL8w & Physics & 73.4 & 6 \\
+    NK-BxowMIfg & Physics & 66.0 & 5 \\
+    Ns6GB4Dph9U & Physics & 68.4 & 6 \\
+    YdOXS\_9\_P4U & Physics & 28.6 & 7 \\
+    uK2eFv7ne\_Q & Physics & 73.8 & 6 \\
+    zNVQfWC\_evg & Physics & 60.3 & 14 \\
     \midrule
-    Total & 5 domains & $\approx 3310$ & 329 \\
+    Total & 5 domains & 1951.4 & 419 \\
     \bottomrule
   \end{tabular}
 \end{table}
 
-\noindent\textit{Note}: Run \texttt{python scripts/figures.py --dataset-only --output figures/}
-to regenerate domain distribution plots from \texttt{data/manifest.jsonl}.
-
 \section{Domain distribution}
 
-\todo{Insert \texttt{figures/fig\_dataset\_stats.pdf} when generated.
-  Expected: CS $\approx$ 8 videos, Math $\approx$ 7, Physics $\approx$ 6, Biology $\approx$ 5, Humanities+Philosophy $\approx$ 4.}
+\begin{table}[h]
+  \centering
+  \caption{\dataset{} domain distribution.}
+  \label{tab:domain_distribution}
+  \begin{tabular}{lrrr}
+    \toprule
+    Domain & Videos & Duration (hours) & Chapters \\
+    \midrule
+    Biology & 6 & 4.72 & 94 \\
+    CS & 7 & 11.35 & 98 \\
+    Math & 4 & 3.53 & 55 \\
+    Philosophy & 6 & 5.63 & 122 \\
+    Physics & 7 & 7.29 & 50 \\
+    \midrule
+    Total & 30 & 32.52 & 419 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
 
 \section{Subtopic annotation guidelines}
 
 The following guidelines were given to annotators for the subtopic annotation
-pass (after chapter boundaries were fixed from YouTube metadata):
+pass after chapter boundaries were fixed from YouTube metadata:
 
 \begin{enumerate}
-  \item \textbf{What counts as a subtopic boundary.}
+  \item \textbf{Boundary definition.}
     A subtopic boundary occurs when the speaker transitions from one coherent
     pedagogical sub-idea to another within a chapter.
-    Indicators: a change in the specific concept being explained
-    (e.g., from \emph{definition} to \emph{worked example}), an explicit
-    verbal transition (``Now let us look at\ldots'', ``Moving on to\ldots''),
-    or a new figure or slide being introduced.
 
-  \item \textbf{Minimum duration.} Each subtopic segment must be $\geq 60$~seconds.
+  \item \textbf{Minimum duration.}
+    Each subtopic segment should be at least 60 seconds unless the source
+    chapter is shorter than that.
 
-  \item \textbf{Number per chapter.} 2--5 subtopics per chapter.
-    If a chapter has fewer than 120~seconds of content, annotate as a single
-    subtopic.
+  \item \textbf{Number per chapter.}
+    Annotators were encouraged to use 2--5 subtopics per chapter when the
+    chapter length supported it.
 
-  \item \textbf{Title format.} Short noun phrase, maximum 8 words, preferring
-    the speaker's own terminology.
+  \item \textbf{Title format.}
+    Titles should be short noun phrases, preferably using the speaker's own
+    terminology.
 
   \item \textbf{Uncertainty.}
-    When unsure, insert a boundary.
-    Disagreements across annotators contribute to IAA measurement and are
-    scientifically valuable.
+    When unsure, annotators marked the best plausible transition. Disagreement
+    was preserved for IAA analysis rather than hidden.
 \end{enumerate}
 
 \section{Inter-annotator agreement details}
 
-\todo{Fill in after computing IAA on the double-annotated 10-video subset.
-  Run: \texttt{python scripts/compute\_iaa.py --verbose}\\
-  Expected output: Table with columns: domain, $\kappa_{\text{chapter}}$, $\kappa_{\text{subtopic}}$, $F_1^{\text{boundary}}(tol=1)$.}
+The final IAA report contains 30 videos and is stored in
+\texttt{data/gt\_hier/iaa\_report.json}. Mean chapter-level kappa is 0.5351 and
+mean subtopic-level kappa is 0.4257 at tolerance 1 sentence. Boundary F1 is
+1.0000 for chapters and 0.7793 for subtopics.

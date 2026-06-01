@@ -1,0 +1,8122 @@
+{
+  "video_id": "Ns6GB4Dph9U",
+  "language": "en",
+  "duration_sec": 4101.9,
+  "segments": [
+    {
+      "start": 0.62,
+      "end": 10.92,
+      "text": "Alright, so let me start again by reminding you what it is that was done last time."
+    },
+    {
+      "start": 11.04,
+      "end": 17.14,
+      "text": "So if you say, can you summarize for me in a few words main ideas, so I would like to do that."
+    },
+    {
+      "start": 27.49,
+      "end": 34.02,
+      "text": "So what I did last time was to show you how to handle motion in more than one dimension,"
+    },
+    {
+      "start": 34.38,
+      "end": 39.67,
+      "text": "and I picked for it two dimensions as the standard way to explain it."
+    },
+    {
+      "start": 40.58,
+      "end": 42.88,
+      "text": "Okay, by the way, I would like to make one recommendation."
+    },
+    {
+      "start": 43.4,
+      "end": 47.42,
+      "text": "If you guys are coming in a little late, don't worry about submitting the homework."
+    },
+    {
+      "start": 47.56,
+      "end": 51.62,
+      "text": "Just come in and settle down because it's very hard to lecture with this amount of traffic."
+    },
+    {
+      "start": 52.66,
+      "end": 59.26,
+      "text": "I do try to start a few minutes late, but I also have to finish a few minutes early so you can go to the next class."
+    },
+    {
+      "start": 59.26,
+      "end": 64.6,
+      "text": "And also, people who come in early maybe should try to sit in the middle part of the classroom"
+    },
+    {
+      "start": 64.6,
+      "end": 67.92,
+      "text": "so the latecomers can come in without too much disruption."
+    },
+    {
+      "start": 69.14,
+      "end": 70.88,
+      "text": "All right, so summary of last time."
+    },
+    {
+      "start": 71.82,
+      "end": 73.54,
+      "text": "If you live in two dimensions or more,"
+    },
+    {
+      "start": 73.74,
+      "end": 76.64,
+      "text": "you've got to use vectors to describe most things."
+    },
+    {
+      "start": 76.64,
+      "end": 82.72,
+      "text": "So the vector was typical vectors called V or A or B, something with an arrow on it."
+    },
+    {
+      "start": 82.72,
+      "end": 89.35,
+      "text": "Most important vector is position vector that tells you where the object is."
+    },
+    {
+      "start": 89.35,
+      "end": 96.28,
+      "text": "It's got components which are X and Y that could vary with time."
+    },
+    {
+      "start": 96.28,
+      "end": 101.42,
+      "text": "I and J are unit vectors in the X and Y directions."
+    },
+    {
+      "start": 101.42,
+      "end": 105.41,
+      "text": "And you can deal with the vector in one of two ways."
+    },
+    {
+      "start": 105.41,
+      "end": 106.77,
+      "text": "You can either think of it as an arrow,"
+    },
+    {
+      "start": 106.77,
+      "end": 108.21,
+      "text": "and imagine the arrow,"
+    },
+    {
+      "start": 108.21,
+      "end": 111.46,
+      "text": "or you can reduce it to a pair of numbers X and Y."
+    },
+    {
+      "start": 111.46,
+      "end": 113.06,
+      "text": "If you want to add two vectors,"
+    },
+    {
+      "start": 113.06,
+      "end": 116.16,
+      "text": "you can add the arrows by the rule I gave you,"
+    },
+    {
+      "start": 116.16,
+      "end": 118.8,
+      "text": "or just add the components of X,"
+    },
+    {
+      "start": 118.8,
+      "end": 120.7,
+      "text": "or the two guys to get the component of the sum,"
+    },
+    {
+      "start": 120.7,
+      "end": 123.99,
+      "text": "and likewise for the Y."
+    },
+    {
+      "start": 123.99,
+      "end": 129.22,
+      "text": "I mentioned something of increasing importance only later,"
+    },
+    {
+      "start": 129.22,
+      "end": 132.84,
+      "text": "which is that you are free to pick another set of axes,"
+    },
+    {
+      "start": 132.84,
+      "end": 135.74,
+      "text": "not in the traditional X and Y direction,"
+    },
+    {
+      "start": 135.74,
+      "end": 137.04,
+      "text": "but that's an oblique direction."
+    },
+    {
+      "start": 138.14,
+      "end": 141.54,
+      "text": "So you can imagine that if you have a vector that's viewed from an angle,"
+    },
+    {
+      "start": 141.54,
+      "end": 144.04,
+      "text": "the unit vectors are called I prime and J prime,"
+    },
+    {
+      "start": 144.04,
+      "end": 146.04,
+      "text": "the components of the vector change."
+    },
+    {
+      "start": 146.04,
+      "end": 149.04,
+      "text": "You can imagine that if a vector is viewed from an angle,"
+    },
+    {
+      "start": 149.04,
+      "end": 152.46,
+      "text": "then its components will vary with the perspective."
+    },
+    {
+      "start": 152.46,
+      "end": 157.0,
+      "text": "So the components of the vector are not invariant characterizations of the vector."
+    },
+    {
+      "start": 157.0,
+      "end": 160.0,
+      "text": "Whereas the vector itself has a life of its own,"
+    },
+    {
+      "start": 160.0,
+      "end": 162.5,
+      "text": "the components come in the minute you pick your axes."
+    },
+    {
+      "start": 162.5,
+      "end": 164.8,
+      "text": "So it's not enough to say these are the components of the vector."
+    },
+    {
+      "start": 164.8,
+      "end": 167.84,
+      "text": "You've got to tell me I'm working with I and J,"
+    },
+    {
+      "start": 167.84,
+      "end": 170.54,
+      "text": "and I'm working with X and Y."
+    },
+    {
+      "start": 170.54,
+      "end": 173.54,
+      "text": "I gave you a law of transformation of the components,"
+    },
+    {
+      "start": 173.54,
+      "end": 177.54,
+      "text": "namely if the vector has components AX and AY in one reference frame,"
+    },
+    {
+      "start": 177.54,
+      "end": 181.34,
+      "text": "and AX prime and AY prime in another reference frame,"
+    },
+    {
+      "start": 181.34,
+      "end": 183.34,
+      "text": "how are the two related?"
+    },
+    {
+      "start": 183.34,
+      "end": 186.34,
+      "text": "They come from writing I prime and J prime in terms of I and J,"
+    },
+    {
+      "start": 186.34,
+      "end": 191.69,
+      "text": "then sticking it into the expression and identifying the new representation."
+    },
+    {
+      "start": 191.69,
+      "end": 194.69,
+      "text": "Somehow, when I told you to invert the transformation,"
+    },
+    {
+      "start": 194.69,
+      "end": 196.85,
+      "text": "some of you had some difficulty."
+    },
+    {
+      "start": 196.85,
+      "end": 199.85,
+      "text": "Maybe you didn't realize that they are just simultaneous equations that you solve,"
+    },
+    {
+      "start": 200.05,
+      "end": 201.18,
+      "text": "but they are not."
+    },
+    {
+      "start": 201.18,
+      "end": 205.18,
+      "text": "Normally, if I tell you 3X plus 4Y is 6 and 9X plus 6Y is 14,"
+    },
+    {
+      "start": 205.18,
+      "end": 206.18,
+      "text": "you know how to solve it."
+    },
+    {
+      "start": 206.18,
+      "end": 208.18,
+      "text": "It's really the same kind of problem,"
+    },
+    {
+      "start": 208.18,
+      "end": 212.75,
+      "text": "except that the 3 and 4 were all replaced by sine phi and cosine phi,"
+    },
+    {
+      "start": 212.75,
+      "end": 214.75,
+      "text": "but they are just some numbers,"
+    },
+    {
+      "start": 214.75,
+      "end": 216.75,
+      "text": "and you eliminate them the same way you eliminate them."
+    },
+    {
+      "start": 216.75,
+      "end": 222.46,
+      "text": "But I've given you a homework problem where you can try your skills."
+    },
+    {
+      "start": 222.46,
+      "end": 224.46,
+      "text": "So when you go today and look at the homework,"
+    },
+    {
+      "start": 224.46,
+      "end": 226.46,
+      "text": "you'll find besides problems from the textbook,"
+    },
+    {
+      "start": 226.46,
+      "end": 229.46,
+      "text": "one extra problem that deals with all of this."
+    },
+    {
+      "start": 229.46,
+      "end": 232.15,
+      "text": "Then I gave you one other problem."
+    },
+    {
+      "start": 232.35,
+      "end": 237.28,
+      "text": "Very important example of a particle moving in the XY plane."
+    },
+    {
+      "start": 237.28,
+      "end": 239.28,
+      "text": "X and Y can be whatever you like,"
+    },
+    {
+      "start": 239.28,
+      "end": 243.28,
+      "text": "but I picked a very special example where it looked like this."
+    },
+    {
+      "start": 243.28,
+      "end": 253.23,
+      "text": "R times cosine omega t is times I plus R times sine omega t."
+    },
+    {
+      "start": 253.23,
+      "end": 255.23,
+      "text": "Now you should go back and remember what we did."
+    },
+    {
+      "start": 255.23,
+      "end": 258.23,
+      "text": "If it took you a while to digest it, I asked you to think harder."
+    },
+    {
+      "start": 258.23,
+      "end": 261.23,
+      "text": "This describes a particle that's going around in a circle."
+    },
+    {
+      "start": 261.23,
+      "end": 264.68,
+      "text": "We know it's going around in a circle because if I find the length of this vector,"
+    },
+    {
+      "start": 265.68,
+      "end": 268.68,
+      "text": "which is the X squared part plus the Y squared part,"
+    },
+    {
+      "start": 268.68,
+      "end": 270.68,
+      "text": "I just get R squared at all times"
+    },
+    {
+      "start": 270.68,
+      "end": 273.68,
+      "text": "because sine squared plus cosine squared is 1."
+    },
+    {
+      "start": 273.68,
+      "end": 276.68,
+      "text": "So we know it's moving on a circle of radius R."
+    },
+    {
+      "start": 276.68,
+      "end": 278.81,
+      "text": "Furthermore, as time increases,"
+    },
+    {
+      "start": 278.81,
+      "end": 287.94,
+      "text": "the angle omega t is increasing in this fashion."
+    },
+    {
+      "start": 287.94,
+      "end": 289.94,
+      "text": "And omega is called the angular velocity."
+    },
+    {
+      "start": 289.94,
+      "end": 293.3,
+      "text": "And I related it to the time period,"
+    },
+    {
+      "start": 293.3,
+      "end": 295.3,
+      "text": "which is the time it takes to go around a full circle,"
+    },
+    {
+      "start": 295.3,
+      "end": 297.3,
+      "text": "by saying once you've done a full circle,"
+    },
+    {
+      "start": 297.3,
+      "end": 299.3,
+      "text": "omega t better."
+    },
+    {
+      "start": 299.3,
+      "end": 301.3,
+      "text": "It better be 2 pi."
+    },
+    {
+      "start": 301.3,
+      "end": 304.3,
+      "text": "So this new quantity omega, which may be new to you,"
+    },
+    {
+      "start": 304.3,
+      "end": 307.3,
+      "text": "is related to the time period for which you have an intuitive feeling."
+    },
+    {
+      "start": 307.3,
+      "end": 311.55,
+      "text": "How long does it take to go one round in this fashion?"
+    },
+    {
+      "start": 311.55,
+      "end": 315.0,
+      "text": "You're also free to write it in terms of the frequency."
+    },
+    {
+      "start": 315.0,
+      "end": 318.45,
+      "text": "The time period and frequency are reciprocals."
+    },
+    {
+      "start": 318.45,
+      "end": 321.45,
+      "text": "If it takes you 1 sixtieth of a second to go around once,"
+    },
+    {
+      "start": 321.45,
+      "end": 323.45,
+      "text": "then you do it 60 times a second."
+    },
+    {
+      "start": 323.45,
+      "end": 327.61,
+      "text": "So omega is really a very simple quantity."
+    },
+    {
+      "start": 327.61,
+      "end": 330.61,
+      "text": "It's related to the frequency with which you go around a circle,"
+    },
+    {
+      "start": 330.61,
+      "end": 332.96,
+      "text": "and it's multiplied by 2 pi."
+    },
+    {
+      "start": 332.96,
+      "end": 333.96,
+      "text": "Why is that?"
+    },
+    {
+      "start": 333.96,
+      "end": 337.22,
+      "text": "Frequency is how many times you go around,"
+    },
+    {
+      "start": 337.22,
+      "end": 341.22,
+      "text": "and 2 pi is the rate at which the angle is being changed."
+    },
+    {
+      "start": 341.22,
+      "end": 344.22,
+      "text": "But if every revolution is worth 2 pi radians,"
+    },
+    {
+      "start": 344.22,
+      "end": 347.22,
+      "text": "then 2 pi f is the number of radians per second."
+    },
+    {
+      "start": 347.22,
+      "end": 349.22,
+      "text": "So f is revolutions per second,"
+    },
+    {
+      "start": 349.22,
+      "end": 351.22,
+      "text": "and 2 pi f is radians per second."
+    },
+    {
+      "start": 351.22,
+      "end": 353.63,
+      "text": "And it's called the angular velocity."
+    },
+    {
+      "start": 353.63,
+      "end": 356.73,
+      "text": "The most important result from last time"
+    },
+    {
+      "start": 356.73,
+      "end": 358.76,
+      "text": "was that if you took this R,"
+    },
+    {
+      "start": 358.76,
+      "end": 360.76,
+      "text": "and you took two derivatives of this,"
+    },
+    {
+      "start": 360.76,
+      "end": 362.92,
+      "text": "to find the acceleration,"
+    },
+    {
+      "start": 362.92,
+      "end": 367.17,
+      "text": "d2R over dt squared,"
+    },
+    {
+      "start": 367.17,
+      "end": 369.17,
+      "text": "try to do this in your head."
+    },
+    {
+      "start": 369.17,
+      "end": 371.17,
+      "text": "If you took the two derivatives of this guy,"
+    },
+    {
+      "start": 371.17,
+      "end": 374.17,
+      "text": "first time it will become minus omega sine omega t."
+    },
+    {
+      "start": 374.17,
+      "end": 378.17,
+      "text": "Second time it will become minus omega squared cos omega t."
+    },
+    {
+      "start": 378.17,
+      "end": 382.2,
+      "text": "In other words, it will become minus omega squared times itself."
+    },
+    {
+      "start": 382.2,
+      "end": 383.2,
+      "text": "Same thing here."
+    },
+    {
+      "start": 383.2,
+      "end": 385.2,
+      "text": "And the final result is"
+    },
+    {
+      "start": 385.2,
+      "end": 388.2,
+      "text": "the acceleration is minus omega squared times the position."
+    },
+    {
+      "start": 388.2,
+      "end": 393.16,
+      "text": "That means the acceleration is pointing towards the center of the circle,"
+    },
+    {
+      "start": 393.16,
+      "end": 396.16,
+      "text": "and it has a magnitude, a."
+    },
+    {
+      "start": 396.16,
+      "end": 397.16,
+      "text": "When I draw something without an arrow,"
+    },
+    {
+      "start": 397.16,
+      "end": 399.16,
+      "text": "I'm talking about the magnitude."
+    },
+    {
+      "start": 399.16,
+      "end": 401.16,
+      "text": "It is just omega squared R."
+    },
+    {
+      "start": 401.16,
+      "end": 404.95,
+      "text": "But I've shown you yesterday"
+    },
+    {
+      "start": 404.95,
+      "end": 405.95,
+      "text": "that the velocity,"
+    },
+    {
+      "start": 405.95,
+      "end": 407.95,
+      "text": "and I'm sorry, the speed of the particle"
+    },
+    {
+      "start": 407.95,
+      "end": 409.95,
+      "text": "as it goes around the circle,"
+    },
+    {
+      "start": 409.95,
+      "end": 411.62,
+      "text": "is this."
+    },
+    {
+      "start": 411.62,
+      "end": 414.62,
+      "text": "Again, you should make sure you know how to derive this."
+    },
+    {
+      "start": 414.62,
+      "end": 415.82,
+      "text": "You can do it any way you like."
+    },
+    {
+      "start": 415.82,
+      "end": 417.82,
+      "text": "You can take one full circle,"
+    },
+    {
+      "start": 417.82,
+      "end": 419.82,
+      "text": "realize the distance traveled is 2 pi R,"
+    },
+    {
+      "start": 419.82,
+      "end": 420.82,
+      "text": "divide by the time,"
+    },
+    {
+      "start": 420.82,
+      "end": 421.82,
+      "text": "and you will get this."
+    },
+    {
+      "start": 421.82,
+      "end": 423.2,
+      "text": "Another way,"
+    },
+    {
+      "start": 423.2,
+      "end": 425.2,
+      "text": "take the derivative of this,"
+    },
+    {
+      "start": 425.2,
+      "end": 426.2,
+      "text": "get the velocity vector,"
+    },
+    {
+      "start": 426.2,
+      "end": 428.2,
+      "text": "and you notice its magnitude is a constant,"
+    },
+    {
+      "start": 428.2,
+      "end": 430.2,
+      "text": "and the constant will be omega R."
+    },
+    {
+      "start": 430.2,
+      "end": 433.8,
+      "text": "So whichever way you do it,"
+    },
+    {
+      "start": 433.8,
+      "end": 438.5,
+      "text": "you can then rewrite this as v squared over R."
+    },
+    {
+      "start": 438.5,
+      "end": 442.98,
+      "text": "This is called the centripetal acceleration."
+    },
+    {
+      "start": 442.98,
+      "end": 450.91,
+      "text": "This is the acceleration directed towards the center."
+    },
+    {
+      "start": 450.91,
+      "end": 452.91,
+      "text": "And I told you this is a very important result."
+    },
+    {
+      "start": 452.91,
+      "end": 455.04,
+      "text": "You've got to get this in your head."
+    },
+    {
+      "start": 455.04,
+      "end": 457.04,
+      "text": "Whenever you see a particle moving in a circle,"
+    },
+    {
+      "start": 457.04,
+      "end": 459.04,
+      "text": "even if it's at constant speed,"
+    },
+    {
+      "start": 459.04,
+      "end": 461.04,
+      "text": "it has an acceleration,"
+    },
+    {
+      "start": 461.04,
+      "end": 462.04,
+      "text": "v squared over R,"
+    },
+    {
+      "start": 462.04,
+      "end": 464.04,
+      "text": "directed towards the center."
+    },
+    {
+      "start": 464.04,
+      "end": 467.04,
+      "text": "This formula doesn't tell you which way it's pointing,"
+    },
+    {
+      "start": 467.04,
+      "end": 469.04,
+      "text": "because it's a scalar,"
+    },
+    {
+      "start": 469.04,
+      "end": 470.04,
+      "text": "it's not a vector equation."
+    },
+    {
+      "start": 470.04,
+      "end": 473.04,
+      "text": "If you want to write it as a vector equation,"
+    },
+    {
+      "start": 473.04,
+      "end": 478.48,
+      "text": "you want to write it as v squared over R minus,"
+    },
+    {
+      "start": 478.48,
+      "end": 489.54,
+      "text": "I want to say that it's pointing in the direction towards the center."
+    },
+    {
+      "start": 489.54,
+      "end": 493.54,
+      "text": "So sometimes what we do is we introduce a little vector here"
+    },
+    {
+      "start": 493.54,
+      "end": 496.6,
+      "text": "called E sub R."
+    },
+    {
+      "start": 496.6,
+      "end": 499.3,
+      "text": "I'll tell you more about it later."
+    },
+    {
+      "start": 499.3,
+      "end": 503.3,
+      "text": "E sub R is a vector at each point of length 1"
+    },
+    {
+      "start": 503.3,
+      "end": 505.3,
+      "text": "pointing radially away from the center."
+    },
+    {
+      "start": 505.3,
+      "end": 508.2,
+      "text": "It's like the unit vector i."
+    },
+    {
+      "start": 508.2,
+      "end": 511.2,
+      "text": "Unit vector i points away from the origin in the x direction."
+    },
+    {
+      "start": 511.2,
+      "end": 513.2,
+      "text": "j points away from the origin in the y direction."
+    },
+    {
+      "start": 513.2,
+      "end": 515.2,
+      "text": "E R is not a fixed vector."
+    },
+    {
+      "start": 515.2,
+      "end": 517.2,
+      "text": "At each point,"
+    },
+    {
+      "start": 517.2,
+      "end": 518.2,
+      "text": "E R is a different vector"
+    },
+    {
+      "start": 518.2,
+      "end": 522.65,
+      "text": "pointing in the radial direction of length 1."
+    },
+    {
+      "start": 522.65,
+      "end": 524.65,
+      "text": "The advantage of introducing that guy"
+    },
+    {
+      "start": 524.65,
+      "end": 526.65,
+      "text": "is that if you like,"
+    },
+    {
+      "start": 526.65,
+      "end": 530.58,
+      "text": "I can now write an equation for the acceleration as a vector."
+    },
+    {
+      "start": 531.58,
+      "end": 533.77,
+      "text": "The magnitude is v squared over R."
+    },
+    {
+      "start": 533.77,
+      "end": 535.77,
+      "text": "The direction is negative E R."
+    },
+    {
+      "start": 535.77,
+      "end": 540.75,
+      "text": "So E R, E sub R is a new entity"
+    },
+    {
+      "start": 540.75,
+      "end": 542.75,
+      "text": "I've introduced for convenience."
+    },
+    {
+      "start": 542.75,
+      "end": 544.75,
+      "text": "It plays a big role in gravitation"
+    },
+    {
+      "start": 544.75,
+      "end": 546.75,
+      "text": "and the Coulomb interaction."
+    },
+    {
+      "start": 546.75,
+      "end": 547.75,
+      "text": "It's good to have a vector"
+    },
+    {
+      "start": 547.75,
+      "end": 549.75,
+      "text": "pointing in the radial direction of length 1."
+    },
+    {
+      "start": 549.75,
+      "end": 551.75,
+      "text": "That's what it is."
+    },
+    {
+      "start": 551.75,
+      "end": 554.75,
+      "text": "That's really the heart of what I did last time."
+    },
+    {
+      "start": 554.75,
+      "end": 556.75,
+      "text": "Then we did some projectile problems."
+    },
+    {
+      "start": 556.75,
+      "end": 557.75,
+      "text": "You shoot something,"
+    },
+    {
+      "start": 557.75,
+      "end": 559.75,
+      "text": "you should know when it will land,"
+    },
+    {
+      "start": 559.75,
+      "end": 560.75,
+      "text": "where it will land,"
+    },
+    {
+      "start": 560.75,
+      "end": 561.75,
+      "text": "with what speed it will land,"
+    },
+    {
+      "start": 561.75,
+      "end": 562.75,
+      "text": "how high it will go."
+    },
+    {
+      "start": 562.75,
+      "end": 565.01,
+      "text": "I assume that those problems are not that difficult"
+    },
+    {
+      "start": 565.01,
+      "end": 567.01,
+      "text": "and I've given you a lot of practice."
+    },
+    {
+      "start": 567.01,
+      "end": 572.8,
+      "text": "Now I'm going to move to the really important"
+    },
+    {
+      "start": 572.8,
+      "end": 574.83,
+      "text": "and central topic."
+    },
+    {
+      "start": 574.83,
+      "end": 578.38,
+      "text": "I guess you can guess what that is."
+    },
+    {
+      "start": 578.38,
+      "end": 580.38,
+      "text": "We're going to talk about Newton's laws."
+    },
+    {
+      "start": 580.38,
+      "end": 583.24,
+      "text": "This is a big day in your life"
+    },
+    {
+      "start": 583.24,
+      "end": 585.85,
+      "text": "because this is when you learned"
+    },
+    {
+      "start": 585.85,
+      "end": 587.85,
+      "text": "the laws in terms of which you can understand"
+    },
+    {
+      "start": 587.85,
+      "end": 589.85,
+      "text": "and explain a large number of phenomena."
+    },
+    {
+      "start": 589.85,
+      "end": 590.85,
+      "text": "In fact,"
+    },
+    {
+      "start": 590.85,
+      "end": 594.04,
+      "text": "until we do electricity and magnetism next semester,"
+    },
+    {
+      "start": 594.04,
+      "end": 596.04,
+      "text": "everything is going to be based on just"
+    },
+    {
+      "start": 596.04,
+      "end": 598.04,
+      "text": "the laws of Newton."
+    },
+    {
+      "start": 598.04,
+      "end": 601.33,
+      "text": "It's really amazing that somebody could condense"
+    },
+    {
+      "start": 601.33,
+      "end": 604.33,
+      "text": "that much of information into a few,"
+    },
+    {
+      "start": 604.33,
+      "end": 606.33,
+      "text": "namely three different laws."
+    },
+    {
+      "start": 606.33,
+      "end": 609.42,
+      "text": "That's what we're going to talk about."
+    },
+    {
+      "start": 609.42,
+      "end": 610.42,
+      "text": "Let's start."
+    },
+    {
+      "start": 610.42,
+      "end": 613.74,
+      "text": "Your reaction may be that you've seen Newton's laws,"
+    },
+    {
+      "start": 613.74,
+      "end": 615.74,
+      "text": "you've applied them in school."
+    },
+    {
+      "start": 615.74,
+      "end": 617.74,
+      "text": "I've got to tell you that"
+    },
+    {
+      "start": 617.74,
+      "end": 620.09,
+      "text": "I realized fairly late in life"
+    },
+    {
+      "start": 620.09,
+      "end": 623.12,
+      "text": "they're more subtle than I imagined the first time."
+    },
+    {
+      "start": 623.12,
+      "end": 625.12,
+      "text": "It's one thing to plug in all the numbers"
+    },
+    {
+      "start": 625.12,
+      "end": 626.12,
+      "text": "and say I know the Newton's laws"
+    },
+    {
+      "start": 626.12,
+      "end": 627.12,
+      "text": "and I know how they work."
+    },
+    {
+      "start": 628.25,
+      "end": 630.47,
+      "text": "But as you get older"
+    },
+    {
+      "start": 630.47,
+      "end": 631.47,
+      "text": "and you have a lot of spare time,"
+    },
+    {
+      "start": 631.47,
+      "end": 633.47,
+      "text": "you think about what you're doing,"
+    },
+    {
+      "start": 633.47,
+      "end": 635.47,
+      "text": "which is something I have the luxury of doing right now."
+    },
+    {
+      "start": 635.47,
+      "end": 637.47,
+      "text": "I realized this is more tricky."
+    },
+    {
+      "start": 637.47,
+      "end": 639.5,
+      "text": "I want to share some of that with you"
+    },
+    {
+      "start": 639.5,
+      "end": 640.5,
+      "text": "so you can fast forward"
+    },
+    {
+      "start": 640.5,
+      "end": 642.5,
+      "text": "and get the understanding"
+    },
+    {
+      "start": 642.5,
+      "end": 644.5,
+      "text": "it took me much longer to get."
+    },
+    {
+      "start": 644.5,
+      "end": 645.5,
+      "text": "That's what I'm going to emphasize more"
+    },
+    {
+      "start": 645.5,
+      "end": 647.5,
+      "text": "than just plugging in the numbers."
+    },
+    {
+      "start": 647.5,
+      "end": 648.7,
+      "text": "Of course, we have to also know"
+    },
+    {
+      "start": 648.7,
+      "end": 649.7,
+      "text": "how to plug in the numbers"
+    },
+    {
+      "start": 649.7,
+      "end": 651.7,
+      "text": "so we can pass all the tests."
+    },
+    {
+      "start": 651.7,
+      "end": 653.7,
+      "text": "But it's good to understand"
+    },
+    {
+      "start": 653.7,
+      "end": 657.73,
+      "text": "the nature of the edifice set up by Newton."
+    },
+    {
+      "start": 657.73,
+      "end": 660.75,
+      "text": "The first statement by Newton,"
+    },
+    {
+      "start": 660.75,
+      "end": 662.88,
+      "text": "I don't feel like writing it down."
+    },
+    {
+      "start": 662.88,
+      "end": 665.88,
+      "text": "It's too long and everybody knows what the law is."
+    },
+    {
+      "start": 665.88,
+      "end": 669.1,
+      "text": "It's called the law of inertia."
+    },
+    {
+      "start": 669.1,
+      "end": 672.18,
+      "text": "Let me just say it and talk about it."
+    },
+    {
+      "start": 672.18,
+      "end": 674.18,
+      "text": "The law of inertia says that"
+    },
+    {
+      "start": 674.18,
+      "end": 679.08,
+      "text": "if a body has no forces acting on it,"
+    },
+    {
+      "start": 679.08,
+      "end": 683.07,
+      "text": "then it will remain at rest"
+    },
+    {
+      "start": 683.07,
+      "end": 685.07,
+      "text": "if it was at rest to begin with"
+    },
+    {
+      "start": 685.07,
+      "end": 688.1,
+      "text": "or if it had a velocity to begin with,"
+    },
+    {
+      "start": 688.1,
+      "end": 690.1,
+      "text": "it will maintain that velocity."
+    },
+    {
+      "start": 690.1,
+      "end": 694.25,
+      "text": "One way to say it is"
+    },
+    {
+      "start": 694.25,
+      "end": 697.25,
+      "text": "everybody will continue to remain in a state of rest"
+    },
+    {
+      "start": 697.25,
+      "end": 699.25,
+      "text": "or uniform motion in a straight line."
+    },
+    {
+      "start": 699.25,
+      "end": 700.25,
+      "text": "That's another way of saying"
+    },
+    {
+      "start": 700.25,
+      "end": 702.25,
+      "text": "maintain a velocity"
+    },
+    {
+      "start": 702.25,
+      "end": 704.25,
+      "text": "if it's not acted upon by a force."
+    },
+    {
+      "start": 704.25,
+      "end": 708.69,
+      "text": "Now what makes the law surprising"
+    },
+    {
+      "start": 708.69,
+      "end": 711.69,
+      "text": "is that if I only gave you half the law,"
+    },
+    {
+      "start": 711.69,
+      "end": 714.69,
+      "text": "namely everybody will remain at rest"
+    },
+    {
+      "start": 714.69,
+      "end": 715.69,
+      "text": "if it's not acted upon by a force,"
+    },
+    {
+      "start": 715.69,
+      "end": 716.69,
+      "text": "you will say that's fine."
+    },
+    {
+      "start": 716.69,
+      "end": 718.69,
+      "text": "I accept that because here's something."
+    },
+    {
+      "start": 718.69,
+      "end": 720.69,
+      "text": "You leave it there, it doesn't move."
+    },
+    {
+      "start": 720.69,
+      "end": 721.69,
+      "text": "It's not a big surprise."
+    },
+    {
+      "start": 721.69,
+      "end": 724.69,
+      "text": "People are used to that from the time of Aristotle."
+    },
+    {
+      "start": 724.69,
+      "end": 728.46,
+      "text": "But Aristotle used to think that"
+    },
+    {
+      "start": 728.46,
+      "end": 730.52,
+      "text": "if you want something to move,"
+    },
+    {
+      "start": 730.52,
+      "end": 732.52,
+      "text": "there has to be some agency making it move,"
+    },
+    {
+      "start": 732.52,
+      "end": 735.65,
+      "text": "an agency you could call force."
+    },
+    {
+      "start": 735.65,
+      "end": 738.65,
+      "text": "The great discovery that Galileo and Newton made"
+    },
+    {
+      "start": 738.65,
+      "end": 740.65,
+      "text": "is that you don't need a force"
+    },
+    {
+      "start": 740.65,
+      "end": 744.99,
+      "text": "for a body to move at constant velocity."
+    },
+    {
+      "start": 744.99,
+      "end": 746.99,
+      "text": "It's very clear you don't need a force"
+    },
+    {
+      "start": 746.99,
+      "end": 748.99,
+      "text": "if something is doing nothing,"
+    },
+    {
+      "start": 748.99,
+      "end": 750.02,
+      "text": "if it's sitting there."
+    },
+    {
+      "start": 750.02,
+      "end": 752.02,
+      "text": "The fact that you don't need a force"
+    },
+    {
+      "start": 752.02,
+      "end": 754.02,
+      "text": "for it to move forever at a given speed"
+    },
+    {
+      "start": 754.02,
+      "end": 756.02,
+      "text": "in a given direction,"
+    },
+    {
+      "start": 756.02,
+      "end": 757.02,
+      "text": "that's not obvious,"
+    },
+    {
+      "start": 757.02,
+      "end": 759.02,
+      "text": "because in daily life you don't see that."
+    },
+    {
+      "start": 759.02,
+      "end": 761.02,
+      "text": "Daily life everything seems to come to rest"
+    },
+    {
+      "start": 761.02,
+      "end": 762.02,
+      "text": "unless you push it or you pull it"
+    },
+    {
+      "start": 762.02,
+      "end": 764.02,
+      "text": "or you exert some kind of force."
+    },
+    {
+      "start": 764.02,
+      "end": 766.44,
+      "text": "But we all know"
+    },
+    {
+      "start": 766.44,
+      "end": 768.44,
+      "text": "that the reason things come to a halt"
+    },
+    {
+      "start": 768.44,
+      "end": 770.44,
+      "text": "when you push them"
+    },
+    {
+      "start": 770.44,
+      "end": 772.44,
+      "text": "is that eventually some friction or drag"
+    },
+    {
+      "start": 772.44,
+      "end": 774.44,
+      "text": "or something is bringing them to rest."
+    },
+    {
+      "start": 774.44,
+      "end": 776.44,
+      "text": "Somehow if you could manufacture"
+    },
+    {
+      "start": 776.44,
+      "end": 778.44,
+      "text": "a really smooth frictionless surface,"
+    },
+    {
+      "start": 778.44,
+      "end": 780.44,
+      "text": "that if you took a hockey puck or something"
+    },
+    {
+      "start": 780.44,
+      "end": 783.44,
+      "text": "and an air cushion and you give it a push,"
+    },
+    {
+      "start": 783.44,
+      "end": 786.44,
+      "text": "in some idealized world it'll travel forever."
+    },
+    {
+      "start": 786.44,
+      "end": 790.04,
+      "text": "So it's hard to realize that"
+    },
+    {
+      "start": 790.04,
+      "end": 792.04,
+      "text": "in the terrestrial situation,"
+    },
+    {
+      "start": 792.04,
+      "end": 795.04,
+      "text": "but Galileo already managed to find examples"
+    },
+    {
+      "start": 795.04,
+      "end": 797.04,
+      "text": "where things would roll on for a very, very long time."
+    },
+    {
+      "start": 797.04,
+      "end": 799.04,
+      "text": "But nowadays if you go to outer space"
+    },
+    {
+      "start": 799.04,
+      "end": 800.04,
+      "text": "you can check for yourself"
+    },
+    {
+      "start": 800.04,
+      "end": 802.04,
+      "text": "that if you throw something out"
+    },
+    {
+      "start": 802.04,
+      "end": 805.04,
+      "text": "it just goes on forever without your intervention."
+    },
+    {
+      "start": 805.04,
+      "end": 807.55,
+      "text": "That it's the nature of things"
+    },
+    {
+      "start": 807.55,
+      "end": 809.55,
+      "text": "to go at a constant velocity."
+    },
+    {
+      "start": 809.55,
+      "end": 811.55,
+      "text": "They don't need your help to do that."
+    },
+    {
+      "start": 811.55,
+      "end": 815.73,
+      "text": "Now you have to be careful"
+    },
+    {
+      "start": 815.73,
+      "end": 817.82,
+      "text": "that this first law of Newton"
+    },
+    {
+      "start": 817.82,
+      "end": 819.82,
+      "text": "is not valid for everybody."
+    },
+    {
+      "start": 819.82,
+      "end": 822.59,
+      "text": "In fact, I'll give an example"
+    },
+    {
+      "start": 822.59,
+      "end": 824.59,
+      "text": "in your own life where you will find"
+    },
+    {
+      "start": 824.59,
+      "end": 826.59,
+      "text": "that this law doesn't work."
+    },
+    {
+      "start": 826.59,
+      "end": 827.85,
+      "text": "So here's the situation."
+    },
+    {
+      "start": 827.85,
+      "end": 829.85,
+      "text": "You go on an airplane"
+    },
+    {
+      "start": 829.85,
+      "end": 833.07,
+      "text": "and then after the usual delays"
+    },
+    {
+      "start": 833.07,
+      "end": 837.07,
+      "text": "the plane begins to accelerate down the runway."
+    },
+    {
+      "start": 837.07,
+      "end": 838.49,
+      "text": "At that instant,"
+    },
+    {
+      "start": 838.49,
+      "end": 840.49,
+      "text": "if you leave anything on the floor"
+    },
+    {
+      "start": 840.49,
+      "end": 842.49,
+      "text": "you know it's no longer yours."
+    },
+    {
+      "start": 842.49,
+      "end": 843.49,
+      "text": "It's going to slide down"
+    },
+    {
+      "start": 843.49,
+      "end": 844.49,
+      "text": "and the guy in the last row"
+    },
+    {
+      "start": 844.49,
+      "end": 846.71,
+      "text": "is going to collect everything."
+    },
+    {
+      "start": 846.71,
+      "end": 847.71,
+      "text": "Why is that?"
+    },
+    {
+      "start": 847.71,
+      "end": 849.71,
+      "text": "Because we find in that plane"
+    },
+    {
+      "start": 849.71,
+      "end": 851.71,
+      "text": "when objects are left on the ground"
+    },
+    {
+      "start": 851.71,
+      "end": 853.71,
+      "text": "at what we think is at rest"
+    },
+    {
+      "start": 853.71,
+      "end": 856.71,
+      "text": "with no external agency acting on them"
+    },
+    {
+      "start": 856.71,
+      "end": 857.71,
+      "text": "they all slide backwards"
+    },
+    {
+      "start": 857.71,
+      "end": 859.71,
+      "text": "towards the rear end of the plane."
+    },
+    {
+      "start": 859.71,
+      "end": 861.71,
+      "text": "That happens during takeoff."
+    },
+    {
+      "start": 861.71,
+      "end": 862.71,
+      "text": "That doesn't happen in flight"
+    },
+    {
+      "start": 862.71,
+      "end": 865.45,
+      "text": "but it happens during takeoff."
+    },
+    {
+      "start": 865.45,
+      "end": 867.45,
+      "text": "So that is an example of a person"
+    },
+    {
+      "start": 867.45,
+      "end": 870.96,
+      "text": "for whom the law of inertia does not work."
+    },
+    {
+      "start": 870.96,
+      "end": 872.96,
+      "text": "So this is something you guys may not have realized."
+    },
+    {
+      "start": 872.96,
+      "end": 874.96,
+      "text": "Newton's laws are not for everybody."
+    },
+    {
+      "start": 874.96,
+      "end": 879.7,
+      "text": "You have to be what's called an inertial observer."
+    },
+    {
+      "start": 879.7,
+      "end": 881.7,
+      "text": "If you're an inertial observer"
+    },
+    {
+      "start": 881.7,
+      "end": 883.95,
+      "text": "then in your system of reference"
+    },
+    {
+      "start": 883.95,
+      "end": 888.11,
+      "text": "objects left at rest will remain at rest."
+    },
+    {
+      "start": 888.11,
+      "end": 890.11,
+      "text": "The plane that's ready to take off"
+    },
+    {
+      "start": 890.11,
+      "end": 891.11,
+      "text": "or is taking off"
+    },
+    {
+      "start": 891.11,
+      "end": 892.11,
+      "text": "is not such a system."
+    },
+    {
+      "start": 892.11,
+      "end": 896.62,
+      "text": "The earth seems to be a pretty good inertial system"
+    },
+    {
+      "start": 896.62,
+      "end": 897.62,
+      "text": "because on the ground"
+    },
+    {
+      "start": 897.62,
+      "end": 902.94,
+      "text": "you leave something, it stays there."
+    },
+    {
+      "start": 902.94,
+      "end": 903.94,
+      "text": "It depends on what you leave."
+    },
+    {
+      "start": 903.94,
+      "end": 904.94,
+      "text": "If you leave your iPod"
+    },
+    {
+      "start": 904.94,
+      "end": 906.94,
+      "text": "it's not going to stay there for very long."
+    },
+    {
+      "start": 906.94,
+      "end": 910.07,
+      "text": "But then you can trace it to some external forces"
+    },
+    {
+      "start": 910.07,
+      "end": 912.07,
+      "text": "which are carrying your iPod."
+    },
+    {
+      "start": 912.07,
+      "end": 913.07,
+      "text": "But if you don't do anything"
+    },
+    {
+      "start": 913.07,
+      "end": 914.07,
+      "text": "things stay."
+    },
+    {
+      "start": 914.07,
+      "end": 916.42,
+      "text": "So here is the main point."
+    },
+    {
+      "start": 916.42,
+      "end": 918.52,
+      "text": "The point of Newton is"
+    },
+    {
+      "start": 918.52,
+      "end": 919.52,
+      "text": "two things in the law of inertia"
+    },
+    {
+      "start": 919.52,
+      "end": 921.52,
+      "text": "which one may think is trivial."
+    },
+    {
+      "start": 921.81,
+      "end": 924.81,
+      "text": "First, free velocity, constant velocity"
+    },
+    {
+      "start": 924.81,
+      "end": 927.87,
+      "text": "can be obtained for free without doing anything."
+    },
+    {
+      "start": 927.87,
+      "end": 929.87,
+      "text": "And there are people for whom this is true."
+    },
+    {
+      "start": 929.87,
+      "end": 931.87,
+      "text": "For example, in outer space"
+    },
+    {
+      "start": 931.87,
+      "end": 932.87,
+      "text": "if you're an astronaut"
+    },
+    {
+      "start": 932.87,
+      "end": 934.87,
+      "text": "you send something, you'll find it goes on forever."
+    },
+    {
+      "start": 934.87,
+      "end": 937.9,
+      "text": "Here's another thing."
+    },
+    {
+      "start": 937.9,
+      "end": 939.9,
+      "text": "If you find one inertial observer"
+    },
+    {
+      "start": 939.9,
+      "end": 942.9,
+      "text": "namely one person for whom this law of inertia works"
+    },
+    {
+      "start": 942.9,
+      "end": 944.9,
+      "text": "I can manufacture for you"
+    },
+    {
+      "start": 944.9,
+      "end": 946.9,
+      "text": "an infinite number of other people"
+    },
+    {
+      "start": 946.9,
+      "end": 949.98,
+      "text": "for whom this is true."
+    },
+    {
+      "start": 949.98,
+      "end": 950.98,
+      "text": "Who are these other people?"
+    },
+    {
+      "start": 950.98,
+      "end": 954.62,
+      "text": "Do you know what I'm talking about?"
+    },
+    {
+      "start": 954.62,
+      "end": 955.62,
+      "text": "If I give you one observer"
+    },
+    {
+      "start": 955.62,
+      "end": 956.62,
+      "text": "for whom the law of inertia is true"
+    },
+    {
+      "start": 956.62,
+      "end": 958.62,
+      "text": "I say there are others"
+    },
+    {
+      "start": 958.62,
+      "end": 960.81,
+      "text": "for whom it's also true."
+    },
+    {
+      "start": 960.81,
+      "end": 962.58,
+      "text": "Yes?"
+    },
+    {
+      "start": 962.58,
+      "end": 967.61,
+      "text": "Did you hear that?"
+    },
+    {
+      "start": 967.61,
+      "end": 968.61,
+      "text": "Let me repeat that."
+    },
+    {
+      "start": 968.61,
+      "end": 970.31,
+      "text": "First of all"
+    },
+    {
+      "start": 970.31,
+      "end": 973.6,
+      "text": "if the law of inertia is valid for me"
+    },
+    {
+      "start": 973.6,
+      "end": 975.6,
+      "text": "it's valid for other people"
+    },
+    {
+      "start": 975.6,
+      "end": 977.6,
+      "text": "in the same room at rest with respect to me."
+    },
+    {
+      "start": 977.6,
+      "end": 978.6,
+      "text": "Because if I think it's not moving"
+    },
+    {
+      "start": 978.6,
+      "end": 980.6,
+      "text": "you'll think it's not moving."
+    },
+    {
+      "start": 980.6,
+      "end": 982.18,
+      "text": "That's just fine."
+    },
+    {
+      "start": 982.18,
+      "end": 984.18,
+      "text": "But suppose you are in a train"
+    },
+    {
+      "start": 984.18,
+      "end": 985.18,
+      "text": "and you're moving past me"
+    },
+    {
+      "start": 985.18,
+      "end": 987.18,
+      "text": "and you look at this piece of chalk"
+    },
+    {
+      "start": 987.18,
+      "end": 988.18,
+      "text": "of course everything in my room"
+    },
+    {
+      "start": 988.18,
+      "end": 990.18,
+      "text": "is going backwards for you."
+    },
+    {
+      "start": 990.18,
+      "end": 992.34,
+      "text": "But things which were at rest"
+    },
+    {
+      "start": 992.34,
+      "end": 994.34,
+      "text": "will move at a constant velocity"
+    },
+    {
+      "start": 994.34,
+      "end": 995.34,
+      "text": "opposite to the velocity"
+    },
+    {
+      "start": 995.34,
+      "end": 997.34,
+      "text": "that you have relative to me."
+    },
+    {
+      "start": 997.34,
+      "end": 1000.65,
+      "text": "So you will find that objects"
+    },
+    {
+      "start": 1000.65,
+      "end": 1002.65,
+      "text": "which are at constant initial velocity"
+    },
+    {
+      "start": 1002.65,
+      "end": 1004.65,
+      "text": "maintain the velocity."
+    },
+    {
+      "start": 1004.65,
+      "end": 1007.8,
+      "text": "So if I am an inertial observer"
+    },
+    {
+      "start": 1007.8,
+      "end": 1010.8,
+      "text": "another person moving relative to me"
+    },
+    {
+      "start": 1010.8,
+      "end": 1011.8,
+      "text": "at constant velocity"
+    },
+    {
+      "start": 1011.8,
+      "end": 1014.8,
+      "text": "will also be an inertial observer."
+    },
+    {
+      "start": 1014.8,
+      "end": 1016.54,
+      "text": "Why?"
+    },
+    {
+      "start": 1016.54,
+      "end": 1018.54,
+      "text": "Because any velocity I ascribe to a party"
+    },
+    {
+      "start": 1018.54,
+      "end": 1020.54,
+      "text": "to a party of a person"
+    },
+    {
+      "start": 1020.54,
+      "end": 1022.54,
+      "text": "will be a constant velocity."
+    },
+    {
+      "start": 1022.54,
+      "end": 1023.54,
+      "text": "So if I am an inertial observer"
+    },
+    {
+      "start": 1023.54,
+      "end": 1024.54,
+      "text": "and I have a particular object"
+    },
+    {
+      "start": 1024.54,
+      "end": 1025.54,
+      "text": "you will add a certain constant to it"
+    },
+    {
+      "start": 1025.54,
+      "end": 1027.54,
+      "text": "by the law of composition of velocities."
+    },
+    {
+      "start": 1027.54,
+      "end": 1028.54,
+      "text": "All velocities I see"
+    },
+    {
+      "start": 1028.54,
+      "end": 1029.54,
+      "text": "you will add a certain number"
+    },
+    {
+      "start": 1029.54,
+      "end": 1031.98,
+      "text": "to get the velocities according to you."
+    },
+    {
+      "start": 1031.98,
+      "end": 1033.98,
+      "text": "But adding a constant velocity to objects"
+    },
+    {
+      "start": 1033.98,
+      "end": 1034.98,
+      "text": "does not change the fact"
+    },
+    {
+      "start": 1034.98,
+      "end": 1037.98,
+      "text": "that those which were maintaining constant velocity"
+    },
+    {
+      "start": 1037.98,
+      "end": 1039.98,
+      "text": "still maintain a constant velocity."
+    },
+    {
+      "start": 1039.98,
+      "end": 1042.4,
+      "text": "It's a different constant velocity."
+    },
+    {
+      "start": 1042.4,
+      "end": 1044.4,
+      "text": "In particular things that I say are at rest"
+    },
+    {
+      "start": 1044.4,
+      "end": 1046.4,
+      "text": "you will say are moving backwards"
+    },
+    {
+      "start": 1046.4,
+      "end": 1048.4,
+      "text": "at the velocity that you had relative to me."
+    },
+    {
+      "start": 1048.4,
+      "end": 1050.4,
+      "text": "Things that I say are going at 50 miles per hour"
+    },
+    {
+      "start": 1050.4,
+      "end": 1052.4,
+      "text": "you may say are going at 80."
+    },
+    {
+      "start": 1052.4,
+      "end": 1055.14,
+      "text": "But 50 is a constant and 80 is a constant."
+    },
+    {
+      "start": 1055.14,
+      "end": 1058.14,
+      "text": "Therefore it's not that there's only one"
+    },
+    {
+      "start": 1058.14,
+      "end": 1061.14,
+      "text": "fortunate family of inertial observers."
+    },
+    {
+      "start": 1061.14,
+      "end": 1062.14,
+      "text": "There's an infinite number of them."
+    },
+    {
+      "start": 1062.14,
+      "end": 1064.14,
+      "text": "They're all moving relative to each other"
+    },
+    {
+      "start": 1064.14,
+      "end": 1066.62,
+      "text": "at constant velocity."
+    },
+    {
+      "start": 1066.62,
+      "end": 1069.62,
+      "text": "So if the Earth is an inertial frame of reference"
+    },
+    {
+      "start": 1069.62,
+      "end": 1070.62,
+      "text": "if you go in a train"
+    },
+    {
+      "start": 1070.62,
+      "end": 1072.62,
+      "text": "relative to the Earth at constant velocity"
+    },
+    {
+      "start": 1072.62,
+      "end": 1075.58,
+      "text": "you're also inertial."
+    },
+    {
+      "start": 1075.58,
+      "end": 1078.58,
+      "text": "But if you go in a plane which is accelerating"
+    },
+    {
+      "start": 1078.58,
+      "end": 1080.83,
+      "text": "you're no longer inertial."
+    },
+    {
+      "start": 1080.83,
+      "end": 1081.83,
+      "text": "That's the main point."
+    },
+    {
+      "start": 1081.83,
+      "end": 1082.83,
+      "text": "The point is"
+    },
+    {
+      "start": 1082.83,
+      "end": 1084.83,
+      "text": "that the Earth is an inertial frame of reference."
+    },
+    {
+      "start": 1084.83,
+      "end": 1089.63,
+      "text": "Now you must know the Earth is not precisely inertial."
+    },
+    {
+      "start": 1089.63,
+      "end": 1091.63,
+      "text": "The Earth has an acceleration."
+    },
+    {
+      "start": 1091.63,
+      "end": 1095.66,
+      "text": "Maybe, can you tell me why I'm sure"
+    },
+    {
+      "start": 1095.66,
+      "end": 1101.05,
+      "text": "the Earth has an acceleration?"
+    },
+    {
+      "start": 1101.05,
+      "end": 1104.1,
+      "text": "Yes?"
+    },
+    {
+      "start": 1104.1,
+      "end": 1105.1,
+      "text": "It's going around the Sun."
+    },
+    {
+      "start": 1105.1,
+      "end": 1107.1,
+      "text": "Let's imagine it's a circular orbit"
+    },
+    {
+      "start": 1107.1,
+      "end": 1109.1,
+      "text": "that we've just shown here."
+    },
+    {
+      "start": 1109.1,
+      "end": 1111.1,
+      "text": "It's an accelerated frame of reference."
+    },
+    {
+      "start": 1111.1,
+      "end": 1113.1,
+      "text": "It just turns out that if you put the V squared"
+    },
+    {
+      "start": 1113.1,
+      "end": 1114.1,
+      "text": "and you put the r"
+    },
+    {
+      "start": 1114.1,
+      "end": 1116.1,
+      "text": "you know r is 93 million miles"
+    },
+    {
+      "start": 1116.1,
+      "end": 1118.1,
+      "text": "you will find that acceleration is small enough"
+    },
+    {
+      "start": 1118.1,
+      "end": 1119.1,
+      "text": "for us to ignore."
+    },
+    {
+      "start": 1119.1,
+      "end": 1122.1,
+      "text": "But there are effects of the Earth's acceleration"
+    },
+    {
+      "start": 1122.1,
+      "end": 1123.1,
+      "text": "which will demonstrate."
+    },
+    {
+      "start": 1123.1,
+      "end": 1125.29,
+      "text": "The Foucault pendulum is one example"
+    },
+    {
+      "start": 1125.29,
+      "end": 1127.29,
+      "text": "where you can see that the Earth is rotating"
+    },
+    {
+      "start": 1127.29,
+      "end": 1128.29,
+      "text": "around its own axis."
+    },
+    {
+      "start": 1128.29,
+      "end": 1130.32,
+      "text": "Then the fact that Earth is going around the Sun"
+    },
+    {
+      "start": 1130.32,
+      "end": 1132.32,
+      "text": "all of them mean it's really not inertial"
+    },
+    {
+      "start": 1132.32,
+      "end": 1134.83,
+      "text": "but it's approximately inertial."
+    },
+    {
+      "start": 1134.83,
+      "end": 1136.83,
+      "text": "But if you go to outer space nowadays"
+    },
+    {
+      "start": 1136.83,
+      "end": 1139.83,
+      "text": "you can find truly inertial frames of reference."
+    },
+    {
+      "start": 1139.83,
+      "end": 1142.98,
+      "text": "Okay, so that's the first law."
+    },
+    {
+      "start": 1142.98,
+      "end": 1145.94,
+      "text": "First law if you want"
+    },
+    {
+      "start": 1145.94,
+      "end": 1146.94,
+      "text": "if you want to say"
+    },
+    {
+      "start": 1146.94,
+      "end": 1149.2,
+      "text": "okay, what's the summary of all of this?"
+    },
+    {
+      "start": 1149.2,
+      "end": 1151.2,
+      "text": "Summary is that constant velocity"
+    },
+    {
+      "start": 1151.2,
+      "end": 1155.02,
+      "text": "doesn't require anything."
+    },
+    {
+      "start": 1155.02,
+      "end": 1157.02,
+      "text": "Now the reason things don't have constant"
+    },
+    {
+      "start": 1157.02,
+      "end": 1158.02,
+      "text": "it looks like a tautology"
+    },
+    {
+      "start": 1158.02,
+      "end": 1159.02,
+      "text": "because you look around"
+    },
+    {
+      "start": 1159.02,
+      "end": 1161.02,
+      "text": "nothing seems to have its velocity forever."
+    },
+    {
+      "start": 1161.02,
+      "end": 1162.02,
+      "text": "Then you say oh that's because"
+    },
+    {
+      "start": 1162.02,
+      "end": 1164.02,
+      "text": "there's a force acting on it."
+    },
+    {
+      "start": 1164.02,
+      "end": 1165.02,
+      "text": "It looks like a tautology"
+    },
+    {
+      "start": 1165.02,
+      "end": 1167.02,
+      "text": "because you're never able to show me something"
+    },
+    {
+      "start": 1167.02,
+      "end": 1169.02,
+      "text": "that moves forever at constant velocity"
+    },
+    {
+      "start": 1169.02,
+      "end": 1171.02,
+      "text": "because every time you don't find such a thing"
+    },
+    {
+      "start": 1171.02,
+      "end": 1172.02,
+      "text": "I give an excuse"
+    },
+    {
+      "start": 1172.02,
+      "end": 1174.02,
+      "text": "namely a force is acting."
+    },
+    {
+      "start": 1174.02,
+      "end": 1175.41,
+      "text": "But it's not a big con"
+    },
+    {
+      "start": 1175.41,
+      "end": 1177.41,
+      "text": "because you can set up experiments"
+    },
+    {
+      "start": 1177.41,
+      "end": 1179.41,
+      "text": "in free space far from everything"
+    },
+    {
+      "start": 1179.41,
+      "end": 1180.41,
+      "text": "where objects will in fact"
+    },
+    {
+      "start": 1180.41,
+      "end": 1182.41,
+      "text": "maintain their velocity forever."
+    },
+    {
+      "start": 1182.41,
+      "end": 1184.44,
+      "text": "That's a possibility."
+    },
+    {
+      "start": 1184.44,
+      "end": 1187.08,
+      "text": "And it's a useful concept on the earth"
+    },
+    {
+      "start": 1187.08,
+      "end": 1189.08,
+      "text": "because earth is approximately inertial."
+    },
+    {
+      "start": 1189.08,
+      "end": 1193.55,
+      "text": "Now you come to the second law"
+    },
+    {
+      "start": 1193.55,
+      "end": 1194.55,
+      "text": "which is the law"
+    },
+    {
+      "start": 1194.55,
+      "end": 1197.55,
+      "text": "this is the law that we all memorize and learn"
+    },
+    {
+      "start": 1197.55,
+      "end": 1200.55,
+      "text": "and it says that if a body has an acceleration"
+    },
+    {
+      "start": 1200.55,
+      "end": 1202.55,
+      "text": "then you need a force"
+    },
+    {
+      "start": 1202.55,
+      "end": 1204.55,
+      "text": "and the relation of the force to acceleration"
+    },
+    {
+      "start": 1204.55,
+      "end": 1205.55,
+      "text": "is this thing."
+    },
+    {
+      "start": 1205.55,
+      "end": 1211.59,
+      "text": "Now I have to say a few words about units."
+    },
+    {
+      "start": 1211.59,
+      "end": 1216.3,
+      "text": "Acceleration is measured in meters per second square."
+    },
+    {
+      "start": 1216.3,
+      "end": 1218.55,
+      "text": "Mass is measured in kilometers."
+    },
+    {
+      "start": 1218.55,
+      "end": 1220.55,
+      "text": "So the way to measure force"
+    },
+    {
+      "start": 1220.55,
+      "end": 1222.55,
+      "text": "is in kilogram meters per second square"
+    },
+    {
+      "start": 1222.55,
+      "end": 1225.55,
+      "text": "but we get tired of saying that long expression"
+    },
+    {
+      "start": 1225.55,
+      "end": 1228.65,
+      "text": "so we're going to call that a Newton."
+    },
+    {
+      "start": 1228.65,
+      "end": 1230.65,
+      "text": "If you'd invented it"
+    },
+    {
+      "start": 1230.65,
+      "end": 1232.65,
+      "text": "we'd call it whatever your name is"
+    },
+    {
+      "start": 1232.65,
+      "end": 1234.65,
+      "text": "but this is the guy who invented it"
+    },
+    {
+      "start": 1234.65,
+      "end": 1236.65,
+      "text": "so it's called a Newton"
+    },
+    {
+      "start": 1236.65,
+      "end": 1240.44,
+      "text": "usually denoted by a capital N."
+    },
+    {
+      "start": 1240.44,
+      "end": 1243.44,
+      "text": "So a typical problem that you may have done"
+    },
+    {
+      "start": 1243.44,
+      "end": 1245.44,
+      "text": "in your first pass at Newton's law"
+    },
+    {
+      "start": 1245.44,
+      "end": 1247.44,
+      "text": "someone tells you a force of 36 Newtons"
+    },
+    {
+      "start": 1247.44,
+      "end": 1250.44,
+      "text": "is acting on a mass of whatever"
+    },
+    {
+      "start": 1250.44,
+      "end": 1252.44,
+      "text": "4 kilograms, what's the acceleration?"
+    },
+    {
+      "start": 1252.44,
+      "end": 1254.44,
+      "text": "You divide and you find it's 9"
+    },
+    {
+      "start": 1254.44,
+      "end": 1256.44,
+      "text": "and you say, okay, I know what to do with Newton's laws."
+    },
+    {
+      "start": 1256.44,
+      "end": 1258.89,
+      "text": "That's where I want to tell you"
+    },
+    {
+      "start": 1258.89,
+      "end": 1260.89,
+      "text": "that it's actually more complicated than that."
+    },
+    {
+      "start": 1260.89,
+      "end": 1264.1,
+      "text": "Let's really look at this equation."
+    },
+    {
+      "start": 1264.1,
+      "end": 1267.36,
+      "text": "Take yourself back to 1600 whatever"
+    },
+    {
+      "start": 1267.36,
+      "end": 1269.36,
+      "text": "whenever Newton was inventing these laws."
+    },
+    {
+      "start": 1269.36,
+      "end": 1271.36,
+      "text": "So you don't know any of these laws."
+    },
+    {
+      "start": 1271.36,
+      "end": 1273.36,
+      "text": "You have an intuitive definition of force"
+    },
+    {
+      "start": 1273.36,
+      "end": 1275.36,
+      "text": "you sort of know what force is, right?"
+    },
+    {
+      "start": 1275.36,
+      "end": 1277.36,
+      "text": "Somebody pushes you or pulls you"
+    },
+    {
+      "start": 1277.36,
+      "end": 1279.39,
+      "text": "that's a force."
+    },
+    {
+      "start": 1279.39,
+      "end": 1281.39,
+      "text": "And suddenly you are told"
+    },
+    {
+      "start": 1281.39,
+      "end": 1283.94,
+      "text": "here is a law."
+    },
+    {
+      "start": 1283.94,
+      "end": 1285.94,
+      "text": "Are you better off in any way?"
+    },
+    {
+      "start": 1285.94,
+      "end": 1286.94,
+      "text": "Can you do anything with this law?"
+    },
+    {
+      "start": 1286.94,
+      "end": 1287.94,
+      "text": "Is what I'm asking you."
+    },
+    {
+      "start": 1287.94,
+      "end": 1288.94,
+      "text": "What can you do with this law?"
+    },
+    {
+      "start": 1288.94,
+      "end": 1290.94,
+      "text": "I give you Newton's law and say good luck."
+    },
+    {
+      "start": 1290.94,
+      "end": 1293.0,
+      "text": "What will you do?"
+    },
+    {
+      "start": 1293.0,
+      "end": 1295.19,
+      "text": "What does it help you predict?"
+    },
+    {
+      "start": 1295.19,
+      "end": 1297.61,
+      "text": "You can't even tell if it's true."
+    },
+    {
+      "start": 1297.61,
+      "end": 1299.61,
+      "text": "Here's a body that's moving, right?"
+    },
+    {
+      "start": 1299.61,
+      "end": 1301.86,
+      "text": "I want you to tell me"
+    },
+    {
+      "start": 1301.86,
+      "end": 1303.86,
+      "text": "is Newton right?"
+    },
+    {
+      "start": 1303.86,
+      "end": 1304.86,
+      "text": "How are you going to check that?"
+    },
+    {
+      "start": 1304.86,
+      "end": 1307.22,
+      "text": "Well, you want to measure the left-hand side"
+    },
+    {
+      "start": 1307.22,
+      "end": 1308.22,
+      "text": "and you want to measure the right-hand side."
+    },
+    {
+      "start": 1308.22,
+      "end": 1312.18,
+      "text": "If they're equal maybe you would say the law is working."
+    },
+    {
+      "start": 1312.18,
+      "end": 1314.18,
+      "text": "So what can you measure"
+    },
+    {
+      "start": 1314.18,
+      "end": 1318.67,
+      "text": "in this equation?"
+    },
+    {
+      "start": 1318.67,
+      "end": 1321.08,
+      "text": "Pardon me?"
+    },
+    {
+      "start": 1321.08,
+      "end": 1322.08,
+      "text": "All right."
+    },
+    {
+      "start": 1322.08,
+      "end": 1324.46,
+      "text": "So let's start with acceleration."
+    },
+    {
+      "start": 1324.46,
+      "end": 1326.46,
+      "text": "What's your plan for measuring acceleration"
+    },
+    {
+      "start": 1326.46,
+      "end": 1328.46,
+      "text": "if some little thing is moving?"
+    },
+    {
+      "start": 1328.46,
+      "end": 1329.46,
+      "text": "How do you plan?"
+    },
+    {
+      "start": 1329.46,
+      "end": 1330.46,
+      "text": "What do you need to measure it?"
+    },
+    {
+      "start": 1330.46,
+      "end": 1334.8,
+      "text": "Right, but what instruments"
+    },
+    {
+      "start": 1334.8,
+      "end": 1335.8,
+      "text": "will you need to measure it?"
+    },
+    {
+      "start": 1335.8,
+      "end": 1337.83,
+      "text": "You are supposed to really measure it."
+    },
+    {
+      "start": 1337.83,
+      "end": 1342.52,
+      "text": "What will you ask me for?"
+    },
+    {
+      "start": 1342.52,
+      "end": 1345.35,
+      "text": "A watch? Yes."
+    },
+    {
+      "start": 1345.35,
+      "end": 1347.18,
+      "text": "And what else?"
+    },
+    {
+      "start": 1347.18,
+      "end": 1348.18,
+      "text": "A ruler."
+    },
+    {
+      "start": 1348.18,
+      "end": 1349.47,
+      "text": "Okay."
+    },
+    {
+      "start": 1349.47,
+      "end": 1350.89,
+      "text": "Or that's right."
+    },
+    {
+      "start": 1350.89,
+      "end": 1352.89,
+      "text": "I mean you don't mean Queen Elizabeth, right?"
+    },
+    {
+      "start": 1352.89,
+      "end": 1354.89,
+      "text": "You mean some law?"
+    },
+    {
+      "start": 1354.89,
+      "end": 1356.05,
+      "text": "Very good."
+    },
+    {
+      "start": 1356.05,
+      "end": 1357.05,
+      "text": "Okay."
+    },
+    {
+      "start": 1357.05,
+      "end": 1358.05,
+      "text": "So what you really want"
+    },
+    {
+      "start": 1358.05,
+      "end": 1359.05,
+      "text": "a ruler may not be enough"
+    },
+    {
+      "start": 1359.05,
+      "end": 1360.05,
+      "text": "but maybe it's enough."
+    },
+    {
+      "start": 1360.05,
+      "end": 1362.05,
+      "text": "So here's a long ruler"
+    },
+    {
+      "start": 1362.05,
+      "end": 1364.05,
+      "text": "and here's this thing moving, right?"
+    },
+    {
+      "start": 1364.05,
+      "end": 1366.14,
+      "text": "And you ask for a Rolex."
+    },
+    {
+      "start": 1366.14,
+      "end": 1368.78,
+      "text": "So here's your watch."
+    },
+    {
+      "start": 1368.78,
+      "end": 1369.78,
+      "text": "It's telling time."
+    },
+    {
+      "start": 1369.78,
+      "end": 1372.52,
+      "text": "Tell me exactly what you want to do"
+    },
+    {
+      "start": 1372.52,
+      "end": 1373.52,
+      "text": "to measure the acceleration."
+    },
+    {
+      "start": 1373.52,
+      "end": 1375.52,
+      "text": "What do you have to do?"
+    },
+    {
+      "start": 1375.52,
+      "end": 1378.22,
+      "text": "I want the acceleration now."
+    },
+    {
+      "start": 1378.22,
+      "end": 1379.22,
+      "text": "What will you measure?"
+    },
+    {
+      "start": 1379.22,
+      "end": 1383.14,
+      "text": "Okay, you go ahead."
+    },
+    {
+      "start": 1383.14,
+      "end": 1384.14,
+      "text": "Okay, you can try."
+    },
+    {
+      "start": 1384.14,
+      "end": 1399.77,
+      "text": "It may not be at rest to begin with."
+    },
+    {
+      "start": 1399.77,
+      "end": 1401.77,
+      "text": "It's doing its thing."
+    },
+    {
+      "start": 1401.77,
+      "end": 1402.77,
+      "text": "It's going at some speed."
+    },
+    {
+      "start": 1402.77,
+      "end": 1403.77,
+      "text": "It's going at some speed."
+    },
+    {
+      "start": 1403.77,
+      "end": 1408.7,
+      "text": "Yes."
+    },
+    {
+      "start": 1408.7,
+      "end": 1409.7,
+      "text": "That'll give you the velocity."
+    },
+    {
+      "start": 1409.7,
+      "end": 1418.9,
+      "text": "Good."
+    },
+    {
+      "start": 1418.9,
+      "end": 1419.9,
+      "text": "So in principle,"
+    },
+    {
+      "start": 1419.9,
+      "end": 1421.9,
+      "text": "let me repeat what he said."
+    },
+    {
+      "start": 1421.9,
+      "end": 1423.9,
+      "text": "He said first let it go a little distance."
+    },
+    {
+      "start": 1423.9,
+      "end": 1424.9,
+      "text": "Take the distance over time."
+    },
+    {
+      "start": 1424.9,
+      "end": 1426.9,
+      "text": "That gives the velocity now."
+    },
+    {
+      "start": 1426.9,
+      "end": 1427.9,
+      "text": "Let it go a little more."
+    },
+    {
+      "start": 1427.9,
+      "end": 1429.9,
+      "text": "That gives the velocity later."
+    },
+    {
+      "start": 1429.9,
+      "end": 1431.99,
+      "text": "Take the difference of the two velocities"
+    },
+    {
+      "start": 1431.99,
+      "end": 1433.99,
+      "text": "and divide by the difference of the two times"
+    },
+    {
+      "start": 1433.99,
+      "end": 1435.99,
+      "text": "and you got the acceleration."
+    },
+    {
+      "start": 1435.99,
+      "end": 1437.12,
+      "text": "Of course,"
+    },
+    {
+      "start": 1437.12,
+      "end": 1439.73,
+      "text": "you have allowed it to move a finite distance"
+    },
+    {
+      "start": 1439.73,
+      "end": 1440.73,
+      "text": "and a finite time."
+    },
+    {
+      "start": 1440.73,
+      "end": 1442.73,
+      "text": "So what you should imagine doing"
+    },
+    {
+      "start": 1442.73,
+      "end": 1444.73,
+      "text": "is making these three measurements"
+    },
+    {
+      "start": 1444.73,
+      "end": 1446.73,
+      "text": "more and more quickly."
+    },
+    {
+      "start": 1446.73,
+      "end": 1448.95,
+      "text": "You need three position measurements."
+    },
+    {
+      "start": 1448.95,
+      "end": 1449.95,
+      "text": "Now, a little later,"
+    },
+    {
+      "start": 1449.95,
+      "end": 1451.95,
+      "text": "and a little later, later."
+    },
+    {
+      "start": 1451.95,
+      "end": 1452.95,
+      "text": "Because between the first and second,"
+    },
+    {
+      "start": 1452.95,
+      "end": 1453.95,
+      "text": "you get a velocity."
+    },
+    {
+      "start": 1453.95,
+      "end": 1454.95,
+      "text": "Second and third,"
+    },
+    {
+      "start": 1454.95,
+      "end": 1455.95,
+      "text": "you get another velocity."
+    },
+    {
+      "start": 1455.95,
+      "end": 1459.24,
+      "text": "Their difference divided by the difference in times"
+    },
+    {
+      "start": 1459.24,
+      "end": 1461.24,
+      "text": "is going to be the acceleration."
+    },
+    {
+      "start": 1461.24,
+      "end": 1463.24,
+      "text": "But if you imagine making these measurements"
+    },
+    {
+      "start": 1463.24,
+      "end": 1465.88,
+      "text": "more and more and more quickly,"
+    },
+    {
+      "start": 1465.88,
+      "end": 1466.88,
+      "text": "in the end,"
+    },
+    {
+      "start": 1466.88,
+      "end": 1468.88,
+      "text": "you can measure what you can say"
+    },
+    {
+      "start": 1468.88,
+      "end": 1470.88,
+      "text": "is the acceleration now."
+    },
+    {
+      "start": 1470.88,
+      "end": 1472.88,
+      "text": "That's the meaning of the limit in calculus."
+    },
+    {
+      "start": 1472.88,
+      "end": 1474.1,
+      "text": "You take delta,"
+    },
+    {
+      "start": 1474.1,
+      "end": 1475.1,
+      "text": "you take the velocity,"
+    },
+    {
+      "start": 1475.1,
+      "end": 1477.1,
+      "text": "you take the velocity in calculus."
+    },
+    {
+      "start": 1477.1,
+      "end": 1479.1,
+      "text": "You take delta x and you take delta t."
+    },
+    {
+      "start": 1479.1,
+      "end": 1481.1,
+      "text": "What's the meaning of delta x and delta t going to zero?"
+    },
+    {
+      "start": 1481.1,
+      "end": 1483.87,
+      "text": "It means measure them as quickly as you can."
+    },
+    {
+      "start": 1483.87,
+      "end": 1484.87,
+      "text": "So in real world,"
+    },
+    {
+      "start": 1484.87,
+      "end": 1486.87,
+      "text": "no one's going to measure it instantaneously."
+    },
+    {
+      "start": 1486.87,
+      "end": 1488.87,
+      "text": "But we can make the difference as small as we like."
+    },
+    {
+      "start": 1488.87,
+      "end": 1489.87,
+      "text": "Mathematically,"
+    },
+    {
+      "start": 1489.87,
+      "end": 1491.87,
+      "text": "we can make it zero."
+    },
+    {
+      "start": 1491.87,
+      "end": 1492.87,
+      "text": "So in that limit,"
+    },
+    {
+      "start": 1492.87,
+      "end": 1495.42,
+      "text": "we can measure velocity right now."
+    },
+    {
+      "start": 1495.42,
+      "end": 1498.42,
+      "text": "That means we can also measure velocity slightly later"
+    },
+    {
+      "start": 1498.42,
+      "end": 1501.42,
+      "text": "and make the slightly later come as close to right now"
+    },
+    {
+      "start": 1501.42,
+      "end": 1502.42,
+      "text": "as we want."
+    },
+    {
+      "start": 1502.42,
+      "end": 1504.42,
+      "text": "And then that ratio will give you acceleration."
+    },
+    {
+      "start": 1504.42,
+      "end": 1506.42,
+      "text": "So acceleration is the easiest way"
+    },
+    {
+      "start": 1506.42,
+      "end": 1508.42,
+      "text": "to measure these three quantities."
+    },
+    {
+      "start": 1508.42,
+      "end": 1510.42,
+      "text": "We all have a good intuitive feeling"
+    },
+    {
+      "start": 1510.42,
+      "end": 1512.42,
+      "text": "for what acceleration is."
+    },
+    {
+      "start": 1512.42,
+      "end": 1515.42,
+      "text": "So you want to test what Newton told you is right."
+    },
+    {
+      "start": 1515.42,
+      "end": 1517.42,
+      "text": "You see an object in motion."
+    },
+    {
+      "start": 1517.42,
+      "end": 1520.42,
+      "text": "You find A and you give A a certain numerical value,"
+    },
+    {
+      "start": 1520.42,
+      "end": 1522.42,
+      "text": "10 meters per second squared."
+    },
+    {
+      "start": 1522.42,
+      "end": 1524.42,
+      "text": "But that's not yet testing the equation"
+    },
+    {
+      "start": 1524.42,
+      "end": 1527.06,
+      "text": "because you've got to find both sides."
+    },
+    {
+      "start": 1527.06,
+      "end": 1529.06,
+      "text": "So what about the mass?"
+    },
+    {
+      "start": 1529.06,
+      "end": 1531.63,
+      "text": "What's the mass of this object?"
+    },
+    {
+      "start": 1531.63,
+      "end": 1534.66,
+      "text": "Anybody want to try from this section here?"
+    },
+    {
+      "start": 1534.66,
+      "end": 1538.38,
+      "text": "Yes?"
+    },
+    {
+      "start": 1538.38,
+      "end": 1539.38,
+      "text": "Okay."
+    },
+    {
+      "start": 1539.38,
+      "end": 1554.18,
+      "text": "So you can measure the mass of this object."
+    },
+    {
+      "start": 1554.18,
+      "end": 1556.18,
+      "text": "His idea was following."
+    },
+    {
+      "start": 1556.18,
+      "end": 1559.18,
+      "text": "You take a standard mass"
+    },
+    {
+      "start": 1559.18,
+      "end": 1562.53,
+      "text": "and you maybe go to a seesaw, right?"
+    },
+    {
+      "start": 1562.53,
+      "end": 1564.53,
+      "text": "You put the standard mass here"
+    },
+    {
+      "start": 1564.53,
+      "end": 1566.53,
+      "text": "and you put some other fellow,"
+    },
+    {
+      "start": 1566.53,
+      "end": 1567.53,
+      "text": "the mass you're looking at there,"
+    },
+    {
+      "start": 1567.53,
+      "end": 1569.53,
+      "text": "and you adjust the lengths"
+    },
+    {
+      "start": 1569.53,
+      "end": 1570.53,
+      "text": "and when it balances,"
+    },
+    {
+      "start": 1570.53,
+      "end": 1572.53,
+      "text": "you can sort of tell what this mass is, right?"
+    },
+    {
+      "start": 1572.53,
+      "end": 1575.46,
+      "text": "But suppose you were in outer space."
+    },
+    {
+      "start": 1575.46,
+      "end": 1577.9,
+      "text": "There's no gravity."
+    },
+    {
+      "start": 1577.9,
+      "end": 1580.51,
+      "text": "Then the seesaw will balance"
+    },
+    {
+      "start": 1580.51,
+      "end": 1582.51,
+      "text": "even if you put a potato on one side"
+    },
+    {
+      "start": 1582.51,
+      "end": 1583.51,
+      "text": "and an elephant on the other side."
+    },
+    {
+      "start": 1583.51,
+      "end": 1584.51,
+      "text": "You cannot tell the mass"
+    },
+    {
+      "start": 1584.51,
+      "end": 1586.54,
+      "text": "because what you are doing now"
+    },
+    {
+      "start": 1586.54,
+      "end": 1589.7,
+      "text": "is appealing to the notion of mass"
+    },
+    {
+      "start": 1589.7,
+      "end": 1591.7,
+      "text": "as something that's related to the pull of the Earth"
+    },
+    {
+      "start": 1591.7,
+      "end": 1592.7,
+      "text": "on the object."
+    },
+    {
+      "start": 1592.7,
+      "end": 1593.7,
+      "text": "But Newton's laws, you see,"
+    },
+    {
+      "start": 1593.7,
+      "end": 1595.7,
+      "text": "you've got to go back"
+    },
+    {
+      "start": 1595.7,
+      "end": 1597.7,
+      "text": "and wipe out everything you know."
+    },
+    {
+      "start": 1597.7,
+      "end": 1598.7,
+      "text": "If this is what you have,"
+    },
+    {
+      "start": 1598.7,
+      "end": 1600.7,
+      "text": "there is no mention of the Earth in these equations."
+    },
+    {
+      "start": 1600.7,
+      "end": 1603.15,
+      "text": "And yet the notion of mass is defined."
+    },
+    {
+      "start": 1603.15,
+      "end": 1605.15,
+      "text": "It's not talking about"
+    },
+    {
+      "start": 1605.15,
+      "end": 1608.15,
+      "text": "the gravitational pull of the Earth on an object."
+    },
+    {
+      "start": 1608.15,
+      "end": 1620.9,
+      "text": "Yes."
+    },
+    {
+      "start": 1620.9,
+      "end": 1622.9,
+      "text": "But do you know what the force on the body is?"
+    },
+    {
+      "start": 1622.9,
+      "end": 1626.14,
+      "text": "We don't have to measure that either."
+    },
+    {
+      "start": 1626.14,
+      "end": 1627.14,
+      "text": "Do you agree?"
+    },
+    {
+      "start": 1627.14,
+      "end": 1628.14,
+      "text": "We don't know what the force is"
+    },
+    {
+      "start": 1628.14,
+      "end": 1629.14,
+      "text": "because we are hoping to say"
+    },
+    {
+      "start": 1629.14,
+      "end": 1630.14,
+      "text": "force is going to be m times a."
+    },
+    {
+      "start": 1630.14,
+      "end": 1632.14,
+      "text": "We're just getting around to measuring m."
+    },
+    {
+      "start": 1632.14,
+      "end": 1635.14,
+      "text": "It looks like a circular definition right now."
+    },
+    {
+      "start": 1635.14,
+      "end": 1636.21,
+      "text": "Yes."
+    },
+    {
+      "start": 1636.21,
+      "end": 1646.18,
+      "text": "But density is mass over volume."
+    },
+    {
+      "start": 1646.18,
+      "end": 1649.46,
+      "text": "But we don't know the mass."
+    },
+    {
+      "start": 1649.46,
+      "end": 1651.94,
+      "text": "Right?"
+    },
+    {
+      "start": 1651.94,
+      "end": 1654.94,
+      "text": "How is anyone going to give you the density of anything?"
+    },
+    {
+      "start": 1654.94,
+      "end": 1655.94,
+      "text": "We're just asking,"
+    },
+    {
+      "start": 1655.94,
+      "end": 1657.94,
+      "text": "what's the mass of any object?"
+    },
+    {
+      "start": 1657.94,
+      "end": 1659.94,
+      "text": "We have not yet found a satisfactory answer"
+    },
+    {
+      "start": 1659.94,
+      "end": 1661.94,
+      "text": "to what's the mass of an object."
+    },
+    {
+      "start": 1661.94,
+      "end": 1662.97,
+      "text": "Yes."
+    },
+    {
+      "start": 1662.97,
+      "end": 1666.14,
+      "text": "Yes."
+    },
+    {
+      "start": 1666.14,
+      "end": 1668.14,
+      "text": "This cannot depend on the planet Earth."
+    },
+    {
+      "start": 1668.14,
+      "end": 1673.56,
+      "text": "Yes?"
+    },
+    {
+      "start": 1673.56,
+      "end": 1677.47,
+      "text": "I'm sorry."
+    },
+    {
+      "start": 1677.47,
+      "end": 1678.47,
+      "text": "What did you just say?"
+    },
+    {
+      "start": 1678.47,
+      "end": 1680.21,
+      "text": "You can have a spring."
+    },
+    {
+      "start": 1680.21,
+      "end": 1681.21,
+      "text": "Yes."
+    },
+    {
+      "start": 1681.21,
+      "end": 1693.89,
+      "text": "You can have a spring."
+    },
+    {
+      "start": 1693.89,
+      "end": 1694.89,
+      "text": "Let me repeat what he said."
+    },
+    {
+      "start": 1694.89,
+      "end": 1695.89,
+      "text": "He said,"
+    },
+    {
+      "start": 1695.89,
+      "end": 1696.89,
+      "text": "take a spring to outer space"
+    },
+    {
+      "start": 1696.89,
+      "end": 1698.89,
+      "text": "and hook up some objects to them"
+    },
+    {
+      "start": 1698.89,
+      "end": 1700.89,
+      "text": "and see how fast they move"
+    },
+    {
+      "start": 1700.89,
+      "end": 1701.89,
+      "text": "and do a comparison."
+    },
+    {
+      "start": 1701.89,
+      "end": 1704.92,
+      "text": "That's fairly close to what I had in mind."
+    },
+    {
+      "start": 1704.92,
+      "end": 1708.92,
+      "text": "But it's not the word perfect answer."
+    },
+    {
+      "start": 1708.92,
+      "end": 1710.92,
+      "text": "And I just want to take some time thinking about,"
+    },
+    {
+      "start": 1710.92,
+      "end": 1717.28,
+      "text": "yes, what do I learn from the period?"
+    },
+    {
+      "start": 1717.28,
+      "end": 1718.82,
+      "text": "How?"
+    },
+    {
+      "start": 1718.82,
+      "end": 1730.29,
+      "text": "Remember, you cannot peek into chapter six and seven"
+    },
+    {
+      "start": 1730.29,
+      "end": 1731.29,
+      "text": "because you've seen it before."
+    },
+    {
+      "start": 1731.29,
+      "end": 1732.29,
+      "text": "I'm asking you,"
+    },
+    {
+      "start": 1732.29,
+      "end": 1735.38,
+      "text": "if somebody wrote, apparently,"
+    },
+    {
+      "start": 1735.38,
+      "end": 1736.38,
+      "text": "Shakespeare's place for it."
+    },
+    {
+      "start": 1736.38,
+      "end": 1737.38,
+      "text": "It's one of the rumors, right?"
+    },
+    {
+      "start": 1737.38,
+      "end": 1739.38,
+      "text": "Suppose Newton comes to you and says,"
+    },
+    {
+      "start": 1739.38,
+      "end": 1741.45,
+      "text": "I have this great law,"
+    },
+    {
+      "start": 1741.45,
+      "end": 1743.45,
+      "text": "but I don't want to publish it under my name."
+    },
+    {
+      "start": 1743.45,
+      "end": 1745.45,
+      "text": "So I'm going to give it to you."
+    },
+    {
+      "start": 1745.45,
+      "end": 1747.45,
+      "text": "And you have got this new law,"
+    },
+    {
+      "start": 1747.45,
+      "end": 1749.45,
+      "text": "but how are you going to sell this?"
+    },
+    {
+      "start": 1749.45,
+      "end": 1751.45,
+      "text": "You've got to tell people how to use it."
+    },
+    {
+      "start": 1751.45,
+      "end": 1752.45,
+      "text": "And you realize it's very subtle"
+    },
+    {
+      "start": 1752.45,
+      "end": 1755.45,
+      "text": "because the very first thing in that equation,"
+    },
+    {
+      "start": 1755.45,
+      "end": 1756.45,
+      "text": "which is M,"
+    },
+    {
+      "start": 1756.45,
+      "end": 1758.9,
+      "text": "is not yet being defined."
+    },
+    {
+      "start": 1758.9,
+      "end": 1759.9,
+      "text": "And he gave an answer,"
+    },
+    {
+      "start": 1759.9,
+      "end": 1761.9,
+      "text": "which is fairly close."
+    },
+    {
+      "start": 1761.9,
+      "end": 1762.9,
+      "text": "It doesn't rely on gravity."
+    },
+    {
+      "start": 1762.9,
+      "end": 1765.34,
+      "text": "It doesn't rely on the planet."
+    },
+    {
+      "start": 1765.34,
+      "end": 1766.34,
+      "text": "Now, you cannot say to me,"
+    },
+    {
+      "start": 1766.34,
+      "end": 1768.34,
+      "text": "take a force due to a spring"
+    },
+    {
+      "start": 1768.34,
+      "end": 1769.34,
+      "text": "and see what force it applies"
+    },
+    {
+      "start": 1769.34,
+      "end": 1771.34,
+      "text": "and divide by the acceleration to get the mass"
+    },
+    {
+      "start": 1771.34,
+      "end": 1773.34,
+      "text": "because we haven't defined force either."
+    },
+    {
+      "start": 1773.34,
+      "end": 1774.34,
+      "text": "You've got to realize that."
+    },
+    {
+      "start": 1774.34,
+      "end": 1777.26,
+      "text": "Let me ask you something."
+    },
+    {
+      "start": 1777.26,
+      "end": 1779.26,
+      "text": "How do we decide how long a meter is?"
+    },
+    {
+      "start": 1779.26,
+      "end": 1782.26,
+      "text": "Can you tell me how do we know how long a meter is?"
+    },
+    {
+      "start": 1782.26,
+      "end": 1784.67,
+      "text": "Right."
+    },
+    {
+      "start": 1784.67,
+      "end": 1790.09,
+      "text": "We will call it."
+    },
+    {
+      "start": 1790.09,
+      "end": 1792.09,
+      "text": "First thing you've got to do is that"
+    },
+    {
+      "start": 1792.09,
+      "end": 1795.57,
+      "text": "some of these things are not God-given."
+    },
+    {
+      "start": 1795.57,
+      "end": 1796.57,
+      "text": "A meter, for example,"
+    },
+    {
+      "start": 1796.57,
+      "end": 1798.57,
+      "text": "is not deduced from anything."
+    },
+    {
+      "start": 1798.57,
+      "end": 1799.57,
+      "text": "Napoleon or somebody said,"
+    },
+    {
+      "start": 1799.57,
+      "end": 1801.57,
+      "text": "the size of my ego is one meter."
+    },
+    {
+      "start": 1801.57,
+      "end": 1802.57,
+      "text": "That's it."
+    },
+    {
+      "start": 1802.57,
+      "end": 1803.57,
+      "text": "That's a new unit of length."
+    },
+    {
+      "start": 1803.57,
+      "end": 1804.57,
+      "text": "You take a material like silver,"
+    },
+    {
+      "start": 1804.57,
+      "end": 1806.57,
+      "text": "you put it in a glass case,"
+    },
+    {
+      "start": 1806.57,
+      "end": 1807.57,
+      "text": "and that's a meter."
+    },
+    {
+      "start": 1807.57,
+      "end": 1808.57,
+      "text": "And that's the definition of a meter."
+    },
+    {
+      "start": 1808.57,
+      "end": 1810.57,
+      "text": "That's not right or wrong."
+    },
+    {
+      "start": 1810.57,
+      "end": 1811.92,
+      "text": "Then I ask you,"
+    },
+    {
+      "start": 1811.92,
+      "end": 1813.92,
+      "text": "what is two meters and what is three meters?"
+    },
+    {
+      "start": 1813.92,
+      "end": 1815.92,
+      "text": "We have ways of doing that, right?"
+    },
+    {
+      "start": 1815.92,
+      "end": 1817.92,
+      "text": "Take the meter and put it next to the meter."
+    },
+    {
+      "start": 1817.92,
+      "end": 1818.92,
+      "text": "That's two meters."
+    },
+    {
+      "start": 1818.92,
+      "end": 1819.92,
+      "text": "I cut it in half."
+    },
+    {
+      "start": 1819.92,
+      "end": 1822.02,
+      "text": "I use some protractors and dividers and compasses."
+    },
+    {
+      "start": 1822.02,
+      "end": 1825.02,
+      "text": "You can split the meter into any fraction you like."
+    },
+    {
+      "start": 1825.02,
+      "end": 1827.02,
+      "text": "Likewise, for mass,"
+    },
+    {
+      "start": 1827.02,
+      "end": 1829.37,
+      "text": "we will take a chunk of some energy"
+    },
+    {
+      "start": 1829.37,
+      "end": 1830.37,
+      "text": "and some material,"
+    },
+    {
+      "start": 1830.37,
+      "end": 1832.37,
+      "text": "and we will call it a kilogram."
+    },
+    {
+      "start": 1832.37,
+      "end": 1834.5,
+      "text": "I should give you some hint."
+    },
+    {
+      "start": 1834.5,
+      "end": 1835.5,
+      "text": "That kilogram,"
+    },
+    {
+      "start": 1835.5,
+      "end": 1836.5,
+      "text": "I don't expect you to deduce."
+    },
+    {
+      "start": 1836.5,
+      "end": 1838.5,
+      "text": "That is a matter of convention."
+    },
+    {
+      "start": 1838.5,
+      "end": 1841.75,
+      "text": "Just like one second is some convention we use,"
+    },
+    {
+      "start": 1841.75,
+      "end": 1843.75,
+      "text": "and one meter is some convention we use."
+    },
+    {
+      "start": 1843.75,
+      "end": 1845.75,
+      "text": "I'm going to give you a little help."
+    },
+    {
+      "start": 1845.75,
+      "end": 1847.75,
+      "text": "I'm going to give you a glass case,"
+    },
+    {
+      "start": 1847.75,
+      "end": 1849.75,
+      "text": "and the glass case is an entity"
+    },
+    {
+      "start": 1849.75,
+      "end": 1852.75,
+      "text": "which is one kilogram by definition."
+    },
+    {
+      "start": 1852.75,
+      "end": 1856.87,
+      "text": "Then I give you another object,"
+    },
+    {
+      "start": 1856.87,
+      "end": 1857.87,
+      "text": "elephants."
+    },
+    {
+      "start": 1857.87,
+      "end": 1860.03,
+      "text": "Here's an elephant."
+    },
+    {
+      "start": 1860.03,
+      "end": 1861.03,
+      "text": "I'm telling you,"
+    },
+    {
+      "start": 1861.03,
+      "end": 1864.12,
+      "text": "I'm going to give you a glass of the elephant."
+    },
+    {
+      "start": 1864.12,
+      "end": 1865.98,
+      "text": "How do you find its mass?"
+    },
+    {
+      "start": 1865.98,
+      "end": 1867.98,
+      "text": "You got to take the hint he gave."
+    },
+    {
+      "start": 1867.98,
+      "end": 1873.48,
+      "text": "I give you a spring and an elephant."
+    },
+    {
+      "start": 1873.48,
+      "end": 1874.48,
+      "text": "What should we do?"
+    },
+    {
+      "start": 1874.48,
+      "end": 1875.96,
+      "text": "Yes?"
+    },
+    {
+      "start": 1875.96,
+      "end": 1879.52,
+      "text": "No."
+    },
+    {
+      "start": 1879.52,
+      "end": 1880.52,
+      "text": "Remember,"
+    },
+    {
+      "start": 1880.52,
+      "end": 1882.52,
+      "text": "when we hang the elephant in outer space,"
+    },
+    {
+      "start": 1882.52,
+      "end": 1884.58,
+      "text": "nothing's going to happen."
+    },
+    {
+      "start": 1884.58,
+      "end": 1898.1,
+      "text": "Right."
+    },
+    {
+      "start": 1898.1,
+      "end": 1909.5,
+      "text": "Okay."
+    },
+    {
+      "start": 1909.5,
+      "end": 1910.5,
+      "text": "When you say push the elephant,"
+    },
+    {
+      "start": 1910.5,
+      "end": 1912.5,
+      "text": "you want to push it a particular way?"
+    },
+    {
+      "start": 1912.5,
+      "end": 1917.7,
+      "text": "Or what do you want to do?"
+    },
+    {
+      "start": 1917.7,
+      "end": 1918.7,
+      "text": "That is correct,"
+    },
+    {
+      "start": 1918.7,
+      "end": 1920.7,
+      "text": "but you don't want to give it a definite push."
+    },
+    {
+      "start": 1920.7,
+      "end": 1931.74,
+      "text": "Yes?"
+    },
+    {
+      "start": 1931.74,
+      "end": 1934.22,
+      "text": "Yeah."
+    },
+    {
+      "start": 1934.22,
+      "end": 1935.22,
+      "text": "Or maybe,"
+    },
+    {
+      "start": 1935.22,
+      "end": 1936.22,
+      "text": "that's an interesting thing,"
+    },
+    {
+      "start": 1936.22,
+      "end": 1937.22,
+      "text": "but that's correct."
+    },
+    {
+      "start": 1937.22,
+      "end": 1938.22,
+      "text": "You can do that too,"
+    },
+    {
+      "start": 1938.22,
+      "end": 1942.22,
+      "text": "but let me now put you out of your suspense."
+    },
+    {
+      "start": 1942.22,
+      "end": 1944.22,
+      "text": "I think I've heard bits and pieces of the answer everywhere,"
+    },
+    {
+      "start": 1944.22,
+      "end": 1947.22,
+      "text": "so I don't want to wait till we get it word perfect."
+    },
+    {
+      "start": 1947.22,
+      "end": 1949.7,
+      "text": "The point is,"
+    },
+    {
+      "start": 1949.7,
+      "end": 1951.7,
+      "text": "the one kilogram is a matter of convention."
+    },
+    {
+      "start": 1951.7,
+      "end": 1956.18,
+      "text": "We want to know what is the mass of the elephant."
+    },
+    {
+      "start": 1956.18,
+      "end": 1958.18,
+      "text": "We can do the seesaw experiment you suggested,"
+    },
+    {
+      "start": 1958.18,
+      "end": 1960.18,
+      "text": "but the seesaw experiment requires gravity."
+    },
+    {
+      "start": 1960.18,
+      "end": 1962.3,
+      "text": "We don't want to do that."
+    },
+    {
+      "start": 1962.3,
+      "end": 1964.3,
+      "text": "A spring will, on the other hand,"
+    },
+    {
+      "start": 1964.3,
+      "end": 1965.3,
+      "text": "exert a force."
+    },
+    {
+      "start": 1965.3,
+      "end": 1967.3,
+      "text": "We don't know what the force of a spring is."
+    },
+    {
+      "start": 1967.3,
+      "end": 1968.3,
+      "text": "If you assume that,"
+    },
+    {
+      "start": 1968.3,
+      "end": 1969.3,
+      "text": "you're not playing by the rule,"
+    },
+    {
+      "start": 1969.3,
+      "end": 1971.3,
+      "text": "because we don't know what force it exerts."
+    },
+    {
+      "start": 1971.3,
+      "end": 1973.3,
+      "text": "But we do know it exerts a force."
+    },
+    {
+      "start": 1973.3,
+      "end": 1974.3,
+      "text": "So here's what you do."
+    },
+    {
+      "start": 1974.3,
+      "end": 1977.5,
+      "text": "You hook one end of the spring to a wall,"
+    },
+    {
+      "start": 1977.5,
+      "end": 1980.53,
+      "text": "and you pull it from rest by some amount,"
+    },
+    {
+      "start": 1980.53,
+      "end": 1984.14,
+      "text": "and you attach the one kilogram mass to it."
+    },
+    {
+      "start": 1984.14,
+      "end": 1986.16,
+      "text": "Yes?"
+    },
+    {
+      "start": 1986.16,
+      "end": 1995.01,
+      "text": "A wall that will not move?"
+    },
+    {
+      "start": 1995.01,
+      "end": 2000.55,
+      "text": "No."
+    },
+    {
+      "start": 2000.55,
+      "end": 2001.62,
+      "text": "Well,"
+    },
+    {
+      "start": 2001.62,
+      "end": 2002.62,
+      "text": "no, no, you're right."
+    },
+    {
+      "start": 2002.62,
+      "end": 2003.62,
+      "text": "What can actually happen"
+    },
+    {
+      "start": 2003.62,
+      "end": 2006.62,
+      "text": "is that if you're in an enormous laboratory,"
+    },
+    {
+      "start": 2006.62,
+      "end": 2008.97,
+      "text": "which is made up of an enormous amount of material,"
+    },
+    {
+      "start": 2008.97,
+      "end": 2010.97,
+      "text": "and you're in an enormous object,"
+    },
+    {
+      "start": 2010.97,
+      "end": 2011.97,
+      "text": "then you will find that you can,"
+    },
+    {
+      "start": 2011.97,
+      "end": 2013.97,
+      "text": "in fact, attach it to the wall."
+    },
+    {
+      "start": 2013.97,
+      "end": 2014.97,
+      "text": "You can go to outer space."
+    },
+    {
+      "start": 2014.97,
+      "end": 2016.97,
+      "text": "No, it won't move very much."
+    },
+    {
+      "start": 2016.97,
+      "end": 2017.97,
+      "text": "And once we know enough dynamics,"
+    },
+    {
+      "start": 2017.97,
+      "end": 2019.97,
+      "text": "we can answer your question."
+    },
+    {
+      "start": 2019.97,
+      "end": 2021.97,
+      "text": "Does outer space even rob you of something"
+    },
+    {
+      "start": 2021.97,
+      "end": 2023.97,
+      "text": "to which you can anchor the spring?"
+    },
+    {
+      "start": 2023.97,
+      "end": 2024.97,
+      "text": "Answer is no."
+    },
+    {
+      "start": 2024.97,
+      "end": 2029.06,
+      "text": "You can anchor things to objects in outer space."
+    },
+    {
+      "start": 2029.06,
+      "end": 2031.06,
+      "text": "They just won't act the way gravity does."
+    },
+    {
+      "start": 2031.06,
+      "end": 2034.1,
+      "text": "But you can nail it to the wall and pull one end."
+    },
+    {
+      "start": 2034.1,
+      "end": 2035.1,
+      "text": "So you pull one end."
+    },
+    {
+      "start": 2035.1,
+      "end": 2037.1,
+      "text": "We don't know what force it exerts,"
+    },
+    {
+      "start": 2037.1,
+      "end": 2039.1,
+      "text": "but it exerts some force."
+    },
+    {
+      "start": 2039.1,
+      "end": 2042.29,
+      "text": "Now, I tie this one kilogram mass to it."
+    },
+    {
+      "start": 2042.29,
+      "end": 2043.38,
+      "text": "I let it go,"
+    },
+    {
+      "start": 2043.38,
+      "end": 2045.38,
+      "text": "and I find the acceleration."
+    },
+    {
+      "start": 2045.38,
+      "end": 2046.38,
+      "text": "That is the force,"
+    },
+    {
+      "start": 2046.38,
+      "end": 2048.38,
+      "text": "which I do not know in magnitude."
+    },
+    {
+      "start": 2048.38,
+      "end": 2049.77,
+      "text": "Okay?"
+    },
+    {
+      "start": 2049.77,
+      "end": 2054.83,
+      "text": "But this is the acceleration of the one kilogram mass."
+    },
+    {
+      "start": 2054.83,
+      "end": 2059.1,
+      "text": "Then I bring the elephants,"
+    },
+    {
+      "start": 2059.1,
+      "end": 2062.2,
+      "text": "and I pull the spring by the same amount,"
+    },
+    {
+      "start": 2062.2,
+      "end": 2064.2,
+      "text": "and I find the acceleration of the elephants."
+    },
+    {
+      "start": 2064.2,
+      "end": 2068.2,
+      "text": "And the denominator is obviously the mass of the elephant."
+    },
+    {
+      "start": 2068.2,
+      "end": 2071.86,
+      "text": "The force is not known,"
+    },
+    {
+      "start": 2071.86,
+      "end": 2072.86,
+      "text": "but it's the same force."
+    },
+    {
+      "start": 2072.86,
+      "end": 2076.09,
+      "text": "So when I divide these two numbers,"
+    },
+    {
+      "start": 2076.09,
+      "end": 2083.09,
+      "text": "I'm going to find A1 over AE is equal to ME over M,"
+    },
+    {
+      "start": 2083.09,
+      "end": 2090.28,
+      "text": "which is the one kilogram mass."
+    },
+    {
+      "start": 2090.28,
+      "end": 2092.28,
+      "text": "So what we needed was some mechanism"
+    },
+    {
+      "start": 2092.28,
+      "end": 2095.57,
+      "text": "of exerting some fixed force."
+    },
+    {
+      "start": 2095.57,
+      "end": 2097.57,
+      "text": "We didn't have to know its magnitude."
+    },
+    {
+      "start": 2097.57,
+      "end": 2101.3,
+      "text": "But the acceleration it produces on the elephant"
+    },
+    {
+      "start": 2101.3,
+      "end": 2106.3,
+      "text": "and on the mass are in the inverse ratio of their masses."
+    },
+    {
+      "start": 2106.3,
+      "end": 2108.3,
+      "text": "So if you knew this was one kilogram,"
+    },
+    {
+      "start": 2108.3,
+      "end": 2110.3,
+      "text": "then the acceleration of the elephant,"
+    },
+    {
+      "start": 2110.3,
+      "end": 2111.3,
+      "text": "which would be some tiny number,"
+    },
+    {
+      "start": 2111.3,
+      "end": 2113.3,
+      "text": "maybe one hundredth of what this guy did,"
+    },
+    {
+      "start": 2113.3,
+      "end": 2115.3,
+      "text": "the mass of the elephant is 100 kilograms."
+    },
+    {
+      "start": 2115.3,
+      "end": 2120.28,
+      "text": "Now there are again subtleties even here."
+    },
+    {
+      "start": 2120.28,
+      "end": 2121.28,
+      "text": "If you think harder,"
+    },
+    {
+      "start": 2121.28,
+      "end": 2123.28,
+      "text": "you can get worried about other things."
+    },
+    {
+      "start": 2123.28,
+      "end": 2124.28,
+      "text": "For example,"
+    },
+    {
+      "start": 2124.28,
+      "end": 2126.28,
+      "text": "how do I know that when I pull the spring the first time"
+    },
+    {
+      "start": 2126.28,
+      "end": 2127.34,
+      "text": "for the mass,"
+    },
+    {
+      "start": 2127.34,
+      "end": 2129.38,
+      "text": "it exerted the same force"
+    },
+    {
+      "start": 2129.38,
+      "end": 2132.38,
+      "text": "when I pulled the spring the second time for the elephant?"
+    },
+    {
+      "start": 2132.38,
+      "end": 2134.05,
+      "text": "After all, springs wear out."
+    },
+    {
+      "start": 2134.05,
+      "end": 2137.05,
+      "text": "That's why you change your shock absorbers in your car."
+    },
+    {
+      "start": 2137.05,
+      "end": 2139.05,
+      "text": "After a while, they don't do the same thing."
+    },
+    {
+      "start": 2139.05,
+      "end": 2140.3,
+      "text": "So first we've got to make sure"
+    },
+    {
+      "start": 2140.3,
+      "end": 2142.3,
+      "text": "the spring exerts the fixed force."
+    },
+    {
+      "start": 2142.3,
+      "end": 2144.88,
+      "text": "So the spring exerts the fixed force every time."
+    },
+    {
+      "start": 2144.88,
+      "end": 2145.88,
+      "text": "You can say,"
+    },
+    {
+      "start": 2145.88,
+      "end": 2146.88,
+      "text": "how am I going to check that?"
+    },
+    {
+      "start": 2146.88,
+      "end": 2147.88,
+      "text": "I don't have the definition of force yet."
+    },
+    {
+      "start": 2147.88,
+      "end": 2149.88,
+      "text": "But we do know the following."
+    },
+    {
+      "start": 2149.88,
+      "end": 2153.23,
+      "text": "If I pull the one kilogram mass and I let it go,"
+    },
+    {
+      "start": 2153.23,
+      "end": 2155.23,
+      "text": "it does something, some acceleration."
+    },
+    {
+      "start": 2155.23,
+      "end": 2157.23,
+      "text": "Then I pull it again by the same amount and let it go."
+    },
+    {
+      "start": 2157.23,
+      "end": 2158.23,
+      "text": "I do it ten times."
+    },
+    {
+      "start": 2158.23,
+      "end": 2161.23,
+      "text": "If every time I get the same acceleration,"
+    },
+    {
+      "start": 2161.23,
+      "end": 2163.23,
+      "text": "I'm convinced this is a reliable spring"
+    },
+    {
+      "start": 2163.23,
+      "end": 2166.23,
+      "text": "that is somehow producing the same force"
+    },
+    {
+      "start": 2166.23,
+      "end": 2168.23,
+      "text": "under the same condition."
+    },
+    {
+      "start": 2168.23,
+      "end": 2169.23,
+      "text": "On the eleventh time,"
+    },
+    {
+      "start": 2169.23,
+      "end": 2171.3,
+      "text": "I pull the mass out and put the elephant in."
+    },
+    {
+      "start": 2171.3,
+      "end": 2172.3,
+      "text": "I have some degree of confidence."
+    },
+    {
+      "start": 2172.3,
+      "end": 2173.3,
+      "text": "I'm working with reliability."
+    },
+    {
+      "start": 2173.3,
+      "end": 2175.3,
+      "text": "I'm going to get the mass of the elephant."
+    },
+    {
+      "start": 2175.3,
+      "end": 2177.06,
+      "text": "Why is it so important?"
+    },
+    {
+      "start": 2177.06,
+      "end": 2179.06,
+      "text": "It's important for you guys to know"
+    },
+    {
+      "start": 2179.06,
+      "end": 2181.06,
+      "text": "that everything you write down on the notebook"
+    },
+    {
+      "start": 2181.06,
+      "end": 2183.06,
+      "text": "or blackboard as a symbol"
+    },
+    {
+      "start": 2183.06,
+      "end": 2185.06,
+      "text": "is actually a measured quantity."
+    },
+    {
+      "start": 2185.06,
+      "end": 2187.32,
+      "text": "And you should know at all times"
+    },
+    {
+      "start": 2187.32,
+      "end": 2188.32,
+      "text": "how you will measure anything."
+    },
+    {
+      "start": 2188.32,
+      "end": 2190.51,
+      "text": "If you don't know how to measure anything,"
+    },
+    {
+      "start": 2190.51,
+      "end": 2192.51,
+      "text": "you are doing algebra or trigonometry."
+    },
+    {
+      "start": 2192.51,
+      "end": 2193.51,
+      "text": "You are not doing physics."
+    },
+    {
+      "start": 2193.51,
+      "end": 2195.54,
+      "text": "So this also tells you"
+    },
+    {
+      "start": 2195.54,
+      "end": 2197.54,
+      "text": "that the mass of an object"
+    },
+    {
+      "start": 2197.54,
+      "end": 2199.54,
+      "text": "has nothing to do with gravitation."
+    },
+    {
+      "start": 2199.54,
+      "end": 2200.7,
+      "text": "The mass of an object"
+    },
+    {
+      "start": 2200.7,
+      "end": 2202.7,
+      "text": "is how much it hates to accelerate"
+    },
+    {
+      "start": 2202.7,
+      "end": 2203.7,
+      "text": "in response to a force."
+    },
+    {
+      "start": 2203.7,
+      "end": 2205.8,
+      "text": "Newton tells you"
+    },
+    {
+      "start": 2205.8,
+      "end": 2207.8,
+      "text": "forces cause acceleration."
+    },
+    {
+      "start": 2207.8,
+      "end": 2209.93,
+      "text": "But that acceleration is not the same"
+    },
+    {
+      "start": 2209.93,
+      "end": 2210.93,
+      "text": "on different objects."
+    },
+    {
+      "start": 2210.93,
+      "end": 2212.93,
+      "text": "Certain objects resisted more than others."
+    },
+    {
+      "start": 2212.93,
+      "end": 2214.93,
+      "text": "They are said to have a bigger mass."
+    },
+    {
+      "start": 2214.93,
+      "end": 2217.31,
+      "text": "And we can be precise about how much bigger"
+    },
+    {
+      "start": 2217.31,
+      "end": 2220.34,
+      "text": "by saying if the acceleration of a body"
+    },
+    {
+      "start": 2220.34,
+      "end": 2223.34,
+      "text": "to a given force is ten times that"
+    },
+    {
+      "start": 2223.34,
+      "end": 2225.34,
+      "text": "of a one kilogram mass,"
+    },
+    {
+      "start": 2225.34,
+      "end": 2228.34,
+      "text": "then its mass is then one tenth of one kilogram."
+    },
+    {
+      "start": 2228.34,
+      "end": 2232.14,
+      "text": "This is how masses can be tabulated"
+    },
+    {
+      "start": 2232.14,
+      "end": 2233.14,
+      "text": "using a spring."
+    },
+    {
+      "start": 2233.14,
+      "end": 2234.14,
+      "text": "So imagine then"
+    },
+    {
+      "start": 2234.14,
+      "end": 2236.14,
+      "text": "from now on"
+    },
+    {
+      "start": 2236.14,
+      "end": 2238.18,
+      "text": "we can find the mass of any object."
+    },
+    {
+      "start": 2238.18,
+      "end": 2239.18,
+      "text": "Right?"
+    },
+    {
+      "start": 2239.18,
+      "end": 2240.18,
+      "text": "We know now with the same spring"
+    },
+    {
+      "start": 2240.18,
+      "end": 2242.18,
+      "text": "by this comparison we'll find."
+    },
+    {
+      "start": 2242.18,
+      "end": 2247.1,
+      "text": "So all objects now can be attributed a mass."
+    },
+    {
+      "start": 2247.1,
+      "end": 2250.1,
+      "text": "Then we may from this equation say"
+    },
+    {
+      "start": 2250.1,
+      "end": 2252.1,
+      "text": "a certain force is acting"
+    },
+    {
+      "start": 2252.1,
+      "end": 2254.1,
+      "text": "in a given situation"
+    },
+    {
+      "start": 2254.1,
+      "end": 2257.29,
+      "text": "by multiplying the m times the a."
+    },
+    {
+      "start": 2257.29,
+      "end": 2261.34,
+      "text": "But then here is what we actually do."
+    },
+    {
+      "start": 2261.34,
+      "end": 2264.66,
+      "text": "Now we go back to the spring."
+    },
+    {
+      "start": 2264.66,
+      "end": 2265.66,
+      "text": "We go back to the spring"
+    },
+    {
+      "start": 2265.66,
+      "end": 2267.66,
+      "text": "and we want to learn something about the spring."
+    },
+    {
+      "start": 2268.78,
+      "end": 2270.78,
+      "text": "We want to know how much force it exerts"
+    },
+    {
+      "start": 2270.78,
+      "end": 2273.36,
+      "text": "when I pull it by a certain amount."
+    },
+    {
+      "start": 2273.36,
+      "end": 2274.36,
+      "text": "Now I can measure that"
+    },
+    {
+      "start": 2274.36,
+      "end": 2276.36,
+      "text": "because I pull it by one centimeter"
+    },
+    {
+      "start": 2276.36,
+      "end": 2279.74,
+      "text": "and I find the acceleration it exerts"
+    },
+    {
+      "start": 2279.74,
+      "end": 2281.74,
+      "text": "on a known mass that m times a"
+    },
+    {
+      "start": 2281.74,
+      "end": 2283.74,
+      "text": "is the force the spring is exerting."
+    },
+    {
+      "start": 2283.74,
+      "end": 2285.74,
+      "text": "Then I pull it by 1.1 centimeter"
+    },
+    {
+      "start": 2285.74,
+      "end": 2286.74,
+      "text": "and I find m a."
+    },
+    {
+      "start": 2286.74,
+      "end": 2287.74,
+      "text": "I find 1.2."
+    },
+    {
+      "start": 2287.74,
+      "end": 2288.74,
+      "text": "I find m a."
+    },
+    {
+      "start": 2288.74,
+      "end": 2290.9,
+      "text": "I draw a graph here"
+    },
+    {
+      "start": 2290.9,
+      "end": 2293.9,
+      "text": "of the amount by which I pull the spring"
+    },
+    {
+      "start": 2293.9,
+      "end": 2298.95,
+      "text": "versus the force it exerts."
+    },
+    {
+      "start": 2298.95,
+      "end": 2301.95,
+      "text": "And it will typically look like this."
+    },
+    {
+      "start": 2301.95,
+      "end": 2303.95,
+      "text": "And the formula we say is"
+    },
+    {
+      "start": 2303.95,
+      "end": 2305.95,
+      "text": "F equals minus kx"
+    },
+    {
+      "start": 2305.95,
+      "end": 2307.95,
+      "text": "where k is called the force constant."
+    },
+    {
+      "start": 2307.95,
+      "end": 2316.06,
+      "text": "You've got to understand"
+    },
+    {
+      "start": 2316.06,
+      "end": 2318.06,
+      "text": "what the minus sign is doing here."
+    },
+    {
+      "start": 2318.06,
+      "end": 2321.66,
+      "text": "This is the force exerted by the spring"
+    },
+    {
+      "start": 2321.66,
+      "end": 2322.66,
+      "text": "on the mass."
+    },
+    {
+      "start": 2322.66,
+      "end": 2325.08,
+      "text": "It says if you pull it to the right"
+    },
+    {
+      "start": 2325.08,
+      "end": 2327.08,
+      "text": "so that x is positive"
+    },
+    {
+      "start": 2327.08,
+      "end": 2328.08,
+      "text": "the spring will exert a force"
+    },
+    {
+      "start": 2328.08,
+      "end": 2330.08,
+      "text": "which is in the negative direction."
+    },
+    {
+      "start": 2330.08,
+      "end": 2333.1,
+      "text": "That's why you have a minus sign."
+    },
+    {
+      "start": 2333.1,
+      "end": 2336.1,
+      "text": "And then all springs will do something like this."
+    },
+    {
+      "start": 2336.1,
+      "end": 2338.1,
+      "text": "Further out they can do various things."
+    },
+    {
+      "start": 2338.1,
+      "end": 2340.1,
+      "text": "The force may taper off."
+    },
+    {
+      "start": 2340.1,
+      "end": 2342.1,
+      "text": "The force may not be given by a straight line."
+    },
+    {
+      "start": 2342.1,
+      "end": 2344.1,
+      "text": "But for modest deformations"
+    },
+    {
+      "start": 2344.1,
+      "end": 2346.1,
+      "text": "every spring will have a linear regime"
+    },
+    {
+      "start": 2346.1,
+      "end": 2348.1,
+      "text": "in which the force is linearly proportional"
+    },
+    {
+      "start": 2348.1,
+      "end": 2350.1,
+      "text": "to the stretching."
+    },
+    {
+      "start": 2350.1,
+      "end": 2352.1,
+      "text": "It also tells you that if you compress the spring"
+    },
+    {
+      "start": 2352.1,
+      "end": 2354.14,
+      "text": "compress it means x is now"
+    },
+    {
+      "start": 2354.14,
+      "end": 2357.46,
+      "text": "x is measured from this position"
+    },
+    {
+      "start": 2357.46,
+      "end": 2359.46,
+      "text": "where the spring is neither compressed"
+    },
+    {
+      "start": 2359.46,
+      "end": 2360.46,
+      "text": "nor expanded."
+    },
+    {
+      "start": 2360.46,
+      "end": 2363.68,
+      "text": "So x is not really the coordinate of the endpoint."
+    },
+    {
+      "start": 2363.68,
+      "end": 2364.68,
+      "text": "You've got to understand that."
+    },
+    {
+      "start": 2364.68,
+      "end": 2366.71,
+      "text": "Springs have a natural length."
+    },
+    {
+      "start": 2366.71,
+      "end": 2368.71,
+      "text": "So x is measured from that length."
+    },
+    {
+      "start": 2368.71,
+      "end": 2370.71,
+      "text": "If it's positive it means you stretched it"
+    },
+    {
+      "start": 2370.71,
+      "end": 2372.71,
+      "text": "if it's negative it means compressed."
+    },
+    {
+      "start": 2372.71,
+      "end": 2373.71,
+      "text": "And this equation is telling you"
+    },
+    {
+      "start": 2373.71,
+      "end": 2374.71,
+      "text": "if you compress it"
+    },
+    {
+      "start": 2374.71,
+      "end": 2375.71,
+      "text": "namely if x is negative"
+    },
+    {
+      "start": 2375.71,
+      "end": 2376.71,
+      "text": "f will be then positive"
+    },
+    {
+      "start": 2376.71,
+      "end": 2378.71,
+      "text": "because it's pushing you outwards."
+    },
+    {
+      "start": 2378.71,
+      "end": 2382.79,
+      "text": "Therefore what we have done now"
+    },
+    {
+      "start": 2382.79,
+      "end": 2384.79,
+      "text": "is we can take all kinds of springs"
+    },
+    {
+      "start": 2384.79,
+      "end": 2387.79,
+      "text": "and we can calibrate the force they will exert"
+    },
+    {
+      "start": 2387.79,
+      "end": 2388.79,
+      "text": "under various conditions"
+    },
+    {
+      "start": 2388.79,
+      "end": 2390.79,
+      "text": "namely if you pull it by so much"
+    },
+    {
+      "start": 2390.79,
+      "end": 2391.79,
+      "text": "that's the force it will exert."
+    },
+    {
+      "start": 2391.79,
+      "end": 2394.59,
+      "text": "So I want you to think for a second"
+    },
+    {
+      "start": 2394.59,
+      "end": 2396.59,
+      "text": "about two equations."
+    },
+    {
+      "start": 2396.59,
+      "end": 2401.19,
+      "text": "One equation says f equals ma."
+    },
+    {
+      "start": 2401.19,
+      "end": 2406.79,
+      "text": "Other equation says f equals minus x."
+    },
+    {
+      "start": 2406.79,
+      "end": 2411.38,
+      "text": "So what's going on?"
+    },
+    {
+      "start": 2411.38,
+      "end": 2413.38,
+      "text": "Is one of them Newton's law?"
+    },
+    {
+      "start": 2413.38,
+      "end": 2414.38,
+      "text": "Then what's the other one?"
+    },
+    {
+      "start": 2414.38,
+      "end": 2419.66,
+      "text": "Maybe f equals minus kx should be called Newton's law."
+    },
+    {
+      "start": 2419.66,
+      "end": 2421.66,
+      "text": "Why is f equals ma called Newton's law?"
+    },
+    {
+      "start": 2421.66,
+      "end": 2424.66,
+      "text": "Then what's the meaning of this expression?"
+    },
+    {
+      "start": 2424.66,
+      "end": 2431.02,
+      "text": "What's the difference between saying f is minus kx"
+    },
+    {
+      "start": 2431.02,
+      "end": 2433.02,
+      "text": "and saying f equals ma?"
+    },
+    {
+      "start": 2433.02,
+      "end": 2435.02,
+      "text": "They're saying very different things."
+    },
+    {
+      "start": 2435.02,
+      "end": 2436.53,
+      "text": "Yep, right."
+    },
+    {
+      "start": 2436.53,
+      "end": 2440.57,
+      "text": "Let me repeat."
+    },
+    {
+      "start": 2440.57,
+      "end": 2443.57,
+      "text": "f equals ma is universally true"
+    },
+    {
+      "start": 2443.57,
+      "end": 2447.57,
+      "text": "independent of the nature of the force acting on a body."
+    },
+    {
+      "start": 2447.57,
+      "end": 2448.66,
+      "text": "And then?"
+    },
+    {
+      "start": 2448.66,
+      "end": 2454.88,
+      "text": "Very good."
+    },
+    {
+      "start": 2454.88,
+      "end": 2455.88,
+      "text": "That's the whole point."
+    },
+    {
+      "start": 2455.88,
+      "end": 2459.88,
+      "text": "So the cycle of Newtonian dynamics has two parts."
+    },
+    {
+      "start": 2459.88,
+      "end": 2464.58,
+      "text": "First one says if you knew the force acting on any body"
+    },
+    {
+      "start": 2464.58,
+      "end": 2467.58,
+      "text": "without going into what caused the force"
+    },
+    {
+      "start": 2467.58,
+      "end": 2469.58,
+      "text": "then you may set that force"
+    },
+    {
+      "start": 2469.58,
+      "end": 2472.58,
+      "text": "equal to the mass times acceleration of the body."
+    },
+    {
+      "start": 2472.58,
+      "end": 2474.78,
+      "text": "We think of force as the cause"
+    },
+    {
+      "start": 2474.78,
+      "end": 2479.03,
+      "text": "and a as the result or the effect."
+    },
+    {
+      "start": 2479.03,
+      "end": 2482.22,
+      "text": "Force causes acceleration"
+    },
+    {
+      "start": 2482.22,
+      "end": 2483.22,
+      "text": "and this is a precise statement."
+    },
+    {
+      "start": 2483.22,
+      "end": 2488.14,
+      "text": "There Newton doesn't tell you"
+    },
+    {
+      "start": 2488.14,
+      "end": 2490.14,
+      "text": "what forces are going to be acting on a body"
+    },
+    {
+      "start": 2490.14,
+      "end": 2492.27,
+      "text": "in a given situation."
+    },
+    {
+      "start": 2492.27,
+      "end": 2493.27,
+      "text": "If you leave the body alone"
+    },
+    {
+      "start": 2493.27,
+      "end": 2495.27,
+      "text": "maybe there's no force acting on it."
+    },
+    {
+      "start": 2495.27,
+      "end": 2497.27,
+      "text": "If you connect the body to a spring"
+    },
+    {
+      "start": 2497.27,
+      "end": 2499.27,
+      "text": "which is neither compressed nor extended"
+    },
+    {
+      "start": 2499.27,
+      "end": 2501.27,
+      "text": "there's no force acting on it."
+    },
+    {
+      "start": 2501.27,
+      "end": 2502.27,
+      "text": "If you pull the spring"
+    },
+    {
+      "start": 2502.27,
+      "end": 2504.27,
+      "text": "there is a force acting on it."
+    },
+    {
+      "start": 2504.27,
+      "end": 2506.27,
+      "text": "Newton is not going to come and tell you"
+    },
+    {
+      "start": 2506.27,
+      "end": 2508.27,
+      "text": "what force the spring will exert"
+    },
+    {
+      "start": 2508.27,
+      "end": 2510.27,
+      "text": "when it's pulled by some amount."
+    },
+    {
+      "start": 2510.27,
+      "end": 2512.27,
+      "text": "That is another part of your assignment."
+    },
+    {
+      "start": 2512.27,
+      "end": 2514.4,
+      "text": "So the physicist has to constantly"
+    },
+    {
+      "start": 2514.4,
+      "end": 2517.4,
+      "text": "find out what forces act on bodies."
+    },
+    {
+      "start": 2517.4,
+      "end": 2519.4,
+      "text": "That's a separate exercise."
+    },
+    {
+      "start": 2519.4,
+      "end": 2521.4,
+      "text": "In every context in which I place a body"
+    },
+    {
+      "start": 2521.4,
+      "end": 2524.4,
+      "text": "I'll have to know what are the forces acting on it."
+    },
+    {
+      "start": 2524.4,
+      "end": 2526.75,
+      "text": "I've got to find them by experimenting"
+    },
+    {
+      "start": 2526.75,
+      "end": 2527.75,
+      "text": "by putting other bodies"
+    },
+    {
+      "start": 2527.75,
+      "end": 2528.75,
+      "text": "and seeing how they react"
+    },
+    {
+      "start": 2528.75,
+      "end": 2529.75,
+      "text": "and then finding out"
+    },
+    {
+      "start": 2529.75,
+      "end": 2532.01,
+      "text": "that's the force that acts on a body"
+    },
+    {
+      "start": 2532.01,
+      "end": 2534.01,
+      "text": "when it's placed in this or that situation."
+    },
+    {
+      "start": 2534.01,
+      "end": 2535.01,
+      "text": "Once you've got that"
+    },
+    {
+      "start": 2535.01,
+      "end": 2537.01,
+      "text": "then you come back."
+    },
+    {
+      "start": 2537.01,
+      "end": 2539.17,
+      "text": "So in the case of a spring"
+    },
+    {
+      "start": 2539.17,
+      "end": 2540.17,
+      "text": "this is the law that you will deduce."
+    },
+    {
+      "start": 2540.17,
+      "end": 2541.17,
+      "text": "If it's something else"
+    },
+    {
+      "start": 2541.17,
+      "end": 2543.17,
+      "text": "you'll have to deduce another law."
+    },
+    {
+      "start": 2543.17,
+      "end": 2544.84,
+      "text": "For example we know"
+    },
+    {
+      "start": 2544.84,
+      "end": 2547.84,
+      "text": "that if a body is near the surface of the earth"
+    },
+    {
+      "start": 2547.84,
+      "end": 2549.94,
+      "text": "the force of gravity"
+    },
+    {
+      "start": 2549.94,
+      "end": 2551.94,
+      "text": "and that object seems to be"
+    },
+    {
+      "start": 2551.94,
+      "end": 2553.94,
+      "text": "m times g"
+    },
+    {
+      "start": 2553.94,
+      "end": 2555.94,
+      "text": "where g is 9.8."
+    },
+    {
+      "start": 2555.94,
+      "end": 2559.12,
+      "text": "That's something you find out by experiment."
+    },
+    {
+      "start": 2559.12,
+      "end": 2561.12,
+      "text": "So every time you're finding out"
+    },
+    {
+      "start": 2561.12,
+      "end": 2563.12,
+      "text": "a different force that's acting on a body"
+    },
+    {
+      "start": 2563.12,
+      "end": 2565.66,
+      "text": "with different origin."
+    },
+    {
+      "start": 2565.66,
+      "end": 2567.66,
+      "text": "One says leave any body near the earth"
+    },
+    {
+      "start": 2567.66,
+      "end": 2568.66,
+      "text": "it feels the force."
+    },
+    {
+      "start": 2568.66,
+      "end": 2571.24,
+      "text": "I know this is the right answer"
+    },
+    {
+      "start": 2571.24,
+      "end": 2573.24,
+      "text": "because if I now find the acceleration"
+    },
+    {
+      "start": 2573.24,
+      "end": 2576.24,
+      "text": "I find it's mg divided by m"
+    },
+    {
+      "start": 2576.24,
+      "end": 2578.24,
+      "text": "and I get minus g"
+    },
+    {
+      "start": 2578.24,
+      "end": 2580.24,
+      "text": "as the answer for all bodies."
+    },
+    {
+      "start": 2581.65,
+      "end": 2583.65,
+      "text": "By the way that's a very remarkable property"
+    },
+    {
+      "start": 2583.65,
+      "end": 2585.65,
+      "text": "of the gravitational force."
+    },
+    {
+      "start": 2585.65,
+      "end": 2588.26,
+      "text": "The cancellation of the two m's."
+    },
+    {
+      "start": 2588.26,
+      "end": 2591.89,
+      "text": "If you look at the electrical force"
+    },
+    {
+      "start": 2591.89,
+      "end": 2593.89,
+      "text": "the force of say the proton"
+    },
+    {
+      "start": 2593.89,
+      "end": 2594.89,
+      "text": "and the electron or something"
+    },
+    {
+      "start": 2594.89,
+      "end": 2596.89,
+      "text": "is not proportional to the mass of either object."
+    },
+    {
+      "start": 2596.89,
+      "end": 2598.89,
+      "text": "It's proportional to the electric charge"
+    },
+    {
+      "start": 2598.89,
+      "end": 2599.89,
+      "text": "of either object."
+    },
+    {
+      "start": 2599.89,
+      "end": 2601.02,
+      "text": "Therefore when you divide by the mass"
+    },
+    {
+      "start": 2601.02,
+      "end": 2603.02,
+      "text": "to get the acceleration"
+    },
+    {
+      "start": 2603.02,
+      "end": 2604.02,
+      "text": "the response of different bodies"
+    },
+    {
+      "start": 2604.02,
+      "end": 2605.02,
+      "text": "is the inverse of the mass."
+    },
+    {
+      "start": 2605.02,
+      "end": 2608.02,
+      "text": "But gravity has the remarkable property"
+    },
+    {
+      "start": 2608.02,
+      "end": 2609.02,
+      "text": "that the pull of the earth"
+    },
+    {
+      "start": 2609.02,
+      "end": 2612.02,
+      "text": "is still proportional to the inertia of the object."
+    },
+    {
+      "start": 2612.02,
+      "end": 2613.02,
+      "text": "So when you divide by m"
+    },
+    {
+      "start": 2613.02,
+      "end": 2614.02,
+      "text": "m cancels"
+    },
+    {
+      "start": 2614.02,
+      "end": 2616.02,
+      "text": "and everything falls at the same rate"
+    },
+    {
+      "start": 2616.02,
+      "end": 2618.37,
+      "text": "at the surface of the earth."
+    },
+    {
+      "start": 2618.37,
+      "end": 2620.85,
+      "text": "In fact it's a property of gravitational fields"
+    },
+    {
+      "start": 2620.85,
+      "end": 2621.85,
+      "text": "anywhere even in outer space"
+    },
+    {
+      "start": 2621.85,
+      "end": 2623.85,
+      "text": "where there is some residual field"
+    },
+    {
+      "start": 2623.85,
+      "end": 2624.85,
+      "text": "due to all the planets"
+    },
+    {
+      "start": 2624.85,
+      "end": 2626.85,
+      "text": "and all the stars in the universe"
+    },
+    {
+      "start": 2626.85,
+      "end": 2627.85,
+      "text": "that the force on a body"
+    },
+    {
+      "start": 2627.85,
+      "end": 2629.85,
+      "text": "is proportional to the mass of the body."
+    },
+    {
+      "start": 2629.85,
+      "end": 2630.85,
+      "text": "So when you divide by the mass"
+    },
+    {
+      "start": 2630.85,
+      "end": 2631.85,
+      "text": "to get the acceleration"
+    },
+    {
+      "start": 2631.85,
+      "end": 2633.85,
+      "text": "you get the same answer."
+    },
+    {
+      "start": 2633.85,
+      "end": 2635.26,
+      "text": "Everything"
+    },
+    {
+      "start": 2635.26,
+      "end": 2639.26,
+      "text": "gold, silver, diamonds, particles"
+    },
+    {
+      "start": 2639.26,
+      "end": 2640.26,
+      "text": "everything accelerates"
+    },
+    {
+      "start": 2640.26,
+      "end": 2642.26,
+      "text": "the same way in a gravitational field"
+    },
+    {
+      "start": 2642.26,
+      "end": 2644.26,
+      "text": "due to this remarkable fact."
+    },
+    {
+      "start": 2644.26,
+      "end": 2645.26,
+      "text": "This was known for a long time"
+    },
+    {
+      "start": 2645.26,
+      "end": 2647.26,
+      "text": "but it took Mr. Einstein to figure out"
+    },
+    {
+      "start": 2647.26,
+      "end": 2650.46,
+      "text": "why nature was behaving in that fashion."
+    },
+    {
+      "start": 2650.46,
+      "end": 2652.62,
+      "text": "If you have some time I'll tell you later."
+    },
+    {
+      "start": 2652.62,
+      "end": 2654.62,
+      "text": "But there are two qualities"
+    },
+    {
+      "start": 2654.62,
+      "end": 2657.26,
+      "text": "which happen to be equal."
+    },
+    {
+      "start": 2657.26,
+      "end": 2658.26,
+      "text": "One is inertial mass"
+    },
+    {
+      "start": 2658.26,
+      "end": 2660.26,
+      "text": "which is how much you hate your velocity to change."
+    },
+    {
+      "start": 2660.26,
+      "end": 2662.26,
+      "text": "How hard you resist acceleration."
+    },
+    {
+      "start": 2662.26,
+      "end": 2664.26,
+      "text": "That exists far from planets"
+    },
+    {
+      "start": 2664.26,
+      "end": 2665.26,
+      "text": "far from everything."
+    },
+    {
+      "start": 2665.26,
+      "end": 2667.35,
+      "text": "Others is gravitational mass"
+    },
+    {
+      "start": 2667.35,
+      "end": 2668.35,
+      "text": "which is a measure of how much"
+    },
+    {
+      "start": 2668.35,
+      "end": 2670.42,
+      "text": "you're attracted to the earth."
+    },
+    {
+      "start": 2670.42,
+      "end": 2672.42,
+      "text": "There's no reason why these two attributes"
+    },
+    {
+      "start": 2672.42,
+      "end": 2674.51,
+      "text": "have to be proportional."
+    },
+    {
+      "start": 2674.51,
+      "end": 2675.51,
+      "text": "They are proportional and they are equal"
+    },
+    {
+      "start": 2675.51,
+      "end": 2677.51,
+      "text": "by choice of units"
+    },
+    {
+      "start": 2677.51,
+      "end": 2678.51,
+      "text": "and you can ask"
+    },
+    {
+      "start": 2678.51,
+      "end": 2679.51,
+      "text": "is it just an accident"
+    },
+    {
+      "start": 2679.51,
+      "end": 2681.51,
+      "text": "or is it part of the big picture?"
+    },
+    {
+      "start": 2681.51,
+      "end": 2683.51,
+      "text": "It turns out it's part of the big picture"
+    },
+    {
+      "start": 2683.51,
+      "end": 2685.51,
+      "text": "and all of general relativity"
+    },
+    {
+      "start": 2685.51,
+      "end": 2687.51,
+      "text": "is based on this one great equivalence"
+    },
+    {
+      "start": 2687.51,
+      "end": 2688.51,
+      "text": "of two quantities"
+    },
+    {
+      "start": 2688.51,
+      "end": 2690.51,
+      "text": "which are very different attributes."
+    },
+    {
+      "start": 2690.51,
+      "end": 2691.51,
+      "text": "Why should the amount"
+    },
+    {
+      "start": 2691.51,
+      "end": 2693.51,
+      "text": "by which you're attracted to the earth"
+    },
+    {
+      "start": 2693.51,
+      "end": 2696.51,
+      "text": "be also a measure of how much you hate acceleration?"
+    },
+    {
+      "start": 2696.51,
+      "end": 2697.51,
+      "text": "Two different features, right?"
+    },
+    {
+      "start": 2697.51,
+      "end": 2699.51,
+      "text": "But they happen to be the same."
+    },
+    {
+      "start": 2699.51,
+      "end": 2701.67,
+      "text": "Anyway, what physicists do"
+    },
+    {
+      "start": 2701.67,
+      "end": 2703.67,
+      "text": "is they put bodies in various circumstances"
+    },
+    {
+      "start": 2703.67,
+      "end": 2705.67,
+      "text": "and they did use various forces."
+    },
+    {
+      "start": 2705.67,
+      "end": 2708.18,
+      "text": "This is the force of gravity."
+    },
+    {
+      "start": 2708.18,
+      "end": 2710.18,
+      "text": "This is the force of the spring."
+    },
+    {
+      "start": 2710.18,
+      "end": 2712.41,
+      "text": "Here's another force you might find."
+    },
+    {
+      "start": 2712.41,
+      "end": 2714.41,
+      "text": "You put a chunk of wood on a table"
+    },
+    {
+      "start": 2714.41,
+      "end": 2716.41,
+      "text": "and you try to move it"
+    },
+    {
+      "start": 2716.41,
+      "end": 2718.54,
+      "text": "at constant speed"
+    },
+    {
+      "start": 2718.54,
+      "end": 2721.54,
+      "text": "then you find that you have to apply minimum force."
+    },
+    {
+      "start": 2721.54,
+      "end": 2723.86,
+      "text": "You're moving at constant velocity."
+    },
+    {
+      "start": 2723.86,
+      "end": 2725.86,
+      "text": "That means the force you're applying"
+    },
+    {
+      "start": 2725.86,
+      "end": 2726.86,
+      "text": "is cancelled by another force"
+    },
+    {
+      "start": 2726.86,
+      "end": 2728.86,
+      "text": "which has got to be the force of friction."
+    },
+    {
+      "start": 2728.86,
+      "end": 2730.89,
+      "text": "So force of friction is the force"
+    },
+    {
+      "start": 2730.89,
+      "end": 2735.16,
+      "text": "of the force of the force of the force."
+    },
+    {
+      "start": 2735.16,
+      "end": 2737.16,
+      "text": "It's yet another force."
+    },
+    {
+      "start": 2737.16,
+      "end": 2739.16,
+      "text": "Then there are other forces, right?"
+    },
+    {
+      "start": 2739.16,
+      "end": 2741.16,
+      "text": "You guys know there's the electrical force."
+    },
+    {
+      "start": 2741.16,
+      "end": 2743.16,
+      "text": "If you bring a plus charge near a plus charge"
+    },
+    {
+      "start": 2743.16,
+      "end": 2745.16,
+      "text": "if my body M has a plus charge"
+    },
+    {
+      "start": 2745.16,
+      "end": 2747.16,
+      "text": "and another plus charge is there"
+    },
+    {
+      "start": 2747.16,
+      "end": 2749.16,
+      "text": "it'll feel a force due to that."
+    },
+    {
+      "start": 2749.16,
+      "end": 2751.16,
+      "text": "That's not going to be given by Newton."
+    },
+    {
+      "start": 2751.16,
+      "end": 2753.16,
+      "text": "So Newton did not ever tell you"
+    },
+    {
+      "start": 2753.16,
+      "end": 2756.19,
+      "text": "what the expression for force is in a given constant."
+    },
+    {
+      "start": 2756.19,
+      "end": 2758.19,
+      "text": "That is a constant study."
+    },
+    {
+      "start": 2758.19,
+      "end": 2760.19,
+      "text": "Coulomb discovered the Coulomb's law"
+    },
+    {
+      "start": 2760.19,
+      "end": 2762.19,
+      "text": "which is the repulsion between charges."
+    },
+    {
+      "start": 2762.19,
+      "end": 2764.19,
+      "text": "So if you have a proton that has quarks"
+    },
+    {
+      "start": 2764.19,
+      "end": 2766.19,
+      "text": "there are forces between the quarks"
+    },
+    {
+      "start": 2766.19,
+      "end": 2767.19,
+      "text": "and you can ask what's the force"
+    },
+    {
+      "start": 2767.19,
+      "end": 2769.19,
+      "text": "that this quark will exert on that quark"
+    },
+    {
+      "start": 2769.19,
+      "end": 2770.19,
+      "text": "at a certain separation."
+    },
+    {
+      "start": 2770.19,
+      "end": 2772.19,
+      "text": "That's obviously not known to Newton."
+    },
+    {
+      "start": 2772.19,
+      "end": 2775.48,
+      "text": "Remember, Newton said F equals M A"
+    },
+    {
+      "start": 2775.48,
+      "end": 2778.51,
+      "text": "but didn't tell you what value F has"
+    },
+    {
+      "start": 2778.51,
+      "end": 2780.51,
+      "text": "in a given contest."
+    },
+    {
+      "start": 2780.51,
+      "end": 2782.67,
+      "text": "He just said whenever there's an acceleration"
+    },
+    {
+      "start": 2782.67,
+      "end": 2784.67,
+      "text": "it's going to be due to some forces"
+    },
+    {
+      "start": 2784.67,
+      "end": 2786.67,
+      "text": "and it's your job to find what the forces are."
+    },
+    {
+      "start": 2786.67,
+      "end": 2789.06,
+      "text": "And to find the force what you will do is"
+    },
+    {
+      "start": 2789.06,
+      "end": 2791.06,
+      "text": "suppose somebody says,"
+    },
+    {
+      "start": 2791.06,
+      "end": 2792.06,
+      "text": "I've got a new force."
+    },
+    {
+      "start": 2792.06,
+      "end": 2794.06,
+      "text": "Every time I go near the podium"
+    },
+    {
+      "start": 2794.06,
+      "end": 2795.06,
+      "text": "I find I'm drawn to it."
+    },
+    {
+      "start": 2795.06,
+      "end": 2796.06,
+      "text": "That's the new force."
+    },
+    {
+      "start": 2796.06,
+      "end": 2799.06,
+      "text": "Word gets around and we want to measure the force."
+    },
+    {
+      "start": 2799.06,
+      "end": 2801.06,
+      "text": "So what do I do?"
+    },
+    {
+      "start": 2801.06,
+      "end": 2802.06,
+      "text": "I stand near this podium."
+    },
+    {
+      "start": 2802.06,
+      "end": 2803.06,
+      "text": "I'm drawn to it."
+    },
+    {
+      "start": 2803.06,
+      "end": 2804.06,
+      "text": "I cannot stop."
+    },
+    {
+      "start": 2804.06,
+      "end": 2806.06,
+      "text": "So I tie a spring to my back"
+    },
+    {
+      "start": 2806.06,
+      "end": 2807.06,
+      "text": "and I anchor it to the wall"
+    },
+    {
+      "start": 2807.06,
+      "end": 2809.06,
+      "text": "and I see how much the spring stretches"
+    },
+    {
+      "start": 2809.06,
+      "end": 2811.06,
+      "text": "before the two forces balance."
+    },
+    {
+      "start": 2811.06,
+      "end": 2813.06,
+      "text": "Then I know that the Kx is equal to the force"
+    },
+    {
+      "start": 2813.06,
+      "end": 2816.06,
+      "text": "this is exerting at this separation."
+    },
+    {
+      "start": 2816.06,
+      "end": 2817.06,
+      "text": "I move a little closer"
+    },
+    {
+      "start": 2817.06,
+      "end": 2819.06,
+      "text": "and I find the stretching is a different number."
+    },
+    {
+      "start": 2819.06,
+      "end": 2821.06,
+      "text": "Maybe the force is getting stronger."
+    },
+    {
+      "start": 2821.06,
+      "end": 2825.28,
+      "text": "That's how by either balancing the unknown force"
+    },
+    {
+      "start": 2825.28,
+      "end": 2826.28,
+      "text": "with the known force"
+    },
+    {
+      "start": 2826.28,
+      "end": 2828.28,
+      "text": "or by simply measuring the acceleration"
+    },
+    {
+      "start": 2828.28,
+      "end": 2830.28,
+      "text": "as I fall towards the podium"
+    },
+    {
+      "start": 2830.28,
+      "end": 2831.28,
+      "text": "and multiplying by mass"
+    },
+    {
+      "start": 2831.28,
+      "end": 2833.28,
+      "text": "you can find the force that exerts on me."
+    },
+    {
+      "start": 2833.28,
+      "end": 2837.89,
+      "text": "So it's not a cyclical and useless definition."
+    },
+    {
+      "start": 2837.89,
+      "end": 2839.89,
+      "text": "It's a very interesting interplay"
+    },
+    {
+      "start": 2839.89,
+      "end": 2842.89,
+      "text": "and that's the foundation of all of mechanics."
+    },
+    {
+      "start": 2842.89,
+      "end": 2844.89,
+      "text": "So we are constantly looking for values of F"
+    },
+    {
+      "start": 2844.89,
+      "end": 2847.89,
+      "text": "and we're constantly looking for responses of bodies"
+    },
+    {
+      "start": 2847.89,
+      "end": 2848.89,
+      "text": "to a known force."
+    },
+    {
+      "start": 2848.89,
+      "end": 2850.89,
+      "text": "So here's a simple example"
+    },
+    {
+      "start": 2850.89,
+      "end": 2852.89,
+      "text": "of a complete Newtonian problem."
+    },
+    {
+      "start": 2852.89,
+      "end": 2854.89,
+      "text": "A mass is attached to a spring."
+    },
+    {
+      "start": 2854.89,
+      "end": 2859.33,
+      "text": "It is pulled by a certain amount, x,"
+    },
+    {
+      "start": 2859.33,
+      "end": 2861.71,
+      "text": "and it's released."
+    },
+    {
+      "start": 2861.71,
+      "end": 2864.16,
+      "text": "What is it going to do?"
+    },
+    {
+      "start": 2864.16,
+      "end": 2865.42,
+      "text": "We go to Newton."
+    },
+    {
+      "start": 2865.42,
+      "end": 2867.45,
+      "text": "Newton says F equals ma."
+    },
+    {
+      "start": 2867.45,
+      "end": 2871.18,
+      "text": "So to make it a useful result in this problem"
+    },
+    {
+      "start": 2871.18,
+      "end": 2873.18,
+      "text": "we know the mass of this guy."
+    },
+    {
+      "start": 2873.18,
+      "end": 2875.18,
+      "text": "We did the comparison with the elephant or something."
+    },
+    {
+      "start": 2875.18,
+      "end": 2878.18,
+      "text": "a is the second derivative of x"
+    },
+    {
+      "start": 2878.18,
+      "end": 2881.24,
+      "text": "and for this problem"
+    },
+    {
+      "start": 2881.24,
+      "end": 2883.24,
+      "text": "when F is due to a spring"
+    },
+    {
+      "start": 2883.24,
+      "end": 2884.24,
+      "text": "we know the force is that"
+    },
+    {
+      "start": 2884.24,
+      "end": 2886.24,
+      "text": "by studying the spring"
+    },
+    {
+      "start": 2886.24,
+      "end": 2887.24,
+      "text": "and suddenly"
+    },
+    {
+      "start": 2887.24,
+      "end": 2889.24,
+      "text": "you have a mathematically complete problem."
+    },
+    {
+      "start": 2889.24,
+      "end": 2891.53,
+      "text": "Mathematically complete problem is"
+    },
+    {
+      "start": 2891.53,
+      "end": 2894.53,
+      "text": "that you can find the function x of t"
+    },
+    {
+      "start": 2894.53,
+      "end": 2896.53,
+      "text": "by saying that the second derivative of the function"
+    },
+    {
+      "start": 2896.53,
+      "end": 2900.91,
+      "text": "is equal to minus k over m times the function."
+    },
+    {
+      "start": 2900.91,
+      "end": 2903.14,
+      "text": "Then you go to the math department"
+    },
+    {
+      "start": 2903.14,
+      "end": 2904.14,
+      "text": "and say please tell me"
+    },
+    {
+      "start": 2904.14,
+      "end": 2905.14,
+      "text": "what's the answer to this equation."
+    },
+    {
+      "start": 2905.14,
+      "end": 2907.14,
+      "text": "You don't have to worry about how you solve it"
+    },
+    {
+      "start": 2907.14,
+      "end": 2908.14,
+      "text": "but it's a problem in mathematics"
+    },
+    {
+      "start": 2908.14,
+      "end": 2910.14,
+      "text": "and the answer will be"
+    },
+    {
+      "start": 2910.14,
+      "end": 2913.71,
+      "text": "the price is going to be oscillating back and forth"
+    },
+    {
+      "start": 2913.71,
+      "end": 2915.71,
+      "text": "and that will come out of the water."
+    },
+    {
+      "start": 2915.71,
+      "end": 2918.71,
+      "text": "This is how you formulate problems."
+    },
+    {
+      "start": 2918.71,
+      "end": 2920.71,
+      "text": "You can formulate another problem."
+    },
+    {
+      "start": 2920.71,
+      "end": 2922.71,
+      "text": "Later on we know about gravity."
+    },
+    {
+      "start": 2922.71,
+      "end": 2924.71,
+      "text": "Newton finds out there's a force of gravity"
+    },
+    {
+      "start": 2924.71,
+      "end": 2925.71,
+      "text": "acting on everything."
+    },
+    {
+      "start": 2925.71,
+      "end": 2926.71,
+      "text": "Here's the sun."
+    },
+    {
+      "start": 2926.71,
+      "end": 2928.97,
+      "text": "Here's your planet."
+    },
+    {
+      "start": 2928.97,
+      "end": 2929.97,
+      "text": "And at this instant"
+    },
+    {
+      "start": 2929.97,
+      "end": 2931.97,
+      "text": "the planet may be moving at that speed."
+    },
+    {
+      "start": 2931.97,
+      "end": 2935.06,
+      "text": "Then the acceleration of the planet"
+    },
+    {
+      "start": 2935.06,
+      "end": 2937.13,
+      "text": "is the force of gravity"
+    },
+    {
+      "start": 2937.13,
+      "end": 2938.13,
+      "text": "between the planet and the sun"
+    },
+    {
+      "start": 2938.13,
+      "end": 2939.13,
+      "text": "which Newton will tell you"
+    },
+    {
+      "start": 2939.13,
+      "end": 2941.13,
+      "text": "is directed towards the sun"
+    },
+    {
+      "start": 2941.13,
+      "end": 2943.16,
+      "text": "and it depends on how far you are."
+    },
+    {
+      "start": 2943.16,
+      "end": 2945.16,
+      "text": "So depending on how far the planet is from the sun"
+    },
+    {
+      "start": 2945.16,
+      "end": 2947.16,
+      "text": "and where it's located"
+    },
+    {
+      "start": 2947.16,
+      "end": 2948.16,
+      "text": "you will get the left hand side."
+    },
+    {
+      "start": 2948.16,
+      "end": 2949.16,
+      "text": "That's another law."
+    },
+    {
+      "start": 2949.16,
+      "end": 2951.16,
+      "text": "That's the law of universal gravitation."
+    },
+    {
+      "start": 2951.16,
+      "end": 2954.16,
+      "text": "Then again you will find the evolution"
+    },
+    {
+      "start": 2954.16,
+      "end": 2955.16,
+      "text": "of the planetary motion"
+    },
+    {
+      "start": 2955.16,
+      "end": 2958.16,
+      "text": "because the rate of change of the rate of change"
+    },
+    {
+      "start": 2958.16,
+      "end": 2960.16,
+      "text": "of position is connected to the position."
+    },
+    {
+      "start": 2960.16,
+      "end": 2962.26,
+      "text": "Again go to the math guys"
+    },
+    {
+      "start": 2962.26,
+      "end": 2963.26,
+      "text": "and say what's the answer to that"
+    },
+    {
+      "start": 2963.26,
+      "end": 2964.26,
+      "text": "and they tell you the answer"
+    },
+    {
+      "start": 2964.26,
+      "end": 2966.26,
+      "text": "which will be some elliptical motion."
+    },
+    {
+      "start": 2966.26,
+      "end": 2969.4,
+      "text": "Okay."
+    },
+    {
+      "start": 2969.4,
+      "end": 2970.4,
+      "text": "By the way, Mr. Newton"
+    },
+    {
+      "start": 2970.4,
+      "end": 2972.4,
+      "text": "did not have math guys he could go to."
+    },
+    {
+      "start": 2972.4,
+      "end": 2977.58,
+      "text": "So not only did he formulate laws of gravitation"
+    },
+    {
+      "start": 2977.58,
+      "end": 2979.58,
+      "text": "he also invented calculus"
+    },
+    {
+      "start": 2979.58,
+      "end": 2981.58,
+      "text": "and he also learned how to solve"
+    },
+    {
+      "start": 2981.58,
+      "end": 2983.58,
+      "text": "the differential equation for calculus."
+    },
+    {
+      "start": 2983.58,
+      "end": 2986.03,
+      "text": "So he probably felt that nobody around"
+    },
+    {
+      "start": 2986.03,
+      "end": 2987.03,
+      "text": "was doing any work"
+    },
+    {
+      "start": 2987.03,
+      "end": 2990.03,
+      "text": "because all the thing was given to this one person."
+    },
+    {
+      "start": 2990.03,
+      "end": 2991.03,
+      "text": "It's really amazing"
+    },
+    {
+      "start": 2991.03,
+      "end": 2993.03,
+      "text": "that what Newton did in the case of gravity"
+    },
+    {
+      "start": 2993.03,
+      "end": 2995.03,
+      "text": "was to find the expression for this"
+    },
+    {
+      "start": 2995.03,
+      "end": 2997.03,
+      "text": "and humans a few years earlier"
+    },
+    {
+      "start": 2997.03,
+      "end": 2998.03,
+      "text": "he had also gotten this law"
+    },
+    {
+      "start": 2998.03,
+      "end": 3000.03,
+      "text": "by putting the two together"
+    },
+    {
+      "start": 3000.03,
+      "end": 3002.03,
+      "text": "out comes the elliptical motion of the planets."
+    },
+    {
+      "start": 3002.03,
+      "end": 3003.03,
+      "text": "Okay."
+    },
+    {
+      "start": 3003.03,
+      "end": 3004.99,
+      "text": "So we'll come back to that"
+    },
+    {
+      "start": 3004.99,
+      "end": 3005.99,
+      "text": "but you have to understand"
+    },
+    {
+      "start": 3005.99,
+      "end": 3007.99,
+      "text": "the structure of Newtonian mechanics."
+    },
+    {
+      "start": 3008.99,
+      "end": 3011.12,
+      "text": "Generally any mechanics"
+    },
+    {
+      "start": 3011.12,
+      "end": 3013.12,
+      "text": "will require knowledge of the force."
+    },
+    {
+      "start": 3013.12,
+      "end": 3015.63,
+      "text": "Now I'm going to add one more amendment"
+    },
+    {
+      "start": 3015.63,
+      "end": 3016.63,
+      "text": "you don't have to write in your notebook"
+    },
+    {
+      "start": 3016.63,
+      "end": 3018.63,
+      "text": "but you got to remember"
+    },
+    {
+      "start": 3018.63,
+      "end": 3021.63,
+      "text": "maybe you'll put a little T and circle it."
+    },
+    {
+      "start": 3021.63,
+      "end": 3022.86,
+      "text": "Let me write it here."
+    },
+    {
+      "start": 3022.86,
+      "end": 3026.86,
+      "text": "Ft means the total force on a body."
+    },
+    {
+      "start": 3026.86,
+      "end": 3029.72,
+      "text": "If there are many forces acting on a body"
+    },
+    {
+      "start": 3029.72,
+      "end": 3032.72,
+      "text": "the acceleration is controlled by the sum."
+    },
+    {
+      "start": 3032.72,
+      "end": 3034.72,
+      "text": "If I'm now working in one dimension"
+    },
+    {
+      "start": 3034.72,
+      "end": 3037.88,
+      "text": "it's obvious because I'm not using any vectors"
+    },
+    {
+      "start": 3037.88,
+      "end": 3039.88,
+      "text": "then you may have forces to the right"
+    },
+    {
+      "start": 3039.88,
+      "end": 3040.88,
+      "text": "forces to the left"
+    },
+    {
+      "start": 3040.88,
+      "end": 3041.88,
+      "text": "pushing, pulling"
+    },
+    {
+      "start": 3041.88,
+      "end": 3043.88,
+      "text": "you add them all up algebraically"
+    },
+    {
+      "start": 3043.88,
+      "end": 3044.88,
+      "text": "keeping track of their sign"
+    },
+    {
+      "start": 3044.88,
+      "end": 3045.88,
+      "text": "and that's the total force."
+    },
+    {
+      "start": 3045.88,
+      "end": 3050.52,
+      "text": "That's connected to mass times acceleration."
+    },
+    {
+      "start": 3050.52,
+      "end": 3052.52,
+      "text": "Now I'll give you the third law."
+    },
+    {
+      "start": 3052.52,
+      "end": 3055.94,
+      "text": "The third law says that if there are two bodies"
+    },
+    {
+      "start": 3055.94,
+      "end": 3059.48,
+      "text": "then call one and two"
+    },
+    {
+      "start": 3059.48,
+      "end": 3061.48,
+      "text": "force of one on two"
+    },
+    {
+      "start": 3061.48,
+      "end": 3064.48,
+      "text": "is minus the force of second on the first one."
+    },
+    {
+      "start": 3064.48,
+      "end": 3069.21,
+      "text": "This is the thing about action and reaction"
+    },
+    {
+      "start": 3069.21,
+      "end": 3071.21,
+      "text": "and all the laws that anybody knows"
+    },
+    {
+      "start": 3071.21,
+      "end": 3074.68,
+      "text": "have this property."
+    },
+    {
+      "start": 3074.68,
+      "end": 3078.68,
+      "text": "So what does it require to be a successful mechanic"
+    },
+    {
+      "start": 3078.68,
+      "end": 3080.68,
+      "text": "to do all the mechanic problems?"
+    },
+    {
+      "start": 3080.68,
+      "end": 3084.97,
+      "text": "You got to be good at writing down the forces acting on a body."
+    },
+    {
+      "start": 3084.97,
+      "end": 3087.8,
+      "text": "That's what it's all going to boil down to."
+    },
+    {
+      "start": 3087.8,
+      "end": 3091.34,
+      "text": "So here's my advice to you."
+    },
+    {
+      "start": 3091.34,
+      "end": 3094.34,
+      "text": "Do not forget the existing forces"
+    },
+    {
+      "start": 3094.34,
+      "end": 3097.34,
+      "text": "and do not make up your own forces."
+    },
+    {
+      "start": 3097.34,
+      "end": 3099.62,
+      "text": "I've seen both happen."
+    },
+    {
+      "start": 3099.62,
+      "end": 3102.62,
+      "text": "And right now at this point in our course"
+    },
+    {
+      "start": 3102.62,
+      "end": 3104.98,
+      "text": "whenever you have a problem where there is somebody"
+    },
+    {
+      "start": 3104.98,
+      "end": 3106.98,
+      "text": "and someone says write all the forces on it"
+    },
+    {
+      "start": 3106.98,
+      "end": 3109.46,
+      "text": "what you have to do is very simple."
+    },
+    {
+      "start": 3109.46,
+      "end": 3112.58,
+      "text": "Every force with one exception"
+    },
+    {
+      "start": 3112.58,
+      "end": 3116.58,
+      "text": "can be seen as a force due to direct contact with the body."
+    },
+    {
+      "start": 3116.58,
+      "end": 3118.78,
+      "text": "Either a rope is pulling it, rope is pushing it,"
+    },
+    {
+      "start": 3118.78,
+      "end": 3120.78,
+      "text": "you're pushing it, you're pulling it."
+    },
+    {
+      "start": 3120.78,
+      "end": 3122.78,
+      "text": "That's a contact on the body."
+    },
+    {
+      "start": 3122.78,
+      "end": 3125.96,
+      "text": "If nothing is touching the body"
+    },
+    {
+      "start": 3125.96,
+      "end": 3127.96,
+      "text": "there are no forces on it with one exception"
+    },
+    {
+      "start": 3127.96,
+      "end": 3129.96,
+      "text": "which is of course gravity."
+    },
+    {
+      "start": 3129.96,
+      "end": 3132.86,
+      "text": "Gravity is one force that acts on a body"
+    },
+    {
+      "start": 3132.86,
+      "end": 3135.86,
+      "text": "without the source of the force actually touching it."
+    },
+    {
+      "start": 3135.86,
+      "end": 3136.86,
+      "text": "That's it."
+    },
+    {
+      "start": 3136.86,
+      "end": 3138.86,
+      "text": "Do not draw any more forces."
+    },
+    {
+      "start": 3140.14,
+      "end": 3142.14,
+      "text": "People do draw other forces."
+    },
+    {
+      "start": 3142.14,
+      "end": 3144.14,
+      "text": "When a body is going around in a circle"
+    },
+    {
+      "start": 3144.14,
+      "end": 3146.14,
+      "text": "they say there's some centrifugal force acting."
+    },
+    {
+      "start": 3146.14,
+      "end": 3147.14,
+      "text": "There's no such thing."
+    },
+    {
+      "start": 3147.14,
+      "end": 3148.14,
+      "text": "So be careful."
+    },
+    {
+      "start": 3148.14,
+      "end": 3151.14,
+      "text": "Whenever there's a force it can be traced back"
+    },
+    {
+      "start": 3151.14,
+      "end": 3153.14,
+      "text": "to a tangible material cause"
+    },
+    {
+      "start": 3153.14,
+      "end": 3157.5,
+      "text": "which is all the time a force of contact"
+    },
+    {
+      "start": 3157.5,
+      "end": 3161.58,
+      "text": "with the exception of gravity."
+    },
+    {
+      "start": 3161.58,
+      "end": 3164.58,
+      "text": "Okay, so with that if you write the right forces"
+    },
+    {
+      "start": 3164.58,
+      "end": 3165.58,
+      "text": "you will be just fine."
+    },
+    {
+      "start": 3165.58,
+      "end": 3168.58,
+      "text": "You'll be able to solve all the problems we have in mechanics."
+    },
+    {
+      "start": 3168.58,
+      "end": 3172.83,
+      "text": "So I'm going to now start doing simple problems in mechanics"
+    },
+    {
+      "start": 3172.83,
+      "end": 3174.83,
+      "text": "because they'll start out simple"
+    },
+    {
+      "start": 3174.83,
+      "end": 3179.46,
+      "text": "and as usual they will get progressively more difficult."
+    },
+    {
+      "start": 3179.46,
+      "end": 3187.76,
+      "text": "Okay, so let's start with our first triumph"
+    },
+    {
+      "start": 3187.76,
+      "end": 3190.89,
+      "text": "will be motion in 1D."
+    },
+    {
+      "start": 3190.89,
+      "end": 3192.95,
+      "text": "Here is some object."
+    },
+    {
+      "start": 3192.95,
+      "end": 3197.11,
+      "text": "It's 5 kilograms and I apply 10 Newtons."
+    },
+    {
+      "start": 3197.11,
+      "end": 3199.11,
+      "text": "Someone says what's the acceleration?"
+    },
+    {
+      "start": 3199.11,
+      "end": 3205.26,
+      "text": "And everyone knows it is 10 over 5 equals 2."
+    },
+    {
+      "start": 3205.26,
+      "end": 3208.35,
+      "text": "But now we know how we got all the numbers"
+    },
+    {
+      "start": 3208.35,
+      "end": 3209.35,
+      "text": "that go into the very question."
+    },
+    {
+      "start": 3209.35,
+      "end": 3211.35,
+      "text": "How do we know 10 Newtons is acting?"
+    },
+    {
+      "start": 3211.35,
+      "end": 3214.35,
+      "text": "Now I think you people know how we can say that with confidence."
+    },
+    {
+      "start": 3214.35,
+      "end": 3217.35,
+      "text": "How do we know the mass of this is 5 kilograms?"
+    },
+    {
+      "start": 3217.35,
+      "end": 3219.35,
+      "text": "You know how you got that from an earlier experiment."
+    },
+    {
+      "start": 3219.35,
+      "end": 3221.35,
+      "text": "So now we know how the numbers come in."
+    },
+    {
+      "start": 3221.35,
+      "end": 3225.34,
+      "text": "The algebra is of course very trivial here."
+    },
+    {
+      "start": 3225.34,
+      "end": 3228.34,
+      "text": "Then the next problem is a little more interesting."
+    },
+    {
+      "start": 3228.34,
+      "end": 3234.53,
+      "text": "So here I got 3 kilograms and I got 2 kilograms"
+    },
+    {
+      "start": 3234.53,
+      "end": 3236.53,
+      "text": "and I'm pushing with 10 Newtons"
+    },
+    {
+      "start": 3236.53,
+      "end": 3241.86,
+      "text": "and I want to know what happens."
+    },
+    {
+      "start": 3241.86,
+      "end": 3243.86,
+      "text": "So one way is just use your common sense"
+    },
+    {
+      "start": 3243.86,
+      "end": 3245.86,
+      "text": "and realize that if you push it this way"
+    },
+    {
+      "start": 3245.86,
+      "end": 3247.86,
+      "text": "these two guys are going to move together"
+    },
+    {
+      "start": 3247.86,
+      "end": 3251.27,
+      "text": "and know intuitively that if they move together"
+    },
+    {
+      "start": 3251.27,
+      "end": 3255.27,
+      "text": "they will behave like an object of mass 5"
+    },
+    {
+      "start": 3255.27,
+      "end": 3258.27,
+      "text": "and the acceleration will again be 2."
+    },
+    {
+      "start": 3258.27,
+      "end": 3261.97,
+      "text": "But there's another way to do this"
+    },
+    {
+      "start": 3261.97,
+      "end": 3264.06,
+      "text": "and I'm going to give you now the simplest example"
+    },
+    {
+      "start": 3264.06,
+      "end": 3267.06,
+      "text": "of the other way which is to draw a free body diagram."
+    },
+    {
+      "start": 3267.06,
+      "end": 3271.8,
+      "text": "By the way, when I say there's 10 Newtons acting this way"
+    },
+    {
+      "start": 3271.8,
+      "end": 3273.8,
+      "text": "you might say what about gravity?"
+    },
+    {
+      "start": 3273.8,
+      "end": 3274.8,
+      "text": "What about the table?"
+    },
+    {
+      "start": 3274.8,
+      "end": 3276.8,
+      "text": "So imagine that this is an outer circle."
+    },
+    {
+      "start": 3276.8,
+      "end": 3278.8,
+      "text": "This is a space where there's no gravity for now."
+    },
+    {
+      "start": 3278.8,
+      "end": 3281.96,
+      "text": "The motion is just along the x-axis."
+    },
+    {
+      "start": 3281.96,
+      "end": 3291.35,
+      "text": "So the free body diagram, it says you can pick any one body that you like"
+    },
+    {
+      "start": 3291.35,
+      "end": 3293.35,
+      "text": "and apply F equal to ma to it"
+    },
+    {
+      "start": 3293.35,
+      "end": 3298.35,
+      "text": "provided you identify all the forces acting on that body."
+    },
+    {
+      "start": 3298.35,
+      "end": 3306.33,
+      "text": "So we'll first pick the body with mass 3."
+    },
+    {
+      "start": 3306.33,
+      "end": 3308.49,
+      "text": "Here's the body of mass 3."
+    },
+    {
+      "start": 3308.49,
+      "end": 3310.55,
+      "text": "What are the forces on it?"
+    },
+    {
+      "start": 3310.55,
+      "end": 3312.65,
+      "text": "This is certainly acting on it."
+    },
+    {
+      "start": 3312.65,
+      "end": 3317.92,
+      "text": "Then you have to ask what other force is acting."
+    },
+    {
+      "start": 3317.92,
+      "end": 3319.92,
+      "text": "So here is where you have to think."
+    },
+    {
+      "start": 3319.92,
+      "end": 3323.69,
+      "text": "Anybody want to guess from the last row what force?"
+    },
+    {
+      "start": 3323.69,
+      "end": 3327.31,
+      "text": "Yes?"
+    },
+    {
+      "start": 3327.31,
+      "end": 3328.31,
+      "text": "Right."
+    },
+    {
+      "start": 3328.31,
+      "end": 3329.31,
+      "text": "So let's give it a name."
+    },
+    {
+      "start": 3329.31,
+      "end": 3335.05,
+      "text": "So let's point it that way and call it F213."
+    },
+    {
+      "start": 3335.05,
+      "end": 3339.38,
+      "text": "That's the end of this guy."
+    },
+    {
+      "start": 3339.38,
+      "end": 3341.38,
+      "text": "Then let's look at the other fellow."
+    },
+    {
+      "start": 3341.38,
+      "end": 3347.5,
+      "text": "Maybe you should complete the force acting on this one."
+    },
+    {
+      "start": 3347.5,
+      "end": 3351.29,
+      "text": "Can you tell me what it is?"
+    },
+    {
+      "start": 3351.29,
+      "end": 3357.06,
+      "text": "Same person from the last row."
+    },
+    {
+      "start": 3357.06,
+      "end": 3358.06,
+      "text": "And how big is that?"
+    },
+    {
+      "start": 3358.06,
+      "end": 3363.9,
+      "text": "Right."
+    },
+    {
+      "start": 3363.9,
+      "end": 3366.9,
+      "text": "So I don't want to give it too many different names, right?"
+    },
+    {
+      "start": 3366.9,
+      "end": 3369.9,
+      "text": "Because F23 and F32 are equal and opposite."
+    },
+    {
+      "start": 3369.9,
+      "end": 3371.9,
+      "text": "I'm already showing F23 acting to the left."
+    },
+    {
+      "start": 3371.9,
+      "end": 3374.9,
+      "text": "So let me give it some other name like F."
+    },
+    {
+      "start": 3374.9,
+      "end": 3381.11,
+      "text": "Then you agree this would be the same F but pointing that way."
+    },
+    {
+      "start": 3381.11,
+      "end": 3384.11,
+      "text": "And here is a mistake some people make."
+    },
+    {
+      "start": 3384.11,
+      "end": 3387.33,
+      "text": "They add to that the 10 Newtons."
+    },
+    {
+      "start": 3387.33,
+      "end": 3390.33,
+      "text": "It's the 10 Newtons acting on it because I know the 10 Newton is pushing me"
+    },
+    {
+      "start": 3390.33,
+      "end": 3392.33,
+      "text": "and I'm going to feel it even if I'm here."
+    },
+    {
+      "start": 3392.33,
+      "end": 3395.13,
+      "text": "That would be a mistake."
+    },
+    {
+      "start": 3395.13,
+      "end": 3396.13,
+      "text": "That's an example of adding a force"
+    },
+    {
+      "start": 3396.13,
+      "end": 3398.13,
+      "text": "that you really shouldn't be adding."
+    },
+    {
+      "start": 3398.19,
+      "end": 3401.19,
+      "text": "The only force acting on this guy is this little f."
+    },
+    {
+      "start": 3401.19,
+      "end": 3404.93,
+      "text": "That's in turn because this guy is being pushed by the 10 Newton"
+    },
+    {
+      "start": 3404.93,
+      "end": 3406.93,
+      "text": "but that's not your problem."
+    },
+    {
+      "start": 3406.93,
+      "end": 3410.93,
+      "text": "Your problem is to only look at the forces of contact on you"
+    },
+    {
+      "start": 3410.93,
+      "end": 3414.4,
+      "text": "and that is just this f."
+    },
+    {
+      "start": 3414.4,
+      "end": 3417.4,
+      "text": "Then we do F equals ma for these two guys."
+    },
+    {
+      "start": 3417.4,
+      "end": 3423.94,
+      "text": "For this guy, F equals ma would be 10 minus F is 3 times a."
+    },
+    {
+      "start": 3423.94,
+      "end": 3428.97,
+      "text": "The other one will be F equals 2a."
+    },
+    {
+      "start": 3428.97,
+      "end": 3431.97,
+      "text": "Notice I'm using the same acceleration for both."
+    },
+    {
+      "start": 3431.97,
+      "end": 3435.61,
+      "text": "I know that if the second mass moved faster than the first one"
+    },
+    {
+      "start": 3435.61,
+      "end": 3437.74,
+      "text": "then the picture is completely wrong."
+    },
+    {
+      "start": 3437.74,
+      "end": 3441.74,
+      "text": "If it moves slower than the first one, it means it's rammed into this one."
+    },
+    {
+      "start": 3441.74,
+      "end": 3442.74,
+      "text": "That also cannot happen."
+    },
+    {
+      "start": 3442.74,
+      "end": 3444.74,
+      "text": "They're moving at the same acceleration."
+    },
+    {
+      "start": 3444.74,
+      "end": 3446.74,
+      "text": "There's only one unknown a."
+    },
+    {
+      "start": 3446.74,
+      "end": 3451.15,
+      "text": "Once you got this, you realize what you got to do."
+    },
+    {
+      "start": 3451.15,
+      "end": 3455.15,
+      "text": "This equation is begging you to be added to this equation."
+    },
+    {
+      "start": 3455.15,
+      "end": 3458.15,
+      "text": "You got a plus F and a minus F so you got to do what you got to do."
+    },
+    {
+      "start": 3458.15,
+      "end": 3459.15,
+      "text": "You add the two."
+    },
+    {
+      "start": 3459.15,
+      "end": 3463.15,
+      "text": "You get 10 equals 5a and you get a equals 2."
+    },
+    {
+      "start": 3463.15,
+      "end": 3470.95,
+      "text": "Once you got a equals 2, you can go back and realize here that F is equal to 4."
+    },
+    {
+      "start": 3470.95,
+      "end": 3474.05,
+      "text": "You got really 4 Newtons."
+    },
+    {
+      "start": 3474.05,
+      "end": 3475.05,
+      "text": "Now we know the full story."
+    },
+    {
+      "start": 3475.05,
+      "end": 3479.05,
+      "text": "4 Newtons acting on 2 kilograms gives you an acceleration of 2."
+    },
+    {
+      "start": 3479.05,
+      "end": 3489.78,
+      "text": "On this guy, I have 10 from the left and I have 4 acting this way, 4 acting that way."
+    },
+    {
+      "start": 3489.78,
+      "end": 3490.78,
+      "text": "That is 6 Newtons."
+    },
+    {
+      "start": 3490.78,
+      "end": 3497.78,
+      "text": "So I have 3 Newtons divided by 3 kilograms is also an acceleration of 2."
+    },
+    {
+      "start": 3497.78,
+      "end": 3502.3,
+      "text": "This is a simple example of free body diagrams."
+    },
+    {
+      "start": 3502.3,
+      "end": 3503.3,
+      "text": "Very simple."
+    },
+    {
+      "start": 3503.3,
+      "end": 3508.28,
+      "text": "If you can do this, you can do most of the problems you will run into."
+    },
+    {
+      "start": 3508.28,
+      "end": 3511.28,
+      "text": "Just don't add stuff that's not there."
+    },
+    {
+      "start": 3511.28,
+      "end": 3512.28,
+      "text": "That's all you have to be careful about."
+    },
+    {
+      "start": 3512.28,
+      "end": 3521.45,
+      "text": "And the stuff that people tend to add sometimes is to keep drawing the 10 Newton as acting on that."
+    },
+    {
+      "start": 3521.45,
+      "end": 3524.74,
+      "text": "Now here's another variation."
+    },
+    {
+      "start": 3524.74,
+      "end": 3526.38,
+      "text": "The variation looks like this."
+    },
+    {
+      "start": 3526.38,
+      "end": 3534.6,
+      "text": "I got 3 kilograms and I have a rope and I got 2 kilograms and I pulled this guy with 10 Newtons."
+    },
+    {
+      "start": 3534.6,
+      "end": 3540.18,
+      "text": "What's going to happen?"
+    },
+    {
+      "start": 3540.18,
+      "end": 3545.18,
+      "text": "Again, your common sense tells you, look, you're pulling something whose effective mass seems to be 5."
+    },
+    {
+      "start": 3545.18,
+      "end": 3546.18,
+      "text": "The answer is 2."
+    },
+    {
+      "start": 3546.18,
+      "end": 3551.5,
+      "text": "But let's get that systematically by using free body diagrams."
+    },
+    {
+      "start": 3551.5,
+      "end": 3553.5,
+      "text": "Now there are really 3 bodies here."
+    },
+    {
+      "start": 3553.5,
+      "end": 3556.5,
+      "text": "Block 1, block 2 and the rope connecting them."
+    },
+    {
+      "start": 3556.5,
+      "end": 3560.91,
+      "text": "Now in all these examples, this rope is..."
+    },
+    {
+      "start": 3563.29,
+      "end": 3565.29,
+      "text": "Assumed to be massless."
+    },
+    {
+      "start": 3565.29,
+      "end": 3567.29,
+      "text": "Now we know there is no thing called a massless rope."
+    },
+    {
+      "start": 3567.29,
+      "end": 3572.29,
+      "text": "But most ropes have a mass which may be negligible compared to the 2 blocks you're pulling."
+    },
+    {
+      "start": 3572.29,
+      "end": 3578.14,
+      "text": "So we'll take the idealized limit where the mass of the rope is 0."
+    },
+    {
+      "start": 3578.14,
+      "end": 3580.85,
+      "text": "So here is the deal."
+    },
+    {
+      "start": 3580.85,
+      "end": 3591.31,
+      "text": "3 kilograms is being pulled by the rope on the right with a force that I'm going to call T, which stands for tension."
+    },
+    {
+      "start": 3591.31,
+      "end": 3597.69,
+      "text": "The rope is being pulled backwards by this guy with T."
+    },
+    {
+      "start": 3597.69,
+      "end": 3599.69,
+      "text": "And what is the force on the other side?"
+    },
+    {
+      "start": 3599.69,
+      "end": 3604.76,
+      "text": "What should that be?"
+    },
+    {
+      "start": 3604.76,
+      "end": 3605.76,
+      "text": "Who said T?"
+    },
+    {
+      "start": 3605.76,
+      "end": 3609.53,
+      "text": "And why is it definitely T and not something else?"
+    },
+    {
+      "start": 3609.53,
+      "end": 3611.53,
+      "text": "What would happen if it's something else?"
+    },
+    {
+      "start": 3611.53,
+      "end": 3624.38,
+      "text": "It won't snap, but something else will be a problem."
+    },
+    {
+      "start": 3624.38,
+      "end": 3625.54,
+      "text": "Yes?"
+    },
+    {
+      "start": 3625.54,
+      "end": 3630.34,
+      "text": "Not only faster, what will be its acceleration?"
+    },
+    {
+      "start": 3630.34,
+      "end": 3635.1,
+      "text": "If the 2 forces don't cancel, you have a net force."
+    },
+    {
+      "start": 3635.1,
+      "end": 3640.38,
+      "text": "What are you going to divide by to get the acceleration?"
+    },
+    {
+      "start": 3640.38,
+      "end": 3641.38,
+      "text": "0, right?"
+    },
+    {
+      "start": 3641.38,
+      "end": 3644.38,
+      "text": "So massless body cannot have a net force on it because the acceleration of the rope cannot be a net force."
+    },
+    {
+      "start": 3644.38,
+      "end": 3645.38,
+      "text": "Right?"
+    },
+    {
+      "start": 3645.38,
+      "end": 3647.38,
+      "text": "The acceleration of the rope cannot be infinite."
+    },
+    {
+      "start": 3647.38,
+      "end": 3651.38,
+      "text": "In fact, it has to be some finite number, which is the acceleration of either of these 2 guys."
+    },
+    {
+      "start": 3651.38,
+      "end": 3659.02,
+      "text": "So massless bodies will always have, like a massless rope, equal and opposite forces on the 2 ends."
+    },
+    {
+      "start": 3659.02,
+      "end": 3661.02,
+      "text": "And that is called the tension on the rope."
+    },
+    {
+      "start": 3661.02,
+      "end": 3666.08,
+      "text": "So when you say the rope is under tension, being pulled from both sides by a certain force,"
+    },
+    {
+      "start": 3666.08,
+      "end": 3671.26,
+      "text": "the tension is not 0 just because this T and that T cancel."
+    },
+    {
+      "start": 3671.26,
+      "end": 3676.26,
+      "text": "It's true the net force is 0, but it doesn't mean you can ignore it."
+    },
+    {
+      "start": 3676.26,
+      "end": 3677.26,
+      "text": "Right?"
+    },
+    {
+      "start": 3677.26,
+      "end": 3682.49,
+      "text": "So when you say the rope is under tension, being pulled by my favorite animals, the elephants from both sides,"
+    },
+    {
+      "start": 3682.49,
+      "end": 3688.22,
+      "text": "by equal force, you don't find any consolation in the fact that these forces add up to 0."
+    },
+    {
+      "start": 3688.22,
+      "end": 3690.22,
+      "text": "You feel the pain."
+    },
+    {
+      "start": 3690.22,
+      "end": 3691.22,
+      "text": "That pain is what we..."
+    },
+    {
+      "start": 3691.22,
+      "end": 3693.83,
+      "text": "This gentleman doesn't agree."
+    },
+    {
+      "start": 3693.83,
+      "end": 3695.83,
+      "text": "One of you guys nodding your head."
+    },
+    {
+      "start": 3695.83,
+      "end": 3698.22,
+      "text": "You feel the pain, you agree?"
+    },
+    {
+      "start": 3698.22,
+      "end": 3699.22,
+      "text": "Okay."
+    },
+    {
+      "start": 3699.22,
+      "end": 3701.54,
+      "text": "That force is called the tension."
+    },
+    {
+      "start": 3701.54,
+      "end": 3705.54,
+      "text": "So whenever you're asked in a problem, what's the tension on the rope?"
+    },
+    {
+      "start": 3705.54,
+      "end": 3708.54,
+      "text": "You're looking for that equal and opposite forces acting at 2 ends of the rope."
+    },
+    {
+      "start": 3708.54,
+      "end": 3710.6,
+      "text": "We don't know what it is."
+    },
+    {
+      "start": 3710.6,
+      "end": 3711.6,
+      "text": "We'll give it a name."
+    },
+    {
+      "start": 3711.6,
+      "end": 3719.82,
+      "text": "But by linking that T to that T, you can also figure out the same T must be exerted on this one by Newton's third law."
+    },
+    {
+      "start": 3719.82,
+      "end": 3723.98,
+      "text": "Because if this block is the only one that could be pulling this rope with T,"
+    },
+    {
+      "start": 3723.98,
+      "end": 3727.98,
+      "text": "therefore the rope should be pulling the block with T in the other direction."
+    },
+    {
+      "start": 3727.98,
+      "end": 3729.98,
+      "text": "Then I got 10 Newtons here."
+    },
+    {
+      "start": 3729.98,
+      "end": 3735.87,
+      "text": "Now you can do F equals ma for the three different objects."
+    },
+    {
+      "start": 3735.87,
+      "end": 3739.87,
+      "text": "There's nothing to do here because the forces are 0, the mass is 0."
+    },
+    {
+      "start": 3739.87,
+      "end": 3741.87,
+      "text": "It doesn't tell you anything."
+    },
+    {
+      "start": 3741.87,
+      "end": 3745.32,
+      "text": "The first one tells you T equals 3a."
+    },
+    {
+      "start": 3745.32,
+      "end": 3751.38,
+      "text": "The other one tells you 10 minus T equals 2a."
+    },
+    {
+      "start": 3751.38,
+      "end": 3755.94,
+      "text": "Now again, we know what to do."
+    },
+    {
+      "start": 3755.94,
+      "end": 3758.94,
+      "text": "We add these numbers and we get 10 equals 5a."
+    },
+    {
+      "start": 3758.94,
+      "end": 3761.94,
+      "text": "Therefore, we find a equals 2."
+    },
+    {
+      "start": 3761.94,
+      "end": 3767.22,
+      "text": "Once you find a equals 2, you find T equals 6."
+    },
+    {
+      "start": 3767.22,
+      "end": 3771.07,
+      "text": "The tension on the rope is 6 Newtons."
+    },
+    {
+      "start": 3771.07,
+      "end": 3776.07,
+      "text": "Now this is very important because when you buy a rope, they'll tell you how much tension it can take before it'll snap."
+    },
+    {
+      "start": 3776.07,
+      "end": 3782.07,
+      "text": "If your plan is to accelerate a 3 kilogram mass with an acceleration of 2 meters per second,"
+    },
+    {
+      "start": 3782.07,
+      "end": 3787.07,
+      "text": "you better have a rope that can furnish that force and it can take the tension of 6 Newtons."
+    },
+    {
+      "start": 3787.07,
+      "end": 3794.6,
+      "text": "All right."
+    },
+    {
+      "start": 3794.6,
+      "end": 3796.89,
+      "text": "Now for the..."
+    },
+    {
+      "start": 3796.89,
+      "end": 3798.5,
+      "text": "Whoa."
+    },
+    {
+      "start": 3798.5,
+      "end": 3817.47,
+      "text": "Okay, I'm going to give the last class of problem, which is pretty interesting,"
+    },
+    {
+      "start": 3817.47,
+      "end": 3821.98,
+      "text": "which is what happens to you when you're in an elevator."
+    },
+    {
+      "start": 3821.98,
+      "end": 3830.66,
+      "text": "So here is the weighing machine and that's you standing on the elevator."
+    },
+    {
+      "start": 3830.66,
+      "end": 3832.79,
+      "text": "And we're going to ask,"
+    },
+    {
+      "start": 3832.79,
+      "end": 3836.94,
+      "text": "what's the needle showing at different times?"
+    },
+    {
+      "start": 3836.94,
+      "end": 3841.94,
+      "text": "First take the case in the elevator is in the ground floor of some building and completely at rest."
+    },
+    {
+      "start": 3841.94,
+      "end": 3846.63,
+      "text": "Then let's look at the spring."
+    },
+    {
+      "start": 3846.63,
+      "end": 3853.33,
+      "text": "The spring is getting squashed because you're pushing down and the floor is pushing up."
+    },
+    {
+      "start": 3853.33,
+      "end": 3858.65,
+      "text": "You're pushing down with the weight mg and the floor is going to be pushing up with weight mg"
+    },
+    {
+      "start": 3858.65,
+      "end": 3860.65,
+      "text": "because the spring is not going anywhere."
+    },
+    {
+      "start": 3860.65,
+      "end": 3868.94,
+      "text": "So the spring is being pushed by mg here and mg here."
+    },
+    {
+      "start": 3868.94,
+      "end": 3871.94,
+      "text": "Therefore, it'll compress by an amount x,"
+    },
+    {
+      "start": 3871.94,
+      "end": 3877.35,
+      "text": "which is equal to mg divided by the force constant of the spring."
+    },
+    {
+      "start": 3877.35,
+      "end": 3880.35,
+      "text": "By the way, that's the subtle thing people may not have realized."
+    },
+    {
+      "start": 3880.35,
+      "end": 3885.59,
+      "text": "Even in the case of this spring, when you pull it,"
+    },
+    {
+      "start": 3885.59,
+      "end": 3887.59,
+      "text": "if you pull it to the right by some force,"
+    },
+    {
+      "start": 3887.59,
+      "end": 3890.59,
+      "text": "remember the wall is pulling to the left with the same force."
+    },
+    {
+      "start": 3890.59,
+      "end": 3894.62,
+      "text": "So springs are always pushed or pulled on either side with the same force."
+    },
+    {
+      "start": 3894.62,
+      "end": 3896.62,
+      "text": "We focus on one because we are paying for it,"
+    },
+    {
+      "start": 3896.62,
+      "end": 3898.62,
+      "text": "but the wall is doing the opposite."
+    },
+    {
+      "start": 3898.62,
+      "end": 3900.62,
+      "text": "We don't pay any attention to that."
+    },
+    {
+      "start": 3900.62,
+      "end": 3902.62,
+      "text": "But you cannot have a spring pulled only at one side"
+    },
+    {
+      "start": 3902.62,
+      "end": 3904.62,
+      "text": "because then it'll then accelerate with infinite acceleration."
+    },
+    {
+      "start": 3904.62,
+      "end": 3909.07,
+      "text": "So this spring is getting squashed on either side"
+    },
+    {
+      "start": 3909.07,
+      "end": 3913.07,
+      "text": "and it'll be squashed by a certain amount of x that depends on your mass"
+    },
+    {
+      "start": 3913.07,
+      "end": 3915.07,
+      "text": "and that x will be turned into a motion of a needle"
+    },
+    {
+      "start": 3915.07,
+      "end": 3917.07,
+      "text": "and that'll read your mass."
+    },
+    {
+      "start": 3917.07,
+      "end": 3921.49,
+      "text": "Now what happens if the elevator is accelerating upwards"
+    },
+    {
+      "start": 3921.49,
+      "end": 3923.49,
+      "text": "with an acceleration a?"
+    },
+    {
+      "start": 3923.49,
+      "end": 3927.34,
+      "text": "That's the question."
+    },
+    {
+      "start": 3927.34,
+      "end": 3929.34,
+      "text": "Now the way I analyze it is I say,"
+    },
+    {
+      "start": 3929.34,
+      "end": 3933.63,
+      "text": "if I look at me and I write the forces on me,"
+    },
+    {
+      "start": 3933.63,
+      "end": 3935.63,
+      "text": "that is mg acting down,"
+    },
+    {
+      "start": 3935.63,
+      "end": 3938.78,
+      "text": "let me use w as the force constant"
+    },
+    {
+      "start": 3938.78,
+      "end": 3943.84,
+      "text": "as the symbol to represent the force exerted by the spring."
+    },
+    {
+      "start": 3943.84,
+      "end": 3947.87,
+      "text": "W minus mg is ma."
+    },
+    {
+      "start": 3947.87,
+      "end": 3951.63,
+      "text": "That is f equals ma."
+    },
+    {
+      "start": 3951.63,
+      "end": 3954.63,
+      "text": "When I was not accelerating and everything was at rest,"
+    },
+    {
+      "start": 3954.63,
+      "end": 3957.66,
+      "text": "ma was zero, w was mg,"
+    },
+    {
+      "start": 3957.66,
+      "end": 3959.66,
+      "text": "and w was the reading on the needle."
+    },
+    {
+      "start": 3959.66,
+      "end": 3961.98,
+      "text": "But if I'm accelerating,"
+    },
+    {
+      "start": 3961.98,
+      "end": 3963.98,
+      "text": "the force exerted by the spring"
+    },
+    {
+      "start": 3963.98,
+      "end": 3966.98,
+      "text": "and therefore the needle, the weighing machine reads,"
+    },
+    {
+      "start": 3966.98,
+      "end": 3971.19,
+      "text": "is m times g plus a."
+    },
+    {
+      "start": 3971.19,
+      "end": 3973.19,
+      "text": "That means when you're accelerating upwards,"
+    },
+    {
+      "start": 3973.19,
+      "end": 3975.19,
+      "text": "as the elevator picks up speed,"
+    },
+    {
+      "start": 3975.19,
+      "end": 3977.19,
+      "text": "the reading on the spring will be more"
+    },
+    {
+      "start": 3977.19,
+      "end": 3979.61,
+      "text": "and you will feel heavy."
+    },
+    {
+      "start": 3979.61,
+      "end": 3981.61,
+      "text": "You feel heavy and it reads more"
+    },
+    {
+      "start": 3981.61,
+      "end": 3983.61,
+      "text": "because the poor spring not only has to support you"
+    },
+    {
+      "start": 3983.61,
+      "end": 3985.61,
+      "text": "from falling through the floor,"
+    },
+    {
+      "start": 3985.61,
+      "end": 3988.61,
+      "text": "but also accelerate you counter to what gravity wants to do."
+    },
+    {
+      "start": 3988.61,
+      "end": 3991.15,
+      "text": "That's why it is g plus a."
+    },
+    {
+      "start": 3991.15,
+      "end": 3993.15,
+      "text": "So you picked up some speed,"
+    },
+    {
+      "start": 3993.15,
+      "end": 3995.15,
+      "text": "then you're coasting along at a steady speed,"
+    },
+    {
+      "start": 3995.15,
+      "end": 3998.54,
+      "text": "then a drops out and you weigh your normal self."
+    },
+    {
+      "start": 3998.54,
+      "end": 4000.54,
+      "text": "As you come to the top of the building,"
+    },
+    {
+      "start": 4000.54,
+      "end": 4002.54,
+      "text": "the elevator has to decelerate"
+    },
+    {
+      "start": 4002.54,
+      "end": 4004.95,
+      "text": "so that it loses its positive and negative forces"
+    },
+    {
+      "start": 4004.95,
+      "end": 4006.95,
+      "text": "and comes to rest."
+    },
+    {
+      "start": 4006.95,
+      "end": 4008.95,
+      "text": "So a will be negative"
+    },
+    {
+      "start": 4008.95,
+      "end": 4011.46,
+      "text": "and w, in fact, will be less than mg."
+    },
+    {
+      "start": 4011.46,
+      "end": 4013.46,
+      "text": "So you will feel weightless for a short time"
+    },
+    {
+      "start": 4013.46,
+      "end": 4015.46,
+      "text": "or you will feel your weight is little,"
+    },
+    {
+      "start": 4015.46,
+      "end": 4016.46,
+      "text": "then you come to rest."
+    },
+    {
+      "start": 4016.46,
+      "end": 4019.46,
+      "text": "Then the opposite happens on the way down."
+    },
+    {
+      "start": 4019.46,
+      "end": 4022.56,
+      "text": "Let me just briefly look at the ride on the way down."
+    },
+    {
+      "start": 4022.56,
+      "end": 4024.56,
+      "text": "As you start at the top and go down,"
+    },
+    {
+      "start": 4024.56,
+      "end": 4026.56,
+      "text": "your acceleration is negative."
+    },
+    {
+      "start": 4026.56,
+      "end": 4029.59,
+      "text": "Remember, you've got to keep track of the sign of acceleration."
+    },
+    {
+      "start": 4029.59,
+      "end": 4031.59,
+      "text": "So if you're picking up speed towards the ground,"
+    },
+    {
+      "start": 4031.59,
+      "end": 4032.59,
+      "text": "a is negative,"
+    },
+    {
+      "start": 4032.59,
+      "end": 4034.59,
+      "text": "so it would be g plus a, but a is a negative number."
+    },
+    {
+      "start": 4034.59,
+      "end": 4038.59,
+      "text": "So let me write it as g minus the absolute value of a."
+    },
+    {
+      "start": 4038.59,
+      "end": 4041.88,
+      "text": "And you can see that if a was equal to g,"
+    },
+    {
+      "start": 4041.88,
+      "end": 4046.7,
+      "text": "your downward acceleration is that of gravity,"
+    },
+    {
+      "start": 4046.7,
+      "end": 4049.7,
+      "text": "namely the cable has snapped in the elevator,"
+    },
+    {
+      "start": 4049.7,
+      "end": 4051.7,
+      "text": "then you don't feel any weight."
+    },
+    {
+      "start": 4051.7,
+      "end": 4057.34,
+      "text": "You don't feel any weight because your weight is the opposition"
+    },
+    {
+      "start": 4057.34,
+      "end": 4059.34,
+      "text": "you get to falling through the floor,"
+    },
+    {
+      "start": 4059.34,
+      "end": 4062.34,
+      "text": "but if the floor is giving way and you're just falling freely,"
+    },
+    {
+      "start": 4062.34,
+      "end": 4063.34,
+      "text": "you feel weightless."
+    },
+    {
+      "start": 4063.34,
+      "end": 4065.82,
+      "text": "So it's wrong to think that you feel weightless"
+    },
+    {
+      "start": 4065.82,
+      "end": 4067.82,
+      "text": "because you've escaped the pull of gravity."
+    },
+    {
+      "start": 4068.85,
+      "end": 4070.85,
+      "text": "We all know that in the falling elevator,"
+    },
+    {
+      "start": 4070.85,
+      "end": 4072.85,
+      "text": "you've definitely not escaped the pull of gravity."
+    },
+    {
+      "start": 4072.85,
+      "end": 4075.85,
+      "text": "It's going to catch up with you in a few seconds."
+    },
+    {
+      "start": 4075.85,
+      "end": 4077.85,
+      "text": "Likewise, when you're in outer space,"
+    },
+    {
+      "start": 4077.85,
+      "end": 4079.85,
+      "text": "when you're orbiting the Earth,"
+    },
+    {
+      "start": 4079.85,
+      "end": 4081.85,
+      "text": "people are always floating around in these space stations."
+    },
+    {
+      "start": 4081.85,
+      "end": 4083.85,
+      "text": "They have not escaped the pull of gravity either."
+    },
+    {
+      "start": 4083.85,
+      "end": 4085.85,
+      "text": "They just stopped fighting it."
+    },
+    {
+      "start": 4085.85,
+      "end": 4088.14,
+      "text": "If you escape the pull of gravity,"
+    },
+    {
+      "start": 4088.14,
+      "end": 4091.78,
+      "text": "your spaceship will be off, won't be orbiting the Earth."
+    },
+    {
+      "start": 4091.78,
+      "end": 4094.78,
+      "text": "So anyway, I will return to this next time."
+    },
+    {
+      "start": 4094.78,
+      "end": 4096.97,
+      "text": "So do your problems."
+    },
+    {
+      "start": 4096.97,
+      "end": 4097.97,
+      "text": "Now, there's quite a few problems."
+    },
+    {
+      "start": 4097.97,
+      "end": 4098.97,
+      "text": "You should start them."
+    },
+    {
+      "start": 4098.97,
+      "end": 4101.1,
+      "text": "Right away."
+    }
+  ]
+}

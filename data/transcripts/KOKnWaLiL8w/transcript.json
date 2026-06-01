@@ -1,0 +1,7007 @@
+{
+  "video_id": "KOKnWaLiL8w",
+  "language": "en",
+  "duration_sec": 4401.0,
+  "segments": [
+    {
+      "start": 0.34,
+      "end": 8.83,
+      "text": "This is a first part of a year-long course introducing you to all the major ideas in physics,"
+    },
+    {
+      "start": 9.37,
+      "end": 18.14,
+      "text": "starting from Galileo and Newton right up to the big revolutions of the last century,"
+    },
+    {
+      "start": 18.77,
+      "end": 21.19,
+      "text": "which was on relativity and quantum mechanics."
+    },
+    {
+      "start": 23.19,
+      "end": 26.35,
+      "text": "The target audience for this course is really very broad."
+    },
+    {
+      "start": 26.43,
+      "end": 30.39,
+      "text": "In fact, I've always been surprised at how broad the representation is."
+    },
+    {
+      "start": 30.39,
+      "end": 32.73,
+      "text": "So I don't know what your major is."
+    },
+    {
+      "start": 33.41,
+      "end": 35.13,
+      "text": "I don't know what you're going to do later."
+    },
+    {
+      "start": 36.28,
+      "end": 40.04,
+      "text": "So I picked the topics that all of us in physics find fascinating."
+    },
+    {
+      "start": 40.97,
+      "end": 44.58,
+      "text": "Some may or may not be useful, but you just don't know."
+    },
+    {
+      "start": 46.28,
+      "end": 48.0,
+      "text": "Some of you are probably going to be doctors,"
+    },
+    {
+      "start": 49.52,
+      "end": 53.7,
+      "text": "and you don't know why I'm going to do special relativity or quantum mechanics."
+    },
+    {
+      "start": 54.98,
+      "end": 57.26,
+      "text": "But you don't know when it'll come in handy."
+    },
+    {
+      "start": 57.5,
+      "end": 62.3,
+      "text": "If you're a doctor and you've got a patient who's running away from you at the speed of light,"
+    },
+    {
+      "start": 62.76,
+      "end": 64.4,
+      "text": "you'll know."
+    },
+    {
+      "start": 64.72,
+      "end": 66.28,
+      "text": "You'll know what to do."
+    },
+    {
+      "start": 66.78,
+      "end": 73.08,
+      "text": "Or if you're a pediatrician with a really small patient who will not sit still,"
+    },
+    {
+      "start": 73.68,
+      "end": 77.68,
+      "text": "it's because the laws of quantum mechanics don't allow an object to have a definite..."
+    },
+    {
+      "start": 78.48,
+      "end": 80.28,
+      "text": "cannot have a definite position and momentum."
+    },
+    {
+      "start": 81.64,
+      "end": 86.63,
+      "text": "So these are all things you just don't know when they will come in handy."
+    },
+    {
+      "start": 87.03,
+      "end": 93.18,
+      "text": "And I teach them because these are the things that turned me on and got me going into physics."
+    },
+    {
+      "start": 93.48,
+      "end": 95.58,
+      "text": "And whether or not you go into physics,"
+    },
+    {
+      "start": 96.18,
+      "end": 102.68,
+      "text": "you certainly learn about the biggest and most interesting revolutions right up to present-day physics."
+    },
+    {
+      "start": 103.67,
+      "end": 107.2,
+      "text": "All right, so that's what the subject matter is going to be."
+    },
+    {
+      "start": 108.15,
+      "end": 111.95,
+      "text": "And I'm going to tell you a little bit about how the course is organized."
+    },
+    {
+      "start": 113.1,
+      "end": 116.6,
+      "text": "First thing is this year, it's going to be taped."
+    },
+    {
+      "start": 116.7,
+      "end": 119.2,
+      "text": "You can see some people in the back with cameras."
+    },
+    {
+      "start": 120.35,
+      "end": 124.55,
+      "text": "That's part of an experimental pilot program funded by the Hewlett Foundation."
+    },
+    {
+      "start": 125.25,
+      "end": 127.45,
+      "text": "And at some point, they will decide,"
+    },
+    {
+      "start": 127.75,
+      "end": 130.25,
+      "text": "what they will do with these lectures."
+    },
+    {
+      "start": 130.35,
+      "end": 135.08,
+      "text": "Most probably they'll post them somewhere so people elsewhere can have the benefit"
+    },
+    {
+      "start": 135.48,
+      "end": 138.48,
+      "text": "of what you have sitting in the Yale classroom."
+    },
+    {
+      "start": 139.43,
+      "end": 141.93,
+      "text": "So I've been told that from now on,"
+    },
+    {
+      "start": 142.03,
+      "end": 145.83,
+      "text": "we just ignore the camera and do business as usual."
+    },
+    {
+      "start": 147.11,
+      "end": 148.61,
+      "text": "Nothing's going to be changed."
+    },
+    {
+      "start": 149.31,
+      "end": 152.91,
+      "text": "I tried to negotiate a laugh track so that the jokes don't work,"
+    },
+    {
+      "start": 153.01,
+      "end": 154.41,
+      "text": "we can superpose some laughter."
+    },
+    {
+      "start": 154.71,
+      "end": 158.61,
+      "text": "I was told, no, I just got to deal with it as it happens."
+    },
+    {
+      "start": 158.81,
+      "end": 162.43,
+      "text": "So it's going to be, it's like one of the reality shows"
+    },
+    {
+      "start": 162.53,
+      "end": 164.93,
+      "text": "where things are going to be as they are."
+    },
+    {
+      "start": 165.03,
+      "end": 171.06,
+      "text": "And hopefully after a while, we'll learn to act and behave normally"
+    },
+    {
+      "start": 171.16,
+      "end": 173.16,
+      "text": "and not worry about its presence."
+    },
+    {
+      "start": 174.69,
+      "end": 178.24,
+      "text": "Then, coming to the rest of the details of the course,"
+    },
+    {
+      "start": 178.34,
+      "end": 181.44,
+      "text": "by the way, there are more details on the website that I posted"
+    },
+    {
+      "start": 181.54,
+      "end": 183.14,
+      "text": "that was given to me by the university"
+    },
+    {
+      "start": 183.24,
+      "end": 185.94,
+      "text": "if you want to know more about what all this is about."
+    },
+    {
+      "start": 187.88,
+      "end": 190.48,
+      "text": "The course organization is fairly simple."
+    },
+    {
+      "start": 190.58,
+      "end": 191.38,
+      "text": "We're going to meet Monday,"
+    },
+    {
+      "start": 191.38,
+      "end": 195.87,
+      "text": "and Wednesday in this room, 1130 to 1245."
+    },
+    {
+      "start": 197.02,
+      "end": 200.32,
+      "text": "I will give you some problems to do on Wednesday,"
+    },
+    {
+      "start": 201.4,
+      "end": 202.8,
+      "text": "and I'll post them on the website."
+    },
+    {
+      "start": 202.9,
+      "end": 206.3,
+      "text": "So you guys should get used to going to the classes website."
+    },
+    {
+      "start": 206.4,
+      "end": 208.9,
+      "text": "I'm really, really dependent on that now."
+    },
+    {
+      "start": 209.4,
+      "end": 210.7,
+      "text": "Finally learned how to use it."
+    },
+    {
+      "start": 211.0,
+      "end": 213.4,
+      "text": "I will use that to post information."
+    },
+    {
+      "start": 214.8,
+      "end": 217.4,
+      "text": "Maybe once in a while, send email to the whole class."
+    },
+    {
+      "start": 217.5,
+      "end": 221.8,
+      "text": "If you want to get those emails, you got to sign up for the course,"
+    },
+    {
+      "start": 221.8,
+      "end": 224.9,
+      "text": "because I push a button and it goes to anybody who's signed up there."
+    },
+    {
+      "start": 226.68,
+      "end": 229.18,
+      "text": "The homework will be given on Wednesday,"
+    },
+    {
+      "start": 229.28,
+      "end": 233.28,
+      "text": "and it's due before class the following Wednesday."
+    },
+    {
+      "start": 233.38,
+      "end": 239.4,
+      "text": "And let me introduce you to our head TA, Mara Daniel,"
+    },
+    {
+      "start": 239.5,
+      "end": 242.98,
+      "text": "who's recently Mara Barabas."
+    },
+    {
+      "start": 243.08,
+      "end": 245.1,
+      "text": "Right."
+    },
+    {
+      "start": 245.2,
+      "end": 247.6,
+      "text": "She's really come a little..."
+    },
+    {
+      "start": 247.7,
+      "end": 254.28,
+      "text": "Okay, so Mara's going to be the person who will see you after class,"
+    },
+    {
+      "start": 254.28,
+      "end": 259.13,
+      "text": "and she will take the problem sets that you have submitted before class,"
+    },
+    {
+      "start": 259.23,
+      "end": 262.13,
+      "text": "and she'll give you the graded ones from after class."
+    },
+    {
+      "start": 262.23,
+      "end": 264.13,
+      "text": "Okay, that will be sorted out."
+    },
+    {
+      "start": 264.23,
+      "end": 265.63,
+      "text": "It will be up there."
+    },
+    {
+      "start": 265.73,
+      "end": 269.13,
+      "text": "So you should drop the homework before you come into class,"
+    },
+    {
+      "start": 269.23,
+      "end": 272.63,
+      "text": "rather than furiously working on it during class."
+    },
+    {
+      "start": 272.73,
+      "end": 276.63,
+      "text": "And the solutions will be posted the same afternoon."
+    },
+    {
+      "start": 276.73,
+      "end": 281.43,
+      "text": "So there is not much point in giving a homework that's late."
+    },
+    {
+      "start": 281.53,
+      "end": 285.77,
+      "text": "But once in a while, you know, you will come up with a reason that I just cannot argue."
+    },
+    {
+      "start": 286.17,
+      "end": 292.63,
+      "text": "You got married, you're getting a transplant, whatever it is, that's fine."
+    },
+    {
+      "start": 292.73,
+      "end": 295.63,
+      "text": "You got a transplant, I want to see the old body part."
+    },
+    {
+      "start": 295.73,
+      "end": 299.95,
+      "text": "You got married, I want to see your spouse."
+    },
+    {
+      "start": 300.05,
+      "end": 303.45,
+      "text": "If something happened to a grandparent, I'm counting up to four."
+    },
+    {
+      "start": 303.55,
+      "end": 306.05,
+      "text": "I don't get suspicious, go five, six, seven, eight."
+    },
+    {
+      "start": 306.15,
+      "end": 309.35,
+      "text": "I will have to look at the family tree."
+    },
+    {
+      "start": 309.45,
+      "end": 313.76,
+      "text": "But you know, look, any reasonable excuse will be entertained."
+    },
+    {
+      "start": 313.86,
+      "end": 316.79,
+      "text": "And relative importance,"
+    },
+    {
+      "start": 317.29,
+      "end": 322.47,
+      "text": "given to these different things is 20% for your homework,"
+    },
+    {
+      "start": 322.57,
+      "end": 325.87,
+      "text": "30% for the midterm, which will be sometime in October,"
+    },
+    {
+      "start": 325.97,
+      "end": 328.07,
+      "text": "and 50% for the final."
+    },
+    {
+      "start": 328.17,
+      "end": 330.67,
+      "text": "That will be the weighted average."
+    },
+    {
+      "start": 330.77,
+      "end": 334.69,
+      "text": "But I have another plan called the amnesty plan,"
+    },
+    {
+      "start": 334.79,
+      "end": 337.99,
+      "text": "in which I also compare just your final grade,"
+    },
+    {
+      "start": 338.09,
+      "end": 339.89,
+      "text": "what you did in the final exam."
+    },
+    {
+      "start": 339.99,
+      "end": 342.69,
+      "text": "And whichever is higher of the two is what I will take"
+    },
+    {
+      "start": 342.79,
+      "end": 346.03,
+      "text": "to determine your overall course grade."
+    },
+    {
+      "start": 346.13,
+      "end": 348.9,
+      "text": "This is something I used to announce near the end,"
+    },
+    {
+      "start": 348.9,
+      "end": 352.8,
+      "text": "but then some people felt that it's not fair not to know this from the beginning."
+    },
+    {
+      "start": 352.9,
+      "end": 358.56,
+      "text": "So I'm telling you from the beginning, but don't dream and think that somehow"
+    },
+    {
+      "start": 358.66,
+      "end": 363.26,
+      "text": "the final is going to be so much different from your regular day-to-day performance,"
+    },
+    {
+      "start": 363.36,
+      "end": 366.06,
+      "text": "but it will give you some reason to live after the midterm."
+    },
+    {
+      "start": 366.16,
+      "end": 369.76,
+      "text": "You feel that is hope, I can change everything overnight."
+    },
+    {
+      "start": 369.86,
+      "end": 371.06,
+      "text": "It does happen."
+    },
+    {
+      "start": 371.16,
+      "end": 375.66,
+      "text": "I put that in for a reason, because sometimes some of you have not taken a physics course,"
+    },
+    {
+      "start": 375.76,
+      "end": 379.36,
+      "text": "and you don't know how to do well in physics, and slowly you catch on."
+    },
+    {
+      "start": 379.66,
+      "end": 381.26,
+      "text": "But sometimes it's the final exam."
+    },
+    {
+      "start": 381.36,
+      "end": 383.56,
+      "text": "You crack the code, you know how to do well."
+    },
+    {
+      "start": 383.66,
+      "end": 387.27,
+      "text": "As far as I'm concerned, that's just fine."
+    },
+    {
+      "start": 387.37,
+      "end": 392.77,
+      "text": "If at the end of the semester you take a three-hour exam in a closed environment,"
+    },
+    {
+      "start": 392.87,
+      "end": 396.67,
+      "text": "and you answer everything, I don't care what you did in your homework or your midterm."
+    },
+    {
+      "start": 396.77,
+      "end": 397.77,
+      "text": "That's not relevant."
+    },
+    {
+      "start": 397.87,
+      "end": 400.79,
+      "text": "So that's how the grading will be done."
+    },
+    {
+      "start": 400.89,
+      "end": 403.59,
+      "text": "We have Mara's group of TAs."
+    },
+    {
+      "start": 403.69,
+      "end": 408.42,
+      "text": "She is the head TA, and she's the one you should write to whenever you have a problem."
+    },
+    {
+      "start": 408.52,
+      "end": 411.32,
+      "text": "Then we also have two faculty members."
+    },
+    {
+      "start": 411.32,
+      "end": 415.88,
+      "text": "One is our postdoctoral fellow, Mark Caprio."
+    },
+    {
+      "start": 415.98,
+      "end": 423.36,
+      "text": "He will have a discussion section on Tuesdays between 1 and 2 in Sloan Lab."
+    },
+    {
+      "start": 423.46,
+      "end": 425.76,
+      "text": "Steve Fuloneto, I don't know if Steve is here or not."
+    },
+    {
+      "start": 425.86,
+      "end": 428.06,
+      "text": "That's Steve, our new assistant professor."
+    },
+    {
+      "start": 428.16,
+      "end": 434.32,
+      "text": "He will have a section on Tuesday night in Dunham Lab, room 220."
+    },
+    {
+      "start": 434.42,
+      "end": 437.92,
+      "text": "Tuesday night is the night when you people realize homework is due on Wednesday."
+    },
+    {
+      "start": 438.02,
+      "end": 441.02,
+      "text": "We know that, so he will be there to comfort you,"
+    },
+    {
+      "start": 441.12,
+      "end": 442.22,
+      "text": "and give you some advice."
+    },
+    {
+      "start": 442.42,
+      "end": 445.27,
+      "text": "Whatever help you need."
+    },
+    {
+      "start": 445.37,
+      "end": 448.07,
+      "text": "All right, my own office hours, I'm not determined yet."
+    },
+    {
+      "start": 448.17,
+      "end": 450.77,
+      "text": "I'll have to find out when it is good for you."
+    },
+    {
+      "start": 450.87,
+      "end": 455.32,
+      "text": "I used to, you know, I live and work out of Sloan Lab up on the hill,"
+    },
+    {
+      "start": 455.42,
+      "end": 458.62,
+      "text": "and it was easy to have office hours before or after class."
+    },
+    {
+      "start": 458.72,
+      "end": 460.92,
+      "text": "But now you have to make a special trip."
+    },
+    {
+      "start": 461.02,
+      "end": 463.12,
+      "text": "So just give me a little bit of time to find out,"
+    },
+    {
+      "start": 463.22,
+      "end": 467.12,
+      "text": "maybe by soliciting email responses from you,"
+    },
+    {
+      "start": 467.22,
+      "end": 469.72,
+      "text": "what would be a good time for my office hours."
+    },
+    {
+      "start": 469.82,
+      "end": 473.52,
+      "text": "But for any procedural things like, you know, this problem set was not great,"
+    },
+    {
+      "start": 473.52,
+      "end": 475.92,
+      "text": "or I didn't write it properly and so on,"
+    },
+    {
+      "start": 476.02,
+      "end": 479.55,
+      "text": "there's no point emailing me because I'm going to send it to Mara anyway."
+    },
+    {
+      "start": 479.65,
+      "end": 483.77,
+      "text": "So directly deal with the powers that be."
+    },
+    {
+      "start": 483.87,
+      "end": 491.02,
+      "text": "Okay, finally, I want to give you some tips on how to do well in this course,"
+    },
+    {
+      "start": 491.12,
+      "end": 494.13,
+      "text": "and what attitude you should have."
+    },
+    {
+      "start": 494.23,
+      "end": 498.23,
+      "text": "First advice is you should come to the lectures."
+    },
+    {
+      "start": 498.33,
+      "end": 499.73,
+      "text": "It's not self-serving."
+    },
+    {
+      "start": 499.83,
+      "end": 503.72,
+      "text": "It's not so much for my benefit."
+    },
+    {
+      "start": 503.82,
+      "end": 506.62,
+      "text": "I think there's something useful about hearing the subject."
+    },
+    {
+      "start": 506.72,
+      "end": 510.33,
+      "text": "It's not something that you can just present it once orally."
+    },
+    {
+      "start": 510.43,
+      "end": 515.13,
+      "text": "Secondly, the book, you can see one of you had a book here."
+    },
+    {
+      "start": 515.23,
+      "end": 523.8,
+      "text": "It's about 1,100 pages, and when I learned physics, it was like 300 pages."
+    },
+    {
+      "start": 523.9,
+      "end": 528.8,
+      "text": "Now I look around this room, I don't see anybody whose head is three times bigger than mine."
+    },
+    {
+      "start": 528.9,
+      "end": 531.8,
+      "text": "So I know that you cannot digest everything the books have."
+    },
+    {
+      "start": 531.9,
+      "end": 536.81,
+      "text": "So I have to take out what I think is a really essential part and cover that in the lecture."
+    },
+    {
+      "start": 536.91,
+      "end": 538.11,
+      "text": "So you come to class."
+    },
+    {
+      "start": 538.21,
+      "end": 539.31,
+      "text": "Find out what's in and what's not in."
+    },
+    {
+      "start": 539.51,
+      "end": 543.31,
+      "text": "If you don't do that, it's a danger you will learn something you don't have to,"
+    },
+    {
+      "start": 543.41,
+      "end": 546.75,
+      "text": "and we don't want that."
+    },
+    {
+      "start": 546.85,
+      "end": 548.75,
+      "text": "So that's why you come to class."
+    },
+    {
+      "start": 548.85,
+      "end": 553.88,
+      "text": "Second thing, most important thing for doing well in physics is to do the homework."
+    },
+    {
+      "start": 553.98,
+      "end": 559.42,
+      "text": "The 20% given to the homework is not a real measure of how important it is."
+    },
+    {
+      "start": 559.52,
+      "end": 564.1,
+      "text": "Homework is when you really figure out how much you know and don't know."
+    },
+    {
+      "start": 564.2,
+      "end": 567.32,
+      "text": "If you watch me do the thing on the blackboard, it looks very reasonable."
+    },
+    {
+      "start": 567.42,
+      "end": 572.32,
+      "text": "It looks like you can do it, but the only way you're going to find out is when you actually do it."
+    },
+    {
+      "start": 572.52,
+      "end": 574.35,
+      "text": "Deal with the problem."
+    },
+    {
+      "start": 574.45,
+      "end": 576.35,
+      "text": "That's the only time you're going to find out."
+    },
+    {
+      "start": 576.45,
+      "end": 580.54,
+      "text": "So I ask you to do the problems as and when they are posted."
+    },
+    {
+      "start": 580.64,
+      "end": 584.54,
+      "text": "So if you post it on Wednesday, it's to cover the material for that week,"
+    },
+    {
+      "start": 584.64,
+      "end": 589.83,
+      "text": "then you should attempt it as quickly as possible because I'm going to assume you've done the problems"
+    },
+    {
+      "start": 589.93,
+      "end": 593.15,
+      "text": "when you come for the next few lectures."
+    },
+    {
+      "start": 593.25,
+      "end": 598.7,
+      "text": "And in doing the homework, it is perfectly okay to work in groups."
+    },
+    {
+      "start": 598.8,
+      "end": 600.7,
+      "text": "You don't have to do it for yourself."
+    },
+    {
+      "start": 600.8,
+      "end": 602.7,
+      "text": "That's not how physics is done."
+    },
+    {
+      "start": 602.7,
+      "end": 606.6,
+      "text": "I'm now writing a paper with two other people that are my experimental colleagues"
+    },
+    {
+      "start": 606.7,
+      "end": 610.6,
+      "text": "who write papers with 400 other people, maybe even 1,000 other people."
+    },
+    {
+      "start": 610.7,
+      "end": 613.6,
+      "text": "When they do the big collider experiments in Geneva and Fermilab,"
+    },
+    {
+      "start": 613.7,
+      "end": 616.6,
+      "text": "collaborations can run into hundreds."
+    },
+    {
+      "start": 616.7,
+      "end": 619.6,
+      "text": "So it's perfectly okay to be a part of a collaboration,"
+    },
+    {
+      "start": 619.7,
+      "end": 623.11,
+      "text": "but you've got to make sure that you're pulling your weight."
+    },
+    {
+      "start": 623.21,
+      "end": 626.11,
+      "text": "You've got to make sure that if you explain to others how to do this problem,"
+    },
+    {
+      "start": 626.21,
+      "end": 632.75,
+      "text": "then somebody else contributed something else, but you know what everybody contributed in the end."
+    },
+    {
+      "start": 632.75,
+      "end": 635.84,
+      "text": "So the game is not just to somehow or other get the solution to the problem set,"
+    },
+    {
+      "start": 635.94,
+      "end": 637.84,
+      "text": "but to fully understand how it's done."
+    },
+    {
+      "start": 637.94,
+      "end": 640.35,
+      "text": "And the TAs will be there to help you."
+    },
+    {
+      "start": 640.45,
+      "end": 645.35,
+      "text": "Every day there's going to be a TA in the undergraduate lounge."
+    },
+    {
+      "start": 645.45,
+      "end": 647.51,
+      "text": "I would urge you to use that."
+    },
+    {
+      "start": 647.61,
+      "end": 650.51,
+      "text": "That's a beautiful new lounge that the Provost's office allowed us to build"
+    },
+    {
+      "start": 650.61,
+      "end": 654.51,
+      "text": "for physicists and chemists, whoever happens to be in the building."
+    },
+    {
+      "start": 654.61,
+      "end": 659.9,
+      "text": "If you go there on the third floor of Sloan, you may run into other people like you"
+    },
+    {
+      "start": 660.0,
+      "end": 661.9,
+      "text": "who are trying to work on problems."
+    },
+    {
+      "start": 662.0,
+      "end": 663.9,
+      "text": "You may run into upper-class students."
+    },
+    {
+      "start": 664.0,
+      "end": 665.8,
+      "text": "You may run into advanced students."
+    },
+    {
+      "start": 665.9,
+      "end": 667.8,
+      "text": "You may run into your TA."
+    },
+    {
+      "start": 667.9,
+      "end": 669.8,
+      "text": "So that's a good climate that there are coffee machines,"
+    },
+    {
+      "start": 669.9,
+      "end": 671.8,
+      "text": "and there are lounge sofas and everything else,"
+    },
+    {
+      "start": 671.9,
+      "end": 673.8,
+      "text": "there are computers, there are printers."
+    },
+    {
+      "start": 673.9,
+      "end": 675.8,
+      "text": "So it's a good lounge."
+    },
+    {
+      "start": 675.9,
+      "end": 678.8,
+      "text": "And I think if you go there one day a week to do your problem sets,"
+    },
+    {
+      "start": 678.9,
+      "end": 680.8,
+      "text": "or more often, that's a good meeting place."
+    },
+    {
+      "start": 680.9,
+      "end": 683.47,
+      "text": "I recommend that."
+    },
+    {
+      "start": 683.57,
+      "end": 686.85,
+      "text": "The final piece of advice, this is very important,"
+    },
+    {
+      "start": 686.95,
+      "end": 689.88,
+      "text": "so please pay attention to this,"
+    },
+    {
+      "start": 689.98,
+      "end": 694.88,
+      "text": "which is I ask you not to talk to your neighbors during lecture."
+    },
+    {
+      "start": 695.08,
+      "end": 697.14,
+      "text": "Now this looks like a very innocuous thing,"
+    },
+    {
+      "start": 697.24,
+      "end": 701.14,
+      "text": "but you will find out it's the only thing that really gets my back up."
+    },
+    {
+      "start": 701.24,
+      "end": 703.14,
+      "text": "Most of the time I don't really care."
+    },
+    {
+      "start": 703.24,
+      "end": 705.14,
+      "text": "I'm very liberal."
+    },
+    {
+      "start": 705.24,
+      "end": 707.14,
+      "text": "But this disturbs me because I'm looking at you."
+    },
+    {
+      "start": 707.24,
+      "end": 712.14,
+      "text": "I'm trying to see from your reaction how much of my lecture you're following."
+    },
+    {
+      "start": 712.24,
+      "end": 716.14,
+      "text": "And then it's very distracting when people are talking."
+    },
+    {
+      "start": 717.04,
+      "end": 718.94,
+      "text": "So please don't do that."
+    },
+    {
+      "start": 719.04,
+      "end": 723.22,
+      "text": "If you talk, I'm going to assume you're talking about me."
+    },
+    {
+      "start": 723.32,
+      "end": 726.22,
+      "text": "If you laugh, I'm going to assume you're laughing at me."
+    },
+    {
+      "start": 726.22,
+      "end": 729.12,
+      "text": "Let's make that, that's not really what I think,"
+    },
+    {
+      "start": 729.22,
+      "end": 731.12,
+      "text": "but that's how disturbing it is when people talk."
+    },
+    {
+      "start": 731.22,
+      "end": 738.44,
+      "text": "And very nice students who do not realize this often disrupt my line of thinking."
+    },
+    {
+      "start": 738.54,
+      "end": 740.44,
+      "text": "So I ask you to keep that to a minimum."
+    },
+    {
+      "start": 740.54,
+      "end": 743.44,
+      "text": "Once in a while you'll have to talk to your neighbor and say,"
+    },
+    {
+      "start": 743.54,
+      "end": 746.44,
+      "text": "can you please pass me my pacemaker that fell down?"
+    },
+    {
+      "start": 746.54,
+      "end": 748.7,
+      "text": "That's fine."
+    },
+    {
+      "start": 748.8,
+      "end": 749.7,
+      "text": "Then you go back to your business."
+    },
+    {
+      "start": 749.8,
+      "end": 752.46,
+      "text": "But don't do too much of that."
+    },
+    {
+      "start": 752.56,
+      "end": 757.85,
+      "text": "Finally, there is this ancient issue about sleeping in the class."
+    },
+    {
+      "start": 757.95,
+      "end": 759.85,
+      "text": "And the view is it's just fine."
+    },
+    {
+      "start": 759.95,
+      "end": 761.85,
+      "text": "I know you guys need the rest."
+    },
+    {
+      "start": 761.95,
+      "end": 766.85,
+      "text": "And interestingly, the best sleepers are in the first couple of rows."
+    },
+    {
+      "start": 766.95,
+      "end": 767.85,
+      "text": "I haven't met you guys."
+    },
+    {
+      "start": 767.95,
+      "end": 768.85,
+      "text": "It's not personal."
+    },
+    {
+      "start": 768.95,
+      "end": 772.85,
+      "text": "I have found some people really have to come to the first or second row"
+    },
+    {
+      "start": 772.95,
+      "end": 777.26,
+      "text": "because they claim that if they don't hear me, they cannot really go to sleep."
+    },
+    {
+      "start": 777.36,
+      "end": 781.26,
+      "text": "Now that was true in Sloan, but I think Luce has got very good acoustics,"
+    },
+    {
+      "start": 781.36,
+      "end": 783.49,
+      "text": "so you can stretch out in the back."
+    },
+    {
+      "start": 783.59,
+      "end": 787.87,
+      "text": "But my only criterion is if you talk in your sleep,"
+    },
+    {
+      "start": 787.87,
+      "end": 791.57,
+      "text": "that's not allowed because talking is not allowed."
+    },
+    {
+      "start": 791.67,
+      "end": 795.57,
+      "text": "Next, if you're going to sleep, I ask you to sit between two non-sleepers."
+    },
+    {
+      "start": 795.67,
+      "end": 800.05,
+      "text": "Sometimes what happens, the whole row will topple over."
+    },
+    {
+      "start": 800.15,
+      "end": 801.05,
+      "text": "We don't want the domino effect."
+    },
+    {
+      "start": 801.15,
+      "end": 803.05,
+      "text": "Now it's going to be captured on tape,"
+    },
+    {
+      "start": 803.15,
+      "end": 806.05,
+      "text": "and that's going to be really bad for my reputation."
+    },
+    {
+      "start": 806.15,
+      "end": 811.72,
+      "text": "So spread yourself around other people."
+    },
+    {
+      "start": 811.82,
+      "end": 816.72,
+      "text": "All right, so that's it in terms of class, logistics, and everything."
+    },
+    {
+      "start": 816.82,
+      "end": 819.72,
+      "text": "I'm going to start going into the physics proper."
+    },
+    {
+      "start": 820.21,
+      "end": 823.11,
+      "text": "I will try to finish every lecture on time,"
+    },
+    {
+      "start": 823.21,
+      "end": 827.11,
+      "text": "but sometimes I'm in the middle of a sentence or in the middle of a derivation."
+    },
+    {
+      "start": 827.21,
+      "end": 829.11,
+      "text": "I may have to go over by a couple of minutes."
+    },
+    {
+      "start": 829.21,
+      "end": 832.11,
+      "text": "There's no need to shuffle your feet and move stuff around."
+    },
+    {
+      "start": 832.21,
+      "end": 834.11,
+      "text": "I know what time it is."
+    },
+    {
+      "start": 834.21,
+      "end": 837.11,
+      "text": "I also want to get out like you guys, but let me finish something."
+    },
+    {
+      "start": 837.21,
+      "end": 839.11,
+      "text": "Other days, I may finish a few minutes before time."
+    },
+    {
+      "start": 839.21,
+      "end": 844.65,
+      "text": "That's because the ideas of physics don't fall into 75-minute segments,"
+    },
+    {
+      "start": 844.75,
+      "end": 847.65,
+      "text": "and sometimes they spill over a little bit."
+    },
+    {
+      "start": 847.75,
+      "end": 850.65,
+      "text": "Also, I'm used to teaching this course three times a week,"
+    },
+    {
+      "start": 850.65,
+      "end": 852.55,
+      "text": "and now it's suddenly twice a week."
+    },
+    {
+      "start": 852.65,
+      "end": 855.55,
+      "text": "And so things that fell into nice 50-minute units"
+    },
+    {
+      "start": 855.65,
+      "end": 859.55,
+      "text": "are now being snipped up different ways, so it's pretty difficult."
+    },
+    {
+      "start": 859.65,
+      "end": 866.35,
+      "text": "So even for me, some of it will be new, and the timing may not be just right."
+    },
+    {
+      "start": 866.45,
+      "end": 869.47,
+      "text": "Anybody have any..."
+    },
+    {
+      "start": 869.57,
+      "end": 871.47,
+      "text": "I should tell you, first of all, that in this class,"
+    },
+    {
+      "start": 871.57,
+      "end": 873.47,
+      "text": "the taping is not going to affect you"
+    },
+    {
+      "start": 873.57,
+      "end": 876.79,
+      "text": "because the camera is going to be behind your head."
+    },
+    {
+      "start": 876.89,
+      "end": 878.79,
+      "text": "I mentioned to you in the website"
+    },
+    {
+      "start": 878.89,
+      "end": 882.79,
+      "text": "that this is not the big opportunity you've been looking for to be a star."
+    },
+    {
+      "start": 882.89,
+      "end": 885.82,
+      "text": "Only the back of your head will be seen."
+    },
+    {
+      "start": 885.92,
+      "end": 889.82,
+      "text": "In some cases, the back of the head could be more expressive than the front,"
+    },
+    {
+      "start": 889.92,
+      "end": 892.82,
+      "text": "in which case, this is your opportunity, and I wish you luck."
+    },
+    {
+      "start": 892.92,
+      "end": 896.82,
+      "text": "But otherwise, just don't worry about it because you will be only heard."
+    },
+    {
+      "start": 896.92,
+      "end": 898.82,
+      "text": "You may not even be heard."
+    },
+    {
+      "start": 898.92,
+      "end": 901.98,
+      "text": "So I've been asked that if a question is not very clear,"
+    },
+    {
+      "start": 902.08,
+      "end": 906.4,
+      "text": "I should repeat it so that people listening to this later"
+    },
+    {
+      "start": 906.5,
+      "end": 908.78,
+      "text": "will know what the question was."
+    },
+    {
+      "start": 908.88,
+      "end": 914.87,
+      "text": "But I would ask you, let me make one thing very clear."
+    },
+    {
+      "start": 915.07,
+      "end": 918.87,
+      "text": "That is, I'm not in favor of you talking to each other because it's distracting."
+    },
+    {
+      "start": 918.97,
+      "end": 922.06,
+      "text": "You're stopping me any time is just fine."
+    },
+    {
+      "start": 922.16,
+      "end": 926.06,
+      "text": "I welcome that because I've seen this subject for God knows how many years."
+    },
+    {
+      "start": 926.16,
+      "end": 928.06,
+      "text": "The only thing that makes it different for me"
+    },
+    {
+      "start": 928.16,
+      "end": 930.06,
+      "text": "is the questions that you people have."
+    },
+    {
+      "start": 930.26,
+      "end": 933.38,
+      "text": "So you can stop me any time,"
+    },
+    {
+      "start": 933.48,
+      "end": 937.38,
+      "text": "and you should not feel somehow you're stopping the progress of the class."
+    },
+    {
+      "start": 937.48,
+      "end": 940.38,
+      "text": "There is no fixed syllabus. We can move things around."
+    },
+    {
+      "start": 940.48,
+      "end": 943.38,
+      "text": "And it's far more exciting for me to answer your questions"
+    },
+    {
+      "start": 943.48,
+      "end": 945.38,
+      "text": "than to have a monologue."
+    },
+    {
+      "start": 945.58,
+      "end": 947.58,
+      "text": "So don't worry about that."
+    },
+    {
+      "start": 947.68,
+      "end": 949.58,
+      "text": "So stop me any time you don't follow something."
+    },
+    {
+      "start": 949.68,
+      "end": 953.15,
+      "text": "And don't assume that you're not following something"
+    },
+    {
+      "start": 953.25,
+      "end": 957.15,
+      "text": "because there's something wrong with your level of comprehension."
+    },
+    {
+      "start": 957.25,
+      "end": 961.25,
+      "text": "Quite often, you guys come up with questions that never cross my mind."
+    },
+    {
+      "start": 961.35,
+      "end": 963.25,
+      "text": "It's very interesting."
+    },
+    {
+      "start": 963.35,
+      "end": 966.72,
+      "text": "Things we've been repeating year after year after year"
+    },
+    {
+      "start": 966.82,
+      "end": 969.72,
+      "text": "because they sound so reasonable suddenly sound unreasonable"
+    },
+    {
+      "start": 969.82,
+      "end": 973.72,
+      "text": "when some of you point out some aspect of it that you didn't follow."
+    },
+    {
+      "start": 973.82,
+      "end": 977.82,
+      "text": "So it could be very interesting for all of us to have issues"
+    },
+    {
+      "start": 978.02,
+      "end": 979.82,
+      "text": "with discussing class."
+    },
+    {
+      "start": 979.92,
+      "end": 982.82,
+      "text": "And quite often, some questions are very common,"
+    },
+    {
+      "start": 982.92,
+      "end": 985.85,
+      "text": "and your classmates will be grateful to you that you brought it up."
+    },
+    {
+      "start": 985.95,
+      "end": 988.85,
+      "text": "Otherwise, you know, you get 10 TAs, get 10 emails,"
+    },
+    {
+      "start": 988.95,
+      "end": 991.78,
+      "text": "all with the same question."
+    },
+    {
+      "start": 991.88,
+      "end": 995.45,
+      "text": "Okay, so I'm going to start now."
+    },
+    {
+      "start": 995.55,
+      "end": 999.45,
+      "text": "Anybody have any questions about the class,"
+    },
+    {
+      "start": 1000.64,
+      "end": 1003.54,
+      "text": "the format, the midterm, the exams?"
+    },
+    {
+      "start": 1004.95,
+      "end": 1006.98,
+      "text": "All right. Yes."
+    },
+    {
+      "start": 1007.08,
+      "end": 1019.35,
+      "text": "Oh, you mean my office hours?"
+    },
+    {
+      "start": 1019.45,
+      "end": 1020.35,
+      "text": "No."
+    },
+    {
+      "start": 1020.35,
+      "end": 1024.25,
+      "text": "The midterm sections are Tuesday afternoon from 1 to 2"
+    },
+    {
+      "start": 1024.35,
+      "end": 1027.25,
+      "text": "and Tuesday night from 8 to 10."
+    },
+    {
+      "start": 1027.64,
+      "end": 1031.54,
+      "text": "And the website has got all the details on when and where."
+    },
+    {
+      "start": 1031.64,
+      "end": 1035.1,
+      "text": "Yes."
+    },
+    {
+      "start": 1035.2,
+      "end": 1037.1,
+      "text": "Yeah, there are many, many lab times."
+    },
+    {
+      "start": 1037.2,
+      "end": 1040.1,
+      "text": "And you have to go to the website for the lab."
+    },
+    {
+      "start": 1040.2,
+      "end": 1042.1,
+      "text": "And by the way, that reminds me,"
+    },
+    {
+      "start": 1042.2,
+      "end": 1046.1,
+      "text": "I got here lots of flyers given to me by the director of the laboratories,"
+    },
+    {
+      "start": 1046.2,
+      "end": 1050.45,
+      "text": "which will tell you which lab is the right lab for you."
+    },
+    {
+      "start": 1050.55,
+      "end": 1052.45,
+      "text": "And they're offered many times a week."
+    },
+    {
+      "start": 1052.45,
+      "end": 1059.72,
+      "text": "Yes."
+    },
+    {
+      "start": 1059.82,
+      "end": 1061.72,
+      "text": "I think it's a good idea to take the lab"
+    },
+    {
+      "start": 1061.82,
+      "end": 1064.72,
+      "text": "because particularly in this particular class,"
+    },
+    {
+      "start": 1064.82,
+      "end": 1067.94,
+      "text": "because I don't have any demonstrations."
+    },
+    {
+      "start": 1068.04,
+      "end": 1069.94,
+      "text": "They're all in the other building."
+    },
+    {
+      "start": 1070.04,
+      "end": 1072.94,
+      "text": "So this will remind you that physics is after all an experimental science,"
+    },
+    {
+      "start": 1073.04,
+      "end": 1077.1,
+      "text": "and you will be able to see where all the laws of physics come from."
+    },
+    {
+      "start": 1077.2,
+      "end": 1080.1,
+      "text": "So if you're going to take it, you should take it at the same time."
+    },
+    {
+      "start": 1080.65,
+      "end": 1087.58,
+      "text": "Yes. Very good."
+    },
+    {
+      "start": 1087.68,
+      "end": 1090.61,
+      "text": "This is a calculus-based class,"
+    },
+    {
+      "start": 1090.71,
+      "end": 1094.86,
+      "text": "and I expect everyone to know at least a rudiments of"
+    },
+    {
+      "start": 1094.86,
+      "end": 1097.34,
+      "text": "differential calculus."
+    },
+    {
+      "start": 1097.44,
+      "end": 1099.34,
+      "text": "What's a function? What's a derivative?"
+    },
+    {
+      "start": 1099.44,
+      "end": 1101.34,
+      "text": "What's a second derivative?"
+    },
+    {
+      "start": 1101.44,
+      "end": 1104.34,
+      "text": "How to take derivatives of elementary functions?"
+    },
+    {
+      "start": 1104.44,
+      "end": 1106.53,
+      "text": "How to do elementary integrals?"
+    },
+    {
+      "start": 1106.63,
+      "end": 1110.53,
+      "text": "Sometime later, I will deal with functions of more than one variable,"
+    },
+    {
+      "start": 1110.63,
+      "end": 1114.33,
+      "text": "which I will briefly introduce to you,"
+    },
+    {
+      "start": 1114.43,
+      "end": 1116.33,
+      "text": "because that may not be prerequisite,"
+    },
+    {
+      "start": 1116.43,
+      "end": 1118.33,
+      "text": "but certainly something you will learn"
+    },
+    {
+      "start": 1118.43,
+      "end": 1120.84,
+      "text": "and you may use on and off."
+    },
+    {
+      "start": 1120.94,
+      "end": 1123.84,
+      "text": "But there are different ways of doing physics."
+    },
+    {
+      "start": 1123.94,
+      "end": 1127.1,
+      "text": "Mine is to demonstrate over and over"
+    },
+    {
+      "start": 1127.2,
+      "end": 1130.0,
+      "text": "how little mathematics you need to get the job done."
+    },
+    {
+      "start": 1130.1,
+      "end": 1132.0,
+      "text": "There are others who like to show you"
+    },
+    {
+      "start": 1132.1,
+      "end": 1136.54,
+      "text": "how much mathematics you could somehow insinuate into the process."
+    },
+    {
+      "start": 1136.64,
+      "end": 1139.77,
+      "text": "There are different ways of playing the game,"
+    },
+    {
+      "start": 1139.87,
+      "end": 1141.77,
+      "text": "and some of us find great pride"
+    },
+    {
+      "start": 1141.87,
+      "end": 1144.77,
+      "text": "in finding the most simple way to understand something."
+    },
+    {
+      "start": 1144.87,
+      "end": 1146.77,
+      "text": "That's certainly my trademark."
+    },
+    {
+      "start": 1146.87,
+      "end": 1149.5,
+      "text": "That's how I do my research also."
+    },
+    {
+      "start": 1149.6,
+      "end": 1151.5,
+      "text": "So if you feel there's not enough math used,"
+    },
+    {
+      "start": 1151.6,
+      "end": 1153.5,
+      "text": "I guarantee you that I certainly know enough"
+    },
+    {
+      "start": 1153.6,
+      "end": 1155.5,
+      "text": "eventually to snow the whole class,"
+    },
+    {
+      "start": 1155.6,
+      "end": 1157.5,
+      "text": "but that's not the point."
+    },
+    {
+      "start": 1157.5,
+      "end": 1159.4,
+      "text": "I'm going to use it in moderation"
+    },
+    {
+      "start": 1159.5,
+      "end": 1162.4,
+      "text": "and use it to the best effect possible"
+    },
+    {
+      "start": 1162.5,
+      "end": 1166.62,
+      "text": "rather than use it because it is there."
+    },
+    {
+      "start": 1166.72,
+      "end": 1169.91,
+      "text": "Okay, so I don't know your mathematical background,"
+    },
+    {
+      "start": 1170.01,
+      "end": 1171.91,
+      "text": "but the textbook has an appendix,"
+    },
+    {
+      "start": 1172.01,
+      "end": 1174.91,
+      "text": "which is a reasonable measure of how much math you should know."
+    },
+    {
+      "start": 1175.01,
+      "end": 1176.91,
+      "text": "You've got to know your trigonometry."
+    },
+    {
+      "start": 1177.01,
+      "end": 1179.91,
+      "text": "You've got to know what's a sine and what's a cosine."
+    },
+    {
+      "start": 1180.01,
+      "end": 1181.91,
+      "text": "You cannot say, I will look it up."
+    },
+    {
+      "start": 1182.01,
+      "end": 1186.97,
+      "text": "Your birthday and social security number is what you look up."
+    },
+    {
+      "start": 1187.07,
+      "end": 1188.97,
+      "text": "Trigonometric functions you know."
+    },
+    {
+      "start": 1189.17,
+      "end": 1190.97,
+      "text": "You don't have to go through the whole thing all the time."
+    },
+    {
+      "start": 1191.07,
+      "end": 1193.39,
+      "text": "I will assume you do."
+    },
+    {
+      "start": 1193.49,
+      "end": 1196.39,
+      "text": "And of course, trigonometric identities you know from high school,"
+    },
+    {
+      "start": 1196.49,
+      "end": 1198.39,
+      "text": "pages and pages of them."
+    },
+    {
+      "start": 1198.49,
+      "end": 1201.39,
+      "text": "So no one expects you to know all those identities,"
+    },
+    {
+      "start": 1201.49,
+      "end": 1205.0,
+      "text": "but there are a few popular ones we will use."
+    },
+    {
+      "start": 1205.1,
+      "end": 1207.0,
+      "text": "All right, anything else?"
+    },
+    {
+      "start": 1211.03,
+      "end": 1211.93,
+      "text": "Yes?"
+    },
+    {
+      "start": 1212.03,
+      "end": 1216.06,
+      "text": "Yeah, midterm will be sometime around 20th of October."
+    },
+    {
+      "start": 1216.16,
+      "end": 1219.06,
+      "text": "I have to find out exactly the right time."
+    },
+    {
+      "start": 1219.16,
+      "end": 1222.06,
+      "text": "We have 24 lectures for this class,"
+    },
+    {
+      "start": 1222.06,
+      "end": 1225.96,
+      "text": "and the first 12 roughly will be part of the midterm."
+    },
+    {
+      "start": 1226.06,
+      "end": 1227.96,
+      "text": "But after the 12th lecture, I may wait a week"
+    },
+    {
+      "start": 1228.06,
+      "end": 1230.96,
+      "text": "so that you have time to do the problems and get the solutions."
+    },
+    {
+      "start": 1231.06,
+      "end": 1234.08,
+      "text": "Then I will give you the midterm."
+    },
+    {
+      "start": 1234.18,
+      "end": 1238.76,
+      "text": "Yes?"
+    },
+    {
+      "start": 1238.86,
+      "end": 1240.76,
+      "text": "Yeah, this tells you in detail."
+    },
+    {
+      "start": 1240.86,
+      "end": 1244.34,
+      "text": "This flyer answers exactly that."
+    },
+    {
+      "start": 1244.44,
+      "end": 1246.34,
+      "text": "Okay, there's one more question for somebody."
+    },
+    {
+      "start": 1246.44,
+      "end": 1258.73,
+      "text": "Yes?"
+    },
+    {
+      "start": 1258.83,
+      "end": 1259.73,
+      "text": "I don't have a strong view."
+    },
+    {
+      "start": 1259.83,
+      "end": 1261.73,
+      "text": "I think you should take the lab sometime,"
+    },
+    {
+      "start": 1261.83,
+      "end": 1265.73,
+      "text": "but I don't know how many semesters of it you have to take."
+    },
+    {
+      "start": 1265.83,
+      "end": 1269.5,
+      "text": "But I would say the advice of your predecessors"
+    },
+    {
+      "start": 1269.6,
+      "end": 1270.4,
+      "text": "is very important."
+    },
+    {
+      "start": 1270.5,
+      "end": 1272.4,
+      "text": "If they tell you this is what works,"
+    },
+    {
+      "start": 1272.5,
+      "end": 1276.52,
+      "text": "that's better than what somebody like me can tell you."
+    },
+    {
+      "start": 1276.62,
+      "end": 1278.52,
+      "text": "Also, you should talk to Steven Irons,"
+    },
+    {
+      "start": 1278.62,
+      "end": 1280.52,
+      "text": "who is the director of the labs."
+    },
+    {
+      "start": 1280.62,
+      "end": 1282.52,
+      "text": "He has seen every possible situation."
+    },
+    {
+      "start": 1282.62,
+      "end": 1286.21,
+      "text": "He will give you good advice."
+    },
+    {
+      "start": 1286.31,
+      "end": 1288.3,
+      "text": "Let's start now."
+    },
+    {
+      "start": 1288.4,
+      "end": 1292.43,
+      "text": "Okay, so we are going to be studying in the beginning"
+    },
+    {
+      "start": 1292.53,
+      "end": 1295.43,
+      "text": "what's called Newtonian mechanics."
+    },
+    {
+      "start": 1295.53,
+      "end": 1298.04,
+      "text": "It's pretty remarkable that the whole edifice"
+    },
+    {
+      "start": 1298.14,
+      "end": 1301.48,
+      "text": "was set up by just one person, Newton."
+    },
+    {
+      "start": 1301.58,
+      "end": 1304.77,
+      "text": "And he set us on the road to understanding"
+    },
+    {
+      "start": 1304.87,
+      "end": 1310.15,
+      "text": "all the natural phenomena till the year 1800 and something"
+    },
+    {
+      "start": 1310.25,
+      "end": 1314.15,
+      "text": "when Maxwell invented the laws of electromagnetism"
+    },
+    {
+      "start": 1314.25,
+      "end": 1317.15,
+      "text": "and wrote down the famous Maxwell equation."
+    },
+    {
+      "start": 1317.25,
+      "end": 1319.15,
+      "text": "But except for electromagnetism,"
+    },
+    {
+      "start": 1319.25,
+      "end": 1321.18,
+      "text": "the basics of mechanics,"
+    },
+    {
+      "start": 1321.28,
+      "end": 1324.18,
+      "text": "which is the motion of billiard balls and trucks"
+    },
+    {
+      "start": 1324.28,
+      "end": 1326.18,
+      "text": "and marbles and whatnot,"
+    },
+    {
+      "start": 1326.28,
+      "end": 1329.11,
+      "text": "was set up by Newton."
+    },
+    {
+      "start": 1329.21,
+      "end": 1331.11,
+      "text": "So that's what we are going to focus on."
+    },
+    {
+      "start": 1331.21,
+      "end": 1335.59,
+      "text": "And you will find out that the laws of physics"
+    },
+    {
+      "start": 1335.59,
+      "end": 1338.49,
+      "text": "for this entire semester certainly can be written"
+    },
+    {
+      "start": 1338.59,
+      "end": 1342.78,
+      "text": "on one of those blackboards or even half of those blackboards."
+    },
+    {
+      "start": 1342.88,
+      "end": 1344.78,
+      "text": "And the purpose of this course is to show you"
+    },
+    {
+      "start": 1344.88,
+      "end": 1347.78,
+      "text": "over and over and over again"
+    },
+    {
+      "start": 1347.88,
+      "end": 1349.78,
+      "text": "that starting with those one or two laws,"
+    },
+    {
+      "start": 1349.88,
+      "end": 1352.36,
+      "text": "you can deduce everything."
+    },
+    {
+      "start": 1352.46,
+      "end": 1356.09,
+      "text": "And I would encourage you to think the same way."
+    },
+    {
+      "start": 1356.19,
+      "end": 1359.09,
+      "text": "In fact, I would encourage you to think the way physicists do,"
+    },
+    {
+      "start": 1359.19,
+      "end": 1361.09,
+      "text": "even if you don't plan to be a physicist,"
+    },
+    {
+      "start": 1361.19,
+      "end": 1363.09,
+      "text": "because that's the easiest way to do the subject."
+    },
+    {
+      "start": 1363.19,
+      "end": 1367.19,
+      "text": "And that is to follow the reasoning behind everything I give you."
+    },
+    {
+      "start": 1367.29,
+      "end": 1371.83,
+      "text": "And my purpose will be not to say something as a postulate,"
+    },
+    {
+      "start": 1371.93,
+      "end": 1374.83,
+      "text": "but to show you where everything comes from."
+    },
+    {
+      "start": 1374.93,
+      "end": 1377.83,
+      "text": "And it's best for you if you try to follow the logic."
+    },
+    {
+      "start": 1377.93,
+      "end": 1380.83,
+      "text": "That way you don't have to store too many things in your head."
+    },
+    {
+      "start": 1381.25,
+      "end": 1384.15,
+      "text": "In the early days when there were four or five formulas,"
+    },
+    {
+      "start": 1384.25,
+      "end": 1386.15,
+      "text": "you can memorize all of them."
+    },
+    {
+      "start": 1386.25,
+      "end": 1388.15,
+      "text": "And you can try each one of them until something works."
+    },
+    {
+      "start": 1388.25,
+      "end": 1390.15,
+      "text": "But after a couple of weeks, you will have 100 formulas"
+    },
+    {
+      "start": 1390.25,
+      "end": 1392.15,
+      "text": "and you cannot memorize all of them."
+    },
+    {
+      "start": 1392.25,
+      "end": 1394.15,
+      "text": "You cannot resort to trial and error."
+    },
+    {
+      "start": 1394.25,
+      "end": 1396.15,
+      "text": "You have to know the logic."
+    },
+    {
+      "start": 1396.25,
+      "end": 1398.15,
+      "text": "So the logical way is not just the way the physicists do it."
+    },
+    {
+      "start": 1398.25,
+      "end": 1400.05,
+      "text": "It's the easier way to do it."
+    },
+    {
+      "start": 1400.15,
+      "end": 1402.05,
+      "text": "If there is another way that will work for non-physicists,"
+    },
+    {
+      "start": 1402.15,
+      "end": 1404.05,
+      "text": "I won't hesitate to teach it to you that way."
+    },
+    {
+      "start": 1404.15,
+      "end": 1406.05,
+      "text": "But that turns out to be the best way."
+    },
+    {
+      "start": 1406.15,
+      "end": 1410.87,
+      "text": "So try to follow the logic of everything."
+    },
+    {
+      "start": 1410.97,
+      "end": 1423.04,
+      "text": "So Newtonian mechanics is our first topic."
+    },
+    {
+      "start": 1423.14,
+      "end": 1428.66,
+      "text": "So Newtonian mechanics has two parts."
+    },
+    {
+      "start": 1428.76,
+      "end": 1432.66,
+      "text": "All of physics is a two-part program."
+    },
+    {
+      "start": 1432.76,
+      "end": 1438.24,
+      "text": "The plan every time is to predict the future given the present."
+    },
+    {
+      "start": 1438.34,
+      "end": 1440.53,
+      "text": "That's what we always do."
+    },
+    {
+      "start": 1440.73,
+      "end": 1442.53,
+      "text": "When we do that right, we are satisfied."
+    },
+    {
+      "start": 1442.63,
+      "end": 1446.94,
+      "text": "The question is, what do you mean by predict the future?"
+    },
+    {
+      "start": 1447.04,
+      "end": 1447.94,
+      "text": "What do you mean by the future?"
+    },
+    {
+      "start": 1448.04,
+      "end": 1449.94,
+      "text": "What do you mean by the present?"
+    },
+    {
+      "start": 1450.84,
+      "end": 1456.81,
+      "text": "By present, we mean we will pick some part of the universe we want to study."
+    },
+    {
+      "start": 1457.71,
+      "end": 1462.61,
+      "text": "And we will ask, what information do I need to know about that system"
+    },
+    {
+      "start": 1462.71,
+      "end": 1467.61,
+      "text": "at the initial time, like right now, in order to be able to predict the future?"
+    },
+    {
+      "start": 1467.71,
+      "end": 1473.63,
+      "text": "So for example, if you were trying to study the motion of some object,"
+    },
+    {
+      "start": 1473.83,
+      "end": 1477.21,
+      "text": "here is one example here."
+    },
+    {
+      "start": 1477.31,
+      "end": 1480.21,
+      "text": "See, that's an example of Newtonian mechanics."
+    },
+    {
+      "start": 1480.31,
+      "end": 1483.21,
+      "text": "I'll give you one more demonstration."
+    },
+    {
+      "start": 1483.31,
+      "end": 1485.24,
+      "text": "Let's see who can catch this one."
+    },
+    {
+      "start": 1485.34,
+      "end": 1487.24,
+      "text": "That's a good example."
+    },
+    {
+      "start": 1487.34,
+      "end": 1489.24,
+      "text": "So that was Newtonian mechanics at work."
+    },
+    {
+      "start": 1489.34,
+      "end": 1491.24,
+      "text": "Because what did I do?"
+    },
+    {
+      "start": 1491.34,
+      "end": 1496.43,
+      "text": "I released a piece of candy, threw it from my hand,"
+    },
+    {
+      "start": 1496.53,
+      "end": 1502.69,
+      "text": "and the initial condition had to do with where did I release it and with what velocity."
+    },
+    {
+      "start": 1502.79,
+      "end": 1504.91,
+      "text": "That's what he sees with his eyes."
+    },
+    {
+      "start": 1505.11,
+      "end": 1509.81,
+      "text": "Then that's all you really need to know."
+    },
+    {
+      "start": 1509.91,
+      "end": 1513.81,
+      "text": "Then he knows it's going to go up, it's going to curve, follow some kind of parabola,"
+    },
+    {
+      "start": 1513.91,
+      "end": 1515.81,
+      "text": "then his hands go there to receive it."
+    },
+    {
+      "start": 1515.91,
+      "end": 1518.81,
+      "text": "That is verification of a prediction."
+    },
+    {
+      "start": 1518.91,
+      "end": 1521.81,
+      "text": "His prediction was the candy is going to land here, then he put his hand there."
+    },
+    {
+      "start": 1521.91,
+      "end": 1525.81,
+      "text": "He also knew where the candy was going to land, but he couldn't get his hand there in time."
+    },
+    {
+      "start": 1525.91,
+      "end": 1527.81,
+      "text": "But we can always make predictions."
+    },
+    {
+      "start": 1527.91,
+      "end": 1531.1,
+      "text": "But this is a good example of what you need to know."
+    },
+    {
+      "start": 1531.2,
+      "end": 1536.1,
+      "text": "What is it he had to know about this object that was thrown, I claim,"
+    },
+    {
+      "start": 1536.2,
+      "end": 1539.38,
+      "text": "the initial location of the object, the initial velocity."
+    },
+    {
+      "start": 1539.48,
+      "end": 1542.38,
+      "text": "The fact that it was blue or red, not relevant."
+    },
+    {
+      "start": 1542.48,
+      "end": 1547.38,
+      "text": "And if I threw a gorilla at him, it doesn't matter what the color of the gorilla is,"
+    },
+    {
+      "start": 1547.48,
+      "end": 1549.38,
+      "text": "what mood it is in."
+    },
+    {
+      "start": 1549.48,
+      "end": 1552.6,
+      "text": "These are things we don't deal with in physics."
+    },
+    {
+      "start": 1552.7,
+      "end": 1557.6,
+      "text": "Or if there is a tall building, a standard physics problem, an object falls off a tall building."
+    },
+    {
+      "start": 1557.7,
+      "end": 1560.34,
+      "text": "Object could be a person."
+    },
+    {
+      "start": 1560.44,
+      "end": 1564.34,
+      "text": "So we don't ask, why is this guy ending it all today?"
+    },
+    {
+      "start": 1564.44,
+      "end": 1565.34,
+      "text": "That's not..."
+    },
+    {
+      "start": 1565.76,
+      "end": 1566.66,
+      "text": "We don't know."
+    },
+    {
+      "start": 1566.66,
+      "end": 1568.56,
+      "text": "And we cannot deal with that."
+    },
+    {
+      "start": 1568.66,
+      "end": 1569.59,
+      "text": "So we don't answer everything."
+    },
+    {
+      "start": 1569.69,
+      "end": 1572.59,
+      "text": "We just want to know when he's going to hit the pavement."
+    },
+    {
+      "start": 1572.69,
+      "end": 1576.2,
+      "text": "And with what speed."
+    },
+    {
+      "start": 1576.3,
+      "end": 1582.46,
+      "text": "So we ask very limited questions, which is why we brag about how accurately we can predict the future."
+    },
+    {
+      "start": 1582.56,
+      "end": 1587.52,
+      "text": "We only ask limited goals, and we are very successful in satisfying them."
+    },
+    {
+      "start": 1587.62,
+      "end": 1590.52,
+      "text": "So we are basically dealing with inanimate objects."
+    },
+    {
+      "start": 1590.62,
+      "end": 1598.45,
+      "text": "So the project of Newtonian mechanics of predicting the future, given the present,"
+    },
+    {
+      "start": 1598.55,
+      "end": 1600.86,
+      "text": "has got two parts."
+    },
+    {
+      "start": 1600.96,
+      "end": 1607.75,
+      "text": "One is called kinematics, and the other is called dynamics."
+    },
+    {
+      "start": 1607.85,
+      "end": 1612.36,
+      "text": "So kinematics is a complete description of the present."
+    },
+    {
+      "start": 1612.46,
+      "end": 1616.97,
+      "text": "It's a list of what you have to know about a system right now."
+    },
+    {
+      "start": 1617.07,
+      "end": 1619.97,
+      "text": "For example, if you're talking about the chalk, if I throw the chalk,"
+    },
+    {
+      "start": 1620.07,
+      "end": 1623.86,
+      "text": "you will have to know where it is and how fast it's moving."
+    },
+    {
+      "start": 1623.96,
+      "end": 1625.86,
+      "text": "The dynamics doesn't..."
+    },
+    {
+      "start": 1625.96,
+      "end": 1631.95,
+      "text": "Dynamics then tells you why the object goes up, why the object goes down,"
+    },
+    {
+      "start": 1632.05,
+      "end": 1633.95,
+      "text": "why is it pulled down, and so on."
+    },
+    {
+      "start": 1634.15,
+      "end": 1636.95,
+      "text": "The reason it comes down is gravity is pulling it."
+    },
+    {
+      "start": 1637.05,
+      "end": 1640.34,
+      "text": "In kinematics, you don't ask the reason behind anything."
+    },
+    {
+      "start": 1640.44,
+      "end": 1644.07,
+      "text": "You simply want to describe things the way they are,"
+    },
+    {
+      "start": 1644.17,
+      "end": 1649.74,
+      "text": "and then dynamics tells you how they change and why they change."
+    },
+    {
+      "start": 1649.84,
+      "end": 1656.86,
+      "text": "So I'm going to illustrate the idea of kinematics by taking the simplest possible example."
+    },
+    {
+      "start": 1656.96,
+      "end": 1659.86,
+      "text": "That's going to be the way I'm going to do everything in this course."
+    },
+    {
+      "start": 1659.96,
+      "end": 1662.86,
+      "text": "I'm going to start with the simplest example"
+    },
+    {
+      "start": 1662.96,
+      "end": 1666.86,
+      "text": "and slowly add on bells and whistles and make it more and more complicated."
+    },
+    {
+      "start": 1667.06,
+      "end": 1672.98,
+      "text": "So some of you might say, well, I've seen this before,"
+    },
+    {
+      "start": 1673.08,
+      "end": 1674.98,
+      "text": "so maybe there is nothing new here."
+    },
+    {
+      "start": 1675.08,
+      "end": 1676.98,
+      "text": "That may well be. I don't know how much you've seen,"
+    },
+    {
+      "start": 1677.08,
+      "end": 1680.98,
+      "text": "but quite often the way you learned physics earlier on in high school"
+    },
+    {
+      "start": 1681.08,
+      "end": 1685.14,
+      "text": "is probably different from the way professional physicists think about it."
+    },
+    {
+      "start": 1685.24,
+      "end": 1689.14,
+      "text": "The sense of values we have, the things that we get excited about are different."
+    },
+    {
+      "start": 1689.24,
+      "end": 1691.14,
+      "text": "Problems may be more difficult."
+    },
+    {
+      "start": 1691.24,
+      "end": 1696.36,
+      "text": "But I want to start in every example, in every situation that I explained to you,"
+    },
+    {
+      "start": 1696.46,
+      "end": 1699.36,
+      "text": "the simplest example, and slowly add on things."
+    },
+    {
+      "start": 1699.56,
+      "end": 1707.13,
+      "text": "So what we are going to study now is a non-living object,"
+    },
+    {
+      "start": 1707.23,
+      "end": 1711.13,
+      "text": "and we're going to pick it to be a mathematical point."
+    },
+    {
+      "start": 1712.03,
+      "end": 1714.93,
+      "text": "So the object is a mathematical point. It has no size."
+    },
+    {
+      "start": 1715.03,
+      "end": 1717.93,
+      "text": "If you rotate it, you won't know. It's not like a potato."
+    },
+    {
+      "start": 1718.03,
+      "end": 1720.93,
+      "text": "Take a potato, you turn it around, it looks different."
+    },
+    {
+      "start": 1721.03,
+      "end": 1722.93,
+      "text": "So it's not enough to say the potato is here."
+    },
+    {
+      "start": 1723.03,
+      "end": 1724.93,
+      "text": "You've got to say which way the nose is pointing and so on."
+    },
+    {
+      "start": 1725.03,
+      "end": 1726.93,
+      "text": "So we don't want to deal with that now."
+    },
+    {
+      "start": 1727.03,
+      "end": 1729.93,
+      "text": "That comes later when we study what are called rigid bodies."
+    },
+    {
+      "start": 1729.93,
+      "end": 1734.83,
+      "text": "Right now, we want to study an entity which has no spatial extent."
+    },
+    {
+      "start": 1734.93,
+      "end": 1737.21,
+      "text": "So just a dot."
+    },
+    {
+      "start": 1737.31,
+      "end": 1739.21,
+      "text": "And the dot can move around all over space."
+    },
+    {
+      "start": 1739.31,
+      "end": 1742.21,
+      "text": "So we're going to simplify that too."
+    },
+    {
+      "start": 1742.31,
+      "end": 1747.21,
+      "text": "We're going to take an entity that lives along the x-axis."
+    },
+    {
+      "start": 1747.76,
+      "end": 1749.66,
+      "text": "It moves along a line."
+    },
+    {
+      "start": 1749.76,
+      "end": 1752.66,
+      "text": "So you can imagine a bead with a wire going through it,"
+    },
+    {
+      "start": 1752.76,
+      "end": 1756.46,
+      "text": "and the bead can only slide back and forth."
+    },
+    {
+      "start": 1756.56,
+      "end": 1758.46,
+      "text": "So this is about the simplest thing."
+    },
+    {
+      "start": 1758.56,
+      "end": 1760.46,
+      "text": "I cannot reduce the number of dimensions."
+    },
+    {
+      "start": 1760.46,
+      "end": 1762.36,
+      "text": "One is the lowest dimension."
+    },
+    {
+      "start": 1762.46,
+      "end": 1765.36,
+      "text": "I cannot make the object simpler than being just a mathematical point."
+    },
+    {
+      "start": 1765.46,
+      "end": 1767.68,
+      "text": "Then you've got to say,"
+    },
+    {
+      "start": 1767.78,
+      "end": 1771.68,
+      "text": "what do I have to know about this object at the initial time?"
+    },
+    {
+      "start": 1771.78,
+      "end": 1773.68,
+      "text": "What constitutes the present?"
+    },
+    {
+      "start": 1773.78,
+      "end": 1777.68,
+      "text": "Or what constitutes maximal information about the present?"
+    },
+    {
+      "start": 1777.78,
+      "end": 1779.68,
+      "text": "So what we do is we pick an origin."
+    },
+    {
+      "start": 1779.78,
+      "end": 1781.97,
+      "text": "We call it zero."
+    },
+    {
+      "start": 1782.07,
+      "end": 1787.06,
+      "text": "We put some markers there to measure distance."
+    },
+    {
+      "start": 1787.41,
+      "end": 1793.08,
+      "text": "And we say this guy is sitting at 1, 2, 3, 4, 5."
+    },
+    {
+      "start": 1793.18,
+      "end": 1796.94,
+      "text": "This is sitting at x equal to 5."
+    },
+    {
+      "start": 1797.04,
+      "end": 1798.94,
+      "text": "Now, of course, we've got to have units,"
+    },
+    {
+      "start": 1799.04,
+      "end": 1802.74,
+      "text": "and the units for length are going to be meters."
+    },
+    {
+      "start": 1802.84,
+      "end": 1804.74,
+      "text": "Units for time will be second."
+    },
+    {
+      "start": 1804.84,
+      "end": 1809.66,
+      "text": "And time will be measured in seconds."
+    },
+    {
+      "start": 1811.94,
+      "end": 1813.84,
+      "text": "Then we'll come to other units."
+    },
+    {
+      "start": 1813.94,
+      "end": 1818.22,
+      "text": "Right now in kinematics, this is all you need."
+    },
+    {
+      "start": 1818.32,
+      "end": 1821.22,
+      "text": "Now, there are some tricky problems in the book."
+    },
+    {
+      "start": 1821.32,
+      "end": 1824.22,
+      "text": "Sometimes they give you the speed in miles per hour, kilometers per year,"
+    },
+    {
+      "start": 1824.32,
+      "end": 1826.22,
+      "text": "poundles per square foot, whatever it is."
+    },
+    {
+      "start": 1826.32,
+      "end": 1828.22,
+      "text": "You've got to learn to transform them."
+    },
+    {
+      "start": 1828.32,
+      "end": 1830.22,
+      "text": "But I won't do that."
+    },
+    {
+      "start": 1830.32,
+      "end": 1832.15,
+      "text": "I'm going to do elementary stuff."
+    },
+    {
+      "start": 1832.25,
+      "end": 1834.15,
+      "text": "But sometimes I may not write units,"
+    },
+    {
+      "start": 1834.25,
+      "end": 1837.15,
+      "text": "but I weren't the right to do that, and you guys haven't."
+    },
+    {
+      "start": 1837.25,
+      "end": 1839.15,
+      "text": "So you still have to keep track of your units."
+    },
+    {
+      "start": 1839.25,
+      "end": 1841.15,
+      "text": "Everything's got to be in the right units."
+    },
+    {
+      "start": 1841.25,
+      "end": 1844.15,
+      "text": "If you don't have the units, then if you say the answer is 19,"
+    },
+    {
+      "start": 1844.25,
+      "end": 1847.68,
+      "text": "then we don't know what it means."
+    },
+    {
+      "start": 1847.78,
+      "end": 1848.68,
+      "text": "OK."
+    },
+    {
+      "start": 1848.78,
+      "end": 1850.68,
+      "text": "So here's an object."
+    },
+    {
+      "start": 1850.78,
+      "end": 1852.68,
+      "text": "At a given instant, it's got a location."
+    },
+    {
+      "start": 1852.78,
+      "end": 1857.61,
+      "text": "So what we would like to do is to describe what the object does"
+    },
+    {
+      "start": 1857.71,
+      "end": 1862.68,
+      "text": "by drawing a graph of time versus space."
+    },
+    {
+      "start": 1862.78,
+      "end": 1866.02,
+      "text": "And the graph could be something like this."
+    },
+    {
+      "start": 1866.12,
+      "end": 1868.02,
+      "text": "You've got to learn how to read this graph."
+    },
+    {
+      "start": 1868.12,
+      "end": 1870.02,
+      "text": "I'm assuming everyone knows how to read it."
+    },
+    {
+      "start": 1870.12,
+      "end": 1873.02,
+      "text": "This doesn't mean the object is bobbing up and down."
+    },
+    {
+      "start": 1873.12,
+      "end": 1875.02,
+      "text": "I hope you realize that."
+    },
+    {
+      "start": 1875.12,
+      "end": 1877.02,
+      "text": "Even though the graph is going up and down,"
+    },
+    {
+      "start": 1877.12,
+      "end": 1880.18,
+      "text": "the object is moving from left to right."
+    },
+    {
+      "start": 1880.28,
+      "end": 1883.24,
+      "text": "So for example, when it does this,"
+    },
+    {
+      "start": 1883.34,
+      "end": 1887.5,
+      "text": "it's crossed the origin and it's going to the left of the origin."
+    },
+    {
+      "start": 1887.6,
+      "end": 1889.5,
+      "text": "Now, which is the left of the origin,"
+    },
+    {
+      "start": 1889.6,
+      "end": 1892.5,
+      "text": "it turns around and starts coming to the origin and going to the right."
+    },
+    {
+      "start": 1892.6,
+      "end": 1895.07,
+      "text": "That is x versus t."
+    },
+    {
+      "start": 1895.27,
+      "end": 1899.07,
+      "text": "So in the language of calculus, x is the function of time,"
+    },
+    {
+      "start": 1901.44,
+      "end": 1903.34,
+      "text": "and this is a particular function."
+    },
+    {
+      "start": 1903.51,
+      "end": 1905.41,
+      "text": "This function doesn't have a name."
+    },
+    {
+      "start": 1905.51,
+      "end": 1907.41,
+      "text": "There are other functions which have a name."
+    },
+    {
+      "start": 1907.51,
+      "end": 1913.24,
+      "text": "For example, this is x equals t, x equals t squared."
+    },
+    {
+      "start": 1913.34,
+      "end": 1916.24,
+      "text": "You can have x equals sine t and cosine t and log t."
+    },
+    {
+      "start": 1916.34,
+      "end": 1917.24,
+      "text": "So some functions have a name."
+    },
+    {
+      "start": 1917.34,
+      "end": 1919.24,
+      "text": "Some functions don't have a name."
+    },
+    {
+      "start": 1919.34,
+      "end": 1922.24,
+      "text": "What a particle tries to do generally is some crazy thing"
+    },
+    {
+      "start": 1922.34,
+      "end": 1923.24,
+      "text": "which doesn't have a name."
+    },
+    {
+      "start": 1923.34,
+      "end": 1925.24,
+      "text": "But it's a function x of t."
+    },
+    {
+      "start": 1925.34,
+      "end": 1929.71,
+      "text": "So you should know when you look at a graph like this"
+    },
+    {
+      "start": 1929.71,
+      "end": 1932.28,
+      "text": "that you can see what it's doing."
+    },
+    {
+      "start": 1932.38,
+      "end": 1934.28,
+      "text": "So the two most elementary ideas you learn"
+    },
+    {
+      "start": 1934.38,
+      "end": 1939.24,
+      "text": "are what is the average velocity of an object"
+    },
+    {
+      "start": 1939.34,
+      "end": 1945.64,
+      "text": "as denoted by the symbol d bar."
+    },
+    {
+      "start": 1945.74,
+      "end": 1948.64,
+      "text": "So the average is found by taking two instants in time,"
+    },
+    {
+      "start": 1948.74,
+      "end": 1955.5,
+      "text": "say t1 and later t2."
+    },
+    {
+      "start": 1955.6,
+      "end": 1960.11,
+      "text": "And you find out where it was at t2"
+    },
+    {
+      "start": 1960.21,
+      "end": 1964.3,
+      "text": "minus where it was at t1 and divide by the time."
+    },
+    {
+      "start": 1964.4,
+      "end": 1968.09,
+      "text": "So the average velocity"
+    },
+    {
+      "start": 1968.29,
+      "end": 1970.48,
+      "text": "may not tell you the whole story."
+    },
+    {
+      "start": 1970.58,
+      "end": 1975.15,
+      "text": "For example, if you started here and you did all this"
+    },
+    {
+      "start": 1975.25,
+      "end": 1977.15,
+      "text": "and you came back here,"
+    },
+    {
+      "start": 1977.25,
+      "end": 1979.15,
+      "text": "the average velocity will be zero"
+    },
+    {
+      "start": 1979.25,
+      "end": 1981.15,
+      "text": "because you start and end at the same value of x."
+    },
+    {
+      "start": 1981.25,
+      "end": 1983.15,
+      "text": "You get something zero divided by time,"
+    },
+    {
+      "start": 1983.25,
+      "end": 1985.15,
+      "text": "it will still be zero."
+    },
+    {
+      "start": 1985.89,
+      "end": 1988.79,
+      "text": "So you cannot tell from the average everything that happened"
+    },
+    {
+      "start": 1988.89,
+      "end": 1990.79,
+      "text": "because another way to get the same zero"
+    },
+    {
+      "start": 1990.89,
+      "end": 1992.79,
+      "text": "is to just not move at all."
+    },
+    {
+      "start": 1992.89,
+      "end": 1993.79,
+      "text": "The average is what it is."
+    },
+    {
+      "start": 1993.89,
+      "end": 1994.79,
+      "text": "It's an average."
+    },
+    {
+      "start": 1994.89,
+      "end": 1996.79,
+      "text": "It does not give you enough detail."
+    },
+    {
+      "start": 1997.59,
+      "end": 2000.49,
+      "text": "So it's useful to have the average velocity"
+    },
+    {
+      "start": 2000.69,
+      "end": 2003.49,
+      "text": "and it's useful to have the average acceleration,"
+    },
+    {
+      "start": 2003.59,
+      "end": 2008.49,
+      "text": "which you can find by taking similar differences of velocities."
+    },
+    {
+      "start": 2008.59,
+      "end": 2010.49,
+      "text": "But before you even do that,"
+    },
+    {
+      "start": 2010.59,
+      "end": 2013.49,
+      "text": "I want to define for you an important concept,"
+    },
+    {
+      "start": 2013.59,
+      "end": 2018.68,
+      "text": "which is the velocity at a given time."
+    },
+    {
+      "start": 2018.78,
+      "end": 2021.68,
+      "text": "So this is the central idea of calculus."
+    },
+    {
+      "start": 2021.78,
+      "end": 2023.68,
+      "text": "I'm hoping that if you learned your calculus,"
+    },
+    {
+      "start": 2023.78,
+      "end": 2025.68,
+      "text": "you learned about derivatives and so on"
+    },
+    {
+      "start": 2025.78,
+      "end": 2030.34,
+      "text": "by looking at x versus t."
+    },
+    {
+      "start": 2030.44,
+      "end": 2033.34,
+      "text": "So I will remind you, again, this is not a course in calculus."
+    },
+    {
+      "start": 2033.44,
+      "end": 2034.24,
+      "text": "It's not a problem."
+    },
+    {
+      "start": 2034.34,
+      "end": 2036.24,
+      "text": "It has nothing to do with any detail."
+    },
+    {
+      "start": 2036.34,
+      "end": 2040.4,
+      "text": "I will draw the famous picture of some particle moving"
+    },
+    {
+      "start": 2040.5,
+      "end": 2045.65,
+      "text": "and it's here at time t at some value of x."
+    },
+    {
+      "start": 2045.75,
+      "end": 2049.65,
+      "text": "A little later, which is time t plus delta t."
+    },
+    {
+      "start": 2049.75,
+      "end": 2051.65,
+      "text": "So delta t is going to stand always"
+    },
+    {
+      "start": 2051.75,
+      "end": 2054.78,
+      "text": "for a small finite interval of time,"
+    },
+    {
+      "start": 2054.88,
+      "end": 2058.48,
+      "text": "infinitesimal interval of time, not yet zero."
+    },
+    {
+      "start": 2058.58,
+      "end": 2063.48,
+      "text": "So during that time, the particle's gone from here to there."
+    },
+    {
+      "start": 2063.58,
+      "end": 2066.12,
+      "text": "That is x plus delta x."
+    },
+    {
+      "start": 2066.22,
+      "end": 2069.12,
+      "text": "So the average velocity in that interval"
+    },
+    {
+      "start": 2069.22,
+      "end": 2072.22,
+      "text": "is delta x divided by delta t."
+    },
+    {
+      "start": 2072.32,
+      "end": 2078.66,
+      "text": "Graphically, this guy is delta x and this guy is delta t."
+    },
+    {
+      "start": 2078.76,
+      "end": 2084.22,
+      "text": "And delta x over delta t is the ratio."
+    },
+    {
+      "start": 2084.32,
+      "end": 2086.22,
+      "text": "So in calculus, what you want to do"
+    },
+    {
+      "start": 2086.32,
+      "end": 2089.22,
+      "text": "is to get the notion of the velocity right now."
+    },
+    {
+      "start": 2089.8,
+      "end": 2092.7,
+      "text": "We all have an intuitive notion of velocity right now."
+    },
+    {
+      "start": 2092.8,
+      "end": 2095.14,
+      "text": "When you're driving in your car,"
+    },
+    {
+      "start": 2095.24,
+      "end": 2097.14,
+      "text": "there's a needle and the needle says 60."
+    },
+    {
+      "start": 2097.24,
+      "end": 2099.43,
+      "text": "That's the velocity at this instant."
+    },
+    {
+      "start": 2099.53,
+      "end": 2100.43,
+      "text": "It's very interesting"
+    },
+    {
+      "start": 2100.43,
+      "end": 2103.33,
+      "text": "because velocity seems to require two different times"
+    },
+    {
+      "start": 2103.43,
+      "end": 2106.46,
+      "text": "to define it, the initial time and the final time."
+    },
+    {
+      "start": 2106.56,
+      "end": 2109.46,
+      "text": "And yet you want to talk about the velocity right now."
+    },
+    {
+      "start": 2109.56,
+      "end": 2111.46,
+      "text": "That is the whole triumph of calculus."
+    },
+    {
+      "start": 2111.56,
+      "end": 2114.46,
+      "text": "It's to know that by looking at the position now,"
+    },
+    {
+      "start": 2114.56,
+      "end": 2116.46,
+      "text": "the position slightly later,"
+    },
+    {
+      "start": 2116.56,
+      "end": 2119.49,
+      "text": "take the ratio and bringing later,"
+    },
+    {
+      "start": 2119.59,
+      "end": 2121.49,
+      "text": "as close as possible to right now,"
+    },
+    {
+      "start": 2121.59,
+      "end": 2123.49,
+      "text": "we define a quantity that we can say"
+    },
+    {
+      "start": 2123.59,
+      "end": 2125.49,
+      "text": "is the velocity at this instant."
+    },
+    {
+      "start": 2125.59,
+      "end": 2130.89,
+      "text": "So v of t is the limit delta t."
+    },
+    {
+      "start": 2130.89,
+      "end": 2140.22,
+      "text": "So v of t is the limit delta t goes to 0 of delta x over delta t."
+    },
+    {
+      "start": 2140.32,
+      "end": 2145.18,
+      "text": "And we use the symbol dx dt for velocity."
+    },
+    {
+      "start": 2145.28,
+      "end": 2151.85,
+      "text": "So technically, if you ask what does the velocity stand for,"
+    },
+    {
+      "start": 2151.95,
+      "end": 2157.1,
+      "text": "it stands for, let me draw a general situation."
+    },
+    {
+      "start": 2157.2,
+      "end": 2161.06,
+      "text": "If a particle goes from here to here,"
+    },
+    {
+      "start": 2161.16,
+      "end": 2163.06,
+      "text": "delta x over delta t,"
+    },
+    {
+      "start": 2163.16,
+      "end": 2165.06,
+      "text": "I don't know how well you can see it in this figure here,"
+    },
+    {
+      "start": 2165.16,
+      "end": 2168.06,
+      "text": "is the slope of a straight line connecting these two points."
+    },
+    {
+      "start": 2168.16,
+      "end": 2171.09,
+      "text": "And as the points come closer and closer,"
+    },
+    {
+      "start": 2171.19,
+      "end": 2174.41,
+      "text": "the straight line will become tangent to the curve."
+    },
+    {
+      "start": 2174.51,
+      "end": 2176.41,
+      "text": "The velocity at any part of the curve"
+    },
+    {
+      "start": 2176.51,
+      "end": 2178.41,
+      "text": "is a tangent to the curve at that point."
+    },
+    {
+      "start": 2178.51,
+      "end": 2180.41,
+      "text": "It's tangent of that theta."
+    },
+    {
+      "start": 2180.51,
+      "end": 2182.41,
+      "text": "This angle is theta."
+    },
+    {
+      "start": 2182.51,
+      "end": 2190.58,
+      "text": "Then delta x over delta t by trigonometry is tan theta."
+    },
+    {
+      "start": 2190.68,
+      "end": 2192.58,
+      "text": "Okay, once you can take one derivative,"
+    },
+    {
+      "start": 2192.68,
+      "end": 2194.58,
+      "text": "you can take any number of derivatives,"
+    },
+    {
+      "start": 2194.68,
+      "end": 2198.47,
+      "text": "and the derivative of the velocity"
+    },
+    {
+      "start": 2198.57,
+      "end": 2200.47,
+      "text": "is called the acceleration."
+    },
+    {
+      "start": 2200.57,
+      "end": 2202.47,
+      "text": "And we write it as the second derivative"
+    },
+    {
+      "start": 2202.57,
+      "end": 2204.47,
+      "text": "of position."
+    },
+    {
+      "start": 2204.57,
+      "end": 2208.17,
+      "text": "So I'm hoping you guys are comfortable"
+    },
+    {
+      "start": 2208.27,
+      "end": 2210.17,
+      "text": "with the notion of taking one or two"
+    },
+    {
+      "start": 2210.27,
+      "end": 2212.58,
+      "text": "or any number of derivatives."
+    },
+    {
+      "start": 2212.68,
+      "end": 2216.58,
+      "text": "Interestingly, the first two derivatives have a name."
+    },
+    {
+      "start": 2216.68,
+      "end": 2220.26,
+      "text": "First one is velocity, second one is acceleration."
+    },
+    {
+      "start": 2220.36,
+      "end": 2222.67,
+      "text": "The third derivative, unfortunately,"
+    },
+    {
+      "start": 2222.77,
+      "end": 2224.67,
+      "text": "was never given a name."
+    },
+    {
+      "start": 2224.77,
+      "end": 2227.15,
+      "text": "And I don't know why."
+    },
+    {
+      "start": 2227.25,
+      "end": 2229.15,
+      "text": "I think the main reason is that there are no equations"
+    },
+    {
+      "start": 2229.25,
+      "end": 2232.15,
+      "text": "that involve the third derivative explicitly."
+    },
+    {
+      "start": 2232.25,
+      "end": 2236.38,
+      "text": "F equals ma, the a is this fellow here,"
+    },
+    {
+      "start": 2236.38,
+      "end": 2239.28,
+      "text": "and nothing else is given an independent name."
+    },
+    {
+      "start": 2239.38,
+      "end": 2241.28,
+      "text": "Of course, you can take a function"
+    },
+    {
+      "start": 2241.38,
+      "end": 2244.4,
+      "text": "and take derivatives any number of times."
+    },
+    {
+      "start": 2244.5,
+      "end": 2247.56,
+      "text": "So you are supposed to know, for example,"
+    },
+    {
+      "start": 2247.66,
+      "end": 2250.94,
+      "text": "if x of t is t to the n,"
+    },
+    {
+      "start": 2251.04,
+      "end": 2257.74,
+      "text": "you're supposed to know dx dt is n to the n minus 1."
+    },
+    {
+      "start": 2257.84,
+      "end": 2260.51,
+      "text": "Then you're supposed to know derivatives"
+    },
+    {
+      "start": 2260.61,
+      "end": 2264.6,
+      "text": "of simple functions like sines and cosines."
+    },
+    {
+      "start": 2264.7,
+      "end": 2266.6,
+      "text": "So if you don't know that, then of course,"
+    },
+    {
+      "start": 2266.7,
+      "end": 2268.6,
+      "text": "you have to work harder than other people."
+    },
+    {
+      "start": 2268.7,
+      "end": 2270.63,
+      "text": "If you know that,"
+    },
+    {
+      "start": 2270.63,
+      "end": 2276.7,
+      "text": "that may be enough for quite some time."
+    },
+    {
+      "start": 2276.8,
+      "end": 2281.7,
+      "text": "So what I've said so far is a particle moving in time"
+    },
+    {
+      "start": 2281.8,
+      "end": 2286.7,
+      "text": "from point to point can be represented by a graph, x versus t."
+    },
+    {
+      "start": 2286.8,
+      "end": 2289.7,
+      "text": "At any point on the graph, you can take the derivative,"
+    },
+    {
+      "start": 2289.8,
+      "end": 2292.7,
+      "text": "which will be tangent to the curve at each point,"
+    },
+    {
+      "start": 2292.8,
+      "end": 2296.18,
+      "text": "and its numerical value will be what you can call"
+    },
+    {
+      "start": 2296.28,
+      "end": 2298.18,
+      "text": "the instantaneous velocity at that point,"
+    },
+    {
+      "start": 2298.28,
+      "end": 2300.18,
+      "text": "and you can take the derivative over the derivative"
+    },
+    {
+      "start": 2300.28,
+      "end": 2303.01,
+      "text": "and call it the acceleration."
+    },
+    {
+      "start": 2303.11,
+      "end": 2305.01,
+      "text": "So we are going to specialize"
+    },
+    {
+      "start": 2305.11,
+      "end": 2308.26,
+      "text": "to a very limited class of problems"
+    },
+    {
+      "start": 2308.36,
+      "end": 2310.64,
+      "text": "in the rest of this class."
+    },
+    {
+      "start": 2310.74,
+      "end": 2314.71,
+      "text": "The limited class of problems is one in which"
+    },
+    {
+      "start": 2314.81,
+      "end": 2319.44,
+      "text": "the acceleration is just a constant."
+    },
+    {
+      "start": 2319.54,
+      "end": 2327.88,
+      "text": "Now that is not the most general thing,"
+    },
+    {
+      "start": 2327.98,
+      "end": 2329.88,
+      "text": "but I'm sure you guys have some idea"
+    },
+    {
+      "start": 2329.98,
+      "end": 2331.88,
+      "text": "why we are interested in that."
+    },
+    {
+      "start": 2331.98,
+      "end": 2333.88,
+      "text": "Anybody know why that's such a big,"
+    },
+    {
+      "start": 2333.98,
+      "end": 2337.87,
+      "text": "so much time is spent on that? Yes? Pardon me?"
+    },
+    {
+      "start": 2337.97,
+      "end": 2343.33,
+      "text": "The most famous example is that when things fall"
+    },
+    {
+      "start": 2343.43,
+      "end": 2345.33,
+      "text": "near the surface of the Earth,"
+    },
+    {
+      "start": 2345.33,
+      "end": 2347.23,
+      "text": "they all have the same acceleration,"
+    },
+    {
+      "start": 2347.33,
+      "end": 2352.55,
+      "text": "and the acceleration that's most common is called g,"
+    },
+    {
+      "start": 2352.65,
+      "end": 2357.55,
+      "text": "and that's 9.8 meters per second squared."
+    },
+    {
+      "start": 2359.6,
+      "end": 2361.5,
+      "text": "So that's a very typical problem."
+    },
+    {
+      "start": 2361.6,
+      "end": 2363.5,
+      "text": "When you fall near the surface of the Earth,"
+    },
+    {
+      "start": 2363.6,
+      "end": 2365.5,
+      "text": "you are describing a problem of constant acceleration."
+    },
+    {
+      "start": 2365.6,
+      "end": 2369.63,
+      "text": "That's why there's a lot of emphasis on sharpening your teeth"
+    },
+    {
+      "start": 2369.73,
+      "end": 2371.63,
+      "text": "by doing this class of problems."
+    },
+    {
+      "start": 2371.73,
+      "end": 2375.66,
+      "text": "The question we are going to ask is the following."
+    },
+    {
+      "start": 2375.76,
+      "end": 2377.69,
+      "text": "If I tell you that the particle"
+    },
+    {
+      "start": 2377.69,
+      "end": 2379.59,
+      "text": "has a constant acceleration a,"
+    },
+    {
+      "start": 2379.69,
+      "end": 2383.75,
+      "text": "can you tell me what the position x is?"
+    },
+    {
+      "start": 2383.85,
+      "end": 2389.11,
+      "text": "Normally, I will give you a function"
+    },
+    {
+      "start": 2389.21,
+      "end": 2391.11,
+      "text": "and tell you to take any number of derivatives."
+    },
+    {
+      "start": 2391.21,
+      "end": 2393.11,
+      "text": "That's very easy. This is the backwards problem."
+    },
+    {
+      "start": 2393.21,
+      "end": 2396.27,
+      "text": "You're only given the particle has acceleration a,"
+    },
+    {
+      "start": 2396.37,
+      "end": 2399.27,
+      "text": "and you're asked to find out what is x."
+    },
+    {
+      "start": 2399.37,
+      "end": 2405.55,
+      "text": "In other words, your job is to guess a function"
+    },
+    {
+      "start": 2405.65,
+      "end": 2408.55,
+      "text": "whose second derivative is a,"
+    },
+    {
+      "start": 2408.65,
+      "end": 2412.72,
+      "text": "and this is called integration,"
+    },
+    {
+      "start": 2412.82,
+      "end": 2414.72,
+      "text": "which is the opposite of differentiation."
+    },
+    {
+      "start": 2414.82,
+      "end": 2418.78,
+      "text": "Integration is just guessing."
+    },
+    {
+      "start": 2418.88,
+      "end": 2421.78,
+      "text": "Integration is not an algorithmic process like differentiation."
+    },
+    {
+      "start": 2421.88,
+      "end": 2424.78,
+      "text": "If I give you a function, you know how to take the derivative,"
+    },
+    {
+      "start": 2424.88,
+      "end": 2426.78,
+      "text": "change the independent variable,"
+    },
+    {
+      "start": 2426.88,
+      "end": 2428.78,
+      "text": "find the change in the function, take the ratio,"
+    },
+    {
+      "start": 2428.88,
+      "end": 2430.81,
+      "text": "and that's the derivative."
+    },
+    {
+      "start": 2430.91,
+      "end": 2432.81,
+      "text": "The opposite is being asked here."
+    },
+    {
+      "start": 2432.91,
+      "end": 2434.81,
+      "text": "I tell you something about the second derivative of a function"
+    },
+    {
+      "start": 2434.91,
+      "end": 2436.81,
+      "text": "and ask you what is the function."
+    },
+    {
+      "start": 2436.91,
+      "end": 2439.13,
+      "text": "The way we do that is we guess,"
+    },
+    {
+      "start": 2439.23,
+      "end": 2442.26,
+      "text": "and the guessing has been going on for 300 years,"
+    },
+    {
+      "start": 2442.36,
+      "end": 2444.26,
+      "text": "so we sort of know how to guess."
+    },
+    {
+      "start": 2444.36,
+      "end": 2446.55,
+      "text": "So let me think aloud"
+    },
+    {
+      "start": 2446.65,
+      "end": 2448.45,
+      "text": "and ask how I will guess in this problem."
+    },
+    {
+      "start": 2448.55,
+      "end": 2451.45,
+      "text": "I will say, okay, this guy wants me to find a function"
+    },
+    {
+      "start": 2451.55,
+      "end": 2455.45,
+      "text": "which reduces to the number a when I take two derivatives."
+    },
+    {
+      "start": 2455.55,
+      "end": 2461.25,
+      "text": "And I wrote somewhere here this result,"
+    },
+    {
+      "start": 2461.35,
+      "end": 2463.5,
+      "text": "which says that when I take a derivative,"
+    },
+    {
+      "start": 2463.6,
+      "end": 2465.5,
+      "text": "I lose the power of t."
+    },
+    {
+      "start": 2465.6,
+      "end": 2469.24,
+      "text": "In the end, I don't want any powers of t."
+    },
+    {
+      "start": 2469.5,
+      "end": 2472.59,
+      "text": "Very clear, I've got to start with a function"
+    },
+    {
+      "start": 2472.69,
+      "end": 2475.65,
+      "text": "that looks like t squared."
+    },
+    {
+      "start": 2475.75,
+      "end": 2477.65,
+      "text": "This way, when I take two derivatives,"
+    },
+    {
+      "start": 2477.75,
+      "end": 2479.65,
+      "text": "there'll be no t left."
+    },
+    {
+      "start": 2479.65,
+      "end": 2481.55,
+      "text": "Unfortunately, we know this is not the right answer"
+    },
+    {
+      "start": 2481.65,
+      "end": 2483.55,
+      "text": "because if I take the first derivative,"
+    },
+    {
+      "start": 2483.65,
+      "end": 2484.55,
+      "text": "I get 2t."
+    },
+    {
+      "start": 2484.65,
+      "end": 2486.55,
+      "text": "If I take the second derivative,"
+    },
+    {
+      "start": 2486.65,
+      "end": 2487.87,
+      "text": "I get 2."
+    },
+    {
+      "start": 2487.97,
+      "end": 2489.87,
+      "text": "But I want to get a and not 2."
+    },
+    {
+      "start": 2489.97,
+      "end": 2493.87,
+      "text": "Then it's very clear the way you patch that up"
+    },
+    {
+      "start": 2493.97,
+      "end": 2495.87,
+      "text": "is you multiply it by this constant,"
+    },
+    {
+      "start": 2495.97,
+      "end": 2497.87,
+      "text": "and now we are all set."
+    },
+    {
+      "start": 2498.77,
+      "end": 2501.67,
+      "text": "This function will have the right second derivative."
+    },
+    {
+      "start": 2501.86,
+      "end": 2503.76,
+      "text": "This certainly describes a particle"
+    },
+    {
+      "start": 2503.86,
+      "end": 2505.76,
+      "text": "whose acceleration is a,"
+    },
+    {
+      "start": 2505.86,
+      "end": 2507.76,
+      "text": "but a is not dependent on time."
+    },
+    {
+      "start": 2507.86,
+      "end": 2513.1,
+      "text": "But the question is, is this the most,"
+    },
+    {
+      "start": 2513.2,
+      "end": 2517.87,
+      "text": "general answer, or is it just one answer?"
+    },
+    {
+      "start": 2517.97,
+      "end": 2520.87,
+      "text": "I think you all know that this is not the most general answer."
+    },
+    {
+      "start": 2520.97,
+      "end": 2521.87,
+      "text": "It is one answer."
+    },
+    {
+      "start": 2521.97,
+      "end": 2524.87,
+      "text": "But I can add to this some number like 96."
+    },
+    {
+      "start": 2524.97,
+      "end": 2529.18,
+      "text": "That'll still have the property that if you take two derivatives,"
+    },
+    {
+      "start": 2529.28,
+      "end": 2531.18,
+      "text": "you're going to get the same acceleration."
+    },
+    {
+      "start": 2531.31,
+      "end": 2535.4,
+      "text": "So 96 now is a typical constant,"
+    },
+    {
+      "start": 2535.5,
+      "end": 2540.72,
+      "text": "so I'm going to give the name c, the constant."
+    },
+    {
+      "start": 2540.82,
+      "end": 2543.72,
+      "text": "Everyone knows from calculus that if you're trying to find a function"
+    },
+    {
+      "start": 2543.82,
+      "end": 2545.72,
+      "text": "about which you know only the derivative,"
+    },
+    {
+      "start": 2545.72,
+      "end": 2548.65,
+      "text": "you can always add a constant to one person's answer"
+    },
+    {
+      "start": 2548.75,
+      "end": 2550.65,
+      "text": "without changing anything."
+    },
+    {
+      "start": 2550.75,
+      "end": 2555.12,
+      "text": "But I think here you know you can do more."
+    },
+    {
+      "start": 2555.22,
+      "end": 2557.12,
+      "text": "You can add something else to the answer"
+    },
+    {
+      "start": 2557.22,
+      "end": 2559.12,
+      "text": "without invalidating it,"
+    },
+    {
+      "start": 2559.22,
+      "end": 2563.12,
+      "text": "and that is anything with one power of t in it,"
+    },
+    {
+      "start": 2563.22,
+      "end": 2568.58,
+      "text": "because if you take one derivative, it'll survive,"
+    },
+    {
+      "start": 2568.68,
+      "end": 2572.58,
+      "text": "but if you take two derivatives, it'll get wiped out."
+    },
+    {
+      "start": 2572.68,
+      "end": 2576.18,
+      "text": "Now it's not obvious, but it is true"
+    },
+    {
+      "start": 2576.28,
+      "end": 2580.4,
+      "text": "that you cannot add to this anymore."
+    },
+    {
+      "start": 2580.5,
+      "end": 2582.4,
+      "text": "Basic idea in solving these things"
+    },
+    {
+      "start": 2582.5,
+      "end": 2584.4,
+      "text": "is to integrate these equations."
+    },
+    {
+      "start": 2584.5,
+      "end": 2586.5,
+      "text": "In integrating, you find one answer"
+    },
+    {
+      "start": 2586.6,
+      "end": 2588.5,
+      "text": "so that when you take enough derivatives,"
+    },
+    {
+      "start": 2588.6,
+      "end": 2590.5,
+      "text": "the function does what it's supposed to do."
+    },
+    {
+      "start": 2590.6,
+      "end": 2592.5,
+      "text": "But then having found one answer,"
+    },
+    {
+      "start": 2592.6,
+      "end": 2594.88,
+      "text": "you can add to it anything that gets killed"
+    },
+    {
+      "start": 2594.98,
+      "end": 2596.88,
+      "text": "by the act of taking derivatives."
+    },
+    {
+      "start": 2597.36,
+      "end": 2599.26,
+      "text": "If you're taking only one derivative,"
+    },
+    {
+      "start": 2599.36,
+      "end": 2601.26,
+      "text": "you can add a constant."
+    },
+    {
+      "start": 2601.36,
+      "end": 2603.26,
+      "text": "If you're taking two derivatives,"
+    },
+    {
+      "start": 2603.36,
+      "end": 2605.42,
+      "text": "you can add a constant and something linear in t."
+    },
+    {
+      "start": 2605.52,
+      "end": 2607.42,
+      "text": "If you knew only the third derivative of the function,"
+    },
+    {
+      "start": 2607.52,
+      "end": 2609.78,
+      "text": "you can add something quadratic in t"
+    },
+    {
+      "start": 2609.88,
+      "end": 2611.78,
+      "text": "without changing the outcome."
+    },
+    {
+      "start": 2611.78,
+      "end": 2614.86,
+      "text": "So that's the general position"
+    },
+    {
+      "start": 2614.96,
+      "end": 2618.66,
+      "text": "for a particle of constant acceleration, a."
+    },
+    {
+      "start": 2618.76,
+      "end": 2621.24,
+      "text": "Now you must remember that"
+    },
+    {
+      "start": 2621.34,
+      "end": 2623.24,
+      "text": "this describes a particle going side to side."
+    },
+    {
+      "start": 2623.34,
+      "end": 2626.24,
+      "text": "I can also describe a particle going up and down."
+    },
+    {
+      "start": 2626.34,
+      "end": 2628.56,
+      "text": "If I do that,"
+    },
+    {
+      "start": 2628.66,
+      "end": 2631.56,
+      "text": "I would like to call that coordinate y,"
+    },
+    {
+      "start": 2631.66,
+      "end": 2633.56,
+      "text": "then I will write the same thing."
+    },
+    {
+      "start": 2635.58,
+      "end": 2637.48,
+      "text": "You've got to realize that in calculus,"
+    },
+    {
+      "start": 2637.58,
+      "end": 2641.48,
+      "text": "the symbols that you call x and y are completely arbitrary."
+    },
+    {
+      "start": 2641.58,
+      "end": 2645.02,
+      "text": "If you know the second derivative of y to be a,"
+    },
+    {
+      "start": 2645.12,
+      "end": 2647.02,
+      "text": "then the answer looks like this."
+    },
+    {
+      "start": 2647.12,
+      "end": 2649.02,
+      "text": "If you knew the second derivative of x,"
+    },
+    {
+      "start": 2649.12,
+      "end": 2652.56,
+      "text": "the answer looks like that."
+    },
+    {
+      "start": 2652.66,
+      "end": 2654.56,
+      "text": "Now we have to ask,"
+    },
+    {
+      "start": 2654.66,
+      "end": 2659.06,
+      "text": "what are these numbers b and c?"
+    },
+    {
+      "start": 2659.16,
+      "end": 2662.06,
+      "text": "So let me go back now to this expression,"
+    },
+    {
+      "start": 2662.16,
+      "end": 2674.86,
+      "text": "x of t equals a t squared over 2 plus c plus b t."
+    },
+    {
+      "start": 2674.96,
+      "end": 2677.86,
+      "text": "It is true mathematically you can add two numbers,"
+    },
+    {
+      "start": 2677.96,
+      "end": 2679.86,
+      "text": "but you've got to ask yourself,"
+    },
+    {
+      "start": 2679.96,
+      "end": 2682.86,
+      "text": "what am I doing as a physicist when I add these two numbers?"
+    },
+    {
+      "start": 2682.96,
+      "end": 2684.86,
+      "text": "What am I supposed to do with a and b?"
+    },
+    {
+      "start": 2684.86,
+      "end": 2686.76,
+      "text": "What am I supposed to do with a and b?"
+    },
+    {
+      "start": 2686.86,
+      "end": 2689.59,
+      "text": "What am I supposed to do with a and b?"
+    },
+    {
+      "start": 2689.69,
+      "end": 2691.59,
+      "text": "What value should I pick?"
+    },
+    {
+      "start": 2691.69,
+      "end": 2694.59,
+      "text": "The answer is that simply knowing the particle has that acceleration"
+    },
+    {
+      "start": 2694.69,
+      "end": 2697.59,
+      "text": "is not enough to tell you where the particle will be."
+    },
+    {
+      "start": 2697.69,
+      "end": 2699.59,
+      "text": "For example, let's take the case"
+    },
+    {
+      "start": 2699.69,
+      "end": 2702.85,
+      "text": "where the particle is falling under gravity."
+    },
+    {
+      "start": 2702.95,
+      "end": 2704.85,
+      "text": "Then you guys know, you just told me,"
+    },
+    {
+      "start": 2704.95,
+      "end": 2707.88,
+      "text": "acceleration is minus 9.8,"
+    },
+    {
+      "start": 2707.98,
+      "end": 2710.88,
+      "text": "where g is minus 9.8."
+    },
+    {
+      "start": 2710.98,
+      "end": 2713.88,
+      "text": "We call it minus because it's accelerating down"
+    },
+    {
+      "start": 2713.98,
+      "end": 2715.88,
+      "text": "and up was taken to be the positive direction."
+    },
+    {
+      "start": 2715.88,
+      "end": 2725.89,
+      "text": "So the y of t will be minus 1 half gt squared plus c plus bt."
+    },
+    {
+      "start": 2725.99,
+      "end": 2728.89,
+      "text": "So the point is every object falling under gravity"
+    },
+    {
+      "start": 2728.99,
+      "end": 2730.89,
+      "text": "is given by the same formula,"
+    },
+    {
+      "start": 2730.99,
+      "end": 2733.89,
+      "text": "but there are many, many objects that can have many histories"
+    },
+    {
+      "start": 2733.99,
+      "end": 2736.08,
+      "text": "all falling under gravity."
+    },
+    {
+      "start": 2736.18,
+      "end": 2739.28,
+      "text": "And what's different from one object and the other object is"
+    },
+    {
+      "start": 2739.38,
+      "end": 2741.28,
+      "text": "when was it dropped, from what height,"
+    },
+    {
+      "start": 2741.38,
+      "end": 2744.4,
+      "text": "and with what initial speed?"
+    },
+    {
+      "start": 2744.5,
+      "end": 2746.4,
+      "text": "That's what these numbers are going to tell us,"
+    },
+    {
+      "start": 2746.5,
+      "end": 2748.4,
+      "text": "and we can verify that as follows."
+    },
+    {
+      "start": 2748.4,
+      "end": 2750.3,
+      "text": "So the number c is, you say,"
+    },
+    {
+      "start": 2750.4,
+      "end": 2752.3,
+      "text": "let's put time t equal to 0."
+    },
+    {
+      "start": 2752.4,
+      "end": 2756.35,
+      "text": "In fact, let me go back to this equation here."
+    },
+    {
+      "start": 2756.45,
+      "end": 2761.35,
+      "text": "If you put time t equal to 0, x at 0 doesn't have this term,"
+    },
+    {
+      "start": 2761.45,
+      "end": 2764.35,
+      "text": "doesn't have this term, and it is c."
+    },
+    {
+      "start": 2764.45,
+      "end": 2766.35,
+      "text": "So I realize that the constant c"
+    },
+    {
+      "start": 2766.45,
+      "end": 2769.48,
+      "text": "is the initial location of the object,"
+    },
+    {
+      "start": 2769.58,
+      "end": 2773.48,
+      "text": "and it's very common to denote that by x naught."
+    },
+    {
+      "start": 2773.58,
+      "end": 2777.82,
+      "text": "So the meaning of the constant is"
+    },
+    {
+      "start": 2777.92,
+      "end": 2780.82,
+      "text": "where was the object at the initial time?"
+    },
+    {
+      "start": 2780.82,
+      "end": 2783.1,
+      "text": "It could have been anywhere."
+    },
+    {
+      "start": 2783.2,
+      "end": 2785.1,
+      "text": "Simply knowing the acceleration is not enough"
+    },
+    {
+      "start": 2785.2,
+      "end": 2787.1,
+      "text": "to tell you where it was at the initial time."
+    },
+    {
+      "start": 2787.2,
+      "end": 2791.12,
+      "text": "You get to pick where it was at the initial time."
+    },
+    {
+      "start": 2791.22,
+      "end": 2793.12,
+      "text": "Then to find the meaning of b,"
+    },
+    {
+      "start": 2793.22,
+      "end": 2796.12,
+      "text": "we take one derivative of this, dx dt."
+    },
+    {
+      "start": 2796.22,
+      "end": 2799.25,
+      "text": "That's velocity as a function of time."
+    },
+    {
+      "start": 2799.35,
+      "end": 2801.25,
+      "text": "And if you took the derivative of this guy,"
+    },
+    {
+      "start": 2801.35,
+      "end": 2806.2,
+      "text": "you'll find it's at plus b."
+    },
+    {
+      "start": 2806.3,
+      "end": 2808.36,
+      "text": "That's the velocity of the object."
+    },
+    {
+      "start": 2808.46,
+      "end": 2814.59,
+      "text": "Then you can then understand that v of 0 is what b is,"
+    },
+    {
+      "start": 2814.59,
+      "end": 2823.06,
+      "text": "and that's the velocity of the object."
+    },
+    {
+      "start": 2823.16,
+      "end": 2828.89,
+      "text": "So the final answer is that x of t looks like x naught"
+    },
+    {
+      "start": 2828.99,
+      "end": 2834.5,
+      "text": "plus v naught t plus 1 half at square."
+    },
+    {
+      "start": 2834.6,
+      "end": 2844.48,
+      "text": "So what I'm saying here is we are specializing"
+    },
+    {
+      "start": 2844.58,
+      "end": 2847.48,
+      "text": "to a limited class of motion where the particle"
+    },
+    {
+      "start": 2847.58,
+      "end": 2850.48,
+      "text": "has a definite acceleration a."
+    },
+    {
+      "start": 2850.71,
+      "end": 2855.22,
+      "text": "Then in every situation where the body has an acceleration a,"
+    },
+    {
+      "start": 2855.32,
+      "end": 2858.73,
+      "text": "the location has to have this form."
+    },
+    {
+      "start": 2858.73,
+      "end": 2860.63,
+      "text": "Where this number is where it was initially,"
+    },
+    {
+      "start": 2860.73,
+      "end": 2864.65,
+      "text": "this was the initial velocity of the object."
+    },
+    {
+      "start": 2864.75,
+      "end": 2867.65,
+      "text": "So when I threw that thing up and you caught it,"
+    },
+    {
+      "start": 2867.75,
+      "end": 2870.78,
+      "text": "what you were doing mentally was immediately figuring out"
+    },
+    {
+      "start": 2870.88,
+      "end": 2874.61,
+      "text": "where it started and at what speed."
+    },
+    {
+      "start": 2874.71,
+      "end": 2876.61,
+      "text": "That was your initial data."
+    },
+    {
+      "start": 2876.71,
+      "end": 2879.87,
+      "text": "Then in your mind, without realizing it,"
+    },
+    {
+      "start": 2879.97,
+      "end": 2884.72,
+      "text": "you found the trajectory at all future times."
+    },
+    {
+      "start": 2884.82,
+      "end": 2888.14,
+      "text": "Now, there is one other celebrated formula"
+    },
+    {
+      "start": 2888.24,
+      "end": 2889.14,
+      "text": "that goes with this."
+    },
+    {
+      "start": 2889.24,
+      "end": 2891.14,
+      "text": "I'm going to find that."
+    },
+    {
+      "start": 2891.24,
+      "end": 2893.14,
+      "text": "Then I'll give you an example."
+    },
+    {
+      "start": 2893.34,
+      "end": 2902.3,
+      "text": "Now, I'm fully aware that this is not the flashiest example"
+    },
+    {
+      "start": 2902.4,
+      "end": 2905.3,
+      "text": "in physics, but I'm not worried about that right now."
+    },
+    {
+      "start": 2905.4,
+      "end": 2908.3,
+      "text": "You'll see enough things that will confound you."
+    },
+    {
+      "start": 2908.4,
+      "end": 2912.3,
+      "text": "But right now, I want to demonstrate a simple paradigm"
+    },
+    {
+      "start": 2912.4,
+      "end": 2914.3,
+      "text": "of what it means to know the present"
+    },
+    {
+      "start": 2914.4,
+      "end": 2918.3,
+      "text": "and what it means to say this is what the future behavior will be."
+    },
+    {
+      "start": 2918.4,
+      "end": 2920.3,
+      "text": "If you want to do that in the simplest context,"
+    },
+    {
+      "start": 2920.4,
+      "end": 2923.3,
+      "text": "then we can make the example more and more complicated,"
+    },
+    {
+      "start": 2923.4,
+      "end": 2925.59,
+      "text": "but the phenomenon will be the same."
+    },
+    {
+      "start": 2925.69,
+      "end": 2927.72,
+      "text": "So what we have found out so far"
+    },
+    {
+      "start": 2927.82,
+      "end": 2931.26,
+      "text": "is that the first formula is the second formula."
+    },
+    {
+      "start": 2931.36,
+      "end": 2933.26,
+      "text": "I'm purposely going from x to y"
+    },
+    {
+      "start": 2933.36,
+      "end": 2936.26,
+      "text": "because I want you to know that the unknown variable"
+    },
+    {
+      "start": 2936.36,
+      "end": 2939.73,
+      "text": "can be called an x or can be called a y."
+    },
+    {
+      "start": 2939.83,
+      "end": 2940.73,
+      "text": "It doesn't matter."
+    },
+    {
+      "start": 2940.83,
+      "end": 2943.75,
+      "text": "As long as the second derivative is a,"
+    },
+    {
+      "start": 2943.85,
+      "end": 2944.75,
+      "text": "that's the answer."
+    },
+    {
+      "start": 2944.85,
+      "end": 2947.82,
+      "text": "Now, there's a second formula one derives from this."
+    },
+    {
+      "start": 2947.92,
+      "end": 2952.39,
+      "text": "You guys probably know that too from your days at the daycare,"
+    },
+    {
+      "start": 2952.49,
+      "end": 2954.39,
+      "text": "but I want to derive that formula and put it up."
+    },
+    {
+      "start": 2954.49,
+      "end": 2956.39,
+      "text": "Then we'll see how to use that."
+    },
+    {
+      "start": 2956.49,
+      "end": 2959.39,
+      "text": "The second formula tries to relate the final velocity"
+    },
+    {
+      "start": 2959.49,
+      "end": 2961.39,
+      "text": "at some time t"
+    },
+    {
+      "start": 2961.49,
+      "end": 2964.29,
+      "text": "and the distance traveled with no reference to time."
+    },
+    {
+      "start": 2964.39,
+      "end": 2969.54,
+      "text": "So the trick is to eliminate time from this equation."
+    },
+    {
+      "start": 2969.64,
+      "end": 2971.54,
+      "text": "So let's see how we can eliminate time."
+    },
+    {
+      "start": 2971.64,
+      "end": 2974.83,
+      "text": "You know that if you took a derivative of this,"
+    },
+    {
+      "start": 2974.93,
+      "end": 2978.83,
+      "text": "you'll find v of t is v0 plus at."
+    },
+    {
+      "start": 2978.93,
+      "end": 2985.71,
+      "text": "What that means is if you know the velocity at a given time"
+    },
+    {
+      "start": 2985.81,
+      "end": 2987.71,
+      "text": "and you know the initial velocity,"
+    },
+    {
+      "start": 2987.81,
+      "end": 2989.71,
+      "text": "you know what time it is."
+    },
+    {
+      "start": 2989.81,
+      "end": 2993.71,
+      "text": "The time, in fact, is v minus v0 over a."
+    },
+    {
+      "start": 2993.81,
+      "end": 2995.71,
+      "text": "If I don't show you the initial velocity,"
+    },
+    {
+      "start": 2995.91,
+      "end": 2997.71,
+      "text": "you can see that it's v minus v0 over a."
+    },
+    {
+      "start": 2997.81,
+      "end": 2999.71,
+      "text": "If you don't see any arguments for v,"
+    },
+    {
+      "start": 2999.81,
+      "end": 3002.57,
+      "text": "it means v at time t,"
+    },
+    {
+      "start": 3002.67,
+      "end": 3004.57,
+      "text": "and the subscript 0 means v of 0."
+    },
+    {
+      "start": 3004.67,
+      "end": 3006.57,
+      "text": "So what this says is you can measure time"
+    },
+    {
+      "start": 3006.67,
+      "end": 3008.57,
+      "text": "by having your own clock."
+    },
+    {
+      "start": 3008.67,
+      "end": 3010.57,
+      "text": "The clock tells you what time it is."
+    },
+    {
+      "start": 3010.67,
+      "end": 3012.67,
+      "text": "But you can also say what time it is"
+    },
+    {
+      "start": 3012.77,
+      "end": 3014.67,
+      "text": "by seeing how fast the particle is moving"
+    },
+    {
+      "start": 3014.77,
+      "end": 3016.67,
+      "text": "because you know it started with some speed."
+    },
+    {
+      "start": 3016.77,
+      "end": 3018.67,
+      "text": "It's gaining speed at some rate a."
+    },
+    {
+      "start": 3018.77,
+      "end": 3020.67,
+      "text": "So if the speed was so and so now,"
+    },
+    {
+      "start": 3020.77,
+      "end": 3022.67,
+      "text": "then the time had to be this."
+    },
+    {
+      "start": 3022.77,
+      "end": 3026.31,
+      "text": "The time can be indirectly inferred from these quantities."
+    },
+    {
+      "start": 3026.41,
+      "end": 3028.24,
+      "text": "Then you take that formula here,"
+    },
+    {
+      "start": 3028.34,
+      "end": 3030.14,
+      "text": "and you put it here."
+    },
+    {
+      "start": 3030.24,
+      "end": 3032.14,
+      "text": "Wherever you see a time t, you put this expression."
+    },
+    {
+      "start": 3032.24,
+      "end": 3034.46,
+      "text": "So what will you get?"
+    },
+    {
+      "start": 3034.56,
+      "end": 3036.46,
+      "text": "You'll get an expression in which there is no t."
+    },
+    {
+      "start": 3036.56,
+      "end": 3038.46,
+      "text": "t has been banished in favor of this."
+    },
+    {
+      "start": 3038.65,
+      "end": 3040.55,
+      "text": "I'm not going to waste your time by asking"
+    },
+    {
+      "start": 3040.65,
+      "end": 3042.55,
+      "text": "what happens if you put it in."
+    },
+    {
+      "start": 3042.65,
+      "end": 3044.55,
+      "text": "I'll just tell you what happens."
+    },
+    {
+      "start": 3044.65,
+      "end": 3046.81,
+      "text": "What happens is you will find that v squared"
+    },
+    {
+      "start": 3046.91,
+      "end": 3055.14,
+      "text": "is equal to v0 squared plus 2a times x minus x0."
+    },
+    {
+      "start": 3055.24,
+      "end": 3057.14,
+      "text": "How many people have seen this thing before?"
+    },
+    {
+      "start": 3057.24,
+      "end": 3061.96,
+      "text": "Okay, that's a lot."
+    },
+    {
+      "start": 3062.06,
+      "end": 3064.7,
+      "text": "Look, I know you've seen this."
+    },
+    {
+      "start": 3064.9,
+      "end": 3066.7,
+      "text": "At the moment, I have to go through"
+    },
+    {
+      "start": 3066.8,
+      "end": 3068.92,
+      "text": "some of the more standard material"
+    },
+    {
+      "start": 3069.02,
+      "end": 3071.92,
+      "text": "before we go to the more non-standard material."
+    },
+    {
+      "start": 3072.02,
+      "end": 3073.92,
+      "text": "This part is very easy for you."
+    },
+    {
+      "start": 3074.02,
+      "end": 3077.05,
+      "text": "There's not much I can do right now."
+    },
+    {
+      "start": 3077.15,
+      "end": 3079.05,
+      "text": "So let me draw a box."
+    },
+    {
+      "start": 3079.15,
+      "end": 3083.05,
+      "text": "Just drawing a box to you guys means important."
+    },
+    {
+      "start": 3083.15,
+      "end": 3085.05,
+      "text": "These are the two important things."
+    },
+    {
+      "start": 3085.15,
+      "end": 3090.34,
+      "text": "I claim now."
+    },
+    {
+      "start": 3090.44,
+      "end": 3092.34,
+      "text": "Remember, I want you to understand one thing."
+    },
+    {
+      "start": 3092.44,
+      "end": 3094.63,
+      "text": "How much of this should you memorize?"
+    },
+    {
+      "start": 3094.73,
+      "end": 3096.63,
+      "text": "Suppose you've never seen this in high school."
+    },
+    {
+      "start": 3096.73,
+      "end": 3098.7,
+      "text": "How much are you supposed to memorize?"
+    },
+    {
+      "start": 3098.9,
+      "end": 3101.11,
+      "text": "I would say keep that to a minimum"
+    },
+    {
+      "start": 3101.21,
+      "end": 3103.11,
+      "text": "because what the first formula tells you"
+    },
+    {
+      "start": 3103.21,
+      "end": 3106.11,
+      "text": "should be so intuitive that you don't have to cram this."
+    },
+    {
+      "start": 3106.21,
+      "end": 3109.11,
+      "text": "We're talking about particles of constant acceleration."
+    },
+    {
+      "start": 3109.21,
+      "end": 3111.11,
+      "text": "That means when I take two derivatives,"
+    },
+    {
+      "start": 3111.21,
+      "end": 3112.11,
+      "text": "I want to get a."
+    },
+    {
+      "start": 3112.21,
+      "end": 3114.11,
+      "text": "Then you should know enough calculus"
+    },
+    {
+      "start": 3114.21,
+      "end": 3116.11,
+      "text": "to know it has to be something like at squared."
+    },
+    {
+      "start": 3116.21,
+      "end": 3118.11,
+      "text": "The half comes from taking two derivatives."
+    },
+    {
+      "start": 3118.21,
+      "end": 3121.11,
+      "text": "The other two you know are stuff you can add."
+    },
+    {
+      "start": 3121.21,
+      "end": 3124.11,
+      "text": "You know why you're adding those things"
+    },
+    {
+      "start": 3124.21,
+      "end": 3126.11,
+      "text": "because the particle has a head start."
+    },
+    {
+      "start": 3126.21,
+      "end": 3128.11,
+      "text": "It's got an initial position."
+    },
+    {
+      "start": 3128.11,
+      "end": 3130.2,
+      "text": "Even at t equal to zero,"
+    },
+    {
+      "start": 3130.3,
+      "end": 3132.2,
+      "text": "it has an initial velocity."
+    },
+    {
+      "start": 3132.3,
+      "end": 3134.2,
+      "text": "Even without any acceleration,"
+    },
+    {
+      "start": 3134.3,
+      "end": 3137.4,
+      "text": "it'll be moving from y naught to y naught plus vt."
+    },
+    {
+      "start": 3137.5,
+      "end": 3139.4,
+      "text": "The acceleration gives you an extra stuff,"
+    },
+    {
+      "start": 3139.5,
+      "end": 3141.84,
+      "text": "a quadratic in time."
+    },
+    {
+      "start": 3141.94,
+      "end": 3143.84,
+      "text": "Once you've got that,"
+    },
+    {
+      "start": 3143.94,
+      "end": 3145.84,
+      "text": "one derivative will give you the velocity."
+    },
+    {
+      "start": 3145.94,
+      "end": 3147.84,
+      "text": "Then in a crunch, you can eliminate t"
+    },
+    {
+      "start": 3147.94,
+      "end": 3149.88,
+      "text": "and put it into this formula."
+    },
+    {
+      "start": 3149.98,
+      "end": 3151.88,
+      "text": "But most people end up memorizing these two"
+    },
+    {
+      "start": 3151.98,
+      "end": 3153.88,
+      "text": "because you use it so many times."
+    },
+    {
+      "start": 3153.98,
+      "end": 3156.0,
+      "text": "Eventually it sticks in you,"
+    },
+    {
+      "start": 3156.1,
+      "end": 3158.23,
+      "text": "but you shouldn't try to memorize everything."
+    },
+    {
+      "start": 3158.23,
+      "end": 3162.13,
+      "text": "We are now going to do one standard problem"
+    },
+    {
+      "start": 3162.23,
+      "end": 3165.22,
+      "text": "where we will convince ourselves"
+    },
+    {
+      "start": 3165.32,
+      "end": 3169.58,
+      "text": "we can apply this formula and predict the future"
+    },
+    {
+      "start": 3169.68,
+      "end": 3172.43,
+      "text": "given the present."
+    },
+    {
+      "start": 3172.53,
+      "end": 3174.82,
+      "text": "The problem I want to do,"
+    },
+    {
+      "start": 3174.92,
+      "end": 3176.82,
+      "text": "there are many things you could do,"
+    },
+    {
+      "start": 3176.92,
+      "end": 3177.88,
+      "text": "but I just picked one."
+    },
+    {
+      "start": 3177.98,
+      "end": 3179.88,
+      "text": "This is the one with the wrong number,"
+    },
+    {
+      "start": 3179.98,
+      "end": 3181.88,
+      "text": "so I can do it without a calculator."
+    },
+    {
+      "start": 3181.98,
+      "end": 3182.98,
+      "text": "Here's the problem."
+    },
+    {
+      "start": 3183.08,
+      "end": 3186.48,
+      "text": "There is this building,"
+    },
+    {
+      "start": 3186.58,
+      "end": 3188.48,
+      "text": "and it's going to be 15 meters high."
+    },
+    {
+      "start": 3188.58,
+      "end": 3192.46,
+      "text": "I'm going to throw something,"
+    },
+    {
+      "start": 3192.56,
+      "end": 3194.56,
+      "text": "and it's going to go up and come down."
+    },
+    {
+      "start": 3194.66,
+      "end": 3197.59,
+      "text": "Something I throw up has an initial speed"
+    },
+    {
+      "start": 3197.69,
+      "end": 3199.59,
+      "text": "of 10 meters per second."
+    },
+    {
+      "start": 3199.69,
+      "end": 3209.4,
+      "text": "So we have to ask now,"
+    },
+    {
+      "start": 3209.5,
+      "end": 3211.4,
+      "text": "now that my claim is,"
+    },
+    {
+      "start": 3211.5,
+      "end": 3213.4,
+      "text": "you can ask me any question you want"
+    },
+    {
+      "start": 3213.5,
+      "end": 3215.56,
+      "text": "about this particle,"
+    },
+    {
+      "start": 3215.66,
+      "end": 3217.69,
+      "text": "and I can answer you."
+    },
+    {
+      "start": 3217.79,
+      "end": 3219.69,
+      "text": "You can ask me where it will be"
+    },
+    {
+      "start": 3219.79,
+      "end": 3221.69,
+      "text": "9 seconds from now, 8 seconds from now,"
+    },
+    {
+      "start": 3221.79,
+      "end": 3223.69,
+      "text": "how fast will it be moving."
+    },
+    {
+      "start": 3223.79,
+      "end": 3226.04,
+      "text": "I can answer anything at all."
+    },
+    {
+      "start": 3226.14,
+      "end": 3228.04,
+      "text": "But what I needed to do it,"
+    },
+    {
+      "start": 3228.14,
+      "end": 3230.04,
+      "text": "to do this problem,"
+    },
+    {
+      "start": 3230.14,
+      "end": 3233.04,
+      "text": "was to find these two unknowns."
+    },
+    {
+      "start": 3233.04,
+      "end": 3235.94,
+      "text": "What is the initial velocity given in general,"
+    },
+    {
+      "start": 3236.04,
+      "end": 3237.97,
+      "text": "and what is tailor-made to the occasion?"
+    },
+    {
+      "start": 3238.07,
+      "end": 3239.97,
+      "text": "We know in this example,"
+    },
+    {
+      "start": 3240.07,
+      "end": 3242.97,
+      "text": "the initial height should be 15 meters,"
+    },
+    {
+      "start": 3243.07,
+      "end": 3245.97,
+      "text": "and the initial velocity should be 10."
+    },
+    {
+      "start": 3246.07,
+      "end": 3248.97,
+      "text": "For acceleration, I'm going to use minus g,"
+    },
+    {
+      "start": 3249.07,
+      "end": 3250.97,
+      "text": "and to keep life simple,"
+    },
+    {
+      "start": 3251.07,
+      "end": 3253.64,
+      "text": "I'm going to call it minus 10."
+    },
+    {
+      "start": 3253.74,
+      "end": 3255.64,
+      "text": "As you know, the correct answer is 9.8,"
+    },
+    {
+      "start": 3255.74,
+      "end": 3258.64,
+      "text": "but we don't want to use a calculator now,"
+    },
+    {
+      "start": 3258.74,
+      "end": 3260.77,
+      "text": "so we'll call it minus 10."
+    },
+    {
+      "start": 3260.87,
+      "end": 3262.87,
+      "text": "Consequently, for this object,"
+    },
+    {
+      "start": 3262.87,
+      "end": 3265.83,
+      "text": "the position y at any time t"
+    },
+    {
+      "start": 3265.93,
+      "end": 3271.99,
+      "text": "is known to be 15 plus 10t minus 5t squared."
+    },
+    {
+      "start": 3276.73,
+      "end": 3280.66,
+      "text": "That is the full story of this object."
+    },
+    {
+      "start": 3281.28,
+      "end": 3283.18,
+      "text": "Of course, you've got to be a little careful"
+    },
+    {
+      "start": 3283.28,
+      "end": 3285.46,
+      "text": "when you use it."
+    },
+    {
+      "start": 3285.56,
+      "end": 3290.87,
+      "text": "For example, let's put t equal to 10,000 years."
+    },
+    {
+      "start": 3290.97,
+      "end": 3292.87,
+      "text": "What are you going to get?"
+    },
+    {
+      "start": 3292.97,
+      "end": 3294.87,
+      "text": "If you put t equal to 10,000 years or 10,000 seconds,"
+    },
+    {
+      "start": 3294.97,
+      "end": 3299.63,
+      "text": "you're going to find y is some huge negative number."
+    },
+    {
+      "start": 3299.73,
+      "end": 3300.63,
+      "text": "Is that right?"
+    },
+    {
+      "start": 3300.63,
+      "end": 3302.76,
+      "text": "That's wrong with that reasoning."
+    },
+    {
+      "start": 3302.86,
+      "end": 3307.32,
+      "text": "You cannot use the formula once it hits the ground"
+    },
+    {
+      "start": 3307.42,
+      "end": 3309.32,
+      "text": "because once it hits the ground,"
+    },
+    {
+      "start": 3309.42,
+      "end": 3312.32,
+      "text": "the fundamental premise that a was a constant"
+    },
+    {
+      "start": 3312.42,
+      "end": 3314.32,
+      "text": "of minus 9.8 or minus 10 is wrong."
+    },
+    {
+      "start": 3314.42,
+      "end": 3316.32,
+      "text": "That's another thing to remember."
+    },
+    {
+      "start": 3316.42,
+      "end": 3318.32,
+      "text": "Once you get a formula,"
+    },
+    {
+      "start": 3318.42,
+      "end": 3320.32,
+      "text": "you've got to always remember"
+    },
+    {
+      "start": 3320.42,
+      "end": 3322.55,
+      "text": "the terms under which the formula was derived."
+    },
+    {
+      "start": 3322.65,
+      "end": 3324.55,
+      "text": "If you blindly use it beyond the validity,"
+    },
+    {
+      "start": 3324.65,
+      "end": 3327.55,
+      "text": "you will get results which don't make any sense."
+    },
+    {
+      "start": 3327.65,
+      "end": 3329.55,
+      "text": "Conversely, if you get an answer"
+    },
+    {
+      "start": 3329.65,
+      "end": 3331.55,
+      "text": "and it doesn't seem to make sense,"
+    },
+    {
+      "start": 3331.55,
+      "end": 3333.45,
+      "text": "you will go back and ask,"
+    },
+    {
+      "start": 3333.55,
+      "end": 3335.45,
+      "text": "am I violating some of the assumptions?"
+    },
+    {
+      "start": 3335.55,
+      "end": 3337.45,
+      "text": "Here you will find the assumption"
+    },
+    {
+      "start": 3337.55,
+      "end": 3339.45,
+      "text": "that the particle had that acceleration is true"
+    },
+    {
+      "start": 3339.55,
+      "end": 3341.45,
+      "text": "as long as it's freely falling under gravity"
+    },
+    {
+      "start": 3341.55,
+      "end": 3344.28,
+      "text": "but not when you hit the ground."
+    },
+    {
+      "start": 3344.38,
+      "end": 3348.94,
+      "text": "If you dug a hole here to there,"
+    },
+    {
+      "start": 3349.04,
+      "end": 3350.94,
+      "text": "then of course it may work until that happens."
+    },
+    {
+      "start": 3351.04,
+      "end": 3353.78,
+      "text": "But you've got to know every time."
+    },
+    {
+      "start": 3353.88,
+      "end": 3356.78,
+      "text": "This is so obvious in this problem,"
+    },
+    {
+      "start": 3356.88,
+      "end": 3358.78,
+      "text": "but when you see a more complicated formula,"
+    },
+    {
+      "start": 3358.88,
+      "end": 3360.78,
+      "text": "you may not know all the assumptions"
+    },
+    {
+      "start": 3360.88,
+      "end": 3362.78,
+      "text": "that went into derivation."
+    },
+    {
+      "start": 3362.88,
+      "end": 3364.78,
+      "text": "Quite often you'll be using it"
+    },
+    {
+      "start": 3364.78,
+      "end": 3366.96,
+      "text": "to find out the answer."
+    },
+    {
+      "start": 3367.06,
+      "end": 3368.96,
+      "text": "You agree that it's a complete solution"
+    },
+    {
+      "start": 3369.06,
+      "end": 3371.96,
+      "text": "to this miniature, tiny Mickey Mouse problem."
+    },
+    {
+      "start": 3372.06,
+      "end": 3375.25,
+      "text": "Give me the time and I'll tell you where it is."
+    },
+    {
+      "start": 3375.35,
+      "end": 3378.32,
+      "text": "If you want to know how fast it's moving at a given time,"
+    },
+    {
+      "start": 3378.42,
+      "end": 3380.32,
+      "text": "if you want another velocity,"
+    },
+    {
+      "start": 3380.42,
+      "end": 3382.32,
+      "text": "I just take the derivative of this answer,"
+    },
+    {
+      "start": 3382.42,
+      "end": 3385.32,
+      "text": "which is 10 minus 10t."
+    },
+    {
+      "start": 3385.42,
+      "end": 3391.68,
+      "text": "Let me pick a couple of trivial questions one can ask."
+    },
+    {
+      "start": 3391.78,
+      "end": 3393.68,
+      "text": "One can ask the following question."
+    },
+    {
+      "start": 3393.78,
+      "end": 3395.68,
+      "text": "How high does it go?"
+    },
+    {
+      "start": 3397.54,
+      "end": 3399.44,
+      "text": "How high will it rise to 1?"
+    },
+    {
+      "start": 3399.54,
+      "end": 3401.6,
+      "text": "How high will it rise to 2?"
+    },
+    {
+      "start": 3401.7,
+      "end": 3403.6,
+      "text": "What height will it rise to?"
+    },
+    {
+      "start": 3403.7,
+      "end": 3405.6,
+      "text": "What height will it rise to?"
+    },
+    {
+      "start": 3405.7,
+      "end": 3407.6,
+      "text": "What height will it rise to?"
+    },
+    {
+      "start": 3409.62,
+      "end": 3412.52,
+      "text": "We know it's going to go up and turn around and come down."
+    },
+    {
+      "start": 3412.62,
+      "end": 3416.54,
+      "text": "We're trying to see how high that is."
+    },
+    {
+      "start": 3416.64,
+      "end": 3418.54,
+      "text": "That is a tricky problem to begin with"
+    },
+    {
+      "start": 3418.64,
+      "end": 3420.54,
+      "text": "because if you take this formula here,"
+    },
+    {
+      "start": 3420.64,
+      "end": 3424.47,
+      "text": "it tells you y if you know t,"
+    },
+    {
+      "start": 3424.57,
+      "end": 3426.47,
+      "text": "but now we are not saying that."
+    },
+    {
+      "start": 3426.57,
+      "end": 3428.47,
+      "text": "We don't know the time,"
+    },
+    {
+      "start": 3428.57,
+      "end": 3430.47,
+      "text": "and we don't know how high it's rising,"
+    },
+    {
+      "start": 3430.57,
+      "end": 3433.47,
+      "text": "so you can ask how am I supposed to deal with this problem."
+    },
+    {
+      "start": 3433.47,
+      "end": 3436.5,
+      "text": "What is the point when it's neither going up nor coming down?"
+    },
+    {
+      "start": 3436.6,
+      "end": 3438.5,
+      "text": "If it's going up, that's not the highest point."
+    },
+    {
+      "start": 3438.6,
+      "end": 3440.82,
+      "text": "If it's coming down, that's not the highest point."
+    },
+    {
+      "start": 3440.92,
+      "end": 3443.82,
+      "text": "So at the highest point, it cannot go up and it cannot go down."
+    },
+    {
+      "start": 3443.92,
+      "end": 3446.82,
+      "text": "That's the point where velocity is 0."
+    },
+    {
+      "start": 3446.92,
+      "end": 3450.88,
+      "text": "If you do that, let's call that particular time t star,"
+    },
+    {
+      "start": 3450.98,
+      "end": 3456.88,
+      "text": "then 10t star minus 10 is equal to 0,"
+    },
+    {
+      "start": 3456.98,
+      "end": 3458.88,
+      "text": "or t star is 1 second."
+    },
+    {
+      "start": 3458.98,
+      "end": 3464.41,
+      "text": "So we know that it will go up for 1 second,"
+    },
+    {
+      "start": 3464.51,
+      "end": 3466.8,
+      "text": "then it will turn around and come back."
+    },
+    {
+      "start": 3466.9,
+      "end": 3470.99,
+      "text": "Now we are done because now you can ask how high does it go?"
+    },
+    {
+      "start": 3471.09,
+      "end": 3474.44,
+      "text": "Then you go back to your y of 1,"
+    },
+    {
+      "start": 3474.54,
+      "end": 3479.76,
+      "text": "and y of 1 is 15 plus 10 minus 5,"
+    },
+    {
+      "start": 3479.86,
+      "end": 3484.45,
+      "text": "which is what? 20 meters."
+    },
+    {
+      "start": 3484.55,
+      "end": 3489.45,
+      "text": "By the way, you will find that I make quite a lot of mistakes on the blackboard."
+    },
+    {
+      "start": 3490.1,
+      "end": 3494.0,
+      "text": "You're going to find out one of these years when you start teaching"
+    },
+    {
+      "start": 3494.1,
+      "end": 3496.0,
+      "text": "that when you get really close to the blackboard,"
+    },
+    {
+      "start": 3496.1,
+      "end": 3498.0,
+      "text": "you just cannot think."
+    },
+    {
+      "start": 3498.0,
+      "end": 3501.9,
+      "text": "It's definitely an inverse correlation between your level of thinking"
+    },
+    {
+      "start": 3502.0,
+      "end": 3503.9,
+      "text": "and the proximity to the blackboard."
+    },
+    {
+      "start": 3504.0,
+      "end": 3507.99,
+      "text": "So if you find me making a mistake, you've got to stop me."
+    },
+    {
+      "start": 3508.09,
+      "end": 3510.02,
+      "text": "Why do you stop me? For two reasons."
+    },
+    {
+      "start": 3510.12,
+      "end": 3513.02,
+      "text": "First of all, I'm very pleased when this happens."
+    },
+    {
+      "start": 3513.12,
+      "end": 3516.06,
+      "text": "I'm pretty confident that I can do this under duress."
+    },
+    {
+      "start": 3516.16,
+      "end": 3518.06,
+      "text": "I may not do it right every time,"
+    },
+    {
+      "start": 3518.16,
+      "end": 3521.06,
+      "text": "but if my students can catch me making a mistake,"
+    },
+    {
+      "start": 3521.16,
+      "end": 3524.06,
+      "text": "it means they're following it and they're not hesitating to tell me."
+    },
+    {
+      "start": 3524.16,
+      "end": 3528.31,
+      "text": "Secondly, as we go to the more advanced part of the course,"
+    },
+    {
+      "start": 3528.51,
+      "end": 3531.31,
+      "text": "we'll take a result from this part of the blackboard,"
+    },
+    {
+      "start": 3531.41,
+      "end": 3534.31,
+      "text": "stick it into the second part and keep manipulating."
+    },
+    {
+      "start": 3534.41,
+      "end": 3536.31,
+      "text": "If I screwed up in the beginning and you guys keep quiet,"
+    },
+    {
+      "start": 3536.41,
+      "end": 3538.31,
+      "text": "we'll have to do the whole thing again."
+    },
+    {
+      "start": 3539.18,
+      "end": 3544.08,
+      "text": "I would ask you, when you follow this thing, to do it actively."
+    },
+    {
+      "start": 3544.18,
+      "end": 3547.08,
+      "text": "Try to be one step ahead of me."
+    },
+    {
+      "start": 3547.18,
+      "end": 3551.59,
+      "text": "For example, if I'm struck by lightning, can you do anything?"
+    },
+    {
+      "start": 3551.69,
+      "end": 3553.59,
+      "text": "Can you guess what I'm going to say next?"
+    },
+    {
+      "start": 3553.69,
+      "end": 3555.59,
+      "text": "Do you have any idea where this is going?"
+    },
+    {
+      "start": 3555.69,
+      "end": 3557.66,
+      "text": "You should have a clue."
+    },
+    {
+      "start": 3557.76,
+      "end": 3559.66,
+      "text": "If I die and you stop,"
+    },
+    {
+      "start": 3559.76,
+      "end": 3561.56,
+      "text": "you should have a sign."
+    },
+    {
+      "start": 3561.66,
+      "end": 3563.56,
+      "text": "You've got to keep going a little further"
+    },
+    {
+      "start": 3563.66,
+      "end": 3565.75,
+      "text": "because you should follow the logic."
+    },
+    {
+      "start": 3565.85,
+      "end": 3569.75,
+      "text": "For example, I'm going to calculate next when it hits the ground."
+    },
+    {
+      "start": 3569.85,
+      "end": 3572.26,
+      "text": "You should have some idea how I'll do it"
+    },
+    {
+      "start": 3572.36,
+      "end": 3574.26,
+      "text": "because this is not a spectator sport."
+    },
+    {
+      "start": 3574.36,
+      "end": 3577.26,
+      "text": "If you just watch me, you're going to learn nothing."
+    },
+    {
+      "start": 3577.36,
+      "end": 3580.26,
+      "text": "It's like watching the US Open and thinking you're some kind of player."
+    },
+    {
+      "start": 3580.36,
+      "end": 3584.26,
+      "text": "You will have to shed the tears and you've got to bang your head on the wall,"
+    },
+    {
+      "start": 3584.36,
+      "end": 3586.26,
+      "text": "go through your own private struggle."
+    },
+    {
+      "start": 3586.36,
+      "end": 3588.26,
+      "text": "I cannot do that for you."
+    },
+    {
+      "start": 3588.36,
+      "end": 3590.26,
+      "text": "I cannot even make it look hard,"
+    },
+    {
+      "start": 3590.36,
+      "end": 3593.16,
+      "text": "because I've been through this problem from childhood."
+    },
+    {
+      "start": 3593.26,
+      "end": 3595.16,
+      "text": "There is no way I can make this look difficult."
+    },
+    {
+      "start": 3595.26,
+      "end": 3597.83,
+      "text": "That's your job."
+    },
+    {
+      "start": 3597.93,
+      "end": 3601.83,
+      "text": "We know this point at one second is 20 meters."
+    },
+    {
+      "start": 3601.93,
+      "end": 3604.83,
+      "text": "Let's just ask one other question and we'll stop."
+    },
+    {
+      "start": 3604.93,
+      "end": 3606.83,
+      "text": "One other question may be,"
+    },
+    {
+      "start": 3606.93,
+      "end": 3609.83,
+      "text": "when does it hit the ground and at what speed?"
+    },
+    {
+      "start": 3609.93,
+      "end": 3611.83,
+      "text": "That's a typical physics question."
+    },
+    {
+      "start": 3611.93,
+      "end": 3613.83,
+      "text": "When does it hit the ground?"
+    },
+    {
+      "start": 3613.93,
+      "end": 3619.28,
+      "text": "Well, I think you must know now how to formulate that question."
+    },
+    {
+      "start": 3619.28,
+      "end": 3623.18,
+      "text": "When does it hit the ground is when is y equal to 0?"
+    },
+    {
+      "start": 3623.28,
+      "end": 3625.56,
+      "text": "By the way, I didn't tell you this,"
+    },
+    {
+      "start": 3625.66,
+      "end": 3628.56,
+      "text": "but I think you knew that I picked my origin to be here"
+    },
+    {
+      "start": 3628.66,
+      "end": 3632.88,
+      "text": "and measured y positively to be upwards,"
+    },
+    {
+      "start": 3632.98,
+      "end": 3634.88,
+      "text": "and I call that 15 meters."
+    },
+    {
+      "start": 3634.98,
+      "end": 3637.81,
+      "text": "You can call that your origin."
+    },
+    {
+      "start": 3637.91,
+      "end": 3640.81,
+      "text": "If you call that your origin, your y0 will be 0,"
+    },
+    {
+      "start": 3640.91,
+      "end": 3642.88,
+      "text": "but ground will be called minus 15."
+    },
+    {
+      "start": 3642.98,
+      "end": 3645.0,
+      "text": "In the end, the physics is the same,"
+    },
+    {
+      "start": 3645.1,
+      "end": 3647.0,
+      "text": "but the numbers describing it can be different."
+    },
+    {
+      "start": 3647.1,
+      "end": 3650.23,
+      "text": "You have to interpret the data differently."
+    },
+    {
+      "start": 3650.23,
+      "end": 3656.02,
+      "text": "The standard origin for everybody is the foot of the building."
+    },
+    {
+      "start": 3656.12,
+      "end": 3659.02,
+      "text": "You can pick your origin here, some crazy spot."
+    },
+    {
+      "start": 3659.12,
+      "end": 3663.12,
+      "text": "It doesn't matter, but some origins are more equal than others"
+    },
+    {
+      "start": 3663.22,
+      "end": 3666.12,
+      "text": "because there are some natural landmarks there."
+    },
+    {
+      "start": 3666.22,
+      "end": 3669.31,
+      "text": "Here, the foot of the building is what I call the origin."
+    },
+    {
+      "start": 3669.41,
+      "end": 3674.31,
+      "text": "In that notation, I want to ask when is y equal to 0?"
+    },
+    {
+      "start": 3674.41,
+      "end": 3682.24,
+      "text": "If I ask when y is equal to 0, then I say 0 is 15 plus 10t,"
+    },
+    {
+      "start": 3682.34,
+      "end": 3687.24,
+      "text": "minus 5t squared, or I cancel the 5 everywhere"
+    },
+    {
+      "start": 3687.34,
+      "end": 3692.24,
+      "text": "and change the sign here, I get t squared minus 2t minus 3"
+    },
+    {
+      "start": 3692.34,
+      "end": 3694.24,
+      "text": "equal to 0."
+    },
+    {
+      "start": 3694.34,
+      "end": 3696.24,
+      "text": "That's when it hits ground."
+    },
+    {
+      "start": 3696.34,
+      "end": 3701.96,
+      "text": "Let's find out what the time is."
+    },
+    {
+      "start": 3702.06,
+      "end": 3713.36,
+      "text": "t is then 2 plus or minus 4 plus 12 over 2,"
+    },
+    {
+      "start": 3713.46,
+      "end": 3717.42,
+      "text": "which is 2 plus or minus 4 over 2,"
+    },
+    {
+      "start": 3717.52,
+      "end": 3723.54,
+      "text": "minus 1 or 3."
+    },
+    {
+      "start": 3723.64,
+      "end": 3729.07,
+      "text": "You get two answers when it hits the ground."
+    },
+    {
+      "start": 3729.17,
+      "end": 3736.05,
+      "text": "It's clear that we should pick 3, but you can ask,"
+    },
+    {
+      "start": 3736.15,
+      "end": 3740.78,
+      "text": "why is it giving me a second solution?"
+    },
+    {
+      "start": 3740.88,
+      "end": 3750.66,
+      "text": "Anybody have an idea why it's yes?"
+    },
+    {
+      "start": 3750.76,
+      "end": 3751.69,
+      "text": "That's correct."
+    },
+    {
+      "start": 3751.79,
+      "end": 3755.69,
+      "text": "Her answer was, if it was a full parabola,"
+    },
+    {
+      "start": 3755.79,
+      "end": 3759.26,
+      "text": "then we know it would have been at the ground"
+    },
+    {
+      "start": 3759.36,
+      "end": 3761.42,
+      "text": "before I set my clock to 0."
+    },
+    {
+      "start": 3761.52,
+      "end": 3763.42,
+      "text": "First of all, negative time should not bother anyone."
+    },
+    {
+      "start": 3763.52,
+      "end": 3765.42,
+      "text": "t equals 0 is when I set the clock,"
+    },
+    {
+      "start": 3765.52,
+      "end": 3768.42,
+      "text": "I measure time forward, but yesterday would be"
+    },
+    {
+      "start": 3768.52,
+      "end": 3770.42,
+      "text": "t equal to minus 1 day."
+    },
+    {
+      "start": 3770.52,
+      "end": 3772.42,
+      "text": "We don't have any trouble with negative times."
+    },
+    {
+      "start": 3772.52,
+      "end": 3778.99,
+      "text": "The point is, this equation does not know about the building."
+    },
+    {
+      "start": 3779.09,
+      "end": 3782.38,
+      "text": "It doesn't know the whole song and dance that you went"
+    },
+    {
+      "start": 3782.48,
+      "end": 3784.38,
+      "text": "to a building and you threw up a rock."
+    },
+    {
+      "start": 3784.48,
+      "end": 3785.47,
+      "text": "It knows nothing."
+    },
+    {
+      "start": 3785.57,
+      "end": 3787.73,
+      "text": "What does the mathematics know?"
+    },
+    {
+      "start": 3787.83,
+      "end": 3791.73,
+      "text": "It knows that this particle happened to have a height of 15"
+    },
+    {
+      "start": 3791.83,
+      "end": 3795.95,
+      "text": "at time 0 and a velocity of 10 at time 0."
+    },
+    {
+      "start": 3796.15,
+      "end": 3798.95,
+      "text": "It is falling under gravity with an acceleration of minus 10."
+    },
+    {
+      "start": 3799.05,
+      "end": 3800.95,
+      "text": "That's all it knows."
+    },
+    {
+      "start": 3801.05,
+      "end": 3805.59,
+      "text": "If that's all it knows, then in that scenario,"
+    },
+    {
+      "start": 3805.69,
+      "end": 3807.59,
+      "text": "if there is no building at anything else,"
+    },
+    {
+      "start": 3807.69,
+      "end": 3809.59,
+      "text": "it continues a trajectory both forward in time"
+    },
+    {
+      "start": 3809.69,
+      "end": 3811.59,
+      "text": "and backward in time."
+    },
+    {
+      "start": 3811.69,
+      "end": 3814.59,
+      "text": "It says that whatever seconds,"
+    },
+    {
+      "start": 3814.69,
+      "end": 3817.59,
+      "text": "one second before you set your clock to 0,"
+    },
+    {
+      "start": 3817.69,
+      "end": 3819.59,
+      "text": "it would have been in the ground."
+    },
+    {
+      "start": 3820.43,
+      "end": 3824.33,
+      "text": "What it means is, if you release a rock at that location"
+    },
+    {
+      "start": 3824.43,
+      "end": 3826.33,
+      "text": "one second before with a certain speed"
+    },
+    {
+      "start": 3826.33,
+      "end": 3829.23,
+      "text": "that we can calculate, it would have ended up here"
+    },
+    {
+      "start": 3829.33,
+      "end": 3832.23,
+      "text": "with precisely the position and velocity it had"
+    },
+    {
+      "start": 3832.33,
+      "end": 3834.77,
+      "text": "at the beginning of our experiment."
+    },
+    {
+      "start": 3834.87,
+      "end": 3839.19,
+      "text": "Sometimes the extra solution is very interesting."
+    },
+    {
+      "start": 3839.29,
+      "end": 3842.19,
+      "text": "You should always listen to the mathematics"
+    },
+    {
+      "start": 3842.29,
+      "end": 3844.76,
+      "text": "when you get extra solutions."
+    },
+    {
+      "start": 3844.86,
+      "end": 3848.76,
+      "text": "In fact, when a very famous physicist called Dirac"
+    },
+    {
+      "start": 3848.86,
+      "end": 3850.76,
+      "text": "was looking for the energy of a particle"
+    },
+    {
+      "start": 3850.86,
+      "end": 3852.76,
+      "text": "in relativistic quantum mechanics,"
+    },
+    {
+      "start": 3852.86,
+      "end": 3856.76,
+      "text": "he found the energy of a particle is connected to its momentum."
+    },
+    {
+      "start": 3856.86,
+      "end": 3857.76,
+      "text": "This p is y."
+    },
+    {
+      "start": 3857.86,
+      "end": 3859.76,
+      "text": "That's what we call momentum."
+    },
+    {
+      "start": 3859.86,
+      "end": 3867.0,
+      "text": "And its mass by this relation."
+    },
+    {
+      "start": 3867.1,
+      "end": 3870.0,
+      "text": "So particle of mass m and momentum p has this energy."
+    },
+    {
+      "start": 3870.1,
+      "end": 3872.0,
+      "text": "So you solve for the energy."
+    },
+    {
+      "start": 3872.1,
+      "end": 3877.84,
+      "text": "You get two answers."
+    },
+    {
+      "start": 3877.94,
+      "end": 3879.84,
+      "text": "Now your temptation is to keep the first answer"
+    },
+    {
+      "start": 3879.94,
+      "end": 3881.84,
+      "text": "because you know the energy is not going to be negative."
+    },
+    {
+      "start": 3881.94,
+      "end": 3883.28,
+      "text": "Particle is moving."
+    },
+    {
+      "start": 3883.38,
+      "end": 3885.28,
+      "text": "It's got some energy and that's it."
+    },
+    {
+      "start": 3885.38,
+      "end": 3887.28,
+      "text": "But the mathematicians told Dirac"
+    },
+    {
+      "start": 3887.38,
+      "end": 3890.28,
+      "text": "you cannot ignore the negative energy solution"
+    },
+    {
+      "start": 3890.38,
+      "end": 3892.44,
+      "text": "because it tells you there's a second solution"
+    },
+    {
+      "start": 3892.54,
+      "end": 3894.48,
+      "text": "and you cannot throw them out."
+    },
+    {
+      "start": 3894.48,
+      "end": 3897.38,
+      "text": "It turns out the second solution with negative energy"
+    },
+    {
+      "start": 3897.48,
+      "end": 3899.7,
+      "text": "was when the theory is telling you,"
+    },
+    {
+      "start": 3899.8,
+      "end": 3902.7,
+      "text": "hey, there are particles and there are antiparticles."
+    },
+    {
+      "start": 3902.8,
+      "end": 3905.24,
+      "text": "And the negative energy, even properly interpreted,"
+    },
+    {
+      "start": 3905.34,
+      "end": 3907.24,
+      "text": "will describe antiparticles."
+    },
+    {
+      "start": 3907.34,
+      "end": 3910.01,
+      "text": "So the equations are very smart."
+    },
+    {
+      "start": 3910.11,
+      "end": 3912.01,
+      "text": "The way the physics works is"
+    },
+    {
+      "start": 3912.11,
+      "end": 3914.01,
+      "text": "you find some loss of motion in mathematical form."
+    },
+    {
+      "start": 3914.11,
+      "end": 3916.01,
+      "text": "You put in the initial conditions of whatever."
+    },
+    {
+      "start": 3916.11,
+      "end": 3918.01,
+      "text": "You solve the equations."
+    },
+    {
+      "start": 3918.11,
+      "end": 3920.01,
+      "text": "And the answer that comes, you have no choice."
+    },
+    {
+      "start": 3920.11,
+      "end": 3922.01,
+      "text": "You have to accept the answer."
+    },
+    {
+      "start": 3922.11,
+      "end": 3924.01,
+      "text": "If there are new answers besides the one you were looking for,"
+    },
+    {
+      "start": 3924.11,
+      "end": 3926.01,
+      "text": "you've got to think about what they mean."
+    },
+    {
+      "start": 3926.21,
+      "end": 3928.01,
+      "text": "And that's one of the best things about physics"
+    },
+    {
+      "start": 3928.11,
+      "end": 3931.01,
+      "text": "because here's a person who is not looking for antiparticles."
+    },
+    {
+      "start": 3931.11,
+      "end": 3933.58,
+      "text": "He was trying to describe electrons."
+    },
+    {
+      "start": 3933.68,
+      "end": 3937.58,
+      "text": "But the theory said there are two roots in the quadratic equation"
+    },
+    {
+      "start": 3937.68,
+      "end": 3939.58,
+      "text": "and the second root is mathematically"
+    },
+    {
+      "start": 3939.68,
+      "end": 3941.58,
+      "text": "as interesting as the first one."
+    },
+    {
+      "start": 3941.68,
+      "end": 3943.58,
+      "text": "It has to be part of the theory."
+    },
+    {
+      "start": 3943.68,
+      "end": 3945.58,
+      "text": "And in trying to adjust it so it can be incorporated,"
+    },
+    {
+      "start": 3945.68,
+      "end": 3947.58,
+      "text": "you discovered antiparticles."
+    },
+    {
+      "start": 3947.68,
+      "end": 3952.58,
+      "text": "So always amazing to us how we go into the problem."
+    },
+    {
+      "start": 3952.68,
+      "end": 3955.58,
+      "text": "Our eye or mind can see one class of solutions."
+    },
+    {
+      "start": 3955.58,
+      "end": 3958.48,
+      "text": "But the math will tell you sometimes there are new solutions."
+    },
+    {
+      "start": 3958.58,
+      "end": 3960.48,
+      "text": "And you've got to respect it and understand"
+    },
+    {
+      "start": 3960.58,
+      "end": 3962.48,
+      "text": "and interpret the unwanted solutions."
+    },
+    {
+      "start": 3962.58,
+      "end": 3965.48,
+      "text": "And this is a simple example where you can follow"
+    },
+    {
+      "start": 3965.58,
+      "end": 3967.48,
+      "text": "what the meaning of the second solution is."
+    },
+    {
+      "start": 3967.58,
+      "end": 3970.32,
+      "text": "It means that to the problem you post,"
+    },
+    {
+      "start": 3970.42,
+      "end": 3973.32,
+      "text": "there's more than the answers that you could imagine."
+    },
+    {
+      "start": 3973.42,
+      "end": 3977.38,
+      "text": "Here it meant particle that was released from the ground earlier."
+    },
+    {
+      "start": 3977.48,
+      "end": 3980.38,
+      "text": "There it meant something much more interesting,"
+    },
+    {
+      "start": 3980.48,
+      "end": 3983.38,
+      "text": "namely antiparticles accompanying particles."
+    },
+    {
+      "start": 3983.48,
+      "end": 3985.38,
+      "text": "They are going to accompany particles surely"
+    },
+    {
+      "start": 3985.38,
+      "end": 3990.75,
+      "text": "as every quadratic equation has two solutions."
+    },
+    {
+      "start": 3990.85,
+      "end": 3991.75,
+      "text": "All right."
+    },
+    {
+      "start": 3991.85,
+      "end": 3995.85,
+      "text": "So now in this problem, we can do something slightly different."
+    },
+    {
+      "start": 3995.95,
+      "end": 3999.26,
+      "text": "And that's use this expression here."
+    },
+    {
+      "start": 3999.36,
+      "end": 4001.26,
+      "text": "And I will do that then."
+    },
+    {
+      "start": 4001.36,
+      "end": 4002.26,
+      "text": "I'll stop for today."
+    },
+    {
+      "start": 4002.36,
+      "end": 4007.61,
+      "text": "If you are asking questions like how high does it go,"
+    },
+    {
+      "start": 4007.71,
+      "end": 4010.93,
+      "text": "but you don't ask when does it go to the highest point,"
+    },
+    {
+      "start": 4011.03,
+      "end": 4013.93,
+      "text": "then you don't have to go through the whole process"
+    },
+    {
+      "start": 4014.03,
+      "end": 4015.93,
+      "text": "of finding the time at which it turned around."
+    },
+    {
+      "start": 4016.03,
+      "end": 4016.93,
+      "text": "I don't know where that is."
+    },
+    {
+      "start": 4017.03,
+      "end": 4018.93,
+      "text": "That disappeared on the blackboard."
+    },
+    {
+      "start": 4018.93,
+      "end": 4023.28,
+      "text": "So I'm putting the time equal to one second into this formula."
+    },
+    {
+      "start": 4023.38,
+      "end": 4026.28,
+      "text": "If the question of time is not explicitly brought up,"
+    },
+    {
+      "start": 4026.38,
+      "end": 4030.56,
+      "text": "then you should know that you have to use this formula."
+    },
+    {
+      "start": 4030.66,
+      "end": 4032.56,
+      "text": "So how do we get it here?"
+    },
+    {
+      "start": 4032.66,
+      "end": 4036.13,
+      "text": "Well, we say at the top of the loop,"
+    },
+    {
+      "start": 4036.49,
+      "end": 4039.68,
+      "text": "when it goes up and comes down, the velocity is zero."
+    },
+    {
+      "start": 4039.78,
+      "end": 4043.64,
+      "text": "Therefore, you say zero squared equals"
+    },
+    {
+      "start": 4043.74,
+      "end": 4048.86,
+      "text": "initial velocity squared plus two times minus g,"
+    },
+    {
+      "start": 4048.96,
+      "end": 4053.82,
+      "text": "that's my acceleration, times y minus,"
+    },
+    {
+      "start": 4053.92,
+      "end": 4056.91,
+      "text": "plus y zero."
+    },
+    {
+      "start": 4057.01,
+      "end": 4061.1,
+      "text": "If you solve for that, you find y minus y zero"
+    },
+    {
+      "start": 4061.2,
+      "end": 4064.39,
+      "text": "equals v zero squared over two g."
+    },
+    {
+      "start": 4064.49,
+      "end": 4067.39,
+      "text": "And if you put in the v zero I gave you,"
+    },
+    {
+      "start": 4067.49,
+      "end": 4074.31,
+      "text": "which is what, 10, that's 100 over 20,"
+    },
+    {
+      "start": 4074.41,
+      "end": 4076.63,
+      "text": "which is five meters."
+    },
+    {
+      "start": 4076.73,
+      "end": 4081.69,
+      "text": "So y equals y zero plus five meters,"
+    },
+    {
+      "start": 4081.79,
+      "end": 4083.69,
+      "text": "and that is the height to which it rises."
+    },
+    {
+      "start": 4083.79,
+      "end": 4085.69,
+      "text": "I think we got it somewhere else."
+    },
+    {
+      "start": 4085.79,
+      "end": 4087.69,
+      "text": "We found the maximum height"
+    },
+    {
+      "start": 4087.69,
+      "end": 4093.08,
+      "text": "of the velocity, which is 20 meters."
+    },
+    {
+      "start": 4093.18,
+      "end": 4096.91,
+      "text": "Another thing you can do is you can find the speed here."
+    },
+    {
+      "start": 4097.01,
+      "end": 4098.91,
+      "text": "If you want to find the speed there,"
+    },
+    {
+      "start": 4099.01,
+      "end": 4102.01,
+      "text": "you put the equation v squared equals"
+    },
+    {
+      "start": 4102.11,
+      "end": 4106.01,
+      "text": "v zero squared plus two times minus g."
+    },
+    {
+      "start": 4106.11,
+      "end": 4108.04,
+      "text": "What is y minus y zero?"
+    },
+    {
+      "start": 4108.14,
+      "end": 4110.04,
+      "text": "The final y is zero."
+    },
+    {
+      "start": 4110.14,
+      "end": 4113.04,
+      "text": "The initial y is minus, is 15."
+    },
+    {
+      "start": 4113.14,
+      "end": 4115.36,
+      "text": "You solve for that equation,"
+    },
+    {
+      "start": 4115.46,
+      "end": 4118.48,
+      "text": "then you will find the final velocity."
+    },
+    {
+      "start": 4118.58,
+      "end": 4121.48,
+      "text": "So if time is not involved, you can do it that way."
+    },
+    {
+      "start": 4122.19,
+      "end": 4124.09,
+      "text": "I want to derive the last result,"
+    },
+    {
+      "start": 4124.29,
+      "end": 4127.09,
+      "text": "and I want to derive the result in another way."
+    },
+    {
+      "start": 4127.19,
+      "end": 4130.09,
+      "text": "Then I will stop, and that's pretty interesting"
+    },
+    {
+      "start": 4130.19,
+      "end": 4134.6,
+      "text": "because it tells you use and abuse of calculus."
+    },
+    {
+      "start": 4134.7,
+      "end": 4137.6,
+      "text": "I'm going to find for you this result"
+    },
+    {
+      "start": 4137.7,
+      "end": 4141.98,
+      "text": "using calculus in a different way."
+    },
+    {
+      "start": 4142.08,
+      "end": 4149.77,
+      "text": "So from the calculus, we know dv dt is equal to a."
+    },
+    {
+      "start": 4149.87,
+      "end": 4156.34,
+      "text": "So multiply both sides by v."
+    },
+    {
+      "start": 4156.44,
+      "end": 4159.34,
+      "text": "Now, you have to know from elementary calculus"
+    },
+    {
+      "start": 4159.44,
+      "end": 4162.34,
+      "text": "that v times dv dt"
+    },
+    {
+      "start": 4162.34,
+      "end": 4168.2,
+      "text": "is equal to the derivative of v squared over two."
+    },
+    {
+      "start": 4168.3,
+      "end": 4171.2,
+      "text": "Now, I hope you guys know that much calculus,"
+    },
+    {
+      "start": 4171.3,
+      "end": 4174.2,
+      "text": "that when you take a derivative of a function of a function,"
+    },
+    {
+      "start": 4174.3,
+      "end": 4177.2,
+      "text": "namely v squared over two is a function of v,"
+    },
+    {
+      "start": 4177.3,
+      "end": 4179.2,
+      "text": "and v itself is a function of t,"
+    },
+    {
+      "start": 4179.3,
+      "end": 4181.2,
+      "text": "then the rule for taking the derivative"
+    },
+    {
+      "start": 4181.3,
+      "end": 4184.2,
+      "text": "is first take the v derivative of this object,"
+    },
+    {
+      "start": 4184.3,
+      "end": 4188.38,
+      "text": "then take the d by dt of v, which is this one."
+    },
+    {
+      "start": 4188.48,
+      "end": 4196.32,
+      "text": "The right-hand side, I'm going to write as adx dt."
+    },
+    {
+      "start": 4196.32,
+      "end": 4199.42,
+      "text": "So I'm going to write this as standard."
+    },
+    {
+      "start": 4199.52,
+      "end": 4202.42,
+      "text": "But now here is what I'm going to do something"
+    },
+    {
+      "start": 4202.52,
+      "end": 4205.9,
+      "text": "which somehow we are told never ever to do,"
+    },
+    {
+      "start": 4206.8,
+      "end": 4211.36,
+      "text": "which is to just cancel the dt's."
+    },
+    {
+      "start": 4211.46,
+      "end": 4214.36,
+      "text": "You all know that when you do dy dx,"
+    },
+    {
+      "start": 4214.46,
+      "end": 4217.36,
+      "text": "you're not supposed to cancel that d."
+    },
+    {
+      "start": 4217.46,
+      "end": 4219.36,
+      "text": "That's actually correct."
+    },
+    {
+      "start": 4219.46,
+      "end": 4222.36,
+      "text": "You don't want to cancel the d in the derivative,"
+    },
+    {
+      "start": 4222.46,
+      "end": 4225.36,
+      "text": "but this happens to be completely legitimate."
+    },
+    {
+      "start": 4225.46,
+      "end": 4228.03,
+      "text": "So I'm going to assume it's true,"
+    },
+    {
+      "start": 4228.13,
+      "end": 4229.03,
+      "text": "and I'll maybe take a second,"
+    },
+    {
+      "start": 4229.03,
+      "end": 4231.03,
+      "text": "and I'll put in some more data."
+    },
+    {
+      "start": 4231.13,
+      "end": 4233.03,
+      "text": "So I'm going to write this as,"
+    },
+    {
+      "start": 4233.13,
+      "end": 4235.7,
+      "text": "so one time, delta t,"
+    },
+    {
+      "start": 4235.8,
+      "end": 4237.7,
+      "text": "the change in this quantity"
+    },
+    {
+      "start": 4237.8,
+      "end": 4239.7,
+      "text": "is eight times the change in this quantity."
+    },
+    {
+      "start": 4239.8,
+      "end": 4241.92,
+      "text": "Therefore, you can multiply both sides by the delta t,"
+    },
+    {
+      "start": 4242.02,
+      "end": 4244.47,
+      "text": "but the only thing you should understand is"
+    },
+    {
+      "start": 4244.57,
+      "end": 4247.47,
+      "text": "delta t, as long as it's small and finite,"
+    },
+    {
+      "start": 4247.57,
+      "end": 4250.47,
+      "text": "will lead to some small and finite errors in the formula"
+    },
+    {
+      "start": 4250.57,
+      "end": 4252.56,
+      "text": "because the formula is really the limit"
+    },
+    {
+      "start": 4252.66,
+      "end": 4254.56,
+      "text": "in which delta x and delta t both go to zero."
+    },
+    {
+      "start": 4254.66,
+      "end": 4257.56,
+      "text": "So what you have to do is multiply both sides by delta t,"
+    },
+    {
+      "start": 4257.66,
+      "end": 4261.2,
+      "text": "but remember it's got to be in the end"
+    },
+    {
+      "start": 4261.2,
+      "end": 4262.7,
+      "text": "can do this cancellation."
+    },
+    {
+      "start": 4262.7,
+      "end": 4264.54,
+      "text": "And this says on the left-hand side,"
+    },
+    {
+      "start": 4264.54,
+      "end": 4267.1,
+      "text": "the change in the quantity v squared over 2"
+    },
+    {
+      "start": 4267.1,
+      "end": 4271.58,
+      "text": "is the change, a times the change in the quantity x."
+    },
+    {
+      "start": 4271.58,
+      "end": 4274.96,
+      "text": "So add up all the changes, or what you mean by integral,"
+    },
+    {
+      "start": 4274.96,
+      "end": 4277.53,
+      "text": "same thing, add up all the changes."
+    },
+    {
+      "start": 4277.53,
+      "end": 4279.75,
+      "text": "The change in v squared over 2 will"
+    },
+    {
+      "start": 4279.75,
+      "end": 4283.01,
+      "text": "be the final v squared over 2 minus the initial v"
+    },
+    {
+      "start": 4283.01,
+      "end": 4284.33,
+      "text": "squared over 2."
+    },
+    {
+      "start": 4284.33,
+      "end": 4288.82,
+      "text": "And the other side will be a times the change in x,"
+    },
+    {
+      "start": 4288.82,
+      "end": 4291.55,
+      "text": "x minus x0."
+    },
+    {
+      "start": 4291.55,
+      "end": 4293.65,
+      "text": "And that's the formula I wrote for you,"
+    },
+    {
+      "start": 4293.65,
+      "end": 4302.04,
+      "text": "v squared is v0 squared plus 2a, x minus x0."
+    },
+    {
+      "start": 4302.04,
+      "end": 4305.62,
+      "text": "So the point is, whenever you have derivatives with something"
+    },
+    {
+      "start": 4305.62,
+      "end": 4310.58,
+      "text": "over dt, do not hesitate to cancel the dt's and think"
+    },
+    {
+      "start": 4310.58,
+      "end": 4315.72,
+      "text": "of them as delta v squared over 2 is equal to a times delta"
+    },
+    {
+      "start": 4315.72,
+      "end": 4317.43,
+      "text": "of x."
+    },
+    {
+      "start": 4317.43,
+      "end": 4320.79,
+      "text": "This will be actually true as long as both quantities are"
+    },
+    {
+      "start": 4320.79,
+      "end": 4322.11,
+      "text": "vanishingly small."
+    },
+    {
+      "start": 4322.11,
+      "end": 4323.91,
+      "text": "It will become more and more true"
+    },
+    {
+      "start": 4323.91,
+      "end": 4326.01,
+      "text": "if delta x and delta v squared become"
+    },
+    {
+      "start": 4326.01,
+      "end": 4326.11,
+      "text": "vanishingly small."
+    },
+    {
+      "start": 4326.13,
+      "end": 4329.19,
+      "text": "In the limit in which they are approaching 0,"
+    },
+    {
+      "start": 4329.19,
+      "end": 4331.53,
+      "text": "the two will be in fact equal."
+    },
+    {
+      "start": 4331.53,
+      "end": 4334.27,
+      "text": "If delta x is a finite amount, like one second,"
+    },
+    {
+      "start": 4334.27,
+      "end": 4335.57,
+      "text": "this will not be true."
+    },
+    {
+      "start": 4335.57,
+      "end": 4339.19,
+      "text": "Because in the starting equation, delta x and delta t"
+    },
+    {
+      "start": 4339.19,
+      "end": 4343.31,
+      "text": "and delta v squared are all assumed to be infinitesimal."
+    },
+    {
+      "start": 4343.31,
+      "end": 4346.51,
+      "text": "So don't hesitate to do manipulations of this type."
+    },
+    {
+      "start": 4346.51,
+      "end": 4348.39,
+      "text": "And I will do them quite often."
+    },
+    {
+      "start": 4348.39,
+      "end": 4352.99,
+      "text": "You've got to understand when it's OK and when it's not OK."
+    },
+    {
+      "start": 4352.99,
+      "end": 4355.97,
+      "text": "What this means is, in a time delta t,"
+    },
+    {
+      "start": 4355.97,
+      "end": 4357.77,
+      "text": "if this quantity changes by some amount,"
+    },
+    {
+      "start": 4357.77,
+      "end": 4360.14,
+      "text": "then keeping the delta t equal to some number,"
+    },
+    {
+      "start": 4360.14,
+      "end": 4362.46,
+      "text": "we may equate the changes in the two quantities."
+    },
+    {
+      "start": 4362.46,
+      "end": 4366.12,
+      "text": "Provided it is understood that delta v squared over 2"
+    },
+    {
+      "start": 4366.12,
+      "end": 4369.36,
+      "text": "is a change in v squared over 2 in the same time"
+    },
+    {
+      "start": 4369.36,
+      "end": 4372.02,
+      "text": "in which the particle moved a distance delta x."
+    },
+    {
+      "start": 4372.02,
+      "end": 4374.58,
+      "text": "Then by adding the differences, we eliminate time"
+    },
+    {
+      "start": 4374.58,
+      "end": 4377.34,
+      "text": "and we get this final result."
+    },
+    {
+      "start": 4377.34,
+      "end": 4377.84,
+      "text": "All right."
+    },
+    {
+      "start": 4377.84,
+      "end": 4380.04,
+      "text": "So if you go to your website today,"
+    },
+    {
+      "start": 4380.04,
+      "end": 4384.55,
+      "text": "you will find I have assigned some problems."
+    },
+    {
+      "start": 4384.55,
+      "end": 4386.57,
+      "text": "And you should try to do your own math."
+    },
+    {
+      "start": 4386.57,
+      "end": 4387.65,
+      "text": "But I will try to do it."
+    },
+    {
+      "start": 4387.65,
+      "end": 4388.69,
+      "text": "And I will try to do it."
+    },
+    {
+      "start": 4388.69,
+      "end": 4389.41,
+      "text": "Thank you."
+    },
+    {
+      "start": 4389.41,
+      "end": 4391.63,
+      "text": "If you go to the pop culture online Christie"
+    },
+    {
+      "start": 4391.63,
+      "end": 4395.43,
+      "text": "and rather than try to do them, they apply to this chapter then"
+    },
+    {
+      "start": 4395.43,
+      "end": 4398.79,
+      "text": "next week we'll do more complicated problems"
+    },
+    {
+      "start": 4398.79,
+      "end": 4401.01,
+      "text": "that involve motion in higher dimension,"
+    },
+    {
+      "start": 4401.01,
+      "end": 4403.53,
+      "text": "how to go to 2 dimensions or 3 dimensions."
+    }
+  ]
+}

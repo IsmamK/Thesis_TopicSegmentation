@@ -1,0 +1,2342 @@
+{
+  "video_id": "j0wJBEZdwLs",
+  "language": "en",
+  "duration_sec": 2080.3,
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.28,
+      "text": "What you're looking at, a somewhat complicated diagram that you and I are going to build up in"
+    },
+    {
+      "start": 4.28,
+      "end": 9.62,
+      "text": "this video, is a visualization unpacking the meaning behind one of the most powerful tools"
+    },
+    {
+      "start": 9.62,
+      "end": 19.35,
+      "text": "used to study differential equations. It's known as the Laplace transform. This is one of those"
+    },
+    {
+      "start": 19.35,
+      "end": 24.03,
+      "text": "tools where, as a student, you can learn how to use it to solve equations and yet be left"
+    },
+    {
+      "start": 24.03,
+      "end": 29.09,
+      "text": "completely in the dark about what it's actually doing. Think about learning how to drive a car"
+    },
+    {
+      "start": 29.09,
+      "end": 34.51,
+      "text": "versus learning how an internal combustion engine works. Both are worthy pursuits. One is not"
+    },
+    {
+      "start": 34.51,
+      "end": 40.03,
+      "text": "necessarily better than the other, and in fact, driving is probably more practical. But there is"
+    },
+    {
+      "start": 40.03,
+      "end": 44.97,
+      "text": "something deeply satisfying about popping open the hood and understanding the mechanism inside."
+    },
+    {
+      "start": 45.69,
+      "end": 51.63,
+      "text": "Similarly, our main goal with this video is to pop the hood and show you some of the beautiful math"
+    },
+    {
+      "start": 51.63,
+      "end": 56.99,
+      "text": "that awaits us inside this object. And strictly speaking, a lot of what I want to show is not"
+    },
+    {
+      "start": 56.99,
+      "end": 59.07,
+      "text": "necessary if your only goal is to solve equations. So, let's get started."
+    },
+    {
+      "start": 59.09,
+      "end": 64.23,
+      "text": "That said, for the differential equation students among you, I think the content here should make"
+    },
+    {
+      "start": 64.23,
+      "end": 68.71,
+      "text": "the stuff you have to memorize a lot more memorable. And after dissecting this machine,"
+    },
+    {
+      "start": 68.85,
+      "end": 73.21,
+      "text": "studying it piece by piece, you and I will take everything for a test drive and see what it looks"
+    },
+    {
+      "start": 73.21,
+      "end": 78.27,
+      "text": "like to solve a concrete and very interesting differential equation. Now, before I just plop"
+    },
+    {
+      "start": 78.27,
+      "end": 83.25,
+      "text": "down the definition on the screen, let's talk about what problem the Laplace transform is trying"
+    },
+    {
+      "start": 83.25,
+      "end": 88.99,
+      "text": "to solve. We set up a lot of this in the previous chapter, and there are two primary ideas worth"
+    },
+    {
+      "start": 88.99,
+      "end": 89.07,
+      "text": "reading. One is the problem of the Laplace transform, and the other is the problem of the"
+    },
+    {
+      "start": 89.07,
+      "end": 89.09,
+      "text": "differential equation. The first is the problem of the Laplace transform, and the second is the problem of the"
+    },
+    {
+      "start": 89.09,
+      "end": 89.11,
+      "text": "Laplace transform, and the third is the problem of the Laplace transform. So, let's get started."
+    },
+    {
+      "start": 89.11,
+      "end": 94.79,
+      "text": "Number one, you need to understand exponential functions. And I'm always going to be writing"
+    },
+    {
+      "start": 94.79,
+      "end": 102.73,
+      "text": "these as e to the s times t. t represents time, and then s is a number. It determines what specific"
+    },
+    {
+      "start": 102.73,
+      "end": 107.27,
+      "text": "exponential we're talking about. But very importantly for this topic, we're going to give s"
+    },
+    {
+      "start": 107.27,
+      "end": 112.15,
+      "text": "the freedom to take on complex number values. We covered this much more thoroughly in the previous"
+    },
+    {
+      "start": 112.15,
+      "end": 117.33,
+      "text": "chapter, but the quick summary is that if s has an imaginary part, the output of your function"
+    },
+    {
+      "start": 117.33,
+      "end": 119.07,
+      "text": "rotates in the complex place. So, if s has an imaginary part, the output of your function"
+    },
+    {
+      "start": 119.07,
+      "end": 124.99,
+      "text": "is a plane as time ticks forward. When the real part of s is negative, the magnitude is decaying"
+    },
+    {
+      "start": 124.99,
+      "end": 130.37,
+      "text": "toward zero over time. But if it happens to be positive, that would mean the magnitude grows,"
+    },
+    {
+      "start": 130.63,
+      "end": 135.9,
+      "text": "namely growing exponentially. If any of that feels shaky, or if you want to understand why it's true,"
+    },
+    {
+      "start": 136.36,
+      "end": 140.6,
+      "text": "do watch the previous chapter. But from this point forward, I'm assuming everybody is comfortable"
+    },
+    {
+      "start": 140.6,
+      "end": 145.44,
+      "text": "with this notion. Why do we care, though? Why the hubbub about these functions? Well,"
+    },
+    {
+      "start": 145.44,
+      "end": 148.78,
+      "text": "it's because of the second thing you need to know, which is that a lot of functions,"
+    },
+    {
+      "start": 148.78,
+      "end": 154.52,
+      "text": "especially those arising in physics, can be expressed as combinations of exponential pieces."
+    },
+    {
+      "start": 155.2,
+      "end": 159.3,
+      "text": "There's one very friendly example that's going to be helpful to return to repeatedly throughout"
+    },
+    {
+      "start": 159.3,
+      "end": 165.54,
+      "text": "this lesson, the cosine of t. This undulating function can be broken up as a sum of two"
+    },
+    {
+      "start": 165.54,
+      "end": 171.98,
+      "text": "purely imaginary exponentials. Basically, if you take e to the i times t, that gives you rotation"
+    },
+    {
+      "start": 171.98,
+      "end": 178.18,
+      "text": "counterclockwise, and e to the negative i t rotates the other way. So, when you add these"
+    },
+    {
+      "start": 178.18,
+      "end": 178.76,
+      "text": "two together, you get the cosine of t. So, if you take e to the i times t, that gives you rotation"
+    },
+    {
+      "start": 178.78,
+      "end": 184.74,
+      "text": "perhaps imagining adding two rotating vectors tip to tail, the imaginary parts cancel each other out,"
+    },
+    {
+      "start": 184.9,
+      "end": 189.04,
+      "text": "and what you're left with is something whose output remains locked to the real number line,"
+    },
+    {
+      "start": 189.34,
+      "end": 194.54,
+      "text": "oscillating back and forth. Now as it stands, this sum goes between negative 2 and positive 2,"
+    },
+    {
+      "start": 194.84,
+      "end": 200.46,
+      "text": "but a cosine only goes between negative 1 and 1, so finally you multiply everything by one half."
+    },
+    {
+      "start": 201.96,
+      "end": 206.9,
+      "text": "More complicated functions might break down into more exponential pieces. For example,"
+    },
+    {
+      "start": 206.9,
+      "end": 211.28,
+      "text": "later in this lesson, you and I are going to dig into something called the driven harmonic"
+    },
+    {
+      "start": 211.28,
+      "end": 216.3,
+      "text": "oscillator, which is basically a mass on a spring that's influenced by some external force,"
+    },
+    {
+      "start": 216.56,
+      "end": 221.82,
+      "text": "in our case, one that oscillates over time. As a spoiler, the solution to the equation describing"
+    },
+    {
+      "start": 221.82,
+      "end": 228.24,
+      "text": "that ends up looking like a sum of four exponential pieces. Two of those pieces oscillate and decay"
+    },
+    {
+      "start": 228.24,
+      "end": 232.78,
+      "text": "in a way that matches the natural resonant frequency of the spring, and then the other two"
+    },
+    {
+      "start": 233.08,
+      "end": 235.58,
+      "text": "oscillate in a way that matches the external force."
+    },
+    {
+      "start": 236.06,
+      "end": 236.88,
+      "text": "So for cases like this,"
+    },
+    {
+      "start": 236.9,
+      "end": 241.8,
+      "text": "and many others, what we would like is some sort of tool, some sort of mathematical machine,"
+    },
+    {
+      "start": 242.14,
+      "end": 246.74,
+      "text": "where you can pump in a function, or even a differential equation describing that function,"
+    },
+    {
+      "start": 247.14,
+      "end": 253.22,
+      "text": "and that machine will somehow reveal for us what specific exponential pieces that function breaks"
+    },
+    {
+      "start": 253.22,
+      "end": 258.74,
+      "text": "down into. That is, it exposes what these values s in the exponent all are, as well as what the"
+    },
+    {
+      "start": 258.74,
+      "end": 264.18,
+      "text": "corresponding coefficients are. Now you might be wondering, why exponential pieces? Why not focus"
+    },
+    {
+      "start": 264.18,
+      "end": 266.88,
+      "text": "on something else? The short answer is that for these functions, they're not going to be"
+    },
+    {
+      "start": 266.9,
+      "end": 269.9,
+      "text": "just a function. They're going to be an integral part of the derivative. They're going to be an"
+    },
+    {
+      "start": 269.9,
+      "end": 273.26,
+      "text": "integral part of the derivative. So, for example, if you take a function, and you take a derivative,"
+    },
+    {
+      "start": 273.26,
+      "end": 278.96,
+      "text": "it looks precisely the same as multiplying by some number, namely s. What you'll see by the end is"
+    },
+    {
+      "start": 278.96,
+      "end": 284.8,
+      "text": "how this means that same machine that lets us dissect functions into exponential pieces also"
+    },
+    {
+      "start": 284.8,
+      "end": 290.64,
+      "text": "allows us to turn differential equations into algebra. Essentially, because everywhere you see"
+    },
+    {
+      "start": 290.64,
+      "end": 294.28,
+      "text": "a derivative, it turns into multiplication by s."
+    },
+    {
+      "start": 294.84,
+      "end": 296.96,
+      "text": "Now, in a context like this one, where we are so focused on complex-valued exponentials, and just"
+    },
+    {
+      "start": 296.96,
+      "end": 301.72,
+      "text": "a few examples, engineers have a special name for this complex plane that I'm depicting on the left,"
+    },
+    {
+      "start": 301.72,
+      "end": 308.84,
+      "text": "representing all possible values for that term s in the exponent. They call it, well, the s-plane."
+    },
+    {
+      "start": 309.4,
+      "end": 315.24,
+      "text": "A helpful mental image is to think of each individual point on the s-plane as encoding"
+    },
+    {
+      "start": 315.24,
+      "end": 321.32,
+      "text": "the entire exponential function e to the s times t. For this picture, the graphs I'm showing only"
+    },
+    {
+      "start": 321.32,
+      "end": 326.84,
+      "text": "depict the real component of the output, but keep in mind, each point is representing the full,"
+    },
+    {
+      "start": 326.84,
+      "end": 331.92,
+      "text": "complex-valued function. These graphs are enough for intuition, though. You'll notice how bigger"
+    },
+    {
+      "start": 331.92,
+      "end": 337.4,
+      "text": "imaginary parts correspond to faster oscillation, and then as your eyes scan from left to right,"
+    },
+    {
+      "start": 337.4,
+      "end": 344.86,
+      "text": "the real part reflects either decay or growth. So with this as our goal, the machine that you and I"
+    },
+    {
+      "start": 344.86,
+      "end": 349.3,
+      "text": "are going to build up today, the one that exposes how a function breaks into exponential pieces,"
+    },
+    {
+      "start": 349.3,
+      "end": 353.02,
+      "text": "is, as you have no doubt guessed, the Laplace Transform."
+    },
+    {
+      "start": 353.02,
+      "end": 358.36,
+      "text": "Now, this word transform is a little funny. Basically, in the same way that a function"
+    },
+    {
+      "start": 358.36,
+      "end": 363.82,
+      "text": "is something that takes in a number and spits out a new number, we often use the word transform"
+    },
+    {
+      "start": 363.82,
+      "end": 370.36,
+      "text": "in math for a more meta operation that takes in an entire function and spits out a new function."
+    },
+    {
+      "start": 370.36,
+      "end": 376.16,
+      "text": "In the case of the Laplace Transform, a typical convention is to name our new function with a"
+    },
+    {
+      "start": 376.16,
+      "end": 379.26,
+      "text": "capitalized version of whatever you used to change it. For example,"
+    },
+    {
+      "start": 379.26,
+      "end": 383.76,
+      "text": "original function. And in this setting, where our original function takes in"
+    },
+    {
+      "start": 383.76,
+      "end": 388.98,
+      "text": "time as an input, the new transformed function has a new different kind of"
+    },
+    {
+      "start": 388.98,
+      "end": 394.14,
+      "text": "input, a complex value s. I think it's helpful to quickly preview what this new"
+    },
+    {
+      "start": 394.14,
+      "end": 398.22,
+      "text": "function actually does before we pull up the definition and start dissecting it."
+    },
+    {
+      "start": 398.22,
+      "end": 404.02,
+      "text": "Suppose your original function, little f , really can be broken down as a sum"
+    },
+    {
+      "start": 404.02,
+      "end": 409.0,
+      "text": "of several exponential pieces. When you apply this Laplace transform, giving you"
+    },
+    {
+      "start": 409.0,
+      "end": 413.56,
+      "text": "a new function of this new variable s, if you were to plot this new function"
+    },
+    {
+      "start": 413.56,
+      "end": 417.76,
+      "text": "over the s-plane in a way that I will explain in just a minute, what you see"
+    },
+    {
+      "start": 417.76,
+      "end": 422.98,
+      "text": "are these sharp spikes above each value of s that corresponds to one of those"
+    },
+    {
+      "start": 422.98,
+      "end": 428.0,
+      "text": "exponential pieces. These spikes have a fancy name, they are called the poles of"
+    },
+    {
+      "start": 428.0,
+      "end": 433.04,
+      "text": "your function. So even if you didn't know ahead of time how your function could be"
+    },
+    {
+      "start": 433.04,
+      "end": 437.9,
+      "text": "broken down as a sum of exponentials, if you understand this transformed version"
+    },
+    {
+      "start": 437.9,
+      "end": 439.02,
+      "text": "and specifically"
+    },
+    {
+      "start": 439.02,
+      "end": 443.84,
+      "text": "if you understand the poles, that can reveal for you what those exponential"
+    },
+    {
+      "start": 443.84,
+      "end": 447.89,
+      "text": "pieces are. At this point you're probably itching to see how this thing is"
+    },
+    {
+      "start": 447.89,
+      "end": 452.19,
+      "text": "actually defined, and in its full glory this is what that definition looks like,"
+    },
+    {
+      "start": 452.19,
+      "end": 457.17,
+      "text": "which we can think of as two separate steps. First, you multiply your function"
+    },
+    {
+      "start": 457.17,
+      "end": 463.23,
+      "text": "by the expression e to the negative s , and then second, you integrate that result"
+    },
+    {
+      "start": 463.23,
+      "end": 468.07,
+      "text": "over time from t equals zero to infinity. We'll talk all about that integral and"
+    },
+    {
+      "start": 468.07,
+      "end": 469.07,
+      "text": "its nuances in just a minute."
+    },
+    {
+      "start": 469.11,
+      "end": 474.25,
+      "text": "But for the moment, focus on that inner expression. This term s is the newly"
+    },
+    {
+      "start": 474.25,
+      "end": 478.65,
+      "text": "introduced parameter, the one that is the input of our new transformed function. As"
+    },
+    {
+      "start": 478.65,
+      "end": 482.61,
+      "text": "I said, it's a complex number, every time you see the letter s in this video, it's a"
+    },
+    {
+      "start": 482.61,
+      "end": 485.63,
+      "text": "complex number, and the way I like to think about it is that you might imagine"
+    },
+    {
+      "start": 485.63,
+      "end": 490.79,
+      "text": "freely moving around this value s on the s-plane, and it's kind of sniffing around"
+    },
+    {
+      "start": 490.79,
+      "end": 495.93,
+      "text": "to find which specific exponential functions line up closely with our"
+    },
+    {
+      "start": 495.93,
+      "end": 498.93,
+      "text": "function little f . For example,"
+    },
+    {
+      "start": 499.11,
+      "end": 503.89,
+      "text": "our function is the cosine of t, which as we discussed just a minute ago, we already"
+    },
+    {
+      "start": 503.89,
+      "end": 510.57,
+      "text": "know can be broken down as a sum of two exponentials, e to the it and e to the negative it. I've"
+    },
+    {
+      "start": 510.57,
+      "end": 514.47,
+      "text": "already previewed the idea that when you plot the final result, you should see these spikes"
+    },
+    {
+      "start": 514.47,
+      "end": 520.11,
+      "text": "over the key values of s, which in this example would mean poles above plus i and negative"
+    },
+    {
+      "start": 520.11,
+      "end": 525.89,
+      "text": "i. And you can already get a little intuition by taking this example and substituting in"
+    },
+    {
+      "start": 525.89,
+      "end": 530.89,
+      "text": "the expanded expression for the cosine of t. Looking at this expansion, I want you to"
+    },
+    {
+      "start": 530.89,
+      "end": 537.19,
+      "text": "take a moment to think about the product of these two terms. When you multiply two exponentials,"
+    },
+    {
+      "start": 537.19,
+      "end": 543.21,
+      "text": "the contents of those exponents add together. So what you're left with is e raised to the"
+    },
+    {
+      "start": 543.21,
+      "end": 549.13,
+      "text": "i minus s times t. Let me go ahead and plot that value on the lower right, keeping the"
+    },
+    {
+      "start": 549.13,
+      "end": 553.73,
+      "text": "s plane on the upper right. Just like the exponentials we've already seen, as time goes"
+    },
+    {
+      "start": 553.73,
+      "end": 555.89,
+      "text": "from zero to infinity, this oscillates."
+    },
+    {
+      "start": 555.89,
+      "end": 560.61,
+      "text": "It oscillates and decays, or maybe it grows. The specific shape depends on how we set that"
+    },
+    {
+      "start": 560.61,
+      "end": 567.57,
+      "text": "value s. Now in this case, as you move around that value s, there is one specific value"
+    },
+    {
+      "start": 567.57,
+      "end": 573.47,
+      "text": "causing uniquely boring behavior. If you set s equal to i, then that term in the exponent"
+    },
+    {
+      "start": 573.47,
+      "end": 578.73,
+      "text": "becomes zero, so the entire function just looks like e to the zero, which is stuck at"
+    },
+    {
+      "start": 578.73,
+      "end": 584.23,
+      "text": "the constant one. And this is a key idea for almost all values of s. An exponential like"
+    },
+    {
+      "start": 584.23,
+      "end": 585.89,
+      "text": "this is going to change with time."
+    },
+    {
+      "start": 585.89,
+      "end": 592.89,
+      "text": "So, if you're trying to invent some kind of machine that will detect the exponential pieces"
+    },
+    {
+      "start": 604.25,
+      "end": 610.69,
+      "text": "lurking inside a function, for example, detecting that a cosine has an e to the i t and an e"
+    },
+    {
+      "start": 610.69,
+      "end": 615.23,
+      "text": "to the negative i t lurking inside it, you might ask yourself, is there something I can"
+    },
+    {
+      "start": 615.23,
+      "end": 615.87,
+      "text": "do that can detect that?"
+    },
+    {
+      "start": 615.87,
+      "end": 616.19,
+      "text": "Well, there's a way to do that. You can use the equation that I just showed you. You can"
+    },
+    {
+      "start": 616.19,
+      "end": 621.99,
+      "text": "detect when one of the terms in a sum like this is secretly just a constant. In essence,"
+    },
+    {
+      "start": 621.99,
+      "end": 626.95,
+      "text": "this is the role played by the integral that is wrapping everything up in the full definition,"
+    },
+    {
+      "start": 626.95,
+      "end": 631.33,
+      "text": "integrating as time goes from zero to infinity. And on the one hand, if you're comfortable"
+    },
+    {
+      "start": 631.33,
+      "end": 635.75,
+      "text": "with calculus, you might be able to anticipate why this would result in some kind of sharp"
+    },
+    {
+      "start": 635.75,
+      "end": 640.29,
+      "text": "spike over the desired values of s. If you integrate a constant from zero all the way"
+    },
+    {
+      "start": 640.29,
+      "end": 645.98,
+      "text": "up to infinity, it blows up. But there's actually a fair bit of nuance here. To start, you might"
+    },
+    {
+      "start": 645.98,
+      "end": 652.98,
+      "text": "want to think about integrating a complex function. For example, if you're up for it,"
+    },
+    {
+      "start": 659.98,
+      "end": 664.42,
+      "text": "what I'd like to do with the next 10 minutes or so is really dig in and dissect what an"
+    },
+    {
+      "start": 664.42,
+      "end": 670.18,
+      "text": "integral like this really means, how to visualize it, and to explain why the plots that I'm"
+    },
+    {
+      "start": 670.18,
+      "end": 675.67,
+      "text": "showing represent something slightly distinct from the literal meaning of this integral."
+    },
+    {
+      "start": 675.67,
+      "end": 680.73,
+      "text": "As with any new piece of math, it's best to start easy and work our way up in complexity."
+    },
+    {
+      "start": 680.73,
+      "end": 686.91,
+      "text": "So to kick things off, let's just ignore this function f itself and only focus on integrating"
+    },
+    {
+      "start": 686.91,
+      "end": 689.67,
+      "text": "the e to the negative st part."
+    },
+    {
+      "start": 689.67,
+      "end": 694.45,
+      "text": "And to warm up, before jumping into the complexity of it all, let's just suppose that s is a"
+    },
+    {
+      "start": 694.45,
+      "end": 699.33,
+      "text": "real number, meaning this is a friendly real-valued function that we can plot with a graph like"
+    },
+    {
+      "start": 699.33,
+      "end": 705.5,
+      "text": "normal. Typically, when you first learn calculus, you learn to interpret an integral as telling"
+    },
+    {
+      "start": 705.5,
+      "end": 706.34,
+      "text": "you the area of the integral that you're going to get when you're done with the integral."
+    },
+    {
+      "start": 706.34,
+      "end": 707.34,
+      "text": "But I thought I'd show you a way that you can interpret an integral as telling you the"
+    },
+    {
+      "start": 707.34,
+      "end": 708.34,
+      "text": "area of the integral that you're actually going to get when you're done with the integral."
+    },
+    {
+      "start": 708.34,
+      "end": 712.86,
+      "text": "For example, if you set the value s equal to 1, and you go through the procedure for"
+    },
+    {
+      "start": 712.86,
+      "end": 717.46,
+      "text": "actually calculating this integral, you take an antiderivative, you take the difference"
+    },
+    {
+      "start": 717.46,
+      "end": 721.22,
+      "text": "at the two different bounds, or because there's an infinity you can say you take the limiting"
+    },
+    {
+      "start": 721.22,
+      "end": 725.86,
+      "text": "value at that bound. The way it all works out is that this expression equals 1. And"
+    },
+    {
+      "start": 725.86,
+      "end": 730.14,
+      "text": "you can interpret that as telling you that the area under this graph is 1, which is kind"
+    },
+    {
+      "start": 730.14,
+      "end": 734.7,
+      "text": "of fun. I guess that means that all the area under this infinite tail is exactly enough"
+    },
+    {
+      "start": 734.7,
+      "end": 735.5,
+      "text": "to fill in the rest of this unit square."
+    },
+    {
+      "start": 735.5,
+      "end": 740.76,
+      "text": "of this unit square, and then if we reintroduce that value s and set it equal to something that's"
+    },
+    {
+      "start": 740.76,
+      "end": 745.88,
+      "text": "not 1, the effect is to squish the graph in the horizontal direction. That's always the effect"
+    },
+    {
+      "start": 745.88,
+      "end": 750.66,
+      "text": "if you multiply the input of a function by some constant, and so the area under this graph,"
+    },
+    {
+      "start": 750.78,
+      "end": 757.06,
+      "text": "which started out as 1, must now be 1 divided by s. The key thing I want you to remember here is"
+    },
+    {
+      "start": 757.06,
+      "end": 762.74,
+      "text": "how if we let s get smaller and smaller and approach the value at 0, then that area gets"
+    },
+    {
+      "start": 762.74,
+      "end": 767.04,
+      "text": "bigger and bigger and bigger, actually approaching infinity, and approaching it quite quickly too."
+    },
+    {
+      "start": 767.68,
+      "end": 772.02,
+      "text": "But graphs are not the only way to visualize functions, and area is not the only way to"
+    },
+    {
+      "start": 772.02,
+      "end": 775.64,
+      "text": "understand integrals, and you should get in the habit of flexing your mind a little bit more."
+    },
+    {
+      "start": 775.96,
+      "end": 780.2,
+      "text": "Let me show you another way to think about this that will generalize more easily once we let that"
+    },
+    {
+      "start": 780.2,
+      "end": 786.0,
+      "text": "function take on complex number values. Think about this integral just between 0 and 1, something"
+    },
+    {
+      "start": 786.0,
+      "end": 791.38,
+      "text": "with a unit length, and I want you to imagine all this area under the graph as a pool of water,"
+    },
+    {
+      "start": 791.38,
+      "end": 792.44,
+      "text": "which you let kind of"
+    },
+    {
+      "start": 792.44,
+      "end": 792.72,
+      "text": "slide through."
+    },
+    {
+      "start": 792.74,
+      "end": 800.44,
+      "text": "The height of this pool is telling you the average value of that function between 0 and 1,"
+    },
+    {
+      "start": 800.9,
+      "end": 806.58,
+      "text": "and then because the width of this pool is just 1, then its area is the same thing as its height."
+    },
+    {
+      "start": 807.04,
+      "end": 813.18,
+      "text": "So this integral up top, when it's over a unit interval, is telling you the average value of"
+    },
+    {
+      "start": 813.18,
+      "end": 819.42,
+      "text": "the function on that interval. Similarly, the integral from 1 to 2 would be telling you the"
+    },
+    {
+      "start": 819.42,
+      "end": 822.86,
+      "text": "average value the function takes over that interval from 1 to 2."
+    },
+    {
+      "start": 822.9,
+      "end": 827.22,
+      "text": "And then same deal as you keep integrating along a bunch of other unit intervals."
+    },
+    {
+      "start": 827.22,
+      "end": 833.04,
+      "text": "So then, if you want the integral from 0 out to infinity, what you can think about is taking all"
+    },
+    {
+      "start": 833.04,
+      "end": 838.94,
+      "text": "of these average values on those intervals and adding them all together. This is something we"
+    },
+    {
+      "start": 838.94,
+      "end": 844.74,
+      "text": "can work with. Now let's look at the complex case. S is going to be some complex number, and then the"
+    },
+    {
+      "start": 844.74,
+      "end": 851.22,
+      "text": "function e to the negative st cycles and decays around the complex plane as you let time go from"
+    },
+    {
+      "start": 851.22,
+      "end": 852.42,
+      "text": "0 up to infinity."
+    },
+    {
+      "start": 852.42,
+      "end": 852.86,
+      "text": "So this is going to be the integral from 0 to infinity, and then the function e to the negative st cycles and decays around the complex plane as you let time go from 0 up to infinity."
+    },
+    {
+      "start": 852.9,
+      "end": 862.26,
+      "text": "The specific way that it cycles and decays or grows depends on that value of s, and we'll get a distinct path through the complex plane for each one."
+    },
+    {
+      "start": 862.26,
+      "end": 868.82,
+      "text": "Now if you want to integrate this function on a unit interval, let's say from the values t equals 0 to t equals 1,"
+    },
+    {
+      "start": 868.82,
+      "end": 873.38,
+      "text": "imagine taking a sample of all of the outputs in this range and then finding the average,"
+    },
+    {
+      "start": 873.38,
+      "end": 878.9,
+      "text": "the center of mass for all those points. That average value is the meaning of this integral,"
+    },
+    {
+      "start": 878.9,
+      "end": 882.42,
+      "text": "which I will represent with a little arrow. And actually, it'll be helpful if"
+    },
+    {
+      "start": 882.42,
+      "end": 888.34,
+      "text": "we put this integral in its own complex plane down in the lower right, because we're about to start adding them all up."
+    },
+    {
+      "start": 888.34,
+      "end": 894.02,
+      "text": "If you let t range from 1 up to 2 and you do the same thing, take the average value on that interval,"
+    },
+    {
+      "start": 894.02,
+      "end": 898.5,
+      "text": "represent it with an arrow, and then you add that arrow to what we have on the lower right,"
+    },
+    {
+      "start": 898.5,
+      "end": 903.7,
+      "text": "the resulting sum is basically telling you the integral from 0 all the way up to 2."
+    },
+    {
+      "start": 903.7,
+      "end": 909.38,
+      "text": "And then we repeat. You take an average between 2 and 3, add that, average between 3 and 4,"
+    },
+    {
+      "start": 909.38,
+      "end": 911.94,
+      "text": "add that, and just keep going on and on and on and on."
+    },
+    {
+      "start": 911.94,
+      "end": 920.82,
+      "text": "And the limiting point for this spiraling sum that you see is the value of the integral from 0 to infinity of e to the negative st,"
+    },
+    {
+      "start": 920.82,
+      "end": 926.34,
+      "text": "exactly the expression we're trying to understand. And as we move around that input s,"
+    },
+    {
+      "start": 926.34,
+      "end": 930.9,
+      "text": "the resulting value of this spiraling sum might wander around the complex plane."
+    },
+    {
+      "start": 931.75,
+      "end": 937.91,
+      "text": "As a quick sanity check, let me move that value of s over to the input 1. So there's no oscillation,"
+    },
+    {
+      "start": 937.91,
+      "end": 941.99,
+      "text": "because there's no imaginary part, and you'll notice that all these little arrows stack up."
+    },
+    {
+      "start": 942.07,
+      "end": 946.79,
+      "text": "To end up on the number 1. And this should make sense. Back when we were interpreting the integral"
+    },
+    {
+      "start": 946.79,
+      "end": 953.11,
+      "text": "the more familiar way as an area under a curve, we saw that this value when s equals 1 works out to be"
+    },
+    {
+      "start": 953.11,
+      "end": 959.83,
+      "text": "1. And just as before, if I let s approach 0, getting smaller and smaller, then the resulting"
+    },
+    {
+      "start": 959.83,
+      "end": 964.95,
+      "text": "integral gets bigger and bigger, rapidly approaching infinity. In this new diagram,"
+    },
+    {
+      "start": 964.95,
+      "end": 970.15,
+      "text": "we can see how if s moves away from 0 in a different direction, moving vertically, the"
+    },
+    {
+      "start": 970.15,
+      "end": 971.99,
+      "text": "resulting integral also gets smaller and smaller, and the resulting integral also gets smaller and"
+    },
+    {
+      "start": 971.99,
+      "end": 976.71,
+      "text": "smaller, but for a much different reason. All the oscillation in the function gives us more"
+    },
+    {
+      "start": 976.71,
+      "end": 983.35,
+      "text": "cancellation in that vector sum, so the output gets closer to 0. Next what I want to do is plot"
+    },
+    {
+      "start": 983.35,
+      "end": 987.99,
+      "text": "this value. So look at that point where our spiraling sum converges to. I want you to think"
+    },
+    {
+      "start": 987.99,
+      "end": 993.27,
+      "text": "of it as a little vector in the complex plane, something that has a magnitude and a direction."
+    },
+    {
+      "start": 993.27,
+      "end": 998.71,
+      "text": "And to get a little fancy, let's take that magnitude and we're going to plot it above the"
+    },
+    {
+      "start": 998.71,
+      "end": 1001.43,
+      "text": "value s in the s plane. So as we move along the integral, we'll see that the vector sum is"
+    },
+    {
+      "start": 1001.43,
+      "end": 1001.99,
+      "text": "going to be 0. And we're going to plot it above the value s in the s plane. So as we move along the"
+    },
+    {
+      "start": 1001.99,
+      "end": 1003.35,
+      "text": "integral, we're going to get 0. And in the end, the result will be 0. And so as I change that value"
+    },
+    {
+      "start": 1003.35,
+      "end": 1008.71,
+      "text": "s, and it changes the resulting integral, the magnitude of our output might grow or shrink."
+    },
+    {
+      "start": 1009.27,
+      "end": 1014.79,
+      "text": "And as it does so, we will plot the result over the s plane. And I'm just going to leave this on"
+    },
+    {
+      "start": 1014.79,
+      "end": 1019.91,
+      "text": "autopilot for a moment where s is going to wander around the plane. And as it does so, take a moment"
+    },
+    {
+      "start": 1019.91,
+      "end": 1027.16,
+      "text": "to think about why we're getting the shapes that we see. Basically, the bigger the imaginary part"
+    },
+    {
+      "start": 1027.16,
+      "end": 1032.12,
+      "text": "of s, the more spiralling there is in the expression meaning more cancellation. So the"
+    },
+    {
+      "start": 1032.12,
+      "end": 1032.6,
+      "text": "magnitude of that output is the result. So, if I can get that higher, I can get that higher. So"
+    },
+    {
+      "start": 1032.6,
+      "end": 1033.16,
+      "text": "let's try that again. And I know it's going to be greater than that. But I'm just going to leave this"
+    },
+    {
+      "start": 1033.16,
+      "end": 1038.32,
+      "text": "is smaller. Here's what it looks like if I graph the full plot over many possible"
+    },
+    {
+      "start": 1038.32,
+      "end": 1043.6,
+      "text": "values of s. The most obvious feature is how if s gets closer and closer to 0,"
+    },
+    {
+      "start": 1043.6,
+      "end": 1047.98,
+      "text": "then the magnitude of that output gets bigger and bigger, which makes sense. The"
+    },
+    {
+      "start": 1047.98,
+      "end": 1052.0,
+      "text": "small real part means it has slower decay, and the small imaginary part means"
+    },
+    {
+      "start": 1052.0,
+      "end": 1056.87,
+      "text": "there's less cancellation. Now as it stands, I'm only graphing the magnitude"
+    },
+    {
+      "start": 1056.87,
+      "end": 1060.91,
+      "text": "of that output, but of course it has more information than that. It has a direction"
+    },
+    {
+      "start": 1060.91,
+      "end": 1065.63,
+      "text": "too, so if we associate every possible direction of that output with a unique"
+    },
+    {
+      "start": 1065.63,
+      "end": 1070.39,
+      "text": "color, then one thing I could do is color the graph, giving us a richer sense of"
+    },
+    {
+      "start": 1070.39,
+      "end": 1074.09,
+      "text": "what that output looks like. The other thing you've probably already noticed"
+    },
+    {
+      "start": 1074.09,
+      "end": 1078.77,
+      "text": "about this plot is that it is conspicuously not being drawn over values"
+    },
+    {
+      "start": 1078.77,
+      "end": 1083.11,
+      "text": "of s where the real part is negative. And think about what those values actually"
+    },
+    {
+      "start": 1083.11,
+      "end": 1088.23,
+      "text": "mean. When the real part of s is negative, then the function e to the negative st"
+    },
+    {
+      "start": 1088.23,
+      "end": 1090.83,
+      "text": "grows exponentially, and this"
+    },
+    {
+      "start": 1090.83,
+      "end": 1090.89,
+      "text": "doesn't mean that the real part of s is negative. When the real part of s is"
+    },
+    {
+      "start": 1090.89,
+      "end": 1095.95,
+      "text": "spiraling some of the integral we have, it blows up. It does not converge. So these"
+    },
+    {
+      "start": 1095.95,
+      "end": 1099.65,
+      "text": "values are not defined. At least for the moment, they're not defined. There's a"
+    },
+    {
+      "start": 1099.65,
+      "end": 1103.79,
+      "text": "fancy notion we'll get to shortly. On the boundary, things get kind of interesting."
+    },
+    {
+      "start": 1103.79,
+      "end": 1109.89,
+      "text": "If s is purely imaginary, the value e to the negative st simply goes around in a"
+    },
+    {
+      "start": 1109.89,
+      "end": 1114.89,
+      "text": "circle, purely rotating, neither growing nor decaying. And as we play this game of"
+    },
+    {
+      "start": 1114.89,
+      "end": 1119.37,
+      "text": "averaging along various intervals and adding them together, that vector sum we"
+    },
+    {
+      "start": 1119.37,
+      "end": 1120.81,
+      "text": "get in the lower right"
+    },
+    {
+      "start": 1120.81,
+      "end": 1126.09,
+      "text": "simply spirals around and around ad nauseum. Now on the one hand, this also does not converge."
+    },
+    {
+      "start": 1126.09,
+      "end": 1130.45,
+      "text": "There is not a specific value that this approaches. However, it's not too hard to make sense out"
+    },
+    {
+      "start": 1130.45,
+      "end": 1134.99,
+      "text": "of it. If you let the value of s get even just a little bit of a real component, then"
+    },
+    {
+      "start": 1134.99,
+      "end": 1140.95,
+      "text": "our function does decay, and our spiraling sum does approach a clear, concrete value."
+    },
+    {
+      "start": 1140.95,
+      "end": 1144.81,
+      "text": "And then if you slowly take away that real part of s, letting it approach the imaginary"
+    },
+    {
+      "start": 1144.81,
+      "end": 1149.49,
+      "text": "number line, then that resulting integral on the lower right unambiguously approaches"
+    },
+    {
+      "start": 1149.49,
+      "end": 1150.73,
+      "text": "one clear value."
+    },
+    {
+      "start": 1150.73,
+      "end": 1157.23,
+      "text": "And you can see that on the plot, too. There's clearly some value that it wants to take on."
+    },
+    {
+      "start": 1157.23,
+      "end": 1162.51,
+      "text": "And in fact, I can tell you precisely what value it wants to converge to. Think back"
+    },
+    {
+      "start": 1162.51,
+      "end": 1167.57,
+      "text": "to the real-valued case, where we saw that the integral is equal to 1 divided by s. This"
+    },
+    {
+      "start": 1167.57,
+      "end": 1173.73,
+      "text": "is a purely analytic fact that remains true even when s is a complex number. Maybe that's"
+    },
+    {
+      "start": 1173.73,
+      "end": 1177.33,
+      "text": "what you'd expect, but it's not at all obvious that this should remain true in the"
+    },
+    {
+      "start": 1177.33,
+      "end": 1180.53,
+      "text": "more rich case of complex numbers. To gut-check for at least one example, I'm going to go"
+    },
+    {
+      "start": 1180.53,
+      "end": 1185.69,
+      "text": "For at least one example, we were just looking very closely at what happens while s approaches"
+    },
+    {
+      "start": 1185.69,
+      "end": 1190.59,
+      "text": "the imaginary constant i, and if you focus on what's happening in the lower right, you'll"
+    },
+    {
+      "start": 1190.59,
+      "end": 1194.6,
+      "text": "see that the integral is approaching negative i."
+    },
+    {
+      "start": 1194.6,
+      "end": 1198.54,
+      "text": "And indeed, 1 divided by i is negative i."
+    },
+    {
+      "start": 1198.54,
+      "end": 1203.0,
+      "text": "So we have this nice and blessedly simple equation describing our integral, but the"
+    },
+    {
+      "start": 1203.0,
+      "end": 1208.1,
+      "text": "funny thing about it is that this right hand side, 1 divided by s, is defined everywhere"
+    },
+    {
+      "start": 1208.1,
+      "end": 1209.26,
+      "text": "on the plane."
+    },
+    {
+      "start": 1209.26,
+      "end": 1213.3,
+      "text": "I can plot the result, this is what it looks like, now maybe you raise an eyebrow for s"
+    },
+    {
+      "start": 1213.3,
+      "end": 1218.44,
+      "text": "equals 0, but almost everywhere, this has an unambiguous value."
+    },
+    {
+      "start": 1218.44,
+      "end": 1223.08,
+      "text": "Now to be clear, the integral itself emphatically does not converge on the left half of the"
+    },
+    {
+      "start": 1223.08,
+      "end": 1228.12,
+      "text": "plane, so in that region, the equation, strictly speaking, makes no sense."
+    },
+    {
+      "start": 1228.12,
+      "end": 1231.62,
+      "text": "As an example, think about setting s equal to negative 1."
+    },
+    {
+      "start": 1231.62,
+      "end": 1236.5,
+      "text": "On the right hand side, 1 divided by negative 1 is negative 1, but I think you'll agree"
+    },
+    {
+      "start": 1236.5,
+      "end": 1239.24,
+      "text": "that integrating e to the t from 0 to 0 is a good idea."
+    },
+    {
+      "start": 1239.24,
+      "end": 1243.63,
+      "text": "This is a good example of a really useful expression for our integral, and it's a"
+    },
+    {
+      "start": 1243.63,
+      "end": 1244.63,
+      "text": "really useful one."
+    },
+    {
+      "start": 1244.63,
+      "end": 1248.35,
+      "text": "However, this brings us to a fascinating aspect of complex valued functions, which is completely"
+    },
+    {
+      "start": 1248.35,
+      "end": 1251.21,
+      "text": "different from the world of real valued functions."
+    },
+    {
+      "start": 1251.21,
+      "end": 1254.07,
+      "text": "It's something known as analytic continuation."
+    },
+    {
+      "start": 1254.07,
+      "end": 1259.71,
+      "text": "It's a sense in which these nonsensical values beyond the domain of convergence can nevertheless"
+    },
+    {
+      "start": 1259.71,
+      "end": 1264.69,
+      "text": "reflect useful meaning about the expression where it really does converge."
+    },
+    {
+      "start": 1264.69,
+      "end": 1269.07,
+      "text": "Although what follows is very firmly in the territory of more than you need to know to"
+    },
+    {
+      "start": 1269.07,
+      "end": 1273.49,
+      "text": "drive the car, it is a beautiful piece of math, and it's the final puzzle piece to"
+    },
+    {
+      "start": 1273.49,
+      "end": 1276.27,
+      "text": "explain the plots that I'm drawing for you."
+    },
+    {
+      "start": 1276.27,
+      "end": 1277.77,
+      "text": "Here's the idea."
+    },
+    {
+      "start": 1277.77,
+      "end": 1281.97,
+      "text": "Suppose you have some function, and it's defined only over a limited domain."
+    },
+    {
+      "start": 1281.97,
+      "end": 1286.59,
+      "text": "If this was a real valued function, and you wanted to extend the definition to include"
+    },
+    {
+      "start": 1286.59,
+      "end": 1291.55,
+      "text": "a bigger domain, you basically have infinitely many choices for how to do this."
+    },
+    {
+      "start": 1291.55,
+      "end": 1295.89,
+      "text": "Even if you add some constraint, say your function is smooth in the sense that it has"
+    },
+    {
+      "start": 1295.89,
+      "end": 1297.55,
+      "text": "a derivative everywhere, and you want your extension to also be a derivative, you can"
+    },
+    {
+      "start": 1297.55,
+      "end": 1298.55,
+      "text": "do this."
+    },
+    {
+      "start": 1298.55,
+      "end": 1301.47,
+      "text": "If you add a function to the function, and you want it to also be smooth, then you still"
+    },
+    {
+      "start": 1301.47,
+      "end": 1303.51,
+      "text": "have an infinity of choices."
+    },
+    {
+      "start": 1303.51,
+      "end": 1306.25,
+      "text": "It's kind of like a floppy bit of spaghetti."
+    },
+    {
+      "start": 1306.25,
+      "end": 1309.95,
+      "text": "Complex valued functions, though, turn out to be much more constrained."
+    },
+    {
+      "start": 1309.95,
+      "end": 1315.03,
+      "text": "If you have one defined only over a limited domain, something like our integral that converges"
+    },
+    {
+      "start": 1315.03,
+      "end": 1319.87,
+      "text": "only over half the plane, and if that function is nice in the sense of having a well-defined"
+    },
+    {
+      "start": 1319.87,
+      "end": 1324.53,
+      "text": "derivative, and then if you want to extend the function in a way that keeps it nice,"
+    },
+    {
+      "start": 1324.53,
+      "end": 1328.19,
+      "text": "again in the sense of having a derivative, then there's a nice little theorem telling"
+    },
+    {
+      "start": 1328.19,
+      "end": 1328.39,
+      "text": "us that we can do this."
+    },
+    {
+      "start": 1328.55,
+      "end": 1330.27,
+      "text": "One of two things happens."
+    },
+    {
+      "start": 1330.27,
+      "end": 1336.55,
+      "text": "Either there is no way to extend it, or if there is a way, that way is unique."
+    },
+    {
+      "start": 1336.55,
+      "end": 1337.51,
+      "text": "That's very surprising."
+    },
+    {
+      "start": 1337.51,
+      "end": 1340.33,
+      "text": "You might think you have infinite choices, but you don't."
+    },
+    {
+      "start": 1340.33,
+      "end": 1343.15,
+      "text": "When this extension does exist, it has a fancy name."
+    },
+    {
+      "start": 1343.15,
+      "end": 1347.31,
+      "text": "We call it the analytic continuation of the original function."
+    },
+    {
+      "start": 1347.31,
+      "end": 1351.45,
+      "text": "And a very powerful theme throughout math is that you can sometimes discover hidden"
+    },
+    {
+      "start": 1351.45,
+      "end": 1357.63,
+      "text": "information about a function by understanding its full extended version, especially understanding"
+    },
+    {
+      "start": 1357.63,
+      "end": 1358.51,
+      "text": "the poles in the function."
+    },
+    {
+      "start": 1358.51,
+      "end": 1367.52,
+      "text": "In this case, we have the integral of the function, which is the integral of the integral"
+    },
+    {
+      "start": 1367.52,
+      "end": 1368.52,
+      "text": "of the function."
+    },
+    {
+      "start": 1368.52,
+      "end": 1374.56,
+      "text": "However, in our context of studying Laplace transforms, the relevance is that the actual"
+    },
+    {
+      "start": 1374.56,
+      "end": 1378.98,
+      "text": "integral defining this transform typically only converges for half the plane, when the"
+    },
+    {
+      "start": 1378.98,
+      "end": 1381.04,
+      "text": "real part of s is sufficiently big."
+    },
+    {
+      "start": 1381.04,
+      "end": 1387.66,
+      "text": "However, it can be very helpful to plot and to understand the full extended version, exposing"
+    },
+    {
+      "start": 1387.66,
+      "end": 1388.87,
+      "text": "all the poles of the function."
+    },
+    {
+      "start": 1388.87,
+      "end": 1392.85,
+      "text": "Let's look at this warm-up example that we've been focusing on, the integral of e to the"
+    },
+    {
+      "start": 1392.85,
+      "end": 1394.33,
+      "text": "negative st."
+    },
+    {
+      "start": 1394.33,
+      "end": 1399.71,
+      "text": "As I said, that only converges when the real part of s is positive, and on that half plane,"
+    },
+    {
+      "start": 1399.71,
+      "end": 1401.77,
+      "text": "it equals 1 divided by s."
+    },
+    {
+      "start": 1401.77,
+      "end": 1407.93,
+      "text": "1 divided by s is defined everywhere, and it is nice, in the sense of having a derivative."
+    },
+    {
+      "start": 1407.93,
+      "end": 1412.75,
+      "text": "So we say this is the analytic continuation of our integral."
+    },
+    {
+      "start": 1412.75,
+      "end": 1415.51,
+      "text": "This function is the purest example of a pole."
+    },
+    {
+      "start": 1415.51,
+      "end": 1418.19,
+      "text": "You say it has a pole above s equals 0."
+    },
+    {
+      "start": 1418.19,
+      "end": 1418.67,
+      "text": "And it's slightly less than 0."
+    },
+    {
+      "start": 1418.67,
+      "end": 1418.77,
+      "text": "So we say it has a pole above s equals 0."
+    },
+    {
+      "start": 1418.77,
+      "end": 1418.85,
+      "text": "And it's slightly less than 0."
+    },
+    {
+      "start": 1418.87,
+      "end": 1419.09,
+      "text": "And it's slightly less than 0."
+    },
+    {
+      "start": 1419.09,
+      "end": 1422.97,
+      "text": "And the less handwavy definition of what I mean by this is that it looks approximately"
+    },
+    {
+      "start": 1422.97,
+      "end": 1426.09,
+      "text": "like dividing by 0 around that point."
+    },
+    {
+      "start": 1426.09,
+      "end": 1427.91,
+      "text": "It's not hard to see where the name comes from."
+    },
+    {
+      "start": 1427.91,
+      "end": 1432.14,
+      "text": "The plot looks kind of like a circus tent with a pole above that point."
+    },
+    {
+      "start": 1432.14,
+      "end": 1432.94,
+      "text": "Wonderful."
+    },
+    {
+      "start": 1432.94,
+      "end": 1434.88,
+      "text": "This is actually a very useful result."
+    },
+    {
+      "start": 1434.88,
+      "end": 1440.06,
+      "text": "This integral that we have now spent so much time on is effectively the Laplace transform"
+    },
+    {
+      "start": 1440.06,
+      "end": 1444.7,
+      "text": "of one of the simplest possible functions, the constant function at 1."
+    },
+    {
+      "start": 1444.7,
+      "end": 1449.18,
+      "text": "That constant function transforms into 1 divided by s."
+    },
+    {
+      "start": 1449.18,
+      "end": 1455.2,
+      "text": "see in your mind's eye as a pole above s equals zero. That might seem like a simple example,"
+    },
+    {
+      "start": 1455.56,
+      "end": 1460.16,
+      "text": "but almost for free we can squeeze out a much more general result, which is that the transform"
+    },
+    {
+      "start": 1460.16,
+      "end": 1465.58,
+      "text": "of any exponential function also looks like a simple pole. It's just going to be above some"
+    },
+    {
+      "start": 1465.58,
+      "end": 1470.08,
+      "text": "other value on the s-plane. Here, let's take a moment to actually think it through."
+    },
+    {
+      "start": 1470.68,
+      "end": 1476.86,
+      "text": "What would happen if I asked you to pump in a function like, I don't know, e to the 1.5 times t?"
+    },
+    {
+      "start": 1476.86,
+      "end": 1484.84,
+      "text": "Well, then the expression inside that integral combines, and you get e to the 1.5 minus s times t,"
+    },
+    {
+      "start": 1485.14,
+      "end": 1489.44,
+      "text": "which is nearly identical to everything we were just looking at, it's just things are shifted by"
+    },
+    {
+      "start": 1489.44,
+      "end": 1495.58,
+      "text": "1.5. If you wanted, I could pull up that same visual, which dissects and interprets the integral"
+    },
+    {
+      "start": 1495.58,
+      "end": 1500.66,
+      "text": "pictured on the lower right, and again the function inside the integral is pictured on the upper right,"
+    },
+    {
+      "start": 1500.94,
+      "end": 1505.82,
+      "text": "and we're playing the same game of adding up averages. But nothing in this diagram has"
+    },
+    {
+      "start": 1505.82,
+      "end": 1506.84,
+      "text": "substantively changed."
+    },
+    {
+      "start": 1506.86,
+      "end": 1511.64,
+      "text": "It's essentially the same thing we were just looking at. The only difference is that now,"
+    },
+    {
+      "start": 1511.88,
+      "end": 1518.34,
+      "text": "that special value where explosion happens and we see a pole is at s equals 1.5 instead of s equals"
+    },
+    {
+      "start": 1518.34,
+      "end": 1524.6,
+      "text": "0. Symbolically, a little bit of rearrangement shows that this key integral is almost identical"
+    },
+    {
+      "start": 1524.6,
+      "end": 1529.76,
+      "text": "to the one we were just studying. The only difference is that s has been replaced by s"
+    },
+    {
+      "start": 1529.76,
+      "end": 1535.8,
+      "text": "minus 1.5. So the new result that we can write down and circle is that the transform of our"
+    },
+    {
+      "start": 1535.8,
+      "end": 1536.76,
+      "text": "exponential function,"
+    },
+    {
+      "start": 1536.86,
+      "end": 1544.4,
+      "text": "looks like 1 divided by s minus 1.5. And of course, there's nothing special about 1.5. I can replace"
+    },
+    {
+      "start": 1544.4,
+      "end": 1550.24,
+      "text": "this with any constant a. And if there is only one fact that you remember from this video, let it be"
+    },
+    {
+      "start": 1550.24,
+      "end": 1557.56,
+      "text": "this one. The Laplace transform of an exponential function, e to the at, is a new function of s that"
+    },
+    {
+      "start": 1557.56,
+      "end": 1565.44,
+      "text": "has a simple pole over s equals a. This is that key idea I alluded to earlier. Poles in the transformed"
+    },
+    {
+      "start": 1565.44,
+      "end": 1566.06,
+      "text": "function,"
+    },
+    {
+      "start": 1566.06,
+      "end": 1566.78,
+      "text": "expose"
+    },
+    {
+      "start": 1566.78,
+      "end": 1572.8,
+      "text": "the exponential pieces of the original. The final step to fleshing out that idea is to convince"
+    },
+    {
+      "start": 1572.8,
+      "end": 1578.14,
+      "text": "ourselves that this works for combinations. As an example, let's pull back in our good friend,"
+    },
+    {
+      "start": 1578.34,
+      "end": 1582.9,
+      "text": "the cosine of t. And here, we have two options for how to study this. We can think it through"
+    },
+    {
+      "start": 1582.9,
+      "end": 1588.32,
+      "text": "symbolically, and then after, for fun, let's plug it into that same visual machine and see what it"
+    },
+    {
+      "start": 1588.32,
+      "end": 1594.96,
+      "text": "looks like. Alright, so symbolically, as we discussed earlier, a cosine can be broken up as"
+    },
+    {
+      "start": 1594.96,
+      "end": 1596.48,
+      "text": "1.5 e to the it,"
+    },
+    {
+      "start": 1596.48,
+      "end": 1596.72,
+      "text": "plus 1.5 e to the it,"
+    },
+    {
+      "start": 1596.72,
+      "end": 1603.82,
+      "text": "plus 1.5 e to the negative it. What you can do next from here is break this outer expression into two"
+    },
+    {
+      "start": 1603.82,
+      "end": 1610.44,
+      "text": "different pieces. One that looks like half times the transform of e to the it, and another which"
+    },
+    {
+      "start": 1610.44,
+      "end": 1615.84,
+      "text": "looks like half times the transform of e to the negative it. In the lingo, the way that you would"
+    },
+    {
+      "start": 1615.84,
+      "end": 1621.26,
+      "text": "phrase this is that the Laplace transform is linear, meaning if you have a scaled sum of some"
+    },
+    {
+      "start": 1621.26,
+      "end": 1626.44,
+      "text": "stuff on the inside, you can break everything apart to the same scaled sum of the"
+    },
+    {
+      "start": 1626.44,
+      "end": 1631.64,
+      "text": "transforms of those inner parts. In our case, because we just saw how to take the transform"
+    },
+    {
+      "start": 1631.64,
+      "end": 1637.0,
+      "text": "of simple exponential functions, this whole expression here can be collapsed to look like"
+    },
+    {
+      "start": 1637.0,
+      "end": 1644.12,
+      "text": "1 divided by s minus i, a thing with a simple pole at i. And then this whole expression can collapse"
+    },
+    {
+      "start": 1644.12,
+      "end": 1650.52,
+      "text": "to become 1 over s plus i, a thing with a pole at negative i. So when you read this whole expression,"
+    },
+    {
+      "start": 1650.52,
+      "end": 1655.4,
+      "text": "the sum of two fractions, the image that should pop into your head is a plot with two different"
+    },
+    {
+      "start": 1655.4,
+      "end": 1661.16,
+      "text": "spikes above i and negative i. And in fact, if we have a little fun and we try plugging the"
+    },
+    {
+      "start": 1661.16,
+      "end": 1667.56,
+      "text": "expression cosine of t e to the negative st into that big complex integrating machine that we built"
+    },
+    {
+      "start": 1667.56,
+      "end": 1674.84,
+      "text": "up, you do indeed see a plot that has poles above i and negative i. This time the diagram is notably"
+    },
+    {
+      "start": 1674.84,
+      "end": 1679.72,
+      "text": "more complicated, and if I'm honest with you, the symbolic reasoning is probably the easier way to"
+    },
+    {
+      "start": 1679.72,
+      "end": 1685.32,
+      "text": "understand the final answer. But you and I are here to have a little fun, aren't we? Delving into each"
+    },
+    {
+      "start": 1685.32,
+      "end": 1685.38,
+      "text": "time we've been here, we've been trying to figure out how to solve the problem. And we've been doing"
+    },
+    {
+      "start": 1685.38,
+      "end": 1685.4,
+      "text": "it for a long time, and we've been trying to figure out how to solve the problem. And we've been doing"
+    },
+    {
+      "start": 1685.4,
+      "end": 1685.42,
+      "text": "it for a long time, and we've been trying to figure out how to solve the problem. And we've been"
+    },
+    {
+      "start": 1685.42,
+      "end": 1689.38,
+      "text": "the piston and valve of the machine that we're working with. So let's see if we can take a minute"
+    },
+    {
+      "start": 1689.38,
+      "end": 1694.7,
+      "text": "or two to try to make sense out of what exactly we're looking at. Once again, on the upper right,"
+    },
+    {
+      "start": 1694.7,
+      "end": 1699.98,
+      "text": "I'm showing the function inside the integral, the cosine of t times e to the negative st."
+    },
+    {
+      "start": 1700.54,
+      "end": 1704.54,
+      "text": "But now it's a lot more of a chaotic squiggle. To build a little intuition,"
+    },
+    {
+      "start": 1704.54,
+      "end": 1710.38,
+      "text": "let me set s equal to a small, purely imaginary value, say, 0.2 i."
+    },
+    {
+      "start": 1711.1,
+      "end": 1715.38,
+      "text": "On that plot in the upper right, I'll go ahead and add a vector that's just showing the e"
+    },
+    {
+      "start": 1715.38,
+      "end": 1722.76,
+      "text": "e to the negative st part, which for the small imaginary value of s simply rotates very slowly."
+    },
+    {
+      "start": 1722.76,
+      "end": 1728.16,
+      "text": "In the full function, that term gets multiplied by cosine, so the path that it would trace"
+    },
+    {
+      "start": 1728.16,
+      "end": 1734.77,
+      "text": "out would oscillate back and forth, giving us this nice flower petal pattern."
+    },
+    {
+      "start": 1734.77,
+      "end": 1741.75,
+      "text": "As before, the way we're visualizing the integral is by taking averages along various unit intervals"
+    },
+    {
+      "start": 1741.75,
+      "end": 1745.93,
+      "text": "and then adding those together, like a big tip-to-tail vector sum."
+    },
+    {
+      "start": 1745.93,
+      "end": 1749.37,
+      "text": "In this case, the diagram of adding those vectors is actually quite nice, it looks like"
+    },
+    {
+      "start": 1749.37,
+      "end": 1752.27,
+      "text": "going around and around in a little star pattern."
+    },
+    {
+      "start": 1752.27,
+      "end": 1755.27,
+      "text": "And strictly speaking, this does not converge."
+    },
+    {
+      "start": 1755.27,
+      "end": 1759.69,
+      "text": "What's being plotted up on the left is the analytic continuation."
+    },
+    {
+      "start": 1759.69,
+      "end": 1764.35,
+      "text": "If you wanted this to converge, you can add even just a little bit of a real component"
+    },
+    {
+      "start": 1764.35,
+      "end": 1769.95,
+      "text": "to that value s, meaning that the function decays a bit as time goes out to infinity,"
+    },
+    {
+      "start": 1769.95,
+      "end": 1771.67,
+      "text": "and even a little bit of decay will be enough"
+    },
+    {
+      "start": 1771.67,
+      "end": 1771.71,
+      "text": "to get the value of s to the negative st part."
+    },
+    {
+      "start": 1771.75,
+      "end": 1772.75,
+      "text": "But if you want to get the value of s to the negative st part, you can add a little bit"
+    },
+    {
+      "start": 1772.75,
+      "end": 1773.75,
+      "text": "of decay to that value s, and then add another little bit of decay to that value, which is"
+    },
+    {
+      "start": 1773.75,
+      "end": 1776.39,
+      "text": "going to cause this sum down on the lower right to converge to a clear, unambiguous"
+    },
+    {
+      "start": 1776.39,
+      "end": 1777.63,
+      "text": "value."
+    },
+    {
+      "start": 1777.63,
+      "end": 1783.75,
+      "text": "Now notice what happens as I increase the imaginary part, and the frequency of our exponential"
+    },
+    {
+      "start": 1783.75,
+      "end": 1788.94,
+      "text": "gets closer to the frequency of the cosine."
+    },
+    {
+      "start": 1788.94,
+      "end": 1793.32,
+      "text": "What you get is more and more alignment, resulting in a bigger total integral."
+    },
+    {
+      "start": 1793.32,
+      "end": 1799.22,
+      "text": "In fact, when that imaginary part is 1, meaning the oscillation of the exponential exactly"
+    },
+    {
+      "start": 1799.22,
+      "end": 1803.52,
+      "text": "lines up with the oscillation of the cosine, then the path that it traces out remains the"
+    },
+    {
+      "start": 1803.52,
+      "end": 1811.44,
+      "text": "plane's entire plane, and the result is that the integral gets jettisoned out to the right."
+    },
+    {
+      "start": 1811.44,
+      "end": 1817.52,
+      "text": "From there, if I were to decrease the real part of s, meaning less and less decay, then"
+    },
+    {
+      "start": 1817.52,
+      "end": 1824.28,
+      "text": "the integral gets closer and closer to infinity, hence why we see a pole above that value."
+    },
+    {
+      "start": 1824.28,
+      "end": 1827.76,
+      "text": "And by the way, stepping back, for any of you who happened to watch the video I did"
+    },
+    {
+      "start": 1827.76,
+      "end": 1832.7,
+      "text": "many years ago about the Fourier transform, if all of this looks strikingly familiar,"
+    },
+    {
+      "start": 1832.7,
+      "end": 1833.7,
+      "text": "it's because..."
+    },
+    {
+      "start": 1833.7,
+      "end": 1835.64,
+      "text": "it's basically the same thing."
+    },
+    {
+      "start": 1835.64,
+      "end": 1841.58,
+      "text": "When s is a purely imaginary number, the Laplace transform is nearly identical to the Fourier"
+    },
+    {
+      "start": 1841.58,
+      "end": 1842.58,
+      "text": "transform."
+    },
+    {
+      "start": 1842.58,
+      "end": 1847.92,
+      "text": "It's not quite the same expression, the lower bound on our integral is 0, not negative infinity,"
+    },
+    {
+      "start": 1847.92,
+      "end": 1852.0,
+      "text": "and there's varying conventions about the constants in that exponent, but the essence"
+    },
+    {
+      "start": 1852.0,
+      "end": 1853.76,
+      "text": "is really the same."
+    },
+    {
+      "start": 1853.76,
+      "end": 1858.6,
+      "text": "Now this relationship between Fourier transforms and Laplace transforms will play a much bigger"
+    },
+    {
+      "start": 1858.6,
+      "end": 1862.96,
+      "text": "role in our story in a following chapter, but right here I wanted to quickly highlight"
+    },
+    {
+      "start": 1862.96,
+      "end": 1863.62,
+      "text": "how, in a sense, this is a very interesting example of how the Fourier transform works."
+    },
+    {
+      "start": 1863.62,
+      "end": 1867.44,
+      "text": "In a sense, this Laplace transform is a generalization."
+    },
+    {
+      "start": 1867.44,
+      "end": 1872.7,
+      "text": "What it does is probe at how well a function lines up, not just with purely imaginary exponentials,"
+    },
+    {
+      "start": 1872.7,
+      "end": 1875.0,
+      "text": "but with any exponential."
+    },
+    {
+      "start": 1875.0,
+      "end": 1880.18,
+      "text": "Now looking back at our symbolic result for the Laplace transform of the cosine of t,"
+    },
+    {
+      "start": 1880.18,
+      "end": 1884.16,
+      "text": "if you were to go and look this up, say in a big table of Laplace transforms, this is"
+    },
+    {
+      "start": 1884.16,
+      "end": 1886.04,
+      "text": "actually not how it would look."
+    },
+    {
+      "start": 1886.04,
+      "end": 1891.5,
+      "text": "First of all, it's common and useful to consider a more general cosine wave that has an arbitrary"
+    },
+    {
+      "start": 1891.5,
+      "end": 1892.5,
+      "text": "angular frequency, omega, on the integral."
+    },
+    {
+      "start": 1892.5,
+      "end": 1893.5,
+      "text": "So, if you look at this Laplace transform, you'll see that the Laplace transform is a"
+    },
+    {
+      "start": 1893.5,
+      "end": 1894.48,
+      "text": "little more general than the Laplace transform on the integral."
+    },
+    {
+      "start": 1894.48,
+      "end": 1895.48,
+      "text": "This is actually the same as the Laplace transform on the integral, but that's a little more"
+    },
+    {
+      "start": 1895.48,
+      "end": 1896.48,
+      "text": "towards the left."
+    },
+    {
+      "start": 1896.48,
+      "end": 1897.48,
+      "text": "So, in order to get the real idea of what it means to be a linear expression, you'll"
+    },
+    {
+      "start": 1897.48,
+      "end": 1898.48,
+      "text": "need to find out the singular of the Laplace transform of t, which is the integral of t"
+    },
+    {
+      "start": 1898.48,
+      "end": 1899.48,
+      "text": "times the integral of t times the integral of t."
+    },
+    {
+      "start": 1899.48,
+      "end": 1900.48,
+      "text": "If you look at this Laplace transform, you'll see that the Laplace transform has an algebra"
+    },
+    {
+      "start": 1900.48,
+      "end": 1901.48,
+      "text": "on autopilot, which is a new expression."
+    },
+    {
+      "start": 1901.48,
+      "end": 1904.36,
+      "text": "You can read that expression as telling you that there are poles at omega i and negative"
+    },
+    {
+      "start": 1904.36,
+      "end": 1905.36,
+      "text": "omega i."
+    },
+    {
+      "start": 1905.36,
+      "end": 1908.72,
+      "text": "But even still, this is not what you would see in a table."
+    },
+    {
+      "start": 1908.72,
+      "end": 1912.94,
+      "text": "Let me go ahead and just run some algebra on autopilot here that's going to combine"
+    },
+    {
+      "start": 1912.94,
+      "end": 1914.32,
+      "text": "those two terms."
+    },
+    {
+      "start": 1914.32,
+      "end": 1920.38,
+      "text": "when all the dust settles, what you end up with is s divided by s squared plus omega squared."
+    },
+    {
+      "start": 1920.94,
+      "end": 1925.64,
+      "text": "Now this is the expression you would actually see. And in fact, the reason I bring it up is"
+    },
+    {
+      "start": 1925.64,
+      "end": 1930.78,
+      "text": "I want to talk about how the entire logic of this example could flow the other way around."
+    },
+    {
+      "start": 1931.26,
+      "end": 1936.0,
+      "text": "Imagine you did not already know ahead of time that a cosine can be broken up as a sum of two"
+    },
+    {
+      "start": 1936.0,
+      "end": 1942.2,
+      "text": "exponentials, but you were very savvy with integration by parts. I won't walk through"
+    },
+    {
+      "start": 1942.2,
+      "end": 1948.32,
+      "text": "the details here, but you can directly calculate this equality here, essentially directly computing"
+    },
+    {
+      "start": 1948.32,
+      "end": 1953.82,
+      "text": "the definition for the transform. From there, you could use a process that is fancifully called"
+    },
+    {
+      "start": 1953.82,
+      "end": 1959.72,
+      "text": "partial fraction decomposition to break apart this fraction into the two pieces that clearly"
+    },
+    {
+      "start": 1959.72,
+      "end": 1966.04,
+      "text": "expose the poles at omega i and negative omega i, and which also exposes those coefficients of one"
+    },
+    {
+      "start": 1966.04,
+      "end": 1972.69,
+      "text": "half. This, in turn, would be enough to tell you what the exponential pieces lurking inside are."
+    },
+    {
+      "start": 1972.71,
+      "end": 1977.35,
+      "text": "That flow of the logic is actually a lot more reflective of what it feels like to use this"
+    },
+    {
+      "start": 1977.35,
+      "end": 1983.09,
+      "text": "transform in practice. On that note, our next step is to take this machine for a test drive"
+    },
+    {
+      "start": 1983.09,
+      "end": 1987.81,
+      "text": "and see what it looks like to solve an actual differential equation. Now my original plan was"
+    },
+    {
+      "start": 1987.81,
+      "end": 1992.63,
+      "text": "to conclude this video with a worked example, but looking at the time, and considering this is all"
+    },
+    {
+      "start": 1992.63,
+      "end": 1996.71,
+      "text": "part of a series anyway, it's probably a little better to give you the chance to stand up, stretch"
+    },
+    {
+      "start": 1996.71,
+      "end": 2001.71,
+      "text": "out, reflect on everything, and let's put that in a follow-on chapter. The key takeaway for this"
+    },
+    {
+      "start": 2001.71,
+      "end": 2002.53,
+      "text": "video is how,"
+    },
+    {
+      "start": 2002.77,
+      "end": 2008.53,
+      "text": "when a function can be broken into exponential pieces, the Laplace transform exposes what those"
+    },
+    {
+      "start": 2008.53,
+      "end": 2014.45,
+      "text": "pieces are as poles above the s-plane. But I want you to know, we are not done understanding its"
+    },
+    {
+      "start": 2014.45,
+      "end": 2019.87,
+      "text": "full generality. Most functions cannot be expressed as discrete sums of exponentials like"
+    },
+    {
+      "start": 2019.87,
+      "end": 2026.17,
+      "text": "this. Nevertheless, the transform offers a very powerful way to express many, many more functions"
+    },
+    {
+      "start": 2026.17,
+      "end": 2031.81,
+      "text": "as combinations of exponentials. It's just you combine over a continuous range, not a discrete"
+    },
+    {
+      "start": 2031.81,
+      "end": 2032.71,
+      "text": "one."
+    },
+    {
+      "start": 2032.71,
+      "end": 2037.51,
+      "text": "Returning back to that analogy of driving a car versus learning how an engine works, there is a"
+    },
+    {
+      "start": 2037.51,
+      "end": 2043.35,
+      "text": "third, even deeper level of understanding, which is knowing how to build a car for yourself. In the"
+    },
+    {
+      "start": 2043.35,
+      "end": 2048.55,
+      "text": "final chapter of this sequence, I want to show you how you could reinvent the Laplace transform"
+    },
+    {
+      "start": 2048.55,
+      "end": 2053.99,
+      "text": "from scratch, how it relates to Fourier transforms and Fourier inversion, and how to think about it"
+    },
+    {
+      "start": 2053.99,
+      "end": 2060.07,
+      "text": "for a much broader family of functions beyond these discrete sums of exponentials. I'll see you there."
+    }
+  ]
+}

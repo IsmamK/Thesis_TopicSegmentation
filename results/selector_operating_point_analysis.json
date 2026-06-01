@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "n_operating_points": 7,
+    "metrics": [
+      "pk",
+      "wd",
+      "boundary_similarity",
+      "f1_tol2"
+    ],
+    "lower_better": [
+      "pk",
+      "wd"
+    ],
+    "higher_better": [
+      "boundary_similarity",
+      "f1_tol2"
+    ]
+  },
+  "rows": [
+    {
+      "label": "BGE-divisive baseline",
+      "source": "results/method_selector_significance.json::summary.baseline",
+      "role": "Stable implemented baseline",
+      "primary": "baseline",
+      "pk": 0.3884245196546067,
+      "wd": 0.3956060993802347,
+      "boundary_similarity": 0.1291534895310639,
+      "f1_tol2": 0.08780333333333333
+    },
+    {
+      "label": "Cross-model conservative",
+      "source": "results/method_selector_significance.json::summary.current",
+      "role": "Best single global Pk/WD method",
+      "primary": "single_method",
+      "pk": 0.37132872933904826,
+      "wd": 0.37635058524085163,
+      "boundary_similarity": 0.036187381477797424,
+      "f1_tol2": 0.023746666666666662
+    },
+    {
+      "label": "Pk-ranked selector",
+      "source": "results\\method_selector_experiment_trainrank.json",
+      "role": "Pk-optimised selector; weaker after stable feature fix",
+      "primary": "pk",
+      "pk": 0.3738546920451427,
+      "wd": 0.3867097010033367,
+      "boundary_similarity": 0.065374349849941,
+      "f1_tol2": 0.07760000000000002
+    },
+    {
+      "label": "WD-ranked selector",
+      "source": "results\\method_selector_experiment_trainrank_wd.json",
+      "role": "WD-optimised selector; useful robustness check",
+      "primary": "wd",
+      "pk": 0.3702783264647934,
+      "wd": 0.3823422262657519,
+      "boundary_similarity": 0.05844422320021885,
+      "f1_tol2": 0.06368333333333333
+    },
+    {
+      "label": "Balanced selector",
+      "source": "results\\method_selector_experiment_trainrank_balanced.json",
+      "role": "Best reproducible selector operating point",
+      "primary": "balanced",
+      "pk": 0.3587753784775456,
+      "wd": 0.3738977802479712,
+      "boundary_similarity": 0.07571331714447657,
+      "f1_tol2": 0.08932333333333335
+    },
+    {
+      "label": "Text-transition ranker",
+      "source": "results\\eval_text_transition_ranker.json::gb_text_tol2_frac75_min12_nms2",
+      "role": "Best strict boundary-hit operating point; hurts Pk/WD",
+      "primary": "f1_tol2",
+      "pk": 0.39365315671013984,
+      "wd": 0.4153715928239699,
+      "boundary_similarity": 0.11633955088917251,
+      "f1_tol2": 0.1701197484534106
+    },
+    {
+      "label": "Per-video method oracle",
+      "source": "results/method_portfolio_analysis.json::per_video_oracle",
+      "role": "Diagnostic upper bound, not deployable",
+      "primary": "oracle",
+      "pk": 0.2980137734877165,
+      "wd": 0.3280315503454883,
+      "boundary_similarity": 0.1365557616808907,
+      "f1_tol2": 0.16760999999999998
+    }
+  ],
+  "dominance": {
+    "BGE-divisive baseline": [
+      "Per-video method oracle"
+    ],
+    "Cross-model conservative": [
+      "Balanced selector",
+      "Per-video method oracle"
+    ],
+    "Pk-ranked selector": [
+      "Balanced selector",
+      "Per-video method oracle"
+    ],
+    "WD-ranked selector": [
+      "Balanced selector",
+      "Per-video method oracle"
+    ],
+    "Balanced selector": [
+      "Per-video method oracle"
+    ],
+    "Text-transition ranker": [],
+    "Per-video method oracle": []
+  },
+  "best_balanced_overall": "Per-video method oracle",
+  "best_balanced_deployable": "Balanced selector",
+  "best_boundary_hit": "Text-transition ranker"
+}

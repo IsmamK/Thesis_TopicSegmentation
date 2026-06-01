@@ -1,5 +1,5 @@
-% ============================================================
-%  LECSEG — 8-page IEEE-style conference paper
+﻿% ============================================================
+%  LECSEG - 8-page IEEE-style conference paper
 %  Use IEEEtran.cls (place IEEEtran.cls + IEEEtran.bst in this folder
 %  if not installed system-wide).
 % ============================================================
@@ -22,7 +22,6 @@
 
 \newcommand{\lecseg}{LecSeg}
 \newcommand{\dataset}{LecSeg-30}
-\newcommand{\todo}[1]{\textcolor{red}{\textbf{[#1]}}}
 
 \begin{document}
 
@@ -40,20 +39,16 @@
 \maketitle
 
 \begin{abstract}
-We present \lecseg{}, an open hierarchical multimodal pipeline for
-lecture-video topic segmentation that produces both chapter-level and
-subtopic-level boundaries. \lecseg{} introduces three technical contributions:
-(i)~a reliability-weighted fusion (RWF) module that weighs text, visual, and
-prosody signals per video by their inverse entropy, (ii)~a two-stage boundary
-predictor that separates high-recall candidate generation from high-precision
-refinement, and (iii)~a local LLM refinement and titling stage using
-Llama-3.1-8B that requires no closed-API access. We release \dataset{}: a
-30-video, 5-domain corpus with dual subtopic annotation and reported
-inter-annotator agreement. Across five evaluation metrics with 1{,}000-sample
-bootstrap confidence intervals and paired Wilcoxon significance tests,
-\lecseg{} reduces $P_k$ by \todo{X.XX}\,\% relative over the strongest open
-baseline ($p<\todo{0.0X}$). All code, data, and model weights are
-publicly released.
+We present \lecseg{}, a low-resource, reproducible pipeline for lecture-video
+topic segmentation that produces chapter-level and subtopic-level structure.
+\lecseg{} contributes a 30-video, 32.52-hour lecture benchmark, a unified
+evaluation suite, and a family of text, multimodal, and method-selection
+segmentation experiments. The strongest statistically supported 30-video
+result reduces $P_k$ from 0.3884 to 0.3713 and WindowDiff from 0.3956 to
+0.3764 over a stable BGE-divisive baseline. A stable balanced leave-one-video-out
+method selector further reduces mean $P_k$ to 0.3588 and WindowDiff to 0.3739,
+and significantly improves F1@2 over the cross-model method. We position \lecseg{} as a reproducible
+lecture-segmentation artifact rather than a large-scale external SOTA claim.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -72,73 +67,76 @@ need without scrubbing blindly through the recording. This discoverability
 problem disproportionately affects self-directed learners and students revisiting
 material for examination preparation.
 
-Automatic topic segmentation—the task of partitioning a video into semantically
-coherent sections and labelling each with a title—directly addresses this gap.
+Automatic topic segmentation--the task of partitioning a video into semantically
+coherent sections and labelling each with a title--directly addresses this gap.
 However, existing systems suffer from three limitations that constrain their
 practical deployment. First, most approaches operate on text alone, ignoring
 the rich visual and acoustic signals present in lecture recordings
-\cite{texttiling,c99}. Second, the dominant output format is flat: a single
+\cite{hearst1997_texttiling,choi2000_c99}. Second, the dominant output format is flat: a single
 sequence of non-overlapping chapters, whereas real lectures exhibit a natural
 two-level hierarchy (chapters containing subtopics) that mirrors how instructors
-plan their content \cite{bertseg}. Third, the few systems that leverage large
-language models for titling depend on proprietary APIs \cite{topicseg}, precluding
-reproducible offline deployment.
+plan their content. Third, the few systems that leverage large language models
+for chapter generation or titling often depend on very large training corpora or
+proprietary components \cite{cao2022_chaptergen,ventura2025_chapterllama},
+complicating low-resource reproduction.
 
-This paper presents \lecseg{}, which addresses all three limitations. Our
-contributions are:
+This paper presents \lecseg{}, a low-resource lecture-segmentation artifact.
+Our contributions are:
 \begin{itemize}
-  \item \textbf{Reliability-Weighted Fusion (RWF):} a novel modality-fusion
-    strategy that assigns per-video, per-sentence weights to each modality
-    based on the inverse normalised entropy of its gap-score distribution—
-    automatically down-weighting unreliable channels (e.g.\ flat OCR on a
-    chalkboard lecture) without any labelled fusion data.
-  \item \textbf{Two-Stage Boundary Predictor:} a broad candidate generation
-    pass (low threshold, high recall) followed by a strict refinement pass
-    (higher threshold, high precision), reducing false positives without
-    sacrificing coverage.
+  \item \textbf{Reproducible Low-Resource Benchmark:} \dataset{} contains 30
+    public YouTube lectures, 32.52 hours, 419 chapter boundaries, and 904
+    reviewed subtopics across five academic domains.
+  \item \textbf{Boundary-Selection Analysis:} conservative cross-model
+    selection improves $P_k$/WindowDiff over a stable BGE-divisive baseline,
+    while oracle and portfolio analyses show that candidate selection remains
+    the central bottleneck.
   \item \textbf{Hierarchical Output:} a joint chapter-and-subtopic head that
     enforces the nesting constraint $\mathcal{B}_\text{ch} \subseteq
     \mathcal{B}_\text{sub}$ by construction.
-  \item \textbf{\dataset{} corpus:} 30 lecture videos (55 hours) spanning
-    5 academic domains, with dual human subtopic annotation and reported
-    Cohen's $\kappa$.
+  \item \textbf{Significance and Error Analysis:} paired tests confirm the
+    main $P_k$/WindowDiff improvement over the local baseline and expose the
+    tradeoff between window consistency and exact boundary hits.
 \end{itemize}
 
 % ----------
 \section{Related Work}
 
 \paragraph{Classical methods.}
-TextTiling \cite{texttiling} segments documents by detecting drops in
-lexical cohesion across a sliding window; C99 \cite{c99} uses a rank matrix
+TextTiling \cite{hearst1997_texttiling} segments documents by detecting drops in
+lexical cohesion across a sliding window; C99 \cite{choi2000_c99} uses a rank matrix
 of cosine similarities to find divisive clusters. Both are purely textual
 and produce flat boundaries.
 
 \paragraph{Neural text-only methods.}
-Text\-Seg \cite{textseg} and its descendant BERT-Seg \cite{bertseg} replace
-bag-of-words representations with contextual embeddings and train a binary
-boundary classifier. They outperform classical methods substantially on
-academic benchmarks but remain unimodal.
+Neural segmentation methods replace bag-of-words representations with learned
+sentence or paragraph representations and train boundary classifiers
+\cite{koshorek2018_neural,li2018_segbot}. They outperform classical methods on
+several text benchmarks but remain unimodal when applied directly to lecture
+transcripts.
 
 \paragraph{Multimodal methods.}
-TopicSeg \cite{topicseg} incorporates visual keyframe embeddings alongside
-BERT text features and reports gains on lecture datasets, but relies on
-GPT-4 for titling and does not release model weights. SlideSegment
-\cite{slidesegment} uses slide change detection as a segmentation prior,
-but breaks down for chalkboard and whiteboard lectures where slides are absent.
+Recent video chaptering work incorporates visual and language cues at much
+larger scale \cite{cao2022_chaptergen,yang2023_vidchapters,yu2024_multimodal}.
+Earlier lecture-video systems also use slide or visual-change cues as
+segmentation priors \cite{tuna2015_classroom,zhang2016_mooc,chand2021_framework},
+but those signals are less reliable for chalkboard and whiteboard lectures.
 
 \paragraph{Hierarchical segmentation.}
-Prior work on hierarchical topic segmentation is sparse. \cite{hierseg}
-proposes a two-pass approach (first chapters, then subtopics independently),
-but does not enforce the nesting constraint, so subtopic boundaries can
-fall outside chapter boundaries. \lecseg{} enforces nesting by construction.
-No prior work combines multimodality, hierarchy, and open reproducibility.
+Prior work on hierarchical topic segmentation is sparse compared with flat
+chaptering. Many systems evaluate a single boundary sequence, leaving chapter
+and subtopic structure to post-processing. \lecseg{} enforces nesting by
+construction and evaluates the resulting hierarchy alongside flat chapter
+metrics.
 
 % ----------
 \section{The \lecseg{} Pipeline}
 
 \begin{figure}[t]
   \centering
-  \todo{Insert figures/pipeline.pdf}
+  \fbox{\parbox{0.92\linewidth}{\centering
+  Video $\rightarrow$ ASR/OCR/prosody $\rightarrow$ sentence features
+  $\rightarrow$ boundary scoring $\rightarrow$ conservative selection
+  $\rightarrow$ titled segments}}
   \caption{The \lecseg{} pipeline. Four stages process an input video into a
   hierarchical, titled segmentation.}
   \label{fig:pipeline}
@@ -146,18 +144,19 @@ No prior work combines multimodality, hierarchy, and open reproducibility.
 
 \subsection{Preprocessing}
 
-Audio is transcribed with Whisper large-v3 \cite{whisper} (beam size 1,
+Audio is transcribed with Whisper large-v3 \cite{radford2022_whisper} (beam size 1,
 float16, VAD-filtered). Transcript segments are split into sentences using a
 spaCy sentencizer. Visual keyframes are extracted at 0.5\,fps; shot boundaries
-are detected using TransNetV2 \cite{transnetv2}; slide text is extracted via
+are detected using TransNetV2 \cite{soucek2020_transnetv2}; slide text is extracted via
 PaddleOCR. Prosodic features (pause duration, mean pitch) are derived from
 the Whisper segment timestamps and librosa PYIN.
 
 \subsection{Feature Extraction}
 
 Each sentence is represented by: (1)~a 768-d text embedding from
-\texttt{all-mpnet-base-v2} \cite{mpnet}; (2)~a 512-d visual embedding from
-CLIP ViT-B/32 \cite{clip} averaged over keyframes in the sentence window; and
+\texttt{all-mpnet-base-v2} using the Sentence-BERT framework
+\cite{reimers2019_sbert}; (2)~a 512-d visual embedding from
+CLIP ViT-B/32 \cite{radford2021_clip} averaged over keyframes in the sentence window; and
 (3)~a 2-d prosody vector (z-scored). Cosine similarity gap scores are computed
 for each modality independently.
 
@@ -179,8 +178,8 @@ $\mathbf{s}_\text{fused} = \sum_m w_m \mathbf{s}_m \,/\, \sum_m w_m$.
 
 Stage~1 generates candidate boundaries at all positions where
 $\mathbf{s}_\text{fused}$ drops more than $c_1 = 0.5\sigma$ below its mean.
-Stage~2 retains only candidates that exceed $c_2 = 1.2\sigma$, or—if the
-retained set is empty—falls back to the top-$k$ candidates by score, where
+Stage~2 retains only candidates that exceed $c_2 = 1.2\sigma$, or--if the
+retained set is empty--falls back to the top-$k$ candidates by score, where
 $k$ equals the target segment count.
 
 \subsection{Hierarchical Output (N3)}
@@ -202,15 +201,15 @@ title ($\leq 8$ words) per segment.
 % ----------
 \section{The \dataset{} Corpus}
 
-\dataset{} contains 30 YouTube lecture videos totalling 55 hours, drawn from
-five academic domains: Computer Science (8), Mathematics (7), Physics (6),
-Biology (5), and Humanities/Philosophy (4). Videos were selected to maximise
+\dataset{} contains 30 YouTube lecture videos totalling 32.52 hours, drawn from
+five academic domains: Computer Science (7), Mathematics (4), Physics (7),
+Biology (6), and Philosophy (6). Videos were selected to maximise
 diversity of presentation style (slides, chalkboard, whiteboard, talking-head).
 All 30 videos have native YouTube chapter annotations, used as the chapter-level
 ground truth. A subtopic annotation pass was completed by two annotators
 following a five-rule protocol (minimum segment 60\,s; 2--5 subtopics per
 chapter; short noun-phrase titles; insert boundary when uncertain). The first
-ten videos received dual annotation; inter-annotator agreement (Cohen's
+videos received dual annotation; inter-annotator agreement (Cohen's
 $\kappa$, tolerance $\pm 1$ sentence) is reported in Table~\ref{tab:iaa}.
 
 \begin{table}[t]
@@ -221,8 +220,8 @@ $\kappa$, tolerance $\pm 1$ sentence) is reported in Table~\ref{tab:iaa}.
     \toprule
     Level & $\kappa$ & $F_1^{\text{tol=1}}$ \\
     \midrule
-    Chapter   & \todo{} & \todo{} \\
-    Subtopic  & \todo{} & \todo{} \\
+    Chapter   & 0.5351 & 1.0000 \\
+    Subtopic  & 0.4257 & 0.7793 \\
     \bottomrule
   \end{tabular}
 \end{table}
@@ -232,10 +231,10 @@ $\kappa$, tolerance $\pm 1$ sentence) is reported in Table~\ref{tab:iaa}.
 
 \subsection{Setup}
 
-We evaluate all methods on \dataset{} using 5-fold cross-validation
-(6 held-out videos per fold, stratified by domain). All randomness is fixed
-with seed 42. Metrics: $P_k$ \cite{pk}, WindowDiff (WD) \cite{wd}, Boundary
-Similarity (BS) \cite{bs}, tolerance-F\textsubscript{1} (tol\,=\,2 sentences),
+We evaluate all methods on the 30-video \dataset{} chapter benchmark. All
+randomness is fixed with seed 42. Metrics: $P_k$ \cite{beeferman1999_pk},
+WindowDiff (WD) \cite{pevzner2002_windowdiff}, Boundary
+Similarity (BS) \cite{fournier2013_bs}, tolerance-F\textsubscript{1} (tol\,=\,2 sentences),
 and a hierarchical WindowDiff (H-WD) that we propose, which applies WD
 jointly on chapter and subtopic levels. We report mean with 95\,\%
 bootstrap confidence intervals (1{,}000 samples) and pairwise Wilcoxon
@@ -243,18 +242,18 @@ signed-rank tests with Holm correction.
 
 \subsection{Baselines}
 
-Classical: \textit{TextTiling} \cite{texttiling}, \textit{C99} \cite{c99}.
+Classical: \textit{TextTiling} \cite{hearst1997_texttiling}, \textit{C99} \cite{choi2000_c99}.
 Neural: \textit{Cosine-drop} (cosine gap + fixed threshold), \textit{KMeans}
-(sentence embeddings), \textit{BertSeg} \cite{bertseg}.
+(sentence embeddings), and a neural boundary classifier following prior
+supervised text segmentation work \cite{koshorek2018_neural}.
 All neural baselines use the same MPNet embeddings as \lecseg{} for fairness.
 
 \subsection{Main Results}
 
 \begin{table}[t]
   \centering
-  \caption{Main results on \dataset{} (mean $\pm$ 95\,\% CI, 5-fold CV).
-           Best result per column in \textbf{bold}. $\dagger$ = significant
-           over BertSeg ($p < 0.05$, Wilcoxon + Holm).}
+  \caption{Main results on \dataset{} (30-video chapter benchmark).
+           Best result per column in \textbf{bold}.}
   \label{tab:main}
   \setlength{\tabcolsep}{4pt}
   \begin{tabular}{lccccc}
@@ -262,24 +261,43 @@ All neural baselines use the same MPNet embeddings as \lecseg{} for fairness.
     Method & $P_k\downarrow$ & WD$\downarrow$ & BS$\uparrow$ &
              F1$\uparrow$ & H-WD$\downarrow$ \\
     \midrule
-    TextTiling  & \todo{} & \todo{} & \todo{} & \todo{} & --- \\
-    C99         & \todo{} & \todo{} & \todo{} & \todo{} & --- \\
-    Cosine-drop & \todo{} & \todo{} & \todo{} & \todo{} & --- \\
-    KMeans      & \todo{} & \todo{} & \todo{} & \todo{} & --- \\
-    BertSeg     & \todo{} & \todo{} & \todo{} & \todo{} & --- \\
+    TextTiling  & 0.6053 & 0.8978 & 0.1466 & 0.1390 & --- \\
+    C99         & 0.4219 & 0.4494 & 0.0345 & 0.0290 & --- \\
+    Cosine-drop & 0.4902 & 0.5392 & 0.0622 & 0.0855 & --- \\
+    KMeans      & 0.6172 & 0.9986 & 0.4876 & 0.0460 & --- \\
+    BertSeg     & 0.4891 & 0.5403 & 0.0774 & 0.0910 & --- \\
     \midrule
-    \lecseg{} (ours)$^\dagger$ &
-      \textbf{\todo{}} & \textbf{\todo{}} & \textbf{\todo{}} &
-      \textbf{\todo{}} & \textbf{\todo{}} \\
+    BGE + divisive &
+      0.3884 & 0.3956 & \textbf{0.1292} & 0.0878 & --- \\
+    \lecseg{} joint Pk/WD best &
+      \textbf{0.3713} & \textbf{0.3764} & 0.0362 &
+      0.0237 & --- \\
     \bottomrule
   \end{tabular}
 \end{table}
 
-Table~\ref{tab:main} shows the main results. \lecseg{} achieves the best
-score on all five metrics. The $P_k$ improvement over BertSeg is \todo{X.XX}
-points absolute (\todo{X.X}\,\% relative, $p=\todo{}$). H-WD is only
-applicable to hierarchical methods; \lecseg{} is the only system that
-produces subtopic-level output.
+Table~\ref{tab:main} shows that the current best LECSEG run achieves the best
+$P_k$ and WD among the evaluated rows. The improvement over the stable
+BGE-divisive baseline is 0.0171 $P_k$ points absolute. The trade-off is a lower
+strict tolerance-F1, because the best Pk/WD method predicts conservatively.
+
+\begin{table}[t]
+  \centering
+  \caption{Current result variants. The method selector improves mean $P_k$ and
+  F1@2 but trades off WindowDiff.}
+  \label{tab:selector}
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{lcccc}
+    \toprule
+    Method & $P_k\downarrow$ & WD$\downarrow$ & BS$\uparrow$ & F1@2$\uparrow$ \\
+    \midrule
+    BGE-divisive baseline & 0.3884 & 0.3956 & 0.1292 & 0.0878 \\
+    Cross-model conservative & 0.3713 & \textbf{0.3764} & 0.0362 & 0.0237 \\
+    LOO method selector & \textbf{0.3588} & \textbf{0.3739} & 0.0757 & \textbf{0.0893} \\
+    Per-video oracle & 0.2980 & 0.3280 & 0.1366 & 0.1676 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
 
 \subsection{Ablation Study}
 
@@ -291,22 +309,20 @@ produces subtopic-level output.
     \toprule
     Configuration & $P_k\downarrow$ & F1$\uparrow$ & H-WD$\downarrow$ \\
     \midrule
-    Cosine-drop (baseline)  & \todo{} & \todo{} & --- \\
-    +N1 two-stage           & \todo{} & \todo{} & --- \\
-    +N2 RWF                 & \todo{} & \todo{} & --- \\
-    +N3 hierarchy           & \todo{} & \todo{} & \todo{} \\
-    +N4 LLM refinement      & \todo{} & \todo{} & \todo{} \\
+    Cosine-drop (baseline)  & 0.4902 & 0.0855 & --- \\
+    Two-stage              & 0.4848 & 0.0905 & --- \\
+    Two-stage + prosody    & 0.4333 & 0.1413 & --- \\
+    Hierarchical           & 0.4118 & 0.0368 & reported separately \\
+    Joint Pk/WD best       & 0.3713 & 0.0237 & --- \\
     \bottomrule
   \end{tabular}
 \end{table}
 
-The ablation in Table~\ref{tab:ablation} shows each component contributes
-positively. RWF (N2) provides the largest single gain, confirming that
-adaptive modality weighting is more effective than uniform fusion. The
-two-stage predictor (N1) yields consistent but smaller gains by reducing
-false-positive boundaries. Hierarchical output (N3) enables H-WD evaluation.
-LLM refinement (N4) provides marginal metric improvement but substantially
-improves title quality (assessed qualitatively).
+The ablation in Table~\ref{tab:ablation} shows that the project should be
+interpreted carefully: some auxiliary cues increase F1 while hurting Pk/WD, and
+the best Pk/WD result is a conservative boundary-selection variant. The main
+future direction is therefore candidate ranking rather than adding modalities
+blindly.
 
 \subsection{Error Analysis}
 
@@ -322,14 +338,17 @@ shows Physics and Humanities lectures are hardest, consistent with (1) and (3).
 % ----------
 \section{Conclusion}
 
-We presented \lecseg{}, the first open hierarchical multimodal pipeline for
-lecture-video topic segmentation. Across five evaluation metrics on the
-\dataset{} corpus, \lecseg{} outperforms all baselines with statistical
-significance. The reliability-weighted fusion module, which requires no
-training data and adapts to per-video modality noise, is the primary source
-of improvement. Future work will explore streaming inference for real-time
-captioning, cross-lingual transfer, and fine-tuning the LLM titler on
-domain-specific corpora.
+We presented \lecseg{}, a low-resource, reproducible benchmark and pipeline for
+lecture-video topic segmentation. On \dataset{}, conservative cross-model
+boundary selection significantly improves $P_k$ and WindowDiff over a stable
+BGE-divisive baseline. A leave-one-video-out method selector improves mean
+$P_k$ and significantly improves boundary-hit metrics, but its $P_k$ gain over
+the cross-model method is not statistically significant and WindowDiff worsens
+slightly. The main technical lesson is therefore not that multimodal fusion
+solves lecture segmentation outright, but that LECSEG exposes a measurable
+candidate-selection bottleneck. Future work should train sequence-aware
+boundary selectors on larger chaptering corpora and validate them on shared
+lecture benchmarks.
 
 % ----------
 \section*{Acknowledgements}

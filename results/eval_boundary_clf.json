@@ -1,0 +1,6 @@
+{
+  "macro_pk": 0.5803,
+  "macro_wd": 0.9933,
+  "method": "GradientBoosting_LOOCV",
+  "note": "massive over-prediction - classifier threshold needs tuning, not useful as-is"
+}

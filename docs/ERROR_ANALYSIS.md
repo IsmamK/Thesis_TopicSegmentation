@@ -1,101 +1,64 @@
-# 🔍 ERROR ANALYSIS
+# ERROR ANALYSIS
 
-**Built in T31. This file will be filled with per-error-type analysis from the
-experiment results. The template below defines the structure.**
+This file summarizes the main error patterns observed in the LECSEG runs. The
+current best Pk/WD method is conservative, so many errors are false negatives
+or near misses rather than obvious over-segmentation.
 
----
+## Error Taxonomy
 
-## Error taxonomy
-
-We classify boundary prediction errors into four types. For each type we
-report: frequency across folds, characteristic input conditions, and the
-module responsible.
-
-| ID | Error type | When it occurs | Module |
+| ID | Error type | When it occurs | Main cause |
 |---|---|---|---|
-| E1 | Boundary merge | Fast-paced lecture, dense slides, short subtopics | Boundary predictor |
-| E2 | Over-segmentation | Transition phrases ("So, moving on"), prosody false positives | Fusion + boundary |
-| E3 | OCR-failure cascade | Handwritten content, small fonts, non-English math | OCR + fusion |
-| E4 | LLM hallucination | Out-of-domain titles (rare disciplines), very short segments | Refinement |
+| E1 | Boundary merge | Several gold topics are merged | Conservative boundary selection and weak local contrast |
+| E2 | Over-segmentation | False boundary inside one topic | Transition phrases or noisy gap spikes |
+| E3 | Auxiliary signal mismatch | Shot/OCR/prosody does not align with semantic boundary | Flat slides, whiteboard use, noisy OCR, weak prosody |
+| E4 | Title drift | Generated title names an example instead of the concept | Local LLM lacks domain context |
 
----
+## E1 - Boundary Merge
 
-## E1 — Boundary merge (under-segmentation)
+The model merges adjacent gold segments when vocabulary remains similar across
+a conceptual transition. This is common in technical lectures where a definition,
+example, and derivation reuse the same terms. The best Pk/WD method intentionally
+predicts fewer boundaries, so E1 is the dominant failure mode.
 
-**Description:** Two or more ground-truth topics are merged into one predicted
-segment. The model fails to detect the transition.
+Mitigation: supervised candidate ranking with a high-recall candidate pool,
+followed by non-max suppression and minimum-duration constraints.
 
-**Frequency:** TODO — fill from `results/error_analysis/E1_*.json`
+## E2 - Over-Segmentation
 
-**Representative example:**
-```
-Gold:    [Intro (0–3 min)] | [Newton's Laws (3–12 min)] | [Friction (12–20 min)]
-Pred:    [Intro (0–3 min)] | [Mechanics (3–20 min)]
-```
+False boundaries occur when a speaker uses transition language inside a single
+topic, for example "now let us look deeper" before continuing the same concept.
+Prosody can amplify this by adding pause or pitch-reset signals.
 
-**Root cause:** Text embeddings for "Newton's Laws" and "Friction" are
-semantically adjacent (both mechanics sub-topics). The reliability score for
-the visual stream is low (chalkboard, poor OCR confidence), so the model
-relies mostly on text, which cannot separate the two.
+Mitigation: require agreement between semantic contrast and auxiliary cues, or
+calibrate auxiliary weights per video.
 
-**Mitigation tested:** Increase visual reliability weight for slide-rich
-lectures (ablation in Table TODO). Partial improvement.
+## E3 - Auxiliary Signal Mismatch
 
----
+Shot, OCR, and prosody features are available for all videos, but current
+ablations show they do not automatically improve Pk/WD. In slide-light or
+whiteboard-heavy lectures, visual changes are sparse. In dense technical
+lectures, OCR and transcript terms can remain stable across real topic changes.
 
-## E2 — Over-segmentation
+Mitigation: use auxiliary modalities as candidate features for a ranker, not as
+blind additive fusion terms.
 
-**Description:** A false boundary is inserted mid-topic.
+## E4 - Title Drift
 
-**Frequency:** TODO
+The local LLM can generate titles that summarize an example rather than the
+underlying concept. This mainly affects usability and presentation quality, not
+boundary metrics.
 
-**Representative example:**
-```
-Gold:    [Sorting algorithms (5–25 min)]
-Pred:    [Sorting intro (5–11 min)] | [Sorting details (11–25 min)]
-```
+Mitigation: constrain title prompts to prefer terms repeated in the segment and
+validate titles separately from boundary scores.
 
-**Root cause:** Transition phrase ("So, let's dig deeper") triggers prosody
-spike (pause + pitch reset). The model interprets it as a topic change.
+## Reproduction
 
-**Mitigation tested:** LLM refinement snaps the boundary away. Partially
-effective — LLM occasionally disagreed with human annotation.
+Primary files:
 
----
+- `results/error_analysis.json`
+- `results/eval_bge.json`
+- `results/eval_bgelarge_fine2.json`
+- `results/oracle_k_experiment.json`
 
-## E3 — OCR-failure cascade
-
-**Description:** PaddleOCR returns low-confidence or empty output on a
-handwritten chalkboard frame. The fusion module sets visual weight ≈ 0, but
-the reliability module still counts the video as "has visual stream",
-causing a misleading fusion vector.
-
-**Frequency:** TODO
-
-**Mitigation tested:** Hard-threshold: if OCR confidence < 0.3 for >60% of
-frames in a window, set visual weight = 0 explicitly. Reduces E3 by TODO%.
-
----
-
-## E4 — LLM hallucination
-
-**Description:** The local LLM generates a chapter title that is incorrect or
-generic ("Introduction", "Overview") for a segment whose topic requires domain
-knowledge the 8B model lacks.
-
-**Frequency:** TODO (low — affects titles, not boundaries)
-
-**Mitigation:** Title quality is evaluated separately as human preference
-score. It is not included in the five boundary metrics.
-
----
-
-## How to reproduce
-
-```
-python -m lecseg reproduce-all --error-analysis
-# Writes to results/error_analysis/
-python scripts/interpret.py results/error_analysis/
-```
-
-*Fill concrete numbers, examples, and mitigation results in T31.*
+The main conclusion is that boundary scoring/ranking, not segment-count
+selection, is the central bottleneck.
