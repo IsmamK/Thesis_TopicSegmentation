@@ -34,6 +34,6 @@ current project state made each decision operational.
 
 | Date | Decision | Alternatives | Reason | Owner |
 |---|---|---|---|---|
-| 2026-05-31 | Do not claim sub-0.30 Pk/WD | Overstate result | Current verified best is Pk 0.3715, WD 0.3766 | Team |
+| 2026-05-31 | Do not claim sub-0.30 Pk/WD | Overstate result | Current verified deployable selector is Pk 0.3588, WD 0.3739; diagnostic oracle is Pk 0.2980, WD 0.3280 but not deployable | Team |
 | 2026-05-31 | Keep public-release cleanup separate from research cleanup | Delete files immediately | Avoid accidental loss of user data; release package can exclude internal files | Team |
 | 2026-05-31 | Frame candidate ranking as future work | Keep random ablations | Oracle-k shows k-selection is not the bottleneck | Team |

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.8)  8 MAY 2026 17:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.5.8)  1 JUN 2026 23:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -671,8 +671,7 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count349
-)
-No file main.aux.
+) (main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
@@ -693,6 +692,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
 LaTeX Font Info:    ... okay on input line 59.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
 LaTeX Font Info:    ... okay on input line 59.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -780,6 +780,7 @@ Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count356
 Package hyperref Info: Link coloring OFF on input line 59.
+ (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -807,37 +808,37 @@ l.1 \chapter
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-1.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+6.
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-1.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+6.
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-21.
+16.
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-21.
+16.
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 21.
+(Font)              <12> on input line 16.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 21.
+(Font)              <8> on input line 16.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 21.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+(Font)              <6> on input line 16.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 16.
 
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -846,7 +847,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 16.
 
 
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -854,168 +855,274 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
-8.
+))
+(frontmatter/acknowledgements.tex [3
 
-(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{
+C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]) [4
+
+] (main.toc [5
+
+] [6])
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [7] (main.lof)
+\tf@lof=\write5
+\openout5 = `main.lof'.
+
+ [8
+
+]
+(main.lot
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+0.
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
+Overfull \hbox (73.08968pt too wide) in paragraph at lines 10--10
+ [][] [][]\T1/lmr/m/n/12 (-20) Inter-annotator agree-ment for hi-er-ar-chi-cal 
+an-no-ta-tions (\T1/lmtt/m/n/12 data/gt_hier/iaa_report.json\T1/lmr/m/n/12 (-20
+) , 
+ []
+
 )
-(frontmatter/acknowledgements.tex [3
-
-{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{
-C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]) [4
-
-]
-No file main.toc.
-\tf@toc=\write4
-\openout4 = `main.toc'.
-
-[5
-
-]
-No file main.lof.
-\tf@lof=\write5
-\openout5 = `main.lof'.
-
-[6
-
-]
-No file main.lot.
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
-[7
+ [9
 
 ] (chapters/chapter1_introduction.tex
 Chapter 1.
 [1
 
 
-]
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 41.
+{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
-
-LaTeX Warning: Reference `chap:literature' on page 1 undefined on input line 46
-.
-
-
-LaTeX Warning: Reference `chap:methodology' on page 1 undefined on input line 4
-7.
-
-
-LaTeX Warning: Reference `chap:results' on page 1 undefined on input line 48.
-
-
-LaTeX Warning: Reference `chap:conclusion' on page 1 undefined on input line 50
-.
-
-
-LaTeX Warning: Reference `chap:future' on page 1 undefined on input line 50.
-
-) (chapters/chapter2_literature.tex [2]
-Chapter 2.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
-.
-(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-
-Package natbib Warning: Citation `hearst1997_texttiling' on page 3 undefined on
- input line 14.
-
-
-Package natbib Warning: Citation `choi2000_c99' on page 3 undefined on input li
-ne 18.
-
-
-Package natbib Warning: Citation `reynar1998_dotplotting' on page 3 undefined o
-n input line 18.
-
-
-Package natbib Warning: Citation `reimers2019_sbert' on page 3 undefined on inp
-ut line 25.
-
-
-Package natbib Warning: Citation `koshorek2018_neural' on page 3 undefined on i
-nput line 29.
-
-
-Package natbib Warning: Citation `li2018_segbot' on page 3 undefined on input l
-ine 29.
-
-[3
-
-{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-
-Package natbib Warning: Citation `xing2024_topicseg' on page 4 undefined on inp
-ut line 35.
-
-) (chapters/chapter3_methodology.tex [4]
-Chapter 3.
 
 LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
-(Font)              using `T1/lmr/bx/n' instead on input line 4.
+(Font)              using `T1/lmr/bx/n' instead on input line 76.
 
-[5
 
-{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
- [6]) (chapters/chapter4_results.tex [7]
-Chapter 4.
+Overfull \hbox (5.08626pt too wide) in paragraph at lines 82--86
+[]\T1/lmr/bx/n/12 (-20) Boundary-selection anal-y-sis\T1/lmr/m/n/12 (-20) : Cro
+ss-model con-ser-va-tive se-lec-tion, method-portfolio
+ []
 
-Overfull \hbox (296.81253pt too wide) in paragraph at lines 20--36
+[2]) (chapters/chapter2_literature.tex [3]
+Chapter 2.
+[4
+
+] [5] [6] (tables/external_scale.tex
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+[]|\T1/lmr/m/n/12 (+20) large STEM
+ []
+
+
+Overfull \hbox (1.79694pt too wide) in paragraph at lines 14--14
+[]|\T1/lmr/m/n/12 (-20) AP/Recall/ROUGE| 
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 14--15
+[]|\T1/lmr/m/n/12 (+20) Supervised chap-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+[]|\T1/lmr/m/n/12 (+20) Large su-per-vised
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+[]|\T1/lmr/m/n/12 (+20) Large-scale video
+ []
+
+
+Overfull \hbox (16.97609pt too wide) in paragraph at lines 5--19
  [][] 
  []
 
-[8
-
-]) (chapters/chapter5_conclusion.tex [9]
-Chapter 5.
-) (chapters/chapter6_future_work.tex [10
-
-]
-Chapter 6.
-)
-No file main.bbl.
-(appendices/appendix_a_dataset.tex [11
-
-] [12]
-Appendix A.
-
-Overfull \hbox (11.59071pt too wide) in paragraph at lines 7--8
-\T1/lmr/bx/sc/12 (-20) strings. Gen-er-ated by \T1/lmtt/b/n/12 scripts/build_da
-taset_table.py \T1/lmr/bx/sc/12 (-20) from \T1/lmtt/b/n/12 data/manifest.csv\T1
-/lmr/bx/sc/12 (-20) .][] 
+) (tables/related_work_comparison.tex
+Underfull \hbox (badness 7047) in paragraph at lines 20--20
+[]|\T1/lmr/m/n/8 (+20) LECSEG bal-anced
  []
 
-) (appendices/appendix_b_hyperparameters.tex [13
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+[]|\T1/lmr/m/n/8 (+20) Pk=0.3588; WD=0.3739;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+[]|\T1/lmr/m/n/8 (+20) Supervised mul-ti-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+[]|\T1/lmr/m/n/8 (+20) Stronger lecture-video
+ []
+
+) (tables/low_resource_positioning.tex
+Underfull \hbox (badness 6725) in paragraph at lines 17--17
+[]|\T1/lmr/m/n/10.95 (+20) Large lecture-video rep-re-sen-ta-tion re-source;
+ []
+
+) [7]
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/10.95'.
+(microtype)             Ignoring protrusion settings for this character.
+) (chapters/chapter3_methodology.tex [8] [9]
+Chapter 3.
+[10
 
 ]
+Overfull \hbox (2.27507pt too wide) in paragraph at lines 78--85
+\T1/lmr/m/n/12 (-20) (\T1/lmtt/m/n/12 min_silence_duration_ms=500\T1/lmr/m/n/12
+ (-20) ) for speed, with \T1/lmtt/m/n/12 float16 \T1/lmr/m/n/12 (-20) com-pute 
+type. On the \T1/lmr/m/sc/12 (-20) LecSeg-
+ []
+
+[11]
+Overfull \hbox (44.99075pt too wide) in paragraph at lines 115--124
+\T1/lmr/m/n/12 (-20) Text em-bed-dings were com-puted with \T1/lmtt/m/n/12 sent
+ence-transformers \T1/lmr/m/n/12 (-20) [[]], us-ing the \T1/lmtt/m/n/12 all-mpn
+et-base-v2
+ []
+
+
+Overfull \hbox (11.65096pt too wide) in paragraph at lines 115--124
+\T1/lmr/m/n/12 (-20) sual keyframe em-bed-dings were com-puted with CLIP ViT-B/
+32 (512-dim, L2-normalised) [[]].
+ []
+
+[12{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.en
+c}] [13]) (chapters/chapter4_results.tex [14]
+Chapter 4.
+
+Overfull \hbox (64.40837pt too wide) in paragraph at lines 15--23
+\T1/lmr/m/n/12 (-20) (\T1/lmtt/m/n/12 cross_e5_frac70_minlen11__align_contains_
+before \T1/lmr/m/n/12 (-20) in \T1/lmtt/m/n/12 results/eval_alignment_sweep.jso
+n\T1/lmr/m/n/12 (-20) ).
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+[]\T1/lmr/m/n/12 (+20) Table 4.1: |Inter-annotator agree-ment for hi-er-ar-chi-
+cal an-no-ta-tions
+ []
+
+(tables/main_results.tex
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]|\T1/lmr/m/n/10.95 (+20) Stable bal-anced
+ []
+
+
+Underfull \hbox (badness 1776) in paragraph at lines 15--15
+\T1/lmr/m/n/10.95 (+20) se-lec-tor; sig-nif-i-cant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+\T1/lmr/m/n/10.95 (+20) Pk/WD gain vs
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[]|\T1/lmr/m/n/10.95 (+20) Diagnostic up-per
+ []
+
+
+Underfull \hbox (badness 1019) in paragraph at lines 15--15
+\T1/lmr/m/n/10.95 (+20) bound, not de-ploy-
+ []
+
+) [15
+
+] (tables/significance.tex
+Overfull \hbox (24.87721pt too wide) in paragraph at lines 5--23
+ [][] 
+ []
+
+) (tables/selector_operating_points.tex) (tables/selector_robustness.tex
+[16]) (tables/domain_performance.tex
+Overfull \hbox (37.24818pt too wide) in paragraph at lines 6--17
+ [][] 
+ []
+
+) (tables/selector_choice_audit.tex) (tables/selector_leave_domain_out.tex)
+[17]
+Overfull \hbox (15.82907pt too wide) in paragraph at lines 128--140
+ [][] 
+ []
+
+[18] [19]) (chapters/chapter5_conclusion.tex [20] [21]
+Chapter 5.
+[22
+
+]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
+9.
+ (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+[23{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+) (chapters/chapter6_future_work.tex [24]
+Chapter 6.
+[25
+
+]) [26] (main.bbl [27] [28
+
+]) (appendices/appendix_a_dataset.tex [29]
+Appendix A.
+[30
+
+]) (appendices/appendix_b_hyperparameters.tex [31]
 Appendix B.
 
-Overfull \hbox (24.43094pt too wide) in paragraph at lines 6--7
-[]\T1/lmr/bx/sc/12 (-20) [TODO: Ref-er-ence the Hy-dra YAML files in \T1/lmtt/b
-/n/12 configs/\T1/lmr/bx/sc/12 (-20) . Show \T1/lmtt/b/n/12 configs/defaults.ya
-ml
+Overfull \hbox (88.2832pt too wide) in paragraph at lines 4--8
+\T1/lmr/m/n/12 (-20) per-i-ment us-ing Hy-dra. Ev-ery eval-u-a-tion run records
+ its ex-act con-fig-u-ra-tion to \T1/lmtt/m/n/12 results/<run>/config.yaml\T1/l
+mr/m/n/12 (-20) ,
  []
 
-) (appendices/appendix_c_extra_results.tex [14
 
-]
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (appendices/appendix_c_extra_results.tex [32
+
+] [33]
 Appendix C.
-)
 
-Package natbib Warning: There were undefined citations.
+Overfull \hbox (48.37189pt too wide) in paragraph at lines 7--10
+\T1/lmr/m/n/12 (-20) Table []C.1[] re-ports the alignment-audited joint $\OML/l
+mm/m/it/12 P[]$\T1/lmr/m/n/12 (-20) /WindowDiff method, \T1/lmtt/m/n/12 cross_e
+5_frac70_minlen11\T1/lmr/m/n/12 (-20) ,
+ []
 
-[15
 
-] (main.aux)
+Overfull \hbox (77.92603pt too wide) in paragraph at lines 39--56
+ [][] 
+ []
+
+
+Overfull \hbox (87.39763pt too wide) in paragraph at lines 67--69
+[]\T1/lmr/m/n/12 (-20) Typical mid-range case: se-lect a video near the me-dian
+ $\OML/lmm/m/it/12 P[]$ \T1/lmr/m/n/12 (-20) from \T1/lmtt/m/n/12 results/eval_
+bgelarge_fine2.json\T1/lmr/m/n/12 (-20) . 
+ []
+
+) [34
+
+] [35] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1024,44 +1131,39 @@ L3 programming layer <2025-12-24>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  98491040BF7F0B4DFD1888C011CBE8A8;11628.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: B86FD8AA9E65A377FA47A65A2D226A9D;14049.
  ) 
 Here is how much of TeX's memory you used:
- 21327 strings out of 467871
- 357991 string characters out of 5418861
- 811418 words of memory out of 5000000
- 49616 multiletter control sequences out of 15000+600000
- 712175 words of font info for 164 fonts, out of 8000000 for 9000
+ 21890 strings out of 467871
+ 369028 string characters out of 5418861
+ 829464 words of memory out of 5000000
+ 49919 multiletter control sequences out of 15000+600000
+ 729163 words of font info for 232 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,12n,79p,1003b,595s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 69i,17n,79p,1003b,656s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb
-><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx8.pfb><
-C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><
+><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb
+><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb>
+<C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><
 C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C
 :/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/
-Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Us
-ers/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users
-/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/
-User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/U
-ser/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/Us
-er/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Users/Use
-r/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (24 pages, 281238 bytes).
+Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Us
+ers/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/User
+s/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/U
+ser/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/Us
+er/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/Use
+r/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/User
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Users/User/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/User/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/User/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb><C:/Users/User/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Use
+rs/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm1
+0.pfb>
+Output written on main.pdf (46 pages, 515264 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 100 named destinations out of 1000 (max. 500000)
- 50177 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 915 PDF objects out of 1000 (max. 8388607)
+ 196 named destinations out of 1000 (max. 500000)
+ 56961 words of extra memory for PDF output out of 61914 (max. 10000000)
 

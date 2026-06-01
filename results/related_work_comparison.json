@@ -1,0 +1,85 @@
+{
+  "rows": [
+    {
+      "work": "LECSEG-30 balanced selector (ours)",
+      "url": "",
+      "videos": "30",
+      "supervision": "Low-resource leave-one-video-out method selection over local candidates",
+      "metrics": "Pk, WD, BS, F1@2",
+      "reported_result": "Pk=0.3588, WD=0.3739, BS=0.0757, F1@2=0.0893",
+      "lecseg_position": "Reference result; significant Pk/WD gain vs BGE-divisive, not significant vs cross-model on Pk/WD."
+    },
+    {
+      "work": "LECSEG-30 cross-model conservative (ours)",
+      "url": "",
+      "videos": "30",
+      "supervision": "Unsupervised/conservative cross-model agreement",
+      "metrics": "Pk, WD, BS, F1@2",
+      "reported_result": "Pk=0.3713, WD=0.3764, BS=0.0362, F1@2=0.0237",
+      "lecseg_position": "Strongest statistically supported Pk/WD improvement over BGE-divisive baseline."
+    },
+    {
+      "work": "BGE-divisive baseline (ours)",
+      "url": "",
+      "videos": "30",
+      "supervision": "Unsupervised text-embedding divisive segmentation",
+      "metrics": "Pk, WD, BS, F1@2",
+      "reported_result": "Pk=0.3884, WD=0.3956, BS=0.1292, F1@2=0.0878",
+      "lecseg_position": "Implemented baseline used for local significance claims."
+    },
+    {
+      "work": "MiniSeg / YTSEG",
+      "url": "https://arxiv.org/abs/2402.17633",
+      "videos": "19,299",
+      "supervision": "Supervised smart-chaptering benchmark/model",
+      "metrics": "Boundary P/R/F1, Pk, BS",
+      "reported_result": "YTSEG MiniSeg: P=45.44, R=41.48, F1=43.37, Pk=28.73, BS=35.74.",
+      "lecseg_position": "External method is stronger on scale and Pk; LECSEG is stronger only as a small lecture-specific hierarchy/reproducibility artifact."
+    },
+    {
+      "work": "Chapter-Gen / multimodal video chapter generation",
+      "url": "https://arxiv.org/abs/2209.12694",
+      "videos": "9,631",
+      "supervision": "Supervised localization and title generation",
+      "metrics": "AP, Recall@3s/5s, ROUGE",
+      "reported_result": "Visual+text localization AP=43.3, Recall@3s=60.1, Recall@5s=76.1.",
+      "lecseg_position": "External method is stronger for supervised chapter localization; metrics differ from Pk/WD."
+    },
+    {
+      "work": "VidChapters-7M",
+      "url": "https://antoyang.github.io/vidchapters.html",
+      "videos": "817,000",
+      "supervision": "Large-scale video-language pretraining/finetuning benchmark",
+      "metrics": "SODA_c, CIDEr, METEOR, R/P@seconds and IoU",
+      "reported_result": "817K videos, 7M chapters; Vid2Seq speech+visual full generation SODA_c=11.4.",
+      "lecseg_position": "External benchmark is far stronger in scale; LECSEG is not comparable as a best-system claim."
+    },
+    {
+      "work": "Chapter-Llama",
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Ventura_Chapter-Llama_Efficient_Chaptering_in_Hour-Long_Videos_with_LLMs_CVPR_2025_paper.pdf",
+      "videos": "10,000 train / 8,100 test",
+      "supervision": "Trained long-context LLM chapterer",
+      "metrics": "Chapter F1, tIoU, SODA/CIDEr-style scores",
+      "reported_result": "VidChapters-7M test: Chapter-Llama F1=45.3 vs Vid2Seq F1=26.7.",
+      "lecseg_position": "External method is much stronger; motivates learned reranking rather than an external-best LECSEG claim."
+    },
+    {
+      "work": "TreeSeg / TinyRec",
+      "url": "https://arxiv.org/abs/2407.12028",
+      "videos": "21",
+      "supervision": "Unsupervised hierarchical transcript segmentation",
+      "metrics": "Pk, WD on transcript corpora",
+      "reported_result": "TinyRec Pk=0.367; ICSI Pk=0.310, WD=0.353; AMI Pk=0.355, WD=0.396.",
+      "lecseg_position": "Closest small unsupervised comparator; LECSEG is not a clean winner without a shared benchmark rerun."
+    },
+    {
+      "work": "AVLectures",
+      "url": "https://arxiv.org/abs/2210.16644",
+      "videos": "2,350+",
+      "supervision": "Self-supervised/audio-visual representation and clustering resource",
+      "metrics": "Task-specific lecture-understanding metrics",
+      "reported_result": "86 STEM courses and 2,350+ lectures for audio-visual academic video understanding.",
+      "lecseg_position": "Stronger lecture-video scale; LECSEG is stronger only for explicit Pk/WD chapter segmentation and hierarchy."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "claims": [
+    {
+      "claim": "LECSEG-30 is a compact lecture benchmark with hierarchical labels.",
+      "evidence": "data/manifest.jsonl, data/gt/, data/gt_hier/, data/gt_hier/iaa_report.json",
+      "status": "Supported",
+      "wording": "30 public lectures, 32.52 hours, 419 creator chapter boundaries, 904 reviewed subtopics, chapter kappa 0.5351."
+    },
+    {
+      "claim": "Cross-model conservative selection significantly improves Pk/WD over BGE-divisive.",
+      "evidence": "results/method_selector_significance.json::current_vs_baseline",
+      "status": "Supported",
+      "wording": "Pk improves from 0.3884 to 0.3713 (delta -0.0171, p=0.0064); WD improves from 0.3956 to 0.3764 (delta -0.0193, p=0.0001)."
+    },
+    {
+      "claim": "Balanced method selection gives the best deployable mean Pk/WD operating point.",
+      "evidence": "results/method_selector_significance.json, results/selector_operating_point_analysis.json",
+      "status": "Supported with caveat",
+      "wording": "Balanced selector reaches Pk=0.3588, WD=0.3739, BS=0.0757, F1@2=0.0893; its Pk/WD gains over cross-model are not significant."
+    },
+    {
+      "claim": "Balanced selector significantly improves Pk/WD over BGE-divisive.",
+      "evidence": "results/method_selector_significance.json::selector_vs_baseline",
+      "status": "Supported",
+      "wording": "Pk delta -0.0296, p=0.0252; WD delta -0.0217, p=0.0238."
+    },
+    {
+      "claim": "Balanced selector improves boundary-hit metrics over cross-model.",
+      "evidence": "results/method_selector_significance.json::selector_vs_current",
+      "status": "Supported",
+      "wording": "BS delta 0.0395, p=0.0076; F1@2 delta 0.0656, p=0.0076."
+    },
+    {
+      "claim": "The selector result is sensitive to method-pool size.",
+      "evidence": "results/selector_robustness_analysis.json",
+      "status": "Supported",
+      "wording": "Among tested balanced selector pools, k80 is best for Pk and WD; k120 worsens to Pk=0.3716, WD=0.3852."
+    },
+    {
+      "claim": "Selector gains are not uniform across academic domains.",
+      "evidence": "results/domain_performance_analysis.json",
+      "status": "Supported",
+      "wording": "Selector improves Pk over BGE-divisive in 4/5 domains; failure domains: Math."
+    },
+    {
+      "claim": "The selector is not domain-general under leave-one-domain-out evaluation.",
+      "evidence": "results/selector_leave_domain_out.json",
+      "status": "Supported negative result",
+      "wording": "Leave-domain-out selector drops to Pk=0.4012, WD=0.4103, worse than BGE-divisive and cross-model."
+    },
+    {
+      "claim": "Candidate/method selection remains the main bottleneck.",
+      "evidence": "results/method_portfolio_analysis.json, results/selector_choice_audit.json",
+      "status": "Supported diagnostic",
+      "wording": "Per-video oracle reaches Pk=0.2980, WD=0.3280; balanced selector switches on 30/30 videos but improves Pk over cross-model on only 9/30."
+    },
+    {
+      "claim": "LECSEG should not be presented as universal external best system.",
+      "evidence": "docs/RELATED_WORK_COMPARISON.md, results/selector_leave_domain_out.json",
+      "status": "Required caveat",
+      "wording": "Large supervised chaptering systems use far more data; LECSEG's contribution is a reproducible low-resource lecture benchmark and analysis artifact."
+    }
+  ]
+}

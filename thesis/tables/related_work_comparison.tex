@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.08}
+\caption{Detailed comparison with related lecture/video chaptering work. Metrics are not directly interchangeable across datasets.}
+\label{tab:related_work_detailed}
+\begin{tabularx}{\linewidth}{p{0.17\linewidth}p{0.10\linewidth}p{0.18\linewidth}X p{0.22\linewidth}}
+\toprule
+Work & Videos & Supervision & Metric/result & LECSEG verdict \\
+\midrule
+LECSEG balanced selector & 30 & LOO method selector & Pk=0.3588; WD=0.3739; F1@2=0.0893 & Reference low-resource result. \\
+MiniSeg/YTSEG & 19,299 & Supervised & Pk=28.73; BS=35.74; F1=43.37 & External method stronger on scale/Pk. \\
+Chapter-Gen & 9,631 & Supervised multimodal & AP=43.3; R@5s=76.1 & Stronger supervised localization. \\
+VidChapters-7M & 817,000 & Large-scale finetuned & 7M chapters; SODA\_c=11.4 & Far stronger scale. \\
+Chapter-Llama & 10k/8.1k & Trained LLM & F1=45.3 vs Vid2Seq 26.7 & Stronger trained chapterer. \\
+TreeSeg/TinyRec & 21 & Unsupervised & TinyRec Pk=0.367 & Closest small comparator; no shared-run win. \\
+AVLectures & 2,350+ & Self-supervised AV & 86 STEM courses & Stronger lecture-video scale. \\
+\bottomrule
+\end{tabularx}
+\end{table}

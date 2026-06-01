@@ -95,11 +95,21 @@ Do not cite these as official final results without explanation:
 # Thesis tables/figures
 .\.venv\Scripts\python.exe scripts/tables.py results/eval_bge.json
 .\.venv\Scripts\python.exe scripts/generate_thesis_result_tables.py
+.\.venv\Scripts\python.exe scripts/generate_related_work_comparison.py
+.\.venv\Scripts\python.exe scripts/generate_low_resource_positioning.py
 .\.venv\Scripts\python.exe scripts/selector_operating_point_analysis.py
+.\.venv\Scripts\python.exe scripts/selector_robustness_analysis.py
+.\.venv\Scripts\python.exe scripts/domain_performance_analysis.py
+.\.venv\Scripts\python.exe scripts/selector_choice_audit.py
+.\.venv\Scripts\python.exe scripts/selector_leave_domain_out.py
+.\.venv\Scripts\python.exe scripts/generate_defensible_claims.py
 .\.venv\Scripts\python.exe scripts/figures.py results/eval_bge.json --output figures/
 
 # Thesis claim validator
 .\.venv\Scripts\python.exe scripts/validate_thesis_claims.py
+
+# Final submission-readiness audit
+.\.venv\Scripts\python.exe scripts/submission_readiness_audit.py
 ```
 
 ## What Is Defensible

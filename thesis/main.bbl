@@ -1,0 +1,128 @@
+\begin{thebibliography}{22}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Beeferman et~al.(1999)Beeferman, Berger, and
+  Lafferty]{beeferman1999statistical}
+Doug Beeferman, Adam Berger, and John Lafferty.
+\newblock Statistical models for text segmentation.
+\newblock In \emph{Machine Learning}, volume~34, pages 177--210, 1999.
+
+\bibitem[Cao et~al.(2022)Cao, Yang, Weng, Zhang, Wang, and
+  Zou]{cao2022_chaptergen}
+Meng Cao, Tianyu Yang, Junwu Weng, Can Zhang, Jue Wang, and Yuexian Zou.
+\newblock Locating and describing video chapters, 2022.
+
+\bibitem[Choi(2000)]{choi2000latent}
+Freddy Y.~Y. Choi.
+\newblock Advances in domain independent linear text segmentation.
+\newblock In \emph{Proceedings of {NAACL}}, pages 26--33, 2000.
+
+\bibitem[Eisenstein and Barzilay(2008)]{eisenstein2008bayesian}
+Jacob Eisenstein and Regina Barzilay.
+\newblock Bayesian unsupervised topic segmentation.
+\newblock In \emph{Proceedings of {EMNLP}}, 2008.
+
+\bibitem[Fournier(2013)]{fournier2012}
+Chris Fournier.
+\newblock Evaluating text segmentation using boundary edit distance.
+\newblock In \emph{Proceedings of {ACL}}, 2013.
+
+\bibitem[Gklezakos et~al.(2024)]{gklezakos2024_treeseg}
+Dimitrios Gklezakos et~al.
+\newblock {TreeSeg}: Unsupervised topic segmentation through divisive
+  clustering, 2024.
+
+\bibitem[Hearst(1994)]{hearst1994multi}
+Marti~A. Hearst.
+\newblock Multi-paragraph segmentation of expository text.
+\newblock \emph{Proceedings of the 32nd Annual Meeting of the Association for
+  Computational Linguistics}, 1994.
+
+\bibitem[Jiang et~al.(2024)]{jiang2024mixtral}
+Albert~Q. Jiang et~al.
+\newblock Mixtral of experts, 2024.
+
+\bibitem[Koshorek et~al.(2018)Koshorek, Cohen, Mor, Rotman, and
+  Berant]{koshorek2018text}
+Omri Koshorek, Adir Cohen, Noam Mor, Michael Rotman, and Jonathan Berant.
+\newblock Text segmentation as a supervised learning task.
+\newblock In \emph{Proceedings of {NAACL}}, 2018.
+
+\bibitem[Li et~al.(2018)Li, Sun, and Joty]{li2018segbot}
+Jing Li, Aixin Sun, and Shafiq Joty.
+\newblock {SegBot}: A generic neural text segmentation model with pointer
+  network.
+\newblock In \emph{Proceedings of {IJCAI}}, 2018.
+
+\bibitem[Mann and Thompson(1988)]{mann1988rst}
+William~C. Mann and Sandra~A. Thompson.
+\newblock \emph{Rhetorical Structure Theory: Toward a functional theory of text
+  organization}.
+\newblock Text, 1988.
+
+\bibitem[Mauch and Dixon(2014)]{mauch2014pyin}
+Matthias Mauch and Simon Dixon.
+\newblock {pYIN}: A fundamental frequency estimator using probabilistic
+  threshold distributions.
+\newblock In \emph{Proceedings of the {IEEE} International Conference on
+  Acoustics, Speech and Signal Processing ({ICASSP})}, 2014.
+
+\bibitem[{Meta AI}(2024)]{meta2024llama3}
+{Meta AI}.
+\newblock The {Llama 3} herd of models, 2024.
+
+\bibitem[Pevzner and Hearst(2002)]{pevzner2002critique}
+Lev Pevzner and Marti~A. Hearst.
+\newblock A critique and improvement of an evaluation metric for text
+  segmentation.
+\newblock In \emph{Computational Linguistics}, volume~28, pages 19--36, 2002.
+
+\bibitem[Radford et~al.(2021)Radford, Kim, Hallacy, et~al.]{radford2021clip}
+Alec Radford, Jong~Wook Kim, Chris Hallacy, et~al.
+\newblock Learning transferable visual models from natural language
+  supervision.
+\newblock In \emph{Proceedings of {ICML}}, 2021.
+
+\bibitem[Radford et~al.(2022)Radford, Kim, Xu, Brockman, McLeavey, and
+  Sutskever]{radford2023robust}
+Alec Radford, Jong~Wook Kim, Tao Xu, Greg Brockman, Christine McLeavey, and
+  Ilya Sutskever.
+\newblock Robust speech recognition via large-scale weak supervision, 2022.
+
+\bibitem[Reimers and Gurevych(2019)]{reimers2019sbert}
+Nils Reimers and Iryna Gurevych.
+\newblock {Sentence-BERT}: Sentence embeddings using {Siamese} {BERT}-networks.
+\newblock In \emph{Proceedings of {EMNLP}}, 2019.
+
+\bibitem[Retkowski and Waibel(2024)]{retkowski2024_miniseg}
+Fabian Retkowski and Alexander Waibel.
+\newblock {MiniSeg}: A lightweight model for topic segmentation and smart
+  chaptering, 2024.
+
+\bibitem[Sou\v{c}ek and Loko\v{c}(2020)]{soucek2020transnet}
+Tom\'a\v{s} Sou\v{c}ek and Jakub Loko\v{c}.
+\newblock {TransNet V2}: An effective deep network architecture for fast shot
+  transition detection.
+\newblock In \emph{Proceedings of {ACM MM} (companion)}, 2020.
+
+\bibitem[Ventura et~al.(2025)]{ventura2025_chapterllama}
+Francesco Ventura et~al.
+\newblock {Chapter-Llama}: Efficient chaptering in hour-long videos with
+  {LLMs}, 2025.
+
+\bibitem[Yang et~al.(2023)Yang, Nagrani, Laptev, Schmid, and
+  Sivic]{yang2023_vidchapters}
+Antoine Yang, Arsha Nagrani, Ivan Laptev, Cordelia Schmid, and Josef Sivic.
+\newblock {VidChapters-7M}: Video chapters at scale, 2023.
+
+\bibitem[Yu et~al.(2024)Yu, Deng, Zhang, Liu, Chen, and
+  Wang]{yu2024_multimodal}
+Hai Yu, Chong Deng, Qinglin Zhang, Jiaqing Liu, Qian Chen, and Wen Wang.
+\newblock Multimodal lecture video topic segmentation with cross-modal
+  coherence modelling, 2024.
+
+\end{thebibliography}

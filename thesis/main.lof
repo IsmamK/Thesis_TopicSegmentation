@@ -2,7 +2,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces The \textsc {LecSeg}{} pipeline. Inputs are a video and its audio. Outputs are an ordered hierarchy of chapter and subtopic segments with titles.}}{6}{figure.caption.7}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The \textsc {LecSeg}{} pipeline. Inputs: a video file and its audio. Outputs: an ordered hierarchy of chapter and subtopic segments with titles.}}{11}{figure.caption.11}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

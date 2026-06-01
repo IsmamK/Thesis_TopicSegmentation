@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Low-resource scale positioning. Ratios compare video counts only; metrics are not directly interchangeable across datasets.}
+\label{tab:low_resource_positioning}
+\begin{tabularx}{\linewidth}{lrrX}
+\toprule
+Work & Videos & Scale & Interpretation \\
+\midrule
+TreeSeg / TinyRec & 21 & 0.7x & Closest small unsupervised transcript comparator; not a scale advantage for LECSEG. \\
+Chapter-Gen & 9,631 & 321.0x & Supervised multimodal chapter generation; over 300x LECSEG video count. \\
+MiniSeg / YTSEG & 19,299 & 643.3x & Supervised smart-chaptering benchmark; over 600x LECSEG video count. \\
+AVLectures & 2,350 & 78.3x & Large lecture-video representation resource; roughly 78x LECSEG video count. \\
+VidChapters-7M & 817,000 & 27,233.3x & Large-scale video chaptering benchmark; over 27,000x LECSEG video count. \\
+Chapter-Llama & 10,000 & 333.3x & Trained on about 10k videos and evaluated on 8.1k test videos. \\
+\bottomrule
+\end{tabularx}
+\end{table}

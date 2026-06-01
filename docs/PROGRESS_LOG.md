@@ -5,6 +5,25 @@ Append new entries at the bottom. Format: `## [YYYY-MM-DD HH:MM] — <headline>`
 
 ---
 
+## [2026-06-01 23:23] — Supervisor summary email drafted
+
+### What was done
+- Reviewed current project guide, contribution reference, thesis result tables, final model audit, selector audit, domain analysis, selector robustness, defensible-claims ledger, and low-resource positioning notes.
+- Prepared a supervisor-facing email that summarizes the LECSEG project context, dataset, approach sequence, metrics, results, improvements, regressions, caveats, repository navigation guide, and why the work is currently submittable and defensible.
+
+### Results
+- Email draft uses the current official numbers:
+  - BGE-divisive baseline: Pk=0.3884, WD=0.3956, BS=0.1292, F1@2=0.0878.
+  - Cross-model conservative method: Pk=0.3713, WD=0.3764, BS=0.0362, F1@2=0.0237.
+  - Balanced ExtraTrees leave-one-video-out selector: Pk=0.3588, WD=0.3739, BS=0.0757, F1@2=0.0893.
+  - Per-video oracle diagnostic: Pk=0.2980, WD=0.3280, BS=0.1366, F1@2=0.1676.
+- Included important caveats: exact-boundary F1 remains low, selector gains over cross-model are not statistically significant for Pk/WD, selector is not domain-general, and LECSEG should not be framed as universal external state of the art.
+
+### Observations
+- The strongest supervisor-facing framing is that LECSEG is a reproducible low-resource lecture segmentation benchmark and pipeline with statistically supported Pk/WD gains over a strong baseline, plus honest negative results and clear remaining research questions.
+
+---
+
 ## [2026-01-31] — Repo initialised
 
 - Initial commit, project scaffolded.
@@ -1323,6 +1342,253 @@ Saved: results/eval_boundary_clf.json
 
 ---
 
+## [2026-06-01 22:42] — Status and verdict summary
+
+### What was done
+- Reviewed the current progress log and selector operating-point artifact to summarize the work completed so far.
+
+### Results
+- Current strongest deployable operating point remains the stable balanced selector:
+  - Pk=0.3588
+  - WD=0.3739
+  - BS=0.0757
+  - F1@2=0.0893
+- Current best diagnostic upper bound remains the per-video method oracle:
+  - Pk=0.2980
+  - WD=0.3280
+  - BS=0.1366
+  - F1@2=0.1676
+
+### Observations
+- Verdict is unchanged: LECSEG is now defensible as a reproducible low-resource lecture segmentation benchmark/pipeline with statistically supported local gains and strong candidate-selection analysis, but it should not be claimed as universal external SOTA.
+
+---
+
+## [2026-06-01 22:44] — Current-source stale-claim cleanup
+
+### What was done
+- Scanned thesis, paper, docs, and scripts for stale selector values and overclaim wording.
+- Replaced negative shorthand `SOTA` wording in current thesis/paper source with clearer `external best-system` wording:
+  - `thesis/chapters/chapter4_results.tex`
+  - `thesis/chapters/chapter5_conclusion.tex`
+  - `paper/ieee.tex`
+- Updated `docs/DECISION_LOG.md` so the sub-0.30 decision reflects the current stable selector and diagnostic oracle:
+  - deployable selector: Pk=0.3588, WD=0.3739
+  - diagnostic oracle: Pk=0.2980, WD=0.3280
+
+### Results
+- Current thesis/paper source scan found no matches for stale selector values:
+  - `0.3663`
+  - `0.3821`
+  - `0.0916`
+  - `0.0747`
+- Current thesis/paper source scan found no matches for:
+  - `external SOTA`
+  - `universal SOTA`
+  - `SOTA claim`
+  - `state-of-the-art`
+  - `outperforms all`
+  - `sub-0.30`
+  - `55 hours`
+  - `329 chapters`
+- Claim validation passed: 61 checks passed, 0 failed.
+- Python compile check passed for validator, selector operating-point, selector, significance, and table-generation scripts.
+- Full test suite passed: 185 tests in 22.77 seconds.
+
+### Observations
+- Old selector values remain only in historical `docs/PROGRESS_LOG.md` entries, where they document earlier superseded results.
+- The active thesis/paper claim surface is now aligned with the stable balanced selector result and avoids ambiguous best-system language.
+
+---
+
+## [2026-06-01 22:49] — Balanced selector top-k robustness analysis
+
+### What was done
+- Reran the stable balanced ExtraTrees method selector at additional method-pool sizes:
+  - top-k=30
+  - top-k=50
+  - top-k=120
+- Added `scripts/selector_robustness_analysis.py`.
+- Generated:
+  - `results/selector_robustness_analysis.json`
+  - `docs/SELECTOR_ROBUSTNESS.md`
+  - `thesis/tables/selector_robustness.tex`
+- Integrated the robustness table into `thesis/chapters/chapter4_results.tex`.
+- Extended `scripts/validate_thesis_claims.py` so selector robustness artifacts are checked automatically.
+
+### Results
+- Balanced selector robustness:
+  - k30: Pk=0.3729, WD=0.3780, BS=0.0317, F1@2=0.0226.
+  - k50: Pk=0.3634, WD=0.3760, BS=0.0495, F1@2=0.0608.
+  - k80: Pk=0.3588, WD=0.3739, BS=0.0757, F1@2=0.0893.
+  - k120: Pk=0.3716, WD=0.3852, BS=0.0774, F1@2=0.0929.
+- Best Pk setting: k80.
+- Best WD setting: k80.
+- Best balanced Pk/WD setting: k80.
+- Claim validation passed with expanded checks: 67 passed, 0 failed.
+- Python compile check passed for selector robustness, validator, and method selector scripts.
+- Full test suite passed: 185 tests in 22.93 seconds.
+
+### Observations
+- The selector result is not monotonic in candidate method-pool size.
+- A small method pool gives too little room to improve over the global cross-model method; an overly large pool adds unstable candidate methods.
+- This supports presenting k80 as the current reproducible operating point rather than an arbitrary cherry-picked single run.
+
+---
+
+## [2026-06-01 22:52] — Domain-level performance analysis
+
+### What was done
+- Added `scripts/domain_performance_analysis.py` to aggregate baseline, cross-model, and balanced-selector metrics by academic domain.
+- Generated:
+  - `results/domain_performance_analysis.json`
+  - `docs/DOMAIN_PERFORMANCE.md`
+  - `thesis/tables/domain_performance.tex`
+- Integrated the domain-level table into `thesis/chapters/chapter4_results.tex`.
+- Extended `scripts/validate_thesis_claims.py` so domain-performance markdown and LaTeX artifacts are checked automatically.
+
+### Results
+- Domain-level selector results:
+  - Biology: Pk=0.3976, WD=0.4152.
+  - CS: Pk=0.3314, WD=0.3357.
+  - Math: Pk=0.4014, WD=0.4367.
+  - Philosophy: Pk=0.3753, WD=0.3893.
+  - Physics: Pk=0.3144, WD=0.3276.
+- Selector improves Pk over BGE-divisive in 4/5 domains.
+- Selector improves WD over BGE-divisive in 4/5 domains.
+- Selector improves Pk over the cross-model method in 2/5 domains.
+- Selector improves WD over the cross-model method in 2/5 domains.
+- Best selector domain by Pk: Physics (0.3144).
+- Worst selector domain by Pk: Math (0.4014).
+- Claim validation passed with expanded checks: 74 passed, 0 failed.
+- Python compile check passed for domain-performance and validator scripts.
+- Full test suite passed: 185 tests in 17.16 seconds.
+
+### Observations
+- The domain analysis strengthens the thesis by making performance variation explicit instead of hiding it behind the overall mean.
+- The selector result is broadly useful versus the BGE-divisive baseline, but Math is a clear failure case where the selector worsens both Pk and WD.
+- This gives a concrete limitation and future-work target: the selector needs stronger domain-aware evidence or more data for small/heterogeneous domains.
+
+---
+
+## [2026-06-01 22:55] — Per-video selector choice audit
+
+### What was done
+- Added `scripts/selector_choice_audit.py` to inspect which methods the balanced selector chooses for each held-out video.
+- Generated:
+  - `results/selector_choice_audit.json`
+  - `docs/SELECTOR_CHOICE_AUDIT.md`
+  - `thesis/tables/selector_choice_audit.tex`
+- Integrated the selector choice audit table into `thesis/chapters/chapter4_results.tex`.
+- Extended `scripts/validate_thesis_claims.py` so selector-choice artifacts are checked automatically.
+
+### Results
+- The balanced selector switches away from the cross-model method on 30/30 videos.
+- It improves Pk over BGE-divisive in 19/30 videos.
+- It improves Pk over the cross-model method in 9/30 videos.
+- It improves F1@2 over the cross-model method in 10/30 videos.
+- Chosen method families:
+  - cross-e5: 14 videos.
+  - multimodal-grid: 12 videos.
+  - cross-rank: 3 videos.
+  - divisive: 1 video.
+- Largest Pk gains vs cross-model:
+  - `Hy7ou5R_vjE` (Physics): delta Pk=-0.1542.
+  - `YdOXS_9_P4U` (Physics): delta Pk=-0.1261.
+  - `NK-BxowMIfg` (Physics): delta Pk=-0.0861.
+- Largest Pk regressions vs cross-model:
+  - `j0wJBEZdwLs` (Math): delta Pk=+0.0754.
+  - `oOya3cFmAMc` (Biology): delta Pk=+0.0529.
+  - `D8RRq3TbtHU` (CS): delta Pk=+0.0119.
+- Claim validation passed with expanded checks: 82 passed, 0 failed.
+- Python compile check passed for selector-choice audit and validator scripts.
+- Full test suite passed: 185 tests in 17.10 seconds.
+
+### Observations
+- This audit explains why the selector improves mean Pk/WD but is not uniformly safer than the cross-model method.
+- The selector is aggressive: it changes the method on every video, often to multimodal-grid variants.
+- The largest gains are concentrated in Physics; the largest regressions include Math and Biology, which supports the domain-level limitation already added to Chapter 4.
+
+---
+
+## [2026-06-01 22:59] — Leave-one-domain-out selector diagnostic
+
+### What was done
+- Added `scripts/selector_leave_domain_out.py` to evaluate the method selector under a stricter split where the entire held-out academic domain is excluded from training.
+- Generated:
+  - `results/selector_leave_domain_out.json`
+  - `docs/SELECTOR_LEAVE_DOMAIN_OUT.md`
+  - `thesis/tables/selector_leave_domain_out.tex`
+- Integrated the leave-one-domain-out diagnostic table into `thesis/chapters/chapter4_results.tex`.
+- Extended `scripts/validate_thesis_claims.py` so leave-domain-out artifacts are checked automatically.
+
+### Results
+- Overall leave-domain-out selector:
+  - Pk=0.4012
+  - WD=0.4103
+  - BS=0.0465
+  - F1@2=0.0498
+- Comparison:
+  - BGE-divisive baseline: Pk=0.3884, WD=0.3956, BS=0.1292, F1@2=0.0878.
+  - Cross-model conservative: Pk=0.3713, WD=0.3764, BS=0.0362, F1@2=0.0237.
+- Held-out domain selector Pk/WD:
+  - Biology: Pk=0.3986, WD=0.4026.
+  - CS: Pk=0.3413, WD=0.3480.
+  - Math: Pk=0.3984, WD=0.4170.
+  - Philosophy: Pk=0.4110, WD=0.4221.
+  - Physics: Pk=0.4566, WD=0.4652.
+- Claim validation passed with expanded checks: 86 passed, 0 failed.
+- Python compile check passed for leave-domain-out selector and validator scripts.
+- Full test suite passed: 185 tests in 17.26 seconds.
+
+### Observations
+- This is an important negative result: the selector collapses when an entire academic domain is held out.
+- The leave-one-video-out selector result should be described as a low-resource benchmark operating point that benefits from related-domain examples, not as a domain-general deployment model.
+- This strengthens the thesis by making the selector's generalization boundary explicit and defensible.
+
+---
+
+## [2026-06-01 23:02] — Defensible claims ledger
+
+### What was done
+- Added `scripts/generate_defensible_claims.py` to generate a claim-to-evidence ledger from current result artifacts.
+- Generated:
+  - `docs/DEFENSIBLE_CLAIMS.md`
+  - `results/defensible_claims.json`
+- Updated `docs/PROJECT_GUIDE.md` so the full analysis workflow includes:
+  - selector operating-point analysis
+  - selector robustness analysis
+  - domain performance analysis
+  - selector choice audit
+  - leave-one-domain-out selector diagnostic
+  - defensible claim ledger generation
+- Extended `scripts/validate_thesis_claims.py` so the defensible-claims ledger is checked automatically.
+
+### Results
+- Generated 10 defensible claims with evidence pointers and safe wording.
+- Key supported claims in the ledger:
+  - LECSEG-30 is a compact 30-video lecture benchmark with hierarchical labels.
+  - Cross-model conservative selection significantly improves Pk/WD over BGE-divisive.
+  - Balanced selector reaches Pk=0.3588, WD=0.3739, BS=0.0757, F1@2=0.0893.
+  - Balanced selector significantly improves Pk/WD over BGE-divisive.
+  - Selector gains are not uniform across domains.
+  - Leave-domain-out selector drops to Pk=0.4012, WD=0.4103.
+  - Per-video oracle reaches Pk=0.2980, WD=0.3280.
+- Explicit non-claims added:
+  - Do not claim universal external best-system performance.
+  - Do not claim sub-0.30 deployable Pk/WD.
+  - Do not claim the selector is domain-general.
+  - Do not claim every modality improves segmentation.
+- Claim validation passed with expanded checks: 92 passed, 0 failed.
+- Python compile check passed for defensible-claims and validator scripts.
+- Full test suite passed: 185 tests in 17.07 seconds.
+
+### Observations
+- The claim ledger gives the thesis a single source of truth for what can and cannot be said.
+- This reduces risk of accidental overclaiming while making the positive contribution easier to defend.
+
+---
+
 ## [2026-06-01 12:31] — Paper/thesis citation hygiene and claim validation
 
 ### What was done
@@ -1345,3 +1611,206 @@ Saved: results/eval_boundary_clf.json
 ### Observations
 - This pass improves submission defensibility by removing obvious citation-quality attack points.
 - The evidence position remains unchanged: LECSEG should be framed as a reproducible low-resource lecture-segmentation benchmark/pipeline with statistically supported local Pk/WD gains, not as a universal external SOTA model.
+## [2026-06-01 23:04] — Status checkpoint: current LECSEG result and verdict
+
+### What was done
+- Summarized the current state of the thesis work after the latest selector, robustness, domain, choice-audit, leave-domain-out, and claim-validation passes.
+- No new evaluation was run in this checkpoint; this entry records the current verified results and interpretation.
+
+### Results
+- Best deployable balanced selector: Pk=0.3588, WD=0.3739, BS=0.0757, F1@2=0.0893.
+- Strongest conservative cross-model baseline: Pk=0.3713, WD=0.3764, BS=0.0362, F1@2=0.0237.
+- BGE-divisive baseline: Pk=0.3884, WD=0.3956, BS=0.1292, F1@2=0.0878.
+- Per-video method oracle, diagnostic only: Pk=0.2980, WD=0.3280, BS=0.1366, F1@2=0.1676.
+- Selector is statistically better than BGE on Pk/WD, but not statistically better than the conservative cross-model method on Pk/WD.
+- Selector is significantly better than the conservative cross-model method on BS and F1@2.
+
+### Observations
+- Verdict: the work is defensible as a reproducible lecture segmentation benchmark/pipeline with statistically supported local gains, multimodal/error analysis, and oracle evidence that candidate selection is the bottleneck.
+- It should not be claimed as universal external SOTA or as better than every prior paper.
+- The strongest honest claim is low-resource, reproducible, lecture-specific evidence with clear limitations and strong diagnostics.
+
+---
+
+## [2026-06-01 23:07] — Paper-facing selector caveat alignment
+
+### What was done
+- Updated `paper/ieee.tex` so the selector table and conclusion match the current verified evidence.
+- Fixed the selector table caption: the balanced selector improves mean Pk, WD, and F1@2 over the cross-model method, but Pk/WD gains over that method are not statistically significant.
+- Removed the stale double-bold WindowDiff value in the selector table.
+- Added the leave-one-domain-out limitation to the IEEE results narrative.
+- Corrected the error-analysis domain sentence: Mathematics and Biology are hardest for the balanced selector; Physics and Computer Science are stronger.
+- Updated `docs/FINAL_MODEL_AUDIT.md` and `docs/CONTRIBUTIONS_REFERENCE.md` to include the same domain-generalization caveat.
+
+### Results
+- Claim validation passed: 92 passed, 0 failed.
+- Python compile check passed for:
+  - `scripts/validate_thesis_claims.py`
+  - `scripts/generate_defensible_claims.py`
+  - `scripts/selector_operating_point_analysis.py`
+  - `scripts/selector_robustness_analysis.py`
+  - `scripts/domain_performance_analysis.py`
+  - `scripts/selector_choice_audit.py`
+  - `scripts/selector_leave_domain_out.py`
+- Full test suite passed: 185 tests in 17.31 seconds.
+- Stale-claim scan found no remaining matches for:
+  - `WindowDiff worsens`
+  - `trades off WindowDiff`
+  - `Physics and Humanities`
+  - `Humanities lectures are hardest`
+  - `external SOTA`
+  - `beat every`
+
+### Observations
+- The paper now states the strongest result without implying a domain-general selector.
+- This makes the submission more defensible because the negative leave-domain-out result is incorporated into the claim boundary instead of being hidden in supplementary artifacts.
+
+---
+
+## [2026-06-01 23:12] — Generated detailed related-work comparison artifact
+
+### What was done
+- Added `scripts/generate_related_work_comparison.py` to generate a reproducible related-work comparison from one source of truth.
+- Generated:
+  - `results/related_work_comparison.json`
+  - `docs/RELATED_WORK_COMPARISON.md`
+  - `thesis/tables/related_work_comparison.tex`
+- Integrated the detailed comparison table into `thesis/chapters/chapter2_literature.tex`.
+- Updated `docs/PROJECT_GUIDE.md` so the related-work comparison generator is part of the thesis reproduction workflow.
+- Extended `scripts/validate_thesis_claims.py` so the related-work comparison checks current LECSEG numbers, external video counts, reported metrics, source links, and safe verdict wording.
+
+### Results
+- The generated comparison now includes:
+  - LECSEG-30 balanced selector: 30 videos, Pk=0.3588, WD=0.3739, BS=0.0757, F1@2=0.0893.
+  - LECSEG-30 cross-model conservative: 30 videos, Pk=0.3713, WD=0.3764, BS=0.0362, F1@2=0.0237.
+  - BGE-divisive baseline: 30 videos, Pk=0.3884, WD=0.3956, BS=0.1292, F1@2=0.0878.
+  - MiniSeg/YTSEG: 19,299 videos, YTSEG MiniSeg Pk=28.73 and BS=35.74.
+  - Chapter-Gen: 9,631 videos, visual+text AP=43.3 and Recall@5s=76.1.
+  - VidChapters-7M: 817,000 videos and 7M chapters, Vid2Seq speech+visual SODA_c=11.4.
+  - Chapter-Llama: 10,000 training videos and 8,100 test videos, F1=45.3 vs Vid2Seq F1=26.7.
+  - TreeSeg/TinyRec: 21 videos, TinyRec Pk=0.367.
+  - AVLectures: 2,350+ lectures across 86 STEM courses.
+- Claim validation passed with expanded checks: 104 passed, 0 failed.
+- Python compile check passed for `scripts/generate_related_work_comparison.py` and `scripts/validate_thesis_claims.py`.
+- Full test suite passed: 185 tests in 18.04 seconds.
+- Stale/overclaim scan over the new related-work artifacts found no matches for:
+  - `state-of-the-art`
+  - `outperforms all`
+  - `sub-0.30`
+  - `better than every`
+  - `SOTA`
+  - stale values `0.3715` and `0.3766`
+
+### Observations
+- The comparison artifact strengthens the paper by making the external positioning concrete: LECSEG is low-resource and lecture-specific, while large supervised chaptering systems remain stronger on scale and external benchmark performance.
+- This supports the defensible claim that LECSEG is valuable as a reproducible benchmark/pipeline and analysis artifact, not as a universal best-system result.
+
+---
+
+## [2026-06-01 23:16] — Related-work table compile and citation hardening
+
+### What was done
+- Audited the generated related-work comparison table in the actual thesis build.
+- Found that the first detailed LaTeX version compiled but produced oversized-table and longtable page-splitting warnings.
+- Reworked `scripts/generate_related_work_comparison.py` so the Markdown/JSON artifact remains detailed while the thesis-facing LaTeX table is compact and page-safe.
+- Compacted the generated `external_scale` LaTeX table in `scripts/generate_thesis_result_tables.py`.
+- Regenerated:
+  - `docs/RELATED_WORK_COMPARISON.md`
+  - `results/related_work_comparison.json`
+  - `thesis/tables/related_work_comparison.tex`
+  - `docs/THESIS_RESULT_TABLES.md`
+  - `thesis/tables/external_scale.tex`
+- Fixed two stale thesis cross-references in `thesis/chapters/chapter3_methodology.tex`:
+  - `sec:results_iaa` -> `sec:dataset_status`
+  - `app:extra_results` -> `app:extra`
+
+### Results
+- `pdflatex` build of `thesis/main.tex` completed successfully and produced `thesis/main.pdf` with 45 pages.
+- `bibtex main` completed successfully; only one existing bibliography warning remains about `pevzner2002critique` using both volume and number fields.
+- Final targeted LaTeX log scan found no matches for:
+  - `LaTeX Error`
+  - `Fatal error`
+  - `Emergency stop`
+  - `Undefined control sequence`
+  - `undefined citations`
+  - `undefined references`
+  - `Float too large`
+  - `Infinite glue`
+  - `No file main.bbl`
+- Claim validation passed: 104 passed, 0 failed.
+- Python compile check passed for:
+  - `scripts/generate_related_work_comparison.py`
+  - `scripts/generate_thesis_result_tables.py`
+  - `scripts/validate_thesis_claims.py`
+- Full test suite passed: 185 tests in 18.64 seconds.
+
+### Observations
+- The detailed related-work evidence is now available in Markdown/JSON, while the thesis receives a compact table that compiles cleanly.
+- This improves paper defensibility and presentation quality without weakening the caveat that LECSEG is not an external best-system claim.
+
+---
+
+## [2026-06-01 23:19] — Low-resource scale-positioning evidence
+
+### What was done
+- Added `scripts/generate_low_resource_positioning.py` to quantify how much larger related chaptering/video-lecture systems are than LECSEG-30.
+- Generated:
+  - `results/low_resource_positioning.json`
+  - `docs/LOW_RESOURCE_POSITIONING.md`
+  - `thesis/tables/low_resource_positioning.tex`
+- Integrated the low-resource scale table into `thesis/chapters/chapter2_literature.tex`.
+- Added low-resource positioning wording to `thesis/chapters/chapter5_conclusion.tex`.
+- Updated `docs/PROJECT_GUIDE.md` with the new generator command.
+- Extended `scripts/validate_thesis_claims.py` to check the new ratio artifact.
+
+### Results
+- Scale ratios versus LECSEG-30:
+  - Chapter-Gen: 9,631 videos, 321.0x LECSEG-30.
+  - MiniSeg/YTSEG: 19,299 videos, 643.3x LECSEG-30.
+  - AVLectures: 2,350 lectures, 78.3x LECSEG-30.
+  - VidChapters-7M: 817,000 videos, 27,233.3x LECSEG-30.
+  - Chapter-Llama: about 10,000 training videos, 333.3x LECSEG-30 by training-video count.
+  - TreeSeg/TinyRec: 21 videos, 0.7x LECSEG-30; included as the closest small unsupervised comparator, not as a scale contrast.
+- Claim validation passed with expanded checks: 112 passed, 0 failed.
+- Python compile check passed for:
+  - `scripts/generate_low_resource_positioning.py`
+  - `scripts/validate_thesis_claims.py`
+- Thesis `pdflatex` build completed successfully and produced `thesis/main.pdf` with 46 pages.
+- Final targeted LaTeX log scan found no matches for:
+  - `LaTeX Error`
+  - `Fatal error`
+  - `Emergency stop`
+  - `Undefined control sequence`
+  - `undefined citations`
+  - `undefined references`
+  - `Float too large`
+  - `Infinite glue`
+  - `No file main.bbl`
+- Full test suite passed: 185 tests in 18.65 seconds.
+
+### Observations
+- The thesis can now safely say LECSEG operates at a tiny fraction of the data scale used by large supervised chaptering systems.
+- The artifact explicitly prevents converting that into an external performance claim: it supports low-resource reproducibility and analysis value, not universal best-system performance.
+
+---
+## [2026-06-01 23:24] — Submission readiness audit added and verified
+
+Added `scripts/submission_readiness_audit.py` to generate a final machine-checkable thesis readiness report at `docs/SUBMISSION_READINESS.md` and `results/submission_readiness_audit.json`. The audit checks core result artifacts, selector diagnostics, external positioning artifacts, claim-discipline documents, rendered thesis evidence, LaTeX hard-error patterns, and safe claim framing. Wired the audit into `docs/PROJECT_GUIDE.md` and extended `scripts/validate_thesis_claims.py` so the generated readiness artifacts are enforced by the standalone validator after creation.
+
+Results:
+- `python scripts/submission_readiness_audit.py`: pass, 42 passed, 0 failed.
+- `python scripts/validate_thesis_claims.py`: pass, 119 passed, 0 failed.
+- `python -m py_compile scripts/submission_readiness_audit.py scripts/validate_thesis_claims.py`: pass.
+- `python -m pytest tests/ -q`: 185 passed in 24.38s.
+- LaTeX hard-error scan over `thesis/main.log`: no matches for LaTeX errors, fatal errors, emergency stops, undefined control sequences, undefined citations/references, float-too-large, infinite glue, or missing `main.bbl`.
+
+Observation: the current repository is submission-ready for the defensible claim boundary: LECSEG is a reproducible low-resource lecture segmentation benchmark/pipeline with statistically supported local Pk/WD gains over implemented baselines and explicit evidence that candidate selection remains the bottleneck. It is still not defensible to claim external SOTA or superiority over large supervised systems on their benchmarks.
+## [2026-06-01 23:25] — Defense audit aligned to final claim boundary
+
+Updated `docs/FINAL_MODEL_AUDIT.md` with a direct submission-readiness section pointing to `docs/SUBMISSION_READINESS.md` and restating the safe claim boundary in defense-friendly language. This makes the thesis easier to defend without relying on memory or stale framing.
+
+Results:
+- `python scripts/validate_thesis_claims.py`: pass, 119 passed, 0 failed.
+- `Select-String` verification confirms the new `Submission Readiness` section is present and explicitly says LECSEG is not defensible as external SOTA.
+
+Observation: the final defense materials now point directly to the machine-checked claim boundary, which reduces the risk of accidental overclaiming during the viva or supervisor review.

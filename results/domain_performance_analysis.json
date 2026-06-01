@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "selector_file": "results\\method_selector_experiment_trainrank_balanced.json",
+    "selector_name": "extra",
+    "baseline_method": "divisive",
+    "current_method": "cross_e5_frac70_minlen11__align_contains_before",
+    "n_domains": 5,
+    "n_videos": 30
+  },
+  "rows": [
+    {
+      "domain": "BIOLOGY",
+      "n_videos": 6,
+      "n_chapters": 94,
+      "baseline": {
+        "pk": 0.4217735956686159,
+        "wd": 0.42920548773299433,
+        "boundary_similarity": 0.08088624338624338,
+        "f1_tol2": 0.062400000000000004
+      },
+      "current": {
+        "pk": 0.3967713112726687,
+        "wd": 0.40079700049572636,
+        "boundary_similarity": 0.06331168831168832,
+        "f1_tol2": 0.04750000000000001
+      },
+      "selector": {
+        "pk": 0.39756562522547706,
+        "wd": 0.4151808896998757,
+        "boundary_similarity": 0.11258700449876922,
+        "f1_tol2": 0.1382833333333333
+      },
+      "selector_delta_pk_vs_baseline": -0.024207970443138827,
+      "selector_delta_wd_vs_baseline": -0.014024598033118618,
+      "selector_delta_pk_vs_current": 0.0007943139528083787,
+      "selector_delta_wd_vs_current": 0.014383889204149347
+    },
+    {
+      "domain": "CS",
+      "n_videos": 7,
+      "n_chapters": 98,
+      "baseline": {
+        "pk": 0.34087459562958894,
+        "wd": 0.3439166859837473,
+        "boundary_similarity": 0.2116883116883117,
+        "f1_tol2": 0.1312
+      },
+      "current": {
+        "pk": 0.32953311067843566,
+        "wd": 0.3336200510462603,
+        "boundary_similarity": 0.0,
+        "f1_tol2": 0.0
+      },
+      "selector": {
+        "pk": 0.33141956096726377,
+        "wd": 0.33569227135180774,
+        "boundary_similarity": 0.0,
+        "f1_tol2": 0.0
+      },
+      "selector_delta_pk_vs_baseline": -0.009455034662325168,
+      "selector_delta_wd_vs_baseline": -0.00822441463193957,
+      "selector_delta_pk_vs_current": 0.001886450288828112,
+      "selector_delta_wd_vs_current": 0.002072220305547434
+    },
+    {
+      "domain": "MATH",
+      "n_videos": 4,
+      "n_chapters": 55,
+      "baseline": {
+        "pk": 0.37244133631713555,
+        "wd": 0.3849932823463834,
+        "boundary_similarity": 0.14417293233082706,
+        "f1_tol2": 0.098425
+      },
+      "current": {
+        "pk": 0.37924134369466855,
+        "wd": 0.3872777313266444,
+        "boundary_similarity": 0.012609649122807019,
+        "f1_tol2": 0.02175
+      },
+      "selector": {
+        "pk": 0.4013908084136665,
+        "wd": 0.4367147189979671,
+        "boundary_similarity": 0.08705357142857142,
+        "f1_tol2": 0.120825
+      },
+      "selector_delta_pk_vs_baseline": 0.028949472096530926,
+      "selector_delta_wd_vs_baseline": 0.051721436651583685,
+      "selector_delta_pk_vs_current": 0.022149464718997924,
+      "selector_delta_wd_vs_current": 0.04943698767132271
+    },
+    {
+      "domain": "PHILOSOPHY",
+      "n_videos": 6,
+      "n_chapters": 122,
+      "baseline": {
+        "pk": 0.44148827351875175,
+        "wd": 0.45440028342799993,
+        "boundary_similarity": 0.10395433873694743,
+        "f1_tol2": 0.06641666666666667
+      },
+      "current": {
+        "pk": 0.3947505427892728,
+        "wd": 0.4057084442247858,
+        "boundary_similarity": 0.10921878632876077,
+        "f1_tol2": 0.05673333333333333
+      },
+      "selector": {
+        "pk": 0.3752896233633032,
+        "wd": 0.38927988624241777,
+        "boundary_similarity": 0.19749752315822225,
+        "f1_tol2": 0.2126333333333333
+      },
+      "selector_delta_pk_vs_baseline": -0.06619865015544857,
+      "selector_delta_wd_vs_baseline": -0.06512039718558216,
+      "selector_delta_pk_vs_current": -0.019460919425969614,
+      "selector_delta_wd_vs_current": -0.01642855798236803
+    },
+    {
+      "domain": "PHYSICS",
+      "n_videos": 7,
+      "n_chapters": 50,
+      "baseline": {
+        "pk": 0.3710395514054758,
+        "wd": 0.37416548902418717,
+        "boundary_similarity": 0.10100732600732601,
+        "f1_tol2": 0.07844285714285715
+      },
+      "current": {
+        "pk": 0.36671908661029684,
+        "wd": 0.36671908661029684,
+        "boundary_similarity": 0.0,
+        "f1_tol2": 0.0
+      },
+      "selector": {
+        "pk": 0.3143756717668819,
+        "wd": 0.32763771090440746,
+        "boundary_similarity": 0.008954008954008955,
+        "f1_tol2": 0.012985714285714284
+      },
+      "selector_delta_pk_vs_baseline": -0.05666387963859387,
+      "selector_delta_wd_vs_baseline": -0.046527778119779706,
+      "selector_delta_pk_vs_current": -0.052343414843414926,
+      "selector_delta_wd_vs_current": -0.039081375705889376
+    }
+  ]
+}

@@ -47,8 +47,9 @@ segmentation experiments. The strongest statistically supported 30-video
 result reduces $P_k$ from 0.3884 to 0.3713 and WindowDiff from 0.3956 to
 0.3764 over a stable BGE-divisive baseline. A stable balanced leave-one-video-out
 method selector further reduces mean $P_k$ to 0.3588 and WindowDiff to 0.3739,
-and significantly improves F1@2 over the cross-model method. We position \lecseg{} as a reproducible
-lecture-segmentation artifact rather than a large-scale external SOTA claim.
+and significantly improves F1@2 over the cross-model method. We position
+\lecseg{} as a reproducible lecture-segmentation artifact rather than a
+large-scale external best-system claim.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -283,8 +284,9 @@ strict tolerance-F1, because the best Pk/WD method predicts conservatively.
 
 \begin{table}[t]
   \centering
-  \caption{Current result variants. The method selector improves mean $P_k$ and
-  F1@2 but trades off WindowDiff.}
+  \caption{Current result variants. The method selector improves mean $P_k$,
+  WindowDiff, and F1@2 over the cross-model method, but its $P_k$/WindowDiff
+  gains over that method are not statistically significant.}
   \label{tab:selector}
   \setlength{\tabcolsep}{4pt}
   \begin{tabular}{lcccc}
@@ -292,7 +294,7 @@ strict tolerance-F1, because the best Pk/WD method predicts conservatively.
     Method & $P_k\downarrow$ & WD$\downarrow$ & BS$\uparrow$ & F1@2$\uparrow$ \\
     \midrule
     BGE-divisive baseline & 0.3884 & 0.3956 & 0.1292 & 0.0878 \\
-    Cross-model conservative & 0.3713 & \textbf{0.3764} & 0.0362 & 0.0237 \\
+    Cross-model conservative & 0.3713 & 0.3764 & 0.0362 & 0.0237 \\
     LOO method selector & \textbf{0.3588} & \textbf{0.3739} & 0.0757 & \textbf{0.0893} \\
     Per-video oracle & 0.2980 & 0.3280 & 0.1366 & 0.1676 \\
     \bottomrule
@@ -324,6 +326,13 @@ the best Pk/WD result is a conservative boundary-selection variant. The main
 future direction is therefore candidate ranking rather than adding modalities
 blindly.
 
+The selector diagnostics add an important limitation. The balanced selector
+improves Pk over the BGE-divisive baseline in four of five academic domains,
+but Mathematics remains a failure case. A stricter leave-one-domain-out
+experiment drops to $P_k=0.4012$ and WD$=0.4103$, so the selector should be
+read as a useful lecture-benchmark operating point rather than evidence of
+domain-general deployment.
+
 \subsection{Error Analysis}
 
 We identify four dominant failure modes: (1)~\textit{dense vocabulary overlap}
@@ -333,7 +342,9 @@ segmentation errors propagate to embeddings); (3)~\textit{static visual}
 (chalkboard/whiteboard lectures provide no useful CLIP signal); and
 (4)~\textit{LLM title drift} (Llama occasionally generates titles that
 describe one sentence rather than the whole segment). Domain-level analysis
-shows Physics and Humanities lectures are hardest, consistent with (1) and (3).
+shows Mathematics and Biology are hardest for the balanced selector, while
+Physics and Computer Science are stronger, consistent with the need for
+domain-specific boundary ranking rather than a single universal heuristic.
 
 % ----------
 \section{Conclusion}
@@ -343,8 +354,9 @@ lecture-video topic segmentation. On \dataset{}, conservative cross-model
 boundary selection significantly improves $P_k$ and WindowDiff over a stable
 BGE-divisive baseline. A leave-one-video-out method selector improves mean
 $P_k$ and significantly improves boundary-hit metrics, but its $P_k$ gain over
-the cross-model method is not statistically significant and WindowDiff worsens
-slightly. The main technical lesson is therefore not that multimodal fusion
+the cross-model method is not statistically significant and leave-domain-out
+evaluation shows weak domain generalization. The main technical lesson is
+therefore not that multimodal fusion
 solves lecture segmentation outright, but that LECSEG exposes a measurable
 candidate-selection bottleneck. Future work should train sequence-aware
 boundary selectors on larger chaptering corpora and validate them on shared

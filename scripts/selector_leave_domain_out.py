@@ -1,0 +1,280 @@
+"""Leave-one-domain-out method selector evaluation.
+
+The main selector is leave-one-video-out: videos from the same academic domain
+can still appear in the training fold. This stricter diagnostic holds out an
+entire domain at a time to test whether the selector generalizes without
+same-domain examples.
+"""
+
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from pathlib import Path
+from typing import Any
+
+import numpy as np
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT / "scripts"))
+
+from method_portfolio_analysis import DEFAULT_INPUTS, _mean  # noqa: E402
+from method_selector_experiment import (  # noqa: E402
+    _candidate_methods,
+    _load_manifest,
+    _load_portfolio,
+    _load_video_features,
+    _predict_for_holdout,
+)
+from selector_significance import _normalize_metric_keys  # noqa: E402
+
+
+METRICS = ("pk", "wd", "boundary_similarity", "f1_tol2")
+
+
+def _metric(row: dict[str, Any], key: str) -> float:
+    if key in row:
+        return float(row[key])
+    if key == "f1_tol2":
+        return float(row.get("f1_t2", row.get("f1", 0.0)))
+    return float(row.get(key, 0.0))
+
+
+def _metrics(row: dict[str, Any]) -> dict[str, float]:
+    return {key: _metric(row, key) for key in METRICS}
+
+
+def _fmt(value: float) -> str:
+    return f"{value:.4f}"
+
+
+def _latex_escape(text: str) -> str:
+    return text.replace("_", r"\_").replace("%", r"\%").replace("&", r"\&")
+
+
+def _domain_videos(manifest: dict[str, dict[str, Any]]) -> dict[str, list[str]]:
+    domains: dict[str, list[str]] = {}
+    for video_id, row in manifest.items():
+        domains.setdefault(str(row["domain"]), []).append(video_id)
+    return {domain: sorted(videos) for domain, videos in sorted(domains.items())}
+
+
+def _mean_rows(rows: list[dict[str, float]]) -> dict[str, float]:
+    return {
+        metric: float(np.mean([row[metric] for row in rows if metric in row]))
+        for metric in METRICS
+    }
+
+
+def run(
+    input_paths: list[Path],
+    primary: str,
+    top_k: int,
+    model_name: str,
+    baseline_method: str,
+    current_method: str,
+) -> dict[str, Any]:
+    portfolio = _load_portfolio(input_paths)
+    manifest = _load_manifest()
+    by_domain = _domain_videos(manifest)
+    all_videos = sorted(set(portfolio[current_method]) & set(portfolio[baseline_method]))
+    video_features = {video_id: _load_video_features(video_id, manifest) for video_id in all_videos}
+
+    choices: dict[str, str] = {}
+    rows = []
+    domain_reports: dict[str, Any] = {}
+
+    for domain, holdout_videos in by_domain.items():
+        holdout_videos = [video_id for video_id in holdout_videos if video_id in all_videos]
+        train_videos = [video_id for video_id in all_videos if video_id not in holdout_videos]
+        methods = _candidate_methods(portfolio, train_videos, top_k, primary)
+        domain_rows = []
+        for holdout in holdout_videos:
+            available = [method for method in methods if holdout in portfolio.get(method, {})]
+            chosen = _predict_for_holdout(
+                portfolio,
+                available,
+                train_videos,
+                holdout,
+                video_features,
+                primary,
+                model_name,
+            )
+            choices[holdout] = chosen
+            row = _normalize_metric_keys(portfolio[chosen][holdout])
+            rows.append(row)
+            domain_rows.append(row)
+        domain_reports[domain] = {
+            "n_videos": len(holdout_videos),
+            "metrics": _mean_rows(domain_rows),
+        }
+
+    baseline_rows = [
+        _normalize_metric_keys(portfolio[baseline_method][video_id])
+        for video_id in all_videos
+    ]
+    current_rows = [
+        _normalize_metric_keys(portfolio[current_method][video_id])
+        for video_id in all_videos
+    ]
+    selector = _mean_rows(rows)
+    baseline = _mean_rows(baseline_rows)
+    current = _mean_rows(current_rows)
+
+    return {
+        "meta": {
+            "primary": primary,
+            "top_k": top_k,
+            "model": model_name,
+            "baseline_method": baseline_method,
+            "current_method": current_method,
+            "n_domains": len(by_domain),
+            "n_videos": len(all_videos),
+            "inputs": [str(path.relative_to(ROOT)) for path in input_paths if path.exists()],
+        },
+        "summary": {
+            "baseline": baseline,
+            "current": current,
+            "leave_domain_out_selector": selector,
+            "delta_selector_vs_baseline": {
+                metric: selector[metric] - baseline[metric] for metric in METRICS
+            },
+            "delta_selector_vs_current": {
+                metric: selector[metric] - current[metric] for metric in METRICS
+            },
+        },
+        "domains": domain_reports,
+        "choices": choices,
+    }
+
+
+def _markdown(report: dict[str, Any]) -> str:
+    s = report["summary"]
+    rows = [
+        "# Leave-One-Domain-Out Selector",
+        "",
+        "Generated by `python scripts/selector_leave_domain_out.py`.",
+        "",
+        "| Method | Pk | WD | BS | F1@2 |",
+        "| --- | ---: | ---: | ---: | ---: |",
+    ]
+    for label, key in [
+        ("BGE-divisive baseline", "baseline"),
+        ("Cross-model conservative", "current"),
+        ("Leave-domain-out selector", "leave_domain_out_selector"),
+    ]:
+        metrics = s[key]
+        rows.append(
+            "| {label} | {pk} | {wd} | {bs} | {f1} |".format(
+                label=label,
+                pk=_fmt(metrics["pk"]),
+                wd=_fmt(metrics["wd"]),
+                bs=_fmt(metrics["boundary_similarity"]),
+                f1=_fmt(metrics["f1_tol2"]),
+            )
+        )
+    rows.extend(
+        [
+            "",
+            "## Held-Out Domains",
+            "",
+            "| Domain | Videos | Pk | WD | BS | F1@2 |",
+            "| --- | ---: | ---: | ---: | ---: | ---: |",
+        ]
+    )
+    for domain, obj in report["domains"].items():
+        metrics = obj["metrics"]
+        rows.append(
+            "| {domain} | {n} | {pk} | {wd} | {bs} | {f1} |".format(
+                domain=domain,
+                n=obj["n_videos"],
+                pk=_fmt(metrics["pk"]),
+                wd=_fmt(metrics["wd"]),
+                bs=_fmt(metrics["boundary_similarity"]),
+                f1=_fmt(metrics["f1_tol2"]),
+            )
+        )
+    rows.extend(
+        [
+            "",
+            "## Interpretation",
+            "",
+            "- This is stricter than leave-one-video-out because no held-out domain videos are used for training.",
+            "- If this result approaches the leave-one-video-out selector, selector behavior is more domain-general.",
+            "- If it collapses toward or below the cross-model method, same-domain evidence is important.",
+            "",
+        ]
+    )
+    return "\n".join(rows)
+
+
+def _latex(report: dict[str, Any]) -> str:
+    s = report["summary"]
+    lines = [
+        r"\begin{table}[t]",
+        r"\centering",
+        r"\small",
+        r"\caption{Leave-one-domain-out selector diagnostic.}",
+        r"\label{tab:selector_leave_domain_out}",
+        r"\begin{tabular}{lrrrr}",
+        r"\toprule",
+        r"Method & Pk & WD & BS & F1@2 \\",
+        r"\midrule",
+    ]
+    for label, key in [
+        ("BGE-divisive baseline", "baseline"),
+        ("Cross-model conservative", "current"),
+        ("Leave-domain-out selector", "leave_domain_out_selector"),
+    ]:
+        metrics = s[key]
+        lines.append(
+            " & ".join(
+                [
+                    _latex_escape(label),
+                    _fmt(metrics["pk"]),
+                    _fmt(metrics["wd"]),
+                    _fmt(metrics["boundary_similarity"]),
+                    _fmt(metrics["f1_tol2"]),
+                ]
+            )
+            + r" \\"
+        )
+    lines.extend([r"\bottomrule", r"\end{tabular}", r"\end{table}"])
+    return "\n".join(lines)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--inputs", nargs="*", type=Path, default=DEFAULT_INPUTS)
+    parser.add_argument("--primary", choices=("pk", "wd", "balanced"), default="balanced")
+    parser.add_argument("--top-k", type=int, default=80)
+    parser.add_argument("--model", choices=("ridge", "rf", "extra"), default="extra")
+    parser.add_argument("--baseline-method", default="divisive")
+    parser.add_argument("--current-method", default="cross_e5_frac70_minlen11__align_contains_before")
+    parser.add_argument("--output", type=Path, default=ROOT / "results" / "selector_leave_domain_out.json")
+    parser.add_argument("--docs-output", type=Path, default=ROOT / "docs" / "SELECTOR_LEAVE_DOMAIN_OUT.md")
+    parser.add_argument("--tex-output", type=Path, default=ROOT / "thesis" / "tables" / "selector_leave_domain_out.tex")
+    args = parser.parse_args()
+
+    report = run(args.inputs, args.primary, args.top_k, args.model, args.baseline_method, args.current_method)
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.docs_output.parent.mkdir(parents=True, exist_ok=True)
+    args.tex_output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text(json.dumps(report, indent=2), encoding="utf-8")
+    args.docs_output.write_text(_markdown(report), encoding="utf-8")
+    args.tex_output.write_text(_latex(report), encoding="utf-8")
+
+    metrics = report["summary"]["leave_domain_out_selector"]
+    print(f"Wrote {args.output}")
+    print(f"Wrote {args.docs_output}")
+    print(f"Wrote {args.tex_output}")
+    print(
+        "Leave-domain-out selector: Pk={pk:.4f} WD={wd:.4f} F1@2={f1_tol2:.4f}".format(
+            **metrics
+        )
+    )
+
+
+if __name__ == "__main__":
+    main()

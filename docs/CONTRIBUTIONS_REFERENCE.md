@@ -55,6 +55,8 @@ stay aligned with [PROJECT_GUIDE.md](PROJECT_GUIDE.md) and
   are not significant; its F1@2 and Boundary Similarity gains over that method
   are significant, and its Pk/WD gains over the BGE-divisive baseline are
   significant.
+- Selector gains are not domain-general: leave-one-domain-out selection drops
+  to Pk=0.4012 and WD=0.4103, and Mathematics is the clearest failure domain.
 - Out-of-domain supervised segmentation transfers poorly to lectures.
 - Segment-count selection is not the main bottleneck; boundary scoring/ranking
   is the next research direction.
@@ -65,6 +67,7 @@ stay aligned with [PROJECT_GUIDE.md](PROJECT_GUIDE.md) and
 
 - Do not claim international state-of-the-art.
 - Do not claim sub-0.30 Pk/WD.
+- Do not claim a domain-general selector.
 - Do not claim that every modality improves the result.
 - Do not cite stale values: 55 hours, 329 chapters, balanced 5x6 domains.
 - Do not cite `reviewed_only` 31-video runs as official LECSEG-30 results.

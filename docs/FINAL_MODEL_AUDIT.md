@@ -44,12 +44,14 @@ Bootstrap 95% confidence intervals and paired Wilcoxon tests:
 | BS | [0.0835, 0.1808] | [0.0063, 0.0630] | -0.0977 | 0.0019 |
 | F1@2 | [0.0596, 0.1193] | [0.0053, 0.0436] | -0.0650 | 0.0081 |
 
-Interpretation:
+Interpretation for the cross-model conservative method:
 
 - The current method significantly improves Pk and WindowDiff.
-- The current method significantly worsens boundary-hit metrics.
-- Therefore, the defensible claim is improved segmentation-window consistency,
-  not better exact boundary detection.
+- The cross-model method significantly worsens boundary-hit metrics.
+- Therefore, the defensible claim for this operating point is improved
+  segmentation-window consistency, not better exact boundary detection.
+- The later balanced selector partially recovers boundary-hit quality, but its
+  Pk/WD gains over the cross-model method are not statistically significant.
 
 ## Negative Results From Improvement Sprint
 
@@ -96,6 +98,16 @@ Interpretation: use the selector as evidence of complementary method behavior,
 boundary-hit recovery, and a significant improvement over the stable baseline,
 not as a statistically proven replacement for the cross-model method.
 
+Additional selector diagnostics:
+
+- Operating-point robustness shows k80 is the best tested balanced selector
+  pool, with Pk=0.3588 and WD=0.3739; k120 worsens to Pk=0.3716 and WD=0.3852.
+- Domain analysis shows selector Pk improves over BGE-divisive in 4/5 domains,
+  with Mathematics as the clear failure case.
+- Leave-one-domain-out selection drops to Pk=0.4012 and WD=0.4103, worse than
+  both BGE-divisive and cross-model conservative results. Do not describe the
+  selector as domain-general.
+
 ## Main Technical Finding
 
 The candidate oracle from `results/eval_candidate_ranker.json` shows large
@@ -105,6 +117,22 @@ headroom:
 |---|---:|---:|---:|---:|
 | tolerance 2 | 0.9681 | 0.0172 | 0.0198 | 0.9806 |
 | tolerance 5 | 1.0000 | 0.0066 | 0.0082 | 0.9681 |
+
+## Submission Readiness
+
+The final machine-checkable claim boundary is recorded in
+`docs/SUBMISSION_READINESS.md`.
+
+Current verdict:
+
+- LECSEG is defensible as a reproducible low-resource lecture segmentation
+  benchmark/pipeline with statistically supported local Pk/WD gains over
+  implemented baselines.
+- LECSEG is not defensible as external SOTA or as stronger than the large
+  supervised chaptering systems in the related-work comparison.
+- The strongest deployable operating point remains the balanced selector
+  (`method_selector_extra_trainrank_balanced_k80`), but its Pk/WD gains over
+  the cross-model conservative method are not statistically significant.
 
 This means candidate generation is not the main bottleneck. The bottleneck is
 choosing the globally correct subset of semantically plausible boundaries.
@@ -130,6 +158,7 @@ Do not claim:
 - external state of the art,
 - Pk or WD below 0.30,
 - superior exact boundary detection,
+- a domain-general selector,
 - that supervised rankers universally improved the final model.
 
 ## Recommended Next Research Direction

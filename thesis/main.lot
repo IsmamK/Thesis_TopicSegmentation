@@ -1,11 +1,30 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces Video-count scale comparison for related lecture/video chaptering work.}}{7}{table.caption.7}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Detailed comparison with related lecture/video chaptering work. Metrics are not directly interchangeable across datasets.}}{8}{table.caption.8}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Low-resource scale positioning. Ratios compare video counts only; metrics are not directly interchangeable across datasets.}}{8}{table.caption.9}%
+\contentsline {table}{\numberline {2.4}{\ignorespaces Literature matrix. \text {$\mathsurround \z@ \mathchar "458$}: addressed; (p): partial; ---: not addressed.}}{9}{table.caption.10}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Main results on \textsc {LecSeg-30}{}. All numbers are means over 5 folds with 1{,}000-sample bootstrap 95\,\% CIs. Lower is better for $P_k$ and WindowDiff; higher is better for Boundary Similarity, F\textsubscript {1}, and hierarchical WindowDiff (reported as $1-\text {HWD}$).}}{9}{table.caption.8}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Inter-annotator agreement for hierarchical annotations (\texttt {data/gt\_hier/iaa\_report.json}, tolerance = 1 sentence).}}{16}{table.caption.14}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Current LECSEG result variants and diagnostic upper bound.}}{16}{table.caption.15}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Paired Wilcoxon significance tests for key LECSEG comparisons.}}{17}{table.caption.16}%
+\contentsline {table}{\numberline {4.4}{\ignorespaces Selector and ranker operating points on LECSEG-30.}}{18}{table.caption.17}%
+\contentsline {table}{\numberline {4.5}{\ignorespaces Balanced selector robustness across candidate method-pool sizes.}}{18}{table.caption.18}%
+\contentsline {table}{\numberline {4.6}{\ignorespaces Domain-level Pk/WD for baseline, cross-model, and balanced selector.}}{19}{table.caption.19}%
+\contentsline {table}{\numberline {4.7}{\ignorespaces Largest balanced-selector per-video Pk changes relative to the cross-model method.}}{19}{table.caption.20}%
+\contentsline {table}{\numberline {4.8}{\ignorespaces Leave-one-domain-out selector diagnostic.}}{20}{table.caption.21}%
+\contentsline {table}{\numberline {4.9}{\ignorespaces Selected ablations and diagnostics.}}{20}{table.caption.22}%
+\contentsline {table}{\numberline {4.10}{\ignorespaces Per-domain performance of \texttt {cross\_e5\_frac70\_minlen11}.}}{21}{table.caption.23}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {A.1}{\ignorespaces \textsc {LecSeg-30}{} video list, sorted by domain and video ID.}}{30}{table.caption.25}%
+\contentsline {table}{\numberline {A.2}{\ignorespaces \textsc {LecSeg-30}{} domain distribution.}}{31}{table.caption.26}%
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces Key hyperparameters used in all reported experiments.}}{33}{table.caption.27}%
+\contentsline {table}{\numberline {B.2}{\ignorespaces Wall-clock time per pipeline stage for a representative 60-minute lecture.}}{33}{table.caption.28}%
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {C.1}{\ignorespaces Per-domain evaluation of the current best official method.}}{34}{table.caption.29}%
+\contentsline {table}{\numberline {C.2}{\ignorespaces Selected additional benchmark and diagnostic rows.}}{35}{table.caption.30}%

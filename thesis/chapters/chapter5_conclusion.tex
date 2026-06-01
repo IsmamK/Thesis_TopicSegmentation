@@ -17,7 +17,7 @@ and F1@2 $=0.0893$. Its $P_k$/WD gains over the joint-best method are not
 statistically significant, but it significantly improves Boundary Similarity
 and F1@2 over that method and significantly improves $P_k$/WD over the
 BGE-divisive baseline. The result is valuable within the project but does not
-justify a universal external SOTA claim.
+justify a universal external best-system claim.
 
 \section{Contributions revisited}
 
@@ -85,3 +85,10 @@ turns the problem into a measurable, reproducible research artifact: the data,
 metrics, baselines, ablations, and limitations are all available for inspection.
 That makes the thesis defensible and gives future work a clear path toward
 stronger boundary ranking and more reliable multimodal fusion.
+
+The practical positioning is therefore low-resource rather than best-system
+dominance. Large chaptering systems such as MiniSeg/YTSEG, Chapter-Gen, and
+VidChapters-7M use hundreds to tens of thousands of times more videos than
+LECSEG-30. LECSEG does not beat those external systems on their benchmarks; it
+shows that a compact lecture-specific artifact can still support reproducible
+local gains, negative results, and clear next-step evidence.

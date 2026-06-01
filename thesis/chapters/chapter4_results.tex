@@ -77,6 +77,47 @@ $P_k$ and WD; it is therefore diagnostic evidence that exact boundary-hit
 optimisation is a different operating point, not the main chapter segmentation
 result.
 
+\input{tables/selector_robustness}
+
+Table~\ref{tab:selector_robustness} checks that the selector result is not
+presented as an arbitrary single setting. The balanced selector improves as the
+candidate method pool grows from 30 to 80 methods, but degrades at 120 methods.
+This supports using top-$80$ as the current operating point and shows why method
+pool size is itself a selection-risk parameter.
+
+\input{tables/domain_performance}
+
+Table~\ref{tab:domain_performance} shows that the selector improvement is not
+uniform across subjects. Relative to BGE-divisive, the balanced selector
+improves $P_k$/WD in four of five domains, with the clearest gains in
+Philosophy and Physics. Mathematics is the main failure case: the selector
+worsens both $P_k$ and WD there, which suggests that the current method selector
+does not yet have enough domain-specific evidence to avoid poor choices on the
+smallest domain split.
+
+\input{tables/selector_choice_audit}
+
+Table~\ref{tab:selector_choice_audit} audits the selector at the individual
+video level. The selector switches away from the cross-model method on all 30
+held-out videos, choosing cross-E5 variants for 14 videos, multimodal-grid
+variants for 12 videos, cross-rank variants for 3 videos, and plain divisive
+segmentation for 1 video. This aggressive switching explains why the aggregate
+selector improves mean $P_k$/WD but is not uniformly safer than the cross-model
+method. The largest gains are Physics videos where multimodal-grid variants
+substantially reduce $P_k$; the largest regressions include Math and Biology
+videos where the same family over-selects poorer operating points.
+
+\input{tables/selector_leave_domain_out}
+
+Table~\ref{tab:selector_leave_domain_out} applies a stricter diagnostic:
+training excludes the entire held-out academic domain. Under this setting the
+selector degrades to $P_k=0.4012$ and WD $=0.4103$, worse than both
+BGE-divisive and the cross-model method. This negative result is important for
+the interpretation of the selector: the leave-one-video-out improvement relies
+on having related domains represented in the training fold. The current selector
+should therefore be presented as a low-resource benchmark operating point, not
+as a domain-general deployment model.
+
 \section{Ablation and diagnostic findings}
 \label{sec:ablations}
 
@@ -165,7 +206,8 @@ open benchmark and pipeline, and the best joint $P_k$/WD method significantly
 improves over a strong BGE-divisive baseline. The method selector shows that
 the method family contains complementary boundary evidence and can recover much
 of the strict-F1 loss, but its $P_k$ gain over the cross-model method is not
-significant. The project therefore does not support a universal SOTA claim. The
+significant. The project therefore does not support a universal best-system
+claim. The
 strongest next technical direction is supervised candidate ranking: generate a
 high-recall candidate pool, score each candidate with text, cross-model, pause,
 OCR, and local-coherence features, and select a non-overlapping set with

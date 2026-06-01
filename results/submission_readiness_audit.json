@@ -1,0 +1,362 @@
+{
+  "generated_at": "2026-06-01 23:23:50",
+  "status": "pass",
+  "passed": 42,
+  "failed": 0,
+  "key_results": {
+    "baseline": {
+      "pk": 0.3884245196546067,
+      "wd": 0.3956060993802347,
+      "boundary_similarity": 0.1291534895310639,
+      "f1_tol2": 0.08780333333333333
+    },
+    "cross_model_conservative": {
+      "pk": 0.37132872933904826,
+      "wd": 0.37635058524085163,
+      "boundary_similarity": 0.036187381477797424,
+      "f1_tol2": 0.023746666666666662
+    },
+    "balanced_selector": {
+      "pk": 0.3587753784775456,
+      "wd": 0.3738977802479712,
+      "boundary_similarity": 0.07571331714447657,
+      "f1_tol2": 0.08932333333333335
+    },
+    "selector_vs_baseline_pk": {
+      "baseline_mean": 0.3884,
+      "baseline_ci": [
+        0.3607,
+        0.4164
+      ],
+      "novel_mean": 0.3588,
+      "novel_ci": [
+        0.3303,
+        0.3854
+      ],
+      "delta": -0.0296,
+      "relative_delta_pct": -7.63,
+      "p_value": 0.0252,
+      "significant": true,
+      "win_count": 19,
+      "loss_count": 11,
+      "lower_better": true
+    },
+    "selector_vs_baseline_wd": {
+      "baseline_mean": 0.3956,
+      "baseline_ci": [
+        0.3678,
+        0.4239
+      ],
+      "novel_mean": 0.3739,
+      "novel_ci": [
+        0.3459,
+        0.4005
+      ],
+      "delta": -0.0217,
+      "relative_delta_pct": -5.49,
+      "p_value": 0.0238,
+      "significant": true,
+      "win_count": 23,
+      "loss_count": 7,
+      "lower_better": true
+    },
+    "selector_vs_current_pk": {
+      "baseline_mean": 0.3713,
+      "baseline_ci": [
+        0.3459,
+        0.396
+      ],
+      "novel_mean": 0.3588,
+      "novel_ci": [
+        0.3303,
+        0.3854
+      ],
+      "delta": -0.0126,
+      "relative_delta_pct": -3.38,
+      "p_value": 0.356,
+      "significant": false,
+      "win_count": 9,
+      "loss_count": 21,
+      "lower_better": true
+    },
+    "selector_vs_current_wd": {
+      "baseline_mean": 0.3764,
+      "baseline_ci": [
+        0.3516,
+        0.4001
+      ],
+      "novel_mean": 0.3739,
+      "novel_ci": [
+        0.3459,
+        0.4005
+      ],
+      "delta": -0.0025,
+      "relative_delta_pct": -0.65,
+      "p_value": 0.9039,
+      "significant": false,
+      "win_count": 7,
+      "loss_count": 23,
+      "lower_better": true
+    }
+  },
+  "claim_validation": {
+    "status": "pass",
+    "passed": 113,
+    "failed": 0
+  },
+  "verdict": "Ready for a defensible thesis submission claim boundary: LECSEG is a reproducible low-resource lecture segmentation benchmark and pipeline with statistically supported local Pk/WD gains over implemented baselines, but it is not an external SOTA system.",
+  "checks": [
+    {
+      "category": "core result evidence",
+      "name": "results/method_selector_significance.json",
+      "ok": true,
+      "detail": "6455 bytes"
+    },
+    {
+      "category": "core result evidence",
+      "name": "results/method_portfolio_analysis.json",
+      "ok": true,
+      "detail": "82530 bytes"
+    },
+    {
+      "category": "core result evidence",
+      "name": "results/oracle_k_experiment.json",
+      "ok": true,
+      "detail": "4383 bytes"
+    },
+    {
+      "category": "core result evidence",
+      "name": "docs/THESIS_RESULT_TABLES.md",
+      "ok": true,
+      "detail": "2478 bytes"
+    },
+    {
+      "category": "core result evidence",
+      "name": "thesis/tables/main_results.tex",
+      "ok": true,
+      "detail": "722 bytes"
+    },
+    {
+      "category": "core result evidence",
+      "name": "thesis/tables/significance.tex",
+      "ok": true,
+      "detail": "1181 bytes"
+    },
+    {
+      "category": "selector diagnostics",
+      "name": "docs/SELECTOR_OPERATING_POINTS.md",
+      "ok": true,
+      "detail": "1870 bytes"
+    },
+    {
+      "category": "selector diagnostics",
+      "name": "docs/SELECTOR_ROBUSTNESS.md",
+      "ok": true,
+      "detail": "939 bytes"
+    },
+    {
+      "category": "selector diagnostics",
+      "name": "docs/DOMAIN_PERFORMANCE.md",
+      "ok": true,
+      "detail": "979 bytes"
+    },
+    {
+      "category": "selector diagnostics",
+      "name": "docs/SELECTOR_CHOICE_AUDIT.md",
+      "ok": true,
+      "detail": "1715 bytes"
+    },
+    {
+      "category": "selector diagnostics",
+      "name": "docs/SELECTOR_LEAVE_DOMAIN_OUT.md",
+      "ok": true,
+      "detail": "1061 bytes"
+    },
+    {
+      "category": "selector diagnostics",
+      "name": "results/selector_operating_point_analysis.json",
+      "ok": true,
+      "detail": "3648 bytes"
+    },
+    {
+      "category": "selector diagnostics",
+      "name": "results/selector_robustness_analysis.json",
+      "ok": true,
+      "detail": "1461 bytes"
+    },
+    {
+      "category": "selector diagnostics",
+      "name": "results/domain_performance_analysis.json",
+      "ok": true,
+      "detail": "4764 bytes"
+    },
+    {
+      "category": "selector diagnostics",
+      "name": "results/selector_choice_audit.json",
+      "ok": true,
+      "detail": "68874 bytes"
+    },
+    {
+      "category": "selector diagnostics",
+      "name": "results/selector_leave_domain_out.json",
+      "ok": true,
+      "detail": "4738 bytes"
+    },
+    {
+      "category": "selector diagnostics",
+      "name": "thesis/tables/selector_operating_points.tex",
+      "ok": true,
+      "detail": "1028 bytes"
+    },
+    {
+      "category": "selector diagnostics",
+      "name": "thesis/tables/selector_robustness.tex",
+      "ok": true,
+      "detail": "473 bytes"
+    },
+    {
+      "category": "selector diagnostics",
+      "name": "thesis/tables/domain_performance.tex",
+      "ok": true,
+      "detail": "701 bytes"
+    },
+    {
+      "category": "selector diagnostics",
+      "name": "thesis/tables/selector_choice_audit.tex",
+      "ok": true,
+      "detail": "691 bytes"
+    },
+    {
+      "category": "selector diagnostics",
+      "name": "thesis/tables/selector_leave_domain_out.tex",
+      "ok": true,
+      "detail": "439 bytes"
+    },
+    {
+      "category": "external positioning",
+      "name": "docs/RELATED_WORK_COMPARISON.md",
+      "ok": true,
+      "detail": "3951 bytes"
+    },
+    {
+      "category": "external positioning",
+      "name": "docs/LOW_RESOURCE_POSITIONING.md",
+      "ok": true,
+      "detail": "1893 bytes"
+    },
+    {
+      "category": "external positioning",
+      "name": "results/related_work_comparison.json",
+      "ok": true,
+      "detail": "4354 bytes"
+    },
+    {
+      "category": "external positioning",
+      "name": "results/low_resource_positioning.json",
+      "ok": true,
+      "detail": "2392 bytes"
+    },
+    {
+      "category": "external positioning",
+      "name": "thesis/tables/related_work_comparison.tex",
+      "ok": true,
+      "detail": "1247 bytes"
+    },
+    {
+      "category": "external positioning",
+      "name": "thesis/tables/low_resource_positioning.tex",
+      "ok": true,
+      "detail": "1013 bytes"
+    },
+    {
+      "category": "external positioning",
+      "name": "thesis/tables/external_scale.tex",
+      "ok": true,
+      "detail": "982 bytes"
+    },
+    {
+      "category": "claim discipline",
+      "name": "docs/DEFENSIBLE_CLAIMS.md",
+      "ok": true,
+      "detail": "3055 bytes"
+    },
+    {
+      "category": "claim discipline",
+      "name": "docs/CONTRIBUTIONS_REFERENCE.md",
+      "ok": true,
+      "detail": "4584 bytes"
+    },
+    {
+      "category": "claim discipline",
+      "name": "docs/FINAL_MODEL_AUDIT.md",
+      "ok": true,
+      "detail": "7031 bytes"
+    },
+    {
+      "category": "claim discipline",
+      "name": "docs/PROJECT_GUIDE.md",
+      "ok": true,
+      "detail": "6795 bytes"
+    },
+    {
+      "category": "claim discipline",
+      "name": "results/defensible_claims.json",
+      "ok": true,
+      "detail": "3456 bytes"
+    },
+    {
+      "category": "rendered thesis",
+      "name": "thesis/main.pdf",
+      "ok": true,
+      "detail": "515264 bytes"
+    },
+    {
+      "category": "rendered thesis",
+      "name": "thesis/main.log",
+      "ok": true,
+      "detail": "43587 bytes"
+    },
+    {
+      "category": "rendered thesis",
+      "name": "latex hard-error scan",
+      "ok": true,
+      "detail": "no hard LaTeX failures found"
+    },
+    {
+      "category": "claim discipline",
+      "name": "safe framing: not external SOTA",
+      "ok": true,
+      "detail": "required snippet='not external SOTA'"
+    },
+    {
+      "category": "claim discipline",
+      "name": "safe framing: not stronger than large supervised chaptering systems",
+      "ok": true,
+      "detail": "required snippet='not stronger than large supervised chaptering systems'"
+    },
+    {
+      "category": "claim discipline",
+      "name": "safe framing: Do not claim the selector is domain-general",
+      "ok": true,
+      "detail": "required snippet='Do not claim the selector is domain-general'"
+    },
+    {
+      "category": "claim discipline",
+      "name": "safe framing: Pk=0.3588, WD=0.3739, BS=0.0757, F1@2=0.0893",
+      "ok": true,
+      "detail": "required snippet='Pk=0.3588, WD=0.3739, BS=0.0757, F1@2=0.0893'"
+    },
+    {
+      "category": "claim discipline",
+      "name": "safe framing: candidate-selection bottleneck",
+      "ok": true,
+      "detail": "required snippet='candidate-selection bottleneck'"
+    },
+    {
+      "category": "claim discipline",
+      "name": "validate_thesis_claims.py",
+      "ok": true,
+      "detail": "113 passed, 0 failed"
+    }
+  ]
+}

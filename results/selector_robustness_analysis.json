@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "selector": "balanced ExtraTrees",
+    "n_settings": 4,
+    "metrics": [
+      "pk",
+      "wd",
+      "boundary_similarity",
+      "f1_tol2"
+    ]
+  },
+  "rows": [
+    {
+      "label": "k30",
+      "top_k": 30,
+      "source": "results\\method_selector_experiment_trainrank_balanced_k30.json",
+      "pk": 0.37291998222646056,
+      "wd": 0.37802922857378884,
+      "boundary_similarity": 0.03166819209018698,
+      "f1_tol2": 0.022643333333333335
+    },
+    {
+      "label": "k50",
+      "top_k": 50,
+      "source": "results\\method_selector_experiment_trainrank_balanced_k50.json",
+      "pk": 0.3633604031590883,
+      "wd": 0.37603622512362794,
+      "boundary_similarity": 0.04948473679078966,
+      "f1_tol2": 0.06082666666666667
+    },
+    {
+      "label": "k80",
+      "top_k": 80,
+      "source": "results\\method_selector_experiment_trainrank_balanced.json",
+      "pk": 0.3587753784775456,
+      "wd": 0.3738977802479712,
+      "boundary_similarity": 0.07571331714447657,
+      "f1_tol2": 0.08932333333333335
+    },
+    {
+      "label": "k120",
+      "top_k": 120,
+      "source": "results\\method_selector_experiment_trainrank_balanced_k120.json",
+      "pk": 0.37157830752987236,
+      "wd": 0.3851894301740738,
+      "boundary_similarity": 0.07740692625605919,
+      "f1_tol2": 0.09291999999999999
+    }
+  ],
+  "best_pk": "k80",
+  "best_wd": "k80",
+  "best_balanced": "k80"
+}

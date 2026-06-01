@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import json
 import math
+import os
 import re
 import sys
 from collections import Counter
@@ -87,6 +88,77 @@ EXPECTED_OPERATING_POINT_STRINGS = [
     "Balanced selector | 0.3588 | 0.3739 | 0.0757 | 0.0893",
     "Text-transition ranker | 0.3937 | 0.4154 | 0.1163 | 0.1701",
     "Best deployable Pk/WD operating point: Balanced selector.",
+]
+
+EXPECTED_SELECTOR_ROBUSTNESS_STRINGS = [
+    "k30 | 30 | 0.3729 | 0.3780 | 0.0317 | 0.0226",
+    "k50 | 50 | 0.3634 | 0.3760 | 0.0495 | 0.0608",
+    "k80 | 80 | 0.3588 | 0.3739 | 0.0757 | 0.0893",
+    "k120 | 120 | 0.3716 | 0.3852 | 0.0774 | 0.0929",
+    "Best balanced Pk/WD setting: k80.",
+]
+
+EXPECTED_DOMAIN_PERFORMANCE_STRINGS = [
+    "BIOLOGY | 6 | 94 | 0.4218 | 0.3968 | 0.3976",
+    "CS | 7 | 98 | 0.3409 | 0.3295 | 0.3314",
+    "MATH | 4 | 55 | 0.3724 | 0.3792 | 0.4014",
+    "PHILOSOPHY | 6 | 122 | 0.4415 | 0.3948 | 0.3753",
+    "PHYSICS | 7 | 50 | 0.3710 | 0.3667 | 0.3144",
+    "Selector improves Pk over baseline in 4/5 domains.",
+]
+
+EXPECTED_SELECTOR_CHOICE_STRINGS = [
+    "Switches away from the cross-model method: 30/30.",
+    "Improves Pk over BGE-divisive baseline: 19/30.",
+    "Improves Pk over cross-model method: 9/30.",
+    "cross-e5: 14",
+    "multimodal-grid: 12",
+    "Hy7ou5R_vjE | PHYSICS | multimodal-grid | -0.1542",
+    "j0wJBEZdwLs | MATH | multimodal-grid | 0.0754",
+]
+
+EXPECTED_LEAVE_DOMAIN_OUT_STRINGS = [
+    "Leave-domain-out selector | 0.4012 | 0.4103 | 0.0465 | 0.0498",
+    "BIOLOGY | 6 | 0.3986 | 0.4026 | 0.0462 | 0.0347",
+    "PHYSICS | 7 | 0.4566 | 0.4652 | 0.0354 | 0.0519",
+]
+
+EXPECTED_DEFENSIBLE_CLAIMS_STRINGS = [
+    "Cross-model conservative selection significantly improves Pk/WD over BGE-divisive.",
+    "Balanced selector reaches Pk=0.3588, WD=0.3739, BS=0.0757, F1@2=0.0893",
+    "Leave-domain-out selector drops to Pk=0.4012, WD=0.4103",
+    "Per-video oracle reaches Pk=0.2980, WD=0.3280",
+    "Do not claim the selector is domain-general.",
+]
+
+EXPECTED_RELATED_WORK_STRINGS = [
+    "LECSEG-30 balanced selector (ours) | 30",
+    "Pk=0.3588, WD=0.3739, BS=0.0757, F1@2=0.0893",
+    "MiniSeg / YTSEG](https://arxiv.org/abs/2402.17633) | 19,299",
+    "YTSEG MiniSeg: P=45.44, R=41.48, F1=43.37, Pk=28.73, BS=35.74.",
+    "Chapter-Gen / multimodal video chapter generation](https://arxiv.org/abs/2209.12694) | 9,631",
+    "VidChapters-7M](https://antoyang.github.io/vidchapters.html) | 817,000",
+    "Chapter-Llama](https://openaccess.thecvf.com/content/CVPR2025/papers/Ventura_Chapter-Llama_Efficient_Chaptering_in_Hour-Long_Videos_with_LLMs_CVPR_2025_paper.pdf) | 10,000 train / 8,100 test",
+    "TreeSeg / TinyRec](https://arxiv.org/abs/2407.12028) | 21",
+    "AVLectures](https://arxiv.org/abs/2210.16644) | 2,350+",
+    "Large supervised chaptering systems remain stronger on scale and reported external benchmark performance.",
+]
+
+EXPECTED_LOW_RESOURCE_STRINGS = [
+    "Chapter-Gen / multimodal video chapter generation | 9,631 | 321.0x",
+    "MiniSeg / YTSEG | 19,299 | 643.3x",
+    "AVLectures | 2,350 | 78.3x",
+    "VidChapters-7M | 817,000 | 27,233.3x",
+    "LECSEG is not stronger than large supervised chaptering systems on external",
+    "exposes the candidate-selection bottleneck at a tiny fraction of the scale.",
+]
+
+EXPECTED_SUBMISSION_READINESS_STRINGS = [
+    "Ready for a defensible thesis submission claim boundary",
+    "Balanced LOO selector | 0.3588 | 0.3739 | 0.0757 | 0.0893",
+    "Do not claim external state of the art.",
+    "Do not claim the selector is domain-general",
+    "Residual risk: this does not prove external SOTA",
 ]
 
 RISKY_PATTERNS = [
@@ -231,6 +303,158 @@ def _table_checks(checks: list[dict[str, Any]]) -> None:
         str(op_table),
     )
 
+    robustness_doc = (ROOT / "docs" / "SELECTOR_ROBUSTNESS.md").read_text(encoding="utf-8-sig")
+    for expected in EXPECTED_SELECTOR_ROBUSTNESS_STRINGS:
+        _record(
+            checks,
+            f"selector-robustness:contains:{expected[:35]}",
+            expected in robustness_doc,
+            f"expected snippet={expected!r}",
+        )
+    robustness_table = ROOT / "thesis" / "tables" / "selector_robustness.tex"
+    _record(
+        checks,
+        "tables:file:selector_robustness.tex",
+        robustness_table.exists() and robustness_table.stat().st_size > 0,
+        str(robustness_table),
+    )
+
+    domain_doc = (ROOT / "docs" / "DOMAIN_PERFORMANCE.md").read_text(encoding="utf-8-sig")
+    for expected in EXPECTED_DOMAIN_PERFORMANCE_STRINGS:
+        _record(
+            checks,
+            f"domain-performance:contains:{expected[:35]}",
+            expected in domain_doc,
+            f"expected snippet={expected!r}",
+        )
+    domain_table = ROOT / "thesis" / "tables" / "domain_performance.tex"
+    _record(
+        checks,
+        "tables:file:domain_performance.tex",
+        domain_table.exists() and domain_table.stat().st_size > 0,
+        str(domain_table),
+    )
+
+    choice_doc = (ROOT / "docs" / "SELECTOR_CHOICE_AUDIT.md").read_text(encoding="utf-8-sig")
+    for expected in EXPECTED_SELECTOR_CHOICE_STRINGS:
+        _record(
+            checks,
+            f"selector-choice:contains:{expected[:35]}",
+            expected in choice_doc,
+            f"expected snippet={expected!r}",
+        )
+    choice_table = ROOT / "thesis" / "tables" / "selector_choice_audit.tex"
+    _record(
+        checks,
+        "tables:file:selector_choice_audit.tex",
+        choice_table.exists() and choice_table.stat().st_size > 0,
+        str(choice_table),
+    )
+
+    leave_domain_doc = (ROOT / "docs" / "SELECTOR_LEAVE_DOMAIN_OUT.md").read_text(encoding="utf-8-sig")
+    for expected in EXPECTED_LEAVE_DOMAIN_OUT_STRINGS:
+        _record(
+            checks,
+            f"leave-domain-out:contains:{expected[:35]}",
+            expected in leave_domain_doc,
+            f"expected snippet={expected!r}",
+        )
+    leave_domain_table = ROOT / "thesis" / "tables" / "selector_leave_domain_out.tex"
+    _record(
+        checks,
+        "tables:file:selector_leave_domain_out.tex",
+        leave_domain_table.exists() and leave_domain_table.stat().st_size > 0,
+        str(leave_domain_table),
+    )
+
+    claims_doc = (ROOT / "docs" / "DEFENSIBLE_CLAIMS.md").read_text(encoding="utf-8-sig")
+    for expected in EXPECTED_DEFENSIBLE_CLAIMS_STRINGS:
+        _record(
+            checks,
+            f"defensible-claims:contains:{expected[:35]}",
+            expected in claims_doc,
+            f"expected snippet={expected!r}",
+        )
+    claims_json = ROOT / "results" / "defensible_claims.json"
+    _record(
+        checks,
+        "results:file:defensible_claims.json",
+        claims_json.exists() and claims_json.stat().st_size > 0,
+        str(claims_json),
+    )
+
+    related_doc = (ROOT / "docs" / "RELATED_WORK_COMPARISON.md").read_text(encoding="utf-8-sig")
+    for expected in EXPECTED_RELATED_WORK_STRINGS:
+        _record(
+            checks,
+            f"related-work:contains:{expected[:35]}",
+            expected in related_doc,
+            f"expected snippet={expected!r}",
+        )
+    related_json = ROOT / "results" / "related_work_comparison.json"
+    _record(
+        checks,
+        "results:file:related_work_comparison.json",
+        related_json.exists() and related_json.stat().st_size > 0,
+        str(related_json),
+    )
+    related_table = ROOT / "thesis" / "tables" / "related_work_comparison.tex"
+    _record(
+        checks,
+        "tables:file:related_work_comparison.tex",
+        related_table.exists() and related_table.stat().st_size > 0,
+        str(related_table),
+    )
+
+    low_resource_doc = (ROOT / "docs" / "LOW_RESOURCE_POSITIONING.md").read_text(encoding="utf-8-sig")
+    for expected in EXPECTED_LOW_RESOURCE_STRINGS:
+        _record(
+            checks,
+            f"low-resource:contains:{expected[:35]}",
+            expected in low_resource_doc,
+            f"expected snippet={expected!r}",
+        )
+    low_resource_json = ROOT / "results" / "low_resource_positioning.json"
+    _record(
+        checks,
+        "results:file:low_resource_positioning.json",
+        low_resource_json.exists() and low_resource_json.stat().st_size > 0,
+        str(low_resource_json),
+    )
+    low_resource_table = ROOT / "thesis" / "tables" / "low_resource_positioning.tex"
+    _record(
+        checks,
+        "tables:file:low_resource_positioning.tex",
+        low_resource_table.exists() and low_resource_table.stat().st_size > 0,
+        str(low_resource_table),
+    )
+
+    if os.environ.get("LECSEG_SKIP_SUBMISSION_AUDIT_CHECK") != "1":
+        submission_doc = ROOT / "docs" / "SUBMISSION_READINESS.md"
+        if submission_doc.exists():
+            submission_text = submission_doc.read_text(encoding="utf-8-sig")
+            for expected in EXPECTED_SUBMISSION_READINESS_STRINGS:
+                _record(
+                    checks,
+                    f"submission-readiness:contains:{expected[:35]}",
+                    expected in submission_text,
+                    f"expected snippet={expected!r}",
+                )
+        else:
+            _record(
+                checks,
+                "submission-readiness:file:SUBMISSION_READINESS.md",
+                False,
+                str(submission_doc),
+            )
+        submission_json = ROOT / "results" / "submission_readiness_audit.json"
+        _record(
+            checks,
+            "results:file:submission_readiness_audit.json",
+            submission_json.exists() and submission_json.stat().st_size > 0,
+            str(submission_json),
+        )
+
 
 def _scan_claims(checks: list[dict[str, Any]]) -> None:
     paths: list[Path] = []
@@ -263,6 +487,7 @@ def _consistency_checks(checks: list[dict[str, Any]]) -> None:
         "cross_e5_frac70_minlen11__align_contains_before",
         "ExtraTrees method selector",
         "not statistically significant",
+        "scripts/submission_readiness_audit.py",
     ]
     for snippet in required:
         _record(
