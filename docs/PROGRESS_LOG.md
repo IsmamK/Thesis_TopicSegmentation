@@ -1872,3 +1872,16 @@ Results:
 - Final LaTeX scan: no hard errors, undefined citations, or undefined references; only one negligible 1.80 pt thesis overfull box remains.
 
 Observation: the repository and rendered thesis are submission-ready within the defensible claim boundary. The supported contribution is a reproducible low-resource lecture-segmentation benchmark and pipeline with statistically supported local Pk/WD gains over implemented baselines. External SOTA or domain-general superiority remains explicitly unsupported and is not claimed.
+
+---
+
+## [2026-06-04 12:32] - Submission package published to GitHub
+
+Committed and pushed the verified final submission package to the `main` branch of `https://github.com/IsmamK/Thesis_TopicSegmentation.git`.
+
+Results:
+- Release commit: `0bad3526` (`Finalize thesis submission package`).
+- Remote `main` verification: `0bad3526075b081ca9d93ffdcf4465f2814aaa4b`.
+- Working tree after push: clean.
+
+Observation: the remote repository now contains the professionally cleaned thesis package and no longer tracks the identified credentials, internal coordination files, scratch logs, or LaTeX intermediates.
