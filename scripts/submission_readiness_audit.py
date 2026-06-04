@@ -84,6 +84,14 @@ HARD_LATEX_PATTERNS = [
     r"No file main\.bbl",
 ]
 
+PLACEHOLDER_PATTERNS = [
+    r"\bAuthor (?:One|Two|Three|Four|Five)\b",
+    r"\bSupervisor Name\b",
+    r"\\todo\{",
+    r"\bLorem ipsum\b",
+    r"\bshould be rendered .* before final PDF submission\b",
+]
+
 REQUIRED_SAFE_FRAMING = [
     "not external SOTA",
     "not stronger than large supervised chaptering systems",
@@ -140,6 +148,30 @@ def _check_latex_log() -> list[dict[str, Any]]:
             "name": "latex hard-error scan",
             "ok": not hits,
             "detail": "no hard LaTeX failures found" if not hits else hits,
+        }
+    ]
+
+
+def _check_source_placeholders() -> list[dict[str, Any]]:
+    paths = [
+        *sorted((ROOT / "thesis").rglob("*.tex")),
+        *sorted((ROOT / "paper").rglob("*.tex")),
+    ]
+    hits: dict[str, list[str]] = {}
+    for path in paths:
+        text = _read_text(path)
+        for pattern in PLACEHOLDER_PATTERNS:
+            for match in re.finditer(pattern, text, flags=re.IGNORECASE):
+                line_no = text.count("\n", 0, match.start()) + 1
+                hits.setdefault(pattern, []).append(
+                    f"{path.relative_to(ROOT)}:{line_no}"
+                )
+    return [
+        {
+            "category": "rendered thesis",
+            "name": "source placeholder scan",
+            "ok": not hits,
+            "detail": "no submission placeholders found" if not hits else hits,
         }
     ]
 
@@ -264,6 +296,7 @@ def run() -> dict[str, Any]:
     checks: list[dict[str, Any]] = []
     checks.extend(_check_artifacts())
     checks.extend(_check_latex_log())
+    checks.extend(_check_source_placeholders())
     checks.extend(_check_safe_framing())
 
     previous_skip = os.environ.get("LECSEG_SKIP_SUBMISSION_AUDIT_CHECK")

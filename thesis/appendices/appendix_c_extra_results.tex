@@ -5,8 +5,7 @@
 \label{app:per_domain}
 
 Table~\ref{tab:domain_breakdown} reports the alignment-audited joint
-$P_k$/WindowDiff method, \texttt{cross\_e5\_frac70\_minlen11}, broken down by
-domain.
+$P_k$/WindowDiff cross-model method, broken down by domain.
 
 \begin{table}[h]
   \centering
@@ -36,6 +35,8 @@ domain.
   \caption{Selected additional benchmark and diagnostic rows.}
   \label{tab:additional_benchmarks}
   \small
+  \scriptsize
+  \resizebox{\linewidth}{!}{%
   \begin{tabular}{lrrl}
     \toprule
     Method & $P_k$ $\downarrow$ & WD $\downarrow$ & Source \\
@@ -53,22 +54,22 @@ domain.
     Boundary classifier LOOCV & 0.5803 & 0.9933 & \texttt{eval\_boundary\_clf.json} \\
     \bottomrule
   \end{tabular}
+  }
 \end{table}
 
-\section{Qualitative examples}
+\section{Representative cases}
 \label{app:qualitative}
 
-The current repository does not yet contain final publication-quality
-qualitative boundary strip figures. The strongest candidates for such figures
-are:
+The per-video results expose three useful cases for interpreting aggregate
+metrics:
 
 \begin{itemize}
   \item Best case by $P_k$: \texttt{oqRU2So6Z2Y} (CS), $P_k=0.1457$.
-  \item Typical mid-range case: select a video near the median $P_k$ from
-    \texttt{results/eval\_bgelarge\_fine2.json}.
+  \item Typical mid-range cases are documented in the stored per-video
+    evaluation rows.
   \item Hard case: \texttt{S7TUe5w6RHo} (Philosophy), $P_k=0.4975$.
 \end{itemize}
 
-These examples should be rendered with a script before final PDF submission so
-the thesis can show matched and missed boundaries visually rather than relying
-only on aggregate metrics.
+Together with the selector-choice audit in
+\cref{tab:selector_choice_audit}, these cases show that gains are concentrated
+in particular lectures rather than uniformly distributed across the benchmark.

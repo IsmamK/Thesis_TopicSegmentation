@@ -1814,3 +1814,61 @@ Results:
 - `Select-String` verification confirms the new `Submission Readiness` section is present and explicitly says LECSEG is not defensible as external SOTA.
 
 Observation: the final defense materials now point directly to the machine-checked claim boundary, which reduces the risk of accidental overclaiming during the viva or supervisor review.
+
+---
+
+## [2026-06-04 12:13] — Confirmed current best result
+
+Reviewed the final model audit, latest generated result artifacts, and historical evaluation summary to identify the current best valid result.
+
+Results:
+- Best valid mean Pk/WD operating point: `method_selector_extra_trainrank_balanced_k80`.
+- Pk=0.3588, WD=0.3739, BS=0.0757, F1@2=0.0893.
+- Best single global method: `cross_e5_frac70_minlen11__align_contains_before`, with Pk=0.3713 and WD=0.3764.
+- Diagnostic per-video oracle remains non-deployable, with Pk=0.2980 and WD=0.3280.
+
+Observation: the balanced selector is the strongest reported operating point, but its Pk/WD improvement over the cross-model method is not statistically significant and it should not be described as domain-general.
+
+---
+
+## [2026-06-04 12:14] — Pre-submission experiment triage
+
+Reviewed external suggestions covering LLM few-shot segmentation, concept graphs, cross-modal disagreement, boundary-level ranking, slide transitions, and Math-specific preprocessing against the repository's completed experiments and submission-readiness evidence.
+
+Decision:
+- Submit the current thesis after a tightly bounded reviewer-proofing pass; do not pivot to a new segmentation paradigm before submission.
+- Highest-value remaining experiment: add a reproducible zero-shot/few-shot transcript-LLM segmentation baseline, primarily to close a comparison gap rather than to replace the current best method.
+- Highest-value non-model audit: inspect Math ASR/transcript quality and report whether notation/terminology errors plausibly explain domain weakness.
+- Do not repeat ordinary boundary-level ranking, additive multimodal fusion, shot/slide fusion, or further threshold sweeps; existing experiments already show these paths underperform the current best on Pk/WD.
+- Keep sequence-aware global candidate selection, concept-graph segmentation, and explicitly learned cross-modal disagreement as future work because each requires new method design, validation, and claim restructuring.
+
+Evidence:
+- Current submission audit passes with 42/42 checks.
+- Balanced selector remains Pk=0.3588, WD=0.3739, BS=0.0757, F1@2=0.0893.
+- Existing candidate ranker: Pk=0.4026, WD=0.4219.
+- Existing text-transition ranker: Pk=0.3782, WD=0.3866.
+- Existing compact multimodal fusion: Pk=0.3892, WD=0.4224.
+- Existing candidate-only multimodal fusion: Pk=0.3911, WD=0.4268.
+- Existing shot fusion worsened Pk from 0.3884 to 0.3965.
+
+Observation: the suggested concept-graph and cross-modal-disagreement ideas are plausible future research hypotheses, but claims such as synchronized modality changes being near-guaranteed boundaries are unsupported and conflict with current lecture-specific ablations.
+
+---
+
+## [2026-06-04 12:31] - Final professional submission pass
+
+Completed the final thesis, artifact, and repository release pass. Replaced all rendered declaration placeholders with the real author and supervisor information; redesigned the title and declaration pages to fit cleanly on one page each; removed unfinished appendix wording; corrected stale README results; added polished final-results and domain-performance figures; and improved wide-table layout and URL wrapping. Hardened the submission audit to detect source placeholders. Removed credentials, internal coordination files, scratch logs, and LaTeX intermediates from Git tracking while preserving local working copies.
+
+Results:
+- Authoritative deployable result: balanced leave-one-video-out selector, Pk=0.3588, WD=0.3739, BS=0.0757, F1@2=0.0893.
+- Best single global method: cross-model method, Pk=0.3713 and WD=0.3764.
+- Diagnostic non-deployable oracle: Pk=0.2980 and WD=0.3280.
+- Full test suite: 185 passed in 16.81 seconds.
+- Thesis claim validation: 119 passed, 0 failed.
+- Submission readiness audit: 43 passed, 0 failed.
+- Final thesis build: successful, 44 pages, 578082 bytes.
+- IEEE paper build: successful, 3 pages, 242238 bytes.
+- Rendered PDF text scan: no placeholder, TODO, TBD, or undefined-reference matches.
+- Final LaTeX scan: no hard errors, undefined citations, or undefined references; only one negligible 1.80 pt thesis overfull box remains.
+
+Observation: the repository and rendered thesis are submission-ready within the defensible claim boundary. The supported contribution is a reproducible low-resource lecture-segmentation benchmark and pipeline with statistically supported local Pk/WD gains over implemented baselines. External SOTA or domain-general superiority remains explicitly unsupported and is not claimed.

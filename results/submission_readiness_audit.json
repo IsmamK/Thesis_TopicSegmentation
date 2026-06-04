@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-01 23:23:50",
+  "generated_at": "2026-06-04 12:31:53",
   "status": "pass",
-  "passed": 42,
+  "passed": 43,
   "failed": 0,
   "key_results": {
     "baseline": {
@@ -140,7 +140,7 @@
       "category": "core result evidence",
       "name": "thesis/tables/significance.tex",
       "ok": true,
-      "detail": "1181 bytes"
+      "detail": "1209 bytes"
     },
     {
       "category": "selector diagnostics",
@@ -218,7 +218,7 @@
       "category": "selector diagnostics",
       "name": "thesis/tables/domain_performance.tex",
       "ok": true,
-      "detail": "701 bytes"
+      "detail": "729 bytes"
     },
     {
       "category": "selector diagnostics",
@@ -272,31 +272,31 @@
       "category": "external positioning",
       "name": "thesis/tables/external_scale.tex",
       "ok": true,
-      "detail": "982 bytes"
+      "detail": "1010 bytes"
     },
     {
       "category": "claim discipline",
       "name": "docs/DEFENSIBLE_CLAIMS.md",
       "ok": true,
-      "detail": "3055 bytes"
+      "detail": "3060 bytes"
     },
     {
       "category": "claim discipline",
       "name": "docs/CONTRIBUTIONS_REFERENCE.md",
       "ok": true,
-      "detail": "4584 bytes"
+      "detail": "4670 bytes"
     },
     {
       "category": "claim discipline",
       "name": "docs/FINAL_MODEL_AUDIT.md",
       "ok": true,
-      "detail": "7031 bytes"
+      "detail": "7876 bytes"
     },
     {
       "category": "claim discipline",
       "name": "docs/PROJECT_GUIDE.md",
       "ok": true,
-      "detail": "6795 bytes"
+      "detail": "6964 bytes"
     },
     {
       "category": "claim discipline",
@@ -308,19 +308,25 @@
       "category": "rendered thesis",
       "name": "thesis/main.pdf",
       "ok": true,
-      "detail": "515264 bytes"
+      "detail": "578082 bytes"
     },
     {
       "category": "rendered thesis",
       "name": "thesis/main.log",
       "ok": true,
-      "detail": "43587 bytes"
+      "detail": "42043 bytes"
     },
     {
       "category": "rendered thesis",
       "name": "latex hard-error scan",
       "ok": true,
       "detail": "no hard LaTeX failures found"
+    },
+    {
+      "category": "rendered thesis",
+      "name": "source placeholder scan",
+      "ok": true,
+      "detail": "no submission placeholders found"
     },
     {
       "category": "claim discipline",

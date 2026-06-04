@@ -31,8 +31,8 @@ The current manifest is therefore cross-domain but not perfectly balanced.
 
 \begin{table}[t]
   \centering
-  \caption{Inter-annotator agreement for hierarchical annotations
-  (\texttt{data/gt\_hier/iaa\_report.json}, tolerance = 1 sentence).}
+  \caption{Inter-annotator agreement for hierarchical annotations at a
+  tolerance of one sentence.}
   \label{tab:iaa}
   \begin{tabular}{lcc}
     \toprule
@@ -55,6 +55,16 @@ under $P_k$ and WD. Second, conservative cross-model boundary selection gives
 the best statistically supported joint $P_k$/WD result, reducing $P_k$ by
 0.0171 absolute relative to BGE-divisive. Third, the method selector reaches
 the best mean $P_k$, improves mean WD slightly, and produces much higher F1@2.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figures/fig_final_results.pdf}
+  \caption{Primary LECSEG-30 operating points. Lower is better for $P_k$ and
+  WindowDiff; higher is better for F1@2. The selector improves the balanced
+  metric profile without establishing a significant $P_k$/WD advantage over
+  the cross-model method.}
+  \label{fig:final_results}
+\end{figure}
 
 \input{tables/significance}
 
@@ -95,6 +105,15 @@ worsens both $P_k$ and WD there, which suggests that the current method selector
 does not yet have enough domain-specific evidence to avoid poor choices on the
 smallest domain split.
 
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figures/fig_domain_performance.pdf}
+  \caption{Domain-level $P_k$ comparison. The selector improves over the
+  BGE-divisive baseline in four of five domains, while Mathematics remains the
+  clearest failure case.}
+  \label{fig:domain_performance}
+\end{figure}
+
 \input{tables/selector_choice_audit}
 
 Table~\ref{tab:selector_choice_audit} audits the selector at the individual
@@ -125,6 +144,7 @@ as a domain-general deployment model.
   \centering
   \caption{Selected ablations and diagnostics.}
   \label{tab:ablation}
+  \resizebox{\linewidth}{!}{%
   \begin{tabular}{lrrl}
     \toprule
     Variant & $P_k\downarrow$ & WD$\downarrow$ & Interpretation \\
@@ -137,6 +157,7 @@ as a domain-general deployment model.
     Oracle-k divisive & 0.4237 & -- & Segment count is not the bottleneck \\
     \bottomrule
   \end{tabular}
+  }
 \end{table}
 
 The diagnostics are as important as the positive result. Oracle-k evaluation

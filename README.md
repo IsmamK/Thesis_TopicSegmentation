@@ -23,11 +23,14 @@ remaining submission checks.
 | Subtopic labels | 904 reviewed hierarchical subtopics |
 | IAA | chapter kappa 0.5351, subtopic kappa 0.4257 |
 | Stable baseline | BGE + divisive, Pk 0.3884, WD 0.3956 |
-| Current best official 30-video result | cross_e5_frac70_minlen11, Pk 0.3715, WD 0.3766 |
+| Best valid mean Pk/WD operating point | balanced LOO selector, Pk 0.3588, WD 0.3739 |
+| Best single global method | cross-model conservative, Pk 0.3713, WD 0.3764 |
 
-The best current result is an improvement over the stable BGE-divisive baseline,
-but the project should not claim sub-0.30 Pk/WD unless a new verified experiment
-achieves it.
+The balanced selector significantly improves Pk/WD over the stable
+BGE-divisive baseline. Its Pk/WD gains over the best single global method are
+not statistically significant, and leave-domain-out performance is weaker.
+The project therefore makes a low-resource, reproducible local-benchmark claim,
+not an external state-of-the-art claim.
 
 ## Quick Start
 
