@@ -2240,3 +2240,27 @@ and MIT 6.S191 series (4 videos).
 - The repository evidence supports the safe thesis framing: LECSEG is a reproducible low-resource lecture-video topic segmentation benchmark and diagnostic pipeline, not an external SOTA claim.
 - Main supported result remains the balanced LOO selector at Pk 0.3588 and WD 0.3739, with caveats about non-significant Pk/WD gain over the cross-model method and weak domain generalization.
 - Mandatory progress logging completed for this session.
+
+## [2026-06-05 14:55] — GitHub push: learning docs and final artifacts
+
+### What was done
+- Staged and committed thesis-relevant untracked/modified artifacts:
+  - `THESIS_MASTER_UNDERSTANDING_DOCUMENT_BY_CHATGPT`
+  - `THESIS_MASTER_UNDERSTANDING_DOCUMENT_BY_CLAUDE.md`
+  - HuggingFace export files under `data/hf_export/`
+  - `data/huggingface_dataset_card.md`
+  - final diagnostic figures under `figures/`
+  - `results/embedding_variance.json`
+  - `results/eval_discourse_boosted_bge_large_e5large.json`
+  - `scripts/discourse_boosted_eval.py`
+  - `docs/PROGRESS_LOG.md`
+- Pushed local `main` to GitHub remote `origin`.
+
+### Results
+- Commit pushed: `0ee5b5fd` — `Add thesis learning docs and final artifacts`.
+- GitHub remote updated from `148fbf0b` to `0ee5b5fd` on branch `main`.
+- Push target: `https://github.com/IsmamK/Thesis_TopicSegmentation.git`.
+
+### Observations
+- Raw videos, embeddings, virtual environment, caches, internal notes, external repo content, and other ignored/private-heavy files were not staged.
+- This entry records the push result required by the mandatory progress logging rule.
