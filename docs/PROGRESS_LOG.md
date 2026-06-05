@@ -2050,3 +2050,17 @@ Results:
 - Full expansion is useful for future work or a paper extension, but risky as a last-minute thesis change.
 
 Observation: adding videos is only scientifically valid if the entire processing and evaluation chain is completed; raw downloads alone would weaken rather than strengthen the thesis.
+
+---
+
+## [2026-06-05 08:03] - Final recommended action list
+
+Recorded the final action recommendation after the result-improvement sprint and data-expansion decision.
+
+Results:
+- Immediate recommendation: preserve the current 30-video benchmark, final result, and claim boundary.
+- Highest-value optional addition before defense: same-dataset local LLM baseline on the existing 30 videos.
+- Highest-value non-experimental additions: defense script, case-study slides, and examiner-facing claim summary.
+- Do not reopen full 50-video expansion before submission unless there is enough time for a complete data-processing and revalidation sprint.
+
+Observation: the thesis is strongest now as a polished, honest, reproducible low-resource benchmark-and-diagnosis contribution. The remaining improvements should reduce examiner doubt, not destabilize the official benchmark.
