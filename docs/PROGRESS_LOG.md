@@ -1899,3 +1899,16 @@ Results:
 - Highest-value optional upgrades, if time permits, are a simple LLM baseline, a qualitative case-study chapter, and an explicit oracle-gap/negative-results discussion.
 
 Observation: the thesis should be defended as a reproducible low-resource benchmark and empirical study with a modest but validated local improvement, not as a new state-of-the-art segmentation architecture.
+
+---
+
+## [2026-06-05 06:42] - Novelty upgrade strategy
+
+Outlined practical paths for making the thesis genuinely stronger and more novel without relying on unsupported claims. The preferred direction is to turn the work from a model-comparison thesis into a benchmark-plus-diagnosis thesis, optionally adding one compact method contribution that the current data can support.
+
+Results:
+- Recommended primary novelty: low-resource hierarchical lecture-segmentation benchmark with domain, hierarchy, and oracle-gap analysis.
+- Recommended optional method novelty: boundary-level candidate verifier or concept-transition diagnostic, not another video-level selector.
+- Recommended paper framing: "what fails in low-resource lecture segmentation and why" rather than "new SOTA model."
+
+Observation: the thesis can become more impressive by being more precise and analytical, not by adding broad late-stage architectures that cannot be validated rigorously on 30 videos.
