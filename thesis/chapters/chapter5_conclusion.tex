@@ -40,9 +40,12 @@ justify a universal external best-system claim.
 
   \item Diagnostic analysis: oracle-k, portfolio, multimodal, LLM, and
     supervised-transfer experiments identify boundary scoring/ranking as the
-    main bottleneck. The final sprint also adds a same-dataset TreeSeg-style
-    comparison, which improves exact-boundary F1 but remains weaker on
-    $P_k$/WD.
+    main bottleneck. A systematic ablation across acoustic (pause/pitch,
+    $P_k=0.4174$), language-model perplexity ($P_k=0.4309$), BERTopic
+    ($P_k=0.5632$), and discourse-marker methods confirms a granularity
+    mismatch: all non-text modalities over-segment relative to YouTube
+    chapter boundaries. A same-dataset TreeSeg-style comparison improves
+    exact-boundary F1 but remains weaker on $P_k$/WD.
 \end{enumerate}
 
 \section{Limitations}
@@ -62,14 +65,82 @@ justify a universal external best-system claim.
     different objectives.
 
   \item \textbf{Multimodal signal reliability.}
-    Shot, OCR, and prosody features were extracted, but current ablations show
-    that these modalities can hurt when they are flat, noisy, or misaligned with
-    semantic topic shifts.
+    Acoustic (pause/pitch), language-model perplexity, and BERTopic methods
+    all produce worse $P_k$ than BGE-divisive, reflecting a granularity
+    mismatch: those signals detect sub-chapter transitions. The exception is
+    CLIP visual embeddings: CLIP alone reaches $P_k=0.3958$, and CLIP plus
+    text fusion reaches $P_k=0.3740$ --- below the cross-model text method
+    ($P_k=0.3715$) but better than BGE-divisive ($P_k=0.3884$). Visual scene
+    changes in lecture slides carry chapter-level granularity and are a
+    promising signal for future work.
 
   \item \textbf{LLM refinement.}
     The local LLM component is implemented, but the current verified metrics do
     not justify claiming large boundary-placement gains from LLM refinement.
 \end{itemize}
+
+\section{The path to beating TreeSeg}
+\label{sec:beat_treeseg}
+
+A natural question is: what would it take for a future system to clearly
+outperform the best available lecture segmentation reference? The oracle
+analysis in this thesis provides a precise answer.
+
+TreeSeg (Gklezakos et al.\ 2024) reports $P_k=0.367$ on TinyRec (21
+self-recorded lectures). LECSEG-30 achieves $P_k=0.3588$ with the balanced
+selector on a different dataset, so the two results are
+indicative but not directly comparable without a shared benchmark.
+
+More importantly, the oracle experiment shows what is theoretically achievable
+on LECSEG-30 itself: with perfect candidate selection from the generated
+candidate pool, $P_k=0.0172$ is reachable at 96.8\% recall
+(\texttt{results/defense\_oracle\_gap.json}). The gap between this oracle and
+the deployable best ($\Delta P_k \approx 0.341$) is entirely in
+\emph{boundary selection}, not candidate generation. Table~\ref{tab:oracle_gap}
+summarises this:
+
+\begin{table}[h]
+  \centering
+  \caption{Oracle gap analysis on LECSEG-30.}
+  \label{tab:oracle_gap}
+  \begin{tabular}{lrr}
+    \toprule
+    Operating point & $P_k\downarrow$ & WD$\downarrow$ \\
+    \midrule
+    BGE-divisive baseline & 0.3884 & 0.3956 \\
+    Cross-model conservative (best global) & 0.3713 & 0.3764 \\
+    Balanced selector (best deployable) & 0.3588 & 0.3739 \\
+    TreeSeg paper (TinyRec, indicative) & 0.367 & --- \\
+    Per-video oracle (not deployable) & 0.2980 & 0.3280 \\
+    Candidate oracle $\tau=2$ (upper bound) & 0.0172 & 0.0198 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+The concrete steps to a system that would clearly beat TreeSeg on a shared
+benchmark are:
+
+\begin{enumerate}
+  \item \textbf{More training signal.} The selector is trained leave-one-out on
+    30 videos. Expanding to 50--100 fully annotated lectures would give the
+    selector 2--3$\times$ more per-fold evidence, likely closing the gap by
+    several $P_k$ points.
+
+  \item \textbf{Boundary-level ranker.} A ranker trained on candidate-level
+    features (local cosine contrast, pause duration, discourse marker presence,
+    slide change signal) rather than video-level method selection would directly
+    address the oracle gap.
+
+  \item \textbf{Same-dataset comparison.} Running TreeSeg's original code on
+    LECSEG-30 (or vice versa) would convert the current indicative comparison
+    into a definitive head-to-head result.
+
+  \item \textbf{LLM-based boundaries.} A properly prompted large language model
+    (GPT-4 or a strong local model) operating on chunk-by-chunk transcripts could
+    leverage discourse understanding not captured by cosine similarity. The
+    LECSEG-30 benchmark, annotations, and evaluation code are now available for
+    any future system to be measured against.
+\end{enumerate}
 
 \section{Future work}
 

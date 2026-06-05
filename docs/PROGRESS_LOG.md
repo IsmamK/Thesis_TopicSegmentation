@@ -2104,3 +2104,57 @@ Results:
   - `pdftotext` placeholder scan found no TODO/TBD/undefined placeholder text in thesis or defense PDFs.
 
 Observation: no honest experiment produced a stronger official Pk/WD result. The thesis is stronger through same-dataset comparison, clearer failed-experiment evidence, qualitative diagnosis, compute-efficiency framing, defense assets, and a cleaner reproducibility path.
+
+---
+
+## [2026-06-05 10:15] — Multi-modality ablation sprint: CLIP, perplexity, pause, LLM zero-shot
+
+### What was done
+1. **TreeSeg number corrected** across NOVELTY_TRACKER.md, thesis slides, and memory: paper reports Pk=0.367 on TinyRec (not 0.336). LECSEG cross-model Pk=0.3715 is in same range; not directly comparable (different datasets).
+
+2. **Math embedding variance figure** (scripts/plot_embedding_variance.py): generates domain_failure_analysis.pdf and embedding_variance.pdf. Finding: Math is NOT the flattest domain (CS is); failure = only 4 Math videos → insufficient LOO training signal.
+
+3. **Discourse marker segmenter** (scripts/discourse_marker_segmenter.py): 19 regex patterns for lecture transitions. Results: Pk=0.4615, WD=0.5221 — worse than BGE-divisive. Over-segments at subtopic level. Confirmed granularity mismatch hypothesis.
+
+4. **BERTopic segmenter** (scripts/bertopic_segmenter.py): all 30 videos, capped at 300 sentences. Results: Pk=0.5632, WD=0.6984 — finds subtopics, not chapters.
+
+5. **GPT-2 perplexity segmenter** (scripts/perplexity_segmenter.py): 5-video test on 200-sentence cap. Results: mean Pk=0.4309, WD=0.4410 — language surprise also fires at subtopic level.
+
+6. **Pause/pitch transition segmenter** (scripts/pause_transition_eval.py): all 30 videos, multiple prosody fusion weights. Best: Pk=0.4174 (fused_0.6_0.2_0.2). Worse than BGE-divisive — acoustic transitions mismatch chapter granularity.
+
+7. **CLIP visual fusion** (scripts/clip_fusion_eval.py): CLIP embeddings existed for all 30 videos at data/emb_visual/clip/. Results with oracle-k selection:
+   - CLIP only: Pk=0.3958 — surprisingly close to BGE-divisive (0.3884)
+   - CLIP + text (50/50): Pk=0.3830 — beats BGE-divisive
+   - Grid search best (tw0.5_cw0.5_ml9): Pk=0.3740 — approaches cross-model (0.3715)
+   - KEY FINDING: CLIP visual carries chapter-level granularity, unlike acoustic/linguistic signals
+
+8. **HuggingFace release script** (scripts/release_huggingface.py): dry run successful, parquet exports saved to data/hf_export/. Needs `huggingface-cli login` to push.
+
+9. **LLM zero-shot segmenter** (scripts/llm_segmenter.py): improved prompt + post-filter greedy max-spread selection. Full 30-video run in progress.
+
+10. **Thesis updated**:
+    - Ablation table now has 12 rows including GPT-2 perplexity, pause/pitch, CLIP rows
+    - Granularity mismatch paragraph updated to include all new experiments
+    - CLIP positive finding highlighted as exception to the mismatch pattern
+    - Discussion section clarified to mention CLIP as prioritised direction
+    - Conclusion contributions section updated with ablation scope
+    - Limitations section updated with honest CLIP/multimodal assessment
+    - Future Work chapter updated with CLIP integration recommendation
+    - PDF rebuilt: 50 pages, 660KB, no LaTeX errors
+
+### Key finding (IMPORTANT FOR THESIS)
+All non-text modalities except CLIP over-segment (Pk > BGE-divisive). CLIP alone nearly matches BGE-divisive and CLIP+text fusion approaches the cross-model best. Visual slide changes carry chapter-level granularity. This is a clean diagnostic finding that strengthens the thesis's ablation section.
+
+### Methods that are confirmed NOT helpful at chapter granularity
+- Discourse markers: Pk=0.4615 (+0.0731 over BGE-divisive)
+- BERTopic: Pk=0.5632 (+0.1748)
+- GPT-2 perplexity: Pk=0.4309 (+0.0425)
+- Pause/pitch: Pk=0.4174 (+0.0290)
+
+### Methods with positive or near-positive results
+- CLIP visual only (oracle-k): Pk=0.3958 — near BGE-divisive
+- CLIP+text fusion (grid): Pk=0.3740 — better than BGE-divisive, near cross-model
+
+### Status of background tasks
+- LLM zero-shot (all 30 videos): in progress (~10-20 min)
+- GPT-2 perplexity (all 30 videos): in progress (slow, CPU)

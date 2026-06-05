@@ -1,0 +1,30 @@
+{
+  "method": "pause_transition_segmenter",
+  "n_videos": 30,
+  "summary": {
+    "pause": {
+      "mean_pk": 0.4178,
+      "mean_wd": 0.457
+    },
+    "pitch_reset": {
+      "mean_pk": 0.4829,
+      "mean_wd": 0.5089
+    },
+    "pitch_std": {
+      "mean_pk": 0.4608,
+      "mean_wd": 0.4967
+    },
+    "fused_0.6_0.2_0.2": {
+      "mean_pk": 0.4174,
+      "mean_wd": 0.4553
+    },
+    "fused_0.5_0.3_0.2": {
+      "mean_pk": 0.4269,
+      "mean_wd": 0.4654
+    },
+    "fused_0.7_0.2_0.1": {
+      "mean_pk": 0.4302,
+      "mean_wd": 0.4656
+    }
+  }
+}

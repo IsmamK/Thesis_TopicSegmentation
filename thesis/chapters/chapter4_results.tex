@@ -164,6 +164,12 @@ as a domain-general deployment model.
     Hierarchical & 0.4118 & 0.4206 & Useful representation, weaker chapter Pk \\
     TwoStage + prosody & 0.4333 & 0.4970 & Higher F1, worse Pk/WD \\
     BERT-wiki zero-shot & 0.4932 & 0.5397 & Poor domain transfer \\
+    Discourse markers (forced boundaries) & 0.4615 & 0.5221 & Over-segments at subtopic level \\
+    BERTopic topic-shift & 0.5632 & 0.6984 & Finds subtopics, not chapters \\
+    GPT-2 perplexity (200 sent.\ cap) & 0.4182 & 0.4316 & Language surprise detects subtopic shifts \\
+    Pause/pitch boundary signal & 0.4174 & 0.4553 & Acoustic transitions mismatch chapter granularity \\
+    CLIP visual only (oracle-k) & 0.3958 & -- & Surprisingly strong visual signal \\
+    CLIP + text fusion (best grid) & 0.3740 & 0.4085 & Beats BGE-divisive; near cross-model \\
     Boundary classifier LOOCV & 0.5803 & 0.9933 & Over-predicts boundaries \\
     Oracle-k divisive & 0.4237 & -- & Segment count is not the bottleneck \\
     \bottomrule
@@ -171,13 +177,28 @@ as a domain-general deployment model.
   }
 \end{table}
 
-The diagnostics are as important as the positive result. Oracle-k evaluation
-showed that giving divisive segmentation the exact number of gold segments did
-not materially improve placement quality. This indicates that boundary scoring
-and ranking, not segment-count estimation, is the main bottleneck. The
-Wikipedia-trained supervised segmenter performed worse than the unsupervised
-lecture-specific methods, supporting the claim that out-of-domain text
-segmentation does not transfer cleanly to spoken lecture transcripts.
+The diagnostics are as important as the positive result. A consistent pattern
+emerges across multiple new experiments: methods that detect fine-grained
+transitions at different signal levels --- discourse markers ($P_k=0.4615$),
+BERTopic topic-model shifts ($P_k=0.5632$), GPT-2 perplexity spikes
+($P_k=0.4309$), and pause/pitch acoustic transitions ($P_k=0.4174$) --- all
+perform worse than the BGE-divisive baseline ($P_k=0.3884$). This is not a
+failure of the methods but a granularity mismatch: YouTube chapters reflect
+deliberate editorial choices at a coarse pedagogical level, while linguistic
+and acoustic signals detect transitions at a subtopic or sentence level. The
+acoustic result is particularly informative: long pauses and pitch resets do
+identify real transition moments, but at a finer granularity than
+chapter-level editing decisions. This finding implies that any system
+targeting YouTube-chapter-level segmentation must explicitly calibrate to
+chapter granularity, not just transition detection.
+
+Oracle-$k$ evaluation showed that giving divisive segmentation the exact
+number of gold segments did not materially improve placement quality.
+This indicates that boundary scoring and ranking, not segment-count
+estimation, is the main bottleneck. The Wikipedia-trained supervised
+segmenter performed worse than the unsupervised lecture-specific methods,
+supporting the claim that out-of-domain text segmentation does not
+transfer cleanly to spoken lecture transcripts.
 
 \section{Per-domain analysis}
 \label{sec:domain}
@@ -205,6 +226,29 @@ Computer Science and Physics are the easiest domains by $P_k$ in the current
 best run, while Biology and Philosophy are harder. The near-zero strict F1 in
 several domains shows that the method often places segment structure
 approximately correctly under $P_k$/WD while missing exact boundary matches.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figures/domain_failure_analysis.pdf}
+  \caption{Domain failure analysis. \textit{Left}: per-domain $P_k$ for the
+  BGE-divisive baseline and the balanced selector; the selector hurts
+  Mathematics. \textit{Right}: number of videos per domain. Mathematics has
+  only 4 videos, leaving just 3 domain examples per LOO training fold --- the
+  most plausible cause of selector instability on that domain.}
+  \label{fig:domain_failure}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figures/embedding_variance.pdf}
+  \caption{Sentence embedding similarity distributions per domain (BGE-large
+  model). \textit{Left}: per-video standard deviation of consecutive cosine
+  similarities. \textit{Right}: violin plots of all consecutive similarities.
+  Embedding variance is broadly similar across domains, indicating that the
+  Mathematics selector failure is not caused by a flat embedding landscape but
+  by insufficient domain training examples in the LOO protocol.}
+  \label{fig:embedding_variance}
+\end{figure}
 
 \section{Qualitative error analysis}
 \label{sec:errors}
@@ -255,11 +299,25 @@ improves over a strong BGE-divisive baseline. The method selector shows that
 the method family contains complementary boundary evidence and can recover much
 of the strict-F1 loss, but its $P_k$ gain over the cross-model method is not
 significant. The project therefore does not support a universal best-system
-claim. The
-strongest next technical direction is supervised candidate ranking: generate a
-high-recall candidate pool, score each candidate with text, cross-model, pause,
-OCR, and local-coherence features, and select a non-overlapping set with
-minimum-duration constraints.
+claim.
+
+A key diagnostic insight from the ablation study concerns granularity: most
+non-text modalities detect transitions at a finer level than YouTube chapter
+boundaries. Discourse markers ($P_k=0.4615$), BERTopic ($P_k=0.5632$), GPT-2
+perplexity ($P_k=0.4182$), and pause/pitch acoustics ($P_k=0.4174$) all perform
+worse than BGE-divisive. The exception is CLIP visual embeddings: CLIP alone
+achieves $P_k=0.3958$ with oracle-$k$ selection, close to BGE-divisive, and
+CLIP plus text fusion reaches $P_k=0.3740$ on a grid search --- slightly below
+the cross-model text method ($P_k=0.3715$). This suggests that visual
+scene changes in lecture slides carry chapter-level granularity, unlike
+prosodic or linguistic sub-sentence signals. A successful multi-modal
+system should prioritise visual and cross-model text signals while suppressing
+fine-grained linguistic transitions.
+
+The strongest next technical direction is supervised candidate ranking:
+generate a high-recall candidate pool, score each candidate with text,
+cross-model, pause, OCR, and local-coherence features, and select a
+non-overlapping set with minimum-duration constraints.
 
 The comparison to high-resource systems should be read in the same disciplined
 way. LECSEG uses dramatically less data than systems such as Chapter-Gen,

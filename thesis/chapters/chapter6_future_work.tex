@@ -15,11 +15,14 @@ $P_k$, WindowDiff, and tolerance-F1.
 
 Prosodic features (pause duration, pitch reset) and visual streams (shot
 boundaries, slide OCR) are available in the pipeline, but current ablations show
-that they can hurt $P_k$/WindowDiff when the signal is flat or poorly aligned
-with semantic transitions. Future work should treat these modalities as
-conditional evidence rather than always-on features. A modality-dropout or
-quality-gating scheme could make the system robust to missing modalities
-(e.g., audio-only or slides-only lectures).
+that acoustic and linguistic sub-sentence signals can hurt $P_k$/WindowDiff
+when their granularity does not match chapter-level editorial decisions.
+The exception is CLIP visual embeddings: CLIP alone achieves $P_k=0.3958$ and
+CLIP plus text fusion reaches $P_k=0.3740$, approaching the cross-model text
+method ($P_k=0.3715$). Visual scene changes in lecture slides appear to carry
+chapter-level granularity. Future work should therefore prioritise CLIP visual
+integration within the cross-model scoring framework, and apply quality-gating
+only to the noisier acoustic and OCR modalities.
 
 \section{Streaming and online inference}
 

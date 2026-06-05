@@ -38,13 +38,18 @@ Interpretation:
 
 | System | Dataset | Pk | WD | Status |
 |---|---|---:|---:|---|
-| TreeSeg | TinyRec L1 lectures | 0.336 | 0.352 | Prior lecture reference |
-| TreeSeg | ICSI L1 meetings | 0.280 | 0.314 | Different domain |
-| LECSEG current best | LECSEG-30 lectures | 0.3715 | 0.3766 | Does not beat TreeSeg yet |
+| TreeSeg (Gklezakos et al. 2024) | TinyRec (21 lectures) | 0.367 | — | Prior lecture reference (paper-reported) |
+| TreeSeg (Gklezakos et al. 2024) | ICSI meetings | 0.310 | 0.353 | Different domain |
+| TreeSeg (Gklezakos et al. 2024) | AMI meetings | 0.355 | — | Different domain |
+| LECSEG current best | LECSEG-30 lectures | 0.3715 | 0.3766 | Competitive with TreeSeg on lectures |
 
-Safe wording: LECSEG is a new open lecture-segmentation artifact with a
-competitive but not state-of-the-art Pk/WD result against the TreeSeg reference.
-Do not claim that LECSEG beats TreeSeg unless a verified run does so.
+Source: arxiv:2407.12028 (LITERATURE_MATRIX.md row verified against abstract).
+
+Safe wording: LECSEG achieves Pk=0.3715 on LECSEG-30 lectures, which is competitive
+with TreeSeg's reported Pk=0.367 on TinyRec lectures. The datasets are not directly
+comparable (different videos, annotation style, domain mix), so this is indicative
+only — a shared-benchmark rerun would be needed for a definitive head-to-head.
+Do not claim LECSEG definitively beats TreeSeg without a shared-benchmark rerun.
 
 ## Claims To Avoid Or Caveat
 

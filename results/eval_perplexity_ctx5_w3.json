@@ -1,0 +1,257 @@
+{
+  "method": "gpt2_perplexity_segmenter",
+  "summary": {
+    "gpt2_perplexity": {
+      "mean_pk": 0.4182,
+      "mean_wd": 0.4316,
+      "mean_bs": 0.0611,
+      "mean_f1": 0.0944,
+      "n_videos": 30,
+      "cap_sentences": 200,
+      "context_size": 5,
+      "smooth_window": 3
+    }
+  },
+  "per_video": {
+    "NNnIGh9g6fA": {
+      "pk": 0.4166666666666667,
+      "wd": 0.45555555555555555,
+      "boundary_similarity": 0.0,
+      "f1": 0.0,
+      "n_boundaries": 4,
+      "n_gt_boundaries": 4
+    },
+    "TjZBTDzGeGg": {
+      "pk": 0.3772455089820359,
+      "wd": 0.3772455089820359,
+      "boundary_similarity": 0.0,
+      "f1": 0.0,
+      "n_boundaries": 2,
+      "n_gt_boundaries": 2
+    },
+    "zNVQfWC_evg": {
+      "pk": 0.24,
+      "wd": 0.25142857142857145,
+      "boundary_similarity": 0.22222222222222224,
+      "f1": 0.3333333333333333,
+      "n_boundaries": 3,
+      "n_gt_boundaries": 3
+    },
+    "fsLh-NYhOoU": {
+      "pk": 0.5149700598802395,
+      "wd": 0.5149700598802395,
+      "boundary_similarity": 0.0,
+      "f1": 0.0,
+      "n_boundaries": 2,
+      "n_gt_boundaries": 2
+    },
+    "j0wJBEZdwLs": {
+      "pk": 0.6057142857142858,
+      "wd": 0.6057142857142858,
+      "boundary_similarity": 0.0,
+      "f1": 0.0,
+      "n_boundaries": 3,
+      "n_gt_boundaries": 3
+    },
+    "Rl0ludWTLxs": {
+      "pk": 0.1437125748502994,
+      "wd": 0.20359281437125748,
+      "boundary_similarity": 0.0,
+      "f1": 0.0,
+      "n_boundaries": 2,
+      "n_gt_boundaries": 2
+    },
+    "oqRU2So6Z2Y": {
+      "pk": 0.34,
+      "wd": 0.34,
+      "boundary_similarity": 0.0,
+      "f1": 0.0,
+      "n_boundaries": 1,
+      "n_gt_boundaries": 1
+    },
+    "JP7ITIXGpHk": {
+      "pk": 0.543010752688172,
+      "wd": 0.5591397849462365,
+      "boundary_similarity": 0.11111111111111112,
+      "f1": 0.16666666666666666,
+      "n_boundaries": 6,
+      "n_gt_boundaries": 6
+    },
+    "uK2eFv7ne_Q": {
+      "pk": 0.05333333333333334,
+      "wd": 0.05333333333333334,
+      "boundary_similarity": 0.0,
+      "f1": 0.0,
+      "n_boundaries": 1,
+      "n_gt_boundaries": 1
+    },
+    "KNwMiydCYA4": {
+      "pk": 0.39690721649484534,
+      "wd": 0.4020618556701031,
+      "boundary_similarity": 0.35555555555555557,
+      "f1": 0.5333333333333333,
+      "n_boundaries": 15,
+      "n_gt_boundaries": 15
+    },
+    "S7TUe5w6RHo": {
+      "pk": 0.5,
+      "wd": 0.5102040816326531,
+      "boundary_similarity": 0.3733974358974359,
+      "f1": 0.5599999999999999,
+      "n_boundaries": 24,
+      "n_gt_boundaries": 26
+    },
+    "D8RRq3TbtHU": {
+      "pk": 0.4,
+      "wd": 0.4342857142857143,
+      "boundary_similarity": 0.0,
+      "f1": 0.0,
+      "n_boundaries": 3,
+      "n_gt_boundaries": 3
+    },
+    "Qw4l1w0rkjs": {
+      "pk": 0.5384615384615384,
+      "wd": 0.5435897435897435,
+      "boundary_similarity": 0.2222222222222222,
+      "f1": 0.4444444444444444,
+      "n_boundaries": 18,
+      "n_gt_boundaries": 18
+    },
+    "MGyygiXMzRk": {
+      "pk": 0.5136612021857924,
+      "wd": 0.5355191256830601,
+      "boundary_similarity": 0.0,
+      "f1": 0.0,
+      "n_boundaries": 5,
+      "n_gt_boundaries": 5
+    },
+    "8yT4RZy1t3s": {
+      "pk": 0.574468085106383,
+      "wd": 0.5797872340425532,
+      "boundary_similarity": 0.04761904761904762,
+      "f1": 0.14285714285714285,
+      "n_boundaries": 7,
+      "n_gt_boundaries": 7
+    },
+    "GR63MMAi-fs": {
+      "pk": 0.2634730538922156,
+      "wd": 0.2634730538922156,
+      "boundary_similarity": 0.0,
+      "f1": 0.0,
+      "n_boundaries": 2,
+      "n_gt_boundaries": 2
+    },
+    "KOKnWaLiL8w": {
+      "pk": 0.59,
+      "wd": 0.59,
+      "boundary_similarity": 0.0,
+      "f1": 0.0,
+      "n_boundaries": 1,
+      "n_gt_boundaries": 0
+    },
+    "Hy7ou5R_vjE": {
+      "pk": 0.34,
+      "wd": 0.34,
+      "boundary_similarity": 0.0,
+      "f1": 0.0,
+      "n_boundaries": 1,
+      "n_gt_boundaries": 1
+    },
+    "Ns6GB4Dph9U": {
+      "pk": 0.34,
+      "wd": 0.34,
+      "boundary_similarity": 0.0,
+      "f1": 0.0,
+      "n_boundaries": 1,
+      "n_gt_boundaries": 1
+    },
+    "KlVHqq38KJU": {
+      "pk": 0.592814371257485,
+      "wd": 0.592814371257485,
+      "boundary_similarity": 0.0,
+      "f1": 0.0,
+      "n_boundaries": 2,
+      "n_gt_boundaries": 2
+    },
+    "9N1MxkbFhsc": {
+      "pk": 0.44808743169398907,
+      "wd": 0.5245901639344263,
+      "boundary_similarity": 0.0,
+      "f1": 0.0,
+      "n_boundaries": 5,
+      "n_gt_boundaries": 5
+    },
+    "uO5k9xcD1gU": {
+      "pk": 0.49333333333333335,
+      "wd": 0.49333333333333335,
+      "boundary_similarity": 0.0,
+      "f1": 0.0,
+      "n_boundaries": 1,
+      "n_gt_boundaries": 1
+    },
+    "AMl6E4cLrwE": {
+      "pk": 0.37158469945355194,
+      "wd": 0.37158469945355194,
+      "boundary_similarity": 0.2,
+      "f1": 0.20000000000000004,
+      "n_boundaries": 5,
+      "n_gt_boundaries": 5
+    },
+    "YdOXS_9_P4U": {
+      "pk": 0.24550898203592814,
+      "wd": 0.2694610778443114,
+      "boundary_similarity": 0.0,
+      "f1": 0.0,
+      "n_boundaries": 2,
+      "n_gt_boundaries": 2
+    },
+    "oOya3cFmAMc": {
+      "pk": 0.4972677595628415,
+      "wd": 0.5355191256830601,
+      "boundary_similarity": 0.13333333333333336,
+      "f1": 0.20000000000000004,
+      "n_boundaries": 5,
+      "n_gt_boundaries": 5
+    },
+    "7K1sB05pE0A": {
+      "pk": 0.5833333333333334,
+      "wd": 0.5833333333333334,
+      "boundary_similarity": 0.0,
+      "f1": 0.0,
+      "n_boundaries": 4,
+      "n_gt_boundaries": 4
+    },
+    "HtSuA80QTyo": {
+      "pk": 0.2874251497005988,
+      "wd": 0.2874251497005988,
+      "boundary_similarity": 0.0,
+      "f1": 0.0,
+      "n_boundaries": 2,
+      "n_gt_boundaries": 2
+    },
+    "lUUte2o2Sn8": {
+      "pk": 0.4666666666666667,
+      "wd": 0.5222222222222223,
+      "boundary_similarity": 0.16666666666666669,
+      "f1": 0.25,
+      "n_boundaries": 4,
+      "n_gt_boundaries": 4
+    },
+    "jGwO_UgTS7I": {
+      "pk": 0.5089820359281437,
+      "wd": 0.5089820359281437,
+      "boundary_similarity": 0.0,
+      "f1": 0.0,
+      "n_boundaries": 2,
+      "n_gt_boundaries": 2
+    },
+    "NK-BxowMIfg": {
+      "pk": 0.36,
+      "wd": 0.36,
+      "boundary_similarity": 0.0,
+      "f1": 0.0,
+      "n_boundaries": 1,
+      "n_gt_boundaries": 0
+    }
+  }
+}

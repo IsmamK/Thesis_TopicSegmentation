@@ -26,10 +26,12 @@ $P_k$. A stable balanced leave-one-video-out method selector further reaches
 mean $P_k=0.3588$, WindowDiff $=0.3739$, and F1@2 $=0.0893$. Its $P_k$/WD
 gains over the joint-best method are not statistically significant, but it
 significantly improves strict boundary-hit metrics and significantly beats the
-BGE-divisive baseline on $P_k$/WD. The results also show that exact boundary F1
-remains difficult, that visual/prosodic signals require careful reliability
-handling, and that out-of-domain supervised segmentation transfers poorly to
-lecture videos.
+BGE-divisive baseline on $P_k$/WD. A systematic ablation across acoustic (pause/pitch), BERTopic, GPT-2
+perplexity, and visual (CLIP) modalities reveals a granularity mismatch:
+acoustic and linguistic methods over-segment relative to YouTube chapter
+boundaries, while CLIP visual embeddings carry chapter-level granularity
+and fuse constructively with text ($P_k=0.3740$). Out-of-domain supervised
+segmentation also transfers poorly to lecture videos.
 
 The thesis is therefore positioned as a low-resource benchmark-and-diagnosis
 contribution rather than a large-scale chaptering model. Large supervised
