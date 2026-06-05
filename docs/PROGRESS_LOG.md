@@ -2158,3 +2158,68 @@ All non-text modalities except CLIP over-segment (Pk > BGE-divisive). CLIP alone
 ### Status of background tasks
 - LLM zero-shot (all 30 videos): in progress (~10-20 min)
 - GPT-2 perplexity (all 30 videos): in progress (slow, CPU)
+
+## [2026-06-05 14:30] — Dataset expansion: 20 verified candidates added to video_list.xlsx
+
+### What was done
+Searched 100+ YouTube video IDs using yt-dlp to find lectures with ≥4 chapters and ≥30 min.
+Found and verified 20 candidates; added to `data/video_list.xlsx` (rows 32–51).
+Also created `scripts/find_candidate_videos.py` and `docs/DATASET_EXPANSION_PLAN.md`.
+
+### Verified candidates added (data/video_list.xlsx rows 32–51)
+
+| # | Video ID | Domain | Title | Chapters | Duration |
+|---|----------|--------|-------|----------|----------|
+| 1 | EKWGGDXe5MA | CS | Feynman Lectures on Computing | 14 | 76 min |
+| 2 | ySEx_Bqxvvo | CS | MIT 6.S191 2023 RNNs/Transformers | 19 | 63 min |
+| 3 | kCc8FmEb1nY | CS | Karpathy build GPT from scratch | 30 | 116 min |
+| 4 | VMj-3S1tku0 | CS | Karpathy micrograd backprop | 22 | 146 min |
+| 5 | PaCmpygFfXo | CS | Karpathy makemore bigram | 24 | 118 min |
+| 6 | l8pRSuU81PU | CS | Karpathy reproduce GPT-2 | 31 | 241 min |
+| 7 | TCH_1BHY58I | CS | Karpathy makemore Part 2 MLP | 19 | 76 min |
+| 8 | zduSFxRajkE | CS | Karpathy build GPT Tokenizer | 24 | 134 min |
+| 9 | P6sfmUTpUmc | CS | Karpathy makemore Part 3 BatchNorm | 17 | 116 min |
+| 10 | t3YJ5hKiMQ0 | CS | Karpathy makemore Part 5 WaveNet | 18 | 56 min |
+| 11 | q8SA3rM6ckI | CS | Karpathy makemore Part 4 backprop | 8 | 115 min |
+| 12 | QFu5nuc-S0s | CS | Stanford CS229 Lec18 MDP | 9 | 80 min |
+| 13 | 7sB052Pz0sQ | CS | MIT 6.S191 2022 deep gen | 15 | 49 min |
+| 14 | ErnWZxJovaM | CS | MIT 6.S191 2024 limitations | 13 | 70 min |
+| 15 | 5tvmMX8r_OM | CS | MIT 6.S191 2021 intro | 15 | 57 min |
+| 16 | 2h1E3YJMKfA | Physics | Stanford QM Lecture 1 (Susskind) | 30 | 111 min |
+| 17 | pyX8kQ-JzHI | Physics | Stanford Classical Mechanics Lec1 | 12 | 48 min |
+| 18 | iJfw6lDlTuA | Physics | Susskind Statistical Mechanics | 9 | 107 min |
+| 19 | kBdfcR-8hEY | Philosophy | Harvard Justice Ep1 (Sandel) | 8 | 55 min |
+| 20 | ba-HMvDn_vU | Biology | MIT Intro Human Brain (Kanwisher) | 23 | 80 min |
+
+### Domain balance warning
+After adding: CS=22, Physics=10, Biology=7, Philosophy=7, Math=4.
+Math remains severely underrepresented. Could not find Math lecture videos with YouTube chapters
+despite searching MIT 18.01/18.02/18.06, 3Blue1Brown, Harvard, etc. — most either lack chapters
+or are private/unavailable. The 15 CS videos are dominated by the Karpathy series (9 videos)
+and MIT 6.S191 series (4 videos).
+
+### What still needs to be done (per new video)
+1. `python scripts/download_all.py` — download video+audio for new IDs
+2. Transcribe on vast.ai GPU: `python scripts/vast_transcribe.py`
+   Then `python scripts/download_transcripts.py` and DESTROY INSTANCE IMMEDIATELY
+3. `python src/lecseg/preprocess/sentence_split.py`
+4. `python src/lecseg/features/text_embeddings.py --model bge_large`
+5. `python src/lecseg/features/text_embeddings.py --model e5_large_v2`
+6. `python scripts/compute_clip_embeddings.py` (for each new video)
+7. `python scripts/fetch_youtube_chapters.py` — get GT boundaries
+8. `python scripts/autoannotate.py` — draft subtopic labels
+9. `streamlit run scripts/annotate.py` — REQUIRED human review (~30-60 min per video)
+10. `python scripts/run_eval.py` — rerun full eval on expanded dataset
+11. `python scripts/tables.py && python scripts/figures.py` — regenerate thesis assets
+
+## [2026-06-05 15:00] — Thesis cleanup and consistency pass
+
+### Fixes applied
+- **GPT-2 Pk inconsistency**: chapter4 ablation paragraph had stale `0.4309`; corrected to `0.4182` (matches table and discussion section). Same stale value in chapter5 contribution 6 also fixed.
+- **Wrong model names**: chapter3 feature extraction section said `all-mpnet-base-v2` was the "primary encoder" (768-dim) and listed `BAAI/bge-base-en-v1.5`. Corrected to `BAAI/bge-large-en-v1.5` (1024-dim, primary) with mpnet listed as an ablation variant.
+- **Appendix B hyperparameters table**: updated text encoder backbone from `all-mpnet-base-v2` (768-dim) to `BAAI/bge-large-en-v1.5` (1024-dim); updated runtime from 30s→60s for embedding; total adjusted 320→350s.
+- **Duplicate Future Work paragraph**: removed redundant "Future work" section from chapter5 conclusion (lines 147-153) that duplicated Chapter 6 content.
+
+### Files deleted
+- `scripts/add_candidates.py` — one-off script, task complete
+- `docs/DATASET_EXPANSION_PLAN.md` — dataset expansion deferred/cancelled

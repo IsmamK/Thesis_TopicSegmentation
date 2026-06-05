@@ -41,7 +41,7 @@ justify a universal external best-system claim.
   \item Diagnostic analysis: oracle-k, portfolio, multimodal, LLM, and
     supervised-transfer experiments identify boundary scoring/ranking as the
     main bottleneck. A systematic ablation across acoustic (pause/pitch,
-    $P_k=0.4174$), language-model perplexity ($P_k=0.4309$), BERTopic
+    $P_k=0.4174$), language-model perplexity ($P_k=0.4182$), BERTopic
     ($P_k=0.5632$), and discourse-marker methods confirms a granularity
     mismatch: all non-text modalities over-segment relative to YouTube
     chapter boundaries. A same-dataset TreeSeg-style comparison improves
@@ -141,15 +141,6 @@ benchmark are:
     LECSEG-30 benchmark, annotations, and evaluation code are now available for
     any future system to be measured against.
 \end{enumerate}
-
-\section{Future work}
-
-The most promising next step is supervised candidate ranking with
-leave-one-video-out validation. A high-recall candidate generator should first
-identify plausible boundaries; a ranker can then score candidates using local
-semantic contrast, cross-model embedding disagreement, pause features, OCR/shot
-changes, position priors, and minimum-duration constraints. This directly
-targets the bottleneck found by the oracle and method-portfolio experiments.
 
 \section{Closing remarks}
 

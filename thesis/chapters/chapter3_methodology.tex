@@ -112,10 +112,11 @@ estimated by PYIN~\citep{mauch2014pyin} via librosa.
 \section{Feature extraction}
 \label{sec:features}
 
-Text embeddings were computed with \texttt{sentence-transformers}~\citep{reimers2019sbert},
-using the \texttt{all-mpnet-base-v2} model (768-dim) as the primary encoder.
-We additionally evaluated \texttt{all-MiniLM-L6-v2} (SBERT), \texttt{intfloat/e5-base-v2}
-and \texttt{BAAI/bge-base-en-v1.5} as ablation variants.
+Text embeddings were computed with \texttt{sentence-transformers}~\citep{reimers2019sbert}.
+The primary models evaluated are \texttt{BAAI/bge-large-en-v1.5} (1024-dim) and
+\texttt{intfloat/e5-large-v2} (1024-dim), which produce the best boundary-scoring
+results. We also evaluated \texttt{all-mpnet-base-v2} (768-dim), \texttt{all-MiniLM-L6-v2},
+and \texttt{intfloat/e5-base-v2} as lighter ablation variants.
 Visual keyframe embeddings were computed with CLIP ViT-B/32
 (512-dim, L2-normalised)~\citep{radford2021clip}.
 Prosodic features were $z$-scored per video before fusion.

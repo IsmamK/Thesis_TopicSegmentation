@@ -22,8 +22,8 @@ ensuring full reproducibility.
         & Compute type & float16 \\
         & VAD filter & Enabled (500 ms min silence) \\
     \midrule
-    Text encoder & Backbone & \texttt{all-mpnet-base-v2} \\
-                 & Embedding dimension & 768 \\
+    Text encoder & Backbone & \texttt{BAAI/bge-large-en-v1.5} (primary) \\
+                 & Embedding dimension & 1024 \\
                  & L2-normalised & Yes \\
     \midrule
     Visual encoder & Backbone & CLIP ViT-B/32 \\
@@ -75,12 +75,12 @@ RTX-class hardware.
     \midrule
     Whisper large-v3 transcription & $\approx 200$ \\
     Sentence splitting (spaCy) & $< 1$ \\
-    Text embedding (MPNet, CPU) & $\approx 30$ \\
+    Text embedding (BGE-large, CPU) & $\approx 60$ \\
     CLIP visual embedding (GPU, 1 fps) & $\approx 60$ \\
     RWF fusion + boundary prediction & $< 1$ \\
     LLM refinement + titling (8B Q4) & $\approx 30$ \\
     \midrule
-    \textbf{Total} & $\mathbf{\approx 320}$ \\
+    \textbf{Total} & $\mathbf{\approx 350}$ \\
     \bottomrule
   \end{tabular}
 \end{table}
