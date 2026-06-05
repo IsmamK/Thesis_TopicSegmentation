@@ -1,0 +1,37 @@
+{
+  "MATH": {
+    "n_videos": 4,
+    "mean_std_sim": 0.10786,
+    "median_std_sim": 0.10292,
+    "mean_consecutive_sim": 0.56635,
+    "std_consecutive_sim": 0.10953
+  },
+  "BIOLOGY": {
+    "n_videos": 6,
+    "mean_std_sim": 0.11979,
+    "median_std_sim": 0.12059,
+    "mean_consecutive_sim": 0.578,
+    "std_consecutive_sim": 0.12362
+  },
+  "CS": {
+    "n_videos": 7,
+    "mean_std_sim": 0.10446,
+    "median_std_sim": 0.1108,
+    "mean_consecutive_sim": 0.55782,
+    "std_consecutive_sim": 0.10055
+  },
+  "PHILOSOPHY": {
+    "n_videos": 6,
+    "mean_std_sim": 0.1117,
+    "median_std_sim": 0.10833,
+    "mean_consecutive_sim": 0.55307,
+    "std_consecutive_sim": 0.11171
+  },
+  "PHYSICS": {
+    "n_videos": 7,
+    "mean_std_sim": 0.11132,
+    "median_std_sim": 0.1085,
+    "mean_consecutive_sim": 0.57162,
+    "std_consecutive_sim": 0.11133
+  }
+}

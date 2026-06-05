@@ -2223,3 +2223,20 @@ and MIT 6.S191 series (4 videos).
 ### Files deleted
 - `scripts/add_candidates.py` — one-off script, task complete
 - `docs/DATASET_EXPANSION_PLAN.md` — dataset expansion deferred/cancelled
+## [2026-06-05 14:47] — Master thesis understanding document created
+
+### What was done
+- Recursively inspected the thesis repository while excluding non-thesis internals such as `.venv`, `.git`, `.pytest_cache`, cache folders, and `.claude` worktrees from deep explanation.
+- Read and cross-checked the main thesis sources, project guides, result ledgers, data folders, code modules, result JSON artifacts, defense materials, paper files, and progress history.
+- Created the single requested master document: `THESIS_MASTER_UNDERSTANDING_DOCUMENT_BY_CHATGPT`.
+
+### Results
+- Final master document created successfully.
+- File size: 116,284 bytes.
+- The document includes the requested scope map, beginner summary, quick-track dashboard, repository work audit, thesis interpretation, file audit, dataset audit, preprocessing/methodology explanations, tools/libraries, methods, experiments, metrics, positive/negative results, limitations, future work, defense strategy, viva answers, glossary, presentation guide, recommendations, and final self-check.
+- No tests were run because this session was documentation/audit work only and did not modify code behavior.
+
+### Observations
+- The repository evidence supports the safe thesis framing: LECSEG is a reproducible low-resource lecture-video topic segmentation benchmark and diagnostic pipeline, not an external SOTA claim.
+- Main supported result remains the balanced LOO selector at Pk 0.3588 and WD 0.3739, with caveats about non-significant Pk/WD gain over the cross-model method and weak domain generalization.
+- Mandatory progress logging completed for this session.

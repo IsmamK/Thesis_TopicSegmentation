@@ -1,0 +1,1597 @@
+# Thesis Master Understanding Document
+
+Created on: 2026-06-05
+
+Repository inspected: `G:\THESIS\PreThesis2_TopicSegmentation`
+
+Important honesty note: this document explains the thesis that is actually present in the repository. It does not rewrite the thesis. It connects the written thesis, code, data, experiments, logs, figures, and defense material into one beginner-friendly guide. Missing, unclear, unsupported, or non-thesis material is marked honestly.
+
+Primary thesis identified:
+
+**Hierarchical Multimodal Lecture-Video Topic Segmentation with Reliability-Weighted Fusion and Local-LLM Refinement**
+
+Evidence: `thesis/frontmatter/titlepage.tex`
+
+Short project name: **LECSEG**
+
+Evidence: `README.md`, `WHAT_WE_ARE_DOING.md`, `thesis/main.tex`
+
+Core project type: undergraduate thesis artifact, dataset, preprocessing pipeline, segmentation algorithms, evaluation suite, result analysis, thesis report, paper draft, demo, and defense material for lecture-video topic segmentation.
+
+Evidence: `README.md`, `docs/PROJECT_GUIDE.md`, `src/lecseg/`, `scripts/`, `results/`, `thesis/`, `defense/`
+
+---
+
+## 0. How to Use This Document
+
+This document is designed for a student who knows nothing about computer science, machine learning, natural language processing, video processing, Python, evaluation metrics, or research defense.
+
+Read it in this order:
+
+1. Start with Section 2, the one-page beginner summary.
+2. Read Section 1 to understand the real thesis scope and which files matter.
+3. Use Section 3 as a quick dashboard after your first full read-through.
+4. Read Section 3.10 onward to understand the actual work found in the repository.
+5. Read Section 4 to understand the written thesis report and how it matches the project files.
+6. Read Sections 8-12 to understand data, preprocessing, methodology, and methods.
+7. Read Sections 15-19 to understand metrics, positive results, failed attempts, and final ranking.
+8. Read Sections 25-31 before viva. These explain limitations, defense strategy, and likely questions.
+9. Use Section 32 as a glossary when a word feels technical.
+10. Use Sections 33-35 before preparing slides or final submission.
+
+The most important rule while reading: do not memorize only the best result. You must understand what was tried, what worked, what failed, and why the thesis is still defendable.
+
+---
+
+## 1. Thesis Scope and Relevance Map
+
+### Official Thesis Title
+
+**Hierarchical Multimodal Lecture-Video Topic Segmentation with Reliability-Weighted Fusion and Local-LLM Refinement**
+
+Evidence: `thesis/frontmatter/titlepage.tex`
+
+### Main Research Topic
+
+The thesis is about automatically splitting long lecture videos into meaningful topic sections, such as chapters and smaller subtopics, using transcript text, embeddings, possible visual/audio cues, and evaluation metrics.
+
+Evidence: `README.md`, `WHAT_WE_ARE_DOING.md`, `thesis/chapters/chapter1_introduction.tex`
+
+### Main Problem Being Solved
+
+Long lecture videos are hard to navigate. A student may need one specific explanation inside a one-hour or two-hour video. If the video has no accurate chapters, the student must manually search through the video. LECSEG tries to predict topic boundaries automatically.
+
+Evidence: `thesis/chapters/chapter1_introduction.tex`
+
+### Type of Project
+
+This is not an image-classification thesis. It is a **lecture-video topic segmentation** thesis using natural language processing, video/audio preprocessing, multimodal features, and segmentation metrics.
+
+Evidence: `README.md`, `src/lecseg/metrics.py`, `src/lecseg/preprocess/`, `src/lecseg/models/`, `scripts/run_eval.py`
+
+### Relevance Table
+
+| Path | Relatedness | Reason | Evidence or note |
+|---|---|---|---|
+| `thesis/` | Direct | Main written thesis source and compiled PDF | `thesis/main.pdf`, `thesis/chapters/*.tex` |
+| `src/lecseg/` | Direct | Core package implementing metrics, preprocessing, features, models, refinement | `src/lecseg/metrics.py`, `src/lecseg/models/` |
+| `scripts/` | Direct | Pipeline, evaluation, annotation, experiments, report generation | `scripts/run_eval.py`, `scripts/method_selector_experiment.py` |
+| `data/manifest.jsonl` | Direct | Official 30-video dataset manifest | `data/manifest.jsonl` |
+| `data/gt/` | Direct | YouTube chapter ground truth | `data/gt/*.json` |
+| `data/gt_hier/` | Direct | Hierarchical chapter/subtopic annotations and IAA report | `data/gt_hier/iaa_report.json` |
+| `data/transcripts/` | Direct | Whisper transcript files for 30 videos | `data/transcripts/<id>/transcript.json` |
+| `data/sentences/` | Direct | Sentence-level processed transcripts | `data/sentences/<id>/sentences.json` |
+| `data/embeddings/` | Direct | Sentence embeddings for models such as BGE, BGE-large, E5, E5-large, MPNet, Stella | `data/embeddings/` |
+| `data/emb_visual/clip/` | Direct | CLIP visual embeddings used in visual ablation | `data/emb_visual/clip/*.npy` |
+| `data/ocr/`, `data/prosody/`, `data/shots/` | Direct | Auxiliary modality artifacts | `data/ocr/`, `data/prosody/`, `data/shots/` |
+| `results/` | Direct | Evaluation outputs, selector analysis, ablations, statistics | `results/*.json` |
+| `docs/` | Direct | Project guide, evidence ledger, defense notes, progress log | `docs/PROJECT_GUIDE.md`, `docs/DEFENSIBLE_CLAIMS.md` |
+| `defense/` | Direct | Defense deck, Q&A, figures | `defense/lecseg_defense_slides.pdf`, `defense/qa_prep.md` |
+| `paper/` | Direct | IEEE-style paper draft | `paper/ieee.tex`, `paper/ieee.pdf` |
+| `webapp/` | Direct/Possible | Streamlit demo for project use | `webapp/app.py`, `scripts/demo.py` |
+| `tests/` | Direct | Unit/integration tests proving code reliability | `tests/*.py` |
+| `configs/` | Direct/Possible | Default configuration. Some values are defaults, not always final result values | `configs/defaults.yaml` |
+| `figures/`, `thesis/figures/` | Direct | Result and diagnostic figures | `figures/*.pdf`, `thesis/figures/*.png` |
+| `external/treeseg/` | Possible/Direct comparator | External TreeSeg code and data used for same-dataset comparison context | `external/treeseg/`, `scripts/tree_seg_same_dataset.py` |
+| `tasks/` | Possible | Original task list and planning material | `tasks/T*.md` |
+| `progress.yaml` | Possible | Task tracking state | `progress.yaml` |
+| `notebooks/` | Possible but mostly empty | Only README found; no substantial notebook evidence | `notebooks/README.md` |
+| `.venv/` | Excluded | Python environment, not thesis content | Found in repository but not relevant to this thesis explanation |
+| `.git/` | Excluded | Version control internals | Found in repository but not relevant to this thesis explanation |
+| `.pytest_cache/`, `__pycache__/` | Excluded | Generated caches | Found in repository but not relevant to this thesis |
+| `.claude/` | Excluded | Agent worktrees and internal assistant artifacts | Found in repository but not relevant to public thesis |
+| `internal/` | Excluded from thesis claims | Internal coordination prompts; not public thesis content | `README.md` says exclude before public release |
+| raw videos in `data/raw/` | Direct for local work, excluded from public release | Actual media used, but public release should avoid raw videos | `README.md`, `docs/PROJECT_GUIDE.md` |
+
+### Why Unrelated Files Were Excluded
+
+The repository contains generated caches, local environment files, internal assistant folders, and duplicated worktrees. These do not explain the thesis methods, data, results, or defense. They are not deeply explained because they would pollute the thesis understanding.
+
+Evidence: `README.md` release hygiene section, repository scan.
+
+---
+
+## 2. One-Page Beginner Summary
+
+This thesis is about helping people navigate long lecture videos. A lecture may be 60-150 minutes long. If the video has no good chapters, a student must manually search for the part they need. LECSEG tries to automatically detect where one lecture topic ends and another begins.
+
+The project created and used a dataset called **LECSEG-30**. It contains 30 public YouTube lecture videos from Biology, Computer Science, Mathematics, Philosophy, and Physics. The videos total 32.52 hours. They contain 419 YouTube chapter boundaries and 904 reviewed subtopic labels.
+
+Evidence: `README.md`, `docs/PROJECT_GUIDE.md`, `data/manifest.jsonl`, `data/gt/`, `data/gt_hier/iaa_report.json`
+
+The system first converts lecture speech into text using Whisper. Then it splits the transcript into sentences. Then it turns each sentence into a vector, which is a list of numbers representing the meaning of that sentence. The system looks for places where the meaning changes strongly. Those places are possible topic boundaries.
+
+Evidence: `src/lecseg/preprocess/sentence_split.py`, `src/lecseg/features/text_embeddings.py`, `src/lecseg/models/divisive.py`
+
+Several methods were tested: TextTiling, C99, CosineSeg, KMeansSeg, BertSeg, BGE-divisive segmentation, cross-model conservative selection, balanced leave-one-video-out selector, TreeSeg-style comparison, CLIP visual fusion, prosody, BERTopic, GPT-2 perplexity, discourse markers, and LLM-related diagnostics.
+
+Evidence: `scripts/run_eval.py`, `results/eval_bge.json`, `results/method_selector_significance.json`, `results/eval_treeseg_same_dataset_*.json`, `docs/FINAL_MODEL_AUDIT.md`
+
+The best supported deployable local result is the **balanced leave-one-video-out selector**:
+
+| Method | Pk | WD | BS | F1@2 |
+|---|---:|---:|---:|---:|
+| BGE-divisive baseline | 0.3884 | 0.3956 | 0.1292 | 0.0878 |
+| Cross-model conservative | 0.3713 | 0.3764 | 0.0362 | 0.0237 |
+| Balanced LOO selector | 0.3588 | 0.3739 | 0.0757 | 0.0893 |
+
+Evidence: `docs/SUBMISSION_READINESS.md`, `results/method_selector_significance.json`
+
+Lower Pk and WD are better. So the balanced selector improved the main segmentation-window metrics compared with the stable baseline. But the thesis must be honest: the selector does not prove external state-of-the-art performance, and its Pk/WD gain over the cross-model method is not statistically significant.
+
+Evidence: `docs/PROJECT_GUIDE.md`, `docs/DEFENSIBLE_CLAIMS.md`, `thesis/chapters/chapter4_results.tex`
+
+What worked well: text embeddings, BGE-divisive baseline, cross-model conservative selection, method selector, CLIP visual signal as a promising cue, and evidence-based evaluation.
+
+What did not work well: generic out-of-domain BERT-wiki segmentation, BERTopic for chapter-level boundaries, pause/pitch alone, GPT-2 perplexity, discourse markers, and blind multimodal addition. These often found smaller subtopic-like transitions instead of YouTube chapter-level transitions.
+
+Evidence: `thesis/chapters/chapter4_results.tex`, `docs/FINAL_MODEL_AUDIT.md`, `docs/CASE_STUDIES.md`
+
+Final conclusion: this thesis is defendable as a low-resource benchmark and diagnostic system for lecture segmentation. It does not solve lecture segmentation perfectly, but it creates a real dataset, implements a full pipeline, compares many methods, reports positive and negative results honestly, and identifies boundary selection as the main future research problem.
+
+### 2.1 Explain My Thesis in 60 Seconds
+
+My thesis is about automatically dividing long lecture videos into meaningful topic sections. I used 30 public YouTube lectures from five academic domains, with 32.52 hours of video, 419 chapter boundaries, and 904 reviewed subtopics. I prepared the data by transcribing the lectures with Whisper, splitting the transcripts into sentences, and generating sentence embeddings with models such as BGE and E5. I tested classical methods, embedding-based methods, multimodal signals, cross-model selection, TreeSeg-style comparison, and a leave-one-video-out method selector. The strongest deployable result was the balanced selector with Pk 0.3588 and WindowDiff 0.3739, improving over the BGE-divisive baseline. The result means the system improves topic structure under standard segmentation metrics, but exact boundary hits remain hard. The main limitation is the small 30-video dataset and weak domain generalization. The thesis involved serious work because it includes a dataset, preprocessing pipeline, many experiments, statistical tests, negative results, and defense artifacts. In the future, it can be improved with more annotated lectures and a stronger boundary-level selector.
+
+Evidence: `README.md`, `docs/SUBMISSION_READINESS.md`, `results/method_selector_significance.json`
+
+### 2.2 Explain My Thesis to a Non-Technical Person
+
+Imagine a long textbook with no chapter headings. You know the information is inside, but finding one topic is painful. This thesis tries to create chapter headings for lecture videos automatically.
+
+The computer listens to the lecture, writes it down, breaks the writing into sentences, and checks where the meaning changes. If the teacher moves from "definition" to "example" to "application", the system tries to detect those changes.
+
+The project tested many strategies. Some worked better than others. The best current version improves the structure compared with the baseline, but it still sometimes misses the exact place where a new topic begins.
+
+Evidence: `thesis/chapters/chapter1_introduction.tex`, `src/lecseg/`, `results/`
+
+---
+
+## 3. Master Quick-Track Summary Dashboard
+
+This dashboard is for revision after you have read the full document once.
+
+### 3.1 Thesis in One Sitting
+
+| Item | Quick answer |
+|---|---|
+| Thesis topic | Automatic lecture-video topic segmentation |
+| Main problem | Long lectures are hard to search without reliable chapter/subtopic structure |
+| Dataset/data | LECSEG-30: 30 YouTube lectures, 32.52 hours, 419 chapters, 904 subtopics |
+| Main methodology | Transcribe videos, split into sentences, embed sentences, score topic-change gaps, select boundaries, evaluate |
+| Main methods tried | TextTiling, C99, CosineSeg, KMeansSeg, BertSeg, BGE-divisive, cross-model conservative, balanced LOO selector, TreeSeg-style adapter, CLIP/prosody/BERTopic/perplexity/LLM diagnostics |
+| Best result | Balanced LOO selector: Pk 0.3588, WD 0.3739, F1@2 0.0893 |
+| Why result matters | Improves over stable BGE-divisive baseline on main metrics |
+| Main limitation | Small dataset and selector not domain-general |
+| Main future work | Larger dataset and boundary-level selector/ranker |
+| Strongest defense point | This is a reproducible benchmark-and-diagnosis thesis, not an exaggerated SOTA claim |
+
+Evidence: `docs/SUBMISSION_READINESS.md`, `docs/PROJECT_GUIDE.md`
+
+### 3.2 Work Done Tracker
+
+| Work area | What was done | Evidence path | Importance | Status | What I should remember |
+|---|---|---|---|---|---|
+| Dataset | 30 public lectures collected and recorded in manifest | `data/manifest.jsonl` | Foundation of thesis | Strong | 32.52 hours, five domains |
+| Ground truth | YouTube chapter labels stored | `data/gt/` | Needed for evaluation | Strong | 419 chapter boundaries |
+| Hierarchical labels | Reviewed subtopics and double annotation | `data/gt_hier/`, `data/gt_hier/iaa_report.json` | Supports hierarchy claim | Strong | 904 subtopics, kappa reported |
+| Transcription | Whisper transcripts exist for 30 videos | `data/transcripts/` | Converts video speech to text | Strong | ASR text is base input |
+| Sentence splitting | Sentence JSON exists for 30 videos | `data/sentences/` | Makes timeline units | Strong | Average sentence timeline used for boundaries |
+| Embeddings | Multiple model embeddings saved | `data/embeddings/` | Main model input | Strong | BGE/BGE-large/E5/E5-large/MPNet/Stella |
+| Core code | Package implements metrics, methods, preprocessing | `src/lecseg/` | Reproducible artifact | Strong | Not only a report |
+| Evaluation | Many result files and official claims | `results/`, `docs/DEFENSIBLE_CLAIMS.md` | Proves experiments | Strong | Must cite exact result files |
+| Thesis report | Full LaTeX thesis and PDF | `thesis/` | Written deliverable | Strong | 50-page PDF found |
+| Defense material | Slide PDF, Q&A, case studies | `defense/`, `docs/CASE_STUDIES.md` | Viva support | Strong | Use oracle gap story |
+| Public release | HuggingFace export appears | `data/hf_export/`, `data/huggingface_dataset_card.md` | Dataset sharing | Partial | Untracked; push/login not verified |
+| Demo | Streamlit demo exists | `scripts/demo.py`, `webapp/app.py` | Presentation support | Partial | Needs final real-video verification |
+
+### 3.3 Results at a Glance
+
+| Method/model/experiment | Best result found | Good or weak? | Why? | Evidence | Highlight in viva? |
+|---|---|---|---|---|---|
+| BGE-divisive baseline | Pk 0.3884, WD 0.3956 | Good baseline | Stronger than many classical/neural rows | `results/eval_bge.json` | Yes |
+| Cross-model conservative | Pk 0.3713, WD 0.3764 | Good | Significant Pk/WD gain vs baseline | `results/eval_alignment_sweep.json`, `results/method_selector_significance.json` | Yes |
+| Balanced LOO selector | Pk 0.3588, WD 0.3739, F1@2 0.0893 | Best deployable local operating point | Best mean Pk/WD, improves boundary-hit metrics | `results/method_selector_significance.json` | Yes, with caveat |
+| Per-video oracle | Pk 0.2980, WD 0.3280 | Diagnostic only | Shows headroom, not deployable | `results/method_portfolio_analysis.json` | Yes, as future-work evidence |
+| Candidate oracle | Pk 0.0172, WD 0.0198 | Upper bound only | Shows candidate generation has high headroom | `results/defense_oracle_gap.json` | Use carefully |
+| TreeSeg-style adapter | Pk 0.4320-0.4399, F1@2 0.1576-0.1733 | Mixed | Better exact hits, worse Pk/WD | `results/eval_treeseg_same_dataset_*.json` | Yes, as comparator |
+| BERT-wiki | Pk 0.4932, WD 0.5397 | Weak | Out-of-domain transfer poor | `results/eval_bert_wiki.json` | Mention as negative result |
+| BERTopic | Pk 0.5632, WD 0.6984 | Weak | Finds too-fine topic shifts | `thesis/chapters/chapter4_results.tex` | Mention briefly |
+| Pause/pitch | Pk 0.4174 | Weak vs baseline | Acoustic transitions mismatch chapter granularity | `scripts/pause_transition_eval.py`, `docs/PROGRESS_LOG.md` | Mention as lesson |
+| CLIP + text fusion | Pk 0.3740 | Promising | Visual slide changes carry chapter-level granularity | `scripts/clip_fusion_eval.py`, `docs/PROGRESS_LOG.md` | Yes as future direction |
+
+### 3.4 Positive vs Negative Findings
+
+Positive findings:
+
+- LECSEG-30 exists as a real 30-video benchmark with transcript, chapter, and subtopic artifacts. Evidence: `data/manifest.jsonl`, `data/gt/`, `data/gt_hier/`.
+- Balanced selector is the best local mean Pk/WD operating point. Evidence: `results/method_selector_significance.json`.
+- Cross-model conservative selection significantly improves Pk/WD over BGE-divisive. Evidence: `docs/DEFENSIBLE_CLAIMS.md`.
+- CLIP visual features are promising compared with other auxiliary signals. Evidence: `docs/PROGRESS_LOG.md`, `thesis/chapters/chapter4_results.tex`.
+- The thesis includes honest negative results and significance tests. Evidence: `docs/FINAL_MODEL_AUDIT.md`, `thesis/tables/significance.tex`.
+
+Negative / weak findings:
+
+- Strict exact boundary F1 remains low for the best Pk/WD method. Evidence: `results/method_selector_significance.json`.
+- Selector is not domain-general under leave-one-domain-out evaluation. Evidence: `results/selector_leave_domain_out.json`.
+- Mathematics is the clearest failure domain. Evidence: `docs/DOMAIN_PERFORMANCE.md`.
+- BERTopic, pause/pitch, discourse markers, and GPT-2 perplexity often over-segment relative to chapter boundaries. Evidence: `thesis/chapters/chapter4_results.tex`.
+- LLM refinement exists, but verified evidence for large boundary gains is not found. Evidence: `docs/PROJECT_GUIDE.md`, `src/lecseg/refine/llm_refine.py`.
+
+### 3.5 What I Must Understand Deeply
+
+| Concept/result/method | Why it matters | Where to read | Evidence |
+|---|---|---|---|
+| LECSEG-30 dataset | Thesis contribution begins with the dataset | Sections 9, 24 | `data/manifest.jsonl` |
+| Topic boundary | Core thing being predicted | Sections 7, 11 | `thesis/chapters/chapter1_introduction.tex` |
+| Sentence embeddings | Main representation used by best methods | Sections 8, 10, 12 | `src/lecseg/features/text_embeddings.py` |
+| Pk and WindowDiff | Main metrics for final result | Section 15 | `src/lecseg/metrics.py` |
+| BGE-divisive baseline | Main stable comparison point | Section 12 | `results/eval_bge.json` |
+| Balanced LOO selector | Best local result | Sections 16, 19 | `results/method_selector_significance.json` |
+| Oracle gap | Strongest future-work argument | Sections 18, 28 | `results/defense_oracle_gap.json` |
+| Domain weakness | Explains limits honestly | Section 18 | `results/domain_performance_analysis.json` |
+
+### 3.6 What I Can Say If Asked "What Did You Actually Do?"
+
+We created a lecture segmentation research artifact, not just a written report. The repository contains a 30-video manifest, transcripts, sentence-split data, ground-truth chapter labels, reviewed hierarchical subtopic labels, multiple embedding folders, preprocessing code, segmentation algorithms, evaluation scripts, result JSON files, statistical tests, thesis tables, figures, paper draft, and defense materials. The code under `src/lecseg/` implements the core methods and metrics. The `results/` folder contains many experiments, including strong results and failed attempts. The thesis PDF and defense deck connect those results into a research story.
+
+Evidence: `src/lecseg/`, `scripts/`, `data/`, `results/`, `thesis/`, `defense/`
+
+### 3.7 What I Should Not Overclaim
+
+- Do not claim external state of the art. Evidence: `docs/DEFENSIBLE_CLAIMS.md`.
+- Do not claim Pk below 0.30 for a deployable method. The sub-0.30 number is oracle/diagnostic. Evidence: `docs/PROJECT_GUIDE.md`.
+- Do not claim every modality helped. Prosody, BERTopic, discourse markers, and GPT-2 perplexity were weak for chapter-level Pk/WD. Evidence: `thesis/chapters/chapter4_results.tex`.
+- Do not claim LLM refinement strongly improved boundary metrics unless a verified result is cited. Evidence: `docs/PROJECT_GUIDE.md`.
+- Do not claim selector is domain-general. Leave-domain-out result is worse. Evidence: `results/selector_leave_domain_out.json`.
+- Do not call raw YouTube chapters perfect gold labels. They are creator-provided and useful, but imperfect. Evidence: `thesis/chapters/chapter5_conclusion.tex`.
+
+### 3.8 Fast Revision Map
+
+| If I need to understand... | Go to section | What I will find |
+|---|---|---|
+| Thesis overview | 2 | Simple full summary |
+| Quick revision | 3 | Dashboard and memory card |
+| Actual work | 3.10 | Repository work table |
+| Written thesis | 4 | Report interpretation |
+| Files | 5 | File audit |
+| Dataset | 9 | Data structure and counts |
+| Preprocessing | 10 | Transcript, sentence split, OCR, prosody, shots |
+| Methodology | 11 | Step-by-step workflow |
+| Models/methods | 12 | Algorithms and theory |
+| Experiments | 13 | Experiment tracker |
+| Metrics | 15 | Pk, WD, BS, F1, IAA |
+| Positive results | 16 | What worked |
+| Negative results | 17 | What failed |
+| Weaknesses | 18 | Error analysis |
+| Final ranking | 19 | What to highlight |
+| Defense | 28-31 | How to answer panel |
+| Glossary | 32 | Simple definitions |
+| Presentation | 33 | Slide guide |
+
+### 3.9 Final Memory Card
+
+Five most important facts:
+
+1. Thesis topic: automatic lecture-video topic segmentation.
+2. Dataset: 30 videos, 32.52 hours, five domains, 419 chapters, 904 subtopics.
+3. Best local deployable result: balanced LOO selector, Pk 0.3588, WD 0.3739.
+4. Strong baseline: BGE-divisive, Pk 0.3884, WD 0.3956.
+5. Main unresolved problem: robust boundary/method selection.
+
+Five strongest defense points:
+
+1. Real dataset and annotations exist.
+2. Full reproducible code and evaluation suite exist.
+3. Many methods and ablations were tested.
+4. Claims are statistically checked and honestly limited.
+5. Negative results reveal a clear future research direction.
+
+Five limitations/future work points:
+
+1. Dataset is small.
+2. YouTube chapter labels are imperfect.
+3. Strict boundary F1 is low.
+4. Selector is not domain-general.
+5. Future work needs larger labels and boundary-level ranker.
+
+Five results/findings to remember:
+
+1. BGE-divisive: Pk 0.3884, WD 0.3956.
+2. Cross-model conservative: Pk 0.3713, WD 0.3764.
+3. Balanced selector: Pk 0.3588, WD 0.3739.
+4. Leave-domain-out selector: Pk 0.4012, WD 0.4103.
+5. Per-video oracle: Pk 0.2980, WD 0.3280.
+
+Five simple confident sentences:
+
+1. My thesis builds a reproducible system for segmenting lecture videos into topics.
+2. The project includes real data, code, experiments, results, thesis, and defense artifacts.
+3. The best method improves standard segmentation metrics over a strong local baseline.
+4. The result is not perfect, but the limitations are measured and explained.
+5. The main future direction is better boundary selection using more annotated data.
+
+### 3.10 Actual Work Done in the Repository
+
+| Work item | What was done | Evidence path | Why it matters | Result/outcome | Simple explanation |
+|---|---|---|---|---|---|
+| Dataset manifest | 30 videos listed with IDs, domains, duration, title, URL | `data/manifest.jsonl` | Defines benchmark | 30 videos, 117083 sec | The project has a real video list |
+| Ground-truth chapters | YouTube chapters saved | `data/gt/*.json` | Needed to evaluate predictions | 419 chapters | These are the target boundaries |
+| Hierarchical annotation | Subtopic labels and double annotation stored | `data/gt_hier/*.json`, `data/gt_hier/double/` | Supports N3/hierarchy | 904 subtopics | Adds finer structure inside chapters |
+| IAA computation | Agreement report produced | `data/gt_hier/iaa_report.json`, `scripts/compute_iaa.py` | Shows annotation reliability | chapter kappa 0.5351, subtopic kappa 0.4257 | Measures human agreement |
+| Transcription | Whisper transcripts exist | `data/transcripts/<id>/transcript.json` | Converts speech to text | 30 transcript folders | The model can work on text |
+| Sentence splitting | spaCy sentence splitting implemented and outputs exist | `src/lecseg/preprocess/sentence_split.py`, `data/sentences/` | Creates sentence timeline | 30 sentence folders | Boundaries are predicted between sentences |
+| Text embeddings | Sentence-transformer embeddings saved | `data/embeddings/` | Main feature representation | BGE, BGE-large, E5, E5-large, MPNet, Stella | Sentences become meaning vectors |
+| Visual features | CLIP visual embeddings saved | `data/emb_visual/clip/` | Visual ablation and fusion | 33 files | Slides/keyframes provide visual signal |
+| OCR | OCR code and files exist | `src/lecseg/preprocess/ocr.py`, `data/ocr/` | Slide text signal | 31 files | Reads text from video frames |
+| Shot detection | Shot detection code and files exist | `src/lecseg/preprocess/shot_detection.py`, `data/shots/` | Visual transition signal | 31 files | Detects scene changes |
+| Prosody | Pause/pitch extraction code and files exist | `src/lecseg/preprocess/prosody.py`, `data/prosody/` | Audio transition signal | 61 files | Detects pauses and pitch changes |
+| Metrics | Pk, WD, BS, tolerance-F1, H-WD implemented | `src/lecseg/metrics.py` | Fair evaluation | Used in results | Measures segmentation quality |
+| Baselines | TextTiling, C99, CosineSeg, KMeansSeg, BertSeg | `src/lecseg/baselines/`, `scripts/run_eval.py` | Comparison | Many weaker than BGE-divisive | Shows method comparisons |
+| Proposed modules | Fusion, two-stage predictor, hierarchy, LLM refine | `src/lecseg/models/`, `src/lecseg/refine/llm_refine.py` | Thesis methods | Implemented | Core method code exists |
+| Evaluation battery | Full evaluation script | `scripts/run_eval.py` | Produces metrics | `results/*.json` | Runs methods on videos |
+| Selector experiments | Method portfolio and LOO selector | `scripts/method_selector_experiment.py`, `results/method_selector_significance.json` | Best result | Pk 0.3588, WD 0.3739 | Selects best method per held-out video |
+| TreeSeg comparison | Same-dataset adapter | `scripts/tree_seg_same_dataset.py`, `results/eval_treeseg_same_dataset_*.json` | External comparison | Worse Pk/WD, better F1 | Fairer comparison on same data |
+| Figures/tables | Thesis figures and tables generated | `thesis/tables/*.tex`, `thesis/figures/*` | Report evidence | Final result tables | Makes results readable |
+| Thesis report | LaTeX thesis and PDF built | `thesis/main.pdf`, `thesis/chapters/*.tex` | Main deliverable | 50-page PDF found | Official written thesis |
+| Paper draft | IEEE paper exists | `paper/ieee.tex`, `paper/ieee.pdf` | Additional deliverable | Built PDF | Short paper version |
+| Defense deck | Defense slides exist | `defense/lecseg_defense_slides.pdf` | Viva deliverable | Built PDF | Presentation material |
+| Tests | Unit tests exist | `tests/*.py` | Code quality | Test status in README says 177 passing as of 2026-05-26 | Proves many modules work |
+
+### 3.11 Actual Work Timeline
+
+Exact chronological order is inferred from project files, task IDs, progress log, and timestamps.
+
+1. Project setup and task planning: `tasks/T01_*.md` to `tasks/T08_*.md`, `progress.yaml`.
+2. Dataset curation and YouTube chapter extraction: `data/manifest.jsonl`, `data/gt/`, `scripts/extract_gt.py`.
+3. Hierarchical annotation and IAA: `scripts/annotate.py`, `scripts/autoannotate.py`, `scripts/compute_iaa.py`, `data/gt_hier/iaa_report.json`.
+4. Transcription and preprocessing: `data/transcripts/`, `src/lecseg/preprocess/`.
+5. Embedding generation: `data/embeddings/`, `src/lecseg/features/text_embeddings.py`.
+6. Baselines and proposed methods: `src/lecseg/baselines/`, `src/lecseg/models/`.
+7. Main evaluation and ablations: `scripts/run_eval.py`, `results/eval*.json`.
+8. Selector and portfolio analysis: `scripts/method_portfolio_analysis.py`, `scripts/method_selector_experiment.py`.
+9. Final claim validation and defense preparation: `docs/DEFENSIBLE_CLAIMS.md`, `docs/SUBMISSION_READINESS.md`, `defense/`.
+10. Thesis/paper writing: `thesis/`, `paper/`.
+
+### 3.12 What Shows This Was Serious Work
+
+- 1523 non-cache/non-venv files were found in thesis-related areas during scan. Evidence: repository scan.
+- `data/` contains transcripts, raw media, sentences, embeddings, features, annotations, and release exports. Evidence: `data/`.
+- `results/` contains many result JSON files and diagnostic experiments. Evidence: `results/`.
+- `src/lecseg/` implements real reusable package code. Evidence: `src/lecseg/`.
+- `tests/` contains focused tests for metrics, preprocessing, alignment, baselines, models, statistics, IAA, and tables. Evidence: `tests/*.py`.
+- The written thesis cross-references real tables and figures. Evidence: `thesis/chapters/chapter4_results.tex`.
+- The project has a claim validator and readiness audit. Evidence: `scripts/validate_thesis_claims.py`, `results/submission_readiness_audit.json`.
+- Negative results are documented instead of hidden. Evidence: `docs/FINAL_MODEL_AUDIT.md`, `thesis/chapters/chapter4_results.tex`.
+
+---
+
+## 4. Existing Thesis Report/Draft Interpretation
+
+### Files Found
+
+| File | Type | Importance |
+|---|---|---|
+| `thesis/main.tex` | LaTeX root | Builds thesis |
+| `thesis/main.pdf` | Compiled thesis | Main written report |
+| `thesis/frontmatter/titlepage.tex` | Title page | Official title/authors |
+| `thesis/frontmatter/abstract.tex` | Abstract | Official summary |
+| `thesis/chapters/chapter1_introduction.tex` | Chapter 1 | Problem, motivation, RQs |
+| `thesis/chapters/chapter2_literature.tex` | Chapter 2 | Related work |
+| `thesis/chapters/chapter3_methodology.tex` | Chapter 3 | Pipeline and methods |
+| `thesis/chapters/chapter4_results.tex` | Chapter 4 | Results and analysis |
+| `thesis/chapters/chapter5_conclusion.tex` | Chapter 5 | Findings and limitations |
+| `thesis/chapters/chapter6_future_work.tex` | Chapter 6 | Future work |
+| `thesis/appendices/*.tex` | Appendices | Dataset, hyperparameters, extra results |
+| `paper/ieee.tex` | Paper draft | Short conference-style version |
+| `defense/lecseg_defense_slides.tex` | Defense deck source | Presentation |
+
+### Official Abstract Summary
+
+The abstract says LECSEG is an open, reproducible artifact for lecture-video topic segmentation. It contributes LECSEG-30, with 30 public YouTube lectures, 32.52 hours, 419 chapters, and 904 reviewed subtopic labels. It evaluates classical baselines, neural/embedding baselines, divisive segmentation, cross-model boundary scoring, and diagnostic variants using Pk, WindowDiff, Boundary Similarity, and tolerance-F1. It positions the thesis as low-resource benchmark-and-diagnosis work, not a large-scale chaptering model.
+
+Evidence: `thesis/frontmatter/abstract.tex`
+
+### Cross-Check Table
+
+| Claim from thesis/report | Evidence in code/logs/results | Match status | Notes | Correction/improvement |
+|---|---|---|---|---|
+| LECSEG-30 has 30 videos | `data/manifest.jsonl` has 30 rows | Supported | Manifest scan confirms | None |
+| Total duration is 32.52 hours / 117083 sec | `data/manifest.jsonl`, `docs/PROJECT_GUIDE.md` | Supported | Sum found as 117083 sec | None |
+| 419 chapter boundaries | `data/gt/`, `docs/PROJECT_GUIDE.md` | Supported | Also in thesis tables | None |
+| 904 reviewed subtopics | `data/gt_hier/`, `docs/PROJECT_GUIDE.md` | Supported | IAA report exists | None |
+| Chapter kappa 0.5351, subtopic kappa 0.4257 | `data/gt_hier/iaa_report.json` | Supported | Exact values found | None |
+| BGE-divisive baseline Pk 0.3884, WD 0.3956 | `results/eval_bge.json`, `results/method_selector_significance.json` | Supported | Official baseline | None |
+| Cross-model conservative Pk 0.3713, WD 0.3764 | `results/eval_alignment_sweep.json`, `results/method_selector_significance.json` | Supported | Best single global method | None |
+| Balanced selector Pk 0.3588, WD 0.3739 | `results/method_selector_significance.json` | Supported | Best local deployable mean Pk/WD | Must keep caveat |
+| Selector Pk/WD gains over cross-model are not significant | `results/method_selector_significance.json` | Supported | p=0.3560 for Pk, p=0.9039 for WD | Emphasize honesty |
+| LLM refinement exists | `src/lecseg/refine/llm_refine.py` | Supported as implementation | Metric gain not proven | Do not overclaim result |
+| Multimodal fusion always helps | Project does not claim this safely | Not supported if stated broadly | Some signals hurt | Use careful wording |
+| External SOTA claim | `docs/DEFENSIBLE_CLAIMS.md` says do not claim | Not supported | Large systems not same benchmark | Avoid |
+| Same-dataset TreeSeg comparison exists | `scripts/tree_seg_same_dataset.py`, `results/eval_treeseg_same_dataset_*.json` | Supported | It is an adapted objective, not original full official TreeSeg leaderboard | Word carefully |
+
+### 4.1 Chapter-by-Chapter Thesis Explanation
+
+#### Chapter 1 - Introduction
+
+What it says: Long lecture videos are difficult to navigate. Topic segmentation predicts where topic changes happen. The thesis focuses on low-resource lecture segmentation with hierarchy.
+
+Why it matters: It defines the real problem and prevents the panel from thinking this is generic video classification.
+
+Technical terms: topic boundary, transcript, multimodal stream, hierarchical segmentation.
+
+Simple meaning: find the points in a lecture where the teacher starts a new major topic or subtopic.
+
+Connection to code/results: The task is implemented in `src/lecseg/` and evaluated in `scripts/run_eval.py`.
+
+Viva memory: "The problem is lecture navigation, not just model accuracy."
+
+Evidence: `thesis/chapters/chapter1_introduction.tex`
+
+#### Chapter 2 - Literature Review
+
+What it says: Prior work includes classical text segmentation, neural embedding methods, multimodal segmentation, large-scale video chaptering, hierarchical segmentation, and local LLMs.
+
+Why it matters: It shows why LECSEG is positioned as low-resource and reproducible instead of pretending to beat huge systems.
+
+Technical terms: TextTiling, C99, sentence embeddings, supervised segmentation, VidChapters, TreeSeg.
+
+Connection to actual work: TextTiling and C99 are implemented. TreeSeg-style comparison is included. Large systems are discussed as scale context, not directly reproduced.
+
+Viva memory: "My comparison is careful because datasets and metrics differ."
+
+Evidence: `thesis/chapters/chapter2_literature.tex`, `scripts/tree_seg_same_dataset.py`
+
+#### Chapter 3 - Methodology
+
+What it says: The pipeline includes ingestion, ASR, sentence splitting, visual/prosody/OCR extraction, embeddings, reliability-weighted fusion, two-stage prediction, hierarchy, LLM refinement, and evaluation.
+
+Why it matters: This is the technical heart of the thesis.
+
+Connection to code: `src/lecseg/preprocess/`, `src/lecseg/features/`, `src/lecseg/models/`, `src/lecseg/refine/`.
+
+Important caution: Some methodology text describes intended/default components; final official results rely mainly on text embeddings, cross-model scoring, and selector analysis. Some multimodal/LLM components are implemented but not all improve final metrics.
+
+Evidence: `thesis/chapters/chapter3_methodology.tex`, `src/lecseg/`
+
+#### Chapter 4 - Results and Analysis
+
+What it says: Reports official results, significance tests, domain analysis, ablations, case studies, and discussion.
+
+Why it matters: This chapter proves the work with numbers.
+
+Key results: BGE-divisive 0.3884/0.3956, cross-model 0.3713/0.3764, balanced selector 0.3588/0.3739.
+
+Connection to files: `results/method_selector_significance.json`, `thesis/tables/*.tex`, `docs/CASE_STUDIES.md`.
+
+Viva memory: "The strongest claim is local improvement over implemented baselines, not external SOTA."
+
+Evidence: `thesis/chapters/chapter4_results.tex`
+
+#### Chapter 5 - Conclusion
+
+What it says: Summarizes contributions, limitations, and the path to stronger future systems.
+
+Why it matters: It frames the thesis as defendable even with imperfect results.
+
+Important limitation: strict boundary F1 remains low and the dataset is small.
+
+Evidence: `thesis/chapters/chapter5_conclusion.tex`
+
+#### Chapter 6 - Future Work
+
+What it says: Future work should improve candidate/method selection, multimodal integration, streaming, cross-lingual support, fine-tuning, larger LLMs, multi-speaker lectures, and user studies.
+
+Why it matters: It shows the student knows exactly what remains unsolved.
+
+Evidence: `thesis/chapters/chapter6_future_work.tex`
+
+### 4.2 Strong Parts of the Written Thesis
+
+- Clear low-resource positioning. Evidence: `thesis/chapters/chapter1_introduction.tex`.
+- Strong dataset facts with exact numbers. Evidence: `thesis/appendices/appendix_a_dataset.tex`.
+- Results are supported with concrete files. Evidence: `docs/DEFENSIBLE_CLAIMS.md`.
+- Limitations are honest. Evidence: `thesis/chapters/chapter5_conclusion.tex`.
+- Future work follows from actual failures. Evidence: `docs/FINAL_MODEL_AUDIT.md`.
+
+### 4.3 Weak or Missing Parts of the Written Thesis
+
+- Some methodology language may sound stronger than final evidence for LLM/multimodal gains. This should be defended as implemented and diagnostic, not universally improving.
+- Config defaults in `configs/defaults.yaml` do not always match final reported run values. Mark as defaults, not final settings.
+- The public release status is partial/unclear because `data/hf_export/` is untracked and login/push evidence is not found.
+- Demo final verification was not found. Evidence: `docs/PROJECT_GUIDE.md` says verify demo.
+
+### 4.4 Results Mentioned in Thesis vs Results Found in Project
+
+The main results in the thesis match the official result artifacts. The safest source of truth is:
+
+- `docs/PROJECT_GUIDE.md`
+- `docs/DEFENSIBLE_CLAIMS.md`
+- `docs/SUBMISSION_READINESS.md`
+- `results/method_selector_significance.json`
+
+### 4.5 Future Work Mentioned in Thesis vs Future Work Suggested by Project Evidence
+
+Future work in the thesis agrees with project evidence: boundary-level selection/ranking is the strongest next step, because oracle results show large headroom.
+
+Evidence: `results/defense_oracle_gap.json`, `docs/DEFENSE_ORACLE_GAP.md`
+
+---
+
+## 5. Thesis-Related File Audit
+
+| File/folder path | Relatedness | Type | What it contains | Why it matters | Thesis section supported | Read/inspected | Findings/problems |
+|---|---|---|---|---|---|---|---|
+| `README.md` | Direct | Markdown | Project summary and official status | Fast source of truth | Whole thesis | Fully read | Mentions exact result policy |
+| `docs/PROJECT_GUIDE.md` | Direct | Markdown | Authoritative guide | Claim boundary | Results/defense | Fully read | Key source for safe claims |
+| `docs/DEFENSIBLE_CLAIMS.md` | Direct | Markdown | Supported/non-supported claim ledger | Defense | Defense | Fully read | Critical for avoiding overclaim |
+| `docs/SUBMISSION_READINESS.md` | Direct | Markdown | Final readiness audit | Submission | Results | Fully read | PASS status |
+| `docs/FINAL_MODEL_AUDIT.md` | Direct | Markdown | Current best/negative results | Results | Results | Fully read | Excellent evidence of serious work |
+| `thesis/` | Direct | LaTeX/PDF | Full report | Main deliverable | All chapters | Fully inspected important tex files | Good consistency overall |
+| `src/lecseg/metrics.py` | Direct | Python | Pk, WD, BS, F1, H-WD | Evaluation | Results | Fully read | Core metric implementation |
+| `src/lecseg/baselines/` | Direct | Python | Classical/neural baselines | Comparison | Literature/results | Inspected | Implements methods |
+| `src/lecseg/preprocess/` | Direct | Python | Sentence split, shots, OCR, prosody | Data prep | Methodology | Inspected | Preprocessing code exists |
+| `src/lecseg/features/` | Direct | Python | Embeddings/alignment/visual | Features | Methodology | Inspected | Main feature extraction |
+| `src/lecseg/models/` | Direct | Python | Fusion, predictor, hierarchy, divisive | Methods | Methodology | Inspected | Proposed modules present |
+| `src/lecseg/refine/llm_refine.py` | Direct | Python | Ollama LLM refine/title | N4 | Methodology/future | Fully read | Implemented, metric gain not strongly supported |
+| `scripts/run_eval.py` | Direct | Python | Evaluation battery | Results | Results | Inspected | Central script |
+| `scripts/method_selector_experiment.py` | Direct | Python | LOO selector | Best result | Results | Inspected | Uses ExtraTrees/RF/ridge |
+| `scripts/method_portfolio_analysis.py` | Direct | Python | Portfolio/oracle | Diagnostics | Results/future | Fully read | Oracle supports future work |
+| `scripts/tree_seg_same_dataset.py` | Direct | Python | TreeSeg-style adapter | Comparison | Literature/results | Fully read | Same-dataset comparator |
+| `data/manifest.jsonl` | Direct | JSONL | Dataset manifest | Dataset | Dataset | Parsed | 30 rows |
+| `data/gt/` | Direct | JSON | Chapter labels | Evaluation | Dataset/results | Counted/inspected structurally | 33 files including summaries |
+| `data/gt_hier/` | Direct | JSON | Subtopic labels, IAA | Hierarchy | Dataset | Parsed IAA | 30 reviewed files plus double annotations |
+| `data/transcripts/` | Direct | JSON/TXT | Whisper outputs | Preprocessing | Methodology | Counted | 30 folders, 60 files |
+| `data/sentences/` | Direct | JSON | Sentence timelines | Preprocessing/eval | Methodology | Counted | 30 folders |
+| `data/embeddings/` | Direct | NPY | Embeddings | Models | Methodology/results | Counted | 6 model folders |
+| `results/` | Direct | JSON/log/pkl | Experiments | Results | Results | Parsed key JSON | Many old/diagnostic runs |
+| `tests/` | Direct | Python | Tests | Code quality | Reproducibility | Inspected file list/imports | Good coverage |
+| `defense/` | Direct | PDF/TEX/MD | Slides/Q&A | Viva | Defense | Inspected | Useful for presentation |
+| `paper/` | Direct | TEX/PDF | IEEE paper | Deliverable | Paper | Inspected | Built paper exists |
+| `external/treeseg/` | Possible/direct comparator | Python/data | External comparator code | Related work | Results | Inspected list | Include as comparator only |
+| `.venv/`, `.git/`, caches | Excluded | Environment/cache | Non-thesis internals | None | None | Excluded | Not explained |
+
+### 5.1 Most Important Thesis Files
+
+1. `docs/PROJECT_GUIDE.md` - safest official status.
+2. `thesis/main.pdf` and `thesis/chapters/*.tex` - written thesis.
+3. `data/manifest.jsonl`, `data/gt/`, `data/gt_hier/iaa_report.json` - dataset proof.
+4. `results/method_selector_significance.json` - best result and significance.
+5. `src/lecseg/metrics.py` - evaluation logic.
+6. `scripts/run_eval.py` - evaluation pipeline.
+7. `docs/DEFENSIBLE_CLAIMS.md` - viva claim boundary.
+
+### 5.2 Supporting Thesis Files
+
+Supporting files include `docs/CASE_STUDIES.md`, `docs/COMPUTE_EFFICIENCY.md`, `docs/EXAMINER_BRIEF.md`, `docs/DOMAIN_PERFORMANCE.md`, `thesis/tables/*.tex`, `figures/*.pdf`, `paper/ieee.tex`, and `defense/qa_prep.md`.
+
+### 5.3 Old or Redundant Thesis Files
+
+- Many `results/eval_*.json` files are diagnostic or older runs. Do not cite randomly.
+- `WHAT_WE_ARE_DOING.md` has one older result line with Pk 0.3715 while later official guide emphasizes 0.3713/0.3588. Use `docs/PROJECT_GUIDE.md` as source of truth.
+- `configs/defaults.yaml` includes default values that differ from final thesis hyperparameter table. Treat as default config, not final experimental truth.
+- `slides/` and `poster/` look like older templates; `defense/` appears more current.
+
+### 5.4 Excluded / Not Relevant Files
+
+`.venv/`, `.git/`, `.pytest_cache/`, `__pycache__/`, `.DS_Store`, and `.claude/` are excluded from thesis explanation. They are environment, version control, cache, or assistant-internal artifacts.
+
+### 5.5 Missing Expected Thesis Files
+
+- Final public release confirmation not found. Evidence: `data/hf_export/` exists but push/login proof not found.
+- Final demo verification not found. Evidence: `docs/PROJECT_GUIDE.md` says verify demo.
+- A single clean public release package is not found.
+- Supporting evidence for large LLM boundary-metric gains not found.
+
+---
+
+## 6. Master Deliverables Checklist
+
+| Deliverable | Found/Missing/Partial/NA | Evidence path | Quality | Improvement needed | Priority |
+|---|---|---|---|---|---|
+| Thesis report PDF | Found | `thesis/main.pdf` | Strong | Final proofread | High |
+| Thesis source | Found | `thesis/*.tex` | Strong | Keep claims consistent | High |
+| Dataset manifest | Found | `data/manifest.jsonl` | Strong | Public release cleanup | High |
+| Ground-truth chapters | Found | `data/gt/` | Strong | Document label limitations | High |
+| Hierarchical labels | Found | `data/gt_hier/` | Strong | Keep IAA caveat | High |
+| IAA report | Found | `data/gt_hier/iaa_report.json` | Strong | None | High |
+| Transcripts | Found | `data/transcripts/` | Strong | Release permissions/copyright check | Medium |
+| Sentence splits | Found | `data/sentences/` | Strong | None | Medium |
+| Embeddings | Found | `data/embeddings/` | Strong | Large files may not be release-friendly | Medium |
+| Core code | Found | `src/lecseg/` | Strong | Keep public cleanup | High |
+| Evaluation scripts | Found | `scripts/run_eval.py` | Strong | Document exact final commands | High |
+| Results | Found | `results/` | Strong but many variants | Use registry to avoid stale claims | High |
+| Figures/tables | Found | `thesis/figures/`, `thesis/tables/` | Strong | Rebuild after any changes | High |
+| Defense slides | Found | `defense/lecseg_defense_slides.pdf` | Strong | Practice script | Medium |
+| Defense Q&A | Found | `defense/qa_prep.md`, `docs/DEFENSE_QA.md` | Partial/strong | `docs/DEFENSE_QA.md` has placeholder text; use `defense/qa_prep.md` if complete | Medium |
+| Paper draft | Found | `paper/ieee.pdf` | Strong | Align with thesis final numbers | Medium |
+| Demo | Found | `scripts/demo.py`, `webapp/app.py` | Partial | Verify real video/demo path | Medium |
+| Public dataset release | Partial | `data/hf_export/` | Partial | Push/login evidence missing | Low/Medium |
+| Raw video release | Not applicable/publicly risky | `data/raw/` | NA | Exclude raw media unless licensed | High |
+| External SOTA reproduction | Not applicable | `docs/PROJECT_GUIDE.md` | NA | Do not claim | High |
+
+---
+
+## 7. Beginner Concepts Needed Before Understanding This Thesis
+
+| Concept | Simple definition | Real-life example | Why it matters | Viva explanation |
+|---|---|---|---|---|
+| Lecture video | A recorded class or tutorial | A YouTube university lecture | The data type | "Our input is long educational video." |
+| Transcript | Written version of speech | Subtitles of a lecture | The system mainly reads text | "We convert speech to text first." |
+| Sentence | A single complete statement | "Now we define entropy." | Boundary positions are between sentences | "Sentence is the unit of prediction." |
+| Topic boundary | Where one topic ends and another starts | Moving from definition to examples | Main target | "We predict these boundary points." |
+| Chapter | Large topic section | "Linear regression" in a lecture | Main evaluation level | "Chapters are coarse sections." |
+| Subtopic | Smaller topic inside a chapter | "Gradient descent intuition" | Hierarchical output | "Subtopics are finer divisions." |
+| Embedding | Numbers representing meaning | A sentence turned into coordinates | Main feature | "Similar sentences have similar vectors." |
+| Cosine similarity | Measures direction similarity between vectors | Two arrows pointing same way | Detects meaning changes | "A drop suggests topic shift." |
+| Baseline | Simple comparison method | Starting score to beat | Needed for research | "We compare against established methods." |
+| Evaluation metric | A number measuring quality | Exam score | Proves method performance | "Pk and WD are our main scores." |
+| Pk | Window-based segmentation error | Checks if two nearby points belong to same topic | Main metric | "Lower Pk is better." |
+| WindowDiff | Counts boundary number mismatch in windows | Checks whether a window has correct boundary count | Main metric | "Lower WD is better." |
+| F1 | Balance of precision and recall | How many hits were correct and found | Exact boundary view | "Higher F1 is better." |
+| Bootstrap CI | Re-sampling to estimate uncertainty | Rechecking score many times with shuffled samples | Makes small dataset claims honest | "We report confidence intervals." |
+| Wilcoxon test | Statistical paired comparison | Checks if method A usually beats method B | Validates improvement | "It tests whether gains are likely real." |
+| Oracle | Impossible best chooser used for diagnosis | A teacher tells the system the best choice | Shows potential headroom | "Oracle is not deployable." |
+| LOO selector | Leave-one-video-out method selector | Train on 29 videos, test on 1 | Best deployable local result | "It avoids testing on training video." |
+
+---
+
+## 8. Tools, Libraries, and Environment Used for This Thesis
+
+| Tool/library | Where it appears | What it is | Why used | Thesis part | Important functions/classes | Evidence |
+|---|---|---|---|---|---|---|
+| Python 3.14 | `pyproject.toml`, AGENTS instructions | Programming language | Main implementation | Whole project | NA | `pyproject.toml` |
+| NumPy | Many scripts/src | Numerical arrays | Embeddings and metrics | Models/eval | `np.ndarray`, vector math | imports scan |
+| scikit-learn | `requirements`, scripts | ML utilities | KMeans, ExtraTrees, RandomForest, Ridge | Baselines/selector | `ExtraTreesRegressor`, `KMeans` | `scripts/method_selector_experiment.py` |
+| sentence-transformers | `src/lecseg/features/text_embeddings.py` | Sentence embedding models | Convert sentences to vectors | Features | `SentenceTransformer` | `requirements_pinned.txt` |
+| Transformers | `scripts/run_eval.py`, `scripts/perplexity_segmenter.py` | HuggingFace model library | BERT-wiki, GPT-2/perplexity | Diagnostics | `AutoTokenizer`, `AutoModel` | imports scan |
+| faster-whisper | `scripts/transcribe.py`, `scripts/vast_transcribe.py` | Whisper transcription | Speech to text | Preprocessing | Whisper model calls | `requirements_pinned.txt` |
+| spaCy | `src/lecseg/preprocess/sentence_split.py` | NLP sentence splitter | Split transcript | Preprocessing | `en_core_web_sm`, sentencizer | code |
+| NLTK | `src/lecseg/baselines/classical.py` | NLP toolkit | TextTiling baseline | Baselines | `TextTilingTokenizer` | code |
+| librosa | `src/lecseg/preprocess/prosody.py` | Audio analysis | Pitch and prosody | Prosody | `pyin`/audio processing | code |
+| PaddleOCR/EasyOCR | `src/lecseg/preprocess/ocr.py`, scripts | OCR libraries | Read slide text | OCR | `PaddleOCR` | code/imports |
+| OpenCV | shot/OCR/visual modules | Video/image processing | Frames and shots | Visual preprocessing | `cv2.VideoCapture` | code |
+| TransNetV2/TensorFlow | `src/lecseg/preprocess/shot_detection.py` | Shot-boundary model | Detect visual cuts | Visual | `TransNetV2` | code |
+| CLIP/PyTorch | `src/lecseg/features/visual_embeddings.py` | Vision-language embedding | Visual features | CLIP ablation | `clip.load`, `torch` | code |
+| Streamlit | `scripts/demo.py`, `scripts/annotate.py`, `webapp/app.py` | Web UI | Annotation/demo | Tools | `streamlit` | code |
+| Matplotlib/Plotly | `scripts/figures.py`, `scripts/demo.py` | Plotting | Figures/demo | Reporting | plotting APIs | code |
+| Ollama | `src/lecseg/refine/llm_refine.py` | Local LLM server | LLM refinement/titles | N4 | REST API at localhost:11434 | code |
+| yt-dlp | `src/lecseg/data/youtube.py`, scripts | YouTube downloader/metadata | Video and chapter collection | Dataset | subprocess calls | code |
+| pytest | `tests/` | Testing framework | Code verification | Reproducibility | `pytest` | tests |
+| LaTeX | `thesis/`, `paper/`, `defense/` | Typesetting | Thesis/paper/slides | Deliverables | `pdflatex`, BibTeX | `.tex`, `.log` |
+
+### Environment and Hardware
+
+Local environment: Windows with Python 3.14 according to `pyproject.toml` and AGENTS instructions.
+
+GPU evidence: thesis says Whisper transcription used RTX 5090 and later embedding experiments used RTX-class/vast.ai instances. Evidence: `thesis/appendices/appendix_b_hyperparameters.tex`, `AGENTS.md`, `docs/PROGRESS_LOG.md`.
+
+Reproducibility instructions are mostly complete through `README.md`, `docs/PROJECT_GUIDE.md`, and scripts. However, some exact final experiments are aggregated from result portfolios, so the safest reproduction gate is `scripts/run_submission_reproduction.py`.
+
+Evidence: `README.md`, `docs/PROJECT_GUIDE.md`
+
+---
+
+## 9. Dataset/Data Audit and Explanation
+
+### Dataset Name and Source
+
+Dataset: **LECSEG-30**
+
+Source: 30 public YouTube lecture videos across Biology, Computer Science, Mathematics, Philosophy, and Physics.
+
+Evidence: `data/manifest.jsonl`, `thesis/appendices/appendix_a_dataset.tex`
+
+### Dataset Facts
+
+| Fact | Value | Evidence |
+|---|---:|---|
+| Videos | 30 | `data/manifest.jsonl` |
+| Total duration | 117083 sec / 32.52 hours | `data/manifest.jsonl`, `docs/PROJECT_GUIDE.md` |
+| Domains | Biology, CS, Math, Philosophy, Physics | `data/manifest.jsonl` |
+| Chapter boundaries | 419 | `docs/PROJECT_GUIDE.md`, `data/gt/` |
+| Reviewed subtopics | 904 | `docs/PROJECT_GUIDE.md`, `data/gt_hier/` |
+| Mean chapters/video | 13.97 | `docs/PROJECT_GUIDE.md` |
+| Mean subtopics/video | 30.13 | `docs/PROJECT_GUIDE.md` |
+| Mean sentences/video | 1211.7 in guide; thesis also mentions 847 +- 512 in methodology | `docs/PROJECT_GUIDE.md`, `thesis/chapters/chapter3_methodology.tex` |
+
+Warning: The mean sentence count differs between guide and methodology text. Use `docs/PROJECT_GUIDE.md` as authoritative unless recalculated. Mark any discrepancy honestly.
+
+### Domain Distribution
+
+| Domain | Videos | Duration sec | Chapters | Evidence |
+|---|---:|---:|---:|---|
+| Biology | 6 | 16999 | 94 | `docs/PROJECT_GUIDE.md` |
+| CS | 7 | 40871 | 98 | `docs/PROJECT_GUIDE.md` |
+| Math | 4 | 12704 | 55 | `docs/PROJECT_GUIDE.md` |
+| Philosophy | 6 | 20277 | 122 | `docs/PROJECT_GUIDE.md` |
+| Physics | 7 | 26232 | 50 | `docs/PROJECT_GUIDE.md` |
+
+The dataset is cross-domain but not perfectly balanced. Math is the smallest domain.
+
+Evidence: `docs/DOMAIN_PERFORMANCE.md`
+
+### Data Folder Structure
+
+| Folder | Meaning | Count/notes |
+|---|---|---|
+| `data/raw/` | Raw downloaded videos/audio | 30 dirs, large media files |
+| `data/transcripts/` | Whisper transcripts | 30 dirs, 60 files |
+| `data/sentences/` | Sentence-level transcripts | 30 dirs, 31 files |
+| `data/gt/` | Chapter ground truth | 33 files including summaries/notes |
+| `data/gt_hier/` | Hierarchical labels | 63 files including double annotations |
+| `data/embeddings/` | Text embeddings | 6 model folders, 168 files |
+| `data/emb_visual/clip/` | CLIP visual embeddings | 33 files |
+| `data/ocr/` | OCR outputs | 31 files |
+| `data/prosody/` | Pause/pitch outputs | 61 files |
+| `data/shots/` | Shot detection outputs | 31 files |
+| `data/predictions/` | Prediction outputs | 30 files |
+| `data/hf_export/` | HuggingFace export artifacts | 3 files, untracked |
+
+Evidence: repository scan.
+
+### Dataset Problems and Biases
+
+- Only 30 videos: small benchmark.
+- Domain imbalance: Math only 4 videos.
+- YouTube chapters are creator-provided, not perfect human lab annotations.
+- Public YouTube lecture styles vary: slides, whiteboard, chalkboard, talking head.
+- ASR can struggle with math notation and technical terms.
+
+Evidence: `thesis/chapters/chapter5_conclusion.tex`, `docs/DOMAIN_PERFORMANCE.md`
+
+---
+
+## 10. Preprocessing Pipeline and Theory
+
+Preprocessing means converting raw lecture videos into clean, structured data that the algorithms can use.
+
+### Actual Preprocessing Steps
+
+| Step | Where found | What it does | Input | Output | Why used | Risk/downside |
+|---|---|---|---|---|---|---|
+| Video/audio download | `scripts/download_all.py`, `data/raw/` | Downloads lecture media | YouTube URL | MP4/WAV/media files | Needed for ASR and visual features | Copyright/release limitations |
+| Transcription | `scripts/transcribe.py`, `scripts/vast_transcribe.py`, `data/transcripts/` | Converts speech to text | Audio/video | transcript JSON/TXT | Main input for text segmentation | ASR errors |
+| Sentence splitting | `src/lecseg/preprocess/sentence_split.py` | Splits transcript into sentence records | Whisper segments | `sentences.json` | Boundaries predicted between sentences | Timestamp approximation |
+| Shot detection | `src/lecseg/preprocess/shot_detection.py`, `data/shots/` | Detects visual cuts | Video | shot JSON | Visual boundary cue | Lectures may have few shots |
+| OCR | `src/lecseg/preprocess/ocr.py`, `data/ocr/` | Reads slide text | Keyframes | OCR JSON/text | Slide topic cue | Noisy OCR, not useful for chalkboard |
+| Prosody | `src/lecseg/preprocess/prosody.py`, `data/prosody/` | Extracts pauses and pitch | Audio/transcript | prosody JSON | Speaker transition cue | Often subtopic-level, may hurt chapter Pk |
+| Embedding generation | `src/lecseg/features/text_embeddings.py`, `data/embeddings/` | Converts sentences to vectors | Sentences | `.npy` arrays | Meaning representation | Model choice affects quality |
+| Alignment | `src/lecseg/features/alignment.py` | Aligns modalities to sentence timeline | time features | feature matrix | Fusion needs same timeline | Timing mismatch |
+
+### Simple Flow Diagram
+
+```mermaid
+flowchart TD
+    A[YouTube lecture video] --> B[Audio transcription with Whisper]
+    B --> C[Sentence splitting with spaCy]
+    C --> D[Sentence timeline]
+    D --> E[Text embeddings]
+    A --> F[Shot detection / OCR / CLIP]
+    A --> G[Prosody pause and pitch]
+    E --> H[Boundary scoring]
+    F --> H
+    G --> H
+    H --> I[Predicted topic boundaries]
+    I --> J[Evaluation against YouTube chapters]
+```
+
+### Why Raw Data Is Not Directly Usable
+
+Raw video is too complex for direct comparison. The system needs text, timestamps, vectors, and aligned features. Without preprocessing, the algorithm would not know where sentences begin, what each sentence means, or how to compare predicted boundaries to ground truth.
+
+Evidence: `src/lecseg/preprocess/`, `src/lecseg/features/`
+
+### Most Important Preprocessing Step
+
+Sentence splitting and text embeddings are the most important for final results because the best official methods rely primarily on text embedding boundary signals.
+
+Evidence: `results/eval_bge.json`, `results/eval_alignment_sweep.json`
+
+---
+
+## 11. Methodology: Step-by-Step With Theory
+
+| Step | What was done | Why | Theory | Evidence | Input | Output | What could go wrong |
+|---|---|---|---|---|---|---|---|
+| 1 Dataset curation | Chose 30 YouTube lectures with chapters | Need benchmark | Evaluation needs reference labels | `data/manifest.jsonl` | YouTube videos | Manifest | Bias/small dataset |
+| 2 Ground truth extraction | Stored YouTube chapter markers | Need true boundaries | Compare predictions with references | `data/gt/` | Chapter metadata | JSON labels | YouTube chapters imperfect |
+| 3 Hierarchical annotation | Added reviewed subtopics | Supports hierarchy | Nested segmentation | `data/gt_hier/` | Chapters/transcripts | subtopic JSON | Annotator disagreement |
+| 4 Transcription | Whisper generated transcripts | Convert speech to text | ASR maps audio to text | `data/transcripts/` | audio | transcript | ASR errors |
+| 5 Sentence splitting | spaCy split transcripts | Create units | Sentences are evaluation units | `src/lecseg/preprocess/sentence_split.py` | transcript | sentences | Bad boundaries/timestamps |
+| 6 Feature extraction | Embeddings/OCR/visual/prosody | Capture signals | Semantic vectors and modality cues | `src/lecseg/features/` | sentences/video/audio | arrays | Noise |
+| 7 Boundary scoring | Compute changes between neighboring windows | Detect topic shifts | Large semantic dissimilarity may mean topic change | `src/lecseg/models/fusion.py` | vectors | gap scores | Similar vocabulary hides topic shift |
+| 8 Prediction | Choose boundary positions | Produce segments | Thresholding/ranking/selectors | `scripts/run_eval.py` | scores | boundaries | Over/under-segmentation |
+| 9 Evaluation | Compare with ground truth | Measure quality | Pk/WD/F1/BS | `src/lecseg/metrics.py` | pred/ref | metrics | Metrics emphasize different qualities |
+| 10 Analysis | Significance, domain, oracle, case studies | Defend claims | Statistical testing | `results/`, `docs/` | metrics | conclusions | Overclaiming |
+
+### Methodology Flow
+
+```mermaid
+flowchart LR
+    V[30 lecture videos] --> T[Whisper transcripts]
+    T --> S[Sentence splitting]
+    S --> X[Text embeddings]
+    V --> M[Visual/OCR/prosody features]
+    X --> B[Boundary methods]
+    M --> B
+    B --> R[Predicted boundaries]
+    G[YouTube chapters and subtopics] --> E[Evaluation]
+    R --> E
+    E --> A[Statistics, domain analysis, error analysis]
+```
+
+Viva explanation: "The methodology converts video to a sentence timeline, represents each sentence numerically, detects meaning changes, selects boundaries, and evaluates them against chapter labels."
+
+---
+
+## 12. Models, Algorithms, or Methods Tried With Underlying Theory
+
+| Model/algorithm/method | Source file/log | Stage | Basic theory | Important result | Diagnosis | Keep/remove/highlight | Evidence |
+|---|---|---|---|---|---|---|---|
+| TextTiling | `src/lecseg/baselines/classical.py` | Baseline | Lexical cohesion drops | Pk 0.6053, WD 0.8978 | Weak | Mention as classical baseline | `results/eval_bge.json`, appendix |
+| C99 | `src/lecseg/baselines/classical.py` | Baseline | Similarity matrix/rank transformation | Pk 0.4219, WD 0.4494 | Better than TextTiling, weaker than BGE | Mention | `results/eval_bge.json` |
+| CosineSeg | `src/lecseg/baselines/neural.py` | Baseline | Cosine drop between embedding windows | Pk 0.4902, WD 0.5392 | Weak | Mention briefly | `thesis/appendices/appendix_c_extra_results.tex` |
+| KMeansSeg | `src/lecseg/baselines/neural.py` | Baseline | Clusters sentence embeddings | Pk 0.6172, WD 0.9986 | Weak for segmentation order | Mention as failed baseline | `thesis/appendices/appendix_c_extra_results.tex` |
+| BertSeg/cosine-depth | `src/lecseg/baselines/neural.py`, `scripts/run_eval.py` | Baseline | BERT-style boundary scoring | Pk 0.4891, WD 0.5403 | Weak | Mention | `thesis/appendices/appendix_c_extra_results.tex` |
+| BGE-divisive | `src/lecseg/models/divisive.py` | Baseline/final comparison | Recursively splits embedding sequence | Pk 0.3884, WD 0.3956 | Strong baseline | Highlight | `results/eval_bge.json` |
+| Cross-model conservative | `scripts/run_eval.py`, `results/eval_alignment_sweep.json` | Final method family | Agreement/conservative selection across embedding models | Pk 0.3713, WD 0.3764 | Best single global method | Highlight | `results/method_selector_significance.json` |
+| Balanced LOO selector | `scripts/method_selector_experiment.py` | Final selector | Train on other videos to select method | Pk 0.3588, WD 0.3739 | Best local operating point | Highlight with caveat | `results/method_selector_significance.json` |
+| Reliability-weighted fusion | `src/lecseg/models/fusion.py` | Proposed N2 | Weight modality by entropy/sharpness | Mixed evidence | Implemented; not universal win | Keep as method, caveat | `src/lecseg/models/fusion.py` |
+| Two-stage predictor | `src/lecseg/models/boundary_predictor.py` | Proposed N1 | Generate candidates then refine | Mixed | Implemented | Keep as method | `src/lecseg/models/boundary_predictor.py` |
+| HierarchicalSegmenter | `src/lecseg/models/hierarchical.py` | Proposed N3 | Enforce chapter boundaries subset of subtopics | Pk 0.4118 in ablation | Useful representation, weaker chapter Pk | Highlight as artifact not best metric | `thesis/chapters/chapter4_results.tex` |
+| LLMRefiner | `src/lecseg/refine/llm_refine.py` | Proposed N4 | Ollama checks/nudges boundaries and titles | No strong verified metric gain found | Implemented, useful for titling/diagnostics | Mention carefully | `docs/PROJECT_GUIDE.md` |
+| TreeSeg-style adapter | `scripts/tree_seg_same_dataset.py` | Comparator | Recursive split objective | Pk 0.4320-0.4399, F1@2 0.1576-0.1733 | More exact hits, worse Pk/WD | Use as fair comparator | `results/eval_treeseg_same_dataset_*.json` |
+| BERTopic | `scripts/bertopic_segmenter.py` | Diagnostic | Topic model shifts | Pk 0.5632 | Too fine-grained | Negative result | `thesis/chapters/chapter4_results.tex` |
+| GPT-2 perplexity | `scripts/perplexity_segmenter.py` | Diagnostic | Language surprise spikes | Pk 0.4182 | Weak vs BGE | Negative result | `thesis/chapters/chapter4_results.tex` |
+| Discourse markers | `scripts/discourse_marker_segmenter.py` | Diagnostic | Transition phrase rules | Pk 0.4615 | Over-segments | Negative result | `docs/PROGRESS_LOG.md` |
+| Pause/pitch | `scripts/pause_transition_eval.py` | Diagnostic | Acoustic transition cues | Pk 0.4174 | Granularity mismatch | Negative result | `docs/PROGRESS_LOG.md` |
+| CLIP visual | `scripts/clip_fusion_eval.py` | Diagnostic/future | Visual scene embedding changes | CLIP+text Pk 0.3740 | Promising | Highlight as future direction | `docs/PROGRESS_LOG.md` |
+| BERT-wiki | `results/eval_bert_wiki.json` | External supervised transfer | Wikipedia-trained segmenter | Pk 0.4932, WD 0.5397 | Poor transfer | Negative result | `results/eval_bert_wiki.json` |
+
+---
+
+## 13. Thesis Experiment Tracker
+
+| Experiment ID | Method/model | Data/preprocessing | Settings | Result | Problem observed | Conclusion | Keep/remove/highlight | Evidence |
+|---|---|---|---|---|---|---|---|---|
+| E1 | Classical baselines | LECSEG-30 sentences | TextTiling/C99 | TextTiling weak, C99 moderate | Lexical methods insufficient | Use as baseline | Mention | `results/eval_bge.json` |
+| E2 | BGE-divisive | BGE embeddings | divisive segmentation | Pk 0.3884, WD 0.3956 | Exact F1 moderate/low | Strong stable baseline | Highlight | `results/eval_bge.json` |
+| E3 | Cross-model conservative | BGE/E5 style embeddings | conservative minlen/alignment | Pk 0.3713, WD 0.3764 | Low F1@2 | Best single global Pk/WD | Highlight | `results/eval_alignment_sweep.json` |
+| E4 | Balanced LOO selector | Result portfolio/video features | ExtraTrees, top-80 balanced | Pk 0.3588, WD 0.3739 | Not significant vs cross-model Pk/WD | Best deployable local operating point | Highlight with caveat | `results/method_selector_significance.json` |
+| E5 | Selector robustness | Candidate pools | k30/k50/k80/k120 | k80 best Pk/WD | Sensitive to pool size | Good diagnostic | Highlight briefly | `results/selector_robustness_analysis.json` |
+| E6 | Leave-domain-out selector | Domain split | held-out domain | Pk 0.4012, WD 0.4103 | Poor domain generalization | Limitation | Mention | `results/selector_leave_domain_out.json` |
+| E7 | Domain performance | 5 domains | domain grouping | Math failure | Small domain/notation | Limitation | Highlight honestly | `results/domain_performance_analysis.json` |
+| E8 | TreeSeg same-dataset | LECSEG embeddings | min6 lam0 etc. | Pk 0.4320-0.4399 | worse Pk/WD, better F1 | Metric tradeoff | Use in defense | `results/eval_treeseg_same_dataset_*.json` |
+| E9 | Oracle gap | method portfolio | oracle picks best per video | Pk 0.2980 | not deployable | Headroom | Highlight | `results/method_portfolio_analysis.json` |
+| E10 | Candidate oracle | candidate pool | tau=2/tau=5 | Pk 0.0172 at tau2 | impossible oracle | selection bottleneck | Highlight carefully | `results/defense_oracle_gap.json` |
+| E11 | Prosody/pause | audio features | fused weights | Pk 0.4174 | chapter mismatch | Not final | Negative | `scripts/pause_transition_eval.py` |
+| E12 | BERTopic | topic model | min5 | Pk 0.5632 | too fine | Not final | Negative | `results/eval_bertopic_bge_large_min5.json` |
+| E13 | CLIP fusion | visual embeddings | grid | Pk 0.3740 | near cross-model | promising | Future | `docs/PROGRESS_LOG.md` |
+| E14 | HuggingFace export | dataset export | dry run | parquet files | push not verified | partial release | Mention partial | `data/hf_export/` |
+
+Repeated experiments were useful because they show that simple tuning did not magically solve the problem. This strengthens the claim that boundary selection is the bottleneck.
+
+---
+
+## 14. Process Explained With Theory
+
+### Training vs Evaluation in This Thesis
+
+This thesis is not mainly a deep neural network training thesis. Most strong methods are unsupervised or lightweight selection methods using precomputed embeddings. The balanced selector uses machine learning at the method-selection level: it learns from 29 videos which method may work best for the held-out video.
+
+Evidence: `scripts/method_selector_experiment.py`
+
+### Real-Life Analogy
+
+Imagine you have 30 lecture notebooks. For each notebook, several students suggest where chapter breaks should be. The selector learns from 29 notebooks which student tends to be reliable for certain kinds of lectures, then chooses one student for the 30th notebook. That is similar to the LOO selector.
+
+### Important Process Steps
+
+| Step | Theory | Example from project | Evidence |
+|---|---|---|---|
+| Convert audio to text | ASR recognizes spoken words | Whisper transcripts | `data/transcripts/` |
+| Sentence timeline | Segmentation needs ordered units | sentences with start/end times | `data/sentences/` |
+| Meaning vectors | Embeddings place similar meaning nearby | BGE/E5 `.npy` files | `data/embeddings/` |
+| Gap scoring | Topic change causes semantic dissimilarity | cosine/dissimilarity gap | `src/lecseg/models/fusion.py` |
+| Boundary selection | Choose strongest plausible gaps | divisive/cross-model/selector | `scripts/run_eval.py` |
+| Evaluation | Compare predicted and true boundaries | Pk/WD/BS/F1 | `src/lecseg/metrics.py` |
+
+---
+
+## 15. Metrics and Evaluation Used With Theory
+
+| Metric/evaluation | Meaning | Why used | How to read | Good value | Bad value | Evidence |
+|---|---|---|---|---|---|---|
+| Pk | Window-based segmentation error | Standard topic segmentation metric | Lower is better | 0 is perfect | Near 1 bad | `src/lecseg/metrics.py` |
+| WindowDiff | Counts boundary-count mismatch in a window | Penalizes segmentation structure errors | Lower is better | 0 perfect | high bad | `src/lecseg/metrics.py` |
+| Boundary Similarity | Boundary-level similarity with near-match scoring | Shows boundary closeness | Higher is better | 1 perfect | 0 bad | `src/lecseg/metrics.py` |
+| Tolerance-F1 / F1@2 | Predicted boundary counts correct if within 2 sentences | Exact boundary-hit view | Higher is better | 1 perfect | 0 bad | `src/lecseg/metrics.py` |
+| Precision | Of predicted boundaries, how many were correct | Avoid false positives | Higher better | 1 perfect | 0 bad | `src/lecseg/metrics.py` |
+| Recall | Of true boundaries, how many were found | Avoid missed boundaries | Higher better | 1 perfect | 0 bad | `src/lecseg/metrics.py` |
+| H-WD | Hierarchical WindowDiff | Subtopic-aware evaluation | Lower better | 0 perfect | high bad | `src/lecseg/metrics.py` |
+| Cohen's kappa | Agreement between annotators beyond chance | Label reliability | Higher better | 1 perfect | 0 chance | `scripts/compute_iaa.py`, `data/gt_hier/iaa_report.json` |
+| Bootstrap CI | Confidence interval from resampling videos | Shows uncertainty | Narrower is more stable | NA | NA | `src/lecseg/eval/stats.py` |
+| Wilcoxon test | Paired statistical test | Checks significance | p < 0.05 often significant | low p | high p | `results/method_selector_significance.json` |
+
+### How to Compare Results Fairly
+
+Use Pk and WD as the primary segmentation-window metrics. Use F1@2 as complementary exact-boundary evidence. Do not say a method is universally better if it improves Pk but worsens F1, or improves F1 but worsens Pk/WD. This thesis has exactly that tradeoff.
+
+Evidence: `thesis/chapters/chapter4_results.tex`
+
+---
+
+## 16. Positive Results
+
+| Result | Method | Exact values | Source | Why positive | Reliable? | Viva explanation |
+|---|---|---:|---|---|---|---|
+| Strong baseline built | BGE-divisive | Pk 0.3884, WD 0.3956 | `results/eval_bge.json` | Beats many simple baselines | Yes | "This is the main local baseline." |
+| Best single global method | Cross-model conservative | Pk 0.3713, WD 0.3764 | `results/method_selector_significance.json` | Significant improvement over baseline | Yes | "Cross-model agreement improved window consistency." |
+| Best deployable mean result | Balanced LOO selector | Pk 0.3588, WD 0.3739, F1@2 0.0893 | `results/method_selector_significance.json` | Best local operating point | Yes, with caveat | "It improves baseline but not significantly better than cross-model on Pk/WD." |
+| Boundary-hit recovery | Selector vs cross-model | F1@2 delta +0.0656, p=0.0076 | `thesis/tables/significance.tex` | Exact boundary metric improves | Yes | "Selector recovers some exact hits." |
+| Same-dataset comparator | TreeSeg-style | F1@2 0.1576-0.1733 | `results/eval_treeseg_same_dataset_*.json` | Shows fair comparison tradeoff | Yes | "TreeSeg-like methods hit exact boundaries more, but Pk/WD worse." |
+| Oracle headroom | Per-video oracle | Pk 0.2980, WD 0.3280 | `results/method_portfolio_analysis.json` | Shows possible improvement direction | Diagnostic only | "The method pool contains better choices." |
+| CLIP promise | CLIP+text fusion | Pk 0.3740 | `docs/PROGRESS_LOG.md` | Visual cue near best text method | Partial/diagnostic | "Visual slides carry chapter-level signal." |
+
+---
+
+## 17. Negative Results and Failed Attempts
+
+| Tried | Result | Why weak | Evidence | Theory reason | How to explain in viva |
+|---|---:|---|---|---|---|
+| TextTiling | Pk 0.6053 | Very weak | `results/eval_bge.json` | Word overlap alone is not enough | "Classical lexical method was a baseline, not final." |
+| KMeansSeg | Pk 0.6172 | Very weak | appendix/result table | Clustering ignores ordered segmentation well | "Clusters do not automatically form topic timeline." |
+| BERT-wiki | Pk 0.4932 | Poor transfer | `results/eval_bert_wiki.json` | Wikipedia paragraphs differ from spoken lectures | "Out-of-domain supervised models did not transfer." |
+| BERTopic | Pk 0.5632 | Very weak | `results/eval_bertopic_bge_large_min5.json` | Topic model detects too-fine shifts | "It found subtopic-like changes." |
+| Discourse markers | Pk 0.4615 | Weak | `docs/PROGRESS_LOG.md` | Transition phrases happen inside topics too | "Rules over-segmented." |
+| GPT-2 perplexity | Pk 0.4182 | Weak vs BGE | `thesis/chapters/chapter4_results.tex` | Surprise can happen at examples, not chapters | "Language surprise is not chapter granularity." |
+| Pause/pitch | Pk 0.4174 | Weak vs BGE | `docs/PROGRESS_LOG.md` | Pauses signal rhetorical shifts, not always chapters | "Audio transitions mismatch YouTube chapters." |
+| Leave-domain-out selector | Pk 0.4012, WD 0.4103 | Worse than baseline/cross-model | `results/selector_leave_domain_out.json` | Too little domain training evidence | "Selector is local benchmark result, not domain-general." |
+| Boundary classifier LOOCV | Pk 0.5803, WD 0.9933 | Over-predicts boundaries | `docs/FINAL_MODEL_AUDIT.md` | Too little data for classifier | "Small data hurts supervised boundary classification." |
+
+Negative results are useful because they show what does not solve the problem and prevent overclaiming.
+
+---
+
+## 18. Error Analysis, Weakness Analysis, and Trustworthiness
+
+| Method/run | Evidence result | Observed issue | Simple explanation | Theory-based explanation | Recommended action | Evidence |
+|---|---|---|---|---|---|---|
+| Cross-model conservative | Pk 0.3713, F1@2 0.0237 | Low exact boundary hits | Gets rough structure but misses exact points | Conservative selection reduces false positives but misses true boundaries | Use as best single Pk/WD, not exact boundary method | `results/method_selector_significance.json` |
+| Balanced selector | Pk 0.3588, F1@2 0.0893 | Better but not domain-general | Chooses methods better locally | Learns from related videos but fails under domain shift | More data/domain-aware selector | `results/selector_leave_domain_out.json` |
+| Math domain | Selector Pk 0.4014 | Failure domain | Math is hardest | Small domain, notation, stable vocabulary | Add math data and notation-aware preprocessing | `docs/DOMAIN_PERFORMANCE.md` |
+| Prosody/BERTopic/perplexity | Pk worse than BGE | Over-segmentation | Finds small changes | Signal granularity lower than chapter granularity | Use as ranker features only | `thesis/chapters/chapter4_results.tex` |
+| YouTube chapters | Creator labels | Imperfect ground truth | Chapters reflect creator decisions | Label noise affects evaluation | Mention as limitation | `thesis/chapters/chapter5_conclusion.tex` |
+
+Trustworthy results:
+
+- Baseline, cross-model, selector, significance, and domain results are trustworthy because they have clear result files.
+
+Potentially misleading results:
+
+- Oracle results are not deployable.
+- Same-dataset TreeSeg adapter is not identical to proving external TreeSeg dominance.
+- Multimodal/LLM components should not be described as uniformly improving final metrics.
+
+---
+
+## 19. Comparison and Final Ranking
+
+### 19.1 Best Methods/Models/Results to Highlight
+
+1. **Balanced LOO selector** - Pk 0.3588, WD 0.3739, best local deployable mean Pk/WD. Evidence: `results/method_selector_significance.json`.
+2. **Cross-model conservative** - Pk 0.3713, WD 0.3764, best single global method. Evidence: `results/eval_alignment_sweep.json`.
+3. **BGE-divisive baseline** - strong stable baseline. Evidence: `results/eval_bge.json`.
+4. **Oracle gap** - not deployable but strongest future-work evidence. Evidence: `results/defense_oracle_gap.json`.
+5. **CLIP+text diagnostic** - promising future multimodal direction. Evidence: `docs/PROGRESS_LOG.md`.
+
+### 19.2 Medium or Optional Results
+
+- TreeSeg-style same-dataset comparison: useful for defense, but explain metric tradeoff.
+- C99: useful as classical baseline.
+- Hierarchical segmenter: useful representation, not best chapter metric.
+
+### 19.3 Weak or Redundant Results
+
+- TextTiling, KMeansSeg, BERTopic, BERT-wiki, discourse markers, pause/pitch, GPT-2 perplexity: mention as negative diagnostics, not final methods.
+
+---
+
+## 20. Redundancy and Cleanup Analysis
+
+| Redundant item | Where found | Why redundant | Better alternative | Should delete/archive/mention only | Reason |
+|---|---|---|---|---|---|
+| Many scratch result files | `results/eval_*.json`, logs | Older/diagnostic runs | `docs/EXPERIMENT_REGISTRY.md` | Archive/mention only | Avoid stale claims |
+| `.claude/` worktrees | `.claude/` | Duplicated assistant artifacts | Main repo | Exclude from public release | Not thesis evidence |
+| Internal prompts | `internal/` | Not public thesis | None | Exclude | Release hygiene |
+| Older slides/poster templates | `slides/`, `poster/` | Less current than `defense/` | `defense/lecseg_defense_slides.pdf` | Keep as draft/archive | Use defense deck for viva |
+| Config defaults vs final runs | `configs/defaults.yaml` | Defaults not always final result settings | thesis appendix/result files | Mention carefully | Avoid parameter confusion |
+| Raw videos | `data/raw/` | Large and possibly unreleasable | metadata/annotations | Exclude public release | Copyright/storage |
+
+Do not delete anything automatically. This section recommends cleanup only.
+
+---
+
+## 21. Parameters, Settings, and Configuration Used in This Thesis
+
+| Setting/parameter | Value | Used in | Where found | Simple meaning | Why it matters | Effect | Reasonable? | Evidence |
+|---|---|---|---|---|---|---|---|---|
+| Python version | >=3.14,<3.15 | Project | `pyproject.toml` | Python runtime | Reproducibility | Must match env | Yes | `pyproject.toml` |
+| Seed | 42 | defaults | `configs/defaults.yaml` | Fixed randomness | Reproducibility | Stable runs | Yes | config |
+| Whisper model | large-v3 in thesis; small in default config | ASR | thesis appendix/config | Speech model | Transcript quality | Bigger model better, slower | Final thesis says large-v3 | `thesis/appendices/appendix_b_hyperparameters.tex` |
+| Beam size | 1 in thesis appendix; 5 in default config | ASR | thesis/config | Search width | Speed/quality tradeoff | Lower faster | Unclear mismatch | thesis/config |
+| VAD min silence | 500 ms in thesis | ASR | thesis appendix | Removes silence | Cleaner transcript | Can drop speech if wrong | Reasonable | thesis |
+| Sentence splitter | spaCy `en_core_web_sm` | Sentence splitting | `src/lecseg/preprocess/sentence_split.py`, config | Splits sentences | Creates units | Bad split harms eval | Yes | code |
+| Min tokens | 3 | Sentence split | `src/lecseg/preprocess/sentence_split.py` | Discard short fragments | Cleaner units | May lose short utterances | Reasonable | code |
+| Primary text encoder | BGE-large 1024-dim | Final thesis | thesis appendix | Sentence meaning model | Best features | More accurate, heavier | Yes | thesis |
+| Other encoders | MPNet, E5, E5-large, BGE, Stella | Ablations | `data/embeddings/`, scripts | Compare embeddings | Cross-model evidence | Different strengths | Yes | data |
+| CLIP model | ViT-B/32, 512-dim | Visual | `src/lecseg/features/visual_embeddings.py` | Visual embedding | Slide/scene cues | Promising | Yes | code |
+| Shot threshold | 0.5 | Visual | `configs/defaults.yaml`, code | Shot probability cutoff | Detect visual changes | Too high misses shots | Reasonable | config |
+| OCR confidence | 0.5 | OCR | `src/lecseg/preprocess/ocr.py` | Text confidence cutoff | Remove noisy OCR | Too high loses text | Reasonable | code |
+| Pause min | 0.3 in code, 0.5 in config | Prosody | code/config | Count meaningful pause | Audio cue | Too low noisy | Mismatch; mark | code/config |
+| Fusion mode | entropy/reliability | N2 | `src/lecseg/models/fusion.py` | Weight clear signals more | Avoid noisy modalities | Mixed results | Concept reasonable | code |
+| Two-stage window | 3 sentences | N1 | `src/lecseg/models/boundary_predictor.py` | Context size | Local topic contrast | Too small noisy, too large smooths | Reasonable | code |
+| Candidate std | 0.5 | N1 | code | Candidate threshold | More/fewer candidates | Low = more candidates | Reasonable | code |
+| Refine std | 1.2 | N1 | code | Final threshold | Filters boundaries | High conservative | Reasonable | code |
+| LLM model | llama3.1:8b | N4 | config/code/thesis | Local LLM | Titles/refinement | No API dependency | Reasonable | code |
+| LLM snap window | ±2 in thesis/code; 3 in config | N4 | thesis/config/code | Max boundary shift | Refines boundary | Too high changes too much | Mismatch; mark | thesis/code/config |
+| Bootstrap samples | 1000 | stats | thesis/config | Resampling count | Confidence intervals | More stable | Yes | thesis |
+| Significance test | Wilcoxon + Holm | stats | thesis/config/results | Paired nonparametric test | Small sample comparison | Conservative | Yes | results |
+| Selector model | ExtraTrees | method selector | `scripts/method_selector_experiment.py` | Tree ensemble regressor | Chooses method per video | Can overfit small data | Reasonable with LOO caveat | code |
+| Selector top-k | 80 | final selector | `results/selector_robustness_analysis.json` | Candidate method pool size | Best tested pool | Too high worsens | Yes based on sweep | results |
+
+### 21.1 Important Settings Explained for Beginners
+
+- **Embedding model**: the "language brain" used to convert sentences into numbers. Better embeddings usually make better topic-change detection.
+- **Window size**: how many neighboring sentences the system looks at when deciding if a topic changed.
+- **Threshold**: the cutoff for deciding whether a score is strong enough to be a boundary.
+- **Top-k selector pool**: how many candidate methods the selector is allowed to choose from.
+- **Bootstrap samples**: how many times results are resampled to estimate uncertainty.
+
+### 21.2 Settings Found but Not Clearly Used
+
+- `configs/defaults.yaml` includes `boundary.arch: bilstm`, `hidden_dim`, `dropout`, `train.lr`, and other training settings. Found in repository but not clearly part of final official thesis result, because final supported results rely on embedding/divisive/cross-model/selector experiments rather than a trained BiLSTM boundary predictor.
+- `configs/defaults.yaml` includes `manifest: data/manifest.csv`, but actual official manifest is `data/manifest.jsonl`. Found in repository but not clearly part of final workflow.
+
+### 21.3 Settings Not Found
+
+Exact per-run config YAML files under `results/<run>/config.yaml` mentioned in the appendix were not found in the inspected result root. Not found in thesis-related project files.
+
+---
+
+## 22. Codebase Explanation
+
+### `src/lecseg/metrics.py`
+
+Implements Pk, WindowDiff, Boundary Similarity, tolerance-F1, precision, recall, and H-WD. It is central because every result depends on metric definitions.
+
+Evidence: `src/lecseg/metrics.py`
+
+Risk: If metric implementation differs from standard libraries, comparison must be described as project-local. The thesis does this by using same protocol within LECSEG.
+
+### `src/lecseg/baselines/classical.py`
+
+Implements TextTiling and C99-like segmentation using lexical similarity. Useful for classical baselines.
+
+Evidence: `src/lecseg/baselines/classical.py`
+
+### `src/lecseg/baselines/neural.py`
+
+Implements embedding-based baselines: cosine segmentation, KMeans segmentation, BertSeg-style depth.
+
+Evidence: `src/lecseg/baselines/neural.py`
+
+### `src/lecseg/models/divisive.py`
+
+Implements recursive divisive segmentation on embeddings. This underpins the stable BGE-divisive baseline.
+
+Evidence: `src/lecseg/models/divisive.py`, `results/eval_bge.json`
+
+### `src/lecseg/models/fusion.py`
+
+Implements ReliabilityWeightedFusion. It computes entropy of modality boundary scores and gives more weight to sharper, more confident signals.
+
+Evidence: `src/lecseg/models/fusion.py`
+
+### `src/lecseg/models/boundary_predictor.py`
+
+Implements TwoStageBoundaryPredictor: generate broad candidates from text gap scores, then refine with fusion.
+
+Evidence: `src/lecseg/models/boundary_predictor.py`
+
+### `src/lecseg/models/hierarchical.py`
+
+Implements SegmentTree and HierarchicalSegmenter, enforcing that chapter boundaries are also subtopic boundaries.
+
+Evidence: `src/lecseg/models/hierarchical.py`
+
+### `src/lecseg/refine/llm_refine.py`
+
+Calls local Ollama to refine boundaries, filter boundaries, and title segments.
+
+Evidence: `src/lecseg/refine/llm_refine.py`
+
+Important caveat: implementation exists, but strong metric improvement from LLM refinement was not found as an official claim.
+
+### `scripts/run_eval.py`
+
+The central evaluation script. It loads ground truth, sentences, embeddings, runs multiple methods, computes metrics, and writes result JSON.
+
+Evidence: `scripts/run_eval.py`
+
+### `scripts/method_selector_experiment.py`
+
+Builds a leave-one-video-out selector using candidate method portfolios and models such as Ridge, RandomForest, and ExtraTrees. The best supported selector uses ExtraTrees and balanced ranking.
+
+Evidence: `scripts/method_selector_experiment.py`, `results/method_selector_significance.json`
+
+### `scripts/method_portfolio_analysis.py`
+
+Aggregates per-video method results and computes best global method, LOO global selector, and per-video oracle.
+
+Evidence: `scripts/method_portfolio_analysis.py`
+
+### `scripts/tree_seg_same_dataset.py`
+
+Adapts a TreeSeg-style recursive split objective to local LECSEG embeddings, enabling same-dataset comparison.
+
+Evidence: `scripts/tree_seg_same_dataset.py`
+
+### Risks and Missing Documentation
+
+- Some scripts are one-off experiment scripts.
+- Results folder is large and contains old variants.
+- Final official result must be taken from the project guide/readiness audit, not by picking random lowest numbers from scratch runs.
+
+---
+
+## 23. Result Files, Graphs, Tables, and Logs Interpretation
+
+| Artifact | What it shows | How to read | Good/bad | Supports thesis? | Evidence |
+|---|---|---|---|---|---|
+| `results/eval_bge.json` | Main BGE baseline and classical/neural rows | Lower Pk/WD better | BGE-divisive strong baseline | Yes | `results/eval_bge.json` |
+| `results/eval_alignment_sweep.json` | Alignment variants for cross-model method | Find best method row | Cross-model 0.3713/0.3764 | Yes | result file |
+| `results/method_selector_significance.json` | Baseline/current/selector comparisons and p-values | Check summary and comparisons | Selector beats baseline; not significant vs current Pk/WD | Yes | result file |
+| `results/selector_robustness_analysis.json` | top-k pool sensitivity | k80 best | Shows selector tuning risk | Yes | result file |
+| `results/domain_performance_analysis.json` | Performance by domain | Compare domain rows | Math weak, Physics strong | Yes | result file |
+| `results/selector_leave_domain_out.json` | Held-out domain test | Lower better | Selector degrades | Yes, limitation | result file |
+| `results/eval_treeseg_same_dataset_*.json` | TreeSeg-style comparator | Compare Pk/WD/F1 | Worse Pk/WD, better F1 | Yes | result files |
+| `results/defense_oracle_gap.json` | Oracle gap | Oracle is upper bound | Large headroom | Yes | result file |
+| `thesis/tables/main_results.tex` | Main thesis result table | Same values as guide | Good | Yes | table |
+| `thesis/tables/significance.tex` | Wilcoxon tests | p < 0.05 significant | Nuanced | Yes | table |
+| `thesis/figures/fig_final_results.png/pdf` | Visual result comparison | Bars/metrics | Useful for slides | Yes | figure |
+| `thesis/figures/fig_domain_performance.png/pdf` | Domain performance | Compare domains | Shows Math issue | Yes | figure |
+| `figures/domain_failure_analysis.pdf` | Domain failure visual | Shows domain distribution/failure | Useful defense | Yes | figure |
+| `figures/embedding_variance.pdf` | Embedding variance analysis | Explains Math not flat embedding issue | Diagnostic | Yes | figure |
+| `defense/figures/oracle_gap.png/pdf` | Oracle gap graphic | Shows headroom | Strong defense | Yes | figure |
+
+If a figure image itself was not visually rendered in this session, interpretation is based on file names, thesis text, and generated docs.
+
+---
+
+## 24. Final Achievements
+
+The thesis achieved:
+
+- A compact real lecture-video benchmark: LECSEG-30.
+- A hierarchical annotation format with chapter/subtopic labels.
+- A full preprocessing pipeline: transcription, sentence splitting, embeddings, visual/OCR/prosody features.
+- Multiple baseline and proposed method implementations.
+- A large evaluation and diagnostic result set.
+- A best local result of Pk 0.3588 and WD 0.3739 using a balanced LOO selector.
+- Statistical claim validation and readiness audit.
+- Written thesis, paper draft, defense slides, and defense notes.
+
+Best method/result: balanced LOO selector, Pk 0.3588, WD 0.3739, BS 0.0757, F1@2 0.0893.
+
+Evidence: `results/method_selector_significance.json`, `docs/SUBMISSION_READINESS.md`
+
+What the system can do: produce topic boundary predictions and evaluate them against YouTube chapters.
+
+What it cannot do yet: guarantee exact boundary hits, generalize strongly to unseen domains, or beat large external chaptering systems on their own benchmarks.
+
+For an undergraduate thesis, this is acceptable and defendable because it includes data, implementation, experiments, statistical analysis, honest limitations, and future direction.
+
+---
+
+## 25. Limitations
+
+| Limitation | Why it matters | Evidence/reason | Seriousness | How to defend | Future improvement |
+|---|---|---|---|---|---|
+| Only 30 videos | Small data limits generalization | `data/manifest.jsonl` | Medium/high | "We report uncertainty and position as low-resource." | Expand to 50-100+ videos |
+| Domain imbalance | Math underrepresented | `docs/DOMAIN_PERFORMANCE.md` | Medium | "We report actual distribution, not fake balance." | Add Math videos |
+| YouTube chapter labels | Creator labels may be inconsistent | thesis conclusion | Medium | "They are reproducible creator references, but imperfect." | Expert annotation |
+| Low strict F1 | Exact boundaries often missed | `results/method_selector_significance.json` | High | "Pk/WD and F1 measure different qualities." | Boundary-level ranker |
+| Selector not domain-general | Leave-domain-out weak | `results/selector_leave_domain_out.json` | High | "We do not claim domain-general deployment." | More domain data |
+| Multimodal signals often hurt | Prosody/OCR/discourse mismatch | `thesis/chapters/chapter4_results.tex` | Medium | "Negative results are part of diagnosis." | Quality-gated fusion |
+| LLM gains not strongly verified | Implementation exists, not final metric win | `src/lecseg/refine/llm_refine.py`, `docs/PROJECT_GUIDE.md` | Medium | "LLM is implemented/refinement/titling, not overclaimed." | Same-dataset LLM baseline |
+| Public release incomplete | Export exists but push proof missing | `data/hf_export/` | Low/medium | "Release is future/submission hygiene item." | Complete release package |
+
+### 25.1 How to Defend the Limitations
+
+If asked "Is 30 videos enough?":
+
+Answer: "It is not enough for a universal production system, and I do not claim that. It is enough for a compact low-resource benchmark study because the thesis reports uncertainty, domain analysis, and exact claim boundaries."
+
+If asked "Why is F1 low?":
+
+Answer: "The best Pk/WD method is conservative. It preserves broad segment structure but often misses the exact sentence-level boundary. That is why the thesis reports both Pk/WD and F1, and why future work focuses on boundary-level selection."
+
+If asked "Why did multimodal fusion not always help?":
+
+Answer: "Because different signals operate at different granularity. Pauses and discourse markers often detect subtopic or rhetorical shifts, while YouTube chapters are coarser. CLIP visual features were more promising because slide changes often align with chapter-level structure."
+
+---
+
+## 26. Future Work
+
+| Future work item | Why it matters | How it improves thesis | Priority | Evidence/reason |
+|---|---|---|---|---|
+| Boundary-level ranker | Main bottleneck is selection | Picks correct candidate boundaries | High | `results/defense_oracle_gap.json` |
+| Larger dataset | Small data limits generalization | More robust selector | High | `thesis/chapters/chapter6_future_work.tex` |
+| More Math videos | Math is failure domain | Fix domain weakness | High | `docs/DOMAIN_PERFORMANCE.md` |
+| Same-dataset LLM chaptering baseline | Strong modern comparison | Better defense against LLM questions | High | `docs/EXAMINER_BRIEF.md` |
+| CLIP visual integration | Visual cue promising | Better multimodal method | Medium/high | `docs/PROGRESS_LOG.md` |
+| Quality-gated prosody/OCR | Avoid noisy modalities | Prevent over-segmentation | Medium | `thesis/chapters/chapter4_results.tex` |
+| Streaming inference | Real-time lecture chaptering | Practical deployment | Medium | thesis future work |
+| Cross-lingual support | Non-English lectures | Broader usefulness | Medium | thesis future work |
+| User study | Measures learner benefit | Validates practical value | Medium | thesis future work |
+| Public release cleanup | Reproducibility | Makes artifact shareable | Medium | `README.md` release hygiene |
+
+---
+
+## 27. Missing Deliverables and Fix List
+
+| Missing/weak item | Why it matters | Current evidence | What needs to be done | Priority |
+|---|---|---|---|---|
+| Final demo verification | Defense/live demo confidence | Demo code exists | Run demo with real LECSEG video and record status | Medium |
+| Public release package | Submission/reproducibility | Export files exist but untracked | Clean internal files and finalize release | Medium |
+| Exact final reproduction command for best selector | Makes result easier to reproduce | Guide gives scripts but selector aggregates portfolio | Document exact command sequence | High |
+| Config/default mismatch explanation | Avoid panel confusion | `configs/defaults.yaml` differs from thesis final settings | Add note in thesis/docs if needed | Medium |
+| LLM result wording | Avoid overclaiming | Code exists, no strong metric gain | Say implemented/diagnostic/titling only | High |
+| Stale result references | Avoid inconsistent numbers | Some docs mention older Pk 0.3715 | Use `docs/PROJECT_GUIDE.md` as source | High |
+| Raw media release risk | Copyright/storage | `data/raw/` exists | Exclude from public release unless allowed | High |
+
+---
+
+## 28. Panel Defense Strategy: How to Prove This Thesis Had Serious Work
+
+The strongest defense is:
+
+LECSEG is not claiming to solve lecture segmentation perfectly. It contributes a reproducible low-resource benchmark and a full experimental study showing what works and what fails.
+
+### What Makes It Valuable
+
+- It addresses real lecture navigation.
+- It creates LECSEG-30 with chapters and subtopics.
+- It implements many baselines and proposed modules.
+- It evaluates with standard metrics.
+- It reports statistical significance.
+- It includes negative results and failure analysis.
+
+### How to Explain Methodology Choices
+
+Text embeddings were chosen because lecture topic shifts are mainly semantic. Visual, OCR, and prosody were also explored because lectures include slides, pauses, and speech patterns. The experiments showed text is strongest, CLIP is promising, and many fine-grained cues over-segment.
+
+### If Panel Asks Why Results Are Not Higher
+
+Answer honestly:
+
+"Lecture topic segmentation is hard because chapter labels are coarse and sometimes subjective. Exact boundaries are especially difficult. Our result improves Pk/WD over the baseline, but the remaining error shows that boundary selection is still unsolved. That is why the oracle gap is an important contribution."
+
+### If Panel Asks Whether This Is Enough for Undergraduate Thesis
+
+Answer:
+
+"Yes, because the thesis includes dataset construction, preprocessing, algorithm implementation, multiple experiments, evaluation metrics, statistical testing, error analysis, thesis writing, and defense artifacts. It does not hide limitations; it makes them measurable."
+
+Evidence: `docs/EXAMINER_BRIEF.md`, `docs/DEFENSE_ORACLE_GAP.md`
+
+---
+
+## 29. Strong Defense Narrative
+
+This thesis builds LECSEG, a reproducible low-resource system and benchmark for lecture-video topic segmentation. The main goal is to automatically identify where topics change in long lecture videos, so students can navigate lectures more easily.
+
+The work includes a real 30-video dataset, transcripts, sentence-level timelines, chapter ground truth, reviewed subtopics, multiple embedding models, preprocessing code, segmentation methods, evaluation scripts, statistical tests, and defense materials. The best local deployable operating point is a balanced leave-one-video-out selector with Pk 0.3588 and WindowDiff 0.3739. This improves over the stable BGE-divisive baseline, while the thesis honestly reports that the gain over the cross-model method is not statistically significant for Pk/WD.
+
+The contribution is not external state of the art. The contribution is a careful benchmark-and-diagnosis artifact that shows the main bottleneck is robust boundary selection.
+
+### 29.1 Short Confident Version
+
+My thesis builds a reproducible lecture segmentation benchmark and pipeline. On 30 public lectures, I tested many methods and found that a balanced method selector achieves the best local result, Pk 0.3588 and WD 0.3739. The result improves over the stable baseline, but the thesis is honest that exact boundary detection and domain generalization remain open problems.
+
+### 29.2 Detailed Confident Version
+
+The thesis starts from a real problem: long lecture videos are hard to navigate. I created LECSEG-30, a 30-video benchmark with 32.52 hours of lectures across five domains. The data includes YouTube chapter boundaries and reviewed subtopic labels. The system transcribes lectures, splits them into sentences, creates sentence embeddings, detects semantic changes, and evaluates predicted topic boundaries with Pk, WindowDiff, Boundary Similarity, and F1.
+
+Several methods were compared, including classical baselines, embedding baselines, BGE-divisive segmentation, cross-model selection, multimodal diagnostics, TreeSeg-style comparison, and a leave-one-video-out selector. The balanced selector gives the best mean Pk/WD result. The thesis also reports failures, such as poor transfer from BERT-wiki and over-segmentation from prosody and BERTopic. The main finding is that candidate generation is not the only problem; the hard problem is selecting the right boundaries.
+
+### 29.3 If the Panel Challenges the Result
+
+"The result is modest, and I agree it does not solve the problem completely. But it is statistically supported over the baseline and the limitations are measured. The thesis contribution is the benchmark, reproducible evaluation, and diagnosis of the remaining bottleneck."
+
+### 29.4 If the Panel Says "The Result Is Not Good Enough"
+
+"For a large production system, more data and stronger supervised models would be needed. But for an undergraduate low-resource research thesis, the work is defendable because it builds the dataset, implements multiple methods, evaluates them rigorously, and identifies why performance plateaus."
+
+### 29.5 If the Panel Asks "What Is Your Contribution?"
+
+"The contribution is LECSEG-30, a compact hierarchical lecture segmentation benchmark, plus a reproducible pipeline and empirical analysis showing which lightweight methods work, which fail, and why boundary selection remains the key unsolved problem."
+
+---
+
+## 30. Thesis Understanding Guide
+
+| Chapter/part | What it means | Most important viva point | Evidence |
+|---|---|---|---|
+| Abstract | Whole thesis in compressed form | Low-resource benchmark, not SOTA | `thesis/frontmatter/abstract.tex` |
+| Chapter 1 | Problem and scope | Long lectures need navigation | `thesis/chapters/chapter1_introduction.tex` |
+| Chapter 2 | Prior work | Large systems differ in scale/metrics | `thesis/chapters/chapter2_literature.tex` |
+| Chapter 3 | Pipeline | Video -> transcript -> sentence -> embedding -> boundary | `thesis/chapters/chapter3_methodology.tex` |
+| Chapter 4 | Results | Balanced selector best local result; limitations measured | `thesis/chapters/chapter4_results.tex` |
+| Chapter 5 | Conclusion | Defendable benchmark-and-diagnosis contribution | `thesis/chapters/chapter5_conclusion.tex` |
+| Chapter 6 | Future work | Boundary-level selection and larger data | `thesis/chapters/chapter6_future_work.tex` |
+| Appendix A | Dataset | Know video/domain counts | `thesis/appendices/appendix_a_dataset.tex` |
+| Appendix B | Hyperparameters | Know important settings and mismatch caveats | `thesis/appendices/appendix_b_hyperparameters.tex` |
+| Appendix C | Extra results | Know weak baselines and diagnostics | `thesis/appendices/appendix_c_extra_results.tex` |
+
+Diagrams/results/tables to understand deeply:
+
+- Main results table: `thesis/tables/main_results.tex`
+- Significance table: `thesis/tables/significance.tex`
+- Domain table: `thesis/tables/domain_performance.tex`
+- Same-dataset comparison: `thesis/tables/same_dataset_comparison.tex`
+- Oracle gap figure: `defense/figures/oracle_gap.png`
+
+---
+
+## 31. Viva/Defense Preparation
+
+### Q1. What is your thesis about?
+
+It is about automatically segmenting long lecture videos into topic chapters and subtopics using transcript-based and multimodal signals.
+
+Evidence: `thesis/frontmatter/titlepage.tex`
+
+### Q2. What problem does it solve?
+
+It helps students navigate long lecture videos by detecting where topics change.
+
+Evidence: `thesis/chapters/chapter1_introduction.tex`
+
+### Q3. What data did you use?
+
+LECSEG-30: 30 public YouTube lectures, 32.52 hours, five domains, 419 chapters, and 904 reviewed subtopics.
+
+Evidence: `data/manifest.jsonl`, `docs/PROJECT_GUIDE.md`
+
+### Q4. Why use transcripts?
+
+Lecture topics are mainly expressed through speech, so transcript text is the strongest signal.
+
+Evidence: strong text baseline in `results/eval_bge.json`
+
+### Q5. What is an embedding?
+
+An embedding is a list of numbers representing sentence meaning. Similar sentences have similar embeddings.
+
+Evidence: `src/lecseg/features/text_embeddings.py`
+
+### Q6. What was your best result?
+
+The balanced leave-one-video-out selector reached Pk 0.3588 and WD 0.3739.
+
+Evidence: `results/method_selector_significance.json`
+
+### Q7. What is your baseline?
+
+The main stable baseline is BGE-divisive segmentation with Pk 0.3884 and WD 0.3956.
+
+Evidence: `results/eval_bge.json`
+
+### Q8. Did multimodal features help?
+
+Not always. Many auxiliary signals over-segmented, but CLIP visual features were promising and CLIP+text reached Pk 0.3740 in a diagnostic grid.
+
+Evidence: `thesis/chapters/chapter4_results.tex`, `docs/PROGRESS_LOG.md`
+
+### Q9. Why is F1 low?
+
+The best Pk/WD method is conservative and often places approximate structure correctly but misses the exact sentence-level boundary.
+
+Evidence: `results/method_selector_significance.json`
+
+### Q10. What is the main limitation?
+
+The dataset is small and the selector is not domain-general, especially under leave-one-domain-out testing.
+
+Evidence: `results/selector_leave_domain_out.json`
+
+### Q11. What is your contribution?
+
+A compact hierarchical lecture segmentation benchmark, a reproducible pipeline, extensive experiments, and a clear diagnosis that boundary selection remains the main bottleneck.
+
+Evidence: `docs/EXAMINER_BRIEF.md`
+
+### Q12. What would you improve with more time?
+
+I would expand the dataset, especially Math, and train a boundary-level ranker using text, visual, prosody, and OCR features.
+
+Evidence: `thesis/chapters/chapter6_future_work.tex`
+
+---
+
+## 32. Glossary
+
+| Term | Simple definition | Example | Why it matters |
+|---|---|---|---|
+| ASR | Automatic speech recognition | Whisper writing lecture speech | Creates transcripts |
+| Whisper | Speech-to-text model | faster-whisper large-v3 | Transcribes lectures |
+| VAD | Voice activity detection | Removing silence | Speeds ASR |
+| spaCy | NLP toolkit | Sentence splitting | Creates sentence units |
+| Sentence embedding | Meaning vector | BGE sentence vector | Main model input |
+| BGE | Text embedding model | BAAI/bge-large-en-v1.5 | Strong baseline/final methods |
+| E5 | Text embedding model | intfloat/e5-large-v2 | Cross-model method |
+| MPNet | Sentence embedding model | all-mpnet-base-v2 | Ablation/comparison |
+| CLIP | Vision-language model | Embeds slide keyframes | Visual ablation |
+| OCR | Optical character recognition | Reads slide text | Auxiliary feature |
+| Prosody | Speech rhythm/pitch/pause | Long pause before new topic | Audio feature |
+| Topic segmentation | Splitting text/video by topic | Lecture chapters | Main task |
+| Boundary | Topic change point | Sentence 500 starts new chapter | Prediction target |
+| Baseline | Comparison method | BGE-divisive | Proves improvement |
+| Divisive segmentation | Recursively split sequence | Split lecture into chapters | Strong baseline |
+| Reliability-weighted fusion | Weight clearer signals more | Text high, noisy prosody low | Proposed fusion idea |
+| Entropy | Measure of spread/uncertainty | Flat scores high entropy | Used for modality reliability |
+| LOO | Leave-one-out | Train on 29 videos, test on 1 | Selector evaluation |
+| ExtraTrees | Ensemble ML model | Method selector | Best selector |
+| Oracle | Ideal impossible chooser | Picks best method per video | Shows headroom |
+| Pk | Segmentation error metric | 0.3588 | Main result |
+| WindowDiff | Segmentation error metric | 0.3739 | Main result |
+| Boundary Similarity | Boundary closeness score | 0.0757 | Complementary metric |
+| F1@2 | Boundary hit within 2 sentences | 0.0893 | Exact boundary metric |
+| Cohen's kappa | Annotator agreement score | 0.5351 | Label reliability |
+| Bootstrap CI | Uncertainty interval | 95% CI | Honest small-data reporting |
+| Wilcoxon test | Paired significance test | p-values | Proves supported gains |
+| Holm correction | Adjusts many p-values | Multiple comparisons | Reduces false claims |
+
+---
+
+## 33. Presentation Slide Guide
+
+Suggested slide structure:
+
+| Slide | Title | Content | Explain simply | Evidence |
+|---|---|---|---|---|
+| 1 | Title | Thesis title, authors, supervisor | "This is about lecture topic segmentation." | `thesis/frontmatter/titlepage.tex` |
+| 2 | Problem | Long lectures are hard to navigate | "Students waste time scrubbing." | Chapter 1 |
+| 3 | Gap | Low-resource lecture benchmark gap | "Large systems exist, but not same low-resource setting." | Chapter 2 |
+| 4 | Dataset | 30 videos, 32.52h, domains | "This is our benchmark." | `data/manifest.jsonl` |
+| 5 | Pipeline | Video -> transcript -> embeddings -> boundaries | "This is how the system works." | Chapter 3 |
+| 6 | Methods | Baselines, BGE, cross-model, selector | "We tested many options." | `scripts/run_eval.py` |
+| 7 | Main results | Baseline/cross-model/selector table | "Lower Pk/WD is better." | `docs/SUBMISSION_READINESS.md` |
+| 8 | Significance | Supported vs caveat | "Selector beats baseline; not proven over cross-model on Pk/WD." | `thesis/tables/significance.tex` |
+| 9 | Domain analysis | Math weakness | "We know where it fails." | `docs/DOMAIN_PERFORMANCE.md` |
+| 10 | Negative results | Prosody/BERTopic/etc. | "Not every signal helped." | Chapter 4 |
+| 11 | Oracle gap | Headroom figure | "Next problem is selection." | `defense/figures/oracle_gap.png` |
+| 12 | Limitations | Small data, labels, F1, domain generalization | "We do not overclaim." | Chapter 5 |
+| 13 | Future work | More data, boundary ranker, CLIP integration | "Clear next steps." | Chapter 6 |
+| 14 | Conclusion | Defendable claim | "Benchmark and diagnosis contribution." | `docs/EXAMINER_BRIEF.md` |
+
+Weak results to avoid over-highlighting: TextTiling, KMeans, BERTopic, pause/pitch, LLM boundary claims.
+
+Strongest visual points: main result chart, domain chart, oracle gap.
+
+---
+
+## 34. Final Recommendations
+
+Highlight:
+
+- LECSEG-30 dataset.
+- Balanced selector result.
+- Cross-model conservative significance over baseline.
+- Oracle gap diagnosis.
+- Same-dataset TreeSeg comparison.
+- Honest negative results.
+
+Mention carefully:
+
+- LLM refinement: implemented and useful for titling/refinement experiments, but do not claim strong metric gains.
+- Multimodal fusion: CLIP promising, other modalities often hurt.
+- External systems: compare scale, not direct superiority.
+
+Clean/archive before public submission:
+
+- `.claude/`, `internal/`, raw media, caches, scratch logs, old templates if not needed.
+
+Improve next:
+
+- Run final demo verification.
+- Document exact reproduction of selector.
+- Ensure all thesis numbers cite current result files.
+- Finish public release if required.
+
+Emphasize during viva:
+
+- "This is a reproducible low-resource benchmark and diagnostic study."
+- "The thesis is strong because it measures both successes and failures."
+
+---
+
+## 35. Final Evidence-Based Conclusion
+
+This thesis built LECSEG, a reproducible low-resource lecture-video topic segmentation artifact. The project used 30 public YouTube lectures, 32.52 hours of video, 419 chapter boundaries, and 904 reviewed subtopic labels. It implemented preprocessing, sentence splitting, embeddings, visual/OCR/prosody features, segmentation baselines, proposed models, evaluation metrics, result analysis, tables, figures, thesis report, paper draft, and defense materials.
+
+The strongest stable baseline was BGE-divisive segmentation with Pk 0.3884 and WD 0.3956. The best single global method was cross-model conservative selection with Pk 0.3713 and WD 0.3764. The best deployable local operating point was the balanced leave-one-video-out selector with Pk 0.3588, WD 0.3739, and F1@2 0.0893. Negative results showed that several signals, including prosody, BERTopic, discourse markers, GPT-2 perplexity, and out-of-domain BERT-wiki segmentation, do not reliably solve chapter-level lecture segmentation.
+
+The thesis is strongest as a benchmark-and-diagnosis contribution. It is not an external state-of-the-art claim. It is defendable because it provides real data, real code, real experiments, statistical tests, negative evidence, and a clear future direction: robust boundary selection using more data and stronger candidate ranking.
+
+What remains incomplete: final demo verification, public release cleanup, stronger domain-general selector, stronger exact boundary F1, and larger dataset expansion.
+
+Overall strength: defendable undergraduate thesis, especially if presented honestly as low-resource reproducible research rather than exaggerated leaderboard performance.
+
+---
+
+## 36. Final Self-Check Before Finishing
+
+| Required item | Included? | Note |
+|---|---|---|
+| Thesis scope and relevance filtering | Yes | Section 1 |
+| Beginner explanation | Yes | Sections 2, 7 |
+| Actual work done in repository | Yes | Section 3.10 |
+| Existing thesis draft/report interpretation | Yes | Section 4 |
+| Chapter-by-chapter understanding | Yes | Section 4.1 |
+| Full file audit | Yes | Section 5 |
+| Dataset/data audit | Yes | Section 9 |
+| Tool/library audit | Yes | Section 8 |
+| Preprocessing explanation | Yes | Section 10 |
+| Preprocessing theory | Yes | Section 10 |
+| Methodology flow | Yes | Section 11 |
+| Methodology theory | Yes | Section 11 |
+| Methods tried | Yes | Section 12 |
+| Theory for used methods only | Yes | Sections 12, 14 |
+| Experiments found | Yes | Section 13 |
+| Metrics/evaluation explained | Yes | Section 15 |
+| Positive results | Yes | Section 16 |
+| Negative results | Yes | Section 17 |
+| Comparison/final ranking | Yes | Section 19 |
+| Weakness/error analysis | Yes | Section 18 |
+| Redundancy analysis | Yes | Section 20 |
+| Parameters/settings | Yes | Section 21 |
+| Future work | Yes | Section 26 |
+| Missing deliverables | Yes | Section 27 |
+| Panel defense strategy | Yes | Section 28 |
+| Strong defense narrative | Yes | Section 29 |
+| Viva answers | Yes | Section 31 |
+| Glossary | Yes | Section 32 |
+| Presentation guide | Yes | Section 33 |
+| Final recommendations | Yes | Section 34 |
+| Evidence paths | Yes | Throughout |
+| Missing/unclear labels | Yes | Throughout |
+| Exclusion of unrelated content | Yes | Sections 1, 5 |
+| No forced generic ML content | Yes | Topic-specific only |
+| Dashboard included | Yes | Section 3 |
+
+This document was created by inspecting the available thesis-related project files. Any missing or unclear information has been marked honestly instead of being invented. Files, tools, models, metrics, parameters, or concepts not related to this thesis were excluded from detailed explanation.
