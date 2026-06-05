@@ -2037,3 +2037,16 @@ Results:
 - Dataset expansion check: manifest, raw videos, transcripts, sentence files, and ground truth are exactly aligned at 30 videos. There are no extra processed videos ready for a valid 50-video benchmark update.
 
 Observation: the current best result appears to be a real local plateau for the available 30-video data and method pool. A dramatic improvement now likely requires either manually adding and processing new labeled videos or running a full same-dataset modern LLM baseline, not more local threshold/selector tuning.
+
+---
+
+## [2026-06-05 08:01] - Data-expansion go/no-go decision
+
+Reviewed whether the project should now expand from 30 videos to roughly 50 videos to seek stronger results. The full expansion would require selecting videos with usable chapter ground truth, downloading media, transcribing, sentence splitting, embedding generation, validation, baseline reruns, selector reruns, significance testing, and thesis/table/PDF updates.
+
+Results:
+- Recommendation: do not start full 50-video expansion unless the deadline allows a dedicated multi-day data sprint and the thesis can absorb a changed benchmark.
+- Safer high-impact option: add a same-dataset LLM baseline on the existing 30 videos because it strengthens comparison without changing the benchmark.
+- Full expansion is useful for future work or a paper extension, but risky as a last-minute thesis change.
+
+Observation: adding videos is only scientifically valid if the entire processing and evaluation chain is completed; raw downloads alone would weaken rather than strengthen the thesis.
