@@ -1912,3 +1912,16 @@ Results:
 - Recommended paper framing: "what fails in low-resource lecture segmentation and why" rather than "new SOTA model."
 
 Observation: the thesis can become more impressive by being more precise and analytical, not by adding broad late-stage architectures that cannot be validated rigorously on 30 videos.
+
+---
+
+## [2026-06-05 06:44] - Clarified metric improvement versus thesis quality
+
+Clarified that suggested novelty upgrades are not guaranteed to improve Pk/WD and should not be presented as a path to a "perfect" thesis. Distinguished between score-improving experiments and thesis-strengthening additions.
+
+Results:
+- Boundary-level verification is the most plausible score-improving method because it creates more training instances from the same 30 videos.
+- A zero-shot LLM baseline may improve or may underperform, but it primarily strengthens comparison coverage.
+- Qualitative case studies, oracle-gap analysis, and domain-failure analysis improve defensibility even if metrics do not change.
+
+Observation: the realistic target is an excellent, honest undergraduate thesis with clear contribution boundaries, not a perfect or unattackable thesis.
