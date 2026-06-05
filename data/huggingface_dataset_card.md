@@ -22,8 +22,8 @@ A 30-video, 32.52-hour hierarchical lecture topic segmentation benchmark from Yo
 
 **LECSEG-30** provides:
 - 30 YouTube lecture videos across 5 academic domains
-- Creator-provided chapter boundaries as ground truth (419 total)
-- Human-reviewed hierarchical subtopic annotations (904 labels)
+- Creator-provided chapter boundaries as reproducible reference labels (419 total)
+- Human-reviewed, LLM-assisted hierarchical subtopic annotations (904 labels)
 - Pre-computed sentence splits (Whisper ASR + spaCy)
 - Inter-annotator agreement: chapter κ=0.535, subtopic κ=0.426
 
@@ -36,6 +36,24 @@ A 30-video, 32.52-hour hierarchical lecture topic segmentation benchmark from Yo
 | `metadata` | Per-video metadata | 30 |
 | `boundaries` | Chapter + subtopic boundaries | varies |
 | `sentences` | Sentence-level transcript segments | ~25,000 |
+
+## Intended Use
+
+LECSEG-30 is intended for low-resource lecture-video topic segmentation,
+chapter-boundary evaluation, subtopic-analysis research, and reproducibility
+studies. It is best used for controlled experiments and diagnostic analysis,
+not as a universal large-scale video chaptering benchmark.
+
+## Limitations and Biases
+
+- The dataset contains only 30 videos and is intentionally small.
+- Domain balance is imperfect; Mathematics has only 4 videos.
+- YouTube chapters are creator-provided navigation references, not perfect
+  pedagogical ground truth.
+- Subtopic labels began as LLM-generated drafts and were then human-reviewed;
+  this should be cited as human-reviewed LLM-assisted annotation.
+- Raw videos are not redistributed. Users must retrieve videos from the
+  original public YouTube URLs if needed.
 
 ## Usage
 

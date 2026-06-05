@@ -79,6 +79,45 @@ justify a universal external best-system claim.
     not justify claiming large boundary-placement gains from LLM refinement.
 \end{itemize}
 
+\section{Threats to validity}
+\label{sec:threats_validity}
+
+\textbf{Reference-label validity.}
+The chapter-level evaluation uses creator-provided YouTube chapters. These
+labels are reproducible and reflect real navigation metadata, but they are
+not independent expert annotations of pedagogical topic structure. A creator
+may place a chapter marker early or late, omit transitions, or choose a
+granularity that differs from the one preferred by learners.
+
+\textbf{Annotation independence.}
+Subtopic labels were produced by LLM drafts followed by human review. This
+made the annotation process practical, but the draft may bias the reviewer.
+The labels should therefore be described as human-reviewed LLM-assisted
+annotations, not as purely independent manual annotations.
+
+\textbf{Controlled segment-count setting.}
+The main controlled evaluation gives several methods the gold number of
+chapters. This isolates boundary-placement quality, which is standard in topic
+segmentation research, but it is not the same as a live deployment where the
+chapter count is unknown. Boundary-count error and automatic-count evaluation
+should be expanded in future work.
+
+\textbf{Small and imbalanced dataset.}
+\dataset{} has only 30 videos, and Mathematics has only four. This limits the
+strength of broad generalization claims and helps explain the selector's Math
+failure and leave-domain-out degradation.
+
+\textbf{Post-hoc method search.}
+The project evaluates many candidate methods and operating points. Statistical
+testing and claim boundaries reduce the risk of cherry-picking, but the final
+selector result should still be interpreted as a low-resource operating point,
+not a universal deployment guarantee.
+
+\textbf{LLM and multimodal evidence.}
+CLIP is the clearest non-text signal, while many acoustic and linguistic
+signals hurt chapter-level $P_k$/WD. Local LLM components are implemented, but
+they are not yet validated as the main source of final metric improvement.
+
 \section{The path to beating TreeSeg}
 \label{sec:beat_treeseg}
 

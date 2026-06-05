@@ -296,39 +296,45 @@ tasks:
     completed_at: '2026-05-28T07:30:00Z'
   T32:
     title: "Thesis Chapter 1 \u2014 Introduction"
-    status: in_progress
+    status: done
     owner: sadia
     phase: 9
     started_at: '2026-05-26T11:20:00Z'
+    completed_at: '2026-06-05T20:36:34Z'
   T33:
     title: "Thesis Chapter 2 \u2014 Literature Review"
-    status: in_progress
+    status: done
     owner: sadia
     phase: 9
     started_at: '2026-05-26T11:25:00Z'
+    completed_at: '2026-06-05T20:36:35Z'
   T34:
     title: "Thesis Chapter 3 \u2014 Methodology"
-    status: in_progress
+    status: done
     owner: ismam
     phase: 9
     started_at: '2026-05-26T11:15:00Z'
+    completed_at: '2026-06-05T20:36:37Z'
   T35:
     title: "Thesis Chapter 4 \u2014 Results & Analysis"
-    status: in_progress
+    status: done
     owner: ismam
     phase: 9
     started_at: '2026-05-26T11:30:00Z'
+    completed_at: '2026-06-05T20:36:38Z'
   T36:
     title: "Thesis Chapters 5 & 6 \u2014 Conclusion + Future Work"
-    status: in_progress
+    status: done
     owner: sadia
     phase: 9
     started_at: '2026-05-26T11:35:00Z'
+    completed_at: '2026-06-05T20:36:39Z'
   T37:
     title: Full thesis review (citations, figures, numbers)
-    status: todo
+    status: done
     owner: null
     phase: 9
+    completed_at: '2026-06-05T20:36:41Z'
   T38:
     title: IEEE journal paper (8 pages)
     status: todo
@@ -336,9 +342,10 @@ tasks:
     phase: 10
   T39:
     title: Web app demo (Streamlit)
-    status: todo
+    status: done
     owner: null
     phase: 10
+    completed_at: '2026-06-05T20:36:42Z'
   T40:
     title: Defense poster (A1)
     status: todo

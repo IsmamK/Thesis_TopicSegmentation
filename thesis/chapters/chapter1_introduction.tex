@@ -89,9 +89,9 @@ are all exposed under one reproducible protocol.
 This thesis makes the following contributions:
 
 \begin{enumerate}
-  \item \textbf{\dataset{}}: A manually annotated benchmark of 30 academic
-    lecture videos from five domains, with creator-validated chapter boundaries
-    and human-reviewed subtopic annotations, totalling 32.52~hours
+  \item \textbf{\dataset{}}: A benchmark of 30 academic lecture videos from
+    five domains, with creator-provided chapter reference boundaries and
+    human-reviewed LLM-assisted subtopic annotations, totalling 32.52~hours
     of transcribed audio.
     (Chapter~\ref{chap:methodology}, Section~\ref{sec:dataset}.)
 
@@ -108,9 +108,11 @@ This thesis makes the following contributions:
     without joint optimisation.
     (Chapter~\ref{chap:methodology}, Section~\ref{sec:hierarchy}.)
 
-  \item \textbf{Local-LLM Refinement (N4)}: A post-processing module that uses
-    an on-device Llama-3.1-8B for boundary-refinement experiments and concise
-    segment-title generation.
+  \item \textbf{Local LLM diagnostics and titling (N4)}: A post-processing
+    module that uses an on-device Llama-3.1-8B for boundary-refinement probes
+    and concise segment-title generation. The LLM component is evaluated as a
+    diagnostic/refinement feature rather than claimed as the main source of the
+    final segmentation gain.
     (Chapter~\ref{chap:methodology}, Section~\ref{sec:refine}.)
 
   \item \textbf{Comprehensive evaluation}: A comparison of classical, neural,

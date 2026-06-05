@@ -11,6 +11,37 @@ semantic contrast, cross-model agreement, pause/shot/OCR evidence, position
 priors, and global duration constraints while optimizing directly against
 $P_k$, WindowDiff, and tolerance-F1.
 
+\section{Independent validation of chapter references}
+
+The most important dataset extension is not simply adding more videos; it is
+validating whether creator-provided YouTube chapters agree with independent
+human judgments. A focused validation study should select 8--10 lectures and
+ask two annotators to mark chapter-level boundaries without seeing the YouTube
+timestamps. The study should report human--human agreement, human--YouTube
+agreement, and system--human agreement under F1@2, F1@5, and time-tolerant
+metrics. This would quantify how reliable the current creator chapters are as
+reference boundaries.
+
+\section{Auditing LLM-assisted subtopic annotations}
+
+Because subtopics were produced by LLM drafts followed by human review, future
+work should measure whether the draft biases the final annotation. A small
+subset of videos should be annotated independently from scratch by a second
+human without seeing the LLM draft, then compared with the reviewed labels.
+This would turn the current annotation-independence limitation into a measured
+property of the dataset.
+
+\section{External and Math-focused validation}
+
+The current selector fails most clearly on Mathematics, where the dataset has
+only four videos. A targeted extension should add 8--10 Math lectures with
+creator chapters and evaluate the final methods without retuning. If Math
+performance improves, the likely cause was training scarcity; if it remains
+weak, the problem is probably deeper, involving mathematical notation, stable
+vocabulary, or gradual conceptual transitions. A separate 5--10 video external
+test set from new channels should also be used to measure generalization beyond
+\dataset{}.
+
 \section{Reliability-aware prosody and visual integration}
 
 Prosodic features (pause duration, pitch reset) and visual streams (shot
@@ -81,3 +112,12 @@ target concepts faster, and whether their retention improves, when using
 authored chapters.
 Such a study could also reveal which granularity (chapter vs.\ subtopic)
 is most useful for different learning tasks (review vs.\ first-watch).
+
+\section{Public benchmark and model release}
+
+A complete public release should include the manifest, video identifiers,
+creator chapter references, reviewed subtopic labels, preprocessing scripts,
+evaluation scripts, environment lock files, result-regeneration commands, and
+dataset/model cards. The current repository already contains the major
+components; the remaining work is release hygiene, privacy review, and a
+single documented reproduction command for the final thesis tables.

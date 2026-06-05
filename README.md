@@ -86,8 +86,8 @@ streamlit run scripts/demo.py
    chapter boundaries and 904 reviewed subtopic labels.
 2. A hierarchical annotation and evaluation setup for chapter/subtopic lecture
    structure, including reported inter-annotator agreement.
-3. A reproducible multimodal pipeline covering transcripts, embeddings, OCR,
-   shot boundaries, prosody, cross-model selection, and local-LLM refinement.
+3. A reproducible pipeline covering transcripts, embeddings, OCR, shot
+   boundaries, prosody, cross-model selection, and local-LLM diagnostics.
 4. A unified evaluation suite using Pk, WindowDiff, Boundary Similarity,
    tolerance-F1, bootstrap confidence intervals, and paired significance tests.
 5. Extensive ablations and diagnostics showing which cues help, which hurt,
@@ -96,7 +96,8 @@ streamlit run scripts/demo.py
 The intended contribution is benchmark-and-diagnosis quality under severe
 data constraints. It is not a claim of external state of the art against
 large-scale chaptering systems trained on thousands to hundreds of thousands
-of videos.
+of videos. YouTube chapters are treated as creator-provided reference
+boundaries for navigation behavior, not as perfect pedagogical ground truth.
 
 ## Reproducibility Rule
 

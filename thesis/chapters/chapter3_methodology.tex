@@ -4,18 +4,17 @@
 \section{Overview of the \lecseg{} pipeline}
 \label{sec:pipeline}
 
-The \lecseg{} pipeline transforms a raw lecture video into a two-level hierarchy
-of chapters and subtopics, each labelled with a natural-language title.
-It comprises five stages, depicted in Figure~\ref{fig:pipeline}:
-(1)~\emph{ingestion}, which extracts audio and collects YouTube chapter metadata;
-(2)~\emph{preprocessing}, which produces time-aligned sentences from the
-speech signal and auxiliary visual and prosodic features;
-(3)~\emph{feature extraction}, which maps each sentence to a multimodal
-embedding vector;
-(4)~\emph{boundary prediction}, which applies the novel two-stage predictor
-with reliability-weighted fusion to locate chapter and subtopic boundaries; and
-(5)~\emph{LLM refinement}, which uses a local large language model to adjust
-boundary positions by up to $\pm 2$ sentences and assign titles to each segment.
+The \lecseg{} pipeline transforms a raw lecture video into chapter-level
+segments and, when annotations are available, a two-level chapter/subtopic
+hierarchy. It comprises five stages, depicted in Figure~\ref{fig:pipeline}:
+(1)~\emph{ingestion}, which extracts audio and collects YouTube chapter
+metadata; (2)~\emph{preprocessing}, which produces time-aligned sentences from
+the speech signal and auxiliary visual and prosodic features;
+(3)~\emph{feature extraction}, which maps each sentence to text or multimodal
+features; (4)~\emph{boundary prediction and selection}, which evaluates
+classical, embedding, cross-model, fusion, and selector-based methods; and
+(5)~\emph{optional LLM support}, which can refine or title predicted segments
+but is treated as diagnostic unless a metric improvement is explicitly shown.
 
 \begin{figure}[t]
   \centering
@@ -51,7 +50,7 @@ videos.
 
 Each video was annotated at two levels of granularity.
 \emph{Chapter boundaries} were taken directly from the YouTube chapter
-metadata as a reproducible, creator-validated reference.
+metadata as a reproducible creator-provided reference for navigation behavior.
 \emph{Subtopic boundaries} were identified in a two-pass procedure:
 in the first pass, an LLM (Llama-3.1-8B via Ollama) generated a draft
 subtopic segmentation for each chapter;
@@ -60,6 +59,22 @@ using the Streamlit-based annotation tool (\texttt{scripts/annotate.py}).
 Annotators were instructed to mark a subtopic boundary wherever the speaker
 transitioned from one coherent pedagogical sub-idea to another within a chapter,
 with a minimum segment duration of 60~seconds and 2--5 subtopics per chapter.
+
+\subsection{Validity of YouTube chapter references}
+\label{sec:youtube_validity}
+
+YouTube chapters are used as \emph{creator-provided reference boundaries}, not
+as unquestionable gold-standard pedagogical truth. They are valuable because
+they represent real metadata that viewers use for lecture navigation, they are
+available at scale, and they make the benchmark reproducible without
+redistributing raw video. They are also imperfect: creators may place chapters
+early or late, omit useful boundaries, use inconsistent granularity, or choose
+timestamps for editing and search convenience rather than for strict topic
+theory. Therefore, the evaluation in this thesis measures alignment with
+creator chaptering behavior. Claims about absolute human learning quality or
+pedagogical optimality require an independent human validation or user study,
+which is listed as future work and documented in the project validation
+protocol.
 
 \subsection{Inter-annotator agreement}
 
@@ -141,6 +156,12 @@ attains low entropy and hence a high weight; a flat distribution (uninformative
 modality) is automatically down-weighted.
 The fused gap signal is $s^* = \sum_m w_m s_m$.
 
+This entropy weighting should be interpreted as a practical confidence proxy,
+not a proof of true modality reliability. A noisy modality can also produce
+sharp peaks. For this reason, Chapter~\ref{chap:results} reports fusion and
+modality ablations separately and demotes modalities that hurt chapter-level
+$P_k$/WindowDiff.
+
 \section{Two-stage boundary predictor (N1)}
 \label{sec:boundary}
 
@@ -174,7 +195,7 @@ inserting any missing chapter boundary into the subtopic set.
 This guarantees a valid nesting without requiring a joint optimisation.
 When $n_c$ is not specified, we use the heuristic $n_c = \max(2, n_s / 4)$.
 
-\section{Local-LLM refinement and titling (N4)}
+\section{Local-LLM refinement and titling (diagnostic N4)}
 \label{sec:refine}
 
 Each predicted segment boundary $b$ may be shifted by at most
@@ -187,7 +208,10 @@ The shift with the highest model confidence is accepted.
 Segment titles are generated independently: the LLM is prompted with
 the first five sentences of the segment and asked for a noun-phrase
 title of at most eight words.
-If Ollama is unavailable the refinement step is silently skipped.
+If Ollama is unavailable, the evaluation scripts fall back to the non-LLM
+boundary set and the run must be reported as non-LLM. The current verified
+results do not justify treating LLM refinement as the final performance driver;
+it is retained as an implemented diagnostic and titling component.
 
 \section{Evaluation protocol}
 \label{sec:eval}
@@ -212,10 +236,13 @@ We report five segmentation metrics:
 
 \subsection{Evaluation setup}
 
-Methods requiring $n_{\text{segments}}$ receive the ground-truth count at
-inference time, consistent with standard practice~\citep{choi2000latent}.
-We also report numbers for our automatic segment-count estimator in
-Appendix~\ref{app:extra}.
+Methods requiring $n_{\text{segments}}$ receive the ground-truth count in the
+main controlled evaluation, consistent with standard segmentation practice
+for measuring boundary placement~\citep{choi2000latent}. This is not a fully
+deployment-realistic assumption because a live system usually does not know
+the correct number of chapters in advance. Therefore, Chapter~\ref{chap:results}
+also reports boundary-count error and discusses automatic-count/deployment
+behavior separately from the controlled gold-count setting.
 
 \subsection{Statistical testing}
 

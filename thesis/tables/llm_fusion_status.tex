@@ -1,0 +1,25 @@
+\begin{table}[t]
+  \centering
+  \caption{Status of LLM and multimodal claims.}
+  \label{tab:llm_fusion_status}
+  \resizebox{\linewidth}{!}{%
+  \begin{tabular}{p{0.24\linewidth}rrp{0.42\linewidth}}
+    \toprule
+    Component & $P_k$ & WD & Interpretation \\
+    \midrule
+    BGE-divisive text baseline & 0.3884 & 0.3956 &
+    Stable chapter-level anchor. \\
+    CLIP+text best grid & 0.3740 & 0.4085 &
+    Visual slide/scene signal helps $P_k$ and is the strongest non-text cue, but WD is weaker than cross-model text. \\
+    Pause/pitch signal & 0.4174 & 0.4553 &
+    Acoustic transitions detect finer rhetorical or subtopic shifts and hurt chapter-level segmentation. \\
+    BERTopic topic-shift & 0.5632 & 0.6984 &
+    Topic modeling over-segments relative to creator chapter granularity. \\
+    LLM zero-shot (3 videos) & 0.4056 & 0.6606 &
+    Over-segments strongly; diagnostic only, not a final segmentation improvement. \\
+    LLM candidate verifier (partial) & -- & -- &
+    Implemented and partially evaluated, but no full-scale final metric gain is established. \\
+    \bottomrule
+  \end{tabular}
+  }
+\end{table}

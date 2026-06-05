@@ -23,6 +23,7 @@ from __future__ import annotations
 import json
 import re
 import time
+import warnings
 from typing import Sequence
 
 import urllib.request
@@ -223,6 +224,11 @@ class LLMRefiner:
         which are the primary source of Pk error.
         """
         if not self._is_available():
+            warnings.warn(
+                "Ollama is unavailable; returning unfiltered boundaries.",
+                RuntimeWarning,
+                stacklevel=2,
+            )
             return boundaries
         return [b for b in sorted(boundaries) if self.is_real_boundary(sentences, b, context)]
 
@@ -240,6 +246,11 @@ class LLMRefiner:
         remaining boundaries to their best position within ±tolerance.
         """
         if not self._is_available():
+            warnings.warn(
+                "Ollama is unavailable; returning unrefined boundaries.",
+                RuntimeWarning,
+                stacklevel=2,
+            )
             return boundaries
 
         # Step 1: remove false positives

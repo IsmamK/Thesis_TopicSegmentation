@@ -2264,3 +2264,139 @@ and MIT 6.S191 series (4 videos).
 ### Observations
 - Raw videos, embeddings, virtual environment, caches, internal notes, external repo content, and other ignored/private-heavy files were not staged.
 - This entry records the push result required by the mandatory progress logging rule.
+
+## [2026-06-06 02:02] — Thesis upgrade strategy discussion
+
+### What was done
+- Reviewed the user's request for what could make the thesis substantially stronger.
+- Checked current smart-chaptering/video-chaptering literature direction at a high level before giving recommendations.
+
+### Results
+- No code, data, thesis text, or result artifacts were changed.
+- Identified the highest-value upgrade path as: modern metric suite, claim-evidence discipline, external/generalization validation, clean literature positioning, and a small deployable demo/replication package.
+
+### Observations
+- The thesis can become much stronger by presenting LECSEG as a reproducible low-resource benchmark and diagnostic study rather than overclaiming a fully solved multimodal/LLM system.
+- F1 remains relevant only as a complementary boundary/segment metric; Pk, WindowDiff, Boundary Similarity, tolerance sweeps, and temporal IoU-style metrics better capture the full segmentation quality.
+
+## [2026-06-06 02:03] — Master learning document comparison
+
+### What was done
+- Compared `THESIS_MASTER_UNDERSTANDING_DOCUMENT_BY_CHATGPT` and `THESIS_MASTER_UNDERSTANDING_DOCUMENT_BY_CLAUDE.md`.
+- Checked file sizes, line/word counts, structure headings, evidence/caveat handling, and high-risk claim areas such as LLM refinement, selector results, Math/domain failure, and F1.
+
+### Results
+- ChatGPT document: 116,284 bytes, approximately 16,356 words.
+- Claude document: 107,071 bytes, approximately 15,883 words.
+- Both documents cover the major thesis evidence and defense narrative.
+
+### Observations
+- The ChatGPT document is stronger as the canonical master audit because it follows the requested 0-36 structure more directly and marks missing/unclear evidence more conservatively.
+- The Claude document is stronger as a fast viva revision companion because it is sharper, more direct, and easier to memorize quickly.
+
+## [2026-06-06 02:05] — Neutral master document comparison
+
+### What was done
+- Reframed the master-document comparison without considering which model created which file.
+- Compared the two documents as neutral artifacts: one canonical audit-style document and one faster revision-style document.
+
+### Results
+- No project code, data, or thesis result files were changed.
+- The comparison conclusion remains based on structure, evidence caution, defense usefulness, and revision usability rather than authorship.
+
+### Observations
+- The better primary document is the one with stricter evidence handling, more complete requested-section coverage, and more conservative claim language.
+- The better quick-study document is the one with punchier language, stronger memory-card style sections, and faster viva usability.
+
+## [2026-06-06 02:06] — Thesis improvement priority discussion
+
+### What was done
+- Reviewed what should be done next to improve the thesis quality and whether more experiments should be attempted.
+- Prioritized improvements by likely thesis-defense impact rather than novelty for its own sake.
+
+### Results
+- No code, data, or result artifacts were changed.
+- Recommended avoiding broad random experiment expansion and focusing on evaluation, claim framing, validation, and one targeted boundary-selection improvement if time permits.
+
+### Observations
+- The highest-value next work is not adding many new methods; it is making the existing evidence harder to attack.
+- Any new experiment should directly address a known weakness: strict boundary F1, domain robustness, Math failure, or boundary selection.
+
+## [2026-06-06 02:10] — Thesis improvement execution plan requested
+
+### What was done
+- Reviewed the proposed dataset-expansion warning and the user's request to list all thesis-improvement actions before implementation.
+- Prepared an implementation-first plan focused on metrics, evidence discipline, thesis text, defense readiness, and avoiding low-value method expansion.
+
+### Results
+- No thesis code, data, evaluation result files, or thesis chapters were changed in this step.
+- Implementation is pending user approval of the action list.
+
+### Observations
+- The CS-heavy 20-video expansion would increase dataset size but worsen domain imbalance and would not address the Math-domain failure.
+- The best next work should target examiner attack points: strict F1 interpretation, boundary-count behavior, claim overreach, Math/domain robustness, and reproducibility.
+
+## [2026-06-06 02:36] — Thesis visuals, diagnostics, verifier, and deployable demo upgrade
+
+### What was done
+- Added a deployment-style modern metric evaluator: `scripts/evaluate_modern_metrics.py`.
+- Ran the evaluator on five methods using cached LecSeg assets and BGE/E5-compatible methods.
+- Added generated result artifacts:
+  - `results/modern_metrics_summary.json`
+  - `results/modern_metrics_summary.csv`
+  - `results/modern_metrics_per_video.csv`
+  - `thesis/tables/modern_metrics.tex`
+- Added chart generation with `scripts/plot_modern_metrics.py`.
+- Generated and included thesis visuals:
+  - `thesis/figures/modern_metrics_structure_vs_f1.pdf`
+  - `thesis/figures/modern_metrics_boundary_count_error.pdf`
+  - `thesis/figures/modern_metrics_time_segment.pdf`
+- Reframed the thesis title to `LecSeg-30: A Low-Resource Benchmark and Diagnostic Study for Lecture-Video Topic Segmentation`.
+- Rewrote the abstract around benchmark creation, diagnostic evaluation, creator-provided reference boundaries, and cautious LLM/multimodal claims.
+- Updated Chapters 1--6 with:
+  - official result and claim boundary;
+  - claim-evidence-caveat table;
+  - YouTube chapter validity caveat;
+  - entropy-weight/reliability caveat;
+  - LLM refinement demotion to diagnostic/titling unless metric improvement is proven;
+  - threats to validity;
+  - future work for human validation, LLM-assisted annotation audit, external/Math validation, and public release.
+- Added `thesis/tables/claim_evidence_caveat.tex` and `thesis/tables/llm_fusion_status.tex`.
+- Added validation and defense planning documents:
+  - `docs/HUMAN_VALIDATION_PROTOCOL.md`
+  - `docs/USER_STUDY_PROTOCOL.md`
+  - `docs/TARGETED_VALIDATION_PLAN.md`
+  - `docs/T32_T39_DELIVERABLE_AUDIT.md`
+- Updated `README.md` and `data/huggingface_dataset_card.md` to clarify intended use, limitations, creator-chapter label caveats, and LLM-assisted annotation caveats.
+- Added `scripts/thesis_check.py` to compile and verify the thesis PDF, unresolved references/citations, missing expected visuals/tables, placeholders, and severe overfull boxes.
+- Updated `src/lecseg/refine/llm_refine.py` so unavailable Ollama refinement emits an explicit warning instead of silently skipping.
+- Rebuilt `webapp/app.py` into a real Streamlit benchmark explorer using cached LecSeg assets:
+  - URL/video ID selection;
+  - reference and predicted chapter tables;
+  - Pk/WindowDiff/F1 diagnostics;
+  - tolerance-F1 chart;
+  - timeline visualization;
+  - dataset-level modern metric charts;
+  - JSON export.
+- Updated `webapp/README.md`.
+- Verified the web app server returned HTTP 200 on `localhost:8501`.
+- Marked T32, T33, T34, T35, T36, T37, and T39 done only after evidence checks.
+- Left T38 as todo because `paper/ieee.pdf` compiles but is only 3 pages, while the task requires an 8-page IEEE paper.
+
+### Results
+- Modern diagnostic results from `scripts/evaluate_modern_metrics.py`:
+  - Cross-model conservative: Pk 0.4071, WD 0.4124, F1@2 0.0273, F1@10 0.0756, F1@30s 0.0655, tIoU 0.3810, mean boundary-count error 11.47.
+  - Conservative smoothed BGE: Pk 0.4158, WD 0.4222, F1@2 0.0464, F1@10 0.0728, F1@30s 0.0652, tIoU 0.1165, mean boundary-count error 4.17.
+  - BGE-divisive baseline: Pk 0.4197, WD 0.4252, F1@2 0.0394, F1@10 0.0517, F1@30s 0.0448, tIoU 0.0806, mean boundary-count error 0.00.
+  - Hierarchical segmenter: Pk 0.4351, WD 0.4419, F1@2 0.0280, F1@10 0.0835, F1@30s 0.0611, tIoU 0.3456, mean boundary-count error 9.70.
+  - Two-stage predictor: Pk 0.4620, WD 0.5058, F1@2 0.0882, F1@10 0.1776, F1@30s 0.1635, tIoU 0.2981, mean boundary-count error 0.00.
+- `scripts/thesis_check.py` result: PASS; generated `thesis/main.pdf` size 741,296 bytes.
+- Test result: 185 passed, 1 warning in 100.75 seconds. The warning is expected because the LLM fallback now explicitly warns when Ollama is unavailable.
+- Paper verification: `paper/ieee.pdf` compiles but remains 3 pages, so T38 is not complete.
+- Web app functional check: sample video `NNnIGh9g6fA` loaded with 1002 sentences, 15 reference boundaries, 15 predicted boundaries, Pk 0.4068, WD 0.4109 using the `divisive` method.
+
+### Observations
+- The added visuals directly answer the user's point that the thesis needs charts and visuals. They make the strict-F1 story clearer by showing structural error, tolerance behavior, boundary-count error, and segment overlap.
+- The new diagnostic metric run should be described as a deployment-style diagnostic rerun, not as a replacement for the official selector/cross-model thesis result tables.
+- The safest thesis narrative is now benchmark + diagnostic evaluation + cautious validated text/cross-model result, with LLM/fusion treated as diagnostic unless stronger ablation evidence is added.
+- In-app browser visual QA was attempted but unavailable in this session, so web app verification used Python compilation and HTTP 200 server response instead.

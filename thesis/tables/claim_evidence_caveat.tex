@@ -1,0 +1,31 @@
+\begin{table}[t]
+  \centering
+  \caption{Claim--evidence--caveat audit for the final thesis narrative.}
+  \label{tab:claim_evidence_caveat}
+  \resizebox{\linewidth}{!}{%
+  \begin{tabular}{p{0.27\linewidth}p{0.33\linewidth}p{0.33\linewidth}}
+    \toprule
+    Claim & Evidence & Caveat \\
+    \midrule
+    \dataset{} is a real low-resource lecture benchmark &
+    30 videos, 32.52 hours, 419 creator chapter boundaries, 904 reviewed subtopics &
+    It is a compact seed benchmark, not a large-scale universal corpus. \\
+    Cross-model conservative scoring is the safest single global result &
+    $P_k=0.3713$, WD $=0.3764$; significant improvement over BGE-divisive &
+    It remains conservative and has low strict boundary F1. \\
+    Balanced selector gives the best mean local operating point &
+    $P_k=0.3588$, WD $=0.3739$, F1@2 $=0.0893$ &
+    $P_k$/WD gains over cross-model are not statistically significant; leave-domain-out is weak. \\
+    CLIP is the most promising non-text signal &
+    CLIP+text reaches $P_k=0.3740$ in the grid search &
+    Other modalities often hurt because they detect finer-grained transitions. \\
+    LLM refinement is implemented &
+    \texttt{llm\_refine.py}; LLM zero-shot diagnostic result exists &
+    Full before/after LLM boundary improvement is not established; do not make it the headline claim. \\
+    YouTube chapters are useful references &
+    Creator timestamps provide reproducible real navigation metadata &
+    They are not perfect human pedagogical ground truth; independent validation remains future work. \\
+    \bottomrule
+  \end{tabular}
+  }
+\end{table}

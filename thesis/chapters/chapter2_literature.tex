@@ -179,3 +179,22 @@ reproducible lecture-specific niche.
     \bottomrule
   \end{tabular}
 \end{table}
+
+\section{Synthesis for this thesis}
+\label{sec:literature_synthesis}
+
+The literature leads to four design choices in this thesis. First, classical
+segmentation work justifies using $P_k$ and WindowDiff, but also shows why
+lexical methods alone are fragile on technical lectures with repeated
+vocabulary. Second, neural sentence embeddings motivate the BGE/E5 cross-model
+methods because they provide strong zero-shot semantic signals without requiring
+large labelled training data. Third, large video-chaptering systems demonstrate
+that stronger results are possible at scale, but their data volume, supervision,
+and metrics are not directly comparable with a 30-video lecture benchmark.
+Fourth, multimodal and LLM work suggests useful auxiliary signals, but the
+LECSEG results show that such signals must be calibrated to creator-level
+chapter granularity; otherwise they over-segment at the subtopic or rhetorical
+level. The novelty of \lecseg{} is therefore not a single new state-of-the-art
+model, but a compact lecture-specific benchmark, unified evaluation protocol,
+annotation reliability report, and diagnostic account of what low-resource
+methods can and cannot do.
