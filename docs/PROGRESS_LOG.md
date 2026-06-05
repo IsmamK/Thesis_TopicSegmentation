@@ -1953,3 +1953,16 @@ Results:
 - Required evidence for the stronger claim: run an expensive/LLM chaptering baseline on LECSEG, or run LECSEG on a public benchmark with the same metric.
 
 Observation: compute-efficiency can be framed as a strength, but only as an efficiency/reproducibility argument unless same-dataset comparisons are added.
+
+---
+
+## [2026-06-05 06:47] - Multimodal claim clarification
+
+Verified whether the thesis should be described as multimodal. The repository includes transcript, OCR, shot-boundary, and prosody extraction; reliability-weighted fusion and multimodal ablations are implemented and discussed. However, the strongest final deployable result is primarily driven by transcript embeddings and cross-model boundary evidence, while OCR, shot, and prosody signals are reported mostly as diagnostic or negative-result components.
+
+Results:
+- Safe wording: "multimodal lecture-segmentation pipeline and evaluation study."
+- More precise wording: "multimodal signals are extracted and evaluated, but the best final operating point remains text-dominant."
+- Unsafe wording: "multimodal fusion is the reason for the best result" unless a specific multimodal variant is being discussed.
+
+Observation: the thesis is multimodal in system scope and evaluation coverage, but its strongest empirical claim is low-resource text/cross-model segmentation with multimodal diagnostics.
