@@ -2011,3 +2011,29 @@ Results:
 - Most plausible remaining metric-upside experiments: same-dataset LLM baseline, Math-specific transcript cleanup, selector calibration/ensembling, and stricter postprocessing around over/under-segmentation.
 
 Observation: there may still be small metric gains available, but the probability of a clean, defensible large improvement is low without adding new labeled data or running a modern same-dataset LLM baseline.
+
+---
+
+## [2026-06-05 07:20] - Exhaustive local result-improvement sprint
+
+Ran a final local metric-improvement sprint focused on every feasible low-risk path available in the repository. Tested risk-controlled selectors, additional balanced selector pool sizes, direct metric search seeds, and focused cross-model grids. Also verified whether the repository contained extra processed videos that could validly expand the benchmark.
+
+Results:
+- Official best deployable result remains unchanged: balanced leave-one-video-out selector, Pk=0.3588, WD=0.3739, BS=0.0757, F1@2=0.0893.
+- Guarded ridge selectors did not improve: best guarded result Pk=0.3728, WD=0.3777, BS=0.0267, F1@2=0.0235.
+- Direct metric search did not improve:
+  - seed 11, 300 samples: Pk=0.3895, WD=0.4010, BS=0.0565, F1@2=0.0794.
+  - seed 23, 300 samples: Pk=0.3915, WD=0.4016, BS=0.0580, F1@2=0.0750.
+- Additional balanced selector pool sizes did not beat k80:
+  - k50 ExtraTrees: Pk=0.3634, WD=0.3760.
+  - k60 ExtraTrees: Pk=0.3693, WD=0.3830.
+  - k70 ExtraTrees: Pk=0.3695, WD=0.3820.
+  - k90 ExtraTrees: Pk=0.3678, WD=0.3813.
+  - k100 ExtraTrees: Pk=0.3663, WD=0.3819.
+- Focused cross-model grids did not improve:
+  - bge-large/e5-large: Pk=0.3738, WD=0.3786.
+  - bge-large/e5: Pk=0.3734, WD=0.3790.
+  - e5-large/bge-large: Pk=0.3781, WD=0.3858.
+- Dataset expansion check: manifest, raw videos, transcripts, sentence files, and ground truth are exactly aligned at 30 videos. There are no extra processed videos ready for a valid 50-video benchmark update.
+
+Observation: the current best result appears to be a real local plateau for the available 30-video data and method pool. A dramatic improvement now likely requires either manually adding and processing new labeled videos or running a full same-dataset modern LLM baseline, not more local threshold/selector tuning.

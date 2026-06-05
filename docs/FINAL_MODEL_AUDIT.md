@@ -62,6 +62,17 @@ Interpretation for the cross-model conservative method:
 | Low-frac cross-model | `cross_e5large_w9_frac58_minlen11` | 0.3758 | 0.3805 | n/a | 0.0218 | Reject |
 | Direct metric search | best global random-weight config | 0.3947 | 0.4083 | 0.0673 | 0.0841 | Reject |
 | Direct metric search | leave-one-out selected config | 0.4318 | 0.4389 | 0.0533 | 0.0714 | Reject |
+| Guarded ridge selector | best guarded variant | 0.3728 | 0.3777 | 0.0267 | 0.0235 | Reject |
+| Direct metric search, seed 11 | best global, 300 samples | 0.3895 | 0.4010 | 0.0565 | 0.0794 | Reject |
+| Direct metric search, seed 23 | best global, 300 samples | 0.3915 | 0.4016 | 0.0580 | 0.0750 | Reject |
+| Selector pool sweep | k50 ExtraTrees | 0.3634 | 0.3760 | 0.0495 | 0.0608 | Reject |
+| Selector pool sweep | k60 ExtraTrees | 0.3693 | 0.3830 | 0.0577 | 0.0693 | Reject |
+| Selector pool sweep | k70 ExtraTrees | 0.3695 | 0.3820 | 0.0664 | 0.0772 | Reject |
+| Selector pool sweep | k90 ExtraTrees | 0.3678 | 0.3813 | 0.0525 | 0.0642 | Reject |
+| Selector pool sweep | k100 ExtraTrees | 0.3663 | 0.3819 | 0.0682 | 0.0837 | Reject |
+| Focused cross-model grid | bge-large/e5-large | 0.3738 | 0.3786 | n/a | 0.0245 | Reject |
+| Focused cross-model grid | bge-large/e5 | 0.3734 | 0.3790 | n/a | 0.0197 | Reject |
+| Focused cross-model grid | e5-large/bge-large | 0.3781 | 0.3858 | n/a | 0.0366 | Reject |
 
 These experiments do not replace the official method.
 

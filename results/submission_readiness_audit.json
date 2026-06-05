@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05 06:56:06",
+  "generated_at": "2026-06-05 07:22:16",
   "status": "pass",
   "passed": 43,
   "failed": 0,
@@ -290,7 +290,7 @@
       "category": "claim discipline",
       "name": "docs/FINAL_MODEL_AUDIT.md",
       "ok": true,
-      "detail": "7876 bytes"
+      "detail": "8878 bytes"
     },
     {
       "category": "claim discipline",
