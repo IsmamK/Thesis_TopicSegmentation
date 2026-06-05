@@ -1998,3 +1998,16 @@ Results:
 - LaTeX hard-error scan found no fatal errors, undefined control sequences, undefined citations, or undefined references.
 
 Observation: the thesis is now stronger and more accessible because it states exactly why LECSEG contributes something useful: same-protocol low-resource evidence, hierarchy, reproducibility, statistical claim discipline, and oracle/domain diagnostics. It still must not claim direct performance closeness to high-resource systems without a same-dataset comparison.
+
+---
+
+## [2026-06-05 06:58] - Result-improvement triage
+
+Reviewed whether there are still realistic ways to improve final metrics after the strengthened submission pass. Most broad directions have already been tested or are too risky for a late thesis change. The highest-upside remaining options are narrow and should be treated as optional experiments, not guaranteed improvements.
+
+Results:
+- Best deployable result remains unchanged: balanced leave-one-video-out selector, Pk=0.3588, WD=0.3739, BS=0.0757, F1@2=0.0893.
+- Already-tested result-improvement paths that did not replace the official result include candidate rankers, text-transition rankers, direct metric search, DP candidate selection, multimodal fusion search, shot/prosody variants, and out-of-domain supervised transfer.
+- Most plausible remaining metric-upside experiments: same-dataset LLM baseline, Math-specific transcript cleanup, selector calibration/ensembling, and stricter postprocessing around over/under-segmentation.
+
+Observation: there may still be small metric gains available, but the probability of a clean, defensible large improvement is low without adding new labeled data or running a modern same-dataset LLM baseline.
