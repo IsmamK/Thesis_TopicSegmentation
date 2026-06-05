@@ -1,0 +1,45 @@
+{
+  "method": "llm_zero_shot_llama3_1_8b",
+  "model": "llama3.1:8b",
+  "chunk_size": 80,
+  "overlap": 15,
+  "summary": {
+    "llm_zero_shot_llama3_1_8b": {
+      "mean_pk": 0.4056,
+      "mean_wd": 0.6606,
+      "mean_bs": 0.2518,
+      "mean_f1": 0.198,
+      "n_videos": 3,
+      "n_failed": 0
+    }
+  },
+  "per_video": {
+    "NNnIGh9g6fA": {
+      "pk": 0.5925925925925926,
+      "wd": 0.9854497354497355,
+      "boundary_similarity": 0.4537037037037037,
+      "f1": 0.14953271028037382,
+      "n_llm_boundaries": 99,
+      "n_gt_boundaries": 15,
+      "n_chunks": 13
+    },
+    "TjZBTDzGeGg": {
+      "pk": 0.4342105263157895,
+      "wd": 0.5736842105263158,
+      "boundary_similarity": 0.12345679012345681,
+      "f1": 0.2222222222222222,
+      "n_llm_boundaries": 27,
+      "n_gt_boundaries": 10,
+      "n_chunks": 13
+    },
+    "zNVQfWC_evg": {
+      "pk": 0.18985695708712613,
+      "wd": 0.4226267880364109,
+      "boundary_similarity": 0.17810457516339873,
+      "f1": 0.2222222222222222,
+      "n_llm_boundaries": 51,
+      "n_gt_boundaries": 13,
+      "n_chunks": 13
+    }
+  }
+}

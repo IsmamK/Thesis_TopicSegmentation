@@ -167,6 +167,7 @@ as a domain-general deployment model.
     Discourse markers (forced boundaries) & 0.4615 & 0.5221 & Over-segments at subtopic level \\
     BERTopic topic-shift & 0.5632 & 0.6984 & Finds subtopics, not chapters \\
     GPT-2 perplexity (200 sent.\ cap) & 0.4182 & 0.4316 & Language surprise detects subtopic shifts \\
+    LLM zero-shot Llama-3.1-8B (3 videos) & 0.4056 & 0.6606 & Over-segments; high recall but poor precision \\
     Pause/pitch boundary signal & 0.4174 & 0.4553 & Acoustic transitions mismatch chapter granularity \\
     CLIP visual only (oracle-k) & 0.3958 & -- & Surprisingly strong visual signal \\
     CLIP + text fusion (best grid) & 0.3740 & 0.4085 & Beats BGE-divisive; near cross-model \\
