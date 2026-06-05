@@ -1966,3 +1966,17 @@ Results:
 - Unsafe wording: "multimodal fusion is the reason for the best result" unless a specific multimodal variant is being discussed.
 
 Observation: the thesis is multimodal in system scope and evaluation coverage, but its strongest empirical claim is low-resource text/cross-model segmentation with multimodal diagnostics.
+
+---
+
+## [2026-06-05 06:48] - Contribution-strengthening priorities
+
+Identified the most defensible ways to strengthen the thesis contribution beyond method naming. The recommended upgrades focus on evidence that is specific to this project: a low-resource hierarchical benchmark, same-dataset modern baseline comparison, boundary-level diagnosis, and release-quality reproducibility.
+
+Results:
+- Highest-impact experimental addition: run a zero-shot or local-LLM chaptering baseline on the same 30-video benchmark.
+- Highest-impact methodological addition: add a boundary-level verifier/ranker using candidate-boundary features rather than video-level method selection.
+- Highest-impact analysis addition: expand oracle-gap, domain-failure, and qualitative case-study analysis.
+- Highest-impact contribution framing: position LECSEG as a benchmark and diagnostic study for low-resource hierarchical lecture segmentation.
+
+Observation: the strongest novelty claim should be "new benchmark plus rigorous low-resource diagnostic evidence," optionally supported by a compact boundary-level method, not broad claims of new state-of-the-art multimodal modeling.
