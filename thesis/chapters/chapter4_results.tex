@@ -233,3 +233,13 @@ strongest next technical direction is supervised candidate ranking: generate a
 high-recall candidate pool, score each candidate with text, cross-model, pause,
 OCR, and local-coherence features, and select a non-overlapping set with
 minimum-duration constraints.
+
+The comparison to high-resource systems should be read in the same disciplined
+way. LECSEG uses dramatically less data than systems such as Chapter-Gen,
+MiniSeg/YTSEG, Chapter-Llama, and VidChapters-7M, but those systems are not
+evaluated on the same benchmark with the same metrics. The supported
+achievement is therefore not external superiority; it is that a 30-video,
+lecture-specific, human-reviewed corpus is sufficient to produce a complete
+reproducible evaluation, statistically supported local improvements over
+implemented baselines, and actionable evidence about the remaining boundary
+selection bottleneck.

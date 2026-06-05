@@ -8,6 +8,9 @@ videos into chapter-level and subtopic-level segments. The project includes the
 dataset, preprocessing pipeline, segmentation baselines, proposed methods,
 evaluation scripts, thesis source, and defense materials.
 
+For a reviewer-facing summary of the final claim boundary, see
+[docs/EXAMINER_BRIEF.md](docs/EXAMINER_BRIEF.md).
+
 ## Current Authoritative Status
 
 Use [docs/PROJECT_GUIDE.md](docs/PROJECT_GUIDE.md) as the single cleanup and
@@ -66,13 +69,21 @@ streamlit run scripts/demo.py
 
 ## Main Contributions
 
-1. A reproducible lecture-video topic segmentation pipeline.
-2. LECSEG-30: a 30-video lecture benchmark with chapter and subtopic labels.
-3. A hierarchical annotation/evaluation setup for chapters and subtopics.
+1. LECSEG-30: a 30-video, 32.52-hour, five-domain lecture benchmark with 419
+   chapter boundaries and 904 reviewed subtopic labels.
+2. A hierarchical annotation and evaluation setup for chapter/subtopic lecture
+   structure, including reported inter-annotator agreement.
+3. A reproducible multimodal pipeline covering transcripts, embeddings, OCR,
+   shot boundaries, prosody, cross-model selection, and local-LLM refinement.
 4. A unified evaluation suite using Pk, WindowDiff, Boundary Similarity,
-   tolerance-F1, and hierarchical metrics.
-5. Extensive ablations showing which cues help, which hurt, and where the
-   current bottleneck is.
+   tolerance-F1, bootstrap confidence intervals, and paired significance tests.
+5. Extensive ablations and diagnostics showing which cues help, which hurt,
+   and why candidate-boundary selection remains the main bottleneck.
+
+The intended contribution is benchmark-and-diagnosis quality under severe
+data constraints. It is not a claim of external state of the art against
+large-scale chaptering systems trained on thousands to hundreds of thousands
+of videos.
 
 ## Reproducibility Rule
 

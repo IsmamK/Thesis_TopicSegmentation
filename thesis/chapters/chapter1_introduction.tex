@@ -47,6 +47,22 @@ boundary: $\mathcal{B}_{\text{chapter}} \subseteq \mathcal{B}_{\text{subtopic}}$
 This richer representation directly mirrors the structure that expert instructors
 use when planning lectures and that viewers expect when navigating course content.
 
+\section{Positioning}
+\label{sec:positioning}
+
+This thesis is not framed as a large-scale video chaptering system. Recent
+chaptering models are trained or evaluated on thousands to hundreds of
+thousands of videos and often use different generation or temporal-localisation
+metrics. \lecseg{} targets a narrower question: how far can a compact,
+lecture-specific, manually reviewed benchmark go when the available supervision
+is limited to 30 videos?
+
+This distinction matters for the claim boundary. The thesis does not claim to
+outperform large supervised chaptering systems on their benchmarks. Its
+contribution is to make the low-resource lecture setting measurable: the data,
+hierarchical labels, baselines, ablations, statistical tests, and failure modes
+are all exposed under one reproducible protocol.
+
 \section{Research questions}
 \label{sec:rqs}
 
@@ -81,7 +97,9 @@ This thesis makes the following contributions:
 
   \item \textbf{Boundary-selection analysis}: Cross-model conservative
     selection, method-portfolio analysis, and selector experiments that expose
-    candidate selection as the main bottleneck.
+    candidate selection as the main bottleneck. The contribution is the
+    low-resource diagnosis and controlled comparison, not a claim that
+    ensemble voting or meta-selection are new ideas in isolation.
     (Chapter~\ref{chap:methodology}, Sections~\ref{sec:fusion}--\ref{sec:boundary}.)
 
   \item \textbf{Hierarchical Segmenter (N3)}: A segmenter that produces
@@ -98,7 +116,7 @@ This thesis makes the following contributions:
   \item \textbf{Comprehensive evaluation}: A comparison of classical, neural,
     cross-model, multimodal, selector, and oracle variants across multiple
     metrics with bootstrap confidence intervals and paired statistical testing,
-    plus a qualitative error analysis.
+    plus a qualitative error analysis and external low-resource positioning.
     (Chapter~\ref{chap:results}.)
 
   \item \textbf{Reproducibility package}: The repository contains runnable
