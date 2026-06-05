@@ -1885,3 +1885,17 @@ Results:
 - Working tree after push: clean.
 
 Observation: the remote repository now contains the professionally cleaned thesis package and no longer tracks the identified credentials, internal coordination files, scratch logs, or LaTeX intermediates.
+
+---
+
+## [2026-06-05 06:40] - Post-submission novelty triage
+
+Reviewed the remaining concern that the thesis may be passable but weakly novel because the strongest deployable methods are conservative cross-model consensus and a low-data ExtraTrees method selector. Reconfirmed that the safest way to raise the thesis above a merely passable engineering project is to foreground the benchmark contribution, hierarchical annotation design, rigorous low-resource evaluation, oracle-gap analysis, and defensible negative results rather than claiming a fundamentally new segmentation model.
+
+Results:
+- Best deployable result remains the balanced leave-one-video-out selector: Pk=0.3588, WD=0.3739, BS=0.0757, F1@2=0.0893.
+- The selector's Pk/WD gain over the best single global method remains not statistically significant.
+- The strongest novelty claim remains the 30-lecture, 5-domain, 32.52-hour hierarchical benchmark and analysis protocol.
+- Highest-value optional upgrades, if time permits, are a simple LLM baseline, a qualitative case-study chapter, and an explicit oracle-gap/negative-results discussion.
+
+Observation: the thesis should be defended as a reproducible low-resource benchmark and empirical study with a modest but validated local improvement, not as a new state-of-the-art segmentation architecture.
