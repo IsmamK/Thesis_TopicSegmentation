@@ -2064,3 +2064,17 @@ Results:
 - Do not reopen full 50-video expansion before submission unless there is enough time for a complete data-processing and revalidation sprint.
 
 Observation: the thesis is strongest now as a polished, honest, reproducible low-resource benchmark-and-diagnosis contribution. The remaining improvements should reduce examiner doubt, not destabilize the official benchmark.
+
+---
+
+## [2026-06-05 08:08] - Comprehensive improvement roadmap
+
+Recorded the complete high-impact roadmap for making the project stronger across four dimensions: numerical results, pipeline quality, thesis quality, and defense impact.
+
+Results:
+- Best result-improvement directions: boundary-level selector, more fully processed labeled videos, Math transcript cleanup, reliability-aware multimodal fusion, and same-dataset LLM comparison.
+- Best pipeline-improvement directions: experiment registry, reproducible dataset expansion workflow, cached model outputs, prediction artifact standardization, and one-command reporting.
+- Best thesis-improvement directions: sharper contribution framing, case studies, same-dataset LLM baseline, compute-efficiency analysis, and stronger failure-mode analysis.
+- Best panel-impact directions: examiner brief, defense slides with oracle gap, clear low-resource comparison, and honest non-claims.
+
+Observation: the strongest possible version of LECSEG would combine a larger validated benchmark, boundary-level candidate verification, modern same-dataset LLM comparison, and polished qualitative/efficiency analysis.
