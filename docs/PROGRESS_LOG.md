@@ -1939,3 +1939,17 @@ Results:
 - The safest comparison class is undergraduate or small-lab low-resource lecture segmentation research, not CVPR/NeurIPS-scale chaptering systems.
 
 Observation: externally, the thesis is not competitive as a state-of-the-art chaptering model, but it can be strong as a focused undergraduate benchmark-and-analysis contribution if the claims remain disciplined.
+
+---
+
+## [2026-06-05 06:46] - Low-resource comparison claim boundary
+
+Checked whether the thesis can claim closeness to high-resource video chaptering systems because it uses far less data and compute. Confirmed that low-resource and efficient chaptering work does exist, including zero-shot and LLM-efficient systems, but most strong published systems use different datasets, metrics, supervision scales, or evaluation definitions.
+
+Results:
+- Safe claim: LECSEG is a low-resource, low-compute benchmark and pipeline evaluated on 30 manually reviewed lecture videos.
+- Safe comparison: LECSEG is much smaller and cheaper than large-scale chaptering systems, and reports competitive local performance against implemented lightweight baselines.
+- Unsafe claim without new experiments: LECSEG performs close to expensive models, because cross-dataset Pk/WD/F1 comparisons are not valid.
+- Required evidence for the stronger claim: run an expensive/LLM chaptering baseline on LECSEG, or run LECSEG on a public benchmark with the same metric.
+
+Observation: compute-efficiency can be framed as a strength, but only as an efficiency/reproducibility argument unless same-dataset comparisons are added.
