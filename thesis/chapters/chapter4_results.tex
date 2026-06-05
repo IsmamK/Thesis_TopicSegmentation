@@ -126,6 +126,17 @@ method. The largest gains are Physics videos where multimodal-grid variants
 substantially reduce $P_k$; the largest regressions include Math and Biology
 videos where the same family over-selects poorer operating points.
 
+\input{tables/same_dataset_comparison}
+
+Table~\ref{tab:same_dataset_comparison} addresses a common comparison
+objection by evaluating a TreeSeg-style public split objective on the same
+\dataset{} benchmark with local LECSEG embeddings. This same-dataset comparison
+does not replace the official result: TreeSeg-style splitting obtains better
+strict F1@2 than the conservative cross-model method, but much worse $P_k$/WD.
+The result clarifies the operating-point tradeoff. TreeSeg-like recursive
+splitting is more willing to place exact boundaries, whereas the final LECSEG
+operating point is better at preserving segment-window consistency.
+
 \input{tables/selector_leave_domain_out}
 
 Table~\ref{tab:selector_leave_domain_out} applies a stricter diagnostic:
@@ -218,6 +229,22 @@ modes:
   false positives by predicting fewer boundaries, but this lowers recall and
   strict boundary F1.
 \end{enumerate}
+
+\section{Case-study findings}
+\label{sec:case_studies}
+
+The generated case-study artifact in \texttt{docs/CASE\_STUDIES.md} expands
+three representative patterns. First, some Physics videos benefit strongly from
+selector choices that use multimodal-grid variants, showing that the method
+portfolio contains useful complementary evidence. Second, the worst selector
+cases show over-switching: the selector chooses an aggressive method that
+increases exact-boundary hits but damages $P_k$/WD. Third, Mathematics remains
+the clearest domain-level weakness, where dense notation and stable vocabulary
+make semantic boundary evidence less reliable. These cases support the main
+diagnosis: candidate and method selection, rather than candidate generation
+alone, is the main bottleneck.
+
+\input{tables/compute_efficiency}
 
 \section{Discussion}
 \label{sec:discussion}

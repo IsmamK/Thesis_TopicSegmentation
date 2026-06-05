@@ -2078,3 +2078,29 @@ Results:
 - Best panel-impact directions: examiner brief, defense slides with oracle gap, clear low-resource comparison, and honest non-claims.
 
 Observation: the strongest possible version of LECSEG would combine a larger validated benchmark, boundary-level candidate verification, modern same-dataset LLM comparison, and polished qualitative/efficiency analysis.
+
+---
+
+## [2026-06-05 08:38] - Full improvement sprint completed
+
+Executed the rollback-safe final improvement sprint. Created rollback tag `pre-mega-improvement-sprint-20260605-0808`, preserved the existing user edit in `docs/NOVELTY_TRACKER.md`, and added only validated sprint artifacts to the submission path.
+
+Results:
+- Official best result remains unchanged: balanced leave-one-video-out ExtraTrees selector, Pk=0.3588, WD=0.3739, BS=0.0757, F1@2=0.0893.
+- Added same-dataset TreeSeg-style comparison using local embeddings:
+  - MPNet: Pk=0.4320, WD=0.4673, BS=0.1131, F1@2=0.1733.
+  - E5-large: Pk=0.4322, WD=0.4654, BS=0.1030, F1@2=0.1576.
+  - BGE-large: Pk=0.4399, WD=0.4780, BS=0.1131, F1@2=0.1643.
+- Added partial same-dataset LLM candidate verifier diagnostic on 3 videos: best partial run Pk=0.3627, WD=0.3993, BS=0.0937, F1@2=0.1226. It is not promoted as official because it is partial and does not improve WD.
+- Dataset expansion planner found only 3 new candidate rows in the current video list, not 20 fully processable labeled videos. No 50-video claim was made.
+- Added experiment registry, best-result comparison guard, case-study generator, compute-efficiency generator, defense oracle-gap assets, defense slide deck, dataset-expansion planner, TreeSeg-style adapter, LLM candidate verifier, and one-command reproduction gate.
+- Thesis updated with same-dataset comparison, case-study findings, compute-efficiency table, and conclusion wording that keeps TreeSeg-style results diagnostic rather than official.
+- Validation passed:
+  - `python -m py_compile` for new scripts.
+  - `pytest tests -q`: 185 passed.
+  - `validate_thesis_claims.py`: 119 passed, 0 failed.
+  - `submission_readiness_audit.py`: 43 passed, 0 failed.
+  - `run_submission_reproduction.py --skip-tests`: completed registry, claim validation, readiness audit, and two thesis PDF builds.
+  - `pdftotext` placeholder scan found no TODO/TBD/undefined placeholder text in thesis or defense PDFs.
+
+Observation: no honest experiment produced a stronger official Pk/WD result. The thesis is stronger through same-dataset comparison, clearer failed-experiment evidence, qualitative diagnosis, compute-efficiency framing, defense assets, and a cleaner reproducibility path.

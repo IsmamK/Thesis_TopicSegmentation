@@ -1,0 +1,21 @@
+\begin{table}[t]
+  \centering
+  \caption{Compute-efficiency positioning. Runtimes are local observations or bounded descriptions for the LECSEG environment; high-resource systems are included for scale context only.}
+  \label{tab:compute_efficiency}
+  \small
+  \resizebox{\linewidth}{!}{%
+  \begin{tabular}{llll}
+    \toprule
+    Method & Training & Main cost & Interpretation \\
+    \midrule
+    TextTiling / C99 & None & CPU lexical similarity & Classical lightweight baselines. \\
+    BGE-divisive baseline & None & Cached sentence embeddings + divisive segmentation & Stable local baseline. \\
+    Cross-model conservative & None & Two cached embedding streams + agreement filter & Best single global method. \\
+    Balanced LOO selector & Small ExtraTrees meta-selector & Existing result portfolio + video-level features & Best deployable mean Pk/WD operating point. \\
+    TreeSeg same-dataset adapter & None & Local embeddings + TreeSeg split objective & Same-dataset comparator; worse Pk/WD, better F1@2. \\
+    Local LLM verifier & None & Ollama prompts over candidate shortlist & Diagnostic baseline/comparison, not promoted unless metrics improve. \\
+    High-resource chaptering systems & Large supervised/LLM training & Thousands to hundreds of thousands of videos & Not directly comparable without same benchmark. \\
+    \bottomrule
+  \end{tabular}%
+  }
+\end{table}

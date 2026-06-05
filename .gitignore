@@ -30,6 +30,14 @@ data/demo_cache/
 *.safetensors
 *.mp3
 .claude/
+external/
+defense/*.aux
+defense/*.log
+defense/*.nav
+defense/*.out
+defense/*.snm
+defense/*.toc
+results/llm_candidate_ranker_examples.pkl
 
 # Private/local coordination and credentials
 internal/

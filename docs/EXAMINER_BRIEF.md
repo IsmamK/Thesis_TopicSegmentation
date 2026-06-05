@@ -41,6 +41,22 @@ The balanced selector significantly improves Pk/WD over the stable baseline.
 Its Pk/WD gains over the cross-model method are not significant, but it
 significantly improves boundary-hit metrics.
 
+## Same-Dataset Comparison
+
+The final sprint adds a TreeSeg-style public split-objective adapter evaluated
+on the same LECSEG-30 benchmark, using local LECSEG embeddings. This removes
+the "different dataset" objection for at least one modern comparison family.
+
+| Comparator | Embedding | Pk | WD | F1@2 | Interpretation |
+|---|---|---:|---:|---:|---|
+| TreeSeg-style | MPNet | 0.4320 | 0.4673 | 0.1733 | Better exact-boundary F1, worse Pk/WD |
+| TreeSeg-style | E5-large | 0.4322 | 0.4654 | 0.1576 | Better exact-boundary F1, worse Pk/WD |
+| TreeSeg-style | BGE-large | 0.4399 | 0.4780 | 0.1643 | Better exact-boundary F1, worse Pk/WD |
+
+Safe wording: LECSEG does not beat TreeSeg-style splitting on every metric.
+It preserves segment-window consistency better on this benchmark, while
+TreeSeg-style recursive splitting places more exact boundaries.
+
 ## Low-Resource Positioning
 
 LECSEG is deliberately tiny compared with large chaptering systems:
@@ -77,6 +93,8 @@ Key findings:
   depends on lecture style and alignment quality.
 - Candidate pools contain much better boundaries than the deployable selector
   chooses, so boundary-level ranking is the next serious research direction.
+- Same-dataset TreeSeg-style comparison shows that strict boundary hits and
+  segment-window consistency are different operating points, not the same win.
 
 ## Best Defense Wording
 
@@ -100,3 +118,13 @@ That claim requires same-dataset, same-metric evaluation against those systems.
 The highest-value future experiment is a same-dataset LLM chaptering baseline.
 If a modern LLM baseline is run on the same 30 videos with the same Pk/WD/F1
 metrics, then LECSEG can make a much stronger compute-efficiency comparison.
+
+## Reviewer Artifacts
+
+- Final thesis PDF: `thesis/main.pdf`
+- Defense deck: `defense/lecseg_defense_slides.pdf`
+- Experiment registry: `docs/EXPERIMENT_REGISTRY.md`
+- Case studies: `docs/CASE_STUDIES.md`
+- Compute efficiency: `docs/COMPUTE_EFFICIENCY.md`
+- Oracle-gap defense note: `docs/DEFENSE_ORACLE_GAP.md`
+- One-command reproduction gate: `python scripts/run_submission_reproduction.py`

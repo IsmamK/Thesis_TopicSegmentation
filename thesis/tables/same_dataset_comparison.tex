@@ -1,0 +1,19 @@
+\begin{table}[t]
+  \centering
+  \caption{Same-dataset external-style comparison on LECSEG-30. TreeSeg is adapted from its public split objective to local LECSEG embeddings because the public implementation uses OpenAI embeddings by default. Lower is better for $P_k$/WD; higher is better for F1@2.}
+  \label{tab:same_dataset_comparison}
+  \small
+  \resizebox{\linewidth}{!}{%
+  \begin{tabular}{lrrrl}
+    \toprule
+    Method & $P_k\downarrow$ & WD$\downarrow$ & F1@2$\uparrow$ & Interpretation \\
+    \midrule
+    Balanced LOO selector & 0.3588 & 0.3739 & 0.0893 & Official best operating point \\
+    Cross-model conservative & 0.3713 & 0.3764 & 0.0237 & Best single global method \\
+    TreeSeg-style local, MPNet & 0.4320 & 0.4673 & 0.1733 & Better exact hits, worse segment consistency \\
+    TreeSeg-style local, E5-large & 0.4322 & 0.4654 & 0.1576 & Same-dataset comparator \\
+    TreeSeg-style local, BGE-large & 0.4399 & 0.4780 & 0.1643 & Same-dataset comparator \\
+    \bottomrule
+  \end{tabular}%
+  }
+\end{table}

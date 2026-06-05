@@ -1,0 +1,53 @@
+{
+  "rows": [
+    {
+      "method": "TextTiling / C99",
+      "training": "None",
+      "main_cost": "CPU lexical similarity",
+      "reported_time": "<1 min for full benchmark",
+      "notes": "Classical lightweight baselines."
+    },
+    {
+      "method": "BGE-divisive baseline",
+      "training": "None",
+      "main_cost": "Cached sentence embeddings + divisive segmentation",
+      "reported_time": "embedding cached; segmentation <1 min",
+      "notes": "Stable local baseline."
+    },
+    {
+      "method": "Cross-model conservative",
+      "training": "None",
+      "main_cost": "Two cached embedding streams + agreement filter",
+      "reported_time": "<1 min once embeddings exist",
+      "notes": "Best single global method."
+    },
+    {
+      "method": "Balanced LOO selector",
+      "training": "Small ExtraTrees meta-selector",
+      "main_cost": "Existing result portfolio + video-level features",
+      "reported_time": "~2 min per selector sweep on local CPU",
+      "notes": "Best deployable mean Pk/WD operating point."
+    },
+    {
+      "method": "TreeSeg same-dataset adapter",
+      "training": "None",
+      "main_cost": "Local embeddings + TreeSeg split objective",
+      "reported_time": "~49 sec for 30 videos, bge-large",
+      "notes": "Same-dataset comparator; worse Pk/WD, better F1@2."
+    },
+    {
+      "method": "Local LLM verifier",
+      "training": "None",
+      "main_cost": "Ollama prompts over candidate shortlist",
+      "reported_time": "cacheable; depends on shortlist size/model",
+      "notes": "Diagnostic baseline/comparison, not promoted unless metrics improve."
+    },
+    {
+      "method": "High-resource chaptering systems",
+      "training": "Large supervised/LLM training",
+      "main_cost": "Thousands to hundreds of thousands of videos",
+      "reported_time": "not locally reproduced",
+      "notes": "Not directly comparable without same benchmark."
+    }
+  ]
+}

@@ -35,6 +35,16 @@ not statistically significant, and leave-domain-out performance is weaker.
 The project therefore makes a low-resource, reproducible local-benchmark claim,
 not an external state-of-the-art claim.
 
+Recent final-pass artifacts strengthen the defense without changing the
+official result:
+
+- Same-dataset TreeSeg-style comparison: `docs/EXPERIMENT_REGISTRY.md` and
+  `results/eval_treeseg_same_dataset_*.json`.
+- Case-study analysis: `docs/CASE_STUDIES.md`.
+- Compute-efficiency table: `docs/COMPUTE_EFFICIENCY.md`.
+- Oracle-gap defense note and figure: `docs/DEFENSE_ORACLE_GAP.md`.
+- Defense slide deck: `defense/lecseg_defense_slides.pdf`.
+
 ## Quick Start
 
 ```powershell
@@ -43,6 +53,9 @@ not an external state-of-the-art claim.
 
 # Run tests
 .\.venv\Scripts\python.exe -m pytest tests\ -q
+
+# Run final submission gates: registry, claim validation, readiness audit, PDF build
+.\.venv\Scripts\python.exe scripts\run_submission_reproduction.py
 
 # Run the main evaluation
 .\.venv\Scripts\python.exe scripts/run_eval.py --verbose

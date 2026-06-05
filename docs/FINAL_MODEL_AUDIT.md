@@ -73,6 +73,9 @@ Interpretation for the cross-model conservative method:
 | Focused cross-model grid | bge-large/e5-large | 0.3738 | 0.3786 | n/a | 0.0245 | Reject |
 | Focused cross-model grid | bge-large/e5 | 0.3734 | 0.3790 | n/a | 0.0197 | Reject |
 | Focused cross-model grid | e5-large/bge-large | 0.3781 | 0.3858 | n/a | 0.0366 | Reject |
+| TreeSeg-style same-dataset | MPNet local embeddings | 0.4320 | 0.4673 | 0.1131 | 0.1733 | Reject for Pk/WD; useful F1 comparator |
+| TreeSeg-style same-dataset | E5-large local embeddings | 0.4322 | 0.4654 | 0.1030 | 0.1576 | Reject for Pk/WD; useful F1 comparator |
+| TreeSeg-style same-dataset | BGE-large local embeddings | 0.4399 | 0.4780 | 0.1131 | 0.1643 | Reject for Pk/WD; useful F1 comparator |
 
 These experiments do not replace the official method.
 

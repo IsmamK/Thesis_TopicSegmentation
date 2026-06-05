@@ -1,0 +1,58 @@
+{
+  "existing_manifest_videos": 30,
+  "candidate_rows_in_video_list": 30,
+  "new_candidates": 3,
+  "new_candidates_by_domain": {
+    "CS": 1,
+    "PHYSICS": 1,
+    "MATH": 1
+  },
+  "next_steps": [
+    "Select candidates with creator chapter timestamps.",
+    "Download into a separate expansion manifest first.",
+    "Transcribe, split sentences, compute embeddings, and extract GT.",
+    "Run all official baselines before merging into the thesis benchmark.",
+    "Promote to official only after validation and thesis table regeneration."
+  ],
+  "candidates": [
+    {
+      "url": "https://www.youtube.com/watch?v=xxpc-HPKN28&list=PLWKjhJtqVAblQe2CCWqV4Zy3LY01Z8aF1&index=2",
+      "domain": "CS",
+      "title": "Statistics - A Full University Course on Data Science Basics",
+      "speaker": "Monika Wahi",
+      "language": "ENGLISH",
+      "duration_est_min": "08:15:04",
+      "num_chapters_est": "14",
+      "source_channel": "freeCodeCamp.org",
+      "notes": "",
+      "": "",
+      "id": "xxpc-HPKN28"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=hyctIDPRSqY",
+      "domain": "PHYSICS",
+      "title": "Quantum Physics Full Course | Quantum Mechanics Course",
+      "speaker": "Brant Carlson",
+      "language": "ENGLISH",
+      "duration_est_min": "11:42:44",
+      "num_chapters_est": "32",
+      "source_channel": "Academic Lesson",
+      "notes": "",
+      "": "",
+      "id": "hyctIDPRSqY"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=M2FL6nGmptw",
+      "domain": "MATH",
+      "title": "Linear algebra full course",
+      "speaker": "Professor Sean Fitzpatrick",
+      "language": "ENGLISH",
+      "duration_est_min": "11:40:28",
+      "num_chapters_est": "48",
+      "source_channel": "Academic Lesson",
+      "notes": "",
+      "": "",
+      "id": "M2FL6nGmptw"
+    }
+  ]
+}
