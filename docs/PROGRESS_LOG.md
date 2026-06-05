@@ -2400,3 +2400,17 @@ and MIT 6.S191 series (4 videos).
 - The new diagnostic metric run should be described as a deployment-style diagnostic rerun, not as a replacement for the official selector/cross-model thesis result tables.
 - The safest thesis narrative is now benchmark + diagnostic evaluation + cautious validated text/cross-model result, with LLM/fusion treated as diagnostic unless stronger ablation evidence is added.
 - In-app browser visual QA was attempted but unavailable in this session, so web app verification used Python compilation and HTTP 200 server response instead.
+
+## [2026-06-06 02:39] — Thesis upgrade committed and pushed
+
+### What was done
+- Committed the thesis diagnostics, visuals, validation docs, web app rewrite, tracker updates, result artifacts, and verifier scripts.
+- Pushed the commit to GitHub on `origin/main`.
+
+### Results
+- Commit: `d1c55f46` (`Upgrade thesis diagnostics and demo`).
+- Push result: `main -> main` on `https://github.com/IsmamK/Thesis_TopicSegmentation.git`.
+
+### Observations
+- T38 remains intentionally unmarked because the IEEE paper compiles but is still 3 pages instead of the requested 8 pages.
+- The pushed material includes the learning/validation docs and the added thesis charts/visuals.
