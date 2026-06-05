@@ -2414,3 +2414,40 @@ and MIT 6.S191 series (4 videos).
 ### Observations
 - T38 remains intentionally unmarked because the IEEE paper compiles but is still 3 pages instead of the requested 8 pages.
 - The pushed material includes the learning/validation docs and the added thesis charts/visuals.
+
+## [2026-06-06 03:27] — Web app upgraded for arbitrary YouTube lecture segmentation
+
+### What was done
+- Rebuilt `webapp/app.py` into a two-mode app:
+  - `Segment any YouTube video` for real user-facing chapter generation.
+  - `Benchmark LecSeg-30` for reference-based research metrics.
+- Kept the arbitrary-video workflow aligned with the thesis pipeline:
+  - YouTube URL/video ID;
+  - transcript acquisition;
+  - sentence splitting;
+  - text embeddings;
+  - boundary prediction with LecSeg methods;
+  - chapter timestamp generation;
+  - JSON and YouTube timestamp export.
+- Added robust fast transcript acquisition with `yt-dlp` captions.
+- Kept direct YouTube timedtext captions as secondary fallback.
+- Kept local Whisper transcription as optional fallback when captions are unavailable and the user enables it.
+- Added optional caching under `data/webapp_cache/<video_id>/` for metadata, transcript, sentence splits, captions, and embeddings.
+- Updated `webapp/README.md` to document arbitrary-video mode, cache behavior, benchmark mode, limitations, and hosting.
+
+### Results
+- Arbitrary-video functional check succeeded on `NNnIGh9g6fA`.
+- Transcript source: `yt_dlp_caption:NNnIGh9g6fA.en.json3`.
+- Sentence split count: 1323 sentences.
+- Embedding shape: `(1323, 384)` using `sbert`.
+- Automatic segment estimate: 13 segments.
+- Generated boundaries: 12.
+- Cache check succeeded on second run: `cache_hit=True`.
+- Streamlit server check: HTTP 200 on `localhost:8501`.
+- Python compile check passed for `webapp/app.py`.
+- Full test suite: 185 passed, 1 expected Ollama fallback warning in 22.07 seconds.
+
+### Observations
+- The app now behaves like a usable demo product, not only a benchmark explorer.
+- Arbitrary videos without reference chapters can be segmented and exported, but cannot produce Pk/WindowDiff/F1 unless reference chapters are available.
+- The fastest demo route is to pre-cache selected videos through public captions; Whisper fallback should be reserved for videos without captions because it is slower.
