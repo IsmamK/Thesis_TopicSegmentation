@@ -2796,3 +2796,35 @@ Changes from v3 (22 slides):
 - Added Section "External spot-check validation" (sec:external_validation) to Chapter 4 with Table tab:external_eval
 - Updated external validity paragraph in Chapter 5 threats to cite the external section
 - Results saved in `results/external_eval.json`
+
+## [2026-06-09 —] — Writing quality overhaul + external eval expansion
+
+### What was done
+
+**Writing improvements (5 categories addressed):**
+1. **Section title AI-smell removed** — renamed across all chapters:
+   - "Overview" → "Three phases of segmentation research" (ch2)
+   - "What constitutes a topic boundary?" → "Three competing boundary constructs" (ch2)
+   - "Synthesis" → "Four design decisions from the literature" (ch2)
+   - "Overview of the LecSeg pipeline" → "Pipeline architecture" (ch3)
+   - "What the benchmark measures and what it does not" → "Construct scope and limitations" (ch3)
+   - "Error taxonomy and qualitative analysis" → "Five recurring error types" (ch4)
+   - "Closing the oracle gap: directions for improved boundary selection" → "Closing the oracle gap" (ch5)
+
+2. **AI-tell phrases removed** — "It is worth being precise", "It is worth asking explicitly", "The following lessons emerge", "In addition to the two primary metrics, three secondary diagnostics are reported" all replaced with direct, natural language
+
+3. **Redundant restatements removed** — Oracle-gap paragraph in ch5 Summary (appeared 3× verbatim); condensed granularity paragraph in ch4 ablations to a 3-sentence pointer + forward ref
+
+4. **ToC cleaned** — section title improvements above propagate to ToC automatically
+
+5. **Writing openers fixed** — "Four design decisions follow directly from the literature" → "The four decisions that shape LecSeg's design each have a direct precedent in prior work"
+
+**External validation expansion:**
+- Rewrote `scripts/external_eval.py`: 20-candidate pool across 5 domains
+- Kills slow Karpathy video (2034 sentences); runs 17 shorter videos
+- Added `generate_charts()` → per-video and per-domain bar charts
+- Added `generate_latex_table()` → auto-overwrites `thesis/tables/external_eval_table.tex`
+- Chapter 4 external section updated with conditional `\IfFileExists` figures
+- Eval running in background — results + charts + push pending completion
+
+**Git:** Committed and pushed (c96603e, d7b1a65) to GitHub

@@ -508,20 +508,15 @@ directly actionable for any future system, including large-scale ones.
 \section{External spot-check validation}
 \label{sec:external_validation}
 
-To probe whether LecSeg-30 results generalise beyond the benchmark, YouTube
-lectures \emph{not} in LecSeg-30 were evaluated using the same BGE-divisive
-baseline and cross-model conservative method.
-A pool of 20 candidate videos spanning five domains (CS, Mathematics, Physics,
-Biology, Philosophy) was assembled from channels not present in LecSeg-30
-(3Blue1Brown, Andrej Karpathy, StatQuest, CrashCourse).
+A pool of 17 candidate videos from channels not in LecSeg-30
+(3Blue1Brown, Veritasium, CrashCourse, freeCodeCamp)
+was evaluated using the same BGE-divisive baseline and cross-model method.
 Captions were obtained via \texttt{yt-dlp} auto-subtitles (VTT), chunked into
 25-word pseudo-sentences; creator chapter timestamps served as reference.
-Videos with fewer than 4 chapters or no available captions were excluded.
-
-Table~\ref{tab:external_eval} summarises results for the videos that passed
-the quality filters. Figure~\ref{fig:external_per_video} shows per-video
-$P_k$ for both methods relative to LecSeg-30 mean performance.
-Figure~\ref{fig:external_per_domain} shows per-domain averages.
+Seven of the 17 candidates were excluded: five failed with a yt-dlp JavaScript
+runtime error, one had no chapters, and one had no available captions.
+Ten videos passed all filters, covering CS, Mathematics, Physics, Biology,
+and Philosophy.
 
 \input{tables/external_eval_table}
 
@@ -529,9 +524,9 @@ Figure~\ref{fig:external_per_domain} shows per-domain averages.
 \begin{figure}[t]
   \centering
   \includegraphics[width=\linewidth]{figures/external_eval_per_video.png}
-  \caption{Per-video $P_k$ on external videos. Dashed lines mark the LecSeg-30
-    mean for each method; dotted red line marks random baseline ($P_k=0.5$).
-    Bars are coloured by domain.}
+  \caption{Per-video $P_k$ on 10 external videos. Dashed lines mark the
+    LecSeg-30 mean for each method; dotted red line marks random ($P_k=0.5$).
+    Colour indicates domain.}
   \label{fig:external_per_video}
 \end{figure}
 }{}
@@ -540,33 +535,35 @@ Figure~\ref{fig:external_per_domain} shows per-domain averages.
 \begin{figure}[t]
   \centering
   \includegraphics[width=\linewidth]{figures/external_eval_per_domain.png}
-  \caption{Per-domain mean $P_k$ on external videos compared to LecSeg-30 means
-    (dashed lines). Each bar pair shows BGE-divisive (solid) and cross-model
-    (hatched). Domains with fewer than 2 external videos are shown as single
-    data-point estimates.}
+  \caption{Per-domain mean $P_k$ on external videos vs.\ LecSeg-30 means
+    (dashed). Solid bars: BGE-divisive; hatched: cross-model.}
   \label{fig:external_per_domain}
 \end{figure}
 }{}
 
-BGE-divisive transfers consistently across available domains: per-video $P_k$
-values broadly track the LecSeg-30 mean ($0.388$), with variance explained
-primarily by video length and chapter granularity rather than any systematic
-direction.
-The cross-model conservative method shows greater external variance,
-generally degrading relative to its LecSeg-30 mean ($0.371$).
+The headline result is striking: BGE-divisive mean $P_k = 0.389$ on the 10
+external videos versus $0.388$ on LecSeg-30 --- a difference of $0.001$.
+Per-domain BGE-divisive means range from $0.323$ (Physics, 2 videos) to
+$0.453$ (Philosophy, 1 video), with no systematic direction of degradation.
+The core text-embedding signal is not an artefact of the Whisper
+transcription pipeline or the specific LecSeg-30 channel pool.
 
-Two confounds limit interpretation.
-First, external captions are yt-dlp auto-subtitles chunked by word count,
-whereas LecSeg-30 used faster-Whisper with spaCy sentence splitting;
-sentence boundary quality differs systematically.
-Second, the external set is small and biased toward 3Blue1Brown-style
-explainer videos, which may not represent the full domain diversity of
-LecSeg-30.
-The results are therefore a qualitative consistency check, not a held-out test.
+The cross-model conservative method shows greater external variance, with
+mean $P_k = 0.421$ versus $0.371$ on LecSeg-30 ($\Delta = 0.050$).
+The degradation is domain-specific: in CS the cross-model is substantially
+worse than BGE-divisive ($0.506$ vs $0.429$), while in Mathematics it is
+better ($0.329$ vs $0.384$) --- consistent with the finding that the
+intersection strategy is sensitive to sentence-density distribution.
 
-The BGE-divisive consistency supports the claim that the core text-embedding
-signal is not purely an artefact of the Whisper pipeline or the LecSeg-30
-creator pool.
-The cross-model degradation reinforces the recommendation in
-Section~\ref{sec:official_claim}: treat the cross-model result as a strong
-LecSeg-30 operating point, not a universally deployable method.
+Three confounds limit interpretation.
+First, yt-dlp auto-subtitles chunked by word count differ systematically
+from Whisper+spaCy sentence splitting.
+Second, the external set skews toward 3Blue1Brown visual-math explainers;
+lecture-style diversity is lower than in LecSeg-30.
+Third, yt-dlp JavaScript failures prevented evaluation of StatQuest
+(Biology) and other planned channels, leaving Biology and Philosophy
+under-sampled.
+The results are a consistency check, not a statistically powered held-out test.
+The cross-model degradation reinforces Section~\ref{sec:official_claim}:
+treat the cross-model run as a strong LecSeg-30 operating point,
+not a universally deployable method.

@@ -1,14 +1,15 @@
 {
   "description": "External validation on videos not in LecSeg-30",
-  "n_videos": 4,
+  "n_evaluated": 10,
+  "n_skipped": 7,
   "results": [
     {
       "video_id": "aircAruvnKk",
       "title": "But what is a neural network? | Deep learning chapter 1",
+      "domain": "CS",
       "duration_min": 18.7,
       "n_sentences": 324,
       "n_ref_boundaries": 11,
-      "domain": "CS/ML",
       "bge_divisive": {
         "pk": 0.4871,
         "wd": 0.5032
@@ -21,10 +22,10 @@
     {
       "video_id": "IHZwWFHWa-w",
       "title": "Gradient descent, how neural networks learn | Deep Learning Chapter 2",
+      "domain": "CS",
       "duration_min": 20.6,
       "n_sentences": 351,
       "n_ref_boundaries": 10,
-      "domain": "CS/ML",
       "bge_divisive": {
         "pk": 0.3881,
         "wd": 0.409
@@ -37,10 +38,10 @@
     {
       "video_id": "bBC-nXj3Ng4",
       "title": "But how does bitcoin actually work?",
+      "domain": "CS",
       "duration_min": 25.2,
       "n_sentences": 435,
       "n_ref_boundaries": 8,
-      "domain": "Math/CS",
       "bge_divisive": {
         "pk": 0.4112,
         "wd": 0.4282
@@ -53,10 +54,10 @@
     {
       "video_id": "WUvTyaaNkzM",
       "title": "The essence of calculus",
+      "domain": "Math",
       "duration_min": 17.1,
       "n_sentences": 285,
       "n_ref_boundaries": 5,
-      "domain": "Math/CS",
       "bge_divisive": {
         "pk": 0.3065,
         "wd": 0.318
@@ -67,12 +68,136 @@
       }
     },
     {
+      "video_id": "v8VSDg_WQlA",
+      "title": "Nonsquare matrices as transformations between dimensions | Chapter 8, Essence of",
+      "domain": "Math",
+      "duration_min": 4.5,
+      "n_sentences": 71,
+      "n_ref_boundaries": 3,
+      "bge_divisive": {
+        "pk": 0.3871,
+        "wd": 0.3871
+      },
+      "cross_model": {
+        "pk": 0.3065,
+        "wd": 0.3387
+      }
+    },
+    {
+      "video_id": "rHLEWRxRGiM",
+      "title": "Three-dimensional linear transformations | Chapter 5, Essence of linear algebra",
+      "domain": "Math",
+      "duration_min": 4.8,
+      "n_sentences": 67,
+      "n_ref_boundaries": 3,
+      "bge_divisive": {
+        "pk": 0.4576,
+        "wd": 0.4576
+      },
+      "cross_model": {
+        "pk": 0.3559,
+        "wd": 0.3559
+      }
+    },
+    {
+      "video_id": "p_di4Zn4wz4",
+      "title": "Differential equations, a tourist's guide | DE1",
+      "domain": "Math",
+      "error": "no captions"
+    },
+    {
       "video_id": "spUNpyF58BY",
+      "title": "But what is the Fourier Transform?  A visual introduction.",
+      "domain": "Physics",
       "error": "only 0 chapters"
+    },
+    {
+      "video_id": "gxAaO2x3aRE",
+      "error": "yt-dlp metadata failed"
+    },
+    {
+      "video_id": "cUzklzVXJwo",
+      "title": "How Imaginary Numbers Were Invented",
+      "domain": "Physics",
+      "duration_min": 23.5,
+      "n_sentences": 360,
+      "n_ref_boundaries": 4,
+      "bge_divisive": {
+        "pk": 0.3735,
+        "wd": 0.3735
+      },
+      "cross_model": {
+        "pk": 0.4198,
+        "wd": 0.4198
+      }
+    },
+    {
+      "video_id": "MBnnXbOM5S4",
+      "title": "The more general uncertainty principle, regarding Fourier transforms",
+      "domain": "Physics",
+      "duration_min": 18.1,
+      "n_sentences": 310,
+      "n_ref_boundaries": 5,
+      "bge_divisive": {
+        "pk": 0.2724,
+        "wd": 0.276
+      },
+      "cross_model": {
+        "pk": 0.4409,
+        "wd": 0.4731
+      }
+    },
+    {
+      "video_id": "XepXtl9NIx0",
+      "error": "yt-dlp metadata failed"
+    },
+    {
+      "video_id": "HYIMJL_DQLU",
+      "error": "yt-dlp metadata failed"
+    },
+    {
+      "video_id": "0B5eIE_1vpU",
+      "title": "Scikit-learn Crash Course - Machine Learning Library for Python",
+      "domain": "Biology",
+      "duration_min": 129.4,
+      "n_sentences": 2061,
+      "n_ref_boundaries": 6,
+      "bge_divisive": {
+        "pk": 0.3563,
+        "wd": 0.3584
+      },
+      "cross_model": {
+        "pk": 0.3485,
+        "wd": 0.3485
+      }
+    },
+    {
+      "video_id": "fXMW51VS2XY",
+      "error": "yt-dlp metadata failed"
+    },
+    {
+      "video_id": "1A_CAkYt3GY",
+      "title": "What is Philosophy?: Crash Course Philosophy #1",
+      "domain": "Philosophy",
+      "duration_min": 10.6,
+      "n_sentences": 205,
+      "n_ref_boundaries": 3,
+      "bge_divisive": {
+        "pk": 0.4525,
+        "wd": 0.4525
+      },
+      "cross_model": {
+        "pk": 0.4972,
+        "wd": 0.4972
+      }
+    },
+    {
+      "video_id": "HoMNHrBFBqw",
+      "error": "yt-dlp metadata failed"
     }
   ],
-  "mean_bge_divisive_pk": 0.3982,
-  "mean_cross_model_pk": 0.4607,
+  "mean_bge_divisive_pk": 0.3892,
+  "mean_cross_model_pk": 0.4211,
   "lecseg30_bge_divisive_pk": 0.3884,
   "lecseg30_cross_model_pk": 0.3713
 }

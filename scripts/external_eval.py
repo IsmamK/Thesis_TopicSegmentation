@@ -477,8 +477,9 @@ def generate_latex_table(valid_results: list[dict], out_path: Path):
         dp = f"{r['bge_divisive']['pk']:.3f}" if "bge_divisive" in r else "---"
         cp = f"{r['cross_model']['pk']:.3f}"  if "cross_model"  in r else "---"
         vid = r["video_id"]
+        vid_escaped = vid.replace("_", "\\_")
         rows.append(
-            f"    \\texttt{{{vid}}} & {r.get('domain','?')} & "
+            f"    \\texttt{{{vid_escaped}}} & {r.get('domain','?')} & "
             f"{r['n_sentences']} & {r['n_ref_boundaries']} & {dp} & {cp} \\\\"
         )
 

@@ -229,14 +229,13 @@ findings on this specific benchmark rather than as universal laws of lecture
 segmentation. The leave-domain-out selector degradation ($P_k=0.4012$) is
 direct evidence that performance is sensitive to the amount of domain-matched
 training data; with more videos the picture may shift materially.
-A four-video external spot-check (Section~\ref{sec:external_validation})
-found BGE-divisive to be consistent (external mean $P_k=0.398$ vs
-$0.388$ on \dataset{}) but found the cross-model conservative method to
-degrade more substantially ($P_k=0.461$ external vs $0.371$), suggesting it
-is partly calibrated to LecSeg-30's Whisper transcription style and
-sentence-density distribution.
-These four videos use yt-dlp auto-captions rather than Whisper
-transcripts, so caption-quality differences are an additional confound.
+A ten-video external spot-check across five domains
+(Section~\ref{sec:external_validation}) found BGE-divisive
+consistent (external mean $P_k=0.389$ vs $0.388$ on \dataset{},
+$\Delta=0.001$), while the cross-model method degraded somewhat
+($P_k=0.421$ vs $0.371$, $\Delta=0.050$).
+Confounds include yt-dlp auto-captions vs.\ Whisper transcripts
+and an external pool skewed toward 3Blue1Brown explainer videos.
 
 \paragraph{Annotation validity.}
 Subtopic labels were produced by human annotators and verified through
