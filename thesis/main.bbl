@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{24}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -42,6 +42,14 @@ Marti~A. Hearst.
 \newblock \emph{Proceedings of the 32nd Annual Meeting of the Association for
   Computational Linguistics}, 1994.
 
+\bibitem[Janin et~al.(2003)Janin, Baron, Edwards, Ellis, Gelbart, Morgan,
+  Peskin, Pfau, Shriberg, Stolcke, and Wooters]{janin2003icsi}
+Adam Janin, Don Baron, Jane Edwards, Dan Ellis, David Gelbart, Nelson Morgan,
+  Barbara Peskin, Thilo Pfau, Elizabeth Shriberg, Andreas Stolcke, and Chuck
+  Wooters.
+\newblock The {ICSI} meeting corpus.
+\newblock In \emph{Proceedings of {ICASSP}}, pages 364--367, 2003.
+
 \bibitem[Jiang et~al.(2024)]{jiang2024mixtral}
 Albert~Q. Jiang et~al.
 \newblock Mixtral of experts, 2024.
@@ -71,6 +79,15 @@ Matthias Mauch and Simon Dixon.
 \newblock In \emph{Proceedings of the {IEEE} International Conference on
   Acoustics, Speech and Signal Processing ({ICASSP})}, 2014.
 
+\bibitem[McCowan et~al.(2005)McCowan, Carletta, Kraaij, Ashby, Bourban, Flynn,
+  Guillemot, Hain, Kadlec, Karaiskos, et~al.]{mccowan2005ami}
+Iain McCowan, Jean Carletta, Wessel Kraaij, Simone Ashby, Sebastien Bourban,
+  Mike Flynn, Mael Guillemot, Thomas Hain, Jaroslav Kadlec, Vasilis Karaiskos,
+  et~al.
+\newblock The {AMI} meeting corpus.
+\newblock In \emph{Proceedings of the 5th International Conference on Methods
+  and Techniques in Behavioral Research}, volume~88, 2005.
+
 \bibitem[{Meta AI}(2024)]{meta2024llama3}
 {Meta AI}.
 \newblock The {Llama 3} herd of models, 2024.
@@ -79,7 +96,8 @@ Matthias Mauch and Simon Dixon.
 Lev Pevzner and Marti~A. Hearst.
 \newblock A critique and improvement of an evaluation metric for text
   segmentation.
-\newblock In \emph{Computational Linguistics}, volume~28, pages 19--36, 2002.
+\newblock \emph{Computational Linguistics}, 28\penalty0 (1):\penalty0 19--36,
+  2002.
 
 \bibitem[Radford et~al.(2021)Radford, Kim, Hallacy, et~al.]{radford2021clip}
 Alec Radford, Jong~Wook Kim, Chris Hallacy, et~al.

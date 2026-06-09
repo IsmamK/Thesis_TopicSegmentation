@@ -353,9 +353,10 @@ tasks:
     phase: 10
   T41:
     title: Defense slide deck
-    status: todo
+    status: done
     owner: null
     phase: 10
+    completed_at: '2026-06-08T23:49:59Z'
   T42:
     title: Dataset release on Zenodo
     status: todo
@@ -373,9 +374,10 @@ tasks:
     phase: 11
   T45:
     title: Defense Q&A preparation document
-    status: todo
+    status: done
     owner: null
     phase: 11
+    completed_at: '2026-06-08T23:50:00Z'
   T46:
     title: "Full dress rehearsal (2\xD7)"
     status: todo
@@ -383,6 +385,7 @@ tasks:
     phase: 11
   T47:
     title: 24-hour sanity checklist
-    status: todo
+    status: done
     owner: null
     phase: 11
+    completed_at: '2026-06-09T01:34:11Z'

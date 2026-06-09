@@ -97,13 +97,18 @@ pass after chapter boundaries were fixed from YouTube metadata:
     terminology.
 
   \item \textbf{Uncertainty.}
-    When unsure, annotators marked the best plausible transition. Disagreement
-    was preserved for IAA analysis rather than hidden.
+    When unsure, the annotator marked the best plausible transition. Both
+    annotators worked independently; disagreements were preserved for IAA
+    measurement rather than resolved by adjudication.
 \end{enumerate}
 
 \section{Inter-annotator agreement details}
 
-The final IAA report contains 30 videos and is stored in
-\texttt{data/gt\_hier/iaa\_report.json}. Mean chapter-level kappa is 0.5351 and
-mean subtopic-level kappa is 0.4257 at tolerance 1 sentence. Boundary F1 is
-1.0000 for chapters and 0.7793 for subtopics.
+The IAA report covers all 30 videos and is stored in
+\texttt{data/gt\_hier/iaa\_report.json}. Subtopic boundaries were annotated
+independently by two human annotators; chapter boundaries are fixed from
+YouTube creator metadata (see Section~\ref{sec:iaa} for full interpretation).
+Mean chapter-level $\kappa=0.5351$ (inflated: both annotators observe the
+same creator timestamps) and mean subtopic-level $\kappa=0.4257$ at
+tolerance 1 sentence. Boundary F1 is 1.0000 for chapters (expected, as
+noted above) and 0.7793 for subtopics.

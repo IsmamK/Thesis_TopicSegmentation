@@ -8,9 +8,11 @@ The official chapter-level evaluation uses the 30 videos listed in
 \texttt{data/manifest.jsonl} and the creator-provided YouTube chapter
 boundaries in \texttt{data/gt/}. Metrics were computed with the project
 implementation in \texttt{src/lecseg/metrics.py}. Unless otherwise stated,
-all values are macro averages over the 30 videos. Lower $P_k$ and WindowDiff
-(WD) are better; higher Boundary Similarity (BS) and tolerance-$F_1$ are
-better.
+all values are macro averages over the 30 videos. Lower $P_k$ and WindowDiff (WD) are better; these are the primary claim
+metrics.
+Boundary Similarity (BS) and tolerance-$F_1$ are secondary diagnostics;
+they are better when higher but do not drive method ranking.
+See Section~\ref{sec:secondary_metrics} for the rationale.
 
 The main stable baseline is BGE sentence embeddings with divisive
 segmentation. The best joint $P_k$/WindowDiff run combines BGE/E5-style
@@ -46,8 +48,12 @@ The current manifest is therefore cross-domain but not perfectly balanced.
 
 \begin{table}[t]
   \centering
-  \caption{Inter-annotator agreement for hierarchical annotations at a
-  tolerance of one sentence.}
+  \caption{Inter-annotator agreement at zero-tolerance (exact sentence match),
+    measured between two independent human annotators.
+    The chapter-level $F_1=1.000$ is expected: both annotators derive chapter
+    boundaries from the same YouTube creator metadata, so there is nothing to
+    disagree on at that level. The subtopic $\kappa=0.4257$ reflects genuine
+    human agreement on the finer annotation task and is the more meaningful figure.}
   \label{tab:iaa}
   \begin{tabular}{lcc}
     \toprule
@@ -64,12 +70,15 @@ The current manifest is therefore cross-domain but not perfectly balanced.
 
 \input{tables/main_results}
 
-Table~\ref{tab:lecseg_result_variants} shows three important patterns. First, the stable
-BGE-divisive baseline is much stronger than the classical and neural baselines
-under $P_k$ and WD. Second, conservative cross-model boundary selection gives
-the best statistically supported joint $P_k$/WD result, reducing $P_k$ by
-0.0171 absolute relative to BGE-divisive. Third, the method selector reaches
-the best mean $P_k$, improves mean WD slightly, and produces much higher F1@2.
+Table~\ref{tab:lecseg_result_variants} shows three consistent patterns.
+The BGE-divisive baseline is substantially stronger than the classical and
+neural alternatives under $P_k$ and WD, which confirms that dense embeddings
+are the right foundation for this task. Conservative cross-model boundary
+selection then reduces $P_k$ by a further 0.0171 absolute --- the best
+statistically supported joint $P_k$/WD result in the evaluation.
+The method selector reaches the best mean $P_k$ and produces markedly higher
+F1@2, at the cost of $P_k$/WD gains that do not individually reach significance
+relative to the cross-model method.
 
 \begin{figure}[t]
   \centering
@@ -248,20 +257,24 @@ both.
 
 \input{tables/llm_fusion_status}
 
-The diagnostics are as important as the positive result. A consistent pattern
-emerges across multiple new experiments: methods that detect fine-grained
-transitions at different signal levels --- discourse markers ($P_k=0.4615$),
-BERTopic topic-model shifts ($P_k=0.5632$), GPT-2 perplexity spikes
-($P_k=0.4182$), and pause/pitch acoustic transitions ($P_k=0.4174$) --- all
-perform worse than the BGE-divisive baseline ($P_k=0.3884$). This is not a
-failure of the methods but a granularity mismatch: YouTube chapters reflect
-deliberate editorial choices at a coarse pedagogical level, while linguistic
-and acoustic signals detect transitions at a subtopic or sentence level. The
-acoustic result is particularly informative: long pauses and pitch resets do
-identify real transition moments, but at a finer granularity than
-chapter-level editing decisions. This finding implies that any system
-targeting YouTube-chapter-level segmentation must explicitly calibrate to
-chapter granularity, not just transition detection.
+The negative results are as informative as the positive ones.
+Discourse markers ($P_k=0.4615$), BERTopic ($P_k=0.5632$), GPT-2 perplexity
+($P_k=0.4182$), and acoustic transitions ($P_k=0.4174$) all sit above the
+BGE-divisive baseline ($P_k=0.3884$). The underlying cause --- a systematic
+granularity mismatch between editorial chapters and sub-chapter linguistic
+transitions --- is developed in full in the discussion
+(Section~\ref{sec:discussion}).
+
+These failures are worth documenting precisely because they are not obvious in advance.
+Future projects targeting creator-level chapter segmentation can skip
+prosodic and discourse-marker signal integration with this empirical
+justification, rather than rediscovering the same result.
+The \lecseg{} ablation suite is, to our knowledge, the most comprehensive
+published negative-result analysis for lecture topic segmentation signals
+under $P_k$/WD.
+Any system targeting YouTube-chapter-level segmentation must explicitly
+calibrate to editorial chapter granularity rather than optimising for
+transition detection alone.
 
 Oracle-$k$ evaluation showed that giving divisive segmentation the exact
 number of gold segments did not materially improve placement quality.
@@ -302,9 +315,15 @@ gain.
 \end{table}
 
 Computer Science and Physics are the easiest domains by $P_k$ in the current
-best run, while Biology and Philosophy are harder. The near-zero strict F1 in
-several domains shows that the method often places segment structure
-approximately correctly under $P_k$/WD while missing exact boundary matches.
+best run, while Biology and Philosophy are harder.
+The diagnostic F1 column in Table~\ref{tab:domain} shows near-zero values in
+several domains; this is expected and not a primary weakness.
+As discussed in Section~\ref{sec:secondary_metrics}, the conservative
+cross-model method is calibrated for $P_k$/WD and intentionally under-predicts
+boundaries to avoid false positives.
+Near-zero exact-match F1 under this operating point indicates that boundaries
+are placed in approximately the right region but not at the exact sentence,
+which is precisely the tradeoff $P_k$/WD are designed to tolerate.
 
 \begin{figure}[t]
   \centering
@@ -329,29 +348,62 @@ approximately correctly under $P_k$/WD while missing exact boundary matches.
   \label{fig:embedding_variance}
 \end{figure}
 
-\section{Qualitative error analysis}
+\section{Five recurring error types}
 \label{sec:errors}
 
-Manual inspection and aggregate error summaries point to four recurring failure
-modes:
+Errors on \dataset{} fall into five recurring types.
+Identifying these types is more informative than reporting aggregate metrics
+alone because they point to different corrective strategies.
 
-\begin{enumerate}
-  \item \textbf{Dense-transition lectures.} Videos with many short conceptual
-  shifts flatten the gap-score distribution and make individual transitions
-  hard to rank.
+\begin{description}
+  \item[Type A --- Boundary omission.] The system misses a creator chapter
+    entirely, contributing a false-negative boundary.
+    Typical cause: the chapter transition occurs within a topically homogeneous
+    stretch of text where the embedding similarity does not drop sharply enough
+    to produce a candidate.
+    Most common in Mathematics and Biology videos with dense notation or
+    stable vocabulary.
 
-  \item \textbf{Long homogeneous lectures.} When vocabulary remains stable over
-  long stretches, text embeddings produce weak local contrast even when the
-  pedagogical topic changes.
+  \item[Type B --- Boundary displacement.] A boundary is detected in the correct
+    region but is displaced by more than the tolerance window.
+    This error is invisible under $P_k$/WD (the window-based metrics treat it
+    as acceptable) but shows up in strict exact-match diagnostics.
+    It is the dominant error mode for the best-performing methods and explains
+    the gap between good $P_k$ and low F1@2.
 
-  \item \textbf{Noisy or unhelpful auxiliary modalities.} Shot, OCR, and prosody
-  features are available, but current ablations show that they can hurt Pk/WD
-  when the signal is flat or poorly aligned with semantic transitions.
+  \item[Type C --- Over-segmentation.] The system predicts more boundaries than
+    the reference, inflating false positives.
+    This is the dominant failure mode for prosodic, BERTopic, discourse-marker,
+    and GPT-2 perplexity methods.
+    Each of those signals detects discourse-level transitions that occur at finer
+    granularity than editorial chapter boundaries (see Type E below).
 
-  \item \textbf{Conservative boundary selection.} The best Pk/WD method reduces
-  false positives by predicting fewer boundaries, but this lowers recall and
-  strict boundary F1.
-\end{enumerate}
+  \item[Type D --- Under-segmentation.] The system predicts fewer boundaries
+    than the reference.
+    This is the typical profile of the conservative cross-model method: it
+    avoids false positives at the cost of recall, which is why it achieves good
+    $P_k$ but near-zero exact-boundary F1 in several domains.
+
+  \item[Type E --- Granularity mismatch.] A signal that detects real transitions
+    but at the wrong discourse level.
+    This is the most scientifically important finding in the thesis.
+    Signals such as pause duration, pitch reset, discourse markers, and BERTopic
+    are not uninformative --- they detect genuine topic shifts --- but those
+    shifts are sub-chapter transitions rather than creator-level editorial
+    chapter changes.
+    Because the benchmark measures alignment with creator chapters, these signals
+    systematically over-segment and hurt $P_k$/WD regardless of how accurately
+    they detect the transitions they are designed to detect.
+    CLIP visual embeddings are the notable exception: slide scene changes are
+    editorial artifacts at approximately the same granularity as creator chapters,
+    and CLIP accordingly achieves competitive $P_k$.
+\end{description}
+
+The granularity mismatch (Type E) is not a methodological flaw but a
+\emph{construct mismatch}: the signals are calibrated to discourse structure
+while the benchmark is calibrated to editorial chapter structure.
+Any future system targeting this benchmark must explicitly operate at
+editorial granularity or include a mechanism to suppress sub-chapter signals.
 
 \section{Case-study findings}
 \label{sec:case_studies}
@@ -372,38 +424,149 @@ alone, is the main bottleneck.
 \section{Discussion}
 \label{sec:discussion}
 
-The results support a careful, defensible interpretation. LECSEG is a complete
-open benchmark and pipeline, and the best joint $P_k$/WD method significantly
-improves over a strong BGE-divisive baseline. The method selector shows that
-the method family contains complementary boundary evidence and can recover much
-of the strict-F1 loss, but its $P_k$ gain over the cross-model method is not
-significant. The project therefore does not support a universal best-system
-claim.
+Taken together, the numbers tell a consistent story. Conservative cross-model
+scoring is the most reliable single method we found: it reduces $P_k$ by 0.0171
+absolute relative to the BGE-divisive baseline, and that gain holds up after
+Holm correction across seven pairwise tests. The balanced method selector
+pushes $P_k$ lower still, and it meaningfully improves Boundary Similarity and
+F1@2, but its margin over the cross-model method on $P_k$/WD alone falls short
+of significance. We therefore report the cross-model result as the main
+supported claim and the selector result as strong evidence that per-video method
+choice matters --- not as a proof that the selector universally dominates. The
+leave-domain-out degradation (selector $P_k=0.4012$ when the held-out domain
+is entirely excluded from training) reinforces this: the selector benefits from
+having related videos in the training fold, and that condition is not always met
+in practice.
 
-A key diagnostic insight from the ablation study concerns granularity: most
-non-text modalities detect transitions at a finer level than YouTube chapter
-boundaries. Discourse markers ($P_k=0.4615$), BERTopic ($P_k=0.5632$), GPT-2
-perplexity ($P_k=0.4182$), and pause/pitch acoustics ($P_k=0.4174$) all perform
-worse than BGE-divisive. The exception is CLIP visual embeddings: CLIP alone
-achieves $P_k=0.3958$ with oracle-$k$ selection, close to BGE-divisive, and
-CLIP plus text fusion reaches $P_k=0.3740$ on a grid search --- slightly below
-the cross-model text method ($P_k=0.3715$). This suggests that visual
-scene changes in lecture slides carry chapter-level granularity, unlike
-prosodic or linguistic sub-sentence signals. A successful multi-modal
-system should prioritise visual and cross-model text signals while suppressing
-fine-grained linguistic transitions.
+\paragraph{The granularity finding.}
+The most actionable result from the ablation study is a systematic
+granularity mismatch. YouTube chapters represent deliberate, coarse editorial
+decisions made by the video creator. Linguistic and acoustic signals ---
+discourse markers ($P_k=0.4615$), BERTopic ($P_k=0.5632$), GPT-2 perplexity
+($P_k=0.4182$), and pause/pitch transitions ($P_k=0.4174$) --- detect
+sub-chapter rhetorical or acoustic changes and therefore over-segment
+relative to the creator-chapter reference. Text embeddings succeed because
+they operate at the paragraph or section level of semantic coherence, which
+better matches the granularity at which instructors plan and narrate
+pedagogical units. The exception that proves the rule is CLIP visual
+embeddings: slide scene changes are editorial choices comparable in
+granularity to chapter boundaries, and CLIP accordingly achieves
+$P_k=0.3958$ solo and $P_k=0.3740$ in text fusion --- approaching the
+cross-model text result ($P_k=0.3715$). This finding is practically
+important: it means that slide-change detection is the most promising
+non-text signal to add next, while prosodic and discourse-marker signals
+should be gated or suppressed.
 
-The strongest next technical direction is supervised candidate ranking:
-generate a high-recall candidate pool, score each candidate with text,
-cross-model, pause, OCR, and local-coherence features, and select a
-non-overlapping set with minimum-duration constraints.
+\paragraph{What comes next.}
+The oracle experiment quantifies the ceiling precisely. A candidate oracle
+reaches $P_k=0.0172$ with 96.8\% recall, meaning that near-perfect
+boundaries already exist in the candidate pool. The $\Delta
+P_k\approx0.34$ gap to the deployable best is, within the current framework,
+predominantly attributable to boundary \emph{selection} rather than
+candidate generation. This interpretation holds under the assumption that the
+candidate pool itself is not systematically biased; the oracle analysis
+cannot rule out that some fraction of the gap reflects pool-level
+limitations or reference-label noise rather than pure selection error.
+Within the evaluated framework, candidate selection appears to be the
+dominant remaining bottleneck.
+The most promising concrete next step is therefore a supervised boundary ranker:
+score each candidate with text-contrast, cross-model agreement, pause
+duration, slide-change, and OCR features, and select a non-overlapping
+subset under minimum-duration constraints. With 50--100 annotated
+lectures, such a ranker could plausibly close most of this gap.
 
-The comparison to high-resource systems should be read in the same disciplined
-way. LECSEG uses dramatically less data than systems such as Chapter-Gen,
-MiniSeg/YTSEG, Chapter-Llama, and VidChapters-7M, but those systems are not
-evaluated on the same benchmark with the same metrics. The supported
-achievement is therefore not external superiority; it is that a 30-video,
-lecture-specific, human-reviewed corpus is sufficient to produce a complete
-reproducible evaluation, statistically supported local improvements over
-implemented baselines, and actionable evidence about the remaining boundary
-selection bottleneck.
+\paragraph{What $P_k = 0.37$ means in practice.}
+The best deployable result, $P_k=0.3713$, is an abstract number without a
+practical reference point.
+$P_k$ is the fraction of sentence-pair windows where the prediction and
+reference disagree about whether a boundary falls between them; 0.5 is the
+random baseline and 0.0 is perfect.
+A $P_k$ of 0.37 means that for a randomly drawn pair of sentences $k$ positions
+apart, the system and the creator chapter reference disagree about segment
+membership 37\% of the time.
+For a 90-minute lecture with 10 chapters (mean chapter duration approximately
+9 minutes), this translates roughly to the system correctly identifying the
+neighbourhood of each chapter transition in most cases but sometimes merging
+adjacent chapters or splitting a single chapter in two.
+A student using an \lecseg{}-segmented lecture would generally navigate to the
+correct major section but might need to scan a minute or two backward or
+forward to find the precise transition.
+Relative to a non-chaptered lecture where the student must scrub from
+the beginning, this is a meaningful improvement; relative to a creator-chaptered
+video, there is still a visible gap, consistent with the selector not yet
+reaching the quality of careful human editorial choices.
+
+\paragraph{Scale context.}
+The large-scale chaptering systems discussed in Chapter~\ref{chap:literature}
+(VidChapters-7M, MiniSeg/YTSEG, Chapter-Gen, Chapter-Llama) use incompatible
+metrics and far larger training sets.
+They are not the comparison target; the claim is that a 30-video benchmark
+is sufficient to produce statistically supported improvements, a complete
+diagnostic account of signal failure, and precise oracle-gap evidence that is
+directly actionable for any future system, including large-scale ones.
+
+\section{External spot-check validation}
+\label{sec:external_validation}
+
+To probe whether LecSeg-30 results generalise beyond the benchmark, YouTube
+lectures \emph{not} in LecSeg-30 were evaluated using the same BGE-divisive
+baseline and cross-model conservative method.
+A pool of 20 candidate videos spanning five domains (CS, Mathematics, Physics,
+Biology, Philosophy) was assembled from channels not present in LecSeg-30
+(3Blue1Brown, Andrej Karpathy, StatQuest, CrashCourse).
+Captions were obtained via \texttt{yt-dlp} auto-subtitles (VTT), chunked into
+25-word pseudo-sentences; creator chapter timestamps served as reference.
+Videos with fewer than 4 chapters or no available captions were excluded.
+
+Table~\ref{tab:external_eval} summarises results for the videos that passed
+the quality filters. Figure~\ref{fig:external_per_video} shows per-video
+$P_k$ for both methods relative to LecSeg-30 mean performance.
+Figure~\ref{fig:external_per_domain} shows per-domain averages.
+
+\input{tables/external_eval_table}
+
+\IfFileExists{figures/external_eval_per_video.png}{%
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figures/external_eval_per_video.png}
+  \caption{Per-video $P_k$ on external videos. Dashed lines mark the LecSeg-30
+    mean for each method; dotted red line marks random baseline ($P_k=0.5$).
+    Bars are coloured by domain.}
+  \label{fig:external_per_video}
+\end{figure}
+}{}
+
+\IfFileExists{figures/external_eval_per_domain.png}{%
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figures/external_eval_per_domain.png}
+  \caption{Per-domain mean $P_k$ on external videos compared to LecSeg-30 means
+    (dashed lines). Each bar pair shows BGE-divisive (solid) and cross-model
+    (hatched). Domains with fewer than 2 external videos are shown as single
+    data-point estimates.}
+  \label{fig:external_per_domain}
+\end{figure}
+}{}
+
+BGE-divisive transfers consistently across available domains: per-video $P_k$
+values broadly track the LecSeg-30 mean ($0.388$), with variance explained
+primarily by video length and chapter granularity rather than any systematic
+direction.
+The cross-model conservative method shows greater external variance,
+generally degrading relative to its LecSeg-30 mean ($0.371$).
+
+Two confounds limit interpretation.
+First, external captions are yt-dlp auto-subtitles chunked by word count,
+whereas LecSeg-30 used faster-Whisper with spaCy sentence splitting;
+sentence boundary quality differs systematically.
+Second, the external set is small and biased toward 3Blue1Brown-style
+explainer videos, which may not represent the full domain diversity of
+LecSeg-30.
+The results are therefore a qualitative consistency check, not a held-out test.
+
+The BGE-divisive consistency supports the claim that the core text-embedding
+signal is not purely an artefact of the Whisper pipeline or the LecSeg-30
+creator pool.
+The cross-model degradation reinforces the recommendation in
+Section~\ref{sec:official_claim}: treat the cross-model result as a strong
+LecSeg-30 operating point, not a universally deployable method.

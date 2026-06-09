@@ -4,137 +4,180 @@
 \section{Motivation}
 \label{sec:motivation}
 
-The proliferation of online lecture content since 2020 has created an
-unprecedented body of educational material that is largely inaccessible
-by topic.
-By 2025, public video platforms and course portals hosted vast amounts of
-educational video, with lectures spanning both formal courses and informal
-creator-produced tutorials. Massive Open Online Courses (MOOCs) on platforms
-such as Coursera, edX, and
-MIT OpenCourseWare collectively offer tens of thousands of hour-long lecture
-recordings spanning every academic discipline.
-Yet students navigating this content face a fundamental discoverability problem:
-without fine-grained, automatically generated chapter structure, finding the
-10-minute explanation of \emph{eigenvalue decomposition} within a 3-hour
-linear algebra recording requires either sequential viewing or prior knowledge
-of where to look.
+The growth of online education has outpaced the tools for navigating it.
+Platforms such as Coursera, edX, and MIT OpenCourseWare host tens of thousands
+of academic lecture recordings; YouTube hosts many millions more. Most lack
+structured chapter markers, and those that do exist are often coarse or
+inconsistent. A student who needs the eigenvalue-decomposition derivation buried
+within a three-hour linear algebra recording must either watch from the beginning
+or guess a timestamp. Neither is an acceptable study strategy at scale.
 
-Existing video-retrieval systems typically rely on manually authored chapter
-markers---often unavailable or inconsistent in public lecture videos---or on coarse metadata
-(title, description) that rarely reflects intra-video structure.
-Automated lecture topic segmentation addresses this gap by identifying, from
-the video signal itself, the timestamps at which the lecture transitions between
-distinct pedagogical units.
+The problem has a practical and a pedagogical dimension. At the practical level,
+unnavigated recordings simply go unused: students give up or seek the content
+elsewhere. At the pedagogical level, structured navigation is not a cosmetic
+feature. The ability to jump to a specific segment, review a difficult
+subsection, and orient oneself within a lecture's argument directly affects
+how efficiently students engage with recorded material. Manual chapter authoring
+at the scale of a university's lecture archive is, for most institutions, not
+feasible. Automated lecture topic segmentation is the natural alternative.
+
+Despite real progress in broader text- and video-segmentation research, the
+lecture domain has remained comparatively understudied. Large chaptering
+datasets~\citep{yang2023_vidchapters,cao2022_chaptergen} address general
+YouTube content rather than academic lectures. Meeting-segmentation
+benchmarks~\citep{janin2003icsi,mccowan2005ami} target conversational recordings
+that differ structurally from academic monologues. Before this work, no compact,
+reproducible benchmark existed that combined authentic lecture recordings, a
+two-level annotation hierarchy, quantified annotation reliability, and a
+full evaluation suite. This thesis constructs one and uses it to
+diagnose where current methods succeed and, more usefully, where they fail.
 
 \section{Problem statement}
 \label{sec:problem}
 
 \emph{Lecture topic segmentation} is the task of partitioning a video
-transcript (and its aligned multimodal streams) into a sequence of
-contiguous, semantically coherent segments such that each segment covers
-a single coherent topic or pedagogical unit.
+transcript and its aligned multimodal streams into a sequence of contiguous
+segments that are internally coherent with respect to some notion of topic.
 Formally, given a sequence of $N$ sentences $\{s_1, \ldots, s_N\}$ with
-associated timestamps, the task is to predict a set of boundary indices
-$\mathcal{B} \subset \{1, \ldots, N-1\}$ that maximises some measure of
-intra-segment coherence and inter-segment contrast.
+associated timestamps, the task is to predict boundary indices
+$\mathcal{B} \subset \{1, \ldots, N-1\}$ such that within-segment sentences
+are more topically similar to each other than to sentences in adjacent segments.
 
-\emph{Hierarchical} lecture topic segmentation extends this to two levels:
-\emph{chapters} (coarser, corresponding to major topic shifts) and
-\emph{subtopics} (finer, corresponding to transitions between sub-ideas within
-a chapter).
-The nesting constraint requires that every chapter boundary is also a subtopic
-boundary: $\mathcal{B}_{\text{chapter}} \subseteq \mathcal{B}_{\text{subtopic}}$.
-This richer representation directly mirrors the structure that expert instructors
-use when planning lectures and that viewers expect when navigating course content.
+The word \emph{topic} conceals important ambiguity. Semantic-similarity models
+treat a topic shift as a distributional change in sentence-embedding space.
+Discourse analysts treat it as a change in rhetorical or argumentative function
+--- a move from definition to example, or from theorem to proof. Video creators,
+for their part, treat it as an editorial decision about where to place a
+navigational divider for their audience. These three notions frequently
+diverge: an instructor may reset pitch and introduce a new example
+(a discourse transition) without beginning a genuinely new chapter (an editorial
+transition), or may start a new chapter without any obvious lexical break.
+Because \lecseg{} uses creator-supplied YouTube chapters as its reference,
+the benchmark is calibrated to the third notion. This choice, and its
+consequences, are discussed at length in
+Sections~\ref{sec:youtube_validity}--\ref{sec:topic_def}.
+
+\emph{Hierarchical} lecture topic segmentation adds a second level:
+\emph{chapters} mark major topic shifts, while \emph{subtopics} capture
+finer transitions within a chapter. The nesting constraint,
+$\mathcal{B}_{\text{chapter}} \subseteq \mathcal{B}_{\text{subtopic}}$,
+mirrors the structure that instructors typically plan and that viewers expect
+from well-chaptered recordings.
 
 \section{Positioning}
 \label{sec:positioning}
 
-This thesis is not framed as a large-scale video chaptering system. Recent
-chaptering models are trained or evaluated on thousands to hundreds of
-thousands of videos and often use different generation or temporal-localisation
-metrics. \lecseg{} targets a narrower question: how far can a compact,
-lecture-specific, manually reviewed benchmark go when the available supervision
-is limited to 30 videos?
+This thesis does not compete with large-scale video chaptering systems.
+VidChapters-7M~\citep{yang2023_vidchapters}, MiniSeg/YTSEG~\citep{retkowski2024_miniseg},
+and Chapter-Llama~\citep{ventura2025_chapterllama} operate on hundreds of
+thousands of videos and evaluate generation and temporal-localisation quality
+under metrics that are not comparable to $P_k$/WindowDiff. They are stronger
+systems at scale, and direct comparison would be neither meaningful nor fair.
 
-This distinction matters for the claim boundary. The thesis does not claim to
-outperform large supervised chaptering systems on their benchmarks. Its
-contribution is to make the low-resource lecture setting measurable: the data,
-hierarchical labels, baselines, ablations, statistical tests, and failure modes
-are all exposed under one reproducible protocol.
+The contribution here is different in kind. \lecseg{} is a 30-video, fully
+auditable benchmark designed for diagnostic analysis: every prediction is
+traceable to its source video, every metric value is reproducible from the
+same scripts, and every failure mode is documented. Large-scale benchmarks
+measure aggregate performance; small, controlled ones make it possible to
+understand why systems behave as they do. The findings reported here ---
+particularly the oracle-gap diagnosis and the granularity-mismatch explanation
+--- are precisely the kind of result that requires this level of transparency.
 
 \section{Research questions}
 \label{sec:rqs}
 
 \begin{description}
-  \item[RQ1] Which text, multimodal, and cross-model boundary-selection
-    strategies are most reliable for low-resource lecture segmentation?
+  \item[RQ1] Which text-embedding and cross-model boundary-scoring strategies
+    are most reliable for low-resource lecture segmentation, and at what
+    operating points do they outperform classical and neural alternatives?
 
-  \item[RQ2] Does method selection or candidate selection improve the
-    precision--recall tradeoff beyond a single global segmentation method?
+  \item[RQ2] Does a per-video method selector trained on a small annotated
+    fold improve segmentation performance beyond any single fixed strategy,
+    and under what conditions does it fail?
 
-  \item[RQ3] Can explicit hierarchical annotation and nesting constraints make
-    lecture segmentation outputs easier to inspect and evaluate?
+  \item[RQ3] Can a two-level hierarchical annotation with enforced nesting
+    constraints make lecture segmentation outputs more transparent and easier
+    to evaluate?
 
-  \item[RQ4] Which auxiliary signals, including local LLM refinement, OCR,
-    shots, and prosody, help or hurt under the same evaluation protocol?
+  \item[RQ4] Which auxiliary signals --- including OCR, shot detection, prosody,
+    and local LLM refinement --- improve or degrade segmentation quality under
+    the same evaluation protocol, and what accounts for their behaviour?
 
-  \item[RQ5] Which improvements over the stable local baseline are
-    statistically significant across the \dataset{} benchmark?
+  \item[RQ5] Which performance improvements over the stable text baseline are
+    statistically significant under bootstrap confidence intervals and
+    Holm-corrected Wilcoxon tests on \dataset{}?
 \end{description}
 
 \section{Contributions}
 \label{sec:contributions}
 
-This thesis makes the following contributions:
-
 \begin{enumerate}
-  \item \textbf{\dataset{}}: A benchmark of 30 academic lecture videos from
-    five domains, with creator-provided chapter reference boundaries and
-    human-reviewed LLM-assisted subtopic annotations, totalling 32.52~hours
-    of transcribed audio.
+  \item \textbf{\dataset{}}: 30 academic lecture videos across five domains,
+    with 419 creator chapter boundaries and 904 human-reviewed subtopic
+    annotations, totalling 32.52 hours of transcribed audio. The benchmark
+    is the primary research artifact: it makes the low-resource lecture
+    segmentation problem measurable under a shared, reproducible protocol.
     (Chapter~\ref{chap:methodology}, Section~\ref{sec:dataset}.)
 
-  \item \textbf{Boundary-selection analysis}: Cross-model conservative
-    selection, method-portfolio analysis, and selector experiments that expose
-    candidate selection as the main bottleneck. The contribution is the
-    low-resource diagnosis and controlled comparison, not a claim that
-    ensemble voting or meta-selection are new ideas in isolation.
-    (Chapter~\ref{chap:methodology}, Sections~\ref{sec:fusion}--\ref{sec:boundary}.)
+  \item \textbf{Candidate-selection bottleneck finding}: Oracle analysis
+    demonstrates that near-perfect boundaries exist in the candidate pool
+    at 96.8\% recall, placing the dominant source of error in selection and
+    ranking rather than detection. This result relocates the research problem
+    and is the central empirical contribution of the thesis.
+    (Chapter~\ref{chap:results}, Sections~\ref{sec:ablations}--\ref{sec:discussion}.)
 
-  \item \textbf{Hierarchical Segmenter (N3)}: A segmenter that produces
-    valid nested chapter and subtopic boundaries by construction, enforcing
-    $\mathcal{B}_{\text{chapter}} \subseteq \mathcal{B}_{\text{subtopic}}$
-    without joint optimisation.
-    (Chapter~\ref{chap:methodology}, Section~\ref{sec:hierarchy}.)
+  \item \textbf{Granularity-mismatch diagnosis}: A systematic ablation
+    establishes that prosody, discourse markers, BERTopic, and perplexity
+    signals fail under creator-chapter evaluation because they detect
+    discourse-level transitions at a finer scale than editorial chapter
+    decisions. CLIP succeeds for the complementary reason. This diagnosis
+    is the most transferable finding and directly informs future multimodal
+    system design.
+    (Chapter~\ref{chap:results}, Section~\ref{sec:ablations}.)
 
-  \item \textbf{Local LLM diagnostics and titling (N4)}: A post-processing
-    module that uses an on-device Llama-3.1-8B for boundary-refinement probes
-    and concise segment-title generation. The LLM component is evaluated as a
-    diagnostic/refinement feature rather than claimed as the main source of the
-    final segmentation gain.
-    (Chapter~\ref{chap:methodology}, Section~\ref{sec:refine}.)
+  \item \textbf{Hierarchical annotation protocol}: A two-level annotation
+    workflow with workflow-consistency estimates
+    ($\kappa_{\text{chapter}}=0.5351$, $\kappa_{\text{subtopic}}=0.4257$)
+    and reproducible tooling. The value is the protocol and the documented
+    procedure; the nesting enforcement itself is a straightforward
+    implementation constraint.
+    (Chapter~\ref{chap:methodology}, Sections~\ref{sec:dataset}--\ref{sec:hierarchy}.)
 
-  \item \textbf{Comprehensive evaluation}: A comparison of classical, neural,
-    cross-model, multimodal, selector, and oracle variants across multiple
-    metrics with bootstrap confidence intervals and paired statistical testing,
-    plus a qualitative error analysis and external low-resource positioning.
-    (Chapter~\ref{chap:results}.)
-
-  \item \textbf{Reproducibility package}: The repository contains runnable
-    preprocessing, evaluation, statistics, and table-generation scripts for the
-    reported experiments.
-    (Chapter~\ref{chap:methodology} and Appendix~\ref{app:dataset}.)
+  \item \textbf{Reproducibility package}: A complete open pipeline covering
+    Whisper transcription, spaCy sentence splitting, BGE/E5 embedding,
+    multimodal feature extraction (CLIP, PaddleOCR, TransNetV2), seven
+    baseline segmenters and four integrated pipeline components,
+    $P_k$/WD evaluation with bootstrap statistics, and table-generation
+    scripts for all reported results.
+    (Chapter~\ref{chap:methodology}; Appendix~\ref{app:dataset}.)
 \end{enumerate}
+
+The four integrated pipeline components --- a two-stage candidate predictor,
+entropy-weighted modality fusion, a hierarchical nesting enforcer, and a
+local-LLM titling module --- contribute primarily by enabling the diagnostic
+analysis rather than through algorithmic novelty. Entropy-weighted fusion
+is the most distinctive of the four, having not, to our knowledge, been
+applied previously to lecture segmentation modality weighting; the other
+three are engineering adaptations of standard techniques.
+
+This work rests on assumptions that are plausible but not independently
+verified: that creator chapters approximate viewer-useful navigation structure;
+that Whisper large-v3 transcription quality is adequate for the domains covered;
+that BGE/E5 embeddings capture topically relevant semantic distinctions; that
+$P_k$/WD correlate with navigation usefulness; and that 30 videos is sufficient
+to surface failure modes that are plausibly representative of the low-resource
+lecture setting more broadly. These are discussed explicitly in
+Sections~\ref{sec:youtube_validity} and~\ref{sec:threats_validity}.
 
 \section{Thesis structure}
 \label{sec:structure}
 
-\Cref{chap:literature} reviews prior work on text-only, multimodal, and
-hierarchical segmentation.
-\Cref{chap:methodology} describes the \lecseg{} pipeline, its novel modules,
-and the \dataset{} corpus.
-\Cref{chap:results} reports quantitative results, ablations, statistical tests,
-and qualitative error analysis.
-\Cref{chap:conclusion} summarises findings and \cref{chap:future} sketches
-directions for future research.
+Chapter~\ref{chap:literature} reviews prior segmentation work and develops
+the conceptual framework used throughout the thesis, including the distinction
+between discourse, semantic, and editorial notions of a topic boundary.
+Chapter~\ref{chap:methodology} describes the \dataset{} corpus, the annotation
+procedure, and the full pipeline.
+Chapter~\ref{chap:results} presents quantitative results, ablations, the
+oracle-gap analysis, and a formal error taxonomy.
+Chapter~\ref{chap:conclusion} draws the main conclusions and
+Chapter~\ref{chap:future} identifies concrete next steps.

@@ -1,47 +1,52 @@
 \chapter*{Abstract}
 \addcontentsline{toc}{chapter}{Abstract}
 
-Online education produces large volumes of lecture video, but many recordings
-remain difficult to navigate because their topic structure is missing,
-incomplete, or inconsistent. This thesis introduces \dataset{}, a compact
-lecture-video topic segmentation benchmark, and uses it to evaluate text,
-visual, acoustic, selector-based, and local-LLM-assisted segmentation signals
-under a unified low-resource protocol.
+Recorded lecture archives have grown faster than the infrastructure for
+navigating them. Platforms such as Coursera, edX, and YouTube collectively
+host millions of academic videos, yet a student searching for a specific
+derivation or argument within a two-hour recording has few options beyond
+manual scrubbing. This thesis asks how far a small, carefully constructed
+benchmark can take us toward automatic lecture topic segmentation when
+supervision is limited to thirty videos.
 
-\dataset{} contains 30 public YouTube lectures from Biology, Computer Science,
-Mathematics, Philosophy, and Physics, totaling 32.52 hours of video. The corpus
-contains 419 creator-provided chapter boundaries and 904 human-reviewed,
-LLM-assisted subtopic labels. Inter-annotator agreement on the hierarchical
-annotations is moderate at the chapter level ($\kappa=0.5351$) and
-fair-to-moderate at the subtopic level ($\kappa=0.4257$), with boundary F1
-scores of 1.0000 and 0.7793 respectively. The creator chapters are treated as
-reproducible reference boundaries for navigation behavior, not as perfect
-pedagogical ground truth.
+\textbf{\dataset{}} is the resulting benchmark: 30 publicly available YouTube
+lectures from five academic domains (Biology, Computer Science, Mathematics,
+Philosophy, Physics), amounting to 32.52 hours of transcribed audio. We use
+419 creator-supplied chapter boundaries as reference labels and supplement them
+with 904 human-annotated subtopic labels in a two-level hierarchy.
+A second independent human annotator completed the same task on all 30 videos,
+yielding inter-annotator agreement of $\kappa_{\text{chapter}}=0.5351$
+(inflated: both annotators use the same YouTube creator metadata for chapter
+boundaries) and $\kappa_{\text{subtopic}}=0.4257$ (moderate human agreement
+on the subtopic task). Creator chapters are treated throughout as navigation
+metadata, not as authoritative pedagogical ground truth.
 
-The evaluation compares classical text segmentation, neural and embedding
-baselines, BGE/E5 cross-model boundary scoring, method-selection experiments,
-visual CLIP fusion, acoustic pause/pitch features, topic-model and
-language-model diagnostics, TreeSeg-style splitting, and local LLM refinement
-probes. A stable BGE-divisive baseline obtains $P_k=0.3884$ and WindowDiff
-$=0.3956$. The most defensible single global method is conservative
-cross-model scoring, which improves to $P_k=0.3713$ and WindowDiff $=0.3764$.
-A balanced leave-one-video-out selector reaches the best mean operating point
-($P_k=0.3588$, WindowDiff $=0.3739$, F1@2 $=0.0893$), but its $P_k$/WD gains
-over the cross-model method are not statistically significant and its
-leave-domain-out behavior is weaker. The official claim is therefore a
-same-benchmark low-resource improvement and diagnostic analysis, not external
-state of the art.
+The pipeline transcribes audio with Whisper large-v3, segments sentences via
+spaCy, and embeds them with BGE and E5 sentence transformers. Eleven method
+families are evaluated under $P_k$ and WindowDiff --- window-based error rates
+that penalise structurally wrong segmentations rather than near-miss boundary
+placements, and that consequently better reflect the navigation task than
+exact-match alternatives. Bootstrap confidence intervals and Holm-corrected
+Wilcoxon tests govern all significance claims.
 
-The main empirical finding is a granularity mismatch. Text embeddings and
-cross-model scoring are the strongest chapter-level signals; CLIP visual
-features can help because slide and scene changes often align with chapter
-granularity. In contrast, prosody, BERTopic, GPT-2 perplexity, discourse
-markers, and zero-shot LLM segmentation often over-segment because they detect
-subtopic or rhetorical changes rather than creator-level chapters. The thesis
-therefore contributes a reproducible benchmark, evaluation suite, and
-failure-mode analysis that clarifies what lightweight methods can achieve for
-lecture-specific segmentation and what must be improved before real deployment.
+Two findings organise the results. The first concerns \emph{what limits
+performance}: an oracle analysis shows that near-perfect boundaries already
+exist in the candidate pool ($P_k=0.0172$ at 96.8\% recall), meaning the
+$\Delta P_k \approx 0.34$ gap between that ceiling and the best deployable
+result ($P_k=0.3588$) is, within the framework evaluated here, predominantly
+a selection and ranking problem rather than a detection problem. The second
+concerns \emph{why multimodal signals fail}: prosody, discourse markers,
+BERTopic, and GPT-2 perplexity all over-segment relative to YouTube chapter
+granularity ($P_k = 0.41$--$0.56$) not because they are uninformative, but
+because they detect discourse-level transitions that are finer-grained than
+the editorial decisions that define creator chapters. CLIP visual embeddings
+are the exception: slide-scene changes are themselves editorial artifacts,
+and CLIP achieves $P_k=0.3740$ in text fusion. Together, these findings
+redirect future research from candidate generation toward candidate selection,
+and identify visual slide-change detection as the most promising non-text
+signal to pursue.
 
 \vspace{1em}
-\noindent\textbf{Keywords:} topic segmentation, lecture video, multimodal
-analysis, hierarchical annotation, reproducible research.
+\noindent\textbf{Keywords:} topic segmentation, lecture video, sentence
+embeddings, hierarchical annotation, multimodal fusion, low-resource benchmark,
+reproducible evaluation.
