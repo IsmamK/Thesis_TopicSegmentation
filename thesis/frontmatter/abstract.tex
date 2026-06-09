@@ -1,49 +1,50 @@
 \section*{Abstract}
 
-Recorded lecture archives have grown faster than the infrastructure for
-navigating them. Platforms such as Coursera, edX, and YouTube collectively
-host millions of academic videos, yet a student searching for a specific
-derivation or argument within a two-hour recording has few options beyond
-manual scrubbing. This thesis asks how far a small, carefully constructed
-benchmark can take us toward automatic lecture topic segmentation when
-supervision is limited to thirty videos.
+Lecture recordings pile up faster than anyone builds tools to navigate them.
+Coursera, edX, and YouTube together host millions of academic videos, but a
+student hunting for a specific derivation or proof inside a two-hour recording
+usually has no option except manual scrubbing. This thesis asks a deliberately
+modest question: how far can a small, carefully built benchmark carry us toward
+automatic lecture topic segmentation when we have only thirty annotated videos
+to work with?
 
-\textbf{\dataset{}} is the resulting benchmark: 30 publicly available YouTube
-lectures from five academic domains (Biology, Computer Science, Mathematics,
-Philosophy, Physics), amounting to 32.52 hours of transcribed audio. We use
-419 creator-supplied chapter boundaries as reference labels and supplement them
-with 904 human-annotated subtopic labels in a two-level hierarchy.
-A second independent human annotator completed the same task on all 30 videos,
-yielding inter-annotator agreement of $\kappa_{\text{chapter}}=0.5351$
-(inflated: both annotators use the same YouTube creator metadata for chapter
-boundaries) and $\kappa_{\text{subtopic}}=0.4257$ (moderate human agreement
-on the subtopic task). Creator chapters are treated throughout as navigation
-metadata, not as authoritative pedagogical ground truth.
+\textbf{\dataset{}} is what came out of that question: 30 publicly available
+YouTube lectures from five academic domains (Biology, Computer Science,
+Mathematics, Philosophy, Physics), adding up to 32.52 hours of transcribed
+audio. We took 419 creator-supplied chapter boundaries as reference labels and
+then added 904 human-annotated subtopic labels arranged in a two-level
+hierarchy. A second annotator independently worked through all 30 videos,
+giving us inter-annotator agreement of $\kappa_{\text{chapter}}=0.5351$
+(inflated, since both annotators are reading the same YouTube creator metadata)
+and $\kappa_{\text{subtopic}}=0.4257$, which is moderate agreement on a
+genuinely subjective task. Throughout the thesis we treat creator chapters as
+navigation metadata rather than as authoritative pedagogical ground truth,
+which is an important distinction.
 
-The pipeline transcribes audio with Whisper large-v3, segments sentences via
-spaCy, and embeds them with BGE and E5 sentence transformers. Eleven method
-families are evaluated under $P_k$ and WindowDiff, which are window-based error
-rates that penalise structurally wrong segmentations rather than near-miss
-boundary placements, and consequently better reflect the navigation task than
-exact-match alternatives. Bootstrap confidence intervals and Holm-corrected
-Wilcoxon tests govern all significance claims.
+The pipeline runs Whisper large-v3 for transcription, spaCy for sentence
+segmentation, and BGE or E5 sentence transformers for embedding. We evaluated
+eleven method families under $P_k$ and WindowDiff. These are window-based error
+rates that tolerate approximate boundary placement rather than demanding exact
+sentence matches --- a deliberate choice, since a student navigating a lecture
+does not need millisecond precision. Bootstrap confidence intervals and
+Holm-corrected Wilcoxon tests back every significance claim.
 
-Two findings organise the results. The first concerns \emph{what limits
-performance}: an oracle analysis shows that near-perfect boundaries already
-exist in the candidate pool ($P_k=0.0172$ at 96.8\% recall), meaning the
-$\Delta P_k \approx 0.34$ gap between that ceiling and the best deployable
-result ($P_k=0.3588$) is, within the framework evaluated here, predominantly
-a selection and ranking problem rather than a detection problem. The second
-concerns \emph{why multimodal signals fail}: prosody, discourse markers,
+Two things stood out in the results. The first is about \emph{what actually
+limits performance}: an oracle experiment showed that near-perfect boundaries
+are already sitting in the candidate pool at 96.8\% recall
+($P_k=0.0172$). That means the $\Delta P_k \approx 0.34$ gap to the best
+deployable system ($P_k=0.3588$) is, within the framework we evaluated, mainly
+a selection and ranking problem, not a detection problem. The second finding is
+about \emph{why multimodal signals keep failing}: prosody, discourse markers,
 BERTopic, and GPT-2 perplexity all over-segment relative to YouTube chapter
-granularity ($P_k = 0.41$--$0.56$) not because they are uninformative, but
-because they detect discourse-level transitions that are finer-grained than
-the editorial decisions that define creator chapters. CLIP visual embeddings
-are the exception: slide-scene changes are themselves editorial artifacts,
-and CLIP achieves $P_k=0.3740$ in text fusion. Together, these findings
-redirect future research from candidate generation toward candidate selection,
-and identify visual slide-change detection as the most promising non-text
-signal to pursue.
+granularity ($P_k = 0.41$--$0.56$). Not because those signals are
+uninformative, but because they pick up discourse-level transitions that are
+finer-grained than the editorial decisions creators make when writing chapter
+titles. CLIP is the exception: slide-scene changes are themselves editorial
+artifacts, and CLIP hits $P_k=0.3740$ in text fusion. These two findings pull
+future work away from candidate generation and toward candidate selection, and
+flag visual slide-change detection as the most promising non-text signal to
+pursue next.
 
 \vspace{1em}
 \noindent\textbf{Keywords:} topic segmentation, lecture video, sentence

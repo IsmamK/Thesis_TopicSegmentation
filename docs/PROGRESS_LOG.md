@@ -2829,3 +2829,34 @@ Changes from v3 (22 slides):
 
 **Git:** Committed and pushed (c96603e, d7b1a65) to GitHub
 `n## [2026-06-10] -- Thesis humanizing + BRACU CSE400 template format fixes`n`nReformatted titlepage/declaration to match template exactly, merged Future Work as final section of Conclusion, removed all prose em dashes (replaced with commas/colons/parens), added Background and Scope sections to Ch1, renamed sections to match template headings, fixed UTF-8 encoding in ch3, added nomencl and pagestyle to main.tex.`n`nNOTE: Student IDs are still placeholders in titlepage.tex and declaration.tex - fill in before submission.`n
+
+## [2026-06-10 20:00] — Full thesis humanization + screenshots + Overleaf zip
+
+### What was done
+
+1. **Humanized all remaining chapters** (Ch3–Ch7):
+   - Ch3 Requirements: broke formal list language, added "roughly", "fairly direct", hedged cost estimates
+   - Ch4 Methodology: broke "The pipeline transforms…", added annotation tool figures with captions, varied sentence openings throughout
+   - Ch5 Results: replaced "Taken together, the numbers tell a consistent story" with "Looking across all the numbers"; replaced "The most actionable result" with "The most practically useful result"; broke parallel structures throughout
+   - Ch6 Conclusion: replaced blockquotes with prose framing, varied paragraph lengths, humanized lessons section
+   - Ch7 Future Work: softened formal imperatives to natural prose
+
+2. **Fixed template placeholders in approval.tex**:
+   - "Name of Thesis Coordinator" → Dr. Md. Golam Moazzam
+   - "Name of Head of Department" → Dr. Mahbubul Alam Majumdar
+
+3. **Fixed pagination/TOC in main.tex**:
+   - Added `\phantomsection + \addcontentsline` for List of Figures and List of Tables
+   - Moved nomenclature `\addcontentsline` to before `\printnomenclature`
+
+4. **Wired in all screenshots**:
+   - Annotation tool: `annotation_tool_main.png`, `annotation_tool_subtopics.png` in Ch4 annotation protocol section
+   - Webapp: `webapp_landing.png`, `webapp_selector_pipeline.png`, `webapp_results.png`, `webapp_chapters.png` in new Ch5 §"Demonstration system" section
+
+5. **Created Overleaf zip**: `lecseg_overleaf.zip` (2.3 MB), all .tex + .bib + figures, no compiled artifacts
+
+### Results
+- All 7 chapters humanized (Ch1-Ch2 done previous session, Ch3-Ch7 done this session)
+- Template placeholder text removed from approval page
+- 8 screenshots integrated into thesis
+- Overleaf zip ready at project root

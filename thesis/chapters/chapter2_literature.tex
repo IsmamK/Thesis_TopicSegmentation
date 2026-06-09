@@ -1,72 +1,72 @@
-﻿\section{Three phases of segmentation research}
+\section{Three phases of segmentation research}
 
-Topic segmentation research has passed through three recognisable phases,
-though the boundaries between them are blurry and methods from earlier phases
-remain competitive in the right conditions.
+Segmentation research has gone through roughly three phases, though the
+boundaries are blurry and earlier methods occasionally outperform newer ones
+in the right conditions.
 
-The \emph{classical} phase of the 1990s and 2000s built on the intuition that
-topic shifts produce lexical discontinuities: if the words used in one passage
-differ markedly from those used in the next, a boundary lies
-between them~\cite{hearst1994multi,choi2000latent}. This works reasonably well
-for encyclopaedic text but degrades on academic lectures, where domain
-vocabulary (``gradient'', ``eigenvalue'', ``cell membrane'') persists across
-topic boundaries regardless of the underlying argument structure.
+The \emph{classical} phase of the 1990s and 2000s was built around a fairly
+intuitive idea: topic shifts cause lexical discontinuities, so if the words
+used in one passage differ markedly from those in the next, a boundary
+is probably sitting between
+them~\cite{hearst1994multi,choi2000latent}. That works well enough on
+encyclopaedic text but falls apart on academic lectures, where domain
+vocabulary (``gradient'', ``eigenvalue'', ``cell membrane'') stays constant
+across topic boundaries regardless of what the argument is actually doing.
 
-\emph{Neural} methods, arriving from around 2018, replaced bag-of-words
-representations with dense contextual embeddings~\cite{koshorek2018text,reimers2019sbert}.
-Operating in embedding space rather than token space, these methods are
-substantially more robust to vocabulary reuse. Their practical limitation,
-the need for large pretrained language models, diminished quickly as
-open-weight sentence-transformer checkpoints became available, and they now
-represent the clear baseline approach for any zero-shot segmentation task.
+\emph{Neural} methods, arriving from around 2018, swapped bag-of-words
+representations for dense contextual
+embeddings~\cite{koshorek2018text,reimers2019sbert}. Working in embedding space
+rather than token space makes these methods much more robust to vocabulary
+reuse. The practical barrier, needing large pretrained language models, dropped
+quickly once open-weight sentence-transformer checkpoints became widely
+available, and these methods now set the baseline for any zero-shot
+segmentation task.
 
-\emph{Multimodal} extensions incorporated visual, audio, and structural
-signals from video recordings~\cite{yu2024_multimodal,cao2022_chaptergen,yang2023_vidchapters}.
-These methods can achieve strong results when labelled training data are
-available, but they have generally been developed on different benchmarks and
-evaluated under different metrics, making direct comparison difficult.
-More critically for this thesis, the multimodal literature rarely discusses
-whether a given signal operates at the same discourse granularity as the
-annotation it is being evaluated against, a gap that turns out to explain
-most of the multimodal failures reported in Chapter~\ref{chap:results}.
+\emph{Multimodal} extensions pulled in visual, audio, and structural signals
+from video~\cite{yu2024_multimodal,cao2022_chaptergen,yang2023_vidchapters}.
+Strong results are possible when labelled training data are available. But
+these systems have typically been developed on different benchmarks under
+different metrics, which makes comparing them difficult. More importantly for
+this thesis, the multimodal literature rarely asks whether a given signal
+operates at the same discourse granularity as the annotation it is being
+evaluated against. That gap, it turns out, explains most of the multimodal
+failures in Chapter~\ref{chap:results}.
 
 \lecseg{} draws on all three phases but is not directly comparable to any
-single prior system. It occupies a specific niche (small-scale,
-lecture-specific, reproducible, with $P_k$/WindowDiff evaluation and explicit
-negative-result reporting) that no existing system fills.
+single prior system. It occupies a specific niche: small-scale, lecture-specific,
+reproducible, evaluated under $P_k$/WindowDiff, and honest about what
+did not work.
 
 \subsection{Three competing boundary constructs}
 \label{sec:topic_def}
 
-Segmentation research often treats ``topic'' as self-evident, but three
-distinct constructs appear in the literature, and conflating them causes
-genuine methodological problems.
+Segmentation research often treats ``topic'' as self-evident. It is not.
+Three distinct constructs show up in the literature, and conflating them
+causes real methodological problems.
 
 \emph{Discourse transitions} are changes in rhetorical or argumentative
-function: a shift from definition to example, from claim to evidence, or from
-theorem to proof. These are real and detectable (pause duration, pitch
-contour, and discourse markers reliably locate them), but they occur
-frequently within a single chapter. A 20-minute lecture section on differential
-equations may contain dozens of such transitions while remaining, at the
-editorial level, a single chapter.
+function: definition to example, claim to evidence, theorem to proof. They
+are real and detectable (pause duration, pitch contour, and discourse markers
+all point to them), but they happen frequently within a single chapter. A
+20-minute section on differential equations may contain dozens of such
+transitions while remaining, at the editorial level, one chapter.
 
-\emph{Semantic shifts} are points at which the distributional similarity
-between adjacent sentence windows drops sharply in embedding space. Dense
-sentence embeddings capture these well. They correspond roughly to the
-paragraph-to-paragraph structure of the lecture, sitting between individual
-discourse transitions and full chapter changes in granularity.
+\emph{Semantic shifts} are points where the distributional similarity between
+adjacent sentence windows drops sharply in embedding space. Dense sentence
+embeddings capture these well. They correspond roughly to paragraph-to-paragraph
+structure, sitting granularity-wise between individual discourse transitions
+and full editorial chapter changes.
 
-\emph{Editorial chapter boundaries} are timestamps placed by a creator to
-divide the recording into labelled, audience-facing navigational units.
-These reflect deliberate decisions that may or may not coincide with semantic
-or discourse shifts; a creator may place a chapter break early for visual
-tidiness, or place it late because the thematic shift only becomes apparent
-retrospectively.
+\emph{Editorial chapter boundaries} are timestamps a creator places to divide
+a recording into labelled, audience-facing navigational units. These reflect
+deliberate decisions that may or may not coincide with semantic or discourse
+shifts. A creator can break early for visual tidiness or late because the
+thematic shift only becomes apparent in retrospect.
 
-The distinction is not merely theoretical. It predicts directly which signals
-will fail on a benchmark calibrated to editorial chapters, and it explains
-why most multimodal signals hurt $P_k$/WD in this thesis: they are accurate
-detectors of discourse transitions, not of editorial decisions.
+The distinction matters practically. It predicts which signals will fail on
+a benchmark calibrated to editorial chapters, and it explains why most
+multimodal signals hurt $P_k$/WD in this thesis. They are accurate detectors
+of discourse transitions, not of editorial decisions.
 \lecseg{} is calibrated to the third notion.
 
 \section{Classical text-based segmentation}
@@ -74,167 +74,160 @@ detectors of discourse transitions, not of editorial decisions.
 
 \subsection{TextTiling}
 
-TextTiling~\cite{hearst1994multi} detects boundaries at local minima of a
+TextTiling~\cite{hearst1994multi} finds boundaries at local minima of a
 lexical similarity profile computed over sliding windows of $k$ sentences.
-The method's underlying assumption, that topic shifts manifest as drops in
-shared vocabulary frequency, holds for encyclopaedic text with relatively
-little term reuse. It breaks down on technical lectures, where the same domain
-vocabulary appears persistently throughout. An instructor teaching Fourier
-analysis will use ``frequency'', ``signal'', and ``transform'' in every section;
-the similarity profile flattens and valleys become unreliable.
+The underlying assumption, that topic shifts show up as drops in shared
+vocabulary frequency, holds for encyclopaedic text with limited term reuse.
+It breaks down on technical lectures. An instructor teaching Fourier analysis
+will say ``frequency'', ``signal'', and ``transform'' in every section; the
+similarity profile flattens, and the valleys become unreliable guides to
+actual topic shifts.
 
-The method is also sensitive to the window size $w$ and block size $k$. Our
+The method is also sensitive to window size $w$ and block size $k$. Our
 implementation uses adaptive defaults ($w = \min(w, \max(3, N/10))$,
-$k = \min(k, \max(2, n_{\text{blocks}}/3))$) that improve performance on
-short lecture segments but cannot address the vocabulary-reuse problem.
+$k = \min(k, \max(2, n_{\text{blocks}}/3))$) that help on short lecture
+segments, but cannot fix the vocabulary-reuse problem.
 
 \subsection{C99}
 
 C99~\cite{choi2000latent} applies a rank transformation to the full
-cosine-similarity matrix before using a diagonal-dominance criterion to locate
-boundaries. By operating on ranked rather than raw similarity values, it is
-less distorted by term-frequency outliers than TextTiling, an advantage on
-lecture transcripts where a small number of high-frequency technical terms
-would otherwise dominate the similarity scores. Like TextTiling, however, it
-remains a surface-vocabulary method and does not capture the semantic
-distinctions that neural embeddings exploit. We use it as classical baseline B2.
+cosine-similarity matrix before using diagonal dominance to locate
+boundaries. Ranking rather than using raw similarity values reduces the
+distortion from term-frequency outliers, an advantage on lecture transcripts
+where a handful of high-frequency technical terms would otherwise dominate
+the scores. Like TextTiling it remains a surface-vocabulary method and misses
+the semantic distinctions that neural embeddings exploit. We use it as
+classical baseline B2.
 
 \subsection{Bayesian topic models}
 
 Eisenstein and Barzilay~\cite{eisenstein2008bayesian} modelled segmentation as
-inference in a hierarchical Bayesian topic model, offering principled uncertainty
-estimates over boundaries. The approach is theoretically attractive but
-computationally expensive and requires careful hyperparameter tuning; it is
-omitted from the main comparison but included for completeness in related work.
+inference in a hierarchical Bayesian topic model, which gives principled
+uncertainty estimates over boundaries. The approach is theoretically attractive
+but computationally expensive and requires careful tuning; we omit it from
+the main comparison but include it in this review for completeness.
 
 \section{Neural sentence-embedding methods}
 \label{sec:neural}
 
 \subsection{Cosine-drop segmentation}
 
-Sentence transformers~\cite{reimers2019sbert} opened a practical path beyond
-lexical methods. The simplest approach (computing cosine similarity between adjacent sentence
-embeddings and placing boundaries at depth-score valleys) is surprisingly
-effective. Its strength is operating in semantic rather than
-lexical space, so vocabulary reuse that defeats TextTiling and C99 causes no
-difficulty. The method requires no labelled training data and transfers
-immediately to new domains, which makes it the natural baseline for any
-low-resource segmentation task.
+Sentence transformers~\cite{reimers2019sbert} opened a practical path past
+lexical methods. The simplest approach, computing cosine similarity between
+adjacent sentence embeddings and placing boundaries at depth-score valleys, is
+surprisingly effective. It operates in semantic rather than lexical space, so
+vocabulary reuse that defeats TextTiling and C99 is no longer a problem. And
+it needs no labelled training data, which makes it the natural baseline for
+any low-resource task.
 
 Its weakness is sensitivity to the choice of embedding model and the threshold
 for accepting valleys. Different pretrained checkpoints produce meaningfully
-different boundary profiles, and a threshold tuned on one corpus may be poorly
-calibrated for another. In practice this means the method works well across
-many genres but is not parameter-free: some per-corpus calibration is needed.
+different boundary profiles, and a threshold tuned on one corpus may not
+transfer well. In practice this means some per-corpus calibration is needed.
 Applied to SBERT and MPNet embeddings, it substantially outperforms the
-classical baselines and motivates its use as baseline B3.
+classical baselines, which is why we use it as baseline B3.
 
 \subsection{Supervised neural segmentation}
 
 Koshorek et al.~\cite{koshorek2018text} trained the first supervised neural
 segmenter (TextSeg) using BERT embeddings with a classification head.
 Li et al.~\cite{li2018segbot} proposed SegBot with a biLSTM scorer.
-Both achieve strong results on their training distribution, but the distribution
+Both work well within their training distribution, but that distribution
 matters: a model trained on Wikipedia-style text learns the structure of
-encyclopaedic writing, not the pedagogical argument structure of spoken
-lectures. When applied out-of-domain, zero-shot cosine baselines frequently
-match or exceed them, a negative result that motivates the unsupervised
-approach in \lecseg{}. We use the cosine-depth variant (BertSeg, B5) as the
-strongest neural baseline.
+encyclopaedic writing, not of spoken pedagogical argument. Out of domain,
+zero-shot cosine baselines frequently match or beat them. That negative result
+motivates the unsupervised approach in \lecseg{}. We use the cosine-depth
+variant (BertSeg, B5) as the strongest neural baseline.
 
 \section{Multimodal lecture and meeting segmentation}
 \label{sec:multimodal_lit}
 
 \subsection{Meeting segmentation}
 
-Meeting segmentation methods typically combine lexical features, speaker-turn
-evidence, and discourse markers. They are valuable reference points for
+Meeting-segmentation methods typically combine lexical features, speaker-turn
+evidence, and discourse markers. They are useful reference points for
 audio-signal processing, but they target short-form conversational recordings
-and have not been designed for the structural challenges of
-uninterrupted academic monologues lasting an hour or more.
+and were not designed for the structural challenges of uninterrupted academic
+monologues lasting an hour or more.
 
 \subsection{Lecture video segmentation}
 
-Supervised multimodal lecture-segmentation systems can achieve strong
-$P_k$/WD results when labelled lecture data are available~\cite{yu2024_multimodal},
-which establishes an existence proof that fusion of visual and textual signals
-can help. The limitation for this thesis is that such systems require domain-
-matched labelled data that \lecseg{} does not have, and they rarely discuss
-whether their auxiliary signals operate at the same discourse granularity as
-their evaluation target.
+Supervised multimodal lecture-segmentation systems can achieve competitive
+$P_k$/WD results when domain-matched labelled data are
+available~\cite{yu2024_multimodal}, which shows that text and visual signal
+fusion is worth pursuing. The limitation for this thesis is that such systems
+require training data that \lecseg{} simply does not have, and they rarely
+discuss whether their auxiliary signals operate at the same discourse
+granularity as their evaluation target.
 
-Visual slide-change methods are a special case worth distinguishing: when a
-lecture uses slides, scene changes are themselves editorial decisions comparable
-in granularity to chapter boundaries, which is why CLIP embeddings succeed
-where acoustic signals fail (see Section~\ref{sec:ablations}). Pure
-slide-change detectors fail for whiteboard lectures with no transitions at all,
-but within the slide-based subset of \dataset{} they provide useful evidence.
+Visual slide-change methods deserve special attention. When a lecture uses
+slides, scene changes are themselves editorial decisions at roughly the same
+granularity as chapter boundaries. That explains why CLIP embeddings succeed
+where acoustic signals fail (Section~\ref{sec:ablations}). For whiteboard
+lectures with no visual transitions, purely visual methods collapse, but
+within the slide-based subset of \dataset{} they are genuinely useful.
 
-\lecseg{} differs from prior multimodal systems primarily in its insistence on
+\lecseg{} differs from prior multimodal systems mainly in insisting on
 reporting negative results under a shared $P_k$/WD protocol. Most published
-systems present only their best configuration; the diagnostic value of
-recording what fails is lost.
+systems show only their best configuration; documenting what fails is just as
+important and far less common.
 
 \subsection{Low-resource and unsupervised approaches}
 \label{sec:low_resource_lit}
 
 Several prior systems target settings closer to \lecseg{}.
 
-Tuna et al.~(2015) segment classroom videos using visual, audio, and slide
-cues without requiring transcribed text. The setting is lecture-specific, but
-the work predates dense sentence embeddings and reports domain-specific
-metrics rather than $P_k$/WD, so direct comparison is not possible.
+Tuna et al.\ (2015) segment classroom videos using visual, audio, and slide
+cues without transcribed text. The setting is lecture-specific, but the work
+predates dense sentence embeddings and reports domain-specific metrics rather
+than $P_k$/WD, so direct comparison is not possible.
 
-Freisinger et al.~(2023) present multilingual segmentation with unsupervised
+Freisinger et al.\ (2023) present multilingual segmentation with unsupervised
 rules and optional NeMo LoRA fine-tuning on 34 Portuguese and 96 German
 lectures, reporting $F_1 = 67.3$ and $F_1 = 58.9$ respectively. Pause
-features help in their setting, but no $P_k$/WD figures are given.
-This is consistent with the granularity-mismatch hypothesis: pause features
-may align with discourse-level transitions that match the finer annotations
-used in those corpora, while misaligning with the coarser creator chapters
-in \dataset{}.
+features help in their setting, but they give no $P_k$/WD figures. That is
+consistent with the granularity-mismatch picture: pause features may align
+with discourse-level transitions that match their finer annotations, while
+misaligning with the coarser creator chapters in \dataset{}.
 
 The AVLectures dataset~\cite{yang2023_vidchapters} covers 2,350+ lectures
 across 86 STEM courses and uses a self-supervised alignment method without
-chapter labels. It demonstrates that unsupervised audio-visual alignment is
-tractable at scale, but it does not report $P_k$/WD and is not directly
-comparable.
+chapter labels. It shows that unsupervised audio-visual alignment is tractable
+at scale, but it does not report $P_k$/WD and is not directly comparable.
 
 TreeSeg~\cite{gklezakos2024_treeseg} is the closest directly comparable
 system. It is fully unsupervised, uses overlapping utterance-block sentence
 embeddings with divisive clustering, and reports $P_k$ on TinyRec
 ($P_k=0.367$, 21 self-recorded lectures), ICSI meetings ($P_k=0.310$),
-and AMI meetings ($P_k=0.355$). Its overlapping-block embedding strategy
-provides richer contextual evidence per position than single-sentence windows,
-which likely contributes to its TinyRec performance. The important caveat for
-any comparison is that TinyRec uses manually verified annotations rather than
-creator chapter metadata; whether the two annotation standards produce
-comparable $P_k$ values is unknown. \lecseg{} achieves $P_k=0.3588$ with its
-best selector on a different dataset, so the numbers are indicative but not
-directly comparable. Running both systems on a shared benchmark is listed as
+and AMI meetings ($P_k=0.355$). Its overlapping-block strategy gives richer
+contextual evidence per position than single-sentence windows, which likely
+helps on TinyRec. The caveat is that TinyRec uses manually verified
+annotations rather than creator chapter metadata; whether those two standards
+produce comparable $P_k$ values is unknown. \lecseg{} achieves $P_k=0.3588$
+with its best selector on a different dataset, so the comparison is indicative
+but not head-to-head. Running both systems on a shared benchmark is listed as
 future work.
 
 \dataset{} is the only existing resource that simultaneously provides
-$P_k$/WD evaluation, a two-level annotation hierarchy with quantified
-consistency, bootstrap confidence intervals, paired significance tests,
-and a full oracle-gap analysis. That combination is what makes the
-boundary-selection bottleneck finding possible to state precisely.
+$P_k$/WD evaluation, a two-level hierarchy with quantified agreement,
+bootstrap confidence intervals, paired significance tests, and a full
+oracle-gap analysis. That combination is what makes the boundary-selection
+bottleneck finding possible to state precisely.
 
 \subsection{Large-scale video chaptering}
 
-Recent chaptering work has moved toward industrial scale. Chapter-Gen
-localises and titles chapters in thousands of
+Recent chaptering work has moved to industrial scale. Chapter-Gen localises
+and titles chapters in thousands of
 videos~\cite{cao2022_chaptergen}. VidChapters-7M extends to hundreds of
-thousands of videos and evaluates under generation and
-temporal-localisation metrics~\cite{yang2023_vidchapters}.
-MiniSeg/YTSEG reports strong supervised results on 19,299
-videos~\cite{retkowski2024_miniseg}. Chapter-Llama demonstrates that
-long-context LLM chaptering is competitive at
-VidChapters scale~\cite{ventura2025_chapterllama}. These systems are
-stronger than \lecseg{} in raw performance and are not the comparison target.
-Their metrics and training assumptions are incompatible with the \lecseg{}
-framework. Tables~\ref{tab:external_scale}--\ref{tab:low_resource_positioning}
-record the scale differences and make the claim boundary explicit.
+thousands~\cite{yang2023_vidchapters}.
+MiniSeg/YTSEG reports supervised results on 19,299
+videos~\cite{retkowski2024_miniseg}. Chapter-Llama shows that long-context LLM
+chaptering is competitive at VidChapters
+scale~\cite{ventura2025_chapterllama}. These systems are stronger than
+\lecseg{} in raw performance and are not the comparison target; their metrics
+and training assumptions are incompatible with the \lecseg{} framework.
+Tables~\ref{tab:external_scale}--\ref{tab:low_resource_positioning} spell out
+the scale differences and make the claim boundary explicit.
 
 \input{tables/external_scale}
 \input{tables/related_work_comparison}
@@ -243,34 +236,35 @@ record the scale differences and make the claim boundary explicit.
 \section{Hierarchical and discourse-based approaches}
 \label{sec:hierarchical_lit}
 
-Hierarchical topic segmentation has been studied under the heading of
-discourse parsing~\cite{mann1988rst}. The chapter/subtopic distinction in
-\lecseg{} is motivated by this tradition, though the annotation is not
-full RST parsing. The nesting constraint
+Hierarchical topic segmentation has been studied under the heading of discourse
+parsing~\cite{mann1988rst}. The chapter/subtopic distinction in \lecseg{} is
+motivated by that tradition, though we do not attempt full RST parsing. The
+nesting constraint
 $\mathcal{B}_{\text{chapter}} \subseteq \mathcal{B}_{\text{subtopic}}$
-is enforced by construction rather than jointly optimised, which is a
-deliberate simplification justified by the low-resource setting.
+is enforced by construction rather than jointly optimised, a deliberate
+simplification justified by the low-resource setting where joint optimisation
+would have too few examples to learn from.
 
 \section{Local open language models}
 \label{sec:llm_lit}
 
-The availability of open-weight models such as Llama-3.1~\cite{meta2024llama3}
-makes it practical to run LLM inference locally, avoiding the reproducibility
-and privacy concerns of closed APIs. Compact open-weight models are competitive
-on many zero-shot NLP tasks~\cite{jiang2024mixtral}. We use Llama-3.1-8B
-(GGUF Q4) for boundary refinement and segment titling. The contribution of
-this component is evaluated empirically in Chapter~\ref{chap:results};
-it does not improve $P_k$/WD in our experiments.
+Open-weight models such as Llama-3.1~\cite{meta2024llama3} make local LLM
+inference practical, avoiding the reproducibility and privacy concerns of
+closed APIs. Compact open-weight models are competitive on many zero-shot NLP
+tasks~\cite{jiang2024mixtral}. We use Llama-3.1-8B (GGUF Q4) for boundary
+refinement and segment titling. Whether it actually helps is evaluated in
+Chapter~\ref{chap:results}; the short answer is that it does not improve
+$P_k$/WD in our experiments.
 
 \section{Gap analysis}
 \label{sec:gap}
 
 Table~\ref{tab:litmatrix} positions \lecseg{} against related work.
-The gap is not that stronger chaptering systems do not exist (they do, at
-much larger scale). The gap is that low-resource lecture segmentation
-lacks a compact, auditable benchmark with a two-level hierarchy, unified
-metrics, annotation-reliability figures, and honest reporting of failure.
-\lecseg{} fills that specific gap.
+The gap is not that stronger chaptering systems do not exist (they do, at much
+larger scale). The gap is that low-resource lecture segmentation has no compact,
+auditable benchmark combining a two-level hierarchy, unified metrics,
+annotation-reliability figures, and honest failure reporting. \lecseg{} fills
+that specific gap.
 
 \begin{table}[t]
   \centering
@@ -295,39 +289,39 @@ metrics, annotation-reliability figures, and honest reporting of failure.
 \section{Four design decisions from the literature}
 \label{sec:literature_synthesis}
 
-The four decisions that shape \lecseg{}'s design each have a direct precedent in prior work.
+Each of the four main design decisions in \lecseg{} traces back to a lesson
+from prior work.
 
-\textbf{Window-based metrics.} $P_k$ and WindowDiff were developed specifically
+\textbf{Window-based metrics.} $P_k$ and WindowDiff were developed precisely
 because exact-match boundary F1 over-penalises near-miss placements that are
 acceptable in practice. For a student navigating a lecture, a boundary two
-sentences early is not a failure; the same sentence window would scroll past
-the boundary under either prediction. Exact-match metrics would penalise this
-case as severely as a completely missing boundary, misrepresenting what the
-system actually achieves for the navigation task. $P_k$/WD are therefore the
-primary metrics in \lecseg{}; F1 and Boundary Similarity are diagnostic context.
+sentences early is not a failure; the same window of content would scroll past
+the boundary under either prediction. Exact-match metrics penalise this case
+as harshly as a completely missing boundary, which misrepresents what the
+system actually achieves. $P_k$/WD are therefore the primary metrics; F1 and
+Boundary Similarity are diagnostic context.
 
-\textbf{Dense embeddings.} Vocabulary reuse disqualifies lexical methods on
+\textbf{Dense embeddings.} Vocabulary reuse rules out lexical methods on
 lecture transcripts. An embedding space that separates ``integration as a
-geometric concept'' from ``integration as a calculus operation'' can detect
-the shift where bag-of-words representations see identical term distributions.
+geometric concept'' from ``integration as a calculus operation'' can catch the
+shift where bag-of-words representations see identical term distributions.
 
-\textbf{Unsupervised methods.} Supervised segmenters trained on Wikipedia
-or meeting data do not transfer to academic lectures, because the structure of
+\textbf{Unsupervised methods.} Supervised segmenters trained on Wikipedia or
+meeting data do not transfer to academic lectures because the structure of
 expository writing is not the structure of pedagogical argument. With 30
-annotated videos, there is no viable path to training a supervised classifier;
+annotated videos, training a supervised classifier would be ill-advised;
 unsupervised cosine scoring is the only sound low-resource strategy.
 
-\textbf{Granularity calibration.} The multimodal literature's most instructive
-failure mode is signal-granularity mismatch. A prosodic or discourse-marker
-signal that correctly identifies every rhetorical transition in a lecture will
-produce many more boundaries than the creator chose to mark as chapters.
-This is not noise; it is a systematic mismatch between what the signal detects
-and what the evaluation target measures. Any system targeting creator-chapter
+\textbf{Granularity calibration.} The most instructive failure mode in the
+multimodal literature is signal-granularity mismatch. A prosodic signal that
+correctly identifies every rhetorical transition in a lecture will produce
+many more boundaries than the creator chose to mark as chapters. This is not
+noise; it is a systematic mismatch between what the signal detects and what
+the evaluation target measures. Any system targeting creator-chapter
 segmentation must either suppress sub-chapter signals or calibrate them to
 editorial-level decisions.
 
-These four choices jointly motivate the \lecseg{} design and make the
-results interpretable. The contribution is not a new algorithm but a benchmark
-and diagnostic framework that makes the low-resource failure modes visible
-and, crucially, reproducible.
-
+These four choices jointly motivate the \lecseg{} design and make the results
+interpretable. The contribution is not a new algorithm but a benchmark and
+diagnostic framework that makes low-resource failure modes visible and,
+crucially, reproducible.

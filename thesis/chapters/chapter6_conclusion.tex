@@ -1,35 +1,28 @@
-﻿\section{Summary of findings}
+\section{Summary of findings}
 
 This thesis presented \lecseg{}: a benchmark, evaluation framework, and
 diagnostic pipeline for low-resource lecture-video topic segmentation.
-The work is organised around a central finding that only became clear after
-the full experimental programme was complete:
+Two findings stand out from the full experimental programme.
 
-\begin{quote}
-\emph{The principal bottleneck in low-resource lecture segmentation is
-boundary selection, not boundary generation.
-Near-perfect candidate boundaries already exist in the generated pool at
-96.8\% recall; the $\Delta P_k \approx 0.34$ gap to that oracle is
-predominantly a ranking problem rather than a detection problem.}
-\end{quote}
+The first concerns \emph{where the error actually lives}: an oracle experiment
+showed that near-perfect candidate boundaries already exist in the generated
+pool at 96.8\% recall ($P_k=0.0172$). The $\Delta P_k \approx 0.34$ gap between
+that oracle and the best deployable system is, within the framework we evaluated,
+predominantly a ranking problem rather than a detection problem. Generating
+more or better candidates is not the bottleneck; choosing the right ones is.
 
-A second finding is equally important:
+The second finding concerns \emph{why multimodal signals keep failing}: prosody,
+discourse markers, BERTopic, and GPT-2 perplexity all over-segment relative to
+YouTube chapter granularity, not because those signals are uninformative but
+because they detect transitions at a finer discourse granularity than the
+editorial decisions creators make when writing chapter titles. CLIP visual
+embeddings are the exception --- slide scene changes are themselves editorial
+artifacts at approximately chapter granularity, which explains why CLIP succeeds
+where the acoustic signals do not.
 
-\begin{quote}
-\emph{Many intuitively appealing auxiliary signals (prosody, discourse
-markers, BERTopic, GPT-2 perplexity) fail not because they are
-uninformative, but because they detect transitions at a finer discourse
-granularity than creator-defined editorial chapter structure.
-CLIP visual embeddings succeed for the complementary reason: slide scene
-changes are themselves editorial artifacts at approximately chapter granularity.}
-\end{quote}
-
-This granularity mismatch predicts which signals will fail on any benchmark
-calibrated to editorial chapters, without requiring the experiments to be
-repeated from scratch.
 The quantitative results are in Table~\ref{tab:lecseg_result_variants} and
 the statistical tests in Table~\ref{tab:significance_full}; the research
-questions are answered directly in the next section.
+questions are answered directly below.
 
 \section{Research questions answered}
 \label{sec:rqs_answered}
@@ -44,7 +37,7 @@ at $P_k=0.3884$.
 \textbf{RQ2} (per-video selector improvement beyond fixed strategy):
 Yes, with qualifications.
 The leave-one-video-out balanced selector improves mean $P_k$ to 0.3588,
-which is statistically significant over the BGE-divisive baseline.
+statistically significant over the BGE-divisive baseline.
 In practical terms, a $P_k$ of 0.3588 means the system generally identifies
 the correct chapter region but remains conservative in recovering exact creator
 boundary locations, typically placing boundaries within the right neighbourhood
@@ -56,8 +49,7 @@ The selector is therefore a useful low-resource operating point, not a
 robust replacement for the fixed cross-model method.
 
 \textbf{RQ3} (hierarchical annotation and nesting constraints):
-Yes.
-The two-level annotation format with enforced nesting provides a richer
+Yes, the two-level annotation format with enforced nesting provides a richer
 inspection surface than flat chapter labels.
 The nesting enforcement produces valid hierarchical outputs by construction.
 However, the hierarchical segmenter achieves higher $P_k$ than the
@@ -69,8 +61,7 @@ CLIP visual embeddings help: CLIP alone reaches $P_k=0.3958$ and CLIP plus
 text fusion reaches $P_k=0.3740$, approaching the cross-model text result.
 All other auxiliary signals tested, including prosody, discourse markers,
 BERTopic, GPT-2 perplexity, and local LLM refinement, produce worse $P_k$/WD
-than
-the BGE-divisive baseline when used as primary or fused signals.
+than the BGE-divisive baseline when used as primary or fused signals.
 The consistent explanation is granularity mismatch: these signals detect
 sub-chapter transitions rather than editorial chapter boundaries.
 
@@ -84,8 +75,7 @@ but its Boundary Similarity and F1@2 improvements over that method are.
 
 \section{Contributions to the Field}
 
-The contributions below are ordered by scientific significance rather than
-by their position in the document:
+The contributions below are ordered by scientific significance:
 
 \begin{enumerate}
   \item \textbf{\dataset{} benchmark.}
@@ -130,8 +120,8 @@ segmentation;
 failures, not signal uninformativeness;
 (iii)~CLIP is the only tested non-text signal that operates at editorial-chapter
 scale, and for a principled reason;
-(iv)~negative results (OCR, prosody, discourse markers, BERTopic, perplexity,
-and LLM refinement all fail to improve chapter-level $P_k$/WD) have direct
+(iv)~the negative results (OCR, prosody, discourse markers, BERTopic, perplexity,
+and LLM refinement all failing to improve chapter-level $P_k$/WD) have direct
 replication value for future projects.
 
 \subsection*{Scope of the claims}
@@ -166,12 +156,11 @@ transfer to annotation standards other than creator chapters.
   \item \textbf{Multimodal signal reliability.}
     Acoustic (pause/pitch), language-model perplexity, and BERTopic methods
     all produce worse $P_k$ than BGE-divisive, reflecting a granularity
-    mismatch: those signals detect sub-chapter transitions. The exception is
-    CLIP visual embeddings: CLIP alone reaches $P_k=0.3958$, and CLIP plus
-    text fusion reaches $P_k=0.3740$, which is below the cross-model text method
-    ($P_k=0.3715$) but better than BGE-divisive ($P_k=0.3884$). Visual scene
-    changes in lecture slides carry chapter-level granularity and are a
-    promising signal for future work.
+    mismatch. The exception is CLIP visual embeddings: CLIP alone reaches
+    $P_k=0.3958$, and CLIP plus text fusion reaches $P_k=0.3740$, below the
+    cross-model text method ($P_k=0.3715$) but better than BGE-divisive
+    ($P_k=0.3884$). Visual scene changes in lecture slides carry chapter-level
+    granularity and are a promising signal for future work.
 
   \item \textbf{LLM refinement.}
     The local LLM component is implemented, but the current verified metrics do
@@ -182,7 +171,7 @@ transfer to annotation standards other than creator chapters.
 \label{sec:threats_validity}
 
 The following table summarises the principal threats and their estimated
-severity before the detailed discussion.
+severity.
 
 \begin{table}[h]
   \centering
@@ -225,8 +214,8 @@ whether this predicts learning benefit requires an independent user study.
 \dataset{} has 30 videos across five domains. Results should be treated as
 findings on this specific benchmark rather than as universal laws of lecture
 segmentation. The leave-domain-out selector degradation ($P_k=0.4012$) is
-direct evidence that performance is sensitive to the amount of domain-matched
-training data; with more videos the picture may shift materially.
+direct evidence that performance is sensitive to domain-matched training data;
+with more videos the picture may shift materially.
 A ten-video external spot-check across five domains
 (Section~\ref{sec:external_validation}) found BGE-divisive
 consistent (external mean $P_k=0.389$ vs $0.388$ on \dataset{},
@@ -274,9 +263,9 @@ The gap between this oracle and the best deployable system
 the candidate pool already contains the information needed for near-perfect
 segmentation; the bottleneck appears to lie in correctly identifying which
 candidates to accept rather than in generating more candidates.
-This framing is the most actionable scientific output of the thesis: it
-relocates the research problem from \emph{how to generate better candidates}
-to \emph{how to rank candidates more reliably}.
+This framing is the most actionable scientific output of the thesis: it shifts
+the research problem from \emph{how to generate better candidates} to
+\emph{how to rank candidates more reliably}.
 
 Table~\ref{tab:oracle_gap} summarises the relevant operating points.
 TreeSeg (Gklezakos et al.\ 2024) reports $P_k=0.367$ on TinyRec (21
@@ -317,12 +306,11 @@ The concrete research directions that could close this gap are:
 
 \begin{enumerate}
   \item \textbf{Supervised boundary-level ranker.}
-    The video-level method selector demonstrates that per-video method choice
+    The video-level method selector shows that per-video method choice
     matters, but it does not rank individual boundary candidates.
     A ranker trained on candidate-level features (local cosine contrast,
     cross-model agreement, pause duration, slide-change signal, and OCR
-    evidence) would directly address the selection bottleneck identified
-    by the oracle analysis.
+    evidence) would directly address the selection bottleneck.
 
   \item \textbf{Expanded annotation.}
     The current selector is trained leave-one-out on 30 videos.
@@ -345,7 +333,7 @@ The concrete research directions that could close this gap are:
 \section{Lessons learned}
 \label{sec:lessons}
 
-Several lessons from this project are likely to transfer to related work.
+Several lessons from this project are likely to carry over to related work.
 
 \paragraph{Segmentation lessons.}
 \begin{enumerate}
@@ -372,7 +360,7 @@ Several lessons from this project are likely to transfer to related work.
     editorial chapter granularity.}
     This makes it the most valuable non-text signal to integrate next, and the
     principled reason is the shared editorial origin of slide transitions and
-    creator chapters, not an accident of the data.
+    creator chapters, not a coincidence in the data.
 \end{enumerate}
 
 \paragraph{Benchmark and annotation lessons.}
@@ -408,20 +396,15 @@ otherwise.
 What it contributes is a reproducible point of measurement and a clear
 diagnosis of where the remaining difficulty lies.
 
-The two central findings, that the dominant error is in boundary selection
+The two central findings --- that the dominant error is in boundary selection
 not detection, and that many signals fail because they operate at the wrong
-discourse granularity, together define the research agenda for any
+discourse granularity --- together define the research agenda for any
 successor system.
 A future design that addresses both, with a learned boundary ranker and
 signals explicitly calibrated to editorial chapter scale, has a clear,
 measurable target: close the $\Delta P_k \approx 0.34$ oracle gap.
 
-A future system that distinguishes discourse-level transitions from
-editorial-level transitions, perhaps through hierarchical scoring or
-explicit granularity calibration, could recover value from these signals
-that the current pipeline discards.
-
-There is a broader point about benchmark scale worth making explicitly.
+There is also a broader point about benchmark scale worth making explicitly.
 Large benchmarks optimise for performance measurement: they reveal which
 system produces the best aggregate number on a large diverse test set.
 Small, auditable benchmarks optimise for \emph{understanding}: they reveal
@@ -429,10 +412,10 @@ why systems fail, which signals over- or under-segment, and where exactly
 the performance ceiling lies.
 \dataset{} was designed for the second purpose.
 The granularity mismatch finding and the oracle-gap diagnosis are both results
-that require the ability to inspect every prediction on every video, something
-a 200,000-video benchmark makes impractical.
-The value of \lecseg{} is therefore not in competing with large-scale systems
-but in providing the kind of controlled, transparent analysis that those systems
+that require the ability to inspect every prediction on every video ---
+something a 200,000-video benchmark makes impractical.
+The value of \lecseg{} is not in competing with large-scale systems
+but in providing the kind of controlled, transparent analysis those systems
 cannot easily afford.
 
 The \dataset{} corpus, annotation labels, evaluation code, and result files
@@ -441,16 +424,12 @@ under the same protocol.
 That reproducibility is what allows the findings here to be built upon rather
 than merely noted.
 
-The most important sentence in this thesis is not a metric.
-It is: \emph{candidate generation is largely solved; candidate selection is the
+If there is one sentence in this thesis that carries the most weight, it is:
+\emph{candidate generation is largely solved; candidate selection is the
 bottleneck.}
-That single observation, supported by the oracle-gap analysis, tells the next
-researcher exactly where to invest effort, and it could only have been
+That observation, supported by the oracle-gap analysis, tells the next
+researcher exactly where to invest effort --- and it could only have been
 discovered by building the benchmark first.
-
-The value of \lecseg{} lies less in achieving a new state of the art than in
-providing a reproducible environment for understanding why low-resource lecture
-segmentation systems succeed or fail. That is what a research benchmark is for.
 
 \section{Recommendations for Future Work}
 

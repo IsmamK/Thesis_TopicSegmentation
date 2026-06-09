@@ -1,14 +1,14 @@
-﻿\section{Pipeline architecture}
+\section{Pipeline architecture}
 \label{sec:pipeline}
 
-The \lecseg{} pipeline transforms a raw lecture video into chapter-level
+The \lecseg{} pipeline takes a raw lecture video and turns it into chapter-level
 segments and, when annotations are available, a two-level chapter/subtopic
-hierarchy. It comprises five stages, depicted in Figure~\ref{fig:pipeline}:
-(1)~\emph{ingestion}, which extracts audio and collects YouTube chapter
+hierarchy. It runs in five stages, shown in Figure~\ref{fig:pipeline}:
+(1)~\emph{ingestion}, which pulls audio and collects YouTube chapter
 metadata; (2)~\emph{preprocessing}, which produces time-aligned sentences from
 the speech signal and auxiliary visual and prosodic features;
 (3)~\emph{feature extraction}, which maps each sentence to text or multimodal
-features; (4)~\emph{boundary prediction and selection}, which evaluates
+features; (4)~\emph{boundary prediction and selection}, which runs
 classical, embedding, cross-model, fusion, and selector-based methods; and
 (5)~\emph{optional LLM support}, which can refine or title predicted segments
 but is treated as diagnostic unless a metric improvement is explicitly shown.
@@ -31,19 +31,19 @@ but is treated as diagnostic unless a metric improvement is explicitly shown.
 
 \subsection{Benchmark design rationale}
 
-Several design decisions that might appear to be limitations were made
-deliberately, and each deserves brief justification.
+Several design decisions that might look like limitations were made
+deliberately, and each is worth a brief explanation.
 
 Thirty videos is small by contemporary NLP standards. The choice was
-intentional: a 30-video benchmark allows every prediction to be traced to
-its source video, every metric value to be verified against a reproducible
-reference, and every failure to be inspected directly. Large-scale benchmarks
-are better suited to measuring aggregate performance; this benchmark is designed
+intentional: a 30-video benchmark lets every prediction be traced to
+its source video, every metric value verified against a reproducible
+reference, and every failure inspected directly. Large-scale benchmarks
+are better suited to measuring aggregate performance; this one is designed
 for diagnostic transparency, which requires being able to see the data clearly.
 
 Creator-provided chapter metadata was chosen as the reference signal because
 it is reproducible, scales to any creator-chaptered YouTube lecture without
-redistribution of raw video, and reflects the navigation structure that actual
+redistribution of raw video, and reflects the navigation structure actual
 viewers encounter. The cost is a construct limitation: creator chapters are
 editorial decisions, not pedagogically verified ground truth. This is documented
 throughout the thesis and quantified as a threat to construct validity
@@ -51,54 +51,75 @@ in Section~\ref{sec:threats_validity}.
 
 Segmentation methods are unsupervised throughout. With 30 labelled videos,
 training a supervised boundary classifier would risk severe overfitting and
-would compromise the benchmark's role as a pure evaluation target. Treating
-segmentation as unsupervised and the method selector as the only supervised
+would undermine the benchmark's role as a pure evaluation target. Keeping
+segmentation unsupervised and making the method selector the only supervised
 component keeps these roles cleanly separated.
 
 Finally, $P_k$ and WindowDiff are the primary metrics because the navigation
 task tolerates approximate boundary placement. Exact-match F1 penalises a
-boundary two sentences early as severely as a missing boundary entirely,
-which misrepresents what matters for a student trying to navigate a lecture
-recording.
+boundary two sentences early as severely as a completely missing boundary,
+which misrepresents what actually matters when a student is trying to navigate
+a lecture recording.
 
 \subsection{Source selection}
 
 We curated 30 lecture videos from YouTube, drawn from five academic domains:
 Computer Science (CS), Mathematics, Physics, Biology, and Humanities/Philosophy.
-Selection criteria were: (1) duration $\geq 15$~min; (2) clean monolingual
-English audio; (3) creator-supplied YouTube chapter markers with $\geq 4$
+Selection criteria were: (1) duration at least 15 minutes; (2) clean monolingual
+English audio; (3) creator-supplied YouTube chapter markers with at least 4
 distinct chapters; and (4) openly licensed content.
-The resulting corpus comprises 32.52~hours of audio, with 419 chapter
+The resulting corpus covers 32.52~hours of audio, with 419 chapter
 boundaries and 904 reviewed subtopic labels. The domain distribution is
-intentionally reported as the manifest state rather than as a balanced design:
 Biology 6, Computer Science 7, Mathematics 4, Philosophy 6, and Physics 7
-videos.
+videos --- this is reported as the manifest state rather than as a
+deliberately balanced design.
 
 \subsection{Annotation protocol}
+\label{sec:annotation_protocol}
 
 Each video was annotated at two levels of granularity.
 \emph{Chapter boundaries} were taken directly from the YouTube chapter
 metadata as a reproducible creator-provided reference for navigation behaviour.
 \emph{Subtopic boundaries} were identified by human annotators using the
 Streamlit-based annotation tool (\texttt{scripts/annotate.py}).
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figures/annotation_tool_main.png}
+  \caption{The Streamlit annotation interface. Annotators step through the
+    transcript sentence-by-sentence, with creator chapter boundaries already
+    marked (shown as yellow dividers). Clicking a sentence places a subtopic
+    boundary marker at that position.}
+  \label{fig:annotation_tool_main}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figures/annotation_tool_subtopics.png}
+  \caption{The annotation tool showing subtopic boundary placement within a
+    chapter. Placed boundaries appear as green markers. Annotators could
+    add, remove, or adjust markers before saving the session.}
+  \label{fig:annotation_tool_subtopics}
+\end{figure}
+
 Annotators read the transcript sentence-by-sentence with chapter boundaries
 already marked, and placed a subtopic boundary wherever the speaker
 transitioned from one coherent pedagogical sub-idea to another within a chapter.
 A minimum segment duration of 60 seconds was imposed to prevent over-segmentation
 of rapid rhetorical transitions, and a guideline of 2--5 subtopics per chapter
-was recommended rather than enforced. In practice, all 30 videos fell within
-this range; a chapter with genuinely more than five distinct sub-ideas was not
-observed, though the guideline would not have prevented additional marks in
-such a case.
+was recommended rather than enforced. In practice all 30 videos fell within
+this range; no chapter with more than five genuinely distinct sub-ideas was
+encountered, though the guideline would not have prevented additional marks
+in such a case.
 
 \subsection{Construct scope and limitations}
 \label{sec:youtube_validity}
 
 YouTube chapters are used as \emph{creator-provided reference boundaries}, not
 as pedagogically verified ground truth.
-This is the most important conceptual limitation of \lecseg{} and it must be
+This is the most important conceptual limitation of \lecseg{} and it needs to be
 stated precisely: the benchmark measures a system's ability to reproduce
-\emph{creator navigation metadata}, which is not identical to discovering
+\emph{creator navigation metadata}, which is not the same thing as discovering
 pedagogically optimal boundaries.
 
 These two constructs can diverge in several ways.
@@ -107,20 +128,20 @@ they may omit boundaries that a learner would find useful; they may use
 inconsistent granularity across their video catalogue; or they may choose
 timestamps for editing convenience or search-engine discoverability rather than
 for strict topic-theory reasons.
-A system that achieves a low $P_k$ is correctly predicting the structure of
+A system with a low $P_k$ is correctly predicting the structure of
 creator-annotated navigation metadata.
-A system that achieves a high $P_k$ may still produce educationally superior
+A system with a high $P_k$ may still produce educationally superior
 segmentations if the creator's chapters were poorly placed.
 Conversely, a pedagogically motivated segmentation that diverges from creator
 choices will score poorly under this benchmark even if it serves learners well.
 
-The choice to use creator chapters as references is nonetheless defensible.
+The choice to use creator chapters is nonetheless defensible.
 Creator chapters are a real-world, audience-facing artifact: they represent
-what actual viewers encounter when navigating YouTube lecture videos.
+what actual viewers see when navigating YouTube lecture videos.
 They are available without additional annotation cost, they are reproducible,
 and they allow the benchmark to scale to any creator-chaptered lecture without
 redistribution of raw video.
-The benchmark is therefore best understood as measuring \emph{creator-aligned
+The benchmark is best understood as measuring \emph{creator-aligned
 navigation segmentation} rather than \emph{absolute pedagogical truth}.
 Claims about learning quality or pedagogical optimality require an independent
 user study, which is listed as future work in Chapter~\ref{chap:future}.
@@ -131,23 +152,23 @@ user study, which is listed as future work in Chapter~\ref{chap:future}.
 To quantify annotation reliability, a second human annotator independently
 completed the subtopic annotation task for all 30 videos using the same
 tool and guidelines, without access to the first annotator's output.
-Agreement was measured using Cohen's $\kappa$ at zero-tolerance
+Agreement was measured using Cohen's $\kappa$ at zero tolerance
 (exact boundary match at sentence level). Results are summarised in
 Table~\ref{tab:iaa} and discussed in Section~\ref{sec:dataset_status}.
 
 \paragraph{Interpreting the agreement figures.}
 The chapter-level figure ($\kappa=0.5351$) is inherently inflated: both
 annotators derive chapter boundaries from the same YouTube creator metadata,
-so agreement here primarily reflects that both passes observe the same
+so agreement here mainly reflects that both passes observe the same
 creator-supplied timestamps rather than genuine boundary-placement skill.
 The subtopic-level figure ($\kappa=0.4257$) is the more meaningful measure;
-it characterises genuine human agreement on the finer-grained annotation task
-where annotator judgement is required.
+it characterises genuine human agreement on the finer-grained task
+where annotator judgement is actually required.
 A $\kappa$ in the 0.40--0.60 range is conventionally interpreted as moderate
 agreement~\cite{fournier2012}, which is appropriate for a subjective
-discourse-segmentation task where reasonable annotators can disagree on
+discourse-segmentation task where reasonable annotators can disagree about
 whether a rhetorical transition merits a boundary mark.
-This limitation is documented as a threat to annotation validity in
+This is documented as a threat to annotation validity in
 Section~\ref{sec:threats_validity}.
 
 \section{Preprocessing}
@@ -185,7 +206,7 @@ extracted strings were deduplicated within a $\pm 3$-sentence window.
 
 We extracted two scalar prosodic features per sentence:
 (1)~\emph{pause duration}: the Whisper-reported inter-segment gap immediately
-preceding the sentence ($\geq 300$~ms counted as a significant pause);
+preceding the sentence (gaps of at least 300~ms were counted as significant);
 (2)~\emph{mean F0}: the average voiced pitch over the sentence's audio span,
 estimated by PYIN~\cite{mauch2014pyin} via librosa.
 
@@ -221,11 +242,10 @@ attains low entropy and hence a high weight; a flat distribution (uninformative
 modality) is automatically down-weighted.
 The fused gap signal is $s^* = \sum_m w_m s_m$.
 
-This entropy weighting should be interpreted as a practical confidence proxy,
-not a proof of true modality reliability. A noisy modality can also produce
-sharp peaks. For this reason, Chapter~\ref{chap:results} reports fusion and
-modality ablations separately and demotes modalities that hurt chapter-level
-$P_k$/WindowDiff.
+This entropy weighting is a practical confidence proxy, not a proof of true
+modality reliability. A noisy modality can also produce sharp peaks. For this
+reason, Chapter~\ref{chap:results} reports fusion and modality ablations
+separately and demotes modalities that hurt chapter-level $P_k$/WindowDiff.
 
 \section{Two-stage boundary predictor (N1)}
 \label{sec:boundary}
@@ -245,8 +265,9 @@ $\mu^* - c_2 \sigma^*$ (with $c_2 = 1.2$).
 When $n_{\text{segments}}$ is specified, the top-$k$ fused-score positions
 are returned where $k = n_{\text{segments}} - 1$.
 
-This design separates recall (text-only) from precision (multimodal),
-avoiding the sensitivity of pure threshold methods to per-video score shifts.
+This design separates recall (text-only pass) from precision (multimodal
+refinement pass), avoiding the sensitivity of pure threshold methods to
+per-video score shifts.
 
 \section{Hierarchical segmentation (N3)}
 \label{sec:hierarchy}
@@ -274,8 +295,8 @@ the first five sentences of the segment and asked for a noun-phrase
 title of at most eight words.
 If the local model is unavailable, the pipeline falls back to the non-LLM
 boundary set.
-The verified experimental results do not support treating LLM refinement as
-the primary source of metric gain; it is retained as an implemented diagnostic
+The experimental results do not support treating LLM refinement as the
+main source of metric gain; it is retained as an implemented diagnostic
 and titling component whose value is investigated empirically in
 Chapter~\ref{chap:results}.
 
@@ -285,7 +306,7 @@ Chapter~\ref{chap:results}.
 \paragraph{Motivation.}
 The eleven method families and their hyperparameter variants collectively
 produce over 80 candidate configurations on \dataset{}.
-Different configurations perform best on different videos; no single
+Different configurations work best on different videos; no single
 configuration is universally optimal.
 A lightweight \emph{meta-model} can learn, from training videos, which
 configuration is likely to produce the lowest $P_k$ on a held-out video.
@@ -325,19 +346,19 @@ and selects the method with the lowest predicted $P_k$.
 
 \paragraph{Candidate pool.}
 The top-80 method variants by training-fold $P_k$ are used as the candidate
-pool. Expanding to 120 methods degrades performance, suggesting that the pool
+pool. Expanding to 120 methods degrades performance, suggesting that pool
 size is itself a selection-risk parameter (Table~\ref{tab:selector_robustness}).
 
 \paragraph{Limitations of the selector.}
 The selector depends on having related videos in the training fold.
-A leave-domain-out evaluation, in which the held-out video's entire academic
-domain is excluded from training, degrades the selector to
+Under a leave-domain-out evaluation, where the held-out video's entire academic
+domain is excluded from training, the selector degrades to
 $P_k = 0.4012$, which is worse than both the BGE-divisive baseline and the
 cross-model conservative method (Table~\ref{tab:selector_leave_domain_out}).
 Mathematics is the clearest failure case, where only four videos are available
-and three per-fold training examples are insufficient to provide reliable
+and three per-fold training examples are not enough to provide reliable
 domain-specific guidance.
-The selector should therefore be interpreted as a low-resource benchmark
+The selector should therefore be read as a low-resource benchmark
 operating point, not as a domain-general deployment model.
 
 \section{Evaluation protocol}
@@ -347,13 +368,13 @@ operating point, not as a domain-general deployment model.
 
 The two primary evaluation metrics in this thesis are $P_k$
 \cite{beeferman1999statistical} and WindowDiff \cite{pevzner2002critique}.
-Both are window-based error rates, which means they measure how often the
+Both are window-based error rates, meaning they measure how often the
 segmentation disagrees with the reference inside a sliding context window of
 $k$ sentences rather than requiring exact boundary placement.
-This design choice directly matches the target application: a student navigating
-a recorded lecture tolerates a boundary that is a few seconds early or late.
+This choice directly matches the target application: a student navigating
+a recorded lecture can tolerate a boundary that is a few seconds early or late.
 Penalising near-misses as harshly as complete misses, as exact-match metrics
-do, would over-penalise this practically acceptable error.
+do, would over-penalise practically acceptable errors.
 
 $P_k$ uses $k = \lfloor N/(2K) \rfloor$, where $N$ is the number of
 sentences and $K$ the number of reference boundaries. For each pair of
@@ -371,24 +392,24 @@ lower is better.
 
 Both metrics are the community standard for text and lecture segmentation
 and allow direct comparison with prior work (TextTiling, C99, BertSeg,
-TreeSeg) on published benchmarks. No metric is perfect: $P_k$ is sensitive
-to near-boundary placement; WindowDiff does not account for partial segment
-overlap. Their complementary failure modes motivate reporting both jointly.
+TreeSeg) on published benchmarks. No single metric is perfect: $P_k$ is
+sensitive to near-boundary placement; WindowDiff does not account for partial
+segment overlap. Their complementary failure modes are why both are reported.
 
 \subsection{Secondary and diagnostic metrics}
 \label{sec:secondary_metrics}
 
 Three secondary diagnostics supplement $P_k$/WD.
 They expose operating-point tradeoffs and characterise
-\emph{how} a method fails; none rank methods or drive the primary claims.
+\emph{how} a method fails; none of them rank methods or drive the primary claims.
 
 The application is lecture navigation, not exact boundary recovery.
 A method that achieves a good $P_k$/WD score by placing boundaries in the
 correct \emph{region} is succeeding at the navigation task even if strict
 boundary F1 is low.
 Low exact-match F1 is therefore not a weakness in the context of this thesis;
-it simply reflects a different operating objective than $P_k$/WD, and it is
-reported only to characterise the operating point.
+it reflects a different operating objective than $P_k$/WD, and is reported
+only to characterise the operating point.
 
 \begin{description}
   \item[Boundary Similarity (BS, higher is better)] A boundary-level F-score
@@ -409,8 +430,8 @@ reported only to characterise the operating point.
 Methods requiring $n_{\text{segments}}$ receive the ground-truth count in the
 main controlled evaluation, consistent with standard segmentation practice
 for measuring boundary placement~\cite{choi2000latent}. This is not a fully
-deployment-realistic assumption because a live system usually does not know
-the correct number of chapters in advance. Therefore, Chapter~\ref{chap:results}
+deployment-realistic assumption because a live system generally does not know
+the correct number of chapters in advance. Chapter~\ref{chap:results}
 also reports boundary-count error and discusses automatic-count/deployment
 behavior separately from the controlled gold-count setting.
 
@@ -421,4 +442,3 @@ Metric values are reported as means $\pm$ 95\% bootstrap confidence intervals
 For pairwise method comparisons we use the paired Wilcoxon signed-rank test
 (normal approximation, $\alpha = 0.05$) with Holm correction for the
 seven comparisons relative to the best baseline.
-

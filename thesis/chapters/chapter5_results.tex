@@ -1,14 +1,14 @@
-﻿\section{Experimental setup}
+\section{Experimental setup}
 \label{sec:setup}
 
 The official chapter-level evaluation uses the 30 videos listed in
 \texttt{data/manifest.jsonl} and the creator-provided YouTube chapter
 boundaries in \texttt{data/gt/}. Metrics were computed with the project
-implementation in \texttt{src/lecseg/metrics.py}. Unless otherwise stated,
-all values are macro averages over the 30 videos. Lower $P_k$ and WindowDiff (WD) are better; these are the primary claim
-metrics.
+implementation in \texttt{src/lecseg/metrics.py}. Unless stated otherwise,
+all values are macro averages over the 30 videos. Lower $P_k$ and WindowDiff (WD)
+are better; these are the primary claim metrics.
 Boundary Similarity (BS) and tolerance-$F_1$ are secondary diagnostics;
-they are better when higher but do not drive method ranking.
+higher is better but neither drives method ranking.
 See Section~\ref{sec:secondary_metrics} for the rationale.
 
 The main stable baseline is BGE sentence embeddings with divisive
@@ -17,8 +17,8 @@ cross-model boundary scoring with conservative minimum-length postprocessing
 and the alignment-audited reference mapping
 (\texttt{cross\_e5\_frac70\_minlen11\_\_align\_contains\_before} in
 \texttt{results/eval\_alignment\_sweep.json}). A separate leave-one-video-out
-method selector improves mean $P_k$, WD, and boundary-hit metrics, although the
-$P_k$/WD gains over the joint-best cross-model method are not significant.
+method selector improves mean $P_k$, WD, and boundary-hit metrics, though the
+$P_k$/WD gains over the cross-model method are not significant.
 
 \section{Official result and claim boundary}
 \label{sec:official_claim}
@@ -28,10 +28,9 @@ safest single global method is the cross-model conservative run because it
 significantly improves $P_k$ and WindowDiff over the BGE-divisive baseline. The
 balanced selector is reported as the best mean local operating point and as
 evidence that method-choice information is useful, but it is not claimed as a
-fully domain-general replacement because its $P_k$/WD gains over the
-cross-model method are not statistically significant and its leave-domain-out
-result is weaker. Oracle results are used only to diagnose the remaining
-candidate-selection gap.
+fully domain-general replacement: its $P_k$/WD gains over the cross-model method
+are not statistically significant, and its leave-domain-out result is weaker.
+Oracle results are used only to diagnose the remaining candidate-selection gap.
 
 \input{tables/claim_evidence_caveat}
 
@@ -41,7 +40,7 @@ candidate-selection gap.
 \dataset{} contains 30 lectures, 32.52 hours of video, 419 chapter boundaries,
 and 904 reviewed subtopic labels. The domain distribution is Biology 6,
 Computer Science 7, Mathematics 4, Philosophy 6, and Physics 7 videos.
-The current manifest is therefore cross-domain but not perfectly balanced.
+The current manifest is cross-domain but not perfectly balanced.
 
 \begin{table}[t]
   \centering
@@ -69,13 +68,13 @@ The current manifest is therefore cross-domain but not perfectly balanced.
 
 Table~\ref{tab:lecseg_result_variants} shows three consistent patterns.
 The BGE-divisive baseline is substantially stronger than the classical and
-neural alternatives under $P_k$ and WD, which confirms that dense embeddings
+neural alternatives under $P_k$ and WD, confirming that dense embeddings
 are the right foundation for this task. Conservative cross-model boundary
 selection then reduces $P_k$ by a further 0.0171 absolute, which is the best
 statistically supported joint $P_k$/WD result in the evaluation.
 The method selector reaches the best mean $P_k$ and produces markedly higher
-F1@2, at the cost of $P_k$/WD gains that do not individually reach significance
-relative to the cross-model method.
+F1@2, though its $P_k$/WD gains over the cross-model method do not individually
+reach significance.
 
 \begin{figure}[t]
   \centering
@@ -94,15 +93,15 @@ statistically supported claims. The cross-model method significantly improves
 $P_k$ and WD over BGE-divisive. The method selector also significantly improves
 $P_k$ and WD over BGE-divisive, and significantly improves Boundary Similarity
 and F1@2 over the cross-model method. Its $P_k$/WD gains over the cross-model
-method are not significant, so it is best interpreted as a stronger
+method are not significant, so it is best read as a stronger
 operating-point experiment rather than a conclusive replacement.
 
 \input{tables/selector_operating_points}
 
 Table~\ref{tab:selector_operating_points} explains why the balanced selector is
-used as the selector result. Ranking candidate methods by Pk alone or by WD
+used as the selector result. Ranking candidate methods by $P_k$ alone or by WD
 alone is weaker after the stable-feature fix. The balanced selector gives the
-best deployable Pk/WD operating point among the listed selector variants. The
+best deployable $P_k$/WD operating point among the listed selector variants. The
 text-transition ranker reaches much higher strict F1@2, but only by hurting
 $P_k$ and WD; it is therefore diagnostic evidence that exact boundary-hit
 optimisation is a different operating point, not the main chapter segmentation
@@ -111,8 +110,8 @@ result.
 \input{tables/selector_robustness}
 
 Table~\ref{tab:selector_robustness} checks that the selector result is not
-presented as an arbitrary single setting. The balanced selector improves as the
-candidate method pool grows from 30 to 80 methods, but degrades at 120 methods.
+an arbitrary single setting. The balanced selector improves as the
+candidate method pool grows from 30 to 80 methods, then degrades at 120 methods.
 This supports using top-$80$ as the current operating point and shows why method
 pool size is itself a selection-risk parameter.
 
@@ -122,8 +121,8 @@ Table~\ref{tab:domain_performance} shows that the selector improvement is not
 uniform across subjects. Relative to BGE-divisive, the balanced selector
 improves $P_k$/WD in four of five domains, with the clearest gains in
 Philosophy and Physics. Mathematics is the main failure case: the selector
-worsens both $P_k$ and WD there, which suggests that the current method selector
-does not yet have enough domain-specific evidence to avoid poor choices on the
+worsens both $P_k$ and WD there, suggesting that the current method selector
+does not have enough domain-specific evidence to avoid poor choices on the
 smallest domain split.
 
 \begin{figure}[t]
@@ -143,9 +142,9 @@ held-out videos, choosing cross-E5 variants for 14 videos, multimodal-grid
 variants for 12 videos, cross-rank variants for 3 videos, and plain divisive
 segmentation for 1 video. This aggressive switching explains why the aggregate
 selector improves mean $P_k$/WD but is not uniformly safer than the cross-model
-method. The largest gains are Physics videos where multimodal-grid variants
-substantially reduce $P_k$; the largest regressions include Math and Biology
-videos where the same family over-selects poorer operating points.
+method. The largest gains are on Physics videos where multimodal-grid variants
+substantially reduce $P_k$; the largest regressions occur on Math and Biology
+videos where the same family over-selects weaker operating points.
 
 \input{tables/same_dataset_comparison}
 
@@ -164,20 +163,19 @@ Table~\ref{tab:selector_leave_domain_out} applies a stricter diagnostic:
 training excludes the entire held-out academic domain. Under this setting the
 selector degrades to $P_k=0.4012$ and WD $=0.4103$, worse than both
 BGE-divisive and the cross-model method. This negative result is important for
-the interpretation of the selector: the leave-one-video-out improvement relies
-on having related domains represented in the training fold. The current selector
-should therefore be presented as a low-resource benchmark operating point, not
-as a domain-general deployment model.
+interpretation: the leave-one-video-out improvement relies on having related
+domains in the training fold. The current selector should therefore be treated
+as a low-resource benchmark operating point, not a domain-general deployment model.
 
 \section{Deployment-style boundary diagnostics}
 \label{sec:modern_metrics}
 
-Strict F1@2 is a useful exact-boundary diagnostic, but it is not the whole
-segmentation story. A lecture navigation system may still be useful when a
-boundary is near the correct region but not within two sentences. To expose
-this tradeoff, we add a diagnostic evaluation with wider sentence tolerances,
+Strict F1@2 is a useful exact-boundary diagnostic, but it does not tell the
+whole story. A lecture navigation system may still be useful when a boundary
+is near the correct region but not within two sentences. To expose this
+tradeoff, we add a diagnostic evaluation with wider sentence tolerances,
 time tolerances, segment-overlap scoring, and boundary-count error. These
-numbers are not a replacement for the official alignment-sweep and selector
+figures are not a replacement for the official alignment-sweep and selector
 results; they are a deployment-style interpretation layer generated by
 \texttt{scripts/evaluate\_modern\_metrics.py}.
 
@@ -198,7 +196,7 @@ results; they are a deployment-style interpretation layer generated by
   \includegraphics[width=\linewidth]{figures/modern_metrics_boundary_count_error.pdf}
   \caption{Mean boundary count error. Negative values mean a method predicts
   fewer boundaries than the creator reference; positive values mean
-  over-segmentation. Count behavior explains why conservative methods can score
+  over-segmentation. Count behaviour explains why conservative methods can score
   well on $P_k$/WD while remaining weak on strict F1.}
   \label{fig:boundary_count_error}
 \end{figure}
@@ -212,14 +210,13 @@ results; they are a deployment-style interpretation layer generated by
   \label{fig:modern_time_segment}
 \end{figure}
 
-Table~\ref{tab:modern_metrics} shows why the low strict F1 must be interpreted
+Table~\ref{tab:modern_metrics} shows why the low strict F1 must be read
 carefully. The cross-model method has the best diagnostic $P_k$/WD among the
 rerun operating points and the strongest segment-overlap score, but it is very
 conservative and under-predicts boundaries. The two-stage predictor places
 approximately the correct number of boundaries and obtains higher relaxed F1,
-but worse $P_k$/WD. This confirms that exact boundary hitting and broad segment
-structure are different objectives; a deployable future system should optimize
-both.
+but worse $P_k$/WD. Exact boundary hitting and broad segment structure are
+different objectives; a deployable future system would need to optimise both.
 
 \section{Ablation and diagnostic findings}
 \label{sec:ablations}
@@ -257,15 +254,14 @@ both.
 The negative results are as informative as the positive ones.
 Discourse markers ($P_k=0.4615$), BERTopic ($P_k=0.5632$), GPT-2 perplexity
 ($P_k=0.4182$), and acoustic transitions ($P_k=0.4174$) all sit above the
-BGE-divisive baseline ($P_k=0.3884$). The underlying cause, a systematic
+BGE-divisive baseline ($P_k=0.3884$). The underlying cause is a systematic
 granularity mismatch between editorial chapters and sub-chapter linguistic
-transitions, is developed in full in the discussion
-(Section~\ref{sec:discussion}).
+transitions, developed in full in the discussion (Section~\ref{sec:discussion}).
 
-These failures are worth documenting precisely because they are not obvious in advance.
-Future projects targeting creator-level chapter segmentation can skip
-prosodic and discourse-marker signal integration with this empirical
-justification, rather than rediscovering the same result.
+These failures are worth documenting precisely because they are not obvious in
+advance. Future projects targeting creator-level chapter segmentation can skip
+prosodic and discourse-marker signal integration with empirical justification,
+rather than rediscovering the same result.
 The \lecseg{} ablation suite is, to our knowledge, the most comprehensive
 published negative-result analysis for lecture topic segmentation signals
 under $P_k$/WD.
@@ -278,16 +274,15 @@ number of gold segments did not materially improve placement quality.
 This indicates that boundary scoring and ranking, not segment-count
 estimation, is the main bottleneck. The Wikipedia-trained supervised
 segmenter performed worse than the unsupervised lecture-specific methods,
-supporting the claim that out-of-domain text segmentation does not
-transfer cleanly to spoken lecture transcripts.
+supporting the claim that out-of-domain text segmentation does not transfer
+cleanly to spoken lecture transcripts.
 
 The LLM and fusion status in Table~\ref{tab:llm_fusion_status} is intentionally
 strict. CLIP is a credible non-text signal because it approaches the text
 baseline and improves $P_k$ when fused with text. Acoustic, topic-model, and
 language-surprise signals are weaker at chapter granularity. Local LLM
 components are implemented, but the current evidence supports them as
-diagnostic/refinement tools rather than the main source of the final metric
-gain.
+diagnostic and titling tools rather than the main source of the final metric gain.
 
 \section{Per-domain analysis}
 \label{sec:domain}
@@ -313,12 +308,12 @@ gain.
 
 Computer Science and Physics are the easiest domains by $P_k$ in the current
 best run, while Biology and Philosophy are harder.
-The diagnostic F1 column in Table~\ref{tab:domain} shows near-zero values in
-several domains; this is expected and not a primary weakness.
+The near-zero diagnostic F1 values in Table~\ref{tab:domain} are expected and
+not a primary weakness.
 As discussed in Section~\ref{sec:secondary_metrics}, the conservative
 cross-model method is calibrated for $P_k$/WD and intentionally under-predicts
 boundaries to avoid false positives.
-Near-zero exact-match F1 under this operating point indicates that boundaries
+Near-zero exact-match F1 under this operating point means boundaries
 are placed in approximately the right region but not at the exact sentence,
 which is precisely the tradeoff $P_k$/WD are designed to tolerate.
 
@@ -421,24 +416,23 @@ alone, is the main bottleneck.
 \section{Discussion}
 \label{sec:discussion}
 
-Taken together, the numbers tell a consistent story. Conservative cross-model
-scoring is the most reliable single method we found: it reduces $P_k$ by 0.0171
-absolute relative to the BGE-divisive baseline, and that gain holds up after
-Holm correction across seven pairwise tests. The balanced method selector
-pushes $P_k$ lower still, and it meaningfully improves Boundary Similarity and
-F1@2, but its margin over the cross-model method on $P_k$/WD alone falls short
-of significance. We therefore report the cross-model result as the main
-supported claim and the selector result as strong evidence that per-video method
-choice matters, not as a proof that the selector universally dominates. The
-leave-domain-out degradation (selector $P_k=0.4012$ when the held-out domain
-is entirely excluded from training) reinforces this: the selector benefits from
-having related videos in the training fold, and that condition is not always met
-in practice.
+Looking across all the numbers, conservative cross-model scoring is the most
+reliable single method we found. It reduces $P_k$ by 0.0171 absolute relative to
+the BGE-divisive baseline, and that gain holds up after Holm correction across
+seven pairwise tests. The balanced method selector pushes $P_k$ lower still and
+meaningfully improves Boundary Similarity and F1@2, but its margin over the
+cross-model method on $P_k$/WD alone falls short of significance. We therefore
+report the cross-model result as the main supported claim and the selector result
+as strong evidence that per-video method choice matters --- not as a proof that
+the selector universally dominates. The leave-domain-out degradation (selector
+$P_k=0.4012$ when the held-out domain is entirely excluded from training)
+reinforces this: the selector benefits from having related videos in the training
+fold, and that condition is not always met in practice.
 
 \paragraph{The granularity finding.}
-The most actionable result from the ablation study is a systematic
+The most practically useful result from the ablation study is a systematic
 granularity mismatch. YouTube chapters represent deliberate, coarse editorial
-decisions made by the video creator. Linguistic and acoustic signals,
+decisions by the video creator. Linguistic and acoustic signals,
 including discourse markers ($P_k=0.4615$), BERTopic ($P_k=0.5632$), GPT-2
 perplexity ($P_k=0.4182$), and pause/pitch transitions ($P_k=0.4174$), detect
 sub-chapter rhetorical or acoustic changes and therefore over-segment
@@ -450,7 +444,7 @@ embeddings: slide scene changes are editorial choices comparable in
 granularity to chapter boundaries, and CLIP accordingly achieves
 $P_k=0.3958$ solo and $P_k=0.3740$ in text fusion, approaching the
 cross-model text result ($P_k=0.3715$). This finding is practically
-important: it means that slide-change detection is the most promising
+important because it means slide-change detection is the most promising
 non-text signal to add next, while prosodic and discourse-marker signals
 should be gated or suppressed.
 
@@ -464,8 +458,6 @@ candidate generation. This interpretation holds under the assumption that the
 candidate pool itself is not systematically biased; the oracle analysis
 cannot rule out that some fraction of the gap reflects pool-level
 limitations or reference-label noise rather than pure selection error.
-Within the evaluated framework, candidate selection appears to be the
-dominant remaining bottleneck.
 The most promising concrete next step is therefore a supervised boundary ranker:
 score each candidate with text-contrast, cross-model agreement, pause
 duration, slide-change, and OCR features, and select a non-overlapping
@@ -483,11 +475,11 @@ apart, the system and the creator chapter reference disagree about segment
 membership 37\% of the time.
 For a 90-minute lecture with 10 chapters (mean chapter duration approximately
 9 minutes), this translates roughly to the system correctly identifying the
-neighbourhood of each chapter transition in most cases but sometimes merging
+neighbourhood of each chapter transition in most cases but occasionally merging
 adjacent chapters or splitting a single chapter in two.
 A student using an \lecseg{}-segmented lecture would generally navigate to the
-correct major section but might need to scan a minute or two backward or
-forward to find the precise transition.
+correct major section but might need to scan a minute or two in either direction
+to find the precise transition.
 Relative to a non-chaptered lecture where the student must scrub from
 the beginning, this is a meaningful improvement; relative to a creator-chaptered
 video, there is still a visible gap, consistent with the selector not yet
@@ -501,6 +493,49 @@ They are not the comparison target; the claim is that a 30-video benchmark
 is sufficient to produce statistically supported improvements, a complete
 diagnostic account of signal failure, and precise oracle-gap evidence that is
 directly actionable for any future system, including large-scale ones.
+
+\section{Demonstration system}
+\label{sec:demo_system}
+
+To make the pipeline accessible beyond the command line, we built a Streamlit
+web application (\texttt{scripts/demo.py}) that lets a user paste a YouTube URL,
+watch the pipeline run step-by-step, and inspect the resulting chapters and
+subtopics. Figures~\ref{fig:webapp_landing}--\ref{fig:webapp_chapters} show
+the main screens.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figures/webapp_landing.png}
+  \caption{Landing screen of the \lecseg{} web demo. The user pastes a YouTube
+    URL and selects a segmentation model.}
+  \label{fig:webapp_landing}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figures/webapp_selector_pipeline.png}
+  \caption{Pipeline stepper and method-selector panel. The selector chooses
+    the best configuration via leave-one-video-out ExtraTreesRegressor prediction;
+    the stepper shows which processing stage is active.}
+  \label{fig:webapp_selector_pipeline}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figures/webapp_results.png}
+  \caption{Evaluation results panel showing $P_k$, WindowDiff, F1@2, and
+    Boundary Similarity for the processed video.}
+  \label{fig:webapp_results}
+\end{figure}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{figures/webapp_chapters.png}
+  \caption{Chapter and subtopic view. Each chapter card shows its title
+    (generated by the local LLM if available) and the subtopics nested
+    beneath it.}
+  \label{fig:webapp_chapters}
+\end{figure}
 
 \section{External spot-check validation}
 \label{sec:external_validation}
