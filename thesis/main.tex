@@ -1,32 +1,35 @@
-% ============================================================
-%  LECSEG — Hierarchical Multimodal Lecture-Video Topic Segmentation
-%  Undergraduate Thesis, BRAC University
-% ============================================================
+%*******************************************************************
+%   LECSEG — Hierarchical Multimodal Lecture-Video Topic Segmentation
+%   Undergraduate Thesis, BRAC University
+%   Department of Computer Science and Engineering
+%   Template: CSE400 Final Year Thesis Template (Fall 2024 onwards)
+%*******************************************************************
 
-\documentclass[12pt, a4paper, oneside]{book}
-
-% ----- Encoding & language -----
+\documentclass[Times,12pt,oneside,openany]{report}
+\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm]{geometry}
+\usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[english]{babel}
 \usepackage{lmodern}
 
-% ----- Layout -----
-\usepackage[a4paper, margin=1in, top=1.2in, bottom=1.2in]{geometry}
+% ----- Spacing & typography -----
 \usepackage{setspace}
 \onehalfspacing
 \usepackage{microtype}
+\setlength{\parindent}{0em}
 \usepackage{parskip}
 
-% ----- Math & symbols -----
+% ----- Math -----
 \usepackage{amsmath, amssymb, amsthm, mathtools}
 \usepackage{bm}
 
 % ----- Tables / figures -----
 \usepackage{graphicx}
+\graphicspath{{figures/}}
 \usepackage{booktabs}
 \usepackage{multirow}
 \usepackage{array}
+\usepackage{tabularx}
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{float}
@@ -37,55 +40,146 @@
 \usepackage{algpseudocode}
 \usepackage{listings}
 
-% ----- Hyperlinks & references -----
-\usepackage[hidelinks, breaklinks]{hyperref}
-\usepackage[capitalise, noabbrev]{cleveref}
+% ----- TOC binding -----
+\usepackage[nottoc]{tocbibind}
+
+% ----- Hyperlinks -----
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,
+    urlcolor=black,
+    citecolor=black,
+}
+\usepackage[capitalise,noabbrev]{cleveref}
 \usepackage{url}
 \usepackage{xurl}
 
-% ----- Bibliography -----
-\usepackage[numbers, sort&compress]{natbib}
+% ----- Bibliography (IEEE numeric) -----
+\usepackage[backend=biber,style=ieee,sorting=none]{biblatex}
+\addbibresource{bibliography/references.bib}
 
 % ----- Misc -----
 \usepackage{xcolor}
 \usepackage{enumitem}
-\usepackage{tabularx}
+\usepackage{csquotes}
 
 % ----- Custom commands -----
 \newcommand{\lecseg}{\textsc{LecSeg}}
 \newcommand{\dataset}{\textsc{LecSeg-30}}
 \setlength{\emergencystretch}{2em}
 
+% Remove unwanted blank pages
+\let\cleardoublepage=\clearpage
+
 % ============================================================
 \begin{document}
 
-% ----- Front matter -----
-\frontmatter
+\thispagestyle{empty}
 \input{frontmatter/titlepage}
+\cleardoublepage
+
+\pagenumbering{roman}
+
+% --- Declaration ---
+\phantomsection
+\addcontentsline{toc}{chapter}{Declaration}
 \input{frontmatter/declaration}
+\pagebreak
+
+% --- Approval ---
+\phantomsection
+\addcontentsline{toc}{chapter}{Approval}
+\input{frontmatter/approval}
+
+% --- Ethics Statement ---
+\phantomsection
+\addcontentsline{toc}{chapter}{Ethics Statement}
+\input{frontmatter/ethics_statement}
+
+% --- Abstract ---
+\phantomsection
+\addcontentsline{toc}{chapter}{Abstract}
 \input{frontmatter/abstract}
+\pagebreak
+
+% --- Dedication ---
+\phantomsection
+\addcontentsline{toc}{chapter}{Dedication}
+\input{frontmatter/dedication}
+
+% --- Acknowledgements ---
+\phantomsection
+\addcontentsline{toc}{chapter}{Acknowledgements}
 \input{frontmatter/acknowledgements}
+\pagebreak
+
+% --- Table of Contents ---
+\renewcommand{\contentsname}{Table of Contents}
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{Table of Contents}
 \tableofcontents
+
 \listoffigures
 \listoftables
 
-% ----- Main matter -----
-\mainmatter
+\cleardoublepage
+\pagenumbering{arabic}
+
+% ============================================================
+% MAIN MATTER
+% ============================================================
+
+\chapter{Introduction}
 \input{chapters/chapter1_introduction}
+
+\chapter{Literature Review}
 \input{chapters/chapter2_literature}
-\input{chapters/chapter3_methodology}
-\input{chapters/chapter4_results}
-\input{chapters/chapter5_conclusion}
-\input{chapters/chapter6_future_work}
 
-% ----- Bibliography -----
-\bibliographystyle{plainnat}
-\bibliography{bibliography/references}
+\chapter{Requirements, Impacts and Constraints}
+\input{chapters/chapter3_requirements}
 
-% ----- Back matter -----
+\chapter{Proposed Methodology}
+\input{chapters/chapter4_methodology}
+
+\chapter{Result Analysis}
+\input{chapters/chapter5_results}
+
+\chapter{Conclusion}
+\input{chapters/chapter6_conclusion}
+
+\chapter{Future Work}
+\input{chapters/chapter7_future_work}
+
+% ============================================================
+% BIBLIOGRAPHY
+% ============================================================
+\phantomsection
+\printbibliography
+\addcontentsline{toc}{chapter}{Bibliography}
+
+% ============================================================
+% APPENDICES
+% ============================================================
+\newpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Appendix A: Dataset Details}
 \appendix
+\chapter{Dataset Details}
 \input{appendices/appendix_a_dataset}
+
+\newpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Appendix B: Hyperparameters}
+\chapter{Hyperparameters}
 \input{appendices/appendix_b_hyperparameters}
+
+\newpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Appendix C: Additional Results}
+\chapter{Additional Results}
 \input{appendices/appendix_c_extra_results}
 
 \end{document}

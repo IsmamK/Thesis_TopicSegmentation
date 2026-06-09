@@ -1,0 +1,176 @@
+﻿% Chapter 3 â€” Requirements, Impacts and Constraints
+% Template-required chapter (CSE400 Fall 2024 onwards)
+
+\section{Final Specifications and Requirements}
+
+\lecseg{} is a text-first, offline lecture-video topic segmentation system.
+Its concrete technical requirements are:
+
+\begin{enumerate}
+  \item \textbf{Input:} A Whisper transcript (JSON) or pre-chunked auto-captions
+        from yt-dlp. Minimum viable input is a plain-text transcript chunked into
+        pseudo-sentences of 20--30 words.
+  \item \textbf{Embeddings:} One sentence-transformer model from the supported set
+        (BGE-M3, E5-large-v2, MPNet, MiniLM). BGE-M3 is the default; CPU inference
+        requires $\approx$3 minutes per 60-minute lecture on a mid-range machine.
+  \item \textbf{Output:} A list of boundary timestamps (seconds) with optional
+        LLM-generated chapter titles when Ollama is available.
+  \item \textbf{Ground-truth format:} Chapter timestamps in the \texttt{data/gt/}
+        JSON schema; used only at evaluation time, not at inference time.
+  \item \textbf{Software stack:} Python 3.10+, PyTorch $\geq$2.0, sentence-transformers,
+        spaCy \texttt{en\_core\_web\_sm}, scikit-learn, librosa. All packages are
+        MIT- or Apache-2.0-licensed.
+  \item \textbf{Hardware:} No GPU required for inference. Whisper large-v3
+        transcription benefits from a GPU but can run on CPU for short videos.
+\end{enumerate}
+
+\section{Societal Impact}
+
+Lecture segmentation directly lowers the barrier to self-directed learning.
+When a two-hour recorded lecture is automatically divided into labelled chapters,
+a student who has ten minutes can locate and revisit a specific concept rather
+than scrubbing through an undivided recording.
+At scale this has measurable equity implications: learners without institutional
+library access, returning students balancing work and study, and learners in
+lower-bandwidth environments all benefit from shorter, addressable clips rather
+than monolithic recordings.
+
+The \lecseg{} pipeline is fully offline and transmits no student data to any
+third-party service, which preserves learner privacy and allows deployment in
+institutions with strict data-residency requirements.
+Because all components are open-source, the system can be self-hosted at zero
+licensing cost by any university, eliminating the access barrier that commercial
+captioning and chapter-generation services create.
+
+\section{Environmental Impact}
+
+The pipeline is designed to run on a single CPU-only consumer laptop.
+The most computationally intensive inference step --- BGE-M3 sentence embedding ---
+processes a 60-minute lecture in under three minutes on a mid-range CPU; no GPU
+is required for inference or evaluation.
+
+Transcription was performed once on a rented cloud GPU (RTX 5090, $\approx$1.5
+GPU-hours total for all 30 videos), after which transcripts are cached and reused
+indefinitely.
+The method selector (logistic regression over hand-crafted features) has
+negligible training energy.
+Contrast this with transformer fine-tuning approaches: a single training run of
+a 110M-parameter BERT model for 3 epochs on comparable data typically consumes
+$>$50 GPU-hours.
+The \lecseg{} design therefore has a substantially lower carbon footprint than
+fine-tuning-based segmentation systems.
+
+\section{Ethical Issues}
+
+All 30 \dataset{} videos are publicly available on YouTube under the channel
+owners' terms of service.
+No personally identifiable information beyond publicly available lecture content
+is stored or redistributed.
+The annotation labels capture only temporal boundary positions; no judgements
+about individual lecturers' teaching quality or competence are expressed.
+
+The LLM draft annotations (Ollama/llama3.1:8b) run entirely on-device; no
+prompts or transcripts are transmitted to external services.
+The system cannot and does not make decisions about student grades, access, or
+academic progression --- it is a navigation aid, not an evaluative tool.
+Researchers reusing \dataset{} should note that creator-supplied YouTube chapter
+labels reflect editorial intent, not authoritative pedagogical ground truth;
+treating them as such would be a misuse of the corpus.
+
+\section{Standards}
+
+The evaluation protocol follows community-accepted standards for text
+segmentation:
+\begin{itemize}
+  \item $P_k$~\cite{beeferman1999statistical} and WindowDiff~\cite{pevzner2002critique}
+        are the de-facto standard metrics for segmentation evaluation, used in
+        all major benchmarks since 2000.
+  \item Bootstrap confidence intervals (1{,}000 resamples, 95\%) follow
+        \cite{efron1993_bootstrap}.
+  \item Holm-corrected Wilcoxon signed-rank tests follow the standard correction
+        for family-wise error rate in pairwise comparisons.
+  \item The FAIR principles (Findable, Accessible, Interoperable, Reusable) are
+        met: the corpus, labels, code, and pre-computed results are all published
+        in the public GitHub repository under permissive licences.
+\end{itemize}
+
+\section{Project Management Plan}
+
+The project followed a staged milestone structure over 20 weeks:
+
+\begin{center}
+\begin{tabular}{lll}
+  \toprule
+  Phase & Weeks & Deliverable \\
+  \midrule
+  1. Dataset construction \& annotation & 1--6  & Annotated \dataset{} corpus \\
+  2. Baseline implementation \& ablation & 7--10 & Ablation results table \\
+  3. Novel method development (N1--N4)   & 11--14 & Component code + eval \\
+  4. Statistical testing \& external validation & 15--17 & Results JSON + charts \\
+  5. Thesis writing \& revision          & 18--20 & Final thesis PDF \\
+  \bottomrule
+\end{tabular}
+\end{center}
+
+Each phase produced a concrete, independently reviewable artifact.
+Version control (Git) was used throughout; the full repository history at
+\url{https://github.com/IsmamK/Thesis_TopicSegmentation} serves as the
+project log.
+Task tracking followed a numbered task list (Tasks T01--T47) maintained in
+\texttt{progress.yaml}.
+
+\section{Risk Management}
+
+Three principal risks were identified at project start; all materialised and
+were mitigated:
+
+\begin{enumerate}
+  \item \textbf{Annotation bottleneck.}
+        \textit{Risk:} Manual double-annotation of 32 hours of video would take
+        $>$40 annotator-hours, creating a schedule bottleneck.
+        \textit{Mitigation:} LLM draft annotations (Ollama llama3.1:8b) were used
+        as a first pass, reducing human effort to review and correction
+        ($\approx$8 hours total).
+
+  \item \textbf{Transcription cost.}
+        \textit{Risk:} Running Whisper large-v3 locally on 32.52 hours of audio
+        would require $>$48 CPU-hours.
+        \textit{Mitigation:} A short GPU burst on a rented cloud instance (RTX 5090,
+        1.5 hours, $\approx$\$1 USD) completed all transcription in one session.
+
+  \item \textbf{Benchmark data leakage.}
+        \textit{Risk:} Using any of the 30 \dataset{} videos in the external
+        validation set would inflate reported generalisation.
+        \textit{Mitigation:} A hard exclusion list (\texttt{LECSEG30\_IDS}) is
+        maintained in \texttt{scripts/external\_eval.py} and checked at runtime.
+\end{enumerate}
+
+\section{Economic Analysis}
+
+\textbf{Development cost:}
+\begin{itemize}
+  \item Cloud GPU rental (transcription): $\approx$\$1 USD (one-time)
+  \item Software licences: \$0 (all components MIT/Apache-2.0)
+  \item Storage: $\approx$2 GB for embeddings and transcripts (free on any local machine)
+\end{itemize}
+
+\textbf{Deployment cost per university:}
+\begin{itemize}
+  \item Transcription: $\approx$\$0.03 per lecture-hour using the Whisper API,
+        or free using local CPU (slower).
+  \item Inference (embedding + segmentation): $\approx$3 CPU-minutes per
+        lecture-hour; effectively free on any server.
+  \item Storage: $\approx$4 MB per lecture-hour for embeddings.
+\end{itemize}
+
+\textbf{Cost-benefit:}
+A university with 1{,}000 recorded lectures ($\approx$2{,}000 hours) could
+auto-segment the entire archive for under \$60 in transcription API costs, or
+free using local CPU over approximately one week.
+The navigability benefit --- students finding content in minutes rather than
+scrubbing through hours --- represents a measurable reduction in study-time
+waste across the institution.
+Compared to commercial lecture-segmentation SaaS products (typical cost:
+\$0.50--\$2.00 per lecture-hour), the open-source \lecseg{} pipeline offers a
+cost saving of 95\%+ for institutions willing to self-host.
+

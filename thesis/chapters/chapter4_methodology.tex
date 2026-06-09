@@ -1,4 +1,4 @@
-\chapter{Methodology}
+﻿\chapter{Methodology}
 \label{chap:methodology}
 
 \section{Pipeline architecture}
@@ -147,7 +147,7 @@ The subtopic-level figure ($\kappa=0.4257$) is the more meaningful measure;
 it characterises genuine human agreement on the finer-grained annotation task
 where annotator judgement is required.
 A $\kappa$ in the 0.40--0.60 range is conventionally interpreted as moderate
-agreement~\citep{fournier2012}, which is appropriate for a subjective
+agreement~\cite{fournier2012}, which is appropriate for a subjective
 discourse-segmentation task where reasonable annotators can disagree on
 whether a rhetorical transition merits a boundary mark.
 This limitation is documented as a threat to annotation validity in
@@ -159,7 +159,7 @@ Section~\ref{sec:threats_validity}.
 \subsection{Speech recognition}
 
 Audio was transcribed using \texttt{faster-whisper} v1.x with the
-Whisper large-v3 model~\citep{radford2023robust} on an NVIDIA RTX~5090 GPU.
+Whisper large-v3 model~\cite{radford2023robust} on an NVIDIA RTX~5090 GPU.
 We used \texttt{beam\_size=1} and Silero VAD pre-filtering
 (\texttt{min\_silence\_duration\_ms=500}) for speed, with \texttt{float16}
 compute type.
@@ -177,7 +177,7 @@ This produced an average of $N = 847 \pm 512$ sentences per video.
 
 \subsection{Visual streams}
 
-Shot boundaries were detected with TransNetV2~\citep{soucek2020transnet},
+Shot boundaries were detected with TransNetV2~\cite{soucek2020transnet},
 which produces per-frame boundary probabilities at $25$~fps.
 Boundaries exceeding a threshold of $0.5$ were mapped to the nearest sentence
 timestamp.
@@ -190,18 +190,18 @@ We extracted two scalar prosodic features per sentence:
 (1)~\emph{pause duration}: the Whisper-reported inter-segment gap immediately
 preceding the sentence ($\geq 300$~ms counted as a significant pause);
 (2)~\emph{mean F0}: the average voiced pitch over the sentence's audio span,
-estimated by PYIN~\citep{mauch2014pyin} via librosa.
+estimated by PYIN~\cite{mauch2014pyin} via librosa.
 
 \section{Feature extraction}
 \label{sec:features}
 
-Text embeddings were computed with \texttt{sentence-transformers}~\citep{reimers2019sbert}.
+Text embeddings were computed with \texttt{sentence-transformers}~\cite{reimers2019sbert}.
 The primary models evaluated are \texttt{BAAI/bge-large-en-v1.5} (1024-dim) and
 \texttt{intfloat/e5-large-v2} (1024-dim), which produce the best boundary-scoring
 results. We also evaluated \texttt{all-mpnet-base-v2} (768-dim), \texttt{all-MiniLM-L6-v2},
 and \texttt{intfloat/e5-base-v2} as lighter ablation variants.
 Visual keyframe embeddings were computed with CLIP ViT-B/32
-(512-dim, L2-normalised)~\citep{radford2021clip}.
+(512-dim, L2-normalised)~\cite{radford2021clip}.
 Prosodic features were $z$-scored per video before fusion.
 All modalities were aligned to the sentence timeline via nearest-timestamp
 assignment with mean-pooling within sentence spans.
@@ -349,7 +349,7 @@ operating point, not as a domain-general deployment model.
 \subsection{Primary metrics: $P_k$ and WindowDiff}
 
 The two primary evaluation metrics in this thesis are $P_k$
-\citep{beeferman1999statistical} and WindowDiff \citep{pevzner2002critique}.
+\cite{beeferman1999statistical} and WindowDiff \cite{pevzner2002critique}.
 Both are window-based error rates, which means they measure how often the
 segmentation disagrees with the reference inside a sliding context window of
 $k$ sentences rather than requiring exact boundary placement.
@@ -365,7 +365,7 @@ agree on whether a boundary falls between them; the score is the fraction of
 pairs that disagree. Lower $P_k$ is better; 0.5 is the random baseline;
 0.0 is perfect.
 
-WindowDiff \citep{pevzner2002critique} corrects a known $P_k$ bias: $P_k$
+WindowDiff \cite{pevzner2002critique} corrects a known $P_k$ bias: $P_k$
 can be gamed by placing all boundaries at the start. WindowDiff counts the
 number of reference boundaries and predicted boundaries within each window
 and penalises the absolute difference, giving an asymmetric penalty that
@@ -395,7 +395,7 @@ reported only to characterise the operating point.
 
 \begin{description}
   \item[Boundary Similarity (BS, higher is better)] A boundary-level F-score
-    variant normalised by boundary density~\citep{fournier2012}. Reported as
+    variant normalised by boundary density~\cite{fournier2012}. Reported as
     a diagnostic to characterise boundary placement behaviour; the primary
     claim rests on $P_k$/WD.
   \item[Tolerance-$F_1$ (higher is better)] Precision/recall of predicted
@@ -411,7 +411,7 @@ reported only to characterise the operating point.
 
 Methods requiring $n_{\text{segments}}$ receive the ground-truth count in the
 main controlled evaluation, consistent with standard segmentation practice
-for measuring boundary placement~\citep{choi2000latent}. This is not a fully
+for measuring boundary placement~\cite{choi2000latent}. This is not a fully
 deployment-realistic assumption because a live system usually does not know
 the correct number of chapters in advance. Therefore, Chapter~\ref{chap:results}
 also reports boundary-count error and discusses automatic-count/deployment
@@ -424,3 +424,4 @@ Metric values are reported as means $\pm$ 95\% bootstrap confidence intervals
 For pairwise method comparisons we use the paired Wilcoxon signed-rank test
 (normal approximation, $\alpha = 0.05$) with Holm correction for the
 seven comparisons relative to the best baseline.
+

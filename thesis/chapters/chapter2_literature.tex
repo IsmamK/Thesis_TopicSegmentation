@@ -1,4 +1,4 @@
-\chapter{Literature Review}
+﻿\chapter{Literature Review}
 \label{chap:literature}
 
 \section{Three phases of segmentation research}
@@ -10,13 +10,13 @@ remain competitive in the right conditions.
 The \emph{classical} phase of the 1990s and 2000s built on the intuition that
 topic shifts produce lexical discontinuities: if the words used in one passage
 differ markedly from those used in the next, a boundary lies
-between them~\citep{hearst1994multi,choi2000latent}. This works reasonably well
+between them~\cite{hearst1994multi,choi2000latent}. This works reasonably well
 for encyclopaedic text but degrades on academic lectures, where domain
 vocabulary (``gradient'', ``eigenvalue'', ``cell membrane'') persists across
 topic boundaries regardless of the underlying argument structure.
 
 \emph{Neural} methods, arriving from around 2018, replaced bag-of-words
-representations with dense contextual embeddings~\citep{koshorek2018text,reimers2019sbert}.
+representations with dense contextual embeddings~\cite{koshorek2018text,reimers2019sbert}.
 Operating in embedding space rather than token space, these methods are
 substantially more robust to vocabulary reuse. Their practical limitation ---
 the need for large pretrained language models --- diminished quickly as
@@ -24,7 +24,7 @@ open-weight sentence-transformer checkpoints became available, and they now
 represent the clear baseline approach for any zero-shot segmentation task.
 
 \emph{Multimodal} extensions incorporated visual, audio, and structural
-signals from video recordings~\citep{yu2024_multimodal,cao2022_chaptergen,yang2023_vidchapters}.
+signals from video recordings~\cite{yu2024_multimodal,cao2022_chaptergen,yang2023_vidchapters}.
 These methods can achieve strong results when labelled training data are
 available, but they have generally been developed on different benchmarks and
 evaluated under different metrics, making direct comparison difficult.
@@ -77,7 +77,7 @@ detectors of discourse transitions, not of editorial decisions.
 
 \subsection{TextTiling}
 
-TextTiling~\citep{hearst1994multi} detects boundaries at local minima of a
+TextTiling~\cite{hearst1994multi} detects boundaries at local minima of a
 lexical similarity profile computed over sliding windows of $k$ sentences.
 The method's underlying assumption --- that topic shifts manifest as drops in
 shared vocabulary frequency --- holds for encyclopaedic text with relatively
@@ -93,7 +93,7 @@ short lecture segments but cannot address the vocabulary-reuse problem.
 
 \subsection{C99}
 
-C99~\citep{choi2000latent} applies a rank transformation to the full
+C99~\cite{choi2000latent} applies a rank transformation to the full
 cosine-similarity matrix before using a diagonal-dominance criterion to locate
 boundaries. By operating on ranked rather than raw similarity values, it is
 less distorted by term-frequency outliers than TextTiling --- an advantage on
@@ -104,7 +104,7 @@ distinctions that neural embeddings exploit. We use it as classical baseline B2.
 
 \subsection{Bayesian topic models}
 
-Eisenstein and Barzilay~\citep{eisenstein2008bayesian} modelled segmentation as
+Eisenstein and Barzilay~\cite{eisenstein2008bayesian} modelled segmentation as
 inference in a hierarchical Bayesian topic model, offering principled uncertainty
 estimates over boundaries. The approach is theoretically attractive but
 computationally expensive and requires careful hyperparameter tuning; it is
@@ -115,7 +115,7 @@ omitted from the main comparison but included for completeness in related work.
 
 \subsection{Cosine-drop segmentation}
 
-Sentence transformers~\citep{reimers2019sbert} opened a practical path beyond
+Sentence transformers~\cite{reimers2019sbert} opened a practical path beyond
 lexical methods. The simplest approach --- compute cosine similarity between
 adjacent sentence embeddings and place boundaries at depth-score valleys ---
 is surprisingly effective. Its strength is operating in semantic rather than
@@ -134,9 +134,9 @@ classical baselines and motivates its use as baseline B3.
 
 \subsection{Supervised neural segmentation}
 
-Koshorek et al.~\citep{koshorek2018text} trained the first supervised neural
+Koshorek et al.~\cite{koshorek2018text} trained the first supervised neural
 segmenter (TextSeg) using BERT embeddings with a classification head.
-Li et al.~\citep{li2018segbot} proposed SegBot with a biLSTM scorer.
+Li et al.~\cite{li2018segbot} proposed SegBot with a biLSTM scorer.
 Both achieve strong results on their training distribution, but the distribution
 matters: a model trained on Wikipedia-style text learns the structure of
 encyclopaedic writing, not the pedagogical argument structure of spoken
@@ -159,7 +159,7 @@ uninterrupted academic monologues lasting an hour or more.
 \subsection{Lecture video segmentation}
 
 Supervised multimodal lecture-segmentation systems can achieve strong
-$P_k$/WD results when labelled lecture data are available~\citep{yu2024_multimodal},
+$P_k$/WD results when labelled lecture data are available~\cite{yu2024_multimodal},
 which establishes an existence proof that fusion of visual and textual signals
 can help. The limitation for this thesis is that such systems require domain-
 matched labelled data that \lecseg{} does not have, and they rarely discuss
@@ -197,13 +197,13 @@ may align with discourse-level transitions that match the finer annotations
 used in those corpora, while misaligning with the coarser creator chapters
 in \dataset{}.
 
-The AVLectures dataset~\citep{yang2023_vidchapters} covers 2,350+ lectures
+The AVLectures dataset~\cite{yang2023_vidchapters} covers 2,350+ lectures
 across 86 STEM courses and uses a self-supervised alignment method without
 chapter labels. It demonstrates that unsupervised audio-visual alignment is
 tractable at scale, but it does not report $P_k$/WD and is not directly
 comparable.
 
-TreeSeg~\citep{gklezakos2024_treeseg} is the closest directly comparable
+TreeSeg~\cite{gklezakos2024_treeseg} is the closest directly comparable
 system. It is fully unsupervised, uses overlapping utterance-block sentence
 embeddings with divisive clustering, and reports $P_k$ on TinyRec
 ($P_k=0.367$, 21 self-recorded lectures), ICSI meetings ($P_k=0.310$),
@@ -227,13 +227,13 @@ boundary-selection bottleneck finding possible to state precisely.
 
 Recent chaptering work has moved toward industrial scale. Chapter-Gen
 localises and titles chapters in thousands of
-videos~\citep{cao2022_chaptergen}. VidChapters-7M extends to hundreds of
+videos~\cite{cao2022_chaptergen}. VidChapters-7M extends to hundreds of
 thousands of videos and evaluates under generation and
-temporal-localisation metrics~\citep{yang2023_vidchapters}.
+temporal-localisation metrics~\cite{yang2023_vidchapters}.
 MiniSeg/YTSEG reports strong supervised results on 19,299
-videos~\citep{retkowski2024_miniseg}. Chapter-Llama demonstrates that
+videos~\cite{retkowski2024_miniseg}. Chapter-Llama demonstrates that
 long-context LLM chaptering is competitive at
-VidChapters scale~\citep{ventura2025_chapterllama}. These systems are
+VidChapters scale~\cite{ventura2025_chapterllama}. These systems are
 stronger than \lecseg{} in raw performance and are not the comparison target.
 Their metrics and training assumptions are incompatible with the \lecseg{}
 framework. Tables~\ref{tab:external_scale}--\ref{tab:low_resource_positioning}
@@ -247,7 +247,7 @@ record the scale differences and make the claim boundary explicit.
 \label{sec:hierarchical_lit}
 
 Hierarchical topic segmentation has been studied under the heading of
-discourse parsing~\citep{mann1988rst}. The chapter/subtopic distinction in
+discourse parsing~\cite{mann1988rst}. The chapter/subtopic distinction in
 \lecseg{} is motivated by this tradition, though the annotation is not
 full RST parsing. The nesting constraint
 $\mathcal{B}_{\text{chapter}} \subseteq \mathcal{B}_{\text{subtopic}}$
@@ -257,10 +257,10 @@ deliberate simplification justified by the low-resource setting.
 \section{Local open language models}
 \label{sec:llm_lit}
 
-The availability of open-weight models such as Llama-3.1~\citep{meta2024llama3}
+The availability of open-weight models such as Llama-3.1~\cite{meta2024llama3}
 makes it practical to run LLM inference locally, avoiding the reproducibility
 and privacy concerns of closed APIs. Compact open-weight models are competitive
-on many zero-shot NLP tasks~\citep{jiang2024mixtral}. We use Llama-3.1-8B
+on many zero-shot NLP tasks~\cite{jiang2024mixtral}. We use Llama-3.1-8B
 (GGUF Q4) for boundary refinement and segment titling. The contribution of
 this component is evaluated empirically in Chapter~\ref{chap:results};
 it does not improve $P_k$/WD in our experiments.
@@ -284,10 +284,10 @@ metrics, annotation-reliability figures, and honest reporting of failure.
     \toprule
     Method & Open & Multimodal & Hierarchical & Public benchmark \\
     \midrule
-    TextTiling~\citep{hearst1994multi}       & \checkmark & --- & --- & --- \\
-    C99~\citep{choi2000latent}               & \checkmark & --- & --- & --- \\
-    BertSeg~\citep{koshorek2018text}         & \checkmark & --- & --- & (p) \\
-    Multimodal VTS~\citep{yu2024_multimodal} & --- & \checkmark & --- & --- \\
+    TextTiling~\cite{hearst1994multi}       & \checkmark & --- & --- & --- \\
+    C99~\cite{choi2000latent}               & \checkmark & --- & --- & --- \\
+    BertSeg~\cite{koshorek2018text}         & \checkmark & --- & --- & (p) \\
+    Multimodal VTS~\cite{yu2024_multimodal} & --- & \checkmark & --- & --- \\
     Meeting/topic hierarchy methods          & (p) & (p) & (p) & --- \\
     \midrule
     \lecseg{} (this work)                   & \checkmark & (p) & \checkmark & \checkmark \\
@@ -333,3 +333,4 @@ These four choices jointly motivate the \lecseg{} design and make the
 results interpretable. The contribution is not a new algorithm but a benchmark
 and diagnostic framework that makes the low-resource failure modes visible
 and, crucially, reproducible.
+

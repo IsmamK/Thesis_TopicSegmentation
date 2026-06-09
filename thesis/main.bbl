@@ -1,146 +1,962 @@
-\begin{thebibliography}{24}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem[Beeferman et~al.(1999)Beeferman, Berger, and
-  Lafferty]{beeferman1999statistical}
-Doug Beeferman, Adam Berger, and John Lafferty.
-\newblock Statistical models for text segmentation.
-\newblock In \emph{Machine Learning}, volume~34, pages 177--210, 1999.
 
-\bibitem[Cao et~al.(2022)Cao, Yang, Weng, Zhang, Wang, and
-  Zou]{cao2022_chaptergen}
-Meng Cao, Tianyu Yang, Junwu Weng, Can Zhang, Jue Wang, and Yuexian Zou.
-\newblock Locating and describing video chapters, 2022.
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{yang2023_vidchapters}{misc}{}{}
+      \name{author}{5}{}{%
+        {{hash=297069eee91717ad6161df3b4fc8d7d9}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod}}}%
+        {{hash=55c445dbb57fb138c54db8279c896406}{%
+           family={Nagrani},
+           familyi={N\bibinitperiod},
+           given={Arsha},
+           giveni={A\bibinitperiod}}}%
+        {{hash=91122039bd34bd0a796ccae30967fd3c}{%
+           family={Laptev},
+           familyi={L\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+        {{hash=58e4a9845eac42a4b0e5205cf0970fc0}{%
+           family={Schmid},
+           familyi={S\bibinitperiod},
+           given={Cordelia},
+           giveni={C\bibinitperiod}}}%
+        {{hash=928b303d802c0389256c746430ef1935}{%
+           family={Sivic},
+           familyi={S\bibinitperiod},
+           given={Josef},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{3be168fcf1a36298b9886a6ac46a6500}
+      \strng{fullhash}{1bbeb00ab85e97a5be98656b5b2952c0}
+      \strng{fullhashraw}{1bbeb00ab85e97a5be98656b5b2952c0}
+      \strng{bibnamehash}{1bbeb00ab85e97a5be98656b5b2952c0}
+      \strng{authorbibnamehash}{1bbeb00ab85e97a5be98656b5b2952c0}
+      \strng{authornamehash}{3be168fcf1a36298b9886a6ac46a6500}
+      \strng{authorfullhash}{1bbeb00ab85e97a5be98656b5b2952c0}
+      \strng{authorfullhashraw}{1bbeb00ab85e97a5be98656b5b2952c0}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{{VidChapters-7M}: Video Chapters at Scale}
+      \field{year}{2023}
+      \verb{eprint}
+      \verb 2309.13952
+      \endverb
+    \endentry
+    \entry{cao2022_chaptergen}{misc}{}{}
+      \name{author}{6}{}{%
+        {{hash=ea3d6db7f14619daaf5f84dd3b03b2b6}{%
+           family={Cao},
+           familyi={C\bibinitperiod},
+           given={Meng},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2c9a27ffcace1854b9d1993815521230}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Tianyu},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f49df5863a3408d8fa84ef65f3d36c14}{%
+           family={Weng},
+           familyi={W\bibinitperiod},
+           given={Junwu},
+           giveni={J\bibinitperiod}}}%
+        {{hash=87e2b7775292d4f87a15ce757c5a855b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Can},
+           giveni={C\bibinitperiod}}}%
+        {{hash=22895eda8b037b0434291a8911f78d18}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jue},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f9b0f8db65843805f255802e69ba0a68}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={Yuexian},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{77b658769a4e288fdaf18e5f37becaba}
+      \strng{fullhash}{4689d65527c0b6592cf9add89b1c5483}
+      \strng{fullhashraw}{4689d65527c0b6592cf9add89b1c5483}
+      \strng{bibnamehash}{4689d65527c0b6592cf9add89b1c5483}
+      \strng{authorbibnamehash}{4689d65527c0b6592cf9add89b1c5483}
+      \strng{authornamehash}{77b658769a4e288fdaf18e5f37becaba}
+      \strng{authorfullhash}{4689d65527c0b6592cf9add89b1c5483}
+      \strng{authorfullhashraw}{4689d65527c0b6592cf9add89b1c5483}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{Locating and Describing Video Chapters}
+      \field{year}{2022}
+      \verb{eprint}
+      \verb 2209.12694
+      \endverb
+    \endentry
+    \entry{janin2003icsi}{inproceedings}{}{}
+      \name{author}{11}{}{%
+        {{hash=20a439a5edf4b9bec3e97ac64d6d2937}{%
+           family={Janin},
+           familyi={J\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c521ab592d258f90e4e609ee9d4ed8c6}{%
+           family={Baron},
+           familyi={B\bibinitperiod},
+           given={Don},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2ce1cdb2c7bc66bbee658ce425789295}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod}}}%
+        {{hash=036e0eb02fc58b1712db6826565759ed}{%
+           family={Ellis},
+           familyi={E\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b2959c36151509fa9f06ffb1dc033bdc}{%
+           family={Gelbart},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ce9079188e489a18acb728cdffe67973}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={Nelson},
+           giveni={N\bibinitperiod}}}%
+        {{hash=41ee3ad24c8a97250ebade7d70622643}{%
+           family={Peskin},
+           familyi={P\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod}}}%
+        {{hash=7ed6cfef90d9de41a00df11cd697f87d}{%
+           family={Pfau},
+           familyi={P\bibinitperiod},
+           given={Thilo},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b8c39064afb0fc856d901d3df4d6b306}{%
+           family={Shriberg},
+           familyi={S\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod}}}%
+        {{hash=8b60cd3ee633c8d1d585f08b92fefbf4}{%
+           family={Stolcke},
+           familyi={S\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6850219015c63d97ba8f6dce974b27b2}{%
+           family={Wooters},
+           familyi={W\bibinitperiod},
+           given={Chuck},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{d72a2930d948df64bb9b7a2ecf1ba898}
+      \strng{fullhash}{15ed360042fafd0cdae95396282216a9}
+      \strng{fullhashraw}{15ed360042fafd0cdae95396282216a9}
+      \strng{bibnamehash}{d72a2930d948df64bb9b7a2ecf1ba898}
+      \strng{authorbibnamehash}{d72a2930d948df64bb9b7a2ecf1ba898}
+      \strng{authornamehash}{d72a2930d948df64bb9b7a2ecf1ba898}
+      \strng{authorfullhash}{15ed360042fafd0cdae95396282216a9}
+      \strng{authorfullhashraw}{15ed360042fafd0cdae95396282216a9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of {ICASSP}}
+      \field{title}{The {ICSI} meeting corpus}
+      \field{year}{2003}
+      \field{pages}{364\bibrangedash 367}
+      \range{pages}{4}
+    \endentry
+    \entry{mccowan2005ami}{inproceedings}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=cc807dda042362d07b2920b3369c266c}{%
+           family={McCowan},
+           familyi={M\bibinitperiod},
+           given={Iain},
+           giveni={I\bibinitperiod}}}%
+        {{hash=a99c8d7daac6f6967dd856b930e78bd0}{%
+           family={Carletta},
+           familyi={C\bibinitperiod},
+           given={Jean},
+           giveni={J\bibinitperiod}}}%
+        {{hash=45c7157e4c844bc1ddd134b0ad60c8a5}{%
+           family={Kraaij},
+           familyi={K\bibinitperiod},
+           given={Wessel},
+           giveni={W\bibinitperiod}}}%
+        {{hash=93aa3fe4e3ef3f150a3bc856c1930638}{%
+           family={Ashby},
+           familyi={A\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+        {{hash=737239fcf1f2f2649bc9bbe24e1508b3}{%
+           family={Bourban},
+           familyi={B\bibinitperiod},
+           given={Sebastien},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6d98cdd8f2858b182c3219903f20ef0a}{%
+           family={Flynn},
+           familyi={F\bibinitperiod},
+           given={Mike},
+           giveni={M\bibinitperiod}}}%
+        {{hash=322bba5a05454335760726ab5b09aece}{%
+           family={Guillemot},
+           familyi={G\bibinitperiod},
+           given={Mael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9d2c122385cc21071982b3bbc486387f}{%
+           family={Hain},
+           familyi={H\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=62e984de94d36dd70bbec62fcade762b}{%
+           family={Kadlec},
+           familyi={K\bibinitperiod},
+           given={Jaroslav},
+           giveni={J\bibinitperiod}}}%
+        {{hash=dd8d382d34b3f5e7ecc66c01b16e5022}{%
+           family={Karaiskos},
+           familyi={K\bibinitperiod},
+           given={Vasilis},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{23bcc9cbc6e81fb92db9a62624554ec9}
+      \strng{fullhash}{36b2cb01d14c33790525dbf7c3728558}
+      \strng{fullhashraw}{36b2cb01d14c33790525dbf7c3728558}
+      \strng{bibnamehash}{23bcc9cbc6e81fb92db9a62624554ec9}
+      \strng{authorbibnamehash}{23bcc9cbc6e81fb92db9a62624554ec9}
+      \strng{authornamehash}{23bcc9cbc6e81fb92db9a62624554ec9}
+      \strng{authorfullhash}{36b2cb01d14c33790525dbf7c3728558}
+      \strng{authorfullhashraw}{36b2cb01d14c33790525dbf7c3728558}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 5th International Conference on Methods and Techniques in Behavioral Research}
+      \field{title}{The {AMI} meeting corpus}
+      \field{volume}{88}
+      \field{year}{2005}
+    \endentry
+    \entry{retkowski2024_miniseg}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=731e09644cef903caf21cbc8e7b04d0b}{%
+           family={Retkowski},
+           familyi={R\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=1c280e4ce17f691c30da8b4fa950466e}{%
+           family={Waibel},
+           familyi={W\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c9a50ed6362cd731768e55bccbe72a7}
+      \strng{fullhash}{1c9a50ed6362cd731768e55bccbe72a7}
+      \strng{fullhashraw}{1c9a50ed6362cd731768e55bccbe72a7}
+      \strng{bibnamehash}{1c9a50ed6362cd731768e55bccbe72a7}
+      \strng{authorbibnamehash}{1c9a50ed6362cd731768e55bccbe72a7}
+      \strng{authornamehash}{1c9a50ed6362cd731768e55bccbe72a7}
+      \strng{authorfullhash}{1c9a50ed6362cd731768e55bccbe72a7}
+      \strng{authorfullhashraw}{1c9a50ed6362cd731768e55bccbe72a7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{{MiniSeg}: A lightweight model for topic segmentation and smart chaptering}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2402.17633
+      \endverb
+    \endentry
+    \entry{ventura2025_chapterllama}{misc}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=a68a9a84d07893ae2bff338cd81ca12e}{%
+           family={Ventura},
+           familyi={V\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{3dfa911128633b74323571e56e973c5c}
+      \strng{fullhash}{3dfa911128633b74323571e56e973c5c}
+      \strng{fullhashraw}{3dfa911128633b74323571e56e973c5c}
+      \strng{bibnamehash}{3dfa911128633b74323571e56e973c5c}
+      \strng{authorbibnamehash}{3dfa911128633b74323571e56e973c5c}
+      \strng{authornamehash}{3dfa911128633b74323571e56e973c5c}
+      \strng{authorfullhash}{3dfa911128633b74323571e56e973c5c}
+      \strng{authorfullhashraw}{3dfa911128633b74323571e56e973c5c}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{{Chapter-Llama}: Efficient Chaptering in Hour-Long Videos with {LLMs}}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2504.00072
+      \endverb
+    \endentry
+    \entry{hearst1994multi}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=45330e5d45157c38c5519d8cdb6cb1d8}{%
+           family={Hearst},
+           familyi={H\bibinitperiod},
+           given={Marti\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{45330e5d45157c38c5519d8cdb6cb1d8}
+      \strng{fullhash}{45330e5d45157c38c5519d8cdb6cb1d8}
+      \strng{fullhashraw}{45330e5d45157c38c5519d8cdb6cb1d8}
+      \strng{bibnamehash}{45330e5d45157c38c5519d8cdb6cb1d8}
+      \strng{authorbibnamehash}{45330e5d45157c38c5519d8cdb6cb1d8}
+      \strng{authornamehash}{45330e5d45157c38c5519d8cdb6cb1d8}
+      \strng{authorfullhash}{45330e5d45157c38c5519d8cdb6cb1d8}
+      \strng{authorfullhashraw}{45330e5d45157c38c5519d8cdb6cb1d8}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 32nd Annual Meeting of the Association for Computational Linguistics}
+      \field{title}{Multi-paragraph segmentation of expository text}
+      \field{year}{1994}
+    \endentry
+    \entry{choi2000latent}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=2173e71ccf83616d1474303e437f0555}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Freddy\bibnamedelimb Y.\bibnamedelimi Y.},
+           giveni={F\bibinitperiod\bibinitdelim Y\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{2173e71ccf83616d1474303e437f0555}
+      \strng{fullhash}{2173e71ccf83616d1474303e437f0555}
+      \strng{fullhashraw}{2173e71ccf83616d1474303e437f0555}
+      \strng{bibnamehash}{2173e71ccf83616d1474303e437f0555}
+      \strng{authorbibnamehash}{2173e71ccf83616d1474303e437f0555}
+      \strng{authornamehash}{2173e71ccf83616d1474303e437f0555}
+      \strng{authorfullhash}{2173e71ccf83616d1474303e437f0555}
+      \strng{authorfullhashraw}{2173e71ccf83616d1474303e437f0555}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of {NAACL}}
+      \field{title}{Advances in domain independent linear text segmentation}
+      \field{year}{2000}
+      \field{pages}{26\bibrangedash 33}
+      \range{pages}{8}
+    \endentry
+    \entry{koshorek2018text}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=04e105603203469ce4355bd05d235ded}{%
+           family={Koshorek},
+           familyi={K\bibinitperiod},
+           given={Omri},
+           giveni={O\bibinitperiod}}}%
+        {{hash=3f406568c4bba8619fd4826b840ec264}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Adir},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fd807f9eb4a24aefaf66fdfc447e0916}{%
+           family={Mor},
+           familyi={M\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0795acbd5cc82461e8b229f9e4da7d48}{%
+           family={Rotman},
+           familyi={R\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=59365fb6f8cc1328f2453e8fb33dfba4}{%
+           family={Berant},
+           familyi={B\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{2dedc1dae6ddb0b433d8ac2eee48c996}
+      \strng{fullhash}{d6a7b3a4acb649d86b89b29781b22220}
+      \strng{fullhashraw}{d6a7b3a4acb649d86b89b29781b22220}
+      \strng{bibnamehash}{d6a7b3a4acb649d86b89b29781b22220}
+      \strng{authorbibnamehash}{d6a7b3a4acb649d86b89b29781b22220}
+      \strng{authornamehash}{2dedc1dae6ddb0b433d8ac2eee48c996}
+      \strng{authorfullhash}{d6a7b3a4acb649d86b89b29781b22220}
+      \strng{authorfullhashraw}{d6a7b3a4acb649d86b89b29781b22220}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of {NAACL}}
+      \field{title}{Text segmentation as a supervised learning task}
+      \field{year}{2018}
+    \endentry
+    \entry{reimers2019sbert}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=da9947b27b0d1c4c912e2b391426d443}{%
+           family={Reimers},
+           familyi={R\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ea70b44be1920f6e8c379706bc7d047a}{%
+           family={Gurevych},
+           familyi={G\bibinitperiod},
+           given={Iryna},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{fullhash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{fullhashraw}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{bibnamehash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{authorbibnamehash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{authornamehash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{authorfullhash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{authorfullhashraw}{2466af6376c9c5e3658dcc6692351f3e}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of {EMNLP}}
+      \field{eprinttype}{arXiv}
+      \field{title}{{Sentence-BERT}: Sentence embeddings using {Siamese} {BERT}-networks}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1908.10084
+      \endverb
+    \endentry
+    \entry{yu2024_multimodal}{misc}{}{}
+      \name{author}{6}{}{%
+        {{hash=dcff920374dc7ce494a98bfc5bf98c35}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Hai},
+           giveni={H\bibinitperiod}}}%
+        {{hash=58d920555cc87fc6b1ee449c4db08f35}{%
+           family={Deng},
+           familyi={D\bibinitperiod},
+           given={Chong},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6a48c93a215b6c3d08f8c2d27d81e06d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Qinglin},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=bc98214822c077c7b89fbcf4e5904852}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jiaqing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b6fff56e4c606d8c37bb384da63c33e3}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Qian},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=04cdb4a24855839e54389c90008c17fc}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Wen},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{34a78381ef67b4a1a771036082570921}
+      \strng{fullhash}{bb5a7693f22c5649b59a911cb7b33c9d}
+      \strng{fullhashraw}{bb5a7693f22c5649b59a911cb7b33c9d}
+      \strng{bibnamehash}{bb5a7693f22c5649b59a911cb7b33c9d}
+      \strng{authorbibnamehash}{bb5a7693f22c5649b59a911cb7b33c9d}
+      \strng{authornamehash}{34a78381ef67b4a1a771036082570921}
+      \strng{authorfullhash}{bb5a7693f22c5649b59a911cb7b33c9d}
+      \strng{authorfullhashraw}{bb5a7693f22c5649b59a911cb7b33c9d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{Multimodal lecture video topic segmentation with cross-modal coherence modelling}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2408.00365
+      \endverb
+    \endentry
+    \entry{eisenstein2008bayesian}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=c63e034ea77c7c55818aa4da5f40f479}{%
+           family={Eisenstein},
+           familyi={E\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=de391703fb0c2fdf733b3a0095bc32ce}{%
+           family={Barzilay},
+           familyi={B\bibinitperiod},
+           given={Regina},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{3c23f58ea5775be1ba4377d9cf3ac7fb}
+      \strng{fullhash}{3c23f58ea5775be1ba4377d9cf3ac7fb}
+      \strng{fullhashraw}{3c23f58ea5775be1ba4377d9cf3ac7fb}
+      \strng{bibnamehash}{3c23f58ea5775be1ba4377d9cf3ac7fb}
+      \strng{authorbibnamehash}{3c23f58ea5775be1ba4377d9cf3ac7fb}
+      \strng{authornamehash}{3c23f58ea5775be1ba4377d9cf3ac7fb}
+      \strng{authorfullhash}{3c23f58ea5775be1ba4377d9cf3ac7fb}
+      \strng{authorfullhashraw}{3c23f58ea5775be1ba4377d9cf3ac7fb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of {EMNLP}}
+      \field{title}{Bayesian unsupervised topic segmentation}
+      \field{year}{2008}
+    \endentry
+    \entry{li2018segbot}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=bcdd73174e26b44169c10e9083e72469}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8b562490f05b03da5ef1aca562e8b589}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Aixin},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bc9e8da4d88a783135ef12ff3dccff70}{%
+           family={Joty},
+           familyi={J\bibinitperiod},
+           given={Shafiq},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{0797a8fa4ff947089a1c0b1996838ed7}
+      \strng{fullhash}{0d079314406aad7da707e8e8c5ee1449}
+      \strng{fullhashraw}{0d079314406aad7da707e8e8c5ee1449}
+      \strng{bibnamehash}{0d079314406aad7da707e8e8c5ee1449}
+      \strng{authorbibnamehash}{0d079314406aad7da707e8e8c5ee1449}
+      \strng{authornamehash}{0797a8fa4ff947089a1c0b1996838ed7}
+      \strng{authorfullhash}{0d079314406aad7da707e8e8c5ee1449}
+      \strng{authorfullhashraw}{0d079314406aad7da707e8e8c5ee1449}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of {IJCAI}}
+      \field{title}{{SegBot}: A generic neural text segmentation model with pointer network}
+      \field{year}{2018}
+    \endentry
+    \entry{gklezakos2024_treeseg}{misc}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=f5f9a0fb9050699c3af94d59efc2216e}{%
+           family={Gklezakos},
+           familyi={G\bibinitperiod},
+           given={Dimitrios},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{665d82e9883a5837252614c4d6472a22}
+      \strng{fullhash}{665d82e9883a5837252614c4d6472a22}
+      \strng{fullhashraw}{665d82e9883a5837252614c4d6472a22}
+      \strng{bibnamehash}{665d82e9883a5837252614c4d6472a22}
+      \strng{authorbibnamehash}{665d82e9883a5837252614c4d6472a22}
+      \strng{authornamehash}{665d82e9883a5837252614c4d6472a22}
+      \strng{authorfullhash}{665d82e9883a5837252614c4d6472a22}
+      \strng{authorfullhashraw}{665d82e9883a5837252614c4d6472a22}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{{TreeSeg}: Unsupervised topic segmentation through divisive clustering}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2407.12028
+      \endverb
+    \endentry
+    \entry{mann1988rst}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=563f8403b123f318931470603517361a}{%
+           family={Mann},
+           familyi={M\bibinitperiod},
+           given={William\bibnamedelima C.},
+           giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=eb305fa887260887403fb1989826a9dc}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={Sandra\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Text}%
+      }
+      \strng{namehash}{746516db45bc1b9737d6549fc3e2416b}
+      \strng{fullhash}{746516db45bc1b9737d6549fc3e2416b}
+      \strng{fullhashraw}{746516db45bc1b9737d6549fc3e2416b}
+      \strng{bibnamehash}{746516db45bc1b9737d6549fc3e2416b}
+      \strng{authorbibnamehash}{746516db45bc1b9737d6549fc3e2416b}
+      \strng{authornamehash}{746516db45bc1b9737d6549fc3e2416b}
+      \strng{authorfullhash}{746516db45bc1b9737d6549fc3e2416b}
+      \strng{authorfullhashraw}{746516db45bc1b9737d6549fc3e2416b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Rhetorical Structure Theory: Toward a functional theory of text organization}
+      \field{year}{1988}
+    \endentry
+    \entry{meta2024llama3}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=ca43b8b2bdf82aa380c9fed8712d8db8}{%
+           family={{Meta AI}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca43b8b2bdf82aa380c9fed8712d8db8}
+      \strng{fullhash}{ca43b8b2bdf82aa380c9fed8712d8db8}
+      \strng{fullhashraw}{ca43b8b2bdf82aa380c9fed8712d8db8}
+      \strng{bibnamehash}{ca43b8b2bdf82aa380c9fed8712d8db8}
+      \strng{authorbibnamehash}{ca43b8b2bdf82aa380c9fed8712d8db8}
+      \strng{authornamehash}{ca43b8b2bdf82aa380c9fed8712d8db8}
+      \strng{authorfullhash}{ca43b8b2bdf82aa380c9fed8712d8db8}
+      \strng{authorfullhashraw}{ca43b8b2bdf82aa380c9fed8712d8db8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{The {Llama 3} herd of models}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2407.21783
+      \endverb
+    \endentry
+    \entry{jiang2024mixtral}{misc}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=a91e014a59af240c37c0fc26432a125b}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Albert\bibnamedelima Q.},
+           giveni={A\bibinitperiod\bibinitdelim Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{066da2bf78c9b2e3d4c5f5a2cc6c4bff}
+      \strng{fullhash}{066da2bf78c9b2e3d4c5f5a2cc6c4bff}
+      \strng{fullhashraw}{066da2bf78c9b2e3d4c5f5a2cc6c4bff}
+      \strng{bibnamehash}{066da2bf78c9b2e3d4c5f5a2cc6c4bff}
+      \strng{authorbibnamehash}{066da2bf78c9b2e3d4c5f5a2cc6c4bff}
+      \strng{authornamehash}{066da2bf78c9b2e3d4c5f5a2cc6c4bff}
+      \strng{authorfullhash}{066da2bf78c9b2e3d4c5f5a2cc6c4bff}
+      \strng{authorfullhashraw}{066da2bf78c9b2e3d4c5f5a2cc6c4bff}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{Mixtral of Experts}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2401.04088
+      \endverb
+    \endentry
+    \entry{beeferman1999statistical}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=a87b2f9ff1eaa8c31dd58702627d0e43}{%
+           family={Beeferman},
+           familyi={B\bibinitperiod},
+           given={Doug},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8df2877c815c4f82dd2b4a07fbfe4d31}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+        {{hash=88426f033c21f91cad168597555d363d}{%
+           family={Lafferty},
+           familyi={L\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{787fcf2e79daed26ec5fcccf49c3e296}
+      \strng{fullhash}{fa9947e3f8be129dfc9e2d6d6b3b39b9}
+      \strng{fullhashraw}{fa9947e3f8be129dfc9e2d6d6b3b39b9}
+      \strng{bibnamehash}{fa9947e3f8be129dfc9e2d6d6b3b39b9}
+      \strng{authorbibnamehash}{fa9947e3f8be129dfc9e2d6d6b3b39b9}
+      \strng{authornamehash}{787fcf2e79daed26ec5fcccf49c3e296}
+      \strng{authorfullhash}{fa9947e3f8be129dfc9e2d6d6b3b39b9}
+      \strng{authorfullhashraw}{fa9947e3f8be129dfc9e2d6d6b3b39b9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Machine Learning}
+      \field{title}{Statistical models for text segmentation}
+      \field{volume}{34}
+      \field{year}{1999}
+      \field{pages}{177\bibrangedash 210}
+      \range{pages}{34}
+    \endentry
+    \entry{pevzner2002critique}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=33e69b6b15e1381e5596829be035a054}{%
+           family={Pevzner},
+           familyi={P\bibinitperiod},
+           given={Lev},
+           giveni={L\bibinitperiod}}}%
+        {{hash=45330e5d45157c38c5519d8cdb6cb1d8}{%
+           family={Hearst},
+           familyi={H\bibinitperiod},
+           given={Marti\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{9efaffe214e04fa0a78b847bd8f79d40}
+      \strng{fullhash}{9efaffe214e04fa0a78b847bd8f79d40}
+      \strng{fullhashraw}{9efaffe214e04fa0a78b847bd8f79d40}
+      \strng{bibnamehash}{9efaffe214e04fa0a78b847bd8f79d40}
+      \strng{authorbibnamehash}{9efaffe214e04fa0a78b847bd8f79d40}
+      \strng{authornamehash}{9efaffe214e04fa0a78b847bd8f79d40}
+      \strng{authorfullhash}{9efaffe214e04fa0a78b847bd8f79d40}
+      \strng{authorfullhashraw}{9efaffe214e04fa0a78b847bd8f79d40}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computational Linguistics}
+      \field{number}{1}
+      \field{title}{A critique and improvement of an evaluation metric for text segmentation}
+      \field{volume}{28}
+      \field{year}{2002}
+      \field{pages}{19\bibrangedash 36}
+      \range{pages}{18}
+    \endentry
+    \entry{efron1993_bootstrap}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=5470455fc7dceb3ccf6db38cb22a113d}{%
+           family={Efron},
+           familyi={E\bibinitperiod},
+           given={Bradley},
+           giveni={B\bibinitperiod}}}%
+        {{hash=678c48302939b4b85d5ad2d85319617a}{%
+           family={Tibshirani},
+           familyi={T\bibinitperiod},
+           given={Robert\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Chapman \& Hall}%
+      }
+      \strng{namehash}{5c03685c9f7f37796bba48432d40df61}
+      \strng{fullhash}{5c03685c9f7f37796bba48432d40df61}
+      \strng{fullhashraw}{5c03685c9f7f37796bba48432d40df61}
+      \strng{bibnamehash}{5c03685c9f7f37796bba48432d40df61}
+      \strng{authorbibnamehash}{5c03685c9f7f37796bba48432d40df61}
+      \strng{authornamehash}{5c03685c9f7f37796bba48432d40df61}
+      \strng{authorfullhash}{5c03685c9f7f37796bba48432d40df61}
+      \strng{authorfullhashraw}{5c03685c9f7f37796bba48432d40df61}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An introduction to the bootstrap}
+      \field{year}{1993}
+    \endentry
+    \entry{fournier2012}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=df2751689c1f0ea3fe68beec9d583eb4}{%
+           family={Fournier},
+           familyi={F\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{df2751689c1f0ea3fe68beec9d583eb4}
+      \strng{fullhash}{df2751689c1f0ea3fe68beec9d583eb4}
+      \strng{fullhashraw}{df2751689c1f0ea3fe68beec9d583eb4}
+      \strng{bibnamehash}{df2751689c1f0ea3fe68beec9d583eb4}
+      \strng{authorbibnamehash}{df2751689c1f0ea3fe68beec9d583eb4}
+      \strng{authornamehash}{df2751689c1f0ea3fe68beec9d583eb4}
+      \strng{authorfullhash}{df2751689c1f0ea3fe68beec9d583eb4}
+      \strng{authorfullhashraw}{df2751689c1f0ea3fe68beec9d583eb4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of {ACL}}
+      \field{title}{Evaluating text segmentation using boundary edit distance}
+      \field{year}{2013}
+    \endentry
+    \entry{radford2023robust}{misc}{}{}
+      \name{author}{6}{}{%
+        {{hash=a812c46caad94fc8701be37871f303ba}{%
+           family={Radford},
+           familyi={R\bibinitperiod},
+           given={Alec},
+           giveni={A\bibinitperiod}}}%
+        {{hash=37a96525bc70870f8509160f7eccf4b7}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jong\bibnamedelima Wook},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=1eed631dd35845a607a45dd35d948203}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=7ae2a0efeaf9c031f9b420bcb1c19e54}{%
+           family={Brockman},
+           familyi={B\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod}}}%
+        {{hash=6d3e5097d8af9c8bdf8388f00d5179ac}{%
+           family={McLeavey},
+           familyi={M\bibinitperiod},
+           given={Christine},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8d569d1d5b8b5a7836017a98b430f959}{%
+           family={Sutskever},
+           familyi={S\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca3baa5a22057195db1c71be39b4c922}
+      \strng{fullhash}{e202abc1ca19ec84987f68e0aec49fa3}
+      \strng{fullhashraw}{e202abc1ca19ec84987f68e0aec49fa3}
+      \strng{bibnamehash}{e202abc1ca19ec84987f68e0aec49fa3}
+      \strng{authorbibnamehash}{e202abc1ca19ec84987f68e0aec49fa3}
+      \strng{authornamehash}{ca3baa5a22057195db1c71be39b4c922}
+      \strng{authorfullhash}{e202abc1ca19ec84987f68e0aec49fa3}
+      \strng{authorfullhashraw}{e202abc1ca19ec84987f68e0aec49fa3}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{title}{Robust speech recognition via large-scale weak supervision}
+      \field{year}{2022}
+      \verb{eprint}
+      \verb 2212.04356
+      \endverb
+    \endentry
+    \entry{soucek2020transnet}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=266721f7e42215dfb4b37d523ccc47ed}{%
+           family={Souček},
+           familyi={S\bibinitperiod},
+           given={Tomáš},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1b2e2e9076ed77c3f21937ea2501bfd1}{%
+           family={Lokoč},
+           familyi={L\bibinitperiod},
+           given={Jakub},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{76daabb7e6f3f72a94f35e5b835e8322}
+      \strng{fullhash}{76daabb7e6f3f72a94f35e5b835e8322}
+      \strng{fullhashraw}{76daabb7e6f3f72a94f35e5b835e8322}
+      \strng{bibnamehash}{76daabb7e6f3f72a94f35e5b835e8322}
+      \strng{authorbibnamehash}{76daabb7e6f3f72a94f35e5b835e8322}
+      \strng{authornamehash}{76daabb7e6f3f72a94f35e5b835e8322}
+      \strng{authorfullhash}{76daabb7e6f3f72a94f35e5b835e8322}
+      \strng{authorfullhashraw}{76daabb7e6f3f72a94f35e5b835e8322}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of {ACM MM} (companion)}
+      \field{title}{{TransNet V2}: An effective deep network architecture for fast shot transition detection}
+      \field{year}{2020}
+    \endentry
+    \entry{mauch2014pyin}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=7f77caa962497cb9c40003a419dac272}{%
+           family={Mauch},
+           familyi={M\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a9aae0a8ca29e8a3ecc7d2bbf3f6c76e}{%
+           family={Dixon},
+           familyi={D\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{40e5cf4801a851646127a5a9509b92db}
+      \strng{fullhash}{40e5cf4801a851646127a5a9509b92db}
+      \strng{fullhashraw}{40e5cf4801a851646127a5a9509b92db}
+      \strng{bibnamehash}{40e5cf4801a851646127a5a9509b92db}
+      \strng{authorbibnamehash}{40e5cf4801a851646127a5a9509b92db}
+      \strng{authornamehash}{40e5cf4801a851646127a5a9509b92db}
+      \strng{authorfullhash}{40e5cf4801a851646127a5a9509b92db}
+      \strng{authorfullhashraw}{40e5cf4801a851646127a5a9509b92db}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the {IEEE} International Conference on Acoustics, Speech and Signal Processing ({ICASSP})}
+      \field{title}{{pYIN}: A fundamental frequency estimator using probabilistic threshold distributions}
+      \field{year}{2014}
+    \endentry
+    \entry{radford2021clip}{inproceedings}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=a812c46caad94fc8701be37871f303ba}{%
+           family={Radford},
+           familyi={R\bibinitperiod},
+           given={Alec},
+           giveni={A\bibinitperiod}}}%
+        {{hash=37a96525bc70870f8509160f7eccf4b7}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jong\bibnamedelima Wook},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=4d5d078d439e163a02d9d1ba0002bb12}{%
+           family={Hallacy},
+           familyi={H\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca3baa5a22057195db1c71be39b4c922}
+      \strng{fullhash}{af20628f74d89d7dbc8d26cdb9ca4900}
+      \strng{fullhashraw}{af20628f74d89d7dbc8d26cdb9ca4900}
+      \strng{bibnamehash}{af20628f74d89d7dbc8d26cdb9ca4900}
+      \strng{authorbibnamehash}{af20628f74d89d7dbc8d26cdb9ca4900}
+      \strng{authornamehash}{ca3baa5a22057195db1c71be39b4c922}
+      \strng{authorfullhash}{af20628f74d89d7dbc8d26cdb9ca4900}
+      \strng{authorfullhashraw}{af20628f74d89d7dbc8d26cdb9ca4900}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of {ICML}}
+      \field{title}{Learning transferable visual models from natural language supervision}
+      \field{year}{2021}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
 
-\bibitem[Choi(2000)]{choi2000latent}
-Freddy Y.~Y. Choi.
-\newblock Advances in domain independent linear text segmentation.
-\newblock In \emph{Proceedings of {NAACL}}, pages 26--33, 2000.
-
-\bibitem[Eisenstein and Barzilay(2008)]{eisenstein2008bayesian}
-Jacob Eisenstein and Regina Barzilay.
-\newblock Bayesian unsupervised topic segmentation.
-\newblock In \emph{Proceedings of {EMNLP}}, 2008.
-
-\bibitem[Fournier(2013)]{fournier2012}
-Chris Fournier.
-\newblock Evaluating text segmentation using boundary edit distance.
-\newblock In \emph{Proceedings of {ACL}}, 2013.
-
-\bibitem[Gklezakos et~al.(2024)]{gklezakos2024_treeseg}
-Dimitrios Gklezakos et~al.
-\newblock {TreeSeg}: Unsupervised topic segmentation through divisive
-  clustering, 2024.
-
-\bibitem[Hearst(1994)]{hearst1994multi}
-Marti~A. Hearst.
-\newblock Multi-paragraph segmentation of expository text.
-\newblock \emph{Proceedings of the 32nd Annual Meeting of the Association for
-  Computational Linguistics}, 1994.
-
-\bibitem[Janin et~al.(2003)Janin, Baron, Edwards, Ellis, Gelbart, Morgan,
-  Peskin, Pfau, Shriberg, Stolcke, and Wooters]{janin2003icsi}
-Adam Janin, Don Baron, Jane Edwards, Dan Ellis, David Gelbart, Nelson Morgan,
-  Barbara Peskin, Thilo Pfau, Elizabeth Shriberg, Andreas Stolcke, and Chuck
-  Wooters.
-\newblock The {ICSI} meeting corpus.
-\newblock In \emph{Proceedings of {ICASSP}}, pages 364--367, 2003.
-
-\bibitem[Jiang et~al.(2024)]{jiang2024mixtral}
-Albert~Q. Jiang et~al.
-\newblock Mixtral of experts, 2024.
-
-\bibitem[Koshorek et~al.(2018)Koshorek, Cohen, Mor, Rotman, and
-  Berant]{koshorek2018text}
-Omri Koshorek, Adir Cohen, Noam Mor, Michael Rotman, and Jonathan Berant.
-\newblock Text segmentation as a supervised learning task.
-\newblock In \emph{Proceedings of {NAACL}}, 2018.
-
-\bibitem[Li et~al.(2018)Li, Sun, and Joty]{li2018segbot}
-Jing Li, Aixin Sun, and Shafiq Joty.
-\newblock {SegBot}: A generic neural text segmentation model with pointer
-  network.
-\newblock In \emph{Proceedings of {IJCAI}}, 2018.
-
-\bibitem[Mann and Thompson(1988)]{mann1988rst}
-William~C. Mann and Sandra~A. Thompson.
-\newblock \emph{Rhetorical Structure Theory: Toward a functional theory of text
-  organization}.
-\newblock Text, 1988.
-
-\bibitem[Mauch and Dixon(2014)]{mauch2014pyin}
-Matthias Mauch and Simon Dixon.
-\newblock {pYIN}: A fundamental frequency estimator using probabilistic
-  threshold distributions.
-\newblock In \emph{Proceedings of the {IEEE} International Conference on
-  Acoustics, Speech and Signal Processing ({ICASSP})}, 2014.
-
-\bibitem[McCowan et~al.(2005)McCowan, Carletta, Kraaij, Ashby, Bourban, Flynn,
-  Guillemot, Hain, Kadlec, Karaiskos, et~al.]{mccowan2005ami}
-Iain McCowan, Jean Carletta, Wessel Kraaij, Simone Ashby, Sebastien Bourban,
-  Mike Flynn, Mael Guillemot, Thomas Hain, Jaroslav Kadlec, Vasilis Karaiskos,
-  et~al.
-\newblock The {AMI} meeting corpus.
-\newblock In \emph{Proceedings of the 5th International Conference on Methods
-  and Techniques in Behavioral Research}, volume~88, 2005.
-
-\bibitem[{Meta AI}(2024)]{meta2024llama3}
-{Meta AI}.
-\newblock The {Llama 3} herd of models, 2024.
-
-\bibitem[Pevzner and Hearst(2002)]{pevzner2002critique}
-Lev Pevzner and Marti~A. Hearst.
-\newblock A critique and improvement of an evaluation metric for text
-  segmentation.
-\newblock \emph{Computational Linguistics}, 28\penalty0 (1):\penalty0 19--36,
-  2002.
-
-\bibitem[Radford et~al.(2021)Radford, Kim, Hallacy, et~al.]{radford2021clip}
-Alec Radford, Jong~Wook Kim, Chris Hallacy, et~al.
-\newblock Learning transferable visual models from natural language
-  supervision.
-\newblock In \emph{Proceedings of {ICML}}, 2021.
-
-\bibitem[Radford et~al.(2022)Radford, Kim, Xu, Brockman, McLeavey, and
-  Sutskever]{radford2023robust}
-Alec Radford, Jong~Wook Kim, Tao Xu, Greg Brockman, Christine McLeavey, and
-  Ilya Sutskever.
-\newblock Robust speech recognition via large-scale weak supervision, 2022.
-
-\bibitem[Reimers and Gurevych(2019)]{reimers2019sbert}
-Nils Reimers and Iryna Gurevych.
-\newblock {Sentence-BERT}: Sentence embeddings using {Siamese} {BERT}-networks.
-\newblock In \emph{Proceedings of {EMNLP}}, 2019.
-
-\bibitem[Retkowski and Waibel(2024)]{retkowski2024_miniseg}
-Fabian Retkowski and Alexander Waibel.
-\newblock {MiniSeg}: A lightweight model for topic segmentation and smart
-  chaptering, 2024.
-
-\bibitem[Sou\v{c}ek and Loko\v{c}(2020)]{soucek2020transnet}
-Tom\'a\v{s} Sou\v{c}ek and Jakub Loko\v{c}.
-\newblock {TransNet V2}: An effective deep network architecture for fast shot
-  transition detection.
-\newblock In \emph{Proceedings of {ACM MM} (companion)}, 2020.
-
-\bibitem[Ventura et~al.(2025)]{ventura2025_chapterllama}
-Francesco Ventura et~al.
-\newblock {Chapter-Llama}: Efficient chaptering in hour-long videos with
-  {LLMs}, 2025.
-
-\bibitem[Yang et~al.(2023)Yang, Nagrani, Laptev, Schmid, and
-  Sivic]{yang2023_vidchapters}
-Antoine Yang, Arsha Nagrani, Ivan Laptev, Cordelia Schmid, and Josef Sivic.
-\newblock {VidChapters-7M}: Video chapters at scale, 2023.
-
-\bibitem[Yu et~al.(2024)Yu, Deng, Zhang, Liu, Chen, and
-  Wang]{yu2024_multimodal}
-Hai Yu, Chong Deng, Qinglin Zhang, Jiaqing Liu, Qian Chen, and Wen Wang.
-\newblock Multimodal lecture video topic segmentation with cross-modal
-  coherence modelling, 2024.
-
-\end{thebibliography}
