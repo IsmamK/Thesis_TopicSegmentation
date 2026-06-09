@@ -1,0 +1,6161 @@
+{
+  "video_id": "SdzQzgE_L1Y",
+  "sentences": [
+    {
+      "idx": 0,
+      "start": 7.759,
+      "end": 17.76,
+      "text": "So we have different the compiler."
+    },
+    {
+      "idx": 1,
+      "start": 12.559,
+      "end": 19.785,
+      "text": "Now one one question uh typically"
+    },
+    {
+      "idx": 2,
+      "start": 17.76,
+      "end": 24.16,
+      "text": "students ask like why compiler design"
+    },
+    {
+      "idx": 3,
+      "start": 20.88,
+      "end": 26.88,
+      "text": "right why compiler design like why we"
+    },
+    {
+      "idx": 4,
+      "start": 24.16,
+      "end": 31.119,
+      "text": "should be interested in compiler design."
+    },
+    {
+      "idx": 5,
+      "start": 26.88,
+      "end": 33.2,
+      "text": "It seems like most of us will not"
+    },
+    {
+      "idx": 6,
+      "start": 31.119,
+      "end": 36.033,
+      "text": "develop new programming language."
+    },
+    {
+      "idx": 7,
+      "start": 33.2,
+      "end": 38.954,
+      "text": "Most of us will not probably have"
+    },
+    {
+      "idx": 8,
+      "start": 36.48,
+      "end": 41.745,
+      "text": "a carrier on improving compiler."
+    },
+    {
+      "idx": 9,
+      "start": 40.0,
+      "end": 43.095,
+      "text": "clears throat] So why is that?"
+    },
+    {
+      "idx": 10,
+      "start": 43.92,
+      "end": 48.1,
+      "text": "Part of our mandatory."
+    },
+    {
+      "idx": 11,
+      "start": 48.239,
+      "end": 52.259,
+      "text": "It's not an elective course,"
+    },
+    {
+      "idx": 12,
+      "start": 50.0,
+      "end": 54.555,
+      "text": "It's a like program code."
+    },
+    {
+      "idx": 13,
+      "start": 53.12,
+      "end": 60.64,
+      "text": "So the reason we are so interested in"
+    },
+    {
+      "idx": 14,
+      "start": 56.559,
+      "end": 62.8,
+      "text": "compiler itself basically it completes"
+    },
+    {
+      "idx": 15,
+      "start": 62.8,
+      "end": 70.72,
+      "text": "of how the comp computer actually works."
+    },
+    {
+      "idx": 16,
+      "start": 66.88,
+      "end": 74.72,
+      "text": "Okay, you understand that when we are"
+    },
+    {
+      "idx": 17,
+      "start": 70.72,
+      "end": 79.36,
+      "text": "programming the computer when using"
+    },
+    {
+      "idx": 18,
+      "start": 74.72,
+      "end": 82.825,
+      "text": "things like C, Java, Python, right?"
+    },
+    {
+      "idx": 19,
+      "start": 79.36,
+      "end": 85.68,
+      "text": "if you're um you know in mobile"
+    },
+    {
+      "idx": 20,
+      "start": 83.52,
+      "end": 87.84,
+      "text": "computing then you have like frameworks"
+    },
+    {
+      "idx": 21,
+      "start": 85.68,
+      "end": 90.148,
+      "text": "like flatter and stuff like that."
+    },
+    {
+      "idx": 22,
+      "start": 87.84,
+      "end": 93.119,
+      "text": "do web development, you do the right"
+    },
+    {
+      "idx": 23,
+      "start": 90.96,
+      "end": 96.32,
+      "text": "there are lot of things right to"
+    },
+    {
+      "idx": 24,
+      "start": 93.119,
+      "end": 100.24,
+      "text": "actually write programs that the"
+    },
+    {
+      "idx": 25,
+      "start": 96.32,
+      "end": 102.836,
+      "text": "computer executes all right but the way"
+    },
+    {
+      "idx": 26,
+      "start": 100.24,
+      "end": 105.36,
+      "text": "you write the program all right"
+    },
+    {
+      "idx": 27,
+      "start": 102.836,
+      "end": 108.32,
+      "text": "[clears throat] is very similar to the"
+    },
+    {
+      "idx": 28,
+      "start": 105.36,
+      "end": 112.24,
+      "text": "way you actually talk to other but it's"
+    },
+    {
+      "idx": 29,
+      "start": 108.32,
+      "end": 114.88,
+      "text": "just more formal all right and"
+    },
+    {
+      "idx": 30,
+      "start": 112.24,
+      "end": 116.72,
+      "text": "mathematically oriented right so to give"
+    },
+    {
+      "idx": 31,
+      "start": 114.88,
+      "end": 119.119,
+      "text": "you an example"
+    },
+    {
+      "idx": 32,
+      "start": 116.72,
+      "end": 122.719,
+      "text": "In Java if you want to write a loop you"
+    },
+    {
+      "idx": 33,
+      "start": 119.119,
+      "end": 124.024,
+      "text": "will either use while four."
+    },
+    {
+      "idx": 34,
+      "start": 122.719,
+      "end": 129.679,
+      "text": "So while four is kind of sgest a"
+    },
+    {
+      "idx": 35,
+      "start": 125.84,
+      "end": 133.44,
+      "text": "repetitive pattern in our natural"
+    },
+    {
+      "idx": 36,
+      "start": 129.679,
+      "end": 132.115,
+      "text": "Similarly if we"
+    },
+    {
+      "idx": 37,
+      "start": 133.44,
+      "end": 136.959,
+      "text": "want to implement a branching so we'll"
+    },
+    {
+      "idx": 38,
+      "start": 136.959,
+      "end": 143.2,
+      "text": "else otherwise right these are the kind"
+    },
+    {
+      "idx": 39,
+      "start": 139.76,
+      "end": 142.387,
+      "text": "of terms we use."
+    },
+    {
+      "idx": 40,
+      "start": 142.387,
+      "end": 144.358,
+      "text": "So the terms"
+    },
+    {
+      "idx": 41,
+      "start": 143.2,
+      "end": 148.48,
+      "text": "we use to actually express a"
+    },
+    {
+      "idx": 42,
+      "start": 146.0,
+      "end": 150.72,
+      "text": "mathematical construct any program is a"
+    },
+    {
+      "idx": 43,
+      "start": 148.48,
+      "end": 154.319,
+      "text": "mathematical construct at the end right."
+    },
+    {
+      "idx": 44,
+      "start": 150.72,
+      "end": 156.16,
+      "text": "So the terms we use in our human"
+    },
+    {
+      "idx": 45,
+      "start": 156.16,
+      "end": 162.0,
+      "text": "these are the terms we are using to"
+    },
+    {
+      "idx": 46,
+      "start": 158.48,
+      "end": 166.16,
+      "text": "interact with the computer also right"
+    },
+    {
+      "idx": 47,
+      "start": 162.0,
+      "end": 168.879,
+      "text": "but we know from our understanding of"
+    },
+    {
+      "idx": 48,
+      "start": 166.16,
+      "end": 170.48,
+      "text": "all the you know"
+    },
+    {
+      "idx": 49,
+      "start": 170.48,
+      "end": 175.92,
+      "text": "courses computer doesn't understand"
+    },
+    {
+      "idx": 50,
+      "start": 172.959,
+      "end": 177.76,
+      "text": "anything such things need right the only"
+    },
+    {
+      "idx": 51,
+      "start": 177.76,
+      "end": 183.28,
+      "text": "is binary instructions"
+    },
+    {
+      "idx": 52,
+      "start": 180.319,
+      "end": 184.408,
+      "text": "And the thing it can do is very"
+    },
+    {
+      "idx": 53,
+      "start": 183.28,
+      "end": 185.48,
+      "text": "It can do a single"
+    },
+    {
+      "idx": 54,
+      "start": 185.2,
+      "end": 191.12,
+      "text": "addition, single multiplication, right?"
+    },
+    {
+      "idx": 55,
+      "start": 187.68,
+      "end": 195.12,
+      "text": "It can move the piece of data from your"
+    },
+    {
+      "idx": 56,
+      "start": 191.12,
+      "end": 195.798,
+      "text": "RAM to your CPU, right?"
+    },
+    {
+      "idx": 57,
+      "start": 195.798,
+      "end": 198.239,
+      "text": "Or move some"
+    },
+    {
+      "idx": 58,
+      "start": 195.12,
+      "end": 203.28,
+      "text": "data from CPU register back to the RAM."
+    },
+    {
+      "idx": 59,
+      "start": 198.239,
+      "end": 202.568,
+      "text": "Very elementary level."
+    },
+    {
+      "idx": 60,
+      "start": 203.28,
+      "end": 208.239,
+      "text": "However, the code they are writing, they"
+    },
+    {
+      "idx": 61,
+      "start": 205.519,
+      "end": 208.134,
+      "text": "are kind of like HTML."
+    },
+    {
+      "idx": 62,
+      "start": 208.239,
+      "end": 212.239,
+      "text": "the computers are understanding things"
+    },
+    {
+      "idx": 63,
+      "start": 209.68,
+      "end": 215.28,
+      "text": "at a like machine level right very"
+    },
+    {
+      "idx": 64,
+      "start": 212.239,
+      "end": 216.002,
+      "text": "So there is it feels"
+    },
+    {
+      "idx": 65,
+      "start": 215.28,
+      "end": 222.0,
+      "text": "like it's a magic right like how the"
+    },
+    {
+      "idx": 66,
+      "start": 219.2,
+      "end": 225.36,
+      "text": "computer is actually executing my"
+    },
+    {
+      "idx": 67,
+      "start": 222.0,
+      "end": 226.649,
+      "text": "How does it know that this"
+    },
+    {
+      "idx": 68,
+      "start": 225.36,
+      "end": 230.64,
+      "text": "complicated human like mathematical"
+    },
+    {
+      "idx": 69,
+      "start": 228.08,
+      "end": 233.84,
+      "text": "formula should be translated into a"
+    },
+    {
+      "idx": 70,
+      "start": 230.64,
+      "end": 237.84,
+      "text": "sequence of simple add multiplication"
+    },
+    {
+      "idx": 71,
+      "start": 233.84,
+      "end": 241.2,
+      "text": "move right and jump and branch equal not"
+    },
+    {
+      "idx": 72,
+      "start": 237.84,
+      "end": 244.239,
+      "text": "equals right how does it work all right"
+    },
+    {
+      "idx": 73,
+      "start": 241.2,
+      "end": 246.159,
+      "text": "and that is where the compiler operates"
+    },
+    {
+      "idx": 74,
+      "start": 244.239,
+      "end": 250.319,
+      "text": "all right it's a compiler that is"
+    },
+    {
+      "idx": 75,
+      "start": 246.159,
+      "end": 252.799,
+      "text": "responsible for translating the highle"
+    },
+    {
+      "idx": 76,
+      "start": 250.319,
+      "end": 256.32,
+      "text": "source code that is close to the human"
+    },
+    {
+      "idx": 77,
+      "start": 252.799,
+      "end": 259.359,
+      "text": "level to the machine level."
+    },
+    {
+      "idx": 78,
+      "start": 256.32,
+      "end": 260.364,
+      "text": "So it is the compiler that"
+    },
+    {
+      "idx": 79,
+      "start": 259.359,
+      "end": 264.4,
+      "text": "actually allows us to be computer"
+    },
+    {
+      "idx": 80,
+      "start": 261.919,
+      "end": 267.347,
+      "text": "programmer for most of us, right?"
+    },
+    {
+      "idx": 81,
+      "start": 264.4,
+      "end": 271.36,
+      "text": "otherwise what should happen"
+    },
+    {
+      "idx": 82,
+      "start": 267.84,
+      "end": 274.08,
+      "text": "maybe like very advanced"
+    },
+    {
+      "idx": 83,
+      "start": 271.36,
+      "end": 276.479,
+      "text": "you know scientific research will employ"
+    },
+    {
+      "idx": 84,
+      "start": 274.08,
+      "end": 276.985,
+      "text": "computer programs right?"
+    },
+    {
+      "idx": 85,
+      "start": 276.985,
+      "end": 278.8,
+      "text": "Will you have a"
+    },
+    {
+      "idx": 86,
+      "start": 276.479,
+      "end": 279.04,
+      "text": "Suppose you are actually"
+    },
+    {
+      "idx": 87,
+      "start": 280.32,
+      "end": 285.04,
+      "text": "you know a rocket for mass then you need"
+    },
+    {
+      "idx": 88,
+      "start": 282.72,
+      "end": 287.84,
+      "text": "a computer or you are actually in a cold"
+    },
+    {
+      "idx": 89,
+      "start": 285.04,
+      "end": 289.759,
+      "text": "work between you know powerful right"
+    },
+    {
+      "idx": 90,
+      "start": 287.84,
+      "end": 292.639,
+      "text": "then you will actually learn the machine"
+    },
+    {
+      "idx": 91,
+      "start": 289.759,
+      "end": 295.919,
+      "text": "instructions and write code of machine"
+    },
+    {
+      "idx": 92,
+      "start": 292.639,
+      "end": 298.32,
+      "text": "but for average person all right it"
+    },
+    {
+      "idx": 93,
+      "start": 295.919,
+      "end": 301.28,
+      "text": "won't be possible to use computer at all"
+    },
+    {
+      "idx": 94,
+      "start": 298.32,
+      "end": 304.16,
+      "text": "right the reason an average person can"
+    },
+    {
+      "idx": 95,
+      "start": 301.28,
+      "end": 306.479,
+      "text": "actually interact with the computer is"
+    },
+    {
+      "idx": 96,
+      "start": 304.16,
+      "end": 309.039,
+      "text": "because we can actually interact with"
+    },
+    {
+      "idx": 97,
+      "start": 309.039,
+      "end": 315.944,
+      "text": "that is close to the way we speak."
+    },
+    {
+      "idx": 98,
+      "start": 312.88,
+      "end": 319.52,
+      "text": "So compiler is extremely very important."
+    },
+    {
+      "idx": 99,
+      "start": 316.96,
+      "end": 320.614,
+      "text": "Because when it confines our"
+    },
+    {
+      "idx": 100,
+      "start": 319.52,
+      "end": 323.759,
+      "text": "understanding about the computer and how"
+    },
+    {
+      "idx": 101,
+      "start": 321.919,
+      "end": 326.639,
+      "text": "we actually interact with the people."
+    },
+    {
+      "idx": 102,
+      "start": 323.759,
+      "end": 327.94,
+      "text": "Now beyond the natural"
+    },
+    {
+      "idx": 103,
+      "start": 326.639,
+      "end": 332.16,
+      "text": "understanding level we should be"
+    },
+    {
+      "idx": 104,
+      "start": 329.84,
+      "end": 335.199,
+      "text": "interested in compiler design because"
+    },
+    {
+      "idx": 105,
+      "start": 332.16,
+      "end": 337.6,
+      "text": "although we may not be developing a new"
+    },
+    {
+      "idx": 106,
+      "start": 335.199,
+      "end": 340.479,
+      "text": "programming language but the elements of"
+    },
+    {
+      "idx": 107,
+      "start": 337.6,
+      "end": 344.4,
+      "text": "the compiler design will be used in"
+    },
+    {
+      "idx": 108,
+      "start": 340.479,
+      "end": 347.039,
+      "text": "other right for example if you want to"
+    },
+    {
+      "idx": 109,
+      "start": 344.4,
+      "end": 348.72,
+      "text": "contribute in software development"
+    },
+    {
+      "idx": 110,
+      "start": 348.72,
+      "end": 354.88,
+      "text": "example, you learned about Eclipse,"
+    },
+    {
+      "idx": 111,
+      "start": 351.44,
+      "end": 355.998,
+      "text": "You learned about uh the Python"
+    },
+    {
+      "idx": 112,
+      "start": 356.88,
+      "end": 360.835,
+      "text": "And there are like other things"
+    },
+    {
+      "idx": 113,
+      "start": 358.8,
+      "end": 363.28,
+      "text": "like these are actually like enhanced,"
+    },
+    {
+      "idx": 114,
+      "start": 361.6,
+      "end": 364.88,
+      "text": "you know, development environment,"
+    },
+    {
+      "idx": 115,
+      "start": 363.28,
+      "end": 366.124,
+      "text": "They color code things."
+    },
+    {
+      "idx": 116,
+      "start": 364.88,
+      "end": 368.417,
+      "text": "actually showing you errors."
+    },
+    {
+      "idx": 117,
+      "start": 367.36,
+      "end": 369.808,
+      "text": "How they do that?"
+    },
+    {
+      "idx": 118,
+      "start": 369.808,
+      "end": 372.4,
+      "text": "They actually have"
+    },
+    {
+      "idx": 119,
+      "start": 369.68,
+      "end": 373.971,
+      "text": "internal compiler inside them."
+    },
+    {
+      "idx": 120,
+      "start": 372.4,
+      "end": 375.867,
+      "text": "When you're writing your code,"
+    },
+    {
+      "idx": 121,
+      "start": 374.4,
+      "end": 381.44,
+      "text": "they actually analyzing your code and"
+    },
+    {
+      "idx": 122,
+      "start": 376.56,
+      "end": 384.0,
+      "text": "trying to suggest you changes or showing"
+    },
+    {
+      "idx": 123,
+      "start": 381.44,
+      "end": 386.0,
+      "text": "you interesting color coding so that you"
+    },
+    {
+      "idx": 124,
+      "start": 384.0,
+      "end": 389.6,
+      "text": "kind of like get this structure more"
+    },
+    {
+      "idx": 125,
+      "start": 386.0,
+      "end": 389.406,
+      "text": "So there are lot of"
+    },
+    {
+      "idx": 126,
+      "start": 389.6,
+      "end": 395.199,
+      "text": "companies that actually work in this"
+    },
+    {
+      "idx": 127,
+      "start": 391.199,
+      "end": 397.499,
+      "text": "Secondly, if you work on framework"
+    },
+    {
+      "idx": 128,
+      "start": 395.199,
+      "end": 397.315,
+      "text": "So for mobile app"
+    },
+    {
+      "idx": 129,
+      "start": 398.24,
+      "end": 403.6,
+      "text": "development, they like a flatter"
+    },
+    {
+      "idx": 130,
+      "start": 399.68,
+      "end": 404.475,
+      "text": "for UI development angular"
+    },
+    {
+      "idx": 131,
+      "start": 408.96,
+      "end": 410.649,
+      "text": "So there are lot of"
+    },
+    {
+      "idx": 132,
+      "start": 410.639,
+      "end": 416.24,
+      "text": "frameworks in different languages,"
+    },
+    {
+      "idx": 133,
+      "start": 412.16,
+      "end": 417.396,
+      "text": "So the frameworks are kind of"
+    },
+    {
+      "idx": 134,
+      "start": 416.24,
+      "end": 418.76,
+      "text": "tiny bit of compilers."
+    },
+    {
+      "idx": 135,
+      "start": 418.76,
+      "end": 420.479,
+      "text": "All right, they"
+    },
+    {
+      "idx": 136,
+      "start": 418.479,
+      "end": 423.12,
+      "text": "don't have a whole compilers but part of"
+    },
+    {
+      "idx": 137,
+      "start": 420.479,
+      "end": 424.688,
+      "text": "All right, that analyze your kind of"
+    },
+    {
+      "idx": 138,
+      "start": 423.12,
+      "end": 428.24,
+      "text": "design abstraction and from that they"
+    },
+    {
+      "idx": 139,
+      "start": 425.039,
+      "end": 428.932,
+      "text": "try to generate the code."
+    },
+    {
+      "idx": 140,
+      "start": 428.24,
+      "end": 433.039,
+      "text": "that's also where you use your compiler"
+    },
+    {
+      "idx": 141,
+      "start": 430.8,
+      "end": 433.292,
+      "text": "Now, if you're"
+    },
+    {
+      "idx": 142,
+      "start": 433.039,
+      "end": 437.759,
+      "text": "interested in AI and ML, all right,"
+    },
+    {
+      "idx": 143,
+      "start": 436.319,
+      "end": 440.24,
+      "text": "particularly natural language"
+    },
+    {
+      "idx": 144,
+      "start": 437.759,
+      "end": 445.639,
+      "text": "processing, you actually do you know the"
+    },
+    {
+      "idx": 145,
+      "start": 440.24,
+      "end": 445.639,
+      "text": "stat analysis of sentences and paraging,"
+    },
+    {
+      "idx": 146,
+      "start": 447.199,
+      "end": 452.24,
+      "text": "find out the parts of speech or"
+    },
+    {
+      "idx": 147,
+      "start": 449.68,
+      "end": 453.053,
+      "text": "different words, right?"
+    },
+    {
+      "idx": 148,
+      "start": 452.24,
+      "end": 455.495,
+      "text": "So part of the compiler"
+    },
+    {
+      "idx": 149,
+      "start": 454.96,
+      "end": 457.79,
+      "text": "is being used there."
+    },
+    {
+      "idx": 150,
+      "start": 457.79,
+      "end": 460.479,
+      "text": "Another thing maybe"
+    },
+    {
+      "idx": 151,
+      "start": 457.759,
+      "end": 462.639,
+      "text": "lot of you started your"
+    },
+    {
+      "idx": 152,
+      "start": 460.479,
+      "end": 463.752,
+      "text": "undergraduate thesis already."
+    },
+    {
+      "idx": 153,
+      "start": 462.639,
+      "end": 469.759,
+      "text": "And you are supposed to write your input"
+    },
+    {
+      "idx": 154,
+      "start": 464.88,
+      "end": 471.44,
+      "text": "in mobile right is actually a compiler."
+    },
+    {
+      "idx": 155,
+      "start": 469.759,
+      "end": 472.475,
+      "text": "You can write mathematical"
+    },
+    {
+      "idx": 156,
+      "start": 471.44,
+      "end": 475.539,
+      "text": "instructions and stuff like that."
+    },
+    {
+      "idx": 157,
+      "start": 473.52,
+      "end": 478.96,
+      "text": "And it actually gives you very cool uh"
+    },
+    {
+      "idx": 158,
+      "start": 476.16,
+      "end": 480.233,
+      "text": "you know formal view right."
+    },
+    {
+      "idx": 159,
+      "start": 478.96,
+      "end": 481.222,
+      "text": "can you do that?"
+    },
+    {
+      "idx": 160,
+      "start": 481.44,
+      "end": 485.453,
+      "text": "has part of the compiler inside."
+    },
+    {
+      "idx": 161,
+      "start": 484.05,
+      "end": 489.039,
+      "text": "[clears throat] And another thing is you"
+    },
+    {
+      "idx": 162,
+      "start": 486.08,
+      "end": 492.0,
+      "text": "never know what will be the future use"
+    },
+    {
+      "idx": 163,
+      "start": 489.039,
+      "end": 494.038,
+      "text": "of your compiler design knowledge."
+    },
+    {
+      "idx": 164,
+      "start": 492.0,
+      "end": 496.942,
+      "text": "So if you know certain things all"
+    },
+    {
+      "idx": 165,
+      "start": 494.479,
+      "end": 500.0,
+      "text": "right specialized skill that you have"
+    },
+    {
+      "idx": 166,
+      "start": 497.84,
+      "end": 502.56,
+      "text": "that maybe in the future there will be"
+    },
+    {
+      "idx": 167,
+      "start": 502.56,
+      "end": 507.28,
+      "text": "some people are talking about you know"
+    },
+    {
+      "idx": 168,
+      "start": 505.36,
+      "end": 509.36,
+      "text": "quantum computing is going to be the"
+    },
+    {
+      "idx": 169,
+      "start": 507.28,
+      "end": 509.547,
+      "text": "future right now."
+    },
+    {
+      "idx": 170,
+      "start": 509.547,
+      "end": 511.68,
+      "text": "Like if you have"
+    },
+    {
+      "idx": 171,
+      "start": 509.36,
+      "end": 514.24,
+      "text": "quantum computers then the compilation"
+    },
+    {
+      "idx": 172,
+      "start": 511.68,
+      "end": 517.279,
+      "text": "for the quantum computer will be right"
+    },
+    {
+      "idx": 173,
+      "start": 514.24,
+      "end": 519.36,
+      "text": "it won't be include sequence of machine"
+    },
+    {
+      "idx": 174,
+      "start": 517.279,
+      "end": 522.32,
+      "text": "instructions all right supposed to be"
+    },
+    {
+      "idx": 175,
+      "start": 519.36,
+      "end": 524.8,
+      "text": "run in a semiconductor based computer"
+    },
+    {
+      "idx": 176,
+      "start": 522.32,
+      "end": 528.64,
+      "text": "right so then you will have research"
+    },
+    {
+      "idx": 177,
+      "start": 524.8,
+      "end": 531.2,
+      "text": "with the compiler design"
+    },
+    {
+      "idx": 178,
+      "start": 528.64,
+      "end": 533.6,
+      "text": "okay so if you know how the compiler"
+    },
+    {
+      "idx": 179,
+      "start": 531.2,
+      "end": 535.839,
+      "text": "work then you can actually engage in"
+    },
+    {
+      "idx": 180,
+      "start": 533.6,
+      "end": 538.08,
+      "text": "that kind of activities"
+    },
+    {
+      "idx": 181,
+      "start": 535.839,
+      "end": 543.12,
+      "text": "okay there are lot of activities"
+    },
+    {
+      "idx": 182,
+      "start": 538.08,
+      "end": 544.429,
+      "text": "category for compiler design."
+    },
+    {
+      "idx": 183,
+      "start": 543.12,
+      "end": 550.16,
+      "text": "so if we are motivated"
+    },
+    {
+      "idx": 184,
+      "start": 546.399,
+      "end": 553.44,
+      "text": "uh in compiler design, then we have to"
+    },
+    {
+      "idx": 185,
+      "start": 550.16,
+      "end": 557.76,
+      "text": "understand how the compiler actually"
+    },
+    {
+      "idx": 186,
+      "start": 553.44,
+      "end": 560.64,
+      "text": "does the work of translating the high"
+    },
+    {
+      "idx": 187,
+      "start": 557.76,
+      "end": 562.64,
+      "text": "source code into machine code for a very"
+    },
+    {
+      "idx": 188,
+      "start": 560.64,
+      "end": 564.871,
+      "text": "broad perspective or an exception."
+    },
+    {
+      "idx": 189,
+      "start": 562.64,
+      "end": 568.32,
+      "text": "understand that, we can actually draw a"
+    },
+    {
+      "idx": 190,
+      "start": 565.12,
+      "end": 569.6,
+      "text": "human conversation analysis."
+    },
+    {
+      "idx": 191,
+      "start": 568.32,
+      "end": 572.311,
+      "text": "let us consider this case."
+    },
+    {
+      "idx": 192,
+      "start": 570.72,
+      "end": 578.501,
+      "text": "have a friend coming from France."
+    },
+    {
+      "idx": 193,
+      "start": 574.0,
+      "end": 582.48,
+      "text": "So he supposed to he's supposed to speak"
+    },
+    {
+      "idx": 194,
+      "start": 579.68,
+      "end": 585.36,
+      "text": "in France, right?"
+    },
+    {
+      "idx": 195,
+      "start": 585.36,
+      "end": 593.04,
+      "text": "suppose you are introducing that friend"
+    },
+    {
+      "idx": 196,
+      "start": 588.0,
+      "end": 596.37,
+      "text": "to your um suppose your master."
+    },
+    {
+      "idx": 197,
+      "start": 593.04,
+      "end": 597.72,
+      "text": "And your mom only understands"
+    },
+    {
+      "idx": 198,
+      "start": 605.12,
+      "end": 613.087,
+      "text": "Apparently Bengali is what the West"
+    },
+    {
+      "idx": 199,
+      "start": 609.12,
+      "end": 617.519,
+      "text": "Bengal people uses right we are like"
+    },
+    {
+      "idx": 200,
+      "start": 613.087,
+      "end": 621.56,
+      "text": "[laughter] so different but anyway so"
+    },
+    {
+      "idx": 201,
+      "start": 617.519,
+      "end": 621.56,
+      "text": "suppose this is your friend"
+    },
+    {
+      "idx": 202,
+      "start": 625.2,
+      "end": 627.775,
+      "text": "this is your Okay."
+    },
+    {
+      "idx": 203,
+      "start": 627.775,
+      "end": 629.92,
+      "text": "And you want to"
+    },
+    {
+      "idx": 204,
+      "start": 627.76,
+      "end": 633.36,
+      "text": "actually facilitate a conversation"
+    },
+    {
+      "idx": 205,
+      "start": 629.92,
+      "end": 635.859,
+      "text": "between your friend and your mom."
+    },
+    {
+      "idx": 206,
+      "start": 633.36,
+      "end": 641.92,
+      "text": "they are speaking different languages."
+    },
+    {
+      "idx": 207,
+      "start": 636.399,
+      "end": 642.64,
+      "text": "Now branch U in the middle"
+    },
+    {
+      "idx": 208,
+      "start": 641.92,
+      "end": 648.04,
+      "text": "has to work as a"
+    },
+    {
+      "idx": 209,
+      "start": 660.72,
+      "end": 665.12,
+      "text": "So what is the difference between"
+    },
+    {
+      "idx": 210,
+      "start": 662.72,
+      "end": 667.12,
+      "text": "interpretation and translation?"
+    },
+    {
+      "idx": 211,
+      "start": 665.12,
+      "end": 670.32,
+      "text": "Interpretation means like I try to"
+    },
+    {
+      "idx": 212,
+      "start": 667.12,
+      "end": 671.496,
+      "text": "understand what being said."
+    },
+    {
+      "idx": 213,
+      "start": 673.279,
+      "end": 678.32,
+      "text": "And transcription means after"
+    },
+    {
+      "idx": 214,
+      "start": 675.36,
+      "end": 681.2,
+      "text": "understanding that I'm actually"
+    },
+    {
+      "idx": 215,
+      "start": 678.32,
+      "end": 685.6,
+      "text": "propagating that message in a different"
+    },
+    {
+      "idx": 216,
+      "start": 681.2,
+      "end": 684.373,
+      "text": "So these two part"
+    },
+    {
+      "idx": 217,
+      "start": 685.6,
+      "end": 689.919,
+      "text": "you'll have to complete."
+    },
+    {
+      "idx": 218,
+      "start": 687.92,
+      "end": 693.59,
+      "text": "facilitate this conversation."
+    },
+    {
+      "idx": 219,
+      "start": 692.079,
+      "end": 698.06,
+      "text": "friend will say something."
+    },
+    {
+      "idx": 220,
+      "start": 694.959,
+      "end": 700.36,
+      "text": "You can say this is the source"
+    },
+    {
+      "idx": 221,
+      "start": 703.04,
+      "end": 711.44,
+      "text": "and you interpret this speech and you"
+    },
+    {
+      "idx": 222,
+      "start": 707.12,
+      "end": 714.613,
+      "text": "generate another speech is the"
+    },
+    {
+      "idx": 223,
+      "start": 715.279,
+      "end": 719.96,
+      "text": "Now the source state is in"
+    },
+    {
+      "idx": 224,
+      "start": 718.72,
+      "end": 724.88,
+      "text": "France and the target speech is in"
+    },
+    {
+      "idx": 225,
+      "start": 721.76,
+      "end": 723.483,
+      "text": "All right. ["
+    },
+    {
+      "idx": 226,
+      "start": 723.483,
+      "end": 726.211,
+      "text": "clears throat] This"
+    },
+    {
+      "idx": 227,
+      "start": 724.88,
+      "end": 730.32,
+      "text": "is the key component that is actually"
+    },
+    {
+      "idx": 228,
+      "start": 730.32,
+      "end": 735.6,
+      "text": "communication between two different"
+    },
+    {
+      "idx": 229,
+      "start": 732.8,
+      "end": 738.959,
+      "text": "entities working at two different"
+    },
+    {
+      "idx": 230,
+      "start": 735.6,
+      "end": 741.44,
+      "text": "language levels by actually working as a"
+    },
+    {
+      "idx": 231,
+      "start": 738.959,
+      "end": 743.68,
+      "text": "mediator that interpret and translate"
+    },
+    {
+      "idx": 232,
+      "start": 741.44,
+      "end": 747.04,
+      "text": "from one language to another language."
+    },
+    {
+      "idx": 233,
+      "start": 743.68,
+      "end": 747.58,
+      "text": "Now to have a conversation."
+    },
+    {
+      "idx": 234,
+      "start": 747.04,
+      "end": 750.816,
+      "text": "Your mom should also say"
+    },
+    {
+      "idx": 235,
+      "start": 751.76,
+      "end": 758.32,
+      "text": "How about right let try to translate"
+    },
+    {
+      "idx": 236,
+      "start": 754.32,
+      "end": 761.2,
+      "text": "that in French somehow right"
+    },
+    {
+      "idx": 237,
+      "start": 758.32,
+      "end": 764.24,
+      "text": "and I'm just kind of assuming that your"
+    },
+    {
+      "idx": 238,
+      "start": 761.2,
+      "end": 766.24,
+      "text": "French language course in Bra University"
+    },
+    {
+      "idx": 239,
+      "start": 764.24,
+      "end": 767.519,
+      "text": "came out to be handy so that you can"
+    },
+    {
+      "idx": 240,
+      "start": 766.24,
+      "end": 772.0,
+      "text": "actually handle this kind of"
+    },
+    {
+      "idx": 241,
+      "start": 767.519,
+      "end": 771.625,
+      "text": "So when you actually need"
+    },
+    {
+      "idx": 242,
+      "start": 773.76,
+      "end": 778.72,
+      "text": "facilitate a conversation between your"
+    },
+    {
+      "idx": 243,
+      "start": 776.8,
+      "end": 781.04,
+      "text": "friend and your mom, you actually have"
+    },
+    {
+      "idx": 244,
+      "start": 778.72,
+      "end": 784.72,
+      "text": "to do the interpretation and translation"
+    },
+    {
+      "idx": 245,
+      "start": 781.04,
+      "end": 784.66,
+      "text": "in both direction."
+    },
+    {
+      "idx": 246,
+      "start": 784.66,
+      "end": 786.872,
+      "text": "So then you"
+    },
+    {
+      "idx": 247,
+      "start": 784.72,
+      "end": 789.92,
+      "text": "will she will have the source"
+    },
+    {
+      "idx": 248,
+      "start": 789.92,
+      "end": 796.6,
+      "text": "and this will have the target speech."
+    },
+    {
+      "idx": 249,
+      "start": 797.799,
+      "end": 799.819,
+      "text": ">> [clears throat]"
+    },
+    {
+      "idx": 250,
+      "start": 800.72,
+      "end": 808.959,
+      "text": ">> Now when we are talking about a"
+    },
+    {
+      "idx": 251,
+      "start": 805.68,
+      "end": 811.839,
+      "text": "computer programming lash all right then"
+    },
+    {
+      "idx": 252,
+      "start": 808.959,
+      "end": 814.48,
+      "text": "basically our source system is a high"
+    },
+    {
+      "idx": 253,
+      "start": 811.839,
+      "end": 816.959,
+      "text": "level program it's a Python program is a"
+    },
+    {
+      "idx": 254,
+      "start": 814.48,
+      "end": 819.519,
+      "text": "C program it's a Java program or is any"
+    },
+    {
+      "idx": 255,
+      "start": 816.959,
+      "end": 822.959,
+      "text": "other program right it's a program all"
+    },
+    {
+      "idx": 256,
+      "start": 819.519,
+      "end": 826.32,
+      "text": "right the program is a speech all right"
+    },
+    {
+      "idx": 257,
+      "start": 822.959,
+      "end": 828.639,
+      "text": "and we are supposed to convert resource"
+    },
+    {
+      "idx": 258,
+      "start": 826.32,
+      "end": 831.6,
+      "text": "program into a sequence of binary"
+    },
+    {
+      "idx": 259,
+      "start": 828.639,
+      "end": 837.04,
+      "text": "instructions that will be our executable"
+    },
+    {
+      "idx": 260,
+      "start": 831.6,
+      "end": 840.0,
+      "text": "right and that will run in the computer"
+    },
+    {
+      "idx": 261,
+      "start": 837.04,
+      "end": 844.079,
+      "text": "right so in that scenario"
+    },
+    {
+      "idx": 262,
+      "start": 840.0,
+      "end": 849.16,
+      "text": "this is equivalent of let me change the"
+    },
+    {
+      "idx": 263,
+      "start": 844.079,
+      "end": 849.16,
+      "text": "color right of the machine"
+    },
+    {
+      "idx": 264,
+      "start": 852.8,
+      "end": 860.079,
+      "text": "this is vectorally"
+    },
+    {
+      "idx": 265,
+      "start": 855.279,
+      "end": 860.268,
+      "text": "Uh if you"
+    },
+    {
+      "idx": 266,
+      "start": 875.6,
+      "end": 880.72,
+      "text": "general circumstances we don't actually"
+    },
+    {
+      "idx": 267,
+      "start": 878.16,
+      "end": 883.04,
+      "text": "want the reverse"
+    },
+    {
+      "idx": 268,
+      "start": 880.72,
+      "end": 883.217,
+      "text": "When we talking"
+    },
+    {
+      "idx": 269,
+      "start": 883.04,
+      "end": 890.32,
+      "text": "about computer, we actually want our"
+    },
+    {
+      "idx": 270,
+      "start": 886.88,
+      "end": 893.04,
+      "text": "source code to be translated into a"
+    },
+    {
+      "idx": 271,
+      "start": 890.32,
+      "end": 894.884,
+      "text": "machine executable, right?"
+    },
+    {
+      "idx": 272,
+      "start": 894.884,
+      "end": 896.639,
+      "text": "So we need"
+    },
+    {
+      "idx": 273,
+      "start": 893.04,
+      "end": 896.341,
+      "text": "one to translation."
+    },
+    {
+      "idx": 274,
+      "start": 896.639,
+      "end": 903.76,
+      "text": "compiler that does an interpretation of"
+    },
+    {
+      "idx": 275,
+      "start": 899.12,
+      "end": 906.76,
+      "text": "translator translation, it actually"
+    },
+    {
+      "idx": 276,
+      "start": 911.279,
+      "end": 915.774,
+      "text": "The compiler works on this"
+    },
+    {
+      "idx": 277,
+      "start": 913.04,
+      "end": 918.72,
+      "text": "direction of okay because we want to"
+    },
+    {
+      "idx": 278,
+      "start": 916.639,
+      "end": 920.88,
+      "text": "execute the source program we don't want"
+    },
+    {
+      "idx": 279,
+      "start": 918.72,
+      "end": 924.8,
+      "text": "to talk back"
+    },
+    {
+      "idx": 280,
+      "start": 920.88,
+      "end": 928.72,
+      "text": "right it's kind of like it will be a you"
+    },
+    {
+      "idx": 281,
+      "start": 924.8,
+      "end": 931.519,
+      "text": "know it follow but computer will say I'm"
+    },
+    {
+      "idx": 282,
+      "start": 928.72,
+      "end": 934.8,
+      "text": "not willing to execute this program all"
+    },
+    {
+      "idx": 283,
+      "start": 931.519,
+      "end": 937.199,
+      "text": "right change it all right so the"
+    },
+    {
+      "idx": 284,
+      "start": 934.8,
+      "end": 939.12,
+      "text": "computer will say that thing in binary"
+    },
+    {
+      "idx": 285,
+      "start": 937.199,
+      "end": 940.959,
+      "text": "instruction and you have to translate it"
+    },
+    {
+      "idx": 286,
+      "start": 939.12,
+      "end": 944.48,
+      "text": "all right so that will be crazy all"
+    },
+    {
+      "idx": 287,
+      "start": 940.959,
+      "end": 945.969,
+      "text": "Have you seen the movie The Ring?"
+    },
+    {
+      "idx": 288,
+      "start": 944.48,
+      "end": 949.839,
+      "text": "There's a horror movie that came out 20"
+    },
+    {
+      "idx": 289,
+      "start": 946.88,
+      "end": 950.326,
+      "text": "years ago long time ago."
+    },
+    {
+      "idx": 290,
+      "start": 950.326,
+      "end": 952.48,
+      "text": "So the ring the"
+    },
+    {
+      "idx": 291,
+      "start": 949.839,
+      "end": 954.959,
+      "text": "idea is like have you ever seen video"
+    },
+    {
+      "idx": 292,
+      "start": 952.48,
+      "end": 955.991,
+      "text": "games that we see series now?"
+    },
+    {
+      "idx": 293,
+      "start": 954.959,
+      "end": 957.877,
+      "text": "even have CDs, right?"
+    },
+    {
+      "idx": 294,
+      "start": 957.877,
+      "end": 960.24,
+      "text": "We have USB drive"
+    },
+    {
+      "idx": 295,
+      "start": 956.959,
+      "end": 960.48,
+      "text": "and download things right."
+    },
+    {
+      "idx": 296,
+      "start": 960.48,
+      "end": 962.24,
+      "text": "So so idea is"
+    },
+    {
+      "idx": 297,
+      "start": 960.24,
+      "end": 965.92,
+      "text": "if you actually put a particular video"
+    },
+    {
+      "idx": 298,
+      "start": 962.24,
+      "end": 967.92,
+      "text": "record and once that in your TV a host"
+    },
+    {
+      "idx": 299,
+      "start": 965.92,
+      "end": 969.508,
+      "text": "will come out of your television."
+    },
+    {
+      "idx": 300,
+      "start": 967.92,
+      "end": 970.644,
+      "text": "the idea of the link."
+    },
+    {
+      "idx": 301,
+      "start": 970.16,
+      "end": 973.996,
+      "text": "see a V in the television and that ghost"
+    },
+    {
+      "idx": 302,
+      "start": 972.72,
+      "end": 974.26,
+      "text": "will come out."
+    },
+    {
+      "idx": 303,
+      "start": 973.996,
+      "end": 979.199,
+      "text": "[clears throat] So that's a crazy idea"
+    },
+    {
+      "idx": 304,
+      "start": 975.36,
+      "end": 981.92,
+      "text": "that a digital thing is pretty gross."
+    },
+    {
+      "idx": 305,
+      "start": 979.199,
+      "end": 982.538,
+      "text": "So that can happen, right?"
+    },
+    {
+      "idx": 306,
+      "start": 981.92,
+      "end": 987.279,
+      "text": "we have the you know computer denying"
+    },
+    {
+      "idx": 307,
+      "start": 984.079,
+      "end": 986.932,
+      "text": "our source code."
+    },
+    {
+      "idx": 308,
+      "start": 986.932,
+      "end": 989.428,
+      "text": "But anyway, so"
+    },
+    {
+      "idx": 309,
+      "start": 987.279,
+      "end": 992.72,
+      "text": "compilers only works this direction this"
+    },
+    {
+      "idx": 310,
+      "start": 992.72,
+      "end": 998.88,
+      "text": "you want to investigate executable all"
+    },
+    {
+      "idx": 311,
+      "start": 994.88,
+      "end": 1001.839,
+      "text": "right for suppose uh checking for virus"
+    },
+    {
+      "idx": 312,
+      "start": 998.88,
+      "end": 1004.48,
+      "text": "threats all right or in yourself is a"
+    },
+    {
+      "idx": 313,
+      "start": 1001.839,
+      "end": 1007.839,
+      "text": "malicious data all right you want to get"
+    },
+    {
+      "idx": 314,
+      "start": 1004.48,
+      "end": 1009.6,
+      "text": "uh uh interpret executable and try to"
+    },
+    {
+      "idx": 315,
+      "start": 1007.839,
+      "end": 1012.639,
+      "text": "get back the source code that's"
+    },
+    {
+      "idx": 316,
+      "start": 1009.6,
+      "end": 1016.48,
+      "text": "something happen when you want to create"
+    },
+    {
+      "idx": 317,
+      "start": 1012.639,
+      "end": 1018.32,
+      "text": "crack version of software right so you"
+    },
+    {
+      "idx": 318,
+      "start": 1016.48,
+      "end": 1020.959,
+      "text": "want to actually get back to the source"
+    },
+    {
+      "idx": 319,
+      "start": 1018.32,
+      "end": 1023.12,
+      "text": "code and change the you know part of the"
+    },
+    {
+      "idx": 320,
+      "start": 1020.959,
+      "end": 1025.36,
+      "text": "code that check for an activation key."
+    },
+    {
+      "idx": 321,
+      "start": 1023.12,
+      "end": 1030.0,
+      "text": "If you can disable that, you have a free"
+    },
+    {
+      "idx": 322,
+      "start": 1025.36,
+      "end": 1033.039,
+      "text": "version of you know Windows um OS or"
+    },
+    {
+      "idx": 323,
+      "start": 1030.0,
+      "end": 1035.839,
+      "text": "suppose other important software right"
+    },
+    {
+      "idx": 324,
+      "start": 1033.039,
+      "end": 1037.52,
+      "text": "then you try to actually go in the"
+    },
+    {
+      "idx": 325,
+      "start": 1035.839,
+      "end": 1039.919,
+      "text": "reference and that is called"
+    },
+    {
+      "idx": 326,
+      "start": 1037.52,
+      "end": 1039.122,
+      "text": "So we are not"
+    },
+    {
+      "idx": 327,
+      "start": 1039.919,
+      "end": 1044.959,
+      "text": "going to focus on decompilation in this"
+    },
+    {
+      "idx": 328,
+      "start": 1042.079,
+      "end": 1047.988,
+      "text": "course we only focus on compilation."
+    },
+    {
+      "idx": 329,
+      "start": 1044.959,
+      "end": 1047.913,
+      "text": "clears throat] All"
+    },
+    {
+      "idx": 330,
+      "start": 1048.48,
+      "end": 1051.163,
+      "text": "So we understand."
+    },
+    {
+      "idx": 331,
+      "start": 1051.163,
+      "end": 1053.373,
+      "text": "So compiler is"
+    },
+    {
+      "idx": 332,
+      "start": 1051.36,
+      "end": 1056.559,
+      "text": "very similar to an interpreter and"
+    },
+    {
+      "idx": 333,
+      "start": 1054.32,
+      "end": 1059.846,
+      "text": "translator in normal circumstances."
+    },
+    {
+      "idx": 334,
+      "start": 1056.559,
+      "end": 1062.449,
+      "text": "Now I guess lot of you did Python"
+    },
+    {
+      "idx": 335,
+      "start": 1060.32,
+      "end": 1066.08,
+      "text": "programming in your earlier uh semester"
+    },
+    {
+      "idx": 336,
+      "start": 1063.52,
+      "end": 1069.44,
+      "text": "right and you probably learned that when"
+    },
+    {
+      "idx": 337,
+      "start": 1066.08,
+      "end": 1070.96,
+      "text": "you are working on Python Python is an"
+    },
+    {
+      "idx": 338,
+      "start": 1070.96,
+      "end": 1076.96,
+      "text": "your heart is like that in"
+    },
+    {
+      "idx": 339,
+      "start": 1086.64,
+      "end": 1090.858,
+      "text": "This kind of like confuses"
+    },
+    {
+      "idx": 340,
+      "start": 1090.24,
+      "end": 1092.911,
+      "text": "you sometimes, right?"
+    },
+    {
+      "idx": 341,
+      "start": 1092.911,
+      "end": 1095.2,
+      "text": "So we are learning"
+    },
+    {
+      "idx": 342,
+      "start": 1092.48,
+      "end": 1094.84,
+      "text": "So why aren't we"
+    },
+    {
+      "idx": 343,
+      "start": 1095.2,
+      "end": 1099.2,
+      "text": "learning interpreter design, right?"
+    },
+    {
+      "idx": 344,
+      "start": 1097.2,
+      "end": 1102.72,
+      "text": "because some languages are not"
+    },
+    {
+      "idx": 345,
+      "start": 1099.2,
+      "end": 1105.038,
+      "text": "apparently compiled languages."
+    },
+    {
+      "idx": 346,
+      "start": 1102.72,
+      "end": 1109.36,
+      "text": "you know comparison or categorization"
+    },
+    {
+      "idx": 347,
+      "start": 1106.4,
+      "end": 1109.76,
+      "text": "uh holds true."
+    },
+    {
+      "idx": 348,
+      "start": 1109.36,
+      "end": 1114.24,
+      "text": "So this is kind of like a"
+    },
+    {
+      "idx": 349,
+      "start": 1110.96,
+      "end": 1117.2,
+      "text": "misunderstanding of how programming"
+    },
+    {
+      "idx": 350,
+      "start": 1114.24,
+      "end": 1119.116,
+      "text": "language is one."
+    },
+    {
+      "idx": 351,
+      "start": 1117.2,
+      "end": 1123.28,
+      "text": "When you say a cycle language is"
+    },
+    {
+      "idx": 352,
+      "start": 1125.36,
+      "end": 1129.215,
+      "text": "it is compiled."
+    },
+    {
+      "idx": 353,
+      "start": 1129.2,
+      "end": 1136.96,
+      "text": "the thing that we target speech is not a"
+    },
+    {
+      "idx": 354,
+      "start": 1133.84,
+      "end": 1139.679,
+      "text": "sequence of binary instructions."
+    },
+    {
+      "idx": 355,
+      "start": 1136.96,
+      "end": 1141.63,
+      "text": "Rather it is an instruction"
+    },
+    {
+      "idx": 356,
+      "start": 1139.679,
+      "end": 1146.88,
+      "text": "for an intermediate virtual machine."
+    },
+    {
+      "idx": 357,
+      "start": 1143.36,
+      "end": 1148.297,
+      "text": "That virtual machine actually"
+    },
+    {
+      "idx": 358,
+      "start": 1146.88,
+      "end": 1153.2,
+      "text": "runs the sequence of instructions in the"
+    },
+    {
+      "idx": 359,
+      "start": 1150.0,
+      "end": 1152.034,
+      "text": "So even Python"
+    },
+    {
+      "idx": 360,
+      "start": 1153.2,
+      "end": 1156.72,
+      "text": "has a compiler."
+    },
+    {
+      "idx": 361,
+      "start": 1155.52,
+      "end": 1157.26,
+      "text": "All right. ["
+    },
+    {
+      "idx": 362,
+      "start": 1157.26,
+      "end": 1160.16,
+      "text": "clears throat] Every"
+    },
+    {
+      "idx": 363,
+      "start": 1156.72,
+      "end": 1161.464,
+      "text": "language has a compiler."
+    },
+    {
+      "idx": 364,
+      "start": 1161.464,
+      "end": 1163.44,
+      "text": "If it is a"
+    },
+    {
+      "idx": 365,
+      "start": 1160.16,
+      "end": 1166.48,
+      "text": "programming language, it must have a"
+    },
+    {
+      "idx": 366,
+      "start": 1166.48,
+      "end": 1172.08,
+      "text": "The difference is in case of"
+    },
+    {
+      "idx": 367,
+      "start": 1168.24,
+      "end": 1174.64,
+      "text": "interpreter, the target is not the"
+    },
+    {
+      "idx": 368,
+      "start": 1172.08,
+      "end": 1177.36,
+      "text": "machine code rather it is an"
+    },
+    {
+      "idx": 369,
+      "start": 1174.64,
+      "end": 1179.679,
+      "text": "intermediary code underscute by a"
+    },
+    {
+      "idx": 370,
+      "start": 1177.36,
+      "end": 1179.442,
+      "text": "For example, in"
+    },
+    {
+      "idx": 371,
+      "start": 1179.679,
+      "end": 1184.455,
+      "text": "Python, you have Python interpreter."
+    },
+    {
+      "idx": 372,
+      "start": 1182.08,
+      "end": 1187.84,
+      "text": "Java, you have JVM."
+    },
+    {
+      "idx": 373,
+      "start": 1184.72,
+      "end": 1188.69,
+      "text": "But your source code is not"
+    },
+    {
+      "idx": 374,
+      "start": 1187.84,
+      "end": 1193.12,
+      "text": "written in the language understood by"
+    },
+    {
+      "idx": 375,
+      "start": 1190.16,
+      "end": 1194.099,
+      "text": "It is written in Java"
+    },
+    {
+      "idx": 376,
+      "start": 1193.12,
+      "end": 1198.559,
+      "text": "that is translated by the Java compiler."
+    },
+    {
+      "idx": 377,
+      "start": 1195.6,
+      "end": 1202.16,
+      "text": "Have you heard of Java C, Java compiler,"
+    },
+    {
+      "idx": 378,
+      "start": 1198.559,
+      "end": 1201.837,
+      "text": "Java or Java?"
+    },
+    {
+      "idx": 379,
+      "start": 1201.837,
+      "end": 1206.88,
+      "text": "It combines the Java"
+    },
+    {
+      "idx": 380,
+      "start": 1202.16,
+      "end": 1209.44,
+      "text": "source code into the P code JVM"
+    },
+    {
+      "idx": 381,
+      "start": 1206.88,
+      "end": 1209.409,
+      "text": "The same thing"
+    },
+    {
+      "idx": 382,
+      "start": 1209.44,
+      "end": 1213.176,
+      "text": "happens for Python also."
+    },
+    {
+      "idx": 383,
+      "start": 1212.48,
+      "end": 1219.44,
+      "text": "for compiled language, all right, for"
+    },
+    {
+      "idx": 384,
+      "start": 1215.2,
+      "end": 1219.927,
+      "text": "language like C, Port."
+    },
+    {
+      "idx": 385,
+      "start": 1219.44,
+      "end": 1225.919,
+      "text": "actually get the machine code as the"
+    },
+    {
+      "idx": 386,
+      "start": 1222.72,
+      "end": 1224.72,
+      "text": "There is no"
+    },
+    {
+      "idx": 387,
+      "start": 1228.72,
+      "end": 1233.89,
+      "text": "no virtual machine that runs."
+    },
+    {
+      "idx": 388,
+      "start": 1231.919,
+      "end": 1239.76,
+      "text": "actual hardware that is not in both"
+    },
+    {
+      "idx": 389,
+      "start": 1234.96,
+      "end": 1242.88,
+      "text": "cases you have compiler involved."
+    },
+    {
+      "idx": 390,
+      "start": 1239.76,
+      "end": 1245.84,
+      "text": "So if you compile physical"
+    },
+    {
+      "idx": 391,
+      "start": 1242.88,
+      "end": 1248.48,
+      "text": ">> it's a misnomer it's not an terminology"
+    },
+    {
+      "idx": 392,
+      "start": 1245.84,
+      "end": 1250.4,
+      "text": "you use all right"
+    },
+    {
+      "idx": 393,
+      "start": 1248.48,
+      "end": 1253.039,
+      "text": ">> so the code that we write are"
+    },
+    {
+      "idx": 394,
+      "start": 1261.12,
+      "end": 1265.28,
+      "text": "like real life example"
+    },
+    {
+      "idx": 395,
+      "start": 1263.44,
+      "end": 1267.919,
+      "text": "you can write a program that will add"
+    },
+    {
+      "idx": 396,
+      "start": 1265.28,
+      "end": 1271.28,
+      "text": "two numbers then multiply the result is"
+    },
+    {
+      "idx": 397,
+      "start": 1267.919,
+      "end": 1271.232,
+      "text": "part number all Okay."
+    },
+    {
+      "idx": 398,
+      "start": 1271.232,
+      "end": 1273.44,
+      "text": "And that means"
+    },
+    {
+      "idx": 399,
+      "start": 1271.28,
+      "end": 1276.32,
+      "text": "that you are actually writing a code for"
+    },
+    {
+      "idx": 400,
+      "start": 1276.32,
+      "end": 1280.88,
+      "text": "alternative version can be this is such"
+    },
+    {
+      "idx": 401,
+      "start": 1279.2,
+      "end": 1280.533,
+      "text": "a simple thing."
+    },
+    {
+      "idx": 402,
+      "start": 1280.533,
+      "end": 1282.4,
+      "text": "Why don't you write a"
+    },
+    {
+      "idx": 403,
+      "start": 1280.88,
+      "end": 1283.005,
+      "text": "program for that?"
+    },
+    {
+      "idx": 404,
+      "start": 1283.005,
+      "end": 1284.88,
+      "text": "Let it open the"
+    },
+    {
+      "idx": 405,
+      "start": 1284.88,
+      "end": 1289.039,
+      "text": "number and do that in the calculator."
+    },
+    {
+      "idx": 406,
+      "start": 1286.559,
+      "end": 1290.723,
+      "text": "But the calculator app itself"
+    },
+    {
+      "idx": 407,
+      "start": 1289.039,
+      "end": 1292.835,
+      "text": "isn't interpreter, right?"
+    },
+    {
+      "idx": 408,
+      "start": 1292.835,
+      "end": 1294.96,
+      "text": "It is actually"
+    },
+    {
+      "idx": 409,
+      "start": 1292.159,
+      "end": 1297.28,
+      "text": "using the hardware to do the addition."
+    },
+    {
+      "idx": 410,
+      "start": 1294.96,
+      "end": 1297.848,
+      "text": "So instead of you using that"
+    },
+    {
+      "idx": 411,
+      "start": 1297.28,
+      "end": 1302.72,
+      "text": "things directly in the hardware, you"
+    },
+    {
+      "idx": 412,
+      "start": 1298.88,
+      "end": 1305.12,
+      "text": "using the interpreter to do the same for"
+    },
+    {
+      "idx": 413,
+      "start": 1302.72,
+      "end": 1305.097,
+      "text": "Now why do you think"
+    },
+    {
+      "idx": 414,
+      "start": 1305.12,
+      "end": 1309.52,
+      "text": "people go for intermediate library"
+    },
+    {
+      "idx": 415,
+      "start": 1306.88,
+      "end": 1312.159,
+      "text": "that's an important thing although it's"
+    },
+    {
+      "idx": 416,
+      "start": 1309.52,
+      "end": 1314.559,
+      "text": "not necessarily related to the compiler"
+    },
+    {
+      "idx": 417,
+      "start": 1312.159,
+      "end": 1315.684,
+      "text": "The reason for intermediate"
+    },
+    {
+      "idx": 418,
+      "start": 1314.559,
+      "end": 1319.84,
+      "text": "language is that different machine"
+    },
+    {
+      "idx": 419,
+      "start": 1317.12,
+      "end": 1322.18,
+      "text": "architectures are very different."
+    },
+    {
+      "idx": 420,
+      "start": 1319.84,
+      "end": 1324.714,
+      "text": "So when you are generating target"
+    },
+    {
+      "idx": 421,
+      "start": 1322.64,
+      "end": 1327.44,
+      "text": "speeds for the machine all right if the"
+    },
+    {
+      "idx": 422,
+      "start": 1325.6,
+      "end": 1329.84,
+      "text": "machine architecture is satisfied you"
+    },
+    {
+      "idx": 423,
+      "start": 1327.44,
+      "end": 1333.039,
+      "text": "have to actually compile the code for"
+    },
+    {
+      "idx": 424,
+      "start": 1329.84,
+      "end": 1335.44,
+      "text": "each architecture right so in computer"
+    },
+    {
+      "idx": 425,
+      "start": 1333.039,
+      "end": 1338.4,
+      "text": "architecture probably you learn about"
+    },
+    {
+      "idx": 426,
+      "start": 1335.44,
+      "end": 1340.96,
+      "text": "this file or service right so if you"
+    },
+    {
+      "idx": 427,
+      "start": 1338.4,
+      "end": 1343.36,
+      "text": "compile for disk file you get certain"
+    },
+    {
+      "idx": 428,
+      "start": 1340.96,
+      "end": 1345.919,
+      "text": "sequence of mission instruction right"
+    },
+    {
+      "idx": 429,
+      "start": 1343.36,
+      "end": 1348.159,
+      "text": "but if you compile for AR right you know"
+    },
+    {
+      "idx": 430,
+      "start": 1345.919,
+      "end": 1350.799,
+      "text": "like mobile devices"
+    },
+    {
+      "idx": 431,
+      "start": 1348.159,
+      "end": 1353.381,
+      "text": "right is different from this Right?"
+    },
+    {
+      "idx": 432,
+      "start": 1350.799,
+      "end": 1355.2,
+      "text": "if you combine for for R then the"
+    },
+    {
+      "idx": 433,
+      "start": 1353.679,
+      "end": 1358.88,
+      "text": "sequence of machine instruction will be"
+    },
+    {
+      "idx": 434,
+      "start": 1355.2,
+      "end": 1359.364,
+      "text": "So basically every time"
+    },
+    {
+      "idx": 435,
+      "start": 1358.88,
+      "end": 1364.159,
+      "text": "you try to execute something you have to"
+    },
+    {
+      "idx": 436,
+      "start": 1362.08,
+      "end": 1366.72,
+      "text": "have the source code available to you so"
+    },
+    {
+      "idx": 437,
+      "start": 1364.159,
+      "end": 1369.44,
+      "text": "that you can use the compiler to compile"
+    },
+    {
+      "idx": 438,
+      "start": 1366.72,
+      "end": 1371.44,
+      "text": "the source code into the target"
+    },
+    {
+      "idx": 439,
+      "start": 1369.44,
+      "end": 1371.064,
+      "text": "clears throat] On"
+    },
+    {
+      "idx": 440,
+      "start": 1371.44,
+      "end": 1374.96,
+      "text": "the other hand if you have an"
+    },
+    {
+      "idx": 441,
+      "start": 1372.88,
+      "end": 1378.159,
+      "text": "interpreter you actually have an"
+    },
+    {
+      "idx": 442,
+      "start": 1374.96,
+      "end": 1380.408,
+      "text": "interpreter installed in each."
+    },
+    {
+      "idx": 443,
+      "start": 1378.159,
+      "end": 1384.939,
+      "text": "of the mobile phone will have JVPN."
+    },
+    {
+      "idx": 444,
+      "start": 1381.679,
+      "end": 1387.271,
+      "text": "So if you have an iPhone, it has"
+    },
+    {
+      "idx": 445,
+      "start": 1385.52,
+      "end": 1392.4,
+      "text": "JPM and if you have an Android phone, it"
+    },
+    {
+      "idx": 446,
+      "start": 1388.32,
+      "end": 1391.287,
+      "text": "also has a JVM."
+    },
+    {
+      "idx": 447,
+      "start": 1391.287,
+      "end": 1393.462,
+      "text": "So then you"
+    },
+    {
+      "idx": 448,
+      "start": 1392.4,
+      "end": 1397.84,
+      "text": "are compiling your Java code for your"
+    },
+    {
+      "idx": 449,
+      "start": 1395.44,
+      "end": 1399.919,
+      "text": "JVM, not for your architecture."
+    },
+    {
+      "idx": 450,
+      "start": 1397.84,
+      "end": 1400.48,
+      "text": "So we can say it's a compiler for"
+    },
+    {
+      "idx": 451,
+      "start": 1401.2,
+      "end": 1405.276,
+      "text": "Kind of like compiler for the"
+    },
+    {
+      "idx": 452,
+      "start": 1403.36,
+      "end": 1408.033,
+      "text": "interpreter, not for the compiler."
+    },
+    {
+      "idx": 453,
+      "start": 1406.4,
+      "end": 1410.097,
+      "text": "So you just compile once."
+    },
+    {
+      "idx": 454,
+      "start": 1408.72,
+      "end": 1412.385,
+      "text": "Your interpreter is already"
+    },
+    {
+      "idx": 455,
+      "start": 1411.28,
+      "end": 1414.781,
+      "text": "available in all architectures."
+    },
+    {
+      "idx": 456,
+      "start": 1413.2,
+      "end": 1417.613,
+      "text": "So that you don't have to be"
+    },
+    {
+      "idx": 457,
+      "start": 1415.12,
+      "end": 1418.32,
+      "text": "compiled every time."
+    },
+    {
+      "idx": 458,
+      "start": 1418.32,
+      "end": 1420.4,
+      "text": "So that's the"
+    },
+    {
+      "idx": 459,
+      "start": 1418.559,
+      "end": 1426.84,
+      "text": "main reason for intermediate and also"
+    },
+    {
+      "idx": 460,
+      "start": 1421.2,
+      "end": 1426.84,
+      "text": "intermediate because it's a virtual can"
+    },
+    {
+      "idx": 461,
+      "start": 1430.32,
+      "end": 1434.159,
+      "text": "If you directly get access to the"
+    },
+    {
+      "idx": 462,
+      "start": 1432.08,
+      "end": 1436.48,
+      "text": "hardware then most [clears throat]"
+    },
+    {
+      "idx": 463,
+      "start": 1434.159,
+      "end": 1439.6,
+      "text": "things will be available right so it's"
+    },
+    {
+      "idx": 464,
+      "start": 1436.48,
+      "end": 1442.24,
+      "text": "kind of like philosophy right with great"
+    },
+    {
+      "idx": 465,
+      "start": 1439.6,
+      "end": 1444.64,
+      "text": "power comes great responsibility right"
+    },
+    {
+      "idx": 466,
+      "start": 1442.24,
+      "end": 1446.4,
+      "text": "because you are money you are"
+    },
+    {
+      "idx": 467,
+      "start": 1444.64,
+      "end": 1448.96,
+      "text": "responsible for everything but"
+    },
+    {
+      "idx": 468,
+      "start": 1446.4,
+      "end": 1450.96,
+      "text": "interpreted language right okay it's"
+    },
+    {
+      "idx": 469,
+      "start": 1448.96,
+      "end": 1453.919,
+      "text": "interpreter right so if I don't delete"
+    },
+    {
+      "idx": 470,
+      "start": 1450.96,
+      "end": 1456.64,
+      "text": "the things I create you take care of it"
+    },
+    {
+      "idx": 471,
+      "start": 1453.919,
+      "end": 1458.72,
+      "text": "all right so it can actually let the"
+    },
+    {
+      "idx": 472,
+      "start": 1456.64,
+      "end": 1459.919,
+      "text": "interpreter do a lot of stuff all right"
+    },
+    {
+      "idx": 473,
+      "start": 1459.919,
+      "end": 1465.12,
+      "text": "It's kind of obvious from the discussion"
+    },
+    {
+      "idx": 474,
+      "start": 1462.559,
+      "end": 1468.159,
+      "text": "languages should be slower than compile"
+    },
+    {
+      "idx": 475,
+      "start": 1465.12,
+      "end": 1471.76,
+      "text": "learning right because there is a"
+    },
+    {
+      "idx": 476,
+      "start": 1468.159,
+      "end": 1474.88,
+      "text": "intermediate steps or"
+    },
+    {
+      "idx": 477,
+      "start": 1474.88,
+      "end": 1482.0,
+      "text": "do you understand the difference between"
+    },
+    {
+      "idx": 478,
+      "start": 1478.32,
+      "end": 1484.72,
+      "text": "interpreter and translator all right now"
+    },
+    {
+      "idx": 479,
+      "start": 1482.0,
+      "end": 1488.4,
+      "text": "utility all right if any high level"
+    },
+    {
+      "idx": 480,
+      "start": 1484.72,
+      "end": 1489.679,
+      "text": "source code needs to be translated into"
+    },
+    {
+      "idx": 481,
+      "start": 1489.679,
+      "end": 1493.764,
+      "text": "with the support of a compiler."
+    },
+    {
+      "idx": 482,
+      "start": 1494.159,
+      "end": 1500.88,
+      "text": "The compiler given it itself is also an"
+    },
+    {
+      "idx": 483,
+      "start": 1498.32,
+      "end": 1500.7,
+      "text": "It itself is a"
+    },
+    {
+      "idx": 484,
+      "start": 1500.88,
+      "end": 1505.474,
+      "text": "program definitely right."
+    },
+    {
+      "idx": 485,
+      "start": 1505.474,
+      "end": 1507.679,
+      "text": "So how do we"
+    },
+    {
+      "idx": 486,
+      "start": 1503.76,
+      "end": 1510.48,
+      "text": "get the first compiler?"
+    },
+    {
+      "idx": 487,
+      "start": 1507.679,
+      "end": 1513.12,
+      "text": "We are saying that we need a compiler to"
+    },
+    {
+      "idx": 488,
+      "start": 1510.48,
+      "end": 1516.0,
+      "text": "translate anything into the machine."
+    },
+    {
+      "idx": 489,
+      "start": 1513.12,
+      "end": 1518.643,
+      "text": "So how do we translate the first"
+    },
+    {
+      "idx": 490,
+      "start": 1516.0,
+      "end": 1520.706,
+      "text": "program we write in the machine code?"
+    },
+    {
+      "idx": 491,
+      "start": 1520.96,
+      "end": 1526.171,
+      "text": ">> Yeah, definitely you get it that."
+    },
+    {
+      "idx": 492,
+      "start": 1523.6,
+      "end": 1529.919,
+      "text": "first compiler is actually written was"
+    },
+    {
+      "idx": 493,
+      "start": 1527.039,
+      "end": 1531.84,
+      "text": "written in machine code."
+    },
+    {
+      "idx": 494,
+      "start": 1529.919,
+      "end": 1532.924,
+      "text": "So once you have the first"
+    },
+    {
+      "idx": 495,
+      "start": 1531.84,
+      "end": 1536.72,
+      "text": "compiler only then you can actually"
+    },
+    {
+      "idx": 496,
+      "start": 1534.08,
+      "end": 1539.2,
+      "text": "translate high level code into machine"
+    },
+    {
+      "idx": 497,
+      "start": 1536.72,
+      "end": 1539.863,
+      "text": "code using that compiler."
+    },
+    {
+      "idx": 498,
+      "start": 1539.2,
+      "end": 1542.314,
+      "text": "the same chicken and egg problem."
+    },
+    {
+      "idx": 499,
+      "start": 1541.12,
+      "end": 1545.52,
+      "text": "The first thing either the chicken or an"
+    },
+    {
+      "idx": 500,
+      "start": 1542.88,
+      "end": 1546.603,
+      "text": "So, it's like a first"
+    },
+    {
+      "idx": 501,
+      "start": 1545.52,
+      "end": 1552.64,
+      "text": "chicken must be directly from the right."
+    },
+    {
+      "idx": 502,
+      "start": 1549.44,
+      "end": 1553.7,
+      "text": "So, it's kind of like that."
+    },
+    {
+      "idx": 503,
+      "start": 1552.64,
+      "end": 1558.36,
+      "text": "is why the compiler is called the mother"
+    },
+    {
+      "idx": 504,
+      "start": 1561.12,
+      "end": 1563.399,
+      "text": "Now, once you have"
+    },
+    {
+      "idx": 505,
+      "start": 1563.44,
+      "end": 1567.919,
+      "text": "the first compiler,"
+    },
+    {
+      "idx": 506,
+      "start": 1565.679,
+      "end": 1568.871,
+      "text": "it's a crazy thing."
+    },
+    {
+      "idx": 507,
+      "start": 1568.871,
+      "end": 1570.719,
+      "text": "So you have"
+    },
+    {
+      "idx": 508,
+      "start": 1573.039,
+      "end": 1577.035,
+      "text": "Okay, you already have that."
+    },
+    {
+      "idx": 509,
+      "start": 1575.36,
+      "end": 1581.32,
+      "text": "Okay, then what you can do your second"
+    },
+    {
+      "idx": 510,
+      "start": 1581.919,
+      "end": 1586.24,
+      "text": "you can write the second compiler in C,"
+    },
+    {
+      "idx": 511,
+      "start": 1586.24,
+      "end": 1593.141,
+      "text": "Python or any other language."
+    },
+    {
+      "idx": 512,
+      "start": 1590.24,
+      "end": 1599.039,
+      "text": "Then you compile your second compiler"
+    },
+    {
+      "idx": 513,
+      "start": 1595.52,
+      "end": 1604.24,
+      "text": "using your first compiler."
+    },
+    {
+      "idx": 514,
+      "start": 1599.039,
+      "end": 1604.707,
+      "text": "Then you have the machine"
+    },
+    {
+      "idx": 515,
+      "start": 1605.84,
+      "end": 1612.0,
+      "text": "of the second"
+    },
+    {
+      "idx": 516,
+      "start": 1612.0,
+      "end": 1615.713,
+      "text": "So this is how the compilers"
+    },
+    {
+      "idx": 517,
+      "start": 1617.039,
+      "end": 1622.64,
+      "text": "So in reality scientists actually"
+    },
+    {
+      "idx": 518,
+      "start": 1620.159,
+      "end": 1623.28,
+      "text": "develop only one compiler."
+    },
+    {
+      "idx": 519,
+      "start": 1622.64,
+      "end": 1626.559,
+      "text": "And all subsequent compilers are"
+    },
+    {
+      "idx": 520,
+      "start": 1624.48,
+      "end": 1628.08,
+      "text": "actually compile using that compiler"
+    },
+    {
+      "idx": 521,
+      "start": 1626.559,
+      "end": 1628.977,
+      "text": "which is the next version."
+    },
+    {
+      "idx": 522,
+      "start": 1628.977,
+      "end": 1630.0,
+      "text": "So once you"
+    },
+    {
+      "idx": 523,
+      "start": 1628.08,
+      "end": 1632.32,
+      "text": "have this message code you can replace"
+    },
+    {
+      "idx": 524,
+      "start": 1630.0,
+      "end": 1634.799,
+      "text": "first with the second then you compile"
+    },
+    {
+      "idx": 525,
+      "start": 1632.32,
+      "end": 1638.762,
+      "text": "compiler using your second compiler."
+    },
+    {
+      "idx": 526,
+      "start": 1634.799,
+      "end": 1638.823,
+      "text": "goes on like this."
+    },
+    {
+      "idx": 527,
+      "start": 1639.12,
+      "end": 1645.52,
+      "text": "So it's kind of cool but it also shows"
+    },
+    {
+      "idx": 528,
+      "start": 1642.4,
+      "end": 1648.32,
+      "text": "you a security vulnerability."
+    },
+    {
+      "idx": 529,
+      "start": 1645.52,
+      "end": 1651.36,
+      "text": "If the first compiler"
+    },
+    {
+      "idx": 530,
+      "start": 1648.32,
+      "end": 1654.08,
+      "text": "has a security problem, it will be"
+    },
+    {
+      "idx": 531,
+      "start": 1651.36,
+      "end": 1658.24,
+      "text": "propagated to every other comp compiler"
+    },
+    {
+      "idx": 532,
+      "start": 1654.08,
+      "end": 1660.72,
+      "text": "right and even the compiler will be used"
+    },
+    {
+      "idx": 533,
+      "start": 1658.24,
+      "end": 1662.559,
+      "text": "to actually compile user program."
+    },
+    {
+      "idx": 534,
+      "start": 1660.72,
+      "end": 1664.64,
+      "text": "Security vulnerabilities will be"
+    },
+    {
+      "idx": 535,
+      "start": 1662.559,
+      "end": 1665.841,
+      "text": "propagated to all user program."
+    },
+    {
+      "idx": 536,
+      "start": 1666.159,
+      "end": 1671.626,
+      "text": "So you can say like you will see"
+    },
+    {
+      "idx": 537,
+      "start": 1670.24,
+      "end": 1674.559,
+      "text": "that you know your Windows operating"
+    },
+    {
+      "idx": 538,
+      "start": 1672.48,
+      "end": 1676.72,
+      "text": "system will say there is security update"
+    },
+    {
+      "idx": 539,
+      "start": 1674.559,
+      "end": 1678.799,
+      "text": "right like you have to accept it"
+    },
+    {
+      "idx": 540,
+      "start": 1676.72,
+      "end": 1681.12,
+      "text": "otherwise we will terminate the support"
+    },
+    {
+      "idx": 541,
+      "start": 1678.799,
+      "end": 1683.76,
+      "text": "for your older version right Microsoft"
+    },
+    {
+      "idx": 542,
+      "start": 1681.12,
+      "end": 1686.96,
+      "text": "kind of always try to drag you know the"
+    },
+    {
+      "idx": 543,
+      "start": 1683.76,
+      "end": 1689.12,
+      "text": "next version right right force you right"
+    },
+    {
+      "idx": 544,
+      "start": 1686.96,
+      "end": 1690.799,
+      "text": "this update won't be available in our"
+    },
+    {
+      "idx": 545,
+      "start": 1689.12,
+      "end": 1693.2,
+      "text": "older version so you have to migrate"
+    },
+    {
+      "idx": 546,
+      "start": 1690.799,
+      "end": 1695.76,
+      "text": "right Apple says that oh the battery"
+    },
+    {
+      "idx": 547,
+      "start": 1693.2,
+      "end": 1698.32,
+      "text": "life cycle will not last this this"
+    },
+    {
+      "idx": 548,
+      "start": 1695.76,
+      "end": 1700.72,
+      "text": "version is better right so they always"
+    },
+    {
+      "idx": 549,
+      "start": 1698.32,
+      "end": 1702.64,
+      "text": "tempt people to actually go to better"
+    },
+    {
+      "idx": 550,
+      "start": 1700.72,
+      "end": 1704.799,
+      "text": "version because they say previous"
+    },
+    {
+      "idx": 551,
+      "start": 1702.64,
+      "end": 1707.12,
+      "text": "version is not good there security"
+    },
+    {
+      "idx": 552,
+      "start": 1704.799,
+      "end": 1710.08,
+      "text": "problems right but you never hear such"
+    },
+    {
+      "idx": 553,
+      "start": 1707.12,
+      "end": 1713.84,
+      "text": "things about compiler"
+    },
+    {
+      "idx": 554,
+      "start": 1710.08,
+      "end": 1716.24,
+      "text": "all right you never hear like there is a"
+    },
+    {
+      "idx": 555,
+      "start": 1713.84,
+      "end": 1718.559,
+      "text": "problem there is a bug in this language"
+    },
+    {
+      "idx": 556,
+      "start": 1716.24,
+      "end": 1721.039,
+      "text": "compiler so all of you need to actually"
+    },
+    {
+      "idx": 557,
+      "start": 1718.559,
+      "end": 1723.84,
+      "text": "remove it and you know get the updated"
+    },
+    {
+      "idx": 558,
+      "start": 1721.039,
+      "end": 1727.36,
+      "text": "version of this compiler why that never"
+    },
+    {
+      "idx": 559,
+      "start": 1723.84,
+      "end": 1731.679,
+      "text": "happens due to this security All right."
+    },
+    {
+      "idx": 560,
+      "start": 1727.36,
+      "end": 1734.72,
+      "text": "If there is a path in any compiler, all"
+    },
+    {
+      "idx": 561,
+      "start": 1731.679,
+      "end": 1737.039,
+      "text": "right, in any language, all right, you"
+    },
+    {
+      "idx": 562,
+      "start": 1734.72,
+      "end": 1739.76,
+      "text": "can be sure that it has been propagated"
+    },
+    {
+      "idx": 563,
+      "start": 1737.039,
+      "end": 1742.96,
+      "text": "to all the insecurables being compiled"
+    },
+    {
+      "idx": 564,
+      "start": 1739.76,
+      "end": 1745.279,
+      "text": "using that compiler."
+    },
+    {
+      "idx": 565,
+      "start": 1742.96,
+      "end": 1746.968,
+      "text": "So, you have to say that all"
+    },
+    {
+      "idx": 566,
+      "start": 1745.279,
+      "end": 1750.72,
+      "text": "of you do this format"
+    },
+    {
+      "idx": 567,
+      "start": 1748.399,
+      "end": 1751.265,
+      "text": "or this formatting."
+    },
+    {
+      "idx": 568,
+      "start": 1750.72,
+      "end": 1756.32,
+      "text": "everything you have from your computers"
+    },
+    {
+      "idx": 569,
+      "start": 1753.679,
+      "end": 1759.039,
+      "text": "all over the world."
+    },
+    {
+      "idx": 570,
+      "start": 1756.32,
+      "end": 1760.96,
+      "text": "and then we will have a new compiler and"
+    },
+    {
+      "idx": 571,
+      "start": 1759.039,
+      "end": 1763.2,
+      "text": "that cannot be actually written in high"
+    },
+    {
+      "idx": 572,
+      "start": 1760.96,
+      "end": 1764.813,
+      "text": "You have to write that"
+    },
+    {
+      "idx": 573,
+      "start": 1763.2,
+      "end": 1766.61,
+      "text": "So doing anything in"
+    },
+    {
+      "idx": 574,
+      "start": 1767.44,
+      "end": 1770.826,
+      "text": "compiler is very sensitive."
+    },
+    {
+      "idx": 575,
+      "start": 1769.679,
+      "end": 1774.559,
+      "text": "You cannot actually have any security"
+    },
+    {
+      "idx": 576,
+      "start": 1772.08,
+      "end": 1776.88,
+      "text": "error in compiler development."
+    },
+    {
+      "idx": 577,
+      "start": 1774.559,
+      "end": 1779.026,
+      "text": "And this is the reason you can"
+    },
+    {
+      "idx": 578,
+      "start": 1777.36,
+      "end": 1783.12,
+      "text": "say that compiler"
+    },
+    {
+      "idx": 579,
+      "start": 1779.919,
+      "end": 1785.36,
+      "text": "research and compiler"
+    },
+    {
+      "idx": 580,
+      "start": 1785.36,
+      "end": 1791.919,
+      "text": "both remains kind of"
+    },
+    {
+      "idx": 581,
+      "start": 1788.72,
+      "end": 1795.6,
+      "text": "you can say in a"
+    },
+    {
+      "idx": 582,
+      "start": 1791.919,
+      "end": 1798.32,
+      "text": "t like this all right even minor"
+    },
+    {
+      "idx": 583,
+      "start": 1795.6,
+      "end": 1800.559,
+      "text": "improvement all right need to be checked"
+    },
+    {
+      "idx": 584,
+      "start": 1798.32,
+      "end": 1804.48,
+      "text": "thoroughly checked before being admitted"
+    },
+    {
+      "idx": 585,
+      "start": 1800.559,
+      "end": 1807.039,
+      "text": "to any network all right anything like"
+    },
+    {
+      "idx": 586,
+      "start": 1804.48,
+      "end": 1810.0,
+      "text": "this must be verified over and over"
+    },
+    {
+      "idx": 587,
+      "start": 1807.039,
+      "end": 1811.919,
+      "text": "again to ensure that I'm not propagating"
+    },
+    {
+      "idx": 588,
+      "start": 1810.0,
+      "end": 1812.95,
+      "text": "something in parallel."
+    },
+    {
+      "idx": 589,
+      "start": 1811.919,
+      "end": 1816.96,
+      "text": "compile codes although it is extremely"
+    },
+    {
+      "idx": 590,
+      "start": 1814.559,
+      "end": 1820.159,
+      "text": "important the knowledge of compiler"
+    },
+    {
+      "idx": 591,
+      "start": 1816.96,
+      "end": 1823.12,
+      "text": "seems to be like at a slow pace compared"
+    },
+    {
+      "idx": 592,
+      "start": 1820.159,
+      "end": 1825.6,
+      "text": "to many other disciplines of computer"
+    },
+    {
+      "idx": 593,
+      "start": 1823.12,
+      "end": 1828.159,
+      "text": "even in operating systems you'll find"
+    },
+    {
+      "idx": 594,
+      "start": 1825.6,
+      "end": 1830.72,
+      "text": "lot of research being done lot of things"
+    },
+    {
+      "idx": 595,
+      "start": 1828.159,
+      "end": 1833.2,
+      "text": "change operating systems development"
+    },
+    {
+      "idx": 596,
+      "start": 1830.72,
+      "end": 1835.52,
+      "text": "right so if you have an operating system"
+    },
+    {
+      "idx": 597,
+      "start": 1833.2,
+      "end": 1838.799,
+      "text": "course that is following suppose the"
+    },
+    {
+      "idx": 598,
+      "start": 1835.52,
+      "end": 1842.399,
+      "text": "technology 10 years ago you can reach"
+    },
+    {
+      "idx": 599,
+      "start": 1838.799,
+      "end": 1843.919,
+      "text": "your lot of things that you are using at"
+    },
+    {
+      "idx": 600,
+      "start": 1842.399,
+      "end": 1846.72,
+      "text": "the present moment that are not"
+    },
+    {
+      "idx": 601,
+      "start": 1843.919,
+      "end": 1849.98,
+      "text": "discussed in the curriculum."
+    },
+    {
+      "idx": 602,
+      "start": 1846.72,
+      "end": 1855.12,
+      "text": "compiler you can say that what we learn"
+    },
+    {
+      "idx": 603,
+      "start": 1851.279,
+      "end": 1857.039,
+      "text": "maybe 20 years ago all of them are still"
+    },
+    {
+      "idx": 604,
+      "start": 1859.039,
+      "end": 1865.44,
+      "text": "So in compiler design class also we try"
+    },
+    {
+      "idx": 605,
+      "start": 1862.72,
+      "end": 1867.84,
+      "text": "to actually teach you that you know all"
+    },
+    {
+      "idx": 606,
+      "start": 1865.44,
+      "end": 1870.32,
+      "text": "the foundational knowledge of compiler"
+    },
+    {
+      "idx": 607,
+      "start": 1867.84,
+      "end": 1873.44,
+      "text": "developments you can say that these are"
+    },
+    {
+      "idx": 608,
+      "start": 1870.32,
+      "end": 1878.559,
+      "text": "being used by researchers and engineers"
+    },
+    {
+      "idx": 609,
+      "start": 1873.44,
+      "end": 1882.32,
+      "text": "for you know 50 or 60 years right"
+    },
+    {
+      "idx": 610,
+      "start": 1878.559,
+      "end": 1885.919,
+      "text": "and for the same reason the compiler may"
+    },
+    {
+      "idx": 611,
+      "start": 1882.32,
+      "end": 1889.84,
+      "text": "sound like ah kind of shabas"
+    },
+    {
+      "idx": 612,
+      "start": 1885.919,
+      "end": 1893.84,
+      "text": "right have you ever read like shabangal"
+    },
+    {
+      "idx": 613,
+      "start": 1889.84,
+      "end": 1895.36,
+      "text": "Like if if you ever you know watch any"
+    },
+    {
+      "idx": 614,
+      "start": 1895.36,
+      "end": 1901.919,
+      "text": "you know dramatization of like everyone"
+    },
+    {
+      "idx": 615,
+      "start": 1898.96,
+      "end": 1904.72,
+      "text": "is using different forms of karma right"
+    },
+    {
+      "idx": 616,
+      "start": 1901.919,
+      "end": 1908.88,
+      "text": "right it's kind of like"
+    },
+    {
+      "idx": 617,
+      "start": 1904.72,
+      "end": 1913.039,
+      "text": "right like extra you know you know"
+    },
+    {
+      "idx": 618,
+      "start": 1908.88,
+      "end": 1915.2,
+      "text": "purity okay everything so the compiler"
+    },
+    {
+      "idx": 619,
+      "start": 1913.039,
+      "end": 1917.6,
+      "text": "textbooks are like that okay these are"
+    },
+    {
+      "idx": 620,
+      "start": 1915.2,
+      "end": 1921.36,
+      "text": "actually all of them I written long time"
+    },
+    {
+      "idx": 621,
+      "start": 1917.6,
+      "end": 1921.439,
+      "text": "ago and in very purpose."
+    },
+    {
+      "idx": 622,
+      "start": 1921.36,
+      "end": 1926.88,
+      "text": "thing about the book is it's like very"
+    },
+    {
+      "idx": 623,
+      "start": 1923.679,
+      "end": 1929.76,
+      "text": "explicit and very"
+    },
+    {
+      "idx": 624,
+      "start": 1926.88,
+      "end": 1929.797,
+      "text": "kind of highlight."
+    },
+    {
+      "idx": 625,
+      "start": 1929.76,
+      "end": 1935.6,
+      "text": "the book may be trying to actually"
+    },
+    {
+      "idx": 626,
+      "start": 1933.039,
+      "end": 1937.919,
+      "text": "develop a compromise."
+    },
+    {
+      "idx": 627,
+      "start": 1935.6,
+      "end": 1941.12,
+      "text": "Everything is discussion but everything"
+    },
+    {
+      "idx": 628,
+      "start": 1937.919,
+      "end": 1945.6,
+      "text": "also discussed in a very rigorous which"
+    },
+    {
+      "idx": 629,
+      "start": 1941.12,
+      "end": 1950.08,
+      "text": "is kind of not the way like uh you know"
+    },
+    {
+      "idx": 630,
+      "start": 1945.6,
+      "end": 1954.48,
+      "text": "we at the present generation"
+    },
+    {
+      "idx": 631,
+      "start": 1950.08,
+      "end": 1958.32,
+      "text": ">> I remember like uh when I went for my I"
+    },
+    {
+      "idx": 632,
+      "start": 1954.48,
+      "end": 1962.24,
+      "text": "studies not like my friends were eating"
+    },
+    {
+      "idx": 633,
+      "start": 1958.32,
+      "end": 1964.64,
+      "text": "l like they're writing things and then l"
+    },
+    {
+      "idx": 634,
+      "start": 1965.76,
+      "end": 1972.32,
+      "text": "more than a year and find out what real"
+    },
+    {
+      "idx": 635,
+      "start": 1969.76,
+      "end": 1974.847,
+      "text": "something like that but it's because you"
+    },
+    {
+      "idx": 636,
+      "start": 1972.32,
+      "end": 1976.88,
+      "text": "know like it's so common that's"
+    },
+    {
+      "idx": 637,
+      "start": 1974.847,
+      "end": 1978.799,
+      "text": "[clears throat] why people decide that"
+    },
+    {
+      "idx": 638,
+      "start": 1976.88,
+      "end": 1980.559,
+      "text": "there is no need for explanation right"
+    },
+    {
+      "idx": 639,
+      "start": 1978.799,
+      "end": 1983.559,
+      "text": "so you find something like that so"
+    },
+    {
+      "idx": 640,
+      "start": 1984.799,
+      "end": 1988.72,
+      "text": "and this is why coming to the class"
+    },
+    {
+      "idx": 641,
+      "start": 1986.559,
+      "end": 1990.96,
+      "text": "regularly also important because I like"
+    },
+    {
+      "idx": 642,
+      "start": 1988.72,
+      "end": 1993.12,
+      "text": "when you attend the class you kind of"
+    },
+    {
+      "idx": 643,
+      "start": 1990.96,
+      "end": 1995.519,
+      "text": "understand what part of the books"
+    },
+    {
+      "idx": 644,
+      "start": 1993.12,
+      "end": 1997.519,
+      "text": "actually I should read it you is key."
+    },
+    {
+      "idx": 645,
+      "start": 1995.519,
+      "end": 1999.102,
+      "text": "And what you aspect really"
+    },
+    {
+      "idx": 646,
+      "start": 1997.519,
+      "end": 2002.72,
+      "text": "follow although everything that is like"
+    },
+    {
+      "idx": 647,
+      "start": 2000.48,
+      "end": 2009.0,
+      "text": "you have to revise from the book is"
+    },
+    {
+      "idx": 648,
+      "start": 2002.72,
+      "end": 2009.0,
+      "text": "detailed uh detail in the polic"
+    },
+    {
+      "idx": 649,
+      "start": 2012.72,
+      "end": 2016.799,
+      "text": "it's difficult to relate right that okay"
+    },
+    {
+      "idx": 650,
+      "start": 2014.96,
+      "end": 2018.799,
+      "text": "I don't understand this stuff from this"
+    },
+    {
+      "idx": 651,
+      "start": 2016.799,
+      "end": 2020.24,
+      "text": "section so today I really started"
+    },
+    {
+      "idx": 652,
+      "start": 2018.799,
+      "end": 2023.36,
+      "text": "reading from the you know beginning of"
+    },
+    {
+      "idx": 653,
+      "start": 2020.24,
+      "end": 2026.559,
+      "text": "the channel all right so to avoid that"
+    },
+    {
+      "idx": 654,
+      "start": 2023.36,
+      "end": 2028.96,
+      "text": "all right uh come to that little"
+    },
+    {
+      "idx": 655,
+      "start": 2026.559,
+      "end": 2029.778,
+      "text": "So that's about the"
+    },
+    {
+      "idx": 656,
+      "start": 2028.96,
+      "end": 2034.399,
+      "text": "history of compilers uh to start and"
+    },
+    {
+      "idx": 657,
+      "start": 2032.32,
+      "end": 2034.84,
+      "text": "Now let us go back to"
+    },
+    {
+      "idx": 658,
+      "start": 2036.88,
+      "end": 2045.679,
+      "text": "So we are saying suppose so we are not"
+    },
+    {
+      "idx": 659,
+      "start": 2041.6,
+      "end": 2047.373,
+      "text": "interested in the computation."
+    },
+    {
+      "idx": 660,
+      "start": 2045.679,
+      "end": 2050.8,
+      "text": "is the only thing you should focus on"
+    },
+    {
+      "idx": 661,
+      "start": 2055.28,
+      "end": 2059.44,
+      "text": "That [clears throat] is the compiler."
+    },
+    {
+      "idx": 662,
+      "start": 2056.72,
+      "end": 2060.825,
+      "text": "It will take some programming"
+    },
+    {
+      "idx": 663,
+      "start": 2059.44,
+      "end": 2064.32,
+      "text": "language source code as an input and"
+    },
+    {
+      "idx": 664,
+      "start": 2062.24,
+      "end": 2068.639,
+      "text": "then it will generate sequence of"
+    },
+    {
+      "idx": 665,
+      "start": 2064.32,
+      "end": 2070.327,
+      "text": "instructions for our machine."
+    },
+    {
+      "idx": 666,
+      "start": 2068.639,
+      "end": 2075.599,
+      "text": "So first it has to be interpreted then"
+    },
+    {
+      "idx": 667,
+      "start": 2072.399,
+      "end": 2075.167,
+      "text": "it has to translate."
+    },
+    {
+      "idx": 668,
+      "start": 2079.679,
+      "end": 2084.24,
+      "text": "conversation first interpretation then"
+    },
+    {
+      "idx": 669,
+      "start": 2082.079,
+      "end": 2083.446,
+      "text": "It will never"
+    },
+    {
+      "idx": 670,
+      "start": 2084.24,
+      "end": 2086.333,
+      "text": "happen like this."
+    },
+    {
+      "idx": 671,
+      "start": 2086.333,
+      "end": 2087.688,
+      "text": "To give you"
+    },
+    {
+      "idx": 672,
+      "start": 2092.879,
+      "end": 2098.979,
+      "text": "This is very common example you"
+    },
+    {
+      "idx": 673,
+      "start": 2095.359,
+      "end": 2103.372,
+      "text": "see in school and college."
+    },
+    {
+      "idx": 674,
+      "start": 2100.16,
+      "end": 2106.079,
+      "text": "should be translated into"
+    },
+    {
+      "idx": 675,
+      "start": 2103.68,
+      "end": 2107.966,
+      "text": "But it never happens like"
+    },
+    {
+      "idx": 676,
+      "start": 2113.359,
+      "end": 2120.32,
+      "text": "I right then"
+    },
+    {
+      "idx": 677,
+      "start": 2120.32,
+      "end": 2128.64,
+      "text": "it doesn't happen like this right what's"
+    },
+    {
+      "idx": 678,
+      "start": 2123.359,
+      "end": 2133.52,
+      "text": "in my I listen to the whole thing right"
+    },
+    {
+      "idx": 679,
+      "start": 2128.64,
+      "end": 2137.92,
+      "text": "and then I understand what is being said"
+    },
+    {
+      "idx": 680,
+      "start": 2133.52,
+      "end": 2140.32,
+      "text": "and then I go to the language because"
+    },
+    {
+      "idx": 681,
+      "start": 2137.92,
+      "end": 2142.8,
+      "text": "you know the ordering of the words all"
+    },
+    {
+      "idx": 682,
+      "start": 2142.8,
+      "end": 2147.28,
+      "text": "these things are different in different"
+    },
+    {
+      "idx": 683,
+      "start": 2144.48,
+      "end": 2147.879,
+      "text": "So I cannot actually"
+    },
+    {
+      "idx": 684,
+      "start": 2147.28,
+      "end": 2150.599,
+      "text": "have the transl."
+    },
+    {
+      "idx": 685,
+      "start": 2153.92,
+      "end": 2159.062,
+      "text": "So there is a"
+    },
+    {
+      "idx": 686,
+      "start": 2157.839,
+      "end": 2161.726,
+      "text": "an analysis of the source."
+    },
+    {
+      "idx": 687,
+      "start": 2161.04,
+      "end": 2167.119,
+      "text": "all it need and once we are happy with"
+    },
+    {
+      "idx": 688,
+      "start": 2163.52,
+      "end": 2169.76,
+      "text": "the analysis then we actually generate"
+    },
+    {
+      "idx": 689,
+      "start": 2167.119,
+      "end": 2168.936,
+      "text": "All right. ["
+    },
+    {
+      "idx": 690,
+      "start": 2169.76,
+      "end": 2172.762,
+      "text": "So if that is the case,"
+    },
+    {
+      "idx": 691,
+      "start": 2172.72,
+      "end": 2180.599,
+      "text": "the compiler should follow the same"
+    },
+    {
+      "idx": 692,
+      "start": 2174.72,
+      "end": 2179.53,
+      "text": "So we take our source code."
+    },
+    {
+      "idx": 693,
+      "start": 2180.72,
+      "end": 2185.863,
+      "text": "So our source code"
+    },
+    {
+      "idx": 694,
+      "start": 2185.44,
+      "end": 2190.72,
+      "text": "that comes to the compiler."
+    },
+    {
+      "idx": 695,
+      "start": 2188.72,
+      "end": 2191.756,
+      "text": "and is supposed to generate"
+    },
+    {
+      "idx": 696,
+      "start": 2195.44,
+      "end": 2202.56,
+      "text": "sequence of instructions internally"
+    },
+    {
+      "idx": 697,
+      "start": 2199.119,
+      "end": 2205.119,
+      "text": "it will first do"
+    },
+    {
+      "idx": 698,
+      "start": 2205.119,
+      "end": 2214.24,
+      "text": "of the serviceable okay after it is"
+    },
+    {
+      "idx": 699,
+      "start": 2209.76,
+      "end": 2218.0,
+      "text": "happy with the all right all right it"
+    },
+    {
+      "idx": 700,
+      "start": 2214.24,
+      "end": 2220.32,
+      "text": "will actually then"
+    },
+    {
+      "idx": 701,
+      "start": 2221.52,
+      "end": 2223.76,
+      "text": "So there is an"
+    },
+    {
+      "idx": 702,
+      "start": 2224.0,
+      "end": 2228.486,
+      "text": "analysis that generation."
+    },
+    {
+      "idx": 703,
+      "start": 2227.119,
+      "end": 2233.44,
+      "text": "the analysis must generate an"
+    },
+    {
+      "idx": 704,
+      "start": 2233.44,
+      "end": 2237.643,
+      "text": "be used for the generation."
+    },
+    {
+      "idx": 705,
+      "start": 2235.76,
+      "end": 2242.2,
+      "text": "So the analysis will actually generate"
+    },
+    {
+      "idx": 706,
+      "start": 2242.64,
+      "end": 2246.14,
+      "text": "Typically in computer"
+    },
+    {
+      "idx": 707,
+      "start": 2244.72,
+      "end": 2250.817,
+      "text": "science we say it's all right."
+    },
+    {
+      "idx": 708,
+      "start": 2248.64,
+      "end": 2256.72,
+      "text": "um this is may have defined name for"
+    },
+    {
+      "idx": 709,
+      "start": 2252.24,
+      "end": 2258.72,
+      "text": "example in you will be in the context"
+    },
+    {
+      "idx": 710,
+      "start": 2256.72,
+      "end": 2261.76,
+      "text": "you learn the context right is the"
+    },
+    {
+      "idx": 711,
+      "start": 2258.72,
+      "end": 2264.64,
+      "text": "encoder then right so there are"
+    },
+    {
+      "idx": 712,
+      "start": 2261.76,
+      "end": 2269.44,
+      "text": "different things but at the most generic"
+    },
+    {
+      "idx": 713,
+      "start": 2264.64,
+      "end": 2273.44,
+      "text": "termed form all"
+    },
+    {
+      "idx": 714,
+      "start": 2269.44,
+      "end": 2276.72,
+      "text": "doing the analysis all right okay then"
+    },
+    {
+      "idx": 715,
+      "start": 2273.44,
+      "end": 2279.76,
+      "text": "the domination all"
+    },
+    {
+      "idx": 716,
+      "start": 2276.72,
+      "end": 2282.48,
+      "text": "Now that's why that compiler's behavior"
+    },
+    {
+      "idx": 717,
+      "start": 2279.76,
+      "end": 2285.119,
+      "text": "is typically we say that compiler"
+    },
+    {
+      "idx": 718,
+      "start": 2295.04,
+      "end": 2302.359,
+      "text": "right first and then this is generation"
+    },
+    {
+      "idx": 719,
+      "start": 2298.48,
+      "end": 2302.359,
+      "text": "or method or"
+    },
+    {
+      "idx": 720,
+      "start": 2304.079,
+      "end": 2309.92,
+      "text": "now in compiler"
+    },
+    {
+      "idx": 721,
+      "start": 2307.119,
+      "end": 2313.303,
+      "text": "We don't say generation."
+    },
+    {
+      "idx": 722,
+      "start": 2309.92,
+      "end": 2315.88,
+      "text": "Whether instead of generation we say"
+    },
+    {
+      "idx": 723,
+      "start": 2318.16,
+      "end": 2322.479,
+      "text": "So generation equivalent of"
+    },
+    {
+      "idx": 724,
+      "start": 2320.88,
+      "end": 2325.223,
+      "text": "So we say the compiler follow"
+    },
+    {
+      "idx": 725,
+      "start": 2326.72,
+      "end": 2333.119,
+      "text": "method model or whatever very"
+    },
+    {
+      "idx": 726,
+      "start": 2330.96,
+      "end": 2335.319,
+      "text": "why do we call it synthesis."
+    },
+    {
+      "idx": 727,
+      "start": 2333.119,
+      "end": 2335.546,
+      "text": "that's a US."
+    },
+    {
+      "idx": 728,
+      "start": 2335.546,
+      "end": 2338.378,
+      "text": "So I think lot"
+    },
+    {
+      "idx": 729,
+      "start": 2336.72,
+      "end": 2342.48,
+      "text": "of people do chemistry in school and"
+    },
+    {
+      "idx": 730,
+      "start": 2340.4,
+      "end": 2345.359,
+      "text": "college level right you know that"
+    },
+    {
+      "idx": 731,
+      "start": 2342.48,
+      "end": 2348.24,
+      "text": "physics that you have a compound and"
+    },
+    {
+      "idx": 732,
+      "start": 2345.359,
+      "end": 2350.56,
+      "text": "actually separating out the part through"
+    },
+    {
+      "idx": 733,
+      "start": 2348.24,
+      "end": 2353.56,
+      "text": "chemical reaction that process is called"
+    },
+    {
+      "idx": 734,
+      "start": 2354.4,
+      "end": 2359.599,
+      "text": "terminology generation is called"
+    },
+    {
+      "idx": 735,
+      "start": 2356.64,
+      "end": 2363.92,
+      "text": "synthesis because our high level source"
+    },
+    {
+      "idx": 736,
+      "start": 2359.599,
+      "end": 2366.079,
+      "text": "code it can add very complex concept in"
+    },
+    {
+      "idx": 737,
+      "start": 2363.92,
+      "end": 2369.119,
+      "text": "a single You can actually do a whole"
+    },
+    {
+      "idx": 738,
+      "start": 2366.079,
+      "end": 2370.96,
+      "text": "bunch of function calls right multiple"
+    },
+    {
+      "idx": 739,
+      "start": 2370.96,
+      "end": 2375.92,
+      "text": "multiplication right but the machine"
+    },
+    {
+      "idx": 740,
+      "start": 2374.24,
+      "end": 2378.32,
+      "text": "code from our computer architecture"
+    },
+    {
+      "idx": 741,
+      "start": 2375.92,
+      "end": 2381.92,
+      "text": "knowledge machine can do only one thing"
+    },
+    {
+      "idx": 742,
+      "start": 2378.32,
+      "end": 2384.16,
+      "text": "at a time single single logic single"
+    },
+    {
+      "idx": 743,
+      "start": 2381.92,
+      "end": 2387.04,
+      "text": "data movement right so the complex"
+    },
+    {
+      "idx": 744,
+      "start": 2384.16,
+      "end": 2388.8,
+      "text": "single thing the compound instructions"
+    },
+    {
+      "idx": 745,
+      "start": 2387.04,
+      "end": 2391.2,
+      "text": "or compound the statements and"
+    },
+    {
+      "idx": 746,
+      "start": 2388.8,
+      "end": 2395.359,
+      "text": "expressions in our source code needs to"
+    },
+    {
+      "idx": 747,
+      "start": 2391.2,
+      "end": 2399.04,
+      "text": "be syntiz into elemental"
+    },
+    {
+      "idx": 748,
+      "start": 2395.359,
+      "end": 2399.037,
+      "text": "All right, that's why"
+    },
+    {
+      "idx": 749,
+      "start": 2399.04,
+      "end": 2404.96,
+      "text": "this is not synthes."
+    },
+    {
+      "idx": 750,
+      "start": 2401.839,
+      "end": 2408.72,
+      "text": "All right, so the compiler follows"
+    },
+    {
+      "idx": 751,
+      "start": 2404.96,
+      "end": 2411.68,
+      "text": "analysis synthesis model."
+    },
+    {
+      "idx": 752,
+      "start": 2411.68,
+      "end": 2417.92,
+      "text": "Sometimes the analysis part is called"
+    },
+    {
+      "idx": 753,
+      "start": 2421.76,
+      "end": 2431.0,
+      "text": "and the simplicities part is called the"
+    },
+    {
+      "idx": 754,
+      "start": 2426.16,
+      "end": 2431.0,
+      "text": "back and for"
+    },
+    {
+      "idx": 755,
+      "start": 2436.079,
+      "end": 2440.72,
+      "text": "we actually use the terminal."
+    },
+    {
+      "idx": 756,
+      "start": 2439.04,
+      "end": 2442.711,
+      "text": "What is the important?"
+    },
+    {
+      "idx": 757,
+      "start": 2442.32,
+      "end": 2449.039,
+      "text": "idea is suppose you have a language."
+    },
+    {
+      "idx": 758,
+      "start": 2444.88,
+      "end": 2451.011,
+      "text": "Now any source code all right in"
+    },
+    {
+      "idx": 759,
+      "start": 2449.599,
+      "end": 2455.119,
+      "text": "that language will be analyzed using the"
+    },
+    {
+      "idx": 760,
+      "start": 2452.16,
+      "end": 2457.28,
+      "text": "same approach same set of tools."
+    },
+    {
+      "idx": 761,
+      "start": 2455.119,
+      "end": 2459.181,
+      "text": "And the intermediate form that we"
+    },
+    {
+      "idx": 762,
+      "start": 2457.76,
+      "end": 2463.599,
+      "text": "will generate after doing the analysis"
+    },
+    {
+      "idx": 763,
+      "start": 2459.92,
+      "end": 2463.355,
+      "text": "will be the same."
+    },
+    {
+      "idx": 764,
+      "start": 2463.355,
+      "end": 2466.589,
+      "text": "Then if you have"
+    },
+    {
+      "idx": 765,
+      "start": 2463.599,
+      "end": 2469.839,
+      "text": "different machine suppose in this file."
+    },
+    {
+      "idx": 766,
+      "start": 2467.599,
+      "end": 2469.923,
+      "text": "What you can do?"
+    },
+    {
+      "idx": 767,
+      "start": 2469.923,
+      "end": 2471.666,
+      "text": "You can only"
+    },
+    {
+      "idx": 768,
+      "start": 2469.839,
+      "end": 2473.438,
+      "text": "change the synthesis part."
+    },
+    {
+      "idx": 769,
+      "start": 2473.119,
+      "end": 2476.72,
+      "text": "at analysis phase you don't have any"
+    },
+    {
+      "idx": 770,
+      "start": 2476.72,
+      "end": 2480.492,
+      "text": "We just trying to understand"
+    },
+    {
+      "idx": 771,
+      "start": 2478.56,
+      "end": 2484.8,
+      "text": "what being written in the high level."
+    },
+    {
+      "idx": 772,
+      "start": 2481.839,
+      "end": 2485.528,
+      "text": "It is a synthesis but that is"
+    },
+    {
+      "idx": 773,
+      "start": 2484.8,
+      "end": 2489.04,
+      "text": "actually focusing on okay this"
+    },
+    {
+      "idx": 774,
+      "start": 2486.8,
+      "end": 2490.097,
+      "text": "architecture supports this."
+    },
+    {
+      "idx": 775,
+      "start": 2490.097,
+      "end": 2491.44,
+      "text": "So I should"
+    },
+    {
+      "idx": 776,
+      "start": 2489.04,
+      "end": 2492.367,
+      "text": "transmit it in this manner."
+    },
+    {
+      "idx": 777,
+      "start": 2491.44,
+      "end": 2495.444,
+      "text": "architecture doesn't support this."
+    },
+    {
+      "idx": 778,
+      "start": 2493.599,
+      "end": 2497.622,
+      "text": "has something else as an alternative."
+    },
+    {
+      "idx": 779,
+      "start": 2495.68,
+      "end": 2500.593,
+      "text": "I should transmit in that manner."
+    },
+    {
+      "idx": 780,
+      "start": 2497.839,
+      "end": 2502.517,
+      "text": "So the language and compiler"
+    },
+    {
+      "idx": 781,
+      "start": 2501.04,
+      "end": 2506.88,
+      "text": "developers make this approach then they"
+    },
+    {
+      "idx": 782,
+      "start": 2503.52,
+      "end": 2509.839,
+      "text": "write the front end compiler only once."
+    },
+    {
+      "idx": 783,
+      "start": 2506.88,
+      "end": 2510.908,
+      "text": "And they write the back end"
+    },
+    {
+      "idx": 784,
+      "start": 2509.839,
+      "end": 2513.92,
+      "text": "compiler for each test separately."
+    },
+    {
+      "idx": 785,
+      "start": 2512.4,
+      "end": 2517.359,
+      "text": "you just connect the front with the back"
+    },
+    {
+      "idx": 786,
+      "start": 2514.16,
+      "end": 2516.276,
+      "text": "If you don't do"
+    },
+    {
+      "idx": 787,
+      "start": 2517.359,
+      "end": 2523.52,
+      "text": "that then you have to write the full"
+    },
+    {
+      "idx": 788,
+      "start": 2519.52,
+      "end": 2525.839,
+      "text": "compiler for each that will be you know"
+    },
+    {
+      "idx": 789,
+      "start": 2523.52,
+      "end": 2528.319,
+      "text": "initially that will be manageable."
+    },
+    {
+      "idx": 790,
+      "start": 2528.319,
+      "end": 2534.479,
+      "text": "But the problem is in any uh long"
+    },
+    {
+      "idx": 791,
+      "start": 2533.359,
+      "end": 2536.17,
+      "text": "running commercial, right?"
+    },
+    {
+      "idx": 792,
+      "start": 2536.17,
+      "end": 2537.359,
+      "text": "You have to"
+    },
+    {
+      "idx": 793,
+      "start": 2535.599,
+      "end": 2538.395,
+      "text": "You have to do update,"
+    },
+    {
+      "idx": 794,
+      "start": 2537.359,
+      "end": 2540.837,
+      "text": "So you have a lot of copies."
+    },
+    {
+      "idx": 795,
+      "start": 2539.92,
+      "end": 2545.28,
+      "text": "you do update, you have to do the update"
+    },
+    {
+      "idx": 796,
+      "start": 2542.079,
+      "end": 2544.909,
+      "text": "in all copies, right?"
+    },
+    {
+      "idx": 797,
+      "start": 2544.909,
+      "end": 2547.2,
+      "text": "That typically is"
+    },
+    {
+      "idx": 798,
+      "start": 2545.28,
+      "end": 2547.468,
+      "text": "not manageable, right?"
+    },
+    {
+      "idx": 799,
+      "start": 2547.468,
+      "end": 2548.96,
+      "text": "But if you have"
+    },
+    {
+      "idx": 800,
+      "start": 2547.2,
+      "end": 2550.64,
+      "text": "just one version for the front end, if"
+    },
+    {
+      "idx": 801,
+      "start": 2548.96,
+      "end": 2553.76,
+      "text": "there is a front end up, you just do"
+    },
+    {
+      "idx": 802,
+      "start": 2550.64,
+      "end": 2555.119,
+      "text": "that once and all the compilers will be"
+    },
+    {
+      "idx": 803,
+      "start": 2555.119,
+      "end": 2559.246,
+      "text": "So that's why the indirect"
+    },
+    {
+      "idx": 804,
+      "start": 2568.319,
+      "end": 2572.333,
+      "text": "is not dependent on the part."
+    },
+    {
+      "idx": 805,
+      "start": 2571.04,
+      "end": 2575.359,
+      "text": "end compiler is that part of the"
+    },
+    {
+      "idx": 806,
+      "start": 2573.44,
+      "end": 2577.52,
+      "text": "compiler that is doing the same thing"
+    },
+    {
+      "idx": 807,
+      "start": 2575.359,
+      "end": 2580.0,
+      "text": "that is actually generating the"
+    },
+    {
+      "idx": 808,
+      "start": 2577.52,
+      "end": 2579.522,
+      "text": "So if your target"
+    },
+    {
+      "idx": 809,
+      "start": 2580.0,
+      "end": 2584.079,
+      "text": "machine is a virtual machine, it will"
+    },
+    {
+      "idx": 810,
+      "start": 2581.76,
+      "end": 2585.92,
+      "text": "generate the executable for the virtual"
+    },
+    {
+      "idx": 811,
+      "start": 2584.079,
+      "end": 2587.047,
+      "text": "If it is the regular hardware,"
+    },
+    {
+      "idx": 812,
+      "start": 2585.92,
+      "end": 2589.615,
+      "text": "you can generate for the regular."
+    },
+    {
+      "idx": 813,
+      "start": 2587.839,
+      "end": 2592.56,
+      "text": "your back end compiler can be defined"
+    },
+    {
+      "idx": 814,
+      "start": 2589.839,
+      "end": 2592.972,
+      "text": "for different back ends."
+    },
+    {
+      "idx": 815,
+      "start": 2592.56,
+      "end": 2595.08,
+      "text": "part of the compiler."
+    },
+    {
+      "idx": 816,
+      "start": 2595.08,
+      "end": 2596.4,
+      "text": "Where is it"
+    },
+    {
+      "idx": 817,
+      "start": 2602.0,
+      "end": 2606.945,
+      "text": "20 minutes, right?"
+    },
+    {
+      "idx": 818,
+      "start": 2605.2,
+      "end": 2611.839,
+      "text": "Now we understand that the compiler"
+    },
+    {
+      "idx": 819,
+      "start": 2608.319,
+      "end": 2614.28,
+      "text": "follow the palist in this model."
+    },
+    {
+      "idx": 820,
+      "start": 2616.079,
+      "end": 2621.76,
+      "text": "So let us see what exactly happened"
+    },
+    {
+      "idx": 821,
+      "start": 2621.76,
+      "end": 2628.48,
+      "text": "this model and we will go back to the"
+    },
+    {
+      "idx": 822,
+      "start": 2628.48,
+      "end": 2636.085,
+      "text": "text or human interaction scenario."
+    },
+    {
+      "idx": 823,
+      "start": 2631.599,
+      "end": 2636.52,
+      "text": "suppose I have language"
+    },
+    {
+      "idx": 824,
+      "start": 2637.2,
+      "end": 2645.24,
+      "text": "one space all right"
+    },
+    {
+      "idx": 825,
+      "start": 2640.72,
+      "end": 2645.24,
+      "text": "and my target is generally"
+    },
+    {
+      "idx": 826,
+      "start": 2649.04,
+      "end": 2654.4,
+      "text": "all right [clears throat] and I'm saying"
+    },
+    {
+      "idx": 827,
+      "start": 2651.44,
+      "end": 2656.96,
+      "text": "that first I'll leave"
+    },
+    {
+      "idx": 828,
+      "start": 2656.96,
+      "end": 2661.119,
+      "text": "all right then the first thing I will"
+    },
+    {
+      "idx": 829,
+      "start": 2661.44,
+      "end": 2664.629,
+      "text": "Once I'm happy with my"
+    },
+    {
+      "idx": 830,
+      "start": 2666.079,
+      "end": 2671.24,
+      "text": "I will have an intermediate mode"
+    },
+    {
+      "idx": 831,
+      "start": 2672.96,
+      "end": 2677.44,
+      "text": "or [clears throat] intermediate mode or"
+    },
+    {
+      "idx": 832,
+      "start": 2674.24,
+      "end": 2682.0,
+      "text": "whatever you call it then I will use it"
+    },
+    {
+      "idx": 833,
+      "start": 2677.44,
+      "end": 2684.64,
+      "text": "to doing the same."
+    },
+    {
+      "idx": 834,
+      "start": 2682.0,
+      "end": 2686.969,
+      "text": "And that will lead to my"
+    },
+    {
+      "idx": 835,
+      "start": 2684.64,
+      "end": 2690.11,
+      "text": "final language speech."
+    },
+    {
+      "idx": 836,
+      "start": 2690.11,
+      "end": 2692.596,
+      "text": "So this is"
+    },
+    {
+      "idx": 837,
+      "start": 2689.04,
+      "end": 2698.16,
+      "text": "how let me remove this array."
+    },
+    {
+      "idx": 838,
+      "start": 2693.839,
+      "end": 2699.335,
+      "text": "Now so first analyze and"
+    },
+    {
+      "idx": 839,
+      "start": 2700.48,
+      "end": 2707.119,
+      "text": "This is this is a pattern."
+    },
+    {
+      "idx": 840,
+      "start": 2707.119,
+      "end": 2717.04,
+      "text": "Now how do we analyze a speech or a"
+    },
+    {
+      "idx": 841,
+      "start": 2712.24,
+      "end": 2715.737,
+      "text": "in a normal human"
+    },
+    {
+      "idx": 842,
+      "start": 2731.599,
+      "end": 2735.112,
+      "text": "The first thing you eat"
+    },
+    {
+      "idx": 843,
+      "start": 2736.64,
+      "end": 2745.76,
+      "text": "no not first we take the vocabulary"
+    },
+    {
+      "idx": 844,
+      "start": 2742.4,
+      "end": 2748.56,
+      "text": "you know first you say like what is the"
+    },
+    {
+      "idx": 845,
+      "start": 2745.76,
+      "end": 2754.079,
+      "text": "meaning of this word"
+    },
+    {
+      "idx": 846,
+      "start": 2748.56,
+      "end": 2757.599,
+      "text": "is it is it now all right is actually"
+    },
+    {
+      "idx": 847,
+      "start": 2754.079,
+      "end": 2761.44,
+      "text": "the first thing that you focus on you"
+    },
+    {
+      "idx": 848,
+      "start": 2757.599,
+      "end": 2764.88,
+      "text": "know this is how like you know"
+    },
+    {
+      "idx": 849,
+      "start": 2761.44,
+      "end": 2767.04,
+      "text": "teach me new languages and then"
+    },
+    {
+      "idx": 850,
+      "start": 2764.88,
+      "end": 2770.16,
+      "text": "something new like I don't understand so"
+    },
+    {
+      "idx": 851,
+      "start": 2767.04,
+      "end": 2773.359,
+      "text": "it's kind of like language or you know"
+    },
+    {
+      "idx": 852,
+      "start": 2770.16,
+      "end": 2775.599,
+      "text": "something else right but more generally"
+    },
+    {
+      "idx": 853,
+      "start": 2773.359,
+      "end": 2778.88,
+      "text": "like they like so racist people like"
+    },
+    {
+      "idx": 854,
+      "start": 2775.599,
+      "end": 2782.319,
+      "text": "they you know even people from other"
+    },
+    {
+      "idx": 855,
+      "start": 2778.88,
+      "end": 2785.359,
+      "text": "planet they also speak English for some"
+    },
+    {
+      "idx": 856,
+      "start": 2782.319,
+      "end": 2789.839,
+      "text": "Bangla or French right okay everybody"
+    },
+    {
+      "idx": 857,
+      "start": 2785.359,
+      "end": 2791.68,
+      "text": "speaks English okay all right anyway so"
+    },
+    {
+      "idx": 858,
+      "start": 2789.839,
+      "end": 2793.68,
+      "text": "first to understand anything we have to"
+    },
+    {
+      "idx": 859,
+      "start": 2791.68,
+      "end": 2797.04,
+      "text": "understand the vocabulary right then"
+    },
+    {
+      "idx": 860,
+      "start": 2793.68,
+      "end": 2800.64,
+      "text": "individual words right so understanding"
+    },
+    {
+      "idx": 861,
+      "start": 2797.04,
+      "end": 2804.64,
+      "text": "thinking or uh analyzing whatever you"
+    },
+    {
+      "idx": 862,
+      "start": 2800.64,
+      "end": 2807.92,
+      "text": "call it analyze all right the vocabulary"
+    },
+    {
+      "idx": 863,
+      "start": 2804.64,
+      "end": 2809.839,
+      "text": "is actually this is traditionally called"
+    },
+    {
+      "idx": 864,
+      "start": 2815.76,
+      "end": 2818.48,
+      "text": "why it's called lexical analysis"
+    },
+    {
+      "idx": 865,
+      "start": 2820.079,
+      "end": 2824.371,
+      "text": "is the smallest unit of being."
+    },
+    {
+      "idx": 866,
+      "start": 2822.4,
+      "end": 2826.299,
+      "text": "It actually came from late."
+    },
+    {
+      "idx": 867,
+      "start": 2824.8,
+      "end": 2829.997,
+      "text": "For example, if I say increasing,"
+    },
+    {
+      "idx": 868,
+      "start": 2827.599,
+      "end": 2831.372,
+      "text": "increasing is a single word."
+    },
+    {
+      "idx": 869,
+      "start": 2830.942,
+      "end": 2836.88,
+      "text": "[clears throat] But we know part of it"
+    },
+    {
+      "idx": 870,
+      "start": 2832.72,
+      "end": 2836.467,
+      "text": "It itself is a word."
+    },
+    {
+      "idx": 871,
+      "start": 2836.88,
+      "end": 2841.057,
+      "text": "means part of the king."
+    },
+    {
+      "idx": 872,
+      "start": 2839.839,
+      "end": 2843.319,
+      "text": "In itself is not a"
+    },
+    {
+      "idx": 873,
+      "start": 2843.599,
+      "end": 2848.482,
+      "text": "word, but it has a meaning, right?"
+    },
+    {
+      "idx": 874,
+      "start": 2846.8,
+      "end": 2850.379,
+      "text": "So if you actually"
+    },
+    {
+      "idx": 875,
+      "start": 2849.2,
+      "end": 2857.145,
+      "text": "bring down I into I mean all right."
+    },
+    {
+      "idx": 876,
+      "start": 2853.76,
+      "end": 2859.92,
+      "text": "listen is the smallest unit of a"
+    },
+    {
+      "idx": 877,
+      "start": 2857.599,
+      "end": 2861.529,
+      "text": "language that has meaning."
+    },
+    {
+      "idx": 878,
+      "start": 2859.92,
+      "end": 2865.599,
+      "text": "That's why taking the focal is called"
+    },
+    {
+      "idx": 879,
+      "start": 2865.599,
+      "end": 2871.119,
+      "text": "first thing the compiler will also do is"
+    },
+    {
+      "idx": 880,
+      "start": 2868.48,
+      "end": 2870.756,
+      "text": "It will try to"
+    },
+    {
+      "idx": 881,
+      "start": 2871.119,
+      "end": 2876.16,
+      "text": "understand the individual words,"
+    },
+    {
+      "idx": 882,
+      "start": 2873.52,
+      "end": 2878.319,
+      "text": "individual delimiters, numbers,"
+    },
+    {
+      "idx": 883,
+      "start": 2876.16,
+      "end": 2882.079,
+      "text": "operators that you actually learn in"
+    },
+    {
+      "idx": 884,
+      "start": 2878.319,
+      "end": 2883.36,
+      "text": "your program program."
+    },
+    {
+      "idx": 885,
+      "start": 2882.079,
+      "end": 2887.52,
+      "text": "you understand the vocabulary."
+    },
+    {
+      "idx": 886,
+      "start": 2884.56,
+      "end": 2890.52,
+      "text": "After understanding the vocabulary, you"
+    },
+    {
+      "idx": 887,
+      "start": 2894.72,
+      "end": 2898.408,
+      "text": "What do you say the structure"
+    },
+    {
+      "idx": 888,
+      "start": 2896.8,
+      "end": 2901.899,
+      "text": "It's a structure, right?"
+    },
+    {
+      "idx": 889,
+      "start": 2899.68,
+      "end": 2906.48,
+      "text": "So Bangala language has"
+    },
+    {
+      "idx": 890,
+      "start": 2903.599,
+      "end": 2910.319,
+      "text": "English language has grammar right"
+    },
+    {
+      "idx": 891,
+      "start": 2906.48,
+      "end": 2913.76,
+      "text": "whatever grammar is the way of arranging"
+    },
+    {
+      "idx": 892,
+      "start": 2910.319,
+      "end": 2916.319,
+      "text": "the terms from the vocabulary right"
+    },
+    {
+      "idx": 893,
+      "start": 2913.76,
+      "end": 2919.92,
+      "text": "arrangement makes sense citing"
+    },
+    {
+      "idx": 894,
+      "start": 2916.319,
+      "end": 2923.2,
+      "text": "arrangement don't make sense right so"
+    },
+    {
+      "idx": 895,
+      "start": 2919.92,
+      "end": 2928.88,
+      "text": "that represent the structure right now"
+    },
+    {
+      "idx": 896,
+      "start": 2923.2,
+      "end": 2932.88,
+      "text": "analyzing the grammar is called ted"
+    },
+    {
+      "idx": 897,
+      "start": 2932.88,
+      "end": 2935.869,
+      "text": "Syntax of a language"
+    },
+    {
+      "idx": 898,
+      "start": 2935.92,
+      "end": 2939.359,
+      "text": "is equivalent of actually grammar of a"
+    },
+    {
+      "idx": 899,
+      "start": 2941.2,
+      "end": 2943.268,
+      "text": "All right. ["
+    },
+    {
+      "idx": 900,
+      "start": 2943.52,
+      "end": 2948.24,
+      "text": "Once you understand that all the words"
+    },
+    {
+      "idx": 901,
+      "start": 2945.68,
+      "end": 2951.04,
+      "text": "are valued can make sense of the word"
+    },
+    {
+      "idx": 902,
+      "start": 2948.24,
+      "end": 2953.44,
+      "text": "then you say okay structurally the the"
+    },
+    {
+      "idx": 903,
+      "start": 2951.04,
+      "end": 2958.48,
+      "text": "way words are arranged also makes sense."
+    },
+    {
+      "idx": 904,
+      "start": 2953.44,
+      "end": 2957.557,
+      "text": "only then you can"
+    },
+    {
+      "idx": 905,
+      "start": 2967.839,
+      "end": 2974.319,
+      "text": "First vocabulary then structure then"
+    },
+    {
+      "idx": 906,
+      "start": 2970.24,
+      "end": 2974.135,
+      "text": "Now meaning analysis"
+    },
+    {
+      "idx": 907,
+      "start": 2982.48,
+      "end": 2986.828,
+      "text": "Semantic literally means"
+    },
+    {
+      "idx": 908,
+      "start": 2985.68,
+      "end": 2989.58,
+      "text": "It is a lacking term for"
+    },
+    {
+      "idx": 909,
+      "start": 2988.64,
+      "end": 2991.105,
+      "text": "So meaning analysis"
+    },
+    {
+      "idx": 910,
+      "start": 2990.88,
+      "end": 2995.627,
+      "text": "means semantic analysis."
+    },
+    {
+      "idx": 911,
+      "start": 2993.44,
+      "end": 3001.2,
+      "text": "once I do GCP analysis only then I will"
+    },
+    {
+      "idx": 912,
+      "start": 2998.0,
+      "end": 3001.831,
+      "text": "get the intermediate form."
+    },
+    {
+      "idx": 913,
+      "start": 3001.2,
+      "end": 3006.079,
+      "text": "what does the intermediate form contain"
+    },
+    {
+      "idx": 914,
+      "start": 3003.599,
+      "end": 3008.48,
+      "text": "is actually the compiler's understanding"
+    },
+    {
+      "idx": 915,
+      "start": 3006.079,
+      "end": 3010.16,
+      "text": "of the vocabulary compiler's"
+    },
+    {
+      "idx": 916,
+      "start": 3008.48,
+      "end": 3012.48,
+      "text": "understanding of the structure of the"
+    },
+    {
+      "idx": 917,
+      "start": 3010.16,
+      "end": 3014.494,
+      "text": "compiler understanding of the"
+    },
+    {
+      "idx": 918,
+      "start": 3012.48,
+      "end": 3017.019,
+      "text": "reading of different things."
+    },
+    {
+      "idx": 919,
+      "start": 3015.839,
+      "end": 3020.792,
+      "text": "So suppose you you have a function"
+    },
+    {
+      "idx": 920,
+      "start": 3018.64,
+      "end": 3022.114,
+      "text": "So which function to"
+    },
+    {
+      "idx": 921,
+      "start": 3021.52,
+      "end": 3026.559,
+      "text": "call because the same function function"
+    },
+    {
+      "idx": 922,
+      "start": 3024.72,
+      "end": 3028.88,
+      "text": "with the same"
+    },
+    {
+      "idx": 923,
+      "start": 3028.88,
+      "end": 3037.119,
+      "text": "which particular function you call right"
+    },
+    {
+      "idx": 924,
+      "start": 3031.76,
+      "end": 3039.44,
+      "text": "you learn about pass by reference poly"
+    },
+    {
+      "idx": 925,
+      "start": 3037.119,
+      "end": 3041.68,
+      "text": "should I use in this case or pass by"
+    },
+    {
+      "idx": 926,
+      "start": 3039.44,
+      "end": 3042.424,
+      "text": "reference in this case."
+    },
+    {
+      "idx": 927,
+      "start": 3041.68,
+      "end": 3046.079,
+      "text": "kind of things all right you assign the"
+    },
+    {
+      "idx": 928,
+      "start": 3044.24,
+      "end": 3050.52,
+      "text": "result of integer operation to a"
+    },
+    {
+      "idx": 929,
+      "start": 3071.28,
+      "end": 3077.119,
+      "text": "each level instructions"
+    },
+    {
+      "idx": 930,
+      "start": 3074.64,
+      "end": 3082.079,
+      "text": "all right in your source book there may"
+    },
+    {
+      "idx": 931,
+      "start": 3077.119,
+      "end": 3088.16,
+      "text": "be sequence of low-level instructions"
+    },
+    {
+      "idx": 932,
+      "start": 3082.079,
+      "end": 3092.4,
+      "text": "or verb whatever it but typical syn"
+    },
+    {
+      "idx": 933,
+      "start": 3088.16,
+      "end": 3094.72,
+      "text": "actually have an oper that's why"
+    },
+    {
+      "idx": 934,
+      "start": 3101.04,
+      "end": 3104.68,
+      "text": "Oh, you may listen."
+    },
+    {
+      "idx": 935,
+      "start": 3117.28,
+      "end": 3121.742,
+      "text": "So, technically there are two"
+    },
+    {
+      "idx": 936,
+      "start": 3123.28,
+      "end": 3125.425,
+      "text": "these are optional."
+    },
+    {
+      "idx": 937,
+      "start": 3125.425,
+      "end": 3127.119,
+      "text": "That's like you"
+    },
+    {
+      "idx": 938,
+      "start": 3125.119,
+      "end": 3127.343,
+      "text": "don't need them."
+    },
+    {
+      "idx": 939,
+      "start": 3127.343,
+      "end": 3129.01,
+      "text": "If you don't"
+    },
+    {
+      "idx": 940,
+      "start": 3127.119,
+      "end": 3130.853,
+      "text": "have them still is fine."
+    },
+    {
+      "idx": 941,
+      "start": 3130.4,
+      "end": 3135.76,
+      "text": "can be some basically independent"
+    },
+    {
+      "idx": 942,
+      "start": 3132.72,
+      "end": 3136.613,
+      "text": "Suppose you have something"
+    },
+    {
+      "idx": 943,
+      "start": 3135.76,
+      "end": 3141.52,
+      "text": "like this y"
+    },
+    {
+      "idx": 944,
+      "start": 3141.52,
+      "end": 3147.04,
+      "text": "in your source is a"
+    },
+    {
+      "idx": 945,
+      "start": 3144.88,
+      "end": 3149.887,
+      "text": "But we know instead of doing"
+    },
+    {
+      "idx": 946,
+      "start": 3147.04,
+      "end": 3154.319,
+      "text": "multiplication if we do y = to x double"
+    },
+    {
+      "idx": 947,
+      "start": 3150.96,
+      "end": 3156.4,
+      "text": "shift left this is shift operation which"
+    },
+    {
+      "idx": 948,
+      "start": 3154.319,
+      "end": 3158.96,
+      "text": "is much more efficient right like you"
+    },
+    {
+      "idx": 949,
+      "start": 3156.4,
+      "end": 3161.76,
+      "text": "learn multiplication integer"
+    },
+    {
+      "idx": 950,
+      "start": 3166.4,
+      "end": 3172.48,
+      "text": "but shift two times"
+    },
+    {
+      "idx": 951,
+      "start": 3169.839,
+      "end": 3174.64,
+      "text": "right so if you use this conversion with"
+    },
+    {
+      "idx": 952,
+      "start": 3172.48,
+      "end": 3176.72,
+      "text": "this conversion your go will be more"
+    },
+    {
+      "idx": 953,
+      "start": 3176.72,
+      "end": 3180.96,
+      "text": "example can be suddenly you have the"
+    },
+    {
+      "idx": 954,
+      "start": 3178.319,
+      "end": 3183.119,
+      "text": "same you know expressions or same"
+    },
+    {
+      "idx": 955,
+      "start": 3180.96,
+      "end": 3185.359,
+      "text": "statements in multiple places in your"
+    },
+    {
+      "idx": 956,
+      "start": 3183.119,
+      "end": 3189.76,
+      "text": "compiler analyze that okay you have done"
+    },
+    {
+      "idx": 957,
+      "start": 3185.359,
+      "end": 3191.92,
+      "text": "this before so it can reuse the anal"
+    },
+    {
+      "idx": 958,
+      "start": 3189.76,
+      "end": 3195.44,
+      "text": "instead of doing the same thing again"
+    },
+    {
+      "idx": 959,
+      "start": 3191.92,
+      "end": 3199.68,
+      "text": "all right so that can be also a machine"
+    },
+    {
+      "idx": 960,
+      "start": 3195.44,
+      "end": 3201.52,
+      "text": "independent of so typically like our"
+    },
+    {
+      "idx": 961,
+      "start": 3201.52,
+      "end": 3206.88,
+      "text": "typically has lot of inefficiency so"
+    },
+    {
+      "idx": 962,
+      "start": 3204.079,
+      "end": 3209.92,
+      "text": "most of and machine optimization"
+    },
+    {
+      "idx": 963,
+      "start": 3206.88,
+      "end": 3213.44,
+      "text": "actually save some instruction save some"
+    },
+    {
+      "idx": 964,
+      "start": 3209.92,
+      "end": 3216.16,
+      "text": "memory from your so typical commercial"
+    },
+    {
+      "idx": 965,
+      "start": 3213.44,
+      "end": 3219.119,
+      "text": "compilers actually involve this all"
+    },
+    {
+      "idx": 966,
+      "start": 3216.16,
+      "end": 3222.72,
+      "text": "right you can write your own compiler"
+    },
+    {
+      "idx": 967,
+      "start": 3219.119,
+      "end": 3226.0,
+      "text": "that does not use any machine"
+    },
+    {
+      "idx": 968,
+      "start": 3222.72,
+      "end": 3227.76,
+      "text": "it's perfectly fine okay now code"
+    },
+    {
+      "idx": 969,
+      "start": 3226.0,
+      "end": 3230.72,
+      "text": "generation means like after this"
+    },
+    {
+      "idx": 970,
+      "start": 3227.76,
+      "end": 3232.8,
+      "text": "definitely I already have the machine"
+    },
+    {
+      "idx": 971,
+      "start": 3230.72,
+      "end": 3234.72,
+      "text": "executable right so what could be"
+    },
+    {
+      "idx": 972,
+      "start": 3232.8,
+      "end": 3236.72,
+      "text": "machine dependent optimization"
+    },
+    {
+      "idx": 973,
+      "start": 3234.72,
+      "end": 3238.72,
+      "text": "So you learn in computer"
+    },
+    {
+      "idx": 974,
+      "start": 3243.68,
+      "end": 3248.163,
+      "text": "depending on earlier instructions."
+    },
+    {
+      "idx": 975,
+      "start": 3246.16,
+      "end": 3251.839,
+      "text": "the results of ear instructions they are"
+    },
+    {
+      "idx": 976,
+      "start": 3248.559,
+      "end": 3251.948,
+      "text": "not available yet."
+    },
+    {
+      "idx": 977,
+      "start": 3251.948,
+      "end": 3254.96,
+      "text": "Then you have to"
+    },
+    {
+      "idx": 978,
+      "start": 3251.839,
+      "end": 3257.92,
+      "text": "actually install stall cycles inside"
+    },
+    {
+      "idx": 979,
+      "start": 3254.96,
+      "end": 3259.76,
+      "text": "your pipeline to delay things."
+    },
+    {
+      "idx": 980,
+      "start": 3257.92,
+      "end": 3263.04,
+      "text": "to avoid scalling compiler can actually"
+    },
+    {
+      "idx": 981,
+      "start": 3261.04,
+      "end": 3265.599,
+      "text": "insert like reorder the sequence of"
+    },
+    {
+      "idx": 982,
+      "start": 3263.04,
+      "end": 3267.76,
+      "text": "machine instructions so that you can"
+    },
+    {
+      "idx": 983,
+      "start": 3265.599,
+      "end": 3270.079,
+      "text": "actually execute other instructions when"
+    },
+    {
+      "idx": 984,
+      "start": 3267.76,
+      "end": 3272.319,
+      "text": "you are waiting for results from some"
+    },
+    {
+      "idx": 985,
+      "start": 3272.319,
+      "end": 3274.637,
+      "text": "The compiler can"
+    },
+    {
+      "idx": 986,
+      "start": 3274.64,
+      "end": 3279.68,
+      "text": "understand that side have more"
+    },
+    {
+      "idx": 987,
+      "start": 3277.68,
+      "end": 3278.928,
+      "text": "So it can"
+    },
+    {
+      "idx": 988,
+      "start": 3279.68,
+      "end": 3283.76,
+      "text": "actually copy more data from RAM to the"
+    },
+    {
+      "idx": 989,
+      "start": 3281.839,
+      "end": 3286.16,
+      "text": "CPU and hold them in the CPU for a"
+    },
+    {
+      "idx": 990,
+      "start": 3283.76,
+      "end": 3287.748,
+      "text": "So you can actually do some"
+    },
+    {
+      "idx": 991,
+      "start": 3286.16,
+      "end": 3290.383,
+      "text": "Now your modern CPU they"
+    },
+    {
+      "idx": 992,
+      "start": 3289.52,
+      "end": 3293.835,
+      "text": "have vector processors Intel i7."
+    },
+    {
+      "idx": 993,
+      "start": 3292.319,
+      "end": 3295.975,
+      "text": "So it knows that suppose you have"
+    },
+    {
+      "idx": 994,
+      "start": 3294.24,
+      "end": 3299.359,
+      "text": "a loop and inside the loop you are just"
+    },
+    {
+      "idx": 995,
+      "start": 3296.64,
+      "end": 3302.079,
+      "text": "incrementing index by one and accessing"
+    },
+    {
+      "idx": 996,
+      "start": 3299.359,
+      "end": 3302.168,
+      "text": "elements from an array."
+    },
+    {
+      "idx": 997,
+      "start": 3302.168,
+      "end": 3304.0,
+      "text": "So compiler can"
+    },
+    {
+      "idx": 998,
+      "start": 3302.079,
+      "end": 3305.92,
+      "text": "decide oh the vector processor instead"
+    },
+    {
+      "idx": 999,
+      "start": 3304.0,
+      "end": 3308.559,
+      "text": "of incrementing by one I will increment"
+    },
+    {
+      "idx": 1000,
+      "start": 3305.92,
+      "end": 3309.755,
+      "text": "All right and I will do 16"
+    },
+    {
+      "idx": 1001,
+      "start": 3308.559,
+      "end": 3312.004,
+      "text": "operation at the same time."
+    },
+    {
+      "idx": 1002,
+      "start": 3310.64,
+      "end": 3316.0,
+      "text": "So this works through machine dependent"
+    },
+    {
+      "idx": 1003,
+      "start": 3313.28,
+      "end": 3316.587,
+      "text": "Now any optimization has a"
+    },
+    {
+      "idx": 1004,
+      "start": 3316.0,
+      "end": 3320.4,
+      "text": "characteristics that that improve the"
+    },
+    {
+      "idx": 1005,
+      "start": 3318.24,
+      "end": 3322.72,
+      "text": "performance with your code without"
+    },
+    {
+      "idx": 1006,
+      "start": 3320.4,
+      "end": 3324.995,
+      "text": "actually changing its behavior."
+    },
+    {
+      "idx": 1007,
+      "start": 3322.72,
+      "end": 3326.961,
+      "text": "So if you don't have them, it"
+    },
+    {
+      "idx": 1008,
+      "start": 3325.44,
+      "end": 3327.84,
+      "text": "It just improve"
+    },
+    {
+      "idx": 1009,
+      "start": 3327.839,
+      "end": 3330.172,
+      "text": "So this is the"
+    },
+    {
+      "idx": 1010,
+      "start": 3329.76,
+      "end": 3336.191,
+      "text": "typical structure of your compiler."
+    },
+    {
+      "idx": 1011,
+      "start": 3333.839,
+      "end": 3338.96,
+      "text": "what we actually do in subsequent"
+    },
+    {
+      "idx": 1012,
+      "start": 3336.559,
+      "end": 3341.359,
+      "text": "classes, we'll actually go through these"
+    },
+    {
+      "idx": 1013,
+      "start": 3338.96,
+      "end": 3341.227,
+      "text": "steps one by one."
+    },
+    {
+      "idx": 1014,
+      "start": 3341.227,
+      "end": 3342.427,
+      "text": "So in the"
+    },
+    {
+      "idx": 1015,
+      "start": 3341.359,
+      "end": 3345.839,
+      "text": "next class we going to do theical"
+    },
+    {
+      "idx": 1016,
+      "start": 3343.76,
+      "end": 3348.96,
+      "text": "analysis and we'll go through this"
+    },
+    {
+      "idx": 1017,
+      "start": 3345.839,
+      "end": 3351.359,
+      "text": "quickly because we kind of like covered"
+    },
+    {
+      "idx": 1018,
+      "start": 3348.96,
+      "end": 3353.92,
+      "text": "all of it in your automated theory"
+    },
+    {
+      "idx": 1019,
+      "start": 3351.359,
+      "end": 3356.528,
+      "text": "All right we have to spend"
+    },
+    {
+      "idx": 1020,
+      "start": 3353.92,
+      "end": 3358.858,
+      "text": "substantial time here."
+    },
+    {
+      "idx": 1021,
+      "start": 3358.858,
+      "end": 3362.0,
+      "text": "All right then"
+    },
+    {
+      "idx": 1022,
+      "start": 3357.92,
+      "end": 3360.661,
+      "text": "here and here."
+    },
+    {
+      "idx": 1023,
+      "start": 3360.661,
+      "end": 3365.359,
+      "text": "All right we don't cover"
+    },
+    {
+      "idx": 1024,
+      "start": 3362.0,
+      "end": 3368.477,
+      "text": "optimizations in our portion."
+    },
+    {
+      "idx": 1025,
+      "start": 3365.359,
+      "end": 3370.04,
+      "text": "with that let me conclude the class."
+    }
+  ]
+}
