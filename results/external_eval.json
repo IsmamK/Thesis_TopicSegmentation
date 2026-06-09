@@ -1,0 +1,78 @@
+{
+  "description": "External validation on videos not in LecSeg-30",
+  "n_videos": 4,
+  "results": [
+    {
+      "video_id": "aircAruvnKk",
+      "title": "But what is a neural network? | Deep learning chapter 1",
+      "duration_min": 18.7,
+      "n_sentences": 324,
+      "n_ref_boundaries": 11,
+      "domain": "CS/ML",
+      "bge_divisive": {
+        "pk": 0.4871,
+        "wd": 0.5032
+      },
+      "cross_model": {
+        "pk": 0.5129,
+        "wd": 0.5484
+      }
+    },
+    {
+      "video_id": "IHZwWFHWa-w",
+      "title": "Gradient descent, how neural networks learn | Deep Learning Chapter 2",
+      "duration_min": 20.6,
+      "n_sentences": 351,
+      "n_ref_boundaries": 10,
+      "domain": "CS/ML",
+      "bge_divisive": {
+        "pk": 0.3881,
+        "wd": 0.409
+      },
+      "cross_model": {
+        "pk": 0.5612,
+        "wd": 0.5612
+      }
+    },
+    {
+      "video_id": "bBC-nXj3Ng4",
+      "title": "But how does bitcoin actually work?",
+      "duration_min": 25.2,
+      "n_sentences": 435,
+      "n_ref_boundaries": 8,
+      "domain": "Math/CS",
+      "bge_divisive": {
+        "pk": 0.4112,
+        "wd": 0.4282
+      },
+      "cross_model": {
+        "pk": 0.4428,
+        "wd": 0.4647
+      }
+    },
+    {
+      "video_id": "WUvTyaaNkzM",
+      "title": "The essence of calculus",
+      "duration_min": 17.1,
+      "n_sentences": 285,
+      "n_ref_boundaries": 5,
+      "domain": "Math/CS",
+      "bge_divisive": {
+        "pk": 0.3065,
+        "wd": 0.318
+      },
+      "cross_model": {
+        "pk": 0.3257,
+        "wd": 0.3487
+      }
+    },
+    {
+      "video_id": "spUNpyF58BY",
+      "error": "only 0 chapters"
+    }
+  ],
+  "mean_bge_divisive_pk": 0.3982,
+  "mean_cross_model_pk": 0.4607,
+  "lecseg30_bge_divisive_pk": 0.3884,
+  "lecseg30_cross_model_pk": 0.3713
+}
