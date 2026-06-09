@@ -403,6 +403,95 @@ Several lessons from this project are likely to transfer to related work.
     scientific choice.
 \end{enumerate}
 
+\section{Broader impact and professional considerations}
+\label{sec:broader_impact}
+
+\subsection*{Societal impact}
+
+Lecture segmentation directly lowers the barrier to self-directed learning.
+When a two-hour recorded lecture is automatically divided into labelled chapters,
+a student who has ten minutes can locate and revisit a specific concept rather
+than scrubbing through an undivided recording.
+At scale, this has measurable equity implications: learners without institutional
+library access, returning students balancing work and study, and learners in
+lower-bandwidth environments all benefit from shorter, addressable clips rather
+than monolithic recordings.
+The LecSeg pipeline is fully offline and does not transmit student data to any
+third-party service, which preserves learner privacy and allows deployment in
+institutions with strict data-residency requirements.
+
+\subsection*{Environmental impact}
+
+The pipeline is designed to run on a single CPU-only consumer laptop.
+The most computationally intensive step --- BGE-M3 embedding --- processes
+a 60-minute lecture in under three minutes on a mid-range CPU; no GPU is
+required for inference.
+Transcription was performed once on a rented cloud GPU (RTX 5090, $\approx$1.5
+GPU-hours total for all 30 videos), after which the transcripts are cached and
+reused indefinitely.
+Total training energy for the method-selector (a logistic regression over
+hand-crafted features) is negligible.
+The approach therefore has a substantially lower carbon footprint than
+transformer-based segmentation models that require fine-tuning on GPUs.
+
+\subsection*{Economic considerations}
+
+The fully open-source implementation has zero licensing cost.
+All dependencies (Whisper, BGE-M3, spaCy, scikit-learn) are MIT- or
+Apache-licensed.
+Deployment cost for a university wanting to auto-segment recorded lectures is
+dominated by storage and compute for the one-time Whisper transcription pass;
+subsequent re-segmentation with revised boundaries is essentially free.
+The yt-dlp pathway used in external validation enables institutions without
+Whisper infrastructure to use auto-generated YouTube captions as a free
+transcript source, accepting a modest accuracy trade-off.
+
+\subsection*{Project management}
+
+The project followed a staged milestone structure:
+(1) dataset construction and annotation (weeks 1--6),
+(2) baseline implementation and ablation (weeks 7--10),
+(3) novel method development (N1--N4) (weeks 11--14),
+(4) evaluation, statistical testing, and external validation (weeks 15--17),
+(5) thesis writing and revision (weeks 18--20).
+Each stage produced a concrete artifact (annotated corpus, ablation table,
+component code, results JSON, chapter draft) that could be independently
+reviewed.
+Version control (Git) was used throughout; the repository history serves as
+the project log.
+
+\subsection*{Risk management}
+
+Three risks materialised during the project and were mitigated:
+\begin{enumerate}
+  \item \textbf{Annotation bottleneck.}
+        Manual double-annotation of 30 videos would have taken $>$40 hours.
+        Mitigated by using an LLM draft (Ollama llama3.1:8b) as a first pass,
+        reducing human annotation time to review and correction.
+  \item \textbf{Transcription cost.}
+        Running Whisper locally on 32 hours of audio would have taken days.
+        Mitigated by a short GPU burst on a rented cloud instance (1.5 hours,
+        $\approx$\$1).
+  \item \textbf{Benchmark leakage.}
+        Using any of the 30 LecSeg-30 videos in external validation would
+        inflate reported generalisation.
+        Mitigated by maintaining a hard exclusion list in code
+        (\texttt{LECSEG30\_IDS}) that prevents accidental inclusion.
+\end{enumerate}
+
+\subsection*{Ethical considerations}
+
+All 30 LecSeg-30 videos are publicly available on YouTube under the channel
+owners' terms of service.
+No personally identifiable information beyond publicly available lecture content
+is stored.
+The annotation labels capture only temporal boundaries; no statements about
+individual lecturers' teaching quality are made.
+The LLM draft annotations (Ollama) run locally and are never transmitted
+externally.
+The system cannot and does not make decisions about student grades, access,
+or progression; it is a navigation aid, not an evaluative tool.
+
 \section{Closing remarks}
 
 Lecture segmentation is far from solved, and this thesis does not pretend

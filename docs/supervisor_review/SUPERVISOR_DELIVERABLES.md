@@ -91,11 +91,17 @@
 | CO | Description | Evidence in Thesis | Marks |
 |---|---|---|---|
 | CO1 | Formulate complex computing problem | Ch1: Background, Problem Statement, RQs, Methodology Overview | Pre-thesis report |
+| CO2 | Societal impact assessment | Ch5 §5.6: equity implications, offline privacy, learner access | Final report |
+| CO3 | Environmental impact | Ch5 §5.6: CPU-only inference, minimal GPU use (~1.5h), carbon estimate | Final report |
+| CO4 | Sustainability / economic viability | Ch5 §5.6: all MIT/Apache licensed, zero deployment cost, yt-dlp pathway | Final report |
 | CO5 | Design multiple solutions | Ch3: 7 baselines + N1-N4 components + selector | P2: Ch4 |
 | CO6 | Analyze and assess alternatives | Ch4: ablation table, significance tests, oracle analysis | Final report |
 | CO7 | Complete final design | Ch4: cross-model conservative as official deployable result | Final report |
 | CO8 | Use contemporary tools | Whisper, BGE/E5, CLIP, spaCy, TransNetV2, Ollama | Presentation |
 | CO9 | Research and literature survey | Ch2: literature review, gap analysis, 34 references | P1 + Final |
+| CO10 | Project management plan | Ch5 §5.6: 5-stage milestone structure, Git version control log | Final report |
+| CO11 | Economic analysis | Ch5 §5.6: cost breakdown, licensing, deployment cost estimate | Final report |
+| CO12 | Ethical issues and risk management | Ch5 §5.6: 3 risks mitigated, no PII, local LLM, annotation ethics | Final report |
 | CO14 | Effective communication | 78-page thesis, 26-slide defense, supervisor brief | Defense |
 
 ---
