@@ -1,4 +1,4 @@
-﻿% Chapter 3 â€” Requirements, Impacts and Constraints
+﻿% Chapter 3 -- Requirements, Impacts and Constraints
 % Template-required chapter (CSE400 Fall 2024 onwards)
 
 \section{Final Specifications and Requirements}
@@ -45,8 +45,8 @@ captioning and chapter-generation services create.
 \section{Environmental Impact}
 
 The pipeline is designed to run on a single CPU-only consumer laptop.
-The most computationally intensive inference step --- BGE-M3 sentence embedding ---
-processes a 60-minute lecture in under three minutes on a mid-range CPU; no GPU
+The most computationally intensive inference step, BGE-M3 sentence embedding,
+processes a 60-minute lecture in under three minutes on a mid-range CPU. No GPU
 is required for inference or evaluation.
 
 Transcription was performed once on a rented cloud GPU (RTX 5090, $\approx$1.5
@@ -72,7 +72,7 @@ about individual lecturers' teaching quality or competence are expressed.
 The LLM draft annotations (Ollama/llama3.1:8b) run entirely on-device; no
 prompts or transcripts are transmitted to external services.
 The system cannot and does not make decisions about student grades, access, or
-academic progression --- it is a navigation aid, not an evaluative tool.
+academic progression. It is a navigation aid, not an evaluative tool.
 Researchers reusing \dataset{} should note that creator-supplied YouTube chapter
 labels reflect editorial intent, not authoritative pedagogical ground truth;
 treating them as such would be a misuse of the corpus.
@@ -167,8 +167,8 @@ were mitigated:
 A university with 1{,}000 recorded lectures ($\approx$2{,}000 hours) could
 auto-segment the entire archive for under \$60 in transcription API costs, or
 free using local CPU over approximately one week.
-The navigability benefit --- students finding content in minutes rather than
-scrubbing through hours --- represents a measurable reduction in study-time
+The navigability benefit (students finding content in minutes rather than
+scrubbing through hours) represents a measurable reduction in study-time
 waste across the institution.
 Compared to commercial lecture-segmentation SaaS products (typical cost:
 \$0.50--\$2.00 per lecture-hour), the open-source \lecseg{} pipeline offers a

@@ -232,13 +232,13 @@ $P_k$/WindowDiff.
 
 The predictor operates in two passes over the fused signal $s^*$:
 
-\paragraph{Stage 1 --- broad pass.}
+\paragraph{Stage 1: broad pass.}
 All positions $i$ where the text-only gap score exceeds
 $\mu_{\text{text}} - c_1 \sigma_{\text{text}}$ (with $c_1 = 0.5$) are
 retained as boundary \emph{candidates}.
 This low threshold ensures high recall.
 
-\paragraph{Stage 2 --- refinement.}
+\paragraph{Stage 2: refinement.}
 The fused signal $s^*$ is evaluated only at candidate positions.
 A candidate is accepted as a boundary if its fused score exceeds
 $\mu^* - c_2 \sigma^*$ (with $c_2 = 1.2$).
@@ -330,8 +330,8 @@ size is itself a selection-risk parameter (Table~\ref{tab:selector_robustness}).
 
 \paragraph{Limitations of the selector.}
 The selector depends on having related videos in the training fold.
-A leave-domain-out evaluation --- in which the held-out video's entire academic
-domain is excluded from training --- degrades the selector to
+A leave-domain-out evaluation, in which the held-out video's entire academic
+domain is excluded from training, degrades the selector to
 $P_k = 0.4012$, which is worse than both the BGE-divisive baseline and the
 cross-model conservative method (Table~\ref{tab:selector_leave_domain_out}).
 Mathematics is the clearest failure case, where only four videos are available

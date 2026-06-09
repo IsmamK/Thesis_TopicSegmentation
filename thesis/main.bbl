@@ -19,6 +19,89 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
+    \entry{hearst1994multi}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=45330e5d45157c38c5519d8cdb6cb1d8}{%
+           family={Hearst},
+           familyi={H\bibinitperiod},
+           given={Marti\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{45330e5d45157c38c5519d8cdb6cb1d8}
+      \strng{fullhash}{45330e5d45157c38c5519d8cdb6cb1d8}
+      \strng{fullhashraw}{45330e5d45157c38c5519d8cdb6cb1d8}
+      \strng{bibnamehash}{45330e5d45157c38c5519d8cdb6cb1d8}
+      \strng{authorbibnamehash}{45330e5d45157c38c5519d8cdb6cb1d8}
+      \strng{authornamehash}{45330e5d45157c38c5519d8cdb6cb1d8}
+      \strng{authorfullhash}{45330e5d45157c38c5519d8cdb6cb1d8}
+      \strng{authorfullhashraw}{45330e5d45157c38c5519d8cdb6cb1d8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 32nd Annual Meeting of the Association for Computational Linguistics}
+      \field{title}{Multi-paragraph segmentation of expository text}
+      \field{year}{1994}
+    \endentry
+    \entry{choi2000latent}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=2173e71ccf83616d1474303e437f0555}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Freddy\bibnamedelimb Y.\bibnamedelimi Y.},
+           giveni={F\bibinitperiod\bibinitdelim Y\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{2173e71ccf83616d1474303e437f0555}
+      \strng{fullhash}{2173e71ccf83616d1474303e437f0555}
+      \strng{fullhashraw}{2173e71ccf83616d1474303e437f0555}
+      \strng{bibnamehash}{2173e71ccf83616d1474303e437f0555}
+      \strng{authorbibnamehash}{2173e71ccf83616d1474303e437f0555}
+      \strng{authornamehash}{2173e71ccf83616d1474303e437f0555}
+      \strng{authorfullhash}{2173e71ccf83616d1474303e437f0555}
+      \strng{authorfullhashraw}{2173e71ccf83616d1474303e437f0555}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of {NAACL}}
+      \field{title}{Advances in domain independent linear text segmentation}
+      \field{year}{2000}
+      \field{pages}{26\bibrangedash 33}
+      \range{pages}{8}
+    \endentry
+    \entry{reimers2019sbert}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=da9947b27b0d1c4c912e2b391426d443}{%
+           family={Reimers},
+           familyi={R\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ea70b44be1920f6e8c379706bc7d047a}{%
+           family={Gurevych},
+           familyi={G\bibinitperiod},
+           given={Iryna},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{fullhash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{fullhashraw}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{bibnamehash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{authorbibnamehash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{authornamehash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{authorfullhash}{2466af6376c9c5e3658dcc6692351f3e}
+      \strng{authorfullhashraw}{2466af6376c9c5e3658dcc6692351f3e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of {EMNLP}}
+      \field{eprinttype}{arXiv}
+      \field{title}{{Sentence-BERT}: Sentence embeddings using {Siamese} {BERT}-networks}
+      \field{year}{2019}
+      \verb{eprint}
+      \verb 1908.10084
+      \endverb
+    \endentry
     \entry{yang2023_vidchapters}{misc}{}{}
       \name{author}{5}{}{%
         {{hash=297069eee91717ad6161df3b4fc8d7d9}{%
@@ -55,8 +138,8 @@
       \strng{authornamehash}{3be168fcf1a36298b9886a6ac46a6500}
       \strng{authorfullhash}{1bbeb00ab85e97a5be98656b5b2952c0}
       \strng{authorfullhashraw}{1bbeb00ab85e97a5be98656b5b2952c0}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -107,8 +190,8 @@
       \strng{authornamehash}{77b658769a4e288fdaf18e5f37becaba}
       \strng{authorfullhash}{4689d65527c0b6592cf9add89b1c5483}
       \strng{authorfullhashraw}{4689d65527c0b6592cf9add89b1c5483}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -184,8 +267,8 @@
       \strng{authornamehash}{d72a2930d948df64bb9b7a2ecf1ba898}
       \strng{authorfullhash}{15ed360042fafd0cdae95396282216a9}
       \strng{authorfullhashraw}{15ed360042fafd0cdae95396282216a9}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of {ICASSP}}
@@ -257,8 +340,8 @@
       \strng{authornamehash}{23bcc9cbc6e81fb92db9a62624554ec9}
       \strng{authorfullhash}{36b2cb01d14c33790525dbf7c3728558}
       \strng{authorfullhashraw}{36b2cb01d14c33790525dbf7c3728558}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 5th International Conference on Methods and Techniques in Behavioral Research}
@@ -287,8 +370,8 @@
       \strng{authornamehash}{1c9a50ed6362cd731768e55bccbe72a7}
       \strng{authorfullhash}{1c9a50ed6362cd731768e55bccbe72a7}
       \strng{authorfullhashraw}{1c9a50ed6362cd731768e55bccbe72a7}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -316,8 +399,8 @@
       \strng{authornamehash}{3dfa911128633b74323571e56e973c5c}
       \strng{authorfullhash}{3dfa911128633b74323571e56e973c5c}
       \strng{authorfullhashraw}{3dfa911128633b74323571e56e973c5c}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -326,56 +409,6 @@
       \verb{eprint}
       \verb 2504.00072
       \endverb
-    \endentry
-    \entry{hearst1994multi}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=45330e5d45157c38c5519d8cdb6cb1d8}{%
-           family={Hearst},
-           familyi={H\bibinitperiod},
-           given={Marti\bibnamedelima A.},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \strng{namehash}{45330e5d45157c38c5519d8cdb6cb1d8}
-      \strng{fullhash}{45330e5d45157c38c5519d8cdb6cb1d8}
-      \strng{fullhashraw}{45330e5d45157c38c5519d8cdb6cb1d8}
-      \strng{bibnamehash}{45330e5d45157c38c5519d8cdb6cb1d8}
-      \strng{authorbibnamehash}{45330e5d45157c38c5519d8cdb6cb1d8}
-      \strng{authornamehash}{45330e5d45157c38c5519d8cdb6cb1d8}
-      \strng{authorfullhash}{45330e5d45157c38c5519d8cdb6cb1d8}
-      \strng{authorfullhashraw}{45330e5d45157c38c5519d8cdb6cb1d8}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Proceedings of the 32nd Annual Meeting of the Association for Computational Linguistics}
-      \field{title}{Multi-paragraph segmentation of expository text}
-      \field{year}{1994}
-    \endentry
-    \entry{choi2000latent}{inproceedings}{}{}
-      \name{author}{1}{}{%
-        {{hash=2173e71ccf83616d1474303e437f0555}{%
-           family={Choi},
-           familyi={C\bibinitperiod},
-           given={Freddy\bibnamedelimb Y.\bibnamedelimi Y.},
-           giveni={F\bibinitperiod\bibinitdelim Y\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
-      }
-      \strng{namehash}{2173e71ccf83616d1474303e437f0555}
-      \strng{fullhash}{2173e71ccf83616d1474303e437f0555}
-      \strng{fullhashraw}{2173e71ccf83616d1474303e437f0555}
-      \strng{bibnamehash}{2173e71ccf83616d1474303e437f0555}
-      \strng{authorbibnamehash}{2173e71ccf83616d1474303e437f0555}
-      \strng{authornamehash}{2173e71ccf83616d1474303e437f0555}
-      \strng{authorfullhash}{2173e71ccf83616d1474303e437f0555}
-      \strng{authorfullhashraw}{2173e71ccf83616d1474303e437f0555}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of {NAACL}}
-      \field{title}{Advances in domain independent linear text segmentation}
-      \field{year}{2000}
-      \field{pages}{26\bibrangedash 33}
-      \range{pages}{8}
     \endentry
     \entry{koshorek2018text}{inproceedings}{}{}
       \name{author}{5}{}{%
@@ -413,46 +446,13 @@
       \strng{authornamehash}{2dedc1dae6ddb0b433d8ac2eee48c996}
       \strng{authorfullhash}{d6a7b3a4acb649d86b89b29781b22220}
       \strng{authorfullhashraw}{d6a7b3a4acb649d86b89b29781b22220}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of {NAACL}}
       \field{title}{Text segmentation as a supervised learning task}
       \field{year}{2018}
-    \endentry
-    \entry{reimers2019sbert}{inproceedings}{}{}
-      \name{author}{2}{}{%
-        {{hash=da9947b27b0d1c4c912e2b391426d443}{%
-           family={Reimers},
-           familyi={R\bibinitperiod},
-           given={Nils},
-           giveni={N\bibinitperiod}}}%
-        {{hash=ea70b44be1920f6e8c379706bc7d047a}{%
-           family={Gurevych},
-           familyi={G\bibinitperiod},
-           given={Iryna},
-           giveni={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{2466af6376c9c5e3658dcc6692351f3e}
-      \strng{fullhash}{2466af6376c9c5e3658dcc6692351f3e}
-      \strng{fullhashraw}{2466af6376c9c5e3658dcc6692351f3e}
-      \strng{bibnamehash}{2466af6376c9c5e3658dcc6692351f3e}
-      \strng{authorbibnamehash}{2466af6376c9c5e3658dcc6692351f3e}
-      \strng{authornamehash}{2466af6376c9c5e3658dcc6692351f3e}
-      \strng{authorfullhash}{2466af6376c9c5e3658dcc6692351f3e}
-      \strng{authorfullhashraw}{2466af6376c9c5e3658dcc6692351f3e}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Proceedings of {EMNLP}}
-      \field{eprinttype}{arXiv}
-      \field{title}{{Sentence-BERT}: Sentence embeddings using {Siamese} {BERT}-networks}
-      \field{year}{2019}
-      \verb{eprint}
-      \verb 1908.10084
-      \endverb
     \endentry
     \entry{yu2024_multimodal}{misc}{}{}
       \name{author}{6}{}{%
@@ -495,8 +495,8 @@
       \strng{authornamehash}{34a78381ef67b4a1a771036082570921}
       \strng{authorfullhash}{bb5a7693f22c5649b59a911cb7b33c9d}
       \strng{authorfullhashraw}{bb5a7693f22c5649b59a911cb7b33c9d}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -709,8 +709,8 @@
       \strng{authornamehash}{787fcf2e79daed26ec5fcccf49c3e296}
       \strng{authorfullhash}{fa9947e3f8be129dfc9e2d6d6b3b39b9}
       \strng{authorfullhashraw}{fa9947e3f8be129dfc9e2d6d6b3b39b9}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Machine Learning}

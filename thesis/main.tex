@@ -1,14 +1,16 @@
 %*******************************************************************
-%   LECSEG — Hierarchical Multimodal Lecture-Video Topic Segmentation
+%   LECSEG-30: A Reproducible Low-Resource Benchmark and Diagnostic Study
+%   for Lecture-Video Topic Segmentation
 %   Undergraduate Thesis, BRAC University
 %   Department of Computer Science and Engineering
 %   Template: CSE400 Final Year Thesis Template (Fall 2024 onwards)
 %*******************************************************************
 
-\documentclass[Times,12pt,oneside,openany]{report}
+\documentclass[Times,12pt,oneside,openany,print,index]{report}
 \usepackage[a4paper,width=150mm,top=25mm,bottom=25mm]{geometry}
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
+\usepackage{csquotes}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 
@@ -18,6 +20,7 @@
 \usepackage{microtype}
 \setlength{\parindent}{0em}
 \usepackage{parskip}
+\pagestyle{plain}
 
 % ----- Math -----
 \usepackage{amsmath, amssymb, amsthm, mathtools}
@@ -40,8 +43,13 @@
 \usepackage{algpseudocode}
 \usepackage{listings}
 
+% ----- Nomenclature -----
+\usepackage{nomencl}
+\renewcommand{\nompreamble}{The next list describes several symbols and abbreviations used within the body of the document.}
+\makenomenclature
+
 % ----- TOC binding -----
-\usepackage[nottoc,notlof,notlot]{tocbibind}
+\usepackage[nottoc]{tocbibind}
 
 % ----- Hyperlinks -----
 \usepackage{hyperref}
@@ -63,7 +71,7 @@
 % ----- Misc -----
 \usepackage{xcolor}
 \usepackage{enumitem}
-\usepackage{csquotes}
+\usepackage[normalem]{ulem}
 
 % ----- Custom commands -----
 \newcommand{\lecseg}{\textsc{LecSeg}}
@@ -82,82 +90,77 @@
 
 \pagenumbering{roman}
 
-% --- Declaration ---
 \phantomsection
 \addcontentsline{toc}{chapter}{Declaration}
 \input{frontmatter/declaration}
-\pagebreak
 
-% --- Approval ---
 \phantomsection
 \addcontentsline{toc}{chapter}{Approval}
 \input{frontmatter/approval}
 
-% --- Ethics Statement ---
 \phantomsection
 \addcontentsline{toc}{chapter}{Ethics Statement}
 \input{frontmatter/ethics_statement}
 
-% --- Abstract ---
 \phantomsection
 \addcontentsline{toc}{chapter}{Abstract}
 \input{frontmatter/abstract}
 \pagebreak
 
-% --- Dedication ---
 \phantomsection
 \addcontentsline{toc}{chapter}{Dedication}
 \input{frontmatter/dedication}
 
-% --- Acknowledgements ---
 \phantomsection
-\addcontentsline{toc}{chapter}{Acknowledgements}
+\addcontentsline{toc}{chapter}{Acknowledgment}
 \input{frontmatter/acknowledgements}
-\pagebreak
 
-% --- Table of Contents ---
 \renewcommand{\contentsname}{Table of Contents}
 \cleardoublepage
 \phantomsection
 \addcontentsline{toc}{chapter}{Table of Contents}
 \tableofcontents
 
-\phantomsection
-\addcontentsline{toc}{chapter}{List of Figures}
 \listoffigures
-
-\phantomsection
-\addcontentsline{toc}{chapter}{List of Tables}
 \listoftables
 
+\printnomenclature
+\addcontentsline{toc}{chapter}{Nomenclature}
 \cleardoublepage
+
 \pagenumbering{arabic}
-\setcounter{chapter}{0}
 
 % ============================================================
 % MAIN MATTER
 % ============================================================
 
 \chapter{Introduction}
+\label{chap:introduction}
 \input{chapters/chapter1_introduction}
 
 \chapter{Literature Review}
+\label{chap:literature}
 \input{chapters/chapter2_literature}
 
 \chapter{Requirements, Impacts and Constraints}
+\label{chap:requirements}
 \input{chapters/chapter3_requirements}
 
 \chapter{Proposed Methodology}
+\label{chap:methodology}
 \input{chapters/chapter4_methodology}
 
 \chapter{Result Analysis}
+\label{chap:results}
 \input{chapters/chapter5_results}
 
 \chapter{Conclusion}
+\label{chap:conclusion}
+\label{chap:future}
 \input{chapters/chapter6_conclusion}
 
-\chapter{Future Work}
-\input{chapters/chapter7_future_work}
+% NOTE: Future Work is integrated as the final section of the Conclusion chapter
+% to match the CSE400 template structure.
 
 % ============================================================
 % BIBLIOGRAPHY

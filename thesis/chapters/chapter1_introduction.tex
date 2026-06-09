@@ -1,4 +1,30 @@
-﻿\section{Motivation}
+﻿\section{Background}
+\label{sec:background}
+
+Online education platforms have changed how students access academic content.
+Coursera, edX, MIT OpenCourseWare, and YouTube collectively host millions of
+lecture recordings across virtually every academic discipline. These recordings
+are typically long (one to three hours), largely unstructured, and difficult
+to navigate without prior knowledge of their content. Unlike textbooks, which
+have chapters and indexes, most lecture videos offer nothing more than a
+progress bar and, occasionally, rough chapter markers added by the creator.
+
+Topic segmentation is the task of automatically dividing a document, audio
+recording, or video into coherent segments based on shifts in subject matter.
+In the lecture context, this means identifying the timestamps at which one
+topic ends and another begins, so that a student can jump directly to the
+segment covering the concept they need to review. Related work in text
+segmentation~\cite{hearst1994multi,choi2000latent} and neural sentence
+embeddings~\cite{reimers2019sbert} provides the core building blocks, but
+the lecture domain presents distinct challenges: domain-specific vocabulary
+persists across topic boundaries, recordings lack the clean discourse markers
+of formal writing, and reference labels are scarce.
+
+\lecseg{} addresses this gap by building a compact, fully reproducible
+benchmark for low-resource lecture topic segmentation and using it to diagnose
+where current methods succeed and fail.
+
+\section{Motivation}
 \label{sec:motivation}
 
 The growth of online education has outpaced the tools for navigating it.
@@ -42,8 +68,8 @@ are more topically similar to each other than to sentences in adjacent segments.
 
 The word \emph{topic} conceals important ambiguity. Semantic-similarity models
 treat a topic shift as a distributional change in sentence-embedding space.
-Discourse analysts treat it as a change in rhetorical or argumentative function
---- a move from definition to example, or from theorem to proof. Video creators,
+Discourse analysts treat it as a change in rhetorical or argumentative function:
+a move from definition to example, or from theorem to proof. Video creators,
 for their part, treat it as an editorial decision about where to place a
 navigational divider for their audience. These three notions frequently
 diverge: an instructor may reset pitch and introduce a new example
@@ -76,11 +102,11 @@ auditable benchmark designed for diagnostic analysis: every prediction is
 traceable to its source video, every metric value is reproducible from the
 same scripts, and every failure mode is documented. Large-scale benchmarks
 measure aggregate performance; small, controlled ones make it possible to
-understand why systems behave as they do. The findings reported here ---
-particularly the oracle-gap diagnosis and the granularity-mismatch explanation
---- are precisely the kind of result that requires this level of transparency.
+understand why systems behave as they do. The findings reported here,
+particularly the oracle-gap diagnosis and the granularity-mismatch explanation,
+are precisely the kind of result that requires this level of transparency.
 
-\section{Research questions}
+\section{Objectives}
 \label{sec:rqs}
 
 \begin{description}
@@ -96,14 +122,37 @@ particularly the oracle-gap diagnosis and the granularity-mismatch explanation
     constraints make lecture segmentation outputs more transparent and easier
     to evaluate?
 
-  \item[RQ4] Which auxiliary signals --- including OCR, shot detection, prosody,
-    and local LLM refinement --- improve or degrade segmentation quality under
+  \item[RQ4] Which auxiliary signals (including OCR, shot detection, prosody,
+    and local LLM refinement) improve or degrade segmentation quality under
     the same evaluation protocol, and what accounts for their behaviour?
 
   \item[RQ5] Which performance improvements over the stable text baseline are
     statistically significant under bootstrap confidence intervals and
     Holm-corrected Wilcoxon tests on \dataset{}?
 \end{description}
+
+\section{Scope and Challenges}
+\label{sec:scope}
+
+The scope of this work is deliberately narrow. \dataset{} covers 30 English-language
+lecture videos across five academic domains, with Whisper large-v3 transcription
+as the sole audio-processing step and sentence-transformer embeddings as the
+primary feature representation. All evaluation is against creator-supplied YouTube
+chapter boundaries; pedagogical optimality of those boundaries is not assessed.
+The system targets offline batch processing of pre-recorded lectures and does
+not address live streaming, speaker diarisation, or non-English content.
+
+Three challenges shaped the design. First, ground-truth scarcity: acquiring
+verified chapter labels at scale requires either creator-supplied metadata
+(which reflects editorial intent, not pedagogical boundaries) or manual
+annotation (which is expensive). This work uses creator metadata throughout
+and documents the limitation explicitly. Second, modality mismatch: acoustic
+and discourse signals detect transitions at a finer granularity than the
+editorial chapter boundaries used as reference, meaning that intuitively
+useful signals can actively hurt evaluation scores. Third, small-sample
+generalisation: with 30 videos, any per-video learning method is sensitive
+to domain distribution, and results must be interpreted with that constraint
+in mind.
 
 \section{Contributions}
 \label{sec:contributions}
@@ -149,9 +198,9 @@ particularly the oracle-gap diagnosis and the granularity-mismatch explanation
     (Chapter~\ref{chap:methodology}; Appendix~\ref{app:dataset}.)
 \end{enumerate}
 
-The four integrated pipeline components --- a two-stage candidate predictor,
+The four integrated pipeline components (a two-stage candidate predictor,
 entropy-weighted modality fusion, a hierarchical nesting enforcer, and a
-local-LLM titling module --- contribute primarily by enabling the diagnostic
+local-LLM titling module) contribute primarily by enabling the diagnostic
 analysis rather than through algorithmic novelty. Entropy-weighted fusion
 is the most distinctive of the four, having not, to our knowledge, been
 applied previously to lecture segmentation modality weighting; the other

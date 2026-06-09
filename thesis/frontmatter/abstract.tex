@@ -22,9 +22,9 @@ metadata, not as authoritative pedagogical ground truth.
 
 The pipeline transcribes audio with Whisper large-v3, segments sentences via
 spaCy, and embeds them with BGE and E5 sentence transformers. Eleven method
-families are evaluated under $P_k$ and WindowDiff --- window-based error rates
-that penalise structurally wrong segmentations rather than near-miss boundary
-placements, and that consequently better reflect the navigation task than
+families are evaluated under $P_k$ and WindowDiff, which are window-based error
+rates that penalise structurally wrong segmentations rather than near-miss
+boundary placements, and consequently better reflect the navigation task than
 exact-match alternatives. Bootstrap confidence intervals and Holm-corrected
 Wilcoxon tests govern all significance claims.
 

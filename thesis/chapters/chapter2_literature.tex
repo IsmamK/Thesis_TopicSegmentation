@@ -15,8 +15,8 @@ topic boundaries regardless of the underlying argument structure.
 \emph{Neural} methods, arriving from around 2018, replaced bag-of-words
 representations with dense contextual embeddings~\cite{koshorek2018text,reimers2019sbert}.
 Operating in embedding space rather than token space, these methods are
-substantially more robust to vocabulary reuse. Their practical limitation ---
-the need for large pretrained language models --- diminished quickly as
+substantially more robust to vocabulary reuse. Their practical limitation,
+the need for large pretrained language models, diminished quickly as
 open-weight sentence-transformer checkpoints became available, and they now
 represent the clear baseline approach for any zero-shot segmentation task.
 
@@ -27,13 +27,13 @@ available, but they have generally been developed on different benchmarks and
 evaluated under different metrics, making direct comparison difficult.
 More critically for this thesis, the multimodal literature rarely discusses
 whether a given signal operates at the same discourse granularity as the
-annotation it is being evaluated against --- a gap that turns out to explain
+annotation it is being evaluated against, a gap that turns out to explain
 most of the multimodal failures reported in Chapter~\ref{chap:results}.
 
 \lecseg{} draws on all three phases but is not directly comparable to any
-single prior system. It occupies a specific niche --- small-scale,
+single prior system. It occupies a specific niche (small-scale,
 lecture-specific, reproducible, with $P_k$/WindowDiff evaluation and explicit
-negative-result reporting --- that no existing system fills.
+negative-result reporting) that no existing system fills.
 
 \subsection{Three competing boundary constructs}
 \label{sec:topic_def}
@@ -44,8 +44,8 @@ genuine methodological problems.
 
 \emph{Discourse transitions} are changes in rhetorical or argumentative
 function: a shift from definition to example, from claim to evidence, or from
-theorem to proof. These are real and detectable --- pause duration, pitch
-contour, and discourse markers reliably locate them --- but they occur
+theorem to proof. These are real and detectable (pause duration, pitch
+contour, and discourse markers reliably locate them), but they occur
 frequently within a single chapter. A 20-minute lecture section on differential
 equations may contain dozens of such transitions while remaining, at the
 editorial level, a single chapter.
@@ -76,8 +76,8 @@ detectors of discourse transitions, not of editorial decisions.
 
 TextTiling~\cite{hearst1994multi} detects boundaries at local minima of a
 lexical similarity profile computed over sliding windows of $k$ sentences.
-The method's underlying assumption --- that topic shifts manifest as drops in
-shared vocabulary frequency --- holds for encyclopaedic text with relatively
+The method's underlying assumption, that topic shifts manifest as drops in
+shared vocabulary frequency, holds for encyclopaedic text with relatively
 little term reuse. It breaks down on technical lectures, where the same domain
 vocabulary appears persistently throughout. An instructor teaching Fourier
 analysis will use ``frequency'', ``signal'', and ``transform'' in every section;
@@ -93,7 +93,7 @@ short lecture segments but cannot address the vocabulary-reuse problem.
 C99~\cite{choi2000latent} applies a rank transformation to the full
 cosine-similarity matrix before using a diagonal-dominance criterion to locate
 boundaries. By operating on ranked rather than raw similarity values, it is
-less distorted by term-frequency outliers than TextTiling --- an advantage on
+less distorted by term-frequency outliers than TextTiling, an advantage on
 lecture transcripts where a small number of high-frequency technical terms
 would otherwise dominate the similarity scores. Like TextTiling, however, it
 remains a surface-vocabulary method and does not capture the semantic
@@ -113,9 +113,9 @@ omitted from the main comparison but included for completeness in related work.
 \subsection{Cosine-drop segmentation}
 
 Sentence transformers~\cite{reimers2019sbert} opened a practical path beyond
-lexical methods. The simplest approach --- compute cosine similarity between
-adjacent sentence embeddings and place boundaries at depth-score valleys ---
-is surprisingly effective. Its strength is operating in semantic rather than
+lexical methods. The simplest approach (computing cosine similarity between adjacent sentence
+embeddings and placing boundaries at depth-score valleys) is surprisingly
+effective. Its strength is operating in semantic rather than
 lexical space, so vocabulary reuse that defeats TextTiling and C99 causes no
 difficulty. The method requires no labelled training data and transfers
 immediately to new domains, which makes it the natural baseline for any
@@ -138,7 +138,7 @@ Both achieve strong results on their training distribution, but the distribution
 matters: a model trained on Wikipedia-style text learns the structure of
 encyclopaedic writing, not the pedagogical argument structure of spoken
 lectures. When applied out-of-domain, zero-shot cosine baselines frequently
-match or exceed them --- a negative result that motivates the unsupervised
+match or exceed them, a negative result that motivates the unsupervised
 approach in \lecseg{}. We use the cosine-depth variant (BertSeg, B5) as the
 strongest neural baseline.
 
@@ -266,8 +266,8 @@ it does not improve $P_k$/WD in our experiments.
 \label{sec:gap}
 
 Table~\ref{tab:litmatrix} positions \lecseg{} against related work.
-The gap is not that stronger chaptering systems do not exist --- they do,
-at much larger scale. The gap is that low-resource lecture segmentation
+The gap is not that stronger chaptering systems do not exist (they do, at
+much larger scale). The gap is that low-resource lecture segmentation
 lacks a compact, auditable benchmark with a two-level hierarchy, unified
 metrics, annotation-reliability figures, and honest reporting of failure.
 \lecseg{} fills that specific gap.
@@ -312,7 +312,7 @@ geometric concept'' from ``integration as a calculus operation'' can detect
 the shift where bag-of-words representations see identical term distributions.
 
 \textbf{Unsupervised methods.} Supervised segmenters trained on Wikipedia
-or meeting data do not transfer to academic lectures --- the structure of
+or meeting data do not transfer to academic lectures, because the structure of
 expository writing is not the structure of pedagogical argument. With 30
 annotated videos, there is no viable path to training a supervised classifier;
 unsupervised cosine scoring is the only sound low-resource strategy.

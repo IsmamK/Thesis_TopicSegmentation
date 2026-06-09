@@ -71,7 +71,7 @@ Table~\ref{tab:lecseg_result_variants} shows three consistent patterns.
 The BGE-divisive baseline is substantially stronger than the classical and
 neural alternatives under $P_k$ and WD, which confirms that dense embeddings
 are the right foundation for this task. Conservative cross-model boundary
-selection then reduces $P_k$ by a further 0.0171 absolute --- the best
+selection then reduces $P_k$ by a further 0.0171 absolute, which is the best
 statistically supported joint $P_k$/WD result in the evaluation.
 The method selector reaches the best mean $P_k$ and produces markedly higher
 F1@2, at the cost of $P_k$/WD gains that do not individually reach significance
@@ -257,9 +257,9 @@ both.
 The negative results are as informative as the positive ones.
 Discourse markers ($P_k=0.4615$), BERTopic ($P_k=0.5632$), GPT-2 perplexity
 ($P_k=0.4182$), and acoustic transitions ($P_k=0.4174$) all sit above the
-BGE-divisive baseline ($P_k=0.3884$). The underlying cause --- a systematic
+BGE-divisive baseline ($P_k=0.3884$). The underlying cause, a systematic
 granularity mismatch between editorial chapters and sub-chapter linguistic
-transitions --- is developed in full in the discussion
+transitions, is developed in full in the discussion
 (Section~\ref{sec:discussion}).
 
 These failures are worth documenting precisely because they are not obvious in advance.
@@ -328,8 +328,8 @@ which is precisely the tradeoff $P_k$/WD are designed to tolerate.
   \caption{Domain failure analysis. \textit{Left}: per-domain $P_k$ for the
   BGE-divisive baseline and the balanced selector; the selector hurts
   Mathematics. \textit{Right}: number of videos per domain. Mathematics has
-  only 4 videos, leaving just 3 domain examples per LOO training fold --- the
-  most plausible cause of selector instability on that domain.}
+  only 4 videos, leaving just 3 domain examples per LOO training fold, which is
+  the most plausible cause of selector instability on that domain.}
   \label{fig:domain_failure}
 \end{figure}
 
@@ -353,7 +353,7 @@ Identifying these types is more informative than reporting aggregate metrics
 alone because they point to different corrective strategies.
 
 \begin{description}
-  \item[Type A --- Boundary omission.] The system misses a creator chapter
+  \item[Type A: Boundary omission.] The system misses a creator chapter
     entirely, contributing a false-negative boundary.
     Typical cause: the chapter transition occurs within a topically homogeneous
     stretch of text where the embedding similarity does not drop sharply enough
@@ -361,31 +361,31 @@ alone because they point to different corrective strategies.
     Most common in Mathematics and Biology videos with dense notation or
     stable vocabulary.
 
-  \item[Type B --- Boundary displacement.] A boundary is detected in the correct
+  \item[Type B: Boundary displacement.] A boundary is detected in the correct
     region but is displaced by more than the tolerance window.
     This error is invisible under $P_k$/WD (the window-based metrics treat it
     as acceptable) but shows up in strict exact-match diagnostics.
     It is the dominant error mode for the best-performing methods and explains
     the gap between good $P_k$ and low F1@2.
 
-  \item[Type C --- Over-segmentation.] The system predicts more boundaries than
+  \item[Type C: Over-segmentation.] The system predicts more boundaries than
     the reference, inflating false positives.
     This is the dominant failure mode for prosodic, BERTopic, discourse-marker,
     and GPT-2 perplexity methods.
     Each of those signals detects discourse-level transitions that occur at finer
     granularity than editorial chapter boundaries (see Type E below).
 
-  \item[Type D --- Under-segmentation.] The system predicts fewer boundaries
+  \item[Type D: Under-segmentation.] The system predicts fewer boundaries
     than the reference.
     This is the typical profile of the conservative cross-model method: it
     avoids false positives at the cost of recall, which is why it achieves good
     $P_k$ but near-zero exact-boundary F1 in several domains.
 
-  \item[Type E --- Granularity mismatch.] A signal that detects real transitions
+  \item[Type E: Granularity mismatch.] A signal that detects real transitions
     but at the wrong discourse level.
     This is the most scientifically important finding in the thesis.
     Signals such as pause duration, pitch reset, discourse markers, and BERTopic
-    are not uninformative --- they detect genuine topic shifts --- but those
+    are not uninformative (they detect genuine topic shifts), but those
     shifts are sub-chapter transitions rather than creator-level editorial
     chapter changes.
     Because the benchmark measures alignment with creator chapters, these signals
@@ -429,7 +429,7 @@ pushes $P_k$ lower still, and it meaningfully improves Boundary Similarity and
 F1@2, but its margin over the cross-model method on $P_k$/WD alone falls short
 of significance. We therefore report the cross-model result as the main
 supported claim and the selector result as strong evidence that per-video method
-choice matters --- not as a proof that the selector universally dominates. The
+choice matters, not as a proof that the selector universally dominates. The
 leave-domain-out degradation (selector $P_k=0.4012$ when the held-out domain
 is entirely excluded from training) reinforces this: the selector benefits from
 having related videos in the training fold, and that condition is not always met
@@ -438,9 +438,9 @@ in practice.
 \paragraph{The granularity finding.}
 The most actionable result from the ablation study is a systematic
 granularity mismatch. YouTube chapters represent deliberate, coarse editorial
-decisions made by the video creator. Linguistic and acoustic signals ---
-discourse markers ($P_k=0.4615$), BERTopic ($P_k=0.5632$), GPT-2 perplexity
-($P_k=0.4182$), and pause/pitch transitions ($P_k=0.4174$) --- detect
+decisions made by the video creator. Linguistic and acoustic signals,
+including discourse markers ($P_k=0.4615$), BERTopic ($P_k=0.5632$), GPT-2
+perplexity ($P_k=0.4182$), and pause/pitch transitions ($P_k=0.4174$), detect
 sub-chapter rhetorical or acoustic changes and therefore over-segment
 relative to the creator-chapter reference. Text embeddings succeed because
 they operate at the paragraph or section level of semantic coherence, which
@@ -448,7 +448,7 @@ better matches the granularity at which instructors plan and narrate
 pedagogical units. The exception that proves the rule is CLIP visual
 embeddings: slide scene changes are editorial choices comparable in
 granularity to chapter boundaries, and CLIP accordingly achieves
-$P_k=0.3958$ solo and $P_k=0.3740$ in text fusion --- approaching the
+$P_k=0.3958$ solo and $P_k=0.3740$ in text fusion, approaching the
 cross-model text result ($P_k=0.3715$). This finding is practically
 important: it means that slide-change detection is the most promising
 non-text signal to add next, while prosodic and discourse-marker signals
@@ -539,7 +539,7 @@ and Philosophy.
 }{}
 
 The headline result is striking: BGE-divisive mean $P_k = 0.389$ on the 10
-external videos versus $0.388$ on LecSeg-30 --- a difference of $0.001$.
+external videos versus $0.388$ on LecSeg-30, a difference of $0.001$.
 Per-domain BGE-divisive means range from $0.323$ (Physics, 2 videos) to
 $0.453$ (Philosophy, 1 video), with no systematic direction of degradation.
 The core text-embedding signal is not an artefact of the Whisper
@@ -549,7 +549,7 @@ The cross-model conservative method shows greater external variance, with
 mean $P_k = 0.421$ versus $0.371$ on LecSeg-30 ($\Delta = 0.050$).
 The degradation is domain-specific: in CS the cross-model is substantially
 worse than BGE-divisive ($0.506$ vs $0.429$), while in Mathematics it is
-better ($0.329$ vs $0.384$) --- consistent with the finding that the
+better ($0.329$ vs $0.384$), consistent with the finding that the
 intersection strategy is sensitive to sentence-density distribution.
 
 Three confounds limit interpretation.

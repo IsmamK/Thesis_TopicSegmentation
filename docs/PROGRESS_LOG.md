@@ -2828,3 +2828,4 @@ Changes from v3 (22 slides):
 - Eval running in background — results + charts + push pending completion
 
 **Git:** Committed and pushed (c96603e, d7b1a65) to GitHub
+`n## [2026-06-10] -- Thesis humanizing + BRACU CSE400 template format fixes`n`nReformatted titlepage/declaration to match template exactly, merged Future Work as final section of Conclusion, removed all prose em dashes (replaced with commas/colons/parens), added Background and Scope sections to Ch1, renamed sections to match template headings, fixed UTF-8 encoding in ch3, added nomencl and pagestyle to main.tex.`n`nNOTE: Student IDs are still placeholders in titlepage.tex and declaration.tex - fill in before submission.`n

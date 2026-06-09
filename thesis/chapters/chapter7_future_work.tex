@@ -1,4 +1,4 @@
-﻿\section{Robust candidate and method selection}
+\subsection{Robust candidate and method selection}
 
 The strongest immediate extension is a sequence-aware candidate selector.
 Current oracle and method-portfolio experiments show that plausible boundaries
@@ -8,7 +8,7 @@ semantic contrast, cross-model agreement, pause/shot/OCR evidence, position
 priors, and global duration constraints while optimizing directly against
 $P_k$, WindowDiff, and tolerance-F1.
 
-\section{Independent validation of chapter references}
+\subsection{Independent validation of chapter references}
 
 The most important dataset extension is not simply adding more videos; it is
 validating whether creator-provided YouTube chapters agree with independent
@@ -19,7 +19,7 @@ agreement, and system--human agreement under F1@2, F1@5, and time-tolerant
 metrics. This would quantify how reliable the current creator chapters are as
 reference boundaries.
 
-\section{Expanded annotator pool and domain diversity}
+\subsection{Expanded annotator pool and domain diversity}
 
 The current inter-annotator study involves annotators from a shared academic
 background. Future work should recruit annotators from different disciplines
@@ -30,7 +30,7 @@ $\alpha$ estimate alongside the existing Cohen's $\kappa$, and would allow
 pairwise agreement patterns to be analysed rather than collapsed to a single
 mean figure.
 
-\section{External and Math-focused validation}
+\subsection{External and Math-focused validation}
 
 The current selector fails most clearly on Mathematics, where the dataset has
 only four videos. A targeted extension should add 8--10 Math lectures with
@@ -41,20 +41,20 @@ vocabulary, or gradual conceptual transitions. A separate 5--10 video external
 test set from new channels should also be used to measure generalization beyond
 \dataset{}.
 
-\section{Reliability-aware prosody and visual integration}
+\subsection{Reliability-aware prosody and visual integration}
 
 Prosodic features (pause duration, pitch reset) and visual streams (shot
-boundaries, slide OCR) are available in the pipeline, but current ablations show
-that acoustic and linguistic sub-sentence signals can hurt $P_k$/WindowDiff
-when their granularity does not match chapter-level editorial decisions.
-The exception is CLIP visual embeddings: CLIP alone achieves $P_k=0.3958$ and
-CLIP plus text fusion reaches $P_k=0.3740$, approaching the cross-model text
-method ($P_k=0.3715$). Visual scene changes in lecture slides appear to carry
-chapter-level granularity. Future work should therefore prioritise CLIP visual
-integration within the cross-model scoring framework, and apply quality-gating
-only to the noisier acoustic and OCR modalities.
+boundaries, slide OCR) are available in the pipeline, but current ablations
+show that acoustic and linguistic sub-sentence signals can hurt
+$P_k$/WindowDiff when their granularity does not match chapter-level editorial
+decisions. The exception is CLIP visual embeddings: CLIP alone achieves
+$P_k=0.3958$ and CLIP plus text fusion reaches $P_k=0.3740$, approaching the
+cross-model text method ($P_k=0.3715$). Visual scene changes in lecture slides
+appear to carry chapter-level granularity. Future work should prioritise CLIP
+visual integration within the cross-model scoring framework, and apply
+quality-gating only to the noisier acoustic and OCR modalities.
 
-\section{Streaming and online inference}
+\subsection{Streaming and online inference}
 
 The current pipeline processes a complete video offline.
 A streaming variant would segment lecture content as it is being recorded,
@@ -64,18 +64,17 @@ window and replacing the global threshold computation with an exponential moving
 average of past gap scores.
 The target latency budget for live chaptering is $<30$~seconds of delay.
 
-\section{Cross-lingual extension}
+\subsection{Cross-lingual extension}
 
 \lecseg{} currently targets English lectures.
 Extending to other languages requires: (1)~replacing \texttt{all-mpnet-base-v2}
 with a multilingual text encoder such as LaBSE or \texttt{multilingual-e5-large};
-and (2)~using Whisper's multilingual mode for
-transcription.
+and (2)~using Whisper's multilingual mode for transcription.
 Suitable evaluation data could be sourced from non-English MOOCs (e.g.,
 Coursera's French and Spanish tracks) or from university recordings in South
 and South-East Asian languages.
 
-\section{End-to-end fine-tuning}
+\subsection{End-to-end fine-tuning}
 
 The current architecture uses frozen pre-trained encoders.
 Fine-tuning the text encoder jointly with the boundary predictor on a larger
@@ -85,7 +84,7 @@ generalisability.
 A natural training objective is a soft version of the tolerance-$F_1$ metric,
 differentiable via a sigmoid boundary-probability output.
 
-\section{Larger and domain-tuned local LLMs}
+\subsection{Larger and domain-tuned local LLMs}
 
 Replacing Llama-3.1-8B with a 70B parameter model or a domain-specific
 fine-tune (e.g., fine-tuned on lecture transcripts) could improve title
@@ -93,7 +92,7 @@ quality and boundary-shift accuracy, particularly for highly technical content.
 Quantised models (GGUF 4-bit) make 70B inference feasible on a single 24\,GB
 GPU with acceptable latency ($\approx 5$~seconds per boundary refinement call).
 
-\section{Multi-speaker lectures and panels}
+\subsection{Multi-speaker lectures and panels}
 
 Panel discussions and multi-instructor courses introduce speaker turns as an
 additional boundary signal.
@@ -101,7 +100,7 @@ Speaker diarisation (e.g., using pyannote.audio) could provide a speaker-change
 feature that complements text embeddings, particularly for sections where the
 topic does not change but the speaker does.
 
-\section{User study on learning outcomes}
+\subsection{User study on learning outcomes}
 
 All metrics in this thesis are information-retrieval proxies for segmentation
 quality.
@@ -112,7 +111,7 @@ authored chapters.
 Such a study could also reveal which granularity (chapter vs.\ subtopic)
 is most useful for different learning tasks (review vs.\ first-watch).
 
-\section{Public benchmark and model release}
+\subsection{Public benchmark and model release}
 
 A complete public release should include the manifest, video identifiers,
 creator chapter references, reviewed subtopic labels, preprocessing scripts,
