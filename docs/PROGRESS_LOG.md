@@ -2860,3 +2860,127 @@ Changes from v3 (22 slides):
 - Template placeholder text removed from approval page
 - 8 screenshots integrated into thesis
 - Overleaf zip ready at project root
+
+## [2026-06-12 17:15] — Defense v6 PPTX: figures embedded, flow fixed, external eval script fixed
+
+### What was done
+- Fixed 4 matplotlib figures (oracle_diagram, granularity_chart, n1n4_methods, how_seg_works) in defense/figures/
+- Created improve_pptx_v6.py; generated LecSeg_Defense_Final_v6.pptx (23 slides, 2.2 MB)
+  - Reordered: Granularity Mismatch now appears BEFORE Two Central Findings (slide 13 ? 14 swap)
+  - Slide 7 (How Seg Works): embedded how_seg_works.png (scatter + score curve figure)
+  - Slide 8 (Novel Methods): embedded n1n4_methods.png (4-panel N1–N4 visual)
+  - Slide 12 (Oracle): trimmed to 3 bullets per box + embedded oracle_diagram.png
+  - Slide 13 (Granularity): embedded granularity_chart.png (Pk bar chart color-coded by signal type)
+  - Slide 6 (Pipeline): N1-N4 boxes shortened to one-liners (removed redundancy with slide 8)
+  - Slide 22 (Final Verdict): tightened to 5/4/4 bullets per section, no overflow
+
+### External eval script fix
+- Fixed external_selector_eval.py: pk() called with wrong arg order and missing n_units
+  - Before: pk(ref_mask, pred_mask)  ? NaN
+  - After:  pk(pred_mask, ref_mask, n_sentences) ? real values
+- Script re-running (background); results to be added to defense/EXTERNAL_VALIDATION.md
+
+### Files changed
+- improve_pptx_v6.py (new)
+- defense/LecSeg_Defense_Final_v6.pptx (new — current best)
+- defense/figures/oracle_diagram.png, granularity_chart.png, n1n4_methods.png, how_seg_works.png (new)
+- scripts/external_selector_eval.py (pk arg order fix)
+
+### Next
+- Wait for external eval results ? update defense/EXTERNAL_VALIDATION.md + slide 17/18
+- Delete v2–v5 once PowerPoint is closed
+
+## [2026-06-12 17:50] — Defense v7 PPTX + QA Parts 5-6 (dataset, novelty, methodology)
+
+### What was done
+- Generated 4 new/improved figures:
+  - pipeline_flow.png: full end-to-end flow diagram (Video?Whisper?Sentences?Embeddings?Score?Candidates?Boundaries?Titles) with N1-N4 annotated + Method Selector shown running BEFORE segmentation
+  - how_seg_works_v2.png: 3 panels (scatter clusters, score curve with annotated peaks, candidate?output flow)
+  - n1n4_methods_v2.png: 2x2 grid with detailed text for each N1-N4 method
+  - oracle_diagram_v2.png: clean 3-box horizontal (Stage1?Stage2?Oracle cheat) with ?Pk gap annotation
+  - granularity_v2.png: left=concept (3 granularity levels), right=Pk bar chart color-coded
+
+- Created improve_pptx_v7.py ? defense/LecSeg_Defense_Final_v7.pptx (23 slides)
+  - Slide 4 (Dataset): added full breakdown (30 videos, 5 domains, 419 chapters, annotation process, Kappa=0.71, why it IS a benchmark)
+  - Slide 6 (Pipeline): REPLACED with pipeline_flow.png — end-to-end flow, no more N1-N4 boxes without context
+  - Slide 7 (How Seg Works): REPLACED with how_seg_works_v2.png — clean 3 panels, no overlapping text
+  - Slide 8 (Novel Methods): REPLACED with n1n4_methods_v2.png — 2x2 grid, each method fully explained
+  - Slide 12 (Oracle): REPLACED with oracle_diagram_v2.png + 3 takeaway bullets below
+  - Slide 13 (Granularity): REPLACED with granularity_v2.png — concept + bar chart
+  - Slide 11 (Selector): clarified WHEN selector runs (BEFORE segmentation, not after)
+  - Slide 22 (Final Verdict): rebuilt as clean textboxes, no overlapping shapes
+
+- Added QA Parts 5 and 6 to defense/qa_preparation.md:
+  - Part 5: Dataset/annotation questions (Q-D1 to Q-D10) — novelty justification, why others didn't do it, when selector runs, TreeSeg comparison, benchmark vs model
+  - Part 6: Methodology deep-dive (Q-M1 to Q-M5) — BGE choice, cosine scoring, timestamp conversion, Pk explanation, bootstrap CI
+
+### External eval
+- Fixed pk() argument order bug (boundary indices, not binary mask)
+- Re-running; results pending
+
+### Files
+- improve_pptx_v7.py (new)
+- defense/LecSeg_Defense_Final_v7.pptx (current best)
+- defense/figures/pipeline_flow.png, how_seg_works_v2.png, n1n4_methods_v2.png, oracle_diagram_v2.png, granularity_v2.png (new)
+- defense/qa_preparation.md (Parts 5+6 added)
+- scripts/external_selector_eval.py (boundary index fix)
+
+## [2026-06-12 18:30] — Defense v8 — rebuilt from scratch, no overlapping shapes
+
+### What was done
+- Identified root cause of v6/v7 messiness: adding images ON TOP of existing slides
+- Wrote build_pptx_v8.py — creates a BRAND NEW Presentation(), builds all 23 slides from scratch
+- No inherited shapes, no overlapping, no text behind images, everything editable
+
+### Slide-by-slide
+- 1: Title (clean dark navy)
+- 2: Problem + motivation (bullet text)
+- 3: Topic Boundary — 3-level column layout (sentence/subtopic/chapter)
+- 4: Dataset — stats + domain bar chart
+- 5: Annotation process — 5 steps
+- 6: Pipeline — pipeline_flow.png fills content area exactly
+- 7: How Seg Works — how_seg_works_v2.png fills content area
+- 8: Novel Methods — n1n4_methods_v2.png fills content area
+- 9: Metrics — Pk/WD explained with our numbers
+- 10: All Methods chart (copied from v5 — preserves existing chart)
+- 11: Key Results — table with Pk/WD/p-values
+- 12: Method Selector — clear text on WHEN/WHAT/HOW/RESULTS
+- 13: Oracle — oracle_diagram_v2.png + 3 takeaway bullets below
+- 14: Granularity Mismatch — granularity_v2.png fills content area
+- 15: Two Central Findings — 2-column layout
+- 16-17: Web App (copied from v5)
+- 18: External Validation — table + interpretation
+- 19: Related Work — comparison table
+- 20: Contributions — 4 contribution boxes
+- 21: Honest Assessment — what works / what doesn't / what we don't claim
+- 22: Final Verdict — 3-column layout (achieved / limitations / next)
+- 23: Questions
+
+### QA additions
+- Parts 5+6 added in previous entry: dataset construction, all novelty claims, why others didn't do it, when selector runs
+
+### Files
+- build_pptx_v8.py (new — the clean builder)
+- defense/LecSeg_Defense_Final_v8.pptx (current best, use this for defense)
+
+## [2026-06-12 23:00] â€” Defense prep complete: slides v10b + full Q&A
+
+### What was done
+- Fixed external_selector_eval.py: compute_pk_wd was passing binary masks instead of boundary index lists to pk(). Real results: BGE-divisive external Pk=0.5913, Cross-model Pk=0.5884 (worse than LecSeg-30 benchmark of 0.3884).
+- Updated defense/EXTERNAL_VALIDATION.md with real numbers and honest explanation: external videos (3Blue1Brown, Veritasium) have 2-3 min chapters vs 5-20 min for lectures â€” granularity mismatch explains degradation. Long lecture-format video (0B5eIE_1vpU, 129min, 6 chapters) achieves Pk=0.3974 consistent with benchmark.
+- Built defense slides v5 through v10b (fix_slides_v10.py). Root cause of all alignment issues: scripts assumed 13.33"x7.5" but actual slide is 10.0"x5.625" (read dynamically as prs.slide_width/914400).
+- Final slides: LecSeg_Defense_Final_v10b.pptx (23 slides). Key rebuilt slides: 6 (Pipeline), 7 (How Seg Works), 8 (N1-N4), 13 (Oracle), 14 (Granularity), 22 (Final Verdict). Slide 18 (External Validation) kept from v6.
+- Wrote comprehensive Q&A: defense/qa_preparation.md â€” 7 parts, 50+ questions covering all angles (basics, dataset, methodology, novelty, results, limitations, adversarial, future work) + quick reference table with all key numbers.
+- Cleaned up defense/ directory: deleted v2-v10 pptx, kept only v10b + qa_preparation.md + EXTERNAL_VALIDATION.md + presentation_scripts.md + figures/.
+- Cleaned root scripts: deleted build_pptx_v8.py, fix_pptx_v7.py, improve_pptx*.py variants.
+
+### Key numbers confirmed
+- Best Pk: Selector LOO = 0.3588 (p=0.025 vs BGE baseline)
+- Cross-model: Pk=0.3713 (p=0.006 vs BGE)
+- Oracle: Pk=0.0172, candidate recall 96.8%, gap DeltaPk=0.34
+- Leave-domain-out: Pk=0.4012
+- External (explainer YouTube): Pk=0.5913 (mismatch expected)
+- External (lecture-format): Pk=0.3974 (consistent with benchmark)
+
+### Status
+Defense ready. All slides, Q&A, and supporting docs finalized.

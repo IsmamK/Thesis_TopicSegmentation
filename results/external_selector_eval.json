@@ -1,0 +1,226 @@
+{
+  "summary": {
+    "n_evaluated": 10,
+    "bge_divisive_mean_pk": 0.5913,
+    "bge_divisive_mean_wd": 0.7632,
+    "cross_model_mean_pk": 0.5884,
+    "selector_mean_pk": 0.5913,
+    "selector_mean_wd": 0.7704,
+    "delta_pk_bge_vs_sel": 0.0,
+    "wilcoxon_p_bge_vs_sel": 1.0,
+    "lecseg30_benchmark_bge_pk": 0.3884,
+    "lecseg30_benchmark_sel_pk": 0.3588
+  },
+  "results": [
+    {
+      "video_id": "aircAruvnKk",
+      "domain": "CS",
+      "n_sentences": 324,
+      "n_ref_boundaries": 11,
+      "duration_min": 18.7,
+      "bge_divisive": {
+        "pk": 0.5,
+        "wd": 0.529
+      },
+      "cross_model": {
+        "pk": 0.5226,
+        "wd": 0.5677
+      },
+      "selector": {
+        "selected_method": "bge_divisive",
+        "pk": 0.5,
+        "wd": 0.529,
+        "note": "proxy selector (rule-based on domain+variance; full ExtraTrees needs all 30 LecSeg videos)"
+      }
+    },
+    {
+      "video_id": "IHZwWFHWa-w",
+      "domain": "CS",
+      "n_sentences": 351,
+      "n_ref_boundaries": 10,
+      "duration_min": 20.6,
+      "bge_divisive": {
+        "pk": 0.5254,
+        "wd": 0.6149
+      },
+      "cross_model": {
+        "pk": 0.5224,
+        "wd": 0.5672
+      },
+      "selector": {
+        "selected_method": "bge_divisive",
+        "pk": 0.5254,
+        "wd": 0.6149,
+        "note": "proxy selector (rule-based on domain+variance; full ExtraTrees needs all 30 LecSeg videos)"
+      }
+    },
+    {
+      "video_id": "bBC-nXj3Ng4",
+      "domain": "CS",
+      "n_sentences": 435,
+      "n_ref_boundaries": 8,
+      "duration_min": 25.2,
+      "bge_divisive": {
+        "pk": 0.5742,
+        "wd": 0.7737
+      },
+      "cross_model": {
+        "pk": 0.5742,
+        "wd": 0.7397
+      },
+      "selector": {
+        "selected_method": "bge_divisive",
+        "pk": 0.5742,
+        "wd": 0.7737,
+        "note": "proxy selector (rule-based on domain+variance; full ExtraTrees needs all 30 LecSeg videos)"
+      }
+    },
+    {
+      "video_id": "WUvTyaaNkzM",
+      "domain": "Math",
+      "n_sentences": 285,
+      "n_ref_boundaries": 5,
+      "duration_min": 17.1,
+      "bge_divisive": {
+        "pk": 0.6743,
+        "wd": 0.8851
+      },
+      "cross_model": {
+        "pk": 0.6743,
+        "wd": 0.8582
+      },
+      "selector": {
+        "selected_method": "bge_divisive",
+        "pk": 0.6743,
+        "wd": 0.8851,
+        "note": "proxy selector (rule-based on domain+variance; full ExtraTrees needs all 30 LecSeg videos)"
+      }
+    },
+    {
+      "video_id": "v8VSDg_WQlA",
+      "domain": "Math",
+      "n_sentences": 71,
+      "n_ref_boundaries": 3,
+      "duration_min": 4.5,
+      "bge_divisive": {
+        "pk": 0.4677,
+        "wd": 0.4677
+      },
+      "cross_model": {
+        "pk": 0.4194,
+        "wd": 0.4194
+      },
+      "selector": {
+        "selected_method": "bge_divisive",
+        "pk": 0.4677,
+        "wd": 0.4677,
+        "note": "proxy selector (rule-based on domain+variance; full ExtraTrees needs all 30 LecSeg videos)"
+      }
+    },
+    {
+      "video_id": "rHLEWRxRGiM",
+      "domain": "Math",
+      "n_sentences": 67,
+      "n_ref_boundaries": 3,
+      "duration_min": 4.8,
+      "bge_divisive": {
+        "pk": 0.5932,
+        "wd": 0.5932
+      },
+      "cross_model": {
+        "pk": 0.5932,
+        "wd": 0.5932
+      },
+      "selector": {
+        "selected_method": "bge_divisive",
+        "pk": 0.5932,
+        "wd": 0.5932,
+        "note": "proxy selector (rule-based on domain+variance; full ExtraTrees needs all 30 LecSeg videos)"
+      }
+    },
+    {
+      "video_id": "cUzklzVXJwo",
+      "domain": "Physics",
+      "n_sentences": 360,
+      "n_ref_boundaries": 4,
+      "duration_min": 23.5,
+      "bge_divisive": {
+        "pk": 0.642,
+        "wd": 1.0
+      },
+      "cross_model": {
+        "pk": 0.642,
+        "wd": 1.0
+      },
+      "selector": {
+        "selected_method": "bge_divisive",
+        "pk": 0.642,
+        "wd": 1.0,
+        "note": "proxy selector (rule-based on domain+variance; full ExtraTrees needs all 30 LecSeg videos)"
+      }
+    },
+    {
+      "video_id": "MBnnXbOM5S4",
+      "domain": "Physics",
+      "n_sentences": 310,
+      "n_ref_boundaries": 5,
+      "duration_min": 18.1,
+      "bge_divisive": {
+        "pk": 0.7312,
+        "wd": 0.9247
+      },
+      "cross_model": {
+        "pk": 0.7312,
+        "wd": 0.9032
+      },
+      "selector": {
+        "selected_method": "bge_divisive",
+        "pk": 0.7312,
+        "wd": 0.9247,
+        "note": "proxy selector (rule-based on domain+variance; full ExtraTrees needs all 30 LecSeg videos)"
+      }
+    },
+    {
+      "video_id": "0B5eIE_1vpU",
+      "domain": "Biology",
+      "n_sentences": 2061,
+      "n_ref_boundaries": 6,
+      "duration_min": 129.4,
+      "bge_divisive": {
+        "pk": 0.6405,
+        "wd": 1.0
+      },
+      "cross_model": {
+        "pk": 0.6405,
+        "wd": 1.0
+      },
+      "selector": {
+        "selected_method": "cross_model",
+        "pk": 0.6405,
+        "wd": 1.0,
+        "note": "proxy selector (rule-based on domain+variance; full ExtraTrees needs all 30 LecSeg videos)"
+      }
+    },
+    {
+      "video_id": "1A_CAkYt3GY",
+      "domain": "Philosophy",
+      "n_sentences": 205,
+      "n_ref_boundaries": 3,
+      "duration_min": 10.6,
+      "bge_divisive": {
+        "pk": 0.5642,
+        "wd": 0.8436
+      },
+      "cross_model": {
+        "pk": 0.5642,
+        "wd": 0.9162
+      },
+      "selector": {
+        "selected_method": "cross_model",
+        "pk": 0.5642,
+        "wd": 0.9162,
+        "note": "proxy selector (rule-based on domain+variance; full ExtraTrees needs all 30 LecSeg videos)"
+      }
+    }
+  ]
+}
